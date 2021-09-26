@@ -8,9 +8,9 @@ Description: ScottPlot is a free and open-source plotting library for .NET that 
 **ScottPlot is a free and open-source plotting library for .NET** that makes it easy to interactively display large datasets. Line plots, bar charts, pie graphs, scatter plots, and more can be created with just a few lines of code.
 
 <div class="text-center">
-
-![](assets/images/scottplot.gif)
-
+  <a href='cookbook'>
+    <img src='assets/images/scottplot.gif' />
+  </a>
 </div>
 
 ## Quickstart
@@ -39,9 +39,9 @@ The [**ScottPlot Cookbook**](cookbook) demonstrates how to create line plots, ba
 The [**ScottPlot Demo**](demo) is a click-to-run application that demonstrates mouse-interactive versions of every cookbook recipe.
 
 <div class="text-center">
-
-[![](assets/images/cookbook.jpg)](cookbook)
-
+  <a href='cookbook'>
+    <img src='assets/images/cookbook.jpg' />
+  </a>
 </div>
 
 ## Plot in the Cloud
