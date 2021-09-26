@@ -25,6 +25,9 @@ jobs:
           dotnet-version: "5.0.x"
           include-prerelease: true
 
+      - name: 🧪 Run Tests
+        run: dotnet test ./dev/SiteTests
+
       - name: 🌎 Generate Cookbook
         run: |
           dotnet run \
