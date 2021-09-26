@@ -5,7 +5,7 @@ description: Cookbooks or organized by major version
 
 # ScottPlot Cookbooks
 
-Cookbooks or organized by major version:
+Cookbooks are organized by major version:
 
 * [ScottPlot 4.1 Cookbook](4.1)
 
