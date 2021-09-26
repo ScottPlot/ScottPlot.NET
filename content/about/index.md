@@ -1,7 +1,7 @@
 
 # About ScottPlot
 
-See [faq#about-scottplot](faq/#about-scottplot) for additional information
+See [faq#about-scottplot](../faq/#about-scottplot) for additional information
 
 ## Supported Platforms
 
