@@ -31,7 +31,7 @@ jobs:
           local-dir: content/
           server-dir: /
           protocol: ftps
-          server: swharden.com
+          server: scottplot.net
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           log-level: minimal
