@@ -1,4 +1,6 @@
 ﻿using CommandLine;
+using System;
+using System.IO;
 
 namespace SiteBuilder
 {
@@ -11,6 +13,9 @@ namespace SiteBuilder
 
             [Option(longName: "theme", Required = true, HelpText = "path of the theme folder (containing HTML templates)")]
             public string Theme { get; set; }
+
+            [Option(longName: "cookbook", Required = false, HelpText = "path of the cookbook folder (containing csproj file)")]
+            public string Cookbook { get; set; }
 
             [Option(longName: "urlSource", Required = true, HelpText = "URL of the content source code")]
             public string SourceUrl { get; set; }
@@ -26,13 +31,27 @@ namespace SiteBuilder
 
         static void RunOptions(CommandLineOptions opts)
         {
+            if (opts.Cookbook is not null)
+            {
+                string cookbookCsprojPath = Path.Combine(opts.Cookbook, "ScottPlot.Cookbook.csproj");
+                BuildCookbook(cookbookCsprojPath);
+            }
+
             var ssg = new Statix.Generator(
                 contentFolder: opts.Content,
                 themeFolder: opts.Theme,
                 sourceUrl: opts.SourceUrl,
                 rootUrl: opts.SiteUrl);
-
+                
             ssg.Generate();
+        }
+
+        static void BuildCookbook(string cookbookCsprojPath)
+        {
+            Console.WriteLine("GENERATING COOKBOOK");
+            Console.WriteLine(cookbookCsprojPath);
+            string csproj = File.ReadAllText(cookbookCsprojPath);
+            Console.WriteLine(csproj);
         }
     }
 }

@@ -1,0 +1,36 @@
+name: CI/CD
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🛒 Checkout ScottPlot.NET
+        uses: actions/checkout@v2
+
+      - name: 🛒 Checkout ScottPlot Source
+        uses: actions/checkout@v2
+        with:
+          repository: ScottPlot/ScottPlot
+          path: ScottPlot
+
+      - name: ✨ Setup .NET 5
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: "5.0.x"
+          include-prerelease: true
+
+      - name: 🌎 Generate Cookbook
+        run: |
+          dotnet run \
+            --project './dev/SiteBuilder' \
+            --content './content' \
+            --theme './dev/theme' \
+            --urlSource 'https://github.com/ScottPlot/ScottPlot.NET/blob/main/content' \
+            --urlSite 'https://scottplot.net' \ 
+            --cookbook './ScottPlot/src/cookbook/ScottPlot.Cookbook'
