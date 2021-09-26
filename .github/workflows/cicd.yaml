@@ -1,0 +1,39 @@
+name: CI/CD
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🛒 Checkout
+        uses: actions/checkout@v2
+      - name: ✨ Setup .NET 5
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: "5.0.x"
+          include-prerelease: true
+      - name: 🌎 Generate Website
+        run: |
+          dotnet run \
+            --project './dev/SiteBuilder' \
+            --content './content' \
+            --theme './dev/theme' \
+            --urlSource 'https://github.com/ScottPlot/ScottPlot.NET/blob/main/content' \
+            --urlSite 'https://scottplot.net'
+      - name: 🚀 Deploy using FTP
+        uses: SamKirkland/FTP-Deploy-Action@65c6a8f943bbf04faf9b59520a103318b418952e # 4.1.0
+        with:
+          local-dir: sample/content/
+          server-dir: /software/statix/
+          protocol: ftps
+          server: swharden.com
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          log-level: minimal
+      - name: 🧹 Purge Website Cache
+        run: curl --user deploy:${{ secrets.CACHE_PASSWORD }} https://scottplot.net/admin/clear-cache.php
