@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <base href="{{URL_PAGE_BASE}}">
+
+    <title>{{TITLE}}</title>
+    <meta name="description" content="{{DESCRIPTION}}">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <link href="{{URL_SITE_ROOT}}/assets/css/style.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.0.1/build/styles/xcode.min.css">
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.0.1/build/highlight.min.js"></script>
+    <script defer>hljs.highlightAll();</script>
+
+    <!-- TODO: ANALYTICS -->
+
+</head>
+
+<body class="bg-light">
+
+    <div class="" style="background-color: #67217A;">
+        <nav class="navbar navbar-expand-lg navbar-dark mx-auto">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="{{URL_SITE_ROOT}}">ScottPlot.NET</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{URL_SITE_ROOT}}/">
+                                Home
+                            </a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="{{URL_SITE_ROOT}}/cookbook" id="navbarDropdown"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Cookbook
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="{{URL_SITE_ROOT}}/cookbook/4.1">
+                                        ScottPlot 4.1 Cookbook
+                                    </a>
+                                </li>
+                                <li><a class="dropdown-item" href="{{URL_SITE_ROOT}}/cookbook/4.0">
+                                        ScottPlot 4.0 Cookbook</a>
+                                </li>
+                                <li><a class="dropdown-item" href="{{URL_SITE_ROOT}}/cookbook/3.1">
+                                        ScottPlot 3.1 Cookbook</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{URL_SITE_ROOT}}/demo">
+                                Demo
+                            </a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="{{URL_SITE_ROOT}}/quickstart" id="navbarDropdown"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Quickstart
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="{{URL_SITE_ROOT}}/quickstart/console">
+                                        Console Application
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="{{URL_SITE_ROOT}}/quickstart/winforms">
+                                        Windows Forms
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="{{URL_SITE_ROOT}}/quickstart/wpf">
+                                        WPF
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="{{URL_SITE_ROOT}}/quickstart/avalonia">
+                                        Avalonia
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{URL_SITE_ROOT}}/faq">
+                                FAQ
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{URL_SITE_ROOT}}/about">
+                                About
+                            </a>
+                        </li>
+                    </ul>
+
+                    <a class="github-button" href="https://github.com/scottplot/scottplot" data-size="large"
+                        data-show-count="true" aria-label="Stars" data-text="Stars"></a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container mx-auto" style="max-width: 1000px;">
+
+        <div class="border shadow-sm rounded-3 mt-5 bg-white">
+
+            <div class="py-2 px-3">
+                <article>
+                    {{CONTENT}}
+                </article>
+            </div>
+        </div>
+
+        <footer>
+
+            <div class="text-center row mb-5 mt-4" style="opacity: .2;">
+                <div class="col">
+                    <a href='https://github.com/swharden/statix' class="text-dark">Built with Statix</a>
+                </div>
+                <div class="col">
+                    Copyright &copy;
+                    <script>document.write(new Date().getFullYear())</script>
+                    <a href='https://swharden.com' class="text-dark">Scott W Harden</a>
+                </div>
+                <div class="col">
+                    <a href='{{URL_PAGE_SOURCE}}' class="text-dark">View Source</a>
+                </div>
+            </div>
+
+        </footer>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+</body>
+
+</html>
