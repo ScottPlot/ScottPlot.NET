@@ -9,19 +9,19 @@ namespace SiteBuilder
         private class CommandLineOptions
         {
             [Option(longName: "content", Required = true, HelpText = "path of the root website (containing markdown files)")]
-            public string Content { get; set; }
+            public string? Content { get; set; }
 
             [Option(longName: "theme", Required = true, HelpText = "path of the theme folder (containing HTML templates)")]
-            public string Theme { get; set; }
+            public string? Theme { get; set; }
 
             [Option(longName: "cookbook", Required = false, HelpText = "path of the cookbook folder (containing csproj file)")]
-            public string Cookbook { get; set; }
+            public string? Cookbook { get; set; }
 
             [Option(longName: "urlSource", Required = true, HelpText = "URL of the content source code")]
-            public string SourceUrl { get; set; }
+            public string? SourceUrl { get; set; }
 
             [Option(longName: "urlSite", Required = true, HelpText = "URL of the content on the web")]
-            public string SiteUrl { get; set; }
+            public string? SiteUrl { get; set; }
         }
 
         static void Main(string[] args)
@@ -33,8 +33,8 @@ namespace SiteBuilder
         {
             if (opts.Cookbook is not null)
             {
-                string cookbookCsprojPath = Path.Combine(opts.Cookbook, "ScottPlot.Cookbook.csproj");
-                BuildCookbook(cookbookCsprojPath);
+                var cbg = new CookbookGenerator(Path.Combine(opts.Cookbook, "ScottPlot.Cookbook.csproj"));
+                cbg.Generate();
             }
 
             var ssg = new Statix.Generator(
@@ -44,14 +44,6 @@ namespace SiteBuilder
                 rootUrl: opts.SiteUrl);
                 
             ssg.Generate();
-        }
-
-        static void BuildCookbook(string cookbookCsprojPath)
-        {
-            Console.WriteLine("GENERATING COOKBOOK");
-            Console.WriteLine(cookbookCsprojPath);
-            string csproj = File.ReadAllText(cookbookCsprojPath);
-            Console.WriteLine(csproj);
         }
     }
 }
