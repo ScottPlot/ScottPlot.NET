@@ -1,3 +1,4 @@
+content/**/index.html
 .vscode/
 
 ## Ignore Visual Studio temporary files, build results, and
