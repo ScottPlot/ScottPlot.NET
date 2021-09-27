@@ -69,17 +69,42 @@ namespace SiteBuilder
             sb.AppendLine($"Description: Images created with ScottPlot {Version} shown next to the code used to create them.");
             sb.AppendLine($"---");
             sb.AppendLine();
+            sb.AppendLine($"<div class='display-3 mb-3'><a href='/cookbook/{Version}' class='text-dark'>ScottPlot {Version} Cookbook</a></div>");
+            sb.AppendLine();
 
-            sb.AppendLine("## Categories");
-            foreach (string category in categories)
+            foreach (string category in categories.Where(x => x.StartsWith("Quickstart")))
             {
-                string categoryUrl = Url.Sanitize(category);
-                sb.AppendLine($"* [{category}]({categoryUrl})");
+                IncludeCategoryThumbnails(category, recipes, sb);
+            }
+
+            foreach (string category in categories.Where(x => !x.StartsWith("Plottable") && !x.StartsWith("Quickstart")))
+            {
+                IncludeCategoryThumbnails(category, recipes, sb);
+            }
+
+            foreach (string category in categories.Where(x => x.StartsWith("Plottable")))
+            {
+                IncludeCategoryThumbnails(category, recipes, sb);
             }
 
             string mdFilePath = Path.Combine(CookbookPath, "index.md");
             File.WriteAllText(mdFilePath, sb.ToString());
             Console.WriteLine($"Wrote: {mdFilePath}");
+        }
+
+        private void IncludeCategoryThumbnails(string category, Recipe[] recipes, StringBuilder sb)
+        {
+            string categoryUrl = $"category/{Url.Sanitize(category)}";
+            sb.AppendLine($"<div class='h3 mt-5'><a href='{categoryUrl}'>{category}</a></div>");
+
+            Recipe[] categoryRecipes = recipes.Where(x => x.Category == category).ToArray();
+            foreach (Recipe recipe in categoryRecipes)
+            {
+                string anchorUrl = $"category/{Url.Sanitize(recipe.Category)}/#{Url.Sanitize(recipe.Title)}";
+                string thumbUrl = $"images/{Url.Sanitize(recipe.ID)}_thumb.jpg";
+                sb.AppendLine($"<a href='{anchorUrl}'><img src='{thumbUrl}' /></a>");
+            }
+            sb.AppendLine();
         }
 
         private void GenerateCategoryPage(string category, Recipe[] recipes)
@@ -91,10 +116,14 @@ namespace SiteBuilder
             sb.AppendLine($"Title: {title} - ScottPlot {Version} Cookbook");
             sb.AppendLine($"---");
             sb.AppendLine();
+            sb.AppendLine($"<div class='display-3'><a href='/cookbook/{Version}' class='text-dark'>ScottPlot {Version} Cookbook</a></div>");
+            sb.AppendLine($"<div class='display-6'>{category}</div>");
+            sb.AppendLine();
 
-            sb.AppendLine($"# {category}");
             foreach (Recipe recipe in recipes.Where(x => x.Category == category))
             {
+                sb.AppendLine();
+                sb.AppendLine("<div class='m-2'>&nbsp;</div>"); // extra spacing
                 sb.AppendLine();
                 sb.AppendLine($"## {recipe.Title}");
                 sb.AppendLine();
@@ -103,6 +132,11 @@ namespace SiteBuilder
                 sb.AppendLine($"```cs");
                 sb.AppendLine(recipe.Code);
                 sb.AppendLine($"```");
+                sb.AppendLine();
+                string imageUrl = $"../../images/{recipe.ID}.png";
+                sb.AppendLine($"<div class='text-center'>");
+                sb.AppendLine($"<a href='{imageUrl}'><img src='{imageUrl}' /></a>");
+                sb.AppendLine($"</div>");
                 sb.AppendLine();
             }
 
