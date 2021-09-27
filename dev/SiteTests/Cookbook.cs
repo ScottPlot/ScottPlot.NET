@@ -6,22 +6,15 @@ namespace SiteTests
 {
     public class Cookbook
     {
-        SiteBuilder.CookbookGenerator CBG;
-
-        [SetUp]
-        public void Setup()
-        {
-            string cookbookCsprojFile = Path.Combine(
-                path1: TestContext.CurrentContext.TestDirectory, 
-                path2: "../../../../../ScottPlot/src/cookbook/ScottPlot.Cookbook/ScottPlot.Cookbook.csproj");
-            Console.WriteLine(Path.GetFullPath(cookbookCsprojFile));
-            CBG = new SiteBuilder.CookbookGenerator(cookbookCsprojFile);
-        }
-
         [Test]
         public void Test1()
         {
-            Assert.Pass();
+            string cookbookFolder = Path.Combine(
+                path1: TestContext.CurrentContext.TestDirectory,
+                path2: "../../../../../content/cookbook/4.1/");
+
+            var cbg = new SiteBuilder.CookbookGenerator(cookbookFolder);
+            cbg.Generate();
         }
     }
 }

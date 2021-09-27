@@ -31,12 +31,7 @@ namespace SiteBuilder
 
         static void RunOptions(CommandLineOptions opts)
         {
-            if (opts.Cookbook is not null)
-            {
-                var cbg = new CookbookGenerator(Path.Combine(opts.Cookbook, "ScottPlot.Cookbook.csproj"));
-                cbg.Generate();
-            }
-
+            /*
             var ssg = new Statix.Generator(
                 contentFolder: opts.Content,
                 themeFolder: opts.Theme,
@@ -44,6 +39,13 @@ namespace SiteBuilder
                 rootUrl: opts.SiteUrl);
                 
             ssg.Generate();
+            */
+            
+            if (opts.Cookbook is not null)
+            {
+                var cbg = new CookbookGenerator(opts.Cookbook);
+                cbg.Generate();
+            }
         }
     }
 }

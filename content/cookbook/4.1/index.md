@@ -1,6 +1,42 @@
-# ScottPlot 4.1 Cookbook
+---
+Title: ScottPlot 4.1 Cookbook
+Description: Images created with ScottPlot 4.1 shown next to the code used to create them.
+---
 
-> ⚠️ This page is in development
-
-The cookbook can be accessed using the old URL:\
-https://swharden.com/scottplot/cookbooks/4.1.18
+## Categories
+* [Advanced Axis Features](advanced-axis-features)
+* [Axis and Ticks](axis-and-ticks)
+* [Misc](misc)
+* [Multi-Axis](multi-axis)
+* [Palette](palette)
+* [Plottable: Annotation](plottable-annotation)
+* [Plottable: Arrow](plottable-arrow)
+* [Plottable: Axis Line and Span](plottable-axis-line-and-span)
+* [Plottable: Bar Graph](plottable-bar-graph)
+* [Plottable: Bubble](plottable-bubble)
+* [Plottable: Colorbar](plottable-colorbar)
+* [Plottable: Coxcomb](plottable-coxcomb)
+* [Plottable: Crosshair](plottable-crosshair)
+* [Plottable: Fill](plottable-fill)
+* [Plottable: Finance](plottable-finance)
+* [Plottable: Function](plottable-function)
+* [Plottable: Heatmap](plottable-heatmap)
+* [Plottable: Image](plottable-image)
+* [Plottable: Pie](plottable-pie)
+* [Plottable: Point](plottable-point)
+* [Plottable: Polygon](plottable-polygon)
+* [Plottable: Population](plottable-population)
+* [Plottable: Radar](plottable-radar)
+* [Plottable: RadialGauge](plottable-radialgauge)
+* [Plottable: Scale Bar](plottable-scale-bar)
+* [Plottable: Scatter Plot](plottable-scatter-plot)
+* [Plottable: Signal Plot](plottable-signal-plot)
+* [Plottable: SignalConst](plottable-signalconst)
+* [Plottable: SignalXY](plottable-signalxy)
+* [Plottable: SignalXYConst](plottable-signalxyconst)
+* [Plottable: Text](plottable-text)
+* [Plottable: Tooltip](plottable-tooltip)
+* [Plottable: Vector Field](plottable-vector-field)
+* [Quickstart](quickstart)
+* [Statistics](statistics)
+* [Style](style)
