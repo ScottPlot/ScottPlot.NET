@@ -31,7 +31,6 @@ namespace SiteBuilder
 
         static void RunOptions(CommandLineOptions opts)
         {
-            /*
             var ssg = new Statix.Generator(
                 contentFolder: opts.Content,
                 themeFolder: opts.Theme,
@@ -39,7 +38,6 @@ namespace SiteBuilder
                 rootUrl: opts.SiteUrl);
                 
             ssg.Generate();
-            */
             
             if (opts.Cookbook is not null)
             {
