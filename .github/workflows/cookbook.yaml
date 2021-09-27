@@ -31,6 +31,7 @@ jobs:
 
       - name: 🛠️ Generate Cookbook Images
         working-directory: ./ScottPlot/src/cookbook/ScottPlot.Cookbook
+        shell: bash
         run: >
           dotnet run 
             --project "../CookbookGenerator" 
@@ -39,6 +40,7 @@ jobs:
             --saveSource "../../../../content/cookbook/4.1/source"
 
       - name: 🌎 Build Cookbook Pages
+        shell: bash
         run: >
           dotnet run 
             --project './dev/SiteBuilder' 
