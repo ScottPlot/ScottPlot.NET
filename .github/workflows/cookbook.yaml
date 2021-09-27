@@ -25,13 +25,15 @@ jobs:
           dotnet-version: "5.0.x"
           include-prerelease: true
 
-      - name: 🚚 Restore
-        run: dotnet restore ./dev/SiteTests
+      - name: 🛠️ Generate Cookbook Images
+        run: |
+          dotnet run \
+            --project ./ScottPlot/cookbook/CookbookGenerator \
+            --cookbookFolder ./ScottPlot/cookbook/ScottPlot.Cookbook \
+            --saveImages ./content/cookbook/4.1/images \
+            --saveSource ./content/cookbook/4.1/source
 
-      - name: 🧪 Run Tests
-        run: dotnet test ./dev/SiteTests
-
-      - name: 🌎 Generate Cookbook
+      - name: 🌎 Build Cookbook Pages
         run: |
           dotnet run \
             --project './dev/SiteBuilder' \
