@@ -42,6 +42,7 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           log-level: minimal
           exclude: "**/index.md"
+          state-name: .ftpState1.json
 
       - name: 🧹 Purge Website Cache
         run: curl --user deploy:${{ secrets.CACHE_PASSWORD }} https://scottplot.net/admin/clear-cache.php
