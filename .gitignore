@@ -1,4 +1,8 @@
-/ScottPlot/
+content/cookbook/4.1/images/
+content/cookbook/4.1/source/
+content/cookbook/4.1/category/
+content/cookbook/4.1/index.md
+ScottPlot/
 content/**/index.html
 .vscode/
 
