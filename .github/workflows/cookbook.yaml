@@ -33,10 +33,10 @@ jobs:
         working-directory: ./ScottPlot/src/cookbook/ScottPlot.Cookbook
         run: |
           dotnet run \
-            --project ../CookbookGenerator \
-            --cookbookFolder ./ \
-            --saveImages ../../../../content/cookbook/4.1/images \
-            --saveSource ../../../../content/cookbook/4.1/source
+            --project "../CookbookGenerator" \
+            --cookbookFolder "./" \
+            --saveImages "../../../../content/cookbook/4.1/images" \
+            --saveSource "../../../../content/cookbook/4.1/source"
 
       - name: 🌎 Build Cookbook Pages
         run: |
