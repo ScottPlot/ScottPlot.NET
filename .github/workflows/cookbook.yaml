@@ -28,8 +28,8 @@ jobs:
       - name: 🛠️ Generate Cookbook Images
         run: |
           dotnet run \
-            --project ./ScottPlot/cookbook/CookbookGenerator \
-            --cookbookFolder ./ScottPlot/cookbook/ScottPlot.Cookbook \
+            --project ./ScottPlot/src/cookbook/CookbookGenerator \
+            --cookbookFolder ./ScottPlot/src/cookbook/ScottPlot.Cookbook \
             --saveImages ./content/cookbook/4.1/images \
             --saveSource ./content/cookbook/4.1/source
 
