@@ -133,7 +133,7 @@ namespace SiteBuilder
                 sb.AppendLine(recipe.Code);
                 sb.AppendLine($"```");
                 sb.AppendLine();
-                string imageUrl = $"../../images/{recipe.ID}.png";
+                string imageUrl = $"../../images/{recipe.ID.ToLower()}.png";
                 sb.AppendLine($"<div class='text-center'>");
                 sb.AppendLine($"<a href='{imageUrl}'><img src='{imageUrl}' /></a>");
                 sb.AppendLine($"</div>");
