@@ -75,7 +75,7 @@ jobs:
         run: dotnet run --project "../CookbookGenerator" --cookbookFolder "./" --saveImages "../../../../content/cookbook/4.1/images" --saveSource "../../../../content/cookbook/4.1/source"
 
       - name: 🌎 Build Cookbook Pages
-        run: dotnet run --project './dev/SiteBuilder' --content './content' --theme './dev/theme' --cookbook './ScottPlot/src/cookbook/ScottPlot.Cookbook' --urlSource 'https://github.com/ScottPlot/ScottPlot.NET/blob/main/content' --urlSite 'https://scottplot.net'
+        run: dotnet run --project "./dev/SiteBuilder" --content "./content" --theme "./dev/theme" --cookbook "./content/cookbook/4.1" --urlSource "https://github.com/ScottPlot/ScottPlot.NET/blob/main/content" --urlSite "https://scottplot.net"
 
       - name: 🚀 Deploy using FTP
         uses: SamKirkland/FTP-Deploy-Action@65c6a8f943bbf04faf9b59520a103318b418952e # 4.1.0
