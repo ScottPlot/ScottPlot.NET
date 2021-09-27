@@ -25,6 +25,10 @@ jobs:
           dotnet-version: "5.0.x"
           include-prerelease: true
 
+      - name: 🚚 Restore
+        working-directory: src
+        run: dotnet restore ./dev/SiteTests
+
       - name: 🧪 Run Tests
         run: dotnet test ./dev/SiteTests
 
