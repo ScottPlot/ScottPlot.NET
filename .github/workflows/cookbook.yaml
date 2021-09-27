@@ -58,9 +58,7 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           log-level: minimal
           state-name: .ftpStateCookbook1.json
-          exclude:
-            - *.md
-            - *.cs
+          exclude: '[*.md, *.cs]'
 
       - name: 🧹 Purge Website Cache
         run: curl --user deploy:${{ secrets.CACHE_PASSWORD }} https://scottplot.net/admin/clear-cache.php
