@@ -97,13 +97,31 @@ namespace SiteBuilder
             string categoryUrl = $"category/{Url.Sanitize(category)}";
             sb.AppendLine($"<div class='h3 mt-5'><a href='{categoryUrl}'>{category}</a></div>");
 
+            sb.AppendLine("<div class='row'>");
             Recipe[] categoryRecipes = recipes.Where(x => x.Category == category).ToArray();
             foreach (Recipe recipe in categoryRecipes)
             {
                 string anchorUrl = $"category/{Url.Sanitize(recipe.Category)}/#{Url.Sanitize(recipe.Title)}";
                 string thumbUrl = $"images/{Url.Sanitize(recipe.ID)}_thumb.jpg";
-                sb.AppendLine($"<a href='{anchorUrl}'><img src='{thumbUrl}' /></a>");
+                string card = @$"
+<div class='col-md-4 mb-3'>
+    <div class='card'>
+        <div class='card-header'>
+        <strong><a href='{anchorUrl}'>{recipe.Title}</a></strong>
+        </div>
+        <div class='card-body'>
+            <p class='card-text'>{recipe.Description}</p>
+        <div class='text-center'>
+            <a href='{anchorUrl}'>
+                <img src='{thumbUrl}' class='mw-100' />
+            </a>
+        </div>
+        </div>
+    </div>
+</div>";
+                sb.AppendLine(card);
             }
+            sb.AppendLine("</div>");
             sb.AppendLine();
         }
 
