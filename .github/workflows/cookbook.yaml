@@ -31,16 +31,21 @@ jobs:
 
       - name: 🛠️ Generate Cookbook Images
         working-directory: ./ScottPlot/src/cookbook/ScottPlot.Cookbook
-        run: dotnet run --project "../CookbookGenerator" --cookbookFolder "./" --saveImages "../../../../content/cookbook/4.1/images" --saveSource "../../../../content/cookbook/4.1/source"
+        run: >
+          dotnet run 
+            --project "../CookbookGenerator" 
+            --cookbookFolder "./" 
+            --saveImages "../../../../content/cookbook/4.1/images" 
+            --saveSource "../../../../content/cookbook/4.1/source"
 
       - name: 🌎 Build Cookbook Pages
-        run: |
-          dotnet run \
-            --project './dev/SiteBuilder' \
-            --content './content' \
-            --theme './dev/theme' \
-            --cookbook './ScottPlot/src/cookbook/ScottPlot.Cookbook' \
-            --urlSource 'https://github.com/ScottPlot/ScottPlot.NET/blob/main/content' \
+        run: >
+          dotnet run 
+            --project './dev/SiteBuilder' 
+            --content './content' 
+            --theme './dev/theme' 
+            --cookbook './ScottPlot/src/cookbook/ScottPlot.Cookbook' 
+            --urlSource 'https://github.com/ScottPlot/ScottPlot.NET/blob/main/content' 
             --urlSite 'https://scottplot.net'
 
       - name: 🚀 Deploy using FTP
