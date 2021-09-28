@@ -1,6 +1,1254 @@
+---
+Title: ScottPlot 3.1 Cookbook
+---
+
 # ScottPlot 3.1 Cookbook
 
-> ⚠️ This page is in development
+> **⚠️ WARNING: This cookbook is obsolete.** 
+> This documentation page was generated specifically for ScottPlot 3.1.6 on Oct 10, 2019.
+> Visit the [ScottPlot Cookbook Page](../)
+> for links to the latest versions of the cookbook.
 
-The cookbook can be accessed using the old URL:\
-https://swharden.com/scottplot/cookbooks/3.1.6
+## Table of Contents
+
+<a href='#scatter-sin'>Scatter Sin</a>, 
+<a href='#automatic-margins'>Automatic Margins</a>, 
+<a href='#defined-axis-limits'>Defined Axis Limits</a>, 
+<a href='#zoom-and-pan'>Zoom and Pan</a>, 
+<a href='#legend'>Legend</a>, 
+<a href='#custom-marker-shapes'>Custom Marker Shapes</a>, 
+<a href='#all-marker-shapes'>All Marker Shapes</a>, 
+<a href='#styling-scatter-plots'>Styling Scatter Plots</a>, 
+<a href='#plot-xy-data'>Plot XY Data</a>, 
+<a href='#plot-lines-only'>Plot Lines Only</a>, 
+<a href='#plot-points-only'>Plot Points Only</a>, 
+<a href='#styling-xy-plots'>Styling XY Plots</a>, 
+<a href='#custom-linestyles'>Custom LineStyles</a>, 
+<a href='#plotting-points'>Plotting Points</a>, 
+<a href='#plotting-text'>Plotting Text</a>, 
+<a href='#clearing-plots'>Clearing Plots</a>, 
+<a href='#modifying-plotted-data'>Modifying Plotted Data</a>, 
+<a href='#modify-styles-after-plotting'>Modify Styles After Plotting</a>, 
+<a href='#date-axis'>Date Axis</a>, 
+<a href='#small-plot'>Small Plot</a>, 
+<a href='#title-and-axis-labels'>Title and Axis Labels</a>, 
+<a href='#extra-padding'>Extra Padding</a>, 
+<a href='#automatic-left-padding'>Automatic Left Padding</a>, 
+<a href='#custom-colors'>Custom Colors</a>, 
+<a href='#frameless-plot'>Frameless Plot</a>, 
+<a href='#disable-the-grid'>Disable the Grid</a>, 
+<a href='#corner-axis-frame'>Corner Axis Frame</a>, 
+<a href='#horizontal-ticks-only'>Horizontal Ticks Only</a>, 
+<a href='#very-large-numbers'>Very Large Numbers</a>, 
+<a href='#axis-exponent-and-offset'>Axis Exponent And Offset</a>, 
+<a href='#multiplier-notation-default'>Multiplier Notation Default</a>, 
+<a href='#multiplier-notation-disabled'>Multiplier Notation Disabled</a>, 
+<a href='#very-large-images'>Very Large Images</a>, 
+<a href='#signal'>Signal</a>, 
+<a href='#signalconst'>SignalConst</a>, 
+<a href='#signal-styling'>Signal Styling</a>, 
+<a href='#vertical-and-horizontal-lines'>Vertical and Horizontal Lines</a>, 
+<a href='#axis-spans'>Axis Spans</a>, 
+<a href='#styleblue1'>StyleBlue1</a>, 
+<a href='#styleblue2'>StyleBlue2</a>, 
+<a href='#styleblue3'>StyleBlue3</a>, 
+<a href='#stylelight1'>StyleLight1</a>, 
+<a href='#stylelight2'>StyleLight2</a>, 
+<a href='#stylegray1'>StyleGray1</a>, 
+<a href='#stylegray2'>StyleGray2</a>, 
+<a href='#styleblack'>StyleBlack</a>, 
+<a href='#styledefault'>StyleDefault</a>, 
+<a href='#stylecontrol'>StyleControl</a>, 
+<a href='#plotting-with-errorbars'>Plotting With Errorbars</a>, 
+<a href='#plot-bar-data'>Plot Bar Data</a>, 
+<a href='#plot-bar-data-fancy'>Plot Bar Data Fancy</a>, 
+<a href='#step-plot'>Step Plot</a>, 
+<a href='#manual-grid-spacing'>Manual Grid Spacing</a>, 
+<a href='#histogram'>Histogram</a>, 
+<a href='#cph'>CPH</a>, 
+<a href='#candlestick'>Candlestick</a>, 
+<a href='#ohlc'>OHLC</a>, 
+<a href='#save-scatter-data'>Save Scatter Data</a>, 
+<a href='#save-signal-data'>Save Signal Data</a>, 
+<a href='#custom-fonts'>Custom Fonts</a>
+
+## Scatter Sin
+
+```cs
+int pointCount = 50;
+double[] dataXs = ScottPlot.DataGen.Consecutive(pointCount);
+double[] dataSin = ScottPlot.DataGen.Sin(pointCount);
+double[] dataCos = ScottPlot.DataGen.Cos(pointCount);
+
+var plt = new ScottPlot.Plot(600, 400);
+plt.PlotScatter(dataXs, dataSin);
+plt.PlotScatter(dataXs, dataCos);
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/01a_Scatter_Sin.png' />
+
+##  Automatic Margins
+
+```cs
+int pointCount = 50;
+double[] dataXs = ScottPlot.DataGen.Consecutive(pointCount);
+double[] dataSin = ScottPlot.DataGen.Sin(pointCount);
+double[] dataCos = ScottPlot.DataGen.Cos(pointCount);
+
+var plt = new ScottPlot.Plot(600, 400);
+plt.PlotScatter(dataXs, dataSin);
+plt.PlotScatter(dataXs, dataCos);
+plt.AxisAuto(0, .5); // no horizontal padding, 50% vertical padding
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/01b_Automatic_Margins.png' />
+
+##  Defined Axis Limits
+
+```cs
+int pointCount = 50;
+double[] dataXs = ScottPlot.DataGen.Consecutive(pointCount);
+double[] dataSin = ScottPlot.DataGen.Sin(pointCount);
+double[] dataCos = ScottPlot.DataGen.Cos(pointCount);
+
+var plt = new ScottPlot.Plot(600, 400);
+plt.PlotScatter(dataXs, dataSin);
+plt.PlotScatter(dataXs, dataCos);
+plt.Axis(2, 8, .2, 1.1); // x1, x2, y1, y2
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/01c_Defined_Axis_Limits.png' />
+
+##  Zoom and Pan
+
+```cs
+int pointCount = 50;
+double[] dataXs = ScottPlot.DataGen.Consecutive(pointCount);
+double[] dataSin = ScottPlot.DataGen.Sin(pointCount);
+double[] dataCos = ScottPlot.DataGen.Cos(pointCount);
+
+var plt = new ScottPlot.Plot(600, 400);
+plt.PlotScatter(dataXs, dataSin);
+plt.PlotScatter(dataXs, dataCos);
+plt.AxisZoom(2, 2);
+plt.AxisPan(-10, .5);
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/01d_Zoom_and_Pan.png' />
+
+##  Legend
+
+```cs
+int pointCount = 50;
+double[] dataXs = ScottPlot.DataGen.Consecutive(pointCount);
+double[] dataSin = ScottPlot.DataGen.Sin(pointCount);
+double[] dataCos = ScottPlot.DataGen.Cos(pointCount);
+
+var plt = new ScottPlot.Plot(600, 400);
+plt.PlotScatter(dataXs, dataSin, label: "first");
+plt.PlotScatter(dataXs, dataCos, label: "second");
+plt.Legend(location: ScottPlot.legendLocation.lowerLeft);
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/01e_Legend.png' />
+
+##  Custom Marker Shapes
+
+```cs
+int pointCount = 50;
+double[] dataXs = ScottPlot.DataGen.Consecutive(pointCount);
+double[] dataSin = ScottPlot.DataGen.Sin(pointCount);
+double[] dataCos = ScottPlot.DataGen.Cos(pointCount);
+
+var plt = new ScottPlot.Plot(600, 400);
+plt.PlotScatter(dataXs, dataSin, label: "sin", markerShape: ScottPlot.MarkerShape.openCircle);
+plt.PlotScatter(dataXs, dataCos, label: "cos", markerShape: ScottPlot.MarkerShape.filledSquare);
+plt.Legend();
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/01f_Custom_Marker_Shapes.png' />
+
+##  All Marker Shapes
+
+```cs
+int pointCount = 50;
+double[] dataXs = ScottPlot.DataGen.Consecutive(pointCount);
+double[] dataSin = ScottPlot.DataGen.Sin(pointCount);
+double[] dataCos = ScottPlot.DataGen.Cos(pointCount);
+
+var plt = new ScottPlot.Plot(600, 400);
+plt.Title("ScottPlot Marker Shapes");
+plt.Grid(false);
+
+// plot a sine wave for every marker available
+string[] markerShapeNames = Enum.GetNames(typeof(ScottPlot.MarkerShape));
+for (int i = 0; i < markerShapeNames.Length; i++)
+{
+    string markerShapeName = markerShapeNames[i];
+    var markerShape = (ScottPlot.MarkerShape)Enum.Parse(typeof(ScottPlot.MarkerShape), markerShapeName);
+    double[] stackedSin = ScottPlot.DataGen.Sin(dataXs.Length, 2, -i);
+    plt.PlotScatter(dataXs, stackedSin, label: markerShapeName, markerShape: markerShape);
+}
+
+plt.Legend(fontSize: 10);
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/01g_All_Marker_Shapes.png' />
+
+## Styling Scatter Plots
+
+```cs
+int pointCount = 50;
+double[] dataXs = ScottPlot.DataGen.Consecutive(pointCount);
+double[] dataSin = ScottPlot.DataGen.Sin(pointCount);
+double[] dataCos = ScottPlot.DataGen.Cos(pointCount);
+
+var plt = new ScottPlot.Plot(600, 400);
+plt.PlotScatter(dataXs, dataSin, color: Color.Magenta, lineWidth: 0, markerSize: 10);
+plt.PlotScatter(dataXs, dataCos, color: Color.Green, lineWidth: 5, markerSize: 0);
+plt.AxisAuto(0); // no horizontal margin (default 10% vertical margin)
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/02_Styling_Scatter_Plots.png' />
+
+## Plot XY Data
+
+```cs
+Random rand = new Random(0);
+int pointCount = 50;
+double[] dataRandom1 = ScottPlot.DataGen.RandomNormal(rand, pointCount);
+double[] dataRandom2 = ScottPlot.DataGen.RandomNormal(rand, pointCount);
+
+var plt = new ScottPlot.Plot(600, 400);
+plt.PlotScatter(dataRandom1, dataRandom2);
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/03_Plot_XY_Data.png' />
+
+## Plot Lines Only
+
+```cs
+Random rand = new Random(0);
+int pointCount = 50;
+double[] dataRandom1 = ScottPlot.DataGen.RandomNormal(rand, pointCount, 1);
+double[] dataRandom2 = ScottPlot.DataGen.RandomNormal(rand, pointCount, 2);
+double[] dataRandom3 = ScottPlot.DataGen.RandomNormal(rand, pointCount, 3);
+double[] dataRandom4 = ScottPlot.DataGen.RandomNormal(rand, pointCount, 4);
+
+var plt = new ScottPlot.Plot(600, 400);
+plt.PlotScatter(dataRandom1, dataRandom2, markerSize: 0);
+plt.PlotScatter(dataRandom3, dataRandom4, markerSize: 0);
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/04_Plot_Lines_Only.png' />
+
+## Plot Points Only
+
+```cs
+Random rand = new Random(0);
+int pointCount = 50;
+double[] dataRandom1 = ScottPlot.DataGen.RandomNormal(rand, pointCount, 1);
+double[] dataRandom2 = ScottPlot.DataGen.RandomNormal(rand, pointCount, 2);
+double[] dataRandom3 = ScottPlot.DataGen.RandomNormal(rand, pointCount, 3);
+double[] dataRandom4 = ScottPlot.DataGen.RandomNormal(rand, pointCount, 4);
+
+var plt = new ScottPlot.Plot(600, 400);
+plt.PlotScatter(dataRandom1, dataRandom2, lineWidth: 0);
+plt.PlotScatter(dataRandom3, dataRandom4, lineWidth: 0);
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/05_Plot_Points_Only.png' />
+
+## Styling XY Plots
+
+```cs
+Random rand = new Random(0);
+int pointCount = 50;
+double[] dataRandom1 = ScottPlot.DataGen.RandomNormal(rand, pointCount, 1);
+double[] dataRandom2 = ScottPlot.DataGen.RandomNormal(rand, pointCount, 2);
+double[] dataRandom3 = ScottPlot.DataGen.RandomNormal(rand, pointCount, 3);
+double[] dataRandom4 = ScottPlot.DataGen.RandomNormal(rand, pointCount, 4);
+
+var plt = new ScottPlot.Plot(600, 400);
+plt.PlotScatter(dataRandom1, dataRandom2, color: Color.Magenta, lineWidth: 3, markerSize: 15);
+plt.PlotScatter(dataRandom3, dataRandom4, color: Color.Green, lineWidth: 3, markerSize: 15);
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/06_Styling_XY_Plots.png' />
+
+##  Custom LineStyles
+
+```cs
+Random rand = new Random(0);
+int pointCount = 50;
+double[] dataRandom1 = ScottPlot.DataGen.RandomNormal(rand, pointCount, 1);
+double[] dataRandom2 = ScottPlot.DataGen.RandomNormal(rand, pointCount, 2);
+double[] dataRandom3 = ScottPlot.DataGen.RandomNormal(rand, pointCount, 3);
+double[] dataRandom4 = ScottPlot.DataGen.RandomNormal(rand, pointCount, 4);
+
+var plt = new ScottPlot.Plot(600, 400);
+plt.PlotScatter(dataRandom1, dataRandom2, label: "dash", lineStyle: ScottPlot.LineStyle.Dash);
+plt.PlotScatter(dataRandom3, dataRandom4, label: "dash dot dot", lineStyle: ScottPlot.LineStyle.DashDotDot);
+plt.Legend();
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/06b_Custom_LineStyles.png' />
+
+## Plotting Points
+
+```cs
+int pointCount = 50;
+double[] dataXs = ScottPlot.DataGen.Consecutive(pointCount);
+double[] dataSin = ScottPlot.DataGen.Sin(pointCount);
+double[] dataCos = ScottPlot.DataGen.Cos(pointCount);
+
+var plt = new ScottPlot.Plot(600, 400);
+plt.PlotScatter(dataXs, dataSin);
+plt.PlotScatter(dataXs, dataCos);
+plt.PlotPoint(25, 0.8);
+plt.PlotPoint(30, 0.3, color: Color.Magenta, markerSize: 15);
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/07_Plotting_Points.png' />
+
+## Plotting Text
+
+```cs
+int pointCount = 50;
+double[] dataXs = ScottPlot.DataGen.Consecutive(pointCount);
+double[] dataSin = ScottPlot.DataGen.Sin(pointCount);
+double[] dataCos = ScottPlot.DataGen.Cos(pointCount);
+
+var plt = new ScottPlot.Plot(600, 400);
+plt.PlotScatter(dataXs, dataSin);
+plt.PlotScatter(dataXs, dataCos);
+plt.PlotPoint(25, 0.8);
+plt.PlotPoint(30, 0.3, color: Color.Magenta, markerSize: 15);
+plt.PlotText("important point", 25, 0.8);
+plt.PlotText("more important", 30, .3, fontSize: 16, bold: true, alignment: ScottPlot.TextAlignment.upperCenter);
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/08_Plotting_Text.png' />
+
+## Clearing Plots
+
+```cs
+int pointCount = 50;
+double[] dataXs = ScottPlot.DataGen.Consecutive(pointCount);
+double[] dataSin = ScottPlot.DataGen.Sin(pointCount);
+double[] dataCos = ScottPlot.DataGen.Cos(pointCount);
+
+Random rand = new Random(0);
+double[] dataRandom1 = ScottPlot.DataGen.RandomNormal(rand, pointCount, 1);
+double[] dataRandom2 = ScottPlot.DataGen.RandomNormal(rand, pointCount, 2);
+
+var plt = new ScottPlot.Plot(600, 400);
+plt.PlotScatter(dataXs, dataSin);
+plt.PlotScatter(dataXs, dataCos);
+plt.Clear();
+plt.PlotScatter(dataRandom1, dataRandom2);
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/09_Clearing_Plots.png' />
+
+## Modifying Plotted Data
+
+```cs
+int pointCount = 50;
+double[] dataXs = ScottPlot.DataGen.Consecutive(pointCount);
+double[] dataSin = ScottPlot.DataGen.Sin(pointCount);
+double[] dataCos = ScottPlot.DataGen.Cos(pointCount);
+
+var plt = new ScottPlot.Plot(600, 400);
+plt.PlotScatter(dataXs, dataSin);
+plt.PlotScatter(dataXs, dataCos);
+
+// After an array is plotted with PlotSignal() or PlotScatter() its contents 
+//   can be updated (by changing values in the array) and they will be displayed 
+//   at the next render. This makes it easy to create live displays.
+
+for (int i = 10; i < 20; i++)
+{
+    dataSin[i] = i / 10.0;
+    dataCos[i] = 2 * i / 10.0;
+}
+
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/10_Modifying_Plotted_Data.png' />
+
+## Modify Styles After Plotting
+
+```cs
+int pointCount = 50;
+double[] dataXs = ScottPlot.DataGen.Consecutive(pointCount);
+double[] dataSin = ScottPlot.DataGen.Sin(pointCount);
+double[] dataCos = ScottPlot.DataGen.Cos(pointCount);
+
+var plt = new ScottPlot.Plot(600, 400);
+
+// All Plot functions return the object that was just created.
+var scatter1 = plt.PlotScatter(dataXs, dataSin);
+var scatter2 = plt.PlotScatter(dataXs, dataCos);
+var horizontalLine = plt.PlotHLine(0, lineWidth: 3);
+
+// This allows you to modify the object's properties later.
+scatter1.color = Color.Pink;
+scatter2.markerShape = ScottPlot.MarkerShape.openCircle;
+horizontalLine.position = 0.7654;
+
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/11_Modify_Styles_After_Plotting.png' />
+
+## Date Axis
+
+```cs
+Random rand = new Random(0);
+double[] price = ScottPlot.DataGen.RandomWalk(rand, 60 * 8);
+DateTime start = new DateTime(2019, 08, 25, 8, 30, 00);
+double pointsPerDay = 24 * 60; // one point per minute
+
+var plt = new ScottPlot.Plot(600, 400);
+plt.PlotSignal(price, sampleRate: pointsPerDay, xOffset: start.ToOADate());
+plt.Ticks(dateTimeX: true);
+plt.YLabel("Price");
+plt.XLabel("Date and Time");
+
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/12_Date_Axis.png' />
+
+## Small Plot
+
+```cs
+int pointCount = 50;
+double[] dataXs = ScottPlot.DataGen.Consecutive(pointCount);
+double[] dataSin = ScottPlot.DataGen.Sin(pointCount);
+double[] dataCos = ScottPlot.DataGen.Cos(pointCount);
+
+var plt = new ScottPlot.Plot(200, 150);
+plt.PlotScatter(dataXs, dataSin);
+plt.PlotScatter(dataXs, dataCos);
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/20_Small_Plot.png' />
+
+##  Title and Axis Labels
+
+```cs
+int pointCount = 50;
+double[] dataXs = ScottPlot.DataGen.Consecutive(pointCount);
+double[] dataSin = ScottPlot.DataGen.Sin(pointCount);
+double[] dataCos = ScottPlot.DataGen.Cos(pointCount);
+
+var plt = new ScottPlot.Plot(600, 400);
+plt.PlotScatter(dataXs, dataSin);
+plt.PlotScatter(dataXs, dataCos);
+
+plt.Title("Very Complicated Data");
+plt.XLabel("Experiment Duration");
+plt.YLabel("Productivity");
+
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/21a_Title_and_Axis_Labels.png' />
+
+##  Extra Padding
+
+```cs
+int pointCount = 50;
+double[] dataXs = ScottPlot.DataGen.Consecutive(pointCount);
+double[] dataSin = ScottPlot.DataGen.Sin(pointCount);
+double[] dataCos = ScottPlot.DataGen.Cos(pointCount);
+
+var plt = new ScottPlot.Plot(600, 400);
+plt.PlotScatter(dataXs, dataSin);
+plt.PlotScatter(dataXs, dataCos);
+
+plt.Title("Very Complicated Data");
+plt.XLabel("Experiment Duration");
+plt.YLabel("Productivity");
+
+plt.TightenLayout(padding: 40);
+
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/21b_Extra_Padding.png' />
+
+##  Automatic Left Padding
+
+```cs
+var plt = new ScottPlot.Plot(600, 400);
+Random rand = new Random(0);
+double[] xs = ScottPlot.DataGen.Consecutive(100);
+double[] ys = ScottPlot.DataGen.RandomWalk(rand, 100, 1e2, 1e15);
+plt.PlotScatter(xs, ys);
+plt.YLabel("vertical units");
+plt.XLabel("horizontal units");
+
+// this can be problematic because Y labels get very large
+plt.Ticks(useOffsetNotation: false, useMultiplierNotation: false);
+
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/21c_Automatic_Left_Padding.png' />
+
+## Custom Colors
+
+```cs
+int pointCount = 50;
+double[] dataXs = ScottPlot.DataGen.Consecutive(pointCount);
+double[] dataSin = ScottPlot.DataGen.Sin(pointCount);
+double[] dataCos = ScottPlot.DataGen.Cos(pointCount);
+
+var plt = new ScottPlot.Plot(600, 400);
+Color figureBgColor = ColorTranslator.FromHtml("#001021");
+Color dataBgColor = ColorTranslator.FromHtml("#021d38");
+plt.Style(figBg: figureBgColor, dataBg: dataBgColor);
+plt.Grid(color: ColorTranslator.FromHtml("#273c51"));
+plt.Ticks(color: Color.LightGray);
+plt.PlotScatter(dataXs, dataSin);
+plt.PlotScatter(dataXs, dataCos);
+plt.Title("Very Complicated Data", color: Color.White);
+plt.XLabel("Experiment Duration", color: Color.LightGray);
+plt.YLabel("Productivity", color: Color.LightGray);
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/22_Custom_Colors.png' />
+
+## Frameless Plot
+
+```cs
+int pointCount = 50;
+double[] dataXs = ScottPlot.DataGen.Consecutive(pointCount);
+double[] dataSin = ScottPlot.DataGen.Sin(pointCount);
+double[] dataCos = ScottPlot.DataGen.Cos(pointCount);
+
+var plt = new ScottPlot.Plot(600, 400);
+Color figureBgColor = ColorTranslator.FromHtml("#001021");
+Color dataBgColor = ColorTranslator.FromHtml("#021d38");
+plt.Style(figBg: figureBgColor, dataBg: dataBgColor);
+plt.Grid(color: ColorTranslator.FromHtml("#273c51"));
+plt.Ticks(displayTicksX: false, displayTicksY: false);
+plt.Frame(drawFrame: false);
+plt.PlotScatter(dataXs, dataSin);
+plt.PlotScatter(dataXs, dataCos);
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/23_Frameless_Plot.png' />
+
+## Disable the Grid
+
+```cs
+int pointCount = 50;
+double[] dataXs = ScottPlot.DataGen.Consecutive(pointCount);
+double[] dataSin = ScottPlot.DataGen.Sin(pointCount);
+double[] dataCos = ScottPlot.DataGen.Cos(pointCount);
+
+var plt = new ScottPlot.Plot(600, 400);
+plt.PlotScatter(dataXs, dataSin);
+plt.PlotScatter(dataXs, dataCos);
+plt.Grid(false);
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/24_Disable_the_Grid.png' />
+
+## Corner Axis Frame
+
+```cs
+int pointCount = 50;
+double[] dataXs = ScottPlot.DataGen.Consecutive(pointCount);
+double[] dataSin = ScottPlot.DataGen.Sin(pointCount);
+double[] dataCos = ScottPlot.DataGen.Cos(pointCount);
+
+var plt = new ScottPlot.Plot(600, 400);
+plt.PlotScatter(dataXs, dataSin);
+plt.PlotScatter(dataXs, dataCos);
+plt.Grid(false);
+plt.Frame(right: false, top: false);
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/25_Corner_Axis_Frame.png' />
+
+## Horizontal Ticks Only
+
+```cs
+int pointCount = 50;
+double[] dataXs = ScottPlot.DataGen.Consecutive(pointCount);
+double[] dataSin = ScottPlot.DataGen.Sin(pointCount);
+double[] dataCos = ScottPlot.DataGen.Cos(pointCount);
+
+var plt = new ScottPlot.Plot(600, 400);
+plt.PlotScatter(dataXs, dataSin);
+plt.PlotScatter(dataXs, dataCos);
+plt.Grid(false);
+plt.Ticks(displayTicksY: false);
+plt.Frame(left: false, right: false, top: false);
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/26_Horizontal_Ticks_Only.png' />
+
+## Very Large Numbers
+
+```cs
+Random rand = new Random(0);
+int pointCount = 100;
+double[] largeXs = ScottPlot.DataGen.Consecutive(pointCount, 1e17);
+double[] largeYs = ScottPlot.DataGen.Random(rand, pointCount, 1e21);
+
+var plt = new ScottPlot.Plot(600, 400);
+plt.PlotScatter(largeXs, largeYs);
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/27_Very_Large_Numbers.png' />
+
+## Axis Exponent And Offset
+
+```cs
+double bigNumber = 9876;
+
+var plt = new ScottPlot.Plot(600, 400);
+plt.Title("panned far and really zoomed in");
+plt.Axis(bigNumber, bigNumber + .00001, bigNumber, bigNumber + .00001);
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/28_Axis_Exponent_And_Offset.png' />
+
+##  Multiplier Notation Default
+
+```cs
+double[] tenMillionPoints = ScottPlot.DataGen.SinSweep(10_000_000, 8);
+
+var plt = new ScottPlot.Plot(600, 400);
+plt.PlotSignal(tenMillionPoints);
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/28b_Multiplier_Notation_Default.png' />
+
+##  Multiplier Notation Disabled
+
+```cs
+double[] tenMillionPoints = ScottPlot.DataGen.SinSweep(10_000_000, 8);
+
+var plt = new ScottPlot.Plot(600, 400);
+plt.PlotSignal(tenMillionPoints);
+plt.Ticks(useMultiplierNotation: false); // <-- THIS
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/28c_Multiplier_Notation_Disabled.png' />
+
+## Very Large Images
+
+```cs
+int pointCount = 50;
+double[] dataXs = ScottPlot.DataGen.Consecutive(pointCount);
+double[] dataSin = ScottPlot.DataGen.Sin(pointCount);
+double[] dataCos = ScottPlot.DataGen.Cos(pointCount);
+
+var plt = new ScottPlot.Plot(2000, 1000);
+plt.PlotScatter(dataXs, dataSin);
+plt.PlotScatter(dataXs, dataCos);
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/29_Very_Large_Images.png' />
+
+##  Signal
+
+```cs
+double[] tenMillionPoints = ScottPlot.DataGen.SinSweep(10_000_000, 8);
+
+// PlotSignal() is much faster than PlotScatter() for large arrays of evenly-spaed data.
+// To plot more than 2GB of data, enable "gcAllowVeryLargeObjects" in App.config (Google it)
+
+var plt = new ScottPlot.Plot(600, 400);
+plt.Title("Displaying 10 million points with PlotSignal()");
+plt.Benchmark();
+plt.PlotSignal(tenMillionPoints, sampleRate: 20_000);
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/30a_Signal.png' />
+
+##  SignalConst
+
+```cs
+double[] tenMillionPoints = ScottPlot.DataGen.SinSweep(10_000_000, 8);
+
+// SignalConst() is faster than PlotSignal() for very large data plots
+// - its data cannot be modified after it is loaded
+// - here threading was turned off so it renders properly in a console application
+// - in GUI applications threading allows it to initially render faster but here it is turned off
+
+var plt = new ScottPlot.Plot(600, 400);
+plt.Title("Displaying 10 million points with PlotSignalConst()");
+plt.Benchmark();
+plt.PlotSignalConst(tenMillionPoints, sampleRate: 20_000);
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/30c_SignalConst.png' />
+
+## Signal Styling
+
+```cs
+double[] tenMillionPoints = ScottPlot.DataGen.SinSweep(10_000_000, 8);
+
+var plt = new ScottPlot.Plot(600, 400);
+plt.PlotSignal(tenMillionPoints, 20000, lineWidth: 3, color: Color.Red);
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/32_Signal_Styling.png' />
+
+## Vertical and Horizontal Lines
+
+```cs
+int pointCount = 50;
+double[] dataXs = ScottPlot.DataGen.Consecutive(pointCount);
+double[] dataSin = ScottPlot.DataGen.Sin(pointCount);
+double[] dataCos = ScottPlot.DataGen.Cos(pointCount);
+
+var plt = new ScottPlot.Plot(600, 400);
+plt.PlotScatter(dataXs, dataSin);
+plt.PlotScatter(dataXs, dataCos);
+plt.PlotVLine(17);
+plt.PlotHLine(-.25, color: Color.Red, lineWidth: 3);
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/40_Vertical_and_Horizontal_Lines.png' />
+
+## Axis Spans
+
+```cs
+int pointCount = 50;
+double[] dataXs = ScottPlot.DataGen.Consecutive(pointCount);
+double[] dataSin = ScottPlot.DataGen.Sin(pointCount);
+double[] dataCos = ScottPlot.DataGen.Cos(pointCount);
+
+var plt = new ScottPlot.Plot(600, 400);
+
+// things plotted after before spans are covered by them
+plt.PlotScatter(dataXs, dataSin, label: "below",
+    color: Color.Red, markerShape: ScottPlot.MarkerShape.filledCircle);
+
+// vertical lines and horizontal spans both take X-axis positions
+plt.PlotVLine(17, label: "vertical line");
+plt.PlotVSpan(19, 27, label: "horizontal span", color: Color.Blue);
+
+// horizontal lines and vertical spans both take Y-axis positions
+plt.PlotHLine(-.6, label: "horizontal line");
+plt.PlotHSpan(-.25, 0.33, label: "vertical span", color: Color.Green);
+
+// things plotted after are displayed on top of the spans
+plt.PlotScatter(dataXs, dataCos, label: "above",
+    color: Color.Red, markerShape: ScottPlot.MarkerShape.filledSquare);
+
+plt.Legend();
+
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/41_Axis_Spans.png' />
+
+## StyleBlue1
+
+```cs
+int pointCount = 50;
+double[] dataXs = ScottPlot.DataGen.Consecutive(pointCount);
+double[] dataSin = ScottPlot.DataGen.Sin(pointCount);
+double[] dataCos = ScottPlot.DataGen.Cos(pointCount);
+
+var plt = new ScottPlot.Plot(600, 400);
+plt.PlotScatter(dataXs, dataSin, label: "sin");
+plt.PlotScatter(dataXs, dataCos, label: "cos");
+plt.Title("Very Complicated Data");
+plt.XLabel("Experiment Duration");
+plt.YLabel("Productivity");
+plt.Legend();
+plt.Style(ScottPlot.Style.Blue1);
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/50_StyleBlue1.png' />
+
+## StyleBlue2
+
+```cs
+int pointCount = 50;
+double[] dataXs = ScottPlot.DataGen.Consecutive(pointCount);
+double[] dataSin = ScottPlot.DataGen.Sin(pointCount);
+double[] dataCos = ScottPlot.DataGen.Cos(pointCount);
+
+var plt = new ScottPlot.Plot(600, 400);
+plt.PlotScatter(dataXs, dataSin, label: "sin");
+plt.PlotScatter(dataXs, dataCos, label: "cos");
+plt.Title("Very Complicated Data");
+plt.XLabel("Experiment Duration");
+plt.YLabel("Productivity");
+plt.Legend();
+plt.Style(ScottPlot.Style.Blue2);
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/51_StyleBlue2.png' />
+
+## StyleBlue3
+
+```cs
+int pointCount = 50;
+double[] dataXs = ScottPlot.DataGen.Consecutive(pointCount);
+double[] dataSin = ScottPlot.DataGen.Sin(pointCount);
+double[] dataCos = ScottPlot.DataGen.Cos(pointCount);
+
+var plt = new ScottPlot.Plot(600, 400);
+plt.PlotScatter(dataXs, dataSin, label: "sin");
+plt.PlotScatter(dataXs, dataCos, label: "cos");
+plt.Title("Very Complicated Data");
+plt.XLabel("Experiment Duration");
+plt.YLabel("Productivity");
+plt.Legend();
+plt.Style(ScottPlot.Style.Blue3);
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/52_StyleBlue3.png' />
+
+## StyleLight1
+
+```cs
+int pointCount = 50;
+double[] dataXs = ScottPlot.DataGen.Consecutive(pointCount);
+double[] dataSin = ScottPlot.DataGen.Sin(pointCount);
+double[] dataCos = ScottPlot.DataGen.Cos(pointCount);
+
+var plt = new ScottPlot.Plot(600, 400);
+plt.PlotScatter(dataXs, dataSin, label: "sin");
+plt.PlotScatter(dataXs, dataCos, label: "cos");
+plt.Title("Very Complicated Data");
+plt.XLabel("Experiment Duration");
+plt.YLabel("Productivity");
+plt.Legend();
+plt.Style(ScottPlot.Style.Light1);
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/53_StyleLight1.png' />
+
+## StyleLight2
+
+```cs
+int pointCount = 50;
+double[] dataXs = ScottPlot.DataGen.Consecutive(pointCount);
+double[] dataSin = ScottPlot.DataGen.Sin(pointCount);
+double[] dataCos = ScottPlot.DataGen.Cos(pointCount);
+
+var plt = new ScottPlot.Plot(600, 400);
+plt.PlotScatter(dataXs, dataSin, label: "sin");
+plt.PlotScatter(dataXs, dataCos, label: "cos");
+plt.Title("Very Complicated Data");
+plt.XLabel("Experiment Duration");
+plt.YLabel("Productivity");
+plt.Legend();
+plt.Style(ScottPlot.Style.Light2);
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/54_StyleLight2.png' />
+
+## StyleGray1
+
+```cs
+int pointCount = 50;
+double[] dataXs = ScottPlot.DataGen.Consecutive(pointCount);
+double[] dataSin = ScottPlot.DataGen.Sin(pointCount);
+double[] dataCos = ScottPlot.DataGen.Cos(pointCount);
+
+var plt = new ScottPlot.Plot(600, 400);
+plt.PlotScatter(dataXs, dataSin, label: "sin");
+plt.PlotScatter(dataXs, dataCos, label: "cos");
+plt.Title("Very Complicated Data");
+plt.XLabel("Experiment Duration");
+plt.YLabel("Productivity");
+plt.Legend();
+plt.Style(ScottPlot.Style.Gray1);
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/55_StyleGray1.png' />
+
+## StyleGray2
+
+```cs
+int pointCount = 50;
+double[] dataXs = ScottPlot.DataGen.Consecutive(pointCount);
+double[] dataSin = ScottPlot.DataGen.Sin(pointCount);
+double[] dataCos = ScottPlot.DataGen.Cos(pointCount);
+
+var plt = new ScottPlot.Plot(600, 400);
+plt.PlotScatter(dataXs, dataSin, label: "sin");
+plt.PlotScatter(dataXs, dataCos, label: "cos");
+plt.Title("Very Complicated Data");
+plt.XLabel("Experiment Duration");
+plt.YLabel("Productivity");
+plt.Legend();
+plt.Style(ScottPlot.Style.Gray2);
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/56_StyleGray2.png' />
+
+## StyleBlack
+
+```cs
+int pointCount = 50;
+double[] dataXs = ScottPlot.DataGen.Consecutive(pointCount);
+double[] dataSin = ScottPlot.DataGen.Sin(pointCount);
+double[] dataCos = ScottPlot.DataGen.Cos(pointCount);
+
+var plt = new ScottPlot.Plot(600, 400);
+plt.PlotScatter(dataXs, dataSin, label: "sin");
+plt.PlotScatter(dataXs, dataCos, label: "cos");
+plt.Title("Very Complicated Data");
+plt.XLabel("Experiment Duration");
+plt.YLabel("Productivity");
+plt.Legend();
+plt.Style(ScottPlot.Style.Black);
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/57_StyleBlack.png' />
+
+## StyleDefault
+
+```cs
+int pointCount = 50;
+double[] dataXs = ScottPlot.DataGen.Consecutive(pointCount);
+double[] dataSin = ScottPlot.DataGen.Sin(pointCount);
+double[] dataCos = ScottPlot.DataGen.Cos(pointCount);
+
+var plt = new ScottPlot.Plot(600, 400);
+plt.PlotScatter(dataXs, dataSin, label: "sin");
+plt.PlotScatter(dataXs, dataCos, label: "cos");
+plt.Title("Very Complicated Data");
+plt.XLabel("Experiment Duration");
+plt.YLabel("Productivity");
+plt.Legend();
+plt.Style(ScottPlot.Style.Default);
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/58_StyleDefault.png' />
+
+## StyleControl
+
+```cs
+int pointCount = 50;
+double[] dataXs = ScottPlot.DataGen.Consecutive(pointCount);
+double[] dataSin = ScottPlot.DataGen.Sin(pointCount);
+double[] dataCos = ScottPlot.DataGen.Cos(pointCount);
+
+var plt = new ScottPlot.Plot(600, 400);
+plt.PlotScatter(dataXs, dataSin, label: "sin");
+plt.PlotScatter(dataXs, dataCos, label: "cos");
+plt.Title("Very Complicated Data");
+plt.XLabel("Experiment Duration");
+plt.YLabel("Productivity");
+plt.Legend();
+plt.Style(ScottPlot.Style.Control);
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/59_StyleControl.png' />
+
+## Plotting With Errorbars
+
+```cs
+var plt = new ScottPlot.Plot(600, 400);
+plt.Grid(false);
+
+for (int plotNumber = 0; plotNumber < 3; plotNumber++)
+{
+    // create random data to plot
+    Random rand = new Random(plotNumber);
+    int pointCount = 20;
+    double[] dataX = new double[pointCount];
+    double[] dataY = new double[pointCount];
+    double[] errorY = new double[pointCount];
+    double[] errorX = new double[pointCount];
+    for (int i = 0; i < pointCount; i++)
+    {
+        dataX[i] = i + rand.NextDouble();
+        dataY[i] = rand.NextDouble() * 100 + 100 * plotNumber;
+        errorX[i] = rand.NextDouble();
+        errorY[i] = rand.NextDouble() * 10;
+    }
+
+    // demonstrate different ways to plot errorbars
+    if (plotNumber == 0)
+        plt.PlotScatter(dataX, dataY, lineWidth: 0, errorY: errorY, errorX: errorX,
+            label: $"X and Y errors");
+    else if (plotNumber == 1)
+        plt.PlotScatter(dataX, dataY, lineWidth: 0, errorY: errorY,
+            label: $"Y errors only");
+    else
+        plt.PlotScatter(dataX, dataY, errorY: errorY, errorX: errorX,
+            label: $"Connected Errors");
+}
+
+plt.Title("Scatter Plot with Errorbars");
+plt.Legend();
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/60_Plotting_With_Errorbars.png' />
+
+## Plot Bar Data
+
+```cs
+int pointCount = 50;
+double[] dataXs = ScottPlot.DataGen.Consecutive(pointCount);
+double[] dataSin = ScottPlot.DataGen.Sin(pointCount);
+double[] dataCos = ScottPlot.DataGen.Cos(pointCount);
+
+// create demo data to use for errorbars
+double[] yErr = new double[dataSin.Length];
+for (int i = 0; i < yErr.Length; i++)
+    yErr[i] = dataSin[i] / 5 + .025;
+
+var plt = new ScottPlot.Plot(600, 400);
+plt.Title("Bar Plot With Error Bars");
+plt.PlotBar(dataXs, dataSin, barWidth: .5, errorY: yErr, errorCapSize: 2);
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/61_Plot_Bar_Data.png' />
+
+## Plot Bar Data Fancy
+
+```cs
+// generate some more complex data
+Random rand = new Random(0);
+int pointCount = 10;
+double[] Xs = new double[pointCount];
+double[] dataA = new double[pointCount];
+double[] errorA = new double[pointCount];
+double[] dataB = new double[pointCount];
+double[] errorB = new double[pointCount];
+for (int i = 0; i < pointCount; i++)
+{
+    Xs[i] = i * 10;
+    dataA[i] = rand.NextDouble() * 100;
+    dataB[i] = rand.NextDouble() * 100;
+    errorA[i] = rand.NextDouble() * 10;
+    errorB[i] = rand.NextDouble() * 10;
+}
+
+var plt = new ScottPlot.Plot(600, 400);
+plt.Title("Multiple Bar Plots");
+plt.Grid(false);
+// customize barWidth and xOffset to squeeze grouped bars together
+plt.PlotBar(Xs, dataA, errorY: errorA, label: "data A", barWidth: 3.2, xOffset: -2);
+plt.PlotBar(Xs, dataB, errorY: errorB, label: "data B", barWidth: 3.2, xOffset: 2);
+plt.Axis(null, null, 0, null);
+plt.Legend();
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/62_Plot_Bar_Data_Fancy.png' />
+
+## Step Plot
+
+```cs
+int pointCount = 50;
+double[] dataXs = ScottPlot.DataGen.Consecutive(pointCount);
+double[] dataSin = ScottPlot.DataGen.Sin(pointCount);
+double[] dataCos = ScottPlot.DataGen.Cos(pointCount);
+
+var plt = new ScottPlot.Plot(600, 400);
+plt.PlotStep(dataXs, dataSin);
+plt.PlotStep(dataXs, dataCos);
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/63_Step_Plot.png' />
+
+## Manual Grid Spacing
+
+```cs
+int pointCount = 50;
+double[] dataXs = ScottPlot.DataGen.Consecutive(pointCount);
+double[] dataSin = ScottPlot.DataGen.Sin(pointCount);
+double[] dataCos = ScottPlot.DataGen.Cos(pointCount);
+
+var plt = new ScottPlot.Plot(600, 400);
+plt.PlotScatter(dataXs, dataSin);
+plt.PlotScatter(dataXs, dataCos);
+plt.Grid(xSpacing: 2, ySpacing: .1);
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/64_Manual_Grid_Spacing.png' />
+
+## Histogram
+
+```cs
+Random rand = new Random(0);
+double[] values1 = ScottPlot.DataGen.RandomNormal(rand, pointCount: 1000, mean: 50, stdDev: 20);
+var hist1 = new ScottPlot.Histogram(values1, min: 0, max: 100);
+
+var plt = new ScottPlot.Plot(600, 400);
+plt.Title("Histogram");
+plt.YLabel("Count (#)");
+plt.XLabel("Value (units)");
+plt.PlotBar(hist1.bins, hist1.counts, barWidth: 1);
+plt.Axis(null, null, 0, null);
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/65_Histogram.png' />
+
+## CPH
+
+```cs
+Random rand = new Random(0);
+double[] values1 = ScottPlot.DataGen.RandomNormal(rand, pointCount: 1000, mean: 50, stdDev: 20);
+double[] values2 = ScottPlot.DataGen.RandomNormal(rand, pointCount: 1000, mean: 45, stdDev: 25);
+var hist1 = new ScottPlot.Histogram(values1, min: 0, max: 100);
+var hist2 = new ScottPlot.Histogram(values2, min: 0, max: 100);
+
+var plt = new ScottPlot.Plot(600, 400);
+plt.Title("Cumulative Probability Histogram");
+plt.YLabel("Probability (fraction)");
+plt.XLabel("Value (units)");
+plt.PlotStep(hist1.bins, hist1.cumulativeFrac, lineWidth: 1.5, label: "sample A");
+plt.PlotStep(hist2.bins, hist2.cumulativeFrac, lineWidth: 1.5, label: "sample B");
+plt.Legend();
+plt.Axis(null, null, 0, 1);
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/66_CPH.png' />
+
+## Candlestick
+
+```cs
+Random rand = new Random(0);
+int pointCount = 60;
+ScottPlot.OHLC[] ohlcs = ScottPlot.DataGen.RandomStockPrices(rand, pointCount);
+
+var plt = new ScottPlot.Plot(600, 400);
+plt.Title("Candlestick Chart");
+plt.YLabel("Stock Price (USD)");
+plt.XLabel("Day (into Q4)");
+plt.PlotCandlestick(ohlcs);
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/67_Candlestick.png' />
+
+## OHLC
+
+```cs
+Random rand = new Random(0);
+int pointCount = 60;
+ScottPlot.OHLC[] ohlcs = ScottPlot.DataGen.RandomStockPrices(rand, pointCount);
+
+var plt = new ScottPlot.Plot(600, 400);
+plt.Title("Open/High/Low/Close (OHLC) Chart");
+plt.YLabel("Stock Price (USD)");
+plt.XLabel("Day (into Q4)");
+plt.PlotOHLC(ohlcs);
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/68_OHLC.png' />
+
+## Save Scatter Data
+
+```cs
+int pointCount = 50;
+double[] dataXs = ScottPlot.DataGen.Consecutive(pointCount);
+double[] dataSin = ScottPlot.DataGen.Sin(pointCount);
+
+var plt = new ScottPlot.Plot(600, 400);
+plt.PlotScatter(dataXs, dataSin);
+plt.GetPlottables()[0].SaveCSV("scatter.csv");
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/70_Save_Scatter_Data.png' />
+
+## Save Signal Data
+
+```cs
+int pointCount = 50;
+double[] dataCos = ScottPlot.DataGen.Cos(pointCount);
+
+var plt = new ScottPlot.Plot(600, 400);
+plt.PlotSignal(dataCos, sampleRate: 20_000);
+plt.GetPlottables()[0].SaveCSV("signal.csv");
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/71_Save_Signal_Data.png' />
+
+## Custom Fonts
+
+```cs
+int pointCount = 50;
+double[] dataXs = ScottPlot.DataGen.Consecutive(pointCount);
+double[] dataSin = ScottPlot.DataGen.Sin(pointCount);
+double[] dataCos = ScottPlot.DataGen.Cos(pointCount);
+
+var plt = new ScottPlot.Plot(600, 400);
+plt.Title("Impressive Graph", fontName: "courier new", fontSize: 24, color: Color.Purple, bold: true);
+plt.YLabel("vertical units", fontName: "impact", fontSize: 24, color: Color.Red, bold: true);
+plt.XLabel("horizontal units", fontName: "georgia", fontSize: 24, color: Color.Blue, bold: true);
+plt.PlotScatter(dataXs, dataSin, label: "sin");
+plt.PlotScatter(dataXs, dataCos, label: "cos");
+plt.PlotText("very graph", 25, .8, fontName: "comic sans ms", fontSize: 24, color: Color.Blue, bold: true);
+plt.PlotText("so data", 0, 0, fontName: "comic sans ms", fontSize: 42, color: Color.Magenta, bold: true);
+plt.PlotText("many documentation", 3, -.6, fontName: "comic sans ms", fontSize: 18, color: Color.DarkCyan, bold: true);
+plt.PlotText("wow.", 10, .6, fontName: "comic sans ms", fontSize: 36, color: Color.Green, bold: true);
+plt.PlotText("NuGet", 32, 0, fontName: "comic sans ms", fontSize: 24, color: Color.Gold, bold: true);
+plt.Legend(fontName: "comic sans ms", fontSize: 16, bold: true, fontColor: Color.DarkBlue);
+plt.SaveFig(fileName);
+```
+
+<img width='600' height='400' src='./images/72_Custom_Fonts.png' />
+
