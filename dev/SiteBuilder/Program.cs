@@ -14,7 +14,7 @@ namespace SiteBuilder
             [Option(longName: "theme", Required = true, HelpText = "path of the theme folder (containing HTML templates)")]
             public string? Theme { get; set; }
 
-            [Option(longName: "cookbook", Required = false, HelpText = "path of the cookbook folder (containing csproj file)")]
+            [Option(longName: "cookbook", Required = false, HelpText = "path of the cookbook folder (containing recipes.json and images folder)")]
             public string? Cookbook { get; set; }
 
             [Option(longName: "urlSource", Required = true, HelpText = "URL of the content source code")]

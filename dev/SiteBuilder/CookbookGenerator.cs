@@ -10,15 +10,13 @@ namespace SiteBuilder
     public class CookbookGenerator
     {
         public readonly string ImagePath;
-        public readonly string SourcePath;
         public readonly string CategoryPath;
         public readonly string CookbookPath;
-        public readonly string Version;
+        public readonly string Version = "4.1";
+        public readonly Recipe[] Recipes;
 
-        public CookbookGenerator(string path, string version = "4.1")
+        public CookbookGenerator(string path)
         {
-            Version = version;
-
             path = Path.GetFullPath(path);
             if (!Directory.Exists(path))
                 throw new ArgumentException($"not found: {path}");
@@ -29,10 +27,10 @@ namespace SiteBuilder
                 throw new ArgumentException($"not found: {imagePath}");
             ImagePath = imagePath;
 
-            string sourcePath = Path.Combine(path, "source");
-            if (!Directory.Exists(sourcePath))
-                throw new ArgumentException($"not found: {sourcePath}");
-            SourcePath = sourcePath;
+            string jsonFilePath = Path.Combine(path, "recipes.json");
+            if (!File.Exists(jsonFilePath))
+                throw new ArgumentException($"not found: {jsonFilePath}");
+            Recipes = Recipe.FromJson(jsonFilePath);
 
             CategoryPath = Path.Combine(path, "category");
             if (!Directory.Exists(CategoryPath))
@@ -41,26 +39,19 @@ namespace SiteBuilder
 
         public void Generate()
         {
-            Recipe[] recipes = Directory
-                .GetFiles(SourcePath, "*.cs")
-                .Select(x => Recipe.FromFile(x))
-                .ToArray();
-
-            string[] categories = recipes
+            string[] categories = Recipes
                 .Select(x => x.Category)
                 .Distinct()
                 .OrderBy(x => x)
                 .ToArray();
 
             foreach (string category in categories)
-            {
-                GenerateCategoryPage(category, recipes);
-            }
+                GenerateCategoryPage(category);
 
-            GenerateHomePage(categories, recipes);
+            GenerateHomePage(categories);
         }
 
-        private void GenerateHomePage(string[] categories, Recipe[] recipes)
+        private void GenerateHomePage(string[] categories)
         {
             StringBuilder sb = new();
 
@@ -74,17 +65,17 @@ namespace SiteBuilder
 
             foreach (string category in categories.Where(x => x.StartsWith("Quickstart")))
             {
-                IncludeCategoryThumbnails(category, recipes, sb);
+                IncludeCategoryThumbnails(category, Recipes, sb);
             }
 
             foreach (string category in categories.Where(x => !x.StartsWith("Plottable") && !x.StartsWith("Quickstart")))
             {
-                IncludeCategoryThumbnails(category, recipes, sb);
+                IncludeCategoryThumbnails(category, Recipes, sb);
             }
 
             foreach (string category in categories.Where(x => x.StartsWith("Plottable")))
             {
-                IncludeCategoryThumbnails(category, recipes, sb);
+                IncludeCategoryThumbnails(category, Recipes, sb);
             }
 
             string mdFilePath = Path.Combine(CookbookPath, "index.md");
@@ -125,7 +116,7 @@ namespace SiteBuilder
             sb.AppendLine();
         }
 
-        private void GenerateCategoryPage(string category, Recipe[] recipes)
+        private void GenerateCategoryPage(string category)
         {
             StringBuilder sb = new();
 
@@ -138,7 +129,7 @@ namespace SiteBuilder
             sb.AppendLine($"<div class='display-6'>{category}</div>");
             sb.AppendLine();
 
-            foreach (Recipe recipe in recipes.Where(x => x.Category == category))
+            foreach (Recipe recipe in Recipes.Where(x => x.Category == category))
             {
                 sb.AppendLine();
                 sb.AppendLine("<div class='m-2'>&nbsp;</div>"); // extra spacing

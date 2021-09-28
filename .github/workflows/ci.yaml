@@ -70,11 +70,11 @@ jobs:
           dotnet-version: "5.0.x"
           include-prerelease: true
 
-      - name: 🛠️ Generate Cookbook Images
+      - name: 🛠️ Execute Cookbook Recipes
         working-directory: ./ScottPlot/src/cookbook/ScottPlot.Cookbook
-        run: dotnet run --project "../CookbookGenerator" --cookbookFolder "./" --saveImages "../../../../content/cookbook/4.1/images" --saveSource "../../../../content/cookbook/4.1/source"
+        run: dotnet run --project "../CookbookGenerator" --cookbook "./" --imageFolder "../../../../content/cookbook/4.1/images" --sourceFile "../../../../content/cookbook/4.1/recipes.json"
 
-      - name: 🌎 Build Cookbook Pages
+      - name: 🌎 Generate Cookbook Pages
         run: dotnet run --project "./dev/SiteBuilder" --content "./content" --theme "./dev/theme" --cookbook "./content/cookbook/4.1" --urlSource "https://github.com/ScottPlot/ScottPlot.NET/blob/main/content" --urlSite "https://scottplot.net"
 
       - name: 🚀 Deploy using FTP
