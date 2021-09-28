@@ -18,7 +18,7 @@ Description: ScottPlot is a free and open-source plotting library for .NET that 
 * [**Windows Forms**](quickstart/winforms)
 * [**WPF**](quickstart/wpf)
 * [**Avalonia**](quickstart/avalonia)
-* [**Console Application**](console)
+* [**Console Application**](quickstart/console)
 
 
 ```cs
