@@ -23,6 +23,9 @@ jobs:
           dotnet-version: "5.0.x"
           include-prerelease: true
 
+      - name: 🧪 Test
+        run: dotnet test --project './dev/SiteTests'
+
       - name: 🌎 Generate Website
         run: |
           dotnet run \
