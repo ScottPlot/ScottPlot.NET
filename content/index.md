@@ -22,10 +22,10 @@ Description: ScottPlot is a free and open-source plotting library for .NET that 
 
 
 ```cs
-double[] dataX = new double[] { 1, 2, 3, 4, 5 };
-double[] dataY = new double[] { 1, 4, 9, 16, 25 };
+double[] xs = { 1, 2, 3, 4, 5 };
+double[] ys = { 1, 4, 9, 16, 25 };
 var plt = new ScottPlot.Plot(400, 300);
-plt.AddScatter(dataX, dataY);
+plt.AddScatter(xs, ys);
 plt.SaveFig("quickstart.png");
 ```
 
