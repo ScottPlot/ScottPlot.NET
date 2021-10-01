@@ -42,7 +42,7 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           log-level: minimal
-          exclude: "[**/index.md, **/4.1/**]"
+          exclude: "[**/index.md, **/4.1/**, *.bat]"
           state-name: .ftpState1.json
 
       - name: 🧹 Purge Website Cache
