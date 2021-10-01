@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 using System.Net;
 using System.Collections.Generic;
 using NUnit.Framework;
@@ -20,15 +21,19 @@ namespace SiteTests
         public void Test_Changelog_Build()
         {
             string md = DownloadChangelog();
-
             string[] usernames = GitHubMarkdown.GetUsernames(md);
-            Console.WriteLine($"Identified {usernames.Length} mentions");
-
             md = GitHubMarkdown.LinkUsernames(md, usernames);
+            Console.WriteLine($"Identified {usernames.Length} mentions ({usernames.Distinct().Count()} unique)");
 
-            string outputFilePath = Path.GetFullPath(Path.Combine(
+            string outputFolder = Path.GetFullPath(Path.Combine(
                 path1: TestContext.CurrentContext.TestDirectory,
-                path2: "../../../../../content/changelog/index.md"));
+                path2: "../../../../../content/changelog"));
+
+            if (!Directory.Exists(outputFolder))
+                Directory.CreateDirectory(outputFolder);
+            Console.WriteLine($"Created: {outputFolder}");
+
+            string outputFilePath = Path.Combine(outputFolder, "index.md");
             File.WriteAllText(outputFilePath, md);
             Console.WriteLine($"Wrote: {outputFilePath}");
         }
