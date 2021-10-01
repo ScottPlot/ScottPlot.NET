@@ -357,3 +357,4 @@ MigrationBackup/
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
 content/cookbook/4.1/recipes.json
+content/changelog/index.md
