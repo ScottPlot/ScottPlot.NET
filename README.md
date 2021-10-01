@@ -1,8 +1,8 @@
 # ScottPlot.NET
 
-This repository contains source code for the ScottPlot Website (ScottPlot.NET)
+This repository contains source code for the [ScottPlot.NET](https://scottplot.net) website.
 
-ScottPlot source code is located in the [ScottPlot repository](https://github.com/scottplot/scottplot)
+Source code for the ScottPlot package is in the [ScottPlot repository](https://github.com/scottplot/scottplot).
 
 ### Development Environment
 
