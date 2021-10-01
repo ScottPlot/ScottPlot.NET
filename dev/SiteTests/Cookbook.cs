@@ -6,8 +6,8 @@ namespace SiteTests
 {
     public class Cookbook
     {
-        [Test]
-        public void Test1()
+        //[Test]
+        public void Test_Cookbook_Build()
         {
             string cookbookFolder = Path.Combine(
                 path1: TestContext.CurrentContext.TestDirectory,
