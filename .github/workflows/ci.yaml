@@ -24,7 +24,8 @@ jobs:
           include-prerelease: true
 
       - name: 🧪 Test
-        run: dotnet test --project './dev/SiteTests'
+        working-directory: ./dev/SiteTests
+        run: dotnet test
 
       - name: 🌎 Generate Website
         run: |
