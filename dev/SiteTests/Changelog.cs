@@ -1,4 +1,5 @@
 using System;
+using System.Text;
 using System.Linq;
 using System.Net;
 using System.Collections.Generic;
@@ -20,7 +21,14 @@ namespace SiteTests
         [Test]
         public void Test_Changelog_Build()
         {
-            string md = DownloadChangelog();
+            StringBuilder sb = new();
+            sb.AppendLine("---");
+            sb.AppendLine("Title: ScottPlot Changelog");
+            sb.AppendLine("Description: Release log for every version of ScottPlot");
+            sb.AppendLine("---");
+            sb.AppendLine(DownloadChangelog());
+
+            string md = sb.ToString();
             string[] usernames = GitHubMarkdown.GetUsernames(md);
             md = GitHubMarkdown.LinkUsernames(md, usernames);
             Console.WriteLine($"Identified {usernames.Length} mentions ({usernames.Distinct().Count()} unique)");
