@@ -13,8 +13,10 @@ namespace SiteTests
         {
             foreach (int number in numbers.Distinct().OrderByDescending(x => x))
             {
-                md = md.Replace($"#{number}", $"[#{number}](https://github.com/ScottPlot/ScottPlot/issues/{number})");
+                md = md.Replace($"#{number}", $"[%ISSUE%{number}](https://github.com/ScottPlot/ScottPlot/issues/{number})");
             }
+
+            md = md.Replace("%ISSUE%", "#");
 
             return md;
         }
@@ -23,8 +25,10 @@ namespace SiteTests
         {
             foreach (string username in usernames.Distinct().OrderByDescending(x => x))
             {
-                md = md.Replace($"@{username}", $"[**@{username}**](https://github.com/{username})");
+                md = md.Replace($"@{username}", $"[**%USERNAME%{username}**](https://github.com/{username})");
             }
+
+            md = md.Replace("%USERNAME%", "@");
 
             return md;
         }
