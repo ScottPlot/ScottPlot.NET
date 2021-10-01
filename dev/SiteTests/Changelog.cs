@@ -36,6 +36,10 @@ namespace SiteTests
             md = GitHubMarkdown.LinkUsernames(md, usernames);
             Console.WriteLine($"Identified {usernames.Length} mentions ({usernames.Distinct().Count()} unique)");
 
+            int[] issueNumbers = GitHubMarkdown.GetIssues(md);
+            md = GitHubMarkdown.LinkIssues(md, issueNumbers);
+            Console.WriteLine($"Identified {issueNumbers.Length} issues ({issueNumbers.Distinct().Count()} unique)");
+
             string outputFolder = Path.GetFullPath(Path.Combine(
                 path1: TestContext.CurrentContext.TestDirectory,
                 path2: "../../../../../content/changelog"));
