@@ -26,9 +26,12 @@ namespace SiteTests
             sb.AppendLine("Title: ScottPlot Changelog");
             sb.AppendLine("Description: Release log for every version of ScottPlot");
             sb.AppendLine("---");
-            sb.AppendLine(DownloadChangelog());
+            sb.AppendLine();
 
-            string md = sb.ToString();
+            string changelogRaw = DownloadChangelog();
+            changelogRaw = changelogRaw.Replace("\n---", "\n"); // avoid statix <hr /> bug
+
+            string md = sb.ToString() + changelogRaw;
             string[] usernames = GitHubMarkdown.GetUsernames(md);
             md = GitHubMarkdown.LinkUsernames(md, usernames);
             Console.WriteLine($"Identified {usernames.Length} mentions ({usernames.Distinct().Count()} unique)");
