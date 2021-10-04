@@ -1,3 +1,6 @@
+---
+Title: About ScottPlot
+---
 
 # About ScottPlot
 

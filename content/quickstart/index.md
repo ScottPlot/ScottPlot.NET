@@ -1,3 +1,8 @@
+---
+Title: ScottPlot Quickstart
+Description: Plot data with a few lines of C#
+---
+
 ## Quickstart by Application Type
 
 * [**ScottPlot Quickstart - Windows Forms**](winforms)
