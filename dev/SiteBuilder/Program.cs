@@ -42,7 +42,10 @@ namespace SiteBuilder
                 themeFolder: opts.Theme,
                 sourceUrl: opts.SourceUrl,
                 rootUrl: opts.SiteUrl);
-                
+
+            ssg.HeaderRequirements.RequireDescription = false;
+            ssg.HeaderRequirements.RequireDate = false;
+
             ssg.Generate();
         }
     }

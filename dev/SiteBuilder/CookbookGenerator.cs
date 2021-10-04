@@ -58,6 +58,7 @@ namespace SiteBuilder
             sb.AppendLine($"---");
             sb.AppendLine($"Title: ScottPlot {Version} Cookbook");
             sb.AppendLine($"Description: Images created with ScottPlot {Version} shown next to the code used to create them.");
+            sb.AppendLine($"Source: https://github.com/ScottPlot/ScottPlot/tree/master/src/cookbook");
             sb.AppendLine($"---");
             sb.AppendLine();
             sb.AppendLine($"<div class='display-3 mb-3'><a href='/cookbook/{Version}' class='text-dark'>ScottPlot {Version} Cookbook</a></div>");
@@ -123,6 +124,8 @@ namespace SiteBuilder
             string title = category.Replace("Plottable: ", "");
             sb.AppendLine($"---");
             sb.AppendLine($"Title: {title} - ScottPlot {Version} Cookbook");
+            sb.AppendLine($"Description: {category} recipes");
+            sb.AppendLine($"Source: https://github.com/ScottPlot/ScottPlot/tree/master/src/cookbook");
             sb.AppendLine($"---");
             sb.AppendLine();
             sb.AppendLine($"<div class='display-3'><a href='/cookbook/{Version}' class='text-dark'>ScottPlot {Version} Cookbook</a></div>");
