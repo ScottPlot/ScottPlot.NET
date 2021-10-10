@@ -38,5 +38,3 @@ Description: A click-to-run application designed to make it easy to assess the c
         </div>
     </div>
 </div>
-
-**Older versions:** [all ScottPlot demos](https://swharden.com/scottplot/demos/)
