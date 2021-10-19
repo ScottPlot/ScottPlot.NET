@@ -23,14 +23,10 @@ namespace SiteBuilder
         {
             foreach (string username in usernames.Distinct().OrderByDescending(x => x))
             {
-                Console.WriteLine($"Replacing {username}");
-                Console.WriteLine(md);
                 md = md.Replace($"@{username}", $"[**%USERNAME%{username}**](https://github.com/{username})");
-                Console.WriteLine(md);
             }
 
             md = md.Replace("%USERNAME%", "@");
-            Console.WriteLine(md);
 
             return md;
         }
