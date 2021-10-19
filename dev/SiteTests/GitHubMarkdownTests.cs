@@ -43,17 +43,5 @@ namespace SiteTests
             Assert.That(annotated.Contains("[**@bclehmann**](https://github.com/bclehmann)"));
             Assert.That(annotated.Contains("[**@Superberti**](https://github.com/Superberti)"));
         }
-
-        [Test]
-        public void Test_Changelog_HasNoUnlinkedUsernames()
-        {
-            string path = Path.GetFullPath("../../../../../../ScottPlot/dev/changelog.md");
-            string rawMarkdown = File.ReadAllText(path);
-            string changelogMarkdownRaw = SiteBuilder.PageBuilding.GetAnnotatedChangelogMarkdown(rawMarkdown);
-            string outFile = Path.GetFullPath("test-changelog.md");
-            SiteBuilder.PageBuilding.CreateChangelogMarkdownPage(changelogMarkdownRaw, outFile);
-            Console.WriteLine(outFile);
-            Assert.That(!changelogMarkdownRaw.Contains(" @"));
-        }
     }
 }
