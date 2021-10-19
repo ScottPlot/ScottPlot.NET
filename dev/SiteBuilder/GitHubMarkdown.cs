@@ -23,10 +23,14 @@ namespace SiteBuilder
         {
             foreach (string username in usernames.Distinct().OrderByDescending(x => x))
             {
+                Console.WriteLine($"Replacing {username}");
+                Console.WriteLine(md);
                 md = md.Replace($"@{username}", $"[**%USERNAME%{username}**](https://github.com/{username})");
+                Console.WriteLine(md);
             }
 
             md = md.Replace("%USERNAME%", "@");
+            Console.WriteLine(md);
 
             return md;
         }
@@ -34,11 +38,19 @@ namespace SiteBuilder
         public static string[] GetUsernames(string md)
         {
             List<string> usernames = new();
-            foreach (string line in md.Split())
+            string[] lines = md.Split("\n");
+            foreach (string line in lines)
             {
-                usernames.AddRange(GetUsernamesFromLine(line));
+                string[] lineNames = GetUsernamesFromLine(line);
+                usernames.AddRange(lineNames);
             }
             return usernames.ToArray();
+        }
+
+        public static string[] GetUniqueUsernames(string rawMarkdown)
+        {
+            string[] usernames = GetUsernames(rawMarkdown);
+            return usernames.Distinct().OrderBy(x => x.ToLower()).ToArray();
         }
 
         public static string[] GetUsernamesFromLine(string line)
