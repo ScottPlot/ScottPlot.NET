@@ -76,7 +76,7 @@ namespace SiteTests
 
             foreach (string line in rawMarkdown.Split("\n"))
             {
-                foreach (string username in GitHubMarkdown.GetUsernames(line))
+                foreach (string username in SiteBuilder.GitHubMarkdown.GetUsernames(line))
                 {
                     uniqueNames.Add(username);
                 }
@@ -92,12 +92,12 @@ namespace SiteTests
             {
                 string md = chunks[i];
 
-                string[] usernames = GitHubMarkdown.GetUsernames(md);
+                string[] usernames = SiteBuilder.GitHubMarkdown.GetUsernames(md);
                 string[] uniqueUsernames = usernames.Append("swharden").Distinct().OrderBy(x => x).ToArray();
-                md = GitHubMarkdown.LinkUsernames(md, uniqueUsernames);
+                md = SiteBuilder.GitHubMarkdown.LinkUsernames(md, uniqueUsernames);
 
-                int[] issueNumbers = GitHubMarkdown.GetIssues(md);
-                md = GitHubMarkdown.LinkIssues(md, issueNumbers);
+                int[] issueNumbers = SiteBuilder.GitHubMarkdown.GetIssues(md);
+                md = SiteBuilder.GitHubMarkdown.LinkIssues(md, issueNumbers);
 
                 if (uniqueUsernames.Length > 1) // will always contain swharden
                 {

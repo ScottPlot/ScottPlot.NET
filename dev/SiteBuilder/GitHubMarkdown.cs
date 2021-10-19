@@ -1,14 +1,12 @@
 using System;
 using System.Linq;
 using System.Collections.Generic;
-using NUnit.Framework;
 using System.IO;
 
-namespace SiteTests
+namespace SiteBuilder
 {
     public static class GitHubMarkdown
     {
-        
         public static string LinkIssues(string md, int[] numbers)
         {
             foreach (int number in numbers.Distinct().OrderByDescending(x => x))
@@ -43,7 +41,7 @@ namespace SiteTests
             return usernames.ToArray();
         }
 
-        private static string[] GetUsernamesFromLine(string line)
+        public static string[] GetUsernamesFromLine(string line)
         {
             List<string> usernames = new();
             List<char> nextUsername = new();
