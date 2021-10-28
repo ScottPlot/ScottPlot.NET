@@ -46,6 +46,7 @@ namespace SiteTests
             ssg.HeaderRequirements.RequireDescription = false;
             ssg.HeaderRequirements.RequireDate = false;
             ssg.Generate();
+            ssg.GenerateSitemap();
         }
 
         private string DownloadChangelog()
