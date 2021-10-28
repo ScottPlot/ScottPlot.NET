@@ -49,6 +49,17 @@ namespace SiteBuilder
                 GenerateCategoryPage(category);
 
             GenerateHomePage(categories);
+            GenerateSitemap();
+        }
+
+        private void GenerateSitemap()
+        {
+            var sm = new Statix.Sitemap.SitemapBuilder();
+            sm.AddScan(CookbookPath, "https://scottplot.net/cookbook/4.1/");
+
+            string sitemapFilePath = Path.Combine(CookbookPath, "sitemap.xml");
+            File.WriteAllText(sitemapFilePath, sm.GetXML());
+            Console.WriteLine($"Generated cookbook sitemap with {sm.Count} pages: {sitemapFilePath}");
         }
 
         private void GenerateHomePage(string[] categories)
