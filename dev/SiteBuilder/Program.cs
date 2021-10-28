@@ -47,6 +47,7 @@ namespace SiteBuilder
             ssg.HeaderRequirements.RequireDate = false;
 
             ssg.Generate();
+            ssg.GenerateSitemap();
         }
     }
 }
