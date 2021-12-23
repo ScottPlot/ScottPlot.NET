@@ -43,7 +43,7 @@ This page summarizes how axes are customized in ScottPlot
 
 * **GetAxisLimits()** returns current limits for the primary axes
 
-* **SetAxisBoundaries()** can be used to ensure axis limits stay within a defined boundary
+* **SetOuterViewLimits()** and **SetInnerViewLimits()** can be used to ensure the user does not zoom out or zoom in farther than intended
 
 ## Multiple Axes
 
