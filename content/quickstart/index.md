@@ -11,6 +11,8 @@ Description: Plot data with a few lines of C#
 
 * [**ScottPlot Quickstart - Avalonia**](avalonia)
 
+* [**ScottPlot Quickstart - Eto**](eto)
+
 * [**ScottPlot Quickstart - Console Application**](console)
 
 ## ScottPlot Quickstart
