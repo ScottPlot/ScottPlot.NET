@@ -44,3 +44,17 @@ avaPlot1.Refresh();
 ![](scottplot-quickstart-avalonia.png)
 
 </div>
+
+## MacOS & Linux
+
+ScottPlot relies on [`System.Drawing.Common`](https://www.nuget.org/packages/System.Drawing.Common) which requires [libgdiplus](https://www.mono-project.com/docs/gui/libgdiplus/) on non-Windows systems:
+
+* **MacOS:** `brew install mono-libgdiplus`
+
+* **Linux:** `apt-get install -y libgdiplus`
+
+You may also need to specifically add the [`System.Drawing.Common`](https://www.nuget.org/packages/System.Drawing.Common) package to your project:
+
+```
+dotnet add package System.Drawing.Common
+```
