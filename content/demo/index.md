@@ -38,3 +38,12 @@ Description: A click-to-run application designed to make it easy to assess the c
         </div>
     </div>
 </div>
+
+## Source Code
+* [Windows Forms Demo Source](https://github.com/ScottPlot/ScottPlot/tree/master/src/demo/ScottPlot.Demo.WinForms)
+* [WPF Demo Source](https://github.com/ScottPlot/ScottPlot/tree/master/src/demo/ScottPlot.Demo.WPF)
+* [Avalonia Demo Source](https://github.com/ScottPlot/ScottPlot/tree/master/src/demo/ScottPlot.Demo.Avalonia)
+* [Eto Demo Source](https://github.com/ScottPlot/ScottPlot/tree/master/src/demo/ScottPlot.Demo.Eto)
+* [Cookbook Recipe Source](https://github.com/ScottPlot/ScottPlot/tree/master/src/cookbook/ScottPlot.Cookbook/Recipes)
+
+
