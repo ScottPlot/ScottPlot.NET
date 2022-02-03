@@ -1,7 +1,3 @@
----
-Title: About ScottPlot
----
-
 # About ScottPlot
 
 See [faq#about-scottplot](../faq/#about-scottplot) for additional information
