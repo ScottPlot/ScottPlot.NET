@@ -3,8 +3,6 @@ Title: Plot Data Containing Gaps - ScottPlot FAQ
 Description: How to use ScottPlot to display data containing gaps
 ---
 
-# Plot Data Containing Gaps
-
 **ScottPlot's Scatter and Signal plots require that data is continuous and does not contain gaps.** To give the appearance of a plot where the data has gaps, users must create an individual plot for each continuous segment of the data. We recognize this requires effort on behalf of the developer, but this design allows ScottPlot to remain maximally performant.
 
 

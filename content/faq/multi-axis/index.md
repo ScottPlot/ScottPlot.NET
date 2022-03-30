@@ -1,9 +1,7 @@
 ---
-Title: Multi-Axis Plots
+Title: Multi-Axis Plots - ScottPlot FAQ
 Description: How to create plots with multiple axes
 ---
-
-# Multiple Axes with ScottPlot
 
 **This page reviews the primary functionality of ScottPlot's axis system.** A brief introduction to the ScottPlot API exists in the [**ScottPlot Overview**](../../overview). 
 

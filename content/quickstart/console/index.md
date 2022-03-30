@@ -1,8 +1,10 @@
 ---
 Title: Console Application Quickstart
+description: How to create a plot and save it as an image from a C# console application
+url: "quickstart/console"
+date: 2021-09-26
+lastmod: 2021-12-29
 ---
-
-# Console Application Quickstart
 
 **Step 1:** Install the [`ScottPlot`](https://www.nuget.org/packages/ScottPlot) NuGet package
 

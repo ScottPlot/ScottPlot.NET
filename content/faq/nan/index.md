@@ -3,8 +3,6 @@ title: ScottPlot, NaN, and Infinity - ScottPlot FAQ
 description: How does ScottPlot treat data arrays containing NaN and Infinity? Not well! Do not use these values in your data.
 ---
 
-# Data Containing `NaN`
-
 It is possible to place these numbers inside `double[]` arrays:
 * `Double.PositiveInfinity`
 * `Double.NegativeInfinity`

@@ -3,8 +3,6 @@ title: History of ScottPlot - ScottPlot FAQ
 description: Where did ScottPlot come from and who is Scott?
 ---
 
-# History of ScottPlot
-
 **Hi, I'm Scott!** I'm a biological research scientist, but I occasionally write code to accomplish science-related tasks. You can read more about me here: [swharden.com/about](https://swharden.com/about/)
 
 **Like many scientists, I have experience using [matplotlib](https://matplotlib.org) for Python.** Matplotlib is a fantastic plotting library and is very easy to learn. Unfortunately, it can be difficult to distribute Python applications that run easily on other peoples computers (especially if they are not strong computer users). Managing interpreter versions, setting up dev environments, and debugging dependency errors is beyond the scope of capabilities for most non-programmers who just want to run a program to analyze some data. In 2017 I decided to learn C# and the .NET stack to improve my ability to make scientific desktop applications.

@@ -3,8 +3,6 @@ title: Axes and Axis Limits - ScottPlot FAQ
 description: Axis Styles, axis limits, and multiple axes in ScottPlot
 ---
 
-# Axes and Axis Limits
-
 This page summarizes how axes are customized in ScottPlot
 
 ## Axis Labels, Ticks, Lines, and Grid

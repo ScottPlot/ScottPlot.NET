@@ -3,7 +3,7 @@ Title: ScottPlot vs. Similar Libraries - ScottPlot FAQ
 Description: Similarities and differences of ScottPlot vs. other popular .NET plotting libraries
 ---
 
-# ScottPlot Philosophy
+## ScottPlot Philosophy
 
 **ScottPlot was created to:**
 
@@ -16,7 +16,7 @@ Description: Similarities and differences of ScottPlot vs. other popular .NET pl
 
 ## Similar Plotting Libraries for .NET
 
-**⚠️ WARNING: This section is a work in progress.** I started reviewing these libraries in 2019 but never finished. I at least produced code examples for most of these libraries. You can see that work in progress here: [CsharpDataVis](https://swharden.com/CsharpDataVis/#free-and-open-source-charting-libraries)
+**⚠️ WARNING: This section is a work in progress.** I started reviewing these libraries in 2019 but never finished. I at least produced code examples for most of these libraries. You can see that work in progress here: [C# Data Visualization](https://swharden.com/csdv/)
 
 ### Free
 * Microsoft Charting

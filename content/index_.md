@@ -1,17 +1,16 @@
 ---
-Title: ScottPlot - Interactive Plotting Library for .NET
-Description: ScottPlot is a free and open-source plotting library for .NET that makes it easy to interactively display large datasets. Line plots, bar charts, pie graphs, scatter plots, and more can be created with just a few lines of code.
+Title: ScottPlot
+Description: Interactive Plotting Library for .NET
+url: /
+date: 2021-09-06
+lastmod: 2022-03-29
 ---
-
-# ScottPlot
 
 **ScottPlot is a free and open-source plotting library for .NET** that makes it easy to interactively display large datasets. Line plots, bar charts, pie graphs, scatter plots, and more can be created with just a few lines of code.
 
-<div class="text-center">
-  <a href='cookbook'>
-    <img src='assets/images/scottplot.gif' />
-  </a>
-</div>
+<a href='cookbook'>
+  <img src='/images/scottplot.gif' class="d-block mx-auto my-4" />
+</a>
 
 ## Quickstart
 
@@ -38,11 +37,9 @@ The [**ScottPlot Cookbook**](cookbook) demonstrates how to create line plots, ba
 
 The [**ScottPlot Demo**](demo) is a click-to-run application that demonstrates mouse-interactive versions of every cookbook recipe.
 
-<div class="text-center">
-  <a href='cookbook'>
-    <img src='assets/images/cookbook.jpg' />
-  </a>
-</div>
+<a href='cookbook'>
+  <img src='images/cookbook.jpg' class="d-block mx-auto my-5" />
+</a>
 
 ## Plot in the Cloud
 
@@ -50,14 +47,11 @@ The [**ScottPlot Demo**](demo) is a click-to-run application that demonstrates m
 
 **Try it out!** [Give us a star](https://github.com/scottplot/scottplot) and come back in an hour and your name will appear here:
 
-<div class="text-center">
 
-  <a href="https://stargraph.z20.web.core.windows.net/scottplot-stars.png" target="_blank">
-    <img src="https://stargraph.z20.web.core.windows.net/scottplot-stars.png?">
-  </a>
+<a href="https://stargraph.z20.web.core.windows.net/scottplot-stars.png" target="_blank">
+  <img src="https://stargraph.z20.web.core.windows.net/scottplot-stars.png?" class="d-block mx-auto my-4" >
+</a>
 
-  <a href='https://nugetppt.z20.web.core.windows.net/plots/scottplot.png'>
-    <img src='https://nugetppt.z20.web.core.windows.net/plots/scottplot.png'>
-  </a>
-
-</div>
+<a href='https://nugetppt.z20.web.core.windows.net/plots/scottplot.png'>
+  <img src='https://nugetppt.z20.web.core.windows.net/plots/scottplot.png' class="d-block mx-auto my-4" >
+</a>

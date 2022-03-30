@@ -3,8 +3,6 @@ title: Shared Axes - ScottPlot FAQ
 description: How to have two user controls with shared axes so when one pans, the other pans automatically
 ---
 
-# User Controls with Shared Axes
-
 **This page describes how to have two user controls with shared axes so that when one pans, the other pans automatically.** This example will showcase Windows Forms, but the technique is the same for all ScottPlot controls.
 
 <div class="text-center">

@@ -1,16 +1,16 @@
 ---
 Title: ScottPlot 4.0.47 Cookbook
+Description: Example plots displayed next to the code used to produce them
 ---
-# ScottPlot 4.0 Cookbook
 
-> **⚠️ WARNING: This cookbook is obsolete.** 
-> This documentation page was generated specifically for ScottPlot 4.0.47 on Dec 12, 2020.
-> Visit the [ScottPlot Cookbook Page](../)
-> for links to the latest versions of the cookbook.
+<div class="alert alert-danger text-center" role="alert">
+  <div class="alert-heading fs-1">⚠️ WARNING ⚠️</div>
+  <div>This cookbook documents an <b>obsolete</b> version of ScottPlot!</div>
+  <div>Visit <a href='/cookbook'><b>ScottPlot.NET/cookbook</b></a> for documentation of the current version.</div>
+</div>
 
 ## Table of Contents
-
-![](TOC)
+{{< toc >}}
 
 ## Quickstart
 

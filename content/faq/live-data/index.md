@@ -3,8 +3,6 @@ title: Plot Live, Changing Data - ScottPlot FAQ
 description: How to display data plots of live data that changes continuously.
 ---
 
-# Plot Live, Changing Data
-
 **What is the best way to plot data that is constantly changing or growing?** Several options are available to the developer. To choose the best one, consider these important points:
 
 1. **After you plot an array, you can continue to modify its values.** For example, if you load an array into a Signal plot you can continue to modify that array's values after it has been plotted. Whenever the plot renders again, the latest values will appear on the plot. This is the best option for fixed-length datasets and it is always thread safe.

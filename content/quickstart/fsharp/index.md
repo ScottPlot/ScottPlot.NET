@@ -1,5 +1,6 @@
 ---
 Title: F# Quickstart
+url: "quickstart/fsharp"
 ---
 
 # F# Quickstart

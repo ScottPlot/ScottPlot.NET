@@ -1,8 +1,9 @@
 ---
-Title: Eto Application Quickstart
+Title: Eto Quickstart
+url: "quickstart/eto"
+date: 2021-12-29
+description: How to create an interactive plot in a C# Eto application
 ---
-
-# Eto Application Quickstart
 
 **Step 1:** Install the [`ScottPlot.Eto`](https://www.nuget.org/packages/ScottPlot.Eto) NuGet package
 

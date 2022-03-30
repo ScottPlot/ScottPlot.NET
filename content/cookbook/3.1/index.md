@@ -1,76 +1,16 @@
 ---
 Title: ScottPlot 3.1 Cookbook
+Description: Example plots displayed next to the code used to produce them
 ---
 
-# ScottPlot 3.1 Cookbook
-
-> **⚠️ WARNING: This cookbook is obsolete.** 
-> This documentation page was generated specifically for ScottPlot 3.1.6 on Oct 10, 2019.
-> Visit the [ScottPlot Cookbook Page](../)
-> for links to the latest versions of the cookbook.
+<div class="alert alert-danger text-center" role="alert">
+  <div class="alert-heading fs-1">⚠️ WARNING ⚠️</div>
+  <div>This cookbook documents an <b>obsolete</b> version of ScottPlot!</div>
+  <div>Visit <a href='/cookbook'><b>ScottPlot.NET/cookbook</b></a> for documentation of the current version.</div>
+</div>
 
 ## Table of Contents
-
-<a href='#scatter-sin'>Scatter Sin</a>, 
-<a href='#automatic-margins'>Automatic Margins</a>, 
-<a href='#defined-axis-limits'>Defined Axis Limits</a>, 
-<a href='#zoom-and-pan'>Zoom and Pan</a>, 
-<a href='#legend'>Legend</a>, 
-<a href='#custom-marker-shapes'>Custom Marker Shapes</a>, 
-<a href='#all-marker-shapes'>All Marker Shapes</a>, 
-<a href='#styling-scatter-plots'>Styling Scatter Plots</a>, 
-<a href='#plot-xy-data'>Plot XY Data</a>, 
-<a href='#plot-lines-only'>Plot Lines Only</a>, 
-<a href='#plot-points-only'>Plot Points Only</a>, 
-<a href='#styling-xy-plots'>Styling XY Plots</a>, 
-<a href='#custom-linestyles'>Custom LineStyles</a>, 
-<a href='#plotting-points'>Plotting Points</a>, 
-<a href='#plotting-text'>Plotting Text</a>, 
-<a href='#clearing-plots'>Clearing Plots</a>, 
-<a href='#modifying-plotted-data'>Modifying Plotted Data</a>, 
-<a href='#modify-styles-after-plotting'>Modify Styles After Plotting</a>, 
-<a href='#date-axis'>Date Axis</a>, 
-<a href='#small-plot'>Small Plot</a>, 
-<a href='#title-and-axis-labels'>Title and Axis Labels</a>, 
-<a href='#extra-padding'>Extra Padding</a>, 
-<a href='#automatic-left-padding'>Automatic Left Padding</a>, 
-<a href='#custom-colors'>Custom Colors</a>, 
-<a href='#frameless-plot'>Frameless Plot</a>, 
-<a href='#disable-the-grid'>Disable the Grid</a>, 
-<a href='#corner-axis-frame'>Corner Axis Frame</a>, 
-<a href='#horizontal-ticks-only'>Horizontal Ticks Only</a>, 
-<a href='#very-large-numbers'>Very Large Numbers</a>, 
-<a href='#axis-exponent-and-offset'>Axis Exponent And Offset</a>, 
-<a href='#multiplier-notation-default'>Multiplier Notation Default</a>, 
-<a href='#multiplier-notation-disabled'>Multiplier Notation Disabled</a>, 
-<a href='#very-large-images'>Very Large Images</a>, 
-<a href='#signal'>Signal</a>, 
-<a href='#signalconst'>SignalConst</a>, 
-<a href='#signal-styling'>Signal Styling</a>, 
-<a href='#vertical-and-horizontal-lines'>Vertical and Horizontal Lines</a>, 
-<a href='#axis-spans'>Axis Spans</a>, 
-<a href='#styleblue1'>StyleBlue1</a>, 
-<a href='#styleblue2'>StyleBlue2</a>, 
-<a href='#styleblue3'>StyleBlue3</a>, 
-<a href='#stylelight1'>StyleLight1</a>, 
-<a href='#stylelight2'>StyleLight2</a>, 
-<a href='#stylegray1'>StyleGray1</a>, 
-<a href='#stylegray2'>StyleGray2</a>, 
-<a href='#styleblack'>StyleBlack</a>, 
-<a href='#styledefault'>StyleDefault</a>, 
-<a href='#stylecontrol'>StyleControl</a>, 
-<a href='#plotting-with-errorbars'>Plotting With Errorbars</a>, 
-<a href='#plot-bar-data'>Plot Bar Data</a>, 
-<a href='#plot-bar-data-fancy'>Plot Bar Data Fancy</a>, 
-<a href='#step-plot'>Step Plot</a>, 
-<a href='#manual-grid-spacing'>Manual Grid Spacing</a>, 
-<a href='#histogram'>Histogram</a>, 
-<a href='#cph'>CPH</a>, 
-<a href='#candlestick'>Candlestick</a>, 
-<a href='#ohlc'>OHLC</a>, 
-<a href='#save-scatter-data'>Save Scatter Data</a>, 
-<a href='#save-signal-data'>Save Signal Data</a>, 
-<a href='#custom-fonts'>Custom Fonts</a>
+{{< toc >}}
 
 ## Scatter Sin
 

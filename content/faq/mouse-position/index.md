@@ -3,8 +3,6 @@ title: Mouse Position - ScottPlot FAQ
 description: How to determine where the cursor is and what data points may be near it
 ---
 
-## Mouse Position in ScottPlot
-
 This page documents how to use ScottPlot user controls to determine where the mouse cursor is and which data points are near it. 
 
 ### Determine where the Mouse Cursor Is

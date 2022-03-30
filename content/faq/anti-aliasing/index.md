@@ -3,8 +3,6 @@ title: Anti-Aliasing - ScottPlot FAQ
 description: How to configure anti-aliasing settings in ScottPlot
 ---
 
-# Anti-Aliasing in ScottPlot
-
 ScottPlot renders using high quality (anti-aliased) graphics by default. This functionality can be overwritten when requesting a render:
 
 ```cs

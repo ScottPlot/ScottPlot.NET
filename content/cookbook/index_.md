@@ -1,6 +1,7 @@
 ---
 title: ScottPlot Cookbooks
 description: Cookbooks or organized by major version
+url: /cookbook
 ---
 
 # ScottPlot Cookbooks

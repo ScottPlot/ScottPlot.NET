@@ -1,6 +1,8 @@
 ---
 Title: ScottPlot Quickstart
 Description: Plot data with a few lines of C#
+url: "quickstart"
+url: /quickstart
 ---
 
 ## Quickstart by Application Type

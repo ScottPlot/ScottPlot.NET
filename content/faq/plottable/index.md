@@ -3,8 +3,6 @@ title: Plottable Objects - ScottPlot FAQ
 description: How to create plottable objects, add them to plots, and interact with their data and styling
 ---
 
-# Plottable Objects
-
 * A **Plottable** is anything you can display on a plot. 
 
 * The **scatter plot** is the most commonly used plottable, and many plottables can be added to a plot. Other plottables like the **signal plot** offer superior performance for large datasets, so all plottable types should be considered.
