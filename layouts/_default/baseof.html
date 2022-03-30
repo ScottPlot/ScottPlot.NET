@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- standard meta -->
+    <title>{{ .Title }}</title>
+    <meta name="description" content="{{ .Description }}">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/images/brand/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/images/brand/favicon-180.png">
+    <link rel="manifest" href="/images/brand/manifest.webmanifest">
+    <meta name="theme-color" content="#67217A" />
+
+    <!-- feed -->
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
+
+    <!-- stylesheets -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/page.css?v=3">
+    <link rel="stylesheet" href="/css/github.css?v=3">
+
+    <!-- Facebook -->
+    <meta property="og:url" content="{{ .Site.BaseURL }}">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ .Title }}">
+    <meta property="og:description" content="{{ .Description }}">
+    <meta property="og:image" content="/images/brand/banner.jpg">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="{{ .Site.BaseURL }}">
+    <meta property="twitter:url" content="{{ .Site.BaseURL }}">
+    <meta name="twitter:title" content="{{ .Title }}">
+    <meta name="twitter:description" content="{{ .Description }}">
+    <meta name="twitter:image" content="/images/brand/banner.jpg">
+
+    <!-- analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GN1D8JT7TK"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-GN1D8JT7TK');
+    </script>
+
+</head>
+
+<body class="bg-light">
+
+    {{ partial "menu.html" . }}
+
+    <div class="container-fluid p-0" style="position: relative; max-width: 1000px;">
+        <main class="my-5">
+            {{ block "main" . }}
+            {{ end }}
+        </main>
+    </div>
+
+    <footer class="container align-items-end mt-5">
+        <div class="row">
+            <div class="col-sm text-center py-3" style="opacity: .3;">
+                <div>
+                    Copyright &copy; {{ now.Format "2006" }}
+                </div>
+                <div>
+                    <a href='https://swharden.com/about' class="text-dark">Scott W Harden</a>
+                </div>
+            </div>
+
+            <div class="col-sm text-center py-3" style="opacity: .3;">
+                <div>
+                    Built with Hugo {{ .Site.Hugo.Version }}
+                </div>
+                <div>
+                    {{ time now | time.Format ":date_long" }}
+                    at {{ time now "America/New_York" | time.Format ":time_short" }} EST
+                </div>
+            </div>
+
+            <div class="col-sm text-center py-3" style="opacity: .3;">
+                <div>
+                    <a href="https://github.com/scottplot/scottplot.net/blob/main/content/{{ path.Clean .File.Path }}"
+                        class="text-dark">
+                        Page Source
+                    </a>
+                </div>
+                <div>
+                    <a href="/sitemap.xml" class="text-dark">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+{{ if not .Title }}
+{{ warnf "Missing Title: %q" .File.Path }}
+{{ end }}
+
+{{ if not .Description }}
+{{ warnf "Missing Description: %q" .File.Path }}
+{{ end }}
+
+{{ if not .Date }}
+{{ warnf "Missing Date: %q" .File.Path }}
+{{ end }}

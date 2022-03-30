@@ -1,0 +1,25 @@
+<!-- original date -->
+{{ if not .Date.IsZero }}
+<a href="{{ .Permalink }}" class="text-dark">
+    {{ .Date.Format "January 2, 2006" }}
+</a>
+<span style='opacity: .3;'>|</span>
+{{ end }}
+
+<!-- modified date -->
+{{ if isset .Params "lastmod" }}
+{{ if ne .Date .Lastmod }}
+<a href="{{ .Permalink }}" class="text-dark">
+    updated on {{ .Params.lastmod | dateFormat "Jan 2, 2006" }}
+</a>
+<span style='opacity: .3;'>|</span>
+{{ end }}
+{{ end }}
+
+<!-- permalink -->
+<a href="{{ .Permalink }}" class="text-dark">permalink</a>
+<span style='opacity: .3;'>|</span>
+
+<!-- source link -->
+<a href="https://github.com/scottplot/scottplot.net/blob/main/content/{{ path.Clean .File.Path }}"
+    class="text-dark">view source</a>
