@@ -1,13 +1,18 @@
-# ScottPlot.NET
+# ![](static/images/brand/favicon-32.png) ScottPlot.NET (the website)
 
-This repository contains source code for the [ScottPlot.NET](https://scottplot.net) website.
+* This repository contains source code for the [ScottPlot.NET](https://scottplot.net) website
 
-Source code for the ScottPlot package is in the [ScottPlot repository](https://github.com/scottplot/scottplot).
+* Source code for the ScottPlot package is in the [ScottPlot repository](https://github.com/scottplot/scottplot)
 
 ### Development Environment
 
-* [SiteBuilder](dev/SiteBuilder) is a C# console application that builds the website. It uses the [Statix](https://github.com/swharden/statix) package to convert Markdown to HTML pages based on [`template.html`](dev/theme/article-single.html).
+This website uses [Hugo](https://gohugo.io/) to convert Markdown content into HTML files
 
-* Scripts for building and serving locally are in [`dev/`](dev) 
+* Get the [latest Hugo release from GitHub](https://github.com/gohugoio/hugo/releases) and ensure it is in your `PATH`\
+  _Binaries are available for Windows, Linux, and MacOS_
 
-* The website is automatically built and deployed using GitHub Actions ([`ci.yaml`](.github/workflows/ci.yaml))
+* Run `hugo serve` and navigate to http://localhost:1313 to see the site locally
+
+### Deployment
+
+* GitHub Actions builds the Hugo site and deploys it using rsync ([details](https://swharden.com/blog/2022-03-20-github-actions-hugo))
