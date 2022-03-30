@@ -25,15 +25,26 @@ function markdownLinksToHtml(text) {
     return text;
 }
 
-function markdownFormatToHtml(text, char = '_', element = "i") {
-    text = " " + String(text) + " ";
-    return text
+function markdownFormatToHtml(text, char, element) {
+    let html = " " + String(text) + " ";
+    html = text
         .replaceAll(` ${char}`, ` <${element}>`)
         .replaceAll(`${char} `, `</${element}> `)
         .replaceAll(`${char},`, `</${element}>,`)
         .replaceAll(`(${char}`, `(<${element}>`)
         .replaceAll(`${char})`, `</${element}>)`)
-        .trim();
+        .replaceAll(`${char}. `, `</${element}>. `)
+        .replaceAll(`.${char} `, `.</${element}> `)
+
+        // why this no work as argument?
+        .replaceAll(" **", "<b>")
+        .replaceAll("** ", "</b>")
+        .trim()
+
+    if (html.includes("**"))
+        console.log(html);
+
+    return html;
 }
 
 function markdownTagToHtml(text, char = "@", baseUrl = "https://github.com/") {
@@ -60,11 +71,17 @@ function markdownTagToHtml(text, char = "@", baseUrl = "https://github.com/") {
 function markdownLineToHtml(text) {
 
     if (text.startsWith("* ")) {
-        text = "<li> " + text.substring(2) + " </li>";
+        text = "<li> " + text.substring(2).trim() + " </li>";
     }
 
+    if (text.startsWith("  * ")) {
+        text = "<li class='ms-4'> " + text.substring(4) + " </li>";
+    }
+
+    text = " " + text.trim() + " ";
     text = markdownFormatToHtml(text, "_", "i")
     text = markdownFormatToHtml(text, "`", "code");
+    text = markdownFormatToHtml(text, '**', "b");
     text = markdownLinksToHtml(text);
     text = markdownTagToHtml(text, "#", "https://github.com/ScottPlot/ScottPlot/issues/");
     text = markdownTagToHtml(text, "@", "https://github.com/");
@@ -77,8 +94,6 @@ function updateChangelogDiv(markdownText) {
     changelogDiv.innerHTML = "";
 
     lines.forEach(line => {
-        line = line.trim();
-
         if (String(line).startsWith("# ")) {
             const h = document.createElement("h1");
             h.innerText = String(line).substring(2);
