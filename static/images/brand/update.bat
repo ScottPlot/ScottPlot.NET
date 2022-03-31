@@ -1,6 +1,6 @@
 :: banner.svg is a 1200x630 for og images
-magick banner.svg banner.png
-magick banner.svg banner.jpg
+:: magick banner.svg banner.png :: export from InkScape because font issue
+magick banner.png banner.jpg
 
 :: favicon.svg is a square icon
 magick favicon.svg -resize 16x16 favicon-16.png
