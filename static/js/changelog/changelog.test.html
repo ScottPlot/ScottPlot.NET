@@ -7,11 +7,19 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="changelog.js"></script>
+
+    <script>
+        function updateChangelog() {
+            const urlForProd = 'https://raw.githubusercontent.com/ScottPlot/ScottPlot/main/src/ScottPlot4/changelog.md'
+            const urlForTesting = 'changelog.test.md'
+            const gen = new ChangelogPageGenerator("changelog", urlForTesting, "ScottPlot", "ScottPlot");
+        }
+    </script>
 </head>
 
 <body onload="updateChangelog();">
     <div class="container my-5">
-        <div id="changelog">Loading...</div>
+        <div id="changelog">Downloading changelog from GitHub...</div>
     </div>
 </body>
 
