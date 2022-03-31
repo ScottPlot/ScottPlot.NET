@@ -21,5 +21,5 @@ disableKinds = ["taxonomy", "taxonomyTerm", "RSS", "section"]
     lineNumbersInTable = true
     noClasses = true
     noHl = false
-    style = 'emacs' #https://xyproto.github.io/splash/docs/all.html
+    style = 'vs' #https://xyproto.github.io/splash/docs/all.html
     tabWidth = 4
