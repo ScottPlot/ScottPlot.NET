@@ -14,7 +14,7 @@ Description: Release notes for every version of ScottPlot
     <div class='fs-2 font-monospace text-center'>Downloading changelog from GitHub...</div>
 </div>
 
-<script language="javascript" type="text/javascript" src="/js/changelog/changelog.js"></script>
+<script language="javascript" type="text/javascript" src="changelog.js"></script>
 
 <script defer>
     console.log("yep");

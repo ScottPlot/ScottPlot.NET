@@ -29,6 +29,5 @@ Description: Members of the open-source community who contributed to ScottPlot
 
 <script>
     const changelogUrl = 'https://raw.githubusercontent.com/ScottPlot/ScottPlot/main/src/ScottPlot4/changelog.md';
-    const testUrl = '/js/changelog/changelog.test.md';
-    const gen = new ContributorPageGenerator("contributors", testUrl);
+    const gen = new ContributorPageGenerator("contributors", changelogUrl);
 </script>
