@@ -1,7 +1,7 @@
 ---
 Title: ScottPlot 4.1 Cookbook
 Description: Example plots shown next to the code used to create them
-url: /cookbook/4.1
+url: /cookbook/4.1/
 ---
 
 <!--
