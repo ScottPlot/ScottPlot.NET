@@ -35,4 +35,4 @@ jobs:
         run: rsync --archive --stats -e 'ssh -p 18765' 'public/' ${{ secrets.REMOTE_DEST }}
 
       - name: 🧹 Purge Cache
-        run: curl --user deploy:${{ secrets.PURGE_PASSWORD }} https://scottplot.net/admin/purge
+        run: curl --user deploy:${{ secrets.PURGE_PASSWORD }} https://scottplot.net/admin/purge/
