@@ -153,8 +153,6 @@ private void timer2_Tick(object sender, EventArgs e)
 
 ## Growing Data with ScatterPlotList
 
-The `ScatterPlotList` plot type uses `List<double>` instead of `double[]` to store data, so it is easy to `Add()` data to. After adding new data the user can set the axis limits as desired and request a render. Scatter plots are slow for large datasets, so the Signal plot methods described above are almost always preferred.
+The `ScatterPlotList` plot type uses `List<double>` instead of `double[]` to store data, so it is easy to `Add()` data to. Actually, it supports `<T>` so you can create one using any data type that can be converted to a `double`. After adding new data the user can set the axis limits as desired and request a render. Scatter plots are slow for large datasets, so the Signal plot methods described above are almost always preferred.
 
-## Growing Data with SignalPlotList
-
-TODO: create this plot type
+See the Cookbook for examples: https://scottplot.net/cookbook/4.1/category/plottable-scatter-plot-list/
