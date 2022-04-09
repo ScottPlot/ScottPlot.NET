@@ -45,6 +45,8 @@ Module Program
 End Module
 ```
 
+![](scottplot-quickstart-console.png)
+
 ## Windows Forms Application
 
 **Step 1:** Install the [`ScottPlot`](https://www.nuget.org/packages/ScottPlot) NuGet package
@@ -129,3 +131,5 @@ Public Class Form1
     End Sub
 End Class
 ```
+
+![](scottplot-quickstart-winforms.png)
