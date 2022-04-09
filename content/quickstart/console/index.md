@@ -20,6 +20,26 @@ plt.SaveFig("quickstart.png");
 
 ![](scottplot-quickstart-console.png)
 
+## Launch an Interactive Window
+
+Plots created in console applications can be launched in a pop-up window allowing interactive pan and zoom:
+
+* Install [`ScottPlot.WinForms`](https://www.nuget.org/packages/ScottPlot.WinForms) (or one of the other ScottPlot control libraries)
+* Create a `Plot` as described above
+* Instantiate a `PlotViewer` with that `Plot` and `Show()` it
+
+```cs
+double[] dataX = new double[] { 1, 2, 3, 4, 5 };
+double[] dataY = new double[] { 1, 4, 9, 16, 25 };
+var plt = new ScottPlot.Plot(400, 300);
+plt.AddScatter(dataX, dataY);
+new ScottPlot.FormsPlotViewer(plt).ShowDialog();
+```
+
+![](scottplot-quickstart-winforms.png)
+
+> 💡 Interactive plots using the WinForms and WPF controls require the console application to target Windows, but a strategy for launching interactive plots from console applications running on Linux using Avalonia is described in [#1769](https://github.com/ScottPlot/ScottPlot/issues/1769#issuecomment-1093504868)
+
 ## MacOS & Linux
 
 ScottPlot relies on [`System.Drawing.Common`](https://www.nuget.org/packages/System.Drawing.Common) which requires [libgdiplus](https://www.mono-project.com/docs/gui/libgdiplus/) on non-Windows systems:
