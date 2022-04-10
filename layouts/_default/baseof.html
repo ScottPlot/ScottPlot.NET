@@ -51,17 +51,21 @@
     <!-- GitHubStats work in progress -->
     <style>
         #githubinfo {
-            animation: fadein 2s;
+            /*animation: fadein 2s;*/
+        }
+
+        #githubinfo svg {
+            filter: invert(1);
         }
 
         #githubinfo a {
+            color: white;
             font-size: .8em;
             opacity: .55;
             text-decoration: none;
         }
 
         #githubinfo svg {
-            filter: invert(1);
             opacity: .55;
         }
 
@@ -76,12 +80,43 @@
             }
 
             50% {
-                opacity: 0;
+                opacity: .5;
             }
 
             100% {
                 opacity: 1;
             }
+        }
+
+        .nav-item a {
+            color: white;
+            opacity: .55;
+        }
+
+        .nav-item a:hover {
+            color: white;
+            opacity: .8;
+        }
+
+        .nav-item a:focus {
+            color: white;
+            opacity: .8;
+        }
+
+        .dropdown-menu a {
+            color: black;
+            opacity: .8;
+        }
+
+        .dropdown-menu a:hover {
+            color: black;
+            opacity: 1;
+            background-color: #67217A11;
+        }
+
+        .dropdown-menu a:focus {
+            background-color: #67217A;
+            color: white;
         }
     </style>
 
@@ -89,7 +124,9 @@
 
 <body class="bg-light">
 
-    {{ partial "menu.html" . }}
+    <div style="background-color: #67217A;" class="">
+        {{ partial "menu.html" . }}
+    </div>
 
     <div class="container-fluid p-0" style="position: relative; max-width: 1000px;">
         <main class="my-5">
