@@ -50,42 +50,19 @@
 
     <!-- GitHubStats work in progress -->
     <style>
-        #githubinfo {
-            /*animation: fadein 2s;*/
-        }
-
-        #githubinfo svg {
-            filter: invert(1);
-        }
-
-        #githubinfo a {
+        #githubstats a {
             color: white;
-            font-size: .8em;
             opacity: .55;
+        }
+
+        #githubstats a:hover {
+            color: white;
+            opacity: .8;
             text-decoration: none;
         }
 
-        #githubinfo svg {
-            opacity: .55;
-        }
-
-        #githubinfo a:hover {
-            opacity: .8;
-            text-decoration: underline;
-        }
-
-        @keyframes fadein {
-            0% {
-                opacity: 0;
-            }
-
-            50% {
-                opacity: .5;
-            }
-
-            100% {
-                opacity: 1;
-            }
+        #githubstats svg {
+            filter: invert(1);
         }
 
         .nav-item a {
