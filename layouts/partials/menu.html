@@ -1,153 +1,136 @@
-<nav>
-    <div class="pt-4 px-4 row">
-        <div class="d-flex justify-content-start col" id="custom-title-row">
-            <a href="/">
-                <img class="p-0 m-0 mt-2" src='/images/brand/favicon.svg' width="30" height="30" />
-            </a>
-            <a class="text-light ms-2" href="/" style="font-size: 1.8em;">
-                ScottPlot.NET
-            </a>
-        </div>
-        <div class="col text-end" id="custom-stats-row">
-            <div class="d-inline-block">
-                {{ partial "github-info.html" . }}
-            </div>
-        </div>
-    </div>
-    <ul class="nav nav-pills p-2">
+<ul class="nav nav-pills px-2">
 
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="/quickstart" id="navbarDropdown" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
-                Quickstart
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li>
-                    <a class="dropdown-item" href="/quickstart/console">
-                        Console Application
-                    </a>
-                </li>
-                <li>
-                    <a class="dropdown-item" href="/quickstart/winforms">
-                        Windows Forms
-                    </a>
-                </li>
-                <li>
-                    <a class="dropdown-item" href="/quickstart/wpf">
-                        WPF
-                    </a>
-                </li>
-                <li>
-                    <a class="dropdown-item" href="/quickstart/avalonia">
-                        Avalonia
-                    </a>
-                </li>
-                <li>
-                    <a class="dropdown-item" href="/quickstart/eto">
-                        Eto
-                    </a>
-                </li>
-                <li>
-                    <a class="dropdown-item" href="/quickstart/notebook">
-                        Interactive Notebook
-                    </a>
-                </li>
-                <li>
-                    <hr class="dropdown-divider">
-                </li>
-                <li>
-                    <a class="dropdown-item" href="/quickstart/console">
-                        C#
-                    </a>
-                </li>
-                <li>
-                    <a class="dropdown-item" href="/quickstart/fsharp">
-                        F#
-                    </a>
-                </li>
-                <li>
-                    <a class="dropdown-item" href="/quickstart/vb">
-                        VB
-                    </a>
-                </li>
-            </ul>
-        </li>
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="/quickstart" id="navbarDropdown" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            Quickstart
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li>
+                <a class="dropdown-item" href="/quickstart/console">
+                    Console Application
+                </a>
+            </li>
+            <li>
+                <a class="dropdown-item" href="/quickstart/winforms">
+                    Windows Forms
+                </a>
+            </li>
+            <li>
+                <a class="dropdown-item" href="/quickstart/wpf">
+                    WPF
+                </a>
+            </li>
+            <li>
+                <a class="dropdown-item" href="/quickstart/avalonia">
+                    Avalonia
+                </a>
+            </li>
+            <li>
+                <a class="dropdown-item" href="/quickstart/eto">
+                    Eto
+                </a>
+            </li>
+            <li>
+                <a class="dropdown-item" href="/quickstart/notebook">
+                    Interactive Notebook
+                </a>
+            </li>
+            <li>
+                <hr class="dropdown-divider">
+            </li>
+            <li>
+                <a class="dropdown-item" href="/quickstart/console">
+                    C#
+                </a>
+            </li>
+            <li>
+                <a class="dropdown-item" href="/quickstart/fsharp">
+                    F#
+                </a>
+            </li>
+            <li>
+                <a class="dropdown-item" href="/quickstart/vb">
+                    VB
+                </a>
+            </li>
+        </ul>
+    </li>
 
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="/cookbook" id="navbarDropdown" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
-                Cookbook
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li>
-                    <a class="dropdown-item" href="/cookbook/4.1">
-                        ScottPlot 4.1 Cookbook
-                    </a>
-                </li>
-                <li><a class="dropdown-item" href="/cookbook/4.0">
-                        ScottPlot 4.0 Cookbook</a>
-                </li>
-                <li><a class="dropdown-item" href="/cookbook/3.1">
-                        ScottPlot 3.1 Cookbook</a>
-                </li>
-            </ul>
-        </li>
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="/cookbook" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Cookbook
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li>
+                <a class="dropdown-item" href="/cookbook/4.1">
+                    ScottPlot 4.1 Cookbook
+                </a>
+            </li>
+            <li><a class="dropdown-item" href="/cookbook/4.0">
+                    ScottPlot 4.0 Cookbook</a>
+            </li>
+            <li><a class="dropdown-item" href="/cookbook/3.1">
+                    ScottPlot 3.1 Cookbook</a>
+            </li>
+        </ul>
+    </li>
 
-        <li class="nav-item">
-            <a class="nav-link" href="/demo">
-                Demo
-            </a>
-        </li>
+    <li class="nav-item">
+        <a class="nav-link" href="/demo">
+            Demo
+        </a>
+    </li>
 
-        <li class="nav-item">
-            <a class="nav-link" href="/faq">
-                FAQ
-            </a>
-        </li>
+    <li class="nav-item">
+        <a class="nav-link" href="/faq">
+            FAQ
+        </a>
+    </li>
 
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                ScottPlot
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li>
-                    <a class="dropdown-item" href="https://github.com/ScottPlot/ScottPlot">
-                        ScottPlot on GitHub
-                    </a>
-                </li>
-                <li>
-                    <a class="dropdown-item" href="https://www.nuget.org/profiles/ScottPlot">
-                        ScottPlot on NuGet
-                    </a>
-                </li>
-                <li>
-                    <a class="dropdown-item" href="https://github.com/ScottPlot/ScottPlot.NET">
-                        This website on GitHub
-                    </a>
-                </li>
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            ScottPlot
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li>
+                <a class="dropdown-item" href="https://github.com/ScottPlot/ScottPlot">
+                    ScottPlot on GitHub
+                </a>
+            </li>
+            <li>
+                <a class="dropdown-item" href="https://www.nuget.org/profiles/ScottPlot">
+                    ScottPlot on NuGet
+                </a>
+            </li>
+            <li>
+                <a class="dropdown-item" href="https://github.com/ScottPlot/ScottPlot.NET">
+                    This website on GitHub
+                </a>
+            </li>
 
-                <li>
-                    <a class="dropdown-item" href="/faq/#about-scottplot">
-                        About ScottPlot
-                    </a>
-                </li>
+            <li>
+                <a class="dropdown-item" href="/faq/#about-scottplot">
+                    About ScottPlot
+                </a>
+            </li>
 
-            </ul>
+        </ul>
 
-        </li>
+    </li>
 
-        <li class="nav-item">
-            <a class="nav-link" href="/contributors">
-                Contributors
-            </a>
-        </li>
+    <li class="nav-item">
+        <a class="nav-link" href="/contributors">
+            Contributors
+        </a>
+    </li>
 
-        <li class="nav-item">
-            <a class="nav-link" href="/changelog">
-                Changelog
-            </a>
-        </li>
+    <li class="nav-item">
+        <a class="nav-link" href="/changelog">
+            Changelog
+        </a>
+    </li>
 
-    </ul>
-</nav>
+</ul>

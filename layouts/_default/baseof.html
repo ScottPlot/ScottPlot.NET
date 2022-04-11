@@ -51,38 +51,25 @@
     <!-- GitHubStats work in progress -->
     <style>
         #githubinfo {
-            background-color: #9a499355;
-            border: 1px solid #9a499355;
             font-size: .8em;
+            position: relative;
             opacity: 0;
-            transition: opacity .2s ease-in-out;
+            transition: opacity .5s ease-in
         }
 
         #githubinfo a {
-            opacity: 0;
-            transition: opacity .2s ease-in-out;
             color: white;
             text-decoration: none;
+            opacity: .55;
         }
 
         #githubinfo a:hover {
-            transition: opacity .2s ease-in-out;
-            opacity: 1 !important;
+            color: white;
+            opacity: .8;
         }
 
         #githubinfo svg {
             filter: invert(1);
-        }
-
-        @media only screen and (max-width: 500px) {
-            #custom-title-row {
-                justify-content: center !important;
-            }
-
-            #custom-stats-row {
-                text-align: center !important;
-                margin-top: 1em;
-            }
         }
 
         .nav-item a {
@@ -123,10 +110,25 @@
 
 <body class="bg-light">
 
+    <!-- menu bar -->
     <div style="background-color: #67217A;" class="">
-        {{ partial "menu.html" . }}
+        {{ partial "github-info.html" . }}
+        <div class="px-4 row pt-2">
+            <div class="d-flex justify-content-start col" id="custom-title-row">
+                <a href="/">
+                    <img class="p-0 m-0 mt-2" src='/images/brand/favicon.svg' width="30" height="30" />
+                </a>
+                <a class="text-light ms-2" href="/" style="font-size: 1.8em;">
+                    ScottPlot.NET
+                </a>
+            </div>
+        </div>
+        <nav class="pb-2">
+            {{ partial "menu.html" . }}
+        </nav>
     </div>
 
+    <!-- main container -->
     <div class="container-fluid p-0" style="position: relative; max-width: 1000px;">
         <main class="my-5">
             {{ block "main" . }}
@@ -134,6 +136,7 @@
         </main>
     </div>
 
+    <!-- footer -->
     <footer class="container align-items-end mt-5">
         <div class="row">
             <div class="col-sm text-center py-3" style="opacity: .3;">
