@@ -1,6 +1,6 @@
 <nav>
-    <div class="pt-4 px-4 d-flex justify-content-between">
-        <div class="d-flex justify-content-start">
+    <div class="pt-4 px-4 row">
+        <div class="d-flex justify-content-start col">
             <a href="/">
                 <img class="p-0 m-0 mt-2" src='/images/brand/favicon.svg' width="30" height="30" />
             </a>
@@ -8,9 +8,10 @@
                 ScottPlot.NET
             </a>
         </div>
-        <div>
-            <a class="github-button" href="https://github.com/scottplot/scottplot" data-size="large"
-                data-show-count="true" aria-label="Star scottplot/scottplot on GitHub">Star</a>
+        <div class="col text-end">
+            <div class="d-inline-block">
+                {{ partial "github-info.html" . }}
+            </div>
         </div>
     </div>
     <ul class="nav nav-pills p-2">
