@@ -53,19 +53,18 @@
         #githubinfo {
             font-size: .8em;
             position: relative;
-            opacity: 0;
-            transition: opacity .5s ease-in
         }
 
         #githubinfo a {
             color: white;
             text-decoration: none;
-            opacity: .55;
+            opacity: 0;
+            transition: opacity .5s ease-in
         }
 
         #githubinfo a:hover {
-            color: white;
-            opacity: .8;
+            opacity: 1 !important;
+            transition: opacity 0s ease-in
         }
 
         #githubinfo svg {
@@ -112,18 +111,24 @@
 
     <!-- menu bar -->
     <div style="background-color: #67217A;" class="">
-        {{ partial "github-info.html" . }}
-        <div class="px-4 row pt-2">
-            <div class="d-flex justify-content-start col" id="custom-title-row">
+
+        <div class="d-flex pt-3">
+            <div class="ms-4 me-3 my-1">
                 <a href="/">
-                    <img class="p-0 m-0 mt-2" src='/images/brand/favicon.svg' width="30" height="30" />
-                </a>
-                <a class="text-light ms-2" href="/" style="font-size: 1.8em;">
-                    ScottPlot.NET
+                    <img class="" src='/images/brand/favicon.svg' width="56" height="56" />
                 </a>
             </div>
+            <div class="mt-1">
+                <a class="text-light lh-1" href="/" style="font-size: 1.8em;">
+                    ScottPlot.NET
+                </a>
+                <div class="">
+                    {{ partial "github-info.html" . }}
+                </div>
+            </div>
         </div>
-        <nav class="pb-2">
+
+        <nav class="py-2">
             {{ partial "menu.html" . }}
         </nav>
     </div>
