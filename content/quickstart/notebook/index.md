@@ -22,3 +22,18 @@ display(HTML(plt.GetImageHTML()));
 ```
 
 ![](../console/scottplot-quickstart-console.png)
+
+### ScottPlot Display Formatter
+
+You can register a custom display formatter for plots to make them easier to show
+
+```cs
+using Microsoft.DotNet.Interactive.Formatting;
+Formatter.Register(typeof(ScottPlot.Plot), (plt, writer) => writer.Write(((ScottPlot.Plot)plt).GetImageHTML()), HtmlFormatter.MimeType);
+```
+
+```cs
+plt
+```
+
+![image](https://user-images.githubusercontent.com/4165489/166234119-f3b802f9-a810-46fd-b95b-3739dcd36341.png)
