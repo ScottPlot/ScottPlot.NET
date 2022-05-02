@@ -38,5 +38,7 @@ plt
 ScottPlot is designed to display data in `double[]` format, so use LINQ to convert data values to a `double` array like this:
 
 ```cs
-double[] columnValues = Enumerable.Range(0, (int)df.Rows.Count).Select(x => Convert.ToDouble(df["ColumnName"][x])).ToArray();
+double[] columnValues = Enumerable.Range(0, (int)df.Rows.Count)
+    .Select(x => Convert.ToDouble(df["ColumnName"][x]))
+    .ToArray();
 ```
