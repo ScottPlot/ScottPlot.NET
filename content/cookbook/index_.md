@@ -4,8 +4,6 @@ description: Cookbooks or organized by major version
 url: /cookbook
 ---
 
-# ScottPlot Cookbooks
-
 Cookbooks are organized by major version:
 
 * [ScottPlot 4.1 Cookbook](4.1)
