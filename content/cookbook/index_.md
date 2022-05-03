@@ -14,6 +14,6 @@ Cookbooks are organized by major version:
 
 * [ScottPlot 3.1 Cookbook](3.1)
 
-<div class="text-center">
-  <img src='images/cookbook.jpg' />
-</div>
+<a href='cookbook'>
+  <img src='images/cookbook.jpg' class="d-block mx-auto my-5" />
+</a>
