@@ -6,3 +6,6 @@ obj
 .hugo_build.lock
 public
 output
+
+# cookbook
+index.dev.html
