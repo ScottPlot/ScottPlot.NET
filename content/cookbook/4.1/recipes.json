@@ -1,6 +1,6 @@
 {
-  "version": "4.1.43",
-  "generated": "2022-05-05T03:23:51.1747752Z",
+  "version": "4.1.45",
+  "generated": "2022-05-09T23:05:23.8491772Z",
   "recipes": [
     {
       "id": "Axis_label",
@@ -318,7 +318,7 @@
       "id": "multiAxis_top",
       "category": "Multi-Axis",
       "categoryFolder": "multi-axis",
-      "title": "Top Y Axis",
+      "title": "Top X Axis",
       "description": "This example demonstrates how to display an X axis above the figure. The horizontal axis above the figure is index 1, so plots must be updated to indicate they are to use a nonstandard axis index.",
       "code": "var plt = new ScottPlot.Plot(600, 400);\n\ndouble[] values = DataGen.RandomWalk(100);\nvar sig = plt.AddSignal(values);\nsig.XAxisIndex = 1;\n\nplt.XAxis.Ticks(false);\nplt.XAxis.Grid(false);\nplt.XAxis2.Ticks(true);\nplt.XAxis2.Grid(true);\nplt.XAxis2.Label(\u0022Sample Number\u0022);\nplt.YAxis.Label(\u0022Value\u0022);\n\nplt.SaveFig(\u0022multiAxis_top.png\u0022);"
     },
