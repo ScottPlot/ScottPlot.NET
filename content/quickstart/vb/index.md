@@ -4,8 +4,6 @@ Description: How to plot data using ScottPlot in a VB.NET application
 url: "quickstart/vb"
 ---
 
-## Console Application
-
 **Step 1:** Install the [`ScottPlot`](https://www.nuget.org/packages/ScottPlot) NuGet package
 
 **Step 2:** Plot some data and save the figure as an image file
