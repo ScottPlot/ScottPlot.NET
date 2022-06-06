@@ -18,6 +18,8 @@ lastmod: 2022-03-29
 * [**WPF**](quickstart/wpf)
 * [**Avalonia**](quickstart/avalonia)
 * [**Console Application**](quickstart/console)
+* [**PowerShell**](quickstart/powershell)
+* [**.NET Interactive Notebook**](quickstart/notebook)
 
 
 ```cs
