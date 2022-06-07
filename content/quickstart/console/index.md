@@ -6,9 +6,11 @@ date: 2021-09-26
 lastmod: 2021-12-29
 ---
 
-**Step 1:** Install the [`ScottPlot`](https://www.nuget.org/packages/ScottPlot) NuGet package
+**Step 1:** Install the [`ScottPlot`](https://www.nuget.org/packages/ScottPlot) NuGet package. Linux & MacOS users must take [these additional steps](/faq/dependencies).
 
 **Step 2:** Plot some data and save the figure as an image file
+
+
 
 ```cs
 double[] dataX = new double[] { 1, 2, 3, 4, 5 };
@@ -39,17 +41,3 @@ new ScottPlot.FormsPlotViewer(plt).ShowDialog();
 ![](scottplot-quickstart-winforms.png)
 
 > 💡 Interactive plots using the WinForms and WPF controls require the console application to target Windows, but a strategy for launching interactive plots from console applications running on Linux using Avalonia is described in [#1769](https://github.com/ScottPlot/ScottPlot/issues/1769#issuecomment-1093504868)
-
-## MacOS & Linux
-
-ScottPlot relies on [`System.Drawing.Common`](https://www.nuget.org/packages/System.Drawing.Common) which requires [libgdiplus](https://www.mono-project.com/docs/gui/libgdiplus/) on non-Windows systems:
-
-* **MacOS:** `brew install mono-libgdiplus`
-
-* **Linux:** `apt-get install -y libgdiplus`
-
-You may also need to specifically add the [`System.Drawing.Common`](https://www.nuget.org/packages/System.Drawing.Common) package to your project:
-
-```
-dotnet add package System.Drawing.Common
-```
