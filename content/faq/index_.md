@@ -48,8 +48,9 @@ date: 2020-01-01
 
 ### Version Notes
 * [What's New in ScottPlot 4.1](version-4.1)
+* [ScottPlot's Dependencies by Version](dependencies)
 
 ### About ScottPlot
-* [Why the Name _ScottPlot_?](history/#what-s-with-the-name)
+* [Why the Name _ScottPlot_?](history)
 * [Who Created ScottPlot and Why?](history)
 * [ScottPlot vs. Other Plotting Libraries](compare)
