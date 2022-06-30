@@ -1,6 +1,6 @@
 {
-  "version": "4.1.49",
-  "generated": "2022-06-25T17:30:42.8965033Z",
+  "version": "4.1.51",
+  "generated": "2022-06-30T04:31:13.2514453Z",
   "recipes": [
     {
       "id": "Axis_label",
@@ -307,6 +307,14 @@
       "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.AddSignal(DataGen.Sin(51));\nplt.AddSignal(DataGen.Cos(51));\nplt.XLabel(\u0022Horizontal Axis\u0022);\nplt.YLabel(\u0022Vertical Axis\u0022);\nplt.Title(\u0022Plot Title\u0022);\nplt.Style(figureBackground: Color.SkyBlue);\n\n// 25% horizontal padding means data occupies 75% of horizontal space\n// 40% vertical padding means data occupies 60% of vertical space\nplt.Margins(x: .25, y: .4);\n\nplt.SaveFig(\u0022layout_margins.png\u0022);"
     },
     {
+      "id": "layout_manual",
+      "category": "Layout",
+      "categoryFolder": "layout",
+      "title": "Manual Data Area",
+      "description": "The layout system automatically measures axis labels and ticks to provide a plot with the largest data area possible. However, this can be problematic for animated plots (with changing tick label sizes) or when users wish to achieve pixel-perfect similarity between two different plots. In these cases the user can manually override the layout system and define exactly how large the data area is.",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.Style(Style.Blue1);\nplt.AddSignal(DataGen.Sin(51));\nplt.AddSignal(DataGen.Cos(51));\nplt.XLabel(\u0022Horizontal Axis\u0022);\nplt.YLabel(\u0022Vertical Axis\u0022);\n\nvar padding = new ScottPlot.PixelPadding(\n    left: 150,\n    right: 30,\n    bottom: 100,\n    top: 10);\n\nplt.ManualDataArea(padding);\n\nplt.SaveFig(\u0022layout_manual.png\u0022);"
+    },
+    {
       "id": "misc_interpolation",
       "category": "Miscellaneous",
       "categoryFolder": "misc",
@@ -377,6 +385,14 @@
       "title": "Axis Visibility",
       "description": "Visibility of axes can be toggled. In this example an additional Y axis is added but the primary Y axis is hidden. The result is a plot that appears to only have one Y axis.",
       "code": "var plt = new ScottPlot.Plot(600, 400);\n\n// plot one set of data using the primary Y axis\nvar sigSmall = plt.AddSignal(DataGen.Sin(51, mult: 1));\nsigSmall.YAxisIndex = 0;\nplt.YAxis.Label(\u0022Primary Axis\u0022);\nplt.YAxis.Color(sigSmall.Color);\n\n// plot another set of data using an additional axis\nvar sigBig = plt.AddSignal(DataGen.Cos(51, mult: 100));\nvar yAxis3 = plt.AddAxis(Renderable.Edge.Left, axisIndex: 2);\nsigBig.YAxisIndex = 2;\nyAxis3.Label(\u0022Additional Axis\u0022);\nyAxis3.Color(sigBig.Color);\n\n// hide the primary Y axis\nplt.YAxis.IsVisible = false;\n\nplt.SaveFig(\u0022multiAxis_invisible.png\u0022);"
+    },
+    {
+      "id": "multiAxis_limits",
+      "category": "Multi-Axis",
+      "categoryFolder": "multi-axis",
+      "title": "Setting Multi Axis Limits",
+      "description": "Axis limits can be set for each axis by indicating which axis index you are wish to modify when setting axis limits.",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\n// signal one on the primary Y axis\nvar sig1 = plt.AddSignal(DataGen.Sin(51, mult: 1));\nsig1.YAxisIndex = 0;\n\n// signal two on the secondary Y axis\nvar sig2 = plt.AddSignal(DataGen.Cos(51, mult: 100));\nsig2.YAxisIndex = 1;\nplt.YAxis2.Ticks(true);\n\n// set axis limits for each axis individually\nplt.SetAxisLimits(yMin: -2, yMax: 2, yAxisIndex: 0);\nplt.SetAxisLimits(yMin: -200, yMax: 200, yAxisIndex: 1);\n\nplt.SaveFig(\u0022multiAxis_limits.png\u0022);"
     },
     {
       "id": "palette_Category10",
