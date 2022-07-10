@@ -1,6 +1,6 @@
 {
-  "version": "4.1.51",
-  "generated": "2022-06-30T04:31:13.2514453Z",
+  "version": "4.1.52",
+  "generated": "2022-07-10T02:17:22.1343847Z",
   "recipes": [
     {
       "id": "Axis_label",
@@ -263,7 +263,7 @@
       "category": "Layout",
       "categoryFolder": "layout",
       "title": "Default Layout",
-      "description": "asdf",
+      "description": "ScottPlot has many ways to customize the layout. This example demonstrates the default layout, where padding around the data area is automatically determined by measuring the text in the axis labels and tick labels to ensure there is appropriate padding on all sides.",
       "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.AddSignal(DataGen.Sin(51));\nplt.AddSignal(DataGen.Cos(51));\nplt.XLabel(\u0022Horizontal Axis\u0022);\nplt.YLabel(\u0022Vertical Axis\u0022);\nplt.Title(\u0022Plot Title\u0022);\n\nplt.SaveFig(\u0022layout_default.png\u0022);"
     },
     {
