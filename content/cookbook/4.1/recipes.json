@@ -1,6 +1,6 @@
 {
-  "version": "4.1.52",
-  "generated": "2022-07-10T02:17:22.1343847Z",
+  "version": "4.1.53",
+  "generated": "2022-08-12T22:17:51.3960466Z",
   "recipes": [
     {
       "id": "Axis_label",
@@ -731,6 +731,22 @@
       "code": "var plt = new ScottPlot.Plot(600, 400);\n\n// plot sample data\nplt.AddSignal(DataGen.Sin(51));\nplt.AddSignal(DataGen.Cos(51));\n\n// add axis lines and configure their drag settings\nvar hLine = plt.AddHorizontalLine(.85);\nhLine.DragEnabled = true;\nhLine.DragLimitMin = -1;\nhLine.DragLimitMax = 1;\n\nvar vLine = plt.AddVerticalLine(23);\nvLine.DragEnabled = true;\nvLine.DragLimitMin = 0;\nvLine.DragLimitMax = 50;\n\n// you can access the position of an axis line at any time\nstring message = $\u0022Vertical line is at X={vLine.X}\u0022;\n\nplt.SaveFig(\u0022axisLine_draggable.png\u0022);"
     },
     {
+      "id": "axisLine_draggable_with_snap",
+      "category": "Axis Line and Span",
+      "categoryFolder": "plottable-axis-line-and-span",
+      "title": "Draggable With Snapping",
+      "description": "Draggables can be configured to snap to the nearest integer or to a user-defined list of Positions out of the box.",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.AddSignal(DataGen.Sin(51, mult: 5));\nplt.AddSignal(DataGen.Cos(51, mult: 5));\ndouble[] snapPositions = DataGen.Consecutive(11, 5);\n\n// different snap sytems can be created and customized \nvar SnapDisabled = new ScottPlot.SnapLogic.NoSnap1D();\nvar SnapNearestInt = new ScottPlot.SnapLogic.Integer1D();\nvar SnapNearestInList = new ScottPlot.SnapLogic.Nearest1D(snapPositions);\n\nvar hLine = plt.AddHorizontalLine(2);\nhLine.DragEnabled = true;\nhLine.DragSnap = new ScottPlot.SnapLogic.Independent2D(x: SnapDisabled, y: SnapNearestInt);\n\nvar vLine = plt.AddVerticalLine(30);\nvLine.DragEnabled = true;\nvLine.DragSnap = new ScottPlot.SnapLogic.Independent2D(x: SnapNearestInList, y: SnapDisabled);\n\nplt.SaveFig(\u0022axisLine_draggable_with_snap.png\u0022);"
+    },
+    {
+      "id": "axisLine_draggable_with_snap_custom_snap",
+      "category": "Axis Line and Span",
+      "categoryFolder": "plottable-axis-line-and-span",
+      "title": "Draggable Custom Snap Function",
+      "description": "Custom logic can be added to draggables to customize how they snap.",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\ndouble CustomSnapFunction(double value)\n{\n    // multiple of 3 between 0 and 50\n    if (value \u003C 0) return 0;\n    else if (value \u003E 50) return 50;\n    else return (int)Math.Round(value / 3) * 3;\n}\n\n// different snap sytems can be created and customized \nvar SnapDisabled = new ScottPlot.SnapLogic.NoSnap1D();\nvar SnapCustom = new SnapLogic.Custom1D(CustomSnapFunction);\n\nplt.AddSignal(DataGen.Sin(51, mult: 5));\nplt.AddSignal(DataGen.Cos(51, mult: 5));\n\nvar vLine = plt.AddVerticalLine(30);\nvLine.DragEnabled = true;\nvLine.DragSnap = new ScottPlot.SnapLogic.Independent2D(SnapCustom, SnapDisabled);\n\nplt.SaveFig(\u0022axisLine_draggable_with_snap_custom_snap.png\u0022);"
+    },
+    {
       "id": "axisLine_positionLabels",
       "category": "Axis Line and Span",
       "categoryFolder": "plottable-axis-line-and-span",
@@ -1043,6 +1059,14 @@
       "code": "var plt = new ScottPlot.Plot(600, 400);\n\ndouble[] values = { 11, 16, 7, 3, 14 };\nvar coxcomb = plt.AddCoxcomb(values);\ncoxcomb.FillColors = plt.Palette.GetColors(5, 0, .5);\ncoxcomb.SliceLabels = new string[] { \u0022bikes\u0022, \u0022blimps\u0022, \u0022subs\u0022, \u0022saucers\u0022, \u0022rockets\u0022 };\n\nplt.SaveFig(\u0022coxcomb_quickstart.png\u0022);"
     },
     {
+      "id": "coxcomb_hatch",
+      "category": "Coxcomb Chart",
+      "categoryFolder": "plottable-coxcomb",
+      "title": "Custom Hatching (patterns)",
+      "description": "Coxcomb charts allow custom hatching of their slices.",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\ndouble[] values = { 11, 16, 7, 3, 14 };\nvar coxcomb = plt.AddCoxcomb(values);\ncoxcomb.HatchOptions = new HatchOptions[] {\n    new () { Pattern = HatchStyle.StripedUpwardDiagonal, Color = Color.FromArgb(100, Color.Gray) },\n    new () { Pattern = HatchStyle.StripedDownwardDiagonal, Color = Color.FromArgb(100, Color.Gray) },\n    new () { Pattern = HatchStyle.LargeCheckerBoard, Color = Color.FromArgb(100, Color.Gray) },\n    new () { Pattern = HatchStyle.SmallCheckerBoard, Color = Color.FromArgb(100, Color.Gray) },\n    new () { Pattern = HatchStyle.LargeGrid, Color = Color.FromArgb(100, Color.Gray) },\n};\ncoxcomb.OutlineWidth = 1;\n\ncoxcomb.SliceLabels = new string[] { \u0022bikes\u0022, \u0022blimps\u0022, \u0022subs\u0022, \u0022saucers\u0022, \u0022rockets\u0022 };\nplt.Legend();\n\nplt.SaveFig(\u0022coxcomb_hatch.png\u0022);"
+    },
+    {
       "id": "coxcomb_iconValue",
       "category": "Coxcomb Chart",
       "categoryFolder": "plottable-coxcomb",
@@ -1248,7 +1272,7 @@
       "categoryFolder": "plottable-function",
       "title": "Function",
       "description": "Function plots are defined by a function (not X/Y data points) so the curve is continuous and can be zoomed in and out infinitely",
-      "code": "var plt = new ScottPlot.Plot(600, 400);\n\n// Functions are defined as delegates with an input and output\nvar func1 = new Func\u003Cdouble, double?\u003E((x) =\u003E Math.Sin(x) * Math.Sin(x / 2));\nvar func2 = new Func\u003Cdouble, double?\u003E((x) =\u003E Math.Sin(x) * Math.Sin(x / 3));\nvar func3 = new Func\u003Cdouble, double?\u003E((x) =\u003E Math.Cos(x) * Math.Sin(x / 5));\n\n// Add functions to the plot\nplt.AddFunction(func1, lineWidth: 2);\nplt.AddFunction(func2, lineWidth: 2, lineStyle: LineStyle.Dot);\nplt.AddFunction(func3, lineWidth: 2, lineStyle: LineStyle.Dash);\n\nplt.SaveFig(\u0022function_quickstart.png\u0022);"
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\n// Functions are defined as delegates with an input and output\nvar func1 = new Func\u003Cdouble, double?\u003E((x) =\u003E Math.Sin(x) * Math.Sin(x / 2));\nvar func2 = new Func\u003Cdouble, double?\u003E((x) =\u003E Math.Sin(x) * Math.Sin(x / 3));\nvar func3 = new Func\u003Cdouble, double?\u003E((x) =\u003E Math.Cos(x) * Math.Sin(x / 5));\n\n// Add functions to the plot\nplt.AddFunction(func1, lineWidth: 2);\nplt.AddFunction(func2, lineWidth: 2, lineStyle: LineStyle.Dot);\nplt.AddFunction(func3, lineWidth: 2, lineStyle: LineStyle.Dash);\n\n// Manually set axis limits because functions do not have discrete data points\nplt.SetAxisLimits(-10, 10, -1.5, 1.5);\n\nplt.SaveFig(\u0022function_quickstart.png\u0022);"
     },
     {
       "id": "heatmap_quickstart",
@@ -1447,8 +1471,8 @@
       "category": "Marker",
       "categoryFolder": "plottable-marker",
       "title": "Draggable Marker Snap",
-      "description": "This is a type of marker which can be dragged with the mouse, but is restricted to to X/Y positions defined by two arrays.",
-      "code": "var plt = new ScottPlot.Plot(600, 400);\n\n// create random data and display it with a scatter plot\ndouble[] xs = DataGen.Consecutive(50);\ndouble[] ys = DataGen.Random(new Random(0), 50);\nplt.AddScatter(xs, ys, label: \u0022data\u0022);\n\n// add a draggable marker that \u0022snaps\u0022 to data values in that scatter plot\nvar dmpv = new ScottPlot.Plottable.DraggableMarkerPlotInVector()\n{\n    Xs = xs,\n    Ys = ys,\n    DragEnabled = true,\n    IsVisible = true,\n    MarkerSize = 15,\n    MarkerShape = MarkerShape.filledDiamond,\n    MarkerColor = Color.Magenta,\n    Label = \u0022marker\u0022,\n};\nplt.Add(dmpv);\n\nplt.Legend();\n\nplt.SaveFig(\u0022marker_draggableinvector.png\u0022);"
+      "description": "This example shows how to add a draggable marker which is constrained to positions defined by an array of X/Y pairs.",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\n// create random data and display it with a scatter plot\ndouble[] xs = DataGen.Consecutive(50);\ndouble[] ys = DataGen.Random(new Random(0), 50);\nplt.AddScatter(xs, ys, label: \u0022data\u0022);\n\n// place the marker at the first data point\nvar marker = plt.AddMarkerDraggable(xs[0], ys[0], MarkerShape.filledDiamond, 15, Color.Magenta);\n\n// constrain snapping to the array of data points\nmarker.DragSnap = new ScottPlot.SnapLogic.Nearest2D(xs, ys);\n\nplt.Legend();\n\nplt.SaveFig(\u0022marker_draggableinvector.png\u0022);"
     },
     {
       "id": "marker_labeled",
@@ -1521,6 +1545,14 @@
       "title": "Customize Pie Colors",
       "description": "Colors for pie slices and labels can be customized.",
       "code": "var plt = new ScottPlot.Plot(600, 400);\n\ndouble[] values = { 778, 43, 283, 76, 184 };\nstring[] labels = { \u0022C#\u0022, \u0022JAVA\u0022, \u0022Python\u0022, \u0022F#\u0022, \u0022PHP\u0022 };\n\n// Language colors from https://github.com/ozh/github-colors\nColor[] sliceColors =\n{\n    ColorTranslator.FromHtml(\u0022#178600\u0022),\n    ColorTranslator.FromHtml(\u0022#B07219\u0022),\n    ColorTranslator.FromHtml(\u0022#3572A5\u0022),\n    ColorTranslator.FromHtml(\u0022#B845FC\u0022),\n    ColorTranslator.FromHtml(\u0022#4F5D95\u0022),\n};\n\n// Show labels using different transparencies\nColor[] labelColors =\n    new Color[] {\n    Color.FromArgb(255, Color.White),\n    Color.FromArgb(100, Color.White),\n    Color.FromArgb(250, Color.White),\n    Color.FromArgb(150, Color.White),\n    Color.FromArgb(200, Color.White),\n};\n\nvar pie = plt.AddPie(values);\npie.SliceLabels = labels;\npie.ShowLabels = true;\npie.SliceFillColors = sliceColors;\npie.SliceLabelColors = labelColors;\n\nplt.SaveFig(\u0022pie_customColors.png\u0022);"
+    },
+    {
+      "id": "pie_customHatch",
+      "category": "Pie Chart",
+      "categoryFolder": "plottable-pie",
+      "title": "Customize Pie Hatching",
+      "description": "Hatching (patterns) for pie slices and labels can be customized.",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\ndouble[] values = { 778, 43, 283, 76, 184 };\nstring[] labels = { \u0022C#\u0022, \u0022JAVA\u0022, \u0022Python\u0022, \u0022F#\u0022, \u0022PHP\u0022 };\n\nvar pie = plt.AddPie(values);\npie.HatchOptions = new HatchOptions[] {\n    new () { Pattern = HatchStyle.StripedUpwardDiagonal, Color = Color.FromArgb(100, Color.Gray) },\n    new () { Pattern = HatchStyle.StripedDownwardDiagonal, Color = Color.FromArgb(100, Color.Gray) },\n    new () { Pattern = HatchStyle.LargeCheckerBoard, Color = Color.FromArgb(100, Color.Gray) },\n    new () { Pattern = HatchStyle.SmallCheckerBoard, Color = Color.FromArgb(100, Color.Gray) },\n    new () { Pattern = HatchStyle.LargeGrid, Color = Color.FromArgb(100, Color.Gray) },\n};\npie.OutlineSize = 1;\n\npie.SliceLabels = labels;\nplt.Legend();\n\nplt.SaveFig(\u0022pie_customHatch.png\u0022);"
     },
     {
       "id": "pie_legend",
@@ -1675,6 +1707,14 @@
       "code": "var plt = new ScottPlot.Plot(600, 400);\n\ndouble[,] values = {\n    { 5, 3, 10, 15, 3, 2 },\n    { 5, 2, 10, 10, 1, 4 },\n};\n\nvar radar = plt.AddRadar(values);\nradar.OutlineWidth = 3;\nradar.GroupLabels = new string[] { \u0022Sebastian Vettel\u0022, \u0022Fernando Alonso\u0022 };\nplt.Title(\u00222010 Formula One World Championship\u0022);\nplt.Legend();\n\n/* Data represents the 2010 Formula One World Championship\n * https://en.wikipedia.org/wiki/2010_Formula_One_World_Championship\n * Note: Alonso did not finish (DNF) in the Malaysian GP, but was included \n * here because he completed \u003E90% of the race distance.\n */\n\nplt.SaveFig(\u0022radar_customizePolygonOutline.png\u0022);"
     },
     {
+      "id": "radar_hatch",
+      "category": "Radar Chart",
+      "categoryFolder": "plottable-radar",
+      "title": "Customizable hatching (pattern)",
+      "description": "The hatch of each radar plot can be customized",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\ndouble[,] values = {\n    { 5, 3, 10, 15, 3, 2 },\n    { 5, 2, 10, 10, 1, 4 },\n};\n\nvar radar = plt.AddRadar(values);\nradar.HatchOptions = new HatchOptions[]\n{\n    new() { Pattern = HatchStyle.StripedUpwardDiagonal, Color = Color.FromArgb(100, Color.Gray) },\n    new() { Pattern = HatchStyle.StripedDownwardDiagonal, Color = Color.FromArgb(100, Color.Gray) },\n};\n\nradar.GroupLabels = new string[] { \u0022Sebastian Vettel\u0022, \u0022Fernando Alonso\u0022 };\nplt.Title(\u00222010 Formula One World Championship\u0022);\nplt.Legend();\n\n/* Data represents the 2010 Formula One World Championship\n * https://en.wikipedia.org/wiki/2010_Formula_One_World_Championship\n * Note: Alonso did not finish (DNF) in the Malaysian GP, but was included \n * here because he completed \u003E90% of the race distance.\n */\n\nplt.SaveFig(\u0022radar_hatch.png\u0022);"
+    },
+    {
       "id": "radar_iconValue",
       "category": "Radar Chart",
       "categoryFolder": "plottable-radar",
@@ -1720,7 +1760,7 @@
       "categoryFolder": "plottable-radialgauge",
       "title": "Gauge Colors",
       "description": "Gauge colors can be customized by changing the default palette. ",
-      "code": "var plt = new ScottPlot.Plot(600, 400);\n\ndouble[] values = { 100, 80, 65, 45, 20 };\nplt.Palette = ScottPlot.Drawing.Palette.Nord;\nplt.AddRadialGauge(values);\n\nplt.SaveFig(\u0022radialgauge_colors.png\u0022);"
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\ndouble[] values = { 100, 80, 65, 45, 20 };\nplt.Palette = ScottPlot.Palette.Nord;\nplt.AddRadialGauge(values);\n\nplt.SaveFig(\u0022radialgauge_colors.png\u0022);"
     },
     {
       "id": "radialgauge_negative",
@@ -1728,7 +1768,7 @@
       "categoryFolder": "plottable-radialgauge",
       "title": "Negative Values",
       "description": "Radial gauge plots support positive and negative values.",
-      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.Palette = ScottPlot.Drawing.Palette.Nord;\ndouble[] values = { 100, 80, -65, 45, -20 };\nplt.AddRadialGauge(values);\n\nplt.SaveFig(\u0022radialgauge_negative.png\u0022);"
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.Palette = ScottPlot.Palette.Nord;\ndouble[] values = { 100, 80, -65, 45, -20 };\nplt.AddRadialGauge(values);\n\nplt.SaveFig(\u0022radialgauge_negative.png\u0022);"
     },
     {
       "id": "radialgauge_mode",
@@ -1736,7 +1776,7 @@
       "categoryFolder": "plottable-radialgauge",
       "title": "Sequential Gauge Mode",
       "description": "Sequential gauge mode indicates that the base of each gauge starts at the tip of the previous gauge.",
-      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.Palette = ScottPlot.Drawing.Palette.Nord;\ndouble[] values = { 100, 80, 65, 45, 50 };\n\nvar gauges = plt.AddRadialGauge(values);\ngauges.GaugeMode = ScottPlot.RadialGaugeMode.Sequential;\n\nplt.SaveFig(\u0022radialgauge_mode.png\u0022);"
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.Palette = ScottPlot.Palette.Nord;\ndouble[] values = { 100, 80, 65, 45, 50 };\n\nvar gauges = plt.AddRadialGauge(values);\ngauges.GaugeMode = ScottPlot.RadialGaugeMode.Sequential;\n\nplt.SaveFig(\u0022radialgauge_mode.png\u0022);"
     },
     {
       "id": "radialgauge_reverse",
@@ -1744,7 +1784,7 @@
       "categoryFolder": "plottable-radialgauge",
       "title": "Reverse Order",
       "description": "Gauges are displayed from the center outward by default but the order can be customized.",
-      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.Palette = ScottPlot.Drawing.Palette.Nord;\ndouble[] values = { 100, 80, 65, 45, 50 };\n\nvar gauges = plt.AddRadialGauge(values);\ngauges.GaugeMode = ScottPlot.RadialGaugeMode.Sequential;\ngauges.OrderInsideOut = false;\n\nplt.SaveFig(\u0022radialgauge_reverse.png\u0022);"
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.Palette = ScottPlot.Palette.Nord;\ndouble[] values = { 100, 80, 65, 45, 50 };\n\nvar gauges = plt.AddRadialGauge(values);\ngauges.GaugeMode = ScottPlot.RadialGaugeMode.Sequential;\ngauges.OrderInsideOut = false;\n\nplt.SaveFig(\u0022radialgauge_reverse.png\u0022);"
     },
     {
       "id": "radialgauge_single",
@@ -1752,7 +1792,7 @@
       "categoryFolder": "plottable-radialgauge",
       "title": "Single Gauge Mode",
       "description": "The SingleGauge mode draws all gauges stacked together as a single gauge. This is useful for showing a progress gauges composed of many individual smaller gauges.",
-      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.Palette = ScottPlot.Drawing.Palette.Nord;\ndouble[] values = { 100, 80, 65, 45 };\n\nvar gauges = plt.AddRadialGauge(values);\ngauges.GaugeMode = ScottPlot.RadialGaugeMode.SingleGauge;\ngauges.MaximumAngle = 180;\ngauges.StartingAngle = 180;\n\nplt.SaveFig(\u0022radialgauge_single.png\u0022);"
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.Palette = ScottPlot.Palette.Nord;\ndouble[] values = { 100, 80, 65, 45 };\n\nvar gauges = plt.AddRadialGauge(values);\ngauges.GaugeMode = ScottPlot.RadialGaugeMode.SingleGauge;\ngauges.MaximumAngle = 180;\ngauges.StartingAngle = 180;\n\nplt.SaveFig(\u0022radialgauge_single.png\u0022);"
     },
     {
       "id": "radialgauge_direction",
@@ -1760,7 +1800,7 @@
       "categoryFolder": "plottable-radialgauge",
       "title": "Gauge Direction",
       "description": "The direction of gauges can be customized. Clockwise is used by default.",
-      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.Palette = ScottPlot.Drawing.Palette.Nord;\ndouble[] values = { 100, 80, 65, 45, 20 };\n\nvar gauges = plt.AddRadialGauge(values);\ngauges.Clockwise = false;\n\nplt.SaveFig(\u0022radialgauge_direction.png\u0022);"
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.Palette = ScottPlot.Palette.Nord;\ndouble[] values = { 100, 80, 65, 45, 20 };\n\nvar gauges = plt.AddRadialGauge(values);\ngauges.Clockwise = false;\n\nplt.SaveFig(\u0022radialgauge_direction.png\u0022);"
     },
     {
       "id": "radialgauge_size",
@@ -1768,7 +1808,7 @@
       "categoryFolder": "plottable-radialgauge",
       "title": "Gauge Size",
       "description": "The empty space between gauges can be adjusted as a fraction of their width. ",
-      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.Palette = ScottPlot.Drawing.Palette.Nord;\ndouble[] values = { 100, 80, 65, 45, 20 };\nvar gauges = plt.AddRadialGauge(values);\ngauges.SpaceFraction = .05;\n\nplt.SaveFig(\u0022radialgauge_size.png\u0022);"
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.Palette = ScottPlot.Palette.Nord;\ndouble[] values = { 100, 80, 65, 45, 20 };\nvar gauges = plt.AddRadialGauge(values);\ngauges.SpaceFraction = .05;\n\nplt.SaveFig(\u0022radialgauge_size.png\u0022);"
     },
     {
       "id": "radialgauge_caps",
@@ -1776,7 +1816,7 @@
       "categoryFolder": "plottable-radialgauge",
       "title": "Gauge Caps",
       "description": "Caps can be customized for the starting and end of the gauges. ",
-      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.Palette = ScottPlot.Drawing.Palette.Nord;\ndouble[] values = { 100, 80, 65, 45, 20 };\n\nvar gauges = plt.AddRadialGauge(values);\ngauges.CircularBackground = false;\ngauges.StartCap = System.Drawing.Drawing2D.LineCap.Flat;\ngauges.EndCap = System.Drawing.Drawing2D.LineCap.DiamondAnchor;\n\nplt.SaveFig(\u0022radialgauge_caps.png\u0022);"
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.Palette = ScottPlot.Palette.Nord;\ndouble[] values = { 100, 80, 65, 45, 20 };\n\nvar gauges = plt.AddRadialGauge(values);\ngauges.CircularBackground = false;\ngauges.StartCap = System.Drawing.Drawing2D.LineCap.Flat;\ngauges.EndCap = System.Drawing.Drawing2D.LineCap.DiamondAnchor;\n\nplt.SaveFig(\u0022radialgauge_caps.png\u0022);"
     },
     {
       "id": "radialgauge_start",
@@ -1784,7 +1824,7 @@
       "categoryFolder": "plottable-radialgauge",
       "title": "Gauge Starting Angle",
       "description": "The starting angle for gauges can be customized. 270 for North (default value), 0 for East, 90 for South, 180 for West, etc.",
-      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.Palette = ScottPlot.Drawing.Palette.Nord;\ndouble[] values = { 100, 80, 65, 45, 20 };\n\nvar gauges = plt.AddRadialGauge(values);\ngauges.StartingAngle = 180;\n\nplt.SaveFig(\u0022radialgauge_start.png\u0022);"
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.Palette = ScottPlot.Palette.Nord;\ndouble[] values = { 100, 80, 65, 45, 20 };\n\nvar gauges = plt.AddRadialGauge(values);\ngauges.StartingAngle = 180;\n\nplt.SaveFig(\u0022radialgauge_start.png\u0022);"
     },
     {
       "id": "radialgauge_range",
@@ -1792,7 +1832,7 @@
       "categoryFolder": "plottable-radialgauge",
       "title": "Gauge Angular Range",
       "description": "By default gauges are full circles (360 degrees) but smaller gauges can be created by customizing the gauge size.",
-      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.Palette = ScottPlot.Drawing.Palette.Nord;\ndouble[] values = { 100, 80, 65, 45, 20 };\n\nvar gauges = plt.AddRadialGauge(values);\ngauges.MaximumAngle = 180;\n\nplt.SaveFig(\u0022radialgauge_range.png\u0022);"
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.Palette = ScottPlot.Palette.Nord;\ndouble[] values = { 100, 80, 65, 45, 20 };\n\nvar gauges = plt.AddRadialGauge(values);\ngauges.MaximumAngle = 180;\n\nplt.SaveFig(\u0022radialgauge_range.png\u0022);"
     },
     {
       "id": "radialgauge_levels",
@@ -1800,7 +1840,7 @@
       "categoryFolder": "plottable-radialgauge",
       "title": "Show Levels",
       "description": "The value of each gauge is displayed as text by default but this behavior can be overridden. Note that this is different than the labels fiels which is what appears in the legened.",
-      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.Palette = ScottPlot.Drawing.Palette.Nord;\ndouble[] values = { 100, 80, 65, 45, 20 };\n\nvar gauges = plt.AddRadialGauge(values);\ngauges.ShowLevels = false;\n\nplt.SaveFig(\u0022radialgauge_levels.png\u0022);"
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.Palette = ScottPlot.Palette.Nord;\ndouble[] values = { 100, 80, 65, 45, 20 };\n\nvar gauges = plt.AddRadialGauge(values);\ngauges.ShowLevels = false;\n\nplt.SaveFig(\u0022radialgauge_levels.png\u0022);"
     },
     {
       "id": "radialgauge_labelpos",
@@ -1808,7 +1848,7 @@
       "categoryFolder": "plottable-radialgauge",
       "title": "Gauge Label Position",
       "description": "Gauge level text is positioned at the tip of each gauge by default, but this position can be adjusted by the user.",
-      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.Palette = ScottPlot.Drawing.Palette.Nord;\ndouble[] values = { 100, 80, 65, 45, 20 };\n\nvar gauges = plt.AddRadialGauge(values);\ngauges.LabelPositionFraction = 0;\n\nplt.SaveFig(\u0022radialgauge_labelpos.png\u0022);"
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.Palette = ScottPlot.Palette.Nord;\ndouble[] values = { 100, 80, 65, 45, 20 };\n\nvar gauges = plt.AddRadialGauge(values);\ngauges.LabelPositionFraction = 0;\n\nplt.SaveFig(\u0022radialgauge_labelpos.png\u0022);"
     },
     {
       "id": "radialgauge_labelfontsize",
@@ -1816,7 +1856,7 @@
       "categoryFolder": "plottable-radialgauge",
       "title": "Gauge Label Font Percentage",
       "description": "Size of the gauge level text as a fraction of the gauge width.",
-      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.Palette = ScottPlot.Drawing.Palette.Nord;\ndouble[] values = { 100, 80, 65, 45, 20 };\n\nvar gauges = plt.AddRadialGauge(values);\ngauges.FontSizeFraction = .4;\n\nplt.SaveFig(\u0022radialgauge_labelfontsize.png\u0022);"
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.Palette = ScottPlot.Palette.Nord;\ndouble[] values = { 100, 80, 65, 45, 20 };\n\nvar gauges = plt.AddRadialGauge(values);\ngauges.FontSizeFraction = .4;\n\nplt.SaveFig(\u0022radialgauge_labelfontsize.png\u0022);"
     },
     {
       "id": "radialgauge_labelcolor",
@@ -1824,7 +1864,7 @@
       "categoryFolder": "plottable-radialgauge",
       "title": "Gauge Label Color",
       "description": "Level text fonts may be customized.",
-      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.Palette = ScottPlot.Drawing.Palette.Nord;\ndouble[] values = { 100, 80, 65, 45, 20 };\n\nvar gauges = plt.AddRadialGauge(values);\ngauges.Font.Color = Color.Black;\n\nplt.SaveFig(\u0022radialgauge_labelcolor.png\u0022);"
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.Palette = ScottPlot.Palette.Nord;\ndouble[] values = { 100, 80, 65, 45, 20 };\n\nvar gauges = plt.AddRadialGauge(values);\ngauges.Font.Color = Color.Black;\n\nplt.SaveFig(\u0022radialgauge_labelcolor.png\u0022);"
     },
     {
       "id": "radialgauge_legend",
@@ -1832,7 +1872,7 @@
       "categoryFolder": "plottable-radialgauge",
       "title": "Gauge Labels in Legend",
       "description": "Radial gauge labels will appear in the legend if they are assigned. ",
-      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.Palette = ScottPlot.Drawing.Palette.Nord;\ndouble[] values = { 100, 80, 65, 45, 20 };\n\nvar gauges = plt.AddRadialGauge(values);\ngauges.Labels = new string[] { \u0022alpha\u0022, \u0022beta\u0022, \u0022gamma\u0022, \u0022delta\u0022, \u0022epsilon\u0022 };\nplt.Legend(true);\n\nplt.SaveFig(\u0022radialgauge_legend.png\u0022);"
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.Palette = ScottPlot.Palette.Nord;\ndouble[] values = { 100, 80, 65, 45, 20 };\n\nvar gauges = plt.AddRadialGauge(values);\ngauges.Labels = new string[] { \u0022alpha\u0022, \u0022beta\u0022, \u0022gamma\u0022, \u0022delta\u0022, \u0022epsilon\u0022 };\nplt.Legend(true);\n\nplt.SaveFig(\u0022radialgauge_legend.png\u0022);"
     },
     {
       "id": "radialgauge_backdim",
@@ -1840,7 +1880,7 @@
       "categoryFolder": "plottable-radialgauge",
       "title": "Background Gauges Dim",
       "description": "By default the full range of each gauge is drawn as a semitransparent ring. The amount of transparency can be adjusted as desired.",
-      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.Palette = ScottPlot.Drawing.Palette.Nord;\ndouble[] values = { 100, 80, 65, 45, 20 };\n\nvar gauges = plt.AddRadialGauge(values);\ngauges.BackgroundTransparencyFraction = .5;\n\nplt.SaveFig(\u0022radialgauge_backdim.png\u0022);"
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.Palette = ScottPlot.Palette.Nord;\ndouble[] values = { 100, 80, 65, 45, 20 };\n\nvar gauges = plt.AddRadialGauge(values);\ngauges.BackgroundTransparencyFraction = .5;\n\nplt.SaveFig(\u0022radialgauge_backdim.png\u0022);"
     },
     {
       "id": "radialgauge_backnorm",
@@ -1848,7 +1888,7 @@
       "categoryFolder": "plottable-radialgauge",
       "title": "Background Gauges Normalization",
       "description": "Gauge backgrounds are drawn as full circles by default. This behavior can be disabled to draw partial backgrounds for non-circular gauges.",
-      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.Palette = ScottPlot.Drawing.Palette.Nord;\ndouble[] values = { 100, 80, 65, 45, 20 };\n\nvar gauges = plt.AddRadialGauge(values);\ngauges.CircularBackground = false;\ngauges.MaximumAngle = 180;\ngauges.StartingAngle = 180;\n\nplt.SaveFig(\u0022radialgauge_backnorm.png\u0022);"
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.Palette = ScottPlot.Palette.Nord;\ndouble[] values = { 100, 80, 65, 45, 20 };\n\nvar gauges = plt.AddRadialGauge(values);\ngauges.CircularBackground = false;\ngauges.MaximumAngle = 180;\ngauges.StartingAngle = 180;\n\nplt.SaveFig(\u0022radialgauge_backnorm.png\u0022);"
     },
     {
       "id": "scalebar_quickstart",
@@ -1979,6 +2019,14 @@
       "code": "var plt = new ScottPlot.Plot(600, 400);\n\nvar plot1 = plt.AddScatter(new double[] { 2.5 }, new double[] { 5 }, label: \u0022John Doe et al.\u0022);\nplot1.XError = new double[] { 0.2 };\n\nvar plot2 = plt.AddScatter(new double[] { 2.7 }, new double[] { 4 }, label: \u0022Jane Doe et al.\u0022);\nplot2.XError = new double[] { 0.3 };\n\nvar plot3 = plt.AddScatter(new double[] { 2.3 }, new double[] { 3 }, label: \u0022Jim Doe et al.\u0022);\nplot3.XError = new double[] { 0.6 };\n\nvar plot4 = plt.AddScatter(new double[] { 2.8 }, new double[] { 2 }, label: \u0022Joel Doe et al.\u0022);\nplot4.XError = new double[] { 0.3 };\n\nvar plot5 = plt.AddScatter(new double[] { 2.5 }, new double[] { 1 }, label: \u0022Jacqueline Doe et al.\u0022);\nplot5.XError = new double[] { 0.2 };\n\nplt.AddVerticalLine(2.6, style: LineStyle.Dash);\n\nplt.SetAxisLimits(0, 5, 0, 6);\nplt.Legend();\n\nplt.SaveFig(\u0022scatter_forest.png\u0022);"
     },
     {
+      "id": "scatter_smooth",
+      "category": "Scatter Plot",
+      "categoryFolder": "plottable-scatter-plot",
+      "title": "Scatter Plot with Smooth Lines",
+      "description": "Lines drawn between scatter plot points are typically connected with straight lines, but the Smooth property can be enabled to connect points with curves instead.",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nRandom rand = new(1234);\ndouble[] xs = DataGen.RandomWalk(rand, 20);\ndouble[] ys = DataGen.RandomWalk(rand, 20);\nplt.Palette = new ScottPlot.Palettes.ColorblindFriendly();\n\nvar sp1 = plt.AddScatter(xs, ys, label: \u0022default\u0022);\nsp1.Smooth = true;\n\nvar sp2 = plt.AddScatter(xs, ys, label: \u0022high tension\u0022);\nsp2.Smooth = true;\nsp2.SmoothTension = 1.0f;\n\nvar sp3 = plt.AddScatter(xs, ys, label: \u0022low tension\u0022);\nsp3.Smooth = true;\nsp3.SmoothTension = 0.2f;\n\nplt.Legend();\n\nplt.SaveFig(\u0022scatter_smooth.png\u0022);"
+    },
+    {
       "id": "scatterList_quickstart",
       "category": "Scatter Plot",
       "categoryFolder": "plottable-scatter-plot",
@@ -2009,14 +2057,6 @@
       "title": "Scatter List Draggable Limits",
       "description": "A custom function can be used to limit the range of draggable points.",
       "code": "var plt = new ScottPlot.Plot(600, 400);\n\n// plot sample data\ndouble[] xs = ScottPlot.DataGen.Consecutive(20);\ndouble[] ys = ScottPlot.DataGen.Sin(20);\nvar scatter = new ScottPlot.Plottable.ScatterPlotListDraggable();\nscatter.AddRange(xs, ys);\nscatter.MarkerSize = 5;\nplt.Add(scatter);\n\n// use a custom function to limit the movement of points\nstatic Coordinate MoveBetweenAdjacent(List\u003Cdouble\u003E xs, List\u003Cdouble\u003E ys, int index, Coordinate requested)\n{\n    int leftIndex = Math.Max(index - 1, 0);\n    int rightIndex = Math.Min(index \u002B 1, xs.Count - 1);\n\n    double newX = requested.X;\n    newX = Math.Max(newX, xs[leftIndex]);\n    newX = Math.Min(newX, xs[rightIndex]);\n\n    return new Coordinate(newX, requested.Y);\n}\n\nscatter.MovePointFunc = MoveBetweenAdjacent;\n\nplt.SaveFig(\u0022scatterList_draggableLimits.png\u0022);"
-    },
-    {
-      "id": "scatter_smooth",
-      "category": "Scatter Plot",
-      "categoryFolder": "plottable-scatter-plot",
-      "title": "Scatter Plot with Smooth Lines",
-      "description": "Lines drawn between scatter plot points are typically connected with straight lines, but the Smooth property can be enabled to connect points with curves instead.",
-      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nRandom rand = new(1234);\ndouble[] xs = DataGen.RandomWalk(rand, 20);\ndouble[] ys = DataGen.RandomWalk(rand, 20);\n\nvar sp = plt.AddScatter(xs, ys);\nsp.Smooth = true;\n\nplt.SaveFig(\u0022scatter_smooth.png\u0022);"
     },
     {
       "id": "signal_quickstart",

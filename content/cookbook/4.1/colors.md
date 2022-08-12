@@ -1,7 +1,7 @@
 ---
 title: "Colors - ScottPlot 4.1 Cookbook"
 description: "List of Colors from all ScottPlot Palettes"
-date: 7/9/2022 10:17:22 PM
+date: 8/12/2022 6:17:51 PM
 url: /cookbook/4.1/colors/
 ---
 
@@ -21,6 +21,14 @@ for (int i = 0; i < pal.Count(); i++)
 
 ### Amber
 
+
+
+```cs
+var myPalette = new ScottPlot.Palettes.Amber();
+foreach (var color in myPalette)
+    Console.WriteLine(color);
+```
+
 <div class='d-flex flex-wrap'>
 <div class='px-3 py-2' style='background-color: #FF6F00;'>#FF6F00</div>
 <div class='px-3 py-2' style='background-color: #FF8F00;'>#FF8F00</div>
@@ -32,6 +40,14 @@ for (int i = 0; i < pal.Count(); i++)
 
 ### Aurora
 
+From the Nord collection of palettes: https://github.com/arcticicestudio/nord
+
+```cs
+var myPalette = new ScottPlot.Palettes.Aurora();
+foreach (var color in myPalette)
+    Console.WriteLine(color);
+```
+
 <div class='d-flex flex-wrap'>
 <div class='px-3 py-2' style='background-color: #BF616A;'>#BF616A</div>
 <div class='px-3 py-2' style='background-color: #D08770;'>#D08770</div>
@@ -41,7 +57,34 @@ for (int i = 0; i < pal.Count(); i++)
 </div>
 
 
+### Building
+
+
+
+```cs
+var myPalette = new ScottPlot.Palettes.Building();
+foreach (var color in myPalette)
+    Console.WriteLine(color);
+```
+
+<div class='d-flex flex-wrap'>
+<div class='px-3 py-2' style='background-color: #FF6F00;'>#FF6F00</div>
+<div class='px-3 py-2' style='background-color: #FF8F00;'>#FF8F00</div>
+<div class='px-3 py-2' style='background-color: #FFA000;'>#FFA000</div>
+<div class='px-3 py-2' style='background-color: #FFB300;'>#FFB300</div>
+<div class='px-3 py-2' style='background-color: #FFC107;'>#FFC107</div>
+</div>
+
+
 ### Category10
+
+A set of 10 unque colors used in many data visualization libraries such as Matplotlib, Vega, and Tableau
+
+```cs
+var myPalette = new ScottPlot.Palettes.Category10();
+foreach (var color in myPalette)
+    Console.WriteLine(color);
+```
 
 <div class='d-flex flex-wrap'>
 <div class='px-3 py-2' style='background-color: #1F77B4;'>#1F77B4</div>
@@ -58,6 +101,14 @@ for (int i = 0; i < pal.Count(); i++)
 
 
 ### Category20
+
+A set of 10 unque colors used in many data visualization libraries such as Matplotlib, Vega, and Tableau
+
+```cs
+var myPalette = new ScottPlot.Palettes.Category20();
+foreach (var color in myPalette)
+    Console.WriteLine(color);
+```
 
 <div class='d-flex flex-wrap'>
 <div class='px-3 py-2' style='background-color: #1F77B4;'>#1F77B4</div>
@@ -83,7 +134,15 @@ for (int i = 0; i < pal.Count(); i++)
 </div>
 
 
-### ColorblindFriendly
+### Colorblind Friendly
+
+A set of 8 colorblind-friendly colors from Bang Wong's Nature Methods paper https://www.nature.com/articles/nmeth.1618.pdf
+
+```cs
+var myPalette = new ScottPlot.Palettes.ColorblindFriendly();
+foreach (var color in myPalette)
+    Console.WriteLine(color);
+```
 
 <div class='d-flex flex-wrap'>
 <div class='px-3 py-2' style='background-color: #000000;'>#000000</div>
@@ -99,6 +158,14 @@ for (int i = 0; i < pal.Count(); i++)
 
 ### Dark
 
+A qualitative 8-color palette generated using colorbrewer2.org
+
+```cs
+var myPalette = new ScottPlot.Palettes.Dark();
+foreach (var color in myPalette)
+    Console.WriteLine(color);
+```
+
 <div class='d-flex flex-wrap'>
 <div class='px-3 py-2' style='background-color: #1B9E77;'>#1B9E77</div>
 <div class='px-3 py-2' style='background-color: #D95F02;'>#D95F02</div>
@@ -112,6 +179,14 @@ for (int i = 0; i < pal.Count(); i++)
 
 
 ### DarkPastel
+
+A qualitative 8-color palette generated using colorbrewer2.org
+
+```cs
+var myPalette = new ScottPlot.Palettes.DarkPastel();
+foreach (var color in myPalette)
+    Console.WriteLine(color);
+```
 
 <div class='d-flex flex-wrap'>
 <div class='px-3 py-2' style='background-color: #66C2A5;'>#66C2A5</div>
@@ -127,6 +202,14 @@ for (int i = 0; i < pal.Count(); i++)
 
 ### Frost
 
+From the Nord collection of palettes: https://github.com/arcticicestudio/nord
+
+```cs
+var myPalette = new ScottPlot.Palettes.Frost();
+foreach (var color in myPalette)
+    Console.WriteLine(color);
+```
+
 <div class='d-flex flex-wrap'>
 <div class='px-3 py-2' style='background-color: #8FBCBB;'>#8FBCBB</div>
 <div class='px-3 py-2' style='background-color: #88C0D0;'>#88C0D0</div>
@@ -136,6 +219,14 @@ for (int i = 0; i < pal.Count(); i++)
 
 
 ### Microcharts
+
+Soft color palette sourced from the Microcharts project: https://github.com/microcharts-dotnet/Microcharts
+
+```cs
+var myPalette = new ScottPlot.Palettes.Microcharts();
+foreach (var color in myPalette)
+    Console.WriteLine(color);
+```
 
 <div class='d-flex flex-wrap'>
 <div class='px-3 py-2' style='background-color: #266489;'>#266489</div>
@@ -155,6 +246,14 @@ for (int i = 0; i < pal.Count(); i++)
 
 ### Nero
 
+
+
+```cs
+var myPalette = new ScottPlot.Palettes.Nero();
+foreach (var color in myPalette)
+    Console.WriteLine(color);
+```
+
 <div class='d-flex flex-wrap'>
 <div class='px-3 py-2' style='background-color: #013A20;'>#013A20</div>
 <div class='px-3 py-2' style='background-color: #478C5C;'>#478C5C</div>
@@ -165,6 +264,14 @@ for (int i = 0; i < pal.Count(); i++)
 
 
 ### Nord
+
+From the Nord ConEmu color scheme: https://github.com/arcticicestudio/nord-conemu
+
+```cs
+var myPalette = new ScottPlot.Palettes.Nord();
+foreach (var color in myPalette)
+    Console.WriteLine(color);
+```
 
 <div class='d-flex flex-wrap'>
 <div class='px-3 py-2' style='background-color: #BF616A;'>#BF616A</div>
@@ -179,6 +286,14 @@ for (int i = 0; i < pal.Count(); i++)
 
 ### OneHalf
 
+A Sublime color scheme by Son A. Pham: https://github.com/sonph/onehalf
+
+```cs
+var myPalette = new ScottPlot.Palettes.OneHalf();
+foreach (var color in myPalette)
+    Console.WriteLine(color);
+```
+
 <div class='d-flex flex-wrap'>
 <div class='px-3 py-2' style='background-color: #383A42;'>#383A42</div>
 <div class='px-3 py-2' style='background-color: #E4564A;'>#E4564A</div>
@@ -192,6 +307,14 @@ for (int i = 0; i < pal.Count(); i++)
 
 ### OneHalfDark
 
+A Sublime color scheme by Son A. Pham: https://github.com/sonph/onehalf
+
+```cs
+var myPalette = new ScottPlot.Palettes.OneHalfDark();
+foreach (var color in myPalette)
+    Console.WriteLine(color);
+```
+
 <div class='d-flex flex-wrap'>
 <div class='px-3 py-2' style='background-color: #E06C75;'>#E06C75</div>
 <div class='px-3 py-2' style='background-color: #98C379;'>#98C379</div>
@@ -203,7 +326,35 @@ for (int i = 0; i < pal.Count(); i++)
 </div>
 
 
+### Penumbra
+
+A perceptually uniform color palette by Neal McKee: https://github.com/nealmckee/penumbra
+
+```cs
+var myPalette = new ScottPlot.Palettes.Penumbra();
+foreach (var color in myPalette)
+    Console.WriteLine(color);
+```
+
+<div class='d-flex flex-wrap'>
+<div class='px-3 py-2' style='background-color: #CB7459;'>#CB7459</div>
+<div class='px-3 py-2' style='background-color: #A38F2D;'>#A38F2D</div>
+<div class='px-3 py-2' style='background-color: #46A473;'>#46A473</div>
+<div class='px-3 py-2' style='background-color: #00A0BE;'>#00A0BE</div>
+<div class='px-3 py-2' style='background-color: #7E87D6;'>#7E87D6</div>
+<div class='px-3 py-2' style='background-color: #BD72A8;'>#BD72A8</div>
+</div>
+
+
 ### PolarNight
+
+From the Nord collection of palettes: https://github.com/arcticicestudio/nord
+
+```cs
+var myPalette = new ScottPlot.Palettes.PolarNight();
+foreach (var color in myPalette)
+    Console.WriteLine(color);
+```
 
 <div class='d-flex flex-wrap'>
 <div class='px-3 py-2' style='background-color: #2E3440;'>#2E3440</div>
@@ -214,6 +365,14 @@ for (int i = 0; i < pal.Count(); i++)
 
 
 ### Redness
+
+
+
+```cs
+var myPalette = new ScottPlot.Palettes.Redness();
+foreach (var color in myPalette)
+    Console.WriteLine(color);
+```
 
 <div class='d-flex flex-wrap'>
 <div class='px-3 py-2' style='background-color: #FF0000;'>#FF0000</div>
@@ -226,6 +385,14 @@ for (int i = 0; i < pal.Count(); i++)
 
 ### Snowstorm
 
+From the Nord collection of palettes: https://github.com/arcticicestudio/nord
+
+```cs
+var myPalette = new ScottPlot.Palettes.Snowstorm();
+foreach (var color in myPalette)
+    Console.WriteLine(color);
+```
+
 <div class='d-flex flex-wrap'>
 <div class='px-3 py-2' style='background-color: #D8DEE9;'>#D8DEE9</div>
 <div class='px-3 py-2' style='background-color: #E5E9F0;'>#E5E9F0</div>
@@ -234,6 +401,14 @@ for (int i = 0; i < pal.Count(); i++)
 
 
 ### SummerSplash
+
+
+
+```cs
+var myPalette = new ScottPlot.Palettes.SummerSplash();
+foreach (var color in myPalette)
+    Console.WriteLine(color);
+```
 
 <div class='d-flex flex-wrap'>
 <div class='px-3 py-2' style='background-color: #05445E;'>#05445E</div>
@@ -244,6 +419,14 @@ for (int i = 0; i < pal.Count(); i++)
 
 
 ### Tsitsulin
+
+A 25-color palette by Arthurits adapted from Tsitsulin's 12-color xgfs palette: http://tsitsul.in/blog/coloropt
+
+```cs
+var myPalette = new ScottPlot.Palettes.Tsitsulin();
+foreach (var color in myPalette)
+    Console.WriteLine(color);
+```
 
 <div class='d-flex flex-wrap'>
 <div class='px-3 py-2' style='background-color: #EBAC23;'>#EBAC23</div>
