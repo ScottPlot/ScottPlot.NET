@@ -1,49 +1,41 @@
 ---
 title: ScottPlot, NaN, and Infinity - ScottPlot FAQ
-description: How does ScottPlot treat data arrays containing NaN and Infinity? Not well! Do not use these values in your data.
+description: How does ScottPlot treat data arrays containing NaN and Infinity?
 ---
 
-It is possible to place these numbers inside `double[]` arrays:
+NaN-checks are not routinely performed inside the render loop (a decision favoring maximal performance), so attempting to plot `double[]` containing NaN may result in unexpected behavior (including exceptions). In general it is a good idea to avoid plotting data containing any of:
+
+Most plot types cannot display `double[]` containing:
 * `Double.PositiveInfinity`
 * `Double.NegativeInfinity`
-* `Double.NaN`. 
+* `Double.NaN`
 
-**⚠️ Do not plot data containing these values!** 
+## Scatter Plots with NaN data
 
-All values to be plotted must be translatable into pixel coordinates, and these special floating-point values cannot be rendered. Attempting to plot data containing these values may cause rendering artifacts, unexpected axis limit detection problems, and exceptions during rendering.
+The default behavior of Scatter plots is to throw an exception when users try to load it with data containing NaN. However, this behavior can be customized by assigning the `OnNaN` field.
 
-## Isolate Finite Points with LINQ
+### Ignore NaN
 
-Users can use LINQ to create a new array containing only finite/plottable data points, then plot those.
+The `OnNaN = Ignore` behavior skips-over NaN values and connect the adjacent real values with lines.
 
-<div class="text-center">
-
-![](src/ConsoleDemo/output.png)
-
-</div>
-
-* [**Download this example project**](https://github.com/ScottPlot/Website/tree/main/src/faq/nan/src/)
+![](scatter_nan_ignore.png)
 
 ```cs
-var plt = new ScottPlot.Plot(400, 300);
+var plt = new ScottPlot.Plot(600, 400);
+var scatter1 =plt.AddScatter(xs, ys, Color.Gray);
+var scatter2 = plt.AddScatter(xs, ysWithNan, Color.Black);
+scatter2.OnNaN = ScottPlot.Plottable.ScatterPlot.NanBehavior.Ignore;
+```
 
-// create original data with unplottable values
-double[] originalYs = { 3, double.NaN, 5, double.PositiveInfinity, double.NegativeInfinity, 4, 6 };
-double[] originalXs = { 1, 2, 3, 4, 5, 6, 7 };
+### Data Gaps with NaN
 
-// Attempting to plot these arrays would throw an exception at render time
-//plt.AddScatter(originalXs, originalYs);
+The `OnNaN = Gap` behavior treats NaN values as a line break, simulating the appearance of gaps in the data.
 
-// isolate and plot real data values
-var plottableIndexes =
-    Enumerable
-    .Range(0, originalYs.Length)
-    .Where(i => !double.IsNaN(originalYs[i]))
-    .Where(i => !double.IsInfinity(originalYs[i]));
-double[] plottableXs = plottableIndexes.Select(i => originalXs[i]).ToArray();
-double[] plottableYs = plottableIndexes.Select(i => originalYs[i]).ToArray();
-plt.AddScatter(plottableXs, plottableYs);
+![](scatter_nan_gap.png)
 
-plt.Title("Data Containing NaN and Infinity");
-plt.SaveFig("output.png");
+```cs
+var plt = new ScottPlot.Plot(600, 400);
+var scatter1 = plt.AddScatter(xs, ys, Color.Gray);
+var scatter2 = plt.AddScatter(xs, ysWithNan, Color.Black);
+scatter2.OnNaN = ScottPlot.Plottable.ScatterPlot.NanBehavior.Gap;
 ```
