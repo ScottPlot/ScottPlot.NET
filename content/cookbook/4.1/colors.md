@@ -1,7 +1,7 @@
 ---
 title: "Colors - ScottPlot 4.1 Cookbook"
 description: "List of Colors from all ScottPlot Palettes"
-date: 8/12/2022 6:17:51 PM
+date: 8/18/2022 12:03:31 AM
 url: /cookbook/4.1/colors/
 ---
 
@@ -76,7 +76,7 @@ foreach (var color in myPalette)
 </div>
 
 
-### Category10
+### Category 10
 
 A set of 10 unque colors used in many data visualization libraries such as Matplotlib, Vega, and Tableau
 
@@ -100,7 +100,7 @@ foreach (var color in myPalette)
 </div>
 
 
-### Category20
+### Category 20
 
 A set of 10 unque colors used in many data visualization libraries such as Matplotlib, Vega, and Tableau
 
@@ -178,7 +178,7 @@ foreach (var color in myPalette)
 </div>
 
 
-### DarkPastel
+### Dark Pastel
 
 A qualitative 8-color palette generated using colorbrewer2.org
 
@@ -284,7 +284,7 @@ foreach (var color in myPalette)
 </div>
 
 
-### OneHalf
+### One Half
 
 A Sublime color scheme by Son A. Pham: https://github.com/sonph/onehalf
 
@@ -305,7 +305,7 @@ foreach (var color in myPalette)
 </div>
 
 
-### OneHalfDark
+### One Half (Dark)
 
 A Sublime color scheme by Son A. Pham: https://github.com/sonph/onehalf
 
@@ -346,7 +346,7 @@ foreach (var color in myPalette)
 </div>
 
 
-### PolarNight
+### Polar Night
 
 From the Nord collection of palettes: https://github.com/arcticicestudio/nord
 
@@ -383,12 +383,12 @@ foreach (var color in myPalette)
 </div>
 
 
-### Snowstorm
+### Snow Storm
 
 From the Nord collection of palettes: https://github.com/arcticicestudio/nord
 
 ```cs
-var myPalette = new ScottPlot.Palettes.Snowstorm();
+var myPalette = new ScottPlot.Palettes.SnowStorm();
 foreach (var color in myPalette)
     Console.WriteLine(color);
 ```
@@ -400,7 +400,7 @@ foreach (var color in myPalette)
 </div>
 
 
-### SummerSplash
+### Summer Splash
 
 
 
@@ -418,7 +418,7 @@ foreach (var color in myPalette)
 </div>
 
 
-### Tsitsulin
+### Xgfs 25
 
 A 25-color palette by Arthurits adapted from Tsitsulin's 12-color xgfs palette: http://tsitsul.in/blog/coloropt
 

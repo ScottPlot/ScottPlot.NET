@@ -1,6 +1,6 @@
 {
-  "version": "4.1.53",
-  "generated": "2022-08-12T22:17:51.3960466Z",
+  "version": "4.1.57",
+  "generated": "2022-08-18T04:03:31.4837485Z",
   "recipes": [
     {
       "id": "Axis_label",
@@ -1403,6 +1403,14 @@
       "code": "var plt = new ScottPlot.Plot(600, 400);\n\ndouble[,] imageData = DataGen.SampleImageData();\nvar hm = plt.AddHeatmap(imageData, lockScales: false);\n\nhm.XMin = -100;\nhm.XMax = 100;\nhm.YMin = -10;\nhm.YMax = 10;\n\nplt.SaveFig(\u0022heatmap_placement.png\u0022);"
     },
     {
+      "id": "heatmap_clipping",
+      "category": "Heatmap",
+      "categoryFolder": "plottable-heatmap",
+      "title": "Heatmap Clipping",
+      "description": "Heatmaps can be clipped to an arbitrary polygon",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\ndouble[,] imageData = DataGen.SampleImageData();\nvar hm = plt.AddHeatmap(imageData, lockScales: false);\nhm.ClippingPoints = new Coordinate[]\n{\n    new Coordinate(30, 15),\n    new Coordinate(55, 40),\n    new Coordinate(60, 45),\n    new Coordinate(80, 60),\n    new Coordinate(40, 95),\n    new Coordinate(15, 90),\n    new Coordinate(5, 50),\n};\n\nplt.SaveFig(\u0022heatmap_clipping.png\u0022);"
+    },
+    {
       "id": "image_quickstart",
       "category": "Image",
       "categoryFolder": "plottable-image",
@@ -1449,6 +1457,14 @@
       "title": "Image Stretching",
       "description": "By default image dimensions are in pixel units so they are not stretched as axes are manipulated. However, users have the option to define image dimensions in axis units. In this case, corners of images will remain fixed on the coordinate system and will get stretched as axes are stretched.",
       "code": "var plt = new ScottPlot.Plot(600, 400);\n\n// display some sample data\nplt.AddSignal(DataGen.Sin(51));\nplt.AddSignal(DataGen.Cos(51));\n\nBitmap monaLisa = DataGen.SampleImage();\n\nvar img = plt.AddImage(monaLisa, 10, .5);\nimg.HeightInAxisUnits = 1;\nimg.WidthInAxisUnits = 30;\n\n// 4 corners of the image remain fixed in coordinate space\nplt.AddPoint(10, .5, color: Color.Magenta, size: 20);\nplt.AddPoint(40, .5, color: Color.Green, size: 20);\nplt.AddPoint(10, -.5, color: Color.Green, size: 20);\nplt.AddPoint(40, -.5, color: Color.Green, size: 20);\n\nplt.SaveFig(\u0022image_stretching.png\u0022);"
+    },
+    {
+      "id": "image_clipping",
+      "category": "Image",
+      "categoryFolder": "plottable-image",
+      "title": "Image Clipping",
+      "description": "Images can be clipped to an arbitrary polygon",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nBitmap bmp = DataGen.SampleImage();\nvar img = plt.AddImage(bmp, 0, bmp.Height);\nimg.HeightInAxisUnits = bmp.Height;\nimg.WidthInAxisUnits = bmp.Width;\nimg.ClippingPoints = new Coordinate[]\n{\n    new Coordinate(30, 15),\n    new Coordinate(55, 40),\n    new Coordinate(60, 45),\n    new Coordinate(80, 60),\n    new Coordinate(40, 95),\n    new Coordinate(15, 90),\n    new Coordinate(5, 50),\n};\n\nplt.SaveFig(\u0022image_clipping.png\u0022);"
     },
     {
       "id": "marker_quickstart",
@@ -1963,6 +1979,14 @@
       "code": "var plt = new ScottPlot.Plot(600, 400);\n\nint pointCount = 20;\nRandom rand = new Random(0);\ndouble[] xs = DataGen.Consecutive(pointCount);\ndouble[] ys = DataGen.RandomWalk(rand, pointCount);\ndouble[] xErr = DataGen.RandomNormal(rand, pointCount, .2);\ndouble[] yErr = DataGen.RandomNormal(rand, pointCount);\n\nvar sp = plt.AddScatter(xs, ys);\nsp.XError = xErr;\nsp.YError = yErr;\nsp.ErrorCapSize = 3;\nsp.ErrorLineWidth = 1;\nsp.LineStyle = LineStyle.Dot;\n\nplt.SaveFig(\u0022scatter_errorbar.png\u0022);"
     },
     {
+      "id": "scatter_shaded_error",
+      "category": "Scatter Plot",
+      "categoryFolder": "plottable-scatter-plot",
+      "title": "Scatter Plot with Shaded Error",
+      "description": "A semitransparent polygon can be created and placed behind the scatter plot to represent standard deviation or standard error.",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nint pointCount = 20;\nRandom rand = new Random(0);\ndouble[] xs = DataGen.Consecutive(pointCount);\ndouble[] ys = DataGen.RandomWalk(rand, pointCount, 2.0);\ndouble[] yErr = DataGen.Random(rand, pointCount, 1.0, 1.0);\n\nplt.AddScatter(xs, ys, Color.Blue);\nplt.AddFillError(xs, ys, yErr, Color.FromArgb(50, Color.Blue));\n\nplt.SaveFig(\u0022scatter_shaded_error.png\u0022);"
+    },
+    {
       "id": "scatter_lineplot",
       "category": "Scatter Plot",
       "categoryFolder": "plottable-scatter-plot",
@@ -2025,6 +2049,22 @@
       "title": "Scatter Plot with Smooth Lines",
       "description": "Lines drawn between scatter plot points are typically connected with straight lines, but the Smooth property can be enabled to connect points with curves instead.",
       "code": "var plt = new ScottPlot.Plot(600, 400);\n\nRandom rand = new(1234);\ndouble[] xs = DataGen.RandomWalk(rand, 20);\ndouble[] ys = DataGen.RandomWalk(rand, 20);\nplt.Palette = new ScottPlot.Palettes.ColorblindFriendly();\n\nvar sp1 = plt.AddScatter(xs, ys, label: \u0022default\u0022);\nsp1.Smooth = true;\n\nvar sp2 = plt.AddScatter(xs, ys, label: \u0022high tension\u0022);\nsp2.Smooth = true;\nsp2.SmoothTension = 1.0f;\n\nvar sp3 = plt.AddScatter(xs, ys, label: \u0022low tension\u0022);\nsp3.Smooth = true;\nsp3.SmoothTension = 0.2f;\n\nplt.Legend();\n\nplt.SaveFig(\u0022scatter_smooth.png\u0022);"
+    },
+    {
+      "id": "scatter_nan_ignore",
+      "category": "Scatter Plot",
+      "categoryFolder": "plottable-scatter-plot",
+      "title": "NaN Values Ignored",
+      "description": "When the OnNaN field is set to Ignore, points containing NaN X or Y values are skipped, and the scatter plot is drawn as one continuous line.",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\n// create data that does NOT contain NaN\ndouble[] xs = ScottPlot.DataGen.Consecutive(51);\ndouble[] ys = ScottPlot.DataGen.Sin(51);\n\n// plot it the traditional way\nplt.AddScatter(xs, ys, Color.FromArgb(50, Color.Black));\n\n// create new data that contains NaN\ndouble[] ysWithNan = ScottPlot.DataGen.Sin(51);\nstatic void FillWithNan(double[] values, int start, int count)\n{\n    for (int i = 0; i \u003C count; i\u002B\u002B)\n        values[start \u002B i] = double.NaN;\n}\nFillWithNan(ysWithNan, 5, 15);\nFillWithNan(ysWithNan, 25, 1);\nFillWithNan(ysWithNan, 30, 15);\nysWithNan[10] = ys[10];\n\n// add a scatter plot and customize NaN behavior\nvar sp2 = plt.AddScatter(xs, ysWithNan, Color.Black);\nsp2.OnNaN = ScottPlot.Plottable.ScatterPlot.NanBehavior.Ignore;\nplt.Title($\u0022OnNaN = {sp2.OnNaN}\u0022);\n\nplt.SaveFig(\u0022scatter_nan_ignore.png\u0022);"
+    },
+    {
+      "id": "scatter_nan_gap",
+      "category": "Scatter Plot",
+      "categoryFolder": "plottable-scatter-plot",
+      "title": "NaN Values Break the Line",
+      "description": "When the OnNaN field is set to Gap, points containing NaN X or Y values break the line. This results in a scatter plot appearing as multiple lines, with gaps representing missing data.",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\n// create data that does NOT contain NaN\ndouble[] xs = ScottPlot.DataGen.Consecutive(51);\ndouble[] ys = ScottPlot.DataGen.Sin(51);\n\n// plot it the traditional way\nplt.AddScatter(xs, ys, Color.FromArgb(50, Color.Black));\n\n// create new data that contains NaN\ndouble[] ysWithNan = ScottPlot.DataGen.Sin(51);\nstatic void FillWithNan(double[] values, int start, int count)\n{\n    for (int i = 0; i \u003C count; i\u002B\u002B)\n        values[start \u002B i] = double.NaN;\n}\nFillWithNan(ysWithNan, 5, 15);\nFillWithNan(ysWithNan, 25, 1);\nFillWithNan(ysWithNan, 30, 15);\nysWithNan[10] = ys[10];\n\n// add a scatter plot and customize NaN behavior\nvar sp2 = plt.AddScatter(xs, ysWithNan, Color.Black);\nsp2.OnNaN = ScottPlot.Plottable.ScatterPlot.NanBehavior.Gap;\nplt.Title($\u0022OnNaN = {sp2.OnNaN}\u0022);\n\nplt.SaveFig(\u0022scatter_nan_gap.png\u0022);"
     },
     {
       "id": "scatterList_quickstart",
