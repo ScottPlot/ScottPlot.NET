@@ -5,7 +5,7 @@ description: Commonly encountered issues related to font rendering on Linux and 
 
 ScottPlot 4 uses `System.Drawing.Common` to render text in cross-platform environments, but not having the proper dependencies installed may result in unexpected font rendering behavior.
 
-<figure class="figure">
+<figure class="figure w-100 text-center">
     <img src="linux-font-error.png" class="figure-img img-fluid">
     <figcaption class="figure-caption">
         A common problem is that letters appear as squares or rectangles
