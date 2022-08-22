@@ -29,6 +29,7 @@ date: 2020-01-01
 * [MVVM Pattern and Data Binding](mvvm)
 * [How to Print a ScottPlot](print)
 * [Display Scaling (small text vs. blurry text)](dpi-scaling)
+* [Font Issues on Linux or MacOS](linux-font)
 
 ### User Control: Interactive Behavior
 * [Low Quality while Dragging](anti-aliasing)
