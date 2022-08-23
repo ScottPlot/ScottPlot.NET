@@ -24,7 +24,7 @@ WpfPlot1.Configuration.DpiStretch = false; // small text
 
 ## Increase Text Size
 
-**Users who want sharp _and_ large text** can disable DPI stretching and increase the size of all the fonts and lines so the plot does not appear too small. An example of this is in the [ScottPlot Cookbook](/cookbook).
+**Users who want sharp _and_ large text** can disable DPI stretching and increase the size of all the fonts and lines so the plot does not appear too small. An example of this is in the [ScottPlot 4.1 Cookbook: Display Scaling](https://scottplot.net/cookbook/4.1/category/misc/#display-scaling).
 
 <div class='text-center'>
 
