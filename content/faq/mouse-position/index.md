@@ -53,7 +53,7 @@ This example shows how to plot X/Y data using a Scatter plot, then highlight the
 
 ```cs
 private readonly ScottPlot.Plottable.ScatterPlot MyScatterPlot;
-private readonly ScottPlot.Plottable.ScatterPlot HighlightedPoint;
+private readonly ScottPlot.Plottable.MarkerPlot HighlightedPoint;
 private int LastHighlightedIndex = -1;
 
 public Form1()
@@ -73,6 +73,7 @@ public Form1()
     HighlightedPoint.MarkerSize = 10;
     HighlightedPoint.MarkerShape = ScottPlot.MarkerShape.openCircle;
     HighlightedPoint.IsVisible = false;
+    formsPlot1.Refresh();
 }
 
 private void formsPlot1_MouseMove(object sender, MouseEventArgs e)
@@ -83,8 +84,8 @@ private void formsPlot1_MouseMove(object sender, MouseEventArgs e)
     (double pointX, double pointY, int pointIndex) = MyScatterPlot.GetPointNearest(mouseCoordX, mouseCoordY, xyRatio);
 
     // place the highlight over the point of interest
-    HighlightedPoint.Xs[0] = pointX;
-    HighlightedPoint.Ys[0] = pointY;
+    HighlightedPoint.X = pointX;
+    HighlightedPoint.Y = pointY;
     HighlightedPoint.IsVisible = true;
 
     // render if the highlighted point chnaged
