@@ -15,6 +15,7 @@ date: 2020-01-01
 * [Using Multiple or Additional Axes](multi-axis)
 
 ### Plot: Styling
+* [Layout and Customization](layout)
 * [Custom Padding around the Data Area](padding)
 * [Frameless Plots and Data Margin](padding/#frameless-plot)
 * [Anti-Aliasing](anti-aliasing)

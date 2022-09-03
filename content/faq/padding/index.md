@@ -3,6 +3,12 @@ title: Custom Padding and Frameless Plots - ScottPlot FAQ
 description: How to control the padding between the data area and the edge of the figure
 ---
 
+## Layout
+
+Visit the [FAQ: Layout](../layout/) page for additional resources.
+
+## Padding
+
 * **Padding** is the empty space between the axis (ticks and labels) and the edge of the figure.
   * Special axis tick labels that are very large or angled may require the user to increase the **padding**.
   * Adjust padding using the `Layout()` method
