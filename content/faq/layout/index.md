@@ -1,5 +1,5 @@
 ---
-title: Plot Layout - ScottPlot FAQ
+title: Layout Mechanics and Customization - ScottPlot FAQ
 description: Advanced configuration for the data area, axes, figure padding, etc.
 ---
 

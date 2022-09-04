@@ -15,9 +15,9 @@ date: 2020-01-01
 * [Using Multiple or Additional Axes](multi-axis)
 
 ### Plot: Styling
-* [Layout and Customization](layout)
-* [Custom Padding around the Data Area](padding)
-* [Frameless Plots and Data Margin](padding/#frameless-plot)
+* [Layout Mechanics and Customization](layout)
+* [Custom Padding around the Data Area](layout/#configure-axis-size)
+* [Frameless Plots and Data Margin](https://scottplot.net/faq/layout/#frameless-plots)
 * [Anti-Aliasing](anti-aliasing)
 
 ### Plot: Data
