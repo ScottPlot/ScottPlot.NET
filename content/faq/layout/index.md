@@ -3,6 +3,11 @@ title: Layout Mechanics and Customization - ScottPlot FAQ
 description: Advanced configuration for the data area, axes, figure padding, etc.
 ---
 
+This page summarizes how plot layouts are created automatically and how this behavior can be customized. For additional information and code examples, refer to the following Cookbook sections:
+* [ScottPlot 4.1 Cookbook: Layout](https://scottplot.net/cookbook/4.1/#layout)
+* [ScottPlot 4.1 Cookbook: Axis and Ticks](https://scottplot.net/cookbook/4.1/#axis-and-ticks)
+* [ScottPlot 4.1 Cookbook: Advanced Axis Features](https://scottplot.net/cookbook/4.1/#advanced-axis-features)
+
 ## Figure Size and Data Area
 
 ✔️ The **Figure Rectangle** is the pixel size of the image or user control.
@@ -88,6 +93,36 @@ If a plot has multiple axes, the size of each Axis is measured at render time, a
 Calculating tick label size requirements is more complex than it initially seems. Tick generation requires knowing the ideal tick density (number of ticks per pixel) which requires knowing both the estimated tick label length and the data area size... but these are the two measurements we are tying to determine in the first place. 
 
 This chicken-and-egg problem is solved by generating ticks using an estimated layout (based on fixed pixel sizes for all axes), tick labels are then measured and a temporary data rectangle is created from these values, then a final set of ticks is generated based on these inputs, and their labels are measured to determine axis size and contribute to final data area.
+
+## Hiding an Axis
+
+There are multiple ways to customize visibility of individual axes
+
+### Set Axis Component Visibility
+
+One option for hiding an axis is to disable rendering of all its components. See [Cookbook: Axis - One Axis Only](https://scottplot.net/cookbook/4.1/category/axis-and-ticks/#one-axis-only) and adjacent cookbook recipes for more information.
+
+```cs
+plt.XAxis.Label(""); // removes text from the axis label
+plt.XAxis.Ticks(false); // disables tick marks and labels
+plt.XAxis.Line(false); // hides the black line framing the data area
+```
+
+### Set Axis Component Sizes
+
+Another option for hiding individual axes is to use their `Layout()` to set the size of their components to. See [Cookbook: Layout - Axis Size](https://scottplot.net/cookbook/4.1/category/layout/#axis-size) and adjacent cookbook recipes for more information.
+
+```cs
+myPlot.XAxis.Layout(maximumSize: 0);
+```
+
+### Set Axis Visibility
+
+Axes have an `IsVisible` flag that allows everything to be disabled with one command. Setting this to `false` hides the ticks, tick labels, axis label, and disables all axis padding.
+
+```cs
+formsPlot1.Plot.XAxis.IsVisible = false;
+```
 
 ## Frameless Plots
 
