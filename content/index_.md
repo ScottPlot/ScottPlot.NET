@@ -6,7 +6,7 @@ date: 2021-09-06
 lastmod: 2022-03-29
 ---
 
-[![Build and Test](https://github.com/ScottPlot/ScottPlot/actions/workflows/ci.yaml/badge.svg)](https://github.com/ScottPlot/ScottPlot/actions/workflows/ci.yaml)
+[![ScottPlot 4 CI](https://github.com/ScottPlot/ScottPlot/actions/workflows/ci-v4.yaml/badge.svg)](https://github.com/ScottPlot/ScottPlot/actions/workflows/ci-v4.yaml)
 [![](https://img.shields.io/nuget/dt/scottplot?color=004880&label=Downloads&logo=NuGet)](https://www.nuget.org/packages/ScottPlot/)
 [![](https://img.shields.io/nuget/vpre/scottplot?color=%23004880&label=NuGet&logo=nuget)](https://www.nuget.org/packages/ScottPlot/)
 [![Discord](https://badgen.net/discord/members/Dru6fnY2UX?icon=discord&color=5562ea&label=Discord)](https://scottplot.net/discord/)
