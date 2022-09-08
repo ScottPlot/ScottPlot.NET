@@ -48,7 +48,8 @@ date: 2020-01-01
   * [Growing Data with ScatterPlotList](live-data/#growing-data-with-scatterplotlist)
   * [Growing Data with SignalPlotList](live-data/#growing-data-with-signalplotlist)
 
-### Version Notes
+### Developer Notes
+* [Development Environment Setup](environment)
 * [What's New in ScottPlot 4.1](version-4.1)
 * [ScottPlot's Dependencies by Version](dependencies)
 
