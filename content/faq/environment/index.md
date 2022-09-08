@@ -25,7 +25,7 @@ _Building from source lets developers modify the ScottPlot code to customize beh
 
 ### Visual Studio 2019
 
-> ⚠️ **WARNING: These steps are not required** for users who can use the latest free version of Visual Studio Community. Visual Studio 2019 is no longer the latest major version, but is officially supported until 2019 (see [Visual Studio 2019 Product Lifecycle](https://docs.microsoft.com/en-us/visualstudio/releases/2019/servicing-vs2019) for details).
+> ⚠️ **WARNING: These steps are not required** for users who can use the latest free version of Visual Studio Community. Visual Studio 2019 is no longer the latest major version, but is officially supported until 2029 (see [Visual Studio 2019 Product Lifecycle](https://docs.microsoft.com/en-us/visualstudio/releases/2019/servicing-vs2019) for details).
 
 > 🚀 **Special thanks to Lennox808** from the [ScottPlot Discord](/discord) for sharing these notes after successfully building ScottPlot 4 in Visual Studio 2019 (version 16.11) in September, 2022
 
