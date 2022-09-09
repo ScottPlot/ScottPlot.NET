@@ -1,6 +1,6 @@
 {
-  "version": "4.1.57",
-  "generated": "2022-08-18T04:03:31.4837485Z",
+  "version": "4.1.58",
+  "generated": "2022-09-09T01:21:28.2286166Z",
   "recipes": [
     {
       "id": "Axis_label",
@@ -691,6 +691,22 @@
       "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.AddSignal(DataGen.Sin(51));\nplt.AddSignal(DataGen.Cos(51));\n\nplt.Style(Style.Seaborn);\nplt.Title(\u0022Style.Seaborn\u0022);\nplt.XLabel(\u0022Horizontal Axis\u0022);\nplt.YLabel(\u0022Vertical Axis\u0022);\n\nplt.SaveFig(\u0022style_Seaborn.png\u0022);"
     },
     {
+      "id": "misc_background_image_data",
+      "category": "Style",
+      "categoryFolder": "style",
+      "title": "Data Background Image",
+      "description": "A backgorund image can be drawn behind the data area. Users to do this may want to make grid lines semitransparent.",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.AddSignal(DataGen.Sin(51), 1, Color.Yellow);\nplt.AddSignal(DataGen.Cos(51), 1, Color.Magenta);\n\nBitmap monaLisaBmp = ScottPlot.DataGen.SampleImage();\n\nplt.Style(\n    grid: Color.FromArgb(50, Color.White),\n    dataBackgroundImage: monaLisaBmp);\n\nplt.SaveFig(\u0022misc_background_image_data.png\u0022);"
+    },
+    {
+      "id": "misc_background_image_figure",
+      "category": "Style",
+      "categoryFolder": "style",
+      "title": "Figure Background Image",
+      "description": "A backgorund image can be drawn behind the entire figure. If you do this you likely want to make your data background transparent.",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.AddSignal(DataGen.Sin(51), 1, Color.Yellow);\nplt.AddSignal(DataGen.Cos(51), 1, Color.Magenta);\n\nBitmap monaLisaBmp = ScottPlot.DataGen.SampleImage();\n\nplt.Style(\n    grid: Color.FromArgb(50, Color.White),\n    tick: Color.White,\n    dataBackground: Color.FromArgb(50, Color.White),\n    figureBackgroundImage: monaLisaBmp);\n\nplt.SaveFig(\u0022misc_background_image_figure.png\u0022);"
+    },
+    {
       "id": "annotation_quickstart",
       "category": "Annotation",
       "categoryFolder": "plottable-annotation",
@@ -944,7 +960,7 @@
       "categoryFolder": "plottable-bar-series",
       "title": "BarSeries Horizontal",
       "description": "Horizontal orientation can be achieved by customizing the IsVertical property of each Bar.",
-      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nRandom rand = new(0);\nList\u003CScottPlot.Plottable.Bar\u003E bars = new();\nfor (int i = 0; i \u003C 10; i\u002B\u002B)\n{\n    int value = rand.Next(25, 100);\n    ScottPlot.Plottable.Bar bar = new()\n    {\n        Value = value,\n        Position = i,\n        FillColor = ScottPlot.Palette.Category10.GetColor(i),\n        Label = value.ToString(),\n        IsVertical = false, // ENABLE HORIZONTAL ORIENTATION\n    };\n    bars.Add(bar);\n};\n\nplt.AddBarSeries(bars);\n\nplt.SaveFig(\u0022barseries_horizontal.png\u0022);"
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nRandom rand = new(0);\nList\u003CScottPlot.Plottable.Bar\u003E bars = new();\nfor (int i = 0; i \u003C 10; i\u002B\u002B)\n{\n    int value = rand.Next(25, 100);\n    ScottPlot.Plottable.Bar bar = new()\n    {\n        Value = value,\n        Position = i,\n        FillColor = ScottPlot.Palette.Category10.GetColor(i),\n        Label = value.ToString(),\n        IsVertical = false, // ENABLE HORIZONTAL ORIENTATION\n    };\n    bars.Add(bar);\n};\n\nplt.AddBarSeries(bars);\nplt.SetAxisLimitsX(0, 120);\n\nplt.SaveFig(\u0022barseries_horizontal.png\u0022);"
     },
     {
       "id": "barseries_error",
@@ -953,6 +969,14 @@
       "title": "BarSeries with Error Bars",
       "description": "Combine a BarSeries plot with an ErrorBar plot to achieve this effect.",
       "code": "var plt = new ScottPlot.Plot(600, 400);\n\n// Create and add Bar objects to the plot\nRandom rand = new(0);\nList\u003CScottPlot.Plottable.Bar\u003E bars = new();\nfor (int i = 0; i \u003C 10; i\u002B\u002B)\n{\n    int value = rand.Next(25, 100);\n    ScottPlot.Plottable.Bar bar = new()\n    {\n        Value = value,\n        Position = i,\n        FillColor = ScottPlot.Palette.Category10.GetColor(i),\n        LineWidth = 2,\n    };\n    bars.Add(bar);\n};\nplt.AddBarSeries(bars);\n\n// Add error bars on top of the BarSeries plot\ndouble[] xs = bars.Select(x =\u003E x.Position).ToArray();\ndouble[] xErrs = bars.Select(x =\u003E (double)0).ToArray();\ndouble[] ys = bars.Select(x =\u003E x.Value).ToArray();\ndouble[] yErrs = bars.Select(x =\u003E (double)rand.Next(2, 20)).ToArray();\nvar err = plt.AddErrorBars(xs, ys, xErrs, yErrs);\nerr.LineWidth = 2;\nerr.CapSize = 5;\nerr.LineColor = Color.Black;\n\nplt.SetAxisLimitsY(0, 120);\n\nplt.SaveFig(\u0022barseries_error.png\u0022);"
+    },
+    {
+      "id": "barseries_stacked",
+      "category": "Bar Series",
+      "categoryFolder": "plottable-bar-series",
+      "title": "Stacked Bar Plot",
+      "description": "By customizing each Bar of a BarSeries we can achieve a stacked bar plot. Text objects can be added to the plot to serve as labels.",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\n// This is the source data\ndouble[] values = { 10, 23, 13, 7, 9 };\nstring[] labels = { \u0022North\u0022, \u0022East\u0022, \u0022South\u0022, \u0022West\u0022, \u0022Endogenous\u0022 };\n\n// Add a BarSeries to the plot\nBarSeries barSeries = plt.AddBarSeries();\n\n// Manually add each Bar to the BarSeries\ndouble lastBarTop = 0;\nIPalette palette = new ScottPlot.Palettes.Tsitsulin();\nfor (int i = 0; i \u003C values.Length; i\u002B\u002B)\n{\n    // Determine how high the bar should be\n    double barTop = lastBarTop \u002B values[i];\n    double barBottom = lastBarTop;\n    lastBarTop \u002B= values[i];\n\n    // Add a bar to the existing BarSeries\n    Bar bar = new()\n    {\n        Value = barTop,\n        ValueBase = barBottom,\n        FillColor = palette.GetColor(i),\n        LineColor = Color.Black,\n        LineWidth = 1,\n    };\n    barSeries.Bars.Add(bar);\n\n    // Add a text object to the plot to label this bar\n    double barMiddle = (barBottom \u002B barTop) / 2;\n    var txt = plt.AddText(labels[i], .6, barMiddle);\n    txt.Font.Alignment = Alignment.MiddleLeft;\n    txt.Font.Size = 16;\n    txt.Font.Bold = true;\n    txt.Color = bar.FillColor; // match text and bar\n}\n\n// Set the axis limits for a pretty figure\nplt.SetAxisLimits(-5, 5, -5, 70);\n\nplt.SaveFig(\u0022barseries_stacked.png\u0022);"
     },
     {
       "id": "bracket_quickstart",
@@ -1699,6 +1723,14 @@
       "code": "var plt = new ScottPlot.Plot(600, 400);\n\ndouble[,] values = {\n        { 78, 83, 84, 76, 43 },\n        { 100, 50, 70, 60, 90 }\n    };\n\nvar radarPlot = plt.AddRadar(values);\nradarPlot.AxisType = RadarAxis.None;\nradarPlot.ShowAxisValues = false;\n\nplt.SaveFig(\u0022radar_noLines.png\u0022);"
     },
     {
+      "id": "radar_smooth",
+      "category": "Radar Chart",
+      "categoryFolder": "plottable-radar",
+      "title": "Smooth Radar",
+      "description": "The Smooth field controls whether radar areas are drawn with smooth or straight lines.",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\ndouble[,] values = {\n        { 78, 83, 84, 76, 43 },\n        { 100, 50, 70, 60, 90 }\n    };\n\nvar radarPlot = plt.AddRadar(values);\nradarPlot.Smooth = true;\n\nplt.SaveFig(\u0022radar_smooth.png\u0022);"
+    },
+    {
       "id": "radar_labelCategory",
       "category": "Radar Chart",
       "categoryFolder": "plottable-radar",
@@ -2401,6 +2433,14 @@
       "title": "Scaled Arrowheads",
       "description": "Use a slower drawing method that draws tips that are proportional to the length of the arrows.",
       "code": "var plt = new ScottPlot.Plot(600, 400);\n\ndouble[] xPositions = DataGen.Range(0, 10);\ndouble[] yPositions = DataGen.Range(0, 10);\nVector2[,] vectors = new Vector2[xPositions.Length, yPositions.Length];\n\nfor (int x = 0; x \u003C xPositions.Length; x\u002B\u002B)\n    for (int y = 0; y \u003C yPositions.Length; y\u002B\u002B)\n        vectors[x, y] = new Vector2(\n  x: Math.Sin(xPositions[x]),\n  y: Math.Sin(yPositions[y]));\n\nvar vf = plt.AddVectorField(vectors, xPositions, yPositions);\nvf.ScaledArrowheads = true;\nvf.Anchor = ArrowAnchor.Base;\nvf.MarkerSize = 3;\n\nplt.SaveFig(\u0022vectorField_fancytips.png\u0022);"
+    },
+    {
+      "id": "vectorField_arbitrary",
+      "category": "Vector Field",
+      "categoryFolder": "plottable-vector-field",
+      "title": "Arbitrary Vectors",
+      "description": "Vectors can be placed arbitrarily in coordiante space (they are not required to be in a grid)",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\n// Create a vector field list and add it to the plot\nvar field = plt.AddVectorFieldList();\n\n// Optionally color arrows using a colormap and custom scaling function\nfield.Colormap = Colormap.Turbo;\nfield.ColormapScaler = (magnitude) =\u003E magnitude * 5;\n\n// Additional arrow styling options are here\nfield.ArrowStyle.ScaledArrowheads = true;\nfield.ArrowStyle.Anchor = ArrowAnchor.Base;\nfield.ArrowStyle.LineWidth = 3;\nfield.ArrowStyle.MarkerSize = 10;\nfield.ArrowStyle.MarkerShape = MarkerShape.filledDiamond;\n\n// Generate random vectors\nRandom rand = new(0);\nint pointCount = 20;\nfor (int i = 0; i \u003C pointCount \u002B 1; i\u002B\u002B)\n{\n    double x = i / (double)pointCount;\n    double y = Math.Sin(i * 2 * Math.PI / pointCount);\n    Coordinate coordinate = new(x, y);\n\n    double dX = i / (double)pointCount * .15;\n    double dY = i / (double)pointCount * .15;\n    CoordinateVector vector = new(dX, dY);\n\n    var rootedVector = (coordinate, vector);\n    field.RootedVectors.Add(rootedVector);\n}\n\nplt.SaveFig(\u0022vectorField_arbitrary.png\u0022);"
     }
   ]
 }
