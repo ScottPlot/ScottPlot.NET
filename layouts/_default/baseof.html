@@ -39,6 +39,12 @@
     <meta name="twitter:description" content="{{ .Description }}">
     <meta name="twitter:image" content="/images/brand/banner.jpg">
 
+    {{ if eq .Page.Section "cookbook" }}
+    <!-- Paying the bills -->
+    <script>var ezoicId = 385319;</script>
+    <script type="text/javascript" src="//go.ezoic.net/ezoic/ezoic.js"></script>
+    {{ end }}
+
     <!-- Clean Analytics -->
     <script src="https://swharden.com/analytics/log.js" defer></script>
     
