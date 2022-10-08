@@ -110,6 +110,7 @@ cottPlot.Plot plt = new ();
 plt.AddSignal(ScottPlot.DataGen.Sin(51));
 plt.AddSignal(ScottPlot.DataGen.Cos(51));
 
+// works the same for windows forms
 ScottPlot.FormsPlotViewer viewer = new(plt);
 
 // unsubscribe from the default right-click menu event
