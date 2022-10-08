@@ -102,18 +102,22 @@ private void ClearPlot(object sender, RoutedEventArgs e)
 }
 ```
 
-## Disabling the default right-click menu
+## Console Applications
 
-You can unsubscribe the event from the event handler in order to disable the default right-click menu in a pop-up plot viewer.  
+Console applications can create a `ScottPlot.Plot` and launch it in a GUI using the `ScottPlot.FormsPlotViewer`. The following code demonstrates how to interact with the right-click menu in the pop-up interactive plot viewer. 
+
+This code disables the default right-click menu, but a custom right-click menu can be enabled by mimicing the WinForms example above.
+
 ```cs
-cottPlot.Plot plt = new ();
+// create a plot
+ScottPlot.Plot plt = new();
 plt.AddSignal(ScottPlot.DataGen.Sin(51));
 plt.AddSignal(ScottPlot.DataGen.Cos(51));
 
-// works the same for windows forms
+// launch the plot in a pop-up plot viewer
 ScottPlot.FormsPlotViewer viewer = new(plt);
 
-// unsubscribe from the default right-click menu event
+// disable the default right-click menu event
 viewer.formsPlot1.RightClicked -= viewer.formsPlot1.DefaultRightClickEvent;
 
 viewer.ShowDialog();
