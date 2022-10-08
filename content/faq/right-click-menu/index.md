@@ -101,3 +101,20 @@ private void ClearPlot(object sender, RoutedEventArgs e)
     WpfPlot1.Plot.AxisAuto();
 }
 ```
+
+## Disabling the default right-click menu
+
+You can unsubscribe the event from the event handler in order to disable the default right-click menu in a pop-up plot viewer.  
+```cs
+cottPlot.Plot plt = new ();
+plt.AddSignal(ScottPlot.DataGen.Sin(51));
+plt.AddSignal(ScottPlot.DataGen.Cos(51));
+
+// works the same for windows forms
+ScottPlot.FormsPlotViewer viewer = new(plt);
+
+// unsubscribe from the default right-click menu event
+viewer.formsPlot1.RightClicked -= viewer.formsPlot1.DefaultRightClickEvent;
+
+viewer.ShowDialog();
+```
