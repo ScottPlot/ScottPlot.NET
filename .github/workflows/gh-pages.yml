@@ -1,0 +1,26 @@
+name: Github pages
+
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🛒 Checkout
+        uses: actions/checkout@v3
+
+      - name: ✨ Setup Hugo
+        uses: peaceiris/actions-hugo@v2 #TODO: get hugo without relying on a potentially unsafe dependency (https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites)
+        with:
+          hugo-version: '0.100.1'
+
+      - name: 🛠️ Build #TODO: eventually use the same build step in cicd.yaml (merge this action into that one)
+        run: hugo --minify
+
+      - name: 🚀 Deploy
+        uses: peaceiris/actions-gh-pages@v3 #TODO: deploy without relying on a potentially unsafe dependency (https://github.com/ScottPlot/ScottPlot.NET/blob/main/.github/workflows/cicd.yaml)
+        if: github.ref == 'refs/heads/main'
+        with:
+          #github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
