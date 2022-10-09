@@ -1,4 +1,4 @@
-baseURL = 'https://ScottPlot.NET' # This would need to be changed to: https://scottplot.github.io (Repo has to be created)
+baseURL = 'https://ScottPlot.NET'
 enableInlineShortcodes = true
 disableKinds = ["taxonomy", "taxonomyTerm", "RSS", "section"]
 
