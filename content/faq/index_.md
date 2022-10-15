@@ -24,6 +24,7 @@ date: 2020-01-01
 * [Plotting Data Types Other than `double[]`](data-format)
 * [Data Containing Gaps](data-gaps)
 * [Data Containing NaN and Infinity](nan)
+* [Plot Financial Data](finance)
 
 ### Plot: Miscellaneous
 * [MultiPlot: Multiple Plots in a Single Image](multiplot)
