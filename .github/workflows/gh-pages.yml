@@ -49,7 +49,7 @@ jobs:
           # For maximum backward compatibility with Hugo modules
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
-        run: hugo --minify
+        run: hugo
       - name: 📦 Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
