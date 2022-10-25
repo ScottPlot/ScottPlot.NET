@@ -4,7 +4,7 @@
 
 * Source code for the ScottPlot package is in the [ScottPlot repository](https://github.com/scottplot/scottplot)
 
-### Development Environment
+### Development Environment 
 
 This website uses [Hugo](https://gohugo.io/) to convert Markdown content into HTML files
 
