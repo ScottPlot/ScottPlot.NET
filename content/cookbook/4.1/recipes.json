@@ -1,6 +1,6 @@
 {
-  "version": "4.1.58",
-  "generated": "2022-09-09T01:21:28.2286166Z",
+  "version": "4.1.59",
+  "generated": "2022-11-06T18:10:25.8501716Z",
   "recipes": [
     {
       "id": "Axis_label",
@@ -80,7 +80,15 @@
       "categoryFolder": "axis-and-ticks",
       "title": "Plotting DateTime Data",
       "description": "This example shows how to display DateTime data on the horizontal axis. Use DateTime.ToOADate() to convert DateTime[] to double[], plot the data,  then tell the axis to format tick labels as dates.",
-      "code": "var plt = new ScottPlot.Plot(600, 400);\n\n// create data sample data\nDateTime[] myDates = new DateTime[100];\nfor (int i = 0; i \u003C myDates.Length; i\u002B\u002B)\n    myDates[i] = new DateTime(1985, 9, 24).AddDays(7 * i);\n\n// Convert DateTime[] to double[] before plotting\ndouble[] xs = myDates.Select(x =\u003E x.ToOADate()).ToArray();\ndouble[] ys = DataGen.RandomWalk(myDates.Length);\nplt.AddScatter(xs, ys);\n\n// Then tell the axis to display tick labels using a time format\nplt.XAxis.DateTimeFormat(true);\n\nplt.SaveFig(\u0022ticks_dateTime.png\u0022);"
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\n// create data sample data\nDateTime[] myDates = new DateTime[100];\nfor (int i = 0; i \u003C myDates.Length; i\u002B\u002B)\n    myDates[i] = new DateTime(1985, 9, 24).AddDays(7 * i);\n\n// Convert DateTime[] to double[] before plotting\ndouble[] xs = myDates.Select(x =\u003E x.ToOADate()).ToArray();\ndouble[] ys = DataGen.RandomWalk(myDates.Length);\nplt.AddScatter(xs, ys);\n\n// Then tell the axis to display tick labels using a time format\n\nplt.SaveFig(\u0022ticks_dateTime.png\u0022);"
+    },
+    {
+      "id": "ticks_dateTime_signal",
+      "category": "Axis and Ticks",
+      "categoryFolder": "axis-and-ticks",
+      "title": "Plotting DateTime Data on a Signal Plot",
+      "description": "DateTime can be displayed on the horizontal axis of a signal plot by using the sample rate to set the time interval per data point, and then setting the OffsetX to the desired start date.",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\n// create data sample data\ndouble[] ys = DataGen.RandomWalk(100);\n\nTimeSpan ts = TimeSpan.FromSeconds(1); // time between data points\ndouble sampleRate = (double)TimeSpan.TicksPerDay / ts.Ticks;\nvar signalPlot = plt.AddSignal(ys, sampleRate);\n\n// Then tell the axis to display tick labels using a time format\nplt.XAxis.DateTimeFormat(true);\n\n// Set start date\nsignalPlot.OffsetX = new DateTime(1985, 10, 1).ToOADate();\n\nplt.SaveFig(\u0022ticks_dateTime_signal.png\u0022);"
     },
     {
       "id": "asis_gridAdvanced",
@@ -347,6 +355,14 @@
       "code": "var plt = new ScottPlot.Plot(600, 400);\n\nvar sig1 = plt.AddSignal(DataGen.Sin(51));\nsig1.Label = \u0022Sin\u0022;\nsig1.MarkerSize = 7;\nsig1.LineWidth = 2;\n\nvar sig2 = plt.AddSignal(DataGen.Cos(51));\nsig2.Label = \u0022Cos\u0022;\nsig2.MarkerSize = 7;\nsig2.LineWidth = 2;\n\nvar legend = plt.Legend();\nlegend.FontSize = 24;\n\nplt.Title(\u0022Plot with Large Features\u0022);\nplt.YLabel(\u0022Vertical Axis\u0022);\nplt.XLabel(\u0022Horizontal Axis\u0022);\n\nplt.YAxis.LabelStyle(fontSize: 24);\nplt.XAxis.LabelStyle(fontSize: 24);\nplt.XAxis2.LabelStyle(fontSize: 36);\n\nplt.YAxis.TickLabelStyle(fontSize: 18);\nplt.XAxis.TickLabelStyle(fontSize: 18);\n\nplt.YAxis.MajorGrid(lineWidth: 2);\nplt.XAxis.MajorGrid(lineWidth: 2);\n\nplt.SaveFig(\u0022misc_dpiScale.png\u0022);"
     },
     {
+      "id": "misc_legend_orientation",
+      "category": "Miscellaneous",
+      "categoryFolder": "misc",
+      "title": "Legend Orientation",
+      "description": "Legends can be customized to support horizontal orientation",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.AddSignal(DataGen.Sin(51), label: \u0022sin\u0022);\nplt.AddSignal(DataGen.Cos(51), label: \u0022cos\u0022);\n\nvar legend = plt.Legend(enable: true);\nlegend.Orientation = Orientation.Horizontal;\n\nplt.SaveFig(\u0022misc_legend_orientation.png\u0022);"
+    },
+    {
       "id": "multiAxis_primary",
       "category": "Multi-Axis",
       "categoryFolder": "multi-axis",
@@ -360,7 +376,7 @@
       "categoryFolder": "multi-axis",
       "title": "Additional Y Axis",
       "description": "Additional axes can be added on any edge. Additional axes stack away from the plot area.",
-      "code": "var plt = new ScottPlot.Plot(600, 400);\n\n// plot one set of data using the primary Y axis\nvar sigSmall = plt.AddSignal(DataGen.Sin(51, mult: 1));\nsigSmall.YAxisIndex = 0;\nplt.YAxis.Label(\u0022Primary Axis\u0022);\nplt.YAxis.Color(sigSmall.Color);\n\n// plot another set of data using an additional axis\nvar sigBig = plt.AddSignal(DataGen.Cos(51, mult: 100));\nvar yAxis3 = plt.AddAxis(Renderable.Edge.Left, axisIndex: 2);\nsigBig.YAxisIndex = 2;\nyAxis3.Label(\u0022Additional Axis\u0022);\nyAxis3.Color(sigBig.Color);\n\nplt.SaveFig(\u0022multiAxis_additional.png\u0022);"
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\n// plot one set of data using the primary Y axis\nvar sigSmall = plt.AddSignal(DataGen.Sin(51, mult: 1));\nsigSmall.YAxisIndex = 0;\nplt.YAxis.Label(\u0022Primary Axis\u0022);\nplt.YAxis.Color(sigSmall.Color);\n\n// plot another set of data using an additional axis\nvar sigBig = plt.AddSignal(DataGen.Cos(51, mult: 100));\nvar yAxis3 = plt.AddAxis(Renderable.Edge.Left);\nsigBig.YAxisIndex = yAxis3.AxisIndex;\nyAxis3.Label(\u0022Additional Axis\u0022);\nyAxis3.Color(sigBig.Color);\n\nplt.SaveFig(\u0022multiAxis_additional.png\u0022);"
     },
     {
       "id": "multiAxis_right",
@@ -912,7 +928,7 @@
       "categoryFolder": "plottable-bar-graph",
       "title": "Waterfall Bar Graph",
       "description": "Waterfall bar graphs use bars to represent changes in value from the previous level. This style graph can be created by offseting each bar by the sum of all bars preceeding it. This effect is similar to financial plots (OHLC and Candlestick) which are described in another section.",
-      "code": "var plt = new ScottPlot.Plot(600, 400);\n\ndouble[] values = DataGen.RandomNormal(0, 12, 5, 10);\ndouble[] offsets = Enumerable.Range(0, values.Length).Select(x =\u003E values.Take(x).Sum()).ToArray();\n\nvar bar = plt.AddBar(values);\nbar.ValueOffsets = offsets;\nbar.FillColorNegative = Color.Red;\nbar.FillColor = Color.Green;\n\nplt.SaveFig(\u0022bar_waterfall.png\u0022);"
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\ndouble[] values = DataGen.RandomNormal(1, 12, 5, 10);\ndouble[] offsets = Enumerable.Range(0, values.Length).Select(x =\u003E values.Take(x).Sum()).ToArray();\n\nvar bar = plt.AddBar(values);\nbar.ValueOffsets = offsets;\nbar.FillColorNegative = Color.Red;\nbar.FillColor = Color.Green;\n\nplt.SaveFig(\u0022bar_waterfall.png\u0022);"
     },
     {
       "id": "bar_lollipop",
@@ -944,7 +960,7 @@
       "categoryFolder": "plottable-bar-graph",
       "title": "DateTime Bar Plot",
       "description": "Bars have a default width of 1.0, but when using DateTime axis this means bars are one day wide. To plot DateTime data you may need to manually set the width of a bar to a desired size (in fractions of a day).",
-      "code": "var plt = new ScottPlot.Plot(600, 400);\n\n// let\u0027s plot 24 hours of data\nint pointCount = 24;\n\n// generate some random values\nvar rand = new Random(0);\ndouble[] values = DataGen.Random(rand, pointCount, 1, 2);\n\n// space every time point by 1 hour from a starting point\nDateTime start = new DateTime(2021, 09, 24, 0, 0, 0);\ndouble[] positions = new double[pointCount];\nfor (int i = 0; i \u003C pointCount; i\u002B\u002B)\n    positions[i] = start.AddHours(i).ToOADate();\n\n// display the bar plot using a time axis\nvar bar = plt.AddBar(values, positions);\nplt.XAxis.DateTimeFormat(true);\n\n// indicate each bar width should be 1/24 of a day then shrink sligtly to add spacing between bars\nbar.BarWidth = (1.0 / 24) * .8;\n\n// adjust axis limits so there is no padding below the bar graph\nplt.SetAxisLimits(yMin: 0);\n\nplt.SaveFig(\u0022bar_dateTime.png\u0022);"
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\n// let\u0027s plot 24 hours of data\nint pointCount = 24;\n\n// generate some random values\nvar rand = new Random(0);\ndouble[] values = DataGen.Random(rand, pointCount, 1.0, 2.5);\n\n// space every time point by 1 hour from a starting point\nDateTime start = new DateTime(2021, 09, 24, 0, 0, 0);\ndouble[] positions = new double[pointCount];\nfor (int i = 0; i \u003C pointCount; i\u002B\u002B)\n    positions[i] = start.AddHours(i).ToOADate();\n\n// display the bar plot using a time axis\nvar bar = plt.AddBar(values, positions);\nplt.XAxis.DateTimeFormat(true);\n\n// indicate each bar width should be 1/24 of a day then shrink sligtly to add spacing between bars\nbar.BarWidth = (1.0 / 24) * .8;\n\n// adjust axis limits so there is no padding below the bar graph\nplt.SetAxisLimits(yMin: 0);\nplt.Layout(right: 20); // add room for the far right date tick\n\nplt.SaveFig(\u0022bar_dateTime.png\u0022);"
     },
     {
       "id": "barseries_quickstart",
@@ -2139,6 +2155,14 @@
       "code": "var plt = new ScottPlot.Plot(600, 400);\n\nvar rand = new Random(0);\ndouble[] values = DataGen.RandomWalk(rand, 100_000);\nint sampleRate = 20_000;\n\n// Signal plots require a data array and a sample rate (points per unit)\nplt.AddSignal(values, sampleRate);\n\nplt.Benchmark(enable: true);\nplt.Title($\u0022Signal Plot: One Million Points\u0022);\n\nplt.SaveFig(\u0022signal_quickstart.png\u0022);"
     },
     {
+      "id": "signal_generic",
+      "category": "Signal Plot",
+      "categoryFolder": "plottable-signal-plot",
+      "title": "Signal Plot with Generic Data",
+      "description": "Signal plots accept double arrays by default, but a generic signal plot exists which can display most numeric data types.",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nRandom rand = new(0);\nint points = 10_000;\n\nfloat[] valuesFLOAT = DataGen.RandomWalk\u003Cfloat\u003E(rand, points, 1, 0);\nshort[] valuesSHORT = DataGen.RandomWalk\u003Cshort\u003E(rand, points, 1, 0);\nInt16[] valuesINT16 = DataGen.RandomWalk\u003CInt16\u003E(rand, points, 1, 0);\n\nplt.AddSignal(valuesFLOAT, label: \u0022float[]\u0022);\nplt.AddSignal(valuesSHORT, label: \u0022short[]\u0022);\nplt.AddSignal(valuesINT16, label: \u0022Int16[]\u0022);\n\nplt.Legend();\n\nplt.SaveFig(\u0022signal_generic.png\u0022);"
+    },
+    {
       "id": "signal_offset",
       "category": "Signal Plot",
       "categoryFolder": "plottable-signal-plot",
@@ -2241,6 +2265,14 @@
       "title": "Gradient Fill Above and Below",
       "description": "Gradients can be used to fill above and below.",
       "code": "var plt = new ScottPlot.Plot(600, 400);\n\ndouble[] data = DataGen.RandomWalk(1000);\n\nplt.Style(Style.Gray1);\n\nvar sig = plt.AddSignal(data);\nsig.MarkerSize = 0;\nsig.Color = Color.Black;\nsig.FillAboveAndBelow(Color.Green, Color.Transparent, Color.Transparent, Color.Red, 1);\nsig.BaselineY = 5;\n\nplt.Margins(x: 0);\n\nplt.SaveFig(\u0022signal_gradientAboveAndBelowGradient.png\u0022);"
+    },
+    {
+      "id": "signal_smooth",
+      "category": "Signal Plot",
+      "categoryFolder": "plottable-signal-plot",
+      "title": "Signal Plot with Smooth Lines",
+      "description": "The Smooth field controls whether signal plot lines are drawn with smooth or straight line.",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\ndouble[] data = DataGen.RandomWalk(1000);\nplt.Palette = new ScottPlot.Palettes.ColorblindFriendly();\n\nvar sp = plt.AddSignal(data);\nsp.Smooth = true;\n\nplt.Legend();\n\nplt.SaveFig(\u0022signal_smooth.png\u0022);"
     },
     {
       "id": "signalconst_quickstart",

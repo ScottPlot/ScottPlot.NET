@@ -1,7 +1,7 @@
 ---
 title: "Colors - ScottPlot 4.1 Cookbook"
 description: "List of Colors from all ScottPlot Palettes"
-date: 9/8/2022 9:21:28 PM
+date: 11/6/2022 1:10:26 PM
 url: /cookbook/4.1/colors/
 ---
 
@@ -281,6 +281,27 @@ foreach (var color in myPalette)
 <div class='px-3 py-2' style='background-color: #B48EAD;'>#B48EAD</div>
 <div class='px-3 py-2' style='background-color: #88C0D0;'>#88C0D0</div>
 <div class='px-3 py-2' style='background-color: #E5E9F0;'>#E5E9F0</div>
+</div>
+
+
+### XgfsNormal6
+
+A color palette adapted from Tsitsulin's 6-color normal xgfs palette: http://tsitsul.in/blog/coloropt
+
+```cs
+var myPalette = new ScottPlot.Palettes.Normal();
+foreach (var color in myPalette)
+    Console.WriteLine(color);
+```
+
+<div class='d-flex flex-wrap'>
+<div class='px-3 py-2' style='background-color: #4053D3;'>#4053D3</div>
+<div class='px-3 py-2' style='background-color: #DDB310;'>#DDB310</div>
+<div class='px-3 py-2' style='background-color: #B51D14;'>#B51D14</div>
+<div class='px-3 py-2' style='background-color: #00BEFF;'>#00BEFF</div>
+<div class='px-3 py-2' style='background-color: #FB49B0;'>#FB49B0</div>
+<div class='px-3 py-2' style='background-color: #00B25D;'>#00B25D</div>
+<div class='px-3 py-2' style='background-color: #CACACA;'>#CACACA</div>
 </div>
 
 
