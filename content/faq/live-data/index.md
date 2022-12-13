@@ -23,7 +23,7 @@ description: How to display data plots of live data that changes continuously.
 
 </div>
 
-* [**Download this example project**](https://github.com/ScottPlot/Website/tree/main/src/faq/live-data/src/ChangingFixedSignal-WinForms)
+* **Full source code is on GitHub: [ChangingFixedSignal](https://github.com/ScottPlot/ScottPlot.NET/tree/main/content/faq/live-data/src/ChangingFixedSignal-WinForms)**
 
 In this example a fixed-length `readonly` array is created and added to the plot, then a `Timer` calls a method to change the values inside that array and re-render the plot.
 
@@ -65,7 +65,7 @@ In this example a single scatter plot is created with a fixed-length array. New 
 
 </div>
 
-* [**Download this example project**](https://github.com/ScottPlot/Website/tree/main/src/faq/live-data/src/RollFixedSignal-WinForms)
+* **Full source code is on GitHub: [RollFixedSignal](https://github.com/ScottPlot/ScottPlot.NET/tree/main/content/faq/live-data/src/RollFixedSignal-WinForms)**
 
 ```cs
 readonly double[] Values = new double[500];
@@ -115,7 +115,7 @@ private void timer2_Tick(object sender, EventArgs e)
 
 </div>
 
-* [**Download this example project**](https://github.com/ScottPlot/Website/tree/main/src/faq/live-data/src/MaxRenderIndex-WinForms)
+* **Full source code is on GitHub: [MaxRenderIndex](https://github.com/ScottPlot/ScottPlot.NET/tree/main/content/faq/live-data/src/MaxRenderIndex-WinForms)**
 
 ```cs
 readonly double[] Values = new double[100_000];
