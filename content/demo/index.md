@@ -39,8 +39,8 @@ url: "demo"
 </div>
 
 ## Source Code
-* [Windows Forms Demo Source](https://github.com/ScottPlot/ScottPlot/tree/main/src/ScottPlot4/ScottPlot.WinForms)
-* [WPF Demo Source](https://github.com/ScottPlot/ScottPlot/tree/main/src/ScottPlot4/ScottPlot.WPF)
-* [Avalonia Demo Source](https://github.com/ScottPlot/ScottPlot/tree/main/src/ScottPlot4/ScottPlot.Avalonia)
-* [Eto Demo Source](https://github.com/ScottPlot/ScottPlot/tree/main/src/ScottPlot4/ScottPlot.Eto)
-* [Cookbook Recipe Source](https://github.com/ScottPlot/ScottPlot/tree/main/src/ScottPlot4/ScottPlot.Cookbook)
+* [Windows Forms Demo Source](https://github.com/ScottPlot/ScottPlot/tree/main/src/ScottPlot4/ScottPlot.Demo/ScottPlot.Demo.WinForms/WinFormsDemos)
+* [WPF Demo Source](https://github.com/ScottPlot/ScottPlot/tree/main/src/ScottPlot4/ScottPlot.Demo/ScottPlot.Demo.WPF/WpfDemos)
+* [Avalonia Demo Source](https://github.com/ScottPlot/ScottPlot/tree/main/src/ScottPlot4/ScottPlot.Demo/ScottPlot.Demo.Avalonia/AvaloniaDemos)
+* [Eto Demo Source](https://github.com/ScottPlot/ScottPlot/tree/main/src/ScottPlot4/ScottPlot.Demo/ScottPlot.Demo.Eto/EtoFormsDemos)
+* [Cookbook Recipe Source](https://github.com/ScottPlot/ScottPlot/tree/main/src/ScottPlot4/ScottPlot.Cookbook/Recipes)
