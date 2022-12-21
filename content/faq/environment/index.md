@@ -42,3 +42,7 @@ Try to build the solution one project at a time, starting with `ScottPlot`. The 
 ### Automated Conversion with Python
 
 The processes above may be automated using [this python script](convert-vs2017.py) contributed by Lennox808 from the [ScottPlot Discord](/discord). It is not officially supported, but still seems quite useful.
+
+### ScottPlot 5
+
+ScottPlot5 is being actively developed. Although it is intended to be used with the latest version of Visual Studio, [issue #2233](https://github.com/ScottPlot/ScottPlot/issues/2233) has notes and code describing how to get it to build with older tools.
