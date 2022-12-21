@@ -39,7 +39,8 @@ date: 2020-01-01
 * [Custom Right-Click Menu](right-click-menu)
 * [Get the Mouse Position](mouse-position)
 * [Show the Value of the Point Under the Cursor](mouse-position#highlight-the-data-point-near-the-cursor)
-* [Use RenderLock() in multi-threaded/async environments](async)
+* [Use `RenderLock()` in multi-threaded/async environments](async)
+* [Advanced customization using the `Configuration` object](configuration)
 
 ### User Control: Live Data
 * [How to display live, changing data in a ScottPlot control](live-data)
