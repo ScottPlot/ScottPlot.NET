@@ -3,7 +3,7 @@ Title: User Control Configuration - ScottPlot FAQ
 Description: Interact with the control configuration object to achieve advanced customizations of user control style and behavior
 ---
 
-**ScottPlot user controls have a `Plot` object you're probably familiar with, but they also have a `Configuration` object which lets users modify the default behavior of user controls.** Options in this configuration object are typically related to user interaction, such as whether school-wheel-zoom is enabled, or left-click-pan is allowed.
+**ScottPlot user controls have a `Plot` object you're probably familiar with, but they also have a `Configuration` object which lets users modify the default behavior of user controls.** Options in this configuration object are typically related to user interaction, such as whether scroll-wheel-zoom is enabled, or left-click-pan is allowed.
 
 A full list of configuration options can be seen here: [ScottPlot/Control/Configuration.cs](https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot4/ScottPlot/Control/Configuration.cs) but the most common customizations include:
 
