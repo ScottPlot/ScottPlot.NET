@@ -32,6 +32,7 @@ date: 2020-01-01
 * [How to Print a ScottPlot](print)
 * [Display Scaling (small text vs. blurry text)](dpi-scaling)
 * [Font Issues on Linux or MacOS](linux-font)
+* [How to tag plotted objects with custom objects](tag)
 
 ### User Control: Interactive Behavior
 * [Low Quality while Dragging](anti-aliasing)
