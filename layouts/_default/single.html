@@ -2,26 +2,11 @@
 
 {{ partial "post-warnings.html" . }}
 
-<header class="px-3">
-    <div class="fs-1 fw-light lh-1 mt-2">
-        <a href="{{ .Permalink }}" class="text-dark">
-            {{ .Title | markdownify }}
-        </a>
-    </div>
-    <div class="fs-5 fw-lighter lh-1 mt-2">
-        {{ .Description | markdownify }}
-    </div>
-</header>
-
-<article class="bg-light shadow rounded my-3">
+<article class="my-3">
     <div class="p-3 rounded bg-white">
         {{ .Content | replaceRE "(<h[1-9] id=\"([^\"]+)\".+)(</h[1-9]+>)"
             `<a href="#${2}">${1}</a> ${3}` | safeHTML }}
     </div>
 </article>
-
-<div class="p-2" style="opacity: .3;">
-    {{ partial "post-meta.html" . }}
-</div>
 
 {{ end }}

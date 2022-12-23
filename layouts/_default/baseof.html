@@ -111,35 +111,50 @@
 
 </head>
 
-<body class="bg-light">
+<body>
 
     <!-- menu bar -->
     <div style="background-color: #67217A;" class="">
 
-        <div class="d-flex pt-3">
-            <div class="ms-4 me-3 my-1">
-                <a href="/">
-                    <img class="" src='/images/brand/favicon.svg' width="56" height="56" />
-                </a>
-            </div>
-            <div class="mt-1">
-                <a class="text-light lh-1" href="/" style="font-size: 1.8em;">
-                    ScottPlot.NET
-                </a>
-                <div class="">
-                    {{ partial "github-info.html" . }}
+        <div class="text-center mx-auto" style="max-width: 1000px;">
+            <div class="d-flex pt-3 ">
+                <div class="ms-3 me-3 my-1">
+                    <a href="/">
+                        <img class="" src='/images/brand/favicon.svg' width="56" height="56" />
+                    </a>
+                </div>
+                <div class="mt-1">
+                    <a class="text-light lh-1" href="/" style="font-size: 1.8em;">
+                        ScottPlot.NET
+                    </a>
+                    <div class="">
+                        {{ partial "github-info.html" . }}
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <nav class="py-2">
-            {{ partial "menu.html" . }}
-        </nav>
+            <nav class="py-2">
+                {{ partial "menu.html" . }}
+            </nav>
+        </div>
     </div>
+
+    <header class="px-3 bg-light border-bottom py-3">
+        <div class="mx-auto px-3" style="max-width: 1000px;">
+            <div class="fs-1 fw-light lh-1 mt-2">
+                <a href="{{ .Permalink }}" class="text-dark">
+                    {{ .Title | markdownify }}
+                </a>
+            </div>
+            <div class="fs-5 fw-lighter lh-1 mt-2">
+                {{ .Description | markdownify }}
+            </div>
+        </div>
+    </header>
 
     <!-- main container -->
     <div class="container-fluid p-0" style="position: relative; max-width: 1000px;">
-        <main class="my-5">
+        <main class="mb-5">
             {{ block "main" . }}
             {{ end }}
         </main>
