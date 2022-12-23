@@ -1,7 +1,7 @@
 ---
 title: "Colors - ScottPlot 4.1 Cookbook"
 description: "List of Colors from all ScottPlot Palettes"
-date: 11/6/2022 1:10:26 PM
+date: 12/23/2022 9:39:56 AM
 url: /cookbook/4.1/colors/
 ---
 
@@ -218,6 +218,52 @@ foreach (var color in myPalette)
 </div>
 
 
+### Light ocean
+
+A 9-color palette by Arthurits created by a mixture of light greens, blues, and purples
+
+```cs
+var myPalette = new ScottPlot.Palettes.LightOcean();
+foreach (var color in myPalette)
+    Console.WriteLine(color);
+```
+
+<div class='d-flex flex-wrap'>
+<div class='px-3 py-2' style='background-color: #DFEDD9;'>#DFEDD9</div>
+<div class='px-3 py-2' style='background-color: #DBECDC;'>#DBECDC</div>
+<div class='px-3 py-2' style='background-color: #DBEDE4;'>#DBEDE4</div>
+<div class='px-3 py-2' style='background-color: #DAEEEC;'>#DAEEEC</div>
+<div class='px-3 py-2' style='background-color: #DAEEF3;'>#DAEEF3</div>
+<div class='px-3 py-2' style='background-color: #DAE6F2;'>#DAE6F2</div>
+<div class='px-3 py-2' style='background-color: #DADEF1;'>#DADEF1</div>
+<div class='px-3 py-2' style='background-color: #DEDAEE;'>#DEDAEE</div>
+<div class='px-3 py-2' style='background-color: #E5DAED;'>#E5DAED</div>
+</div>
+
+
+### Light spectrum
+
+A 9-color palette by Arthurits created by lightening the colors in the visible spectrum
+
+```cs
+var myPalette = new ScottPlot.Palettes.LightSpectrum();
+foreach (var color in myPalette)
+    Console.WriteLine(color);
+```
+
+<div class='d-flex flex-wrap'>
+<div class='px-3 py-2' style='background-color: #FCE5E6;'>#FCE5E6</div>
+<div class='px-3 py-2' style='background-color: #FFF8E7;'>#FFF8E7</div>
+<div class='px-3 py-2' style='background-color: #FFFCE8;'>#FFFCE8</div>
+<div class='px-3 py-2' style='background-color: #EFF5E4;'>#EFF5E4</div>
+<div class='px-3 py-2' style='background-color: #E7F2E6;'>#E7F2E6</div>
+<div class='px-3 py-2' style='background-color: #DDF0F5;'>#DDF0F5</div>
+<div class='px-3 py-2' style='background-color: #E6F2FC;'>#E6F2FC</div>
+<div class='px-3 py-2' style='background-color: #E6EAF7;'>#E6EAF7</div>
+<div class='px-3 py-2' style='background-color: #EEE0F0;'>#EEE0F0</div>
+</div>
+
+
 ### Microcharts
 
 Soft color palette sourced from the Microcharts project: https://github.com/microcharts-dotnet/Microcharts
@@ -344,6 +390,32 @@ foreach (var color in myPalette)
 <div class='px-3 py-2' style='background-color: #C678DD;'>#C678DD</div>
 <div class='px-3 py-2' style='background-color: #56B6C2;'>#56B6C2</div>
 <div class='px-3 py-2' style='background-color: #DCDFE4;'>#DCDFE4</div>
+</div>
+
+
+### Pastel wheel
+
+A 12-color palette by Arthurits created by lightening the color wheel
+
+```cs
+var myPalette = new ScottPlot.Palettes.PastelWheel();
+foreach (var color in myPalette)
+    Console.WriteLine(color);
+```
+
+<div class='d-flex flex-wrap'>
+<div class='px-3 py-2' style='background-color: #F8C5C7;'>#F8C5C7</div>
+<div class='px-3 py-2' style='background-color: #FADEC3;'>#FADEC3</div>
+<div class='px-3 py-2' style='background-color: #FBF6C4;'>#FBF6C4</div>
+<div class='px-3 py-2' style='background-color: #E1ECC8;'>#E1ECC8</div>
+<div class='px-3 py-2' style='background-color: #D7E8CB;'>#D7E8CB</div>
+<div class='px-3 py-2' style='background-color: #DAEBD7;'>#DAEBD7</div>
+<div class='px-3 py-2' style='background-color: #D9EEF3;'>#D9EEF3</div>
+<div class='px-3 py-2' style='background-color: #CADBED;'>#CADBED</div>
+<div class='px-3 py-2' style='background-color: #C7D2E6;'>#C7D2E6</div>
+<div class='px-3 py-2' style='background-color: #D4D1E5;'>#D4D1E5</div>
+<div class='px-3 py-2' style='background-color: #E8D3E6;'>#E8D3E6</div>
+<div class='px-3 py-2' style='background-color: #F8C7DE;'>#F8C7DE</div>
 </div>
 
 

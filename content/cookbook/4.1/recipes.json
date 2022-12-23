@@ -1,6 +1,6 @@
 {
-  "version": "4.1.59",
-  "generated": "2022-11-06T18:10:25.8501716Z",
+  "version": "4.1.60",
+  "generated": "2022-12-23T14:39:56.3190864Z",
   "recipes": [
     {
       "id": "Axis_label",
@@ -801,6 +801,14 @@
       "title": "Draggable Axis Span",
       "description": "Axis spans can be dragged using the mouse. Drag limits are boundaries over which the edges of spans cannot cross.",
       "code": "var plt = new ScottPlot.Plot(600, 400);\n\n// plot sample data\nplt.AddSignal(DataGen.Sin(51));\nplt.AddSignal(DataGen.Cos(51));\n\n// dragging can be enabled and optionally limited to a range\nvar vSpan = plt.AddVerticalSpan(.15, .85);\nvSpan.DragEnabled = true;\nvSpan.DragLimitMin = -1;\nvSpan.DragLimitMax = 1;\nvSpan.BorderColor = Color.Red;\nvSpan.BorderLineStyle = LineStyle.Dot;\nvSpan.BorderLineWidth = 2;\nvSpan.HatchColor = Color.FromArgb(100, Color.Blue);\nvSpan.HatchStyle = Drawing.HatchStyle.SmallCheckerBoard;\nvSpan.Label = \u0022Customized vSpan\u0022;\n\n\n// spans can be configured to allow dragging but disallow resizing\nvar hSpan = plt.AddHorizontalSpan(10, 25);\nhSpan.DragEnabled = true;\nhSpan.DragFixedSize = true;\nhSpan.Label = \u0022Standard hSpan\u0022;\nplt.Legend(true);\n\nplt.SaveFig(\u0022axisSpan_draggable.png\u0022);"
+    },
+    {
+      "id": "axisSpan_draggable_events",
+      "category": "Axis Line and Span",
+      "categoryFolder": "plottable-axis-line-and-span",
+      "title": "Draggable Axis Span Events",
+      "description": "Axis spans can be dragged using the mouse. Span events can be useful for binding span edge values to UI elements.",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\n// plot sample data\nplt.AddSignal(DataGen.Sin(51));\nplt.AddSignal(DataGen.Cos(51));\n\nvar minText = plt.AddTooltip(\u0022min: default\u0022, 0, 1);\nvar maxText = plt.AddTooltip(\u0022max: default\u0022, 50, 1);\n\nvar edge1Tooltip = plt.AddTooltip(\u0022Edge1: 0\u0022, 0, 0.6);\nvar edge2Tooltip = plt.AddTooltip(\u0022Edge2: 50\u0022, 50, 0.2);\n\n// dragging can be enabled and optionally limited to a range\nvar hSpan = plt.AddHorizontalSpan(0, 50);\nhSpan.DragEnabled = true;\nhSpan.DragLimitMin = 0;\nhSpan.DragLimitMax = 50;\nhSpan.Label = \u0022Draggable vSpan\u0022;\n\nhSpan.MinDragged \u002B= (s, e) =\u003E minText.Label = $\u0022Min: {e}\u0022;\nhSpan.MaxDragged \u002B= (s, e) =\u003E maxText.Label = $\u0022Max: {e}\u0022;\nhSpan.Edge1Dragged \u002B= (s, e) =\u003E\n{\n    edge1Tooltip.X = e;\n    edge1Tooltip.Label = $\u0022Edge1: {e}\u0022;\n};\nhSpan.Edge2Dragged \u002B= (s, e) =\u003E\n{\n    edge2Tooltip.X = e;\n    edge2Tooltip.Label = $\u0022Edge2: {e}\u0022;\n};\n\nplt.Legend(true);\n\nplt.SaveFig(\u0022axisSpan_draggable_events.png\u0022);"
     },
     {
       "id": "axisSpan_ignore",
@@ -1635,6 +1643,14 @@
       "code": "var plt = new ScottPlot.Plot(600, 400);\n\ndouble[] values = { 778, 43, 283, 76, 184 };\nstring[] labels = { \u0022C#\u0022, \u0022JAVA\u0022, \u0022Python\u0022, \u0022F#\u0022, \u0022PHP\u0022 };\n\n// modify labels to include a custom formatted value\nlabels = Enumerable.Range(0, values.Length)\n       .Select(i =\u003E $\u0022{labels[i]}\\n({values[i]})\u0022)\n       .ToArray();\n\nvar pie = plt.AddPie(values);\npie.SliceLabels = labels;\npie.ShowLabels = true;\n\nplt.SaveFig(\u0022pie_customLabels.png\u0022);"
     },
     {
+      "id": "pie_size",
+      "category": "Pie Chart",
+      "categoryFolder": "plottable-pie",
+      "title": "Custom Size",
+      "description": "You can define the size of the pie to make room for large labels.",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.Title(\u0022Really\\nLarge\\nTitle\u0022);\n\ndouble[] values = { 778, 283, 184, 76, 43 };\nvar pie = plt.AddPie(values);\n\npie.Size = .6; // size of the pie (default is .9)\n\nplt.SaveFig(\u0022pie_size.png\u0022);"
+    },
+    {
       "id": "polygon_quickstart",
       "category": "Polygon",
       "categoryFolder": "plottable-polygon",
@@ -2273,6 +2289,14 @@
       "title": "Signal Plot with Smooth Lines",
       "description": "The Smooth field controls whether signal plot lines are drawn with smooth or straight line.",
       "code": "var plt = new ScottPlot.Plot(600, 400);\n\ndouble[] data = DataGen.RandomWalk(1000);\nplt.Palette = new ScottPlot.Palettes.ColorblindFriendly();\n\nvar sp = plt.AddSignal(data);\nsp.Smooth = true;\n\nplt.Legend();\n\nplt.SaveFig(\u0022signal_smooth.png\u0022);"
+    },
+    {
+      "id": "signal_marker_color",
+      "category": "Signal Plot",
+      "categoryFolder": "plottable-signal-plot",
+      "title": "Signal Marker Color",
+      "description": "The markers that display when signal plots are zoomed in may have a different color than the lines connecting them",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\ndouble[] values = DataGen.Sin(51);\nvar sig = plt.AddSignal(values);\n\nsig.LineColor = Color.LightBlue;\nsig.LineWidth = 3;\nsig.MarkerColor = Color.Blue;\n\nplt.SaveFig(\u0022signal_marker_color.png\u0022);"
     },
     {
       "id": "signalconst_quickstart",
