@@ -2,7 +2,9 @@ name: Website
 
 on:
   workflow_dispatch:
-  push:
+  push: # only runs on commits to main branch (typically after a merge)
+    branches:
+      - main
 
 jobs:
   deploy:
