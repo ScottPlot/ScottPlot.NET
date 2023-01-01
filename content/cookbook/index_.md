@@ -4,7 +4,7 @@ description: Cookbooks or organized by major version
 url: /cookbook
 ---
 
-Cookbooks are organized by major version:
+* [**ScottPlot 5.0 (beta) Cookbook**](/cookbook/5.0/)
 
 * [**ScottPlot 4.1 Cookbook**](/cookbook/4.1/)
 

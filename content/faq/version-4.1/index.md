@@ -1,6 +1,6 @@
 ---
 title: What's New in ScottPlot 4.1
-description: Changes likely to be encountered when upgrading from ScottPlot 4.0 and 4.1
+description: Notable changes between ScottPlot 4.0 and 4.1
 ---
 
 **ScottPlot 4.1 replaced ScottPlot 4.0 in May, 2021.** This page summarizes major new features and changes likely to be encountered when upgrading from ScottPlot 4.0 and 4.1. The ScottPlot Cookbook is an excellent source of documentation for how to use the latest new features.

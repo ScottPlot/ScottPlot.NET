@@ -5,12 +5,12 @@ url: "faq"
 date: 2020-01-01
 ---
 
-### Introduction to ScottPlot
+### ScottPlot Basics
 * [Creating, Adding, and Modifying Plottable objects](plottable)
 * [Favor SignalPlot over ScatterPlot](scatter-vs-signal)
 * [Axis Styles, Axis Limits, and Multiple Axes](axis)
 
-### Plot: Axis and Ticks
+### Plot: Axis and Tick Customizations
 * [DateTime Axis Units](datetime)
 * [Using Multiple or Additional Axes](multi-axis)
 
@@ -53,9 +53,11 @@ date: 2020-01-01
   * [Growing Data with SignalPlotList](live-data/#growing-data-with-signalplotlist)
 
 ### Developer Notes
-* [Development Environment Setup](environment)
+* [ScottPlot Versions](../versions)
 * [What's New in ScottPlot 4.1](version-4.1)
+* [What's New in ScottPlot 5.0](version-5.0)
 * [ScottPlot's Dependencies by Version](dependencies)
+* [Development Environment Setup](environment)
 
 ### About ScottPlot
 * [Why the Name _ScottPlot_?](history)

@@ -38,27 +38,33 @@ plt.SaveFig("quickstart.png");
 ![](quickstart/console/scottplot-quickstart-console.png)
 
 
-## Cookbook and Demo
+## Cookbook
 
-The [**ScottPlot Cookbook**](cookbook) demonstrates how to create line plots, bar charts, pie graphs, scatter plots, and more with just a few lines of code. 
+The [**ScottPlot Cookbook**](cookbook/4.1/) demonstrates how to create line plots, bar charts, pie graphs, scatter plots, and more with just a few lines of code. 
 
-The [**ScottPlot Demo**](demo) is a click-to-run application that demonstrates mouse-interactive versions of every cookbook recipe.
+<a href='cookbook/4.1/'>
+  <img src='images/cookbook.jpg' class="d-block mx-auto my-5 w-75" />
+</a>
 
-<a href='cookbook'>
-  <img src='images/cookbook.jpg' class="d-block mx-auto my-5" />
+## Demo
+
+The [**ScottPlot Demo**](demo) is a click-to-run application that provides mouse-interactive versions of every cookbook recipe and demonstrates how to perform advanced interactive customizations.
+
+<a href='demo'>
+  <img src='demo/scottplot-demo.png' class="d-block mx-auto my-5 w-75" />
 </a>
 
 ## Plot in the Cloud
 
-**ScottPlot does not require a GUI so it can be used to create plots in cloud applications.** The images below are regenerated hourly using Azure Functions to update star metrics from the GitHub API and download count from the NuGet API. The data is plotted with ScottPlot and saved as an image file in blob storage.
+**ScottPlot does not require a GUI so it can be used to create plots in cloud applications.** The images below are regenerated hourly using Azure Functions to update star metrics from the GitHub API and download count from the NuGet API. The data is plotted with ScottPlot and saved as an image file in blob storage. Try it out!
 
 **Try it out!** [Give us a star](https://github.com/scottplot/scottplot) and come back in an hour and your name will appear here:
 
 
 <a href="https://stargraph.z20.web.core.windows.net/scottplot-stars.png" target="_blank">
-  <img src="https://stargraph.z20.web.core.windows.net/scottplot-stars.png?" class="d-block mx-auto my-4" >
+  <img src="https://stargraph.z20.web.core.windows.net/scottplot-stars.png?" class="d-block mx-auto my-5" >
 </a>
 
 <a href='https://nugetppt.z20.web.core.windows.net/plots/scottplot.png'>
-  <img src='https://nugetppt.z20.web.core.windows.net/plots/scottplot.png' class="d-block mx-auto my-4" >
+  <img src='https://nugetppt.z20.web.core.windows.net/plots/scottplot.png' class="d-block mx-auto my-5" >
 </a>
