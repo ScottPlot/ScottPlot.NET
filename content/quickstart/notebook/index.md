@@ -42,3 +42,10 @@ double[] columnValues = Enumerable.Range(0, (int)df.Rows.Count)
     .Select(x => Convert.ToDouble(df["ColumnName"][x]))
     .ToArray();
 ```
+
+## PowerShell Interactive Notebooks
+
+[Doug Finke](https://github.com/dfinke) prepared a [YouTube video](https://www.youtube.com/watch?v=nL0JRukCU4k) and [GitHub repository](https://github.com/dfinke/PowerShellScottPlot) demonstrating how to create data visualizations with PowerShell and ScottPlot in the a Polyglot Interactive Notebook.
+
+* https://www.youtube.com/watch?v=nL0JRukCU4k
+* https://github.com/dfinke/PowerShellScottPlot

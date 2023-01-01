@@ -32,3 +32,19 @@ $plt = [ScottPlot.Plot]::new(400, 300)
 ```
 
 ![](../console/scottplot-quickstart-console.png)
+
+## PowerShell Interactive Notebooks
+
+[Doug Finke](https://github.com/dfinke) prepared a [YouTube video](https://www.youtube.com/watch?v=nL0JRukCU4k) and [GitHub repository](https://github.com/dfinke/PowerShellScottPlot) demonstrating how to create data visualizations with PowerShell and ScottPlot in the a Polyglot Interactive Notebook.
+
+* https://www.youtube.com/watch?v=nL0JRukCU4k
+* https://github.com/dfinke/PowerShellScottPlot
+
+<div class="w-75 mx-auto">
+<div class='ratio ratio-16x9 w-100 my-5 shadow'>
+<iframe src='https://www.youtube.com/embed/nL0JRukCU4k' frameborder='0'
+width='1920' height='1080'
+allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'     allowfullscreen>
+</iframe>
+</div>
+</div>
