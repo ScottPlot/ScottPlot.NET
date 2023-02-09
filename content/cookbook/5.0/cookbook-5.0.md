@@ -2,12 +2,12 @@
 title: ScottPlot 5.0 Cookbook
 description: Example plots shown next to the code used to create them
 url: /cookbook/5.0/
-date: 1/2/2023 12:00:28 AM
+date: 2/9/2023 11:56:12 PM
 ---
 
 
 
-<div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.0-beta is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
+<div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.1-beta is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
 
 
 ## Introduction
@@ -71,11 +71,11 @@ date: 1/2/2023 12:00:28 AM
 <div>How to customize plots</div>
 <div class='row my-4'>
 <div class='col'>
-<a href='styling-plots/#background-colors'><img class='img-fluid' src='styling-plots/background-colors.png' /></a>
+<a href='styling-plots/#style-helper-functions'><img class='img-fluid' src='styling-plots/style-helper-functions.png' /></a>
 </div>
 <div class='col'>
-<div><a href='styling-plots/#background-colors'><b>Background Colors</b></a></div>
-<div>Figure and data area background colors can be customized.</div>
+<div><a href='styling-plots/#style-helper-functions'><b>Style Helper Functions</b></a></div>
+<div>Plots contain many objects which can be customized individually by assigining to their public properties, but helper methods exist in the Plot's Style object that make it easier to customzie many items at once using a simpler API.</div>
 </div>
 </div>
 <div class='row my-4'>
@@ -121,6 +121,15 @@ date: 1/2/2023 12:00:28 AM
 <div class='col'>
 <div><a href='styling-plots/#markers'><b>Markers</b></a></div>
 <div>Many plot types have a MarkerStyle which can be customized.</div>
+</div>
+</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='styling-plots/#line-styles'><img class='img-fluid' src='styling-plots/line-styles.png' /></a>
+</div>
+<div class='col'>
+<div><a href='styling-plots/#line-styles'><b>Line Styles</b></a></div>
+<div>Many plot types have a LineStyle which can be customized.</div>
 </div>
 </div>
 <hr class='my-5' />
@@ -212,6 +221,17 @@ date: 1/2/2023 12:00:28 AM
 <div>Alternative tick generators can be created and assigned to axes. Some common tick generators are provided with ScottPlot, and users also have the option create their own.</div>
 </div>
 </div>
+<div class='fs-4 mt-4'>DateTime Axes</div>
+<div>Plot data values on a DataTime axes</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='datetime-axes/#datetime-axis-quickstart'><img class='img-fluid' src='datetime-axes/datetime-axis-quickstart.png' /></a>
+</div>
+<div class='col'>
+<div><a href='datetime-axes/#datetime-axis-quickstart'><b>DateTime Axis Quickstart</b></a></div>
+<div>.</div>
+</div>
+</div>
 <div class='fs-4 mt-4'>Advanced Axis Features</div>
 <div>Tick mark customization and creation of multi-Axis plots</div>
 <div class='row my-4'>
@@ -252,6 +272,26 @@ date: 1/2/2023 12:00:28 AM
 <div class='col'>
 <div><a href='bar-plot/#bar-series'><b>Bar Series</b></a></div>
 <div>Bar plots can be grouped into bar series and plotted together.</div>
+</div>
+</div>
+<div class='fs-4 mt-4'>Error Bars</div>
+<div>Error Bars communicate the range of possible values for a measurement</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='error-bars/#error-bar-quickstart'><img class='img-fluid' src='error-bars/error-bar-quickstart.png' /></a>
+</div>
+<div class='col'>
+<div><a href='error-bars/#error-bar-quickstart'><b>Error Bar Quickstart</b></a></div>
+<div>Error Bars go well with scatter plots.</div>
+</div>
+</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='error-bars/#multidimensional-errorbars'><img class='img-fluid' src='error-bars/multidimensional-errorbars.png' /></a>
+</div>
+<div class='col'>
+<div><a href='error-bars/#multidimensional-errorbars'><b>MultiDimensional ErrorBars</b></a></div>
+<div>You can mix and match x and y error bars.</div>
 </div>
 </div>
 <hr class='my-5' />

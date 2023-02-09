@@ -2,21 +2,21 @@
 title: Styling Plots - ScottPlot 5.0 Cookbook
 description: How to customize plots
 url: /cookbook/5.0/styling-plots/
-date: 1/2/2023 12:00:28 AM
+date: 2/9/2023 11:56:12 PM
 ---
 
 This page is part of the [ScottPlot 5.0 Cookbook](../)
 
 
-<div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.0-beta is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
+<div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.1-beta is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
 
 
 
-## Background Colors
+## Style Helper Functions
 
-Figure and data area background colors can be customized.
+Plots contain many objects which can be customized individually by assigining to their public properties, but helper methods exist in the Plot's Style object that make it easier to customzie many items at once using a simpler API.
 
-[![](background-colors.png)](background-colors.png)
+[![](style-helper-functions.png)](style-helper-functions.png)
 
 ```cs
 ScottPlot.Plot myPlot = new();
@@ -24,10 +24,17 @@ ScottPlot.Plot myPlot = new();
 myPlot.Add.Signal(Generate.Sin(51));
 myPlot.Add.Signal(Generate.Cos(51));
 
-myPlot.FigureBackground = Colors.DarkGray;
-myPlot.DataBackground = Colors.LightGray;
+// visible items have public properties that can be customized
+myPlot.XAxis.Label.Text = "Horizontal Axis";
+myPlot.YAxis.Label.Text = "Vertical Axis";
+myPlot.Title.Label.Text = "Plot Title";
 
-myPlot.SavePng("background-colors.png");
+// the Style object contains helper methods to easily style many items at once
+myPlot.Style.Background(figure: Color.FromHex("#07263b"), data: Color.FromHex("#0b3049"));
+myPlot.Style.ColorAxes(Color.FromHex("#a0acb5"));
+myPlot.Style.ColorGrids(Color.FromHex("#0e3d54"));
+
+myPlot.SavePng("style-helper-functions.png");
 ```
 
 
@@ -166,5 +173,36 @@ for (int i = 0; i < markerShapes.Length; i++)
 }
 
 myPlot.SavePng("markers.png");
+```
+
+
+## Line Styles
+
+Many plot types have a LineStyle which can be customized.
+
+[![](line-styles.png)](line-styles.png)
+
+```cs
+ScottPlot.Plot myPlot = new();
+
+int count = 21;
+double[] xs = Generate.Consecutive(count);
+double[] ys = Generate.Sin(count);
+
+LinePattern[] linePatterns = Enum.GetValues<LinePattern>().ToArray();
+
+for (int i = 0; i < linePatterns.Length; i++)
+{
+    double[] data = ys.Select(y => linePatterns.Length - y + i).ToArray();
+
+    var scatter = myPlot.Add.Scatter(xs, data);
+
+    scatter.Label = linePatterns[i].ToString();
+    scatter.LineStyle.Width = 2;
+    scatter.LineStyle.Pattern = linePatterns[i];
+    scatter.MarkerStyle = MarkerStyle.None;
+}
+
+myPlot.SavePng("line-styles.png");
 ```
 
