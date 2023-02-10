@@ -32,10 +32,19 @@ Non-Windows users must take the following steps to enable System.Drawing.Common 
 
 **Step 3:** Follow Microsoft's [recommended action](https://docs.microsoft.com/en-us/dotnet/core/compatibility/core-libraries/6.0/system-drawing-common-windows-only#recommended-action) and edit `runtimeconfig.json` to `EnableUnixSupport`.
 
+## Docker
+
+Docker users can find additional information in [#2366](https://github.com/ScottPlot/ScottPlot/issues/2366) and [#1677](https://github.com/ScottPlot/ScottPlot/issues/1677)
+
 ## ScottPlot 5
 
-* ScottPlot 5 is not yet released, but it is expected to release before .NET 7 in November, 2022.
+ScottPlot 5 does not depend on `System.Drawing.Common`, so the concerns above concerns do not apply.
 
-* ScottPlot 5 does not depend on `System.Drawing.Common`, so the concerns above concerns do not apply.
+However, the following packages may be useful for non-Windows systems:
 
-* The rendering technology underlying ScottPlot 5 is still not fully decided. See the [ScottPlot Roadmap](https://github.com/ScottPlot/ScottPlot/blob/main/dev/roadmap.md) for details.
+```
+apt-get update
+apt-get install -y libfreetype6
+apt-get install -y libfontconfig1
+apt-get install -y fontconfig
+```
