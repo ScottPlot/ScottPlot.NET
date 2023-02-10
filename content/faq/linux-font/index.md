@@ -5,6 +5,8 @@ description: Commonly encountered issues related to font rendering on Linux and 
 
 ScottPlot 4 uses `System.Drawing.Common` to render text in cross-platform environments, but not having the proper dependencies installed may result in unexpected font rendering behavior.
 
+## Example Font Rendering Issue
+
 <figure class="figure w-100 text-center">
     <img src="linux-font-error.png" class="figure-img img-fluid">
     <figcaption class="figure-caption">
@@ -12,4 +14,6 @@ ScottPlot 4 uses `System.Drawing.Common` to render text in cross-platform enviro
     </figcaption>
 </figure>
 
-**Solution:** [Install ScottPlot dependencies](/faq/dependencies/) for Linux and MacOS
+## Solution
+
+* Linux and MacOS may need to install additional packages described on the [ScottPlot dependencies](/faq/dependencies/)  page.
