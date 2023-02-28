@@ -1,7 +1,7 @@
 ---
 title: "Colors - ScottPlot 4.1 Cookbook"
 description: "List of Colors from all ScottPlot Palettes"
-date: 12/23/2022 9:39:56 AM
+date: 2/27/2023 8:38:47 PM
 url: /cookbook/4.1/colors/
 ---
 
@@ -102,7 +102,7 @@ foreach (var color in myPalette)
 
 ### Category 20
 
-A set of 10 unque colors used in many data visualization libraries such as Matplotlib, Vega, and Tableau
+A set of 20 unque colors used in many data visualization libraries such as Matplotlib, Vega, and Tableau
 
 ```cs
 var myPalette = new ScottPlot.Palettes.Category20();
@@ -330,7 +330,7 @@ foreach (var color in myPalette)
 </div>
 
 
-### XgfsNormal6
+### Xgfs Normal 6
 
 A color palette adapted from Tsitsulin's 6-color normal xgfs palette: http://tsitsul.in/blog/coloropt
 
