@@ -2,12 +2,12 @@
 title: ScottPlot 5.0 Cookbook
 description: Example plots shown next to the code used to create them
 url: /cookbook/5.0/
-date: 2/9/2023 11:56:12 PM
+date: 2/28/2023 1:42:27 AM
 ---
 
 
 
-<div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.1-beta is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
+<div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.2-beta is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
 
 
 ## Introduction
@@ -292,6 +292,37 @@ date: 2/9/2023 11:56:12 PM
 <div class='col'>
 <div><a href='error-bars/#multidimensional-errorbars'><b>MultiDimensional ErrorBars</b></a></div>
 <div>You can mix and match x and y error bars.</div>
+</div>
+</div>
+<div class='fs-4 mt-4'>Financial Plot</div>
+<div>Finance plots display price data binned into time ranges</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='financial-plot/#ohlc-chart'><img class='img-fluid' src='financial-plot/ohlc-chart.png' /></a>
+</div>
+<div class='col'>
+<div><a href='financial-plot/#ohlc-chart'><b>OHLC Chart</b></a></div>
+<div>OHLC charts use symbols to display price data (open, high, low, and close) for specific time ranges.</div>
+</div>
+</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='financial-plot/#candlestick-chart'><img class='img-fluid' src='financial-plot/candlestick-chart.png' /></a>
+</div>
+<div class='col'>
+<div><a href='financial-plot/#candlestick-chart'><b>Candlestick Chart</b></a></div>
+<div>Candlestick charts use symbols to display price data. The rectangle indicates open and close prices, and the center line indicates minimum and maximum price for the given time period. Color indicates whether the price increased or decreased between open and close.</div>
+</div>
+</div>
+<div class='fs-4 mt-4'>Signal Plot</div>
+<div>Signal plots display evenly-spaced data</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='signal-plot/#offset'><img class='img-fluid' src='signal-plot/offset.png' /></a>
+</div>
+<div class='col'>
+<div><a href='signal-plot/#offset'><b>Offset</b></a></div>
+<div>Signal plots can be offset by a given X and Y value.</div>
 </div>
 </div>
 <hr class='my-5' />
