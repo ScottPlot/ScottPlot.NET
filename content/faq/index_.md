@@ -9,6 +9,7 @@ date: 2020-01-01
 * [Creating, Adding, and Modifying Plottable objects](plottable)
 * [Favor SignalPlot over ScatterPlot](scatter-vs-signal)
 * [Axis Styles, Axis Limits, and Multiple Axes](axis)
+* [Create Custom Plot Types](custom-plot-type)
 
 ### Plot: Axis and Tick Customizations
 * [DateTime Axis Units](datetime)
