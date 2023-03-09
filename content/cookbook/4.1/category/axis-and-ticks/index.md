@@ -225,6 +225,7 @@ double[] ys = DataGen.RandomWalk(myDates.Length);
 plt.AddScatter(xs, ys);
 
 // Then tell the axis to display tick labels using a time format
+plt.XAxis.DateTimeFormat(true);
 
 plt.SaveFig("ticks_dateTime.png");
 ```
