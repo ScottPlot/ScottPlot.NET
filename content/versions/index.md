@@ -13,7 +13,7 @@ url: "versions"
 ## Features by Version
 
 * [What’s New in ScottPlot 4.1](/faq/version-4.1/)
-* [What’s New in ScottPlot 5.0](/faq/version-5.1/)
+* [What’s New in ScottPlot 5.0](/faq/version-5.0/)
 
 <div class="text-center"><div class="d-inline-block">
 
