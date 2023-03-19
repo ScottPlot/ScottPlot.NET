@@ -1,12 +1,14 @@
 ---
-Title: Plotting Data in .NET Interactive Notebooks
-description: How to plot data using ScottPlot in a .NET Polyglot notebook
+Title: Plot Data in .NET Interactive Notebooks
+description: How to use ScottPlot to visualize data in .NET Polyglot notebooks
 url: "quickstart/notebook"
 ---
 
 [.NET Interactive Notebooks](https://github.com/dotnet/interactive)  (polyglot notebooks) allow programmers to work with data in an interactive environment. To get started using ScottPlot to display data in a .NET notebook, install the [.NET Interactive Notebooks extension for VS Code](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.dotnet-interactive-vscode), create a new `quickstart.ipynb` file, then add the following:
 
-### Prepare the Notebook
+### Setup
+
+Add the following to the top of your notebook to add the ScottPlot NuGet package to your notebook and make it easy to display plots inline:
 
 ```cs
 // Install the ScottPlot NuGet package
@@ -14,38 +16,41 @@ url: "quickstart/notebook"
 
 // Setup a custom formatter to display plots as images
 using Microsoft.DotNet.Interactive.Formatting;
-Formatter.Register(typeof(ScottPlot.Plot), (plt, writer) => 
-    writer.Write(((ScottPlot.Plot)plt).GetImageHTML()), HtmlFormatter.MimeType);
+Formatter.Register(typeof(ScottPlot.Plot), (p, w) => 
+    w.Write(((ScottPlot.Plot)p).GetImageHTML()), HtmlFormatter.MimeType);
 ```
 
 ### Plot Data
 
 ```cs
-// Plot some data
+// create sample data
 double[] dataX = new double[] { 1, 2, 3, 4, 5 };
 double[] dataY = new double[] { 1, 4, 9, 16, 25 };
+
+// plot the data
 var plt = new ScottPlot.Plot(400, 300);
 plt.AddScatter(dataX, dataY);
 
-// Display the plot as an image
+// display the plot
 plt
 ```
 
 ![](../console/scottplot-quickstart-console.png)
 
-### Plot Data from a DataFrame
+### Advanced Notebook Examples
 
-ScottPlot is designed to display data in `double[]` format, so use LINQ to convert data values to a `double` array like this:
+Scatter plots, bar charts, and more are demonstrated in a notebook:
 
-```cs
-double[] columnValues = Enumerable.Range(0, (int)df.Rows.Count)
-    .Select(x => Convert.ToDouble(df["ColumnName"][x]))
-    .ToArray();
-```
+* Download: [demo.ipynb](demo.ipynb)
 
-## PowerShell Interactive Notebooks
+* View as HTML: [demo.html](demo)
 
-[Doug Finke](https://github.com/dfinke) prepared a [YouTube video](https://www.youtube.com/watch?v=nL0JRukCU4k) and [GitHub repository](https://github.com/dfinke/PowerShellScottPlot) demonstrating how to create data visualizations with PowerShell and ScottPlot in the a Polyglot Interactive Notebook.
+[![](screenshot.png)](demo)
 
-* https://www.youtube.com/watch?v=nL0JRukCU4k
-* https://github.com/dfinke/PowerShellScottPlot
+## Resources
+
+* [Announcing Polyglot Notebooks! Multi-language notebooks in Visual Studio Code](https://devblogs.microsoft.com/dotnet/announcing-polyglot-notebooks-harness-the-power-of-multilanguage-notebooks-in-visual-studio-code/) (March 15, 2023)
+
+* [.NET Interactive Notebooks is now Polyglot Notebooks!](https://devblogs.microsoft.com/dotnet/dotnet-interactive-notebooks-is-now-polyglot-notebooks/) (Nov 3, 2022)
+
+* [Doug Finke](https://github.com/dfinke) prepared a [YouTube video](https://www.youtube.com/watch?v=nL0JRukCU4k) and [GitHub repository](https://github.com/dfinke/PowerShellScottPlot) demonstrating how to create data visualizations with PowerShell and ScottPlot in the a Polyglot Interactive Notebook.
