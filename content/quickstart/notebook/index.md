@@ -1,10 +1,10 @@
 ---
-Title: Notebook Quickstart
-description: How to plot data using ScottPlot in a Jupyter / .NET Interactive notebook
+Title: Plotting Data in .NET Interactive Notebooks
+description: How to plot data using ScottPlot in a .NET Polyglot notebook
 url: "quickstart/notebook"
 ---
 
-[.NET Notebooks](https://github.com/dotnet/interactive) allow programmers to work with data in an interactive environment. To get started using ScottPlot in a .NET workbooks, install the [.NET Interactive Notebooks extension for VS Code](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.dotnet-interactive-vscode), create a new `quickstart.ipynb` file, then add the following:
+[.NET Interactive Notebooks](https://github.com/dotnet/interactive)  (polyglot notebooks) allow programmers to work with data in an interactive environment. To get started using ScottPlot to display data in a .NET notebook, install the [.NET Interactive Notebooks extension for VS Code](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.dotnet-interactive-vscode), create a new `quickstart.ipynb` file, then add the following:
 
 ### Prepare the Notebook
 
