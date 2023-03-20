@@ -20,7 +20,7 @@ Add this to the top of your notebook to use the ScottPlot NuGet package and make
 
 ```cs
 // Install the ScottPlot NuGet package
-#r "nuget:ScottPlot"
+#r "nuget:ScottPlot, 4.1.*"
 
 // Setup a custom formatter to display plots as images
 using Microsoft.DotNet.Interactive.Formatting;
