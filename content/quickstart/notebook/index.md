@@ -4,11 +4,11 @@ description: How to use ScottPlot to visualize data in .NET Polyglot notebooks
 url: "quickstart/notebook"
 ---
 
-[.NET Interactive Notebooks](https://github.com/dotnet/interactive)  (polyglot notebooks) allow programmers to work with data in an interactive environment. To get started using ScottPlot to display data in a .NET notebook, install the [.NET Interactive Notebooks extension for VS Code](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.dotnet-interactive-vscode), create a new `quickstart.ipynb` file, then add the following:
+.NET Interactive Notebooks (polyglot notebooks) allow programmers to work with data in an interactive environment. To get started using ScottPlot to display data in a .NET notebook, install the [.NET Interactive Notebooks extension for VS Code](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.dotnet-interactive-vscode), create a new `quickstart.ipynb` file, then add the following:
 
 ### Setup
 
-Add the following to the top of your notebook to add the ScottPlot NuGet package to your notebook and make it easy to display plots inline:
+Add this to the top of your notebook to use the ScottPlot NuGet package and make it easy to display plots inline:
 
 ```cs
 // Install the ScottPlot NuGet package
