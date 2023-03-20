@@ -10,8 +10,9 @@ url: "quickstart/notebook"
 
 * Install [VS Code](https://code.visualstudio.com/)
 * Install the VS Code [Polyglot Notebooks extension](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.dotnet-interactive-vscode)
-* `CTRL + SHIFT + P` (to create a new file)
-* Select _Polyglot Notebook: Create Default Notebook_, choose the `.ipynb` extension, and select the C# language
+* Press `CTRL + SHIFT + P` to open the command dialogue
+* Select _Polyglot Notebook: Create Default Notebook_
+* Choose the `.ipynb` extension and select the C# language
 
 ### Setup ScottPlot
 
