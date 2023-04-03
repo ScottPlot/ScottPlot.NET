@@ -1,6 +1,6 @@
 {
-  "version": "4.1.61",
-  "generated": "2023-02-28T01:38:47.7535063Z",
+  "version": "4.1.62",
+  "generated": "2023-04-03T00:03:50.4623677Z",
   "recipes": [
     {
       "id": "Axis_label",
@@ -80,7 +80,7 @@
       "categoryFolder": "axis-and-ticks",
       "title": "Plotting DateTime Data",
       "description": "This example shows how to display DateTime data on the horizontal axis. Use DateTime.ToOADate() to convert DateTime[] to double[], plot the data,  then tell the axis to format tick labels as dates.",
-      "code": "var plt = new ScottPlot.Plot(600, 400);\n\n// create data sample data\nDateTime[] myDates = new DateTime[100];\nfor (int i = 0; i \u003C myDates.Length; i\u002B\u002B)\n    myDates[i] = new DateTime(1985, 9, 24).AddDays(7 * i);\n\n// Convert DateTime[] to double[] before plotting\ndouble[] xs = myDates.Select(x =\u003E x.ToOADate()).ToArray();\ndouble[] ys = DataGen.RandomWalk(myDates.Length);\nplt.AddScatter(xs, ys);\n\n// Then tell the axis to display tick labels using a time format\n\nplt.SaveFig(\u0022ticks_dateTime.png\u0022);"
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\n// create data sample data\nDateTime[] myDates = new DateTime[100];\nfor (int i = 0; i \u003C myDates.Length; i\u002B\u002B)\n    myDates[i] = new DateTime(1985, 9, 24).AddDays(7 * i);\n\n// Convert DateTime[] to double[] before plotting\ndouble[] xs = myDates.Select(x =\u003E x.ToOADate()).ToArray();\ndouble[] ys = DataGen.RandomWalk(myDates.Length);\nplt.AddScatter(xs, ys);\n\n// Then tell the axis to display tick labels using a time format\nplt.XAxis.DateTimeFormat(true);\n\nplt.SaveFig(\u0022ticks_dateTime.png\u0022);"
     },
     {
       "id": "ticks_dateTime_signal",
@@ -265,6 +265,14 @@
       "title": "Invert tick mark direction",
       "description": "Tick marks can be outward (default) or inverted to appear as inward lines relative to the edge of the plot area.",
       "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.AddSignal(DataGen.Sin(51));\nplt.AddSignal(DataGen.Cos(51));\n\nplt.XAxis.TickMarkDirection(outward: false);\nplt.YAxis.TickMarkDirection(outward: false);\n\nplt.SaveFig(\u0022ticks_invert_tick_mark_direction.png\u0022);"
+    },
+    {
+      "id": "advanced_axis_customization",
+      "category": "Advanced Axis Features",
+      "categoryFolder": "advanced-axis-features",
+      "title": "Advanced Axis Customization",
+      "description": "Axis labels, tick marks, and axis lines can all be extensively customized by interacting directly with axis configuration objects.",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.AddSignal(DataGen.Sin(51));\nplt.AddSignal(DataGen.Cos(51));\n\nplt.XAxis.AxisTicks.MajorTickLength = 10;\nplt.XAxis.AxisTicks.MinorTickLength = 5;\n\nplt.XAxis.AxisTicks.MajorTickColor = Color.Magenta;\nplt.XAxis.AxisTicks.MinorTickColor = Color.LightSkyBlue;\n\nplt.YAxis.AxisLine.Width = 3;\n\nplt.SaveFig(\u0022advanced_axis_customization.png\u0022);"
     },
     {
       "id": "layout_default",
@@ -654,9 +662,17 @@
       "id": "style_Default",
       "category": "Style",
       "categoryFolder": "style",
-      "title": "Default Style",
-      "description": "Customize many plot features using style presets",
-      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.AddSignal(DataGen.Sin(51));\nplt.AddSignal(DataGen.Cos(51));\n\nplt.Style(Style.Default);\nplt.Title(\u0022Style.Default\u0022);\nplt.XLabel(\u0022Horizontal Axis\u0022);\nplt.YLabel(\u0022Vertical Axis\u0022);\n\nplt.SaveFig(\u0022style_Default.png\u0022);"
+      "title": "Default Plot Style",
+      "description": "This example demonstrates the default plot style.",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.AddSignal(DataGen.Sin(51));\nplt.AddSignal(DataGen.Cos(51));\nplt.Title(\u0022Default Style\u0022);\nplt.XLabel(\u0022Horizontal Axis\u0022);\nplt.YLabel(\u0022Vertical Axis\u0022);\n\nplt.SaveFig(\u0022style_Default.png\u0022);"
+    },
+    {
+      "id": "style_background",
+      "category": "Style",
+      "categoryFolder": "style",
+      "title": "Background Color",
+      "description": "Plots have two background colors that can be individually customized. The figure background is the background of the whole image. The data background is the background of the rectangle that contains the data. Both background types support transparency, although PNG file export is required.",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.AddSignal(DataGen.Sin(51));\nplt.AddSignal(DataGen.Cos(51));\n\nplt.Style(\n    figureBackground: Color.LightSkyBlue,\n    dataBackground: Color.Salmon);\n\nplt.SaveFig(\u0022style_background.png\u0022);"
     },
     {
       "id": "style_monospace",
@@ -795,6 +811,14 @@
       "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.AddSignal(DataGen.Sin(51));\nplt.AddSignal(DataGen.Cos(51));\n\nvar hline = plt.AddHorizontalLine(.85);\nhline.LineWidth = 2;\nhline.PositionLabel = true;\nhline.PositionLabelBackground = hline.Color;\nhline.DragEnabled = true;\n\nvar vline = plt.AddVerticalLine(23);\nvline.LineWidth = 2;\nvline.PositionLabel = true;\nvline.PositionLabelBackground = vline.Color;\nvline.DragEnabled = true;\n\nFunc\u003Cdouble, string\u003E xFormatter = x =\u003E $\u0022X={x:F2}\u0022;\nvline.PositionFormatter = xFormatter;\n\nplt.SaveFig(\u0022axisLine_positionLabels.png\u0022);"
     },
     {
+      "id": "axisLine_positionLabels2",
+      "category": "Axis Line and Span",
+      "categoryFolder": "plottable-axis-line-and-span",
+      "title": "Position Labels on Additional Axes",
+      "description": "Position labels can be added to multi-axis plots. The axis line must be told which axis to render the label on.",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nvar hlineA = plt.AddHorizontalLine(3);\nhlineA.YAxisIndex = 1;\nhlineA.PositionLabel = true;\nhlineA.PositionLabelOppositeAxis = true;\nhlineA.PositionLabelBackground = hlineA.Color;\n\nvar hlineB = plt.AddHorizontalLine(7);\nhlineB.YAxisIndex = 2;\nhlineB.PositionLabel = true;\nhlineB.PositionLabelOppositeAxis = true;\nhlineB.PositionLabelBackground = hlineB.Color;\n\n// tell the line which axis to draw the label on\nvar yAxis2 = plt.XAxis2;\nvar yAxis3 = plt.AddAxis(ScottPlot.Renderable.Edge.Right);\nhlineA.PositionLabelAxis = yAxis2;\nhlineB.PositionLabelAxis = yAxis3;\n\nplt.YAxis2.Ticks(true);\nplt.SetAxisLimits(yMin: -10, yMax: 10, yAxisIndex: 1);\nplt.SetAxisLimits(yMin: -10, yMax: 10, yAxisIndex: 2);\n\nplt.SaveFig(\u0022axisLine_positionLabels2.png\u0022);"
+    },
+    {
       "id": "axisSpan_quickstart",
       "category": "Axis Line and Span",
       "categoryFolder": "plottable-axis-line-and-span",
@@ -889,6 +913,14 @@
       "title": "Values Above Bars",
       "description": "The value of each bar can be displayed above it.",
       "code": "var plt = new ScottPlot.Plot(600, 400);\n\n// create sample data\ndouble[] values = { 27.3, 23.1, 21.2, 16.1, 6.4, 19.2, 18.7, 17.3, 20.3, 13.1 };\n\n// add a bar graph to the plot and enable values to be displayed above each bar\nvar bar = plt.AddBar(values);\nbar.ShowValuesAboveBars = true;\n\n// adjust axis limits so there is no padding below the bar graph\nplt.SetAxisLimits(yMin: 0);\n\nplt.SaveFig(\u0022bar_values.png\u0022);"
+    },
+    {
+      "id": "bar_values_custom_font",
+      "category": "Bar Graph",
+      "categoryFolder": "plottable-bar-graph",
+      "title": "Customizing Value Label Font",
+      "description": "Font styling for bar value labels can be customized.",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\ndouble[] values = { 27.3, 23.1, 21.2, 16.1, 6.4, 19.2, 18.7, 17.3, 20.3, 13.1 };\n\nvar bar = plt.AddBar(values);\nbar.ShowValuesAboveBars = true;\nbar.Font.Color = Color.Green;\nbar.Font.Size = 18;\nbar.Font.Bold = true;\n\nplt.SetAxisLimits(yMin: 0);\n\nplt.SaveFig(\u0022bar_values_custom_font.png\u0022);"
     },
     {
       "id": "bar_values_custom_formatter",
@@ -1051,6 +1083,14 @@
       "code": "var plt = new ScottPlot.Plot(600, 400);\n\ndouble[] xs = DataGen.Consecutive(31);\ndouble[] ys = DataGen.Sin(31);\nvar colormap = Drawing.Colormap.Viridis;\n\nvar myBubblePlot = plt.AddBubblePlot();\nfor (int i = 0; i \u003C xs.Length; i\u002B\u002B)\n{\n    double fraction = (double)i / xs.Length;\n    myBubblePlot.Add(\n        x: xs[i],\n        y: ys[i],\n        radius: 10 \u002B i,\n        fillColor: colormap.GetColor(fraction, alpha: .8),\n        edgeColor: System.Drawing.Color.Black,\n        edgeWidth: 2\n    );\n}\n\nplt.Title(\u0022Advanced Bubble Plot\u0022);\nplt.AxisAuto(.2, .25); // zoom out to accommodate large bubbles\n\nplt.SaveFig(\u0022bubble_quickstart.png\u0022);"
     },
     {
+      "id": "bubble_size",
+      "category": "Bubble Plot",
+      "categoryFolder": "plottable-bubble",
+      "title": "Bubble Size",
+      "description": "The size of bubbles are defined in pixel units by default. However, it is possible to define the size of bubbles using the same units the coordinate system and axes use. If using axis units, users may want to enable the axis scale lock feature to enforce bubble circularity.",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\ndouble[] xs = DataGen.Consecutive(31);\ndouble[] ys = DataGen.Sin(31, mult: 5);\nvar colormap = Drawing.Colormap.Viridis;\n\nvar myBubblePlot = plt.AddBubblePlot();\nfor (int i = 0; i \u003C xs.Length; i\u002B\u002B)\n{\n    double fraction = (double)i / xs.Length;\n    myBubblePlot.Add(\n        x: xs[i],\n        y: ys[i],\n        radius: .5 \u002B i * .05f,\n        fillColor: colormap.GetColor(fraction, alpha: .8),\n        edgeColor: System.Drawing.Color.Black,\n        edgeWidth: 2\n    );\n}\n\n// indicate radius is coordinate units\nmyBubblePlot.RadiusIsPixels = false;\n\n// Enable the axis scale lock to force bubbles to be circular:\n//plt.AxisScaleLock(true, EqualScaleMode.PreserveLargest);\n\nplt.Title(\u0022Advanced Bubble Plot\u0022);\n\nplt.SaveFig(\u0022bubble_size.png\u0022);"
+    },
+    {
       "id": "bubble_withText",
       "category": "Bubble Plot",
       "categoryFolder": "plottable-bubble",
@@ -1177,6 +1217,38 @@
       "title": "Crosshairs on Multiple Axes",
       "description": "Crosshairs label coordinates on the primary axes by default, but the axis index can be changed allowing multiple crosshairs to label multiple axes.",
       "code": "var plt = new ScottPlot.Plot(600, 400);\n\n// add a signal and crosshair to the primary X and Y axis (index 0)\nvar signal1 = plt.AddSignal(DataGen.RandomWalk(null, 100));\nvar cross1 = plt.AddCrosshair(24, 5.29);\ncross1.LineWidth = 2;\n\n// add a signal and crosshair to the secondary X and Y axis (index 1)\nvar signal2 = plt.AddSignal(DataGen.RandomWalk(null, 50));\nsignal2.YAxisIndex = 1;\nsignal2.XAxisIndex = 1;\n\nvar cross2 = plt.AddCrosshair(33, 5.1);\ncross2.HorizontalLine.PositionLabelOppositeAxis = true;\ncross2.VerticalLine.PositionLabelOppositeAxis = true;\ncross2.YAxisIndex = signal2.YAxisIndex;\ncross2.XAxisIndex = signal2.XAxisIndex;\ncross2.LineStyle = LineStyle.Dot;\ncross2.LineWidth = 2;\n\n// apply signal colors to the crosshairs\ncross1.Color = signal1.Color;\ncross2.Color = signal2.Color;\n\n// add axis labels\nplt.Title(\u0022Multiple Crosshairs for different Axes\u0022);\nplt.XLabel(\u0022Horizontal Axis\u0022);\nplt.YLabel(\u0022Vertical Axis\u0022);\nplt.YAxis2.Label(\u0022Signal2 Value\u0022);\n\n// show ticks for axes where ticks are hidden by default\nplt.YAxis2.Ticks(true);\nplt.XAxis2.Ticks(true);\n\nplt.SaveFig(\u0022crosshair_multiple_different_axes.png\u0022);"
+    },
+    {
+      "id": "ellipse_quickstart",
+      "category": "Ellipse",
+      "categoryFolder": "plottable-ellipse",
+      "title": "Ellipse Quickstart",
+      "description": "Ellipses can be added to plots",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nRandom rand = new(0);\nfor (int i = 0; i \u003C 5; i\u002B\u002B)\n{\n    plt.AddEllipse(\n        x: rand.Next(-10, 10),\n        y: rand.Next(-10, 10),\n        xRadius: rand.Next(1, 7),\n        yRadius: rand.Next(1, 7),\n        lineWidth: rand.Next(1, 10));\n}\n\nplt.SaveFig(\u0022ellipse_quickstart.png\u0022);"
+    },
+    {
+      "id": "circle_quickstart",
+      "category": "Ellipse",
+      "categoryFolder": "plottable-ellipse",
+      "title": "Circle Quickstart",
+      "description": "Circles can be added to plots. Circles are really Ellipses with the same X and Y radius. Note that circles appear as ellipses unless the plot has a square coordinate system.",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nRandom rand = new(0);\nfor (int i = 0; i \u003C 5; i\u002B\u002B)\n{\n    plt.AddCircle(\n        x: rand.Next(-10, 10),\n        y: rand.Next(-10, 10),\n        radius: rand.Next(1, 7),\n        lineWidth: rand.Next(1, 10));\n}\n\nplt.SaveFig(\u0022circle_quickstart.png\u0022);"
+    },
+    {
+      "id": "circle_square_pixel",
+      "category": "Ellipse",
+      "categoryFolder": "plottable-ellipse",
+      "title": "Circle with Locked Scale",
+      "description": "For circles to always appear circular, the coordinate system must be forced to always display square-shaped pixels. This can be achieved by enabling the axis scale lock.",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nRandom rand = new(0);\nfor (int i = 0; i \u003C 5; i\u002B\u002B)\n{\n    plt.AddCircle(\n        x: rand.Next(-10, 10),\n        y: rand.Next(-10, 10),\n        radius: rand.Next(1, 7),\n        lineWidth: rand.Next(1, 10));\n}\n\nplt.AxisScaleLock(true); // this forces pixels to have 1:1 scale ratio\n\nplt.SaveFig(\u0022circle_square_pixel.png\u0022);"
+    },
+    {
+      "id": "ellipse_styling",
+      "category": "Ellipse",
+      "categoryFolder": "plottable-ellipse",
+      "title": "Ellipse Styling",
+      "description": "Ellipses styles can be extensively customized",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nvar el = plt.AddCircle(0, 0, 5);\nel.BorderLineWidth = 5;\nel.BorderLineStyle = LineStyle.Dash;\nel.BorderColor = Color.Green;\nel.Color = Color.Navy;\nel.HatchColor = Color.Red;\nel.HatchStyle = Drawing.HatchStyle.StripedUpwardDiagonal;\n\nplt.SetAxisLimits(-10, 10, -10, 10);\n\nplt.SaveFig(\u0022ellipse_styling.png\u0022);"
     },
     {
       "id": "errorBar_quickstart",
@@ -1351,8 +1423,8 @@
       "category": "Heatmap",
       "categoryFolder": "plottable-heatmap",
       "title": "Flipped Heatmap",
-      "description": "Sometimes it\u0027s more intuitive to draw heatmaps from the bottom-left corner.",
-      "code": "var plt = new ScottPlot.Plot(600, 400);\n\ndouble[,] data2D = { { 1, 2, 3 },\n         { 4, 5, 6 } };\n\nvar hm = plt.AddHeatmap(data2D);\nhm.FlipVertically = true;\n\nplt.SaveFig(\u0022heatmap_flip.png\u0022);"
+      "description": "Heatmaps can be flipped vertically and/or horizontally.",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\ndouble[,] data = ScottPlot.DataGen.SampleImageData();\n\nvar hm1 = plt.AddHeatmap(data, lockScales: false);\nhm1.XMin = 0;\n\nvar hm2 = plt.AddHeatmap(data, lockScales: false);\nhm2.XMin = 100;\nhm2.FlipHorizontally = true;\n\nvar hm3 = plt.AddHeatmap(data, lockScales: false);\nhm3.XMin = 200;\nhm3.FlipVertically = true;\n\nvar hm4 = plt.AddHeatmap(data, lockScales: false);\nhm4.XMin = 300;\nhm4.FlipVertically = true;\nhm4.FlipHorizontally = true;\n\nplt.SaveFig(\u0022heatmap_flip.png\u0022);"
     },
     {
       "id": "heatmap_margins",
@@ -1385,6 +1457,14 @@
       "title": "Heatmap Image",
       "description": "Image data can be plotted using the heatmap plot type.",
       "code": "var plt = new ScottPlot.Plot(600, 400);\n\ndouble[,] imageData = DataGen.SampleImageData();\nplt.AddHeatmap(imageData);\n\nplt.SaveFig(\u0022heatmap_image.png\u0022);"
+    },
+    {
+      "id": "heatmap_opacity",
+      "category": "Heatmap",
+      "categoryFolder": "plottable-heatmap",
+      "title": "Heatmap Opacity",
+      "description": "Heatmaps have an Opacity property that can be set anywhere from 0 (transparent) to 1 (opaque).",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\ndouble[,] imageData = DataGen.SampleImageData();\nvar hm = plt.AddHeatmap(imageData);\nhm.Opacity = 0.5;\n\nplt.SaveFig(\u0022heatmap_opacity.png\u0022);"
     },
     {
       "id": "heatmap_single_color",
@@ -1681,6 +1761,14 @@
       "title": "Custom Size",
       "description": "You can define the size of the pie to make room for large labels.",
       "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.Title(\u0022Really\\nLarge\\nTitle\u0022);\n\ndouble[] values = { 778, 283, 184, 76, 43 };\nvar pie = plt.AddPie(values);\n\npie.Size = .6; // size of the pie (default is .9)\n\nplt.SaveFig(\u0022pie_size.png\u0022);"
+    },
+    {
+      "id": "pie_custom_legend_labels",
+      "category": "Pie Chart",
+      "categoryFolder": "plottable-pie",
+      "title": "Custom Legend Labels",
+      "description": "Labels for slices and legend items can be independently configured.",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\ndouble[] values = { 778, 43, 283, 76, 184 };\nstring[] SliceLabels = { \u0022Cat\u0022, \u0022Dog\u0022, \u0022Snake\u0022, \u0022Frog\u0022, \u0022Fox\u0022 };\nstring[] LegendLabels = { \u0022Meow\u0022, \u0022Woof\u0022, \u0022Ssst\u0022, \u0022Ribbit\u0022, \u0022RingDing\u0022 };\n\nvar pie = plt.AddPie(values);\npie.SliceLabels = SliceLabels;\npie.ShowLabels = true;\n\npie.LegendLabels = LegendLabels;\nplt.Legend();\n\nplt.SaveFig(\u0022pie_custom_legend_labels.png\u0022);"
     },
     {
       "id": "polygon_quickstart",
