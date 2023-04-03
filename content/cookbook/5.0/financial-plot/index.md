@@ -2,13 +2,13 @@
 title: Financial Plot - ScottPlot 5.0 Cookbook
 description: Finance plots display price data binned into time ranges
 url: /cookbook/5.0/financial-plot/
-date: 2/28/2023 1:42:27 AM
+date: 4/3/2023 12:05:08 AM
 ---
 
 This page is part of the [ScottPlot 5.0 Cookbook](../)
 
 
-<div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.2-beta is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
+<div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.3-beta is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
 
 
 
@@ -22,7 +22,7 @@ OHLC charts use symbols to display price data (open, high, low, and close) for s
 ScottPlot.Plot myPlot = new();
 
 ScottPlot.RandomDataGenerator gen = new(0);
-ScottPlot.OHLC[] prices = gen.RandomOHLCs(30);
+var prices = gen.RandomOHLCs(30);
 myPlot.Add.OHLC(prices);
 myPlot.Axes.DateTimeTicks(Edge.Bottom);
 
@@ -40,7 +40,7 @@ Candlestick charts use symbols to display price data. The rectangle indicates op
 ScottPlot.Plot myPlot = new();
 
 ScottPlot.RandomDataGenerator gen = new(0);
-ScottPlot.OHLC[] prices = gen.RandomOHLCs(30);
+var prices = gen.RandomOHLCs(30);
 myPlot.Add.Candlestick(prices);
 myPlot.Axes.DateTimeTicks(Edge.Bottom);
 

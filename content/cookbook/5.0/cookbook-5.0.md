@@ -2,12 +2,12 @@
 title: ScottPlot 5.0 Cookbook
 description: Example plots shown next to the code used to create them
 url: /cookbook/5.0/
-date: 2/28/2023 1:42:27 AM
+date: 4/3/2023 12:05:08 AM
 ---
 
 
 
-<div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.2-beta is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
+<div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.3-beta is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
 
 
 ## Introduction
@@ -214,11 +214,20 @@ date: 2/28/2023 1:42:27 AM
 <div>Advanced customization of tick marks and tick labels</div>
 <div class='row my-4'>
 <div class='col'>
+<a href='customizing-ticks/#custom-tick-formatters'><img class='img-fluid' src='customizing-ticks/custom-tick-formatters.png' /></a>
+</div>
+<div class='col'>
+<div><a href='customizing-ticks/#custom-tick-formatters'><b>Custom Tick Formatters</b></a></div>
+<div>Users can customize the logic used to create tick labels from tick positions.</div>
+</div>
+</div>
+<div class='row my-4'>
+<div class='col'>
 <a href='customizing-ticks/#custom-tick-generators'><img class='img-fluid' src='customizing-ticks/custom-tick-generators.png' /></a>
 </div>
 <div class='col'>
 <div><a href='customizing-ticks/#custom-tick-generators'><b>Custom Tick Generators</b></a></div>
-<div>Alternative tick generators can be created and assigned to axes. Some common tick generators are provided with ScottPlot, and users also have the option create their own.</div>
+<div>Tick generators determine where ticks are to be placed and also contain logic for generating tick labels from tick positions. Alternative tick generators can be created and assigned to axes. Some common tick generators are provided with ScottPlot, and users also have the option create their own.</div>
 </div>
 </div>
 <div class='fs-4 mt-4'>DateTime Axes</div>
