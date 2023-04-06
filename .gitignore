@@ -1,6 +1,7 @@
 # dotnet build folders
 bin
 obj
+.vs
 
 # hugo files
 .hugo_build.lock

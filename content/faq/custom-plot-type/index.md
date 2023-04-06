@@ -125,3 +125,8 @@ Learn more about how plottables are commonly constructed by inspecting the code 
 Other interfaces in the [`ScottPlot.Plottable` namespace](https://github.com/ScottPlot/ScottPlot/tree/main/src/ScottPlot4/ScottPlot/Plottable) give plottables extra functionality, such as appearing in the legend, or drag/drop mouse interactivity. 
 
 You don't need to implement any of these additional interfaces to get started, but advanced users will benefit from knowing they exist. The purpose of all interfaces are described by XML comments.
+
+## Source Code for this Demo
+
+* [DemoApp.csproj](DemoApp/DemoApp.csproj)
+* [Program.cs](DemoApp/Program.cs)
