@@ -1,16 +1,18 @@
 ﻿using ScottPlot.Plottable;
 using ScottPlot;
+using ScottPlot.SnapLogic;
 
 ScottPlot.Plot myPlot = new();
-double[] xs = ScottPlot.Generate.Consecutive(51);
-double[] ys = ScottPlot.Generate.Sin(51);
+Random rand = new();
+double[] xs = ScottPlot.DataGen.Random(rand, 50, 10);
+double[] ys = ScottPlot.DataGen.Random(rand, 50, 10);
 RainbowPlot myPlottable = new(xs, ys);
 myPlot.Add(myPlottable);
 
 new ScottPlot.FormsPlotViewer(myPlot).ShowDialog();
 
 
-class RainbowPlot : IPlottable
+class RainbowPlot : IPlottable, IDraggable
 {
     double[] Xs { get; }
     double[] Ys { get; }
@@ -37,6 +39,14 @@ class RainbowPlot : IPlottable
     public bool IsVisible { get; set; } = true;
     public int XAxisIndex { get; set; } = 0;
     public int YAxisIndex { get; set; } = 0;
+    public bool DragEnabled { get; set; } = true;
+
+    public ScottPlot.Cursor DragCursor => ScottPlot.Cursor.Hand;
+
+    public ISnap2D DragSnap { get; set; } = new NoSnap2D();
+
+    public event EventHandler Dragged = delegate { };
+
     public void ValidateData(bool deep = false) { }
 
     // Return an empty array for plottables that do not appear in the legend
@@ -68,5 +78,31 @@ class RainbowPlot : IPlottable
                 width: Radius * 2,
                 height: Radius * 2);
         }
+    }
+
+    private int IndexUnderMouse;
+
+    public bool IsUnderMouse(double coordinateX, double coordinateY, double snapX, double snapY)
+    {
+        double distanceThreshold = .25;
+        for (int i = 0; i < Xs.Length; i++)
+        {
+            double dx = Xs[i] - coordinateX;
+            double dy = Ys[i] - coordinateY;
+            double distance = Math.Sqrt(dx * dx + dy * dy);
+            if (distance < distanceThreshold)
+            {
+                IndexUnderMouse = i;
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    public void DragTo(double coordinateX, double coordinateY, bool fixedSize)
+    {
+        Xs[IndexUnderMouse] = coordinateX;
+        Ys[IndexUnderMouse] = coordinateY;
     }
 }

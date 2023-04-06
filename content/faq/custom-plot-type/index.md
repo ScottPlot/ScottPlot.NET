@@ -113,6 +113,54 @@ formsPlot1.Refresh();
 
 <img src="rainbow.gif" class="d-block mx-auto my-5">
 
+## Mouse Interactivity
+
+Common mouse interactions can be achieved by implementing additional interfaces. To demonstrate, let's implement `IDraggable` to allow the points in this custom plot type to be dragged and dropped by with the mouse. 
+
+```cs
+class RainbowPlot : IPlottable, IDraggable
+```
+
+This is the extra code added to implement this functionality:
+
+```cs
+public bool DragEnabled { get; set; } = true;
+
+public ScottPlot.Cursor DragCursor => ScottPlot.Cursor.Hand;
+
+public ISnap2D DragSnap { get; set; } = new NoSnap2D();
+
+public event EventHandler Dragged = delegate { };
+
+private int IndexUnderMouse;
+
+public bool IsUnderMouse(double coordinateX, double coordinateY, double snapX, double snapY)
+{
+    double distanceThreshold = .25;
+    for (int i = 0; i < Xs.Length; i++)
+    {
+        double dx = Xs[i] - coordinateX;
+        double dy = Ys[i] - coordinateY;
+        double distance = Math.Sqrt(dx * dx + dy * dy);
+        if (distance < distanceThreshold)
+        {
+            IndexUnderMouse = i;
+            return true;
+        }
+    }
+
+    return false;
+}
+
+public void DragTo(double coordinateX, double coordinateY, bool fixedSize)
+{
+    Xs[IndexUnderMouse] = coordinateX;
+    Ys[IndexUnderMouse] = coordinateY;
+}
+```
+
+<img src="drag.gif" class="d-block mx-auto my-5">
+
 ## Learn More by Reviewing Official Plot Types
 
 Learn more about how plottables are commonly constructed by inspecting the code behind the simplest plot types distributed with ScottPlot:
