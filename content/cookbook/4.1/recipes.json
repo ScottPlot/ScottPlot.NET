@@ -1,6 +1,6 @@
 {
-  "version": "4.1.62",
-  "generated": "2023-04-03T00:03:50.4623677Z",
+  "version": "4.1.63",
+  "generated": "2023-04-09T20:12:28.078339Z",
   "recipes": [
     {
       "id": "Axis_label",
@@ -89,6 +89,22 @@
       "title": "Plotting DateTime Data on a Signal Plot",
       "description": "DateTime can be displayed on the horizontal axis of a signal plot by using the sample rate to set the time interval per data point, and then setting the OffsetX to the desired start date.",
       "code": "var plt = new ScottPlot.Plot(600, 400);\n\n// create data sample data\ndouble[] ys = DataGen.RandomWalk(100);\n\nTimeSpan ts = TimeSpan.FromSeconds(1); // time between data points\ndouble sampleRate = (double)TimeSpan.TicksPerDay / ts.Ticks;\nvar signalPlot = plt.AddSignal(ys, sampleRate);\n\n// Then tell the axis to display tick labels using a time format\nplt.XAxis.DateTimeFormat(true);\n\n// Set start date\nsignalPlot.OffsetX = new DateTime(1985, 10, 1).ToOADate();\n\nplt.SaveFig(\u0022ticks_dateTime_signal.png\u0022);"
+    },
+    {
+      "id": "Axis_boundary",
+      "category": "Axis and Ticks",
+      "categoryFolder": "axis-and-ticks",
+      "title": "Axis Boundary",
+      "description": "Axes can be given boundaries which prevent the user from panning outside a given range.",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.AddSignal(DataGen.Sin(51));\nplt.AddSignal(DataGen.Cos(51));\n\nplt.YAxis.SetBoundary(-2, 2);\nplt.XAxis.SetBoundary(-10, 60);\n\nplt.SaveFig(\u0022Axis_boundary.png\u0022);"
+    },
+    {
+      "id": "Axis_zoomLimit",
+      "category": "Axis and Ticks",
+      "categoryFolder": "axis-and-ticks",
+      "title": "Axis Zoom Limit",
+      "description": "Axes can be given a zoom limit which allows the user to pan everywhere but never zoom in beyond a given span",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.AddSignal(DataGen.Sin(51));\nplt.AddSignal(DataGen.Cos(51));\n\nplt.YAxis.SetZoomInLimit(2);\nplt.XAxis.SetZoomInLimit(50);\n\nplt.SaveFig(\u0022Axis_zoomLimit.png\u0022);"
     },
     {
       "id": "asis_gridAdvanced",
@@ -375,8 +391,8 @@
       "category": "Multi-Axis",
       "categoryFolder": "multi-axis",
       "title": "Primary Axes",
-      "description": "Plots always have 4 fundamental axes available to work with. Primary axes (XAxis and YAxis) are axis index 0. Secondary axes (XAxis2 and YAxis2) are axis index 1.By default primary axes are totally visible, and secondary axes have ticks hidden and no label. Sometimes the top axis (XAxis2) is given a label to simulate a plot title.",
-      "code": "var plt = new ScottPlot.Plot(600, 400);\n\n// plot one set of data using the primary Y axis\nvar sigSmall = plt.AddSignal(DataGen.Sin(51, mult: 1), sampleRate: 1);\nsigSmall.YAxisIndex = 0;\nsigSmall.XAxisIndex = 0;\nplt.XAxis.Label(\u0022Primary X Axis\u0022);\nplt.YAxis.Label(\u0022Primary Y Axis\u0022);\nplt.XAxis.Color(sigSmall.Color);\nplt.YAxis.Color(sigSmall.Color);\n\n// plot another set of data using the secondary axes\nvar sigBig = plt.AddSignal(DataGen.Cos(51, mult: 100), sampleRate: 100);\nsigBig.YAxisIndex = 1;\nsigBig.XAxisIndex = 1;\nplt.YAxis2.Ticks(true); // ticks weren\u0027t visible by default\nplt.XAxis2.Ticks(true); // ticks weren\u0027t visible by default\nplt.YAxis2.Color(sigBig.Color);\nplt.XAxis2.Color(sigBig.Color);\nplt.YAxis2.Label(\u0022Secondary Y Axis\u0022);\nplt.XAxis2.Label(\u0022Secondary X Axis\u0022);\n\nplt.SaveFig(\u0022multiAxis_primary.png\u0022);"
+      "description": "Plots always have 4 fundamental axes available to work with. By default primary axes are totally visible, and secondary axes have ticks hidden and no label. Sometimes the top axis is given a label to simulate a plot title.",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\n// plot one set of data using the primary Y axis\nvar sigSmall = plt.AddSignal(DataGen.Sin(51, mult: 1), sampleRate: 1);\nsigSmall.YAxisIndex = plt.LeftAxis.AxisIndex;\nsigSmall.XAxisIndex = plt.BottomAxis.AxisIndex;\nplt.BottomAxis.Label(\u0022Primary X Axis\u0022);\nplt.YAxis.Label(\u0022Primary Y Axis\u0022);\nplt.BottomAxis.Color(sigSmall.Color);\nplt.YAxis.Color(sigSmall.Color);\n\n// plot another set of data using the secondary axes\nvar sigBig = plt.AddSignal(DataGen.Cos(51, mult: 100), sampleRate: 100);\nsigBig.YAxisIndex = plt.RightAxis.AxisIndex;\nsigBig.XAxisIndex = plt.TopAxis.AxisIndex;\n\n// show ticks and labels for axes where they are hidden by default\nplt.RightAxis.Ticks(true);\nplt.RightAxis.Color(sigBig.Color);\nplt.RightAxis.Label(\u0022Secondary Y Axis\u0022);\nplt.TopAxis.Ticks(true);\nplt.TopAxis.Color(sigBig.Color);\nplt.TopAxis.Label(\u0022Secondary X Axis\u0022);\n\nplt.SaveFig(\u0022multiAxis_primary.png\u0022);"
     },
     {
       "id": "multiAxis_additional",
@@ -384,7 +400,7 @@
       "categoryFolder": "multi-axis",
       "title": "Additional Y Axis",
       "description": "Additional axes can be added on any edge. Additional axes stack away from the plot area.",
-      "code": "var plt = new ScottPlot.Plot(600, 400);\n\n// plot one set of data using the primary Y axis\nvar sigSmall = plt.AddSignal(DataGen.Sin(51, mult: 1));\nsigSmall.YAxisIndex = 0;\nplt.YAxis.Label(\u0022Primary Axis\u0022);\nplt.YAxis.Color(sigSmall.Color);\n\n// plot another set of data using an additional axis\nvar sigBig = plt.AddSignal(DataGen.Cos(51, mult: 100));\nvar yAxis3 = plt.AddAxis(Renderable.Edge.Left);\nsigBig.YAxisIndex = yAxis3.AxisIndex;\nyAxis3.Label(\u0022Additional Axis\u0022);\nyAxis3.Color(sigBig.Color);\n\nplt.SaveFig(\u0022multiAxis_additional.png\u0022);"
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\n// plot one set of data using the primary Y axis\nvar sigSmall = plt.AddSignal(DataGen.Sin(51, mult: 1));\nsigSmall.YAxisIndex = plt.LeftAxis.AxisIndex;\nplt.YAxis.Label(\u0022Primary Axis\u0022);\nplt.YAxis.Color(sigSmall.Color);\n\n// plot another set of data using an additional axis\nvar sigBig = plt.AddSignal(DataGen.Cos(51, mult: 100));\nvar yAxis3 = plt.AddAxis(Renderable.Edge.Left);\nsigBig.YAxisIndex = yAxis3.AxisIndex;\nyAxis3.Label(\u0022Additional Axis\u0022);\nyAxis3.Color(sigBig.Color);\n\nplt.SaveFig(\u0022multiAxis_additional.png\u0022);"
     },
     {
       "id": "multiAxis_right",
@@ -392,7 +408,7 @@
       "categoryFolder": "multi-axis",
       "title": "Right Y Axis",
       "description": "This example demonstrates how to display a Y axis on the right side of the figure. The vertical axis to the right of the figure is index 1, so plots must be updated to indicate they are to use a nonstandard axis index.",
-      "code": "var plt = new ScottPlot.Plot(600, 400);\n\ndouble[] values = DataGen.RandomWalk(100);\nvar sig = plt.AddSignal(values);\nsig.YAxisIndex = 1;\n\nplt.YAxis.Ticks(false);\nplt.YAxis.Grid(false);\nplt.YAxis2.Ticks(true);\nplt.YAxis2.Grid(true);\nplt.YAxis2.Label(\u0022Value\u0022);\nplt.XAxis.Label(\u0022Sample Number\u0022);\n\nplt.SaveFig(\u0022multiAxis_right.png\u0022);"
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\ndouble[] values = DataGen.RandomWalk(100);\nvar sig = plt.AddSignal(values);\nsig.YAxisIndex = plt.RightAxis.AxisIndex;\n\nplt.YAxis.Ticks(false);\nplt.YAxis.Grid(false);\nplt.RightAxis.Ticks(true);\nplt.RightAxis.Grid(true);\nplt.RightAxis.Label(\u0022Value\u0022);\nplt.BottomAxis.Label(\u0022Sample Number\u0022);\n\nplt.SaveFig(\u0022multiAxis_right.png\u0022);"
     },
     {
       "id": "multiAxis_top",
@@ -400,7 +416,7 @@
       "categoryFolder": "multi-axis",
       "title": "Top X Axis",
       "description": "This example demonstrates how to display an X axis above the figure. The horizontal axis above the figure is index 1, so plots must be updated to indicate they are to use a nonstandard axis index.",
-      "code": "var plt = new ScottPlot.Plot(600, 400);\n\ndouble[] values = DataGen.RandomWalk(100);\nvar sig = plt.AddSignal(values);\nsig.XAxisIndex = 1;\n\nplt.XAxis.Ticks(false);\nplt.XAxis.Grid(false);\nplt.XAxis2.Ticks(true);\nplt.XAxis2.Grid(true);\nplt.XAxis2.Label(\u0022Sample Number\u0022);\nplt.YAxis.Label(\u0022Value\u0022);\n\nplt.SaveFig(\u0022multiAxis_top.png\u0022);"
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\ndouble[] values = DataGen.RandomWalk(100);\nvar sig = plt.AddSignal(values);\nsig.XAxisIndex = plt.TopAxis.AxisIndex;\n\nplt.BottomAxis.Ticks(false);\nplt.BottomAxis.Grid(false);\nplt.TopAxis.Ticks(true);\nplt.TopAxis.Grid(true);\nplt.TopAxis.Label(\u0022Sample Number\u0022);\nplt.YAxis.Label(\u0022Value\u0022);\n\nplt.SaveFig(\u0022multiAxis_top.png\u0022);"
     },
     {
       "id": "multiAxis_invisible",
@@ -408,7 +424,7 @@
       "categoryFolder": "multi-axis",
       "title": "Axis Visibility",
       "description": "Visibility of axes can be toggled. In this example an additional Y axis is added but the primary Y axis is hidden. The result is a plot that appears to only have one Y axis.",
-      "code": "var plt = new ScottPlot.Plot(600, 400);\n\n// plot one set of data using the primary Y axis\nvar sigSmall = plt.AddSignal(DataGen.Sin(51, mult: 1));\nsigSmall.YAxisIndex = 0;\nplt.YAxis.Label(\u0022Primary Axis\u0022);\nplt.YAxis.Color(sigSmall.Color);\n\n// plot another set of data using an additional axis\nvar sigBig = plt.AddSignal(DataGen.Cos(51, mult: 100));\nvar yAxis3 = plt.AddAxis(Renderable.Edge.Left, axisIndex: 2);\nsigBig.YAxisIndex = 2;\nyAxis3.Label(\u0022Additional Axis\u0022);\nyAxis3.Color(sigBig.Color);\n\n// hide the primary Y axis\nplt.YAxis.IsVisible = false;\n\nplt.SaveFig(\u0022multiAxis_invisible.png\u0022);"
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\n// plot one set of data using the primary Y axis\nvar sigSmall = plt.AddSignal(DataGen.Sin(51, mult: 1));\nsigSmall.YAxisIndex = plt.LeftAxis.AxisIndex;\nplt.YAxis.Label(\u0022Primary Axis\u0022);\nplt.YAxis.Color(sigSmall.Color);\n\n// plot another set of data using an additional axis\nvar sigBig = plt.AddSignal(DataGen.Cos(51, mult: 100));\nvar yAxis3 = plt.AddAxis(Renderable.Edge.Left);\nsigBig.YAxisIndex = yAxis3.AxisIndex;\nyAxis3.Label(\u0022Additional Axis\u0022);\nyAxis3.Color(sigBig.Color);\n\n// hide the primary Y axis\nplt.YAxis.IsVisible = false;\n\nplt.SaveFig(\u0022multiAxis_invisible.png\u0022);"
     },
     {
       "id": "multiAxis_limits",
@@ -416,7 +432,7 @@
       "categoryFolder": "multi-axis",
       "title": "Setting Multi Axis Limits",
       "description": "Axis limits can be set for each axis by indicating which axis index you are wish to modify when setting axis limits.",
-      "code": "var plt = new ScottPlot.Plot(600, 400);\n\n// signal one on the primary Y axis\nvar sig1 = plt.AddSignal(DataGen.Sin(51, mult: 1));\nsig1.YAxisIndex = 0;\n\n// signal two on the secondary Y axis\nvar sig2 = plt.AddSignal(DataGen.Cos(51, mult: 100));\nsig2.YAxisIndex = 1;\nplt.YAxis2.Ticks(true);\n\n// set axis limits for each axis individually\nplt.SetAxisLimits(yMin: -2, yMax: 2, yAxisIndex: 0);\nplt.SetAxisLimits(yMin: -200, yMax: 200, yAxisIndex: 1);\n\nplt.SaveFig(\u0022multiAxis_limits.png\u0022);"
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\n// signal one on the primary Y axis\nvar sig1 = plt.AddSignal(DataGen.Sin(51, mult: 1));\nsig1.YAxisIndex = plt.LeftAxis.AxisIndex;\n\n// signal two on the secondary Y axis\nvar sig2 = plt.AddSignal(DataGen.Cos(51, mult: 100));\nsig2.YAxisIndex = plt.RightAxis.AxisIndex;\nplt.RightAxis.Ticks(true);\n\n// set axis limits for each axis individually\nplt.SetAxisLimits(yMin: -2, yMax: 2, yAxisIndex: 0);\nplt.SetAxisLimits(yMin: -200, yMax: 200, yAxisIndex: 1);\n\nplt.SaveFig(\u0022multiAxis_limits.png\u0022);"
     },
     {
       "id": "palette_Category10",
@@ -752,7 +768,7 @@
       "categoryFolder": "plottable-annotation",
       "title": "Figure Annotations",
       "description": "Annotations are labels placed at a X/Y location on the figure (not coordinates of the data area). Unlike the Text plottable, annotations do not move as the axes are adjusted.",
-      "code": "var plt = new ScottPlot.Plot(600, 400);\n\ndouble[] xs = DataGen.Range(0, 5, .1);\nplt.AddScatter(xs, DataGen.Sin(xs));\nplt.AddScatter(xs, DataGen.Cos(xs));\n\n// default placement is upper left\nplt.AddAnnotation(\u0022Top Left\u0022, 10, 10);\n\n// negative coordinates can be used to place text along different edges\nplt.AddAnnotation(\u0022Lower Left\u0022, 10, -10);\nplt.AddAnnotation(\u0022Top Right\u0022, -10, 10);\nplt.AddAnnotation(\u0022Lower Right\u0022, -10, -10);\n\n// Additional customizations are available\nvar fancy = plt.AddAnnotation(\u0022Fancy Annotation\u0022, 10, 40);\nfancy.Font.Size = 24;\nfancy.Font.Name = \u0022Impact\u0022;\nfancy.Font.Color = Color.Red;\nfancy.Shadow = false;\nfancy.BackgroundColor = Color.FromArgb(25, Color.Blue);\nfancy.BorderWidth = 2;\nfancy.BorderColor = Color.Magenta;\n\nplt.SaveFig(\u0022annotation_quickstart.png\u0022);"
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\ndouble[] xs = DataGen.Range(0, 5, .1);\nplt.AddScatter(xs, DataGen.Sin(xs));\nplt.AddScatter(xs, DataGen.Cos(xs));\n\n// default placement is upper left\nplt.AddAnnotation(\u0022Top Left\u0022, Alignment.UpperLeft);\n\n// negative coordinates can be used to place text along different edges\nplt.AddAnnotation(\u0022Lower Left\u0022, Alignment.LowerLeft);\nplt.AddAnnotation(\u0022Top Right\u0022, Alignment.UpperRight);\nplt.AddAnnotation(\u0022Lower Right\u0022, Alignment.LowerRight);\n\n// Additional customizations are available\nvar fancy = plt.AddAnnotation(\u0022Fancy Annotation\u0022, Alignment.UpperLeft);\nfancy.MarginX = 20;\nfancy.MarginY = 40;\nfancy.Font.Size = 24;\nfancy.Font.Name = \u0022Impact\u0022;\nfancy.Font.Color = Color.Red;\nfancy.Shadow = false;\nfancy.BackgroundColor = Color.FromArgb(25, Color.Blue);\nfancy.BorderWidth = 2;\nfancy.BorderColor = Color.Magenta;\n\nplt.SaveFig(\u0022annotation_quickstart.png\u0022);"
     },
     {
       "id": "plottable_arrow_quickstart",
@@ -1155,6 +1171,14 @@
       "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.AddColorbar(rightSide: false);\n\nplt.SaveFig(\u0022colorbar_left.png\u0022);"
     },
     {
+      "id": "colorbar_label",
+      "category": "Colorbar",
+      "categoryFolder": "plottable-colorbar",
+      "title": "Colorbar Label",
+      "description": "Colorbars have a Label property similar to X and Y axes.",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.AddColorbar();\n\nplt.XLabel(\u0022Horizontal Axis\u0022);\nplt.YLabel(\u0022Vertical Axis\u0022);\n\nvar cmap = ScottPlot.Drawing.Colormap.Turbo;\nvar cb = plt.AddColorbar(cmap);\ncb.Label = \u0022Custom Colorbar Label\u0022;\n\nplt.SaveFig(\u0022colorbar_label.png\u0022);"
+    },
+    {
       "id": "coxcomb_quickstart",
       "category": "Coxcomb Chart",
       "categoryFolder": "plottable-coxcomb",
@@ -1327,8 +1351,8 @@
       "category": "Finance",
       "categoryFolder": "plottable-finance",
       "title": "Candlestick Chart",
-      "description": "ScottPlot can draw some financial indicators on plots in X/Y space, but users looking to develop robust financial charts should probably look at other libraries designed specifically for financial charting. The biggest limitations are (1) lack of mouse interaction and (2) the horizontal axis is strictly numeric Cartesian space and is not ideal for plotting dates. That said, some financial charting is possible with ScottPlot, and this cookbook demonstrates common use cases.",
-      "code": "var plt = new ScottPlot.Plot(600, 400);\n\n// OHLCs are open, high, low, and closing prices for a time range.\nOHLC[] prices = DataGen.RandomStockPrices(null, 60);\nplt.AddCandlesticks(prices);\n\nplt.SaveFig(\u0022finance_quickstart.png\u0022);"
+      "description": "Price movement over time periods are represented using OHLC objects. A single OHLC holds open, high, low, and close pricing. Users can create their own OHLC arrays, or use the sample data generator to practice working with financial data.",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\n// Each candle is represented by a single OHLC object.\nOHLC price = new(\n    open: 100,\n    high: 120,\n    low: 80,\n    close: 105,\n    timeStart: new DateTime(1985, 09, 24),\n    timeSpan: TimeSpan.FromDays(1));\n\n// Users could be build their own array of OHLCs, or lean on \n// the sample data generator to simulate price data over time.\nOHLC[] prices = DataGen.RandomStockPrices(new Random(0), 60);\n\n// Add a financial chart to the plot using an array of OHLC objects\nplt.AddCandlesticks(prices);\n\nplt.SaveFig(\u0022finance_quickstart.png\u0022);"
     },
     {
       "id": "finance_ohlc",
@@ -1555,6 +1579,14 @@
       "code": "var plt = new ScottPlot.Plot(600, 400);\n\ndouble?[,] intensities = {\n    { 1, 7, 4, null },\n    { 9, null, 2, 4 },\n    { 1, 4, null, 8 },\n    { null, 2, 4, null }\n};\n\nvar hmc = plt.AddHeatmap(intensities);\nvar cb = plt.AddColorbar(hmc);\n\nplt.SaveFig(\u0022heatmap_transparent.png\u0022);"
     },
     {
+      "id": "heatmap_semitransparent",
+      "category": "Heatmap",
+      "categoryFolder": "plottable-heatmap",
+      "title": "Heatmap with Semitransparent Squares",
+      "description": "The intensities of heatmaps are mapped to color, but an optional 2D array of alpha values may be provided to separately control transparency of squares.",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\ndouble?[,] values = {\n    { 1, 7, 4, 5 },\n    { 9, 3, 2, 4 },\n    { 1, 4, 5, 8 },\n    { 7, 2, 4, 2 }\n};\n\ndouble?[,] opacities = {\n    { 1, 1, 1, 1 },\n    { 1, 0, 1, 0 },\n    { 1, .75, .5, 0 },\n    { 1, .8, .6, .4 }\n};\n\nvar hm = plt.AddHeatmap(values);\nhm.Update(values, opacity: opacities);\n\nplt.AddColorbar(hm);\n\nplt.SaveFig(\u0022heatmap_semitransparent.png\u0022);"
+    },
+    {
       "id": "heatmap_placement",
       "category": "Heatmap",
       "categoryFolder": "plottable-heatmap",
@@ -1713,6 +1745,14 @@
       "title": "Slice Percentages",
       "description": "The percentage of each slice can be displayed at its center.",
       "code": "var plt = new ScottPlot.Plot(600, 400);\n\ndouble[] values = { 778, 43, 283, 76, 184 };\nvar pie = plt.AddPie(values);\npie.ShowPercentages = true;\n\nplt.SaveFig(\u0022pie_showPercentage.png\u0022);"
+    },
+    {
+      "id": "pie_sliceLabelPosition",
+      "category": "Pie Chart",
+      "categoryFolder": "plottable-pie",
+      "title": "Slice Label Position",
+      "description": "Slice label position can be customized to place labels outside the pie. If labels are placed outside the pie, the pie size should be reduced to make room for them.",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\ndouble[] values = { 778, 43, 283, 76, 184 };\nvar pie = plt.AddPie(values);\npie.ShowValues = true;\npie.SliceLabelPosition = 0.6;\npie.Size = .7;\npie.SliceLabelColors = pie.SliceFillColors;\n\nplt.SaveFig(\u0022pie_sliceLabelPosition.png\u0022);"
     },
     {
       "id": "pie_customColors",
@@ -2249,6 +2289,14 @@
       "title": "NaN Values Break the Line",
       "description": "When the OnNaN field is set to Gap, points containing NaN X or Y values break the line. This results in a scatter plot appearing as multiple lines, with gaps representing missing data.",
       "code": "var plt = new ScottPlot.Plot(600, 400);\n\n// create data that does NOT contain NaN\ndouble[] xs = ScottPlot.DataGen.Consecutive(51);\ndouble[] ys = ScottPlot.DataGen.Sin(51);\n\n// plot it the traditional way\nplt.AddScatter(xs, ys, Color.FromArgb(50, Color.Black));\n\n// create new data that contains NaN\ndouble[] ysWithNan = ScottPlot.DataGen.Sin(51);\nstatic void FillWithNan(double[] values, int start, int count)\n{\n    for (int i = 0; i \u003C count; i\u002B\u002B)\n        values[start \u002B i] = double.NaN;\n}\nFillWithNan(ysWithNan, 5, 15);\nFillWithNan(ysWithNan, 25, 1);\nFillWithNan(ysWithNan, 30, 15);\nysWithNan[10] = ys[10];\n\n// add a scatter plot and customize NaN behavior\nvar sp2 = plt.AddScatter(xs, ysWithNan, Color.Black);\nsp2.OnNaN = ScottPlot.Plottable.ScatterPlot.NanBehavior.Gap;\nplt.Title($\u0022OnNaN = {sp2.OnNaN}\u0022);\n\nplt.SaveFig(\u0022scatter_nan_gap.png\u0022);"
+    },
+    {
+      "id": "scatter_labels",
+      "category": "Scatter Plot",
+      "categoryFolder": "plottable-scatter-plot",
+      "title": "Scatter Plot Labels",
+      "description": "Individual points can be labeled.",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\ndouble[] xs = { 18.5, 20.6, 22.3, 24.5, 26.6, 15, 15 };\ndouble[] ys = { 1.43, 1.48, 1.6, 1.59, 1.53, 1.52, 1.6 };\nstring[] labels = { \u0022A\u0022, \u0022B\u0022, \u0022C\u0022, \u0022D\u0022, \u0022E\u0022, \u0022F\u0022, \u0022G\u0022 };\n\nvar sp = plt.AddScatter(xs, ys);\nsp.DataPointLabels = labels;\nsp.DataPointLabelFont.Size = 24;\n\nplt.SetAxisLimits(12, 28, 1.3, 1.7);\n\nplt.SaveFig(\u0022scatter_labels.png\u0022);"
     },
     {
       "id": "scatterList_quickstart",
