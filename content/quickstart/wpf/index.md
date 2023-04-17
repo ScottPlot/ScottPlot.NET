@@ -14,7 +14,7 @@ xmlns:ScottPlot="clr-namespace:ScottPlot;assembly=ScottPlot.WPF"
 
 **Step 3:** Add a `WpfPlot` to your layout and give it a unique name
 ```xml
-<ScottPlot:WpfPlot Name="WpfPlot1" />
+<ScottPlot:WpfPlot x:Name="WpfPlot1" />
 ```
 
 **Step 4:** Plot some data in your start-up sequence
