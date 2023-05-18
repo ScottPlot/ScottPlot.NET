@@ -2,12 +2,12 @@
 title: ScottPlot 5.0 Cookbook
 description: Example plots shown next to the code used to create them
 url: /cookbook/5.0/
-date: 4/9/2023 7:55:30 PM
+date: 5/18/2023 12:55:26 AM
 ---
 
 
 
-<div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.4-beta is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
+<div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.5-beta is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
 
 
 ## Introduction
@@ -281,6 +281,44 @@ date: 4/9/2023 7:55:30 PM
 <div class='col'>
 <div><a href='bar-plot/#bar-series'><b>Bar Series</b></a></div>
 <div>Bar plots can be grouped into bar series and plotted together.</div>
+</div>
+</div>
+<div class='fs-4 mt-4'>Box Plot</div>
+<div>Box plots show a distribution at a glance</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='box-plot/#box-plot-quickstart'><img class='img-fluid' src='box-plot/box-plot-quickstart.png' /></a>
+</div>
+<div class='col'>
+<div><a href='box-plot/#box-plot-quickstart'><b>Box Plot Quickstart</b></a></div>
+<div>Box plots can be added from a series of values.</div>
+</div>
+</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='box-plot/#individual-box-plots'><img class='img-fluid' src='box-plot/individual-box-plots.png' /></a>
+</div>
+<div class='col'>
+<div><a href='box-plot/#individual-box-plots'><b>Individual Box Plots</b></a></div>
+<div>One can easily create a box plot with only a single box.</div>
+</div>
+</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='box-plot/#horizontal-box-plots'><img class='img-fluid' src='box-plot/horizontal-box-plots.png' /></a>
+</div>
+<div class='col'>
+<div><a href='box-plot/#horizontal-box-plots'><b>Horizontal Box Plots</b></a></div>
+<div>Box plots can be oriented horizontally, similarly to bar plots.</div>
+</div>
+</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='box-plot/#box-plot-series'><img class='img-fluid' src='box-plot/box-plot-series.png' /></a>
+</div>
+<div class='col'>
+<div><a href='box-plot/#box-plot-series'><b>Box Plot Series</b></a></div>
+<div>Similarly to bar charts, box plots can be compared across multiple categories.</div>
 </div>
 </div>
 <div class='fs-4 mt-4'>Error Bars</div>
