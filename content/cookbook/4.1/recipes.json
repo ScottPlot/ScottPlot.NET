@@ -1,6 +1,6 @@
 {
-  "version": "4.1.63",
-  "generated": "2023-04-09T20:12:28.078339Z",
+  "version": "4.1.64",
+  "generated": "2023-05-18T00:51:41.4138412Z",
   "recipes": [
     {
       "id": "Axis_label",
@@ -347,6 +347,30 @@
       "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.Style(Style.Blue1);\nplt.AddSignal(DataGen.Sin(51));\nplt.AddSignal(DataGen.Cos(51));\nplt.XLabel(\u0022Horizontal Axis\u0022);\nplt.YLabel(\u0022Vertical Axis\u0022);\n\nvar padding = new ScottPlot.PixelPadding(\n    left: 150,\n    right: 30,\n    bottom: 100,\n    top: 10);\n\nplt.ManualDataArea(padding);\n\nplt.SaveFig(\u0022layout_manual.png\u0022);"
     },
     {
+      "id": "legend_quickstart",
+      "category": "Legend",
+      "categoryFolder": "legend",
+      "title": "Legend Quickstart",
+      "description": "Add labels to plot items, then enable the legend to display a key in the corner of the data area.",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\n// add a label using the helper methods\nplt.AddSignal(Generate.Sin(), label: \u0022sin\u0022);\n\n// or add a label manually\nvar sig2 = plt.AddSignal(Generate.Cos());\nsig2.Label = \u0022Second Label\u0022;\n\n// enable the legend\nplt.Legend();\n\nplt.SaveFig(\u0022legend_quickstart.png\u0022);"
+    },
+    {
+      "id": "legend_location",
+      "category": "Legend",
+      "categoryFolder": "legend",
+      "title": "Legend Location",
+      "description": "Legends can be placed at various locations within the plot area",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.AddSignal(Generate.Sin(), label: \u0022sin\u0022);\nplt.AddSignal(Generate.Cos(), label: \u0022cos\u0022);\n\nvar legend = plt.Legend();\nlegend.Location = Alignment.UpperCenter;\n\nplt.SaveFig(\u0022legend_location.png\u0022);"
+    },
+    {
+      "id": "legend_orientation",
+      "category": "Legend",
+      "categoryFolder": "legend",
+      "title": "Legend Orientation",
+      "description": "Legends can be customized to support horizontal orientation",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.AddSignal(DataGen.Sin(51), label: \u0022sin\u0022);\nplt.AddSignal(DataGen.Cos(51), label: \u0022cos\u0022);\n\nvar legend = plt.Legend(enable: true);\nlegend.Orientation = Orientation.Horizontal;\n\nplt.SaveFig(\u0022legend_orientation.png\u0022);"
+    },
+    {
       "id": "misc_interpolation",
       "category": "Miscellaneous",
       "categoryFolder": "misc",
@@ -377,14 +401,6 @@
       "title": "Display Scaling",
       "description": "When display scaling is enabled the dots per inch (DPI) is changed so images appear larger. When scaling is increased bitmap images are stretched to appear larger, but may appear blurry as a result. Alternatively images could be increased in size when DPI scaling is enabled, but fonts and lines may appear small. This example shows how to increase the size of common plot components so they look good on high resolution scaled displays (e.g., 4K monitors). DPI stretching can be set in the user control\u0027s Configuration module.",
       "code": "var plt = new ScottPlot.Plot(600, 400);\n\nvar sig1 = plt.AddSignal(DataGen.Sin(51));\nsig1.Label = \u0022Sin\u0022;\nsig1.MarkerSize = 7;\nsig1.LineWidth = 2;\n\nvar sig2 = plt.AddSignal(DataGen.Cos(51));\nsig2.Label = \u0022Cos\u0022;\nsig2.MarkerSize = 7;\nsig2.LineWidth = 2;\n\nvar legend = plt.Legend();\nlegend.FontSize = 24;\n\nplt.Title(\u0022Plot with Large Features\u0022);\nplt.YLabel(\u0022Vertical Axis\u0022);\nplt.XLabel(\u0022Horizontal Axis\u0022);\n\nplt.YAxis.LabelStyle(fontSize: 24);\nplt.XAxis.LabelStyle(fontSize: 24);\nplt.XAxis2.LabelStyle(fontSize: 36);\n\nplt.YAxis.TickLabelStyle(fontSize: 18);\nplt.XAxis.TickLabelStyle(fontSize: 18);\n\nplt.YAxis.MajorGrid(lineWidth: 2);\nplt.XAxis.MajorGrid(lineWidth: 2);\n\nplt.SaveFig(\u0022misc_dpiScale.png\u0022);"
-    },
-    {
-      "id": "misc_legend_orientation",
-      "category": "Miscellaneous",
-      "categoryFolder": "misc",
-      "title": "Legend Orientation",
-      "description": "Legends can be customized to support horizontal orientation",
-      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.AddSignal(DataGen.Sin(51), label: \u0022sin\u0022);\nplt.AddSignal(DataGen.Cos(51), label: \u0022cos\u0022);\n\nvar legend = plt.Legend(enable: true);\nlegend.Orientation = Orientation.Horizontal;\n\nplt.SaveFig(\u0022misc_legend_orientation.png\u0022);"
     },
     {
       "id": "multiAxis_primary",
@@ -1273,6 +1289,14 @@
       "title": "Ellipse Styling",
       "description": "Ellipses styles can be extensively customized",
       "code": "var plt = new ScottPlot.Plot(600, 400);\n\nvar el = plt.AddCircle(0, 0, 5);\nel.BorderLineWidth = 5;\nel.BorderLineStyle = LineStyle.Dash;\nel.BorderColor = Color.Green;\nel.Color = Color.Navy;\nel.HatchColor = Color.Red;\nel.HatchStyle = Drawing.HatchStyle.StripedUpwardDiagonal;\n\nplt.SetAxisLimits(-10, 10, -10, 10);\n\nplt.SaveFig(\u0022ellipse_styling.png\u0022);"
+    },
+    {
+      "id": "ellipse_rotation",
+      "category": "Ellipse",
+      "categoryFolder": "plottable-ellipse",
+      "title": "Ellipse Rotation",
+      "description": "Ellipses can also be rotated",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nfor (int i = 0; i \u003C 5; i\u002B\u002B)\n{\n    var el = plt.AddEllipse(x: 0, y: 0, xRadius: 1, yRadius: 5);\n    el.Rotation = i * 15;\n}\n\nplt.AxisScaleLock(true);\n\nplt.SaveFig(\u0022ellipse_rotation.png\u0022);"
     },
     {
       "id": "errorBar_quickstart",
