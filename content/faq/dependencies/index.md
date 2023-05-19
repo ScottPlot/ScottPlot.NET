@@ -32,6 +32,8 @@ Non-Windows users must take the following steps to enable System.Drawing.Common 
 
 **Step 3:** Follow Microsoft's [recommended action](https://docs.microsoft.com/en-us/dotnet/core/compatibility/core-libraries/6.0/system-drawing-common-windows-only#recommended-action) and edit `runtimeconfig.json` to `EnableUnixSupport`.
 
+**Step 4:** Ensure your project does not include a version of `System.Drawing.Common` newer than `5.x` because [newer versions of System.Drawing.Common are not supported on non-Windows systems](https://learn.microsoft.com/en-us/dotnet/core/compatibility/core-libraries/6.0/system-drawing-common-windows-only)
+
 ## Docker
 
 Docker users can find additional information in [#2366](https://github.com/ScottPlot/ScottPlot/issues/2366) and [#1677](https://github.com/ScottPlot/ScottPlot/issues/1677)
