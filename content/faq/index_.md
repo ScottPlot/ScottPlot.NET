@@ -44,6 +44,7 @@ date: 2020-01-01
 * [Use `RenderLock()` in multi-threaded/async environments](async)
 * [Advanced customization using the `Configuration` object](configuration)
 * [Change what left, right, or middle buttons do](buttons)
+* [Add ScottPlot control programmatically (WinForms)](add-winforms-programmatically)
 
 ### User Control: Live Data
 * [How to display live, changing data in a ScottPlot control](live-data)
