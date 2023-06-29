@@ -19,7 +19,7 @@ All are welcome! 🚀
 </div>
 
 <div class='text-muted w-50 my-3'>
-  Having trouble logging in? Try opening the Discord app, click "Add a server", click the "Join a Server" button under the "Have an invite already?" message and paste in the invitation URL: `https://discord.gg/Dru6fnY2UX`
+  Having trouble logging in? Try opening the Discord app, click "Add a server", click the "Join a Server" button under the "Have an invite already?" message and paste in the invitation URL: <code>https://discord.gg/Dru6fnY2UX</code>
   <br><br>
-  If that still doesn't work, [create a GitHub issue](https://github.com/ScottPlot/ScottPlot/issues) so we can look into it!
+  If that still doesn't work, <a href='https://github.com/ScottPlot/ScottPlot/issues'>create a GitHub issue</a> so we can look into it!
 </div>
