@@ -17,3 +17,9 @@ All are welcome! 🚀
 <a href='https://discord.gg/Dru6fnY2UX'><img src="discord.jpg" class="d-block mx-auto"></a>
 
 </div>
+
+<div class='text-muted w-50 my-3'>
+  Having trouble logging in? Try opening the Discord app, click "Add a server", click the "Join a Server" button under the "Have an invite already?" message and paste in the invitation URL: `https://discord.gg/Dru6fnY2UX`
+  <br><br>
+  If that still doesn't work, [create a GitHub issue](https://github.com/ScottPlot/ScottPlot/issues) so we can look into it!
+</div>
