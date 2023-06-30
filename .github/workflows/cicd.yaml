@@ -29,6 +29,6 @@ jobs:
       - name: 🔑 Populate Key
         run: echo "${{ secrets.PRIVATE_SSH_KEY }}" > ~/.ssh/id_rsa
       - name: 🚀 Upload
-        run: rsync --archive --stats -e 'ssh -p 18765 -o StrictHostKeyChecking=no' public/ qrss.org@ssh.qrss.org:~/www/scottplot.net/public_html/ # no delete!
+        run: rsync --archive --stats -e 'ssh -p 18765 -o StrictHostKeyChecking=no' public/ scottplot.net@ssh.scottplot.net:~/www/scottplot.net/public_html/ # no delete!
       - name: 🧹 Clear Cache
         run: ssh scottplot.net@ssh.scottplot.net -p 18765 "site-tools-client domain update id=1 flush_cache=1"
