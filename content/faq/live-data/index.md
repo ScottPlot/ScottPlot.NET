@@ -17,7 +17,7 @@ The DataLogger plot type is a like a scatter plot but it has features for record
   * download: https://scottplot.net/demo/
   * source code: [DataStreamer.cs](https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot4/ScottPlot.Demo/ScottPlot.Demo.WinForms/WinFormsDemos/DataStreamer.cs)
 
-<img src='datalogger.gif' class='d-block mx-auto border shadow'>
+<img src='datalogger.gif' class='d-block mx-auto border shadow my-5'>
 
 ## Use the `DataStreamer` to show the latest N values
 
@@ -32,7 +32,7 @@ The DataStreamer plot type is a like a signal plot but it has features for displ
   * download: https://scottplot.net/demo/
   * source code: [DataLogger.cs](https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot4/ScottPlot.Demo/ScottPlot.Demo.WinForms/WinFormsDemos/DataLogger.cs)
 
-<img src='datastreamer.gif' class='d-block mx-auto border shadow'>
+<img src='datastreamer.gif' class='d-block mx-auto border shadow my-5'>
 
 ## Growing Data with ScatterPlotList
 
