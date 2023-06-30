@@ -1,9 +1,49 @@
 ---
 title: Plot Live, Changing Data - ScottPlot FAQ
-description: How to display data plots of live data that changes continuously.
+description: Different strategies for displaying live data that changes continuously
 ---
 
-**What is the best way to plot data that is constantly changing or growing?** Several options are available to the developer. To choose the best one, consider these important points:
+## Use the `DataLogger` to show growing datasets
+
+The DataLogger plot type is a like a scatter plot but it has features for recording and displaying growing datasets.
+
+* It displays points (X/Y pairs)
+* It grows infinitely and old data is not deleted
+* Views include: 
+    * `full` - continuously shows all data
+    * `slide` - focuses on latest data, continuous smooth scrolling
+    * `jump` - focuses on latest data, moving view only when new data goes off the screen
+* See a working example in the WinForms demo application
+  * download: https://scottplot.net/demo/
+  * source code: [DataStreamer.cs](https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot4/ScottPlot.Demo/ScottPlot.Demo.WinForms/WinFormsDemos/DataStreamer.cs)
+
+<img src='datalogger.gif' class='d-block mx-auto border shadow'>
+
+## Use the `DataStreamer` to show the latest N values
+
+The DataStreamer plot type is a like a signal plot but it has features for displaying the latest N values of a streaming dataset.
+
+* It displays evenly spaced Y values
+* New data overwrites old data using a circular buffer.
+* Views include:
+  * `wipe` - new data overlaps old data (like an ECG machine)
+  * `scroll` - shifts data in one side and out the other
+* See a working example in the WinForms demo application
+  * download: https://scottplot.net/demo/
+  * source code: [DataLogger.cs](https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot4/ScottPlot.Demo/ScottPlot.Demo.WinForms/WinFormsDemos/DataLogger.cs)
+
+<img src='datastreamer.gif' class='d-block mx-auto border shadow'>
+
+## Growing Data with ScatterPlotList
+
+The `ScatterPlotList` plot type uses `List<double>` instead of `double[]` to store data, so it is easy to `Add()` data to. Actually, it supports `<T>` so you can create one using any data type that can be converted to a `double`. After adding new data the user can set the axis limits as desired and request a render. Scatter plots are slow for large datasets, so the Signal plot methods described above are almost always preferred.
+
+See the Cookbook for examples: 
+* https://scottplot.net/cookbook/4.1/category/plottable-scatter-plot-list/
+
+## Manually Updating Data in Live Plots
+
+**To achieve full control over changing datasets** users can use a scatter or signal plot and change their data values as new data is available. The following information discusses pros and cons of the different methods to achieve this effect:
 
 1. **After you plot an array, you can continue to modify its values.** For example, if you load an array into a Signal plot you can continue to modify that array's values after it has been plotted. Whenever the plot renders again, the latest values will appear on the plot. This is the best option for fixed-length datasets and it is always thread safe.
 
@@ -13,7 +53,7 @@ description: How to display data plots of live data that changes continuously.
 
 4. **In multi-threaded environments** use `RenderLock()` to ensure you do not modify the length of data arrays in a Plottable while it is actively rendering. Since rendering iterates through every value in an array, changing the length of that array mid-render can produce array index exceptions. This is typically not a concern in single-thread GUI applications (WinForms), but can arise as an issue when multi-threading is used (WPF).
 
-## Changing Fixed-Length Data
+## Scatter Plot: Change Values in Fixed-Length Arrays
 
 **After plotting an array you can change its values and re-render at any time.** This is the most performant option for displaying changing fixed-length data. Although this same method can be used for most plot types, Signal plots are almost always the most performant option.
 
@@ -53,7 +93,7 @@ private void timer1_Tick(object sender, EventArgs e)
 }
 ```
 
-## Rolling Fixed-Length Data
+## Scatter Plot: Rolling Effect
 
 An alternative way to display data is to update a single point at a time, and when the data runs off the screen "roll" it back to the start. This is similar to how an oscilloscope displays a waveform, and sometimes is described as a circular buffer.
 
@@ -105,7 +145,7 @@ private void timer2_Tick(object sender, EventArgs e)
 }
 ```
 
-## Growing Data with Partial Array Rendering
+## Signal Plot: Partial Array Rendering
 
 **You can create a large array and only display the first N values, increasing N as new data is added.** This gives the illusion of a growing plot, even though its source is a fixed-length array. The range of visible values is controlled by the `MinRenderIndex` and `MaxRenderIndex` fields of Signal plots and Scatter plots.
 
@@ -150,9 +190,3 @@ private void timer2_Tick(object sender, EventArgs e)
 ```
 
 **⚠️ WARNING: This example will crash when the array is full.** To prevent this, detect when `NextPointIndex` equals or exceeds the size of the array, and create a new larger array to hold the data. When you do this you will have to copy all the existing values from the old array to the new one.
-
-## Growing Data with ScatterPlotList
-
-The `ScatterPlotList` plot type uses `List<double>` instead of `double[]` to store data, so it is easy to `Add()` data to. Actually, it supports `<T>` so you can create one using any data type that can be converted to a `double`. After adding new data the user can set the axis limits as desired and request a render. Scatter plots are slow for large datasets, so the Signal plot methods described above are almost always preferred.
-
-See the Cookbook for examples: https://scottplot.net/cookbook/4.1/category/plottable-scatter-plot-list/
