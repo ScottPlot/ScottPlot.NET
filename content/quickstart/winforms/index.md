@@ -19,3 +19,7 @@ formsPlot1.Refresh();
 ```
 
 ![](scottplot-quickstart-winforms.png)
+
+### How to add a Plot Control Programmatically
+
+If users are not using the visual designer (or are having trouble locating the plot control in the toolbox), a FormsPlot can be added to the Form programmatically. See the [FAQ: Add ScottPlot WinForms Control Programmatically](/faq/add-winforms-programmatically/) page for additional information.
