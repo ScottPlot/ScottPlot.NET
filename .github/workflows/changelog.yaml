@@ -25,4 +25,4 @@ jobs:
           git config --global user.name 'Scott W Harden (via GitHub Actions)'
           git config --global user.email 'swharden@gmail.com'
           git commit -am "Changelog: Automated Update"
-          git status
+          git push
