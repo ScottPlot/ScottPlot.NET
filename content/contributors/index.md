@@ -3,31 +3,4 @@ Title: ScottPlot Contributors
 Description: Members of the open-source community who contributed to ScottPlot
 ---
 
-<div class="alert alert-primary fs-5" role="alert">
-    💡 This page is generated dynamically from
-    <a href='https://github.com/ScottPlot/ScottPlot/blob/main/CHANGELOG.md'>
-        ScottPlot's changelog on GitHub
-    </a>
-</div>
-
-<div class='display-3 text-center'>ScottPlot Contributors</div>
-
-<div class='fs-3 fw-lighter text-center mx-5 px-5'>
-    Special thanks to these GitHub members who are 
-    recognized for their contributions
-    to discussions, issues, and pull requests!
-</div>
-
-<div class='display-3 my-5 text-center'>💖🚀✨</div>
-
-
-<div id="contributors">
-    <div class='fs-2 font-monospace text-center'>Downloading changelog from GitHub...</div>
-</div>
-
-<script src="contributors.js"></script>
-
-<script>
-    const changelogUrl = 'https://raw.githubusercontent.com/ScottPlot/ScottPlot/main/CHANGELOG.md';
-    const gen = new ContributorPageGenerator("contributors", changelogUrl);
-</script>
+Content of this page is generated automatically by the [ChangelogPageMaker](https://github.com/ScottPlot/ScottPlot.NET/tree/main/dev/ChangelogPageMaker) running in the CICD pipeline just before deployment.
