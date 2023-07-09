@@ -9,7 +9,7 @@ internal class GENERATE
         avatars.DownloadMissingImages(SampleChangelog.Contributors);
 
         string saveAs = Path.GetFullPath("test-contributors.html");
-        ContributorPage.GenerateHtml(SampleChangelog.Contributors, saveAs);
+        ContributorPage.GenerateHtml(SampleChangelog.Contributors, avatars, saveAs);
         Console.WriteLine(saveAs);
     }
 }

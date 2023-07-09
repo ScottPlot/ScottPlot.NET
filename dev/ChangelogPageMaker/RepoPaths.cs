@@ -4,7 +4,7 @@ internal static class RepoPaths
 {
     public readonly static string Root = RepoPath();
 
-    public readonly static string StaticContributors = RepoPath("static/contributors");
+    public readonly static string StaticContributors = RepoPath("static/images/contributors");
 
     private static string RepoPath(string subfolder = "")
     {

@@ -4,7 +4,7 @@ namespace ChangelogPageMaker;
 
 internal class ContributorPage
 {
-    public static void GenerateHtml(string[] ids, string saveAs)
+    public static void GenerateHtml(string[] ids, AvatarCollection avatars, string saveAs)
     {
         StringBuilder sb = new();
 
@@ -24,7 +24,7 @@ internal class ContributorPage
             sb.AppendLine("<div class='bg-light border rounded text-center mx-3 my-2'>");
 
             sb.AppendLine("<div><img class='img-fluid rounded m-1' " +
-                "src='https://avatars.githubusercontent.com/u/19762749' " +
+                $"src='{avatars.GetImage(id)}' " +
                 "height='125' width='125'/></div>");
 
             sb.AppendLine($"<div><a href='https://github.com/{id}'>@{id}</a></div>");

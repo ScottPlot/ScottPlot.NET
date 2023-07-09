@@ -19,25 +19,32 @@ internal class AvatarCollection
         }
     }
 
-    public void DownloadMissingImages(string[] ids, int max = 50, bool parallel = false)
+    public string GetImage(string id)
+    {
+        if (!ImageFilenames.TryGetValue(id.ToLower(), out var image))
+        {
+            return $"https://scottplot.net/images/contributors/{image}";
+        }
+        else
+        {
+            return $"https://scottplot.net/images/brand/favicon.png";
+        }
+    }
+
+    public void DownloadMissingImages(string[] ids, int max = 50)
     {
         var idsWithoutImages = ids.Where(x => !ImageFilenames.ContainsKey(x.ToLowerInvariant()));
         Console.WriteLine($"Found {idsWithoutImages.Count()} IDs without images");
 
+        if (idsWithoutImages.Any())
+        {
+            return;
+        }
+
         var idsToDownload = idsWithoutImages.Take(max);
         Console.WriteLine($"Downloading {idsToDownload.Count()} images...");
 
-        if (parallel)
-        {
-            Parallel.ForEach(idsToDownload, DownloadMissingImage);
-        }
-        else
-        {
-            foreach (string id in idsToDownload)
-            {
-                DownloadMissingImage(id);
-            }
-        }
+        Parallel.ForEach(idsToDownload, DownloadMissingImage);
     }
 
     private static string GetExtension(byte[] bytes)
@@ -66,7 +73,11 @@ internal class AvatarCollection
         using HttpClient client = new();
         using HttpResponseMessage response = client.GetAsync(url).Result;
         if (response.StatusCode != System.Net.HttpStatusCode.OK)
-            throw new InvalidOperationException($"image download failed: {response.StatusCode}");
+        {
+            string message = $"image download for '{id}' failed: {response.StatusCode}";
+            Console.WriteLine(message);
+            throw new InvalidOperationException(message);
+        }
 
         using HttpContent content = response.Content;
         byte[] bytes = content.ReadAsByteArrayAsync().Result;
