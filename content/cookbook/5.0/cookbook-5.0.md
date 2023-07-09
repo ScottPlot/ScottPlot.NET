@@ -2,12 +2,12 @@
 title: ScottPlot 5.0 Cookbook
 description: Example plots shown next to the code used to create them
 url: /cookbook/5.0/
-date: 5/18/2023 12:55:26 AM
+date: 7/9/2023 2:07:49 PM
 ---
 
 
 
-<div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.5-beta is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
+<div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.6-beta is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
 
 
 ## Introduction
@@ -341,6 +341,44 @@ date: 5/18/2023 12:55:26 AM
 <div>You can mix and match x and y error bars.</div>
 </div>
 </div>
+<div class='fs-4 mt-4'>FillY plot</div>
+<div>FillY plots display the vertical range between two Y values at defined X positions</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='filly-plot/#filly-from-array-data'><img class='img-fluid' src='filly-plot/filly-from-array-data.png' /></a>
+</div>
+<div class='col'>
+<div><a href='filly-plot/#filly-from-array-data'><b>FillY From Array Data</b></a></div>
+<div>FillY plots can be created from X, Y1, and Y2 arrays.</div>
+</div>
+</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='filly-plot/#filly-from-scatter-plots'><img class='img-fluid' src='filly-plot/filly-from-scatter-plots.png' /></a>
+</div>
+<div class='col'>
+<div><a href='filly-plot/#filly-from-scatter-plots'><b>FillY From Scatter Plots</b></a></div>
+<div>FillY plots can be created from two scatter plots that share the same X values.</div>
+</div>
+</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='filly-plot/#filly-with-custom-type'><img class='img-fluid' src='filly-plot/filly-with-custom-type.png' /></a>
+</div>
+<div class='col'>
+<div><a href='filly-plot/#filly-with-custom-type'><b>FillY with Custom Type</b></a></div>
+<div>FillY plots can be created from data of any type if a conversion function is supplied.</div>
+</div>
+</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='filly-plot/#filly-plot-styling'><img class='img-fluid' src='filly-plot/filly-plot-styling.png' /></a>
+</div>
+<div class='col'>
+<div><a href='filly-plot/#filly-plot-styling'><b>FillY Plot Styling</b></a></div>
+<div>FillY plots can be customized using public properties.</div>
+</div>
+</div>
 <div class='fs-4 mt-4'>Financial Plot</div>
 <div>Finance plots display price data binned into time ranges</div>
 <div class='row my-4'>
@@ -359,6 +397,26 @@ date: 5/18/2023 12:55:26 AM
 <div class='col'>
 <div><a href='financial-plot/#candlestick-chart'><b>Candlestick Chart</b></a></div>
 <div>Candlestick charts use symbols to display price data. The rectangle indicates open and close prices, and the center line indicates minimum and maximum price for the given time period. Color indicates whether the price increased or decreased between open and close.</div>
+</div>
+</div>
+<div class='fs-4 mt-4'>Polygon Plot</div>
+<div>Polygon plots draws a polygon</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='polygon-plot/#polygon-plot-quickstart'><img class='img-fluid' src='polygon-plot/polygon-plot-quickstart.png' /></a>
+</div>
+<div class='col'>
+<div><a href='polygon-plot/#polygon-plot-quickstart'><b>Polygon Plot Quickstart</b></a></div>
+<div>Polygon plots can be added from a series of vertices, and must be in clockwise order.</div>
+</div>
+</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='polygon-plot/#polygon-plot-styling'><img class='img-fluid' src='polygon-plot/polygon-plot-styling.png' /></a>
+</div>
+<div class='col'>
+<div><a href='polygon-plot/#polygon-plot-styling'><b>Polygon Plot Styling</b></a></div>
+<div>Polygon plots can be fully customized.</div>
 </div>
 </div>
 <div class='fs-4 mt-4'>Signal Plot</div>
