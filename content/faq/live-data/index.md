@@ -15,7 +15,8 @@ The DataLogger plot type is a like a scatter plot but it has features for record
     * `jump` - focuses on latest data, moving view only when new data goes off the screen
 * See a working example in the WinForms demo application
   * download: https://scottplot.net/demo/
-  * source code: [DataStreamer.cs](https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot4/ScottPlot.Demo/ScottPlot.Demo.WinForms/WinFormsDemos/DataStreamer.cs)
+  * source code: [DataLogger.cs](https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot4/ScottPlot.Demo/ScottPlot.Demo.WinForms/WinFormsDemos/DataLogger.cs)
+  
 
 <img src='datalogger.gif' class='d-block mx-auto border shadow my-5'>
 
@@ -30,7 +31,7 @@ The DataStreamer plot type is a like a signal plot but it has features for displ
   * `scroll` - shifts data in one side and out the other
 * See a working example in the WinForms demo application
   * download: https://scottplot.net/demo/
-  * source code: [DataLogger.cs](https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot4/ScottPlot.Demo/ScottPlot.Demo.WinForms/WinFormsDemos/DataLogger.cs)
+  * source code: [DataStreamer.cs](https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot4/ScottPlot.Demo/ScottPlot.Demo.WinForms/WinFormsDemos/DataStreamer.cs)
 
 <img src='datastreamer.gif' class='d-block mx-auto border shadow my-5'>
 
