@@ -37,4 +37,21 @@ internal class ChangelogParsingTests
             Assert.That(SampleChangelog.Contributors, Contains.Item(id));
         }
     }
+
+    [Test]
+    public void Test_Contributors_NoDuplicates()
+    {
+        string[] ids = ChangelogParsing.GetGithubIDs(SampleChangelog.Text);
+        HashSet<string> unique = new();
+
+        foreach (string id in ids)
+        {
+            if (unique.Contains(id))
+                Assert.Fail(id);
+
+            unique.Add(id);
+        }
+
+        Assert.That(ids.Length, Is.EqualTo(unique.Count));
+    }
 }
