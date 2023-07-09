@@ -8,8 +8,9 @@ internal class GENERATE
         AvatarCollection avatars = new(RepoPaths.StaticContributors);
         avatars.DownloadMissingImages(SampleChangelog.Contributors);
 
-        string saveAs = Path.GetFullPath("test-contributors.html");
-        ContributorPage.GenerateHtml(SampleChangelog.Contributors, avatars, saveAs);
-        Console.WriteLine(saveAs);
+        // TODO: fetch changelog from github page
+        string md = ContributorPage.GetMarkdown(SampleChangelog.Contributors, avatars);
+
+        File.WriteAllText(RepoPaths.ContributorsPageMarkdown, md);
     }
 }

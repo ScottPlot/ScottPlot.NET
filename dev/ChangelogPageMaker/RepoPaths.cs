@@ -6,6 +6,8 @@ internal static class RepoPaths
 
     public readonly static string StaticContributors = RepoPath("static/images/contributors");
 
+    public readonly static string ContributorsPageMarkdown = RepoPath("content/contributors/index.md");
+
     private static string RepoPath(string subfolder = "")
     {
         string path = Path.Combine(TestContext.CurrentContext.TestDirectory, "../../../../../");
@@ -20,6 +22,12 @@ internal static class RepoPaths
         Console.WriteLine(Root);
         string licenseFilePath = Path.Combine(Root, "LICENSE");
         File.Exists(licenseFilePath).Should().BeTrue();
+    }
+
+    [Test]
+    public static void Test_ContributorFile_Exists()
+    {
+        File.Exists(ContributorsPageMarkdown).Should().BeTrue();
     }
 
     [Test]

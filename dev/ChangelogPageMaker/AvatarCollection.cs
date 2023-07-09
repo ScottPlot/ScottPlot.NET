@@ -21,7 +21,7 @@ internal class AvatarCollection
 
     public string GetImage(string id)
     {
-        if (!ImageFilenames.TryGetValue(id.ToLower(), out var image))
+        if (ImageFilenames.TryGetValue(id.ToLower(), out var image))
         {
             return $"https://scottplot.net/images/contributors/{image}";
         }

@@ -2,9 +2,22 @@
 
 namespace ChangelogPageMaker;
 
-internal class ContributorPage
+internal static class ContributorPage
 {
-    public static void GenerateHtml(string[] ids, AvatarCollection avatars, string saveAs)
+    public static string GetMarkdown(string[] ids, AvatarCollection avatars)
+    {
+        string header = """
+            ---
+            Title: ScottPlot Contributors
+            Description: Members of the open-source community who contributed to ScottPlot
+            ---
+
+            """;
+
+        return header + GetHtml(ids, avatars);
+    }
+
+    public static string GetHtml(string[] ids, AvatarCollection avatars)
     {
         StringBuilder sb = new();
 
@@ -33,10 +46,6 @@ internal class ContributorPage
         }
         sb.AppendLine("</div>");
 
-        string html = HtmlTemplate.Bootstrap
-            .Replace("{{ TITLE }}", "Contributors")
-            .Replace("{{ BODY }}", sb.ToString());
-
-        File.WriteAllText(saveAs, html);
+        return sb.ToString();
     }
 }
