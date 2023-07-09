@@ -34,13 +34,15 @@ internal class AvatarCollection
     public void DownloadMissingImages(string[] ids, int max = 50)
     {
         var idsWithoutImages = ids.Where(x => !ImageFilenames.ContainsKey(x.ToLowerInvariant()));
-        Console.WriteLine($"Found {idsWithoutImages.Count()} IDs without images");
 
-        if (idsWithoutImages.Any())
+        if (!idsWithoutImages.Any())
         {
+            Console.WriteLine($"Located saved avatars for all {idsWithoutImages.Count()} contributors.");
             return;
         }
 
+        string missingIDs = string.Join(", ", idsWithoutImages);
+        Console.WriteLine($"Found {idsWithoutImages.Count()} IDs without images: {missingIDs}");
         var idsToDownload = idsWithoutImages.Take(max);
         Console.WriteLine($"Downloading {idsToDownload.Count()} images...");
 
@@ -68,7 +70,6 @@ internal class AvatarCollection
     {
         int size = 125;
         string url = $"https://github.com/{id}.png?size={size}";
-        Console.WriteLine($"Downloading: {url}");
 
         using HttpClient client = new();
         using HttpResponseMessage response = client.GetAsync(url).Result;
@@ -86,7 +87,7 @@ internal class AvatarCollection
         string extension = GetExtension(bytes);
         string filename = $"{basename}.{extension}";
         string saveAs = Path.Combine(ImageFolder, filename);
-        Console.WriteLine($"Saving: {saveAs}");
         File.WriteAllBytes(saveAs, bytes);
+        Console.WriteLine($"Saved: {saveAs}");
     }
 }

@@ -4,7 +4,7 @@ internal static class RepoPaths
 {
     public readonly static string Root = RepoPath();
 
-    public readonly static string StaticContributors = RepoPath("static/images/contributors");
+    public readonly static string ContributorImageFolder = RepoPath("static/images/contributors");
 
     public readonly static string ContributorsPageMarkdown = RepoPath("content/contributors/index.md");
 
@@ -33,8 +33,8 @@ internal static class RepoPaths
     [Test]
     public static void Test_StaticContributors_IsNotEmpty()
     {
-        Console.WriteLine(StaticContributors);
-        Directory.Exists(StaticContributors).Should().BeTrue();
-        Directory.GetFiles(StaticContributors, "*.*").Should().NotBeEmpty();
+        Console.WriteLine(ContributorImageFolder);
+        Directory.Exists(ContributorImageFolder).Should().BeTrue();
+        Directory.GetFiles(ContributorImageFolder, "*.*").Should().NotBeEmpty();
     }
 }

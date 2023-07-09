@@ -5,12 +5,14 @@ internal class GENERATE
     [Test]
     public void Test_Generate_Pages()
     {
-        AvatarCollection avatars = new(RepoPaths.StaticContributors);
-        avatars.DownloadMissingImages(SampleChangelog.Contributors);
+        string changelog = ChangelogDownloader.Download();
 
-        // TODO: fetch changelog from github page
-        string md = ContributorPage.GetMarkdown(SampleChangelog.Contributors, avatars);
+        string[] contributors = ChangelogParsing.GetGithubIDs(changelog);
+        Console.WriteLine($"Changelog has {contributors.Length} contributors");
 
-        File.WriteAllText(RepoPaths.ContributorsPageMarkdown, md);
+        AvatarCollection avatars = new(RepoPaths.ContributorImageFolder);
+        avatars.DownloadMissingImages(contributors);
+
+        File.WriteAllText(RepoPaths.ContributorsPageMarkdown, ContributorPage.GetMarkdown(contributors, avatars));
     }
 }
