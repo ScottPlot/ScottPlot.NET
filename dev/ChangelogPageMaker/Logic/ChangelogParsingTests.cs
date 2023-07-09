@@ -30,7 +30,7 @@ internal class ChangelogParsingTests
     [Test]
     public void Test_GithubIDs_AreAllFound()
     {
-        string[] ids = ChangelogParsing.GetGithubIDs(SampleChangelog.Text);
+        string[] ids = IdExtraction.GetIDs(SampleChangelog.Text);
         Console.WriteLine($"Parsed data has {ids.Length} contributors");
         foreach (string id in ids)
         {
@@ -41,7 +41,7 @@ internal class ChangelogParsingTests
     [Test]
     public void Test_Contributors_NoDuplicates()
     {
-        string[] ids = ChangelogParsing.GetGithubIDs(SampleChangelog.Text);
+        string[] ids = IdExtraction.GetIDs(SampleChangelog.Text);
         HashSet<string> unique = new();
 
         foreach (string id in ids)

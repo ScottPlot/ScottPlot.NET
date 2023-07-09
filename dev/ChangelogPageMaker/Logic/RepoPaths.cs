@@ -8,6 +8,8 @@ internal static class RepoPaths
 
     public readonly static string ContributorsPageMarkdown = RepoPath("content/contributors/index.md");
 
+    public readonly static string ChangelogPageMarkdown = RepoPath("content/changelog/index.md");
+
     private static string RepoPath(string subfolder = "")
     {
         string path = Path.Combine(TestContext.CurrentContext.TestDirectory, "../../../../../");
@@ -25,9 +27,10 @@ internal static class RepoPaths
     }
 
     [Test]
-    public static void Test_ContributorFile_Exists()
+    public static void Test_MarkdownFiles_Exist()
     {
         File.Exists(ContributorsPageMarkdown).Should().BeTrue();
+        File.Exists(ChangelogPageMarkdown).Should().BeTrue();
     }
 
     [Test]

@@ -51,26 +51,4 @@ internal static class ChangelogParsing
 
         return html;
     }
-
-    public static string[] GetGithubIDs(string changelog)
-    {
-        HashSet<string> ids = new();
-
-        string[] flankingText = { ",", "(", ")", ".", ",", "\n", "_" };
-        foreach (string flank in flankingText)
-        {
-            changelog = changelog.Replace(flank, " ");
-        }
-
-        foreach (string item in changelog.Split(" "))
-        {
-            if (item.StartsWith("@"))
-            {
-                string id = item.Substring(1).Trim();
-                ids.Add(id);
-            }
-        }
-
-        return ids.ToArray();
-    }
 }

@@ -19,8 +19,15 @@ internal abstract class HtmlPageBase
         Avatars = avatars;
     }
 
-    public string GetBootstrappedHtml()
+    public string GetBootstrappedHtml(bool pre)
     {
+        string html = GetHtml();
+
+        if (pre)
+        {
+            html = $"<pre>{html}</pre>";
+        }
+
         return $"""
         <!doctype html>
         <html lang="en">
@@ -33,17 +40,17 @@ internal abstract class HtmlPageBase
           </head>
           <body>
             <div class='container my-5'>
-              {GetHtml()}
+              {html}
             </div>
           </body>
         </html>
         """;
     }
 
-    public void SaveBootstrappedHtml(string saveAs)
+    public void SaveBootstrappedHtml(string saveAs, bool pre = false)
     {
         saveAs = Path.GetFullPath(saveAs);
-        File.WriteAllText(saveAs, GetBootstrappedHtml());
+        File.WriteAllText(saveAs, GetBootstrappedHtml(pre));
         Console.WriteLine($"Wrote: {saveAs}");
     }
 
