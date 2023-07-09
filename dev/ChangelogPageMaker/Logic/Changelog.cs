@@ -1,18 +1,20 @@
-﻿using Markdig;
-using System.Text;
+﻿using System.Text;
 
 namespace ChangelogPageMaker.Logic;
 
 internal class ChangelogChange
 {
     public string Markdown;
+    public string[] Contributors;
+    public string Html;
 
     public ChangelogChange(string markdown)
     {
         Markdown = markdown;
+        (Html, Contributors) = GetHtml();
     }
 
-    public string GetHtml()
+    private (string html, string[] contributors) GetHtml()
     {
         string md = Markdown;
 
@@ -58,7 +60,8 @@ internal class ChangelogChange
         md = md.Replace("@_USER", "@");
 
         string html = Markdig.Markdown.ToHtml(md).Replace("<p>", "").Replace("</p>", "");
-        return html;
+        string[] contributors = ids.ToArray();
+        return (html, contributors);
     }
 }
 
@@ -67,6 +70,8 @@ internal class ChangelogRelease
     public string Date { get; set; } = string.Empty;
     public string Title { get; set; } = string.Empty;
     public List<ChangelogChange> Changes { get; } = new();
+
+    public string[] Contributors => Changes.SelectMany(x => x.Contributors).Distinct().ToArray();
 
     public string GetHtml()
     {
@@ -79,7 +84,7 @@ internal class ChangelogRelease
         sb.AppendLine($"<ul>");
         foreach (ChangelogChange change in Changes)
         {
-            sb.AppendLine($"<li>{change.GetHtml()}</li>");
+            sb.AppendLine($"<li>{change.Html}</li>");
         }
         sb.AppendLine($"</ul>");
         sb.AppendLine($"</div>");
@@ -90,10 +95,18 @@ internal class ChangelogRelease
 
 internal class Changelog
 {
-    public readonly List<ChangelogRelease> Releases = new();
+    public readonly ChangelogRelease[] Releases;
+    public string[] Contributors => Releases.SelectMany(x => x.Contributors).Distinct().ToArray();
 
     public Changelog(string markdown)
     {
+        Releases = GetReleases(markdown);
+    }
+
+    private ChangelogRelease[] GetReleases(string markdown)
+    {
+        List<ChangelogRelease> releases = new();
+
         string[] lines = markdown.Split("\n");
 
         ChangelogRelease thisRelease = new();
@@ -108,7 +121,7 @@ internal class Changelog
             {
                 if (thisRelease.Changes.Any())
                 {
-                    Releases.Add(thisRelease);
+                    releases.Add(thisRelease);
                     thisRelease = new ChangelogRelease();
                 }
 
@@ -130,7 +143,9 @@ internal class Changelog
         }
 
         if (thisRelease.Changes.Any())
-            Releases.Add(thisRelease);
+            releases.Add(thisRelease);
+
+        return releases.ToArray();
     }
 
     public string GetHtml()
@@ -143,5 +158,10 @@ internal class Changelog
         }
 
         return sb.ToString();
+    }
+
+    public override string ToString()
+    {
+        return $"Changelog with {Releases.Length} releases and {Contributors.Length} contributors";
     }
 }

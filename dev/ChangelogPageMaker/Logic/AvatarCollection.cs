@@ -37,12 +37,12 @@ internal class AvatarCollection
 
         if (!idsWithoutImages.Any())
         {
-            Console.WriteLine($"Located saved avatars for all {idsWithoutImages.Count()} contributors.");
+            Console.WriteLine($"Located saved avatars for all {ids.Length} contributors.");
             return;
         }
 
         string missingIDs = string.Join(", ", idsWithoutImages);
-        Console.WriteLine($"Found {idsWithoutImages.Count()} IDs without images: {missingIDs}");
+        Console.WriteLine($"Found {idsWithoutImages.Count()} of {ids.Length} IDs without images: {missingIDs}");
         var idsToDownload = idsWithoutImages.Take(max);
         Console.WriteLine($"Downloading {idsToDownload.Count()} images...");
 

@@ -7,15 +7,15 @@ internal abstract class HtmlPageBase
     public readonly string Title;
     public readonly string Description;
     public readonly AvatarCollection Avatars;
-    public readonly string[] IDs;
+    public readonly Changelog Changelog;
 
     public abstract string GetHtml();
 
-    public HtmlPageBase(string title, string description, string[] ids, AvatarCollection avatars)
+    public HtmlPageBase(string title, string description, Changelog changelog, AvatarCollection avatars)
     {
         Title = title;
         Description = description;
-        IDs = ids;
+        Changelog = changelog;
         Avatars = avatars;
     }
 

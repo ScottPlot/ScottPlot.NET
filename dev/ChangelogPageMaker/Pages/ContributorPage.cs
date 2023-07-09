@@ -5,10 +5,9 @@ namespace ChangelogPageMaker.Pages;
 
 internal class ContributorPage : HtmlPageBase
 {
-    public ContributorPage(string[] ids, AvatarCollection avatars)
-        : base("ScottPlot Contributors", "Members of the open-source community who contributed to ScottPlot", ids, avatars)
+    public ContributorPage(Changelog changelog, AvatarCollection avatars)
+        : base("ScottPlot Contributors", "Members of the open-source community who contributed to ScottPlot", changelog, avatars)
     {
-
     }
 
     public override string GetHtml()
@@ -26,7 +25,7 @@ internal class ContributorPage : HtmlPageBase
             """);
 
         sb.AppendLine("<div class='d-flex justify-content-center flex-wrap'>");
-        foreach (string id in IDs)
+        foreach (string id in Changelog.Contributors)
         {
             string url = $"https://github.com/{id}";
             sb.AppendLine("<div class='bg-light border rounded text-center mx-3 my-2'>");

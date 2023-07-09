@@ -5,12 +5,9 @@ namespace ChangelogPageMaker.Pages;
 
 internal class ChangelogPage : HtmlPageBase
 {
-    readonly Changelog Changelog;
-
-    public ChangelogPage(string changelog, string[] ids, AvatarCollection avatars)
-        : base("ScottPlot Changelog", "Release notes for every version of ScottPlot", ids, avatars)
+    public ChangelogPage(Changelog changelog, AvatarCollection avatars)
+        : base("ScottPlot Changelog", "Release notes for every version of ScottPlot", changelog, avatars)
     {
-        Changelog = new(changelog);
     }
 
     public override string GetHtml()
