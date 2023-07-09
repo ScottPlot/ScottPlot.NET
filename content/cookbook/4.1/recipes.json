@@ -1,6 +1,6 @@
 {
-  "version": "4.1.64",
-  "generated": "2023-05-18T00:51:41.4138412Z",
+  "version": "4.1.65",
+  "generated": "2023-07-09T14:05:35.2009897Z",
   "recipes": [
     {
       "id": "Axis_label",
@@ -73,6 +73,14 @@
       "title": "Rotated Y Ticks",
       "description": "Vertical tick labels can be rotated as desired.",
       "code": "var plt = new ScottPlot.Plot(600, 400);\n\n// plot sample data\nplt.AddSignal(DataGen.Sin(51));\nplt.AddSignal(DataGen.Cos(51));\nplt.XAxis.Label(\u0022Horizontal Axis\u0022);\nplt.YAxis.Label(\u0022Vertical Axis\u0022);\n\n// rotate horizontal axis tick labels\nplt.YAxis.TickLabelStyle(rotation: 45);\n\nplt.SaveFig(\u0022ticks_rotatedY.png\u0022);"
+    },
+    {
+      "id": "ticks_width",
+      "category": "Axis and Ticks",
+      "categoryFolder": "axis-and-ticks",
+      "title": "X Ticks Width",
+      "description": "This example show how to change the width of the X axe ticks",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\n//Plot sample data\nplt.AddSignal(DataGen.Sin(51));\n\n//Change the width of the ticks\nplt.XAxis.AxisTicks.MajorLineWidth = 5;\nplt.XAxis.AxisTicks.MinorLineWidth = 2;\n\nplt.SaveFig(\u0022ticks_width.png\u0022);"
     },
     {
       "id": "ticks_dateTime",
@@ -777,6 +785,14 @@
       "title": "Figure Background Image",
       "description": "A backgorund image can be drawn behind the entire figure. If you do this you likely want to make your data background transparent.",
       "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.AddSignal(DataGen.Sin(51), 1, Color.Yellow);\nplt.AddSignal(DataGen.Cos(51), 1, Color.Magenta);\n\nBitmap monaLisaBmp = ScottPlot.DataGen.SampleImage();\n\nplt.Style(\n    grid: Color.FromArgb(50, Color.White),\n    tick: Color.White,\n    dataBackground: Color.FromArgb(50, Color.White),\n    figureBackgroundImage: monaLisaBmp);\n\nplt.SaveFig(\u0022misc_background_image_figure.png\u0022);"
+    },
+    {
+      "id": "misc_custom_line_style",
+      "category": "Style",
+      "categoryFolder": "style",
+      "title": "Custom Line Style",
+      "description": "A customizable line style exists which allows users to define any pattern.",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\n// All default line style patterns can be customized.\n// Numbers are the length of lines and spaces.\nScottPlot.LineStylePatterns.Custom = new float[] { 1, 1, 2, 1, 3, 1, 4, 1 };\n\n// Use line style patterns anywhere\ndouble[] xs = ScottPlot.DataGen.Consecutive(51);\ndouble[] ys = ScottPlot.DataGen.Sin(51);\nplt.AddScatter(xs, ys, markerSize: 0, lineStyle: LineStyle.Custom, lineWidth: 5);\n\nplt.SaveFig(\u0022misc_custom_line_style.png\u0022);"
     },
     {
       "id": "annotation_quickstart",
@@ -1627,6 +1643,14 @@
       "code": "var plt = new ScottPlot.Plot(600, 400);\n\ndouble[,] imageData = DataGen.SampleImageData();\nvar hm = plt.AddHeatmap(imageData, lockScales: false);\nhm.ClippingPoints = new Coordinate[]\n{\n    new Coordinate(30, 15),\n    new Coordinate(55, 40),\n    new Coordinate(60, 45),\n    new Coordinate(80, 60),\n    new Coordinate(40, 95),\n    new Coordinate(15, 90),\n    new Coordinate(5, 50),\n};\n\nplt.SaveFig(\u0022heatmap_clipping.png\u0022);"
     },
     {
+      "id": "heatmap_binned",
+      "category": "Heatmap",
+      "categoryFolder": "plottable-heatmap",
+      "title": "Binned Histogram",
+      "description": "Binned histograms are 2D heatmaps that use a colormap to display cell counts. Charts like this are commonly used in scientific and medical applications.",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\n// create a binned histogram\nvar hist2d = plt.AddBinnedHistogram(100, 100);\n\n// data is a collection of X/Y points\nCoordinate[] flowData = DataGen.FlowCytometry();\n\n// add X/Y points to the histogram\nhist2d.AddRange(flowData);\n\nplt.SaveFig(\u0022heatmap_binned.png\u0022);"
+    },
+    {
       "id": "image_quickstart",
       "category": "Image",
       "categoryFolder": "plottable-image",
@@ -1683,6 +1707,14 @@
       "code": "var plt = new ScottPlot.Plot(600, 400);\n\nBitmap bmp = DataGen.SampleImage();\nvar img = plt.AddImage(bmp, 0, bmp.Height);\nimg.HeightInAxisUnits = bmp.Height;\nimg.WidthInAxisUnits = bmp.Width;\nimg.ClippingPoints = new Coordinate[]\n{\n    new Coordinate(30, 15),\n    new Coordinate(55, 40),\n    new Coordinate(60, 45),\n    new Coordinate(80, 60),\n    new Coordinate(40, 95),\n    new Coordinate(15, 90),\n    new Coordinate(5, 50),\n};\n\nplt.SaveFig(\u0022image_clipping.png\u0022);"
     },
     {
+      "id": "images_smooth",
+      "category": "Image",
+      "categoryFolder": "plottable-image",
+      "title": "Image Anti-Aliasing",
+      "description": "Images have an option to enable or disable anti-aliasing",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nBitmap bmp = DataGen.SampleImage();\nvar imgTop = plt.AddImage(bmp, 0, 2.2);\nimgTop.HeightInAxisUnits = 1;\nimgTop.WidthInAxisUnits = 30;\nimgTop.AntiAlias = true;\n\nvar imgBottom = plt.AddImage(bmp, 0, 1.0);\nimgBottom.HeightInAxisUnits = 1;\nimgBottom.WidthInAxisUnits = 30;\nimgBottom.AntiAlias = false;\n\nplt.SaveFig(\u0022images_smooth.png\u0022);"
+    },
+    {
       "id": "marker_quickstart",
       "category": "Marker",
       "categoryFolder": "plottable-marker",
@@ -1721,6 +1753,14 @@
       "title": "Marker Line Width",
       "description": "Markers have options that can be customized, such as line width.",
       "code": "var plt = new ScottPlot.Plot(600, 400);\n\ndouble[] ys1 = DataGen.Sin(30);\nvar cmap1 = ScottPlot.Drawing.Colormap.Viridis;\n\ndouble[] ys2 = DataGen.Cos(30);\nvar cmap2 = ScottPlot.Drawing.Colormap.Turbo;\n\nfor (int i = 0; i \u003C ys1.Length; i\u002B\u002B)\n{\n    double frac = i / (ys1.Length - 1f);\n\n    var circle = plt.AddMarker(i, ys1[i]);\n    circle.MarkerShape = MarkerShape.openCircle;\n    circle.MarkerSize = i \u002B 5;\n    circle.MarkerLineWidth = 1 \u002B i / 2;\n    circle.MarkerColor = cmap1.GetColor(1 - frac, .8);\n\n    var triangle = plt.AddMarker(i, ys2[i]);\n    triangle.MarkerShape = MarkerShape.openTriangleUp;\n    triangle.MarkerSize = i \u002B 5;\n    triangle.MarkerLineWidth = 1 \u002B i / 4;\n    triangle.MarkerColor = cmap2.GetColor(frac, .8);\n}\n\nplt.Margins(.2, .2);\n\nplt.SaveFig(\u0022marker_linewidth.png\u0022);"
+    },
+    {
+      "id": "marker_Circle",
+      "category": "Marker",
+      "categoryFolder": "plottable-marker",
+      "title": "Circle Marker",
+      "description": "Circles can be added anywhere on the plot. If a line style is used, a custom pattern should be created.",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\n// create a custom pattern (defining dash and space lengths)\nList\u003Cfloat\u003E patternLengths = new();\nfor (int i = 0; i \u003C 20; i\u002B\u002B)\n{\n    patternLengths.Add(1f); // dash\n    patternLengths.Add(.5f); // space\n    patternLengths.Add(.25f); // dot\n    patternLengths.Add(.5f); // space\n}\n\n// normalize the lengths so the total pattern length is 1\nfloat totalPatternLength = patternLengths.Sum();\nfloat[] pattern = patternLengths.Select(x =\u003E x / totalPatternLength).ToArray();\n\n// apply the custom pattern\nScottPlot.LineStylePatterns.Custom = pattern;\n\n// plot a circle using the custom pattern\nplt.AddCircle(x: 7, y: 13, radius: 5, lineWidth: 3, lineStyle: LineStyle.Custom);\n\nplt.SaveFig(\u0022marker_Circle.png\u0022);"
     },
     {
       "id": "pie_quickstart",
@@ -2379,6 +2419,14 @@
       "code": "var plt = new ScottPlot.Plot(600, 400);\n\nvar rand = new Random(0);\ndouble[] values = DataGen.RandomWalk(rand, 100_000);\nvar sig = plt.AddSignal(values);\nsig.OffsetX = 10_000;\nsig.OffsetY = 100;\n\nplt.SaveFig(\u0022signal_offset.png\u0022);"
     },
     {
+      "id": "signal_scale",
+      "category": "Signal Plot",
+      "categoryFolder": "plottable-signal-plot",
+      "title": "Signal Scale",
+      "description": "Signal plots can have a Y scale that multiply all data by a defined amount. ScaleY is applied before OffsetX and OffsetY.",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\n// display 100,000 values between -1 and \u002B1\ndouble[] values = DataGen.Sin(100_000, oscillations: 10);\nvar sig = plt.AddSignal(values);\n\n// scale Y by 500 so values span -500 to \u002B500\nsig.ScaleY = 500;\n\nplt.SaveFig(\u0022signal_scale.png\u0022);"
+    },
+    {
       "id": "signal_advantage",
       "category": "Signal Plot",
       "categoryFolder": "plottable-signal-plot",
@@ -2529,6 +2577,14 @@
       "title": "SignalXY Offset",
       "description": "SignalXY plots can have X and Y offsets that shift all data by a defined amount.",
       "code": "var plt = new ScottPlot.Plot(600, 400);\n\n(double[] xs, double[] ys) = DataGen.RandomWalk2D(new Random(0), 5_000);\n\nvar sig = plt.AddSignalXY(xs, ys);\nsig.OffsetX = 10_000;\nsig.OffsetY = 100;\n\nplt.SaveFig(\u0022signalxy_offset.png\u0022);"
+    },
+    {
+      "id": "signalxy_scale",
+      "category": "SignalXY",
+      "categoryFolder": "plottable-signalxy",
+      "title": "SignalXY Scale",
+      "description": "SignalXY plots can have a Y scale that multiply all data by a defined amount. ScaleY is applied before OffsetX and OffsetY.",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\n// display 100,000 values between -1 and \u002B1\ndouble[] values = DataGen.Sin(100_000, oscillations: 10);\ndouble[] xs = ScottPlot.Generate.Consecutive(values.Length);\nvar sigxy = plt.AddSignalXY(xs, values);\n\n// scale Y by 500 so values span -500 to \u002B500\nsigxy.ScaleY = 500;\n\nplt.SaveFig(\u0022signalxy_scale.png\u0022);"
     },
     {
       "id": "signalxy_gaps",
