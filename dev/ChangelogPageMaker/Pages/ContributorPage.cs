@@ -41,14 +41,17 @@ internal class ContributorPage : HtmlPageBase
         }
         sb.AppendLine("</div>");
 
-        sb.AppendLine("<div class='my-5 text-muted'>");
+        sb.AppendLine("<div class='mt-5 mb-3 text-muted'>");
         sb.AppendLine("Contributors are listed in the same order they appear in the changelog, ");
         sb.AppendLine("with those submitting contributions most recently at the top. ");
-        sb.AppendLine("Contributor avatars are downloaded at the time the changelog was updated. ");
+        sb.AppendLine("Contributor avatars are downloaded the first time they appear in the changelog. ");
+        sb.AppendLine("</div>");
+
+        sb.AppendLine("<div class='mb-5 text-muted'>");
         sb.AppendLine("If you changed your GitHub avatar and wish to update the image on this page, ");
-        sb.AppendLine("go to the <a href='https://github.com/ScottPlot/ScottPlot.NET' class='text-muted'>ScottPlot.NET website repository</a>, ");
-        sb.AppendLine("navigate to ./static/images/contributors, and create a pull request which ");
-        sb.AppendLine("deletes the file with your GitHub username that contains the old avatar. ");
+        sb.AppendLine("go to <a href='https://github.com/ScottPlot/ScottPlot.NET/tree/main/static/images/contributors'>");
+        sb.AppendLine("https://github.com/ScottPlot/ScottPlot.NET/tree/main/static/images/contributors</a> ");
+        sb.AppendLine("and create a pull request which deletes the file with your GitHub username. ");
         sb.AppendLine("Your new avatar will be downloaded the next time the changelog is updated. ");
         sb.AppendLine("</div>");
 
