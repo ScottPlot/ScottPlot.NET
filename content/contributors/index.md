@@ -1036,13 +1036,15 @@ Description: Members of the open-source community who contributed to ScottPlot
 <div><a href='https://github.com/morningkyle'>@morningkyle</a></div>
 </div>
 </div>
-<div class='my-5 text-muted'>
+<div class='mt-5 mb-3 text-muted'>
 Contributors are listed in the same order they appear in the changelog, 
 with those submitting contributions most recently at the top. 
-Contributor avatars are downloaded at the time the changelog was updated. 
+Contributor avatars are downloaded the first time they appear in the changelog. 
+</div>
+<div class='mb-5 text-muted'>
 If you changed your GitHub avatar and wish to update the image on this page, 
-go to the <a href='https://github.com/ScottPlot/ScottPlot.NET' class='text-muted'>ScottPlot.NET website repository</a>, 
-navigate to ./static/images/contributors, and create a pull request which 
-deletes the file with your GitHub username that contains the old avatar. 
+go to <a href='https://github.com/ScottPlot/ScottPlot.NET/tree/main/static/images/contributors'>
+https://github.com/ScottPlot/ScottPlot.NET/tree/main/static/images/contributors</a> 
+and create a pull request which deletes the file with your GitHub username. 
 Your new avatar will be downloaded the next time the changelog is updated. 
 </div>
