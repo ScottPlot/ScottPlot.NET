@@ -5,32 +5,19 @@ namespace ChangelogPageMaker.Pages;
 
 internal class ChangelogPage : HtmlPageBase
 {
-    public readonly string Changelog;
+    readonly Changelog Changelog;
 
     public ChangelogPage(string changelog, string[] ids, AvatarCollection avatars)
         : base("ScottPlot Changelog", "Release notes for every version of ScottPlot", ids, avatars)
     {
-        Changelog = changelog;
+        Changelog = new(changelog);
     }
 
     public override string GetHtml()
     {
         StringBuilder sb = new();
 
-        sb.AppendLine(Markdig.Markdown.ToHtml(Changelog));
-
-        // TODO: don't show empty headings
-        foreach (string id in IDs)
-        {
-            sb.Replace("@" + id, $"<a href='https://github.com/{id}'>@{id}</a>");
-        }
-
-        // TODO: something more effecient
-        for (int i = 3_000; i > 0; i--)
-        {
-            sb.Replace($"#{i}", $"<a href='https://github.com/ScottPlot/ScottPlot/issues/{i}'>#ISSUE_{i}</a>");
-        }
-        sb.Replace($"#ISSUE_", $"#");
+        sb.AppendLine(Changelog.GetHtml());
 
         sb.AppendLine("<div class='mt-5 mb-3 text-muted'>");
         sb.AppendLine("Contributors are listed in the same order they appear in the changelog, ");
