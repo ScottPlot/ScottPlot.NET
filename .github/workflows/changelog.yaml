@@ -1,0 +1,28 @@
+name: Changelog
+
+on:
+  workflow_dispatch: # only runs manually
+
+jobs:
+  deploy:
+    name: Update Changelog
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🛒 Checkout
+        uses: actions/checkout@v3
+      - name: ✨ Setup .NET 7
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: "7.x"
+      - name: 🚚 Restore
+        run: dotnet restore "dev/ChangelogPageMaker"
+      - name: 🛠️ Build
+        run: dotnet build "dev/ChangelogPageMaker" --configuration Release --no-restore
+      - name: 🧪 Test
+        run: dotnet test "dev/ChangelogPageMaker" --no-restore --verbosity minimal
+      - name: ✅ Commit Changes
+        run: |
+          git config --global user.name 'Scott W Harden (via GitHub Actions)'
+          git config --global user.email 'swharden@gmail.com'
+          git commit -am "Changelog: Automated Update"
+          git status
