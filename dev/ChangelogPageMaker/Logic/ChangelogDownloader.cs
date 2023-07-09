@@ -1,4 +1,4 @@
-﻿namespace ChangelogPageMaker;
+﻿namespace ChangelogPageMaker.Logic;
 
 public static class ChangelogDownloader
 {

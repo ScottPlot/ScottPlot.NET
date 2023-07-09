@@ -1,4 +1,4 @@
-﻿namespace ChangelogPageMaker;
+﻿namespace ChangelogPageMaker.Logic;
 
 internal class AvatarCollection
 {
