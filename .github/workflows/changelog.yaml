@@ -1,7 +1,9 @@
 name: Changelog
 
 on:
-  workflow_dispatch: # only runs manually
+  workflow_dispatch:
+  repository_dispatch:
+    types: changelog_file_modified
 
 jobs:
   deploy:
