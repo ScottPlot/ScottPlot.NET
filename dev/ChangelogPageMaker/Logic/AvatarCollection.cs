@@ -33,7 +33,7 @@ internal class AvatarCollection
 
     public void DownloadMissingImages(string[] ids, int max = 50)
     {
-        var idsWithoutImages = ids.Where(x => !ImageFilenames.ContainsKey(x.ToLowerInvariant()));
+        var idsWithoutImages = ids.Append("swharden").Where(x => !ImageFilenames.ContainsKey(x.ToLowerInvariant()));
 
         if (!idsWithoutImages.Any())
         {

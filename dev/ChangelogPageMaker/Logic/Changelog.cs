@@ -82,7 +82,7 @@ internal class ChangelogRelease
         AddChangeList(sb);
 
         sb.AppendLine("<h3 class='text-center fw-light'>Contributors</h3>");
-        AddContributorNames(sb, avatars);
+        AddContributorNames(sb);
         AddContributorImages(sb, avatars);
 
         return sb.ToString();
@@ -106,17 +106,17 @@ internal class ChangelogRelease
         sb.AppendLine($"</div>");
     }
 
-    private void AddContributorNames(StringBuilder sb, AvatarCollection avatars)
+    private void AddContributorNames(StringBuilder sb)
     {
         sb.AppendLine("<div class='text-center'>");
-        sb.AppendLine(string.Join(", ", Contributors.Select(x => $"<a href='https://github.com/{x}'>{x}</a>")));
+        sb.AppendLine(string.Join(", ", Contributors.Append("swharden").Select(x => $"<a href='https://github.com/{x}'>{x}</a>")));
         sb.AppendLine("</div>");
     }
 
     private void AddContributorImages(StringBuilder sb, AvatarCollection avatars)
     {
         sb.AppendLine("<div class='text-center'>");
-        foreach (string id in Contributors)
+        foreach (string id in Contributors.Append("swharden"))
         {
             sb.AppendLine($"<a href='https://github.com/{id}'>" +
                 $"<img src='{avatars.GetImage(id)}' width=75 height=75 style='border-radius: 50%;' class='m-1'/>" +
