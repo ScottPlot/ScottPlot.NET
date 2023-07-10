@@ -5,8 +5,8 @@ namespace ChangelogPageMaker.Pages;
 
 internal class ContributorPage : HtmlPageBase
 {
-    public ContributorPage(Changelog changelog, AvatarCollection avatars)
-        : base("ScottPlot Contributors", "Members of the open-source community who contributed to ScottPlot", changelog, avatars)
+    public ContributorPage(Changelog changelog)
+        : base("ScottPlot Contributors", "Members of the open-source community who contributed to ScottPlot", changelog)
     {
     }
 
@@ -31,7 +31,7 @@ internal class ContributorPage : HtmlPageBase
             sb.AppendLine("<div class='bg-light border rounded text-center mx-3 my-2'>");
 
             sb.AppendLine("<div><a href=''><img class='img-fluid rounded m-1' " +
-                $"src='{Avatars.GetImage(id)}' " +
+                $"src='{Changelog.Avatars.GetImage(id)}' " +
                 "height='125' width='125'/></a></div>");
 
             sb.AppendLine($"<div><a href='{url}'>@{id}</a></div>");

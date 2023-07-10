@@ -2,7 +2,7 @@
 
 internal class ChangelogTests
 {
-    Changelog Changelog = new(SampleChangelog.Text);
+    Changelog Changelog = new(SampleChangelog.Text, RepoPaths.ContributorImageFolder);
 
     [Test]
     public void Test_Changelog_HasSections()

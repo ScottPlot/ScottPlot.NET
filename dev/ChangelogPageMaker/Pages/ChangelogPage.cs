@@ -5,8 +5,8 @@ namespace ChangelogPageMaker.Pages;
 
 internal class ChangelogPage : HtmlPageBase
 {
-    public ChangelogPage(Changelog changelog, AvatarCollection avatars)
-        : base("ScottPlot Changelog", "Release notes for every version of ScottPlot", changelog, avatars)
+    public ChangelogPage(Changelog changelog)
+        : base("ScottPlot Changelog", "Release notes for every version of ScottPlot", changelog)
     {
     }
 

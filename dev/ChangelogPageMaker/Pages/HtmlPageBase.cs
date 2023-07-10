@@ -6,17 +6,15 @@ internal abstract class HtmlPageBase
 {
     public readonly string Title;
     public readonly string Description;
-    public readonly AvatarCollection Avatars;
     public readonly Changelog Changelog;
 
     public abstract string GetHtml();
 
-    public HtmlPageBase(string title, string description, Changelog changelog, AvatarCollection avatars)
+    public HtmlPageBase(string title, string description, Changelog changelog)
     {
         Title = title;
         Description = description;
         Changelog = changelog;
-        Avatars = avatars;
     }
 
     public string GetBootstrappedHtml(bool pre)

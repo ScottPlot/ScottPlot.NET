@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Linq;
+using System.Text;
 
 namespace ChangelogPageMaker.Logic;
 
@@ -73,14 +74,29 @@ internal class ChangelogRelease
 
     public string[] Contributors => Changes.SelectMany(x => x.Contributors).Distinct().ToArray();
 
-    public string GetHtml()
+    public string GetHtml(AvatarCollection avatars)
     {
         StringBuilder sb = new();
+
+        AddTitle(sb);
+        AddChangeList(sb);
+
+        sb.AppendLine("<h3 class='text-center fw-light'>Contributors</h3>");
+        AddContributorNames(sb, avatars);
+        AddContributorImages(sb, avatars);
+
+        return sb.ToString();
+    }
+
+    private void AddTitle(StringBuilder sb)
+    {
         sb.AppendLine($"<h1 class='mb-0'>{Title}</h1>");
-
         sb.AppendLine($"<div><i>NuGet packages published {Date}</i></div>");
+    }
 
-        sb.AppendLine($"<div class='mt-1 mb-5'>");
+    private void AddChangeList(StringBuilder sb)
+    {
+        sb.AppendLine($"<div class='mt-1'>");
         sb.AppendLine($"<ul>");
         foreach (ChangelogChange change in Changes)
         {
@@ -88,8 +104,25 @@ internal class ChangelogRelease
         }
         sb.AppendLine($"</ul>");
         sb.AppendLine($"</div>");
+    }
 
-        return sb.ToString();
+    private void AddContributorNames(StringBuilder sb, AvatarCollection avatars)
+    {
+        sb.AppendLine("<div class='text-center'>");
+        sb.AppendLine(string.Join(", ", Contributors.Select(x => $"<a href='https://github.com/{x}'>{x}</a>")));
+        sb.AppendLine("</div>");
+    }
+
+    private void AddContributorImages(StringBuilder sb, AvatarCollection avatars)
+    {
+        sb.AppendLine("<div class='text-center'>");
+        foreach (string id in Contributors)
+        {
+            sb.AppendLine($"<a href='https://github.com/{id}'>" +
+                $"<img src='{avatars.GetImage(id)}' width=75 height=75 style='border-radius: 50%;' class='m-1'/>" +
+                $"</a>");
+        }
+        sb.AppendLine("</div>");
     }
 }
 
@@ -97,10 +130,12 @@ internal class Changelog
 {
     public readonly ChangelogRelease[] Releases;
     public string[] Contributors => Releases.SelectMany(x => x.Contributors).Distinct().ToArray();
+    public readonly AvatarCollection Avatars;
 
-    public Changelog(string markdown)
+    public Changelog(string markdown, string avatarImageFolder)
     {
         Releases = GetReleases(markdown);
+        Avatars = new(avatarImageFolder);
     }
 
     private ChangelogRelease[] GetReleases(string markdown)
@@ -148,13 +183,20 @@ internal class Changelog
         return releases.ToArray();
     }
 
+    public void DownloadMissingAvatars(int max = 50)
+    {
+        Avatars.DownloadMissingImages(Contributors, max);
+    }
+
     public string GetHtml()
     {
         StringBuilder sb = new();
 
         foreach (ChangelogRelease release in Releases)
         {
-            sb.AppendLine(release.GetHtml());
+            sb.AppendLine("<section class='mb-5'>");
+            sb.AppendLine(release.GetHtml(Avatars));
+            sb.AppendLine("</section>");
         }
 
         return sb.ToString();

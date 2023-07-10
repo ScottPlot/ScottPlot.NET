@@ -11,17 +11,13 @@ internal class GENERATE
         Changelog changelog = GetLatestChangelog();
         Console.WriteLine(changelog);
 
-        // download contributor avatar images
-        AvatarCollection avatars = new(RepoPaths.ContributorImageFolder);
-        avatars.DownloadMissingImages(changelog.Contributors);
+        changelog.DownloadMissingAvatars();
 
-        // create contributor page
-        ContributorPage conPage = new(changelog, avatars);
+        ContributorPage conPage = new(changelog);
         conPage.SaveBootstrappedHtml("test-contributors.html");
         conPage.SaveMarkdown(RepoPaths.ContributorsPageMarkdown);
 
-        // create changelog page
-        ChangelogPage chgPage = new(changelog, avatars);
+        ChangelogPage chgPage = new(changelog);
         chgPage.SaveBootstrappedHtml("test-changelog.html");
         chgPage.SaveMarkdown(RepoPaths.ChangelogPageMarkdown);
     }
@@ -32,7 +28,7 @@ internal class GENERATE
         if (isScottsComputer)
         {
             Console.WriteLine("Scott's computer detected: using local changelog file");
-            return new Changelog(SampleChangelog.Text);
+            return new Changelog(SampleChangelog.Text, RepoPaths.ContributorImageFolder);
         }
 
         string url = "https://raw.githubusercontent.com/ScottPlot/ScottPlot/main/CHANGELOG.md";
@@ -50,6 +46,6 @@ internal class GENERATE
         using HttpContent content = response.Content;
         string txt = content.ReadAsStringAsync().Result;
 
-        return new Changelog(txt);
+        return new Changelog(txt, RepoPaths.ContributorImageFolder);
     }
 }
