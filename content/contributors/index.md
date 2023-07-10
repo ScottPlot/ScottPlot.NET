@@ -628,22 +628,6 @@ Description: Members of the open-source community who contributed to ScottPlot
 <div><a href='https://github.com/Kritner'>@Kritner</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
-<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/wbalbo.jpg' height='125' width='125'/></a></div>
-<div><a href='https://github.com/wbalbo'>@wbalbo</a></div>
-</div>
-<div class='bg-light border rounded text-center mx-3 my-2'>
-<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/kanishkkhurana.jpg' height='125' width='125'/></a></div>
-<div><a href='https://github.com/KanishkKhurana'>@KanishkKhurana</a></div>
-</div>
-<div class='bg-light border rounded text-center mx-3 my-2'>
-<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/xgfs.jpg' height='125' width='125'/></a></div>
-<div><a href='https://github.com/xgfs'>@xgfs</a></div>
-</div>
-<div class='bg-light border rounded text-center mx-3 my-2'>
-<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/nanrod.png' height='125' width='125'/></a></div>
-<div><a href='https://github.com/nanrod'>@nanrod</a></div>
-</div>
-<div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/nexus452.png' height='125' width='125'/></a></div>
 <div><a href='https://github.com/Nexus452'>@Nexus452</a></div>
 </div>
