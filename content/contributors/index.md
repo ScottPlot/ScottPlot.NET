@@ -12,6 +12,10 @@ Description: Members of the open-source community who contributed to ScottPlot
 <div class='display-3 my-5 text-center'>💖🚀✨</div>
 <div class='d-flex justify-content-center flex-wrap'>
 <div class='bg-light border rounded text-center mx-3 my-2'>
+<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/kromignon.png' height='125' width='125'/></a></div>
+<div><a href='https://github.com/KroMignon'>@KroMignon</a></div>
+</div>
+<div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/heartacker.jpg' height='125' width='125'/></a></div>
 <div><a href='https://github.com/heartacker'>@heartacker</a></div>
 </div>
@@ -118,10 +122,6 @@ Description: Members of the open-source community who contributed to ScottPlot
 <div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/angeld10.png' height='125' width='125'/></a></div>
 <div><a href='https://github.com/Angeld10'>@Angeld10</a></div>
-</div>
-<div class='bg-light border rounded text-center mx-3 my-2'>
-<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/kromignon.png' height='125' width='125'/></a></div>
-<div><a href='https://github.com/KroMignon'>@KroMignon</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/benton-anderson.png' height='125' width='125'/></a></div>
