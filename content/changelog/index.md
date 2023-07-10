@@ -2083,7 +2083,7 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>User control <code>Configuration</code> module now has customizable scroll wheel zoom fraction (<a href="https://github.com/ScottPlot/ScottPlot/issues/940">#940</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/937">#937</a>) <em>Thanks <a href="https://github.com/PassionateDeveloper86">@PassionateDeveloper86</a> and <a href="https://github.com/StendProg">@StendProg</a></em>
 </li>
-<li>Added options to <code>Plot.AxisScaleLock()</code> to let the user define scaling behavior when the plot is resized (<a href="https://github.com/ScottPlot/ScottPlot/issues/933">#933</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/857">#857</a>) <em>Thanks <a href="https://github.com/ricecakebear">@ricecakebear</a> and <a href="https://github.com/StendProg">@StendProg</a></em>
+<li>Added options to <code>Plot.AxisScaleLock()</code> to let the user define scaling behavior when the plot is resized (<a href="https://github.com/ScottPlot/ScottPlot/issues/933">#933</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/857">#857</a>) <em>Thanks <a href="https://github.com/boingo100p">@boingo100p</a> and <a href="https://github.com/StendProg">@StendProg</a></em>
 </li>
 <li>Improved XML documentation for <code>DataGen</code> module (<a href="https://github.com/ScottPlot/ScottPlot/issues/903">#903</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/902">#902</a>) <em>Thanks <a href="https://github.com/bclehmann">@bclehmann</a></em>
 </li>
@@ -2109,14 +2109,14 @@ Description: Release notes for every version of ScottPlot
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/ademkaya'>ademkaya</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/PassionateDeveloper86'>PassionateDeveloper86</a>, <a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/ricecakebear'>ricecakebear</a>, <a href='https://github.com/saklanmazozgur'>saklanmazozgur</a>, <a href='https://github.com/audun'>audun</a>, <a href='https://github.com/ChrisAtVault'>ChrisAtVault</a>, <a href='https://github.com/damiandixon'>damiandixon</a>, <a href='https://github.com/pietcoussens'>pietcoussens</a>, <a href='https://github.com/LB767'>LB767</a>, <a href='https://github.com/breakwinz'>breakwinz</a>, <a href='https://github.com/swharden'>swharden</a>
+<a href='https://github.com/ademkaya'>ademkaya</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/PassionateDeveloper86'>PassionateDeveloper86</a>, <a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/boingo100p'>boingo100p</a>, <a href='https://github.com/saklanmazozgur'>saklanmazozgur</a>, <a href='https://github.com/audun'>audun</a>, <a href='https://github.com/ChrisAtVault'>ChrisAtVault</a>, <a href='https://github.com/damiandixon'>damiandixon</a>, <a href='https://github.com/pietcoussens'>pietcoussens</a>, <a href='https://github.com/LB767'>LB767</a>, <a href='https://github.com/breakwinz'>breakwinz</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/ademkaya'><img src='https://scottplot.net/images/contributors/ademkaya.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/PassionateDeveloper86'><img src='https://scottplot.net/images/contributors/passionatedeveloper86.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/ricecakebear'><img src='https://scottplot.net/images/contributors/ricecakebear.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/boingo100p'><img src='https://scottplot.net/images/contributors/boingo100p.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/saklanmazozgur'><img src='https://scottplot.net/images/contributors/saklanmazozgur.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/audun'><img src='https://scottplot.net/images/contributors/audun.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/ChrisAtVault'><img src='https://scottplot.net/images/contributors/chrisatvault.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>

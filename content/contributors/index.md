@@ -724,8 +724,8 @@ Description: Members of the open-source community who contributed to ScottPlot
 <div><a href='https://github.com/PassionateDeveloper86'>@PassionateDeveloper86</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
-<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/ricecakebear.jpg' height='125' width='125'/></a></div>
-<div><a href='https://github.com/ricecakebear'>@ricecakebear</a></div>
+<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/boingo100p.jpg' height='125' width='125'/></a></div>
+<div><a href='https://github.com/boingo100p'>@boingo100p</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/audun.jpg' height='125' width='125'/></a></div>
