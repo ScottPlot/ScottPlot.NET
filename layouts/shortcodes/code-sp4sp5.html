@@ -1,0 +1,46 @@
+{{ $allCode := .InnerDeindent }}
+{{ $parts := split $allCode "---" }}
+{{ $firstPart := index $parts 0 }}
+{{ $secondPart := index $parts 1 }}
+{{ $accordionID := md5 $allCode }}
+{{ $collapse1ID := (printf "%s-one" $accordionID) }}
+{{ $collapse2ID := (printf "%s-two" $accordionID) }}
+
+<div class="accordion my-4" id="{{ $accordionID }}">
+
+    <div class="accordion-item">
+        <h2 class="accordion-header my-0 py-0">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#{{ $collapse1ID }}" aria-expanded="true" aria-controls="{{ $collapse1ID }}">
+                <strong>ScottPlot 4</strong>&nbsp;- current release
+            </button>
+        </h2>
+        <div id="{{ $collapse1ID }}" class="accordion-collapse collapse show" data-bs-parent="#{{ $accordionID }}">
+            <div class="accordion-body">
+                {{ "cs" | highlight (trim $firstPart "\n\r") }}
+            </div>
+        </div>
+    </div>
+
+    <div class="accordion-item">
+        <h2 class="accordion-header my-0 py-0">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#{{ $collapse2ID }}" aria-expanded="false" aria-controls="{{ $collapse2ID }}">
+                <strong>ScottPlot 5</strong>&nbsp;- preview version
+            </button>
+        </h2>
+        <div id="{{ $collapse2ID }}" class="accordion-collapse collapse" data-bs-parent="#{{ $accordionID }}">
+            <div class="px-4 py-3" style="background-color: #ffc10761;">
+                <strong>⚠️ WARNING: ScottPlot 5 has not yet been released.</strong> 
+                ScottPlot 5 preview packages are available on NuGet for experimentation.
+                ScottPlot 5 is being actively developed, but it is not yet feature complete, fully documented,
+                supported, or recommended for production use at this time.
+                See the <a href="/versions">ScottPlot versions page</a> for more information.
+            </div>
+            <div class="accordion-body">
+                {{ "cs" | highlight (trim $secondPart "\n\r") }}
+            </div>
+        </div>
+    </div>
+
+</div>

@@ -9,17 +9,8 @@ Linux & MacOS users may need to [install additional packages](/faq/dependencies)
 
 **Step 2:** Plot some data and save the figure as an image file
 
-<div class="accordion my-4" id="accordionExample">
+{{< code-sp4sp5 >}}
 
-  <div class="accordion-item">
-    <h2 class="accordion-header my-0 py-0">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        <strong>ScottPlot 4</strong>&nbsp;- current release
-      </button>
-    </h2>
-    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-{{< accordion-code cs >}}
 double[] dataX = { 1, 2, 3, 4, 5 };
 double[] dataY = { 1, 4, 9, 16, 25 };
 
@@ -27,35 +18,18 @@ ScottPlot.Plot myPlot = new(400, 300);
 myPlot.AddScatter(dataX, dataY);
 
 myPlot.SaveFig("quickstart.png");
-{{< /accordion-code >}}
-      </div>
-    </div>
-  </div>
 
-  <div class="accordion-item">
-    <h2 class="accordion-header my-0 py-0">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-        <strong>ScottPlot 5</strong>&nbsp;- preview version
-      </button>
-    </h2>
-    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-{{< accordion-code cs >}}
+---
+
 double[] dataX = { 1, 2, 3, 4, 5 };
 double[] dataY = { 1, 4, 9, 16, 25 };
 
 ScottPlot.Plot myPlot = new(400, 300);
 myPlot.Add.Scatter(dataX, dataY);
 
-myPlot.SavePng("quickstart.png");
-{{< /accordion-code >}}
-      </div>
-    </div>
-  </div>
+myPlot.SavePng("quickstart.png")
 
-</div>
-
-
+{{< /code-sp4sp5 >}}
 
 ![](scottplot-quickstart-console.png)
 
