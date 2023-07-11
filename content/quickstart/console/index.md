@@ -4,14 +4,22 @@ description: How to create a plot and save it as an image from a C# console appl
 url: "quickstart/console"
 ---
 
-{{< scottplot4 >}}
-
 **Step 1:** Install the current [ScottPlot 4 package](https://www.nuget.org/packages/ScottPlot) from NuGet. 
 Linux & MacOS users may need to [install additional packages](/faq/dependencies).
 
 **Step 2:** Plot some data and save the figure as an image file
 
-```cs
+<div class="accordion my-4" id="accordionExample">
+
+  <div class="accordion-item">
+    <h2 class="accordion-header my-0 py-0">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <strong>ScottPlot 4</strong>&nbsp;- current release
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+{{< accordion-code cs >}}
 double[] dataX = { 1, 2, 3, 4, 5 };
 double[] dataY = { 1, 4, 9, 16, 25 };
 
@@ -19,13 +27,39 @@ ScottPlot.Plot myPlot = new(400, 300);
 myPlot.AddScatter(dataX, dataY);
 
 myPlot.SaveFig("quickstart.png");
-```
+{{< /accordion-code >}}
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header my-0 py-0">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        <strong>ScottPlot 5</strong>&nbsp;- preview version
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+{{< accordion-code cs >}}
+double[] dataX = { 1, 2, 3, 4, 5 };
+double[] dataY = { 1, 4, 9, 16, 25 };
+
+ScottPlot.Plot myPlot = new(400, 300);
+myPlot.Add.Scatter(dataX, dataY);
+
+myPlot.SavePng("quickstart.png");
+{{< /accordion-code >}}
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
 
 ![](scottplot-quickstart-console.png)
 
 # Interactive Window
-
-{{< scottplot4 >}}
 
 Plots created in console applications can be launched in a pop-up window allowing interactive pan and zoom.
 
@@ -48,23 +82,3 @@ new ScottPlot.FormsPlotViewer(myPlot).ShowDialog();
 ![](scottplot-quickstart-winforms.png)
 
 > 💡 Interactive plots using the WinForms and WPF controls require the console application to target Windows, but a strategy for launching interactive plots from console applications running on Linux using Avalonia is described in [#1769](https://github.com/ScottPlot/ScottPlot/issues/1769#issuecomment-1093504868)
-
-
-
-# ScottPlot 5
-
-{{< scottplot5 >}}
-
-**Step 1:** Install the latest [ScottPlot 5](https://www.nuget.org/packages/ScottPlot) _preview_ package from NuGet.
-
-**Step 2:** Plot some data and save the figure as an image file
-
-```cs
-double[] dataX = { 1, 2, 3, 4, 5 };
-double[] dataY = { 1, 4, 9, 16, 25 };
-
-ScottPlot.Plot myPlot = new(400, 300);
-myPlot.Add.Scatter(dataX, dataY);
-
-myPlot.SavePng("quickstart.png");
-```
