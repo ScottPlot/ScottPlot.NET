@@ -32,12 +32,24 @@ Your `Window` element should look something like this:
 
 **Step 4:** Plot some data in your start-up sequence
 
-```cs
+{{< code-sp4sp5 >}}
+
 double[] dataX = new double[] { 1, 2, 3, 4, 5 };
 double[] dataY = new double[] { 1, 4, 9, 16, 25 };
+
 AvaPlot avaPlot1 = this.Find<AvaPlot>("AvaPlot1");
 avaPlot1.Plot.AddScatter(dataX, dataY);
 avaPlot1.Refresh();
-```
+
+---
+
+double[] dataX = { 1, 2, 3, 4, 5 };
+double[] dataY = { 1, 4, 9, 16, 25 };
+
+AvaPlot avaPlot1 = this.Find<AvaPlot>("AvaPlot1");
+avaPlot1.Plot.Add.Scatter(dataX, dataY);
+avaPlot1.Refresh();
+
+{{< /code-sp4sp5 >}}
 
 <img src="scottplot-quickstart-avalonia.png" class="d-block mx-auto shadow my-5">

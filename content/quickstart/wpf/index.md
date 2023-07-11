@@ -19,11 +19,22 @@ xmlns:ScottPlot="clr-namespace:ScottPlot;assembly=ScottPlot.WPF"
 
 **Step 4:** Plot some data in your start-up sequence
 
-```cs
+{{< code-sp4sp5 >}}
+
 double[] dataX = new double[] { 1, 2, 3, 4, 5 };
 double[] dataY = new double[] { 1, 4, 9, 16, 25 };
+
 WpfPlot1.Plot.AddScatter(dataX, dataY);
 WpfPlot1.Refresh();
-```
+
+---
+
+double[] dataX = { 1, 2, 3, 4, 5 };
+double[] dataY = { 1, 4, 9, 16, 25 };
+
+WpfPlot1.Plot.Add.Scatter(dataX, dataY);
+WpfPlot1.Refresh();
+
+{{< /code-sp4sp5 >}}
 
 ![](scottplot-quickstart-wpf.png)

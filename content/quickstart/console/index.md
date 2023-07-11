@@ -11,10 +11,10 @@ Linux & MacOS users may need to [install additional packages](/faq/dependencies)
 
 {{< code-sp4sp5 >}}
 
-double[] dataX = { 1, 2, 3, 4, 5 };
-double[] dataY = { 1, 4, 9, 16, 25 };
+double[] dataX = new double[] { 1, 2, 3, 4, 5 };
+double[] dataY = new double[] { 1, 4, 9, 16, 25 };
 
-ScottPlot.Plot myPlot = new(400, 300);
+var myPlot = new ScottPlot.Plot(400, 300);
 myPlot.AddScatter(dataX, dataY);
 
 myPlot.SaveFig("quickstart.png");
