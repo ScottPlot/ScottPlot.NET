@@ -38,10 +38,20 @@ public class SampleChangelog
 
     public static readonly string Text = """
         # ScottPlot Changelog
+        * This document contains release notes for every version of ScottPlot
+        * https://scottplot.net/versions/ describes the major versions of ScottPlot
+        * https://scottplot.net/changelog/ is a formatted version of this document
+        * https://scottplot.net/contributors/ shows all of ScottPlot's contributors
 
         ## ScottPlot 5.0.7-beta (in development)
+        * Axis: Fixed issue where axes with zero span would cause renders to fail (#2714) _Thanks @ahmad-qamar_
+        * Avalonia: Improve support for cross-platform and non-desktop applications (#2748) _Thanks @PremekTill_
+        * Scatter Plot: Improve support for empty datasets (#2740)
 
         ## ScottPlot 4.1.66 (in development)
+        * DataLogger: Improved support for single-point datasets (#2733) _Thanks @KroMignon_
+        * Plot: Added optional arguments to `AddDataLogger()` and `AddDataStreamer()` for customizing style (#2733) _Thanks @KroMignon_
+        * Version: Build information can now be accessed from the static `ScottPlot.Version` class
 
         ## ScottPlot 5.0.6-beta
         _Published on [NuGet](https://www.nuget.org/profiles/ScottPlot) on 2023-07-09_
@@ -637,7 +647,7 @@ public class SampleChangelog
         ## ScottPlot 4.1.12-beta
         * Added "Open in New Window" option to right-click menu (#958, #969) _Thanks @ademkaya and @bclehmann_
         * User control `Configuration` module now has customizable scroll wheel zoom fraction (#940, #937) _Thanks @PassionateDeveloper86 and @StendProg_
-        * Added options to `Plot.AxisScaleLock()` to let the user define scaling behavior when the plot is resized (#933, #857) _Thanks @ricecakebear and @StendProg_
+        * Added options to `Plot.AxisScaleLock()` to let the user define scaling behavior when the plot is resized (#933, #857) _Thanks @boingo100p and @StendProg_
         * Improved XML documentation for `DataGen` module (#903, #902) _Thanks @bclehmann_
         * Fixed bug where tick labels would not render for axes with a single tick (#945, #828, #725, #925) _Thanks @saklanmazozgur and @audun_
         * Added option to manually refine tick density (#828) _Thanks @ChrisAtVault and @bclehmann_
@@ -1239,6 +1249,7 @@ public class SampleChangelog
         #### ScottPlot 3.0.1
         _Published on [NuGet](https://www.nuget.org/profiles/ScottPlot) on 2019-05-28_
         * First version of ScottPlot published on NuGet
+        
 
         """.Trim();
 }
