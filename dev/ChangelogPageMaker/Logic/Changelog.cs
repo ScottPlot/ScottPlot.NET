@@ -81,9 +81,24 @@ internal class ChangelogRelease
         AddTitle(sb);
         AddChangeList(sb);
 
-        sb.AppendLine("<h3 class='text-center fw-light'>Contributors</h3>");
-        AddContributorNames(sb);
-        AddContributorImages(sb, avatars);
+        if (!string.IsNullOrWhiteSpace(Date))
+        {
+            sb.AppendLine("<h3 class='text-center fw-light'>Contributors</h3>");
+            AddContributorNames(sb);
+            AddContributorImages(sb, avatars);
+        }
+
+        string[] urls =
+        {
+            "https://scottplot.net/versions/",
+            "https://scottplot.net/changelog/",
+            "https://scottplot.net/contributors/",
+        };
+
+        foreach(string url in urls)
+        {
+            sb.Replace(url, $"<a href='{url}'>{url}</a>");
+        }
 
         return sb.ToString();
     }
@@ -91,6 +106,24 @@ internal class ChangelogRelease
     private void AddTitle(StringBuilder sb)
     {
         sb.AppendLine($"<h1 class='mb-0'>{Title}</h1>");
+
+        if (string.IsNullOrEmpty(Title))
+        {
+            // top of the page
+            return;
+        }
+
+        if (Title.Contains("development", StringComparison.InvariantCultureIgnoreCase))
+        {
+            sb.AppendLine($"<div><i>Not yet published as a NuGet package...</i></div>");
+            return;
+        }
+
+        if (Title.Split(" ").Length == 2 && string.IsNullOrWhiteSpace(Date))
+        {
+            sb.AppendLine($"<div><mark>Warning: NuGet package date is missing</mark></div>");
+        }
+
         sb.AppendLine($"<div><i>NuGet packages published {Date}</i></div>");
     }
 
