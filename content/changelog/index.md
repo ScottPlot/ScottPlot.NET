@@ -4,7 +4,6 @@ Description: Release notes for every version of ScottPlot
 ---
 
 <section class='mb-5'>
-<h1 class='mb-0'></h1>
 <div class='mt-1'>
 <ul>
 <li>This document contains release notes for every version of ScottPlot
