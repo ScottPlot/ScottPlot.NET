@@ -31,6 +31,15 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/ahmad-qamar'>ahmad-qamar</a>, <a href='https://github.com/PremekTill'>PremekTill</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/ahmad-qamar'><img src='https://scottplot.net/images/contributors/ahmad-qamar.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/PremekTill'><img src='https://scottplot.net/images/contributors/premektill.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
 
 </section>
 <section class='mb-5'>
@@ -45,6 +54,14 @@ Description: Release notes for every version of ScottPlot
 <li>Version: Build information can now be accessed from the static <code>ScottPlot.Version</code> class
 </li>
 </ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/KroMignon'>KroMignon</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/KroMignon'><img src='https://scottplot.net/images/contributors/kromignon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
 </section>
@@ -1740,6 +1757,16 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/Kritner'>Kritner</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/riquich'>riquich</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/Kritner'><img src='https://scottplot.net/images/contributors/kritner.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/riquich'><img src='https://scottplot.net/images/contributors/riquich.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
 
 </section>
 <section class='mb-5'>
@@ -1751,6 +1778,13 @@ Description: Release notes for every version of ScottPlot
 <li>NuGet: use deterministic builds, add source link support, and include compiler flags (<a href="https://github.com/ScottPlot/ScottPlot/issues/1285">#1285</a>)
 </li>
 </ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
 </section>
@@ -1767,6 +1801,17 @@ Description: Release notes for every version of ScottPlot
 <li>Plot Viewer: fixed bug causing render warning to appear in WinForms and Avalonia plot viewers (<a href="https://github.com/ScottPlot/ScottPlot/issues/1265">#1265</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/1238">#1238</a>) <em>Thanks <a href="https://github.com/bukkideme">@bukkideme</a>, <a href="https://github.com/Nexus452">@Nexus452</a>, and <a href="https://github.com/bclehmann">@bclehmann</a></em>
 </li>
 </ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/Rayffer'>Rayffer</a>, <a href='https://github.com/bukkideme'>bukkideme</a>, <a href='https://github.com/Nexus452'>Nexus452</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/Rayffer'><img src='https://scottplot.net/images/contributors/rayffer.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/bukkideme'><img src='https://scottplot.net/images/contributors/bukkideme.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Nexus452'><img src='https://scottplot.net/images/contributors/nexus452.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
 </section>
@@ -1788,6 +1833,15 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/Rayffer'>Rayffer</a>, <a href='https://github.com/arthurits'>arthurits</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/Rayffer'><img src='https://scottplot.net/images/contributors/rayffer.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/arthurits'><img src='https://scottplot.net/images/contributors/arthurits.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
 
 </section>
 <section class='mb-5'>
@@ -1800,6 +1854,14 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/DavidBergstromSWE'>DavidBergstromSWE</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/DavidBergstromSWE'><img src='https://scottplot.net/images/contributors/davidbergstromswe.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
 
 </section>
 <section class='mb-5'>
@@ -1811,6 +1873,14 @@ Description: Release notes for every version of ScottPlot
 <li>Controls: Fixed bug where render warning message is not hidden if <code>RenderRequest()</code> is called (<a href="https://github.com/ScottPlot/ScottPlot/issues/1165">#1165</a>) <em>Thanks <a href="https://github.com/gigios">@gigios</a></em>
 </li>
 </ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/gigios'>gigios</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/gigios'><img src='https://scottplot.net/images/contributors/gigios.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
 </section>
@@ -1843,6 +1913,19 @@ Description: Release notes for every version of ScottPlot
 <li>Radial Gauge Plots: <code>AddRadialGauge()</code> now adds a radial gauge plot (a new circular plot type where values are represented as arcs spanning a curve). See cookbook for examples and documentation. (<a href="https://github.com/ScottPlot/ScottPlot/issues/1242">#1242</a>) <em>Thanks <a href="https://github.com/arthurits">@arthurits</a></em>
 </li>
 </ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/noob765'>noob765</a>, <a href='https://github.com/gigios'>gigios</a>, <a href='https://github.com/Elgot'>Elgot</a>, <a href='https://github.com/simmdan'>simmdan</a>, <a href='https://github.com/arthurits'>arthurits</a>, <a href='https://github.com/ddrrrr'>ddrrrr</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/noob765'><img src='https://scottplot.net/images/contributors/noob765.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/gigios'><img src='https://scottplot.net/images/contributors/gigios.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Elgot'><img src='https://scottplot.net/images/contributors/elgot.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/simmdan'><img src='https://scottplot.net/images/contributors/simmdan.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/arthurits'><img src='https://scottplot.net/images/contributors/arthurits.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/ddrrrr'><img src='https://scottplot.net/images/contributors/ddrrrr.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
 </section>
@@ -1910,6 +1993,29 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/arthurits'>arthurits</a>, <a href='https://github.com/rutkowskit'>rutkowskit</a>, <a href='https://github.com/EFeru'>EFeru</a>, <a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/breakwinz'>breakwinz</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/RamsayGit'>RamsayGit</a>, <a href='https://github.com/Orace'>Orace</a>, <a href='https://github.com/kegesch'>kegesch</a>, <a href='https://github.com/Maoyao233'>Maoyao233</a>, <a href='https://github.com/Nextra'>Nextra</a>, <a href='https://github.com/petersesztak'>petersesztak</a>, <a href='https://github.com/at2software'>at2software</a>, <a href='https://github.com/kkaiser41'>kkaiser41</a>, <a href='https://github.com/hhubschle'>hhubschle</a>, <a href='https://github.com/gigios'>gigios</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/arthurits'><img src='https://scottplot.net/images/contributors/arthurits.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/rutkowskit'><img src='https://scottplot.net/images/contributors/rutkowskit.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/EFeru'><img src='https://scottplot.net/images/contributors/eferu.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/breakwinz'><img src='https://scottplot.net/images/contributors/breakwinz.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/RamsayGit'><img src='https://scottplot.net/images/contributors/ramsaygit.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Orace'><img src='https://scottplot.net/images/contributors/orace.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/kegesch'><img src='https://scottplot.net/images/contributors/kegesch.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Maoyao233'><img src='https://scottplot.net/images/contributors/maoyao233.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Nextra'><img src='https://scottplot.net/images/contributors/nextra.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/petersesztak'><img src='https://scottplot.net/images/contributors/petersesztak.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/at2software'><img src='https://scottplot.net/images/contributors/at2software.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/kkaiser41'><img src='https://scottplot.net/images/contributors/kkaiser41.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/hhubschle'><img src='https://scottplot.net/images/contributors/hhubschle.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/gigios'><img src='https://scottplot.net/images/contributors/gigios.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
 
 </section>
 <section class='mb-5'>
@@ -1938,6 +2044,20 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/EFeru'>EFeru</a>, <a href='https://github.com/kirsan31'>kirsan31</a>, <a href='https://github.com/xichaoqiang'>xichaoqiang</a>, <a href='https://github.com/arthurits'>arthurits</a>, <a href='https://github.com/bftrock'>bftrock</a>, <a href='https://github.com/damiandixon'>damiandixon</a>, <a href='https://github.com/ssalsinha'>ssalsinha</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/EFeru'><img src='https://scottplot.net/images/contributors/eferu.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/kirsan31'><img src='https://scottplot.net/images/contributors/kirsan31.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/xichaoqiang'><img src='https://scottplot.net/images/contributors/xichaoqiang.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/arthurits'><img src='https://scottplot.net/images/contributors/arthurits.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/bftrock'><img src='https://scottplot.net/images/contributors/bftrock.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/damiandixon'><img src='https://scottplot.net/images/contributors/damiandixon.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/ssalsinha'><img src='https://scottplot.net/images/contributors/ssalsinha.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
 
 </section>
 <section class='mb-5'>
@@ -1953,6 +2073,16 @@ Description: Release notes for every version of ScottPlot
 <li>Controls now have <code>PlottableDragged</code> and <code>PlottableDropped</code> event handlers (<a href="https://github.com/ScottPlot/ScottPlot/issues/1072">#1072</a>) <em>Thanks <a href="https://github.com/JS-BGResearch">@JS-BGResearch</a></em>
 </li>
 </ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/Superberti'>Superberti</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/JS-BGResearch'>JS-BGResearch</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/Superberti'><img src='https://scottplot.net/images/contributors/superberti.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/JS-BGResearch'><img src='https://scottplot.net/images/contributors/js-bgresearch.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
 </section>
@@ -1976,6 +2106,18 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/breakwinz'>breakwinz</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/kirsan31'>kirsan31</a>, <a href='https://github.com/CalderWhite'>CalderWhite</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/breakwinz'><img src='https://scottplot.net/images/contributors/breakwinz.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/kirsan31'><img src='https://scottplot.net/images/contributors/kirsan31.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/CalderWhite'><img src='https://scottplot.net/images/contributors/calderwhite.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
 
 </section>
 <section class='mb-5'>
@@ -1993,6 +2135,16 @@ Description: Release notes for every version of ScottPlot
 <li>Default version of System.Drawing.Common has been changed from <code>5.0.0</code> to <code>4.6.1</code> to minimize errors associated with downgrading (<a href="https://github.com/ScottPlot/ScottPlot/issues/1004">#1004</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/1005">#1005</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/993">#993</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/924">#924</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/655">#655</a>) <em>Thanks <a href="https://github.com/bukkideme">@bukkideme</a></em>
 </li>
 </ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/PeterDavidson'>PeterDavidson</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/bukkideme'>bukkideme</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/PeterDavidson'><img src='https://scottplot.net/images/contributors/peterdavidson.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/bukkideme'><img src='https://scottplot.net/images/contributors/bukkideme.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
 </section>
@@ -2030,6 +2182,25 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/ademkaya'>ademkaya</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/PassionateDeveloper86'>PassionateDeveloper86</a>, <a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/boingo100p'>boingo100p</a>, <a href='https://github.com/saklanmazozgur'>saklanmazozgur</a>, <a href='https://github.com/audun'>audun</a>, <a href='https://github.com/ChrisAtVault'>ChrisAtVault</a>, <a href='https://github.com/damiandixon'>damiandixon</a>, <a href='https://github.com/pietcoussens'>pietcoussens</a>, <a href='https://github.com/LB767'>LB767</a>, <a href='https://github.com/breakwinz'>breakwinz</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/ademkaya'><img src='https://scottplot.net/images/contributors/ademkaya.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/PassionateDeveloper86'><img src='https://scottplot.net/images/contributors/passionatedeveloper86.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/boingo100p'><img src='https://scottplot.net/images/contributors/boingo100p.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/saklanmazozgur'><img src='https://scottplot.net/images/contributors/saklanmazozgur.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/audun'><img src='https://scottplot.net/images/contributors/audun.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/ChrisAtVault'><img src='https://scottplot.net/images/contributors/chrisatvault.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/damiandixon'><img src='https://scottplot.net/images/contributors/damiandixon.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/pietcoussens'><img src='https://scottplot.net/images/contributors/pietcoussens.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/LB767'><img src='https://scottplot.net/images/contributors/lb767.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/breakwinz'><img src='https://scottplot.net/images/contributors/breakwinz.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
 
 </section>
 <section class='mb-5'>
@@ -2049,6 +2220,16 @@ Description: Release notes for every version of ScottPlot
 <li>Optimize cookbook generation and test execution (<a href="https://github.com/ScottPlot/ScottPlot/issues/901">#901</a>) <em>Thanks <a href="https://github.com/bclehmann">@bclehmann</a></em>
 </li>
 </ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/grabul'>grabul</a>, <a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/grabul'><img src='https://scottplot.net/images/contributors/grabul.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
 </section>
@@ -2086,6 +2267,24 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/oszymczak'>oszymczak</a>, <a href='https://github.com/mzemljak'>mzemljak</a>, <a href='https://github.com/AlgoExecutor'>AlgoExecutor</a>, <a href='https://github.com/ticool'>ticool</a>, <a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/at2software'>at2software</a>, <a href='https://github.com/mrradd'>mrradd</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/Timothy343'>Timothy343</a>, <a href='https://github.com/rhys-wootton'>rhys-wootton</a>, <a href='https://github.com/ohru131'>ohru131</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/oszymczak'><img src='https://scottplot.net/images/contributors/oszymczak.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/mzemljak'><img src='https://scottplot.net/images/contributors/mzemljak.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/AlgoExecutor'><img src='https://scottplot.net/images/contributors/algoexecutor.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/ticool'><img src='https://scottplot.net/images/contributors/ticool.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/at2software'><img src='https://scottplot.net/images/contributors/at2software.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/mrradd'><img src='https://scottplot.net/images/contributors/mrradd.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Timothy343'><img src='https://scottplot.net/images/contributors/timothy343.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/rhys-wootton'><img src='https://scottplot.net/images/contributors/rhys-wootton.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/ohru131'><img src='https://scottplot.net/images/contributors/ohru131.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
 
 </section>
 <section class='mb-5'>
@@ -2114,6 +2313,19 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/at2software'>at2software</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/ChrisAtVault'>ChrisAtVault</a>, <a href='https://github.com/AlgoExecutor'>AlgoExecutor</a>, <a href='https://github.com/KlaskSkovby'>KlaskSkovby</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/at2software'><img src='https://scottplot.net/images/contributors/at2software.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/ChrisAtVault'><img src='https://scottplot.net/images/contributors/chrisatvault.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/AlgoExecutor'><img src='https://scottplot.net/images/contributors/algoexecutor.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/KlaskSkovby'><img src='https://scottplot.net/images/contributors/klaskskovby.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
 
 </section>
 <section class='mb-5'>
@@ -2136,6 +2348,17 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/Matthias-C'>Matthias-C</a>, <a href='https://github.com/Scr0nch'>Scr0nch</a>, <a href='https://github.com/AlgoExecutor'>AlgoExecutor</a>, <a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/Matthias-C'><img src='https://scottplot.net/images/contributors/matthias-c.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Scr0nch'><img src='https://scottplot.net/images/contributors/scr0nch.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/AlgoExecutor'><img src='https://scottplot.net/images/contributors/algoexecutor.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
 
 </section>
 <section class='mb-5'>
@@ -2157,6 +2380,19 @@ Description: Release notes for every version of ScottPlot
 <li>A descriptive exception is now thrown when attempting to create heatmaps of unsupported dimensions (<a href="https://github.com/ScottPlot/ScottPlot/issues/722">#722</a>) <em>Thanks <a href="https://github.com/Matthias-C">@Matthias-C</a></em>
 </li>
 </ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/inqb'>inqb</a>, <a href='https://github.com/Saklut'>Saklut</a>, <a href='https://github.com/saklanmazozgur'>saklanmazozgur</a>, <a href='https://github.com/Matthias-C'>Matthias-C</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/inqb'><img src='https://scottplot.net/images/contributors/inqb.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Saklut'><img src='https://scottplot.net/images/contributors/saklut.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/saklanmazozgur'><img src='https://scottplot.net/images/contributors/saklanmazozgur.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Matthias-C'><img src='https://scottplot.net/images/contributors/matthias-c.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
 </section>
@@ -2192,6 +2428,17 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/at2software'>at2software</a>, <a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/JS-BGResearch'>JS-BGResearch</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/at2software'><img src='https://scottplot.net/images/contributors/at2software.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/JS-BGResearch'><img src='https://scottplot.net/images/contributors/js-bgresearch.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
 
 </section>
 <section class='mb-5'>
@@ -2207,6 +2454,16 @@ Description: Release notes for every version of ScottPlot
 <li>Improved display of manual tick labels (<a href="https://github.com/ScottPlot/ScottPlot/issues/724">#724</a>) <em>Thanks <a href="https://github.com/bclehmann">@bclehmann</a></em>
 </li>
 </ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/oszymczak'>oszymczak</a>, <a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/oszymczak'><img src='https://scottplot.net/images/contributors/oszymczak.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
 </section>
@@ -2235,6 +2492,18 @@ Description: Release notes for every version of ScottPlot
 <li>Improved project file to install <code>System.ValueTuple</code> when targeting .NET Framework 4.6.1 (<a href="https://github.com/ScottPlot/ScottPlot/issues/88">#88</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/691">#691</a>)
 </li>
 </ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/Saklut'>Saklut</a>, <a href='https://github.com/jl0pd'>jl0pd</a>, <a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/MisterRedactus'>MisterRedactus</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Saklut'><img src='https://scottplot.net/images/contributors/saklut.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/jl0pd'><img src='https://scottplot.net/images/contributors/jl0pd.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/MisterRedactus'><img src='https://scottplot.net/images/contributors/misterredactus.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
 </section>
@@ -2265,6 +2534,18 @@ Description: Release notes for every version of ScottPlot
 <li>Additional customizations for radar charts (<a href="https://github.com/ScottPlot/ScottPlot/issues/634">#634</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/628">#628</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/635">#635</a>) <em>Thanks <a href="https://github.com/bclehmann">@bclehmann</a> and <a href="https://github.com/SommerEngineering">@SommerEngineering</a></em>
 </li>
 </ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/Saklut'>Saklut</a>, <a href='https://github.com/MithrilMan'>MithrilMan</a>, <a href='https://github.com/SommerEngineering'>SommerEngineering</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Saklut'><img src='https://scottplot.net/images/contributors/saklut.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/MithrilMan'><img src='https://scottplot.net/images/contributors/mithrilman.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/SommerEngineering'><img src='https://scottplot.net/images/contributors/sommerengineering.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
 </section>
@@ -2322,6 +2603,13 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
 
 </section>
 <section class='mb-5'>
@@ -2335,6 +2623,15 @@ Description: Release notes for every version of ScottPlot
 <li>Improved display of manual ticks (<a href="https://github.com/ScottPlot/ScottPlot/issues/724">#724</a>) <em>Thanks <a href="https://github.com/bclehmann">@bclehmann</a></em>
 </li>
 </ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/Saklut'>Saklut</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/Saklut'><img src='https://scottplot.net/images/contributors/saklut.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
 </section>
@@ -2351,6 +2648,15 @@ Description: Release notes for every version of ScottPlot
 <li>Added <code>RenderLock()</code> and <code>RenderUnlock()</code> to the Plot module to facilitate multi-threaded plot modification (<a href="https://github.com/ScottPlot/ScottPlot/issues/609">#609</a>) <em>Thanks <a href="https://github.com/ZTaiIT1025">@ZTaiIT1025</a></em>
 </li>
 </ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/martin-brajer'>martin-brajer</a>, <a href='https://github.com/ZTaiIT1025'>ZTaiIT1025</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/martin-brajer'><img src='https://scottplot.net/images/contributors/martin-brajer.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/ZTaiIT1025'><img src='https://scottplot.net/images/contributors/ztaiit1025.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
 </section>
@@ -2376,6 +2682,18 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/Ichibot200'>Ichibot200</a>, <a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/charlescao460'>charlescao460</a>, <a href='https://github.com/RFIsoft'>RFIsoft</a>, <a href='https://github.com/LB767'>LB767</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/Ichibot200'><img src='https://scottplot.net/images/contributors/ichibot200.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/charlescao460'><img src='https://scottplot.net/images/contributors/charlescao460.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/RFIsoft'><img src='https://scottplot.net/images/contributors/rfisoft.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/LB767'><img src='https://scottplot.net/images/contributors/lb767.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
 
 </section>
 <section class='mb-5'>
@@ -2394,6 +2712,16 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/ozgur640'>ozgur640</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/apkrymov'>apkrymov</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/ozgur640'><img src='https://scottplot.net/images/contributors/ozgur640.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/apkrymov'><img src='https://scottplot.net/images/contributors/apkrymov.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
 
 </section>
 <section class='mb-5'>
@@ -2408,6 +2736,14 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/Ichibot200'>Ichibot200</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/Ichibot200'><img src='https://scottplot.net/images/contributors/ichibot200.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
 
 </section>
 <section class='mb-5'>
@@ -2421,6 +2757,15 @@ Description: Release notes for every version of ScottPlot
 <li>Improved display of DateTime tick labels containing multiple spaces (<a href="https://github.com/ScottPlot/ScottPlot/issues/539">#539</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/564">#564</a>) <em>Thanks <a href="https://github.com/StendProg">@StendProg</a></em>
 </li>
 </ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/waynetheron'>waynetheron</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/waynetheron'><img src='https://scottplot.net/images/contributors/waynetheron.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
 </section>
@@ -2458,6 +2803,20 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/Torgano'>Torgano</a>, <a href='https://github.com/AlexFsmn'>AlexFsmn</a>, <a href='https://github.com/el-aasi'>el-aasi</a>, <a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/AteCoder'>AteCoder</a>, <a href='https://github.com/vrdriver'>vrdriver</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Torgano'><img src='https://scottplot.net/images/contributors/torgano.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/AlexFsmn'><img src='https://scottplot.net/images/contributors/alexfsmn.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/el-aasi'><img src='https://scottplot.net/images/contributors/el-aasi.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/AteCoder'><img src='https://scottplot.net/images/contributors/atecoder.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/vrdriver'><img src='https://scottplot.net/images/contributors/vrdriver.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
 
 </section>
 <section class='mb-5'>
@@ -2477,6 +2836,18 @@ Description: Release notes for every version of ScottPlot
 <li>SignalXY now respects index-based render limits (<a href="https://github.com/ScottPlot/ScottPlot/issues/493">#493</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/500">#500</a>) <em>Thanks <a href="https://github.com/StendProg">@StendProg</a> and <a href="https://github.com/envine">@envine</a></em>
 </li>
 </ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/nashilnik'>nashilnik</a>, <a href='https://github.com/RachamimYaakobov'>RachamimYaakobov</a>, <a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/envine'>envine</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/nashilnik'><img src='https://scottplot.net/images/contributors/nashilnik.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/RachamimYaakobov'><img src='https://scottplot.net/images/contributors/rachamimyaakobov.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/envine'><img src='https://scottplot.net/images/contributors/envine.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
 </section>
@@ -2504,6 +2875,19 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/el-aasi'>el-aasi</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/WillemWever'>WillemWever</a>, <a href='https://github.com/HowardWhile'>HowardWhile</a>, <a href='https://github.com/cstyx'>cstyx</a>, <a href='https://github.com/Resonanz'>Resonanz</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/el-aasi'><img src='https://scottplot.net/images/contributors/el-aasi.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/WillemWever'><img src='https://scottplot.net/images/contributors/willemwever.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/HowardWhile'><img src='https://scottplot.net/images/contributors/howardwhile.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/cstyx'><img src='https://scottplot.net/images/contributors/cstyx.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Resonanz'><img src='https://scottplot.net/images/contributors/resonanz.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
 
 </section>
 <section class='mb-5'>
@@ -2517,6 +2901,17 @@ Description: Release notes for every version of ScottPlot
 <li>User controls now also target <code>net472</code> (while still supporting <code>net461</code> and <code>netcoreapp3.0</code>) to produce a build folder with just 3 DLLs (compared to over 100 when building with .NET Framework 4.6.1)
 </li>
 </ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/bhairav-thakkar'>bhairav-thakkar</a>, <a href='https://github.com/riquich'>riquich</a>, <a href='https://github.com/Helitune-RobMcKay'>Helitune-RobMcKay</a>, <a href='https://github.com/iu2kxv'>iu2kxv</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/bhairav-thakkar'><img src='https://scottplot.net/images/contributors/bhairav-thakkar.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/riquich'><img src='https://scottplot.net/images/contributors/riquich.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Helitune-RobMcKay'><img src='https://scottplot.net/images/contributors/helitune-robmckay.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/iu2kxv'><img src='https://scottplot.net/images/contributors/iu2kxv.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
 </section>
@@ -2541,6 +2936,16 @@ Description: Release notes for every version of ScottPlot
 <li>Updated <code>Plot.Clear()</code> to accept any <code>Plottable</code> as an argument, and all <code>Plottable</code> objects of the same type will be cleared (<a href="https://github.com/ScottPlot/ScottPlot/issues/464">#464</a>) <em>Thanks <a href="https://github.com/imka-code">@imka-code</a></em>
 </li>
 </ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/imka-code'>imka-code</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/imka-code'><img src='https://scottplot.net/images/contributors/imka-code.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
 </section>
@@ -2580,6 +2985,19 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/robokamran'>robokamran</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/hhubschle'>hhubschle</a>, <a href='https://github.com/jcbeppler'>jcbeppler</a>, <a href='https://github.com/tomwimmenhove'>tomwimmenhove</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/robokamran'><img src='https://scottplot.net/images/contributors/robokamran.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/hhubschle'><img src='https://scottplot.net/images/contributors/hhubschle.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/jcbeppler'><img src='https://scottplot.net/images/contributors/jcbeppler.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/tomwimmenhove'><img src='https://scottplot.net/images/contributors/tomwimmenhove.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
 
 </section>
 <section class='mb-5'>
@@ -2594,6 +3012,16 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/gobikulandaisamy'>gobikulandaisamy</a>, <a href='https://github.com/bukkideme'>bukkideme</a>, <a href='https://github.com/Ichibot200'>Ichibot200</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/gobikulandaisamy'><img src='https://scottplot.net/images/contributors/gobikulandaisamy.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/bukkideme'><img src='https://scottplot.net/images/contributors/bukkideme.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Ichibot200'><img src='https://scottplot.net/images/contributors/ichibot200.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
 
 </section>
 <section class='mb-5'>
@@ -2605,6 +3033,15 @@ Description: Release notes for every version of ScottPlot
 <li>Force grid lines to always draw using anti-aliasing. This compensates for a bug in <code>System.Drawing</code> that may cause diagonal line artifacts to appear when the user controls were panned or zoomed. (<a href="https://github.com/ScottPlot/ScottPlot/issues/401">#401</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/327">#327</a>) <em>Thanks <a href="https://github.com/bukkideme">@bukkideme</a> and <a href="https://github.com/Ichibot200">@Ichibot200</a></em>
 </li>
 </ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/bukkideme'>bukkideme</a>, <a href='https://github.com/Ichibot200'>Ichibot200</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/bukkideme'><img src='https://scottplot.net/images/contributors/bukkideme.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Ichibot200'><img src='https://scottplot.net/images/contributors/ichibot200.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
 </section>
@@ -2644,6 +3081,18 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/LogDogg'>LogDogg</a>, <a href='https://github.com/Minu476'>Minu476</a>, <a href='https://github.com/bukkideme'>bukkideme</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/LogDogg'><img src='https://scottplot.net/images/contributors/logdogg.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Minu476'><img src='https://scottplot.net/images/contributors/minu476.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/bukkideme'><img src='https://scottplot.net/images/contributors/bukkideme.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
 
 </section>
 <section class='mb-5'>
@@ -2667,6 +3116,15 @@ Description: Release notes for every version of ScottPlot
 <li>Improved minor tick positioning to prevent cases where minor ticks are 1px away from major ticks (<a href="https://github.com/ScottPlot/ScottPlot/issues/373">#373</a>)
 </li>
 </ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/JagDTalcyon'>JagDTalcyon</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/JagDTalcyon'><img src='https://scottplot.net/images/contributors/jagdtalcyon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
 </section>
@@ -2702,6 +3160,21 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/SeidChr'>SeidChr</a>, <a href='https://github.com/RalphLAtGitHub'>RalphLAtGitHub</a>, <a href='https://github.com/Resonanz'>Resonanz</a>, <a href='https://github.com/thunderstatic'>thunderstatic</a>, <a href='https://github.com/eduhza'>eduhza</a>, <a href='https://github.com/LogDogg'>LogDogg</a>, <a href='https://github.com/bukkideme'>bukkideme</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/SeidChr'><img src='https://scottplot.net/images/contributors/seidchr.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/RalphLAtGitHub'><img src='https://scottplot.net/images/contributors/ralphlatgithub.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Resonanz'><img src='https://scottplot.net/images/contributors/resonanz.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/thunderstatic'><img src='https://scottplot.net/images/contributors/thunderstatic.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/eduhza'><img src='https://scottplot.net/images/contributors/eduhza.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/LogDogg'><img src='https://scottplot.net/images/contributors/logdogg.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/bukkideme'><img src='https://scottplot.net/images/contributors/bukkideme.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
 
 </section>
 <section class='mb-5'>
@@ -2730,6 +3203,15 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/ckovamees'>ckovamees</a>, <a href='https://github.com/SeidChr'>SeidChr</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/ckovamees'><img src='https://scottplot.net/images/contributors/ckovamees.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/SeidChr'><img src='https://scottplot.net/images/contributors/seidchr.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
 
 </section>
 <section class='mb-5'>
@@ -2743,6 +3225,15 @@ Description: Release notes for every version of ScottPlot
 <li>The right-click menu can now be more easily customized by writing a custom menu to <code>FormsPlot.ContextMenuStrip</code> or <code>WpfPlot.ContextMenu</code>. Demonstrations of both are in the demo application. (<a href="https://github.com/ScottPlot/ScottPlot/issues/337">#337</a>) <em>Thanks <a href="https://github.com/Antracik">@Antracik</a></em>
 </li>
 </ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/deiruch'>deiruch</a>, <a href='https://github.com/Antracik'>Antracik</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/deiruch'><img src='https://scottplot.net/images/contributors/deiruch.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Antracik'><img src='https://scottplot.net/images/contributors/antracik.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
 </section>
@@ -2766,6 +3257,16 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/ckovamees'>ckovamees</a>, <a href='https://github.com/SeidChr'>SeidChr</a>, <a href='https://github.com/ismdiego'>ismdiego</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/ckovamees'><img src='https://scottplot.net/images/contributors/ckovamees.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/SeidChr'><img src='https://scottplot.net/images/contributors/seidchr.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/ismdiego'><img src='https://scottplot.net/images/contributors/ismdiego.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
 
 </section>
 <section class='mb-5'>
@@ -2779,6 +3280,13 @@ Description: Release notes for every version of ScottPlot
 <li>The <code>ScottPlot.WinForms</code> package (which produves the <code>FormsPlot</code> control) now only targets .NET Framework 4.6.1 and .NET Core 3.0 platforms (previously it also had build targets for .NET Framework 4.7.2 and .NET Framework 4.8). It is important to note that no functionality was lost here. (<a href="https://github.com/ScottPlot/ScottPlot/issues/330">#330</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/333">#333</a>)
 </li>
 </ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
 </section>
@@ -2800,6 +3308,13 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
 
 </section>
 <section class='mb-5'>
@@ -2813,6 +3328,15 @@ Description: Release notes for every version of ScottPlot
 <li><code>PlotBar()</code> has been lightly refactored. Argument order has been adjusted, and additional options have been added. Error cap width is now in fractional units instead of pixel units. Horizontal bar charts are now supported. (<a href="https://github.com/ScottPlot/ScottPlot/issues/277">#277</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/315">#315</a>) <em>Thanks <a href="https://github.com/bonzaiferroni">@bonzaiferroni</a></em>
 </li>
 </ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/bonzaiferroni'>bonzaiferroni</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/bonzaiferroni'><img src='https://scottplot.net/images/contributors/bonzaiferroni.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
 </section>
@@ -2846,6 +3370,15 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/Resonanz'>Resonanz</a>, <a href='https://github.com/zrolfs'>zrolfs</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/Resonanz'><img src='https://scottplot.net/images/contributors/resonanz.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/zrolfs'><img src='https://scottplot.net/images/contributors/zrolfs.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
 
 </section>
 <section class='mb-5'>
@@ -2867,6 +3400,15 @@ Description: Release notes for every version of ScottPlot
 <li>Added <code>Plot.EqualAxis</code> property to make it easy to lock axis scales together (<a href="https://github.com/ScottPlot/ScottPlot/issues/306">#306</a>) <em>Thanks <a href="https://github.com/StendProg">@StendProg</a></em>
 </li>
 </ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/SeidChr'>SeidChr</a>, <a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/SeidChr'><img src='https://scottplot.net/images/contributors/seidchr.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
 </section>
@@ -2908,6 +3450,17 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/envine'>envine</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/SeidChr'>SeidChr</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/envine'><img src='https://scottplot.net/images/contributors/envine.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/SeidChr'><img src='https://scottplot.net/images/contributors/seidchr.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
 
 </section>
 <section class='mb-5'>
@@ -2944,6 +3497,18 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/bukkideme'>bukkideme</a>, <a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/gberrante'>gberrante</a>, <a href='https://github.com/Resonanz'>Resonanz</a>, <a href='https://github.com/zrolfs'>zrolfs</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/bukkideme'><img src='https://scottplot.net/images/contributors/bukkideme.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/gberrante'><img src='https://scottplot.net/images/contributors/gberrante.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Resonanz'><img src='https://scottplot.net/images/contributors/resonanz.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/zrolfs'><img src='https://scottplot.net/images/contributors/zrolfs.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
 
 </section>
 <section class='mb-5'>
@@ -2955,6 +3520,14 @@ Description: Release notes for every version of ScottPlot
 <li>Added <code>Plot.SetCulture()</code> for improved local culture formatting of numerical and DateTime axis tick labels (<a href="https://github.com/ScottPlot/ScottPlot/issues/236">#236</a>) <em>Thanks <a href="https://github.com/teejay-87">@teejay-87</a></em>
 </li>
 </ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/teejay-87'>teejay-87</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/teejay-87'><img src='https://scottplot.net/images/contributors/teejay-87.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
 </section>
@@ -2971,6 +3544,15 @@ Description: Release notes for every version of ScottPlot
 <li>Improved responsiveness while dragging axis lines and axis spans (<a href="https://github.com/ScottPlot/ScottPlot/issues/228">#228</a>) <em>Thanks <a href="https://github.com/StendProg">@StendProg</a></em>
 </li>
 </ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/bukkideme'>bukkideme</a>, <a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/bukkideme'><img src='https://scottplot.net/images/contributors/bukkideme.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
 </section>
@@ -3010,6 +3592,17 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/hexxone'>hexxone</a>, <a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/teejay-87'>teejay-87</a>, <a href='https://github.com/ckovamees'>ckovamees</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/hexxone'><img src='https://scottplot.net/images/contributors/hexxone.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/teejay-87'><img src='https://scottplot.net/images/contributors/teejay-87.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/ckovamees'><img src='https://scottplot.net/images/contributors/ckovamees.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
 
 </section>
 <section class='mb-5'>
@@ -3021,6 +3614,15 @@ Description: Release notes for every version of ScottPlot
 <li>Improved <code>MatchAxis()</code> and <code>MatchLayout()</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/217">#217</a>) <em>Thanks <a href="https://github.com/ckovamees">@ckovamees</a> and <a href="https://github.com/StendProg">@StendProg</a></em>
 </li>
 </ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/ckovamees'>ckovamees</a>, <a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/ckovamees'><img src='https://scottplot.net/images/contributors/ckovamees.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
 </section>
@@ -3036,6 +3638,15 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/hexxone'>hexxone</a>, <a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/hexxone'><img src='https://scottplot.net/images/contributors/hexxone.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
 
 </section>
 <section class='mb-5'>
@@ -3049,6 +3660,14 @@ Description: Release notes for every version of ScottPlot
 <li>User controls now have a <code>mouseCoordinates</code> property which make it easy to get the X/Y location of the cursor. (<a href="https://github.com/ScottPlot/ScottPlot/issues/187">#187</a>) <em>Thanks <a href="https://github.com/gobikulandaisamy">@gobikulandaisamy</a></em>
 </li>
 </ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/gobikulandaisamy'>gobikulandaisamy</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/gobikulandaisamy'><img src='https://scottplot.net/images/contributors/gobikulandaisamy.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
 </section>
@@ -3079,6 +3698,19 @@ Description: Release notes for every version of ScottPlot
 <li>Arrows can be plotted using <code>plt.PlotArrow()</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/201">#201</a>) <em>Thanks Clay</em>
 </li>
 </ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/plumforest'>plumforest</a>, <a href='https://github.com/JagDTalcyon'>JagDTalcyon</a>, <a href='https://github.com/karimshams'>karimshams</a>, <a href='https://github.com/senged'>senged</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/plumforest'><img src='https://scottplot.net/images/contributors/plumforest.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/JagDTalcyon'><img src='https://scottplot.net/images/contributors/jagdtalcyon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/karimshams'><img src='https://scottplot.net/images/contributors/karimshams.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/senged'><img src='https://scottplot.net/images/contributors/senged.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
 </section>
