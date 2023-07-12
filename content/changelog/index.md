@@ -12,6 +12,8 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Plot: Added optional arguments to <code>AddDataLogger()</code> and <code>AddDataStreamer()</code> for customizing style (<a href="https://github.com/ScottPlot/ScottPlot/issues/2733">#2733</a>) <em>Thanks <a href="https://github.com/KroMignon">@KroMignon</a></em>
 </li>
+<li>Version: Build information can now be accessed from the static <code>ScottPlot.Version</code> class
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
