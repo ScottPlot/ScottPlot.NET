@@ -5,31 +5,23 @@ Description: Release notes for every version of ScottPlot
 
 <section class='mb-5'>
 <h1 class='mb-0'></h1>
-<div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
 <li>This document contains release notes for every version of ScottPlot
 </li>
-<li>https://scottplot.net/versions/ describes the major versions of ScottPlot
+<li><a href='https://scottplot.net/versions/'>https://scottplot.net/versions/</a> describes the major versions of ScottPlot
 </li>
-<li>https://scottplot.net/changelog/ is a formatted version of this document
+<li><a href='https://scottplot.net/changelog/'>https://scottplot.net/changelog/</a> is a formatted version of this document
 </li>
-<li>https://scottplot.net/contributors/ shows all of ScottPlot's contributors
+<li><a href='https://scottplot.net/contributors/'>https://scottplot.net/contributors/</a> shows all of ScottPlot's contributors
 </li>
 </ul>
-</div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 5.0.7-beta (in development)</h1>
-<div><i>NuGet packages published </i></div>
+<div><i>Not yet published as a NuGet package...</i></div>
 <div class='mt-1'>
 <ul>
 <li>Axis: Fixed issue where axes with zero span would cause renders to fail (<a href="https://github.com/ScottPlot/ScottPlot/issues/2714">#2714</a>) <em>Thanks <a href="https://github.com/ahmad-qamar">@ahmad-qamar</a></em>
@@ -40,20 +32,11 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/ahmad-qamar'>ahmad-qamar</a>, <a href='https://github.com/PremekTill'>PremekTill</a>, <a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/ahmad-qamar'><img src='https://scottplot.net/images/contributors/ahmad-qamar.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/PremekTill'><img src='https://scottplot.net/images/contributors/premektill.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-</div>
 
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.1.66 (in development)</h1>
-<div><i>NuGet packages published </i></div>
+<div><i>Not yet published as a NuGet package...</i></div>
 <div class='mt-1'>
 <ul>
 <li>DataLogger: Improved support for single-point datasets (<a href="https://github.com/ScottPlot/ScottPlot/issues/2733">#2733</a>) <em>Thanks <a href="https://github.com/KroMignon">@KroMignon</a></em>
@@ -63,14 +46,6 @@ Description: Release notes for every version of ScottPlot
 <li>Version: Build information can now be accessed from the static <code>ScottPlot.Version</code> class
 </li>
 </ul>
-</div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/KroMignon'>KroMignon</a>, <a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/KroMignon'><img src='https://scottplot.net/images/contributors/kromignon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
 </section>
@@ -1746,6 +1721,7 @@ Description: Release notes for every version of ScottPlot
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.1.25</h1>
+<div><mark>Warning: NuGet package date is missing</mark></div>
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
@@ -1765,20 +1741,11 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/Kritner'>Kritner</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/riquich'>riquich</a>, <a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/Kritner'><img src='https://scottplot.net/images/contributors/kritner.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/riquich'><img src='https://scottplot.net/images/contributors/riquich.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-</div>
 
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.1.23</h1>
+<div><mark>Warning: NuGet package date is missing</mark></div>
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
@@ -1786,17 +1753,11 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-</div>
 
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.1.22</h1>
+<div><mark>Warning: NuGet package date is missing</mark></div>
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
@@ -1808,21 +1769,11 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/Rayffer'>Rayffer</a>, <a href='https://github.com/bukkideme'>bukkideme</a>, <a href='https://github.com/Nexus452'>Nexus452</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/Rayffer'><img src='https://scottplot.net/images/contributors/rayffer.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/bukkideme'><img src='https://scottplot.net/images/contributors/bukkideme.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/Nexus452'><img src='https://scottplot.net/images/contributors/nexus452.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-</div>
 
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.1.21</h1>
+<div><mark>Warning: NuGet package date is missing</mark></div>
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
@@ -1838,19 +1789,11 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/Rayffer'>Rayffer</a>, <a href='https://github.com/arthurits'>arthurits</a>, <a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/Rayffer'><img src='https://scottplot.net/images/contributors/rayffer.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/arthurits'><img src='https://scottplot.net/images/contributors/arthurits.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-</div>
 
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.1.20</h1>
+<div><mark>Warning: NuGet package date is missing</mark></div>
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
@@ -1858,18 +1801,11 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/DavidBergstromSWE'>DavidBergstromSWE</a>, <a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/DavidBergstromSWE'><img src='https://scottplot.net/images/contributors/davidbergstromswe.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-</div>
 
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.1.19</h1>
+<div><mark>Warning: NuGet package date is missing</mark></div>
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
@@ -1877,18 +1813,11 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/gigios'>gigios</a>, <a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/gigios'><img src='https://scottplot.net/images/contributors/gigios.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-</div>
 
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.1.18</h1>
+<div><mark>Warning: NuGet package date is missing</mark></div>
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
@@ -1916,23 +1845,11 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/noob765'>noob765</a>, <a href='https://github.com/gigios'>gigios</a>, <a href='https://github.com/Elgot'>Elgot</a>, <a href='https://github.com/simmdan'>simmdan</a>, <a href='https://github.com/arthurits'>arthurits</a>, <a href='https://github.com/ddrrrr'>ddrrrr</a>, <a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/noob765'><img src='https://scottplot.net/images/contributors/noob765.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/gigios'><img src='https://scottplot.net/images/contributors/gigios.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/Elgot'><img src='https://scottplot.net/images/contributors/elgot.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/simmdan'><img src='https://scottplot.net/images/contributors/simmdan.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/arthurits'><img src='https://scottplot.net/images/contributors/arthurits.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/ddrrrr'><img src='https://scottplot.net/images/contributors/ddrrrr.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-</div>
 
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.1.17</h1>
+<div><mark>Warning: NuGet package date is missing</mark></div>
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
@@ -1994,33 +1911,11 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/arthurits'>arthurits</a>, <a href='https://github.com/rutkowskit'>rutkowskit</a>, <a href='https://github.com/EFeru'>EFeru</a>, <a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/breakwinz'>breakwinz</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/RamsayGit'>RamsayGit</a>, <a href='https://github.com/Orace'>Orace</a>, <a href='https://github.com/kegesch'>kegesch</a>, <a href='https://github.com/Maoyao233'>Maoyao233</a>, <a href='https://github.com/Nextra'>Nextra</a>, <a href='https://github.com/petersesztak'>petersesztak</a>, <a href='https://github.com/at2software'>at2software</a>, <a href='https://github.com/kkaiser41'>kkaiser41</a>, <a href='https://github.com/hhubschle'>hhubschle</a>, <a href='https://github.com/gigios'>gigios</a>, <a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/arthurits'><img src='https://scottplot.net/images/contributors/arthurits.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/rutkowskit'><img src='https://scottplot.net/images/contributors/rutkowskit.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/EFeru'><img src='https://scottplot.net/images/contributors/eferu.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/breakwinz'><img src='https://scottplot.net/images/contributors/breakwinz.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/RamsayGit'><img src='https://scottplot.net/images/contributors/ramsaygit.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/Orace'><img src='https://scottplot.net/images/contributors/orace.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/kegesch'><img src='https://scottplot.net/images/contributors/kegesch.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/Maoyao233'><img src='https://scottplot.net/images/contributors/maoyao233.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/Nextra'><img src='https://scottplot.net/images/contributors/nextra.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/petersesztak'><img src='https://scottplot.net/images/contributors/petersesztak.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/at2software'><img src='https://scottplot.net/images/contributors/at2software.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/kkaiser41'><img src='https://scottplot.net/images/contributors/kkaiser41.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/hhubschle'><img src='https://scottplot.net/images/contributors/hhubschle.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/gigios'><img src='https://scottplot.net/images/contributors/gigios.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-</div>
 
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.1.16</h1>
+<div><mark>Warning: NuGet package date is missing</mark></div>
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
@@ -2044,24 +1939,11 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/EFeru'>EFeru</a>, <a href='https://github.com/kirsan31'>kirsan31</a>, <a href='https://github.com/xichaoqiang'>xichaoqiang</a>, <a href='https://github.com/arthurits'>arthurits</a>, <a href='https://github.com/bftrock'>bftrock</a>, <a href='https://github.com/damiandixon'>damiandixon</a>, <a href='https://github.com/ssalsinha'>ssalsinha</a>, <a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/EFeru'><img src='https://scottplot.net/images/contributors/eferu.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/kirsan31'><img src='https://scottplot.net/images/contributors/kirsan31.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/xichaoqiang'><img src='https://scottplot.net/images/contributors/xichaoqiang.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/arthurits'><img src='https://scottplot.net/images/contributors/arthurits.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/bftrock'><img src='https://scottplot.net/images/contributors/bftrock.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/damiandixon'><img src='https://scottplot.net/images/contributors/damiandixon.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/ssalsinha'><img src='https://scottplot.net/images/contributors/ssalsinha.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-</div>
 
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.1.15</h1>
+<div><mark>Warning: NuGet package date is missing</mark></div>
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
@@ -2073,20 +1955,11 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/Superberti'>Superberti</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/JS-BGResearch'>JS-BGResearch</a>, <a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/Superberti'><img src='https://scottplot.net/images/contributors/superberti.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/JS-BGResearch'><img src='https://scottplot.net/images/contributors/js-bgresearch.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-</div>
 
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.1.14</h1>
+<div><mark>Warning: NuGet package date is missing</mark></div>
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
@@ -2104,22 +1977,11 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/breakwinz'>breakwinz</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/kirsan31'>kirsan31</a>, <a href='https://github.com/CalderWhite'>CalderWhite</a>, <a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/breakwinz'><img src='https://scottplot.net/images/contributors/breakwinz.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/kirsan31'><img src='https://scottplot.net/images/contributors/kirsan31.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/CalderWhite'><img src='https://scottplot.net/images/contributors/calderwhite.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-</div>
 
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.1.13-beta</h1>
+<div><mark>Warning: NuGet package date is missing</mark></div>
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
@@ -2133,20 +1995,11 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/PeterDavidson'>PeterDavidson</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/bukkideme'>bukkideme</a>, <a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/PeterDavidson'><img src='https://scottplot.net/images/contributors/peterdavidson.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/bukkideme'><img src='https://scottplot.net/images/contributors/bukkideme.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-</div>
 
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.1.12-beta</h1>
+<div><mark>Warning: NuGet package date is missing</mark></div>
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
@@ -2178,29 +2031,11 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/ademkaya'>ademkaya</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/PassionateDeveloper86'>PassionateDeveloper86</a>, <a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/boingo100p'>boingo100p</a>, <a href='https://github.com/saklanmazozgur'>saklanmazozgur</a>, <a href='https://github.com/audun'>audun</a>, <a href='https://github.com/ChrisAtVault'>ChrisAtVault</a>, <a href='https://github.com/damiandixon'>damiandixon</a>, <a href='https://github.com/pietcoussens'>pietcoussens</a>, <a href='https://github.com/LB767'>LB767</a>, <a href='https://github.com/breakwinz'>breakwinz</a>, <a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/ademkaya'><img src='https://scottplot.net/images/contributors/ademkaya.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/PassionateDeveloper86'><img src='https://scottplot.net/images/contributors/passionatedeveloper86.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/boingo100p'><img src='https://scottplot.net/images/contributors/boingo100p.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/saklanmazozgur'><img src='https://scottplot.net/images/contributors/saklanmazozgur.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/audun'><img src='https://scottplot.net/images/contributors/audun.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/ChrisAtVault'><img src='https://scottplot.net/images/contributors/chrisatvault.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/damiandixon'><img src='https://scottplot.net/images/contributors/damiandixon.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/pietcoussens'><img src='https://scottplot.net/images/contributors/pietcoussens.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/LB767'><img src='https://scottplot.net/images/contributors/lb767.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/breakwinz'><img src='https://scottplot.net/images/contributors/breakwinz.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-</div>
 
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.1.11-beta</h1>
+<div><mark>Warning: NuGet package date is missing</mark></div>
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
@@ -2216,20 +2051,11 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/grabul'>grabul</a>, <a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/grabul'><img src='https://scottplot.net/images/contributors/grabul.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-</div>
 
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.1.10-beta</h1>
+<div><mark>Warning: NuGet package date is missing</mark></div>
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
@@ -2261,28 +2087,11 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/oszymczak'>oszymczak</a>, <a href='https://github.com/mzemljak'>mzemljak</a>, <a href='https://github.com/AlgoExecutor'>AlgoExecutor</a>, <a href='https://github.com/ticool'>ticool</a>, <a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/at2software'>at2software</a>, <a href='https://github.com/mrradd'>mrradd</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/Timothy343'>Timothy343</a>, <a href='https://github.com/rhys-wootton'>rhys-wootton</a>, <a href='https://github.com/ohru131'>ohru131</a>, <a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/oszymczak'><img src='https://scottplot.net/images/contributors/oszymczak.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/mzemljak'><img src='https://scottplot.net/images/contributors/mzemljak.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/AlgoExecutor'><img src='https://scottplot.net/images/contributors/algoexecutor.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/ticool'><img src='https://scottplot.net/images/contributors/ticool.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/at2software'><img src='https://scottplot.net/images/contributors/at2software.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/mrradd'><img src='https://scottplot.net/images/contributors/mrradd.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/Timothy343'><img src='https://scottplot.net/images/contributors/timothy343.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/rhys-wootton'><img src='https://scottplot.net/images/contributors/rhys-wootton.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/ohru131'><img src='https://scottplot.net/images/contributors/ohru131.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-</div>
 
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.1.9-beta</h1>
+<div><mark>Warning: NuGet package date is missing</mark></div>
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
@@ -2306,23 +2115,11 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/at2software'>at2software</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/ChrisAtVault'>ChrisAtVault</a>, <a href='https://github.com/AlgoExecutor'>AlgoExecutor</a>, <a href='https://github.com/KlaskSkovby'>KlaskSkovby</a>, <a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/at2software'><img src='https://scottplot.net/images/contributors/at2software.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/ChrisAtVault'><img src='https://scottplot.net/images/contributors/chrisatvault.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/AlgoExecutor'><img src='https://scottplot.net/images/contributors/algoexecutor.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/KlaskSkovby'><img src='https://scottplot.net/images/contributors/klaskskovby.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-</div>
 
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.1.8-beta</h1>
+<div><mark>Warning: NuGet package date is missing</mark></div>
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
@@ -2340,21 +2137,11 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/Matthias-C'>Matthias-C</a>, <a href='https://github.com/Scr0nch'>Scr0nch</a>, <a href='https://github.com/AlgoExecutor'>AlgoExecutor</a>, <a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/Matthias-C'><img src='https://scottplot.net/images/contributors/matthias-c.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/Scr0nch'><img src='https://scottplot.net/images/contributors/scr0nch.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/AlgoExecutor'><img src='https://scottplot.net/images/contributors/algoexecutor.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-</div>
 
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.1.7-beta</h1>
+<div><mark>Warning: NuGet package date is missing</mark></div>
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
@@ -2372,23 +2159,11 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/inqb'>inqb</a>, <a href='https://github.com/Saklut'>Saklut</a>, <a href='https://github.com/saklanmazozgur'>saklanmazozgur</a>, <a href='https://github.com/Matthias-C'>Matthias-C</a>, <a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/inqb'><img src='https://scottplot.net/images/contributors/inqb.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/Saklut'><img src='https://scottplot.net/images/contributors/saklut.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/saklanmazozgur'><img src='https://scottplot.net/images/contributors/saklanmazozgur.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/Matthias-C'><img src='https://scottplot.net/images/contributors/matthias-c.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-</div>
 
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.1.6-beta</h1>
+<div><mark>Warning: NuGet package date is missing</mark></div>
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
@@ -2418,21 +2193,11 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/at2software'>at2software</a>, <a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/JS-BGResearch'>JS-BGResearch</a>, <a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/at2software'><img src='https://scottplot.net/images/contributors/at2software.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/JS-BGResearch'><img src='https://scottplot.net/images/contributors/js-bgresearch.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-</div>
 
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.1.5-beta</h1>
+<div><mark>Warning: NuGet package date is missing</mark></div>
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
@@ -2444,20 +2209,11 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/oszymczak'>oszymczak</a>, <a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/oszymczak'><img src='https://scottplot.net/images/contributors/oszymczak.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-</div>
 
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.1.4-beta</h1>
+<div><mark>Warning: NuGet package date is missing</mark></div>
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
@@ -2481,22 +2237,11 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/Saklut'>Saklut</a>, <a href='https://github.com/jl0pd'>jl0pd</a>, <a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/MisterRedactus'>MisterRedactus</a>, <a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/Saklut'><img src='https://scottplot.net/images/contributors/saklut.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/jl0pd'><img src='https://scottplot.net/images/contributors/jl0pd.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/MisterRedactus'><img src='https://scottplot.net/images/contributors/misterredactus.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-</div>
 
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.1.3-beta</h1>
+<div><mark>Warning: NuGet package date is missing</mark></div>
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
@@ -2522,22 +2267,11 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/Saklut'>Saklut</a>, <a href='https://github.com/MithrilMan'>MithrilMan</a>, <a href='https://github.com/SommerEngineering'>SommerEngineering</a>, <a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/Saklut'><img src='https://scottplot.net/images/contributors/saklut.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/MithrilMan'><img src='https://scottplot.net/images/contributors/mithrilman.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/SommerEngineering'><img src='https://scottplot.net/images/contributors/sommerengineering.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-</div>
 
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.1.0</h1>
+<div><mark>Warning: NuGet package date is missing</mark></div>
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
@@ -2589,17 +2323,11 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-</div>
 
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.46</h1>
+<div><mark>Warning: NuGet package date is missing</mark></div>
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
@@ -2609,19 +2337,11 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/Saklut'>Saklut</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/Saklut'><img src='https://scottplot.net/images/contributors/saklut.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-</div>
 
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.45</h1>
+<div><mark>Warning: NuGet package date is missing</mark></div>
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
@@ -2633,19 +2353,11 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/martin-brajer'>martin-brajer</a>, <a href='https://github.com/ZTaiIT1025'>ZTaiIT1025</a>, <a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/martin-brajer'><img src='https://scottplot.net/images/contributors/martin-brajer.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/ZTaiIT1025'><img src='https://scottplot.net/images/contributors/ztaiit1025.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-</div>
 
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.44</h1>
+<div><mark>Warning: NuGet package date is missing</mark></div>
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
@@ -2665,22 +2377,11 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/Ichibot200'>Ichibot200</a>, <a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/charlescao460'>charlescao460</a>, <a href='https://github.com/RFIsoft'>RFIsoft</a>, <a href='https://github.com/LB767'>LB767</a>, <a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/Ichibot200'><img src='https://scottplot.net/images/contributors/ichibot200.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/charlescao460'><img src='https://scottplot.net/images/contributors/charlescao460.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/RFIsoft'><img src='https://scottplot.net/images/contributors/rfisoft.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/LB767'><img src='https://scottplot.net/images/contributors/lb767.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-</div>
 
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.43</h1>
+<div><mark>Warning: NuGet package date is missing</mark></div>
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
@@ -2694,20 +2395,11 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/ozgur640'>ozgur640</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/apkrymov'>apkrymov</a>, <a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/ozgur640'><img src='https://scottplot.net/images/contributors/ozgur640.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/apkrymov'><img src='https://scottplot.net/images/contributors/apkrymov.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-</div>
 
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.42</h1>
+<div><mark>Warning: NuGet package date is missing</mark></div>
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
@@ -2717,18 +2409,11 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/Ichibot200'>Ichibot200</a>, <a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/Ichibot200'><img src='https://scottplot.net/images/contributors/ichibot200.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-</div>
 
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.41</h1>
+<div><mark>Warning: NuGet package date is missing</mark></div>
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
@@ -2738,19 +2423,11 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/waynetheron'>waynetheron</a>, <a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/waynetheron'><img src='https://scottplot.net/images/contributors/waynetheron.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-</div>
 
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.40</h1>
+<div><mark>Warning: NuGet package date is missing</mark></div>
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
@@ -2782,24 +2459,11 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/Torgano'>Torgano</a>, <a href='https://github.com/AlexFsmn'>AlexFsmn</a>, <a href='https://github.com/el-aasi'>el-aasi</a>, <a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/AteCoder'>AteCoder</a>, <a href='https://github.com/vrdriver'>vrdriver</a>, <a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/Torgano'><img src='https://scottplot.net/images/contributors/torgano.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/AlexFsmn'><img src='https://scottplot.net/images/contributors/alexfsmn.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/el-aasi'><img src='https://scottplot.net/images/contributors/el-aasi.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/AteCoder'><img src='https://scottplot.net/images/contributors/atecoder.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/vrdriver'><img src='https://scottplot.net/images/contributors/vrdriver.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-</div>
 
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.39</h1>
+<div><mark>Warning: NuGet package date is missing</mark></div>
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
@@ -2815,22 +2479,11 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/nashilnik'>nashilnik</a>, <a href='https://github.com/RachamimYaakobov'>RachamimYaakobov</a>, <a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/envine'>envine</a>, <a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/nashilnik'><img src='https://scottplot.net/images/contributors/nashilnik.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/RachamimYaakobov'><img src='https://scottplot.net/images/contributors/rachamimyaakobov.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/envine'><img src='https://scottplot.net/images/contributors/envine.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-</div>
 
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.38</h1>
+<div><mark>Warning: NuGet package date is missing</mark></div>
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
@@ -2852,23 +2505,11 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/el-aasi'>el-aasi</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/WillemWever'>WillemWever</a>, <a href='https://github.com/HowardWhile'>HowardWhile</a>, <a href='https://github.com/cstyx'>cstyx</a>, <a href='https://github.com/Resonanz'>Resonanz</a>, <a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/el-aasi'><img src='https://scottplot.net/images/contributors/el-aasi.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/WillemWever'><img src='https://scottplot.net/images/contributors/willemwever.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/HowardWhile'><img src='https://scottplot.net/images/contributors/howardwhile.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/cstyx'><img src='https://scottplot.net/images/contributors/cstyx.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/Resonanz'><img src='https://scottplot.net/images/contributors/resonanz.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-</div>
 
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.37</h1>
+<div><mark>Warning: NuGet package date is missing</mark></div>
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
@@ -2878,21 +2519,11 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/bhairav-thakkar'>bhairav-thakkar</a>, <a href='https://github.com/riquich'>riquich</a>, <a href='https://github.com/Helitune-RobMcKay'>Helitune-RobMcKay</a>, <a href='https://github.com/iu2kxv'>iu2kxv</a>, <a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/bhairav-thakkar'><img src='https://scottplot.net/images/contributors/bhairav-thakkar.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/riquich'><img src='https://scottplot.net/images/contributors/riquich.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/Helitune-RobMcKay'><img src='https://scottplot.net/images/contributors/helitune-robmckay.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/iu2kxv'><img src='https://scottplot.net/images/contributors/iu2kxv.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-</div>
 
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.36</h1>
+<div><mark>Warning: NuGet package date is missing</mark></div>
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
@@ -2912,20 +2543,11 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/imka-code'>imka-code</a>, <a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/imka-code'><img src='https://scottplot.net/images/contributors/imka-code.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-</div>
 
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.35</h1>
+<div><mark>Warning: NuGet package date is missing</mark></div>
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
@@ -2959,23 +2581,11 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/robokamran'>robokamran</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/hhubschle'>hhubschle</a>, <a href='https://github.com/jcbeppler'>jcbeppler</a>, <a href='https://github.com/tomwimmenhove'>tomwimmenhove</a>, <a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/robokamran'><img src='https://scottplot.net/images/contributors/robokamran.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/hhubschle'><img src='https://scottplot.net/images/contributors/hhubschle.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/jcbeppler'><img src='https://scottplot.net/images/contributors/jcbeppler.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/tomwimmenhove'><img src='https://scottplot.net/images/contributors/tomwimmenhove.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-</div>
 
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.34</h1>
+<div><mark>Warning: NuGet package date is missing</mark></div>
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
@@ -2985,20 +2595,11 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/gobikulandaisamy'>gobikulandaisamy</a>, <a href='https://github.com/bukkideme'>bukkideme</a>, <a href='https://github.com/Ichibot200'>Ichibot200</a>, <a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/gobikulandaisamy'><img src='https://scottplot.net/images/contributors/gobikulandaisamy.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/bukkideme'><img src='https://scottplot.net/images/contributors/bukkideme.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/Ichibot200'><img src='https://scottplot.net/images/contributors/ichibot200.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-</div>
 
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.33</h1>
+<div><mark>Warning: NuGet package date is missing</mark></div>
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
@@ -3006,19 +2607,11 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/bukkideme'>bukkideme</a>, <a href='https://github.com/Ichibot200'>Ichibot200</a>, <a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/bukkideme'><img src='https://scottplot.net/images/contributors/bukkideme.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/Ichibot200'><img src='https://scottplot.net/images/contributors/ichibot200.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-</div>
 
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.32</h1>
+<div><mark>Warning: NuGet package date is missing</mark></div>
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
@@ -3052,22 +2645,11 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/LogDogg'>LogDogg</a>, <a href='https://github.com/Minu476'>Minu476</a>, <a href='https://github.com/bukkideme'>bukkideme</a>, <a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/LogDogg'><img src='https://scottplot.net/images/contributors/logdogg.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/Minu476'><img src='https://scottplot.net/images/contributors/minu476.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/bukkideme'><img src='https://scottplot.net/images/contributors/bukkideme.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-</div>
 
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.31</h1>
+<div><mark>Warning: NuGet package date is missing</mark></div>
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
@@ -3087,19 +2669,11 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/JagDTalcyon'>JagDTalcyon</a>, <a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/JagDTalcyon'><img src='https://scottplot.net/images/contributors/jagdtalcyon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-</div>
 
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.30</h1>
+<div><mark>Warning: NuGet package date is missing</mark></div>
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
@@ -3129,25 +2703,11 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/SeidChr'>SeidChr</a>, <a href='https://github.com/RalphLAtGitHub'>RalphLAtGitHub</a>, <a href='https://github.com/Resonanz'>Resonanz</a>, <a href='https://github.com/thunderstatic'>thunderstatic</a>, <a href='https://github.com/eduhza'>eduhza</a>, <a href='https://github.com/LogDogg'>LogDogg</a>, <a href='https://github.com/bukkideme'>bukkideme</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/SeidChr'><img src='https://scottplot.net/images/contributors/seidchr.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/RalphLAtGitHub'><img src='https://scottplot.net/images/contributors/ralphlatgithub.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/Resonanz'><img src='https://scottplot.net/images/contributors/resonanz.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/thunderstatic'><img src='https://scottplot.net/images/contributors/thunderstatic.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/eduhza'><img src='https://scottplot.net/images/contributors/eduhza.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/LogDogg'><img src='https://scottplot.net/images/contributors/logdogg.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/bukkideme'><img src='https://scottplot.net/images/contributors/bukkideme.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-</div>
 
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.29</h1>
+<div><mark>Warning: NuGet package date is missing</mark></div>
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
@@ -3171,19 +2731,11 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/ckovamees'>ckovamees</a>, <a href='https://github.com/SeidChr'>SeidChr</a>, <a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/ckovamees'><img src='https://scottplot.net/images/contributors/ckovamees.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/SeidChr'><img src='https://scottplot.net/images/contributors/seidchr.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-</div>
 
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.28</h1>
+<div><mark>Warning: NuGet package date is missing</mark></div>
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
@@ -3193,19 +2745,11 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/deiruch'>deiruch</a>, <a href='https://github.com/Antracik'>Antracik</a>, <a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/deiruch'><img src='https://scottplot.net/images/contributors/deiruch.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/Antracik'><img src='https://scottplot.net/images/contributors/antracik.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-</div>
 
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.27</h1>
+<div><mark>Warning: NuGet package date is missing</mark></div>
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
@@ -3223,20 +2767,11 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/ckovamees'>ckovamees</a>, <a href='https://github.com/SeidChr'>SeidChr</a>, <a href='https://github.com/ismdiego'>ismdiego</a>, <a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/ckovamees'><img src='https://scottplot.net/images/contributors/ckovamees.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/SeidChr'><img src='https://scottplot.net/images/contributors/seidchr.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/ismdiego'><img src='https://scottplot.net/images/contributors/ismdiego.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-</div>
 
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.26</h1>
+<div><mark>Warning: NuGet package date is missing</mark></div>
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
@@ -3246,17 +2781,11 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-</div>
 
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.25</h1>
+<div><mark>Warning: NuGet package date is missing</mark></div>
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
@@ -3272,17 +2801,11 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-</div>
 
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.24</h1>
+<div><mark>Warning: NuGet package date is missing</mark></div>
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
@@ -3292,19 +2815,11 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/bonzaiferroni'>bonzaiferroni</a>, <a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/bonzaiferroni'><img src='https://scottplot.net/images/contributors/bonzaiferroni.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-</div>
 
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.23</h1>
+<div><mark>Warning: NuGet package date is missing</mark></div>
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
@@ -3332,19 +2847,11 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/Resonanz'>Resonanz</a>, <a href='https://github.com/zrolfs'>zrolfs</a>, <a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/Resonanz'><img src='https://scottplot.net/images/contributors/resonanz.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/zrolfs'><img src='https://scottplot.net/images/contributors/zrolfs.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-</div>
 
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.22</h1>
+<div><mark>Warning: NuGet package date is missing</mark></div>
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
@@ -3362,19 +2869,11 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/SeidChr'>SeidChr</a>, <a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/SeidChr'><img src='https://scottplot.net/images/contributors/seidchr.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-</div>
 
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.21</h1>
+<div><mark>Warning: NuGet package date is missing</mark></div>
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
@@ -3410,21 +2909,11 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/envine'>envine</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/SeidChr'>SeidChr</a>, <a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/envine'><img src='https://scottplot.net/images/contributors/envine.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/SeidChr'><img src='https://scottplot.net/images/contributors/seidchr.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-</div>
 
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.19</h1>
+<div><mark>Warning: NuGet package date is missing</mark></div>
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
@@ -3456,22 +2945,11 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/bukkideme'>bukkideme</a>, <a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/gberrante'>gberrante</a>, <a href='https://github.com/Resonanz'>Resonanz</a>, <a href='https://github.com/zrolfs'>zrolfs</a>, <a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/bukkideme'><img src='https://scottplot.net/images/contributors/bukkideme.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/gberrante'><img src='https://scottplot.net/images/contributors/gberrante.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/Resonanz'><img src='https://scottplot.net/images/contributors/resonanz.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/zrolfs'><img src='https://scottplot.net/images/contributors/zrolfs.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-</div>
 
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.18</h1>
+<div><mark>Warning: NuGet package date is missing</mark></div>
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
@@ -3479,18 +2957,11 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/teejay-87'>teejay-87</a>, <a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/teejay-87'><img src='https://scottplot.net/images/contributors/teejay-87.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-</div>
 
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.17</h1>
+<div><mark>Warning: NuGet package date is missing</mark></div>
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
@@ -3502,19 +2973,11 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/bukkideme'>bukkideme</a>, <a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/bukkideme'><img src='https://scottplot.net/images/contributors/bukkideme.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-</div>
 
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.16</h1>
+<div><mark>Warning: NuGet package date is missing</mark></div>
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
@@ -3548,21 +3011,11 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/hexxone'>hexxone</a>, <a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/teejay-87'>teejay-87</a>, <a href='https://github.com/ckovamees'>ckovamees</a>, <a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/hexxone'><img src='https://scottplot.net/images/contributors/hexxone.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/teejay-87'><img src='https://scottplot.net/images/contributors/teejay-87.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/ckovamees'><img src='https://scottplot.net/images/contributors/ckovamees.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-</div>
 
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.14</h1>
+<div><mark>Warning: NuGet package date is missing</mark></div>
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
@@ -3570,19 +3023,11 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/ckovamees'>ckovamees</a>, <a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/ckovamees'><img src='https://scottplot.net/images/contributors/ckovamees.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-</div>
 
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.13</h1>
+<div><mark>Warning: NuGet package date is missing</mark></div>
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
@@ -3592,19 +3037,11 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/hexxone'>hexxone</a>, <a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/hexxone'><img src='https://scottplot.net/images/contributors/hexxone.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-</div>
 
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.11</h1>
+<div><mark>Warning: NuGet package date is missing</mark></div>
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
@@ -3614,18 +3051,11 @@ Description: Release notes for every version of ScottPlot
 </li>
 </ul>
 </div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/gobikulandaisamy'>gobikulandaisamy</a>, <a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/gobikulandaisamy'><img src='https://scottplot.net/images/contributors/gobikulandaisamy.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-</div>
 
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.10</h1>
+<div><mark>Warning: NuGet package date is missing</mark></div>
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
@@ -3650,19 +3080,6 @@ Description: Release notes for every version of ScottPlot
 <li>Arrows can be plotted using <code>plt.PlotArrow()</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/201">#201</a>) <em>Thanks Clay</em>
 </li>
 </ul>
-</div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/plumforest'>plumforest</a>, <a href='https://github.com/JagDTalcyon'>JagDTalcyon</a>, <a href='https://github.com/karimshams'>karimshams</a>, <a href='https://github.com/senged'>senged</a>, <a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/plumforest'><img src='https://scottplot.net/images/contributors/plumforest.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/JagDTalcyon'><img src='https://scottplot.net/images/contributors/jagdtalcyon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/karimshams'><img src='https://scottplot.net/images/contributors/karimshams.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/senged'><img src='https://scottplot.net/images/contributors/senged.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
 </section>
