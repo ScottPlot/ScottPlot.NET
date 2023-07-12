@@ -4,6 +4,25 @@ Description: Release notes for every version of ScottPlot
 ---
 
 <section class='mb-5'>
+<h1 class='mb-0'>ScottPlot 5.0.7-beta (in development)</h1>
+<div><i>NuGet packages published </i></div>
+<div class='mt-1'>
+<ul>
+<li>Axis: Fixed issue where axes with zero span would cause renders to fail (<a href="https://github.com/ScottPlot/ScottPlot/issues/2714">#2714</a>) <em>Thanks <a href="https://github.com/ahmad-qamar">@ahmad-qamar</a></em>
+</li>
+</ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/ahmad-qamar'>ahmad-qamar</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/ahmad-qamar'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
+
+</section>
+<section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.1.66 (in development)</h1>
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
