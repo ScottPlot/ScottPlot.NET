@@ -4,6 +4,30 @@ Description: Release notes for every version of ScottPlot
 ---
 
 <section class='mb-5'>
+<h1 class='mb-0'></h1>
+<div><i>NuGet packages published </i></div>
+<div class='mt-1'>
+<ul>
+<li>This document contains release notes for every version of ScottPlot
+</li>
+<li>https://scottplot.net/versions/ describes the major versions of ScottPlot
+</li>
+<li>https://scottplot.net/changelog/ is a formatted version of this document
+</li>
+<li>https://scottplot.net/contributors/ shows all of ScottPlot's contributors
+</li>
+</ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
+
+</section>
+<section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 5.0.7-beta (in development)</h1>
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
@@ -11,6 +35,8 @@ Description: Release notes for every version of ScottPlot
 <li>Axis: Fixed issue where axes with zero span would cause renders to fail (<a href="https://github.com/ScottPlot/ScottPlot/issues/2714">#2714</a>) <em>Thanks <a href="https://github.com/ahmad-qamar">@ahmad-qamar</a></em>
 </li>
 <li>Avalonia: Improve support for cross-platform and non-desktop applications (<a href="https://github.com/ScottPlot/ScottPlot/issues/2748">#2748</a>) <em>Thanks <a href="https://github.com/PremekTill">@PremekTill</a></em>
+</li>
+<li>Scatter Plot: Improve support for empty datasets (<a href="https://github.com/ScottPlot/ScottPlot/issues/2740">#2740</a>)
 </li>
 </ul>
 </div>
