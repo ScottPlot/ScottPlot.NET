@@ -105,13 +105,13 @@ internal class ChangelogRelease
 
     private void AddTitle(StringBuilder sb)
     {
-        sb.AppendLine($"<h1 class='mb-0'>{Title}</h1>");
-
         if (string.IsNullOrEmpty(Title))
         {
             // top of the page
             return;
         }
+
+        sb.AppendLine($"<h1 class='mb-0'>{Title}</h1>");
 
         if (Title.Contains("development", StringComparison.InvariantCultureIgnoreCase))
         {
