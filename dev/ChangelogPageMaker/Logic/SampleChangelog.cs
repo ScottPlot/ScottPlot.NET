@@ -26,14 +26,15 @@ public class SampleChangelog
         "nuelle16", "Nuliax7", "obnews", "ohru131", "oldteacup", "Orace", "oszymczak", "ozgur640", "Padanian", "painstgithub",
         "PassionateDeveloper86", "PeppermintKing", "petarpetrovt", "PeterDavidson", "petersesztak", "phil100vol", "pietcoussens",
         "pjt33", "PlayCreatively", "plumforest", "PremekTill", "r84r", "RachamimYaakobov", "rafntor", "RalphLAtGitHub",
-        "RamsayGit", "Rayffer", "Regenhardt", "Resonanz", "RFIsoft", "rhys-wootton", "ricecakebear", "riquich", "robokamran",
+        "RamsayGit", "Rayffer", "Regenhardt", "Resonanz", "RFIsoft", "rhys-wootton", "riquich", "robokamran",
         "rosdyana", "rotger", "Rudde", "rutkowskit", "saklanmazozgur", "Saklut", "SaltyTears", "saroldhand", "schifazl",
         "Scr0nch", "SeidChr", "senged", "sergaent", "SGanard", "ShannonZ", "Shengcancheng", "ShenxuanLi", "simmdan", "sjdemoor",
         "sjlai1993", "SommerEngineering", "Sprenk", "ssalsinha", "StefanBertels", "StendProg", "stendprog", "strontiumpku",
         "Superberti", "SuperDaveOsbourne", "Syntaxrabbit", "szescxz", "teejay-87", "Terebi42", "theelderwand", "thopri",
         "thunderstatic", "ticool", "Tilation", "Timothy343", "tomwimmenhove", "tonpimenta", "Torgano", "tyrbentsen", "vietanhbui",
         "VPKSoft", "vrdriver", "vtozarks", "wangyexiang", "waynetheron", "wbalbo", "wfs1900", "WillemWever", "wtywtykk",
-        "xenedia", "Xerxes004", "xgfs", "xichaoqiang", "xmln17", "zachesposito", "zeticabrian", "ZPYin", "zrolfs", "ZTaiIT1025", "pavlexander"
+        "xenedia", "Xerxes004", "xgfs", "xichaoqiang", "xmln17", "zachesposito", "zeticabrian", "ZPYin", "zrolfs", "ZTaiIT1025", 
+        "pavlexander", "ahmad-qamar", "boingo100p"
     };
 
     public static readonly string Text = """

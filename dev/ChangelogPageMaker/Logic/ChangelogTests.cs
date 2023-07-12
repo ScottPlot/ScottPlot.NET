@@ -22,7 +22,10 @@ internal class ChangelogTests
         foreach (string author in SampleChangelog.Contributors)
         {
             string githubID = "@" + author;
-            Assert.That(SampleChangelog.Text.Contains(githubID));
+            if (!SampleChangelog.Text.Contains(githubID))
+            {
+                Assert.Fail(githubID);
+            }
         }
     }
 
@@ -31,7 +34,10 @@ internal class ChangelogTests
     {
         foreach (string id in Changelog.Contributors)
         {
-            Assert.That(SampleChangelog.Contributors, Contains.Item(id));
+            if (!SampleChangelog.Contributors.Contains(id))
+            {
+                Assert.Fail(id);
+            }
         }
     }
 
