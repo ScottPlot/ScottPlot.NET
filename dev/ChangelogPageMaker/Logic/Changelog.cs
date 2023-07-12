@@ -81,7 +81,7 @@ internal class ChangelogRelease
         AddTitle(sb);
         AddChangeList(sb);
 
-        if (!string.IsNullOrWhiteSpace(Date))
+        if (!string.IsNullOrWhiteSpace(Title))
         {
             sb.AppendLine("<h3 class='text-center fw-light'>Contributors</h3>");
             AddContributorNames(sb);
@@ -95,7 +95,7 @@ internal class ChangelogRelease
             "https://scottplot.net/contributors/",
         };
 
-        foreach(string url in urls)
+        foreach (string url in urls)
         {
             sb.Replace(url, $"<a href='{url}'>{url}</a>");
         }
