@@ -2528,9 +2528,8 @@ Description: Release notes for every version of ScottPlot
 
 </section>
 <section class='mb-5'>
-<h1 class='mb-0'>ScottPlot 4.1.0</h1>
-<div><mark>Warning: NuGet package date is missing</mark></div>
-<div><i>NuGet packages published </i></div>
+<h1 class='mb-0'>ScottPlot 4.1.0-beta</h1>
+<div><i>NuGet packages published 2020-11-29</i></div>
 <div class='mt-1'>
 <ul>
 <li>In November, 2020 ScottPlot 4.0 branched into a permanent <code>stable</code> branch, and ScottPlot 4.1 began development as beta / pre-release in the main branch. ScottPlot 4.0 continues to be maintained, but modifications are aimed at small bugfixes rather than large refactoring or the addition of new features. ScottPlot 4.1 merged into the master branch in November, 2020 (<a href="https://github.com/ScottPlot/ScottPlot/issues/605">#605</a>). Improvements are focused at enhanced performance, improved thread safety, support for multiple axes, and options for data validation.
@@ -2655,28 +2654,6 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>WPF and Windows Forms user controls now also target .NET 5
 </li>
-</ul>
-</div>
-<h3 class='text-center fw-light'>Contributors</h3>
-<div class='text-center'>
-<a href='https://github.com/Ichibot200'>Ichibot200</a>, <a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/charlescao460'>charlescao460</a>, <a href='https://github.com/RFIsoft'>RFIsoft</a>, <a href='https://github.com/LB767'>LB767</a>, <a href='https://github.com/swharden'>swharden</a>
-</div>
-<div class='text-center'>
-<a href='https://github.com/Ichibot200'><img src='https://scottplot.net/images/contributors/ichibot200.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/charlescao460'><img src='https://scottplot.net/images/contributors/charlescao460.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/RFIsoft'><img src='https://scottplot.net/images/contributors/rfisoft.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/LB767'><img src='https://scottplot.net/images/contributors/lb767.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-</div>
-
-</section>
-<section class='mb-5'>
-<h1 class='mb-0'>ScottPlot 4.0.43</h1>
-<div><mark>Warning: NuGet package date is missing</mark></div>
-<div><i>NuGet packages published </i></div>
-<div class='mt-1'>
-<ul>
 <li>Improved appearance of semi-transparent legend items (<a href="https://github.com/ScottPlot/ScottPlot/issues/567">#567</a>)
 </li>
 <li>Improved tick labels for ticks smaller than 1E-5 (<a href="https://github.com/ScottPlot/ScottPlot/issues/568">#568</a>) <em>Thanks <a href="https://github.com/ozgur640">@ozgur640</a></em>
@@ -2689,9 +2666,14 @@ Description: Release notes for every version of ScottPlot
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/ozgur640'>ozgur640</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/apkrymov'>apkrymov</a>, <a href='https://github.com/swharden'>swharden</a>
+<a href='https://github.com/Ichibot200'>Ichibot200</a>, <a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/charlescao460'>charlescao460</a>, <a href='https://github.com/RFIsoft'>RFIsoft</a>, <a href='https://github.com/LB767'>LB767</a>, <a href='https://github.com/ozgur640'>ozgur640</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/apkrymov'>apkrymov</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
+<a href='https://github.com/Ichibot200'><img src='https://scottplot.net/images/contributors/ichibot200.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/charlescao460'><img src='https://scottplot.net/images/contributors/charlescao460.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/RFIsoft'><img src='https://scottplot.net/images/contributors/rfisoft.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/LB767'><img src='https://scottplot.net/images/contributors/lb767.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/ozgur640'><img src='https://scottplot.net/images/contributors/ozgur640.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/apkrymov'><img src='https://scottplot.net/images/contributors/apkrymov.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
