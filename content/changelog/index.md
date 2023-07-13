@@ -1737,8 +1737,7 @@ Description: Release notes for every version of ScottPlot
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.1.25</h1>
-<div><mark>Warning: NuGet package date is missing</mark></div>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2021-10-06</i></div>
 <div class='mt-1'>
 <ul>
 <li>Palette: <code>ScottPlot.Palette</code> has been created and cookbook recipes have been updated to use it. The module it replaces (<code>ScottPlot.Drawing.Palette</code>) will not be marked obsolete until ScottPlot 5. (<a href="https://github.com/ScottPlot/ScottPlot/issues/1299">#1299</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/1304">#1304</a>)
@@ -1771,8 +1770,7 @@ Description: Release notes for every version of ScottPlot
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.1.23</h1>
-<div><mark>Warning: NuGet package date is missing</mark></div>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2021-09-26</i></div>
 <div class='mt-1'>
 <ul>
 <li>NuGet: use deterministic builds, add source link support, and include compiler flags (<a href="https://github.com/ScottPlot/ScottPlot/issues/1285">#1285</a>)
@@ -1790,8 +1788,7 @@ Description: Release notes for every version of ScottPlot
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.1.22</h1>
-<div><mark>Warning: NuGet package date is missing</mark></div>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2021-09-26</i></div>
 <div class='mt-1'>
 <ul>
 <li>Coxcomb Plots: Added support for image labels (<a href="https://github.com/ScottPlot/ScottPlot/issues/1265">#1265</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/1275">#1275</a>) <em>Thanks <a href="https://github.com/Rayffer">@Rayffer</a></em>
@@ -1817,8 +1814,7 @@ Description: Release notes for every version of ScottPlot
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.1.21</h1>
-<div><mark>Warning: NuGet package date is missing</mark></div>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2021-09-18</i></div>
 <div class='mt-1'>
 <ul>
 <li>Legend: Throw an exception if <code>RenderLegend()</code> is called on a plot with no labeled plottables (<a href="https://github.com/ScottPlot/ScottPlot/issues/1257">#1257</a>)
@@ -1846,8 +1842,7 @@ Description: Release notes for every version of ScottPlot
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.1.20</h1>
-<div><mark>Warning: NuGet package date is missing</mark></div>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2021-09-09</i></div>
 <div class='mt-1'>
 <ul>
 <li>Ticks: Fixed bug where corner labels would not render when multiplier or offset notation is in use (<a href="https://github.com/ScottPlot/ScottPlot/issues/1252">#1252</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/1253">#1253</a>) <em>Thanks <a href="https://github.com/DavidBergstromSWE">@DavidBergstromSWE</a></em>
@@ -1866,8 +1861,7 @@ Description: Release notes for every version of ScottPlot
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.1.19</h1>
-<div><mark>Warning: NuGet package date is missing</mark></div>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2021-09-08</i></div>
 <div class='mt-1'>
 <ul>
 <li>Controls: Fixed bug where render warning message is not hidden if <code>RenderRequest()</code> is called (<a href="https://github.com/ScottPlot/ScottPlot/issues/1165">#1165</a>) <em>Thanks <a href="https://github.com/gigios">@gigios</a></em>
@@ -1886,8 +1880,7 @@ Description: Release notes for every version of ScottPlot
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.1.18</h1>
-<div><mark>Warning: NuGet package date is missing</mark></div>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2021-09-08</i></div>
 <div class='mt-1'>
 <ul>
 <li>Ticks: Improve placement when axis scale lock is enabled (<a href="https://github.com/ScottPlot/ScottPlot/issues/1229">#1229</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/1197">#1197</a>)
@@ -1931,8 +1924,7 @@ Description: Release notes for every version of ScottPlot
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.1.17</h1>
-<div><mark>Warning: NuGet package date is missing</mark></div>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2021-08-25</i></div>
 <div class='mt-1'>
 <ul>
 <li>Improved <code>RadarPlot.Update()</code> default arguments (<a href="https://github.com/ScottPlot/ScottPlot/issues/1097">#1097</a>) <em>Thanks <a href="https://github.com/arthurits">@arthurits</a></em>
@@ -2020,8 +2012,7 @@ Description: Release notes for every version of ScottPlot
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.1.16</h1>
-<div><mark>Warning: NuGet package date is missing</mark></div>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2021-05-30</i></div>
 <div class='mt-1'>
 <ul>
 <li>Made it easier to use custom color palettes (see cookbook) (<a href="https://github.com/ScottPlot/ScottPlot/issues/1058">#1058</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/1082">#1082</a>) <em>Thanks <a href="https://github.com/EFeru">@EFeru</a></em>
@@ -2062,8 +2053,7 @@ Description: Release notes for every version of ScottPlot
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.1.15</h1>
-<div><mark>Warning: NuGet package date is missing</mark></div>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2021-05-27</i></div>
 <div class='mt-1'>
 <ul>
 <li>Hide design-time error message component at run time to reduce flicking when resizing (<a href="https://github.com/ScottPlot/ScottPlot/issues/1073">#1073</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/1075">#1075</a>) <em>Thanks <a href="https://github.com/Superberti">@Superberti</a> and <a href="https://github.com/bclehmann">@bclehmann</a></em>
@@ -2088,8 +2078,7 @@ Description: Release notes for every version of ScottPlot
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.1.14</h1>
-<div><mark>Warning: NuGet package date is missing</mark></div>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2021-05-23</i></div>
 <div class='mt-1'>
 <ul>
 <li>Add support for custom linestyles in SignalXY plots (<a href="https://github.com/ScottPlot/ScottPlot/issues/1017">#1017</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/1016">#1016</a>) <em>Thanks <a href="https://github.com/StendProg">@StendProg</a> and <a href="https://github.com/breakwinz">@breakwinz</a></em>
@@ -2122,8 +2111,7 @@ Description: Release notes for every version of ScottPlot
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.1.13-beta</h1>
-<div><mark>Warning: NuGet package date is missing</mark></div>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2021-05-02</i></div>
 <div class='mt-1'>
 <ul>
 <li><code>Plot.Render()</code> and <code>Plot.SaveFig()</code> now have a <code>scale</code> argument to allow for the creation of high resolution scaled plots (<a href="https://github.com/ScottPlot/ScottPlot/issues/983">#983</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/982">#982</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/981">#981</a>) <em>Thanks <a href="https://github.com/PeterDavidson">@PeterDavidson</a></em>
@@ -2150,8 +2138,7 @@ Description: Release notes for every version of ScottPlot
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.1.12-beta</h1>
-<div><mark>Warning: NuGet package date is missing</mark></div>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2021-04-12</i></div>
 <div class='mt-1'>
 <ul>
 <li>Added &quot;Open in New Window&quot; option to right-click menu (<a href="https://github.com/ScottPlot/ScottPlot/issues/958">#958</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/969">#969</a>) <em>Thanks <a href="https://github.com/ademkaya">@ademkaya</a> and <a href="https://github.com/bclehmann">@bclehmann</a></em>
@@ -2205,8 +2192,7 @@ Description: Release notes for every version of ScottPlot
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.1.11-beta</h1>
-<div><mark>Warning: NuGet package date is missing</mark></div>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2021-03-30</i></div>
 <div class='mt-1'>
 <ul>
 <li>FormsPlot mouse events are now properly forwarded to the base control (<a href="https://github.com/ScottPlot/ScottPlot/issues/892">#892</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/919">#919</a>) <em>Thanks <a href="https://github.com/grabul">@grabul</a></em>
@@ -2235,8 +2221,7 @@ Description: Release notes for every version of ScottPlot
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.1.10-beta</h1>
-<div><mark>Warning: NuGet package date is missing</mark></div>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2021-03-21</i></div>
 <div class='mt-1'>
 <ul>
 <li>Fixed a bug where applying the Seabourn style modified axis frame and minor tick distribution (<a href="https://github.com/ScottPlot/ScottPlot/issues/866">#866</a>) <em>Thanks <a href="https://github.com/oszymczak">@oszymczak</a></em>
@@ -2289,8 +2274,7 @@ Description: Release notes for every version of ScottPlot
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.1.9-beta</h1>
-<div><mark>Warning: NuGet package date is missing</mark></div>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2021-02-21</i></div>
 <div class='mt-1'>
 <ul>
 <li>Improved support for negative DateTimes when using DateTime axis mode (<a href="https://github.com/ScottPlot/ScottPlot/issues/806">#806</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/807">#807</a>) <em>Thanks <a href="https://github.com/StendProg">@StendProg</a> and <a href="https://github.com/at2software">@at2software</a></em>
@@ -2330,8 +2314,7 @@ Description: Release notes for every version of ScottPlot
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.1.8-beta</h1>
-<div><mark>Warning: NuGet package date is missing</mark></div>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2021-02-16</i></div>
 <div class='mt-1'>
 <ul>
 <li>Improved validation and error reporting for large heatmaps (<a href="https://github.com/ScottPlot/ScottPlot/issues/772">#772</a>) <em>Thanks <a href="https://github.com/Matthias-C">@Matthias-C</a></em>
@@ -2363,8 +2346,7 @@ Description: Release notes for every version of ScottPlot
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.1.7-beta</h1>
-<div><mark>Warning: NuGet package date is missing</mark></div>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2021-02-14</i></div>
 <div class='mt-1'>
 <ul>
 <li>Added support for image axis labels (<a href="https://github.com/ScottPlot/ScottPlot/issues/759">#759</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/446">#446</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/716">#716</a>) <em>Thanks <a href="https://github.com/bclehmann">@bclehmann</a></em>
@@ -2398,8 +2380,7 @@ Description: Release notes for every version of ScottPlot
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.1.6-beta</h1>
-<div><mark>Warning: NuGet package date is missing</mark></div>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2021-02-08</i></div>
 <div class='mt-1'>
 <ul>
 <li>Fixed single point render bug in Signal plots (<a href="https://github.com/ScottPlot/ScottPlot/issues/744">#744</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/745">#745</a>) <em>Thanks <a href="https://github.com/at2software">@at2software</a> and <a href="https://github.com/StendProg">@StendProg</a></em>
@@ -2443,8 +2424,7 @@ Description: Release notes for every version of ScottPlot
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.1.5-beta</h1>
-<div><mark>Warning: NuGet package date is missing</mark></div>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2021-02-01</i></div>
 <div class='mt-1'>
 <ul>
 <li>Helper methods were added for creating scatter plots with just lines (<code>AddScatterLines()</code>) or just markers (<code>AddScatterPoints()</code>).
@@ -2469,8 +2449,7 @@ Description: Release notes for every version of ScottPlot
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.1.4-beta</h1>
-<div><mark>Warning: NuGet package date is missing</mark></div>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2021-01-25</i></div>
 <div class='mt-1'>
 <ul>
 <li>User controls have been extensively redesigned (<a href="https://github.com/ScottPlot/ScottPlot/issues/683">#683</a>)
@@ -2509,8 +2488,7 @@ Description: Release notes for every version of ScottPlot
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.1.3-beta</h1>
-<div><mark>Warning: NuGet package date is missing</mark></div>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2020-12-27</i></div>
 <div class='mt-1'>
 <ul>
 <li>Scott will make a document to summarize 4.0 → 4.1 changes as we get closer to a non-beta release
@@ -2614,8 +2592,7 @@ Description: Release notes for every version of ScottPlot
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.46</h1>
-<div><mark>Warning: NuGet package date is missing</mark></div>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2020-12-11</i></div>
 <div class='mt-1'>
 <ul>
 <li>Improved ticks for small plots (<a href="https://github.com/ScottPlot/ScottPlot/issues/724">#724</a>) <em>Thanks <a href="https://github.com/Saklut">@Saklut</a></em>
@@ -2637,8 +2614,7 @@ Description: Release notes for every version of ScottPlot
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.45</h1>
-<div><mark>Warning: NuGet package date is missing</mark></div>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2020-11-25</i></div>
 <div class='mt-1'>
 <ul>
 <li>Fixed a bug that affected very small plots with the benchmark enabled (<a href="https://github.com/ScottPlot/ScottPlot/issues/626">#626</a>) <em>Thanks <a href="https://github.com/martin-brajer">@martin-brajer</a></em>
@@ -2662,8 +2638,7 @@ Description: Release notes for every version of ScottPlot
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.44</h1>
-<div><mark>Warning: NuGet package date is missing</mark></div>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2020-11-22</i></div>
 <div class='mt-1'>
 <ul>
 <li>Improved limits for fixed-size axis spans (<a href="https://github.com/ScottPlot/ScottPlot/issues/586">#586</a>) <em>Thanks <a href="https://github.com/Ichibot200">@Ichibot200</a> and <a href="https://github.com/StendProg">@StendProg</a></em>
@@ -2726,8 +2701,7 @@ Description: Release notes for every version of ScottPlot
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.42</h1>
-<div><mark>Warning: NuGet package date is missing</mark></div>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2020-09-27</i></div>
 <div class='mt-1'>
 <ul>
 <li>Improved DPI scaling support when using WinForms in .NET Core applications (<a href="https://github.com/ScottPlot/ScottPlot/issues/563">#563</a>) <em>Thanks <a href="https://github.com/Ichibot200">@Ichibot200</a></em>
@@ -2748,8 +2722,7 @@ Description: Release notes for every version of ScottPlot
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.41</h1>
-<div><mark>Warning: NuGet package date is missing</mark></div>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2020-09-26</i></div>
 <div class='mt-1'>
 <ul>
 <li>Improved density of DateTime ticks (<a href="https://github.com/ScottPlot/ScottPlot/issues/564">#564</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/561">#561</a>) <em>Thanks <a href="https://github.com/StendProg">@StendProg</a> and <a href="https://github.com/waynetheron">@waynetheron</a></em>
@@ -2771,8 +2744,7 @@ Description: Release notes for every version of ScottPlot
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.40</h1>
-<div><mark>Warning: NuGet package date is missing</mark></div>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2020-09-20</i></div>
 <div class='mt-1'>
 <ul>
 <li>Added user control for Avalonia (<a href="https://github.com/ScottPlot/ScottPlot/issues/496">#496</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/503">#503</a>) <em>Thanks <a href="https://github.com/bclehmann">@bclehmann</a></em>
@@ -2821,8 +2793,7 @@ Description: Release notes for every version of ScottPlot
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.39</h1>
-<div><mark>Warning: NuGet package date is missing</mark></div>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2020-08-09</i></div>
 <div class='mt-1'>
 <ul>
 <li>Legend now reflects LineStyle of Signal and SignalXY plots (<a href="https://github.com/ScottPlot/ScottPlot/issues/488">#488</a>) <em>Thanks <a href="https://github.com/bclehmann">@bclehmann</a></em>
@@ -2853,8 +2824,7 @@ Description: Release notes for every version of ScottPlot
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.38</h1>
-<div><mark>Warning: NuGet package date is missing</mark></div>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2020-07-07</i></div>
 <div class='mt-1'>
 <ul>
 <li>Improved <code>Plot.PlotFillAboveBelow()</code> rendering of data with a non-zero baseline (<a href="https://github.com/ScottPlot/ScottPlot/issues/477">#477</a>) <em>Thanks <a href="https://github.com/el-aasi">@el-aasi</a></em>
@@ -2892,8 +2862,7 @@ Description: Release notes for every version of ScottPlot
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.37</h1>
-<div><mark>Warning: NuGet package date is missing</mark></div>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2020-06-22</i></div>
 <div class='mt-1'>
 <ul>
 <li>Fixed a long-running issue related to strong assembly versioning that caused the WPF control to fail to render in the Visual Studio designer in .NET Framework (but not .NET Core) projects (<a href="https://github.com/ScottPlot/ScottPlot/issues/473">#473</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/466">#466</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/356">#356</a>) <em>Thanks <a href="https://github.com/bhairav-thakkar">@bhairav-thakkar</a>, <a href="https://github.com/riquich">@riquich</a>, <a href="https://github.com/Helitune-RobMcKay">@Helitune-RobMcKay</a>, and <a href="https://github.com/iu2kxv">@iu2kxv</a></em>
@@ -2917,8 +2886,7 @@ Description: Release notes for every version of ScottPlot
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.36</h1>
-<div><mark>Warning: NuGet package date is missing</mark></div>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2020-06-22</i></div>
 <div class='mt-1'>
 <ul>
 <li><code>PlotSignal()</code> and <code>PlotSignalXY()</code> plots now have an optional <code>useParallel</code> argument (and public property on the objects they return) to allow the user to decide whether parallel or sequential calculations will be performed. (<a href="https://github.com/ScottPlot/ScottPlot/issues/454">#454</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/419">#419</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/245">#245</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/72">#72</a>) <em>Thanks <a href="https://github.com/StendProg">@StendProg</a></em>
@@ -2951,8 +2919,7 @@ Description: Release notes for every version of ScottPlot
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.35</h1>
-<div><mark>Warning: NuGet package date is missing</mark></div>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2020-06-09</i></div>
 <div class='mt-1'>
 <ul>
 <li>Added <code>processEvents</code> argument to <code>formsPlot2.Render()</code> to provide a performance enhancement when linking axes of two <code>FormsPlot</code> controls together (by calling <code>Plot.MatchAxis()</code> from the control's <code>AxesChanged</code> event, as seen in the <em>Linked Axes</em> demo application) (<a href="https://github.com/ScottPlot/ScottPlot/issues/451">#451</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/452">#452</a>) <em>Thanks <a href="https://github.com/StendProg">@StendProg</a> and <a href="https://github.com/robokamran">@robokamran</a></em>
@@ -3002,8 +2969,7 @@ Description: Release notes for every version of ScottPlot
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.34</h1>
-<div><mark>Warning: NuGet package date is missing</mark></div>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2020-05-18</i></div>
 <div class='mt-1'>
 <ul>
 <li>Improve display of <code>PlotSignalXY()</code> by not rendering markers when zoomed very far out (<a href="https://github.com/ScottPlot/ScottPlot/issues/402">#402</a>) <em>Thanks <a href="https://github.com/gobikulandaisamy">@gobikulandaisamy</a></em>
@@ -3026,8 +2992,7 @@ Description: Release notes for every version of ScottPlot
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.33</h1>
-<div><mark>Warning: NuGet package date is missing</mark></div>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2020-05-18</i></div>
 <div class='mt-1'>
 <ul>
 <li>Force grid lines to always draw using anti-aliasing. This compensates for a bug in <code>System.Drawing</code> that may cause diagonal line artifacts to appear when the user controls were panned or zoomed. (<a href="https://github.com/ScottPlot/ScottPlot/issues/401">#401</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/327">#327</a>) <em>Thanks <a href="https://github.com/bukkideme">@bukkideme</a> and <a href="https://github.com/Ichibot200">@Ichibot200</a></em>
@@ -3047,8 +3012,7 @@ Description: Release notes for every version of ScottPlot
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.32</h1>
-<div><mark>Warning: NuGet package date is missing</mark></div>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2020-05-17</i></div>
 <div class='mt-1'>
 <ul>
 <li>User controls now have a <code>GetMouseCoordinates()</code> method which returns the DPI-aware position of the mouse in graph coordinates (<a href="https://github.com/ScottPlot/ScottPlot/issues/379">#379</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/380">#380</a>) <em>Thanks <a href="https://github.com/bclehmann">@bclehmann</a></em>
@@ -3097,8 +3061,7 @@ Description: Release notes for every version of ScottPlot
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.31</h1>
-<div><mark>Warning: NuGet package date is missing</mark></div>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2020-05-06</i></div>
 <div class='mt-1'>
 <ul>
 <li>Created <code>Plot.PlotBarGroups()</code> for easier construction of grouped bar plots from 2D data (<a href="https://github.com/ScottPlot/ScottPlot/issues/367">#367</a>) <em>Thanks <a href="https://github.com/bclehmann">@bclehmann</a></em>
@@ -3130,8 +3093,7 @@ Description: Release notes for every version of ScottPlot
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.30</h1>
-<div><mark>Warning: NuGet package date is missing</mark></div>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2020-05-04</i></div>
 <div class='mt-1'>
 <ul>
 <li><code>Plot.PlotCandlestick()</code> and <code>Plot.PlotOHLC()</code>
@@ -3179,8 +3141,7 @@ Description: Release notes for every version of ScottPlot
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.29</h1>
-<div><mark>Warning: NuGet package date is missing</mark></div>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2020-04-11</i></div>
 <div class='mt-1'>
 <ul>
 <li><code>Plot.PlotFill()</code> can be used to make scatter plots with shaded regions. Giving it a single pair of X/Y values (<code>xs, ys</code>) lets you shade beneath the curve to the <code>baseline</code> value (which defaults to 0). You can also give it a pair of X/Y values (<code>xs1, ys1, xs2, ys2</code>) and the area between the two curves will be shaded (the two curves do not need to be the same length). See cookbook for examples. (<a href="https://github.com/ScottPlot/ScottPlot/issues/255">#255</a>) <em>Thanks <a href="https://github.com/ckovamees">@ckovamees</a></em>
@@ -3216,8 +3177,7 @@ Description: Release notes for every version of ScottPlot
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.28</h1>
-<div><mark>Warning: NuGet package date is missing</mark></div>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2020-04-07</i></div>
 <div class='mt-1'>
 <ul>
 <li><code>Ticks()</code> now has arguments for numericStringFormat (X and Y) to make it easy to customize formatting of tick labels (percentage, currency, scientific notation, etc.) using standard <a href="https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings">numeric format strings</a>. Example use is demonstrated in the cookbook. (<a href="https://github.com/ScottPlot/ScottPlot/issues/336">#336</a>) <em>Thanks <a href="https://github.com/deiruch">@deiruch</a></em>
@@ -3239,8 +3199,7 @@ Description: Release notes for every version of ScottPlot
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.27</h1>
-<div><mark>Warning: NuGet package date is missing</mark></div>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2020-04-05</i></div>
 <div class='mt-1'>
 <ul>
 <li><code>Plot.Polygon()</code> can now be used to plot polygons from X/Y points (<a href="https://github.com/ScottPlot/ScottPlot/issues/255">#255</a>) <em>Thanks <a href="https://github.com/ckovamees">@ckovamees</a></em>
@@ -3271,8 +3230,7 @@ Description: Release notes for every version of ScottPlot
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.26</h1>
-<div><mark>Warning: NuGet package date is missing</mark></div>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2020-04-05</i></div>
 <div class='mt-1'>
 <ul>
 <li>The <code>ScottPlot.WPF</code> package (which provides the <code>WpfPlot</code> user control) now targets .NET Framework 4.7.2 (in addition to .NET Core 3.0), allowing it to be used in applications which target either platform. The ScottPlot demo application now targets .NET Framework 4.7.2 which should be easier to run on most Windows systems. (<a href="https://github.com/ScottPlot/ScottPlot/issues/333">#333</a>)
@@ -3292,8 +3250,7 @@ Description: Release notes for every version of ScottPlot
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.25</h1>
-<div><mark>Warning: NuGet package date is missing</mark></div>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2020-03-29</i></div>
 <div class='mt-1'>
 <ul>
 <li><code>PlotBar()</code> now supports displaying values above each bar graph by setting the <code>showValues</code> argument.
@@ -3319,8 +3276,7 @@ Description: Release notes for every version of ScottPlot
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.24</h1>
-<div><mark>Warning: NuGet package date is missing</mark></div>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2020-03-27</i></div>
 <div class='mt-1'>
 <ul>
 <li><code>Plot.Clear()</code> has been improved to more effectively clear plottable objects. Various overloads are provided to selectively clear or preserve certain plot types. (<a href="https://github.com/ScottPlot/ScottPlot/issues/275">#275</a>) <em>Thanks <a href="https://github.com/StendProg">@StendProg</a></em>
@@ -3342,8 +3298,7 @@ Description: Release notes for every version of ScottPlot
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.23</h1>
-<div><mark>Warning: NuGet package date is missing</mark></div>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2020-03-23</i></div>
 <div class='mt-1'>
 <ul>
 <li>Interactive plot viewers were created to make it easy to interactively display data in a pop-up window without having to write any GUI code: <code>ScottPlot.WpfPlotViewer</code> for WPF and <code>ScottPlot.FormsPlotViewer</code> for Windows Forms
@@ -3383,8 +3338,7 @@ Description: Release notes for every version of ScottPlot
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.22</h1>
-<div><mark>Warning: NuGet package date is missing</mark></div>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2020-03-17</i></div>
 <div class='mt-1'>
 <ul>
 <li>Added support for custom horizontal axis tick rotation (<a href="https://github.com/ScottPlot/ScottPlot/issues/300">#300</a>) <em>Thanks <a href="https://github.com/SeidChr">@SeidChr</a></em>
@@ -3414,8 +3368,7 @@ Description: Release notes for every version of ScottPlot
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.21</h1>
-<div><mark>Warning: NuGet package date is missing</mark></div>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2020-03-15</i></div>
 <div class='mt-1'>
 <ul>
 <li>Created new cookbook and demo applications for WinForms and WPF (<a href="https://github.com/ScottPlot/ScottPlot/issues/271">#271</a>)
@@ -3465,8 +3418,7 @@ Description: Release notes for every version of ScottPlot
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.19</h1>
-<div><mark>Warning: NuGet package date is missing</mark></div>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2020-02-29</i></div>
 <div class='mt-1'>
 <ul>
 <li>Improved how markers are drawn in Signal and SignalConst plots at the transition area between zoomed out and zoomed in (<a href="https://github.com/ScottPlot/ScottPlot/issues/263">#263</a>) <em>Thanks <a href="https://github.com/bukkideme">@bukkideme</a> and <a href="https://github.com/StendProg">@StendProg</a></em>
@@ -3513,8 +3465,7 @@ Description: Release notes for every version of ScottPlot
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.18</h1>
-<div><mark>Warning: NuGet package date is missing</mark></div>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2020-02-07</i></div>
 <div class='mt-1'>
 <ul>
 <li>Added <code>Plot.SetCulture()</code> for improved local culture formatting of numerical and DateTime axis tick labels (<a href="https://github.com/ScottPlot/ScottPlot/issues/236">#236</a>) <em>Thanks <a href="https://github.com/teejay-87">@teejay-87</a></em>
@@ -3533,8 +3484,7 @@ Description: Release notes for every version of ScottPlot
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.17</h1>
-<div><mark>Warning: NuGet package date is missing</mark></div>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2020-02-06</i></div>
 <div class='mt-1'>
 <ul>
 <li>Added <code>mouseCoordinates</code> property to WinForms and WPF controls (<a href="https://github.com/ScottPlot/ScottPlot/issues/235">#235</a>) <em>Thanks <a href="https://github.com/bukkideme">@bukkideme</a></em>
@@ -3558,8 +3508,7 @@ Description: Release notes for every version of ScottPlot
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.16</h1>
-<div><mark>Warning: NuGet package date is missing</mark></div>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2020-02-02</i></div>
 <div class='mt-1'>
 <ul>
 <li>Improved support for MacOS and Linux (<a href="https://github.com/ScottPlot/ScottPlot/issues/211">#211</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/212">#212</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/216">#216</a>) <em>Thanks <a href="https://github.com/hexxone">@hexxone</a> and <a href="https://github.com/StendProg">@StendProg</a></em>
@@ -3607,8 +3556,7 @@ Description: Release notes for every version of ScottPlot
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.14</h1>
-<div><mark>Warning: NuGet package date is missing</mark></div>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2020-01-24</i></div>
 <div class='mt-1'>
 <ul>
 <li>Improved <code>MatchAxis()</code> and <code>MatchLayout()</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/217">#217</a>) <em>Thanks <a href="https://github.com/ckovamees">@ckovamees</a> and <a href="https://github.com/StendProg">@StendProg</a></em>
@@ -3628,8 +3576,7 @@ Description: Release notes for every version of ScottPlot
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.13</h1>
-<div><mark>Warning: NuGet package date is missing</mark></div>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2020-01-21</i></div>
 <div class='mt-1'>
 <ul>
 <li>Improved support for Linux and MacOS <em>Thanks <a href="https://github.com/hexxone">@hexxone</a></em>
@@ -3651,8 +3598,7 @@ Description: Release notes for every version of ScottPlot
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.11</h1>
-<div><mark>Warning: NuGet package date is missing</mark></div>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2020-01-19</i></div>
 <div class='mt-1'>
 <ul>
 <li>User controls now have a <code>cursor</code> property which can be set to allow custom cursors. (<a href="https://github.com/ScottPlot/ScottPlot/issues/187">#187</a>) <em>Thanks <a href="https://github.com/gobikulandaisamy">@gobikulandaisamy</a></em>
@@ -3673,8 +3619,7 @@ Description: Release notes for every version of ScottPlot
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.0.10</h1>
-<div><mark>Warning: NuGet package date is missing</mark></div>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2020-01-18</i></div>
 <div class='mt-1'>
 <ul>
 <li>Improved density colormap (<a href="https://github.com/ScottPlot/ScottPlot/issues/192">#192</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/194">#194</a>) <em>Thanks <a href="https://github.com/StendProg">@StendProg</a></em>
