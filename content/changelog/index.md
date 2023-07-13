@@ -29,15 +29,18 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Scatter Plot: Improve support for empty datasets (<a href="https://github.com/ScottPlot/ScottPlot/issues/2740">#2740</a>)
 </li>
+<li>Scatter Plot: Improve support for user-defined line widths (<a href="https://github.com/ScottPlot/ScottPlot/issues/2739">#2739</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2750">#2750</a>) <em>Thanks <a href="https://github.com/dayo05">@dayo05</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/ahmad-qamar'>ahmad-qamar</a>, <a href='https://github.com/PremekTill'>PremekTill</a>, <a href='https://github.com/swharden'>swharden</a>
+<a href='https://github.com/ahmad-qamar'>ahmad-qamar</a>, <a href='https://github.com/PremekTill'>PremekTill</a>, <a href='https://github.com/dayo05'>dayo05</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/ahmad-qamar'><img src='https://scottplot.net/images/contributors/ahmad-qamar.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/PremekTill'><img src='https://scottplot.net/images/contributors/premektill.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/dayo05'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
