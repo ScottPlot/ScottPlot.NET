@@ -41,6 +41,10 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Fonts: Favor the system default font to achieve better support international characters (<a href="https://github.com/ScottPlot/ScottPlot/issues/2746">#2746</a>) <em>Thanks <a href="https://github.com/heartacker">@heartacker</a></em>
 </li>
+<li>Plot: Added <code>ScaleFactor</code> property to manage scaling of all plot components (<a href="https://github.com/ScottPlot/ScottPlot/issues/2747">#2747</a>) <em>Thanks <a href="https://github.com/heartacker">@heartacker</a></em>
+</li>
+<li>WinForms: Automatically adjust plot scaling to match display scaling (<a href="https://github.com/ScottPlot/ScottPlot/issues/2747">#2747</a>) <em>Thanks <a href="https://github.com/heartacker">@heartacker</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
