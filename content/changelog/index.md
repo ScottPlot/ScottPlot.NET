@@ -39,6 +39,8 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Plot: Added <code>Title()</code>, <code>XLabel()</code>, and <code>YLabel()</code> helper methods
 </li>
+<li>Fonts: Favor the system default font to achieve better support international characters (<a href="https://github.com/ScottPlot/ScottPlot/issues/2746">#2746</a>) <em>Thanks <a href="https://github.com/heartacker">@heartacker</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
