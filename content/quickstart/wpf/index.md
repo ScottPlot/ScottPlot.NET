@@ -8,9 +8,16 @@ date: 2021-09-26
 **Step 1:** Install the [`ScottPlot.WPF`](https://www.nuget.org/packages/ScottPlot.WPF) NuGet package
 
 **Step 2:** Add this to the root element of your XAML file:
-```xml
+
+{{< code-sp4sp5 >}}
+
 xmlns:ScottPlot="clr-namespace:ScottPlot;assembly=ScottPlot.WPF"
-```
+
+---
+
+xmlns:ScottPlot="clr-namespace:ScottPlot.WPF;assembly=ScottPlot.WPF"
+
+{{< /code-sp4sp5 >}}
 
 **Step 3:** Add a `WpfPlot` to your layout and give it a unique name
 ```xml
