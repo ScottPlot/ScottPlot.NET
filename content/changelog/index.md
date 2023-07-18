@@ -45,6 +45,10 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>WinForms: Automatically adjust plot scaling to match display scaling (<a href="https://github.com/ScottPlot/ScottPlot/issues/2747">#2747</a>) <em>Thanks <a href="https://github.com/heartacker">@heartacker</a></em>
 </li>
+<li>Plot: Added a <code>RenderManager</code> which has a <code>List&lt;RenderAction&gt;</code> the user can modify to customize the render sequence (<a href="https://github.com/ScottPlot/ScottPlot/issues/2767">#2767</a>)
+</li>
+<li>Plot: Refactored rendering system for all plottables, axes, etc. so canvases (not surfaces) are passed (<a href="https://github.com/ScottPlot/ScottPlot/issues/2767">#2767</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
