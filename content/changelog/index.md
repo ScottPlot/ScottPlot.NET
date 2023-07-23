@@ -51,6 +51,8 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>WPF: Improved support for display scaling (<a href="https://github.com/ScottPlot/ScottPlot/issues/2760">#2760</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2766">#2766</a>) <em>Thanks <a href="https://github.com/DmitryKotenev">@DmitryKotenev</a></em>
 </li>
+<li>Plot: Added support for SVG export (<a href="https://github.com/ScottPlot/ScottPlot/issues/2704">#2704</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/717">#717</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
