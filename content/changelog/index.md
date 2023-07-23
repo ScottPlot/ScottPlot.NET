@@ -55,6 +55,8 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Legend: Respect <code>IsVisible</code> property (<a href="https://github.com/ScottPlot/ScottPlot/issues/2805">#2805</a>)
 </li>
+<li>Ticks: Added <code>NumericManual</code> tick generator for manually-defined tick positions and labels
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
