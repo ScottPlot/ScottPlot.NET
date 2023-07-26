@@ -69,11 +69,17 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Color: Added <code>WithAlpha()</code> method that accepts a fraction (<a href="https://github.com/ScottPlot/ScottPlot/issues/2794">#2794</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2776">#2776</a>) <em>Thanks <a href="https://github.com/mjpz">@mjpz</a></em>
 </li>
+<li>Coordinates: Added <code>Distance()</code> method for calculating distance between two points in axis space (<a href="https://github.com/ScottPlot/ScottPlot/issues/2791">#2791</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2798">#2798</a>) <em>Thanks <a href="https://github.com/able-j">@able-j</a></em>
+</li>
+<li>CoordinateRect: Added a <code>Center</code> property that returns a <code>Coordinates</code> value in axis space (<a href="https://github.com/ScottPlot/ScottPlot/issues/2789">#2789</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2812">#2812</a>) <em>Thanks <a href="https://github.com/tijin-abe-thomas">@tijin-abe-thomas</a></em>
+</li>
+<li>CoordinateRect: Added a <code>Contains()</code> method to evaluate whether given <code>Coordinates</code> are inside the rectangle (<a href="https://github.com/ScottPlot/ScottPlot/issues/2790">#2790</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2813">#2813</a>) <em>Thanks <a href="https://github.com/tijin-abe-thomas">@tijin-abe-thomas</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/ahmad-qamar'>ahmad-qamar</a>, <a href='https://github.com/PremekTill'>PremekTill</a>, <a href='https://github.com/dayo05'>dayo05</a>, <a href='https://github.com/heartacker'>heartacker</a>, <a href='https://github.com/DmitryKotenev'>DmitryKotenev</a>, <a href='https://github.com/Silent0Wings'>Silent0Wings</a>, <a href='https://github.com/mjpz'>mjpz</a>, <a href='https://github.com/swharden'>swharden</a>
+<a href='https://github.com/ahmad-qamar'>ahmad-qamar</a>, <a href='https://github.com/PremekTill'>PremekTill</a>, <a href='https://github.com/dayo05'>dayo05</a>, <a href='https://github.com/heartacker'>heartacker</a>, <a href='https://github.com/DmitryKotenev'>DmitryKotenev</a>, <a href='https://github.com/Silent0Wings'>Silent0Wings</a>, <a href='https://github.com/mjpz'>mjpz</a>, <a href='https://github.com/able-j'>able-j</a>, <a href='https://github.com/tijin-abe-thomas'>tijin-abe-thomas</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/ahmad-qamar'><img src='https://scottplot.net/images/contributors/ahmad-qamar.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -83,6 +89,8 @@ Description: Release notes for every version of ScottPlot
 <a href='https://github.com/DmitryKotenev'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Silent0Wings'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/mjpz'><img src='https://scottplot.net/images/contributors/mjpz.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/able-j'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/tijin-abe-thomas'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
