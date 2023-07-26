@@ -31,9 +31,7 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Scatter Plot: Improve support for user-defined line widths (<a href="https://github.com/ScottPlot/ScottPlot/issues/2739">#2739</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2750">#2750</a>) <em>Thanks <a href="https://github.com/dayo05">@dayo05</a></em>
 </li>
-<li>Fonts: Users can now assign <code>Fonts.Default</code> to set the font for all labels (<a href="https://github.com/ScottPlot/ScottPlot/issues/2753">#2753</a>)
-</li>
-<li>Fonts: Added <code>Fonts.Detect()</code> to facilitate selecting fonts that support international characters (<a href="https://github.com/ScottPlot/ScottPlot/issues/2746">#2746</a>) <em>Thanks <a href="https://github.com/heartacker">@heartacker</a></em>
+<li>Fonts: New static class to facilitate selecting fonts that support international characters (<a href="https://github.com/ScottPlot/ScottPlot/issues/2746">#2746</a>) <em>Thanks <a href="https://github.com/heartacker">@heartacker</a></em>
 </li>
 <li>Axis: Exposed <code>TickFont</code> to allow tick label size and style customization (<a href="https://github.com/ScottPlot/ScottPlot/issues/2747">#2747</a>) <em>Thanks <a href="https://github.com/heartacker">@heartacker</a></em>
 </li>
@@ -56,6 +54,12 @@ Description: Release notes for every version of ScottPlot
 <li>Legend: Respect <code>IsVisible</code> property (<a href="https://github.com/ScottPlot/ScottPlot/issues/2805">#2805</a>)
 </li>
 <li>Ticks: Added <code>NumericManual</code> tick generator for manually-defined tick positions and labels
+</li>
+<li>Plot: <code>Title()</code>, <code>XLabel()</code>, and <code>YLabel()</code> have optional arguments for <code>size</code>
+</li>
+<li>Plot: Added <code>Plot.Style.SetFont()</code> to apply the given font to all titles, axis labels, and tick labels
+</li>
+<li>Plot: Added <code>Plot.Style.SetFontFromText()</code> to apply system font that best supports the language of the provided text (<a href="https://github.com/ScottPlot/ScottPlot/issues/2746">#2746</a>) <em>Thanks <a href="https://github.com/heartacker">@heartacker</a></em>
 </li>
 </ul>
 </div>
