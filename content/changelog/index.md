@@ -67,11 +67,13 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Primitives: Refactored and added XML docs to <code>Pixel</code>, <code>PixelSize</code>, and <code>PixelRect</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/2784">#2784</a>)
 </li>
+<li>Color: Added <code>WithAlpha()</code> method that accepts a fraction (<a href="https://github.com/ScottPlot/ScottPlot/issues/2794">#2794</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2776">#2776</a>) <em>Thanks <a href="https://github.com/mjpz">@mjpz</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/ahmad-qamar'>ahmad-qamar</a>, <a href='https://github.com/PremekTill'>PremekTill</a>, <a href='https://github.com/dayo05'>dayo05</a>, <a href='https://github.com/heartacker'>heartacker</a>, <a href='https://github.com/DmitryKotenev'>DmitryKotenev</a>, <a href='https://github.com/Silent0Wings'>Silent0Wings</a>, <a href='https://github.com/swharden'>swharden</a>
+<a href='https://github.com/ahmad-qamar'>ahmad-qamar</a>, <a href='https://github.com/PremekTill'>PremekTill</a>, <a href='https://github.com/dayo05'>dayo05</a>, <a href='https://github.com/heartacker'>heartacker</a>, <a href='https://github.com/DmitryKotenev'>DmitryKotenev</a>, <a href='https://github.com/Silent0Wings'>Silent0Wings</a>, <a href='https://github.com/mjpz'>mjpz</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/ahmad-qamar'><img src='https://scottplot.net/images/contributors/ahmad-qamar.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -80,6 +82,7 @@ Description: Release notes for every version of ScottPlot
 <a href='https://github.com/heartacker'><img src='https://scottplot.net/images/contributors/heartacker.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/DmitryKotenev'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Silent0Wings'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/mjpz'><img src='https://scottplot.net/images/contributors/mjpz.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
