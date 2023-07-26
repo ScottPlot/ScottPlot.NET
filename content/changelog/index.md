@@ -63,6 +63,10 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>RandomDataGenerator: Improved XML docs and added methods for returning single numbers (<a href="https://github.com/ScottPlot/ScottPlot/issues/2774">#2774</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2787">#2787</a>) <em>Thanks <a href="https://github.com/Silent0Wings">@Silent0Wings</a></em>
 </li>
+<li>Pixel: Added constructor overload that accepts <code>double</code> values (<a href="https://github.com/ScottPlot/ScottPlot/issues/2780">#2780</a>) <em>Thanks <a href="https://github.com/Silent0Wings">@Silent0Wings</a></em>
+</li>
+<li>Primitives: Refactored and added XML docs to <code>Pixel</code>, <code>PixelSize</code>, and <code>PixelRect</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/2784">#2784</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
