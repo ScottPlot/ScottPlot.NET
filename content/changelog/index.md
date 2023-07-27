@@ -110,7 +110,7 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Cookbook: Remove &quot;experimental&quot; designator from ScatterPlotList (<a href="https://github.com/ScottPlot/ScottPlot/issues/2782">#2782</a>) <em>Thanks <a href="https://github.com/prime167">@prime167</a></em>
 </li>
-<li>Heatmap: Added <code>Rotation</code> property (<a href="https://github.com/ScottPlot/ScottPlot/issues/2814">#2814</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2815">#2815</a>) <em>Thanks <a href="https://github.com/bukkideme">@bukkideme</a></em>
+<li>Heatmap: Added <code>Rotation</code> and <code>CenterOfRotation</code> properties (<a href="https://github.com/ScottPlot/ScottPlot/issues/2814">#2814</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2815">#2815</a>) <em>Thanks <a href="https://github.com/bukkideme">@bukkideme</a></em>
 </li>
 </ul>
 </div>
