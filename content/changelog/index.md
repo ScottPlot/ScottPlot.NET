@@ -75,6 +75,8 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>CoordinateRect: Added a <code>Contains()</code> method to evaluate whether given <code>Coordinates</code> are inside the rectangle (<a href="https://github.com/ScottPlot/ScottPlot/issues/2790">#2790</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2813">#2813</a>) <em>Thanks <a href="https://github.com/tijin-abe-thomas">@tijin-abe-thomas</a></em>
 </li>
+<li>Crosshair: New plot type that draws a cross centered at a given position in X/Y space
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
