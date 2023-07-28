@@ -77,11 +77,13 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Crosshair: New plot type that draws a cross centered at a given position in X/Y space
 </li>
+<li>Avalonia: Support Avalonia version 11.0.1 (<a href="https://github.com/ScottPlot/ScottPlot/issues/2822">#2822</a>) <em>Thanks <a href="https://github.com/oktrue">@oktrue</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/ahmad-qamar'>ahmad-qamar</a>, <a href='https://github.com/PremekTill'>PremekTill</a>, <a href='https://github.com/dayo05'>dayo05</a>, <a href='https://github.com/heartacker'>heartacker</a>, <a href='https://github.com/DmitryKotenev'>DmitryKotenev</a>, <a href='https://github.com/Silent0Wings'>Silent0Wings</a>, <a href='https://github.com/mjpz'>mjpz</a>, <a href='https://github.com/able-j'>able-j</a>, <a href='https://github.com/tijin-abe-thomas'>tijin-abe-thomas</a>, <a href='https://github.com/swharden'>swharden</a>
+<a href='https://github.com/ahmad-qamar'>ahmad-qamar</a>, <a href='https://github.com/PremekTill'>PremekTill</a>, <a href='https://github.com/dayo05'>dayo05</a>, <a href='https://github.com/heartacker'>heartacker</a>, <a href='https://github.com/DmitryKotenev'>DmitryKotenev</a>, <a href='https://github.com/Silent0Wings'>Silent0Wings</a>, <a href='https://github.com/mjpz'>mjpz</a>, <a href='https://github.com/able-j'>able-j</a>, <a href='https://github.com/tijin-abe-thomas'>tijin-abe-thomas</a>, <a href='https://github.com/oktrue'>oktrue</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/ahmad-qamar'><img src='https://scottplot.net/images/contributors/ahmad-qamar.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -93,6 +95,7 @@ Description: Release notes for every version of ScottPlot
 <a href='https://github.com/mjpz'><img src='https://scottplot.net/images/contributors/mjpz.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/able-j'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/tijin-abe-thomas'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/oktrue'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
@@ -114,17 +117,23 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Heatmap: Added <code>Rotation</code> and <code>CenterOfRotation</code> properties (<a href="https://github.com/ScottPlot/ScottPlot/issues/2814">#2814</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2815">#2815</a>) <em>Thanks <a href="https://github.com/bukkideme">@bukkideme</a></em>
 </li>
+<li>WPF: Improved the <code>PlottableDragged</code> event (<a href="https://github.com/ScottPlot/ScottPlot/issues/2820">#2820</a>) <em>Thanks <a href="https://github.com/tadmccorkle">@tadmccorkle</a></em>
+</li>
+<li>Avalonia: Support Avalonia version 11.0.1 (<a href="https://github.com/ScottPlot/ScottPlot/issues/2822">#2822</a>) <em>Thanks <a href="https://github.com/oktrue">@oktrue</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/KroMignon'>KroMignon</a>, <a href='https://github.com/Fruchtzwerg94'>Fruchtzwerg94</a>, <a href='https://github.com/prime167'>prime167</a>, <a href='https://github.com/bukkideme'>bukkideme</a>, <a href='https://github.com/swharden'>swharden</a>
+<a href='https://github.com/KroMignon'>KroMignon</a>, <a href='https://github.com/Fruchtzwerg94'>Fruchtzwerg94</a>, <a href='https://github.com/prime167'>prime167</a>, <a href='https://github.com/bukkideme'>bukkideme</a>, <a href='https://github.com/tadmccorkle'>tadmccorkle</a>, <a href='https://github.com/oktrue'>oktrue</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/KroMignon'><img src='https://scottplot.net/images/contributors/kromignon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Fruchtzwerg94'><img src='https://scottplot.net/images/contributors/fruchtzwerg94.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/prime167'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/bukkideme'><img src='https://scottplot.net/images/contributors/bukkideme.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/tadmccorkle'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/oktrue'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
