@@ -79,6 +79,8 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Avalonia: Support Avalonia version 11.0.1 (<a href="https://github.com/ScottPlot/ScottPlot/issues/2822">#2822</a>) <em>Thanks <a href="https://github.com/oktrue">@oktrue</a></em>
 </li>
+<li>Controls: Now have <code>GetCoordinates()</code> with built-in logic for display scaling compensation (<a href="https://github.com/ScottPlot/ScottPlot/issues/2760">#2760</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
