@@ -22,7 +22,12 @@ jobs:
         run: dotnet build "dev/ChangelogPageMaker" --configuration Release --no-restore
       - name: 🧪 Test
         run: dotnet test "dev/ChangelogPageMaker" --no-restore --verbosity minimal
+      - name: 🧐 Inspect Changes
+        id: verify_diff
+        run: |
+          git diff --quiet . || echo "changed=true" >> $GITHUB_OUTPUT
       - name: ✅ Commit Changes
+        if: steps.verify_diff.outputs.changed == 'true'
         run: |
           git config --global user.name 'Scott W Harden (via GitHub Actions)'
           git config --global user.email 'swharden@gmail.com'
