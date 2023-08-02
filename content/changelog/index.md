@@ -81,11 +81,15 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Controls: Now have <code>GetCoordinates()</code> with built-in logic for display scaling compensation (<a href="https://github.com/ScottPlot/ScottPlot/issues/2760">#2760</a>)
 </li>
+<li>Rendering: Improve multi-platform color support (<a href="https://github.com/ScottPlot/ScottPlot/issues/2818">#2818</a>) <em>Thanks <a href="https://github.com/KroMignon">@KroMignon</a> and <a href="https://github.com/oktrue">@oktrue</a></em>
+</li>
+<li>Random Data Generation: Added an optional <code>slope</code> argument to <code>RandomWalk()</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/2763">#2763</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2826">#2826</a>) <em>Thanks <a href="https://github.com/JasonC0x0D">@JasonC0x0D</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/ahmad-qamar'>ahmad-qamar</a>, <a href='https://github.com/PremekTill'>PremekTill</a>, <a href='https://github.com/dayo05'>dayo05</a>, <a href='https://github.com/heartacker'>heartacker</a>, <a href='https://github.com/DmitryKotenev'>DmitryKotenev</a>, <a href='https://github.com/Silent0Wings'>Silent0Wings</a>, <a href='https://github.com/mjpz'>mjpz</a>, <a href='https://github.com/able-j'>able-j</a>, <a href='https://github.com/tijin-abe-thomas'>tijin-abe-thomas</a>, <a href='https://github.com/oktrue'>oktrue</a>, <a href='https://github.com/swharden'>swharden</a>
+<a href='https://github.com/ahmad-qamar'>ahmad-qamar</a>, <a href='https://github.com/PremekTill'>PremekTill</a>, <a href='https://github.com/dayo05'>dayo05</a>, <a href='https://github.com/heartacker'>heartacker</a>, <a href='https://github.com/DmitryKotenev'>DmitryKotenev</a>, <a href='https://github.com/Silent0Wings'>Silent0Wings</a>, <a href='https://github.com/mjpz'>mjpz</a>, <a href='https://github.com/able-j'>able-j</a>, <a href='https://github.com/tijin-abe-thomas'>tijin-abe-thomas</a>, <a href='https://github.com/oktrue'>oktrue</a>, <a href='https://github.com/KroMignon'>KroMignon</a>, <a href='https://github.com/JasonC0x0D'>JasonC0x0D</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/ahmad-qamar'><img src='https://scottplot.net/images/contributors/ahmad-qamar.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -98,6 +102,8 @@ Description: Release notes for every version of ScottPlot
 <a href='https://github.com/able-j'><img src='https://scottplot.net/images/contributors/able-j.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/tijin-abe-thomas'><img src='https://scottplot.net/images/contributors/tijin-abe-thomas.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/oktrue'><img src='https://scottplot.net/images/contributors/oktrue.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/KroMignon'><img src='https://scottplot.net/images/contributors/kromignon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/JasonC0x0D'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
@@ -123,11 +129,13 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Avalonia: Support Avalonia version 11.0.1 (<a href="https://github.com/ScottPlot/ScottPlot/issues/2822">#2822</a>) <em>Thanks <a href="https://github.com/oktrue">@oktrue</a></em>
 </li>
+<li>Heatmap: Improved XML docs (<a href="https://github.com/ScottPlot/ScottPlot/issues/2738">#2738</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2827">#2827</a>) <em>Thanks <a href="https://github.com/JasonC0x0D">@JasonC0x0D</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/KroMignon'>KroMignon</a>, <a href='https://github.com/Fruchtzwerg94'>Fruchtzwerg94</a>, <a href='https://github.com/prime167'>prime167</a>, <a href='https://github.com/bukkideme'>bukkideme</a>, <a href='https://github.com/tadmccorkle'>tadmccorkle</a>, <a href='https://github.com/oktrue'>oktrue</a>, <a href='https://github.com/swharden'>swharden</a>
+<a href='https://github.com/KroMignon'>KroMignon</a>, <a href='https://github.com/Fruchtzwerg94'>Fruchtzwerg94</a>, <a href='https://github.com/prime167'>prime167</a>, <a href='https://github.com/bukkideme'>bukkideme</a>, <a href='https://github.com/tadmccorkle'>tadmccorkle</a>, <a href='https://github.com/oktrue'>oktrue</a>, <a href='https://github.com/JasonC0x0D'>JasonC0x0D</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/KroMignon'><img src='https://scottplot.net/images/contributors/kromignon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -136,6 +144,7 @@ Description: Release notes for every version of ScottPlot
 <a href='https://github.com/bukkideme'><img src='https://scottplot.net/images/contributors/bukkideme.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/tadmccorkle'><img src='https://scottplot.net/images/contributors/tadmccorkle.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/oktrue'><img src='https://scottplot.net/images/contributors/oktrue.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/JasonC0x0D'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
