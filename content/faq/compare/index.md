@@ -16,21 +16,8 @@ Description: Similarities and differences of ScottPlot vs. other popular .NET pl
 
 ## Similar Plotting Libraries for .NET
 
-**⚠️ WARNING: This section is a work in progress.** I started reviewing these libraries in 2019 but never finished. I at least produced code examples for most of these libraries. You can see that work in progress here: [C# Data Visualization](https://swharden.com/csdv/)
+A survey of common plotting libraries can be found here:
 
-### Free
-* Microsoft Charting
-* NPlot
-* ZedGraph
-* OxyPlot
-* LiveCharts
-* Interactive Data Display
-* ScottPlot
+* https://swharden.com/csdv/plotting-free/
 
-### Commercial
-* SciChart
-* DevExpress WPF Charting
-* DevExpress WPF Charting
-* Syncfusion WPF Charts
-* Infragistics Chart
-* Telerik Chart
+* https://swharden.com/csdv/plotting-commercial/
