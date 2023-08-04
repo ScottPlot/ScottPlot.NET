@@ -19,7 +19,7 @@ url: "versions"
 
 Feature | ScottPlot 5 | ScottPlot 4 | ScottPlot 3
 ---|---|---|---
-Stable API | ❌ | ✔️ | ⚠️ obsolete
+Release | ❌ preview | ✔️ stable | ⚠️ obsolete
 Performance | 🚀🚀🚀 | 🚀 | 🚀
 Graphics | SkiaSharp | System.Drawing.Common | System.Drawing.Common
 Windows | ✔️ | ✔️
@@ -27,5 +27,12 @@ Linux | ✔️ | ⚠️ only .NET 6 | ❌
 MacOS | ✔️ | ⚠️ only .NET 6 | ❌
 .NET Framework | ✔️ ≥4.6.2 | ✔️ ≥4.6.2 | ✔️ ≥4.5
 Nullable annotations | ✔️ | ❌ | ❌
+Windows Forms | ✔️ | ✔️ | ✔️
+WPF | ✔️ | ✔️ | ❌
+Avalonia | ✔️ | ✔️ | ❌
+Eto Forms | ✔️ | ✔️ | ❌
+Browser | ✔️ | ❌ | ❌
+WinUI | ✔️ | ❌ | ❌
+Android | ✔️ | ❌ | ❌
 
 </div></div>
