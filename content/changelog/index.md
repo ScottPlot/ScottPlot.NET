@@ -91,6 +91,8 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Legend: Now hidden by default with opt-in visibility by calling <code>Plot.Legend()</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/2764">#2764</a>)
 </li>
+<li>Style: <code>Plot.Axes</code> has been renamed to <code>Plot.AxisStyler</code> to better communicate its purpose (<a href="https://github.com/ScottPlot/ScottPlot/issues/2778">#2778</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
