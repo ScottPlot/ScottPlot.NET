@@ -85,6 +85,10 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Random Data Generation: Added an optional <code>slope</code> argument to <code>RandomWalk()</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/2763">#2763</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2826">#2826</a>) <em>Thanks <a href="https://github.com/JasonC0x0D">@JasonC0x0D</a></em>
 </li>
+<li>Browser: Improved support and documentation for running ScottPlot in the browser with Avalonia and WinUI (<a href="https://github.com/ScottPlot/ScottPlot/issues/2830">#2830</a>) <em>Thanks <a href="https://github.com/oktrue">@oktrue</a></em>
+</li>
+<li>Android: Improved support and documentation for running ScottPlot in Avalonia Android projects (<a href="https://github.com/ScottPlot/ScottPlot/issues/2830">#2830</a>) <em>Thanks <a href="https://github.com/oktrue">@oktrue</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
