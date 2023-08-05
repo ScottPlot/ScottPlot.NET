@@ -89,6 +89,8 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Android: Improved support and documentation for running ScottPlot in Avalonia Android projects (<a href="https://github.com/ScottPlot/ScottPlot/issues/2830">#2830</a>) <em>Thanks <a href="https://github.com/oktrue">@oktrue</a></em>
 </li>
+<li>Legend: Now hidden by default with opt-in visibility by calling <code>Plot.Legend()</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/2764">#2764</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
