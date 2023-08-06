@@ -95,6 +95,8 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Primitives: Created <code>ExpandingAxisLimits</code> helper class for creating <code>AxisLimits</code> inside plottables (<a href="https://github.com/ScottPlot/ScottPlot/issues/2799">#2799</a>)
 </li>
+<li>Plot: Added <code>Pan()</code> and <code>Zoom()</code> methods that do not require passing state like <code>MousePan()</code> and <code>MouseZoom()</code> do (<a href="https://github.com/ScottPlot/ScottPlot/issues/2800">#2800</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
