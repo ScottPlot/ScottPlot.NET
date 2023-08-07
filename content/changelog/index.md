@@ -97,6 +97,14 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Plot: Added <code>Pan()</code> and <code>Zoom()</code> methods that do not require passing state like <code>MousePan()</code> and <code>MouseZoom()</code> do (<a href="https://github.com/ScottPlot/ScottPlot/issues/2800">#2800</a>)
 </li>
+<li>Plot: Added <code>Plot.RenderManager.RenderFinished</code> event that provides a <code>RenderDetails</code> indicating whether axes or layout changed (<a href="https://github.com/ScottPlot/ScottPlot/issues/2801">#2801</a>)
+</li>
+<li>FormsPlot: Added <code>RefreshQueue()</code> to allow facilitate event-driven refreshing of multiple controls in single-thread applications (<a href="https://github.com/ScottPlot/ScottPlot/issues/2801">#2801</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2802">#2802</a>)
+</li>
+<li>Plot: Added <code>MatchAxisLimits()</code> to simplify applying limits from one plot to another in multi-control applications (<a href="https://github.com/ScottPlot/ScottPlot/issues/2802">#2802</a>)
+</li>
+<li>Layout: Added <code>MatchLayout()</code> and <code>FixedLayout()</code> as an alternative to the default <code>AutomaticLayout()</code> engine (<a href="https://github.com/ScottPlot/ScottPlot/issues/2802">#2802</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
