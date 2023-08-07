@@ -19,8 +19,8 @@ Description: Release notes for every version of ScottPlot
 
 </section>
 <section class='mb-5'>
-<h1 class='mb-0'>ScottPlot 5.0.7-beta (in development)</h1>
-<div><i>Not yet published as a NuGet package...</i></div>
+<h1 class='mb-0'>ScottPlot 5.0.7-beta</h1>
+<div><i>NuGet packages published 2023-08-06</i></div>
 <div class='mt-1'>
 <ul>
 <li>Axis: Fixed issue where axes with zero span would cause renders to fail (<a href="https://github.com/ScottPlot/ScottPlot/issues/2714">#2714</a>) <em>Thanks <a href="https://github.com/ahmad-qamar">@ahmad-qamar</a></em>
@@ -129,8 +129,8 @@ Description: Release notes for every version of ScottPlot
 
 </section>
 <section class='mb-5'>
-<h1 class='mb-0'>ScottPlot 4.1.66 (in development)</h1>
-<div><i>Not yet published as a NuGet package...</i></div>
+<h1 class='mb-0'>ScottPlot 4.1.66</h1>
+<div><i>NuGet packages published 2023-08-06</i></div>
 <div class='mt-1'>
 <ul>
 <li>DataLogger: Improved support for single-point datasets (<a href="https://github.com/ScottPlot/ScottPlot/issues/2733">#2733</a>) <em>Thanks <a href="https://github.com/KroMignon">@KroMignon</a></em>
