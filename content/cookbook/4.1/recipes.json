@@ -1,6 +1,6 @@
 {
-  "version": "4.1.65",
-  "generated": "2023-07-09T14:05:35.2009897Z",
+  "version": "4.1.66",
+  "generated": "2023-08-07T01:47:33.4983036Z",
   "recipes": [
     {
       "id": "Axis_label",
@@ -1635,6 +1635,14 @@
       "code": "var plt = new ScottPlot.Plot(600, 400);\n\ndouble[,] imageData = DataGen.SampleImageData();\nvar hm = plt.AddHeatmap(imageData, lockScales: false);\n\nhm.XMin = -100;\nhm.XMax = 100;\nhm.YMin = -10;\nhm.YMax = 10;\n\nplt.SaveFig(\u0022heatmap_placement.png\u0022);"
     },
     {
+      "id": "heatmap_rotation",
+      "category": "Heatmap",
+      "categoryFolder": "plottable-heatmap",
+      "title": "Heatmap Rotation",
+      "description": "A Heatmap can be rotated clockwise around around a user-specified center of rotation. Locking axis scales to enforce square pixels is recommended. Rotation occurs after any flipping operations.",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\ndouble[,] imageData = DataGen.SampleImageData();\n\nfor (int i = 0; i \u003C 5; i\u002B\u002B)\n{\n    var hm = plt.AddHeatmap(imageData, lockScales: true);\n    hm.XMin = 0;\n    hm.XMax = 1;\n    hm.YMin = 0;\n    hm.YMax = 1;\n    hm.Rotation = i * 10;\n}\n\nfor (int i = 0; i \u003C 5; i\u002B\u002B)\n{\n    var hm = plt.AddHeatmap(imageData, lockScales: true);\n    hm.XMin = 2;\n    hm.XMax = 3;\n    hm.YMin = 0;\n    hm.YMax = 1;\n\n    hm.CenterOfRotation = Alignment.MiddleCenter;\n\n    hm.Rotation = i * 10;\n}\n\nplt.SetAxisLimits(-1, 4, -1, 2);\n\nplt.SaveFig(\u0022heatmap_rotation.png\u0022);"
+    },
+    {
       "id": "heatmap_clipping",
       "category": "Heatmap",
       "categoryFolder": "plottable-heatmap",
@@ -2367,7 +2375,7 @@
       "category": "Scatter Plot",
       "categoryFolder": "plottable-scatter-plot",
       "title": "Scatter List Quickstart",
-      "description": "This experimental plot type has add/remove/clear methods like typical lists.",
+      "description": "This plot type has add/remove/clear methods like typical lists.",
       "code": "var plt = new ScottPlot.Plot(600, 400);\n\ndouble[] xs = { 1, 2, 3, 4 };\ndouble[] ys = { 1, 4, 9, 16 };\n\nvar scatterList = plt.AddScatterList();\nscatterList.AddRange(xs, ys);\nscatterList.Add(5, 25);\n\nplt.SaveFig(\u0022scatterList_quickstart.png\u0022);"
     },
     {
@@ -2383,7 +2391,7 @@
       "category": "Scatter Plot",
       "categoryFolder": "plottable-scatter-plot",
       "title": "Scatter List Draggable",
-      "description": "There exists an experimental Scatter Plot List with draggable points.",
+      "description": "There exists a Scatter Plot List with draggable points.",
       "code": "var plt = new ScottPlot.Plot(600, 400);\n\ndouble[] xs = ScottPlot.DataGen.Consecutive(51);\ndouble[] ys = ScottPlot.DataGen.Sin(51);\n\nvar scatter = new ScottPlot.Plottable.ScatterPlotListDraggable();\nscatter.AddRange(xs, ys);\n\nplt.Add(scatter);\n\nplt.SaveFig(\u0022scatterList_draggable.png\u0022);"
     },
     {
