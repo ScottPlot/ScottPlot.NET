@@ -2,13 +2,13 @@
 title: Configuring Legends - ScottPlot 5.0 Cookbook
 description: A legend is a key typically displayed in the corner of a plot
 url: /cookbook/5.0/configuring-legends/
-date: 7/9/2023 2:07:49 PM
+date: 8/7/2023 1:53:28 AM
 ---
 
 This page is part of the [ScottPlot 5.0 Cookbook](../)
 
 
-<div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.6-beta is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
+<div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.7-beta is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
 
 
 
@@ -27,13 +27,17 @@ sig1.Label = "Sin";
 var sig2 = myPlot.Add.Signal(Generate.Cos(51));
 sig2.Label = "Cos";
 
+// enable the legend
+myPlot.Legend();
+
+// get the legend so it can be further customized
 var legend = myPlot.GetLegend();
 legend.OutlineStyle.Color = Colors.Navy;
 legend.OutlineStyle.Width = 2;
 legend.BackgroundFill.Color = Colors.LightBlue;
 legend.ShadowFill.Color = Colors.Blue.WithOpacity(.5);
 legend.Font.Size = 16;
-legend.Font.Name = FontService.SerifFontName;
+legend.Font.Name = Fonts.Serif;
 legend.Alignment = Alignment.UpperCenter;
 
 myPlot.SavePng("legend-customization.png");
@@ -62,6 +66,10 @@ item2.Line.Color = Colors.Green;
 item2.Line.Width = 4;
 item2.Label = "Beta";
 
+// enable the legend
+myPlot.Legend();
+
+// get the legend so it can be further customized
 var legend = myPlot.GetLegend();
 legend.ManualLegendItems = new[] { item1, item2 };
 
@@ -84,6 +92,10 @@ sig1.Label = "Sin";
 var sig2 = myPlot.Add.Signal(Generate.Cos(51));
 sig2.Label = "Cos";
 
+// enable the legend
+myPlot.Legend();
+
+// get the legend so it can be further customized
 var legend = myPlot.GetLegend();
 legend.ManualLegendItems = sig1.LegendItems;
 

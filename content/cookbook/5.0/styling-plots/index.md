@@ -2,13 +2,13 @@
 title: Styling Plots - ScottPlot 5.0 Cookbook
 description: How to customize plots
 url: /cookbook/5.0/styling-plots/
-date: 7/9/2023 2:07:49 PM
+date: 8/7/2023 1:53:28 AM
 ---
 
 This page is part of the [ScottPlot 5.0 Cookbook](../)
 
 
-<div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.6-beta is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
+<div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.7-beta is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
 
 
 
@@ -27,7 +27,7 @@ myPlot.Add.Signal(Generate.Cos(51));
 // visible items have public properties that can be customized
 myPlot.XAxis.Label.Text = "Horizontal Axis";
 myPlot.YAxis.Label.Text = "Vertical Axis";
-myPlot.Title.Label.Text = "Plot Title";
+myPlot.TitlePanel.Label.Text = "Plot Title";
 
 // the Style object contains helper methods to easily style many items at once
 myPlot.Style.Background(figure: Color.FromHex("#07263b"), data: Color.FromHex("#0b3049"));
@@ -50,12 +50,12 @@ ScottPlot.Plot myPlot = new();
 myPlot.Add.Signal(Generate.Sin(51));
 myPlot.Add.Signal(Generate.Cos(51));
 
-myPlot.Title.Label.Text = "Plot Title";
-myPlot.Title.Label.Font.Color = Colors.RebeccaPurple;
-myPlot.Title.Label.Font.Size = 32;
-myPlot.Title.Label.Font.Name = FontService.SerifFontName;
-myPlot.Title.Label.Rotation = -5;
-myPlot.Title.Label.Font.Bold = false;
+myPlot.TitlePanel.Label.Text = "Plot Title";
+myPlot.TitlePanel.Label.Font.Color = Colors.RebeccaPurple;
+myPlot.TitlePanel.Label.Font.Size = 32;
+myPlot.TitlePanel.Label.Font.Name = Fonts.Serif;
+myPlot.TitlePanel.Label.Rotation = -5;
+myPlot.TitlePanel.Label.Font.Bold = false;
 
 myPlot.YAxis.Label.Text = "Vertical Axis";
 myPlot.YAxis.Label.Font.Color = Colors.Magenta;
@@ -63,7 +63,7 @@ myPlot.YAxis.Label.Font.Italic = true;
 
 myPlot.XAxis.Label.Text = "Horizontal Axis";
 myPlot.XAxis.Label.Font.Bold = false;
-myPlot.XAxis.Label.Font.Name = FontService.MonospaceFontName;
+myPlot.XAxis.Label.Font.Name = Fonts.Monospace;
 
 myPlot.XAxis.MajorTickLength = 10;
 myPlot.XAxis.MajorTickWidth = 3;
@@ -203,5 +203,22 @@ for (int i = 0; i < linePatterns.Length; i++)
 }
 
 myPlot.SavePng("line-styles.png");
+```
+
+
+## Scaling
+
+All components of an image can be scaled up or down in size by adjusting the ScaleFactor property. This is very useful for creating images that look nice on high DPI displays with display scaling enabled.
+
+[![](scaling.png)](scaling.png)
+
+```cs
+ScottPlot.Plot myPlot = new();
+
+myPlot.ScaleFactor = 2;
+myPlot.Add.Signal(Generate.Sin());
+myPlot.Add.Signal(Generate.Cos());
+
+myPlot.SavePng("scaling.png");
 ```
 

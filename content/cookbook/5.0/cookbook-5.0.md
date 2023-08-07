@@ -2,12 +2,12 @@
 title: ScottPlot 5.0 Cookbook
 description: Example plots shown next to the code used to create them
 url: /cookbook/5.0/
-date: 7/9/2023 2:07:49 PM
+date: 8/7/2023 1:53:28 AM
 ---
 
 
 
-<div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.6-beta is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
+<div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.7-beta is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
 
 
 ## Introduction
@@ -130,6 +130,15 @@ date: 7/9/2023 2:07:49 PM
 <div class='col'>
 <div><a href='styling-plots/#line-styles'><b>Line Styles</b></a></div>
 <div>Many plot types have a LineStyle which can be customized.</div>
+</div>
+</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='styling-plots/#scaling'><img class='img-fluid' src='styling-plots/scaling.png' /></a>
+</div>
+<div class='col'>
+<div><a href='styling-plots/#scaling'><b>Scaling</b></a></div>
+<div>All components of an image can be scaled up or down in size by adjusting the ScaleFactor property. This is very useful for creating images that look nice on high DPI displays with display scaling enabled.</div>
 </div>
 </div>
 <hr class='my-5' />
@@ -334,11 +343,11 @@ date: 7/9/2023 2:07:49 PM
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='error-bars/#multidimensional-errorbars'><img class='img-fluid' src='error-bars/multidimensional-errorbars.png' /></a>
+<a href='error-bars/#errorbar-values'><img class='img-fluid' src='error-bars/errorbar-values.png' /></a>
 </div>
 <div class='col'>
-<div><a href='error-bars/#multidimensional-errorbars'><b>MultiDimensional ErrorBars</b></a></div>
-<div>You can mix and match x and y error bars.</div>
+<div><a href='error-bars/#errorbar-values'><b>ErrorBar Values</b></a></div>
+<div>Error size can be set for all dimensions.</div>
 </div>
 </div>
 <div class='fs-4 mt-4'>FillY plot</div>

@@ -2,13 +2,13 @@
 title: Error Bars - ScottPlot 5.0 Cookbook
 description: Error Bars communicate the range of possible values for a measurement
 url: /cookbook/5.0/error-bars/
-date: 7/9/2023 2:07:49 PM
+date: 8/7/2023 1:53:28 AM
 ---
 
 This page is part of the [ScottPlot 5.0 Cookbook](../)
 
 
-<div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.6-beta is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
+<div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.7-beta is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
 
 
 
@@ -21,43 +21,50 @@ Error Bars go well with scatter plots.
 ```cs
 ScottPlot.Plot myPlot = new();
 
-int N = 50;
+int points = 30;
 
-double[] xs = Generate.Consecutive(N);
-double[] ys = Generate.RandomWalk(N);
-
-double[] yErrPositive = Generate.Random(N, 0.1, 0.25);
-double[] yErrNegative = Generate.Random(N, 0.1, 0.25);
+double[] xs = Generate.Consecutive(points);
+double[] ys = Generate.RandomWalk(points);
+double[] err = Generate.Random(points, 0.1, 1);
 
 var scatter = myPlot.Add.Scatter(xs, ys);
-var errorBars = myPlot.Add.ErrorBar(xs, ys, yErrorPositive: yErrPositive, yErrorNegative: yErrNegative, color: scatter.LineStyle.Color);
+var errorbars = myPlot.Add.ErrorBar(xs, ys, err);
+errorbars.Color = scatter.Color;
 
 myPlot.SavePng("error-bar-quickstart.png");
 ```
 
 
-## MultiDimensional ErrorBars
+## ErrorBar Values
 
-You can mix and match x and y error bars.
+Error size can be set for all dimensions.
 
-[![](multidimensional-errorbars.png)](multidimensional-errorbars.png)
+[![](errorbar-values.png)](errorbar-values.png)
 
 ```cs
 ScottPlot.Plot myPlot = new();
 
-int N = 50;
+int points = 10;
 
-double[] xs = Generate.Consecutive(N);
-double[] ys = Generate.RandomWalk(N);
+ScottPlot.RandomDataGenerator gen = new();
 
-double[] xErrPositive = Generate.Random(N, 0.1, 0.25);
-double[] xErrNegative = Generate.Random(N, 0.1, 0.25);
-double[] yErrPositive = Generate.Random(N, 0.1, 0.25);
-double[] yErrNegative = Generate.Random(N, 0.1, 0.25);
-
+double[] xs = Generate.Consecutive(points);
+double[] ys = Generate.RandomWalk(points);
 var scatter = myPlot.Add.Scatter(xs, ys);
-var errorBars = myPlot.Add.ErrorBar(xs, ys, xErrPositive, xErrNegative, yErrPositive, yErrNegative, scatter.LineStyle.Color);
+scatter.LineStyle.Width = 0;
 
-myPlot.SavePng("multidimensional-errorbars.png");
+ScottPlot.Plottables.ErrorBar eb = new(
+    xs: xs,
+    ys: ys,
+    xErrorsNegative: gen.RandomSample(points, .5),
+    xErrorsPositive: gen.RandomSample(points, .5),
+    yErrorsNegative: gen.RandomSample(points),
+    yErrorsPositive: gen.RandomSample(points));
+
+eb.Color = scatter.Color;
+
+myPlot.Add.Plottable(eb);
+
+myPlot.SavePng("errorbar-values.png");
 ```
 
