@@ -17,6 +17,10 @@ Description: Members of the open-source community who contributed to ScottPlot
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/brand/favicon.png' height='125' width='125'/></a></div>
+<div><a href='https://github.com/taya92413'>@taya92413</a></div>
+</div>
+<div class='bg-light border rounded text-center mx-3 my-2'>
+<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/p4pravin.png' height='125' width='125'/></a></div>
 <div><a href='https://github.com/p4pravin'>@p4pravin</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
