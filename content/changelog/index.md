@@ -27,6 +27,8 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Avalonia: Improved performance, DPI awareness, and color rendering (<a href="https://github.com/ScottPlot/ScottPlot/issues/2818">#2818</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2859">#2859</a>) <em>Thanks <a href="https://github.com/oktrue">@oktrue</a></em>
 </li>
+<li>Rename: <code>XMin</code>, <code>XMax</code>, <code>YMin</code>, and <code>YMax</code> properties are now <code>Left</code>, <code>Right</code>, <code>Bottom</code>, <code>Top</code> for all coordinate primitives (<a href="https://github.com/ScottPlot/ScottPlot/issues/2840">#2840</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
@@ -59,7 +61,7 @@ Description: Release notes for every version of ScottPlot
 <div class='text-center'>
 <a href='https://github.com/KroMignon'><img src='https://scottplot.net/images/contributors/kromignon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/p4pravin'><img src='https://scottplot.net/images/contributors/p4pravin.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/tinuskotze'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/tinuskotze'><img src='https://scottplot.net/images/contributors/tinuskotze.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
