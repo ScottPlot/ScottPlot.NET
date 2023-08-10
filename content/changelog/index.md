@@ -48,15 +48,18 @@ Description: Release notes for every version of ScottPlot
 <ul>
 <li>DataLogger: Improved appearance of legend items (<a href="https://github.com/ScottPlot/ScottPlot/issues/2829">#2829</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2850">#2850</a>) <em>Thanks <a href="https://github.com/KroMignon">@KroMignon</a> and <a href="https://github.com/p4pravin">@p4pravin</a></em>
 </li>
+<li>Radial Gauge Plot: Improved layout for plots with a large number of gauges (<a href="https://github.com/ScottPlot/ScottPlot/issues/2722">#2722</a>) <em>Thanks <a href="https://github.com/tinuskotze">@tinuskotze</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/KroMignon'>KroMignon</a>, <a href='https://github.com/p4pravin'>p4pravin</a>, <a href='https://github.com/swharden'>swharden</a>
+<a href='https://github.com/KroMignon'>KroMignon</a>, <a href='https://github.com/p4pravin'>p4pravin</a>, <a href='https://github.com/tinuskotze'>tinuskotze</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/KroMignon'><img src='https://scottplot.net/images/contributors/kromignon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/p4pravin'><img src='https://scottplot.net/images/contributors/p4pravin.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/tinuskotze'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
