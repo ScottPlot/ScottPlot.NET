@@ -25,15 +25,18 @@ Description: Release notes for every version of ScottPlot
 <ul>
 <li>Rendering: Improved performance by caching typefaces (<a href="https://github.com/ScottPlot/ScottPlot/issues/2833">#2833</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2848">#2848</a>) <em>Thanks <a href="https://github.com/KroMignon">@KroMignon</a> and <a href="https://github.com/taya92413">@taya92413</a></em>
 </li>
+<li>Avalonia: Improved performance, DPI awareness, and color rendering (<a href="https://github.com/ScottPlot/ScottPlot/issues/2818">#2818</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2859">#2859</a>) <em>Thanks <a href="https://github.com/oktrue">@oktrue</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/KroMignon'>KroMignon</a>, <a href='https://github.com/taya92413'>taya92413</a>, <a href='https://github.com/swharden'>swharden</a>
+<a href='https://github.com/KroMignon'>KroMignon</a>, <a href='https://github.com/taya92413'>taya92413</a>, <a href='https://github.com/oktrue'>oktrue</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/KroMignon'><img src='https://scottplot.net/images/contributors/kromignon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/taya92413'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/taya92413'><img src='https://scottplot.net/images/contributors/taya92413.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/oktrue'><img src='https://scottplot.net/images/contributors/oktrue.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 

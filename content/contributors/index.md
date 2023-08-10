@@ -16,8 +16,12 @@ Description: Members of the open-source community who contributed to ScottPlot
 <div><a href='https://github.com/KroMignon'>@KroMignon</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
-<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/brand/favicon.png' height='125' width='125'/></a></div>
+<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/taya92413.png' height='125' width='125'/></a></div>
 <div><a href='https://github.com/taya92413'>@taya92413</a></div>
+</div>
+<div class='bg-light border rounded text-center mx-3 my-2'>
+<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/oktrue.png' height='125' width='125'/></a></div>
+<div><a href='https://github.com/oktrue'>@oktrue</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/p4pravin.png' height='125' width='125'/></a></div>
@@ -58,10 +62,6 @@ Description: Members of the open-source community who contributed to ScottPlot
 <div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/tijin-abe-thomas.jpg' height='125' width='125'/></a></div>
 <div><a href='https://github.com/tijin-abe-thomas'>@tijin-abe-thomas</a></div>
-</div>
-<div class='bg-light border rounded text-center mx-3 my-2'>
-<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/oktrue.png' height='125' width='125'/></a></div>
-<div><a href='https://github.com/oktrue'>@oktrue</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/jasonc0x0d.png' height='125' width='125'/></a></div>
