@@ -31,6 +31,8 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Plot: Improve <code>AutoScale()</code> customization using <code>Margins()</code> to define whitespace area (<a href="https://github.com/ScottPlot/ScottPlot/issues/2857">#2857</a>)
 </li>
+<li>Primitives: Improved equality checks (<a href="https://github.com/ScottPlot/ScottPlot/issues/2855">#2855</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
