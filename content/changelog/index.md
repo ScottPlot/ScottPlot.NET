@@ -29,6 +29,8 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Rename: <code>XMin</code>, <code>XMax</code>, <code>YMin</code>, and <code>YMax</code> properties are now <code>Left</code>, <code>Right</code>, <code>Bottom</code>, <code>Top</code> for all coordinate primitives (<a href="https://github.com/ScottPlot/ScottPlot/issues/2840">#2840</a>)
 </li>
+<li>Plot: Improve <code>AutoScale()</code> customization using <code>Margins()</code> to define whitespace area (<a href="https://github.com/ScottPlot/ScottPlot/issues/2857">#2857</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
@@ -51,6 +53,8 @@ Description: Release notes for every version of ScottPlot
 <li>DataLogger: Improved appearance of legend items (<a href="https://github.com/ScottPlot/ScottPlot/issues/2829">#2829</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2850">#2850</a>) <em>Thanks <a href="https://github.com/KroMignon">@KroMignon</a> and <a href="https://github.com/p4pravin">@p4pravin</a></em>
 </li>
 <li>Radial Gauge Plot: Improved layout for plots with a large number of gauges (<a href="https://github.com/ScottPlot/ScottPlot/issues/2722">#2722</a>) <em>Thanks <a href="https://github.com/tinuskotze">@tinuskotze</a></em>
+</li>
+<li>DataLogger: Added support for markers (<a href="https://github.com/ScottPlot/ScottPlot/issues/2862">#2862</a>) <em>Thanks <a href="https://github.com/KroMignon">@KroMignon</a></em>
 </li>
 </ul>
 </div>
