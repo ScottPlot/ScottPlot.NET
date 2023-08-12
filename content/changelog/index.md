@@ -64,17 +64,20 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>AxisLimits: Added <code>WithPan()</code> overloads to facilitate panning in interactive applications (<a href="https://github.com/ScottPlot/ScottPlot/issues/2863">#2863</a>) <em>Thanks <a href="https://github.com/LapinFou">@LapinFou</a></em>
 </li>
+<li>Rectangle: Plots now have an <code>AddRectangle()</code> for placing rectangular shapes on plots (<a href="https://github.com/ScottPlot/ScottPlot/issues/2866">#2866</a>) <em>Thanks <a href="https://github.com/dpieve">@dpieve</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/KroMignon'>KroMignon</a>, <a href='https://github.com/p4pravin'>p4pravin</a>, <a href='https://github.com/tinuskotze'>tinuskotze</a>, <a href='https://github.com/LapinFou'>LapinFou</a>, <a href='https://github.com/swharden'>swharden</a>
+<a href='https://github.com/KroMignon'>KroMignon</a>, <a href='https://github.com/p4pravin'>p4pravin</a>, <a href='https://github.com/tinuskotze'>tinuskotze</a>, <a href='https://github.com/LapinFou'>LapinFou</a>, <a href='https://github.com/dpieve'>dpieve</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/KroMignon'><img src='https://scottplot.net/images/contributors/kromignon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/p4pravin'><img src='https://scottplot.net/images/contributors/p4pravin.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/tinuskotze'><img src='https://scottplot.net/images/contributors/tinuskotze.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/LapinFou'><img src='https://scottplot.net/images/contributors/lapinfou.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/dpieve'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
