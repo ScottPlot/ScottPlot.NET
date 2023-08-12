@@ -33,6 +33,10 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Primitives: Improved equality checks (<a href="https://github.com/ScottPlot/ScottPlot/issues/2855">#2855</a>)
 </li>
+<li>Controls: Added a <code>RenderQueue</code> to allow cross-control render requests that would otherwise cause render artifacts or infinite loops
+</li>
+<li>Controls: Created <code>SharedAxisManager</code> and <code>SharedLayoutManager</code> to facilitate pairing controls together
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
@@ -70,7 +74,7 @@ Description: Release notes for every version of ScottPlot
 <a href='https://github.com/KroMignon'><img src='https://scottplot.net/images/contributors/kromignon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/p4pravin'><img src='https://scottplot.net/images/contributors/p4pravin.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/tinuskotze'><img src='https://scottplot.net/images/contributors/tinuskotze.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/LapinFou'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/LapinFou'><img src='https://scottplot.net/images/contributors/lapinfou.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
