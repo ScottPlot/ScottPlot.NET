@@ -1,6 +1,6 @@
 {
-  "version": "4.1.66",
-  "generated": "2023-08-07T01:47:33.4983036Z",
+  "version": "4.1.67",
+  "generated": "2023-08-13T17:13:14.276912Z",
   "recipes": [
     {
       "id": "Axis_label",
@@ -409,6 +409,14 @@
       "title": "Display Scaling",
       "description": "When display scaling is enabled the dots per inch (DPI) is changed so images appear larger. When scaling is increased bitmap images are stretched to appear larger, but may appear blurry as a result. Alternatively images could be increased in size when DPI scaling is enabled, but fonts and lines may appear small. This example shows how to increase the size of common plot components so they look good on high resolution scaled displays (e.g., 4K monitors). DPI stretching can be set in the user control\u0027s Configuration module.",
       "code": "var plt = new ScottPlot.Plot(600, 400);\n\nvar sig1 = plt.AddSignal(DataGen.Sin(51));\nsig1.Label = \u0022Sin\u0022;\nsig1.MarkerSize = 7;\nsig1.LineWidth = 2;\n\nvar sig2 = plt.AddSignal(DataGen.Cos(51));\nsig2.Label = \u0022Cos\u0022;\nsig2.MarkerSize = 7;\nsig2.LineWidth = 2;\n\nvar legend = plt.Legend();\nlegend.FontSize = 24;\n\nplt.Title(\u0022Plot with Large Features\u0022);\nplt.YLabel(\u0022Vertical Axis\u0022);\nplt.XLabel(\u0022Horizontal Axis\u0022);\n\nplt.YAxis.LabelStyle(fontSize: 24);\nplt.XAxis.LabelStyle(fontSize: 24);\nplt.XAxis2.LabelStyle(fontSize: 36);\n\nplt.YAxis.TickLabelStyle(fontSize: 18);\nplt.XAxis.TickLabelStyle(fontSize: 18);\n\nplt.YAxis.MajorGrid(lineWidth: 2);\nplt.XAxis.MajorGrid(lineWidth: 2);\n\nplt.SaveFig(\u0022misc_dpiScale.png\u0022);"
+    },
+    {
+      "id": "misc_addRectangle",
+      "category": "Miscellaneous",
+      "categoryFolder": "misc",
+      "title": "Rectangle",
+      "description": "Rectangles can be added to plots.",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.AddSignal(DataGen.Sin(51));\nplt.AddSignal(DataGen.Cos(51));\n\n// add a rectangle to the plot\nplt.AddRectangle(xMin: 5, xMax: 15, yMin: .1, yMax: .7);\n\n// customize its appearance\nvar rp = plt.AddRectangle(xMin: 20, xMax: 30, yMin: -.5, yMax: .5);\nrp.BorderColor = Color.Blue;\nrp.BorderLineWidth = 3;\nrp.BorderLineStyle = LineStyle.Dot;\nrp.Color = Color.FromArgb(100, Color.Yellow);\n\nplt.SaveFig(\u0022misc_addRectangle.png\u0022);"
     },
     {
       "id": "multiAxis_primary",
@@ -1273,6 +1281,22 @@
       "title": "Crosshairs on Multiple Axes",
       "description": "Crosshairs label coordinates on the primary axes by default, but the axis index can be changed allowing multiple crosshairs to label multiple axes.",
       "code": "var plt = new ScottPlot.Plot(600, 400);\n\n// add a signal and crosshair to the primary X and Y axis (index 0)\nvar signal1 = plt.AddSignal(DataGen.RandomWalk(null, 100));\nvar cross1 = plt.AddCrosshair(24, 5.29);\ncross1.LineWidth = 2;\n\n// add a signal and crosshair to the secondary X and Y axis (index 1)\nvar signal2 = plt.AddSignal(DataGen.RandomWalk(null, 50));\nsignal2.YAxisIndex = 1;\nsignal2.XAxisIndex = 1;\n\nvar cross2 = plt.AddCrosshair(33, 5.1);\ncross2.HorizontalLine.PositionLabelOppositeAxis = true;\ncross2.VerticalLine.PositionLabelOppositeAxis = true;\ncross2.YAxisIndex = signal2.YAxisIndex;\ncross2.XAxisIndex = signal2.XAxisIndex;\ncross2.LineStyle = LineStyle.Dot;\ncross2.LineWidth = 2;\n\n// apply signal colors to the crosshairs\ncross1.Color = signal1.Color;\ncross2.Color = signal2.Color;\n\n// add axis labels\nplt.Title(\u0022Multiple Crosshairs for different Axes\u0022);\nplt.XLabel(\u0022Horizontal Axis\u0022);\nplt.YLabel(\u0022Vertical Axis\u0022);\nplt.YAxis2.Label(\u0022Signal2 Value\u0022);\n\n// show ticks for axes where ticks are hidden by default\nplt.YAxis2.Ticks(true);\nplt.XAxis2.Ticks(true);\n\nplt.SaveFig(\u0022crosshair_multiple_different_axes.png\u0022);"
+    },
+    {
+      "id": "datalogger_quickstart",
+      "category": "Data Logger",
+      "categoryFolder": "plottable-datalogger",
+      "title": "DataLogger",
+      "description": "A DataLogger is a plot type designed for growing datasets. Unlike most other plot types, the DataLogger can automatically expand the axis limits to accommodate new data as it is added.",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nvar logger = plt.AddDataLogger();\n\nfor (int i = 0; i \u003C 100; i\u002B\u002B)\n{\n    double x = i * .2;\n    double y = Math.Sin(x);\n    logger.Add(x, y); // data grows as new data is added\n}\n\nplt.SaveFig(\u0022datalogger_quickstart.png\u0022);"
+    },
+    {
+      "id": "datastreamer_quickstart",
+      "category": "Data Logger",
+      "categoryFolder": "plottable-datalogger",
+      "title": "DataStreamer",
+      "description": "A DataStreamer is a plot type designed for streaming datasets with a fixed length display and even X spacing between Y data points. As new data is shifted in, old data is shifted out, and the displayed trace is always the same size.",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nvar streamer = plt.AddDataStreamer(length: 20);\nstreamer.SamplePeriod = 0.2;\n\nfor (int i = 0; i \u003C 100; i\u002B\u002B)\n{\n    double y = Math.Sin(i * .2);\n    streamer.Add(y); // data remains same length as new data is shifted in\n}\n\n// Call different view methods to change the shift behavior\nstreamer.ViewWipeRight(); // new data overwrites old data left to right\nstreamer.ViewWipeLeft(); // new data overwrites old data right to left\nstreamer.ViewScrollRight(); // new data is inserted on the left\nstreamer.ViewScrollLeft(); // new data is inserted on the right\n\nplt.SaveFig(\u0022datastreamer_quickstart.png\u0022);"
     },
     {
       "id": "ellipse_quickstart",
