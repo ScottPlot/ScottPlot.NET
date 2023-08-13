@@ -19,8 +19,8 @@ Description: Release notes for every version of ScottPlot
 
 </section>
 <section class='mb-5'>
-<h1 class='mb-0'>ScottPlot 5.0.8-beta (in development)</h1>
-<div><i>Not yet published as a NuGet package...</i></div>
+<h1 class='mb-0'>ScottPlot 5.0.8-beta</h1>
+<div><i>NuGet packages published 2023-08-13</i></div>
 <div class='mt-1'>
 <ul>
 <li>Rendering: Improved performance by caching typefaces (<a href="https://github.com/ScottPlot/ScottPlot/issues/2833">#2833</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2848">#2848</a>) <em>Thanks <a href="https://github.com/KroMignon">@KroMignon</a> and <a href="https://github.com/taya92413">@taya92413</a></em>
@@ -37,6 +37,8 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Controls: Created <code>SharedAxisManager</code> and <code>SharedLayoutManager</code> to facilitate pairing controls together
 </li>
+<li>Multiplot: Added methods for creating creating static multi-plot figures (<a href="https://github.com/ScottPlot/ScottPlot/issues/2868">#2868</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2869">#2869</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
@@ -52,8 +54,8 @@ Description: Release notes for every version of ScottPlot
 
 </section>
 <section class='mb-5'>
-<h1 class='mb-0'>ScottPlot 4.1.67 (in development)</h1>
-<div><i>Not yet published as a NuGet package...</i></div>
+<h1 class='mb-0'>ScottPlot 4.1.67</h1>
+<div><i>NuGet packages published 2023-08-13</i></div>
 <div class='mt-1'>
 <ul>
 <li>DataLogger: Improved appearance of legend items (<a href="https://github.com/ScottPlot/ScottPlot/issues/2829">#2829</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2850">#2850</a>) <em>Thanks <a href="https://github.com/KroMignon">@KroMignon</a> and <a href="https://github.com/p4pravin">@p4pravin</a></em>
@@ -77,7 +79,7 @@ Description: Release notes for every version of ScottPlot
 <a href='https://github.com/p4pravin'><img src='https://scottplot.net/images/contributors/p4pravin.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/tinuskotze'><img src='https://scottplot.net/images/contributors/tinuskotze.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/LapinFou'><img src='https://scottplot.net/images/contributors/lapinfou.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/dpieve'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/dpieve'><img src='https://scottplot.net/images/contributors/dpieve.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
