@@ -29,16 +29,21 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>FillY: Added legend support (<a href="https://github.com/ScottPlot/ScottPlot/issues/2886">#2886</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2896">#2896</a>) <em>Thanks <a href="https://github.com/msroest">@msroest</a></em>
 </li>
+<li>Plot: Created <code>Add.Line(x1, x2, y1, y2)</code> and related overloads for adding straight lines to plots (<a href="https://github.com/ScottPlot/ScottPlot/issues/2901">#2901</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2915">#2915</a>)
+</li>
+<li>LinearRegression: Added <code>Statistics.Regression</code> (see cookbook) for fitting lines to collections of X/Y data points (<a href="https://github.com/ScottPlot/ScottPlot/issues/2901">#2901</a>) <em>Thanks <a href="https://github.com/anewton">@anewton</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/viktoriussuwandi'>viktoriussuwandi</a>, <a href='https://github.com/aespitia'>aespitia</a>, <a href='https://github.com/msroest'>msroest</a>, <a href='https://github.com/swharden'>swharden</a>
+<a href='https://github.com/viktoriussuwandi'>viktoriussuwandi</a>, <a href='https://github.com/aespitia'>aespitia</a>, <a href='https://github.com/msroest'>msroest</a>, <a href='https://github.com/anewton'>anewton</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/viktoriussuwandi'><img src='https://scottplot.net/images/contributors/viktoriussuwandi.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/aespitia'><img src='https://scottplot.net/images/contributors/aespitia.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/msroest'><img src='https://scottplot.net/images/contributors/msroest.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/anewton'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
