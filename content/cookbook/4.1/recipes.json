@@ -1,6 +1,6 @@
 {
-  "version": "4.1.67",
-  "generated": "2023-08-13T17:13:14.276912Z",
+  "version": "4.1.68",
+  "generated": "2023-10-03T10:21:43.098349Z",
   "recipes": [
     {
       "id": "Axis_label",
@@ -1681,6 +1681,14 @@
       "title": "Binned Histogram",
       "description": "Binned histograms are 2D heatmaps that use a colormap to display cell counts. Charts like this are commonly used in scientific and medical applications.",
       "code": "var plt = new ScottPlot.Plot(600, 400);\n\n// create a binned histogram\nvar hist2d = plt.AddBinnedHistogram(100, 100);\n\n// data is a collection of X/Y points\nCoordinate[] flowData = DataGen.FlowCytometry();\n\n// add X/Y points to the histogram\nhist2d.AddRange(flowData);\n\nplt.SaveFig(\u0022heatmap_binned.png\u0022);"
+    },
+    {
+      "id": "heatmap_parallel",
+      "category": "Heatmap",
+      "categoryFolder": "plottable-heatmap",
+      "title": "Parallel Processing",
+      "description": "Heatmaps have opt-in parallel processing which may improve performance when calling Update() for large datasets.",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\ndouble[,] data = Generate.Sin2D(width: 1_000, height: 1_000);\nvar hm = plt.AddHeatmap(data, lockScales: false);\n\n// opt into parallel processing\nhm.UseParallel = true;\n\nplt.SaveFig(\u0022heatmap_parallel.png\u0022);"
     },
     {
       "id": "image_quickstart",
