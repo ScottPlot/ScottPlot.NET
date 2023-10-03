@@ -19,8 +19,8 @@ Description: Release notes for every version of ScottPlot
 
 </section>
 <section class='mb-5'>
-<h1 class='mb-0'>ScottPlot 5.0.9-beta (in development)</h1>
-<div><i>Not yet published as a NuGet package...</i></div>
+<h1 class='mb-0'>ScottPlot 5.0.9-beta</h1>
+<div><i>NuGet packages published 2023-10-03</i></div>
 <div class='mt-1'>
 <ul>
 <li>PixelPadding: <code>TotalHorizontal</code> and <code>TotalVertical</code> renamed to <code>Horizontal</code> and <code>Vertical</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/2874">#2874</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2878">#2878</a>) <em>Thanks <a href="https://github.com/viktoriussuwandi">@viktoriussuwandi</a></em>
@@ -33,17 +33,39 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>LinearRegression: Added <code>Statistics.Regression</code> (see cookbook) for fitting lines to collections of X/Y data points (<a href="https://github.com/ScottPlot/ScottPlot/issues/2901">#2901</a>) <em>Thanks <a href="https://github.com/anewton">@anewton</a></em>
 </li>
+<li>Avalonia: Improve rendering in multi-control windows (<a href="https://github.com/ScottPlot/ScottPlot/issues/2920">#2920</a>) <em>Thanks <a href="https://github.com/nightfog-git">@nightfog-git</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/viktoriussuwandi'>viktoriussuwandi</a>, <a href='https://github.com/aespitia'>aespitia</a>, <a href='https://github.com/msroest'>msroest</a>, <a href='https://github.com/anewton'>anewton</a>, <a href='https://github.com/swharden'>swharden</a>
+<a href='https://github.com/viktoriussuwandi'>viktoriussuwandi</a>, <a href='https://github.com/aespitia'>aespitia</a>, <a href='https://github.com/msroest'>msroest</a>, <a href='https://github.com/anewton'>anewton</a>, <a href='https://github.com/nightfog-git'>nightfog-git</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/viktoriussuwandi'><img src='https://scottplot.net/images/contributors/viktoriussuwandi.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/aespitia'><img src='https://scottplot.net/images/contributors/aespitia.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/msroest'><img src='https://scottplot.net/images/contributors/msroest.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/anewton'><img src='https://scottplot.net/images/contributors/anewton.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/nightfog-git'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
+
+</section>
+<section class='mb-5'>
+<h1 class='mb-0'>ScottPlot 4.1.68</h1>
+<div><i>NuGet packages published 2023-10-03</i></div>
+<div class='mt-1'>
+<ul>
+<li>Heatmap: Added a <code>UseParallel</code> option which can improve <code>Update()</code> performance for large datasets (<a href="https://github.com/ScottPlot/ScottPlot/issues/2897">#2897</a>) <em>Thanks <a href="https://github.com/bukkideme">@bukkideme</a></em>
+</li>
+</ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/bukkideme'>bukkideme</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/bukkideme'><img src='https://scottplot.net/images/contributors/bukkideme.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
