@@ -60,8 +60,6 @@ date: 2020-01-01
 * [What's New in ScottPlot 5.0](version-5.0)
 * [ScottPlot's Dependencies by Version](dependencies)
 * [Development Environment Setup](environment)
-
-### About ScottPlot
-* [Why the Name _ScottPlot_?](history)
-* [Who Created ScottPlot and Why?](history)
+* [About ScottPlot](history)
 * [ScottPlot vs. Other Plotting Libraries](compare)
+* [How to Create Reproducible Code Examples](repro)
