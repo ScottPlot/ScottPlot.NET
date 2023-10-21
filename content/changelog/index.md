@@ -38,6 +38,25 @@ Description: Release notes for every version of ScottPlot
 
 </section>
 <section class='mb-5'>
+<h1 class='mb-0'>ScottPlot 4.1.68 (in development)</h1>
+<div><i>Not yet published as a NuGet package...</i></div>
+<div class='mt-1'>
+<ul>
+<li>Axis: Added <code>IsReverse</code> property to let users invert the orientation of an axis (<a href="https://github.com/ScottPlot/ScottPlot/issues/2958">#2958</a>) <em>Thanks <a href="https://github.com/HandsomeGoldenKnight">@HandsomeGoldenKnight</a></em>
+</li>
+</ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/HandsomeGoldenKnight'>HandsomeGoldenKnight</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/HandsomeGoldenKnight'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
+
+</section>
+<section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 5.0.9-beta</h1>
 <div><i>NuGet packages published 2023-10-03</i></div>
 <div class='mt-1'>
