@@ -25,14 +25,17 @@ Description: Release notes for every version of ScottPlot
 <ul>
 <li>Signal: Improved support for datasets with repeating values (<a href="https://github.com/ScottPlot/ScottPlot/issues/2933">#2933</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2935">#2935</a>) <em>Thanks <a href="https://github.com/StendProg">@StendProg</a></em>
 </li>
+<li>Blazor: Added a Blazor control (<a href="https://github.com/ScottPlot/ScottPlot/issues/2959">#2959</a>) <em>Thanks <a href="https://github.com/sulivanganter">@sulivanganter</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/swharden'>swharden</a>
+<a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/sulivanganter'>sulivanganter</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/sulivanganter'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
@@ -51,7 +54,7 @@ Description: Release notes for every version of ScottPlot
 <a href='https://github.com/HandsomeGoldenKnight'>HandsomeGoldenKnight</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
-<a href='https://github.com/HandsomeGoldenKnight'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/HandsomeGoldenKnight'><img src='https://scottplot.net/images/contributors/handsomegoldenknight.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
