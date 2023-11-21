@@ -74,12 +74,14 @@ Sometimes you want the user to be able to zoom in and out, but not farther than 
 
 ```cs
 // disable zooming out farther than 0 to +50 horizontally or -1 to +1 vertically
-SetOuterViewLimits(0, 50, -1, 1);
+formsPlot1.Plot.XAxis.SetBoundary(0, 50);
+formsPlot1.Plot.YAxis.SetBoundary(-1, 1);
 ```
 
 ```cs
 // disable zooming in closer than 10 to 20 horizontally or 0.1 to 0.2 vertically
-SetInnerViewLimits(10, 20, .1, .2);
+formsPlot1.Plot.XAxis.SetInnerBoundary(10, 20);
+formsPlot1.Plot.YAxis.SetInnerBoundary(0.1, 0.2);
 ```
 
 ## Disable Zooming or Panning
