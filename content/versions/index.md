@@ -26,6 +26,7 @@ Windows | ✔️ | ✔️
 Linux | ✔️ | ⚠️ only .NET 6 | ❌
 MacOS | ✔️ | ⚠️ only .NET 6 | ❌
 .NET Framework | ✔️ ≥4.6.2 | ✔️ ≥4.6.2 | ✔️ ≥4.5
+.NET Core | ✔️ ≥4.6.2 | ✔️ ≥4.6.2 | ❌
 Nullable annotations | ✔️ | ❌ | ❌
 Windows Forms | ✔️ | ✔️ | ✔️
 WPF | ✔️ | ✔️ | ❌
