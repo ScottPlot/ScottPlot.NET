@@ -27,15 +27,18 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Blazor: Added a Blazor control (<a href="https://github.com/ScottPlot/ScottPlot/issues/2959">#2959</a>) <em>Thanks <a href="https://github.com/sulivanganter">@sulivanganter</a></em>
 </li>
+<li>Layout: Expose <code>Matched</code> layout engine (<a href="https://github.com/ScottPlot/ScottPlot/issues/2881">#2881</a>) <em>Thanks <a href="https://github.com/proplunger">@proplunger</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/sulivanganter'>sulivanganter</a>, <a href='https://github.com/swharden'>swharden</a>
+<a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/sulivanganter'>sulivanganter</a>, <a href='https://github.com/proplunger'>proplunger</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/sulivanganter'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/sulivanganter'><img src='https://scottplot.net/images/contributors/sulivanganter.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/proplunger'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
