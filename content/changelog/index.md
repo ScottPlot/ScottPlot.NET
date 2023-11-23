@@ -31,6 +31,10 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Plot: Added <code>DisableGrid()</code> and <code>EnableGrid()</code> helper methods (<a href="https://github.com/ScottPlot/ScottPlot/issues/2947">#2947</a>)
 </li>
+<li>Render: Created <code>IRenderLast</code> plottables can implement to draw above axes (<a href="https://github.com/ScottPlot/ScottPlot/issues/2998">#2998</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2993">#2993</a>)
+</li>
+<li>Controls: Added <code>Interaction.Disable()</code> and <code>Interaction.Enable()</code> methods for easy control of mouse interactivity
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
@@ -62,7 +66,7 @@ Description: Release notes for every version of ScottPlot
 </div>
 <div class='text-center'>
 <a href='https://github.com/HandsomeGoldenKnight'><img src='https://scottplot.net/images/contributors/handsomegoldenknight.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/DaveMartel'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/DaveMartel'><img src='https://scottplot.net/images/contributors/davemartel.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
