@@ -29,6 +29,8 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Layout: Expose <code>Matched</code> layout engine (<a href="https://github.com/ScottPlot/ScottPlot/issues/2881">#2881</a>) <em>Thanks <a href="https://github.com/proplunger">@proplunger</a></em>
 </li>
+<li>Plot: Added <code>DisableGrid()</code> and <code>EnableGrid()</code> helper methods (<a href="https://github.com/ScottPlot/ScottPlot/issues/2947">#2947</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
@@ -38,7 +40,7 @@ Description: Release notes for every version of ScottPlot
 <div class='text-center'>
 <a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/sulivanganter'><img src='https://scottplot.net/images/contributors/sulivanganter.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/proplunger'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/proplunger'><img src='https://scottplot.net/images/contributors/proplunger.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
