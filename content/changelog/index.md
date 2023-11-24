@@ -47,7 +47,7 @@ Description: Release notes for every version of ScottPlot
 <a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/sulivanganter'><img src='https://scottplot.net/images/contributors/sulivanganter.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/proplunger'><img src='https://scottplot.net/images/contributors/proplunger.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/Crown0815'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Crown0815'><img src='https://scottplot.net/images/contributors/crown0815.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
@@ -66,6 +66,8 @@ Description: Release notes for every version of ScottPlot
 <li>Controls: Resizing will now invoke <code>OnAxesChanged</code> event (<a href="https://github.com/ScottPlot/ScottPlot/issues/3000">#3000</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3002">#3002</a>) <em>Thanks <a href="https://github.com/dhgigisoave">@dhgigisoave</a></em>
 </li>
 <li>Plot: Added <code>LastRenderDimensions</code> for easy access to the latest figure dimensions (<a href="https://github.com/ScottPlot/ScottPlot/issues/3000">#3000</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3002">#3002</a>) <em>Thanks <a href="https://github.com/dhgigisoave">@dhgigisoave</a></em>
+</li>
+<li>DataLogger and DataStreamer: Added support for custom line styles (<a href="https://github.com/ScottPlot/ScottPlot/issues/2972">#2972</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2972">#2972</a>) <em>Thanks <a href="https://github.com/Gray-lab">@Gray-lab</a></em>
 </li>
 </ul>
 </div>
