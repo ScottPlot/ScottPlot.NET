@@ -35,16 +35,19 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Controls: Added <code>Interaction.Disable()</code> and <code>Interaction.Enable()</code> methods for easy control of mouse interactivity
 </li>
+<li>Render: Improve axis frame and tick mark rendering for SVG export (<a href="https://github.com/ScottPlot/ScottPlot/issues/2944">#2944</a>) <em>Thanks <a href="https://github.com/Crown0815">@Crown0815</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/sulivanganter'>sulivanganter</a>, <a href='https://github.com/proplunger'>proplunger</a>, <a href='https://github.com/swharden'>swharden</a>
+<a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/sulivanganter'>sulivanganter</a>, <a href='https://github.com/proplunger'>proplunger</a>, <a href='https://github.com/Crown0815'>Crown0815</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/sulivanganter'><img src='https://scottplot.net/images/contributors/sulivanganter.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/proplunger'><img src='https://scottplot.net/images/contributors/proplunger.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Crown0815'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
