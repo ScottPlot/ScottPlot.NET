@@ -58,15 +58,18 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Text: Exposed <code>LastRenderRectangleCoordinates</code> to improve mouse interactivity (<a href="https://github.com/ScottPlot/ScottPlot/issues/2994">#2994</a>) <em>Thanks <a href="https://github.com/DaveMartel">@DaveMartel</a></em>
 </li>
+<li>Arrow: Fixed bug in constructor overload (<a href="https://github.com/ScottPlot/ScottPlot/issues/2976">#2976</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3001">#3001</a>) <em>Thanks <a href="https://github.com/Gray-lab">@Gray-lab</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/HandsomeGoldenKnight'>HandsomeGoldenKnight</a>, <a href='https://github.com/DaveMartel'>DaveMartel</a>, <a href='https://github.com/swharden'>swharden</a>
+<a href='https://github.com/HandsomeGoldenKnight'>HandsomeGoldenKnight</a>, <a href='https://github.com/DaveMartel'>DaveMartel</a>, <a href='https://github.com/Gray-lab'>Gray-lab</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/HandsomeGoldenKnight'><img src='https://scottplot.net/images/contributors/handsomegoldenknight.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/DaveMartel'><img src='https://scottplot.net/images/contributors/davemartel.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Gray-lab'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
