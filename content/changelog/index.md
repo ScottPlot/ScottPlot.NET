@@ -37,6 +37,8 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Render: Improve axis frame and tick mark rendering for SVG export (<a href="https://github.com/ScottPlot/ScottPlot/issues/2944">#2944</a>) <em>Thanks <a href="https://github.com/Crown0815">@Crown0815</a></em>
 </li>
+<li>Controls: Created OpenGL controls <code>FormsPlotGL</code> and <code>WpfPlotGL</code> distinct from <code>FormsPlot</code> and <code>WpfPlot</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/3008">#3008</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3007">#3007</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2950">#2950</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2395">#2395</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2565">#2565</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
