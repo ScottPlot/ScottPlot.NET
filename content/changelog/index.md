@@ -84,7 +84,7 @@ Description: Release notes for every version of ScottPlot
 <a href='https://github.com/DaveMartel'><img src='https://scottplot.net/images/contributors/davemartel.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Gray-lab'><img src='https://scottplot.net/images/contributors/gray-lab.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/dhgigisoave'><img src='https://scottplot.net/images/contributors/dhgigisoave.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/Em3a-c'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Em3a-c'><img src='https://scottplot.net/images/contributors/em3a-c.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
