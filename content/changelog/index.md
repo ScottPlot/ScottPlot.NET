@@ -71,17 +71,20 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>DataLogger and DataStreamer: Added support for custom line styles (<a href="https://github.com/ScottPlot/ScottPlot/issues/2972">#2972</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2972">#2972</a>) <em>Thanks <a href="https://github.com/Gray-lab">@Gray-lab</a></em>
 </li>
+<li>Population: Defining <code>BoxAlphaOverride</code> and <code>MarkerAlpha</code> allows for exact color representation (<a href="https://github.com/ScottPlot/ScottPlot/issues/2967">#2967</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3013">#3013</a>) <em>Thanks <a href="https://github.com/Gray-lab">@Gray-lab</a> and <a href="https://github.com/Em3a-c">@Em3a-c</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/HandsomeGoldenKnight'>HandsomeGoldenKnight</a>, <a href='https://github.com/DaveMartel'>DaveMartel</a>, <a href='https://github.com/Gray-lab'>Gray-lab</a>, <a href='https://github.com/dhgigisoave'>dhgigisoave</a>, <a href='https://github.com/swharden'>swharden</a>
+<a href='https://github.com/HandsomeGoldenKnight'>HandsomeGoldenKnight</a>, <a href='https://github.com/DaveMartel'>DaveMartel</a>, <a href='https://github.com/Gray-lab'>Gray-lab</a>, <a href='https://github.com/dhgigisoave'>dhgigisoave</a>, <a href='https://github.com/Em3a-c'>Em3a-c</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/HandsomeGoldenKnight'><img src='https://scottplot.net/images/contributors/handsomegoldenknight.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/DaveMartel'><img src='https://scottplot.net/images/contributors/davemartel.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Gray-lab'><img src='https://scottplot.net/images/contributors/gray-lab.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/dhgigisoave'><img src='https://scottplot.net/images/contributors/dhgigisoave.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Em3a-c'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
