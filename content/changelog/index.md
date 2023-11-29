@@ -80,11 +80,13 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Controls: Improve <code>Bitmap</code> disposal as controls are unloaded (<a href="https://github.com/ScottPlot/ScottPlot/issues/3023">#3023</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2902">#2902</a>) <em>Thanks <a href="https://github.com/KroMignon">@KroMignon</a> and <a href="https://github.com/mocakturk">@mocakturk</a></em>
 </li>
+<li>ScatterPlotDraggable: Fixed bug affecting <code>IsUnderMouse()</code> after <code>Update()</code> is called (<a href="https://github.com/ScottPlot/ScottPlot/issues/2870">#2870</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2969">#2969</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3025">#3025</a>) <em>Thanks <a href="https://github.com/KroMignon">@KroMignon</a>, <a href="https://github.com/SasKayDE">@SasKayDE</a>, and <a href="https://github.com/onur-akaydin">@onur-akaydin</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/HandsomeGoldenKnight'>HandsomeGoldenKnight</a>, <a href='https://github.com/DaveMartel'>DaveMartel</a>, <a href='https://github.com/Gray-lab'>Gray-lab</a>, <a href='https://github.com/dhgigisoave'>dhgigisoave</a>, <a href='https://github.com/Em3a-c'>Em3a-c</a>, <a href='https://github.com/KroMignon'>KroMignon</a>, <a href='https://github.com/mocakturk'>mocakturk</a>, <a href='https://github.com/swharden'>swharden</a>
+<a href='https://github.com/HandsomeGoldenKnight'>HandsomeGoldenKnight</a>, <a href='https://github.com/DaveMartel'>DaveMartel</a>, <a href='https://github.com/Gray-lab'>Gray-lab</a>, <a href='https://github.com/dhgigisoave'>dhgigisoave</a>, <a href='https://github.com/Em3a-c'>Em3a-c</a>, <a href='https://github.com/KroMignon'>KroMignon</a>, <a href='https://github.com/mocakturk'>mocakturk</a>, <a href='https://github.com/SasKayDE'>SasKayDE</a>, <a href='https://github.com/onur-akaydin'>onur-akaydin</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/HandsomeGoldenKnight'><img src='https://scottplot.net/images/contributors/handsomegoldenknight.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -94,6 +96,8 @@ Description: Release notes for every version of ScottPlot
 <a href='https://github.com/Em3a-c'><img src='https://scottplot.net/images/contributors/em3a-c.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/KroMignon'><img src='https://scottplot.net/images/contributors/kromignon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/mocakturk'><img src='https://scottplot.net/images/contributors/mocakturk.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/SasKayDE'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/onur-akaydin'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
