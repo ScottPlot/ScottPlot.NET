@@ -89,11 +89,13 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Bar: New <code>AddBar()</code> overload for creating a single highly customized bar graph bar (<a href="https://github.com/ScottPlot/ScottPlot/issues/3024">#3024</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3033">#3033</a>) <em>Thanks <a href="https://github.com/melhashash">@melhashash</a></em>
 </li>
+<li>FormsPlot: Fix bug affecting mouse interaction on plots with all items hidden (<a href="https://github.com/ScottPlot/ScottPlot/issues/2895">#2895</a>) <em>Thanks <a href="https://github.com/LapinFou">@LapinFou</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/HandsomeGoldenKnight'>HandsomeGoldenKnight</a>, <a href='https://github.com/DaveMartel'>DaveMartel</a>, <a href='https://github.com/Gray-lab'>Gray-lab</a>, <a href='https://github.com/dhgigisoave'>dhgigisoave</a>, <a href='https://github.com/Em3a-c'>Em3a-c</a>, <a href='https://github.com/KroMignon'>KroMignon</a>, <a href='https://github.com/mocakturk'>mocakturk</a>, <a href='https://github.com/SasKayDE'>SasKayDE</a>, <a href='https://github.com/onur-akaydin'>onur-akaydin</a>, <a href='https://github.com/melhashash'>melhashash</a>, <a href='https://github.com/swharden'>swharden</a>
+<a href='https://github.com/HandsomeGoldenKnight'>HandsomeGoldenKnight</a>, <a href='https://github.com/DaveMartel'>DaveMartel</a>, <a href='https://github.com/Gray-lab'>Gray-lab</a>, <a href='https://github.com/dhgigisoave'>dhgigisoave</a>, <a href='https://github.com/Em3a-c'>Em3a-c</a>, <a href='https://github.com/KroMignon'>KroMignon</a>, <a href='https://github.com/mocakturk'>mocakturk</a>, <a href='https://github.com/SasKayDE'>SasKayDE</a>, <a href='https://github.com/onur-akaydin'>onur-akaydin</a>, <a href='https://github.com/melhashash'>melhashash</a>, <a href='https://github.com/LapinFou'>LapinFou</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/HandsomeGoldenKnight'><img src='https://scottplot.net/images/contributors/handsomegoldenknight.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -106,6 +108,7 @@ Description: Release notes for every version of ScottPlot
 <a href='https://github.com/SasKayDE'><img src='https://scottplot.net/images/contributors/saskayde.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/onur-akaydin'><img src='https://scottplot.net/images/contributors/onur-akaydin.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/melhashash'><img src='https://scottplot.net/images/contributors/melhashash.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/LapinFou'><img src='https://scottplot.net/images/contributors/lapinfou.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
