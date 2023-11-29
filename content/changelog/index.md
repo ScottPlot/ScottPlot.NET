@@ -43,11 +43,13 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Plot: Improved support for multiple axes and automatic scaling (<a href="https://github.com/ScottPlot/ScottPlot/issues/3027">#3027</a>)
 </li>
+<li>RandomDataGenerator: Use a global Random number generator for improved randomness and thread safety (<a href="https://github.com/ScottPlot/ScottPlot/issues/2893">#2893</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3022">#3022</a>) <em>Thanks <a href="https://github.com/KroMignon">@KroMignon</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/sulivanganter'>sulivanganter</a>, <a href='https://github.com/proplunger'>proplunger</a>, <a href='https://github.com/Crown0815'>Crown0815</a>, <a href='https://github.com/Gray-lab'>Gray-lab</a>, <a href='https://github.com/swharden'>swharden</a>
+<a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/sulivanganter'>sulivanganter</a>, <a href='https://github.com/proplunger'>proplunger</a>, <a href='https://github.com/Crown0815'>Crown0815</a>, <a href='https://github.com/Gray-lab'>Gray-lab</a>, <a href='https://github.com/KroMignon'>KroMignon</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -55,6 +57,7 @@ Description: Release notes for every version of ScottPlot
 <a href='https://github.com/proplunger'><img src='https://scottplot.net/images/contributors/proplunger.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Crown0815'><img src='https://scottplot.net/images/contributors/crown0815.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Gray-lab'><img src='https://scottplot.net/images/contributors/gray-lab.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/KroMignon'><img src='https://scottplot.net/images/contributors/kromignon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
@@ -78,7 +81,7 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Population: Defining <code>BoxAlphaOverride</code> and <code>MarkerAlpha</code> allows for exact color representation (<a href="https://github.com/ScottPlot/ScottPlot/issues/2967">#2967</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3013">#3013</a>) <em>Thanks <a href="https://github.com/Gray-lab">@Gray-lab</a> and <a href="https://github.com/Em3a-c">@Em3a-c</a></em>
 </li>
-<li>Generate: Use a global Random number generator for improved randomness and thread safety (<a href="https://github.com/ScottPlot/ScottPlot/issues/2893">#2893</a>) <em>Thanks <a href="https://github.com/KroMignon">@KroMignon</a></em>
+<li>RandomDataGenerator: Use a global Random number generator for improved randomness and thread safety (<a href="https://github.com/ScottPlot/ScottPlot/issues/2893">#2893</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3022">#3022</a>) <em>Thanks <a href="https://github.com/KroMignon">@KroMignon</a></em>
 </li>
 <li>Controls: Improve <code>Bitmap</code> disposal as controls are unloaded (<a href="https://github.com/ScottPlot/ScottPlot/issues/3023">#3023</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2902">#2902</a>) <em>Thanks <a href="https://github.com/KroMignon">@KroMignon</a> and <a href="https://github.com/mocakturk">@mocakturk</a></em>
 </li>
@@ -102,7 +105,7 @@ Description: Release notes for every version of ScottPlot
 <a href='https://github.com/mocakturk'><img src='https://scottplot.net/images/contributors/mocakturk.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/SasKayDE'><img src='https://scottplot.net/images/contributors/saskayde.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/onur-akaydin'><img src='https://scottplot.net/images/contributors/onur-akaydin.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/melhashash'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/melhashash'><img src='https://scottplot.net/images/contributors/melhashash.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
