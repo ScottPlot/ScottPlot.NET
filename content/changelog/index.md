@@ -39,17 +39,20 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Controls: Created OpenGL controls <code>FormsPlotGL</code> and <code>WpfPlotGL</code> distinct from <code>FormsPlot</code> and <code>WpfPlot</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/3008">#3008</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3007">#3007</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2950">#2950</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2395">#2395</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2565">#2565</a>)
 </li>
+<li>Markers: Added numerous additional marker types (<a href="https://github.com/ScottPlot/ScottPlot/issues/2999">#2999</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3019">#3019</a>) <em>Thanks <a href="https://github.com/Gray-lab">@Gray-lab</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/sulivanganter'>sulivanganter</a>, <a href='https://github.com/proplunger'>proplunger</a>, <a href='https://github.com/Crown0815'>Crown0815</a>, <a href='https://github.com/swharden'>swharden</a>
+<a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/sulivanganter'>sulivanganter</a>, <a href='https://github.com/proplunger'>proplunger</a>, <a href='https://github.com/Crown0815'>Crown0815</a>, <a href='https://github.com/Gray-lab'>Gray-lab</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/sulivanganter'><img src='https://scottplot.net/images/contributors/sulivanganter.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/proplunger'><img src='https://scottplot.net/images/contributors/proplunger.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Crown0815'><img src='https://scottplot.net/images/contributors/crown0815.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Gray-lab'><img src='https://scottplot.net/images/contributors/gray-lab.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 

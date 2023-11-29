@@ -28,16 +28,16 @@ Description: Members of the open-source community who contributed to ScottPlot
 <div><a href='https://github.com/Crown0815'>@Crown0815</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
+<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/gray-lab.png' height='125' width='125'/></a></div>
+<div><a href='https://github.com/Gray-lab'>@Gray-lab</a></div>
+</div>
+<div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/handsomegoldenknight.jpg' height='125' width='125'/></a></div>
 <div><a href='https://github.com/HandsomeGoldenKnight'>@HandsomeGoldenKnight</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/davemartel.png' height='125' width='125'/></a></div>
 <div><a href='https://github.com/DaveMartel'>@DaveMartel</a></div>
-</div>
-<div class='bg-light border rounded text-center mx-3 my-2'>
-<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/gray-lab.png' height='125' width='125'/></a></div>
-<div><a href='https://github.com/Gray-lab'>@Gray-lab</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/dhgigisoave.png' height='125' width='125'/></a></div>
