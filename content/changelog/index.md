@@ -47,6 +47,8 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Plot: Simplified methods for determining points nearest the cursor (<a href="https://github.com/ScottPlot/ScottPlot/issues/3026">#3026</a>) <em>Thanks <a href="https://github.com/JurasskPark">@JurasskPark</a></em>
 </li>
+<li>Plottable: Added a new <code>Text</code> plot type for displaying a label at a location in coordinate space (<a href="https://github.com/ScottPlot/ScottPlot/issues/2939">#2939</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
