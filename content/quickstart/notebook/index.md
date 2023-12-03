@@ -25,7 +25,7 @@ Add this to the top of your notebook to use the ScottPlot NuGet package and make
 // Setup a custom formatter to display plots as images
 using Microsoft.DotNet.Interactive.Formatting;
 Formatter.Register(typeof(ScottPlot.Plot), (p, w) => 
-    w.Write(((ScottPlot.Plot)p).GetImageHTML()), HtmlFormatter.MimeType);
+    w.Write(((ScottPlot.Plot)p).GetImageHtml()), HtmlFormatter.MimeType);
 ```
 
 ### Plot Data

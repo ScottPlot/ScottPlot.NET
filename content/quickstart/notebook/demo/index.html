@@ -14609,7 +14609,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 // Setup a custom formatter to display plots as images
 using Microsoft.DotNet.Interactive.Formatting;
 Formatter.Register(typeof(ScottPlot.Plot), (p, w) =&gt; 
-    w.Write(((ScottPlot.Plot)p).GetImageHTML()), HtmlFormatter.MimeType);
+    w.Write(((ScottPlot.Plot)p).GetImageHtml()), HtmlFormatter.MimeType);
 </pre></div>
 
      </div>
