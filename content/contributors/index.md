@@ -40,6 +40,10 @@ Description: Members of the open-source community who contributed to ScottPlot
 <div><a href='https://github.com/JurasskPark'>@JurasskPark</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
+<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/minjjkang.png' height='125' width='125'/></a></div>
+<div><a href='https://github.com/minjjKang'>@minjjKang</a></div>
+</div>
+<div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/handsomegoldenknight.jpg' height='125' width='125'/></a></div>
 <div><a href='https://github.com/HandsomeGoldenKnight'>@HandsomeGoldenKnight</a></div>
 </div>
@@ -78,6 +82,10 @@ Description: Members of the open-source community who contributed to ScottPlot
 <div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/jbmongithub.png' height='125' width='125'/></a></div>
 <div><a href='https://github.com/JbmOnGitHub'>@JbmOnGitHub</a></div>
+</div>
+<div class='bg-light border rounded text-center mx-3 my-2'>
+<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/fannyatgithub.png' height='125' width='125'/></a></div>
+<div><a href='https://github.com/FannyAtGitHub'>@FannyAtGitHub</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/viktoriussuwandi.png' height='125' width='125'/></a></div>
@@ -328,10 +336,6 @@ Description: Members of the open-source community who contributed to ScottPlot
 <div><a href='https://github.com/JulianusIV'>@JulianusIV</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
-<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/minjjkang.png' height='125' width='125'/></a></div>
-<div><a href='https://github.com/minjjKang'>@minjjKang</a></div>
-</div>
-<div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/jonathanio123.png' height='125' width='125'/></a></div>
 <div><a href='https://github.com/Jonathanio123'>@Jonathanio123</a></div>
 </div>
@@ -362,10 +366,6 @@ Description: Members of the open-source community who contributed to ScottPlot
 <div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/dongyi-cai-windsab.png' height='125' width='125'/></a></div>
 <div><a href='https://github.com/dongyi-cai-windsab'>@dongyi-cai-windsab</a></div>
-</div>
-<div class='bg-light border rounded text-center mx-3 my-2'>
-<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/fannyatgithub.png' height='125' width='125'/></a></div>
-<div><a href='https://github.com/FannyAtGitHub'>@FannyAtGitHub</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/rafntor.jpg' height='125' width='125'/></a></div>
