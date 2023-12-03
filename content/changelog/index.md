@@ -71,7 +71,7 @@ Description: Release notes for every version of ScottPlot
 <a href='https://github.com/Gray-lab'><img src='https://scottplot.net/images/contributors/gray-lab.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/KroMignon'><img src='https://scottplot.net/images/contributors/kromignon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/JurasskPark'><img src='https://scottplot.net/images/contributors/jurasskpark.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/CBrauer'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/CBrauer'><img src='https://scottplot.net/images/contributors/cbrauer.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/minjjKang'><img src='https://scottplot.net/images/contributors/minjjkang.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/zy1075984'><img src='https://scottplot.net/images/contributors/zy1075984.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -111,11 +111,13 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Axis: Added <code>Axis.SetTicks()</code> to allow full customization of major and minor ticks (<a href="https://github.com/ScottPlot/ScottPlot/issues/2957">#2957</a>) <em>Thanks <a href="https://github.com/FannyAtGitHub">@FannyAtGitHub</a></em>
 </li>
+<li>Plot: <code>GetImageHTML()</code> has been renamed to <code>GetImageHtml()</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/2974">#2974</a>) <em>Thanks <a href="https://github.com/b4shful">@b4shful</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/HandsomeGoldenKnight'>HandsomeGoldenKnight</a>, <a href='https://github.com/DaveMartel'>DaveMartel</a>, <a href='https://github.com/Gray-lab'>Gray-lab</a>, <a href='https://github.com/dhgigisoave'>dhgigisoave</a>, <a href='https://github.com/Em3a-c'>Em3a-c</a>, <a href='https://github.com/KroMignon'>KroMignon</a>, <a href='https://github.com/mocakturk'>mocakturk</a>, <a href='https://github.com/SasKayDE'>SasKayDE</a>, <a href='https://github.com/onur-akaydin'>onur-akaydin</a>, <a href='https://github.com/melhashash'>melhashash</a>, <a href='https://github.com/LapinFou'>LapinFou</a>, <a href='https://github.com/JbmOnGitHub'>JbmOnGitHub</a>, <a href='https://github.com/FannyAtGitHub'>FannyAtGitHub</a>, <a href='https://github.com/swharden'>swharden</a>
+<a href='https://github.com/HandsomeGoldenKnight'>HandsomeGoldenKnight</a>, <a href='https://github.com/DaveMartel'>DaveMartel</a>, <a href='https://github.com/Gray-lab'>Gray-lab</a>, <a href='https://github.com/dhgigisoave'>dhgigisoave</a>, <a href='https://github.com/Em3a-c'>Em3a-c</a>, <a href='https://github.com/KroMignon'>KroMignon</a>, <a href='https://github.com/mocakturk'>mocakturk</a>, <a href='https://github.com/SasKayDE'>SasKayDE</a>, <a href='https://github.com/onur-akaydin'>onur-akaydin</a>, <a href='https://github.com/melhashash'>melhashash</a>, <a href='https://github.com/LapinFou'>LapinFou</a>, <a href='https://github.com/JbmOnGitHub'>JbmOnGitHub</a>, <a href='https://github.com/FannyAtGitHub'>FannyAtGitHub</a>, <a href='https://github.com/b4shful'>b4shful</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/HandsomeGoldenKnight'><img src='https://scottplot.net/images/contributors/handsomegoldenknight.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -131,6 +133,7 @@ Description: Release notes for every version of ScottPlot
 <a href='https://github.com/LapinFou'><img src='https://scottplot.net/images/contributors/lapinfou.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/JbmOnGitHub'><img src='https://scottplot.net/images/contributors/jbmongithub.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/FannyAtGitHub'><img src='https://scottplot.net/images/contributors/fannyatgithub.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/b4shful'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
