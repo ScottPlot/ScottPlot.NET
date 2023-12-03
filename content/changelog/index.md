@@ -55,6 +55,8 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Pie: Improve appearance of slice labels in the legend (<a href="https://github.com/ScottPlot/ScottPlot/issues/2894">#2894</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2852">#2852</a>) <em>Thanks <a href="https://github.com/zy1075984">@zy1075984</a></em>
 </li>
+<li>Legend: Replaced <code>List&lt;ILegend&gt;</code> with a simple <code>Legend</code> object with an <code>IsVisible</code> property (<a href="https://github.com/ScottPlot/ScottPlot/issues/2792">#2792</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
@@ -70,7 +72,7 @@ Description: Release notes for every version of ScottPlot
 <a href='https://github.com/KroMignon'><img src='https://scottplot.net/images/contributors/kromignon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/JurasskPark'><img src='https://scottplot.net/images/contributors/jurasskpark.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/minjjKang'><img src='https://scottplot.net/images/contributors/minjjkang.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/zy1075984'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/zy1075984'><img src='https://scottplot.net/images/contributors/zy1075984.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
