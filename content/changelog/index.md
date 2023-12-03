@@ -49,6 +49,8 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Plottable: Added a new <code>Text</code> plot type for displaying a label at a location in coordinate space (<a href="https://github.com/ScottPlot/ScottPlot/issues/2939">#2939</a>)
 </li>
+<li>Plot: Benchmark is now a user-customizable plottable and <code>Plot.ShowBenchmark</code> is now <code>Plot.Benchmark.IsVisible</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/2961">#2961</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
