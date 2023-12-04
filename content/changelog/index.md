@@ -76,8 +76,8 @@ Description: Release notes for every version of ScottPlot
 <a href='https://github.com/CBrauer'><img src='https://scottplot.net/images/contributors/cbrauer.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/minjjKang'><img src='https://scottplot.net/images/contributors/minjjkang.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/zy1075984'><img src='https://scottplot.net/images/contributors/zy1075984.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/JohnSmith20211124'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/Developer-Alexander'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/JohnSmith20211124'><img src='https://scottplot.net/images/contributors/johnsmith20211124.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Developer-Alexander'><img src='https://scottplot.net/images/contributors/developer-alexander.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
