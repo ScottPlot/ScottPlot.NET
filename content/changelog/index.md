@@ -19,8 +19,8 @@ Description: Release notes for every version of ScottPlot
 
 </section>
 <section class='mb-5'>
-<h1 class='mb-0'>ScottPlot 5.0.9-beta (in development)</h1>
-<div><i>Not yet published as a NuGet package...</i></div>
+<h1 class='mb-0'>ScottPlot 5.0.10-beta</h1>
+<div><i>NuGet packages published 2023-12-03</i></div>
 <div class='mt-1'>
 <ul>
 <li>Signal: Improved support for datasets with repeating values (<a href="https://github.com/ScottPlot/ScottPlot/issues/2933">#2933</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2935">#2935</a>) <em>Thanks <a href="https://github.com/StendProg">@StendProg</a></em>
@@ -83,8 +83,8 @@ Description: Release notes for every version of ScottPlot
 
 </section>
 <section class='mb-5'>
-<h1 class='mb-0'>ScottPlot 4.1.68 (in development)</h1>
-<div><i>Not yet published as a NuGet package...</i></div>
+<h1 class='mb-0'>ScottPlot 4.1.69</h1>
+<div><i>NuGet packages published 2023-12-03</i></div>
 <div class='mt-1'>
 <ul>
 <li>Axis: Added <code>IsReverse</code> property to let users invert the orientation of an axis (<a href="https://github.com/ScottPlot/ScottPlot/issues/2958">#2958</a>) <em>Thanks <a href="https://github.com/HandsomeGoldenKnight">@HandsomeGoldenKnight</a></em>
