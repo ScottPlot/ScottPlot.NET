@@ -2,13 +2,13 @@
 title: Configuring Legends - ScottPlot 5.0 Cookbook
 description: A legend is a key typically displayed in the corner of a plot
 url: /cookbook/5.0/configuring-legends/
-date: 10/3/2023 10:20:48 AM
+date: 12/4/2023 12:30:59 AM
 ---
 
 This page is part of the [ScottPlot 5.0 Cookbook](../)
 
 
-<div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.9-beta is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
+<div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.10-beta is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
 
 
 
@@ -27,18 +27,14 @@ sig1.Label = "Sin";
 var sig2 = myPlot.Add.Signal(Generate.Cos(51));
 sig2.Label = "Cos";
 
-// enable the legend
-myPlot.Legend();
-
-// get the legend so it can be further customized
-var legend = myPlot.GetLegend();
-legend.OutlineStyle.Color = Colors.Navy;
-legend.OutlineStyle.Width = 2;
-legend.BackgroundFill.Color = Colors.LightBlue;
-legend.ShadowFill.Color = Colors.Blue.WithOpacity(.5);
-legend.Font.Size = 16;
-legend.Font.Name = Fonts.Serif;
-legend.Alignment = Alignment.UpperCenter;
+myPlot.Legend.IsVisible = true;
+myPlot.Legend.OutlineStyle.Color = Colors.Navy;
+myPlot.Legend.OutlineStyle.Width = 2;
+myPlot.Legend.BackgroundFill.Color = Colors.LightBlue;
+myPlot.Legend.ShadowFill.Color = Colors.Blue.WithOpacity(.5);
+myPlot.Legend.Font.Size = 16;
+myPlot.Legend.Font.Name = Fonts.Serif;
+myPlot.Legend.Alignment = Alignment.UpperCenter;
 
 myPlot.SavePng("legend-customization.png");
 ```
@@ -67,11 +63,10 @@ item2.Line.Width = 4;
 item2.Label = "Beta";
 
 // enable the legend
-myPlot.Legend();
+myPlot.Legend.IsVisible = true;
 
-// get the legend so it can be further customized
-var legend = myPlot.GetLegend();
-legend.ManualLegendItems = new[] { item1, item2 };
+// configure the legend to use the custom items
+myPlot.Legend.ManualLegendItems = new[] { item1, item2 };
 
 myPlot.SavePng("manual-legend.png");
 ```
@@ -93,11 +88,10 @@ var sig2 = myPlot.Add.Signal(Generate.Cos(51));
 sig2.Label = "Cos";
 
 // enable the legend
-myPlot.Legend();
+myPlot.Legend.IsVisible = true;
 
-// get the legend so it can be further customized
-var legend = myPlot.GetLegend();
-legend.ManualLegendItems = sig1.LegendItems;
+// configure the legend to use the custom items
+myPlot.Legend.ManualLegendItems = sig1.LegendItems;
 
 myPlot.SavePng("limit-plottables-in-legend.png");
 ```

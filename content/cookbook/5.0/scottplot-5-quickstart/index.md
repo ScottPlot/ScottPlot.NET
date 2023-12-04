@@ -2,13 +2,13 @@
 title: ScottPlot 5 Quickstart - ScottPlot 5.0 Cookbook
 description: A survey of basic functionality in ScottPlot 5
 url: /cookbook/5.0/scottplot-5-quickstart/
-date: 10/3/2023 10:20:48 AM
+date: 12/4/2023 12:30:59 AM
 ---
 
 This page is part of the [ScottPlot 5.0 Cookbook](../)
 
 
-<div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.9-beta is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
+<div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.10-beta is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
 
 
 
@@ -120,7 +120,7 @@ sig1.Label = "Sin";
 var sig2 = myPlot.Add.Signal(Generate.Cos(51));
 sig2.Label = "Cos";
 
-myPlot.Legend();
+myPlot.Legend.IsVisible = true;
 
 myPlot.SavePng("legend.png");
 ```
