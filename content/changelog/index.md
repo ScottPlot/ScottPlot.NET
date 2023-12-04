@@ -57,11 +57,13 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Legend: Replaced <code>List&lt;ILegend&gt;</code> with a simple <code>Legend</code> object with an <code>IsVisible</code> property (<a href="https://github.com/ScottPlot/ScottPlot/issues/2792">#2792</a>)
 </li>
+<li>Avalonia: Improved sizing of plot controls inside containers (<a href="https://github.com/ScottPlot/ScottPlot/issues/2923">#2923</a>) <em>Thanks <a href="https://github.com/JohnSmith20211124">@JohnSmith20211124</a> and <a href="https://github.com/Developer-Alexander">@Developer-Alexander</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/sulivanganter'>sulivanganter</a>, <a href='https://github.com/proplunger'>proplunger</a>, <a href='https://github.com/Crown0815'>Crown0815</a>, <a href='https://github.com/Gray-lab'>Gray-lab</a>, <a href='https://github.com/KroMignon'>KroMignon</a>, <a href='https://github.com/JurasskPark'>JurasskPark</a>, <a href='https://github.com/CBrauer'>CBrauer</a>, <a href='https://github.com/minjjKang'>minjjKang</a>, <a href='https://github.com/zy1075984'>zy1075984</a>, <a href='https://github.com/swharden'>swharden</a>
+<a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/sulivanganter'>sulivanganter</a>, <a href='https://github.com/proplunger'>proplunger</a>, <a href='https://github.com/Crown0815'>Crown0815</a>, <a href='https://github.com/Gray-lab'>Gray-lab</a>, <a href='https://github.com/KroMignon'>KroMignon</a>, <a href='https://github.com/JurasskPark'>JurasskPark</a>, <a href='https://github.com/CBrauer'>CBrauer</a>, <a href='https://github.com/minjjKang'>minjjKang</a>, <a href='https://github.com/zy1075984'>zy1075984</a>, <a href='https://github.com/JohnSmith20211124'>JohnSmith20211124</a>, <a href='https://github.com/Developer-Alexander'>Developer-Alexander</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -74,6 +76,8 @@ Description: Release notes for every version of ScottPlot
 <a href='https://github.com/CBrauer'><img src='https://scottplot.net/images/contributors/cbrauer.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/minjjKang'><img src='https://scottplot.net/images/contributors/minjjkang.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/zy1075984'><img src='https://scottplot.net/images/contributors/zy1075984.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/JohnSmith20211124'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Developer-Alexander'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
@@ -133,7 +137,7 @@ Description: Release notes for every version of ScottPlot
 <a href='https://github.com/LapinFou'><img src='https://scottplot.net/images/contributors/lapinfou.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/JbmOnGitHub'><img src='https://scottplot.net/images/contributors/jbmongithub.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/FannyAtGitHub'><img src='https://scottplot.net/images/contributors/fannyatgithub.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/b4shful'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/b4shful'><img src='https://scottplot.net/images/contributors/b4shful.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
