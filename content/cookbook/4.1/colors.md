@@ -1,7 +1,7 @@
 ---
 title: "Colors - ScottPlot 4.1 Cookbook"
 description: "List of Colors from all ScottPlot Palettes"
-date: 10/3/2023 6:21:43 AM
+date: 12/3/2023 7:28:06 PM
 url: /cookbook/4.1/colors/
 ---
 

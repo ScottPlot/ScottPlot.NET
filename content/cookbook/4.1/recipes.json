@@ -1,6 +1,6 @@
 {
-  "version": "4.1.68",
-  "generated": "2023-10-03T10:21:43.098349Z",
+  "version": "4.1.69",
+  "generated": "2023-12-04T00:28:06.8871278Z",
   "recipes": [
     {
       "id": "Axis_label",
@@ -155,12 +155,28 @@
       "code": "var plt = new ScottPlot.Plot(600, 400);\n\n// these are our nonlinear data values we wish to plot\ndouble[] amplitudes = { 23.9, 24.2, 24.3, 24.5, 25.3, 26.3, 27.6, 31.4, 33.7, 36,\n38.4, 42, 43.5, 46.1, 48.8, 51.5, 53.2, 55, 56.9, 58.7, 60.6 };\ndouble[] frequencies = { 50, 63, 80, 100, 125, 160, 200, 250, 315, 400, 500, 630,\n 800, 1000, 1250, 1600, 2000, 2500, 3150, 4000, 5000 };\n\n// ignore the \u0022real\u0022 X values and plot data at consecutive X values (0, 1, 2, 3...)\ndouble[] positions = DataGen.Consecutive(frequencies.Length);\nplt.AddScatter(positions, amplitudes);\n\n// then define tick labels based on \u0022real\u0022 X values, rotate them, and give them extra space\nstring[] labels = frequencies.Select(x =\u003E x.ToString()).ToArray();\nplt.XAxis.ManualTickPositions(positions, labels);\nplt.XAxis.TickLabelStyle(rotation: 45);\nplt.XAxis.SetSizeLimit(min: 50); // extra space for rotated ticks\n\n// apply axis labels, trigging a layout reset\nplt.Title(\u0022Vibrational Coupling\u0022);\nplt.YLabel(\u0022Amplitude (dB)\u0022);\nplt.XLabel(\u0022Frequency (Hz)\u0022);\n\nplt.SaveFig(\u0022ticks_nonLinearX.png\u0022);"
     },
     {
+      "id": "ticks_manual",
+      "category": "Advanced Axis Features",
+      "categoryFolder": "advanced-axis-features",
+      "title": "Manual Ticks",
+      "description": "Full customization of ticks can be achieved using the ManualTickCollection helper class.",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.AddSignal(DataGen.Sin(51));\nplt.AddSignal(DataGen.Cos(51));\n\n// use a helper class to build a colelction of major and minor ticks\nScottPlot.Ticks.ManualTickCollection tc = new();\n\n// add major ticks with their labels\ntc.AddMajor(0, \u0022zero\u0022);\ntc.AddMajor(20, \u0022twenty\u0022);\ntc.AddMajor(50, \u0022fifty\u0022);\n\n// add minor ticks\ntc.AddMinor(22);\ntc.AddMinor(25);\ntc.AddMinor(32);\ntc.AddMinor(35);\ntc.AddMinor(42);\ntc.AddMinor(45);\n\n// get the tick array and apply it to the axis\nScottPlot.Ticks.Tick[] ticks = tc.GetTicks();\nplt.BottomAxis.SetTicks(ticks);\n\nplt.SaveFig(\u0022ticks_manual.png\u0022);"
+    },
+    {
+      "id": "reverse_axisDirection",
+      "category": "Advanced Axis Features",
+      "categoryFolder": "advanced-axis-features",
+      "title": "Reverse Axis Direction",
+      "description": "Plot data on reversed axis. And all points plotted match the reverse coordinate axis.",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.AddSignal(DataGen.Sin(51), label: \u0022sin\u0022);\nplt.AddSignal(DataGen.Cos(51), label: \u0022cos\u0022);\nplt.Legend();\n\nplt.XAxis.IsReverse = true;\nplt.YAxis.IsReverse = true;\n\nplt.SaveFig(\u0022reverse_axisDirection.png\u0022);"
+    },
+    {
       "id": "ticks_descending",
       "category": "Advanced Axis Features",
       "categoryFolder": "advanced-axis-features",
       "title": "Descending Ticks",
-      "description": "ScottPlot will always display data where X values ascend from left to right. To simulate an inverted axis (where numbers decrease from left to right) plot data in the negative space, then invert the sign of tick labels.",
-      "code": "var plt = new ScottPlot.Plot(600, 400);\n\n// plot the positive data in the negative space\ndouble[] values = DataGen.Sin(50);\nvar sig = plt.AddSignal(values);\nsig.OffsetX = -50;\n\n// then invert the sign of the axis tick labels\nplt.XAxis.TickLabelNotation(invertSign: true);\nplt.YAxis.TickLabelNotation(invertSign: true);\n\nplt.SaveFig(\u0022ticks_descending.png\u0022);"
+      "description": "Axis tick labels can be inverted in sign to give the apperance of a reversed axis.",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\nplt.AddSignal(DataGen.Sin(51), label: \u0022sin\u0022);\nplt.AddSignal(DataGen.Cos(51), label: \u0022cos\u0022);\nplt.Legend();\n\nplt.XAxis.TickLabelNotation(invertSign: true);\nplt.YAxis.TickLabelNotation(invertSign: true);\n\nplt.SaveFig(\u0022ticks_descending.png\u0022);"
     },
     {
       "id": "ticks_definedSpacing",
@@ -1065,6 +1081,14 @@
       "title": "DateTime Bar Plot",
       "description": "Bars have a default width of 1.0, but when using DateTime axis this means bars are one day wide. To plot DateTime data you may need to manually set the width of a bar to a desired size (in fractions of a day).",
       "code": "var plt = new ScottPlot.Plot(600, 400);\n\n// let\u0027s plot 24 hours of data\nint pointCount = 24;\n\n// generate some random values\nvar rand = new Random(0);\ndouble[] values = DataGen.Random(rand, pointCount, 1.0, 2.5);\n\n// space every time point by 1 hour from a starting point\nDateTime start = new DateTime(2021, 09, 24, 0, 0, 0);\ndouble[] positions = new double[pointCount];\nfor (int i = 0; i \u003C pointCount; i\u002B\u002B)\n    positions[i] = start.AddHours(i).ToOADate();\n\n// display the bar plot using a time axis\nvar bar = plt.AddBar(values, positions);\nplt.XAxis.DateTimeFormat(true);\n\n// indicate each bar width should be 1/24 of a day then shrink sligtly to add spacing between bars\nbar.BarWidth = (1.0 / 24) * .8;\n\n// adjust axis limits so there is no padding below the bar graph\nplt.SetAxisLimits(yMin: 0);\nplt.Layout(right: 20); // add room for the far right date tick\n\nplt.SaveFig(\u0022bar_dateTime.png\u0022);"
+    },
+    {
+      "id": "bar_custom_individual",
+      "category": "Bar Graph",
+      "categoryFolder": "plottable-bar-graph",
+      "title": "Custom Individual Bars",
+      "description": "Extreme customization can be achieved by placing each bar manually and adjusting its styling properties individually.",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\n// place bars simulating groups with manually defined colors\nplt.AddBar(-1, 15, 3, Color.Red);\nplt.AddBar(0, 17, 4, Color.Orange);\nplt.AddBar(1, 13, 5, Color.Yellow);\n\nplt.AddBar(3, 14, 3, Color.Green);\nplt.AddBar(4, 15, 4, Color.Blue);\nvar lastBar = plt.AddBar(5, 16, 5, Color.Violet);\n\n// bars can be further customized individually\nlastBar.HatchStyle = Drawing.HatchStyle.LargeCheckerBoard;\nlastBar.BorderLineWidth = 3;\nlastBar.ErrorCapSize = 0.2;\nlastBar.ErrorLineWidth = 2;\nlastBar.BarWidth = 0.5;\n\n// use manaual tick labels to name groups\ndouble[] tickPositions = { 0, 4 };\nstring[] tickLabels = { \u0022Group 1\u0022, \u0022Group 2\u0022 };\nplt.BottomAxis.ManualTickPositions(tickPositions, tickLabels);\n\n// adjust axis limits so the view starts at zero\nplt.SetAxisLimits(yMin: 0);\n\nplt.SaveFig(\u0022bar_custom_individual.png\u0022);"
     },
     {
       "id": "barseries_quickstart",
@@ -1995,6 +2019,14 @@
       "code": "var plt = new ScottPlot.Plot(600, 400);\n\n// create sample data to represent test scores\nRandom rand = new Random(0);\ndouble[] scoresA = DataGen.RandomNormal(rand, 35, 72, 7);\ndouble[] scoresB = DataGen.RandomNormal(rand, 42, 57, 10);\ndouble[] scoresC = DataGen.RandomNormal(rand, 23, 79, 5);\n\n// To create a population series we need to start with an array of populations.\n// In this example each population series just has one population in it.\nvar popsA = new Statistics.Population[] { new Statistics.Population(scoresA) };\nvar popsB = new Statistics.Population[] { new Statistics.Population(scoresB) };\nvar popsC = new Statistics.Population[] { new Statistics.Population(scoresC) };\n\n// create a PopulationSeries for each set of scores, naming it in the process\nvar seriesA = new Statistics.PopulationSeries(popsA, \u0022Class A\u0022);\nvar seriesB = new Statistics.PopulationSeries(popsB, \u0022Class B\u0022);\nvar seriesC = new Statistics.PopulationSeries(popsC, \u0022Class C\u0022);\nvar seriesArray = new Statistics.PopulationSeries[] { seriesA, seriesB, seriesC };\n\n// create a MultiSeries object by passing in the array of series objects and plot it\nvar multiSeries = new Statistics.PopulationMultiSeries(seriesArray);\nvar popPlot = plt.AddPopulations(multiSeries);\n\n// now customize its public fields to extensively customize its display options\npopPlot.DistributionCurve = true;\npopPlot.DistributionCurveLineStyle = LineStyle.Dash;\npopPlot.ScatterOutlineColor = System.Drawing.Color.Transparent;\npopPlot.DataFormat = ScottPlot.Plottable.PopulationPlot.DisplayItems.ScatterAndBox;\npopPlot.DataBoxStyle = ScottPlot.Plottable.PopulationPlot.BoxStyle.BarMeanStDev;\n\n// colors are managed at the population series level:\nforeach (var popSeries in popPlot.MultiSeries.multiSeries)\n    popSeries.color = Tools.GetRandomColor(rand);\n\n// improve the style of the plot\nplt.Legend(location: Alignment.LowerLeft);\nplt.XAxis.Ticks(false);\nplt.XAxis.Grid(false);\nplt.YAxis.MajorGrid(lineStyle: LineStyle.Dot);\nplt.SetAxisLimits(yMin: 0);\n\nplt.SaveFig(\u0022population_advanced.png\u0022);"
     },
     {
+      "id": "population_custom_colors",
+      "category": "Population",
+      "categoryFolder": "plottable-population",
+      "title": "Customizing Colors",
+      "description": "Population plots apply different transparencies to boxes and markers by default. Precise control of colors can be achieved by defining alpha overrides as shown here.",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\n// Define population data (3 groups, 2 series per group)\ndouble[][][] seriesData = new[] {\n    new[] { new []{1.0, 2.0, 3.0}, new []{2.0, 3.0, 4.0}, new []{5.0, 6.0, 7.0} },\n    new[] { new []{8.0, 9.0, 10.0}, new []{11.0, 12.0, 13.0}, new []{14.0, 15.0, 16.0} }\n};\n\n// Build the population plot and add it to the graph\nStatistics.Population[][] populations = seriesData.Select(series =\u003E series.Select(seriesData =\u003E new Statistics.Population(seriesData)).ToArray()).ToArray();\nStatistics.PopulationSeries[] populationSeries = populations.Select((p, i) =\u003E new Statistics.PopulationSeries(p, seriesLabel: $\u0022Series {i}\u0022)).ToArray();\nStatistics.PopulationMultiSeries populationMultiSeries = new(populationSeries.ToArray());\nvar populationPlot = plt.AddPopulations(populationMultiSeries);\n\n// Add group and series labels\nplt.XTicks(new string[] { \u0022Group A\u0022, \u0022Group B\u0022, \u0022Group C\u0022 });\nplt.Legend();\n\n// Define specific colors for each group\npopulationSeries[0].color = Color.FromArgb(alpha: 100, red: 255, green: 0, blue: 0);\npopulationSeries[1].color = Color.FromArgb(alpha: 255, red: 0, green: 0, blue: 255);\n\n// Manually define transparency for boxes and markers - alpha values will now be set using the series colors\npopulationPlot.AutomaticOpacity = false;\n\n// Make scatter markers 75% as opaque as box plots\npopulationPlot.MarkerOpacityRatio = 0.75;\n\nplt.SaveFig(\u0022population_custom_colors.png\u0022);"
+    },
+    {
       "id": "radar_quickstart",
       "category": "Radar Chart",
       "categoryFolder": "plottable-radar",
@@ -2087,8 +2119,8 @@
       "category": "Radar Chart",
       "categoryFolder": "plottable-radar",
       "title": "Customization",
-      "description": "Radar charts support customization of the line color and width.",
-      "code": "var plt = new ScottPlot.Plot(600, 400);\n\ndouble[,] values = {\n    { 78,  83, 84, 76, 43 },\n    { 100, 50, 70, 60, 90 }\n};\n\nvar radar = plt.AddRadar(values);\nradar.WebColor = System.Drawing.Color.Red;\nradar.LineWidth = 3;\n\nplt.SaveFig(\u0022radar_customization.png\u0022);"
+      "description": "Radar charts support extensive customization options.",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\ndouble[,] values = { { 2, 4, 3 }, { 3, 3, 4 } };\ndouble[] maxValues = { 5, 5, 5 };\n\nvar radar = plt.AddRadar(\n    values: values,\n    independentAxes: false,\n    maxValues: maxValues,\n    alphafill: 20);\n\nstatic string CustomLabelFormatter(double position)\n{\n    return position.ToString(\u0022f1\u0022);\n}\n\nradar.CategoryLabels = new string[] { \u0022Speed\u0022, \u0022Velocity\u0022, \u0022Strength\u0022 };\nradar.GroupLabels = new[] { \u0022First try\u0022, \u0022Second try\u0022 };\nradar.Font.Size = 10;\nradar.TickValues = new double[] { 1, 2, 3, 4, 5 };\nradar.AxisLabelStringFormatter = CustomLabelFormatter;\nradar.WebColor = System.Drawing.Color.WhiteSmoke;\nradar.LineWidth = 3;\n\nplt.SaveFig(\u0022radar_customization.png\u0022);"
     },
     {
       "id": "radialgauge_quickstart",
@@ -2607,7 +2639,7 @@
       "category": "SignalXY",
       "categoryFolder": "plottable-signalxy",
       "title": "SignalXY Quickstart",
-      "description": "SignalXY is a speed-optimized plot for displaying vaues (Ys) with unevenly-spaced positions (Xs) that are in ascending order. If your data is evenly-spaced, Signal and SignalConst is faster.",
+      "description": "SignalXY is a speed-optimized plot for displaying values (Ys) with unevenly-spaced positions (Xs) that are in ascending order. If your data is evenly-spaced, Signal and SignalConst is faster.",
       "code": "var plt = new ScottPlot.Plot(600, 400);\n\n(double[] xs, double[] ys) = DataGen.RandomWalk2D(new Random(0), 5_000);\n\nplt.AddSignalXY(xs, ys);\n\nplt.SaveFig(\u0022signalxy_quickstart.png\u0022);"
     },
     {
@@ -2671,7 +2703,7 @@
       "category": "SignalXY",
       "categoryFolder": "plottable-signalxy",
       "title": "SignalConst with X and Y data",
-      "description": "SignalXYConst is a speed-optimized plot for displaying vaues (Ys) with unevenly-spaced positions (Xs) that are in ascending order. If your data is evenly-spaced, Signal and SignalConst is faster.",
+      "description": "SignalXYConst is a speed-optimized plot for displaying values (Ys) with unevenly-spaced positions (Xs) that are in ascending order. If your data is evenly-spaced, Signal and SignalConst is faster.",
       "code": "var plt = new ScottPlot.Plot(600, 400);\n\n// generate random, unevenly-spaced data\nRandom rand = new Random(0);\nint pointCount = 100_000;\ndouble[] ys = new double[pointCount];\ndouble[] xs = new double[pointCount];\nfor (int i = 1; i \u003C ys.Length; i\u002B\u002B)\n{\n    ys[i] = ys[i - 1] \u002B rand.NextDouble() - .5;\n    xs[i] = xs[i - 1] \u002B rand.NextDouble();\n}\n\nplt.AddSignalXYConst(xs, ys);\n\nplt.SaveFig(\u0022signalxyconst_quickstart.png\u0022);"
     },
     {
