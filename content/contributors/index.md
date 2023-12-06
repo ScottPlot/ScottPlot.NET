@@ -12,11 +12,15 @@ Description: Members of the open-source community who contributed to ScottPlot
 <div class='display-3 my-5 text-center'>💖🚀✨</div>
 <div class='d-flex justify-content-center flex-wrap'>
 <div class='bg-light border rounded text-center mx-3 my-2'>
+<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/arthurits.png' height='125' width='125'/></a></div>
+<div><a href='https://github.com/arthurits'>@arthurits</a></div>
+</div>
+<div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/em3a-c.png' height='125' width='125'/></a></div>
 <div><a href='https://github.com/Em3a-c'>@Em3a-c</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
-<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/brand/favicon.png' height='125' width='125'/></a></div>
+<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/cornford.jpg' height='125' width='125'/></a></div>
 <div><a href='https://github.com/cornford'>@cornford</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
@@ -394,10 +398,6 @@ Description: Members of the open-source community who contributed to ScottPlot
 <div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/rafntor.jpg' height='125' width='125'/></a></div>
 <div><a href='https://github.com/rafntor'>@rafntor</a></div>
-</div>
-<div class='bg-light border rounded text-center mx-3 my-2'>
-<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/arthurits.png' height='125' width='125'/></a></div>
-<div><a href='https://github.com/arthurits'>@arthurits</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/sganard.png' height='125' width='125'/></a></div>
