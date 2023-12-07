@@ -25,6 +25,8 @@ Description: Release notes for every version of ScottPlot
 <ul>
 <li>Plot: <code>AutoScaler</code> can now be assigned a <code>FractionalAutoScaler</code> with custom properties (<a href="https://github.com/ScottPlot/ScottPlot/issues/3069">#3069</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3067">#3067</a>) <em>Thanks <a href="https://github.com/arthurits">@arthurits</a></em>
 </li>
+<li>Controls: add SVG to recommended save formats in the right-click menu (<a href="https://github.com/ScottPlot/ScottPlot/issues/3068">#3068</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
