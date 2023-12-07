@@ -31,6 +31,8 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Legend: Added <code>ManualItems</code> to allow building custom legend content
 </li>
+<li>Render: Prevent the pre-render auto-scaler from resetting manually defined axis limits (<a href="https://github.com/ScottPlot/ScottPlot/issues/3058">#3058</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
