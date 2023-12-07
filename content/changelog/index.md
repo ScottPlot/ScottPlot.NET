@@ -27,6 +27,10 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Controls: add SVG to recommended save formats in the right-click menu (<a href="https://github.com/ScottPlot/ScottPlot/issues/3068">#3068</a>)
 </li>
+<li>Bar: Refactored bar plots to simplify individual bar customization (<a href="https://github.com/ScottPlot/ScottPlot/issues/3070">#3070</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3066">#3066</a>)
+</li>
+<li>Legend: Added <code>ManualItems</code> to allow building custom legend content
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
