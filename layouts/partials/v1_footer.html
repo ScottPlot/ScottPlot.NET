@@ -1,0 +1,34 @@
+<footer class="container align-items-end mt-5">
+    <div class="row">
+        <div class="col-sm text-center py-3" style="opacity: .3;">
+            <div>
+                Copyright &copy; {{ now.Format "2006" }}
+            </div>
+            <div>
+                <a href='https://swharden.com/about' class="text-dark">Scott W Harden</a>
+            </div>
+        </div>
+
+        <div class="col-sm text-center py-3" style="opacity: .3;">
+            <div>
+                Built with Hugo {{ .Site.Hugo.Version }}
+            </div>
+            <div>
+                {{ time now | time.Format ":date_long" }}
+                at {{ time now "America/New_York" | time.Format ":time_short" }} EST
+            </div>
+        </div>
+
+        <div class="col-sm text-center py-3" style="opacity: .3;">
+            <div>
+                <a href="https://github.com/scottplot/scottplot.net/blob/main/content/{{ path.Clean .File.Path }}"
+                    class="text-dark">
+                    Edit on GitHub
+                </a>
+            </div>
+            <div>
+                <a href="/sitemap.xml" class="text-dark">Sitemap</a>
+            </div>
+        </div>
+    </div>
+</footer>

@@ -1,0 +1,23 @@
+.accordion-body pre {
+    border: none;
+    margin: 0;
+    background-color: transparent !important;
+}
+
+.accordion-body {
+    background-color: #f6f6f6 !important;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    background: transparent;
+    color: black;
+}
+
+.accordion-button.collapsed {
+    background: transparent;
+    color: #00000055;
+}
