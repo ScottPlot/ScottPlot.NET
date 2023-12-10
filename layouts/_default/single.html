@@ -2,16 +2,8 @@
 
 {{ partial "post-warnings.html" . }}
 
-<article class="my-3">
-    <div class="p-3">
-
-        <!-- TODO: move this into the subtitle bar or content pages -->
-        <h1 class="my-0 pt-0 mb-3">
-            <a href="{{ .Permalink }}">
-                {{ .Page.Title }}
-            </a>
-        </h1>
-
+<article class="my-0">
+    <div class="p-2">
         {{ .Content | replaceRE "(<h[1-9] id=\"([^\"]+)\".+)(</h[1-9]+>)"
             `<a href="#${2}">${1}</a> ${3}` | safeHTML }}
     </div>
