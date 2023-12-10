@@ -60,6 +60,10 @@ internal abstract class HtmlPageBase
             Description: {Description}
             ---
 
+            # {Title}
+
+            {Description}
+
             {GetHtml()}
             """;
     }
