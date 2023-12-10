@@ -1,0 +1,416 @@
+<!doctype html>
+
+<!-- 
+
+This file shows what a single-column layout could look like if a subtitle bar is added.
+
+
+As long as the cookbook home screen does a good job displaying the categories, 
+that should make it easy to navigate and avoid a complex sidebar that's cluttered 
+with links and has to appear as an off-canvas pop-out menu on small screens.
+
+-->
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/vs.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+
+    <style>
+        a {
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .navbar {
+            background-color: inherit !important;
+        }
+
+        .navbar-brand a {
+            color: white !important;
+            text-decoration: none;
+        }
+
+        .nav-link {
+            color: white !important;
+            opacity: 0.55;
+        }
+
+        .nav-link:hover {
+            color: white !important;
+            opacity: 0.8;
+            text-decoration: none;
+        }
+
+        .navbar button {
+            background-color: rgba(255, 255, 255, .1) !important;
+            color: rgba(255, 255, 255, .55) !important;
+            border: 1px solid rgba(255, 255, 255, 0);
+        }
+
+        .navbar button:hover {
+            background-color: rgba(255, 255, 255, .2) !important;
+            border: 1px solid rgba(255, 255, 255, .2);
+            color: rgba(255, 255, 255, .8) !important;
+        }
+    </style>
+
+    <style>
+        pre {
+            background-color: #F3F3F3;
+        }
+
+        pre code {
+            background-color: inherit !important;
+        }
+
+        .content-limited-width {
+            max-width: 900px;
+            margin: auto;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <div class="" style="background-color: #67217a;">
+            <nav class="navbar navbar-expand-md content-limited-width">
+                <div class="container-fluid">
+
+                    <div class="navbar-brand d-flex align-items-center">
+                        <a href="/">
+                            <img src="https://scottplot.net/images/brand/favicon.svg" width="32" height="32"
+                                class="me-2">
+                            </img>
+                        </a>
+                        <div class="fs-4">
+                            <a href="/">ScottPlot.NET</a>
+                        </div>
+                    </div>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            class="bi bi-list" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+                        </svg>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="/quickstart" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Quickstart
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li>
+                                        <a class="dropdown-item" href="/quickstart/console">
+                                            Console Application
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="/quickstart/winforms">
+                                            Windows Forms
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="/quickstart/wpf">
+                                            WPF
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="/quickstart/winui">
+                                            WinUI
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="/quickstart/avalonia">
+                                            Avalonia
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="/quickstart/eto">
+                                            Eto
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="/quickstart/powershell">
+                                            PowerShell
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="/quickstart/notebook">
+                                            .NET Notebook
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="/quickstart/ironpython">
+                                            IronPython
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="/quickstart/console">
+                                            C#
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="/quickstart/fsharp">
+                                            F#
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="/quickstart/vb">
+                                            VB
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Cookbook
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li>
+                                        <a class="dropdown-item" href="/cookbook/4.1/">
+                                            ScottPlot 4.1
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="/cookbook/5.0/">
+                                            ScottPlot 5.0 beta
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="/faq">
+                                    FAQ
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="/demo">
+                                    Demo
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="/discord">
+                                    Discord
+                                </a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Code
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-item" href="/changelog">
+                                            Changelog
+                                        </a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-item" href="/contributors">
+                                            Contributors
+                                        </a>
+                                    </li>
+
+                                    <hr />
+
+                                    <li>
+                                        <a class="dropdown-item" href="https://github.com/ScottPlot/ScottPlot">
+                                            ScottPlot on GitHub
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="https://github.com/ScottPlot/ScottPlot.NET">
+                                            This website on GitHub
+                                        </a>
+                                    </li>
+                                    <hr />
+
+                                    <li>
+                                        <a class="dropdown-item" href="https://www.nuget.org/profiles/ScottPlot">
+                                            NuGet Packages
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="https://scottplot.net/metrics/">
+                                            Code Metrics
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="https://www.fuget.org/packages/ScottPlot/">
+                                            ScottPlot API
+                                        </a>
+                                    </li>
+
+                                    <hr />
+
+                                    <li>
+                                        <a class="dropdown-item" href="/versions">
+                                            Major Versions
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="/faq/#about-scottplot">
+                                            About ScottPlot
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div style="background-color: #EEE;" class="border-bottom shadow-sm">
+            <div class="content-limited-width px-2 py-1 d-flex justify-content-between">
+                <div class="d-flex">
+                    <a href="#">ScottPlot 5.0 Cookbook</a>
+                    <div class="mx-1">»</div>
+                    <a href="#">Axis and Grids</a>
+                </div>
+                <div class="">
+                    <a href="#">🔎 Search Cookbook</a>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+
+        <section class="content-limited-width pt-3 pb-5">
+            <h1 class="ps-4 mb-0 mt-3">Scatter Plot</h1>
+            <div class="ps-4 pb-4">Scatter plots have paired X/Y points.</div>
+            <img src="https://scottplot.net/cookbook/4.1/images/quickstart_scatter.png">
+            <pre class="p-2 my-4 border"><code>var plt = new ScottPlot.Plot(600, 400);
+
+// sample data
+double[] xs = DataGen.Consecutive(51);
+double[] sin = DataGen.Sin(51);
+double[] cos = DataGen.Cos(51);
+
+// plot the data
+plt.AddScatter(xs, sin);
+plt.AddScatter(xs, cos);
+
+// customize the axis labels
+plt.Title("ScottPlot Quickstart");
+plt.XLabel("Horizontal Axis");
+plt.YLabel("Vertical Axis");
+
+plt.SaveFig("quickstart_scatter.png");</code></pre>
+        </section>
+
+
+        <section class="content-limited-width">
+            <h1 class="ps-4 mb-0 mt-3">Scatter Plot</h1>
+            <div class="ps-4 pb-4">Scatter plots have paired X/Y points.</div>
+            <img src="https://scottplot.net/cookbook/4.1/images/quickstart_scatter.png">
+            <pre class="p-4 my-4"><code>var plt = new ScottPlot.Plot(600, 400);
+
+// sample data
+double[] xs = DataGen.Consecutive(51);
+double[] sin = DataGen.Sin(51);
+double[] cos = DataGen.Cos(51);
+
+// plot the data
+plt.AddScatter(xs, sin);
+plt.AddScatter(xs, cos);
+
+// customize the axis labels
+plt.Title("ScottPlot Quickstart");
+plt.XLabel("Horizontal Axis");
+plt.YLabel("Vertical Axis");
+
+plt.SaveFig("quickstart_scatter.png");</code></pre>
+        </section>
+
+
+        <section class="content-limited-width">
+            <h1 class="ps-4 mb-0 mt-3">Scatter Plot</h1>
+            <div class="ps-4 pb-4">Scatter plots have paired X/Y points.</div>
+            <img src="https://scottplot.net/cookbook/4.1/images/quickstart_scatter.png">
+            <pre class="p-4 my-4"><code>var plt = new ScottPlot.Plot(600, 400);
+
+// sample data
+double[] xs = DataGen.Consecutive(51);
+double[] sin = DataGen.Sin(51);
+double[] cos = DataGen.Cos(51);
+
+// plot the data
+plt.AddScatter(xs, sin);
+plt.AddScatter(xs, cos);
+
+// customize the axis labels
+plt.Title("ScottPlot Quickstart");
+plt.XLabel("Horizontal Axis");
+plt.YLabel("Vertical Axis");
+
+plt.SaveFig("quickstart_scatter.png");</code></pre>
+        </section>
+
+
+        <section class="content-limited-width">
+            <h1 class="ps-4 mb-0 mt-3">Scatter Plot</h1>
+            <div class="ps-4 pb-4">Scatter plots have paired X/Y points.</div>
+            <img src="https://scottplot.net/cookbook/4.1/images/quickstart_scatter.png">
+            <pre class="p-4 my-4"><code>var plt = new ScottPlot.Plot(600, 400);
+
+// sample data
+double[] xs = DataGen.Consecutive(51);
+double[] sin = DataGen.Sin(51);
+double[] cos = DataGen.Cos(51);
+
+// plot the data
+plt.AddScatter(xs, sin);
+plt.AddScatter(xs, cos);
+
+// customize the axis labels
+plt.Title("ScottPlot Quickstart");
+plt.XLabel("Horizontal Axis");
+plt.YLabel("Vertical Axis");
+
+plt.SaveFig("quickstart_scatter.png");</code></pre>
+        </section>
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <script>hljs.highlightAll();</script>
+
+</body>
+
+</html>
