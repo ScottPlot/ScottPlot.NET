@@ -1,7 +1,9 @@
 ---
-Title: User Control Configuration - ScottPlot FAQ
+Title: User Control Advanced Configuration - ScottPlot FAQ
 Description: Interact with the control configuration object to achieve advanced customizations of user control style and behavior
 ---
+
+# User Control Advanced Configuration
 
 **ScottPlot user controls have a `Plot` object you're probably familiar with, but they also have a `Configuration` object which lets users modify the default behavior of user controls.** Options in this configuration object are typically related to user interaction, such as whether scroll-wheel-zoom is enabled, or left-click-pan is allowed.
 

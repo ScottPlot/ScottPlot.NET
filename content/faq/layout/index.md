@@ -3,6 +3,8 @@ title: Layout Mechanics and Customization - ScottPlot FAQ
 description: Advanced configuration for the data area, axes, figure padding, etc.
 ---
 
+# Advanced Layout Customization
+
 This page summarizes how plot layouts are created automatically and how this behavior can be customized. For additional information and code examples, refer to the following Cookbook sections:
 * [ScottPlot 4.1 Cookbook: Layout](https://scottplot.net/cookbook/4.1/#layout)
 * [ScottPlot 4.1 Cookbook: Axis and Ticks](https://scottplot.net/cookbook/4.1/#axis-and-ticks)

@@ -3,6 +3,8 @@ Title: Financial Charting - ScottPlot FAQ
 Description: How to plot candlesticks and volume indicators in separate plot controls such that they move together when panned and zoomed
 ---
 
+# Financial Charting
+
 Finance charts often display price action next to volume indicators. This page describes how to synchronize two plot controls so they share a horizontal axis and can be used to simultaneously display price and volume.
 
 <img src="finance-drag.gif" class="d-block mx-auto">

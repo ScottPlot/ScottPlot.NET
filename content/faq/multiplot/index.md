@@ -3,6 +3,8 @@ title: MultiPlot - ScottPlot FAQ
 description: How to create multi-plot figures with ScottPlot
 ---
 
+# MultiPlot
+
 A _MultiPlot_ is a single image that contains multiple plots.
 
 <div class="text-center">

@@ -3,6 +3,8 @@ title: ScottPlot dependencies - ScottPlot FAQ
 description: ScottPlot's Dependencies and their Implications
 ---
 
+# ScottPlot Dependencies
+
 **ScottPlot 4 depends on the [System.Drawing.Common package](https://www.nuget.org/packages/System.Drawing.Common/) to render plots.** This has special considerations for modern .NET projects depending on which operating system is being targeted.
 
 ## Windows

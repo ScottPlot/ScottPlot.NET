@@ -5,6 +5,8 @@ url: "faq"
 date: 2020-01-01
 ---
 
+# ScottPlot FAQ
+
 ### ScottPlot Basics
 * [Creating, Adding, and Modifying Plottable objects](plottable)
 * [Favor SignalPlot over ScatterPlot](scatter-vs-signal)

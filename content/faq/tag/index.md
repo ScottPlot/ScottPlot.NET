@@ -3,6 +3,8 @@ title: Tagging - ScottPlot FAQ
 description: How to pair plottables with custom objects
 ---
 
+# Tagging Plottables with Custom Objects
+
 **Windows Forms controls have a [Tag property](https://learn.microsoft.com/en-us/dotnet/api/system.windows.forms.control.tag) to allow users to store arbitrary `object` references.** ScottPlot controls and plottables intentionally do not have such a property. Plottables have public properties used to store styling and data configuration information, but storing additional unrelated state inside plottables is not advised.
 
 **Instead, users are encouraged to create their own data structures to pair plottables with the custom objects unique to their application.** A [`Dictionary`](https://www.tutorialsteacher.com/csharp/csharp-dictionary) works well here, as the `key` can be the plottable object and the `value` can be whatever object the developer is interested in keeping track of. Here is a Windows Forms application demonstrating this concept:

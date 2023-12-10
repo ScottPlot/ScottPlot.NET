@@ -3,6 +3,8 @@ title: Add ScottPlot WinForms Control Programmatically
 description: How to create and place an interactive ScottPlot control in a Form without using the Visual Studio designer
 ---
 
+# Add ScottPlot WinForms Control Programmatically
+
 **ScottPlot controls are typically added to forms by drag/dropping the control from the Visual Studio Toolbox, but this can also be achieved in code.** Adding a ScottPlot control programmatically may be desired if developers experience Visual Studio designer view errors. These errors are commonly caused by old versions of Visual Studio, x86 vs. x64 mismatches, or issues locating DLLs or fonts.
 
 ## Steps

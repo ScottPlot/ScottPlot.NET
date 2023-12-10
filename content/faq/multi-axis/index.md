@@ -3,6 +3,8 @@ Title: Multi-Axis Plots - ScottPlot FAQ
 Description: How to create plots with multiple axes
 ---
 
+# Multi-Axis Plots
+
 💡 **TLDR:** _Every plottable has an `XAxisIndex` and `YAxisIndex` field that determines which axis it will render on. You can use the primary (bottom/left) or secondary (right/top) axes, or `Add()` your own to achieve multiple axes on the same edge of a plot._
 
 ## Plot on a Secondary Axis

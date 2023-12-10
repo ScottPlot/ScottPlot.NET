@@ -3,6 +3,8 @@ title: Axes and Axis Limits - ScottPlot FAQ
 description: Axis Styles, axis limits, and multiple axes in ScottPlot
 ---
 
+# Axes and Axis Limits
+
 ScottPlot displays data in a rectangular view of a 2D coordinate system. The edges of this view are referred to as **Axis Limits**, and this page discusses the various ways axis limits can be adjusted and customized.
 
 ## Definitions

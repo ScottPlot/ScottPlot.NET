@@ -3,6 +3,8 @@ title: Reproducible Code Examples
 description: Recommendations for preparing executable code samples that can facilitate resolving issues or answering questions.
 ---
 
+# How to Create Reproducible Code Examples
+
 **Sharing a reproducible code example with an issue or question increases the likelihood that it will be addressed rapidly and accurately.** Questions with absent or incomplete code examples are unlikely to receive an accurate or timely responses, and may even be closed the labor required to reproduce the issue is high. This page describes strategies for creating code examples that are easy for others to run and evaluate.
 
 ## Static Plot

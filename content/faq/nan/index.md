@@ -3,6 +3,8 @@ title: ScottPlot, NaN, and Infinity - ScottPlot FAQ
 description: How does ScottPlot treat data arrays containing NaN and Infinity?
 ---
 
+# Plotting Data Containing NaN and Infinity
+
 NaN-checks are not routinely performed inside the render loop (a decision favoring maximal performance), so attempting to plot `double[]` containing NaN may result in unexpected behavior (including exceptions). In general it is a good idea to avoid plotting data containing any of:
 
 Most plot types cannot display `double[]` containing:

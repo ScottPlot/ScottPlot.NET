@@ -3,6 +3,8 @@ title: Development Environment Setup - ScottPlot FAQ
 description: How to Build ScottPlot from Source Code using Visual Studio
 ---
 
+# ScottPlot Development Environment
+
 ## Build ScottPlot from Source
 
 _Building from source lets developers modify the ScottPlot code to customize behavior, fix bugs, and add new features. These steps are the easiest way for new contributors to get up and running with ScottPlot._

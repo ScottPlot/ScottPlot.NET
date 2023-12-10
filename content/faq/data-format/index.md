@@ -1,7 +1,9 @@
 ---
-Title: ScottPlot Data Format - ScottPlot FAQ
+Title: ScottPlot Data Formats - ScottPlot FAQ
 Description: Why does ScottPlot prefer double[]? Can other data types be used?
 ---
+
+# ScottPlot Data Formats
 
 **ScottPlot is opinionated, and prefers data to be in `double[]` format.** We often receive suggestions and questions related to plotting data originating in other formats. This topic frequently surfaces in GitHub issues, discussions, and even pull requests (see links at the bottom of this page). 
 

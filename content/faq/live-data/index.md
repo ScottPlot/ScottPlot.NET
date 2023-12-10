@@ -3,6 +3,8 @@ title: Plot Live, Changing Data - ScottPlot FAQ
 description: Different strategies for displaying live data that changes continuously
 ---
 
+# How to Plot Realtime Data
+
 ## Use the `DataLogger` to show growing datasets
 
 The DataLogger plot type is a like a scatter plot but it has features for recording and displaying growing datasets.

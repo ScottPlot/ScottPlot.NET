@@ -1,7 +1,9 @@
 ---
 title: DateTime Axis - ScottPlot FAQ
-description: How to plot data using a DateTime axis
+description: How to plot data on a DateTime axis
 ---
+
+# How to plot data on a DateTime axis
 
 **C# can represent time with the `DateTime` type, but all of ScottPlot's methods prefer `double` arrays.** This page reviews how to plot data with a time axis using ScottPlot.
 

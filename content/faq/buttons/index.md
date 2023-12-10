@@ -1,7 +1,9 @@
 ---
-Title: Button Behavior - ScottPlot FAQ
+Title: Mouse Button Behavior - ScottPlot FAQ
 Description: How to customize actions of the left, right, or middle mouse buttons in interactive ScottPlot controls
 ---
+
+# Mouse Button Behavior
 
 ScottPlot controls map user inputs (left-click-drag, scroll wheel up, etc.) with plot actions (pan, zoom in, etc.) in the code of the user control. This means that changing these behaviors is typically achieved at the level of the user control (not the `Plot` inside it). 
 

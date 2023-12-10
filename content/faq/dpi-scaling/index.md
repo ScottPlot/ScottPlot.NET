@@ -3,6 +3,8 @@ title: Display Scaling - ScottPlot FAQ
 description: How to configure ScottPlot when DPI scaling is used
 ---
 
+# Display Scaling
+
 Display scaling (DPI scaling) is a setting that allows the operating system to stretch a window to be larger than its original size. When a ScottPlot control is in a scaled window it could perform one of the following behaviors:
 
 * **Stretch:** The plot image (a bitmap) can be stretched larger, but this may result in blurry text.
