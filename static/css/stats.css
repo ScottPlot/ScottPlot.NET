@@ -18,36 +18,3 @@
 #githubinfo svg {
     filter: invert(1);
 }
-
-.nav-item a {
-    color: white;
-    opacity: .55;
-}
-
-.nav-item a:hover {
-    color: white;
-    opacity: .8;
-    text-decoration: none;
-    transition: opacity .2s ease-in-out;
-}
-
-.nav-item a:focus {
-    color: white;
-    opacity: .8;
-}
-
-.dropdown-menu a {
-    color: black;
-    opacity: .8;
-}
-
-.dropdown-menu a:hover {
-    color: black;
-    opacity: 1;
-    background-color: #67217A11;
-}
-
-.dropdown-menu a:focus {
-    background-color: #67217A;
-    color: white;
-}
