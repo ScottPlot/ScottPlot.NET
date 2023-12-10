@@ -5,6 +5,8 @@ date: 2021-12-29
 description: How to create an interactive plot in a C# Eto application
 ---
 
+# Eto Quickstart
+
 **Step 1:** Install the [`ScottPlot.Eto`](https://www.nuget.org/packages/ScottPlot.Eto) NuGet package. Linux & MacOS users must take [these additional steps](/faq/dependencies).
 
 **Step 2:** Add a `ScottPlot.Eto.PlotView` Control to your Form:

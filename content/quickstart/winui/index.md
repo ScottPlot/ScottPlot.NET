@@ -6,6 +6,8 @@ date: 2023-07-04
 lastmod: 2023-07-04
 ---
 
+# WinUI Quickstart
+
 {{< scottplot5 >}}
 
 **Step 1:** Create a new WinUI project: `Blank App, Packaged (WinUI 3 in Desktop)`

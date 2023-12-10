@@ -4,6 +4,8 @@ description: How to plot data using ScottPlot using IronPython
 url: "quickstart/ironpython"
 ---
 
+# IronPython Quickstart
+
 **Step 1:** Setup IronPython according to instructions on https://ironpython.net (full installation including GAC)
 
 **Step 2:** Get the latest ScottPlot NuGet package

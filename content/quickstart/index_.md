@@ -1,20 +1,10 @@
 ---
 Title: ScottPlot Quickstart
 Description: Plot data with a few lines of C#
-url: "quickstart"
 url: /quickstart
+noindex: true
 ---
 
-## Quickstart by Application Type
+### ScottPlot Quickstart Pages
 
-* [**ScottPlot Quickstart - Console Application**](console)
-
-* [**ScottPlot Quickstart - Windows Forms**](winforms)
-
-* [**ScottPlot Quickstart - WPF**](wpf)
-
-* [**ScottPlot Quickstart - WinUI**](winui)
-
-* [**ScottPlot Quickstart - Avalonia**](avalonia)
-
-* [**ScottPlot Quickstart - Eto**](eto)
+Choose your application type from the "quickstart" dropdown menu above

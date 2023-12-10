@@ -6,6 +6,8 @@ date: 2021-09-26
 lastmod: 2021-12-29
 ---
 
+# Avalonia Quickstart
+
 **Step 1:** Install the [`ScottPlot.Avalonia`](https://www.nuget.org/packages/ScottPlot.Avalonia) NuGet package. Linux & MacOS users must take [these additional steps](/faq/dependencies).
 
 **Step 2:** Import the `ScottPlot.Avalonia` namespace by adding this to your `Window` element:

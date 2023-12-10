@@ -4,6 +4,8 @@ description: How to use ScottPlot to visualize data in .NET Polyglot notebooks
 url: "quickstart/notebook"
 ---
 
+# .NET Interactive Notebook Quickstart
+
 .NET Interactive Notebooks (polyglot notebooks) allow programmers to work with data in an interactive environment. To get started using ScottPlot to display data in a .NET notebook, 
 
 ### Create a new .NET Notebook

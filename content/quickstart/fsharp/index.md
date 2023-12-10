@@ -4,6 +4,8 @@ description: How to plot data using ScottPlot in a F# .NET application
 url: "quickstart/fsharp"
 ---
 
+# F# Quickstart
+
 **Step 1:** Install the [`ScottPlot`](https://www.nuget.org/packages/ScottPlot) NuGet package
 
 **Step 2:** Plot some data and save the figure as an image file

@@ -4,6 +4,8 @@ description: How to create a plot and save it as an image from a C# console appl
 url: "quickstart/console"
 ---
 
+# Console Application Quickstart
+
 **Step 1:** Install the current [ScottPlot 4 package](https://www.nuget.org/packages/ScottPlot) from NuGet. 
 Linux & MacOS users may need to [install additional packages](/faq/dependencies).
 

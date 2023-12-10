@@ -5,6 +5,8 @@ description: How to create an interactive plot in a C# WPF application
 date: 2021-09-26
 ---
 
+# WPF Quickstart
+
 **Step 1:** Install the [`ScottPlot.WPF`](https://www.nuget.org/packages/ScottPlot.WPF) NuGet package
 
 **Step 2:** Add this to the root element of your XAML file:

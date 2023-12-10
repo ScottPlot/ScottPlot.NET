@@ -5,6 +5,8 @@ description: How to create an interactive plot in a C# Windows Forms application
 date: 2021-09-26
 ---
 
+# Windows Forms Quickstart
+
 **Step 1:** Install the [`ScottPlot.WinForms`](https://www.nuget.org/packages/ScottPlot.WinForms) NuGet package
 
 **Step 2:** Drag a `FormsPlot` from the Toolbox onto your Form

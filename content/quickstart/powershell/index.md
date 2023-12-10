@@ -4,6 +4,7 @@ description: How to plot data from PowerShell using ScottPlot
 url: "quickstart/powershell"
 ---
 
+# PowerShell Quickstart
 
 **Step 1: Get PowerShell Core** 
 
