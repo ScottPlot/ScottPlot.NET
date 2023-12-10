@@ -6,6 +6,16 @@
 {{ $collapse1ID := (printf "%s-one" $accordionID) }}
 {{ $collapse2ID := (printf "%s-two" $accordionID) }}
 
+<!--
+    I decided not to use the accordion but I'm leaving 
+    this code here because it's useful reference.
+-->
+
+<div>
+    {{ "cs" | highlight (trim $firstPart "\n\r") }}
+</div>
+
+<!-- 
 <div class="accordion my-4" id="{{ $accordionID }}">
 
     <div class="accordion-item">
@@ -31,7 +41,7 @@
         </h2>
         <div id="{{ $collapse2ID }}" class="accordion-collapse collapse" data-bs-parent="#{{ $accordionID }}">
             <div class="px-4 py-3" style="background-color: #ffc10761;">
-                <strong>⚠️ WARNING: ScottPlot 5 has not yet been released.</strong> 
+                <strong>⚠️ WARNING: ScottPlot 5 has not yet been released.</strong>
                 ScottPlot 5 preview packages are available on NuGet for experimentation.
                 ScottPlot 5 is being actively developed, but it is not yet feature complete, fully documented,
                 supported, or recommended for production use at this time.
@@ -44,3 +54,4 @@
     </div>
 
 </div>
+-->
