@@ -4,6 +4,8 @@ Description: Information about the major ScottPlot versions
 url: "versions"
 ---
 
+# ScottPlot Versions
+
 **ScottPlot 4.1 is the current stable version of ScottPlot** recommended for new users and production applications. It is actively developed and maintained in parallel with ScottPlot 5.
 
 **ScottPlot 5.0 beta is an experimental version of ScottPlot** available as a preview package on NuGet, buts its API is not yet finalized and it is currently not recommended for production use.

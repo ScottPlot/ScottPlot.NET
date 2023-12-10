@@ -4,6 +4,10 @@ Description: Interact with ScottPlot's maintainers and users on our Discord serv
 url: "discord"
 ---
 
+# ScottPlot Discord
+
+Interact with ScottPlot's maintainers and users on our Discord server!
+
 <div class="my-5">
 
 <div class="text-center fs-3">

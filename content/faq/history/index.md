@@ -26,3 +26,7 @@ description: Where did ScottPlot come from and who is Scott?
 * **November, 2019:** ScottPlot stopping being a WinForms-only package and split into separate packages for ScottPlot (.NET Standard), the WinForms control (.NET Framework), and the WPF control (.NET Framework and .NET Core). This new version was ScottPlot 4.0
 
 * **March, 2021:** ScottPlot 4.1 was released which was the result of over a year of focus on internal refactoring to improve performance and add complex features (such as multi-axis support). It also was an opportunity to reflect on the previous few years of emails, pull requests, and hundreds of issue tickets and try to refine the API and improve the documentation to make common difficulties less confusing and more discoverable.
+
+* **January 1, 2023:** ScottPlot 5.0 beta was released. It improves performance and cross-platform support by eliminating the `System.Drawing` dependency in favor of `SkiaSharp`. It supports new platform targets like WinUI and Blazor, and has many performance and memory improvements as well.
+
+* **January 1, 2024:** ScottPlot 5.0 was released and now serves as the current version of ScottPlot. Read more on the [ScttPlot Versions](/versions/) page.

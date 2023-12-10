@@ -4,6 +4,8 @@ Description: A click-to-run application demonstrating ScottPlot's capabilities
 url: "demo"
 ---
 
+# ScottPlot Demo
+
 **The ScottPlot Demo is a click-to-run application designed to make it easy to assess the capabilities of ScottPlot.** The demo application displays all [Cookbook](../cookbook) recipes and also demonstrate advanced user control features like mouse tracking, live data, and linked plots. 
 
 <div class='text-center m-4'>
