@@ -31,7 +31,7 @@ h1 {
     font-size: 2em;
     border-bottom: 1px solid #eaecef;
     padding-bottom: 0.2em;
-    margin-top: 2em;
+    margin-top: 1em;
 }
 
 h1 a, h1 a code {
@@ -50,7 +50,7 @@ h2 {
     font-size: 1.7em;
     border-bottom: 1px solid #eaecef;
     padding-bottom: 0.2em;
-    margin-top: 1.5em;
+    margin-top: 1em;
 }
 
 h2 a, h2 a code {
@@ -68,7 +68,7 @@ h2 a:hover {
 h3 {
     font-size: 1.3em;
     padding-bottom: 0.2em;
-    margin-top: 1.5em;
+    margin-top: 1em;
 }
 
 h3 a, h3 a code {
@@ -86,7 +86,7 @@ h3 a:hover {
 h4 {
     font-size: 1.2em;
     padding-bottom: 0.2em;
-    margin-top: 1.5em;
+    margin-top: 1em;
 }
 
 h4 a, h4 a code {
