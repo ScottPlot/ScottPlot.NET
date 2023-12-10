@@ -3,6 +3,10 @@ Title: ScottPlot Contributors
 Description: Members of the open-source community who contributed to ScottPlot
 ---
 
+# ScottPlot Contributors
+
+Members of the open-source community who contributed to ScottPlot
+
 <div class='display-3 text-center'>ScottPlot Contributors</div>
 <div class='fs-3 fw-lighter text-center mx-5 px-5'>
     Special thanks to these GitHub members who are 
