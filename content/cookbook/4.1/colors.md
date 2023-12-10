@@ -1,10 +1,11 @@
 ---
 title: "Colors - ScottPlot 4.1 Cookbook"
 description: "List of Colors from all ScottPlot Palettes"
-date: 12/3/2023 7:28:06 PM
+date: 12/10/2023 5:26:43 PM
 url: /cookbook/4.1/colors/
 ---
 
+# Color Palettes
 Palettes are collections of colors. 
 The palette in `Plot.Palette` defines default colors for new objects added to plots. 
 Users can access palettes directly to get color values for any use. 

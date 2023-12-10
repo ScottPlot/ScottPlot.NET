@@ -1,10 +1,11 @@
 ---
 title: "Colormaps - ScottPlot 4.1 Cookbook"
 description: "List of Colormaps used to represent continuous data"
-date: 12/3/2023 7:28:07 PM
+date: 12/10/2023 5:26:43 PM
 url: /cookbook/4.1/colormaps/
 ---
 
+# Colormaps
 Colormaps define a smooth gradient of colors. 
 Colormaps can be passed into plottable objects that use them (e.g., Colorbar), 
 or they can be instantiated directly so users can access the colors they produce. 
