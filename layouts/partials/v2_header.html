@@ -1,0 +1,85 @@
+<header>
+
+    <!-- title bar -->
+    <div style="background-color: #67217a;">
+        <div class="content-limited-width">
+
+            <!-- show logo above navigation bar when the screen is large -->
+            <div class="d-flex show-when-large pt-3" id="logo-large">
+                <div class="me-2 mt-1">
+                    <a href="/">
+                        <img class="" src='/images/brand/favicon.svg' width="56" height="56" />
+                    </a>
+                </div>
+                <div class="mt-1">
+                    <a class="text-light lh-1" href="/" style="font-size: 1.8em;">
+                        ScottPlot.NET
+                    </a>
+                    <div class="">
+                        {{ partial "github-info.html" . }}
+                    </div>
+                </div>
+            </div>
+
+            <nav class="navbar navbar-expand-md">
+
+                <div class="container-fluid">
+
+                    <!-- show this when menu collapses -->
+                    <div class="navbar-brand d-flex align-items-center show-when-small">
+                        <a href="/">
+                            <img src="https://scottplot.net/images/brand/favicon.svg" width="32" height="32"
+                                class="me-2">
+                            </img>
+                        </a>
+                        <div class="fs-4">
+                            <a href="/">ScottPlot.NET</a>
+                        </div>
+                    </div>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            class="bi bi-list" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+                        </svg>
+                    </button>
+
+                    {{ partial "v2_menu.html" . }}
+
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Show subtitle bar only on cookbook pages -->
+
+    <!--
+
+    TODO: hide subtitle for now, but populate it from content in frontmatter
+
+    {{ if strings.Contains .Page.RelPermalink "/cookbook/4.1/" }}
+    <div style="background-color: #EEE;" class="border-bottom shadow-sm">
+        <div class="content-limited-width px-2 py-1 d-flex justify-content-between">
+            <div class="d-flex">
+                <a href="/cookbook/4.1/">
+                    ScottPlot 4.1 Cookbook
+                </a>
+                <div class="mx-1">»</div>
+                <a href="{{ .Permalink }}">
+                    {{ .Title | markdownify }}
+                </a>
+            </div>
+
+            <div class="">
+                <a href="#">🔎 Search Cookbook</a>
+            </div>
+        </div>
+    </div>
+    {{ end }}
+    -->
+
+
+</header>

@@ -40,36 +40,85 @@ pre {
     overflow-x: auto;
 }
 
-/* navigation */
-.nav-item a {
-    color: white;
-    opacity: .55;
+/* Apply this to top-level layout elements */
+.content-limited-width {
+    max-width: 900px;
+    margin: auto;
 }
 
-.nav-item a:hover {
-    color: white;
-    opacity: .8;
+/* The rest is Bootstrap overrides for the responsive top navigation bar */
+
+.navbar {
+    background-color: inherit !important;
+}
+
+.navbar-brand a {
+    color: white !important;
     text-decoration: none;
-    transition: opacity .2s ease-in-out;
 }
 
-.nav-item a:focus {
-    color: white;
-    opacity: .8;
+.nav-link {
+    color: white !important;
+    opacity: 0.55;
 }
 
-.dropdown-menu a {
-    color: black;
-    opacity: .8;
+.nav-link:hover {
+    color: white !important;
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+.navbar button {
+    background-color: rgba(255, 255, 255, .1) !important;
+    color: rgba(255, 255, 255, .55) !important;
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+
+.navbar button:hover {
+    background-color: rgba(255, 255, 255, .2) !important;
+    border: 1px solid rgba(255, 255, 255, .2);
+    color: rgba(255, 255, 255, .8) !important;
+}
+
+.navbar .container-fluid {
+    padding: 0px;
 }
 
 .dropdown-menu a:hover {
     color: black;
     opacity: 1;
     background-color: #67217A11;
+    text-decoration: none;
 }
 
 .dropdown-menu a:focus {
     background-color: #67217A;
     color: white;
+}
+
+#logo-large a:hover {
+    text-decoration: none;
+}
+
+/* things that change when the hamburger menu is shown */
+.show-when-small {
+    display: none !important;
+}
+
+.show-when-large {
+    display: flex !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .show-when-small {
+        display: flex !important;
+    }
+
+    .show-when-large {
+        display: none !important;
+    }
+
+    .navbar .container-fluid {
+        padding: 0em 1em;
+    }
 }
