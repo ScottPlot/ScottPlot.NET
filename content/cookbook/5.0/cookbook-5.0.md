@@ -1,17 +1,22 @@
 ---
-title: ScottPlot 5.0 Cookbook
-description: Example plots shown next to the code used to create them
-url: /cookbook/5.0/
-date: 12/4/2023 12:30:59 AM
+Title: ScottPlot 5.0 Cookbook
+Description: Example plots shown next to the code used to create them
+URL: /cookbook/5.0/
+BreadcrumbNames: ["ScottPlot 5.0 Cookbook"]
+BreadcrumbUrls: ["/cookbook/5.0/"]
+Date: 12/11/2023 2:09:58 PM
+Version: ScottPlot 5.0.10-beta
 ---
+
+# ScottPlot 5.0 Cookbook
 
 
 
 <div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.10-beta is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
 
 
-## Introduction
-<div class='fs-4 mt-4'>ScottPlot 5 Quickstart</div>
+<div class='fs-2 mt-4'>Introduction</div>
+<h2 class=''><a href='/cookbook/5.0/scottplot-5-quickstart/' class='text-dark'>ScottPlot 5 Quickstart</a></h2>
 <div>A survey of basic functionality in ScottPlot 5</div>
 <div class='row my-4'>
 <div class='col'>
@@ -67,7 +72,7 @@ date: 12/4/2023 12:30:59 AM
 <div>A legend displays plottables in a key along the edge of a plot. Most plottables have a Label property which configures what text appears in the legend.</div>
 </div>
 </div>
-<div class='fs-4 mt-4'>Styling Plots</div>
+<h2 class=''><a href='/cookbook/5.0/styling-plots/' class='text-dark'>Styling Plots</a></h2>
 <div>How to customize plots</div>
 <div class='row my-4'>
 <div class='col'>
@@ -142,8 +147,8 @@ date: 12/4/2023 12:30:59 AM
 </div>
 </div>
 <hr class='my-5' />
-## Customization
-<div class='fs-4 mt-4'>Axis and Ticks</div>
+<div class='fs-2 mt-4'>Customization</div>
+<h2 class=''><a href='/cookbook/5.0/axis-and-ticks/' class='text-dark'>Axis and Ticks</a></h2>
 <div>Examples of common customizations for axis labels and ticks</div>
 <div class='row my-4'>
 <div class='col'>
@@ -190,7 +195,7 @@ date: 12/4/2023 12:30:59 AM
 <div>How to create a plot containig only the data area and no axes.</div>
 </div>
 </div>
-<div class='fs-4 mt-4'>Configuring Legends</div>
+<h2 class=''><a href='/cookbook/5.0/configuring-legends/' class='text-dark'>Configuring Legends</a></h2>
 <div>A legend is a key typically displayed in the corner of a plot</div>
 <div class='row my-4'>
 <div class='col'>
@@ -210,16 +215,7 @@ date: 12/4/2023 12:30:59 AM
 <div>Legends may be constructed manually.</div>
 </div>
 </div>
-<div class='row my-4'>
-<div class='col'>
-<a href='configuring-legends/#limit-plottables-in-legend'><img class='img-fluid' src='configuring-legends/limit-plottables-in-legend.png' /></a>
-</div>
-<div class='col'>
-<div><a href='configuring-legends/#limit-plottables-in-legend'><b>Limit Plottables in Legend</b></a></div>
-<div>Legends typically show all plot items with populated Label fields. However, users can use the manual legend property to only show legend items from specific plottables.</div>
-</div>
-</div>
-<div class='fs-4 mt-4'>Customizing Ticks</div>
+<h2 class=''><a href='/cookbook/5.0/customizing-ticks/' class='text-dark'>Customizing Ticks</a></h2>
 <div>Advanced customization of tick marks and tick labels</div>
 <div class='row my-4'>
 <div class='col'>
@@ -239,7 +235,7 @@ date: 12/4/2023 12:30:59 AM
 <div>Tick generators determine where ticks are to be placed and also contain logic for generating tick labels from tick positions. Alternative tick generators can be created and assigned to axes. Some common tick generators are provided with ScottPlot, and users also have the option create their own.</div>
 </div>
 </div>
-<div class='fs-4 mt-4'>DateTime Axes</div>
+<h2 class=''><a href='/cookbook/5.0/datetime-axes/' class='text-dark'>DateTime Axes</a></h2>
 <div>Plot data values on a DataTime axes</div>
 <div class='row my-4'>
 <div class='col'>
@@ -250,7 +246,7 @@ date: 12/4/2023 12:30:59 AM
 <div>.</div>
 </div>
 </div>
-<div class='fs-4 mt-4'>Advanced Axis Features</div>
+<h2 class=''><a href='/cookbook/5.0/advanced-axis-features/' class='text-dark'>Advanced Axis Features</a></h2>
 <div>Tick mark customization and creation of multi-Axis plots</div>
 <div class='row my-4'>
 <div class='col'>
@@ -262,8 +258,8 @@ date: 12/4/2023 12:30:59 AM
 </div>
 </div>
 <hr class='my-5' />
-## PlotTypes
-<div class='fs-4 mt-4'>Bar Plot</div>
+<div class='fs-2 mt-4'>PlotTypes</div>
+<h2 class=''><a href='/cookbook/5.0/bar-plot/' class='text-dark'>Bar Plot</a></h2>
 <div>Bar plots represent values as horizontal or vertical rectangles</div>
 <div class='row my-4'>
 <div class='col'>
@@ -285,14 +281,41 @@ date: 12/4/2023 12:30:59 AM
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='bar-plot/#bar-series'><img class='img-fluid' src='bar-plot/bar-series.png' /></a>
+<a href='bar-plot/#bars-with-error'><img class='img-fluid' src='bar-plot/bars-with-error.png' /></a>
 </div>
 <div class='col'>
-<div><a href='bar-plot/#bar-series'><b>Bar Series</b></a></div>
-<div>Bar plots can be grouped into bar series and plotted together.</div>
+<div><a href='bar-plot/#bars-with-error'><b>Bars with Error</b></a></div>
+<div>Bars can have errorbars.</div>
 </div>
 </div>
-<div class='fs-4 mt-4'>Box Plot</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='bar-plot/#bars-with-labeled-ticks'><img class='img-fluid' src='bar-plot/bars-with-labeled-ticks.png' /></a>
+</div>
+<div class='col'>
+<div><a href='bar-plot/#bars-with-labeled-ticks'><b>Bars with Labeled Ticks</b></a></div>
+<div>Bars can be labeled by manually specifying axis tick mark positions and labels.</div>
+</div>
+</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='bar-plot/#stacked-bar-plot'><img class='img-fluid' src='bar-plot/stacked-bar-plot.png' /></a>
+</div>
+<div class='col'>
+<div><a href='bar-plot/#stacked-bar-plot'><b>Stacked Bar Plot</b></a></div>
+<div>Bars can be positioned on top of each other.</div>
+</div>
+</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='bar-plot/#grouped-bar-plot'><img class='img-fluid' src='bar-plot/grouped-bar-plot.png' /></a>
+</div>
+<div class='col'>
+<div><a href='bar-plot/#grouped-bar-plot'><b>Grouped Bar Plot</b></a></div>
+<div>Bars can be grouped by position and color.</div>
+</div>
+</div>
+<h2 class=''><a href='/cookbook/5.0/box-plot/' class='text-dark'>Box Plot</a></h2>
 <div>Box plots show a distribution at a glance</div>
 <div class='row my-4'>
 <div class='col'>
@@ -330,7 +353,7 @@ date: 12/4/2023 12:30:59 AM
 <div>Similarly to bar charts, box plots can be compared across multiple categories.</div>
 </div>
 </div>
-<div class='fs-4 mt-4'>Error Bars</div>
+<h2 class=''><a href='/cookbook/5.0/error-bars/' class='text-dark'>Error Bars</a></h2>
 <div>Error Bars communicate the range of possible values for a measurement</div>
 <div class='row my-4'>
 <div class='col'>
@@ -350,7 +373,7 @@ date: 12/4/2023 12:30:59 AM
 <div>Error size can be set for all dimensions.</div>
 </div>
 </div>
-<div class='fs-4 mt-4'>FillY plot</div>
+<h2 class=''><a href='/cookbook/5.0/filly-plot/' class='text-dark'>FillY plot</a></h2>
 <div>FillY plots display the vertical range between two Y values at defined X positions</div>
 <div class='row my-4'>
 <div class='col'>
@@ -388,7 +411,7 @@ date: 12/4/2023 12:30:59 AM
 <div>FillY plots can be customized using public properties.</div>
 </div>
 </div>
-<div class='fs-4 mt-4'>Financial Plot</div>
+<h2 class=''><a href='/cookbook/5.0/financial-plot/' class='text-dark'>Financial Plot</a></h2>
 <div>Finance plots display price data binned into time ranges</div>
 <div class='row my-4'>
 <div class='col'>
@@ -408,7 +431,7 @@ date: 12/4/2023 12:30:59 AM
 <div>Candlestick charts use symbols to display price data. The rectangle indicates open and close prices, and the center line indicates minimum and maximum price for the given time period. Color indicates whether the price increased or decreased between open and close.</div>
 </div>
 </div>
-<div class='fs-4 mt-4'>Polygon Plot</div>
+<h2 class=''><a href='/cookbook/5.0/polygon-plot/' class='text-dark'>Polygon Plot</a></h2>
 <div>Polygon plots draws a polygon</div>
 <div class='row my-4'>
 <div class='col'>
@@ -428,7 +451,7 @@ date: 12/4/2023 12:30:59 AM
 <div>Polygon plots can be fully customized.</div>
 </div>
 </div>
-<div class='fs-4 mt-4'>Signal Plot</div>
+<h2 class=''><a href='/cookbook/5.0/signal-plot/' class='text-dark'>Signal Plot</a></h2>
 <div>Signal plots display evenly-spaced data</div>
 <div class='row my-4'>
 <div class='col'>
@@ -439,7 +462,7 @@ date: 12/4/2023 12:30:59 AM
 <div>Signal plots can be offset by a given X and Y value.</div>
 </div>
 </div>
-<div class='fs-4 mt-4'>Text</div>
+<h2 class=''><a href='/cookbook/5.0/text/' class='text-dark'>Text</a></h2>
 <div>Text lables placed on the plot in coordinate space</div>
 <div class='row my-4'>
 <div class='col'>
@@ -460,8 +483,8 @@ date: 12/4/2023 12:30:59 AM
 </div>
 </div>
 <hr class='my-5' />
-## Statistics
-<div class='fs-4 mt-4'>Regression</div>
+<div class='fs-2 mt-4'>Statistics</div>
+<h2 class=''><a href='/cookbook/5.0/regression/' class='text-dark'>Regression</a></h2>
 <div>Statistical operations to fit lines to data</div>
 <div class='row my-4'>
 <div class='col'>

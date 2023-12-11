@@ -1,11 +1,15 @@
 ---
-title: Bar Plot - ScottPlot 5.0 Cookbook
-description: Bar plots represent values as horizontal or vertical rectangles
-url: /cookbook/5.0/bar-plot/
-date: 12/4/2023 12:30:59 AM
+Title: Bar Plot - ScottPlot 5.0 Cookbook
+Description: Bar plots represent values as horizontal or vertical rectangles
+URL: /cookbook/5.0/bar-plot/
+BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Bar Plot"]
+BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/bar-plot/"]
+Date: 12/11/2023 2:09:58 PM
+Version: ScottPlot 5.0.10-beta
 ---
 
-This page is part of the [ScottPlot 5.0 Cookbook](../)
+# Bar Plot
+
 
 
 <div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.10-beta is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
@@ -22,7 +26,7 @@ Bar plots can be added from a series of values.
 ScottPlot.Plot myPlot = new();
 
 double[] values = { 5, 10, 7, 13 };
-myPlot.Add.Bar(values);
+myPlot.Add.Bars(values);
 myPlot.AutoScale();
 myPlot.SetAxisLimits(bottom: 0);
 
@@ -39,63 +43,169 @@ The exact position and size of each bar may be customized.
 ```cs
 ScottPlot.Plot myPlot = new();
 
-List<ScottPlot.Plottables.Bar> bars = new()
+List<ScottPlot.Bar> bars = new()
 {
-    new() { Position = 5, Value = 5, ValueBase = 3, },
-    new() { Position = 10, Value = 7, ValueBase = 0, },
-    new() { Position = 15, Value = 3, ValueBase = 2, },
+    new() { Position = 1, Value = 5, ValueBase = 3, },
+    new() { Position = 2, Value = 7, ValueBase = 0, },
+    new() { Position = 4, Value = 3, ValueBase = 2, },
 };
 
-myPlot.Add.Bar(bars);
+myPlot.Add.Bars(bars);
 
 myPlot.SavePng("bar-positioning.png");
 ```
 
 
-## Bar Series
+## Bars with Error
 
-Bar plots can be grouped into bar series and plotted together.
+Bars can have errorbars.
 
-[![](bar-series.png)](bar-series.png)
+[![](bars-with-error.png)](bars-with-error.png)
 
 ```cs
 ScottPlot.Plot myPlot = new();
 
-// TODO: the bars API needs to be greatly simplified
-List<ScottPlot.Plottables.Bar> bars1 = new() { new(1, 5), new(2, 7), new(3, 9) };
-List<ScottPlot.Plottables.Bar> bars2 = new() { new(1, 3), new(2, 8), new(3, 5) };
-List<ScottPlot.Plottables.Bar> bars3 = new() { new(1, 7), new(2, 10), new(3, 7) };
-
-ScottPlot.Plottables.BarSeries series1 = new()
+List<ScottPlot.Bar> bars = new()
 {
-    Bars = bars1,
-    Label = "Series 1",
-    Color = Colors.Red
+    new() { Position = 1, Value = 5, Error = 1, },
+    new() { Position = 2, Value = 7, Error = 2, },
+    new() { Position = 3, Value = 6, Error = 1, },
+    new() { Position = 4, Value = 8, Error = 2, },
 };
 
-ScottPlot.Plottables.BarSeries series2 = new()
+myPlot.Add.Bars(bars);
+
+myPlot.SavePng("bars-with-error.png");
+```
+
+
+## Bars with Labeled Ticks
+
+Bars can be labeled by manually specifying axis tick mark positions and labels.
+
+[![](bars-with-labeled-ticks.png)](bars-with-labeled-ticks.png)
+
+```cs
+ScottPlot.Plot myPlot = new();
+
+myPlot.Add.Bar(position: 1, value: 5, error: 1);
+myPlot.Add.Bar(position: 2, value: 7, error: 2);
+myPlot.Add.Bar(position: 3, value: 6, error: 1);
+myPlot.Add.Bar(position: 4, value: 8, error: 2);
+
+Tick[] ticks =
 {
-    Bars = bars2,
-    Label = "Series 2",
-    Color = Colors.Green
+    new(1, "Apple"),
+    new(2, "Orange"),
+    new(3, "Pear"),
+    new(4, "Banana"),
 };
 
-ScottPlot.Plottables.BarSeries series3 = new()
-{
-    Bars = bars3,
-    Label = "Series 3",
-    Color = Colors.Blue
+myPlot.BottomAxis.TickGenerator = new ScottPlot.TickGenerators.NumericManual(ticks);
+myPlot.BottomAxis.MajorTickLength = 0;
+myPlot.DisableGrid();
+
+myPlot.SavePng("bars-with-labeled-ticks.png");
+```
+
+
+## Stacked Bar Plot
+
+Bars can be positioned on top of each other.
+
+[![](stacked-bar-plot.png)](stacked-bar-plot.png)
+
+```cs
+ScottPlot.Plot myPlot = new();
+
+Color[] colors = {
+    myPlot.Palette.GetColor(0),
+    myPlot.Palette.GetColor(1),
+    myPlot.Palette.GetColor(2),
 };
 
-List<ScottPlot.Plottables.BarSeries> seriesList = new() { series1, series2, series3 };
+ScottPlot.Bar[] bars =
+{
+    // first set of stacked bars
+    new() { Position = 1, ValueBase = 0, Value = 2, FillColor = colors[0] },
+    new() { Position = 1, ValueBase = 2, Value = 5, FillColor = colors[1] },
+    new() { Position = 1, ValueBase = 5, Value = 10, FillColor = colors[2] },
 
-myPlot.Add.Bar(seriesList);
+    // second set of stacked bars
+    new() { Position = 2, ValueBase = 0, Value = 4, FillColor = colors[0] },
+    new() { Position = 2, ValueBase = 4, Value = 7, FillColor = colors[1] },
+    new() { Position = 2, ValueBase = 7, Value = 10, FillColor = colors[2] },
+};
 
+myPlot.Add.Bars(bars);
+
+Tick[] ticks =
+{
+    new(1, "Spring"),
+    new(2, "Summer"),
+};
+
+myPlot.BottomAxis.TickGenerator = new ScottPlot.TickGenerators.NumericManual(ticks);
+myPlot.BottomAxis.MajorTickLength = 0;
+myPlot.DisableGrid();
+
+myPlot.SavePng("stacked-bar-plot.png");
+```
+
+
+## Grouped Bar Plot
+
+Bars can be grouped by position and color.
+
+[![](grouped-bar-plot.png)](grouped-bar-plot.png)
+
+```cs
+ScottPlot.Plot myPlot = new();
+
+Color[] colors = {
+    myPlot.Palette.GetColor(0),
+    myPlot.Palette.GetColor(1),
+    myPlot.Palette.GetColor(2),
+};
+
+ScottPlot.Bar[] bars =
+{
+    // first group
+    new() { Position = 1, Value = 2, FillColor = colors[0], Error = 1 },
+    new() { Position = 2, Value = 5, FillColor = colors[1], Error = 2 },
+    new() { Position = 3, Value = 7, FillColor = colors[2], Error = 1 },
+
+    // second group
+    new() { Position = 5, Value = 4, FillColor = colors[0], Error = 2 },
+    new() { Position = 6, Value = 7, FillColor = colors[1], Error = 1 },
+    new() { Position = 7, Value = 13, FillColor = colors[2], Error = 3 },
+
+    // third group
+    new() { Position = 9, Value = 5, FillColor = colors[0], Error = 1 },
+    new() { Position = 10, Value = 6, FillColor = colors[1], Error = 3 },
+    new() { Position = 11, Value = 11, FillColor = colors[2], Error = 2 },
+};
+
+myPlot.Add.Bars(bars);
+
+// build the legend manually
 myPlot.Legend.IsVisible = true;
+myPlot.Legend.Alignment = Alignment.UpperLeft;
+myPlot.Legend.ManualItems.Add(new LegendItem() { Label = "Monday", FillColor = colors[0] });
+myPlot.Legend.ManualItems.Add(new LegendItem() { Label = "Tuesday", FillColor = colors[1] });
+myPlot.Legend.ManualItems.Add(new LegendItem() { Label = "Wednesday", FillColor = colors[2] });
 
-myPlot.AutoScale();
-myPlot.SetAxisLimits(bottom: 0);
+// show group labels on the bottom axis
+Tick[] ticks =
+{
+    new(2, "Group 1"),
+    new(6, "Group 2"),
+    new(10, "Group 3"),
+};
+myPlot.BottomAxis.TickGenerator = new ScottPlot.TickGenerators.NumericManual(ticks);
+myPlot.BottomAxis.MajorTickLength = 0;
+myPlot.DisableGrid();
 
-myPlot.SavePng("bar-series.png");
+myPlot.SavePng("grouped-bar-plot.png");
 ```
 

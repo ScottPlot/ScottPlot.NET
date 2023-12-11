@@ -1,11 +1,15 @@
 ---
-title: FillY plot - ScottPlot 5.0 Cookbook
-description: FillY plots display the vertical range between two Y values at defined X positions
-url: /cookbook/5.0/filly-plot/
-date: 12/4/2023 12:30:59 AM
+Title: FillY plot - ScottPlot 5.0 Cookbook
+Description: FillY plots display the vertical range between two Y values at defined X positions
+URL: /cookbook/5.0/filly-plot/
+BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "FillY plot"]
+BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/filly-plot/"]
+Date: 12/11/2023 2:09:58 PM
+Version: ScottPlot 5.0.10-beta
 ---
 
-This page is part of the [ScottPlot 5.0 Cookbook](../)
+# FillY plot
+
 
 
 <div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.10-beta is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
