@@ -116,7 +116,7 @@
                     : globalRecipes.filter(x => RecipeContains(x, searchFilter));
             }
 
-            fetch(recipesJsonUrl)
+            fetch(recipesJsonUrl, { cache: "no-store" })
                 .then(response => response.json())
                 .then(data => {
                     globalRecipes = data.recipes;
