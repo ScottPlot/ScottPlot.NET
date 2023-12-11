@@ -54,32 +54,33 @@
         </div>
     </div>
 
-    <!-- Show subtitle bar only on cookbook pages -->
-
-    <!--
-
-    TODO: hide subtitle for now, but populate it from content in frontmatter
-
-    {{ if strings.Contains .Page.RelPermalink "/cookbook/4.1/" }}
+    <!-- subtitle bar -->
+    {{ if .Params.BreadcrumbNames }}
     <div style="background-color: #EEE;" class="border-bottom shadow-sm">
         <div class="content-limited-width px-2 py-1 d-flex justify-content-between">
+
+            <!-- breadcrumbs -->
             <div class="d-flex">
-                <a href="/cookbook/4.1/">
-                    ScottPlot 4.1 Cookbook
-                </a>
+                {{ range $index, $val := $.Params.breadcrumbNames }}
+                {{ if ge $index 1 }}
                 <div class="mx-1">»</div>
-                <a href="{{ .Permalink }}">
-                    {{ .Title | markdownify }}
+                {{ end }}
+                <a href="{{ index $.Params.breadcrumbUrls $index }}">
+                    {{ index $.Params.breadcrumbNames $index }}
                 </a>
+                {{ end }}
             </div>
 
+            <!-- search button -->
+            <!-- TODO: make this a popover -->
+            {{ if .Params.SearchUrl }}
             <div class="">
-                <a href="#">🔎 Search Cookbook</a>
+                <a href="https://scottplot.net/cookbook/4.1/search/">🔎 Search Cookbook</a>
             </div>
+            {{ end }}
+
         </div>
     </div>
     {{ end }}
-    -->
-
 
 </header>

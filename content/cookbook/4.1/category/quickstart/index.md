@@ -2,8 +2,8 @@
 title: "Quickstart - ScottPlot 4.1 Cookbook"
 description: "Simple examples designed to help new users get familiar with ScottPlot."
 date: 12/10/2023 5:26:43 PM
-breadcrumb-names: ["ScottPlot 4.1 Cookbook", "Quickstart"]
-breadcrumb-urls: ["https://scottplot.net/cookbook/4.1/", "https://scottplot.net/cookbook/4.1/category/quickstart/"]
+breadcrumbNames: ["ScottPlot 4.1 Cookbook", "Quickstart"]
+breadcrumbUrls: ["https://scottplot.net/cookbook/4.1/", "https://scottplot.net/cookbook/4.1/category/quickstart/"]
 ---
 
 # Quickstart
