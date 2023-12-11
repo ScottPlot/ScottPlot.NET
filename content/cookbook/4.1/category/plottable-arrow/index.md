@@ -1,7 +1,7 @@
 ---
 title: "Plot Type: Arrow - ScottPlot 4.1 Cookbook"
 description: "Arrows point to a location in coordinate space."
-date: 12/11/2023 8:11:10 AM
+date: 12/11/2023 8:16:05 AM
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Arrow"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-arrow/"]
 SearchUrl: "/cookbook/4.1/search/"

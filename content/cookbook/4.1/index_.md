@@ -1,10 +1,10 @@
 ---
 title: "ScottPlot 4.1 Cookbook"
 description: "Example plots shown next to the code used to create them"
-date: 12/11/2023 8:11:10 AM
+date: 12/11/2023 8:16:05 AM
 url: /cookbook/4.1/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook"]
-BreadcrumbUrls: ["https://scottplot.net/cookbook/4.1/"]
+BreadcrumbUrls: ["/cookbook/4.1/"]
 SearchUrl: "/cookbook/4.1/search/"
 ---
 

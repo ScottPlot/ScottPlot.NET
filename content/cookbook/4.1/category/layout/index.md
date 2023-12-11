@@ -1,7 +1,7 @@
 ---
 title: "Layout - ScottPlot 4.1 Cookbook"
 description: "How to customize plot layout, padding, margins, axis spacing, etc."
-date: 12/11/2023 8:11:10 AM
+date: 12/11/2023 8:16:05 AM
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Layout"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/layout/"]
 SearchUrl: "/cookbook/4.1/search/"

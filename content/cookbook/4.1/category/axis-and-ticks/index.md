@@ -1,7 +1,7 @@
 ---
 title: "Axis and Ticks - ScottPlot 4.1 Cookbook"
 description: "Examples of common customizations for axis labels and ticks."
-date: 12/11/2023 8:11:10 AM
+date: 12/11/2023 8:16:05 AM
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Axis and Ticks"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/axis-and-ticks/"]
 SearchUrl: "/cookbook/4.1/search/"

@@ -1,7 +1,7 @@
 ---
 title: "Multi-Axis - ScottPlot 4.1 Cookbook"
 description: "Plot data using non-standard or additional axes."
-date: 12/11/2023 8:11:10 AM
+date: 12/11/2023 8:16:05 AM
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Multi-Axis"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/multi-axis/"]
 SearchUrl: "/cookbook/4.1/search/"

@@ -1,7 +1,7 @@
 ---
 title: "Plot Type: Annotation - ScottPlot 4.1 Cookbook"
 description: "An Annotation is a text label that is placed on the plot in pixel space (not in coordinate space like a Text object)."
-date: 12/11/2023 8:11:10 AM
+date: 12/11/2023 8:16:05 AM
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Annotation"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-annotation/"]
 SearchUrl: "/cookbook/4.1/search/"

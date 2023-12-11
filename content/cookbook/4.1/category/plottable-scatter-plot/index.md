@@ -1,7 +1,7 @@
 ---
 title: "Plot Type: Scatter Plot - ScottPlot 4.1 Cookbook"
 description: "Scatter plots display small numbers of paired X/Y data points. Signal plots are much faster than scatter plots and should be used when X data is evenly spaced."
-date: 12/11/2023 8:11:10 AM
+date: 12/11/2023 8:16:05 AM
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Scatter Plot"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-scatter-plot/"]
 SearchUrl: "/cookbook/4.1/search/"

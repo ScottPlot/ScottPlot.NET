@@ -1,7 +1,7 @@
 ---
 title: "Plot Type: Polygon - ScottPlot 4.1 Cookbook"
 description: "Polygons are 2D shapes made from pairs of X/Y points."
-date: 12/11/2023 8:11:10 AM
+date: 12/11/2023 8:16:05 AM
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Polygon"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-polygon/"]
 SearchUrl: "/cookbook/4.1/search/"
