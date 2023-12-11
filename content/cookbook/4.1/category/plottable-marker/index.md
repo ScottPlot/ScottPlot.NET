@@ -1,10 +1,10 @@
 ---
 title: "Plot Type: Marker - ScottPlot 4.1 Cookbook"
 description: "A marker is a symbol placed at an X/Y point in coordinate space."
-date: 12/11/2023 7:58:20 AM
+date: 12/11/2023 8:11:10 AM
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Marker"]
-BreadcrumbUrls: ["https://scottplot.net/cookbook/4.1/", "https://scottplot.net/cookbook/4.1/category/plottable-marker/"]
-SearchUrl: "https://scottplot.net/cookbook/4.1/search//"
+BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-marker/"]
+SearchUrl: "/cookbook/4.1/search/"
 ---
 
 # Plot Type: Marker

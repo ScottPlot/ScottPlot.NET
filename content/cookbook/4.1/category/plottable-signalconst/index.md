@@ -1,10 +1,10 @@
 ---
 title: "Plot Type: SignalConst - ScottPlot 4.1 Cookbook"
 description: "SignalConst plots pre-processes data to render much faster than Signal plots. Pre-processing takes time up-front and requires 4x the memory of Signal."
-date: 12/11/2023 7:58:20 AM
+date: 12/11/2023 8:11:10 AM
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "SignalConst"]
-BreadcrumbUrls: ["https://scottplot.net/cookbook/4.1/", "https://scottplot.net/cookbook/4.1/category/plottable-signalconst/"]
-SearchUrl: "https://scottplot.net/cookbook/4.1/search//"
+BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-signalconst/"]
+SearchUrl: "/cookbook/4.1/search/"
 ---
 
 # Plot Type: SignalConst

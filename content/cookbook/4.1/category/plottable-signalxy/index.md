@@ -1,10 +1,10 @@
 ---
 title: "Plot Type: SignalXY - ScottPlot 4.1 Cookbook"
 description: "SignalXY is a speed-optimized plot for displaying Y values with unevenly-spaced (but always increasing) X positions."
-date: 12/11/2023 7:58:20 AM
+date: 12/11/2023 8:11:10 AM
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "SignalXY"]
-BreadcrumbUrls: ["https://scottplot.net/cookbook/4.1/", "https://scottplot.net/cookbook/4.1/category/plottable-signalxy/"]
-SearchUrl: "https://scottplot.net/cookbook/4.1/search//"
+BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-signalxy/"]
+SearchUrl: "/cookbook/4.1/search/"
 ---
 
 # Plot Type: SignalXY

@@ -1,10 +1,10 @@
 ---
 title: "Palette - ScottPlot 4.1 Cookbook"
 description: "The Palette defines default colors for new objects added to the plot."
-date: 12/11/2023 7:58:20 AM
+date: 12/11/2023 8:11:10 AM
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Palette"]
-BreadcrumbUrls: ["https://scottplot.net/cookbook/4.1/", "https://scottplot.net/cookbook/4.1/category/palette/"]
-SearchUrl: "https://scottplot.net/cookbook/4.1/search//"
+BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/palette/"]
+SearchUrl: "/cookbook/4.1/search/"
 ---
 
 # Palette

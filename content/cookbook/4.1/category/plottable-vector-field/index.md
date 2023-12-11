@@ -1,10 +1,10 @@
 ---
 title: "Plot Type: Vector Field - ScottPlot 4.1 Cookbook"
 description: "Vector fields use arrows to show direction and magnitude of data points in a 2D array and are ideal for visualizing data explained by differential equations."
-date: 12/11/2023 7:58:20 AM
+date: 12/11/2023 8:11:10 AM
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Vector Field"]
-BreadcrumbUrls: ["https://scottplot.net/cookbook/4.1/", "https://scottplot.net/cookbook/4.1/category/plottable-vector-field/"]
-SearchUrl: "https://scottplot.net/cookbook/4.1/search//"
+BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-vector-field/"]
+SearchUrl: "/cookbook/4.1/search/"
 ---
 
 # Plot Type: Vector Field

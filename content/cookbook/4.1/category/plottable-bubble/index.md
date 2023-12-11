@@ -1,10 +1,10 @@
 ---
 title: "Plot Type: Bubble Plot - ScottPlot 4.1 Cookbook"
 description: "Bubble plots display circles at specific X/Y locations."
-date: 12/11/2023 7:58:20 AM
+date: 12/11/2023 8:11:10 AM
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Bubble Plot"]
-BreadcrumbUrls: ["https://scottplot.net/cookbook/4.1/", "https://scottplot.net/cookbook/4.1/category/plottable-bubble/"]
-SearchUrl: "https://scottplot.net/cookbook/4.1/search//"
+BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-bubble/"]
+SearchUrl: "/cookbook/4.1/search/"
 ---
 
 # Plot Type: Bubble Plot

@@ -1,10 +1,10 @@
 ---
 title: "Plot Type: Coxcomb Chart - ScottPlot 4.1 Cookbook"
 description: "A Coxcomb chart is a pie graph where the angle of slices is constant but the radii are not."
-date: 12/11/2023 7:58:20 AM
+date: 12/11/2023 8:11:10 AM
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Coxcomb Chart"]
-BreadcrumbUrls: ["https://scottplot.net/cookbook/4.1/", "https://scottplot.net/cookbook/4.1/category/plottable-coxcomb/"]
-SearchUrl: "https://scottplot.net/cookbook/4.1/search//"
+BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-coxcomb/"]
+SearchUrl: "/cookbook/4.1/search/"
 ---
 
 # Plot Type: Coxcomb Chart

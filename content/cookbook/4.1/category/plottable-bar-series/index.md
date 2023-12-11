@@ -1,10 +1,10 @@
 ---
 title: "Plot Type: Bar Series - ScottPlot 4.1 Cookbook"
 description: "BarSeries plots allow customization of each bar individually."
-date: 12/11/2023 7:58:20 AM
+date: 12/11/2023 8:11:10 AM
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Bar Series"]
-BreadcrumbUrls: ["https://scottplot.net/cookbook/4.1/", "https://scottplot.net/cookbook/4.1/category/plottable-bar-series/"]
-SearchUrl: "https://scottplot.net/cookbook/4.1/search//"
+BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-bar-series/"]
+SearchUrl: "/cookbook/4.1/search/"
 ---
 
 # Plot Type: Bar Series

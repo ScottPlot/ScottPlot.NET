@@ -1,10 +1,10 @@
 ---
 title: "Plot Type: Scale Bar - ScottPlot 4.1 Cookbook"
 description: "An L-shaped scalebar can be added in the corner of any plot."
-date: 12/11/2023 7:58:20 AM
+date: 12/11/2023 8:11:10 AM
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Scale Bar"]
-BreadcrumbUrls: ["https://scottplot.net/cookbook/4.1/", "https://scottplot.net/cookbook/4.1/category/plottable-scale-bar/"]
-SearchUrl: "https://scottplot.net/cookbook/4.1/search//"
+BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-scale-bar/"]
+SearchUrl: "/cookbook/4.1/search/"
 ---
 
 # Plot Type: Scale Bar

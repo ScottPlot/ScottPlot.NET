@@ -1,10 +1,10 @@
 ---
 title: "Plot Type: Heatmap - ScottPlot 4.1 Cookbook"
 description: "Heatmaps display a 2D array using a colormap."
-date: 12/11/2023 7:58:20 AM
+date: 12/11/2023 8:11:10 AM
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Heatmap"]
-BreadcrumbUrls: ["https://scottplot.net/cookbook/4.1/", "https://scottplot.net/cookbook/4.1/category/plottable-heatmap/"]
-SearchUrl: "https://scottplot.net/cookbook/4.1/search//"
+BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-heatmap/"]
+SearchUrl: "/cookbook/4.1/search/"
 ---
 
 # Plot Type: Heatmap
