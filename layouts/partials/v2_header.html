@@ -57,27 +57,31 @@
     <!-- subtitle bar -->
     {{ if .Params.BreadcrumbNames }}
     <div style="background-color: #EEE;" class="border-bottom shadow-sm">
-        <div class="content-limited-width px-2 py-1 d-flex justify-content-between">
+        <div class="content-limited-width px-2 py-1 d-flex justify-content-between container">
 
-            <!-- breadcrumbs -->
-            <div class="d-flex">
-                {{ range $index, $val := $.Params.breadcrumbNames }}
-                {{ if ge $index 1 }}
-                <div class="mx-1">»</div>
-                {{ end }}
-                <a href="{{ index $.Params.breadcrumbUrls $index }}">
-                    {{ index $.Params.breadcrumbNames $index }}
-                </a>
-                {{ end }}
-            </div>
+                <div class="row w-100">
 
-            <!-- search button -->
-            <!-- TODO: make this a popover -->
-            {{ if .Params.SearchUrl }}
-            <div class="">
-                <a href="https://scottplot.net/cookbook/4.1/search/">🔎 Search Cookbook</a>
+                    <!-- breadcrumbs -->
+                    <div class="col-md d-flex">
+                        {{ range $index, $val := $.Params.breadcrumbNames }}
+                        {{ if ge $index 1 }}
+                        <div class="mx-1">»</div>
+                        {{ end }}
+                        <a href="{{ index $.Params.breadcrumbUrls $index }}">
+                            {{ index $.Params.breadcrumbNames $index }}
+                        </a>
+                        {{ end }}
+                    </div>
+
+                    <!-- search button -->
+                    <!-- TODO: make this a popover -->
+                    {{ if .Params.SearchUrl }}
+                    <div class="col-md text-end">
+                        <a href="https://scottplot.net/cookbook/4.1/search/">🔎 Search Cookbook</a>
+                    </div>
+                    {{ end }}
+
             </div>
-            {{ end }}
 
         </div>
     </div>
