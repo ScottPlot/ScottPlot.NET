@@ -1,7 +1,7 @@
 ---
 title: "Plot Type: Bar Graph - ScottPlot 4.1 Cookbook"
 description: "How to create bar charts using ScottPlot."
-date: 12/11/2023 8:16:05 AM
+date: 12/11/2023 8:30:56 AM
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Bar Graph"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-bar-graph/"]
 SearchUrl: "/cookbook/4.1/search/"

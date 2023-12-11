@@ -1,7 +1,7 @@
 ---
 title: "Plot Type: Data Logger - ScottPlot 4.1 Cookbook"
 description: "The DataLogger plot type facilitates displaying live data by giving the developer a simple way to Add() new data points by either shifting them in or appending them to a growing list. This plot type also has special options to manage axis limits as new data arrives. See code in the WinForms Demo app for advanced usage information."
-date: 12/11/2023 8:16:05 AM
+date: 12/11/2023 8:30:56 AM
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Data Logger"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-datalogger/"]
 SearchUrl: "/cookbook/4.1/search/"

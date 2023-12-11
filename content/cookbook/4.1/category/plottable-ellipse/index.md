@@ -1,7 +1,7 @@
 ---
 title: "Plot Type: Ellipse - ScottPlot 4.1 Cookbook"
 description: "Ellipses are cuves with a defined center and distinct X and Y radii. A circle is an ellipse with an X radius equal to its Y radius."
-date: 12/11/2023 8:16:05 AM
+date: 12/11/2023 8:30:56 AM
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Ellipse"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-ellipse/"]
 SearchUrl: "/cookbook/4.1/search/"

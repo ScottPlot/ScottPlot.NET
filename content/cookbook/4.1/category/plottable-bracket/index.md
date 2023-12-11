@@ -1,7 +1,7 @@
 ---
 title: "Plot Type: Bracket - ScottPlot 4.1 Cookbook"
 description: "Brackets highlight a range in coordinate space."
-date: 12/11/2023 8:16:05 AM
+date: 12/11/2023 8:30:56 AM
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Bracket"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-bracket/"]
 SearchUrl: "/cookbook/4.1/search/"

@@ -1,7 +1,7 @@
 ---
 title: "Style - ScottPlot 4.1 Cookbook"
 description: "Plots can be styled to customize their colors and fonts."
-date: 12/11/2023 8:16:05 AM
+date: 12/11/2023 8:30:56 AM
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Style"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/style/"]
 SearchUrl: "/cookbook/4.1/search/"

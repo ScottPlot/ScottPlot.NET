@@ -1,7 +1,7 @@
 ---
 title: "Plot Type: Image - ScottPlot 4.1 Cookbook"
 description: "An image bitmap can be placed on the plot."
-date: 12/11/2023 8:16:05 AM
+date: 12/11/2023 8:30:56 AM
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Image"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-image/"]
 SearchUrl: "/cookbook/4.1/search/"

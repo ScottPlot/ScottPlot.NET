@@ -1,7 +1,7 @@
 ---
 title: "Plot Type: Radial Gauge - ScottPlot 4.1 Cookbook"
 description: "A radial gauge chart displays scalar data as circular gauges."
-date: 12/11/2023 8:16:05 AM
+date: 12/11/2023 8:30:56 AM
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Radial Gauge"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-radialgauge/"]
 SearchUrl: "/cookbook/4.1/search/"

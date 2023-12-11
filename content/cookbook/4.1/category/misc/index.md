@@ -1,7 +1,7 @@
 ---
 title: "Miscellaneous - ScottPlot 4.1 Cookbook"
 description: "A collection of examples demonstrating obscure configuration options."
-date: 12/11/2023 8:16:05 AM
+date: 12/11/2023 8:30:56 AM
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Miscellaneous"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/misc/"]
 SearchUrl: "/cookbook/4.1/search/"
