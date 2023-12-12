@@ -18,7 +18,12 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="{{ .Title }}">
     <meta property="og:description" content="{{ .Description }}">
+
+    {{ if .Params.OgImage }}
+    <meta property="og:image" content="{{ .Params.OgImage }}">
+    {{ else }}
     <meta property="og:image" content="/images/brand/banner.jpg">
+    {{ end }}
 
     {{ if .Params.noindex }}
     <meta name="robots" content="noindex">
