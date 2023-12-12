@@ -1,7 +1,7 @@
 ---
 Title: "Values Above Bars - ScottPlot 4.1 Cookbook"
 Description: "The value of each bar can be displayed above it."
-Date: 12/11/2023 7:52:02 PM
+Date: 12/11/2023 8:04:06 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/bar_values/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Bar Graph", "Values Above Bars"]

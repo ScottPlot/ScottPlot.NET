@@ -1,7 +1,7 @@
 ---
 Title: "Plot Type: Fill - ScottPlot 4.1 Cookbook"
 Description: "Helper methods are available to help fill the region under a curve."
-Date: 12/11/2023 7:52:02 PM
+Date: 12/11/2023 8:04:06 PM
 Version: ScottPlot 4.1.69
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Fill"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-fill/"]

@@ -1,7 +1,7 @@
 ---
 Title: "Data points over bar - ScottPlot 4.1 Cookbook"
 Description: "Alternate styling options allow data points to be displayed over the box and whisker plots."
-Date: 12/11/2023 7:52:02 PM
+Date: 12/11/2023 8:04:06 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/population_data_over_bar/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Population", "Data points over bar"]

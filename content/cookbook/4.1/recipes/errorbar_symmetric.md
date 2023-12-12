@@ -1,7 +1,7 @@
 ---
 Title: "Symmetric Error Bars - ScottPlot 4.1 Cookbook"
 Description: "There's a shorthand method for error bars where the positive and negative error is the same."
-Date: 12/11/2023 7:52:02 PM
+Date: 12/11/2023 8:04:06 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/errorbar_symmetric/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Error Bar", "Symmetric Error Bars"]

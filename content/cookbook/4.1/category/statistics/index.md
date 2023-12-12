@@ -1,7 +1,7 @@
 ---
 Title: "Statistics - ScottPlot 4.1 Cookbook"
 Description: "How to use statistics tools bundled with ScottPlot."
-Date: 12/11/2023 7:52:02 PM
+Date: 12/11/2023 8:04:06 PM
 Version: ScottPlot 4.1.69
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Statistics"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/statistics/"]

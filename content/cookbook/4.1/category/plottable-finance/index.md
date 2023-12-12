@@ -1,7 +1,7 @@
 ---
 Title: "Plot Type: Finance - ScottPlot 4.1 Cookbook"
 Description: "Finance charts represent price over a binned time range using OHLC (open, high, low, close) data format."
-Date: 12/11/2023 7:52:02 PM
+Date: 12/11/2023 8:04:06 PM
 Version: ScottPlot 4.1.69
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Finance"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-finance/"]

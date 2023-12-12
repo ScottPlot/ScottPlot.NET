@@ -1,7 +1,7 @@
 ---
 Title: "Multiple Histograms - ScottPlot 4.1 Cookbook"
 Description: "This example demonstrates two histograms on the same plot. Note the use of fractional units on the vertical axis, allowing easy comparison of datasets with different numbers of points. Unlike the previous example, this one does not use multiple axes."
-Date: 12/11/2023 7:52:02 PM
+Date: 12/11/2023 8:04:06 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/stats_histogram2/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Statistics", "Multiple Histograms"]

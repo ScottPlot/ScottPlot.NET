@@ -1,7 +1,7 @@
 ---
 Title: "All marker shapes - ScottPlot 4.1 Cookbook"
 Description: "Legend indicates names of all available marker shapes"
-Date: 12/11/2023 7:52:02 PM
+Date: 12/11/2023 8:04:06 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/scatter_markershape/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Scatter Plot", "All marker shapes"]

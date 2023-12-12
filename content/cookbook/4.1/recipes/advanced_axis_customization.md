@@ -1,7 +1,7 @@
 ---
 Title: "Advanced Axis Customization - ScottPlot 4.1 Cookbook"
 Description: "Axis labels, tick marks, and axis lines can all be extensively customized by interacting directly with axis configuration objects."
-Date: 12/11/2023 7:52:02 PM
+Date: 12/11/2023 8:04:06 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/advanced_axis_customization/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Advanced Axis Features", "Advanced Axis Customization"]

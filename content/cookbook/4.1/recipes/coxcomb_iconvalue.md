@@ -1,7 +1,7 @@
 ---
 Title: "Coxcomb Chart with icons - ScottPlot 4.1 Cookbook"
 Description: "A Pie chart where the angle of slices is constant but the radii are not, icons are used for quick reference."
-Date: 12/11/2023 7:52:02 PM
+Date: 12/11/2023 8:04:06 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/coxcomb_iconvalue/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Coxcomb Chart", "Coxcomb Chart with icons"]

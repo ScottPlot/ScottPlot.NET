@@ -1,7 +1,7 @@
 ---
 Title: "Tooltip Colors - ScottPlot 4.1 Cookbook"
 Description: "Tooltips border and fill styles can be customized"
-Date: 12/11/2023 7:52:02 PM
+Date: 12/11/2023 8:04:06 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/tooltip_colors/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Tooltip", "Tooltip Colors"]

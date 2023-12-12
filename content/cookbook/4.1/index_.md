@@ -1,7 +1,7 @@
 ---
 Title: "ScottPlot 4.1 Cookbook"
 Description: "Example plots shown next to the code used to create them"
-Date: 12/11/2023 7:50:17 PM
+Date: 12/11/2023 8:04:06 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook"]

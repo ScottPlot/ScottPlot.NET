@@ -1,7 +1,7 @@
 ---
 Title: "Signal Data with Gaps - ScottPlot 4.1 Cookbook"
 Description: "Signal with defined Xs that contain gaps"
-Date: 12/11/2023 7:52:02 PM
+Date: 12/11/2023 8:04:06 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/signalxy_gaps/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "SignalXY", "Signal Data with Gaps"]

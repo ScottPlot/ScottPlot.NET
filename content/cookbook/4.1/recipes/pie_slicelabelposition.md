@@ -1,7 +1,7 @@
 ---
 Title: "Slice Label Position - ScottPlot 4.1 Cookbook"
 Description: "Slice label position can be customized to place labels outside the pie. If labels are placed outside the pie, the pie size should be reduced to make room for them."
-Date: 12/11/2023 7:52:02 PM
+Date: 12/11/2023 8:04:06 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/pie_slicelabelposition/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Pie Chart", "Slice Label Position"]

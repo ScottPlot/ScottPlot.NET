@@ -1,7 +1,7 @@
 ---
 Title: "Plot Type: Signal Plot - ScottPlot 4.1 Cookbook"
 Description: "Signal plots are optimized to display data with evenly-spaced X values."
-Date: 12/11/2023 7:52:02 PM
+Date: 12/11/2023 8:04:06 PM
 Version: ScottPlot 4.1.69
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Signal Plot"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-signal-plot/"]

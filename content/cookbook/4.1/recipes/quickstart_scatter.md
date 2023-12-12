@@ -1,7 +1,7 @@
 ---
 Title: "Scatter Plot - ScottPlot 4.1 Cookbook"
 Description: "Scatter plots have paired X/Y points."
-Date: 12/11/2023 7:52:02 PM
+Date: 12/11/2023 8:04:06 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/quickstart_scatter/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Quickstart", "Scatter Plot"]

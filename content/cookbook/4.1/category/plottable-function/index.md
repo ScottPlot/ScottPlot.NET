@@ -1,7 +1,7 @@
 ---
 Title: "Plot Type: Function - ScottPlot 4.1 Cookbook"
 Description: "Function plots accept a Func (not distinct X/Y data points) to create line plots which can be zoomed infinitely."
-Date: 12/11/2023 7:52:02 PM
+Date: 12/11/2023 8:04:06 PM
 Version: ScottPlot 4.1.69
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Function"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-function/"]

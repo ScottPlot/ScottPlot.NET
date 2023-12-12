@@ -1,7 +1,7 @@
 ---
 Title: "Plot Type: Tooltip - ScottPlot 4.1 Cookbook"
 Description: "Tooltips are annotations that point to an X/Y coordinate on the plot."
-Date: 12/11/2023 7:52:02 PM
+Date: 12/11/2023 8:04:06 PM
 Version: ScottPlot 4.1.69
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Tooltip"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-tooltip/"]

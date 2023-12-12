@@ -1,7 +1,7 @@
 ---
 Title: "Legend - ScottPlot 4.1 Cookbook"
 Description: "A legend is a key used to label lines and markers."
-Date: 12/11/2023 7:52:02 PM
+Date: 12/11/2023 8:04:06 PM
 Version: ScottPlot 4.1.69
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Legend"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/legend/"]

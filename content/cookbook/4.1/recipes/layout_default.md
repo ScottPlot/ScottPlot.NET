@@ -1,7 +1,7 @@
 ---
 Title: "Default Layout - ScottPlot 4.1 Cookbook"
 Description: "ScottPlot has many ways to customize the layout. This example demonstrates the default layout, where padding around the data area is automatically determined by measuring the text in the axis labels and tick labels to ensure there is appropriate padding on all sides."
-Date: 12/11/2023 7:52:02 PM
+Date: 12/11/2023 8:04:06 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/layout_default/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Layout", "Default Layout"]

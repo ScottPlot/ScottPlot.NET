@@ -1,7 +1,7 @@
 ---
 Title: "Ellipse Quickstart - ScottPlot 4.1 Cookbook"
 Description: "Ellipses can be added to plots"
-Date: 12/11/2023 7:52:02 PM
+Date: 12/11/2023 8:04:06 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/ellipse_quickstart/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Ellipse", "Ellipse Quickstart"]

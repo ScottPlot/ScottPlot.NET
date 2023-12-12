@@ -1,7 +1,7 @@
 ---
 Title: "Frost - ScottPlot 4.1 Cookbook"
 Description: "Frost is a 4-color palette sourced from Nord."
-Date: 12/11/2023 7:52:02 PM
+Date: 12/11/2023 8:04:06 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/palette_frost/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Palette", "Frost"]

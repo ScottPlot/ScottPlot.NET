@@ -1,7 +1,7 @@
 ---
 Title: "Different data types for xs and ys - ScottPlot 4.1 Cookbook"
 Description: "SignalXYConst with (int)Xs and (float)Ys arrays"
-Date: 12/11/2023 7:52:02 PM
+Date: 12/11/2023 8:04:06 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/signalxyconst_types/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "SignalXY", "Different data types for xs and ys"]

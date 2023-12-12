@@ -1,7 +1,7 @@
 ---
 Title: "Advanced Axis Features - ScottPlot 4.1 Cookbook"
 Description: "Examples demonstrating advanced configuration of axis labels, lines, and ticks."
-Date: 12/11/2023 7:52:02 PM
+Date: 12/11/2023 8:04:06 PM
 Version: ScottPlot 4.1.69
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Advanced Axis Features"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/advanced-axis-features/"]

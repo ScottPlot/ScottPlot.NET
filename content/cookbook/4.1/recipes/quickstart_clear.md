@@ -1,7 +1,7 @@
 ---
 Title: "Clear Plottables - ScottPlot 4.1 Cookbook"
 Description: "Call Clear() to remove all plottables from the plot. Overloads of Clear() allow you to remote one type of plottable, or a specific plottable."
-Date: 12/11/2023 7:52:02 PM
+Date: 12/11/2023 8:04:06 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/quickstart_clear/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Quickstart", "Clear Plottables"]

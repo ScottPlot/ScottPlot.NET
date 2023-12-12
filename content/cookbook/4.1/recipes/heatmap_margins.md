@@ -1,7 +1,7 @@
 ---
 Title: "Heatmap with Tight Margins - ScottPlot 4.1 Cookbook"
 Description: "The heatmap can fit the plot area exactly if margins are set to zero and the square axis lock is disabled."
-Date: 12/11/2023 7:52:02 PM
+Date: 12/11/2023 8:04:06 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/heatmap_margins/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Heatmap", "Heatmap with Tight Margins"]

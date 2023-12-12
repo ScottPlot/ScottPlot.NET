@@ -1,7 +1,7 @@
 ---
 Title: "Log Scale Tick Density - ScottPlot 4.1 Cookbook"
 Description: "Numer of minor ticks between major ticks can be customized."
-Date: 12/11/2023 7:52:02 PM
+Date: 12/11/2023 8:04:06 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/asis_logtickdensity/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Advanced Axis Features", "Log Scale Tick Density"]

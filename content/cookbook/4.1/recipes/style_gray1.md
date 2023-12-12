@@ -1,7 +1,7 @@
 ---
 Title: "Gray1 Style - ScottPlot 4.1 Cookbook"
 Description: "Customize many plot features using style presets"
-Date: 12/11/2023 7:52:02 PM
+Date: 12/11/2023 8:04:06 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/style_gray1/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Style", "Gray1 Style"]

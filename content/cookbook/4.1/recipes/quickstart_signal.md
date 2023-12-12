@@ -1,7 +1,7 @@
 ---
 Title: "Signal Plot - ScottPlot 4.1 Cookbook"
 Description: "Signal plots have evenly spaced Y points. Signal plots are very fast and can interactively display millions of data points. There are many different types of plottable objects, each serving a different purpose."
-Date: 12/11/2023 7:52:02 PM
+Date: 12/11/2023 8:04:06 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/quickstart_signal/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Quickstart", "Signal Plot"]

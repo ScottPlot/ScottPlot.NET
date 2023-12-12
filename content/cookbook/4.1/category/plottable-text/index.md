@@ -1,7 +1,7 @@
 ---
 Title: "Plot Type: Text - ScottPlot 4.1 Cookbook"
 Description: "A text label that is placed at an X/Y coordinate on the plot (not in pixel space like an Annotation)."
-Date: 12/11/2023 7:52:02 PM
+Date: 12/11/2023 8:04:06 PM
 Version: ScottPlot 4.1.69
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Text"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-text/"]

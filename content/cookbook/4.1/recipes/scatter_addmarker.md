@@ -1,7 +1,7 @@
 ---
 Title: "Add markers - ScottPlot 4.1 Cookbook"
 Description: "Want to place a marker at a position in X/Y space? AddMarker() will create a scatter plot with a single point."
-Date: 12/11/2023 7:52:02 PM
+Date: 12/11/2023 8:04:06 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/scatter_addmarker/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Scatter Plot", "Add markers"]

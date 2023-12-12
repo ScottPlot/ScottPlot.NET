@@ -1,7 +1,7 @@
 ---
 Title: "Custom Label Format - ScottPlot 4.1 Cookbook"
 Description: "For ultimate control over crosshair label format you can create a custom formatter function and use that to convert positions to labels. This allows logic to be used to format crosshair labels."
-Date: 12/11/2023 7:52:02 PM
+Date: 12/11/2023 8:04:06 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/crosshair_customlabelformatting/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Crosshair", "Custom Label Format"]

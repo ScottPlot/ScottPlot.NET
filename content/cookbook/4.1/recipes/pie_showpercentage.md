@@ -1,7 +1,7 @@
 ---
 Title: "Slice Percentages - ScottPlot 4.1 Cookbook"
 Description: "The percentage of each slice can be displayed at its center."
-Date: 12/11/2023 7:52:02 PM
+Date: 12/11/2023 8:04:06 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/pie_showpercentage/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Pie Chart", "Slice Percentages"]
