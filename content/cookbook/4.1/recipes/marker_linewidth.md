@@ -1,7 +1,7 @@
 ---
 Title: "Marker Line Width - ScottPlot 4.1 Cookbook"
 Description: "Markers have options that can be customized, such as line width."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/marker_linewidth/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Marker", "Marker Line Width"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/marker_linewidth.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/marker_linewidth/'>Marker Line Width</a></h2>
+<h2><a id='marker-line-width' href='/cookbook/4.1/recipes/marker_linewidth/'>Marker Line Width</a></h2>
 
 Markers have options that can be customized, such as line width.
 

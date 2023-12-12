@@ -1,7 +1,7 @@
 ---
 Title: "Cleveland Dot Plot - ScottPlot 4.1 Cookbook"
 Description: "Cleveland Dot Plots allow comparing two categories in situations where a Bar Plot may be crowded."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:09 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/bar_cleveland_dot/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Bar Graph", "Cleveland Dot Plot"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/bar_cleveland_dot.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/bar_cleveland_dot/'>Cleveland Dot Plot</a></h2>
+<h2><a id='cleveland-dot-plot' href='/cookbook/4.1/recipes/bar_cleveland_dot/'>Cleveland Dot Plot</a></h2>
 
 Cleveland Dot Plots allow comparing two categories in situations where a Bar Plot may be crowded.
 

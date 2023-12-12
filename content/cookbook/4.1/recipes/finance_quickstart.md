@@ -1,7 +1,7 @@
 ---
 Title: "Candlestick Chart - ScottPlot 4.1 Cookbook"
 Description: "Price movement over time periods are represented using OHLC objects. A single OHLC holds open, high, low, and close pricing. Users can create their own OHLC arrays, or use the sample data generator to practice working with financial data."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/finance_quickstart/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Finance", "Candlestick Chart"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/finance_quickstart.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/finance_quickstart/'>Candlestick Chart</a></h2>
+<h2><a id='candlestick-chart' href='/cookbook/4.1/recipes/finance_quickstart/'>Candlestick Chart</a></h2>
 
 Price movement over time periods are represented using OHLC objects. A single OHLC holds open, high, low, and close pricing. Users can create their own OHLC arrays, or use the sample data generator to practice working with financial data.
 

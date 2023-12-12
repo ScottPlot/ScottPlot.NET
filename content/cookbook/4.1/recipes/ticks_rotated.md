@@ -1,7 +1,7 @@
 ---
 Title: "Rotated X Ticks - ScottPlot 4.1 Cookbook"
 Description: "Horizontal tick labels can be rotated as desired."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:09 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/ticks_rotated/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Axis and Ticks", "Rotated X Ticks"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/ticks_rotated.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/ticks_rotated/'>Rotated X Ticks</a></h2>
+<h2><a id='rotated-x-ticks' href='/cookbook/4.1/recipes/ticks_rotated/'>Rotated X Ticks</a></h2>
 
 Horizontal tick labels can be rotated as desired.
 

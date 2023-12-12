@@ -1,7 +1,7 @@
 ---
 Title: "Random X/Y Points - ScottPlot 4.1 Cookbook"
 Description: "X data for scatter plots does not have to be evenly spaced, making scatter plots are ideal for displaying random data like this."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/scatter_random/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Scatter Plot", "Random X/Y Points"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/scatter_random.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/scatter_random/'>Random X/Y Points</a></h2>
+<h2><a id='random-x/y-points' href='/cookbook/4.1/recipes/scatter_random/'>Random X/Y Points</a></h2>
 
 X data for scatter plots does not have to be evenly spaced, making scatter plots are ideal for displaying random data like this.
 

@@ -1,7 +1,7 @@
 ---
 Title: "Flipped Heatmap - ScottPlot 4.1 Cookbook"
 Description: "Heatmaps can be flipped vertically and/or horizontally."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/heatmap_flip/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Heatmap", "Flipped Heatmap"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/heatmap_flip.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/heatmap_flip/'>Flipped Heatmap</a></h2>
+<h2><a id='flipped-heatmap' href='/cookbook/4.1/recipes/heatmap_flip/'>Flipped Heatmap</a></h2>
 
 Heatmaps can be flipped vertically and/or horizontally.
 

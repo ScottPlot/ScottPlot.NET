@@ -1,7 +1,7 @@
 ---
 Title: "Draggable Marker - ScottPlot 4.1 Cookbook"
 Description: "A special type of marker exists which allows dragging with the mouse."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/marker_draggable/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Marker", "Draggable Marker"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/marker_draggable.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/marker_draggable/'>Draggable Marker</a></h2>
+<h2><a id='draggable-marker' href='/cookbook/4.1/recipes/marker_draggable/'>Draggable Marker</a></h2>
 
 A special type of marker exists which allows dragging with the mouse.
 

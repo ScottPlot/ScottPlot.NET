@@ -1,7 +1,7 @@
 ---
 Title: "Colorbar on Left - ScottPlot 4.1 Cookbook"
 Description: "A colorbar may be added to the left side of the chart"
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/colorbar_left/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Colorbar", "Colorbar on Left"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/colorbar_left.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/colorbar_left/'>Colorbar on Left</a></h2>
+<h2><a id='colorbar-on-left' href='/cookbook/4.1/recipes/colorbar_left/'>Colorbar on Left</a></h2>
 
 A colorbar may be added to the left side of the chart
 

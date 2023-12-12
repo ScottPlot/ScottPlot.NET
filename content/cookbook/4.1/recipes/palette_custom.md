@@ -1,7 +1,7 @@
 ---
 Title: "Custom - ScottPlot 4.1 Cookbook"
 Description: "A custom palette can be created from an array of HTML color values. These colors will be used as the default colors for new plottables added to the plot."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:09 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/palette_custom/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Palette", "Custom"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/palette_custom.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/palette_custom/'>Custom</a></h2>
+<h2><a id='custom' href='/cookbook/4.1/recipes/palette_custom/'>Custom</a></h2>
 
 A custom palette can be created from an array of HTML color values. These colors will be used as the default colors for new plottables added to the plot.
 

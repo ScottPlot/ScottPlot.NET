@@ -1,7 +1,7 @@
 ---
 Title: "NonLinear Tick Spacing - ScottPlot 4.1 Cookbook"
 Description: "Plot data on regular cartesian space then manually control axis labels to give the appearance of non-linear spacing between points."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:09 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/ticks_nonlinearx/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Advanced Axis Features", "NonLinear Tick Spacing"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/ticks_nonlinearx.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/ticks_nonlinearx/'>NonLinear Tick Spacing</a></h2>
+<h2><a id='nonlinear-tick-spacing' href='/cookbook/4.1/recipes/ticks_nonlinearx/'>NonLinear Tick Spacing</a></h2>
 
 Plot data on regular cartesian space then manually control axis labels to give the appearance of non-linear spacing between points.
 

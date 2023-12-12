@@ -1,7 +1,7 @@
 ---
 Title: "Customization - ScottPlot 4.1 Cookbook"
 Description: "Radar charts support extensive customization options."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/radar_customization/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Radar Chart", "Customization"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/radar_customization.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/radar_customization/'>Customization</a></h2>
+<h2><a id='customization' href='/cookbook/4.1/recipes/radar_customization/'>Customization</a></h2>
 
 Radar charts support extensive customization options.
 

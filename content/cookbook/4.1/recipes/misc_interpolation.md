@@ -1,7 +1,7 @@
 ---
 Title: "Spline Interpolation - ScottPlot 4.1 Cookbook"
 Description: "Interpolated splines create curves with many X/Y points to smoothly connect a limited number of input points."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:09 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/misc_interpolation/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Miscellaneous", "Spline Interpolation"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/misc_interpolation.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/misc_interpolation/'>Spline Interpolation</a></h2>
+<h2><a id='spline-interpolation' href='/cookbook/4.1/recipes/misc_interpolation/'>Spline Interpolation</a></h2>
 
 Interpolated splines create curves with many X/Y points to smoothly connect a limited number of input points.
 

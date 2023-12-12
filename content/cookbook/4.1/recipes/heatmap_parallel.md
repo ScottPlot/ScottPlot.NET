@@ -1,7 +1,7 @@
 ---
 Title: "Parallel Processing - ScottPlot 4.1 Cookbook"
 Description: "Heatmaps have opt-in parallel processing which may improve performance when calling Update() for large datasets."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/heatmap_parallel/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Heatmap", "Parallel Processing"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/heatmap_parallel.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/heatmap_parallel/'>Parallel Processing</a></h2>
+<h2><a id='parallel-processing' href='/cookbook/4.1/recipes/heatmap_parallel/'>Parallel Processing</a></h2>
 
 Heatmaps have opt-in parallel processing which may improve performance when calling Update() for large datasets.
 

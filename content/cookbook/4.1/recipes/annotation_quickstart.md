@@ -1,7 +1,7 @@
 ---
 Title: "Figure Annotations - ScottPlot 4.1 Cookbook"
 Description: "Annotations are labels placed at a X/Y location on the figure (not coordinates of the data area). Unlike the Text plottable, annotations do not move as the axes are adjusted."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:09 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/annotation_quickstart/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Annotation", "Figure Annotations"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/annotation_quickstart.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/annotation_quickstart/'>Figure Annotations</a></h2>
+<h2><a id='figure-annotations' href='/cookbook/4.1/recipes/annotation_quickstart/'>Figure Annotations</a></h2>
 
 Annotations are labels placed at a X/Y location on the figure (not coordinates of the data area). Unlike the Text plottable, annotations do not move as the axes are adjusted.
 

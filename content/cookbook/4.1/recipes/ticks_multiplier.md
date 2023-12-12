@@ -1,7 +1,7 @@
 ---
 Title: "Multiplier Notation - ScottPlot 4.1 Cookbook"
 Description: "Multiplier notation keeps tick labels small when plotting large data values. This style is also called engineering notation or scientific notation."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:09 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/ticks_multiplier/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Advanced Axis Features", "Multiplier Notation"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/ticks_multiplier.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/ticks_multiplier/'>Multiplier Notation</a></h2>
+<h2><a id='multiplier-notation' href='/cookbook/4.1/recipes/ticks_multiplier/'>Multiplier Notation</a></h2>
 
 Multiplier notation keeps tick labels small when plotting large data values. This style is also called engineering notation or scientific notation.
 

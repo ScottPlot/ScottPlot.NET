@@ -1,7 +1,7 @@
 ---
 Title: "Scatter Plot Labels - ScottPlot 4.1 Cookbook"
 Description: "Individual points can be labeled."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/scatter_labels/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Scatter Plot", "Scatter Plot Labels"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/scatter_labels.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/scatter_labels/'>Scatter Plot Labels</a></h2>
+<h2><a id='scatter-plot-labels' href='/cookbook/4.1/recipes/scatter_labels/'>Scatter Plot Labels</a></h2>
 
 Individual points can be labeled.
 

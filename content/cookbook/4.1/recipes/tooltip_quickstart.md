@@ -1,7 +1,7 @@
 ---
 Title: "Tooltip Quickstart - ScottPlot 4.1 Cookbook"
 Description: "Tooltips are annotations that point to an X/Y coordinate on the plot"
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/tooltip_quickstart/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Tooltip", "Tooltip Quickstart"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/tooltip_quickstart.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/tooltip_quickstart/'>Tooltip Quickstart</a></h2>
+<h2><a id='tooltip-quickstart' href='/cookbook/4.1/recipes/tooltip_quickstart/'>Tooltip Quickstart</a></h2>
 
 Tooltips are annotations that point to an X/Y coordinate on the plot
 

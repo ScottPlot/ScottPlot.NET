@@ -1,7 +1,7 @@
 ---
 Title: "SignalConst Quickstart - ScottPlot 4.1 Cookbook"
 Description: "SignalConst plots pre-processes data to render much faster than Signal plots. Pre-processing takes a little time up-front and requires 4x the memory of Signal."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/signalconst_quickstart/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "SignalConst", "SignalConst Quickstart"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/signalconst_quickstart.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/signalconst_quickstart/'>SignalConst Quickstart</a></h2>
+<h2><a id='signalconst-quickstart' href='/cookbook/4.1/recipes/signalconst_quickstart/'>SignalConst Quickstart</a></h2>
 
 SignalConst plots pre-processes data to render much faster than Signal plots. Pre-processing takes a little time up-front and requires 4x the memory of Signal.
 

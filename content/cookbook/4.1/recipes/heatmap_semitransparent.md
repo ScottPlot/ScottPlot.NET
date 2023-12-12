@@ -1,7 +1,7 @@
 ---
 Title: "Heatmap with Semitransparent Squares - ScottPlot 4.1 Cookbook"
 Description: "The intensities of heatmaps are mapped to color, but an optional 2D array of alpha values may be provided to separately control transparency of squares."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/heatmap_semitransparent/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Heatmap", "Heatmap with Semitransparent Squares"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/heatmap_semitransparent.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/heatmap_semitransparent/'>Heatmap with Semitransparent Squares</a></h2>
+<h2><a id='heatmap-with-semitransparent-squares' href='/cookbook/4.1/recipes/heatmap_semitransparent/'>Heatmap with Semitransparent Squares</a></h2>
 
 The intensities of heatmaps are mapped to color, but an optional 2D array of alpha values may be provided to separately control transparency of squares.
 

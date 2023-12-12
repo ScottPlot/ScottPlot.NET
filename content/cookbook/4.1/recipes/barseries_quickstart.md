@@ -1,7 +1,7 @@
 ---
 Title: "BarSeries Quickstart - ScottPlot 4.1 Cookbook"
 Description: "A BarSeries plot allows each Bar to be created and customized individually."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:09 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/barseries_quickstart/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Bar Series", "BarSeries Quickstart"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/barseries_quickstart.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/barseries_quickstart/'>BarSeries Quickstart</a></h2>
+<h2><a id='barseries-quickstart' href='/cookbook/4.1/recipes/barseries_quickstart/'>BarSeries Quickstart</a></h2>
 
 A BarSeries plot allows each Bar to be created and customized individually.
 

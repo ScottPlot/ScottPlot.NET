@@ -1,7 +1,7 @@
 ---
 Title: "Heatmap with Colorbar - ScottPlot 4.1 Cookbook"
 Description: "Colorbars are often added when heatmaps are used."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/heatmap_colorbar/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Heatmap", "Heatmap with Colorbar"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/heatmap_colorbar.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/heatmap_colorbar/'>Heatmap with Colorbar</a></h2>
+<h2><a id='heatmap-with-colorbar' href='/cookbook/4.1/recipes/heatmap_colorbar/'>Heatmap with Colorbar</a></h2>
 
 Colorbars are often added when heatmaps are used.
 

@@ -1,7 +1,7 @@
 ---
 Title: "Colorblind Friendly - ScottPlot 4.1 Cookbook"
 Description: "8-color palette that has good overall variability and can be differentiated by individuals with red-green color blindness. Colors originated from Wong 2011, https://www.nature.com/articles/nmeth.1618.pdf"
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:09 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/palette_colorblindfriendly/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Palette", "Colorblind Friendly"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/palette_colorblindfriendly.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/palette_colorblindfriendly/'>Colorblind Friendly</a></h2>
+<h2><a id='colorblind-friendly' href='/cookbook/4.1/recipes/palette_colorblindfriendly/'>Colorblind Friendly</a></h2>
 
 8-color palette that has good overall variability and can be differentiated by individuals with red-green color blindness. Colors originated from Wong 2011, https://www.nature.com/articles/nmeth.1618.pdf
 

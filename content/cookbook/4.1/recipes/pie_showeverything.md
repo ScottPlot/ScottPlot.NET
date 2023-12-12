@@ -1,7 +1,7 @@
 ---
 Title: "Label Everything - ScottPlot 4.1 Cookbook"
 Description: "Slices can labeled with values, percentages, and lables, with a legend."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/pie_showeverything/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Pie Chart", "Label Everything"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/pie_showeverything.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/pie_showeverything/'>Label Everything</a></h2>
+<h2><a id='label-everything' href='/cookbook/4.1/recipes/pie_showeverything/'>Label Everything</a></h2>
 
 Slices can labeled with values, percentages, and lables, with a legend.
 

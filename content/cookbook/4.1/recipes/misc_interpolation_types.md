@@ -1,7 +1,7 @@
 ---
 Title: "Spline Interpolation Types - ScottPlot 4.1 Cookbook"
 Description: "Different methods are available for smoothing data using interpolation, curve fitting, or corner cutting. Notice that some methods produce curves which pass through the original data points and others do not."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:09 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/misc_interpolation_types/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Miscellaneous", "Spline Interpolation Types"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/misc_interpolation_types.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/misc_interpolation_types/'>Spline Interpolation Types</a></h2>
+<h2><a id='spline-interpolation-types' href='/cookbook/4.1/recipes/misc_interpolation_types/'>Spline Interpolation Types</a></h2>
 
 Different methods are available for smoothing data using interpolation, curve fitting, or corner cutting. Notice that some methods produce curves which pass through the original data points and others do not.
 

@@ -1,7 +1,7 @@
 ---
 Title: "Customize Pie Colors - ScottPlot 4.1 Cookbook"
 Description: "Colors for pie slices and labels can be customized."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/pie_customcolors/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Pie Chart", "Customize Pie Colors"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/pie_customcolors.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/pie_customcolors/'>Customize Pie Colors</a></h2>
+<h2><a id='customize-pie-colors' href='/cookbook/4.1/recipes/pie_customcolors/'>Customize Pie Colors</a></h2>
 
 Colors for pie slices and labels can be customized.
 

@@ -1,7 +1,7 @@
 ---
 Title: "Angle and Magnitude - ScottPlot 4.1 Cookbook"
 Description: "This example demonstrates how to define vectors according to a given angle and magnitude."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/vectorfield_anglemag/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Vector Field", "Angle and Magnitude"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/vectorfield_anglemag.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/vectorfield_anglemag/'>Angle and Magnitude</a></h2>
+<h2><a id='angle-and-magnitude' href='/cookbook/4.1/recipes/vectorfield_anglemag/'>Angle and Magnitude</a></h2>
 
 This example demonstrates how to define vectors according to a given angle and magnitude.
 

@@ -1,7 +1,7 @@
 ---
 Title: "Signal Plot Quickstart - ScottPlot 4.1 Cookbook"
 Description: "Signal plots are ideal for evenly-spaced data with thousands or millions of points."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/signal_quickstart/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Signal Plot", "Signal Plot Quickstart"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/signal_quickstart.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/signal_quickstart/'>Signal Plot Quickstart</a></h2>
+<h2><a id='signal-plot-quickstart' href='/cookbook/4.1/recipes/signal_quickstart/'>Signal Plot Quickstart</a></h2>
 
 Signal plots are ideal for evenly-spaced data with thousands or millions of points.
 

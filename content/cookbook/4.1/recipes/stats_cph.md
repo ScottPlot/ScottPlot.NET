@@ -1,7 +1,7 @@
 ---
 Title: "CPH - ScottPlot 4.1 Cookbook"
 Description: "This example demonstrates how to plot a cumulative probability histogram (CPH) to compare the distribution of two datasets."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:09 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/stats_cph/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Statistics", "CPH"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/stats_cph.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/stats_cph/'>CPH</a></h2>
+<h2><a id='cph' href='/cookbook/4.1/recipes/stats_cph/'>CPH</a></h2>
 
 This example demonstrates how to plot a cumulative probability histogram (CPH) to compare the distribution of two datasets.
 

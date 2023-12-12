@@ -1,7 +1,7 @@
 ---
 Title: "Hatched Fill - ScottPlot 4.1 Cookbook"
 Description: "Hatched Fills are useful for when there are overlapping fills, such as this diagram depicting the ranges of possible producer surpluses under a price floor."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/fill_hatched/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Fill", "Hatched Fill"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/fill_hatched.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/fill_hatched/'>Hatched Fill</a></h2>
+<h2><a id='hatched-fill' href='/cookbook/4.1/recipes/fill_hatched/'>Hatched Fill</a></h2>
 
 Hatched Fills are useful for when there are overlapping fills, such as this diagram depicting the ranges of possible producer surpluses under a price floor.
 

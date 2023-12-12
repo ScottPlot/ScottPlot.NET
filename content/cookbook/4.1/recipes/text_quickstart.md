@@ -1,7 +1,7 @@
 ---
 Title: "Text - ScottPlot 4.1 Cookbook"
 Description: "The Text plottable displays a string at an X/Y coordinate in unit space. Unlike the Annotation plottable, text moves when the axes are adjusted."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/text_quickstart/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Text", "Text"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/text_quickstart.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/text_quickstart/'>Text</a></h2>
+<h2><a id='text' href='/cookbook/4.1/recipes/text_quickstart/'>Text</a></h2>
 
 The Text plottable displays a string at an X/Y coordinate in unit space. Unlike the Annotation plottable, text moves when the axes are adjusted.
 

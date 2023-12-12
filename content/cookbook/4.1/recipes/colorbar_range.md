@@ -1,7 +1,7 @@
 ---
 Title: "Color Range - ScottPlot 4.1 Cookbook"
 Description: "You can restrict a colorbar to only show a small range of a colormap. In this example we only use the middle of a rainbow colormap."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/colorbar_range/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Colorbar", "Color Range"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/colorbar_range.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/colorbar_range/'>Color Range</a></h2>
+<h2><a id='color-range' href='/cookbook/4.1/recipes/colorbar_range/'>Color Range</a></h2>
 
 You can restrict a colorbar to only show a small range of a colormap. In this example we only use the middle of a rainbow colormap.
 

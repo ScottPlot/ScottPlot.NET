@@ -1,7 +1,7 @@
 ---
 Title: "Signal Marker Color - ScottPlot 4.1 Cookbook"
 Description: "The markers that display when signal plots are zoomed in may have a different color than the lines connecting them"
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/signal_marker_color/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Signal Plot", "Signal Marker Color"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/signal_marker_color.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/signal_marker_color/'>Signal Marker Color</a></h2>
+<h2><a id='signal-marker-color' href='/cookbook/4.1/recipes/signal_marker_color/'>Signal Marker Color</a></h2>
 
 The markers that display when signal plots are zoomed in may have a different color than the lines connecting them
 

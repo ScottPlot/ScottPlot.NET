@@ -1,7 +1,7 @@
 ---
 Title: "Numeric Format String - ScottPlot 4.1 Cookbook"
 Description: "Tick labels can be converted to text using a custom format string."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:09 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/ticks_numericformatstring/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Advanced Axis Features", "Numeric Format String"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/ticks_numericformatstring.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/ticks_numericformatstring/'>Numeric Format String</a></h2>
+<h2><a id='numeric-format-string' href='/cookbook/4.1/recipes/ticks_numericformatstring/'>Numeric Format String</a></h2>
 
 Tick labels can be converted to text using a custom format string.
 

@@ -1,7 +1,7 @@
 ---
 Title: "Draggable Axis Lines - ScottPlot 4.1 Cookbook"
 Description: "In GUI environments, axis lines can be draggable and moved with the mouse. Drag limits define the boundaries the lines can be dragged."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:09 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/axisline_draggable/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Axis Line and Span", "Draggable Axis Lines"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/axisline_draggable.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/axisline_draggable/'>Draggable Axis Lines</a></h2>
+<h2><a id='draggable-axis-lines' href='/cookbook/4.1/recipes/axisline_draggable/'>Draggable Axis Lines</a></h2>
 
 In GUI environments, axis lines can be draggable and moved with the mouse. Drag limits define the boundaries the lines can be dragged.
 

@@ -1,7 +1,7 @@
 ---
 Title: "Advanced Grid Customization - ScottPlot 4.1 Cookbook"
 Description: "Grid lines can be extensively customized using various configuration methods."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:09 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/asis_gridadvanced/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Advanced Axis Features", "Advanced Grid Customization"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/asis_gridadvanced.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/asis_gridadvanced/'>Advanced Grid Customization</a></h2>
+<h2><a id='advanced-grid-customization' href='/cookbook/4.1/recipes/asis_gridadvanced/'>Advanced Grid Customization</a></h2>
 
 Grid lines can be extensively customized using various configuration methods.
 

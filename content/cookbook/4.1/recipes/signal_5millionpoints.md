@@ -1,7 +1,7 @@
 ---
 Title: "5 Million Points - ScottPlot 4.1 Cookbook"
 Description: "Signal plots with millions of points can be interacted with in real time."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/signal_5millionpoints/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Signal Plot", "5 Million Points"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/signal_5millionpoints.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/signal_5millionpoints/'>5 Million Points</a></h2>
+<h2><a id='5-million-points' href='/cookbook/4.1/recipes/signal_5millionpoints/'>5 Million Points</a></h2>
 
 Signal plots with millions of points can be interacted with in real time.
 

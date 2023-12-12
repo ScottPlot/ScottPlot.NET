@@ -1,7 +1,7 @@
 ---
 Title: "Image Border - ScottPlot 4.1 Cookbook"
 Description: "The borders of images can be customized."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/image_border/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Image", "Image Border"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/image_border.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/image_border/'>Image Border</a></h2>
+<h2><a id='image-border' href='/cookbook/4.1/recipes/image_border/'>Image Border</a></h2>
 
 The borders of images can be customized.
 

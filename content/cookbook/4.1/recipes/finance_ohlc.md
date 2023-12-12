@@ -1,7 +1,7 @@
 ---
 Title: "OHLC Chart - ScottPlot 4.1 Cookbook"
 Description: "OHLC charts are an alternative to candlestick charts. They show high and low prices as a vertical line, and indicate open and close prices with little ticks to the left and to the right."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/finance_ohlc/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Finance", "OHLC Chart"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/finance_ohlc.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/finance_ohlc/'>OHLC Chart</a></h2>
+<h2><a id='ohlc-chart' href='/cookbook/4.1/recipes/finance_ohlc/'>OHLC Chart</a></h2>
 
 OHLC charts are an alternative to candlestick charts. They show high and low prices as a vertical line, and indicate open and close prices with little ticks to the left and to the right.
 

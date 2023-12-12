@@ -1,7 +1,7 @@
 ---
 Title: "Gradient Fill Below - ScottPlot 4.1 Cookbook"
 Description: "Signal plots can be filled below using a color gradient."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/signal_fillbelowgradient/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Signal Plot", "Gradient Fill Below"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/signal_fillbelowgradient.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/signal_fillbelowgradient/'>Gradient Fill Below</a></h2>
+<h2><a id='gradient-fill-below' href='/cookbook/4.1/recipes/signal_fillbelowgradient/'>Gradient Fill Below</a></h2>
 
 Signal plots can be filled below using a color gradient.
 

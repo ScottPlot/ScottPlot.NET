@@ -1,7 +1,7 @@
 ---
 Title: "Speed Test - ScottPlot 4.1 Cookbook"
 Description: "Compare the speed to the same data plotted as a scatter plot."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/signal_advantage/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Signal Plot", "Speed Test"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/signal_advantage.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/signal_advantage/'>Speed Test</a></h2>
+<h2><a id='speed-test' href='/cookbook/4.1/recipes/signal_advantage/'>Speed Test</a></h2>
 
 Compare the speed to the same data plotted as a scatter plot.
 

@@ -1,7 +1,7 @@
 ---
 Title: "Signal Plot with Smooth Lines - ScottPlot 4.1 Cookbook"
 Description: "The Smooth field controls whether signal plot lines are drawn with smooth or straight line."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/signal_smooth/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Signal Plot", "Signal Plot with Smooth Lines"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/signal_smooth.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/signal_smooth/'>Signal Plot with Smooth Lines</a></h2>
+<h2><a id='signal-plot-with-smooth-lines' href='/cookbook/4.1/recipes/signal_smooth/'>Signal Plot with Smooth Lines</a></h2>
 
 The Smooth field controls whether signal plot lines are drawn with smooth or straight line.
 

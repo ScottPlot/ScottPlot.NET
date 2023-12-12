@@ -1,7 +1,7 @@
 ---
 Title: "DateTime Axis Label - ScottPlot 4.1 Cookbook"
 Description: "Crosshair labels display numeric labels by default, but a public field makes it possible to convert positions to DateTime (FromOATime) when generating their axis labels."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/crosshair_formatting/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Crosshair", "DateTime Axis Label"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/crosshair_formatting.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/crosshair_formatting/'>DateTime Axis Label</a></h2>
+<h2><a id='datetime-axis-label' href='/cookbook/4.1/recipes/crosshair_formatting/'>DateTime Axis Label</a></h2>
 
 Crosshair labels display numeric labels by default, but a public field makes it possible to convert positions to DateTime (FromOATime) when generating their axis labels.
 

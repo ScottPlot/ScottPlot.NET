@@ -1,7 +1,7 @@
 ---
 Title: "Tick Density - ScottPlot 4.1 Cookbook"
 Description: "Axis tick density can be adjusted by the user. The largest the density is, the more ticks are displayed. Setting this value too high will result in overlapping tick labels."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:09 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/asis_tickdensity/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Advanced Axis Features", "Tick Density"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/asis_tickdensity.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/asis_tickdensity/'>Tick Density</a></h2>
+<h2><a id='tick-density' href='/cookbook/4.1/recipes/asis_tickdensity/'>Tick Density</a></h2>
 
 Axis tick density can be adjusted by the user. The largest the density is, the more ticks are displayed. Setting this value too high will result in overlapping tick labels.
 

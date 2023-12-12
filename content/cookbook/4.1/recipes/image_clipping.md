@@ -1,7 +1,7 @@
 ---
 Title: "Image Clipping - ScottPlot 4.1 Cookbook"
 Description: "Images can be clipped to an arbitrary polygon"
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/image_clipping/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Image", "Image Clipping"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/image_clipping.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/image_clipping/'>Image Clipping</a></h2>
+<h2><a id='image-clipping' href='/cookbook/4.1/recipes/image_clipping/'>Image Clipping</a></h2>
 
 Images can be clipped to an arbitrary polygon
 

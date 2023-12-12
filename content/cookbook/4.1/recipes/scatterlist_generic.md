@@ -1,7 +1,7 @@
 ---
 Title: "Scatter List Generic - ScottPlot 4.1 Cookbook"
 Description: "This plot type supports generics."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/scatterlist_generic/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Scatter Plot", "Scatter List Generic"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/scatterlist_generic.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/scatterlist_generic/'>Scatter List Generic</a></h2>
+<h2><a id='scatter-list-generic' href='/cookbook/4.1/recipes/scatterlist_generic/'>Scatter List Generic</a></h2>
 
 This plot type supports generics.
 

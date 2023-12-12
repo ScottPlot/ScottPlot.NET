@@ -1,7 +1,7 @@
 ---
 Title: "Top X Axis - ScottPlot 4.1 Cookbook"
 Description: "This example demonstrates how to display an X axis above the figure. The horizontal axis above the figure is index 1, so plots must be updated to indicate they are to use a nonstandard axis index."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:09 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/multiaxis_top/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Multi-Axis", "Top X Axis"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/multiaxis_top.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/multiaxis_top/'>Top X Axis</a></h2>
+<h2><a id='top-x-axis' href='/cookbook/4.1/recipes/multiaxis_top/'>Top X Axis</a></h2>
 
 This example demonstrates how to display an X axis above the figure. The horizontal axis above the figure is index 1, so plots must be updated to indicate they are to use a nonstandard axis index.
 

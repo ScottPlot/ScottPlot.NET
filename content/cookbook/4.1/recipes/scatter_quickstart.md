@@ -1,7 +1,7 @@
 ---
 Title: "Scatter Plot Quickstart - ScottPlot 4.1 Cookbook"
 Description: "Scatter plots are best for small numbers of paired X/Y data points. For evenly-spaced data points Signal is much faster."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/scatter_quickstart/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Scatter Plot", "Scatter Plot Quickstart"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/scatter_quickstart.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/scatter_quickstart/'>Scatter Plot Quickstart</a></h2>
+<h2><a id='scatter-plot-quickstart' href='/cookbook/4.1/recipes/scatter_quickstart/'>Scatter Plot Quickstart</a></h2>
 
 Scatter plots are best for small numbers of paired X/Y data points. For evenly-spaced data points Signal is much faster.
 

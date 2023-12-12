@@ -1,7 +1,7 @@
 ---
 Title: "Custom Legend Labels - ScottPlot 4.1 Cookbook"
 Description: "Labels for slices and legend items can be independently configured."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/pie_custom_legend_labels/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Pie Chart", "Custom Legend Labels"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/pie_custom_legend_labels.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/pie_custom_legend_labels/'>Custom Legend Labels</a></h2>
+<h2><a id='custom-legend-labels' href='/cookbook/4.1/recipes/pie_custom_legend_labels/'>Custom Legend Labels</a></h2>
 
 Labels for slices and legend items can be independently configured.
 

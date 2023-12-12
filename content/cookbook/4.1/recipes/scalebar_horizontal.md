@@ -1,7 +1,7 @@
 ---
 Title: "Horizontal Scale Bar - ScottPlot 4.1 Cookbook"
 Description: "Set the vertical or horizontal sizer to zero and the scale bar will only span one dimension."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/scalebar_horizontal/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Scale Bar", "Horizontal Scale Bar"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/scalebar_horizontal.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/scalebar_horizontal/'>Horizontal Scale Bar</a></h2>
+<h2><a id='horizontal-scale-bar' href='/cookbook/4.1/recipes/scalebar_horizontal/'>Horizontal Scale Bar</a></h2>
 
 Set the vertical or horizontal sizer to zero and the scale bar will only span one dimension.
 

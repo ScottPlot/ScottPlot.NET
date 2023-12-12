@@ -1,7 +1,7 @@
 ---
 Title: "Histogram - ScottPlot 4.1 Cookbook"
 Description: "The Histogram class provides an easy way to count the number of data values in binned ranges."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:09 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/stats_histogram/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Statistics", "Histogram"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/stats_histogram.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/stats_histogram/'>Histogram</a></h2>
+<h2><a id='histogram' href='/cookbook/4.1/recipes/stats_histogram/'>Histogram</a></h2>
 
 The Histogram class provides an easy way to count the number of data values in binned ranges.
 

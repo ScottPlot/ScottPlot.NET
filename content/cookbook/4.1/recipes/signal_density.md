@@ -1,7 +1,7 @@
 ---
 Title: "Display data density - ScottPlot 4.1 Cookbook"
 Description: "When plotting extremely high density data, you can't always see the trends underneath all those overlapping data points. If you send an array of colors to PlotSignal(), it will use those colors to display density."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/signal_density/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Signal Plot", "Display data density"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/signal_density.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/signal_density/'>Display data density</a></h2>
+<h2><a id='display-data-density' href='/cookbook/4.1/recipes/signal_density/'>Display data density</a></h2>
 
 When plotting extremely high density data, you can't always see the trends underneath all those overlapping data points. If you send an array of colors to PlotSignal(), it will use those colors to display density.
 

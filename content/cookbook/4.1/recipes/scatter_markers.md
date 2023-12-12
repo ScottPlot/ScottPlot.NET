@@ -1,7 +1,7 @@
 ---
 Title: "Custom markers - ScottPlot 4.1 Cookbook"
 Description: "Markers can be customized using optional arguments and public fields."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/scatter_markers/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Scatter Plot", "Custom markers"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/scatter_markers.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/scatter_markers/'>Custom markers</a></h2>
+<h2><a id='custom-markers' href='/cookbook/4.1/recipes/scatter_markers/'>Custom markers</a></h2>
 
 Markers can be customized using optional arguments and public fields.
 

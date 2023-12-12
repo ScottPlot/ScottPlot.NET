@@ -1,7 +1,7 @@
 ---
 Title: "Primary Axes - ScottPlot 4.1 Cookbook"
 Description: "Plots always have 4 fundamental axes available to work with. By default primary axes are totally visible, and secondary axes have ticks hidden and no label. Sometimes the top axis is given a label to simulate a plot title."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:09 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/multiaxis_primary/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Multi-Axis", "Primary Axes"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/multiaxis_primary.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/multiaxis_primary/'>Primary Axes</a></h2>
+<h2><a id='primary-axes' href='/cookbook/4.1/recipes/multiaxis_primary/'>Primary Axes</a></h2>
 
 Plots always have 4 fundamental axes available to work with. By default primary axes are totally visible, and secondary axes have ticks hidden and no label. Sometimes the top axis is given a label to simulate a plot title.
 

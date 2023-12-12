@@ -1,7 +1,7 @@
 ---
 Title: "Radar - ScottPlot 4.1 Cookbook"
 Description: "A radar chart concisely displays multiple values. Radar plots are also called a spider charts or star charts."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/radar_quickstart/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Radar Chart", "Radar"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/radar_quickstart.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/radar_quickstart/'>Radar</a></h2>
+<h2><a id='radar' href='/cookbook/4.1/recipes/radar_quickstart/'>Radar</a></h2>
 
 A radar chart concisely displays multiple values. Radar plots are also called a spider charts or star charts.
 

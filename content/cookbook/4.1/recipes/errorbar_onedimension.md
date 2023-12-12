@@ -1,7 +1,7 @@
 ---
 Title: "Error Bars in One Dimension - ScottPlot 4.1 Cookbook"
 Description: "If you only have error data for one dimension you can simply pass in null for the other dimension."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/errorbar_onedimension/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Error Bar", "Error Bars in One Dimension"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/errorbar_onedimension.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/errorbar_onedimension/'>Error Bars in One Dimension</a></h2>
+<h2><a id='error-bars-in-one-dimension' href='/cookbook/4.1/recipes/errorbar_onedimension/'>Error Bars in One Dimension</a></h2>
 
 If you only have error data for one dimension you can simply pass in null for the other dimension.
 

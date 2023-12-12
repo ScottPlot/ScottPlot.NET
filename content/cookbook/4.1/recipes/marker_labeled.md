@@ -1,7 +1,7 @@
 ---
 Title: "Labeled Marker - ScottPlot 4.1 Cookbook"
 Description: "Markers have an optional text label."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/marker_labeled/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Marker", "Labeled Marker"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/marker_labeled.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/marker_labeled/'>Labeled Marker</a></h2>
+<h2><a id='labeled-marker' href='/cookbook/4.1/recipes/marker_labeled/'>Labeled Marker</a></h2>
 
 Markers have an optional text label.
 

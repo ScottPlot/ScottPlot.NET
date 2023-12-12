@@ -1,7 +1,7 @@
 ---
 Title: "Draggable Marker Snap - ScottPlot 4.1 Cookbook"
 Description: "This example shows how to add a draggable marker which is constrained to positions defined by an array of X/Y pairs."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/marker_draggableinvector/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Marker", "Draggable Marker Snap"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/marker_draggableinvector.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/marker_draggableinvector/'>Draggable Marker Snap</a></h2>
+<h2><a id='draggable-marker-snap' href='/cookbook/4.1/recipes/marker_draggableinvector/'>Draggable Marker Snap</a></h2>
 
 This example shows how to add a draggable marker which is constrained to positions defined by an array of X/Y pairs.
 

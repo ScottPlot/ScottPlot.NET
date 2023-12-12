@@ -1,7 +1,7 @@
 ---
 Title: "Default Plot Style - ScottPlot 4.1 Cookbook"
 Description: "This example demonstrates the default plot style."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:09 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/style_default/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Style", "Default Plot Style"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/style_default.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/style_default/'>Default Plot Style</a></h2>
+<h2><a id='default-plot-style' href='/cookbook/4.1/recipes/style_default/'>Default Plot Style</a></h2>
 
 This example demonstrates the default plot style.
 

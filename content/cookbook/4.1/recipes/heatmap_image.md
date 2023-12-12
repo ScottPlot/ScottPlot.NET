@@ -1,7 +1,7 @@
 ---
 Title: "Heatmap Image - ScottPlot 4.1 Cookbook"
 Description: "Image data can be plotted using the heatmap plot type."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/heatmap_image/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Heatmap", "Heatmap Image"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/heatmap_image.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/heatmap_image/'>Heatmap Image</a></h2>
+<h2><a id='heatmap-image' href='/cookbook/4.1/recipes/heatmap_image/'>Heatmap Image</a></h2>
 
 Image data can be plotted using the heatmap plot type.
 

@@ -1,7 +1,7 @@
 ---
 Title: "Manual and Automatic Tick Labels - ScottPlot 4.1 Cookbook"
 Description: "Tick positions and labels can be defined manually, but also added alongside automatic tick labels."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:09 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/ticks_defined_and_unioned/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Advanced Axis Features", "Manual and Automatic Tick Labels"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/ticks_defined_and_unioned.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/ticks_defined_and_unioned/'>Manual and Automatic Tick Labels</a></h2>
+<h2><a id='manual-and-automatic-tick-labels' href='/cookbook/4.1/recipes/ticks_defined_and_unioned/'>Manual and Automatic Tick Labels</a></h2>
 
 Tick positions and labels can be defined manually, but also added alongside automatic tick labels.
 

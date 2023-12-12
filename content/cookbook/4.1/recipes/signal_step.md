@@ -1,7 +1,7 @@
 ---
 Title: "Step Display - ScottPlot 4.1 Cookbook"
 Description: "Signal plots can be styled as step plots where points are connected by right angles instead of straight lines."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/signal_step/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Signal Plot", "Step Display"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/signal_step.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/signal_step/'>Step Display</a></h2>
+<h2><a id='step-display' href='/cookbook/4.1/recipes/signal_step/'>Step Display</a></h2>
 
 Signal plots can be styled as step plots where points are connected by right angles instead of straight lines.
 

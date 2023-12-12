@@ -1,7 +1,7 @@
 ---
 Title: "Remove a Plottable - ScottPlot 4.1 Cookbook"
 Description: "Call Remove() to remove a specific plottable."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:09 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/quickstart_remove/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Quickstart", "Remove a Plottable"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/quickstart_remove.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/quickstart_remove/'>Remove a Plottable</a></h2>
+<h2><a id='remove-a-plottable' href='/cookbook/4.1/recipes/quickstart_remove/'>Remove a Plottable</a></h2>
 
 Call Remove() to remove a specific plottable.
 

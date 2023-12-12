@@ -1,7 +1,7 @@
 ---
 Title: "Axis Labels and Limits - ScottPlot 4.1 Cookbook"
 Description: "Axis labels and limits can be customized"
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:09 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/quickstart_axis/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Quickstart", "Axis Labels and Limits"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/quickstart_axis.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/quickstart_axis/'>Axis Labels and Limits</a></h2>
+<h2><a id='axis-labels-and-limits' href='/cookbook/4.1/recipes/quickstart_axis/'>Axis Labels and Limits</a></h2>
 
 Axis labels and limits can be customized
 

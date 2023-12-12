@@ -1,7 +1,7 @@
 ---
 Title: "Lollipop Plot Quickstart - ScottPlot 4.1 Cookbook"
 Description: "Lollipop plots convey the same information as Bar plots but have a different appearance."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:09 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/bar_lollipop/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Bar Graph", "Lollipop Plot Quickstart"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/bar_lollipop.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/bar_lollipop/'>Lollipop Plot Quickstart</a></h2>
+<h2><a id='lollipop-plot-quickstart' href='/cookbook/4.1/recipes/bar_lollipop/'>Lollipop Plot Quickstart</a></h2>
 
 Lollipop plots convey the same information as Bar plots but have a different appearance.
 

@@ -1,7 +1,7 @@
 ---
 Title: "Rectangle - ScottPlot 4.1 Cookbook"
 Description: "Rectangles can be added to plots."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:09 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/misc_addrectangle/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Miscellaneous", "Rectangle"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/misc_addrectangle.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/misc_addrectangle/'>Rectangle</a></h2>
+<h2><a id='rectangle' href='/cookbook/4.1/recipes/misc_addrectangle/'>Rectangle</a></h2>
 
 Rectangles can be added to plots.
 

@@ -1,7 +1,7 @@
 ---
 Title: "Step Plot - ScottPlot 4.1 Cookbook"
 Description: "A step plot is a special type of scatter plot where points are connected by right angles instead of straight lines."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/scatter_stepplot/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Scatter Plot", "Step Plot"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/scatter_stepplot.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/scatter_stepplot/'>Step Plot</a></h2>
+<h2><a id='step-plot' href='/cookbook/4.1/recipes/scatter_stepplot/'>Step Plot</a></h2>
 
 A step plot is a special type of scatter plot where points are connected by right angles instead of straight lines.
 

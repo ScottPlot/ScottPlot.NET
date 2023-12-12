@@ -1,7 +1,7 @@
 ---
 Title: "Microcharts - ScottPlot 4.1 Cookbook"
 Description: "This is the default 12-color palette used by Microcharts."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:09 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/palette_microcharts/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Palette", "Microcharts"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/palette_microcharts.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/palette_microcharts/'>Microcharts</a></h2>
+<h2><a id='microcharts' href='/cookbook/4.1/recipes/palette_microcharts/'>Microcharts</a></h2>
 
 This is the default 12-color palette used by Microcharts.
 

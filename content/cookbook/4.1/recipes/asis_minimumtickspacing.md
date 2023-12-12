@@ -1,7 +1,7 @@
 ---
 Title: "Minimum Tick Spacing - ScottPlot 4.1 Cookbook"
 Description: "Minimum tick spacing can be defined such that zooming in does not produce more grid lines, ticks, and tick labels beyond the defined limit."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:09 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/asis_minimumtickspacing/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Advanced Axis Features", "Minimum Tick Spacing"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/asis_minimumtickspacing.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/asis_minimumtickspacing/'>Minimum Tick Spacing</a></h2>
+<h2><a id='minimum-tick-spacing' href='/cookbook/4.1/recipes/asis_minimumtickspacing/'>Minimum Tick Spacing</a></h2>
 
 Minimum tick spacing can be defined such that zooming in does not produce more grid lines, ticks, and tick labels beyond the defined limit.
 

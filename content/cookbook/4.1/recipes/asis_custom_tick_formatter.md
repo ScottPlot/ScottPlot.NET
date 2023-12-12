@@ -1,7 +1,7 @@
 ---
 Title: "Custom Tick Formatter - ScottPlot 4.1 Cookbook"
 Description: "For ultimate control over tick label format you can create a custom formatter function and use that to convert positions to labels. This allows logic to be used to format tick labels."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:09 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/asis_custom_tick_formatter/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Advanced Axis Features", "Custom Tick Formatter"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/asis_custom_tick_formatter.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/asis_custom_tick_formatter/'>Custom Tick Formatter</a></h2>
+<h2><a id='custom-tick-formatter' href='/cookbook/4.1/recipes/asis_custom_tick_formatter/'>Custom Tick Formatter</a></h2>
 
 For ultimate control over tick label format you can create a custom formatter function and use that to convert positions to labels. This allows logic to be used to format tick labels.
 

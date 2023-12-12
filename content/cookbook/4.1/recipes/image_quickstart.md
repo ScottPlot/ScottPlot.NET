@@ -1,7 +1,7 @@
 ---
 Title: "Image Quickstart - ScottPlot 4.1 Cookbook"
 Description: "The Image plottable places a Bitmap at coordinte in axis space."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/image_quickstart/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Image", "Image Quickstart"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/image_quickstart.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/image_quickstart/'>Image Quickstart</a></h2>
+<h2><a id='image-quickstart' href='/cookbook/4.1/recipes/image_quickstart/'>Image Quickstart</a></h2>
 
 The Image plottable places a Bitmap at coordinte in axis space.
 

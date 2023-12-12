@@ -1,7 +1,7 @@
 ---
 Title: "Slices in Legend - ScottPlot 4.1 Cookbook"
 Description: "Slices can be labeled in the legend."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/pie_legend/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Pie Chart", "Slices in Legend"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/pie_legend.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/pie_legend/'>Slices in Legend</a></h2>
+<h2><a id='slices-in-legend' href='/cookbook/4.1/recipes/pie_legend/'>Slices in Legend</a></h2>
 
 Slices can be labeled in the legend.
 

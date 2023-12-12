@@ -1,7 +1,7 @@
 ---
 Title: "Function - ScottPlot 4.1 Cookbook"
 Description: "Function plots are defined by a function (not X/Y data points) so the curve is continuous and can be zoomed in and out infinitely"
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/function_quickstart/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Function", "Function"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/function_quickstart.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/function_quickstart/'>Function</a></h2>
+<h2><a id='function' href='/cookbook/4.1/recipes/function_quickstart/'>Function</a></h2>
 
 Function plots are defined by a function (not X/Y data points) so the curve is continuous and can be zoomed in and out infinitely
 

@@ -1,7 +1,7 @@
 ---
 Title: "OneHalfDark - ScottPlot 4.1 Cookbook"
 Description: "OneHalfDark is a 7-color palette of colors complimentary to the OneHalf palette desaturated and optimized for a dark background. #2e3440 is a recommended background color with this palette."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:09 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/palette_onehalfdark/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Palette", "OneHalfDark"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/palette_onehalfdark.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/palette_onehalfdark/'>OneHalfDark</a></h2>
+<h2><a id='onehalfdark' href='/cookbook/4.1/recipes/palette_onehalfdark/'>OneHalfDark</a></h2>
 
 OneHalfDark is a 7-color palette of colors complimentary to the OneHalf palette desaturated and optimized for a dark background. #2e3440 is a recommended background color with this palette.
 

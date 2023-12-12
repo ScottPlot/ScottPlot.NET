@@ -1,7 +1,7 @@
 ---
 Title: "Draggable Custom Snap Function - ScottPlot 4.1 Cookbook"
 Description: "Custom logic can be added to draggables to customize how they snap."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:09 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/axisline_draggable_with_snap_custom_snap/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Axis Line and Span", "Draggable Custom Snap Function"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/axisline_draggable_with_snap_custom_snap.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/axisline_draggable_with_snap_custom_snap/'>Draggable Custom Snap Function</a></h2>
+<h2><a id='draggable-custom-snap-function' href='/cookbook/4.1/recipes/axisline_draggable_with_snap_custom_snap/'>Draggable Custom Snap Function</a></h2>
 
 Custom logic can be added to draggables to customize how they snap.
 

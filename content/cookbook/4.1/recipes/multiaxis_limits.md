@@ -1,7 +1,7 @@
 ---
 Title: "Setting Multi Axis Limits - ScottPlot 4.1 Cookbook"
 Description: "Axis limits can be set for each axis by indicating which axis index you are wish to modify when setting axis limits."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:09 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/multiaxis_limits/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Multi-Axis", "Setting Multi Axis Limits"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/multiaxis_limits.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/multiaxis_limits/'>Setting Multi Axis Limits</a></h2>
+<h2><a id='setting-multi-axis-limits' href='/cookbook/4.1/recipes/multiaxis_limits/'>Setting Multi Axis Limits</a></h2>
 
 Axis limits can be set for each axis by indicating which axis index you are wish to modify when setting axis limits.
 

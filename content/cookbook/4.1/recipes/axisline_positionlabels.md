@@ -1,7 +1,7 @@
 ---
 Title: "Position Labels - ScottPlot 4.1 Cookbook"
 Description: "Axis line positions can be labeled on the axis on top of axis ticks and tick labels. Custom position formatters allow for full customization of the text displayed in these labels. If using a DateTime axis, implement a custom formatter that uses DateTime.FromOADate()."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:09 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/axisline_positionlabels/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Axis Line and Span", "Position Labels"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/axisline_positionlabels.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/axisline_positionlabels/'>Position Labels</a></h2>
+<h2><a id='position-labels' href='/cookbook/4.1/recipes/axisline_positionlabels/'>Position Labels</a></h2>
 
 Axis line positions can be labeled on the axis on top of axis ticks and tick labels. Custom position formatters allow for full customization of the text displayed in these labels. If using a DateTime axis, implement a custom formatter that uses DateTime.FromOADate().
 

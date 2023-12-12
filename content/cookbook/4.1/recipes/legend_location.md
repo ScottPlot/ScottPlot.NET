@@ -1,7 +1,7 @@
 ---
 Title: "Legend Location - ScottPlot 4.1 Cookbook"
 Description: "Legends can be placed at various locations within the plot area"
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:09 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/legend_location/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Legend", "Legend Location"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/legend_location.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/legend_location/'>Legend Location</a></h2>
+<h2><a id='legend-location' href='/cookbook/4.1/recipes/legend_location/'>Legend Location</a></h2>
 
 Legends can be placed at various locations within the plot area
 

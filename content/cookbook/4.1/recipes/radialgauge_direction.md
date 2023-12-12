@@ -1,7 +1,7 @@
 ---
 Title: "Gauge Direction - ScottPlot 4.1 Cookbook"
 Description: "The direction of gauges can be customized. Clockwise is used by default."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/radialgauge_direction/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Radial Gauge", "Gauge Direction"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/radialgauge_direction.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/radialgauge_direction/'>Gauge Direction</a></h2>
+<h2><a id='gauge-direction' href='/cookbook/4.1/recipes/radialgauge_direction/'>Gauge Direction</a></h2>
 
 The direction of gauges can be customized. Clockwise is used by default.
 

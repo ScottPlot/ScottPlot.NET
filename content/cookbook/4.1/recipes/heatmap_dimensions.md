@@ -1,7 +1,7 @@
 ---
 Title: "Custom Dimensions - ScottPlot 4.1 Cookbook"
 Description: "By default heatmaps start at the origin and each rectangle (cell) is 1 unit in size, but heatmap offset and cell size can be customized."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/heatmap_dimensions/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Heatmap", "Custom Dimensions"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/heatmap_dimensions.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/heatmap_dimensions/'>Custom Dimensions</a></h2>
+<h2><a id='custom-dimensions' href='/cookbook/4.1/recipes/heatmap_dimensions/'>Custom Dimensions</a></h2>
 
 By default heatmaps start at the origin and each rectangle (cell) is 1 unit in size, but heatmap offset and cell size can be customized.
 

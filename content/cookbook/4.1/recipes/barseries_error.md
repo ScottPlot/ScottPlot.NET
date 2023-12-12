@@ -1,7 +1,7 @@
 ---
 Title: "BarSeries with Error Bars - ScottPlot 4.1 Cookbook"
 Description: "Combine a BarSeries plot with an ErrorBar plot to achieve this effect."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:09 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/barseries_error/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Bar Series", "BarSeries with Error Bars"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/barseries_error.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/barseries_error/'>BarSeries with Error Bars</a></h2>
+<h2><a id='barseries-with-error-bars' href='/cookbook/4.1/recipes/barseries_error/'>BarSeries with Error Bars</a></h2>
 
 Combine a BarSeries plot with an ErrorBar plot to achieve this effect.
 

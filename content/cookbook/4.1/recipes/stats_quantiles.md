@@ -1,7 +1,7 @@
 ---
 Title: "Quantiles - ScottPlot 4.1 Cookbook"
 Description: "A q-Quantile is a generalization of quartiles and percentiles to any number of buckets."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:09 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/stats_quantiles/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Statistics", "Quantiles"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/stats_quantiles.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/stats_quantiles/'>Quantiles</a></h2>
+<h2><a id='quantiles' href='/cookbook/4.1/recipes/stats_quantiles/'>Quantiles</a></h2>
 
 A q-Quantile is a generalization of quartiles and percentiles to any number of buckets.
 

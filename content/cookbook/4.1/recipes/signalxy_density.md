@@ -1,7 +1,7 @@
 ---
 Title: "Different Densities - ScottPlot 4.1 Cookbook"
 Description: "Signal with mised low and high density data"
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/signalxy_density/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "SignalXY", "Different Densities"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/signalxy_density.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/signalxy_density/'>Different Densities</a></h2>
+<h2><a id='different-densities' href='/cookbook/4.1/recipes/signalxy_density/'>Different Densities</a></h2>
 
 Signal with mised low and high density data
 

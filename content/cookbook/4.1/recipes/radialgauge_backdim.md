@@ -1,7 +1,7 @@
 ---
 Title: "Background Gauges Dim - ScottPlot 4.1 Cookbook"
 Description: "By default the full range of each gauge is drawn as a semitransparent ring. The amount of transparency can be adjusted as desired."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/radialgauge_backdim/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Radial Gauge", "Background Gauges Dim"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/radialgauge_backdim.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/radialgauge_backdim/'>Background Gauges Dim</a></h2>
+<h2><a id='background-gauges-dim' href='/cookbook/4.1/recipes/radialgauge_backdim/'>Background Gauges Dim</a></h2>
 
 By default the full range of each gauge is drawn as a semitransparent ring. The amount of transparency can be adjusted as desired.
 

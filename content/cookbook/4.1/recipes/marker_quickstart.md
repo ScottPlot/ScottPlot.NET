@@ -1,7 +1,7 @@
 ---
 Title: "Marker - ScottPlot 4.1 Cookbook"
 Description: "You can place individual markers anywhere on the plot. "
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/marker_quickstart/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Marker", "Marker"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/marker_quickstart.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/marker_quickstart/'>Marker</a></h2>
+<h2><a id='marker' href='/cookbook/4.1/recipes/marker_quickstart/'>Marker</a></h2>
 
 You can place individual markers anywhere on the plot. 
 

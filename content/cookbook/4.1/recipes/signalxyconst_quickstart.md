@@ -1,7 +1,7 @@
 ---
 Title: "SignalConst with X and Y data - ScottPlot 4.1 Cookbook"
 Description: "SignalXYConst is a speed-optimized plot for displaying values (Ys) with unevenly-spaced positions (Xs) that are in ascending order. If your data is evenly-spaced, Signal and SignalConst is faster."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/signalxyconst_quickstart/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "SignalXY", "SignalConst with X and Y data"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/signalxyconst_quickstart.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/signalxyconst_quickstart/'>SignalConst with X and Y data</a></h2>
+<h2><a id='signalconst-with-x-and-y-data' href='/cookbook/4.1/recipes/signalxyconst_quickstart/'>SignalConst with X and Y data</a></h2>
 
 SignalXYConst is a speed-optimized plot for displaying values (Ys) with unevenly-spaced positions (Xs) that are in ascending order. If your data is evenly-spaced, Signal and SignalConst is faster.
 

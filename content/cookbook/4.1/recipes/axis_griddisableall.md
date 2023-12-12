@@ -1,7 +1,7 @@
 ---
 Title: "Disable Grid - ScottPlot 4.1 Cookbook"
 Description: "Visibility of primary X and Y grids can be set using a single method."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:09 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/axis_griddisableall/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Axis and Ticks", "Disable Grid"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/axis_griddisableall.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/axis_griddisableall/'>Disable Grid</a></h2>
+<h2><a id='disable-grid' href='/cookbook/4.1/recipes/axis_griddisableall/'>Disable Grid</a></h2>
 
 Visibility of primary X and Y grids can be set using a single method.
 

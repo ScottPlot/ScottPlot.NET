@@ -1,7 +1,7 @@
 ---
 Title: "Colorbar - ScottPlot 4.1 Cookbook"
 Description: "A colorbar displays a colormap beside the data area. Colorbars are typically added to plots containing heatmaps."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/colorbar_quickstart/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Colorbar", "Colorbar"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/colorbar_quickstart.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/colorbar_quickstart/'>Colorbar</a></h2>
+<h2><a id='colorbar' href='/cookbook/4.1/recipes/colorbar_quickstart/'>Colorbar</a></h2>
 
 A colorbar displays a colormap beside the data area. Colorbars are typically added to plots containing heatmaps.
 

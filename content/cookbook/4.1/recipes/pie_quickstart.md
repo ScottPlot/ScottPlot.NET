@@ -1,7 +1,7 @@
 ---
 Title: "Pie Chart - ScottPlot 4.1 Cookbook"
 Description: "A pie chart illustrates numerical proportions as slices of a circle."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/pie_quickstart/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Pie Chart", "Pie Chart"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/pie_quickstart.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/pie_quickstart/'>Pie Chart</a></h2>
+<h2><a id='pie-chart' href='/cookbook/4.1/recipes/pie_quickstart/'>Pie Chart</a></h2>
 
 A pie chart illustrates numerical proportions as slices of a circle.
 

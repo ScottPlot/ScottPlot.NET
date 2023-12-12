@@ -1,7 +1,7 @@
 ---
 Title: "Additional Y Axis - ScottPlot 4.1 Cookbook"
 Description: "Additional axes can be added on any edge. Additional axes stack away from the plot area."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:09 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/multiaxis_additional/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Multi-Axis", "Additional Y Axis"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/multiaxis_additional.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/multiaxis_additional/'>Additional Y Axis</a></h2>
+<h2><a id='additional-y-axis' href='/cookbook/4.1/recipes/multiaxis_additional/'>Additional Y Axis</a></h2>
 
 Additional axes can be added on any edge. Additional axes stack away from the plot area.
 

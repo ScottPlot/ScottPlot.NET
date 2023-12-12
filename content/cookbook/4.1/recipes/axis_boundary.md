@@ -1,7 +1,7 @@
 ---
 Title: "Axis Boundary - ScottPlot 4.1 Cookbook"
 Description: "Axes can be given boundaries which prevent the user from panning outside a given range."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:09 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/axis_boundary/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Axis and Ticks", "Axis Boundary"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/axis_boundary.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/axis_boundary/'>Axis Boundary</a></h2>
+<h2><a id='axis-boundary' href='/cookbook/4.1/recipes/axis_boundary/'>Axis Boundary</a></h2>
 
 Axes can be given boundaries which prevent the user from panning outside a given range.
 

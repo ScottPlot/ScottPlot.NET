@@ -1,7 +1,7 @@
 ---
 Title: "Bar Fill Pattern - ScottPlot 4.1 Cookbook"
 Description: "Bar graph fill pattern can be customized."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:09 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/bar_pattern/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Bar Graph", "Bar Fill Pattern"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/bar_pattern.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/bar_pattern/'>Bar Fill Pattern</a></h2>
+<h2><a id='bar-fill-pattern' href='/cookbook/4.1/recipes/bar_pattern/'>Bar Fill Pattern</a></h2>
 
 Bar graph fill pattern can be customized.
 

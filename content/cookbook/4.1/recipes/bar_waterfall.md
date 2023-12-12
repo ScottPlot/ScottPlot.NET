@@ -1,7 +1,7 @@
 ---
 Title: "Waterfall Bar Graph - ScottPlot 4.1 Cookbook"
 Description: "Waterfall bar graphs use bars to represent changes in value from the previous level. This style graph can be created by offseting each bar by the sum of all bars preceeding it. This effect is similar to financial plots (OHLC and Candlestick) which are described in another section."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:09 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/bar_waterfall/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Bar Graph", "Waterfall Bar Graph"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/bar_waterfall.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/bar_waterfall/'>Waterfall Bar Graph</a></h2>
+<h2><a id='waterfall-bar-graph' href='/cookbook/4.1/recipes/bar_waterfall/'>Waterfall Bar Graph</a></h2>
 
 Waterfall bar graphs use bars to represent changes in value from the previous level. This style graph can be created by offseting each bar by the sum of all bars preceeding it. This effect is similar to financial plots (OHLC and Candlestick) which are described in another section.
 

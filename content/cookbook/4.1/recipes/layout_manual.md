@@ -1,7 +1,7 @@
 ---
 Title: "Manual Data Area - ScottPlot 4.1 Cookbook"
 Description: "The layout system automatically measures axis labels and ticks to provide a plot with the largest data area possible. However, this can be problematic for animated plots (with changing tick label sizes) or when users wish to achieve pixel-perfect similarity between two different plots. In these cases the user can manually override the layout system and define exactly how large the data area is."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:09 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/layout_manual/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Layout", "Manual Data Area"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/layout_manual.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/layout_manual/'>Manual Data Area</a></h2>
+<h2><a id='manual-data-area' href='/cookbook/4.1/recipes/layout_manual/'>Manual Data Area</a></h2>
 
 The layout system automatically measures axis labels and ticks to provide a plot with the largest data area possible. However, this can be problematic for animated plots (with changing tick label sizes) or when users wish to achieve pixel-perfect similarity between two different plots. In these cases the user can manually override the layout system and define exactly how large the data area is.
 

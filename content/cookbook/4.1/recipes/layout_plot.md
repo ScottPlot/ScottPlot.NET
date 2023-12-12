@@ -1,7 +1,7 @@
 ---
 Title: "Plot Layout - ScottPlot 4.1 Cookbook"
 Description: "Call Layout() to manually define padding on all edges of the data area. This is the easiest way to make room for large custom tick labels. Under the hood, this method sets the minimum size of all 4 primary axes."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:09 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/layout_plot/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Layout", "Plot Layout"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/layout_plot.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/layout_plot/'>Plot Layout</a></h2>
+<h2><a id='plot-layout' href='/cookbook/4.1/recipes/layout_plot/'>Plot Layout</a></h2>
 
 Call Layout() to manually define padding on all edges of the data area. This is the easiest way to make room for large custom tick labels. Under the hood, this method sets the minimum size of all 4 primary axes.
 

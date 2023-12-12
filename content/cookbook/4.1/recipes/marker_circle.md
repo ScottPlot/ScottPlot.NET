@@ -1,7 +1,7 @@
 ---
 Title: "Circle Marker - ScottPlot 4.1 Cookbook"
 Description: "Circles can be added anywhere on the plot. If a line style is used, a custom pattern should be created."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/marker_circle/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Marker", "Circle Marker"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/marker_circle.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/marker_circle/'>Circle Marker</a></h2>
+<h2><a id='circle-marker' href='/cookbook/4.1/recipes/marker_circle/'>Circle Marker</a></h2>
 
 Circles can be added anywhere on the plot. If a line style is used, a custom pattern should be created.
 

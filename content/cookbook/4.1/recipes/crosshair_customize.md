@@ -1,7 +1,7 @@
 ---
 Title: "Crosshair Customization - ScottPlot 4.1 Cookbook"
 Description: "Crosshair styling and label formatting can be customized by accessing public fields."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/crosshair_customize/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Crosshair", "Crosshair Customization"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/crosshair_customize.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/crosshair_customize/'>Crosshair Customization</a></h2>
+<h2><a id='crosshair-customization' href='/cookbook/4.1/recipes/crosshair_customize/'>Crosshair Customization</a></h2>
 
 Crosshair styling and label formatting can be customized by accessing public fields.
 

@@ -1,7 +1,7 @@
 ---
 Title: "Draw Grid Above Plottables - ScottPlot 4.1 Cookbook"
 Description: "Sometimes it's useful to draw the grid lines above the plottables rather than below."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:09 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/axis_gridabove/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Axis and Ticks", "Draw Grid Above Plottables"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/axis_gridabove.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/axis_gridabove/'>Draw Grid Above Plottables</a></h2>
+<h2><a id='draw-grid-above-plottables' href='/cookbook/4.1/recipes/axis_gridabove/'>Draw Grid Above Plottables</a></h2>
 
 Sometimes it's useful to draw the grid lines above the plottables rather than below.
 

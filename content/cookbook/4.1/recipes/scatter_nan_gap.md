@@ -1,7 +1,7 @@
 ---
 Title: "NaN Values Break the Line - ScottPlot 4.1 Cookbook"
 Description: "When the OnNaN field is set to Gap, points containing NaN X or Y values break the line. This results in a scatter plot appearing as multiple lines, with gaps representing missing data."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/scatter_nan_gap/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Scatter Plot", "NaN Values Break the Line"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/scatter_nan_gap.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/scatter_nan_gap/'>NaN Values Break the Line</a></h2>
+<h2><a id='nan-values-break-the-line' href='/cookbook/4.1/recipes/scatter_nan_gap/'>NaN Values Break the Line</a></h2>
 
 When the OnNaN field is set to Gap, points containing NaN X or Y values break the line. This results in a scatter plot appearing as multiple lines, with gaps representing missing data.
 

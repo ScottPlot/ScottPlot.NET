@@ -1,7 +1,7 @@
 ---
 Title: "Invert tick mark direction - ScottPlot 4.1 Cookbook"
 Description: "Tick marks can be outward (default) or inverted to appear as inward lines relative to the edge of the plot area."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:09 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/ticks_invert_tick_mark_direction/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Advanced Axis Features", "Invert tick mark direction"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/ticks_invert_tick_mark_direction.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/ticks_invert_tick_mark_direction/'>Invert tick mark direction</a></h2>
+<h2><a id='invert-tick-mark-direction' href='/cookbook/4.1/recipes/ticks_invert_tick_mark_direction/'>Invert tick mark direction</a></h2>
 
 Tick marks can be outward (default) or inverted to appear as inward lines relative to the edge of the plot area.
 

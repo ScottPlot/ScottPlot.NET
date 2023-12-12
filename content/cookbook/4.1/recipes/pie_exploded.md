@@ -1,7 +1,7 @@
 ---
 Title: "Exploded Pie Chart - ScottPlot 4.1 Cookbook"
 Description: "Exploded pie charts have a bit of space between their slices."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/pie_exploded/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Pie Chart", "Exploded Pie Chart"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/pie_exploded.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/pie_exploded/'>Exploded Pie Chart</a></h2>
+<h2><a id='exploded-pie-chart' href='/cookbook/4.1/recipes/pie_exploded/'>Exploded Pie Chart</a></h2>
 
 Exploded pie charts have a bit of space between their slices.
 

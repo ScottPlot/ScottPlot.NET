@@ -1,7 +1,7 @@
 ---
 Title: "Scatter List Quickstart - ScottPlot 4.1 Cookbook"
 Description: "This plot type has add/remove/clear methods like typical lists."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/scatterlist_quickstart/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Scatter Plot", "Scatter List Quickstart"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/scatterlist_quickstart.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/scatterlist_quickstart/'>Scatter List Quickstart</a></h2>
+<h2><a id='scatter-list-quickstart' href='/cookbook/4.1/recipes/scatterlist_quickstart/'>Scatter List Quickstart</a></h2>
 
 This plot type has add/remove/clear methods like typical lists.
 

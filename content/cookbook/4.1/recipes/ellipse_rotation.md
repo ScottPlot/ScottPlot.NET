@@ -1,7 +1,7 @@
 ---
 Title: "Ellipse Rotation - ScottPlot 4.1 Cookbook"
 Description: "Ellipses can also be rotated"
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/ellipse_rotation/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Ellipse", "Ellipse Rotation"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/ellipse_rotation.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/ellipse_rotation/'>Ellipse Rotation</a></h2>
+<h2><a id='ellipse-rotation' href='/cookbook/4.1/recipes/ellipse_rotation/'>Ellipse Rotation</a></h2>
 
 Ellipses can also be rotated
 

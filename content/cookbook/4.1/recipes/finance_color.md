@@ -1,7 +1,7 @@
 ---
 Title: "Custom Colors - ScottPlot 4.1 Cookbook"
 Description: "Candles that close below their open price are colored differently from candles which close at or above it. These colors can be customized. Combine this styling with a custom wick color (which also controls the candle border) to create a different visual style."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/finance_color/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Finance", "Custom Colors"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/finance_color.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/finance_color/'>Custom Colors</a></h2>
+<h2><a id='custom-colors' href='/cookbook/4.1/recipes/finance_color/'>Custom Colors</a></h2>
 
 Candles that close below their open price are colored differently from candles which close at or above it. These colors can be customized. Combine this styling with a custom wick color (which also controls the candle border) to create a different visual style.
 

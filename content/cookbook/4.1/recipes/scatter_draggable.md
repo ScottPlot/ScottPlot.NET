@@ -1,7 +1,7 @@
 ---
 Title: "Draggable Scatter Plot Vertical - ScottPlot 4.1 Cookbook"
 Description: "You can restrict dragging to just X or Y directions."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/scatter_draggable/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Scatter Plot", "Draggable Scatter Plot Vertical"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/scatter_draggable.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/scatter_draggable/'>Draggable Scatter Plot Vertical</a></h2>
+<h2><a id='draggable-scatter-plot-vertical' href='/cookbook/4.1/recipes/scatter_draggable/'>Draggable Scatter Plot Vertical</a></h2>
 
 You can restrict dragging to just X or Y directions.
 

@@ -1,7 +1,7 @@
 ---
 Title: "Lollipop Plot Customizations - ScottPlot 4.1 Cookbook"
 Description: "Lollipop plots can be extensively customized."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:09 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/bar_lollipop_custom/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Bar Graph", "Lollipop Plot Customizations"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/bar_lollipop_custom.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/bar_lollipop_custom/'>Lollipop Plot Customizations</a></h2>
+<h2><a id='lollipop-plot-customizations' href='/cookbook/4.1/recipes/bar_lollipop_custom/'>Lollipop Plot Customizations</a></h2>
 
 Lollipop plots can be extensively customized.
 

@@ -1,7 +1,7 @@
 ---
 Title: "Custom Label - ScottPlot 4.1 Cookbook"
 Description: "Value labels above bars can be customized."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/barseries_custom_label/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Bar Series", "Custom Label"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/barseries_custom_label.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/barseries_custom_label/'>Custom Label</a></h2>
+<h2><a id='custom-label' href='/cookbook/4.1/recipes/barseries_custom_label/'>Custom Label</a></h2>
 
 Value labels above bars can be customized.
 

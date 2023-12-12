@@ -1,7 +1,7 @@
 ---
 Title: "Styling Brackets - ScottPlot 4.1 Cookbook"
 Description: "Brackets have additional options for customizations."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/bracket_style/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Bracket", "Styling Brackets"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/bracket_style.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/bracket_style/'>Styling Brackets</a></h2>
+<h2><a id='styling-brackets' href='/cookbook/4.1/recipes/bracket_style/'>Styling Brackets</a></h2>
 
 Brackets have additional options for customizations.
 

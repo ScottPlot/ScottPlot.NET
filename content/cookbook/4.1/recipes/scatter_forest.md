@@ -1,7 +1,7 @@
 ---
 Title: "Forest Plot - ScottPlot 4.1 Cookbook"
 Description: "Scatter plots can be used to create forest plots, which are useful for showing the agreement between multiple estimates."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/scatter_forest/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Scatter Plot", "Forest Plot"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/scatter_forest.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/scatter_forest/'>Forest Plot</a></h2>
+<h2><a id='forest-plot' href='/cookbook/4.1/recipes/scatter_forest/'>Forest Plot</a></h2>
 
 Scatter plots can be used to create forest plots, which are useful for showing the agreement between multiple estimates.
 

@@ -1,7 +1,7 @@
 ---
 Title: "Bubbles with Labels - ScottPlot 4.1 Cookbook"
 Description: "Bubble plots can be combined with other plot types to create more advanced charts. In this example each bubble is accompanied by a text object. Bubbles are also colored according to their size such that smaller bubbles are bluer."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/bubble_withtext/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Bubble Plot", "Bubbles with Labels"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/bubble_withtext.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/bubble_withtext/'>Bubbles with Labels</a></h2>
+<h2><a id='bubbles-with-labels' href='/cookbook/4.1/recipes/bubble_withtext/'>Bubbles with Labels</a></h2>
 
 Bubble plots can be combined with other plot types to create more advanced charts. In this example each bubble is accompanied by a text object. Bubbles are also colored according to their size such that smaller bubbles are bluer.
 

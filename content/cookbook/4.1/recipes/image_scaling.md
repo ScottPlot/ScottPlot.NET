@@ -1,7 +1,7 @@
 ---
 Title: "Image Scaling - ScottPlot 4.1 Cookbook"
 Description: "Size of the image (in relative pixel units) can be adjusted."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/image_scaling/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Image", "Image Scaling"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/image_scaling.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/image_scaling/'>Image Scaling</a></h2>
+<h2><a id='image-scaling' href='/cookbook/4.1/recipes/image_scaling/'>Image Scaling</a></h2>
 
 Size of the image (in relative pixel units) can be adjusted.
 

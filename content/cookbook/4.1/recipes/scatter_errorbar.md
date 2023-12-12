@@ -1,7 +1,7 @@
 ---
 Title: "Scatter Plot with Errorbars - ScottPlot 4.1 Cookbook"
 Description: "An array of values can be supplied for error bars and redering options can be customized as desired"
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:10 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/scatter_errorbar/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Scatter Plot", "Scatter Plot with Errorbars"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/scatter_errorbar.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/scatter_errorbar/'>Scatter Plot with Errorbars</a></h2>
+<h2><a id='scatter-plot-with-errorbars' href='/cookbook/4.1/recipes/scatter_errorbar/'>Scatter Plot with Errorbars</a></h2>
 
 An array of values can be supplied for error bars and redering options can be customized as desired
 

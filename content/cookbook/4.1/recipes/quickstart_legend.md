@@ -1,7 +1,7 @@
 ---
 Title: "Legend - ScottPlot 4.1 Cookbook"
 Description: "Most plottable objects have a Label which defines how they appear in the legend"
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:09 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/quickstart_legend/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Quickstart", "Legend"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/quickstart_legend.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/quickstart_legend/'>Legend</a></h2>
+<h2><a id='legend' href='/cookbook/4.1/recipes/quickstart_legend/'>Legend</a></h2>
 
 Most plottable objects have a Label which defines how they appear in the legend
 

@@ -1,7 +1,7 @@
 ---
 Title: "Axis Size - ScottPlot 4.1 Cookbook"
 Description: "The size of each axis can be individually customized. Note that axes automatically resize themselves to accomodate tick labels, but this method lets users customize the min/max boundaries of axis size. Set both numbers to the same value to force an axis to always be a specific size."
-Date: 12/11/2023 8:04:06 PM
+Date: 12/11/2023 8:13:09 PM
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/layout_axis_size/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Layout", "Axis Size"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 OgImage: "/cookbook/4.1/images/layout_axis_size.png"
 ---
 
-<h2><a href='/cookbook/4.1/recipes/layout_axis_size/'>Axis Size</a></h2>
+<h2><a id='axis-size' href='/cookbook/4.1/recipes/layout_axis_size/'>Axis Size</a></h2>
 
 The size of each axis can be individually customized. Note that axes automatically resize themselves to accomodate tick labels, but this method lets users customize the min/max boundaries of axis size. Set both numbers to the same value to force an axis to always be a specific size.
 
