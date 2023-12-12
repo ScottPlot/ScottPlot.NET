@@ -57,30 +57,29 @@
     <!-- subtitle bar -->
     {{ if .Params.BreadcrumbNames }}
     <div style="background-color: #EEE;" class="border-bottom shadow-sm">
-        <div class="content-limited-width px-2 py-1 d-flex justify-content-between container">
+        <div class="content-limited-width px-2 py-1 container">
 
-                <div class="row w-100">
+            <div class="row">
 
-                    <!-- breadcrumbs -->
-                    <div class="col-md d-flex">
-                        {{ range $index, $val := $.Params.breadcrumbNames }}
-                        {{ if ge $index 1 }}
-                        <div class="mx-1">»</div>
-                        {{ end }}
-                        <a href="{{ index $.Params.breadcrumbUrls $index }}">
-                            {{ index $.Params.breadcrumbNames $index }}
-                        </a>
-                        {{ end }}
-                    </div>
-
-                    <!-- search button -->
-                    <!-- TODO: make this a popover -->
-                    {{ if .Params.SearchUrl }}
-                    <div class="col-md text-end">
-                        <a href="https://scottplot.net/cookbook/4.1/search/">🔎 Search Cookbook</a>
-                    </div>
+                <!-- breadcrumbs -->
+                <div class="col-9 d-flex flex-wrap">
+                    {{ range $index, $val := $.Params.breadcrumbNames }}
+                    {{ if ge $index 1 }}
+                    <div class="mx-1">»</div>
                     {{ end }}
+                    <a href="{{ index $.Params.breadcrumbUrls $index }}" class="text-nowrap">
+                        {{ index $.Params.breadcrumbNames $index }}
+                    </a>
+                    {{ end }}
+                </div>
 
+                {{ if .Params.SearchUrl }}
+                <!-- search button -->
+                <!-- TODO: make this a popover -->
+                <div class="col-3">
+                    <a href="https://scottplot.net/cookbook/4.1/search/">🔎 Search Cookbook</a>
+                </div>
+                {{ end }}
             </div>
 
         </div>
