@@ -1,8 +1,9 @@
 ---
-title: "Colormaps - ScottPlot 4.1 Cookbook"
-description: "List of Colormaps used to represent continuous data"
-date: 12/11/2023 8:30:56 AM
-url: /cookbook/4.1/colormaps/
+Title: "Colormaps - ScottPlot 4.1 Cookbook"
+Description: "List of Colormaps used to represent continuous data"
+Date: 12/11/2023 7:52:02 PM
+Version: ScottPlot 4.1.69
+URL: /cookbook/4.1/colormaps/
 ---
 
 # Colormaps
