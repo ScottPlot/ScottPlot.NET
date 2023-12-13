@@ -4,7 +4,7 @@ Description: A survey of basic functionality in ScottPlot 5
 URL: /cookbook/5.0/Quickstart
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "ScottPlot 5 Quickstart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Quickstart"]
-Date: 12/13/2023 2:24:04 PM
+Date: 2023-12-13
 Version: ScottPlot 5.0.10-beta
 ---
 

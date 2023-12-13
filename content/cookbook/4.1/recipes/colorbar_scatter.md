@@ -1,7 +1,7 @@
 ---
 Title: "Scatter Plot with Colorbar - ScottPlot 4.1 Cookbook"
 Description: "This example shows how to add differently colored markers to the plot to simulate a scatter plot with points colored according to a colorbar. Note that the colormap generates the colors, and that a colorbar just displays a colormap"
-Date: 12/11/2023 8:13:10 PM
+Date: 2023-12-13
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/colorbar_scatter/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Colorbar", "Scatter Plot with Colorbar"]

@@ -4,7 +4,7 @@ Description: Box plots can be oriented horizontally, similarly to bar plots.
 URL: /cookbook/5.0/Box/HorizontalBox
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Box Plot", "Horizontal Box Plots"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Box", "/cookbook/5.0/Box/HorizontalBox"]
-Date: 12/13/2023 2:24:04 PM
+Date: 2023-12-13
 Version: ScottPlot 5.0.10-beta
 ---
 

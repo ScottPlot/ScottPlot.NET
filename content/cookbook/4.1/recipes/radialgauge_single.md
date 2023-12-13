@@ -1,7 +1,7 @@
 ---
 Title: "Single Gauge Mode - ScottPlot 4.1 Cookbook"
 Description: "The SingleGauge mode draws all gauges stacked together as a single gauge. This is useful for showing a progress gauges composed of many individual smaller gauges."
-Date: 12/11/2023 8:13:10 PM
+Date: 2023-12-13
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/radialgauge_single/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Radial Gauge", "Single Gauge Mode"]

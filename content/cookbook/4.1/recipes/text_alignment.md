@@ -1,7 +1,7 @@
 ---
 Title: "Text Alignment and Rotation - ScottPlot 4.1 Cookbook"
 Description: "Alignment indicates which corner is placed at the X/Y coordinate."
-Date: 12/11/2023 8:13:10 PM
+Date: 2023-12-13
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/text_alignment/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Text", "Text Alignment and Rotation"]

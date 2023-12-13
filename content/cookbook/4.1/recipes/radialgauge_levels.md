@@ -1,7 +1,7 @@
 ---
 Title: "Show Levels - ScottPlot 4.1 Cookbook"
 Description: "The value of each gauge is displayed as text by default but this behavior can be overridden. Note that this is different than the labels fiels which is what appears in the legened."
-Date: 12/11/2023 8:13:10 PM
+Date: 2023-12-13
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/radialgauge_levels/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Radial Gauge", "Show Levels"]

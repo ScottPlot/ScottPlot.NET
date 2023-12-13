@@ -1,7 +1,7 @@
 ---
 Title: "ScottPlot 4.1 Cookbook"
 Description: "Example plots shown next to the code used to create them"
-Date: 12/11/2023 8:13:09 PM
+Date: 2023-12-13
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 ---
 
 # ScottPlot 4.0 Cookbook
-Generated using ScottPlot 4.1.69 on 12/11/2023 <br />
+Generated using ScottPlot 4.1.69 on 12/13/2023 <br />
 <h4>Customization</h4>
 <ul>
 <li><a href='#quickstart'>Quickstart</a> - Simple examples designed to help new users get familiar with ScottPlot.</li>

@@ -1,7 +1,7 @@
 ---
 Title: "Independent Axis Scaling - ScottPlot 4.1 Cookbook"
 Description: "Axis scaling can be independent, allowing values for each category to be displayed using a different scale. When independent axis mode is enabled, axis limits are automatically adjusted to fit the range of the data."
-Date: 12/11/2023 8:13:10 PM
+Date: 2023-12-13
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/radar_axisscaling/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Radar Chart", "Independent Axis Scaling"]

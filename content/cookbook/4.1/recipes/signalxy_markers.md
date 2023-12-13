@@ -1,7 +1,7 @@
 ---
 Title: "Customize Markers - ScottPlot 4.1 Cookbook"
 Description: "SignalXY plots have markers which only appear when they are zoomed in."
-Date: 12/11/2023 8:13:10 PM
+Date: 2023-12-13
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/signalxy_markers/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "SignalXY", "Customize Markers"]

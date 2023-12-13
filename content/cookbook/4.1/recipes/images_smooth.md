@@ -1,7 +1,7 @@
 ---
 Title: "Image Anti-Aliasing - ScottPlot 4.1 Cookbook"
 Description: "Images have an option to enable or disable anti-aliasing"
-Date: 12/11/2023 8:13:10 PM
+Date: 2023-12-13
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/images_smooth/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Image", "Image Anti-Aliasing"]

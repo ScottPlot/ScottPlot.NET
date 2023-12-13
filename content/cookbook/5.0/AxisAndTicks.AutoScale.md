@@ -4,7 +4,7 @@ Description: The axis limits can be automatically adjusted to fit the data. Opti
 URL: /cookbook/5.0/AxisAndTicks/AutoScale
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Axis and Ticks", "Zoom to Fit Data"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AxisAndTicks", "/cookbook/5.0/AxisAndTicks/AutoScale"]
-Date: 12/13/2023 2:24:04 PM
+Date: 2023-12-13
 Version: ScottPlot 5.0.10-beta
 ---
 

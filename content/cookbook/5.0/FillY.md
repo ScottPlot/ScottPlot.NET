@@ -4,7 +4,7 @@ Description: FillY plots display the vertical range between two Y values at defi
 URL: /cookbook/5.0/FillY
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "FillY plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/FillY"]
-Date: 12/13/2023 2:24:04 PM
+Date: 2023-12-13
 Version: ScottPlot 5.0.10-beta
 ---
 

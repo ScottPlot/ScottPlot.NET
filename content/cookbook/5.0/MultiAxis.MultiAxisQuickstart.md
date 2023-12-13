@@ -4,7 +4,7 @@ Description: Additional axes may be added to plots. Plottables are displayed usi
 URL: /cookbook/5.0/MultiAxis/MultiAxisQuickstart
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Advanced Axis Features", "Multi-Axis"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/MultiAxis", "/cookbook/5.0/MultiAxis/MultiAxisQuickstart"]
-Date: 12/13/2023 2:24:04 PM
+Date: 2023-12-13
 Version: ScottPlot 5.0.10-beta
 ---
 

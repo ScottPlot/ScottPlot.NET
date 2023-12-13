@@ -4,7 +4,7 @@ Description: Candlestick charts use symbols to display price data. The rectangle
 URL: /cookbook/5.0/Finance/Candlestick
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Financial Plot", "Candlestick Chart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Finance", "/cookbook/5.0/Finance/Candlestick"]
-Date: 12/13/2023 2:24:04 PM
+Date: 2023-12-13
 Version: ScottPlot 5.0.10-beta
 ---
 

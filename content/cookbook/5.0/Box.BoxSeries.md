@@ -4,7 +4,7 @@ Description: Similarly to bar charts, box plots can be compared across multiple 
 URL: /cookbook/5.0/Box/BoxSeries
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Box Plot", "Box Plot Series"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Box", "/cookbook/5.0/Box/BoxSeries"]
-Date: 12/13/2023 2:24:04 PM
+Date: 2023-12-13
 Version: ScottPlot 5.0.10-beta
 ---
 

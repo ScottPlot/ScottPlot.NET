@@ -1,7 +1,7 @@
 ---
 Title: "Generic Data Type - ScottPlot 4.1 Cookbook"
 Description: "SignalConst supports other data types beyond just double arrays. You can use this plot type to display data in any numerical format that can be cast to a double."
-Date: 12/11/2023 8:13:10 PM
+Date: 2023-12-13
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/signalconst_generic/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "SignalConst", "Generic Data Type"]

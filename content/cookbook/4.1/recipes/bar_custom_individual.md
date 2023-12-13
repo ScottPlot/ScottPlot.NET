@@ -1,7 +1,7 @@
 ---
 Title: "Custom Individual Bars - ScottPlot 4.1 Cookbook"
 Description: "Extreme customization can be achieved by placing each bar manually and adjusting its styling properties individually."
-Date: 12/11/2023 8:13:09 PM
+Date: 2023-12-13
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/bar_custom_individual/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Bar Graph", "Custom Individual Bars"]

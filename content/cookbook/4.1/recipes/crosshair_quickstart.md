@@ -1,7 +1,7 @@
 ---
 Title: "Crosshair - ScottPlot 4.1 Cookbook"
 Description: "The Crosshair plot type draws vertical and horizontal lines that intersect at a point on the plot and the coordinates of those lines are displayed on top of the axis ticks. This plot type is typically updated after MouseMove events to track the mouse"
-Date: 12/11/2023 8:13:10 PM
+Date: 2023-12-13
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/crosshair_quickstart/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Crosshair", "Crosshair"]

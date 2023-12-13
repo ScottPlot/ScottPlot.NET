@@ -4,7 +4,7 @@ Description: Examples of common customizations for axis labels and ticks
 URL: /cookbook/5.0/AxisAndTicks
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Axis and Ticks"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AxisAndTicks"]
-Date: 12/13/2023 2:24:04 PM
+Date: 2023-12-13
 Version: ScottPlot 5.0.10-beta
 ---
 

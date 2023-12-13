@@ -4,7 +4,7 @@ Description: Tick generators determine where ticks are to be placed and also con
 URL: /cookbook/5.0/CustomizingTicks/AltTickGen
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Customizing Ticks", "Custom Tick Generators"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/CustomizingTicks", "/cookbook/5.0/CustomizingTicks/AltTickGen"]
-Date: 12/13/2023 2:24:04 PM
+Date: 2023-12-13
 Version: ScottPlot 5.0.10-beta
 ---
 

@@ -1,7 +1,7 @@
 ---
 Title: "Draggable Scatter Plot - ScottPlot 4.1 Cookbook"
 Description: "Want to modify the scatter points interactively? A ScatterPlotDraggable lets you move the points around with the mouse. As you move the points around, the values in the original arrays change to reflect their new positions."
-Date: 12/11/2023 8:13:10 PM
+Date: 2023-12-13
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/scatter_draggable_vertical/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Scatter Plot", "Draggable Scatter Plot"]

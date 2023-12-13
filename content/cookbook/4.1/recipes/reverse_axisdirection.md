@@ -1,7 +1,7 @@
 ---
 Title: "Reverse Axis Direction - ScottPlot 4.1 Cookbook"
 Description: "Plot data on reversed axis. And all points plotted match the reverse coordinate axis."
-Date: 12/11/2023 8:13:09 PM
+Date: 2023-12-13
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/reverse_axisdirection/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Advanced Axis Features", "Reverse Axis Direction"]

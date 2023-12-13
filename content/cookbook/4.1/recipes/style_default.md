@@ -1,7 +1,7 @@
 ---
 Title: "Default Plot Style - ScottPlot 4.1 Cookbook"
 Description: "This example demonstrates the default plot style."
-Date: 12/11/2023 8:13:09 PM
+Date: 2023-12-13
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/style_default/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Style", "Default Plot Style"]

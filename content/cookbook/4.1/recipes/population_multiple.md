@@ -1,7 +1,7 @@
 ---
 Title: "Multiple Populations - ScottPlot 4.1 Cookbook"
 Description: "Multiple populations can be assembled into an array and plotted as a single group."
-Date: 12/11/2023 8:13:10 PM
+Date: 2023-12-13
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/population_multiple/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Population", "Multiple Populations"]

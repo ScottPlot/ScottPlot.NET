@@ -4,7 +4,7 @@ Description: Fit a line to a collection of X/Y data points.
 URL: /cookbook/5.0/Regression/Linear
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Regression", "LinearRegression"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Regression", "/cookbook/5.0/Regression/Linear"]
-Date: 12/13/2023 2:24:04 PM
+Date: 2023-12-13
 Version: ScottPlot 5.0.10-beta
 ---
 

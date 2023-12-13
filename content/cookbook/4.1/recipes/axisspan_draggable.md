@@ -1,7 +1,7 @@
 ---
 Title: "Draggable Axis Span - ScottPlot 4.1 Cookbook"
 Description: "Axis spans can be dragged using the mouse. Drag limits are boundaries over which the edges of spans cannot cross."
-Date: 12/11/2023 8:13:09 PM
+Date: 2023-12-13
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/axisspan_draggable/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Axis Line and Span", "Draggable Axis Span"]

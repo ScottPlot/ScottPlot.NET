@@ -1,7 +1,7 @@
 ---
 Title: "Manually add a Plottable - ScottPlot 4.1 Cookbook"
 Description: "You can create a plot manually, then add it to the plot with Add(). This allows you to create custom plot types and add them to the plot."
-Date: 12/11/2023 8:13:09 PM
+Date: 2023-12-13
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/quickstart_add/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Quickstart", "Manually add a Plottable"]

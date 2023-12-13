@@ -1,7 +1,7 @@
 ---
 Title: "Circle Quickstart - ScottPlot 4.1 Cookbook"
 Description: "Circles can be added to plots. Circles are really Ellipses with the same X and Y radius. Note that circles appear as ellipses unless the plot has a square coordinate system."
-Date: 12/11/2023 8:13:10 PM
+Date: 2023-12-13
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/circle_quickstart/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Ellipse", "Circle Quickstart"]

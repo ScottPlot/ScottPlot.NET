@@ -4,7 +4,7 @@ Description: Statistical operations to fit lines to data
 URL: /cookbook/5.0/Regression
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Regression"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Regression"]
-Date: 12/13/2023 2:24:04 PM
+Date: 2023-12-13
 Version: ScottPlot 5.0.10-beta
 ---
 

@@ -4,7 +4,7 @@ Description: Grid lines can be customized. Custom grid systems can be created to
 URL: /cookbook/5.0/Styling/GridCustom
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Styling Plots", "Grid Customization"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Styling", "/cookbook/5.0/Styling/GridCustom"]
-Date: 12/13/2023 2:24:04 PM
+Date: 2023-12-13
 Version: ScottPlot 5.0.10-beta
 ---
 

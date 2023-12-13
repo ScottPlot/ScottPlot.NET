@@ -1,7 +1,7 @@
 ---
 Title: "SignalConst Step Mode - ScottPlot 4.1 Cookbook"
 Description: "Data points can be connected with steps (instead of straight lines)."
-Date: 12/11/2023 8:13:10 PM
+Date: 2023-12-13
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/signalxyconst_step/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "SignalXY", "SignalConst Step Mode"]

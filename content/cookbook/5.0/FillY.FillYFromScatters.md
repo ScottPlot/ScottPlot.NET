@@ -4,7 +4,7 @@ Description: FillY plots can be created from two scatter plots that share the sa
 URL: /cookbook/5.0/FillY/FillYFromScatters
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "FillY plot", "FillY From Scatter Plots"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/FillY", "/cookbook/5.0/FillY/FillYFromScatters"]
-Date: 12/13/2023 2:24:04 PM
+Date: 2023-12-13
 Version: ScottPlot 5.0.10-beta
 ---
 

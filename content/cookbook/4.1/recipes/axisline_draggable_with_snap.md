@@ -1,7 +1,7 @@
 ---
 Title: "Draggable With Snapping - ScottPlot 4.1 Cookbook"
 Description: "Draggables can be configured to snap to the nearest integer or to a user-defined list of Positions out of the box."
-Date: 12/11/2023 8:13:09 PM
+Date: 2023-12-13
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/axisline_draggable_with_snap/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Axis Line and Span", "Draggable With Snapping"]
