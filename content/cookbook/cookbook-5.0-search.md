@@ -10,6 +10,11 @@ jsFiles: ["https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.
 ---
 
 <div id="div-search">
-Loading...
+    <div class="text-center">
+        <h3 class="mt-5">Loading...</h3>
+        <div class="spinner-border mt-2 mb-5" role="status" style="color: #67217a; width: 2.5rem; height: 2.5rem;">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
 </div>
 

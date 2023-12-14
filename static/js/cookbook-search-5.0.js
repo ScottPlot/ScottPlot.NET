@@ -1,7 +1,8 @@
-console.log("Loading Cookbook Search 5.0");
+// TODO: use a data attribute or dataset on the modal for this
+let matchingRecipeClassNames = ""; // CSV list of recipes currently listed in the modal
 
 /* return a search modal and special div that can show search results */
-function GetSearchElement() {
+function GetSearchHtml() {
     return `
     <style>
     #search-input-wrapper input {
@@ -73,8 +74,7 @@ function GetSearchElement() {
     `;
 }
 
-/* given a set of recipes and the name of a category, return a div 
-   suitable to display in the modal containing only recipes in that category */
+/* returns a div to display inside the search modal for recipes matching the category */
 function GetSearchResultsCategoryDiv(recipes, category) {
     const categoryRecipes = recipes.filter(x => x.category == category);
     const listGroup = document.createElement("div");
@@ -88,24 +88,30 @@ function GetSearchResultsCategoryDiv(recipes, category) {
     return div;
 }
 
+/* returns a div to display on the page for a given recipe */
 function GetRecipeDiv(recipe) {
     const div = document.createElement("div");
     const sourceHtml = recipe.source.replace("<", "&lt;").replace(">", "&gt;");
     div.innerHTML = `
         <div class='border m-4 rounded shadow-sm mb-5'>
         <h1 class='px-3 pt-0 mt-2 border-0'>${recipe.name}</h1>
-        <div class='ps-3'>${recipe.description}</div>
-        <div class='ps-3'>Category: <a href='${recipe.anchorUrl.split("#")[0]}'>${recipe.category}</a></div>
+        <div class='ps-3 mb-3'>${recipe.description}</div>
+        <div class='ps-3'>Category: <a href='${recipe.categoryUrl}'>${recipe.category}</a></div>
         <div class='ps-3'>Permalink: <a href='${recipe.recipeUrl}'>${recipe.name}</a></div>
+        <div class='ps-3'>Source File: <a href='${recipe.sourceUrl}' target='_blank'>${recipe.categoryClassName}.cs</a></div>
         <img src="${recipe.imageUrl}" class="p-3">
         <pre class='m-0 p-0'><code class="language-csharp">${sourceHtml}</code></pre>
         </div>`;
     return div;
 }
 
-/* display only the given collection of recipes in the search modal */
+/* update the search modal results to display only the given recipes */
 function UpdateSearchResults(recipes) {
-    searchRecipeIDs = recipes.map(x => x.recipeClassName).join(","); // update global csv list so all can be added later
+
+    // update global csv list so all can be added later
+    matchingRecipeClassNames = recipes.map(x => x.recipeClassName).join(",");
+
+    // update content of the modal to display the given recipes
     const categories = new Set(recipes.map(x => x.category));
     const div = document.getElementById("div-search-results");
     div.innerHTML = "";
@@ -113,11 +119,13 @@ function UpdateSearchResults(recipes) {
         const divCategoryResults = GetSearchResultsCategoryDiv(recipes, category);
         div.appendChild(divCategoryResults);
     });
+
+    // update the "show all" button based on these new results
     const showAllButton = document.getElementById("button-show-all");
     showAllButton.innerText = `Show All (${recipes.length})`;
 }
 
-/* show a csv list of recipe IDs (class names) on the page */
+/* display full recipes on the page described by the CSV list of class names */
 function ShowRecipes(recipeClassNames) {
     const el = document.getElementById("div-recipes-full");
     el.innerHTML = "";
@@ -136,74 +144,45 @@ function StringContains(needle, haystack) {
     return haystack.indexOf(needle) != -1;
 }
 
-/* show every recipe in the CSV list defined by searchRecipeIDs */
+/* Activated with the "show all" button is clicked, display all recipes currently listed in the modal. */
 function ShowAll() {
-    ShowRecipes(searchRecipeIDs);
+    ShowRecipes(matchingRecipeClassNames);
 }
-
-// GLOBALS
-let searchRecipeIDs = ""; // holds CSV list of recipe names (className) to display in the modal
-
-// STARTUP
-const divSearch = document.getElementById("div-search");
-divSearch.innerHTML = GetSearchElement();
-
-fetch("/cookbook/5.0/recipes.json", { cache: "no-store" })
-    .then(response => response.json())
-    .then(data => {
-        globalRecipes = data.recipes;
-        UpdateSearchResults(globalRecipes);
-    });
 
 /* returns true if the recipe contains the given term */
 function RecipeContains(recipe, needle) {
     return StringContains(needle, recipe.name) || StringContains(needle, recipe.description);
 }
 
-/* focus on the input box when the modal is launched */
-const myModal = document.getElementById('exampleModal');
-myModal.addEventListener('shown.bs.modal', () => { document.getElementById("input-recipe-search").focus(); })
-
-/* update the list of matching recipes in the modal as the user types in the input box */
-const searchInput = document.getElementById("input-recipe-search");
-searchInput.oninput = () => {
-    const searchTerm = searchInput.value;
+/* invoked any time the user types in the search input box in the modal */
+function ShowRecipesInModalMatching(searchTerm) {
     const recipes = searchTerm == ""
         ? globalRecipes
         : globalRecipes.filter(x => RecipeContains(x, searchTerm));
     UpdateSearchResults(recipes);
-};
+}
 
+/* Run after the page loads to add the modal to the page and wire-up events */
+function SetupSearchElements() {
 
+    // replace the loading spinner with the search button and modal
+    document.getElementById("div-search").innerHTML = GetSearchHtml();
 
+    // pre-populate the modal with every recipe since no search term is present
+    UpdateSearchResults(globalRecipes);
 
+    /* focus on the input box when the modal is launched */
+    const myModal = document.getElementById('exampleModal');
+    myModal.addEventListener('shown.bs.modal', () => { document.getElementById("input-recipe-search").focus(); })
 
+    /* update the list of matching recipes in the modal as the user types in the input box */
+    const searchInput = document.getElementById("input-recipe-search");
+    searchInput.oninput = () => ShowRecipesInModalMatching(searchInput.value);
+}
 
-
-
-
-
-////////////////////////////////////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-/*
-/// GETTING RECIPES
-
-/// SEARCH MODAL
-
-
-
-/// DISPLAYING RECIPES
-
-
-
-
-
-/// STARTUP
-
-
-
-*/
+fetch("/cookbook/5.0/recipes.json", { cache: "no-store" })
+    .then(response => response.json())
+    .then(data => {
+        globalRecipes = data.recipes;
+        SetupSearchElements();
+    });
