@@ -21,10 +21,12 @@
 
         <div class="col-sm text-center py-3" style="opacity: .3;">
             <div>
-                <a href="https://github.com/scottplot/scottplot.net/blob/main/content/{{ path.Clean .File.Path }}"
+                {{ with .File }}
+                <a href="https://github.com/scottplot/scottplot.net/blob/main/content/{{ path.Clean .Path }}"
                     class="text-dark">
                     Edit on GitHub
                 </a>
+                {{ end }}
             </div>
             <div>
                 <a href="/sitemap.xml" class="text-dark">Sitemap</a>
