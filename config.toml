@@ -1,6 +1,6 @@
 baseURL = 'https://ScottPlot.NET'
 enableInlineShortcodes = true
-disableKinds = ["taxonomy", "taxonomyTerm", "RSS", "section"]
+disableKinds = ["taxonomy", "taxonomy", "RSS", "section"]
 
 [markup]
   [markup.goldmark]
