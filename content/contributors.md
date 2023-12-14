@@ -2,6 +2,7 @@
 Title: ScottPlot Contributors
 Description: Members of the open-source community who contributed to ScottPlot
 date: 2023-12-13
+url: /contributors/index.html
 ---
 
 # ScottPlot Contributors
