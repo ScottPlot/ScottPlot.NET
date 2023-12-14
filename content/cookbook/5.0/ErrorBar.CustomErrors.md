@@ -1,10 +1,10 @@
 ---
 Title: ErrorBar Values - ScottPlot 5.0 Cookbook
 Description: Error size can be set for all dimensions.
-URL: /cookbook/5.0/ErrorBar/CustomErrors
+URL: /cookbook/5.0/ErrorBar/CustomErrors/index.html
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Error Bars", "ErrorBar Values"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/ErrorBar", "/cookbook/5.0/ErrorBar/CustomErrors"]
-Date: 2023-12-13
+Date: 2023-12-14
 Version: ScottPlot 5.0.10-beta
 ---
 

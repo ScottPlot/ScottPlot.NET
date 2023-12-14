@@ -1,10 +1,10 @@
 ---
 Title: LinearRegression - ScottPlot 5.0 Cookbook
 Description: Fit a line to a collection of X/Y data points.
-URL: /cookbook/5.0/Regression/Linear
+URL: /cookbook/5.0/Regression/Linear/index.html
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Regression", "LinearRegression"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Regression", "/cookbook/5.0/Regression/Linear"]
-Date: 2023-12-13
+Date: 2023-12-14
 Version: ScottPlot 5.0.10-beta
 ---
 

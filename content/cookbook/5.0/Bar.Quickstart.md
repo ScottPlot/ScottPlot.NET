@@ -1,10 +1,10 @@
 ---
 Title: Bar Plot Quickstart - ScottPlot 5.0 Cookbook
 Description: Bar plots can be added from a series of values.
-URL: /cookbook/5.0/Bar/Quickstart
+URL: /cookbook/5.0/Bar/Quickstart/index.html
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Bar Plot", "Bar Plot Quickstart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Bar", "/cookbook/5.0/Bar/Quickstart"]
-Date: 2023-12-13
+Date: 2023-12-14
 Version: ScottPlot 5.0.10-beta
 ---
 

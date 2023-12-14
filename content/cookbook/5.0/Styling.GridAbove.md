@@ -1,10 +1,10 @@
 ---
 Title: Grid Above Data - ScottPlot 5.0 Cookbook
 Description: Grid lines are typically drawn beneath data, but grids can be configured to render on top of plottables too.
-URL: /cookbook/5.0/Styling/GridAbove
+URL: /cookbook/5.0/Styling/GridAbove/index.html
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Styling Plots", "Grid Above Data"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Styling", "/cookbook/5.0/Styling/GridAbove"]
-Date: 2023-12-13
+Date: 2023-12-14
 Version: ScottPlot 5.0.10-beta
 ---
 

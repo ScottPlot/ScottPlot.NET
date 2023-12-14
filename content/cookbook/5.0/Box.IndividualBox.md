@@ -1,10 +1,10 @@
 ---
 Title: Individual Box Plots - ScottPlot 5.0 Cookbook
 Description: One can easily create a box plot with only a single box.
-URL: /cookbook/5.0/Box/IndividualBox
+URL: /cookbook/5.0/Box/IndividualBox/index.html
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Box Plot", "Individual Box Plots"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Box", "/cookbook/5.0/Box/IndividualBox"]
-Date: 2023-12-13
+Date: 2023-12-14
 Version: ScottPlot 5.0.10-beta
 ---
 

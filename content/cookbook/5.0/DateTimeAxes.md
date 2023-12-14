@@ -1,10 +1,10 @@
 ---
 Title: DateTime Axes - ScottPlot 5.0 Cookbook
 Description: Plot data values on a DataTime axes
-URL: /cookbook/5.0/DateTimeAxes
+URL: /cookbook/5.0/DateTimeAxes/index.html
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "DateTime Axes"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/DateTimeAxes"]
-Date: 2023-12-13
+Date: 2023-12-14
 Version: ScottPlot 5.0.10-beta
 ---
 

@@ -1,10 +1,10 @@
 ---
 Title: Multi-Axis - ScottPlot 5.0 Cookbook
 Description: Additional axes may be added to plots. Plottables are displayed using the coordinate system of the primary axes by default, but any plottable can be displayed using any X and Y axis.
-URL: /cookbook/5.0/MultiAxis/MultiAxisQuickstart
+URL: /cookbook/5.0/MultiAxis/MultiAxisQuickstart/index.html
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Advanced Axis Features", "Multi-Axis"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/MultiAxis", "/cookbook/5.0/MultiAxis/MultiAxisQuickstart"]
-Date: 2023-12-13
+Date: 2023-12-14
 Version: ScottPlot 5.0.10-beta
 ---
 

@@ -1,10 +1,10 @@
 ---
 Title: Polygon Plot Styling - ScottPlot 5.0 Cookbook
 Description: Polygon plots can be fully customized.
-URL: /cookbook/5.0/Polygon/PolygonStyling
+URL: /cookbook/5.0/Polygon/PolygonStyling/index.html
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Polygon Plot", "Polygon Plot Styling"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Polygon", "/cookbook/5.0/Polygon/PolygonStyling"]
-Date: 2023-12-13
+Date: 2023-12-14
 Version: ScottPlot 5.0.10-beta
 ---
 

@@ -1,10 +1,10 @@
 ---
 Title: Custom Tick Generators - ScottPlot 5.0 Cookbook
 Description: Tick generators determine where ticks are to be placed and also contain logic for generating tick labels from tick positions. Alternative tick generators can be created and assigned to axes. Some common tick generators are provided with ScottPlot, and users also have the option create their own.
-URL: /cookbook/5.0/CustomizingTicks/AltTickGen
+URL: /cookbook/5.0/CustomizingTicks/AltTickGen/index.html
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Customizing Ticks", "Custom Tick Generators"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/CustomizingTicks", "/cookbook/5.0/CustomizingTicks/AltTickGen"]
-Date: 2023-12-13
+Date: 2023-12-14
 Version: ScottPlot 5.0.10-beta
 ---
 

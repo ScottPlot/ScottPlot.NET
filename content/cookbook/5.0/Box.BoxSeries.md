@@ -1,10 +1,10 @@
 ---
 Title: Box Plot Series - ScottPlot 5.0 Cookbook
 Description: Similarly to bar charts, box plots can be compared across multiple categories.
-URL: /cookbook/5.0/Box/BoxSeries
+URL: /cookbook/5.0/Box/BoxSeries/index.html
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Box Plot", "Box Plot Series"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Box", "/cookbook/5.0/Box/BoxSeries"]
-Date: 2023-12-13
+Date: 2023-12-14
 Version: ScottPlot 5.0.10-beta
 ---
 

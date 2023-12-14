@@ -1,10 +1,10 @@
 ---
 Title: FillY with Custom Type - ScottPlot 5.0 Cookbook
 Description: FillY plots can be created from data of any type if a conversion function is supplied.
-URL: /cookbook/5.0/FillY/Function
+URL: /cookbook/5.0/FillY/Function/index.html
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "FillY plot", "FillY with Custom Type"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/FillY", "/cookbook/5.0/FillY/Function"]
-Date: 2023-12-13
+Date: 2023-12-14
 Version: ScottPlot 5.0.10-beta
 ---
 

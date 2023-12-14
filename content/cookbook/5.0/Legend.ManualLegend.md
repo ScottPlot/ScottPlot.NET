@@ -1,10 +1,10 @@
 ---
 Title: Manual Legend - ScottPlot 5.0 Cookbook
 Description: Legends may be constructed manually.
-URL: /cookbook/5.0/Legend/ManualLegend
+URL: /cookbook/5.0/Legend/ManualLegend/index.html
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Configuring Legends", "Manual Legend"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Legend", "/cookbook/5.0/Legend/ManualLegend"]
-Date: 2023-12-13
+Date: 2023-12-14
 Version: ScottPlot 5.0.10-beta
 ---
 

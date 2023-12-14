@@ -1,10 +1,10 @@
 ---
 Title: Grid Customization - ScottPlot 5.0 Cookbook
 Description: Grid lines can be customized. Custom grid systems can be created to give developers full control of grid rendering, but the default grid can be interacted with to customize its appearance.
-URL: /cookbook/5.0/Styling/GridCustom
+URL: /cookbook/5.0/Styling/GridCustom/index.html
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Styling Plots", "Grid Customization"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Styling", "/cookbook/5.0/Styling/GridCustom"]
-Date: 2023-12-13
+Date: 2023-12-14
 Version: ScottPlot 5.0.10-beta
 ---
 

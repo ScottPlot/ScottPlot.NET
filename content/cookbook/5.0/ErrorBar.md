@@ -1,10 +1,10 @@
 ---
 Title: Error Bars - ScottPlot 5.0 Cookbook
 Description: Error Bars communicate the range of possible values for a measurement
-URL: /cookbook/5.0/ErrorBar
+URL: /cookbook/5.0/ErrorBar/index.html
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Error Bars"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/ErrorBar"]
-Date: 2023-12-13
+Date: 2023-12-14
 Version: ScottPlot 5.0.10-beta
 ---
 

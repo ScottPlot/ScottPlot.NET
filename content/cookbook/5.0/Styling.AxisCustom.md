@@ -1,10 +1,10 @@
 ---
 Title: Axis Customization - ScottPlot 5.0 Cookbook
 Description: Axis labels, tick marks, and frame can all be customized.
-URL: /cookbook/5.0/Styling/AxisCustom
+URL: /cookbook/5.0/Styling/AxisCustom/index.html
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Styling Plots", "Axis Customization"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Styling", "/cookbook/5.0/Styling/AxisCustom"]
-Date: 2023-12-13
+Date: 2023-12-14
 Version: ScottPlot 5.0.10-beta
 ---
 

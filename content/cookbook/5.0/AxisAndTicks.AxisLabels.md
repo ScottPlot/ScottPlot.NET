@@ -1,10 +1,10 @@
 ---
 Title: Adding Axis Labels - ScottPlot 5.0 Cookbook
 Description: Axis labels are the text labels centered on each axis. The text inside these labels can be changed, and the style of the text can be extensively customized.
-URL: /cookbook/5.0/AxisAndTicks/AxisLabels
+URL: /cookbook/5.0/AxisAndTicks/AxisLabels/index.html
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Axis and Ticks", "Adding Axis Labels"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AxisAndTicks", "/cookbook/5.0/AxisAndTicks/AxisLabels"]
-Date: 2023-12-13
+Date: 2023-12-14
 Version: ScottPlot 5.0.10-beta
 ---
 

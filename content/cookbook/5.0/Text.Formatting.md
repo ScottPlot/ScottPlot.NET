@@ -1,10 +1,10 @@
 ---
 Title: Text Formatting - ScottPlot 5.0 Cookbook
 Description: Text formatting can be extensively customized.
-URL: /cookbook/5.0/Text/Formatting
+URL: /cookbook/5.0/Text/Formatting/index.html
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Text", "Text Formatting"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Text", "/cookbook/5.0/Text/Formatting"]
-Date: 2023-12-13
+Date: 2023-12-14
 Version: ScottPlot 5.0.10-beta
 ---
 

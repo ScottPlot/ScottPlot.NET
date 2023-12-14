@@ -1,10 +1,10 @@
 ---
 Title: Financial Plot - ScottPlot 5.0 Cookbook
 Description: Finance plots display price data binned into time ranges
-URL: /cookbook/5.0/Finance
+URL: /cookbook/5.0/Finance/index.html
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Financial Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Finance"]
-Date: 2023-12-13
+Date: 2023-12-14
 Version: ScottPlot 5.0.10-beta
 ---
 

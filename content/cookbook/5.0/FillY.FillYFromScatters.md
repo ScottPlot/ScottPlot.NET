@@ -1,10 +1,10 @@
 ---
 Title: FillY From Scatter Plots - ScottPlot 5.0 Cookbook
 Description: FillY plots can be created from two scatter plots that share the same X values.
-URL: /cookbook/5.0/FillY/FillYFromScatters
+URL: /cookbook/5.0/FillY/FillYFromScatters/index.html
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "FillY plot", "FillY From Scatter Plots"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/FillY", "/cookbook/5.0/FillY/FillYFromScatters"]
-Date: 2023-12-13
+Date: 2023-12-14
 Version: ScottPlot 5.0.10-beta
 ---
 

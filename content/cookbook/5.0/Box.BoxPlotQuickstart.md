@@ -1,10 +1,10 @@
 ---
 Title: Box Plot Quickstart - ScottPlot 5.0 Cookbook
 Description: Box plots can be added from a series of values.
-URL: /cookbook/5.0/Box/BoxPlotQuickstart
+URL: /cookbook/5.0/Box/BoxPlotQuickstart/index.html
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Box Plot", "Box Plot Quickstart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Box", "/cookbook/5.0/Box/BoxPlotQuickstart"]
-Date: 2023-12-13
+Date: 2023-12-14
 Version: ScottPlot 5.0.10-beta
 ---
 

@@ -1,10 +1,10 @@
 ---
 Title: Styling Plots - ScottPlot 5.0 Cookbook
 Description: How to customize plots
-URL: /cookbook/5.0/Styling
+URL: /cookbook/5.0/Styling/index.html
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Styling Plots"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Styling"]
-Date: 2023-12-13
+Date: 2023-12-14
 Version: ScottPlot 5.0.10-beta
 ---
 

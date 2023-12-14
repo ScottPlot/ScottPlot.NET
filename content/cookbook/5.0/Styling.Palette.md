@@ -1,10 +1,10 @@
 ---
 Title: Palettes - ScottPlot 5.0 Cookbook
 Description: A palette is a set of colors, and the Plot's palette defines the default colors to use when adding new plottables. ScottPlot comes with many standard palettes, but users may also create their own.
-URL: /cookbook/5.0/Styling/Palette
+URL: /cookbook/5.0/Styling/Palette/index.html
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Styling Plots", "Palettes"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Styling", "/cookbook/5.0/Styling/Palette"]
-Date: 2023-12-13
+Date: 2023-12-14
 Version: ScottPlot 5.0.10-beta
 ---
 

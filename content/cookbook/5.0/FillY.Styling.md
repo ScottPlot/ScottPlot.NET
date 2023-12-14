@@ -1,10 +1,10 @@
 ---
 Title: FillY Plot Styling - ScottPlot 5.0 Cookbook
 Description: FillY plots can be customized using public properties.
-URL: /cookbook/5.0/FillY/Styling
+URL: /cookbook/5.0/FillY/Styling/index.html
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "FillY plot", "FillY Plot Styling"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/FillY", "/cookbook/5.0/FillY/Styling"]
-Date: 2023-12-13
+Date: 2023-12-14
 Version: ScottPlot 5.0.10-beta
 ---
 
