@@ -1,7 +1,7 @@
 ---
 Title: ScottPlot
 Description: Interactive Plotting Library for .NET
-url: /index.html
+url: /
 date: 2021-09-06
 lastmod: 2022-03-29
 ---
