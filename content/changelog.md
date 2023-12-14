@@ -2,6 +2,7 @@
 Title: ScottPlot Changelog
 Description: Release notes for every version of ScottPlot
 date: 2023-12-13
+url: /changelog/index.html
 ---
 
 # ScottPlot Changelog
