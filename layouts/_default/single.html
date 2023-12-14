@@ -1,7 +1,5 @@
 {{ define "main" }}
 
-{{ partial "post-warnings.html" . }}
-
 <article class="my-0">
     <div class="p-2">
         {{ .Content | replaceRE "(<h[1-9] id=\"([^\"]+)\".+)(</h[1-9]+>)"
