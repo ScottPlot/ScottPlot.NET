@@ -1,6 +1,3 @@
-// TODO: use a data attribute or dataset on the modal for this
-let matchingRecipeClassNames = ""; // CSV list of recipes currently listed in the modal
-
 /* return a search modal and special div that can show search results */
 function GetSearchHtml() {
     return `
@@ -40,6 +37,9 @@ function GetSearchHtml() {
         <div class="modal-dialog modal-lg modal-dialog-scrollable">
             <div class="modal-content bg-light">
     
+                <!-- CSV list of all recipe IDs currently displayed -->
+                <span style="display: none;" id="matchingRecipeIDs"></span>
+
                 <!-- search input -->
                 <div class="modal-header">
                     <div class="d-flex align-items-center w-100">
@@ -109,7 +109,8 @@ function GetRecipeDiv(recipe) {
 function UpdateSearchResults(recipes) {
 
     // update global csv list so all can be added later
-    matchingRecipeClassNames = recipes.map(x => x.recipeClassName).join(",");
+    const matchingCsv = recipes.map(x => x.recipeClassName).join(",");
+    document.getElementById("matchingRecipeIDs").innerText = matchingCsv;
 
     // update content of the modal to display the given recipes
     const categories = new Set(recipes.map(x => x.category));
@@ -146,7 +147,8 @@ function StringContains(needle, haystack) {
 
 /* Activated with the "show all" button is clicked, display all recipes currently listed in the modal. */
 function ShowAll() {
-    ShowRecipes(matchingRecipeClassNames);
+    const matchingCsv = document.getElementById("matchingRecipeIDs").innerText;
+    ShowRecipes(matchingCsv);
 }
 
 /* returns true if the recipe contains the given term */
