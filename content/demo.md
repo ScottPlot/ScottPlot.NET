@@ -10,7 +10,7 @@ date: 2023-12-13
 **The ScottPlot Demo is a click-to-run application designed to make it easy to assess the capabilities of ScottPlot.** The demo application displays all [Cookbook](../cookbook) recipes and also demonstrate advanced user control features like mouse tracking, live data, and linked plots. 
 
 <div class='text-center m-4'>
-<img src='scottplot-demo.png' width='70%'>
+<img src='/images/scottplot-demo.png' width='70%'>
 </div>
 
 ## Download
