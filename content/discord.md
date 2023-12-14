@@ -19,7 +19,7 @@ All are welcome! 🚀
 <a href='https://discord.gg/Dru6fnY2UX'>https://discord.gg/Dru6fnY2UX</a>
 </div>
 
-<a href='https://discord.gg/Dru6fnY2UX'><img src="discord.jpg" class="d-block mx-auto"></a>
+<a href='https://discord.gg/Dru6fnY2UX'><img src="/images/discord.jpg" class="d-block mx-auto"></a>
 
 </div>
 
