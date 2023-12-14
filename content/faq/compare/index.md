@@ -1,6 +1,7 @@
 ---
 Title: ScottPlot vs. Similar Libraries - ScottPlot FAQ
 Description: Similarities and differences of ScottPlot vs. other popular .NET plotting libraries
+date: 2023-12-13
 ---
 
 ## ScottPlot Philosophy

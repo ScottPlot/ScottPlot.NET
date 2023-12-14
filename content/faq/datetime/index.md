@@ -1,6 +1,7 @@
 ---
 title: DateTime Axis - ScottPlot FAQ
 description: How to plot data on a DateTime axis
+date: 2023-12-13
 ---
 
 # How to plot data on a DateTime axis

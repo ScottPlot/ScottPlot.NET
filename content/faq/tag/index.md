@@ -1,6 +1,7 @@
 ---
 title: Tagging - ScottPlot FAQ
 description: How to pair plottables with custom objects
+date: 2023-12-13
 ---
 
 # Tagging Plottables with Custom Objects

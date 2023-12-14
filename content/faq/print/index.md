@@ -1,6 +1,7 @@
 ---
 title: Printing with ScottPlot - ScottPlot FAQ
 description: How to print a plot using ScottPlot
+date: 2023-12-13
 ---
 
 # Printing with ScottPlot

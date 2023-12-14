@@ -1,6 +1,7 @@
 ---
 Title: How to Plot Data with Gaps - ScottPlot FAQ
 Description: How to use ScottPlot to display data containing gaps
+date: 2023-12-13
 ---
 
 # How to Plot Data with Gaps

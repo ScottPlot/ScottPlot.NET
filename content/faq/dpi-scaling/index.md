@@ -1,6 +1,7 @@
 ---
 title: Display Scaling - ScottPlot FAQ
 description: How to configure ScottPlot when DPI scaling is used
+date: 2023-12-13
 ---
 
 # Display Scaling

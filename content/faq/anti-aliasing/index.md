@@ -1,6 +1,7 @@
 ---
 title: Anti-Aliasing - ScottPlot FAQ
 description: How to configure anti-aliasing settings in ScottPlot
+date: 2023-12-13
 ---
 
 # Anti-Aliasing

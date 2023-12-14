@@ -2,6 +2,7 @@
 Title: Visual Basic Quickstart
 Description: How to plot data using ScottPlot in a VB.NET application
 url: "quickstart/vb"
+date: 2023-12-13
 ---
 
 # Visual Basic Quickstart

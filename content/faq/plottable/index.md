@@ -1,6 +1,7 @@
 ---
 title: Plottable Objects - ScottPlot FAQ
 description: How to create plottable objects, add them to plots, and interact with their data and styling
+date: 2023-12-13
 ---
 
 # Working with Plottable Objects

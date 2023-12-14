@@ -1,6 +1,7 @@
 ---
 title: MultiPlot - ScottPlot FAQ
 description: How to create multi-plot figures with ScottPlot
+date: 2023-12-13
 ---
 
 # MultiPlot

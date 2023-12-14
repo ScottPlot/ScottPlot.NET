@@ -1,6 +1,7 @@
 ---
 title: Linux Font Issues - ScottPlot FAQ
 description: Commonly encountered issues related to font rendering on Linux and MacOS
+date: 2023-12-13
 ---
 
 # Font Issues on Linux

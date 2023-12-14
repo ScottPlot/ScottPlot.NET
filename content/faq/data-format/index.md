@@ -1,6 +1,7 @@
 ---
 Title: ScottPlot Data Formats - ScottPlot FAQ
 Description: Why does ScottPlot prefer double[]? Can other data types be used?
+date: 2023-12-13
 ---
 
 # ScottPlot Data Formats

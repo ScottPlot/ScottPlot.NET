@@ -1,6 +1,7 @@
 ---
 title: What's New in ScottPlot 4.1
 description: Notable changes between ScottPlot 4.0 and 4.1
+date: 2023-12-13
 ---
 
 # What's New in ScottPlot 4.1

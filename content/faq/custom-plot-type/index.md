@@ -1,6 +1,7 @@
 ---
 Title: How to Create Custom Plot Types - ScottPlot FAQ
 Description: By creating a class that implements IPlottable, users can create custom plot types and have full control over styling and data management.
+date: 2023-12-13
 ---
 
 # How to Create Custom Plot Types

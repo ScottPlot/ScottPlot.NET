@@ -1,6 +1,7 @@
 ---
 Title: MVVM and Data Binding - ScottPlot FAQ
 Description: ScottPlot in the context of Model–View–ViewModel (MVVM) and Data Binding Patterns
+date: 2023-12-13
 ---
 
 # MVVM and Data Binding

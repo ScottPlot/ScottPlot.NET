@@ -1,6 +1,7 @@
 ---
 title: ScottPlot, NaN, and Infinity - ScottPlot FAQ
 description: How does ScottPlot treat data arrays containing NaN and Infinity?
+date: 2023-12-13
 ---
 
 # Plotting Data Containing NaN and Infinity

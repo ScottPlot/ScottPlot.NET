@@ -1,6 +1,7 @@
 ---
 title: Add ScottPlot WinForms Control Programmatically
 description: How to create and place an interactive ScottPlot control in a Form without using the Visual Studio designer
+date: 2023-12-13
 ---
 
 # Add ScottPlot WinForms Control Programmatically

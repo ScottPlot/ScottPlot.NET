@@ -1,6 +1,7 @@
 ---
 title: ScatterPlot vs SignalPlot - ScottPlot FAQ
 description: Scatter and signal plots are the most commonly used plot types, so ensure you understand the pros and cons of each
+date: 2023-12-13
 ---
 
 # Signal Plots are More Performant than Scatter Plots

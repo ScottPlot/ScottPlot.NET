@@ -1,6 +1,7 @@
 ---
 title: Plot Live, Changing Data - ScottPlot FAQ
 description: Different strategies for displaying live data that changes continuously
+date: 2023-12-13
 ---
 
 # How to Plot Realtime Data

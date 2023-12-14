@@ -2,6 +2,7 @@
 Title: ScottPlot Versions
 Description: Information about the major ScottPlot versions
 url: "versions"
+date: 2023-12-13
 ---
 
 # ScottPlot Versions

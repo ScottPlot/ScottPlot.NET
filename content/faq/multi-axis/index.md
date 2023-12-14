@@ -1,6 +1,7 @@
 ---
 Title: Multi-Axis Plots - ScottPlot FAQ
 Description: How to create plots with multiple axes
+date: 2023-12-13
 ---
 
 # Multi-Axis Plots

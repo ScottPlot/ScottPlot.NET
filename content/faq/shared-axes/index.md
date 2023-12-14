@@ -1,6 +1,7 @@
 ---
 title: Shared Axes - ScottPlot FAQ
 description: How to have two user controls with shared axes so when one pans, the other pans automatically
+date: 2023-12-13
 ---
 
 # Multiple Plot Controls with Shared Axes

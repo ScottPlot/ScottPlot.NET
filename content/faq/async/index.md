@@ -1,6 +1,7 @@
 ---
 title: Multi-Threaded/Async - ScottPlot FAQ
 description: How to use ScottPlot to display data in multi-threaded/async environments
+date: 2023-12-13
 ---
 
 # Async and Multithreading Considerations

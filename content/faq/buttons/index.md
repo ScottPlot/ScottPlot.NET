@@ -1,6 +1,7 @@
 ---
 Title: Mouse Button Behavior - ScottPlot FAQ
 Description: How to customize actions of the left, right, or middle mouse buttons in interactive ScottPlot controls
+date: 2023-12-13
 ---
 
 # Mouse Button Behavior

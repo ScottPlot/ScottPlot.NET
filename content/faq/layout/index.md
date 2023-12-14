@@ -1,6 +1,7 @@
 ---
 title: Layout Mechanics and Customization - ScottPlot FAQ
 description: Advanced configuration for the data area, axes, figure padding, etc.
+date: 2023-12-13
 ---
 
 # Advanced Layout Customization

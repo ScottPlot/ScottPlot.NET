@@ -1,6 +1,7 @@
 ---
 title: Axes and Axis Limits - ScottPlot FAQ
 description: Axis Styles, axis limits, and multiple axes in ScottPlot
+date: 2023-12-13
 ---
 
 # Axes and Axis Limits

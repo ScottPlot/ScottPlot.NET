@@ -1,6 +1,7 @@
 ---
 title: Reproducible Code Examples
 description: Recommendations for preparing executable code samples that can facilitate resolving issues or answering questions.
+date: 2023-12-13
 ---
 
 # How to Create Reproducible Code Examples

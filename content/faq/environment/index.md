@@ -1,6 +1,7 @@
 ---
 title: Development Environment Setup - ScottPlot FAQ
 description: How to Build ScottPlot from Source Code using Visual Studio
+date: 2023-12-13
 ---
 
 # ScottPlot Development Environment

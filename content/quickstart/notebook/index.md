@@ -2,6 +2,7 @@
 Title: Plot Data in .NET Interactive Notebooks
 description: How to use ScottPlot to visualize data in .NET Polyglot notebooks
 url: "quickstart/notebook"
+date: 2023-12-13
 ---
 
 # .NET Interactive Notebook Quickstart

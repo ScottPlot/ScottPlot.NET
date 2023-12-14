@@ -1,6 +1,7 @@
 ---
 title: ScottPlot dependencies - ScottPlot FAQ
 description: ScottPlot's Dependencies and their Implications
+date: 2023-12-13
 ---
 
 # ScottPlot Dependencies

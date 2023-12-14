@@ -1,6 +1,7 @@
 ---
 Title: User Control Advanced Configuration - ScottPlot FAQ
 Description: Interact with the control configuration object to achieve advanced customizations of user control style and behavior
+date: 2023-12-13
 ---
 
 # User Control Advanced Configuration

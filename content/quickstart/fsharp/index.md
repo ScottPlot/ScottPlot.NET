@@ -2,6 +2,7 @@
 Title: F# Quickstart
 description: How to plot data using ScottPlot in a F# .NET application
 url: "quickstart/fsharp"
+date: 2023-12-13
 ---
 
 # F# Quickstart

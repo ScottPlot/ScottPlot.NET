@@ -1,6 +1,7 @@
 ---
 Title: Financial Charting - ScottPlot FAQ
 Description: How to plot candlesticks and volume indicators in separate plot controls such that they move together when panned and zoomed
+date: 2023-12-13
 ---
 
 # Financial Charting
