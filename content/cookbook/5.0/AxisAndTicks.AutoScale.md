@@ -6,6 +6,8 @@ BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Axis and Ticks", "Zoom to Fit Data"
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AxisAndTicks", "/cookbook/5.0/AxisAndTicks/AutoScale"]
 Date: 2023-12-14
 Version: ScottPlot 5.0.10-beta
+Version: ScottPlot 5.0.10-beta
+SearchUrl: "/cookbook/5.0/search/"
 ---
 
 # Zoom to Fit Data

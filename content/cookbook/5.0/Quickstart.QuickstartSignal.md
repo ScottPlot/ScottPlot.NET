@@ -6,6 +6,8 @@ BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "ScottPlot 5 Quickstart", "Signal Pl
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Quickstart", "/cookbook/5.0/Quickstart/QuickstartSignal"]
 Date: 2023-12-14
 Version: ScottPlot 5.0.10-beta
+Version: ScottPlot 5.0.10-beta
+SearchUrl: "/cookbook/5.0/search/"
 ---
 
 # Signal Plot

@@ -6,6 +6,8 @@ BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Styling Plots", "Scaling"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Styling", "/cookbook/5.0/Styling/Scaling"]
 Date: 2023-12-14
 Version: ScottPlot 5.0.10-beta
+Version: ScottPlot 5.0.10-beta
+SearchUrl: "/cookbook/5.0/search/"
 ---
 
 # Scaling

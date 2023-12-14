@@ -6,6 +6,8 @@ BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Configuring Legends", "Manual Legen
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Legend", "/cookbook/5.0/Legend/ManualLegend"]
 Date: 2023-12-14
 Version: ScottPlot 5.0.10-beta
+Version: ScottPlot 5.0.10-beta
+SearchUrl: "/cookbook/5.0/search/"
 ---
 
 # Manual Legend

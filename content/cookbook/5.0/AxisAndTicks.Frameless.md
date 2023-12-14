@@ -6,6 +6,8 @@ BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Axis and Ticks", "Frameless Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AxisAndTicks", "/cookbook/5.0/AxisAndTicks/Frameless"]
 Date: 2023-12-14
 Version: ScottPlot 5.0.10-beta
+Version: ScottPlot 5.0.10-beta
+SearchUrl: "/cookbook/5.0/search/"
 ---
 
 # Frameless Plot

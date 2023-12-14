@@ -6,6 +6,8 @@ BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "DateTime Axes", "DateTime Axis Quic
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/DateTimeAxes", "/cookbook/5.0/DateTimeAxes/DateTimeAxisQuickstart"]
 Date: 2023-12-14
 Version: ScottPlot 5.0.10-beta
+Version: ScottPlot 5.0.10-beta
+SearchUrl: "/cookbook/5.0/search/"
 ---
 
 # DateTime Axis Quickstart
