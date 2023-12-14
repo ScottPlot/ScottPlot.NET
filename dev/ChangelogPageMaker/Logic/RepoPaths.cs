@@ -6,9 +6,9 @@ internal static class RepoPaths
 
     public readonly static string ContributorImageFolder = RepoPath("static/images/contributors");
 
-    public readonly static string ContributorsPageMarkdown = RepoPath("content/contributors/index.md");
+    public readonly static string ContributorsPageMarkdown = RepoPath("content/contributors.md");
 
-    public readonly static string ChangelogPageMarkdown = RepoPath("content/changelog/index.md");
+    public readonly static string ChangelogPageMarkdown = RepoPath("content/changelog.md");
 
     private static string RepoPath(string subfolder = "")
     {
