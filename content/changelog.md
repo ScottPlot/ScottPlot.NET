@@ -39,14 +39,17 @@ Release notes for every version of ScottPlot
 </li>
 <li>Cookbook: Rewrote reflection and source file parsing for simplified querying (<a href="https://github.com/ScottPlot/ScottPlot/issues/3081">#3081</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3080">#3080</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3079">#3079</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2962">#2962</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2755">#2755</a>)
 </li>
+<li>Function: Added a new line plot type where Y position is a user defined function (<a href="https://github.com/ScottPlot/ScottPlot/issues/3094">#3094</a>) <em><a href="https://github.com/bclehmann">@bclehmann</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/arthurits'>arthurits</a>, <a href='https://github.com/swharden'>swharden</a>
+<a href='https://github.com/arthurits'>arthurits</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/arthurits'><img src='https://scottplot.net/images/contributors/arthurits.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
