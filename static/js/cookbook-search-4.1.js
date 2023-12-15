@@ -91,7 +91,7 @@ function GetSearchResultsCategoryDiv(recipes, category) {
 /* returns a div to display on the page for a given recipe */
 function GetRecipeDiv(recipe) {
     const div = document.createElement("div");
-    const sourceHtml = recipe.code.replace("<", "&lt;").replace(">", "&gt;");
+    const sourceHtml = recipe.code.replaceAll("<", "&lt;").replaceAll(">", "&gt;");
     div.innerHTML = `
         <div class='border m-4 rounded shadow-sm mb-5'>
         <h1 class='px-3 pt-0 mt-2 border-0'>${recipe.title}</h1>
