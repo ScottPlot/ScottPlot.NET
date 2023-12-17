@@ -55,17 +55,22 @@ Release notes for every version of ScottPlot
 </li>
 <li>Marker Plot: <code>Plot.AddMarker()</code> can now be used to place a single marker on the plot (<a href="https://github.com/ScottPlot/ScottPlot/issues/3076">#3076</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2806">#2806</a>) <em>Thanks <a href="https://github.com/Gray-lab">@Gray-lab</a></em>
 </li>
+<li>Rendering: Fixed issue where disabling a plottable's visibility prevented rendering of subsequent plottables (<a href="https://github.com/ScottPlot/ScottPlot/issues/3097">#3097</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3089">#3089</a>) <em>Thanks <a href="https://github.com/KroMignon">@KroMignon</a></em>
+</li>
+<li>SVG: Improved rendering of shadows by adding slight color to semitransparent black (<a href="https://github.com/ScottPlot/ScottPlot/issues/3098">#3098</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3063">#3063</a>) <em>Thanks <a href="https://github.com/KroMignon">@KroMignon</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/arthurits'>arthurits</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/albyoo'>albyoo</a>, <a href='https://github.com/Gray-lab'>Gray-lab</a>, <a href='https://github.com/swharden'>swharden</a>
+<a href='https://github.com/arthurits'>arthurits</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/albyoo'>albyoo</a>, <a href='https://github.com/Gray-lab'>Gray-lab</a>, <a href='https://github.com/KroMignon'>KroMignon</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/arthurits'><img src='https://scottplot.net/images/contributors/arthurits.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/albyoo'><img src='https://scottplot.net/images/contributors/albyoo.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Gray-lab'><img src='https://scottplot.net/images/contributors/gray-lab.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/KroMignon'><img src='https://scottplot.net/images/contributors/kromignon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
@@ -77,15 +82,18 @@ Release notes for every version of ScottPlot
 <ul>
 <li>Population Plot: Improved performance for populations with curves that run off the screen (<a href="https://github.com/ScottPlot/ScottPlot/issues/3054">#3054</a>) <em>Thanks <a href="https://github.com/Em3a-c">@Em3a-c</a> and <a href="https://github.com/cornford">@cornford</a></em>
 </li>
+<li>Performance: Improved performance of Bar and Finance plots by not drawing shapes outside the data area (<a href="https://github.com/ScottPlot/ScottPlot/issues/3053">#3053</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3078">#3078</a>) <em>Thanks <a href="https://github.com/AndreyPalyutin">@AndreyPalyutin</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/Em3a-c'>Em3a-c</a>, <a href='https://github.com/cornford'>cornford</a>, <a href='https://github.com/swharden'>swharden</a>
+<a href='https://github.com/Em3a-c'>Em3a-c</a>, <a href='https://github.com/cornford'>cornford</a>, <a href='https://github.com/AndreyPalyutin'>AndreyPalyutin</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/Em3a-c'><img src='https://scottplot.net/images/contributors/em3a-c.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/cornford'><img src='https://scottplot.net/images/contributors/cornford.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/AndreyPalyutin'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
