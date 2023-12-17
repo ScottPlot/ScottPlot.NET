@@ -43,6 +43,8 @@ Release notes for every version of ScottPlot
 </li>
 <li>Axes: Improved axis label alignment for secondary axes (<a href="https://github.com/ScottPlot/ScottPlot/issues/3030">#3030</a>) <em>Thanks <a href="https://github.com/albyoo">@albyoo</a></em>
 </li>
+<li>Statistics: Added generic overloads to <code>Statistics.Descriptive</code> class, renamed <code>StDev()</code> to <code>StandardDeviation()</code>, and added methods for calculating both sample and population statistics (<a href="https://github.com/ScottPlot/ScottPlot/issues/3071">#3071</a> and <a href="https://github.com/ScottPlot/ScottPlot/issues/3055">#3055</a>) <em>Thanks <a href="https://github.com/arthurits">@arthurits</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
@@ -52,7 +54,7 @@ Release notes for every version of ScottPlot
 <div class='text-center'>
 <a href='https://github.com/arthurits'><img src='https://scottplot.net/images/contributors/arthurits.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/albyoo'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/albyoo'><img src='https://scottplot.net/images/contributors/albyoo.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
