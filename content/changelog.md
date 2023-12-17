@@ -47,6 +47,14 @@ Release notes for every version of ScottPlot
 </li>
 <li>Markers: Added a <code>None</code> marker (<a href="https://github.com/ScottPlot/ScottPlot/issues/3075">#3075</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3057">#3057</a>) <em>Thanks <a href="https://github.com/Gray-lab">@Gray-lab</a></em>
 </li>
+<li>Generate: Added methods for generating random marker shapes and colors
+</li>
+<li>Generate: <code>Random()</code> is deprecated in favor of <code>RandomSample()</code>
+</li>
+<li>Plot: Added <code>ShowLegend()</code> and <code>HideLegend()</code> helper methods which set <code>Plot.Legend.IsVisible</code>
+</li>
+<li>Marker Plot: <code>Plot.AddMarker()</code> can now be used to place a single marker on the plot (<a href="https://github.com/ScottPlot/ScottPlot/issues/3076">#3076</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2806">#2806</a>) <em>Thanks <a href="https://github.com/Gray-lab">@Gray-lab</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
