@@ -36,6 +36,10 @@ Members of the open-source community who contributed to ScottPlot
 <div><a href='https://github.com/KroMignon'>@KroMignon</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
+<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/bukkideme.jpg' height='125' width='125'/></a></div>
+<div><a href='https://github.com/bukkideme'>@bukkideme</a></div>
+</div>
+<div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/em3a-c.png' height='125' width='125'/></a></div>
 <div><a href='https://github.com/Em3a-c'>@Em3a-c</a></div>
 </div>
@@ -44,7 +48,7 @@ Members of the open-source community who contributed to ScottPlot
 <div><a href='https://github.com/cornford'>@cornford</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
-<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/brand/favicon.png' height='125' width='125'/></a></div>
+<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/andreypalyutin.png' height='125' width='125'/></a></div>
 <div><a href='https://github.com/AndreyPalyutin'>@AndreyPalyutin</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
@@ -150,10 +154,6 @@ Members of the open-source community who contributed to ScottPlot
 <div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/nightfog-git.png' height='125' width='125'/></a></div>
 <div><a href='https://github.com/nightfog-git'>@nightfog-git</a></div>
-</div>
-<div class='bg-light border rounded text-center mx-3 my-2'>
-<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/bukkideme.jpg' height='125' width='125'/></a></div>
-<div><a href='https://github.com/bukkideme'>@bukkideme</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/taya92413.png' height='125' width='125'/></a></div>

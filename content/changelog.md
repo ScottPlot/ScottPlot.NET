@@ -59,11 +59,15 @@ Release notes for every version of ScottPlot
 </li>
 <li>SVG: Improved rendering of shadows by adding slight color to semitransparent black (<a href="https://github.com/ScottPlot/ScottPlot/issues/3098">#3098</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3063">#3063</a>) <em>Thanks <a href="https://github.com/KroMignon">@KroMignon</a></em>
 </li>
+<li>Colormap: Added a <code>Reversed()</code> method for creating colormaps with reversed color order (<a href="https://github.com/ScottPlot/ScottPlot/issues/3100">#3100</a>) <em>Thanks <a href="https://github.com/bukkideme">@bukkideme</a></em>
+</li>
+<li>Version: Added <code>ShouldBe()</code> method to assert the version of ScottPlot matches the expected one (<a href="https://github.com/ScottPlot/ScottPlot/issues/3093">#3093</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/arthurits'>arthurits</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/albyoo'>albyoo</a>, <a href='https://github.com/Gray-lab'>Gray-lab</a>, <a href='https://github.com/KroMignon'>KroMignon</a>, <a href='https://github.com/swharden'>swharden</a>
+<a href='https://github.com/arthurits'>arthurits</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/albyoo'>albyoo</a>, <a href='https://github.com/Gray-lab'>Gray-lab</a>, <a href='https://github.com/KroMignon'>KroMignon</a>, <a href='https://github.com/bukkideme'>bukkideme</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/arthurits'><img src='https://scottplot.net/images/contributors/arthurits.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -71,6 +75,7 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/albyoo'><img src='https://scottplot.net/images/contributors/albyoo.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Gray-lab'><img src='https://scottplot.net/images/contributors/gray-lab.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/KroMignon'><img src='https://scottplot.net/images/contributors/kromignon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/bukkideme'><img src='https://scottplot.net/images/contributors/bukkideme.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
@@ -84,16 +89,21 @@ Release notes for every version of ScottPlot
 </li>
 <li>Performance: Improved performance of Bar and Finance plots by not drawing shapes outside the data area (<a href="https://github.com/ScottPlot/ScottPlot/issues/3053">#3053</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3078">#3078</a>) <em>Thanks <a href="https://github.com/AndreyPalyutin">@AndreyPalyutin</a></em>
 </li>
+<li>Colormap: Added a <code>Reversed()</code> method for creating colormaps with reversed color order (<a href="https://github.com/ScottPlot/ScottPlot/issues/3100">#3100</a>) <em>Thanks <a href="https://github.com/bukkideme">@bukkideme</a></em>
+</li>
+<li>Version: Added <code>ShouldBe()</code> method to assert the version of ScottPlot matches the expected one (<a href="https://github.com/ScottPlot/ScottPlot/issues/3093">#3093</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/Em3a-c'>Em3a-c</a>, <a href='https://github.com/cornford'>cornford</a>, <a href='https://github.com/AndreyPalyutin'>AndreyPalyutin</a>, <a href='https://github.com/swharden'>swharden</a>
+<a href='https://github.com/Em3a-c'>Em3a-c</a>, <a href='https://github.com/cornford'>cornford</a>, <a href='https://github.com/AndreyPalyutin'>AndreyPalyutin</a>, <a href='https://github.com/bukkideme'>bukkideme</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/Em3a-c'><img src='https://scottplot.net/images/contributors/em3a-c.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/cornford'><img src='https://scottplot.net/images/contributors/cornford.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/AndreyPalyutin'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/AndreyPalyutin'><img src='https://scottplot.net/images/contributors/andreypalyutin.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/bukkideme'><img src='https://scottplot.net/images/contributors/bukkideme.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
