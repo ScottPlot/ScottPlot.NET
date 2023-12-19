@@ -63,6 +63,8 @@ Release notes for every version of ScottPlot
 </li>
 <li>Version: Added <code>ShouldBe()</code> method to assert the version of ScottPlot matches the expected one (<a href="https://github.com/ScottPlot/ScottPlot/issues/3093">#3093</a>)
 </li>
+<li>Ticks: <code>TickGenerators.NumericManual</code> now has <code>AddMajor()</code> and <code>AddMinor()</code> to simplify manual tick placement (<a href="https://github.com/ScottPlot/ScottPlot/issues/3105">#3105</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2957">#2957</a>) <em>Thanks Lake</em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
