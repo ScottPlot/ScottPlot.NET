@@ -180,6 +180,10 @@ function SetupSearchElements() {
     /* update the list of matching recipes in the modal as the user types in the input box */
     const searchInput = document.getElementById("input-recipe-search");
     searchInput.oninput = () => ShowRecipesInModalMatching(searchInput.value);
+    
+    /* launch the modal */
+    const myModal2 = new bootstrap.Modal(myModal, {});
+    myModal2.show();
 }
 
 fetch("/cookbook/5.0/recipes.json", { cache: "no-store" })
