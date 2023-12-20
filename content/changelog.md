@@ -65,11 +65,13 @@ Release notes for every version of ScottPlot
 </li>
 <li>Ticks: <code>TickGenerators.NumericManual</code> now has <code>AddMajor()</code> and <code>AddMinor()</code> to simplify manual tick placement (<a href="https://github.com/ScottPlot/ScottPlot/issues/3105">#3105</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2957">#2957</a>) <em>Thanks Lake</em>
 </li>
+<li>Legend: Added <code>Plot.GetLegendImage()</code> and <code>Plot.GetLegendSvg()</code> for displaying legends outside plots (<a href="https://github.com/ScottPlot/ScottPlot/issues/3062">#3062</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2934">#2934</a>) <em>Thanks <a href="https://github.com/KroMignon">@KroMignon</a>, <a href="https://github.com/lichen95">@lichen95</a>, and <a href="https://github.com/bclehmann">@bclehmann</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/arthurits'>arthurits</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/albyoo'>albyoo</a>, <a href='https://github.com/Gray-lab'>Gray-lab</a>, <a href='https://github.com/KroMignon'>KroMignon</a>, <a href='https://github.com/bukkideme'>bukkideme</a>, <a href='https://github.com/swharden'>swharden</a>
+<a href='https://github.com/arthurits'>arthurits</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/albyoo'>albyoo</a>, <a href='https://github.com/Gray-lab'>Gray-lab</a>, <a href='https://github.com/KroMignon'>KroMignon</a>, <a href='https://github.com/bukkideme'>bukkideme</a>, <a href='https://github.com/lichen95'>lichen95</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/arthurits'><img src='https://scottplot.net/images/contributors/arthurits.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -78,6 +80,7 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/Gray-lab'><img src='https://scottplot.net/images/contributors/gray-lab.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/KroMignon'><img src='https://scottplot.net/images/contributors/kromignon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/bukkideme'><img src='https://scottplot.net/images/contributors/bukkideme.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/lichen95'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
@@ -108,7 +111,7 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/cornford'><img src='https://scottplot.net/images/contributors/cornford.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/AndreyPalyutin'><img src='https://scottplot.net/images/contributors/andreypalyutin.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/bukkideme'><img src='https://scottplot.net/images/contributors/bukkideme.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/SerhiiMahera'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/SerhiiMahera'><img src='https://scottplot.net/images/contributors/serhiimahera.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
