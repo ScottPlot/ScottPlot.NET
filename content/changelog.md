@@ -95,17 +95,20 @@ Release notes for every version of ScottPlot
 </li>
 <li>Version: Added <code>ShouldBe()</code> method to assert the version of ScottPlot matches the expected one (<a href="https://github.com/ScottPlot/ScottPlot/issues/3093">#3093</a>)
 </li>
+<li>Marker: Added support for <code>Marker.horizontalBar</code> to compliment <code>verticalBar</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/3101">#3101</a>) <em>Thanks <a href="https://github.com/SerhiiMahera">@SerhiiMahera</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/Em3a-c'>Em3a-c</a>, <a href='https://github.com/cornford'>cornford</a>, <a href='https://github.com/AndreyPalyutin'>AndreyPalyutin</a>, <a href='https://github.com/bukkideme'>bukkideme</a>, <a href='https://github.com/swharden'>swharden</a>
+<a href='https://github.com/Em3a-c'>Em3a-c</a>, <a href='https://github.com/cornford'>cornford</a>, <a href='https://github.com/AndreyPalyutin'>AndreyPalyutin</a>, <a href='https://github.com/bukkideme'>bukkideme</a>, <a href='https://github.com/SerhiiMahera'>SerhiiMahera</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/Em3a-c'><img src='https://scottplot.net/images/contributors/em3a-c.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/cornford'><img src='https://scottplot.net/images/contributors/cornford.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/AndreyPalyutin'><img src='https://scottplot.net/images/contributors/andreypalyutin.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/bukkideme'><img src='https://scottplot.net/images/contributors/bukkideme.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/SerhiiMahera'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
