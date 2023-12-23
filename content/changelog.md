@@ -73,6 +73,10 @@ Release notes for every version of ScottPlot
 </li>
 <li>Signal: Improved appearance of signal plots where <code>YOffset</code> is used (<a href="https://github.com/ScottPlot/ScottPlot/issues/2949">#2949</a>) <em>Thanks <a href="https://github.com/minjjKang">@minjjKang</a></em>
 </li>
+<li>AxisLine: Improve rendering and simplify API by exposing common properties (<a href="https://github.com/ScottPlot/ScottPlot/issues/3060">#3060</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3056">#3056</a>)
+</li>
+<li>Legend: <code>Alignment</code> has been renamed to <code>Location</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/3059">#3059</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
