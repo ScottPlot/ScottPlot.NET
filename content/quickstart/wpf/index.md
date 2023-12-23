@@ -32,7 +32,6 @@ xmlns:ScottPlot="clr-namespace:ScottPlot.WPF;assembly=ScottPlot.WPF"
 
 double[] dataX = new double[] { 1, 2, 3, 4, 5 };
 double[] dataY = new double[] { 1, 4, 9, 16, 25 };
-
 WpfPlot1.Plot.AddScatter(dataX, dataY);
 WpfPlot1.Refresh();
 
@@ -40,10 +39,26 @@ WpfPlot1.Refresh();
 
 double[] dataX = { 1, 2, 3, 4, 5 };
 double[] dataY = { 1, 4, 9, 16, 25 };
-
 WpfPlot1.Plot.Add.Scatter(dataX, dataY);
 WpfPlot1.Refresh();
 
 {{< /code-sp4sp5 >}}
 
 ![](scottplot-quickstart-wpf.png)
+
+**Tip:** You may experience better startup behavior if you plot after the Window has loaded
+
+```cs
+public MainWindow()
+{
+    InitializeComponent();
+
+    Loaded += (s, e) =>
+    {
+        double[] dataX = { 1, 2, 3, 4, 5 };
+        double[] dataY = { 1, 4, 9, 16, 25 };
+        WpfPlot1.Plot.Add.Scatter(dataX, dataY);
+        WpfPlot1.Refresh();
+    };
+}
+```
