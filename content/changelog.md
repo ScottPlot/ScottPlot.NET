@@ -71,11 +71,13 @@ Release notes for every version of ScottPlot
 </li>
 <li>Controls: Added <code>IPlotInteraction</code> so users can inject their own <code>Interaction</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/3111">#3111</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3110">#3110</a>) <em>Thanks <a href="https://github.com/albyoo">@albyoo</a></em>
 </li>
+<li>Signal: Improved appearance of signal plots where <code>YOffset</code> is used (<a href="https://github.com/ScottPlot/ScottPlot/issues/2949">#2949</a>) <em>Thanks <a href="https://github.com/minjjKang">@minjjKang</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/arthurits'>arthurits</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/albyoo'>albyoo</a>, <a href='https://github.com/Gray-lab'>Gray-lab</a>, <a href='https://github.com/KroMignon'>KroMignon</a>, <a href='https://github.com/bukkideme'>bukkideme</a>, <a href='https://github.com/lichen95'>lichen95</a>, <a href='https://github.com/swharden'>swharden</a>
+<a href='https://github.com/arthurits'>arthurits</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/albyoo'>albyoo</a>, <a href='https://github.com/Gray-lab'>Gray-lab</a>, <a href='https://github.com/KroMignon'>KroMignon</a>, <a href='https://github.com/bukkideme'>bukkideme</a>, <a href='https://github.com/lichen95'>lichen95</a>, <a href='https://github.com/minjjKang'>minjjKang</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/arthurits'><img src='https://scottplot.net/images/contributors/arthurits.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -85,6 +87,7 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/KroMignon'><img src='https://scottplot.net/images/contributors/kromignon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/bukkideme'><img src='https://scottplot.net/images/contributors/bukkideme.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/lichen95'><img src='https://scottplot.net/images/contributors/lichen95.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/minjjKang'><img src='https://scottplot.net/images/contributors/minjjkang.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
