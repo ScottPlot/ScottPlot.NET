@@ -67,6 +67,10 @@ Release notes for every version of ScottPlot
 </li>
 <li>Legend: Added <code>Plot.GetLegendImage()</code> and <code>Plot.GetLegendSvg()</code> for displaying legends outside plots (<a href="https://github.com/ScottPlot/ScottPlot/issues/3062">#3062</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2934">#2934</a>) <em>Thanks <a href="https://github.com/KroMignon">@KroMignon</a>, <a href="https://github.com/lichen95">@lichen95</a>, and <a href="https://github.com/bclehmann">@bclehmann</a></em>
 </li>
+<li>Plot: Added new <code>Line</code> plot type for creating straight lines between two points (<a href="https://github.com/ScottPlot/ScottPlot/issues/2915">#2915</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3109">#3109</a>) <em>Thanks <a href="https://github.com/Gray-lab">@Gray-lab</a></em>
+</li>
+<li>Controls: Added <code>IPlotInteraction</code> so users can inject their own <code>Interaction</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/3111">#3111</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3110">#3110</a>) <em>Thanks <a href="https://github.com/albyoo">@albyoo</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
@@ -80,7 +84,7 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/Gray-lab'><img src='https://scottplot.net/images/contributors/gray-lab.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/KroMignon'><img src='https://scottplot.net/images/contributors/kromignon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/bukkideme'><img src='https://scottplot.net/images/contributors/bukkideme.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/lichen95'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/lichen95'><img src='https://scottplot.net/images/contributors/lichen95.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
