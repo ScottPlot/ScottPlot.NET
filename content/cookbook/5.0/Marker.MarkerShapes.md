@@ -1,7 +1,7 @@
 ---
 Title: Marker Shapes - ScottPlot 5.0 Cookbook
 Description: Many marker shapes are available.
-URL: /cookbook/5.0/Marker/MarkerShapes
+URL: /cookbook/5.0/Marker/MarkerShapes/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Marker", "Marker Shapes"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Marker", "/cookbook/5.0/Marker/MarkerShapes"]
 Date: 2023-12-24

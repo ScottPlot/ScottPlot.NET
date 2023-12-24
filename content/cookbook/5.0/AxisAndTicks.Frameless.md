@@ -1,7 +1,7 @@
 ---
 Title: Frameless Plot - ScottPlot 5.0 Cookbook
 Description: How to create a plot containig only the data area and no axes.
-URL: /cookbook/5.0/AxisAndTicks/Frameless
+URL: /cookbook/5.0/AxisAndTicks/Frameless/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Axis and Ticks", "Frameless Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AxisAndTicks", "/cookbook/5.0/AxisAndTicks/Frameless"]
 Date: 2023-12-24

@@ -1,7 +1,7 @@
 ---
 Title: Regression - ScottPlot 5.0 Cookbook
 Description: Statistical operations to fit lines to data
-URL: /cookbook/5.0/Regression
+URL: /cookbook/5.0/Regression/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Regression"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Regression"]
 Date: 2023-12-24

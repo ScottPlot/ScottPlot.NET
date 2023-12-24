@@ -1,7 +1,7 @@
 ---
 Title: Marker - ScottPlot 5.0 Cookbook
 Description: Markers can be placed on the plot in coordinate space.
-URL: /cookbook/5.0/Marker
+URL: /cookbook/5.0/Marker/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Marker"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Marker"]
 Date: 2023-12-24

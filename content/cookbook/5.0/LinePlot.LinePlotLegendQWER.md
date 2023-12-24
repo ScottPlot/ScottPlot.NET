@@ -1,7 +1,7 @@
 ---
 Title: Line Plot Legend 123 - ScottPlot 5.0 Cookbook
 Description: Line plots with labels appear in the legend.
-URL: /cookbook/5.0/LinePlot/LinePlotLegendQWER
+URL: /cookbook/5.0/LinePlot/LinePlotLegendQWER/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Line Plot", "Line Plot Legend 123"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/LinePlot", "/cookbook/5.0/LinePlot/LinePlotLegendQWER"]
 Date: 2023-12-24

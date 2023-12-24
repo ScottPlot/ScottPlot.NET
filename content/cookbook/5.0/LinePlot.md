@@ -1,7 +1,7 @@
 ---
 Title: Line Plot - ScottPlot 5.0 Cookbook
 Description: Line plots can be placed on the plot in coordinate space using a Start, End, and an optional LineStyle.
-URL: /cookbook/5.0/LinePlot
+URL: /cookbook/5.0/LinePlot/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Line Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/LinePlot"]
 Date: 2023-12-24

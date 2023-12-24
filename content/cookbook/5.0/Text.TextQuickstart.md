@@ -1,7 +1,7 @@
 ---
 Title: Text Quickstart - ScottPlot 5.0 Cookbook
 Description: Text can be placed anywhere in coordinate space.
-URL: /cookbook/5.0/Text/TextQuickstart
+URL: /cookbook/5.0/Text/TextQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Text", "Text Quickstart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Text", "/cookbook/5.0/Text/TextQuickstart"]
 Date: 2023-12-24

@@ -1,7 +1,7 @@
 ---
 Title: Polygon Plot Quickstart - ScottPlot 5.0 Cookbook
 Description: Polygon plots can be added from a series of vertices, and must be in clockwise order.
-URL: /cookbook/5.0/Polygon/PolygonQuickstart
+URL: /cookbook/5.0/Polygon/PolygonQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Polygon Plot", "Polygon Plot Quickstart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Polygon", "/cookbook/5.0/Polygon/PolygonQuickstart"]
 Date: 2023-12-24

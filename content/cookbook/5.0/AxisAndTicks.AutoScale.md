@@ -1,7 +1,7 @@
 ---
 Title: Zoom to Fit Data - ScottPlot 5.0 Cookbook
 Description: The axis limits can be automatically adjusted to fit the data. Optional arguments allow users to define the amount of whitespace around the edges of the data.
-URL: /cookbook/5.0/AxisAndTicks/AutoScale
+URL: /cookbook/5.0/AxisAndTicks/AutoScale/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Axis and Ticks", "Zoom to Fit Data"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AxisAndTicks", "/cookbook/5.0/AxisAndTicks/AutoScale"]
 Date: 2023-12-24

@@ -1,7 +1,7 @@
 ---
 Title: Bars with Error - ScottPlot 5.0 Cookbook
 Description: Bars can have errorbars.
-URL: /cookbook/5.0/Bar/BarWithError
+URL: /cookbook/5.0/Bar/BarWithError/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Bar Plot", "Bars with Error"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Bar", "/cookbook/5.0/Bar/BarWithError"]
 Date: 2023-12-24

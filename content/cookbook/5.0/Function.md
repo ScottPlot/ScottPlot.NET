@@ -1,7 +1,7 @@
 ---
 Title: Function - ScottPlot 5.0 Cookbook
 Description: Function plots are a type of line plot where Y positions are defined by a function that depends on X rather than a collection of discrete data points.
-URL: /cookbook/5.0/Function
+URL: /cookbook/5.0/Function/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Function"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Function"]
 Date: 2023-12-24

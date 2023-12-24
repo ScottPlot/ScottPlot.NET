@@ -1,7 +1,7 @@
 ---
 Title: DateTime Axis Quickstart - ScottPlot 5.0 Cookbook
 Description: Axis tick labels can be displayed using a time format.
-URL: /cookbook/5.0/DateTimeAxes/DateTimeAxisQuickstart
+URL: /cookbook/5.0/DateTimeAxes/DateTimeAxisQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "DateTime Axes", "DateTime Axis Quickstart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/DateTimeAxes", "/cookbook/5.0/DateTimeAxes/DateTimeAxisQuickstart"]
 Date: 2023-12-24

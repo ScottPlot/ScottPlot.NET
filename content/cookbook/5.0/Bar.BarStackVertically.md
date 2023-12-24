@@ -1,7 +1,7 @@
 ---
 Title: Stacked Bar Plot - ScottPlot 5.0 Cookbook
 Description: Bars can be positioned on top of each other.
-URL: /cookbook/5.0/Bar/BarStackVertically
+URL: /cookbook/5.0/Bar/BarStackVertically/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Bar Plot", "Stacked Bar Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Bar", "/cookbook/5.0/Bar/BarStackVertically"]
 Date: 2023-12-24

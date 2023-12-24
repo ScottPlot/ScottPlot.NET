@@ -1,7 +1,7 @@
 ---
 Title: Box Plot - ScottPlot 5.0 Cookbook
 Description: Box plots show a distribution at a glance
-URL: /cookbook/5.0/Box
+URL: /cookbook/5.0/Box/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Box Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Box"]
 Date: 2023-12-24

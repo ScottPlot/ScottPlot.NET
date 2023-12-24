@@ -1,7 +1,7 @@
 ---
 Title: Legend - ScottPlot 5.0 Cookbook
 Description: A legend displays plottables in a key along the edge of a plot. Most plottables have a Label property which configures what text appears in the legend.
-URL: /cookbook/5.0/Quickstart/Legend
+URL: /cookbook/5.0/Quickstart/Legend/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "ScottPlot 5 Quickstart", "Legend"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Quickstart", "/cookbook/5.0/Quickstart/Legend"]
 Date: 2023-12-24

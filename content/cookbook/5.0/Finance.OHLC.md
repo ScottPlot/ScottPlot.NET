@@ -1,7 +1,7 @@
 ---
 Title: OHLC Chart - ScottPlot 5.0 Cookbook
 Description: OHLC charts use symbols to display price data (open, high, low, and close) for specific time ranges.
-URL: /cookbook/5.0/Finance/OHLC
+URL: /cookbook/5.0/Finance/OHLC/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Financial Plot", "OHLC Chart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Finance", "/cookbook/5.0/Finance/OHLC"]
 Date: 2023-12-24

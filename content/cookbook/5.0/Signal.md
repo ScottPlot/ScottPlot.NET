@@ -1,7 +1,7 @@
 ---
 Title: Signal Plot - ScottPlot 5.0 Cookbook
 Description: Signal plots display evenly-spaced data
-URL: /cookbook/5.0/Signal
+URL: /cookbook/5.0/Signal/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Signal Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Signal"]
 Date: 2023-12-24

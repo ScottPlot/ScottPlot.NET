@@ -1,7 +1,7 @@
 ---
 Title: Customizing Plottables - ScottPlot 5.0 Cookbook
 Description: Functions that add things to plots return the plottables they create. Interact with the properties of plottables to customize their styling and behavior.
-URL: /cookbook/5.0/Quickstart/CustomizingPlottables
+URL: /cookbook/5.0/Quickstart/CustomizingPlottables/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "ScottPlot 5 Quickstart", "Customizing Plottables"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Quickstart", "/cookbook/5.0/Quickstart/CustomizingPlottables"]
 Date: 2023-12-24

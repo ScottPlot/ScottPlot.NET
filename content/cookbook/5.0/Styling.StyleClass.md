@@ -1,7 +1,7 @@
 ---
 Title: Style Helper Functions - ScottPlot 5.0 Cookbook
 Description: Plots contain many objects which can be customized individually by assigining to their public properties, but helper methods exist in the Plot's Style object that make it easier to customzie many items at once using a simpler API.
-URL: /cookbook/5.0/Styling/StyleClass
+URL: /cookbook/5.0/Styling/StyleClass/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Styling Plots", "Style Helper Functions"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Styling", "/cookbook/5.0/Styling/StyleClass"]
 Date: 2023-12-24

@@ -1,7 +1,7 @@
 ---
 Title: Custom Tick Positions - ScottPlot 5.0 Cookbook
 Description: Users can define ticks to be placed at specific locations.
-URL: /cookbook/5.0/CustomizingTicks/CustomTicks
+URL: /cookbook/5.0/CustomizingTicks/CustomTicks/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Customizing Ticks", "Custom Tick Positions"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/CustomizingTicks", "/cookbook/5.0/CustomizingTicks/CustomTicks"]
 Date: 2023-12-24

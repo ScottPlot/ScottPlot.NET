@@ -1,7 +1,7 @@
 ---
 Title: Line Plot Shapes - ScottPlot 5.0 Cookbook
 Description: Line plots can be styled using a LineStyle.
-URL: /cookbook/5.0/LinePlot/LinePlotStyles
+URL: /cookbook/5.0/LinePlot/LinePlotStyles/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Line Plot", "Line Plot Shapes"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/LinePlot", "/cookbook/5.0/LinePlot/LinePlotStyles"]
 Date: 2023-12-24
