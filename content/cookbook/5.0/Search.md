@@ -1,7 +1,7 @@
 ---
 title: Cookbook Search - ScottPlot 5.0
 description: Search all cookbook recipes for ScottPlot version 5.0
-url: /cookbook/5.0/search
+url: /cookbook/5.0/search/
 type: single
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Search"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/search/"]
