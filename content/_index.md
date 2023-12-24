@@ -53,7 +53,7 @@ The [**ScottPlot Cookbook**](cookbook/4.1/) demonstrates how to create line plot
 The [**ScottPlot Demo**](demo) is a click-to-run application that provides mouse-interactive versions of every cookbook recipe and demonstrates how to perform advanced interactive customizations.
 
 <a href='demo'>
-  <img src='demo/scottplot-demo.png' class="d-block mx-auto my-5 w-75" />
+  <img src='/images/scottplot-demo.png' class="d-block mx-auto my-5 w-75" />
 </a>
 
 ## Plot in the Cloud
