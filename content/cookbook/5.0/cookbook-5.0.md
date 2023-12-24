@@ -1,12 +1,12 @@
 ---
 Title: ScottPlot 5.0 Cookbook
 Description: Example plots shown next to the code used to create them
-URL: /cookbook/5.0//index.html
+URL: /cookbook/5.0/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook"]
 BreadcrumbUrls: ["/cookbook/5.0/"]
-Date: 2023-12-14
-Version: ScottPlot 5.0.10-beta
-Version: ScottPlot 5.0.10-beta
+Date: 2023-12-24
+Version: ScottPlot 5.0.11-beta
+Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"
 ---
 
@@ -14,7 +14,7 @@ SearchUrl: "/cookbook/5.0/search/"
 
 
 
-<div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.10-beta is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
+<div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.11-beta is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
 
 
 <h1>Quickstart</h1>
@@ -237,6 +237,15 @@ SearchUrl: "/cookbook/5.0/search/"
 <div>Tick generators determine where ticks are to be placed and also contain logic for generating tick labels from tick positions. Alternative tick generators can be created and assigned to axes. Some common tick generators are provided with ScottPlot, and users also have the option create their own.</div>
 </div>
 </div>
+<div class='row my-4'>
+<div class='col'>
+<a href='/cookbook/5.0/CustomizingTicks/CustomTicks'><img class='img-fluid' src='/cookbook/5.0/images/CustomTicks.png' /></a>
+</div>
+<div class='col'>
+<div><a href='/cookbook/5.0/CustomizingTicks/CustomTicks'><b>Custom Tick Positions</b></a></div>
+<div>Users can define ticks to be placed at specific locations.</div>
+</div>
+</div>
 <h2 class=''><a href='/cookbook/5.0/DateTimeAxes' class='text-dark'>DateTime Axes</a></h2>
 <div>Plot data values on a DataTime axes</div>
 <div class='row my-4'>
@@ -324,34 +333,16 @@ SearchUrl: "/cookbook/5.0/search/"
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Box/BoxPlotQuickstart'><b>Box Plot Quickstart</b></a></div>
-<div>Box plots can be added from a series of values.</div>
+<div>Box plots can be created individually and added to the plot.</div>
 </div>
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Box/IndividualBox'><img class='img-fluid' src='/cookbook/5.0/images/IndividualBox.png' /></a>
+<a href='/cookbook/5.0/Box/BoxPlotGroups'><img class='img-fluid' src='/cookbook/5.0/images/BoxPlotGroups.png' /></a>
 </div>
 <div class='col'>
-<div><a href='/cookbook/5.0/Box/IndividualBox'><b>Individual Box Plots</b></a></div>
-<div>One can easily create a box plot with only a single box.</div>
-</div>
-</div>
-<div class='row my-4'>
-<div class='col'>
-<a href='/cookbook/5.0/Box/HorizontalBox'><img class='img-fluid' src='/cookbook/5.0/images/HorizontalBox.png' /></a>
-</div>
-<div class='col'>
-<div><a href='/cookbook/5.0/Box/HorizontalBox'><b>Horizontal Box Plots</b></a></div>
-<div>Box plots can be oriented horizontally, similarly to bar plots.</div>
-</div>
-</div>
-<div class='row my-4'>
-<div class='col'>
-<a href='/cookbook/5.0/Box/BoxSeries'><img class='img-fluid' src='/cookbook/5.0/images/BoxSeries.png' /></a>
-</div>
-<div class='col'>
-<div><a href='/cookbook/5.0/Box/BoxSeries'><b>Box Plot Series</b></a></div>
-<div>Similarly to bar charts, box plots can be compared across multiple categories.</div>
+<div><a href='/cookbook/5.0/Box/BoxPlotGroups'><b>Box Plot Groups</b></a></div>
+<div>Each collection of boxes added to the plot gets styled the same and appears as a single item in the legend. Add multiple bar series plots with defined X positions to give the appearance of grouped data.</div>
 </div>
 </div>
 <h2 class=''><a href='/cookbook/5.0/ErrorBar' class='text-dark'>Error Bars</a></h2>
@@ -430,6 +421,95 @@ SearchUrl: "/cookbook/5.0/search/"
 <div class='col'>
 <div><a href='/cookbook/5.0/Finance/Candlestick'><b>Candlestick Chart</b></a></div>
 <div>Candlestick charts use symbols to display price data. The rectangle indicates open and close prices, and the center line indicates minimum and maximum price for the given time period. Color indicates whether the price increased or decreased between open and close.</div>
+</div>
+</div>
+<h2 class=''><a href='/cookbook/5.0/Function' class='text-dark'>Function</a></h2>
+<div>Function plots are a type of line plot where Y positions are defined by a function that depends on X rather than a collection of discrete data points.</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='/cookbook/5.0/Function/FunctionQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/FunctionQuickstart.png' /></a>
+</div>
+<div class='col'>
+<div><a href='/cookbook/5.0/Function/FunctionQuickstart'><b>Function Quickstart</b></a></div>
+<div>Create a function plot from a formula.</div>
+</div>
+</div>
+<h2 class=''><a href='/cookbook/5.0/Heatmap' class='text-dark'>Heatmap</a></h2>
+<div>Heatmaps display values from 2D data as an image with cells of different intensities</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='/cookbook/5.0/Heatmap/HeatmapQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/HeatmapQuickstart.png' /></a>
+</div>
+<div class='col'>
+<div><a href='/cookbook/5.0/Heatmap/HeatmapQuickstart'><b>Heatmap Quickstart</b></a></div>
+<div>Heatmaps can be created from 2D arrays</div>
+</div>
+</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='/cookbook/5.0/Heatmap/HeatmapInverted'><img class='img-fluid' src='/cookbook/5.0/images/HeatmapInverted.png' /></a>
+</div>
+<div class='col'>
+<div><a href='/cookbook/5.0/Heatmap/HeatmapInverted'><b>Inverted Heatmap</b></a></div>
+<div>Heatmaps can be inverted by reversing the order of colors in the colormap</div>
+</div>
+</div>
+<h2 class=''><a href='/cookbook/5.0/LinePlot' class='text-dark'>Line Plot</a></h2>
+<div>Line plots can be placed on the plot in coordinate space using a Start, End, and an optional LineStyle.</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='/cookbook/5.0/LinePlot/LineQuickStart'><img class='img-fluid' src='/cookbook/5.0/images/LineQuickStart.png' /></a>
+</div>
+<div class='col'>
+<div><a href='/cookbook/5.0/LinePlot/LineQuickStart'><b>Line Plot Quickstart</b></a></div>
+<div>Line plots are placed with a start and end location in coordinate space. Their styles can be customized.</div>
+</div>
+</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='/cookbook/5.0/LinePlot/LinePlotStyles'><img class='img-fluid' src='/cookbook/5.0/images/LinePlotStyles.png' /></a>
+</div>
+<div class='col'>
+<div><a href='/cookbook/5.0/LinePlot/LinePlotStyles'><b>Line Plot Shapes</b></a></div>
+<div>Line plots can be styled using a LineStyle.</div>
+</div>
+</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='/cookbook/5.0/LinePlot/LinePlotLegendQWER'><img class='img-fluid' src='/cookbook/5.0/images/LinePlotLegendQWER.png' /></a>
+</div>
+<div class='col'>
+<div><a href='/cookbook/5.0/LinePlot/LinePlotLegendQWER'><b>Line Plot Legend 123</b></a></div>
+<div>Line plots with labels appear in the legend.</div>
+</div>
+</div>
+<h2 class=''><a href='/cookbook/5.0/Marker' class='text-dark'>Marker</a></h2>
+<div>Markers can be placed on the plot in coordinate space.</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='/cookbook/5.0/Marker/MarkerQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/MarkerQuickstart.png' /></a>
+</div>
+<div class='col'>
+<div><a href='/cookbook/5.0/Marker/MarkerQuickstart'><b>Marker Quickstart</b></a></div>
+<div>Markers are symbols placed at a location in coordinate space. Their shape, size, and color can be customized.</div>
+</div>
+</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='/cookbook/5.0/Marker/MarkerShapes'><img class='img-fluid' src='/cookbook/5.0/images/MarkerShapes.png' /></a>
+</div>
+<div class='col'>
+<div><a href='/cookbook/5.0/Marker/MarkerShapes'><b>Marker Shapes</b></a></div>
+<div>Many marker shapes are available.</div>
+</div>
+</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='/cookbook/5.0/Marker/MarkerLegend'><img class='img-fluid' src='/cookbook/5.0/images/MarkerLegend.png' /></a>
+</div>
+<div class='col'>
+<div><a href='/cookbook/5.0/Marker/MarkerLegend'><b>Marker Legend</b></a></div>
+<div>Markers with labels appear in the legend.</div>
 </div>
 </div>
 <h2 class=''><a href='/cookbook/5.0/Polygon' class='text-dark'>Polygon Plot</a></h2>
