@@ -79,7 +79,9 @@ Release notes for every version of ScottPlot
 </li>
 <li>Box: Refactored box plot API to favor simplicity and user customization (<a href="https://github.com/ScottPlot/ScottPlot/issues/3072">#3072</a>)
 </li>
-<li>Rendering: Added a pre-render event to <code>RenderManager</code> to allow modification of plottable properties (<a href="https://github.com/ScottPlot/ScottPlot/issues/3077">#3077</a>) <em>Thanks GooBad</em>
+<li>Rendering: Added <code>RenderManager.RenderStarting</code> event to allow modification of plottable properties (<a href="https://github.com/ScottPlot/ScottPlot/issues/3077">#3077</a>) <em>Thanks GooBad</em>
+</li>
+<li>Rendering: Added <code>RenderManager.PreRenderLock</code> event so developers of multi-threaded applications can ensure plottables are stable at render time (<a href="https://github.com/ScottPlot/ScottPlot/issues/3095">#3095</a>) <em>Thanks <a href="https://github.com/bclehmann">@bclehmann</a></em>
 </li>
 </ul>
 </div>
@@ -129,7 +131,7 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/AndreyPalyutin'><img src='https://scottplot.net/images/contributors/andreypalyutin.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/bukkideme'><img src='https://scottplot.net/images/contributors/bukkideme.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/SerhiiMahera'><img src='https://scottplot.net/images/contributors/serhiimahera.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/ashe27'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/ashe27'><img src='https://scottplot.net/images/contributors/ashe27.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
