@@ -85,11 +85,13 @@ Release notes for every version of ScottPlot
 </li>
 <li>Statistics: Added descriptive statistics methods and improved support for 2D arrays (<a href="https://github.com/ScottPlot/ScottPlot/issues/3113">#3113</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3121">#3121</a>) <em>Thanks <a href="https://github.com/arthurits">@arthurits</a></em>
 </li>
+<li>Rendering: Improved appearance of shapes with custom hatches and outlines (<a href="https://github.com/ScottPlot/ScottPlot/issues/3099">#3099</a>) <em>Thanks <a href="https://github.com/faguetan">@faguetan</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/arthurits'>arthurits</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/albyoo'>albyoo</a>, <a href='https://github.com/Gray-lab'>Gray-lab</a>, <a href='https://github.com/KroMignon'>KroMignon</a>, <a href='https://github.com/bukkideme'>bukkideme</a>, <a href='https://github.com/lichen95'>lichen95</a>, <a href='https://github.com/minjjKang'>minjjKang</a>, <a href='https://github.com/swharden'>swharden</a>
+<a href='https://github.com/arthurits'>arthurits</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/albyoo'>albyoo</a>, <a href='https://github.com/Gray-lab'>Gray-lab</a>, <a href='https://github.com/KroMignon'>KroMignon</a>, <a href='https://github.com/bukkideme'>bukkideme</a>, <a href='https://github.com/lichen95'>lichen95</a>, <a href='https://github.com/minjjKang'>minjjKang</a>, <a href='https://github.com/faguetan'>faguetan</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/arthurits'><img src='https://scottplot.net/images/contributors/arthurits.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -100,6 +102,7 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/bukkideme'><img src='https://scottplot.net/images/contributors/bukkideme.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/lichen95'><img src='https://scottplot.net/images/contributors/lichen95.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/minjjKang'><img src='https://scottplot.net/images/contributors/minjjkang.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/faguetan'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
