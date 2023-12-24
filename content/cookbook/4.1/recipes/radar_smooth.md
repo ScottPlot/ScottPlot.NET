@@ -1,7 +1,7 @@
 ---
 Title: "Smooth Radar - ScottPlot 4.1 Cookbook"
 Description: "The Smooth field controls whether radar areas are drawn with smooth or straight lines."
-Date: 2023-12-13
+Date: 2023-12-24
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/radar_smooth/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Radar Chart", "Smooth Radar"]

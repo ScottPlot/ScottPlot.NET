@@ -1,7 +1,7 @@
 ---
 Title: "Background Color - ScottPlot 4.1 Cookbook"
 Description: "Plots have two background colors that can be individually customized. The figure background is the background of the whole image. The data background is the background of the rectangle that contains the data. Both background types support transparency, although PNG file export is required."
-Date: 2023-12-13
+Date: 2023-12-24
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/style_background/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Style", "Background Color"]

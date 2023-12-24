@@ -1,7 +1,7 @@
 ---
 Title: "Bracket Annotations - ScottPlot 4.1 Cookbook"
 Description: "Brackets are useful for annotating a range of data."
-Date: 2023-12-13
+Date: 2023-12-24
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/bracket_quickstart/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Bracket", "Bracket Annotations"]

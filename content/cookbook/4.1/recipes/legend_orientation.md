@@ -1,7 +1,7 @@
 ---
 Title: "Legend Orientation - ScottPlot 4.1 Cookbook"
 Description: "Legends can be customized to support horizontal orientation"
-Date: 2023-12-13
+Date: 2023-12-24
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/legend_orientation/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Legend", "Legend Orientation"]

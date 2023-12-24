@@ -1,7 +1,7 @@
 ---
 Title: "Axis Line - ScottPlot 4.1 Cookbook"
 Description: "An axis line marks a position on an axis. Axis lines extend to positive and negative infinity on the other axis."
-Date: 2023-12-13
+Date: 2023-12-24
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/axisline_basics/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Axis Line and Span", "Axis Line"]

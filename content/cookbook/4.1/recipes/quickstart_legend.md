@@ -1,7 +1,7 @@
 ---
 Title: "Legend - ScottPlot 4.1 Cookbook"
 Description: "Most plottable objects have a Label which defines how they appear in the legend"
-Date: 2023-12-13
+Date: 2023-12-24
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/quickstart_legend/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Quickstart", "Legend"]

@@ -1,7 +1,7 @@
 ---
 Title: "Pie Chart - ScottPlot 4.1 Cookbook"
 Description: "A pie chart illustrates numerical proportions as slices of a circle."
-Date: 2023-12-13
+Date: 2023-12-24
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/pie_quickstart/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Pie Chart", "Pie Chart"]

@@ -1,7 +1,7 @@
 ---
 Title: "Styled Colormap - ScottPlot 4.1 Cookbook"
 Description: "Viridis is the default colormap, but several alternatives are available."
-Date: 2023-12-13
+Date: 2023-12-24
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/styled_heatmap_colormap/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Heatmap", "Styled Colormap"]

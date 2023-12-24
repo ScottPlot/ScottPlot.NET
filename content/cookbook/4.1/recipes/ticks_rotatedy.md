@@ -1,7 +1,7 @@
 ---
 Title: "Rotated Y Ticks - ScottPlot 4.1 Cookbook"
 Description: "Vertical tick labels can be rotated as desired."
-Date: 2023-12-13
+Date: 2023-12-24
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/ticks_rotatedy/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Axis and Ticks", "Rotated Y Ticks"]

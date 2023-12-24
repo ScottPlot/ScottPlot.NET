@@ -1,7 +1,7 @@
 ---
 Title: "Defined Tick Spacing - ScottPlot 4.1 Cookbook"
 Description: "The space between tick marks can be manually defined by setting the grid spacing."
-Date: 2023-12-13
+Date: 2023-12-24
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/ticks_definedspacing/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Advanced Axis Features", "Defined Tick Spacing"]

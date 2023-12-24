@@ -1,7 +1,7 @@
 ---
 Title: "Single Color Heatmap - ScottPlot 4.1 Cookbook"
 Description: "A single-color heatmap can be created where cell transparency is defined by a 2D array containing values 0 to 1."
-Date: 2023-12-13
+Date: 2023-12-24
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/heatmap_single_color/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Heatmap", "Single Color Heatmap"]

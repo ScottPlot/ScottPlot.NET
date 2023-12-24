@@ -1,7 +1,7 @@
 ---
 Title: "Binned Histogram - ScottPlot 4.1 Cookbook"
 Description: "Binned histograms are 2D heatmaps that use a colormap to display cell counts. Charts like this are commonly used in scientific and medical applications."
-Date: 2023-12-13
+Date: 2023-12-24
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/heatmap_binned/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Heatmap", "Binned Histogram"]

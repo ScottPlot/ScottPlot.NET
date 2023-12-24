@@ -1,7 +1,7 @@
 ---
 Title: "Percentiles - ScottPlot 4.1 Cookbook"
 Description: "Percentiles are a good tool to analyze the distribution of your data and filter out extreme values."
-Date: 2023-12-13
+Date: 2023-12-24
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/stats_percentiles/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Statistics", "Percentiles"]

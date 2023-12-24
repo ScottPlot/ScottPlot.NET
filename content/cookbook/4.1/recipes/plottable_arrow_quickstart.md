@@ -1,7 +1,7 @@
 ---
 Title: "Arrows - ScottPlot 4.1 Cookbook"
 Description: "Arrows point to specific locations on the plot. "
-Date: 2023-12-13
+Date: 2023-12-24
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/plottable_arrow_quickstart/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Arrow", "Arrows"]

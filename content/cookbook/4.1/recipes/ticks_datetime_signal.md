@@ -1,7 +1,7 @@
 ---
 Title: "Plotting DateTime Data on a Signal Plot - ScottPlot 4.1 Cookbook"
 Description: "DateTime can be displayed on the horizontal axis of a signal plot by using the sample rate to set the time interval per data point, and then setting the OffsetX to the desired start date."
-Date: 2023-12-13
+Date: 2023-12-24
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/ticks_datetime_signal/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Axis and Ticks", "Plotting DateTime Data on a Signal Plot"]

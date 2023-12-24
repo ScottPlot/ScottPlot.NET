@@ -1,7 +1,7 @@
 ---
 Title: "Multiple Series - ScottPlot 4.1 Cookbook"
 Description: "Multiple series of population groups can be plotted Here each group is clustered on the horizontal axis, and each series is given a different color and appears in the legend."
-Date: 2023-12-13
+Date: 2023-12-24
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/population_multiseries/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Population", "Multiple Series"]

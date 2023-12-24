@@ -1,7 +1,7 @@
 ---
 Title: "Blue1 Style - ScottPlot 4.1 Cookbook"
 Description: "Customize many plot features using style presets"
-Date: 2023-12-13
+Date: 2023-12-24
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/style_blue1/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Style", "Blue1 Style"]

@@ -1,7 +1,7 @@
 ---
 Title: "Crosshairs on Multiple Axes - ScottPlot 4.1 Cookbook"
 Description: "Crosshairs label coordinates on the primary axes by default, but the axis index can be changed allowing multiple crosshairs to label multiple axes."
-Date: 2023-12-13
+Date: 2023-12-24
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/crosshair_multiple_different_axes/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Crosshair", "Crosshairs on Multiple Axes"]

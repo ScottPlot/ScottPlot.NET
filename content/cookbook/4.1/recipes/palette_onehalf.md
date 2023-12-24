@@ -1,7 +1,7 @@
 ---
 Title: "OneHalf - ScottPlot 4.1 Cookbook"
 Description: "OneHalf is a 7-color palette sourced from Sublime"
-Date: 2023-12-13
+Date: 2023-12-24
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/palette_onehalf/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Palette", "OneHalf"]

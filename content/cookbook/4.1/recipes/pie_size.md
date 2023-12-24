@@ -1,7 +1,7 @@
 ---
 Title: "Custom Size - ScottPlot 4.1 Cookbook"
 Description: "You can define the size of the pie to make room for large labels."
-Date: 2023-12-13
+Date: 2023-12-24
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/pie_size/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Pie Chart", "Custom Size"]

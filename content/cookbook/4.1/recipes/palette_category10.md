@@ -1,7 +1,7 @@
 ---
 Title: "Category10 - ScottPlot 4.1 Cookbook"
 Description: "This 10-color palette is the default colorset used by ScottPlot. It is the same default colorset used by modern versions of Matplotlib (https://matplotlib.org/2.0.2/users/dflt_style_changes.html)"
-Date: 2023-12-13
+Date: 2023-12-24
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/palette_category10/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Palette", "Category10"]

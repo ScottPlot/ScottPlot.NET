@@ -1,15 +1,16 @@
 ---
 Title: "ScottPlot 4.1 Cookbook"
 Description: "Example plots shown next to the code used to create them"
-Date: 2023-12-13
+Date: 2023-12-24
 Version: ScottPlot 4.1.69
+URL: /cookbook/4.1/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook"]
 BreadcrumbUrls: ["/cookbook/4.1/"]
 SearchUrl: "/cookbook/4.1/search/"
 ---
 
 # ScottPlot 4.0 Cookbook
-Generated using ScottPlot 4.1.69 on 12/13/2023 <br />
+Generated using ScottPlot 4.1.69 on 12/24/2023 <br />
 <h4>Customization</h4>
 <ul>
 <li><a href='#quickstart'>Quickstart</a> - Simple examples designed to help new users get familiar with ScottPlot.</li>
@@ -278,6 +279,7 @@ Generated using ScottPlot 4.1.69 on 12/13/2023 <br />
 <div class='row py-3'>  <div class='col-4'>    <a href='category/plottable-heatmap/#heatmap-clipping'><img src='images/heatmap_clipping_thumb.jpg' style='max-width: 100%'></a>  </div>  <div class='col'>    <div class='fw-bold'><a href='category/plottable-heatmap/#heatmap-clipping'>Heatmap Clipping</a></div>    <div>Heatmaps can be clipped to an arbitrary polygon</div>  </div></div>
 <div class='row py-3'>  <div class='col-4'>    <a href='category/plottable-heatmap/#binned-histogram'><img src='images/heatmap_binned_thumb.jpg' style='max-width: 100%'></a>  </div>  <div class='col'>    <div class='fw-bold'><a href='category/plottable-heatmap/#binned-histogram'>Binned Histogram</a></div>    <div>Binned histograms are 2D heatmaps that use a colormap to display cell counts. Charts like this are commonly used in scientific and medical applications.</div>  </div></div>
 <div class='row py-3'>  <div class='col-4'>    <a href='category/plottable-heatmap/#parallel-processing'><img src='images/heatmap_parallel_thumb.jpg' style='max-width: 100%'></a>  </div>  <div class='col'>    <div class='fw-bold'><a href='category/plottable-heatmap/#parallel-processing'>Parallel Processing</a></div>    <div>Heatmaps have opt-in parallel processing which may improve performance when calling Update() for large datasets.</div>  </div></div>
+<div class='row py-3'>  <div class='col-4'>    <a href='category/plottable-heatmap/#inverted-heatmap'><img src='images/heatmap_inverted_thumb.jpg' style='max-width: 100%'></a>  </div>  <div class='col'>    <div class='fw-bold'><a href='category/plottable-heatmap/#inverted-heatmap'>Inverted Heatmap</a></div>    <div>An inverted heatmap can be created by reversing the colors in the colormap.</div>  </div></div>
 <div class='fs-1 mt-4' style='font-weight: 500;' id='plottable-image'>  <a href='category/plottable-image/' class='text-dark'>Image</a></div><div class='mb-3'>An image bitmap can be placed on the plot.</div>
 <div class='row py-3'>  <div class='col-4'>    <a href='category/plottable-image/#image-quickstart'><img src='images/image_quickstart_thumb.jpg' style='max-width: 100%'></a>  </div>  <div class='col'>    <div class='fw-bold'><a href='category/plottable-image/#image-quickstart'>Image Quickstart</a></div>    <div>The Image plottable places a Bitmap at coordinte in axis space.</div>  </div></div>
 <div class='row py-3'>  <div class='col-4'>    <a href='category/plottable-image/#image-alignment'><img src='images/image_alignment_thumb.jpg' style='max-width: 100%'></a>  </div>  <div class='col'>    <div class='fw-bold'><a href='category/plottable-image/#image-alignment'>Image Alignment</a></div>    <div>By default the X/Y coordinates define the upper left position of the image, but alignment can be customized by defining the anchor.</div>  </div></div>

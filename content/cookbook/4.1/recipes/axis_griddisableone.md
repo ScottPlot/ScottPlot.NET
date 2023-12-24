@@ -1,7 +1,7 @@
 ---
 Title: "Disable Vertical Grid - ScottPlot 4.1 Cookbook"
 Description: "Grid line visibility can be controlled for each axis individually. Use this to selectively enable grid lines only for the axes of interest. Keep in mind that vertical grid lines are controlled by horizontal axes."
-Date: 2023-12-13
+Date: 2023-12-24
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/axis_griddisableone/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Axis and Ticks", "Disable Vertical Grid"]

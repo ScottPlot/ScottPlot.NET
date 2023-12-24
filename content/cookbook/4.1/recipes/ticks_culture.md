@@ -1,7 +1,7 @@
 ---
 Title: "Tick Label Culture - ScottPlot 4.1 Cookbook"
 Description: "Large numbers and dates are formatted differently for different cultures. Hungarian uses spaces to separate large numbers and periods to separate fields in dates."
-Date: 2023-12-13
+Date: 2023-12-24
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/ticks_culture/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Advanced Axis Features", "Tick Label Culture"]

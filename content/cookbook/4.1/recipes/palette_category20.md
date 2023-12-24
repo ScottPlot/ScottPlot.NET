@@ -1,7 +1,7 @@
 ---
 Title: "Category20 - ScottPlot 4.1 Cookbook"
 Description: "This 20-color palette is similar to the default, but optimized for situations where more than 10 plottables are required. Every second color is a lighter version of the color before it. This palette was sourced from Matplotlib."
-Date: 2023-12-13
+Date: 2023-12-24
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/palette_category20/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Palette", "Category20"]

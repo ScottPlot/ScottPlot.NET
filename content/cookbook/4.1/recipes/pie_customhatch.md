@@ -1,7 +1,7 @@
 ---
 Title: "Customize Pie Hatching - ScottPlot 4.1 Cookbook"
 Description: "Hatching (patterns) for pie slices and labels can be customized."
-Date: 2023-12-13
+Date: 2023-12-24
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/pie_customhatch/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Pie Chart", "Customize Pie Hatching"]

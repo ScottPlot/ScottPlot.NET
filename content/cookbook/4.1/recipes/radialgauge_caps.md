@@ -1,7 +1,7 @@
 ---
 Title: "Gauge Caps - ScottPlot 4.1 Cookbook"
 Description: "Caps can be customized for the starting and end of the gauges. "
-Date: 2023-12-13
+Date: 2023-12-24
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/radialgauge_caps/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Radial Gauge", "Gauge Caps"]

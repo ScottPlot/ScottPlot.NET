@@ -1,7 +1,7 @@
 ---
 Title: "Custom Scale Factor - ScottPlot 4.1 Cookbook"
 Description: "A custom scale factor can adjust the length of the arrows."
-Date: 2023-12-13
+Date: 2023-12-24
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/vectorfield_scalefactor/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Vector Field", "Custom Scale Factor"]

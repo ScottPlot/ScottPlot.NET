@@ -1,7 +1,7 @@
 ---
 Title: "Fixed Size Bins - ScottPlot 4.1 Cookbook"
 Description: "A histogram can be created using fixed size bins."
-Date: 2023-12-13
+Date: 2023-12-24
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/stats_histogram_fixed_bins/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Statistics", "Fixed Size Bins"]

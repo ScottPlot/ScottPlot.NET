@@ -1,7 +1,7 @@
 ---
 Title: "Heatmap Opacity - ScottPlot 4.1 Cookbook"
 Description: "Heatmaps have an Opacity property that can be set anywhere from 0 (transparent) to 1 (opaque)."
-Date: 2023-12-13
+Date: 2023-12-24
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/heatmap_opacity/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Heatmap", "Heatmap Opacity"]

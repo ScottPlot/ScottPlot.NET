@@ -1,7 +1,7 @@
 ---
 Title: "Slice Values - ScottPlot 4.1 Cookbook"
 Description: "The value of each slice can be displayed at its center."
-Date: 2023-12-13
+Date: 2023-12-24
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/pie_showvalues/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Pie Chart", "Slice Values"]

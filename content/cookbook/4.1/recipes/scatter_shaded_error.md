@@ -1,7 +1,7 @@
 ---
 Title: "Scatter Plot with Shaded Error - ScottPlot 4.1 Cookbook"
 Description: "A semitransparent polygon can be created and placed behind the scatter plot to represent standard deviation or standard error."
-Date: 2023-12-13
+Date: 2023-12-24
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/scatter_shaded_error/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Scatter Plot", "Scatter Plot with Shaded Error"]

@@ -1,7 +1,7 @@
 ---
 Title: "Heatmap Clipping - ScottPlot 4.1 Cookbook"
 Description: "Heatmaps can be clipped to an arbitrary polygon"
-Date: 2023-12-13
+Date: 2023-12-24
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/heatmap_clipping/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Heatmap", "Heatmap Clipping"]

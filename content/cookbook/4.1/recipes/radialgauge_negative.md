@@ -1,7 +1,7 @@
 ---
 Title: "Negative Values - ScottPlot 4.1 Cookbook"
 Description: "Radial gauge plots support positive and negative values."
-Date: 2023-12-13
+Date: 2023-12-24
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/radialgauge_negative/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Radial Gauge", "Negative Values"]

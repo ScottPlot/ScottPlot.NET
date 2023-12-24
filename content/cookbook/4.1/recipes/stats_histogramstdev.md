@@ -1,7 +1,7 @@
 ---
 Title: "Histogram Stdev - ScottPlot 4.1 Cookbook"
 Description: "This example demonstrates how to display a histogram with labeled mean and standard deviations."
-Date: 2023-12-13
+Date: 2023-12-24
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/stats_histogramstdev/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Statistics", "Histogram Stdev"]

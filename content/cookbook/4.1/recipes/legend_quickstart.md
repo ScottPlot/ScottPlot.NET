@@ -1,7 +1,7 @@
 ---
 Title: "Legend Quickstart - ScottPlot 4.1 Cookbook"
 Description: "Add labels to plot items, then enable the legend to display a key in the corner of the data area."
-Date: 2023-12-13
+Date: 2023-12-24
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/legend_quickstart/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Legend", "Legend Quickstart"]

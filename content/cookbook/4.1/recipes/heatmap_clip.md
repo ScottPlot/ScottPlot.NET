@@ -1,7 +1,7 @@
 ---
 Title: "Color Clipping - ScottPlot 4.1 Cookbook"
 Description: "The value range displayed by the colormap can restricted to a narrow subset of the full data range. Tick labels at the edges of the colorbar can be made to show inequality symbols to indicate the range of data is being clipped when translating values to colors."
-Date: 2023-12-13
+Date: 2023-12-24
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/heatmap_clip/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Heatmap", "Color Clipping"]

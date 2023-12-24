@@ -1,7 +1,7 @@
 ---
 Title: "Image Rotation - ScottPlot 4.1 Cookbook"
 Description: "Images can be rotated around the position defined by their anchor."
-Date: 2023-12-13
+Date: 2023-12-24
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/image_rotation/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Image", "Image Rotation"]

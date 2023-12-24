@@ -1,7 +1,7 @@
 ---
 Title: "Axis Zoom Limit - ScottPlot 4.1 Cookbook"
 Description: "Axes can be given a zoom limit which allows the user to pan everywhere but never zoom in beyond a given span"
-Date: 2023-12-13
+Date: 2023-12-24
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/axis_zoomlimit/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Axis and Ticks", "Axis Zoom Limit"]

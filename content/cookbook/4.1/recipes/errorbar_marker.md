@@ -1,7 +1,7 @@
 ---
 Title: "Error Bar Marker - ScottPlot 4.1 Cookbook"
 Description: "An optional marker can be drawn at the center X/Y position for each error bar."
-Date: 2023-12-13
+Date: 2023-12-24
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/errorbar_marker/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Error Bar", "Error Bar Marker"]

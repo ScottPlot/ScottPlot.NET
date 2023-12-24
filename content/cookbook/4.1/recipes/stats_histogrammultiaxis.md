@@ -1,7 +1,7 @@
 ---
 Title: "Histogram Multi-Axis - ScottPlot 4.1 Cookbook"
 Description: "This example demonstrates how to display a histogram counts on the primary Y axis and the probability curve on the secondary Y axis."
-Date: 2023-12-13
+Date: 2023-12-24
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/stats_histogrammultiaxis/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Statistics", "Histogram Multi-Axis"]

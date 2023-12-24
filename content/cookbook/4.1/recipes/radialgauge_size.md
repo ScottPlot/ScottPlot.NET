@@ -1,7 +1,7 @@
 ---
 Title: "Gauge Size - ScottPlot 4.1 Cookbook"
 Description: "The empty space between gauges can be adjusted as a fraction of their width. "
-Date: 2023-12-13
+Date: 2023-12-24
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/radialgauge_size/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Radial Gauge", "Gauge Size"]

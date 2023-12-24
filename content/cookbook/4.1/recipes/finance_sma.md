@@ -1,7 +1,7 @@
 ---
 Title: "Simple Moving Average (SMA) - ScottPlot 4.1 Cookbook"
 Description: "A simple moving average (SMA) technical indicator can be calculated and drawn as a scatter plot."
-Date: 2023-12-13
+Date: 2023-12-24
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/finance_sma/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Finance", "Simple Moving Average (SMA)"]

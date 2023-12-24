@@ -1,7 +1,7 @@
 ---
 Title: "Plot a Range of Points - ScottPlot 4.1 Cookbook"
 Description: "It is sometimes useful to only display values within a range of the source data array."
-Date: 2023-12-13
+Date: 2023-12-24
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/signal_range/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Signal Plot", "Plot a Range of Points"]

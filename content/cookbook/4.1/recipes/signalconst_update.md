@@ -1,7 +1,7 @@
 ---
 Title: "SignalConst Data Updates - ScottPlot 4.1 Cookbook"
 Description: "SignalConst is fast because it pre-processes data, but changing data requires additional processing before it can be rendered properly. Use the SignalPlot's Update() function to update data values instead of modifying contents of the original array that was used to create the signal plot."
-Date: 2023-12-13
+Date: 2023-12-24
 Version: ScottPlot 4.1.69
 URL: /cookbook/4.1/recipes/signalconst_update/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "SignalConst", "SignalConst Data Updates"]

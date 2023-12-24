@@ -1,6 +1,6 @@
 {
   "version": "4.1.69",
-  "generated": "2023-12-13T23:12:57.7816781Z",
+  "generated": "2023-12-24T18:44:05.1543517Z",
   "recipes": [
     {
       "id": "Axis_label",
@@ -2355,6 +2355,17 @@
       "recipeUrl": "/cookbook/4.1/recipes/heatmap_parallel/",
       "imageUrl": "/cookbook/4.1/images/heatmap_parallel.png",
       "code": "var plt = new ScottPlot.Plot(600, 400);\n\ndouble[,] data = Generate.Sin2D(width: 1_000, height: 1_000);\nvar hm = plt.AddHeatmap(data, lockScales: false);\n\n// opt into parallel processing\nhm.UseParallel = true;\n\nplt.SaveFig(\u0022heatmap_parallel.png\u0022);"
+    },
+    {
+      "id": "heatmap_inverted",
+      "category": "Heatmap",
+      "categoryFolder": "plottable-heatmap",
+      "title": "Inverted Heatmap",
+      "description": "An inverted heatmap can be created by reversing the colors in the colormap.",
+      "categoryUrl": "/cookbook/4.1/category/plottable-heatmap",
+      "recipeUrl": "/cookbook/4.1/recipes/heatmap_inverted/",
+      "imageUrl": "/cookbook/4.1/images/heatmap_inverted.png",
+      "code": "var plt = new ScottPlot.Plot(600, 400);\n\ndouble[,] data = DataGen.SampleImageData();\n\nvar hm1 = plt.AddHeatmap(data, lockScales: false);\nhm1.Update(data, ScottPlot.Drawing.Colormap.Turbo);\n\nvar hm2 = plt.AddHeatmap(data, lockScales: false);\nhm2.XMin = 75;\nhm2.Update(data, ScottPlot.Drawing.Colormap.Turbo.Reversed());\n\nplt.SaveFig(\u0022heatmap_inverted.png\u0022);"
     },
     {
       "id": "image_quickstart",
