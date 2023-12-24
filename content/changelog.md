@@ -77,6 +77,10 @@ Release notes for every version of ScottPlot
 </li>
 <li>Legend: <code>Alignment</code> has been renamed to <code>Location</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/3059">#3059</a>)
 </li>
+<li>Box: Refactored box plot API to favor simplicity and user customization (<a href="https://github.com/ScottPlot/ScottPlot/issues/3072">#3072</a>)
+</li>
+<li>Rendering: Added a pre-render event to <code>RenderManager</code> to allow modification of plottable properties (<a href="https://github.com/ScottPlot/ScottPlot/issues/3077">#3077</a>) <em>Thanks GooBad</em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
