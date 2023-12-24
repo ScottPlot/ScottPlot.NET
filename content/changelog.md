@@ -83,6 +83,8 @@ Release notes for every version of ScottPlot
 </li>
 <li>Rendering: Added <code>RenderManager.PreRenderLock</code> event so developers of multi-threaded applications can ensure plottables are stable at render time (<a href="https://github.com/ScottPlot/ScottPlot/issues/3095">#3095</a>) <em>Thanks <a href="https://github.com/bclehmann">@bclehmann</a></em>
 </li>
+<li>Statistics: Added descriptive statistics methods and improved support for 2D arrays (<a href="https://github.com/ScottPlot/ScottPlot/issues/3113">#3113</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3121">#3121</a>) <em>Thanks <a href="https://github.com/arthurits">@arthurits</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
