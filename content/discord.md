@@ -1,7 +1,7 @@
 ---
 Title: ScottPlot Discord
 Description: Interact with ScottPlot's maintainers and users on our Discord server!
-url: /discord/index.html
+url: /discord
 date: 2023-12-13
 ---
 

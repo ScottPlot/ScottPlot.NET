@@ -1,7 +1,7 @@
 ---
 title: Cookbook Search - ScottPlot 4.1
 description: Search all cookbook recipes for ScottPlot version 4.1
-url: /cookbook/4.1/search/index.html
+url: /cookbook/4.1/search
 type: single
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Search"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/search/"]

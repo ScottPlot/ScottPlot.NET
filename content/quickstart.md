@@ -1,7 +1,7 @@
 ---
 Title: ScottPlot Quickstart
 Description: Plot data with a few lines of C#
-url: /quickstart/index.html
+url: /quickstart
 noindex: true
 date: 2023-12-13
 ---
