@@ -4,7 +4,7 @@ Description: A palette is a set of colors, and the Plot's palette defines the de
 URL: /cookbook/5.0/Styling/Palette/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Styling Plots", "Palettes"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Styling", "/cookbook/5.0/Styling/Palette"]
-Date: 2023-12-24
+Date: 2023-12-28
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"

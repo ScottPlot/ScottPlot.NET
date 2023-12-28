@@ -4,7 +4,7 @@ Description: Each collection of boxes added to the plot gets styled the same and
 URL: /cookbook/5.0/Box/BoxPlotGroups/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Box Plot", "Box Plot Groups"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Box", "/cookbook/5.0/Box/BoxPlotGroups"]
-Date: 2023-12-24
+Date: 2023-12-28
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"

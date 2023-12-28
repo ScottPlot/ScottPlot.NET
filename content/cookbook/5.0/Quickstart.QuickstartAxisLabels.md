@@ -4,7 +4,7 @@ Description: Axis labels can be extensively customized.
 URL: /cookbook/5.0/Quickstart/QuickstartAxisLabels/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "ScottPlot 5 Quickstart", "Axis Labels"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Quickstart", "/cookbook/5.0/Quickstart/QuickstartAxisLabels"]
-Date: 2023-12-24
+Date: 2023-12-28
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"

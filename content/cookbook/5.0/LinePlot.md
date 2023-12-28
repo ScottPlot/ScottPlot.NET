@@ -4,7 +4,7 @@ Description: Line plots can be placed on the plot in coordinate space using a St
 URL: /cookbook/5.0/LinePlot/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Line Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/LinePlot"]
-Date: 2023-12-24
+Date: 2023-12-28
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"

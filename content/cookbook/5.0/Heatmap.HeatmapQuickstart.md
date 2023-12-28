@@ -4,7 +4,7 @@ Description: Heatmaps can be created from 2D arrays
 URL: /cookbook/5.0/Heatmap/HeatmapQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Heatmap", "Heatmap Quickstart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Heatmap", "/cookbook/5.0/Heatmap/HeatmapQuickstart"]
-Date: 2023-12-24
+Date: 2023-12-28
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"

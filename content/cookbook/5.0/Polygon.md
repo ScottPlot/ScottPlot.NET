@@ -4,7 +4,7 @@ Description: Polygon plots draws a polygon
 URL: /cookbook/5.0/Polygon/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Polygon Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Polygon"]
-Date: 2023-12-24
+Date: 2023-12-28
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"

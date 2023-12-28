@@ -4,7 +4,7 @@ Description: Functions that add things to plots return the plottables they creat
 URL: /cookbook/5.0/Quickstart/CustomizingPlottables/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "ScottPlot 5 Quickstart", "Customizing Plottables"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Quickstart", "/cookbook/5.0/Quickstart/CustomizingPlottables"]
-Date: 2023-12-24
+Date: 2023-12-28
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"

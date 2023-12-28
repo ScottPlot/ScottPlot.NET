@@ -4,7 +4,7 @@ Description: Example plots shown next to the code used to create them
 URL: /cookbook/5.0/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook"]
 BreadcrumbUrls: ["/cookbook/5.0/"]
-Date: 2023-12-24
+Date: 2023-12-28
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"

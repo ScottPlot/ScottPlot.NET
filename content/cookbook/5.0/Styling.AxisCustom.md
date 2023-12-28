@@ -4,7 +4,7 @@ Description: Axis labels, tick marks, and frame can all be customized.
 URL: /cookbook/5.0/Styling/AxisCustom/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Styling Plots", "Axis Customization"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Styling", "/cookbook/5.0/Styling/AxisCustom"]
-Date: 2023-12-24
+Date: 2023-12-28
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"

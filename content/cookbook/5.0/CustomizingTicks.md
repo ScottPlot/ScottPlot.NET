@@ -4,7 +4,7 @@ Description: Advanced customization of tick marks and tick labels
 URL: /cookbook/5.0/CustomizingTicks/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Customizing Ticks"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/CustomizingTicks"]
-Date: 2023-12-24
+Date: 2023-12-28
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"

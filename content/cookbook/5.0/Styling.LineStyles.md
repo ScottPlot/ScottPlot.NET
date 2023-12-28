@@ -4,7 +4,7 @@ Description: Many plot types have a LineStyle which can be customized.
 URL: /cookbook/5.0/Styling/LineStyles/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Styling Plots", "Line Styles"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Styling", "/cookbook/5.0/Styling/LineStyles"]
-Date: 2023-12-24
+Date: 2023-12-28
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"

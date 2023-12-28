@@ -4,7 +4,7 @@ Description: Axis Limits can be set manually in different ways.
 URL: /cookbook/5.0/AxisAndTicks/SetAxisLimits/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Axis and Ticks", "Manually Set Axis Limits"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AxisAndTicks", "/cookbook/5.0/AxisAndTicks/SetAxisLimits"]
-Date: 2023-12-24
+Date: 2023-12-28
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"

@@ -1,6 +1,6 @@
 {
   "version": "5.0.11-beta",
-  "dateUtc": "2023-12-24T19:57:28",
+  "dateUtc": "2023-12-28T16:48:01",
   "recipeCount": 57,
   "jsonSizeKb": 71,
   "chapters": [
@@ -544,7 +544,7 @@
       "category": "Error Bars",
       "name": "ErrorBar Values",
       "description": "Error size can be set for all dimensions.",
-      "source": "ScottPlot.Plot myPlot = new();\n\nint points = 10;\n\nScottPlot.RandomDataGenerator gen = new();\n\ndouble[] xs = ScottPlot.Generate.Consecutive(points);\ndouble[] ys = ScottPlot.Generate.RandomWalk(points);\nvar scatter = myPlot.Add.Scatter(xs, ys);\nscatter.LineStyle.Width = 0;\n\nScottPlot.Plottables.ErrorBar eb = new(\n    xs: xs,\n    ys: ys,\n    xErrorsNegative: gen.RandomSample(points, .5),\n    xErrorsPositive: gen.RandomSample(points, .5),\n    yErrorsNegative: gen.RandomSample(points),\n    yErrorsPositive: gen.RandomSample(points));\n\neb.Color = scatter.Color;\n\nmyPlot.Add.Plottable(eb);\n\nmyPlot.SavePng(\u0022demo.png\u0022);\n",
+      "source": "ScottPlot.Plot myPlot = new();\n\nint points = 10;\n\ndouble[] xs = ScottPlot.Generate.Consecutive(points);\ndouble[] ys = ScottPlot.Generate.RandomWalk(points);\nvar scatter = myPlot.Add.Scatter(xs, ys);\nscatter.LineStyle.Width = 0;\n\nScottPlot.Plottables.ErrorBar eb = new(\n    xs: xs,\n    ys: ys,\n    xErrorsNegative: ScottPlot.Generate.RandomSample(points, .5),\n    xErrorsPositive: ScottPlot.Generate.RandomSample(points, .5),\n    yErrorsNegative: ScottPlot.Generate.RandomSample(points),\n    yErrorsPositive: ScottPlot.Generate.RandomSample(points));\n\neb.Color = scatter.Color;\n\nmyPlot.Add.Plottable(eb);\n\nmyPlot.SavePng(\u0022demo.png\u0022);\n",
       "categoryClassName": "ErrorBar",
       "recipeClassName": "CustomErrors",
       "anchorUrl": "/cookbook/5.0/ErrorBar#CustomErrors",

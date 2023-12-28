@@ -4,7 +4,7 @@ Description: Heatmaps display values from 2D data as an image with cells of diff
 URL: /cookbook/5.0/Heatmap/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Heatmap"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Heatmap"]
-Date: 2023-12-24
+Date: 2023-12-28
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"

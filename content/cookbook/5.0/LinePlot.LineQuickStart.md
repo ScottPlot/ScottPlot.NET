@@ -4,7 +4,7 @@ Description: Line plots are placed with a start and end location in coordinate s
 URL: /cookbook/5.0/LinePlot/LineQuickStart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Line Plot", "Line Plot Quickstart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/LinePlot", "/cookbook/5.0/LinePlot/LineQuickStart"]
-Date: 2023-12-24
+Date: 2023-12-28
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"

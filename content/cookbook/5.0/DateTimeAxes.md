@@ -4,7 +4,7 @@ Description: Plot data values on a DataTime axes
 URL: /cookbook/5.0/DateTimeAxes/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "DateTime Axes"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/DateTimeAxes"]
-Date: 2023-12-24
+Date: 2023-12-28
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"

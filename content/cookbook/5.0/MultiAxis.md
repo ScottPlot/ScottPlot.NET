@@ -4,7 +4,7 @@ Description: Tick mark customization and creation of multi-Axis plots
 URL: /cookbook/5.0/MultiAxis/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Advanced Axis Features"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/MultiAxis"]
-Date: 2023-12-24
+Date: 2023-12-28
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"
