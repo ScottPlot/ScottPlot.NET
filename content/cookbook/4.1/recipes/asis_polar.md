@@ -1,8 +1,8 @@
 ---
 Title: "Polar Coordinates - ScottPlot 4.1 Cookbook"
 Description: "A helper function converts radius and theta arrays into Cartesian coordinates suitable for plotting with traditioanl plot types."
-Date: 2023-12-24
-Version: ScottPlot 4.1.69
+Date: 2023-12-28
+Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/asis_polar/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Advanced Axis Features", "Polar Coordinates"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/advanced-axis-features", "/cookbook/4.1/recipes/asis_polar/"]

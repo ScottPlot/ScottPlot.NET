@@ -1,8 +1,8 @@
 ---
 Title: "Tooltip Font - ScottPlot 4.1 Cookbook"
 Description: "Tooltips fonts can be customized"
-Date: 2023-12-24
-Version: ScottPlot 4.1.69
+Date: 2023-12-28
+Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/tooltip_font/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Tooltip", "Tooltip Font"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-tooltip", "/cookbook/4.1/recipes/tooltip_font/"]

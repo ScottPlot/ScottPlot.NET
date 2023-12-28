@@ -1,8 +1,8 @@
 ---
 Title: "Black Style - ScottPlot 4.1 Cookbook"
 Description: "Customize many plot features using style presets"
-Date: 2023-12-24
-Version: ScottPlot 4.1.69
+Date: 2023-12-28
+Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/style_black/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Style", "Black Style"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/style", "/cookbook/4.1/recipes/style_black/"]

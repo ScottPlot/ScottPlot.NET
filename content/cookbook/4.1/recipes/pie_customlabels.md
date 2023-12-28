@@ -1,8 +1,8 @@
 ---
 Title: "Custom Slice Labels - ScottPlot 4.1 Cookbook"
 Description: "Custom slice labels can be used to display values using custom formats"
-Date: 2023-12-24
-Version: ScottPlot 4.1.69
+Date: 2023-12-28
+Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/pie_customlabels/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Pie Chart", "Custom Slice Labels"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-pie", "/cookbook/4.1/recipes/pie_customlabels/"]

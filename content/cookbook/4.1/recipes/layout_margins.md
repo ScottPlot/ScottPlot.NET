@@ -1,8 +1,8 @@
 ---
 Title: "Data Margins - ScottPlot 4.1 Cookbook"
 Description: "Users who want to define the amount of space around their data can use Margins() to automatically pad data boundaries with a certain percentage of extra space when axis limits are calculated automatically. Note that this operation acts on the axis limits, and does not technically adjust the layout of the plot itself."
-Date: 2023-12-24
-Version: ScottPlot 4.1.69
+Date: 2023-12-28
+Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/layout_margins/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Layout", "Data Margins"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/layout", "/cookbook/4.1/recipes/layout_margins/"]

@@ -1,8 +1,8 @@
 ---
 Title: "Custom Fonts - ScottPlot 4.1 Cookbook"
 Description: "You can pass in a Font to further customize font options"
-Date: 2023-12-24
-Version: ScottPlot 4.1.69
+Date: 2023-12-28
+Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/text_fonts/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Text", "Custom Fonts"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-text", "/cookbook/4.1/recipes/text_fonts/"]

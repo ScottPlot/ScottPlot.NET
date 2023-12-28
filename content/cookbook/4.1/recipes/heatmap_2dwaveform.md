@@ -1,8 +1,8 @@
 ---
 Title: "2D Waveform - ScottPlot 4.1 Cookbook"
 Description: "This example demonstrates a heatmap with 1000 tiles"
-Date: 2023-12-24
-Version: ScottPlot 4.1.69
+Date: 2023-12-28
+Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/heatmap_2dwaveform/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Heatmap", "2D Waveform"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-heatmap", "/cookbook/4.1/recipes/heatmap_2dwaveform/"]

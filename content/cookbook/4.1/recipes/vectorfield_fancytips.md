@@ -1,8 +1,8 @@
 ---
 Title: "Scaled Arrowheads - ScottPlot 4.1 Cookbook"
 Description: "Use a slower drawing method that draws tips that are proportional to the length of the arrows."
-Date: 2023-12-24
-Version: ScottPlot 4.1.69
+Date: 2023-12-28
+Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/vectorfield_fancytips/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Vector Field", "Scaled Arrowheads"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-vector-field", "/cookbook/4.1/recipes/vectorfield_fancytips/"]

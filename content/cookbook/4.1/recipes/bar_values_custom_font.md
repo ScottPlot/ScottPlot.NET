@@ -1,8 +1,8 @@
 ---
 Title: "Customizing Value Label Font - ScottPlot 4.1 Cookbook"
 Description: "Font styling for bar value labels can be customized."
-Date: 2023-12-24
-Version: ScottPlot 4.1.69
+Date: 2023-12-28
+Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/bar_values_custom_font/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Bar Graph", "Customizing Value Label Font"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-bar-graph", "/cookbook/4.1/recipes/bar_values_custom_font/"]

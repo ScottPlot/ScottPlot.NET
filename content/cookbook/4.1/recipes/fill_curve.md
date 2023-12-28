@@ -1,8 +1,8 @@
 ---
 Title: "Fill Under Curve - ScottPlot 4.1 Cookbook"
 Description: "Fill methods help to create semitransparent polygons to fill the area under a curve. This can be used to give the appearance of shading under a scatter plot, even though the plottable created here is a polygon with optional edge color and fill color."
-Date: 2023-12-24
-Version: ScottPlot 4.1.69
+Date: 2023-12-28
+Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/fill_curve/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Fill", "Fill Under Curve"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-fill", "/cookbook/4.1/recipes/fill_curve/"]

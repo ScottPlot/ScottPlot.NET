@@ -1,8 +1,8 @@
 ---
 Title: "Gauge Label Font Percentage - ScottPlot 4.1 Cookbook"
 Description: "Size of the gauge level text as a fraction of the gauge width."
-Date: 2023-12-24
-Version: ScottPlot 4.1.69
+Date: 2023-12-28
+Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/radialgauge_labelfontsize/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Radial Gauge", "Gauge Label Font Percentage"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-radialgauge", "/cookbook/4.1/recipes/radialgauge_labelfontsize/"]

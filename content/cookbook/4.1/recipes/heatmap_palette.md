@@ -1,8 +1,8 @@
 ---
 Title: "Palette Colormap - ScottPlot 4.1 Cookbook"
 Description: "Heatmap data can be presented using a colormap defined by a fixed set of colors."
-Date: 2023-12-24
-Version: ScottPlot 4.1.69
+Date: 2023-12-28
+Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/heatmap_palette/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Heatmap", "Palette Colormap"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-heatmap", "/cookbook/4.1/recipes/heatmap_palette/"]

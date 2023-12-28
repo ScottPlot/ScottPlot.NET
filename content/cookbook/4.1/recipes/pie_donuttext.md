@@ -1,8 +1,8 @@
 ---
 Title: "Donut with Text - ScottPlot 4.1 Cookbook"
 Description: "Custom text can be displayed in the center of a donut chart. Notice too how the colors of each slice are customized in this example."
-Date: 2023-12-24
-Version: ScottPlot 4.1.69
+Date: 2023-12-28
+Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/pie_donuttext/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Pie Chart", "Donut with Text"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-pie", "/cookbook/4.1/recipes/pie_donuttext/"]

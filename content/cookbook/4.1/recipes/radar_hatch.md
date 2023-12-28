@@ -1,8 +1,8 @@
 ---
 Title: "Customizable hatching (pattern) - ScottPlot 4.1 Cookbook"
 Description: "The hatch of each radar plot can be customized"
-Date: 2023-12-24
-Version: ScottPlot 4.1.69
+Date: 2023-12-28
+Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/radar_hatch/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Radar Chart", "Customizable hatching (pattern)"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-radar", "/cookbook/4.1/recipes/radar_hatch/"]

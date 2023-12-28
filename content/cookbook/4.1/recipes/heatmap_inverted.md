@@ -1,8 +1,8 @@
 ---
 Title: "Inverted Heatmap - ScottPlot 4.1 Cookbook"
 Description: "An inverted heatmap can be created by reversing the colors in the colormap."
-Date: 2023-12-24
-Version: ScottPlot 4.1.69
+Date: 2023-12-28
+Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/heatmap_inverted/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Heatmap", "Inverted Heatmap"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-heatmap", "/cookbook/4.1/recipes/heatmap_inverted/"]

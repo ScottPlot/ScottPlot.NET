@@ -1,8 +1,8 @@
 ---
 Title: "Stacked Bar Plot - ScottPlot 4.1 Cookbook"
 Description: "By customizing each Bar of a BarSeries we can achieve a stacked bar plot. Text objects can be added to the plot to serve as labels."
-Date: 2023-12-24
-Version: ScottPlot 4.1.69
+Date: 2023-12-28
+Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/barseries_stacked/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Bar Series", "Stacked Bar Plot"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-bar-series", "/cookbook/4.1/recipes/barseries_stacked/"]

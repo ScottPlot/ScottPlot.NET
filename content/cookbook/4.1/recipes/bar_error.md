@@ -1,8 +1,8 @@
 ---
 Title: "Bar Graph with Error Bars - ScottPlot 4.1 Cookbook"
 Description: "Errorbars can be added to any bar graph."
-Date: 2023-12-24
-Version: ScottPlot 4.1.69
+Date: 2023-12-28
+Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/bar_error/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Bar Graph", "Bar Graph with Error Bars"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-bar-graph", "/cookbook/4.1/recipes/bar_error/"]

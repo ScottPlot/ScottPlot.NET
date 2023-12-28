@@ -1,8 +1,8 @@
 ---
 Title: "DataStreamer - ScottPlot 4.1 Cookbook"
 Description: "A DataStreamer is a plot type designed for streaming datasets with a fixed length display and even X spacing between Y data points. As new data is shifted in, old data is shifted out, and the displayed trace is always the same size."
-Date: 2023-12-24
-Version: ScottPlot 4.1.69
+Date: 2023-12-28
+Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/datastreamer_quickstart/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Data Logger", "DataStreamer"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-datalogger", "/cookbook/4.1/recipes/datastreamer_quickstart/"]

@@ -1,8 +1,8 @@
 ---
 Title: "Frameless Plots - ScottPlot 4.1 Cookbook"
 Description: "Frameless plots can display data that appraoches the edge of the figure."
-Date: 2023-12-24
-Version: ScottPlot 4.1.69
+Date: 2023-12-28
+Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/asis_frameless/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Axis and Ticks", "Frameless Plots"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/axis-and-ticks", "/cookbook/4.1/recipes/asis_frameless/"]

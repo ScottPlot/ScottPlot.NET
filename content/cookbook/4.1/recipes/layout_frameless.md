@@ -1,8 +1,8 @@
 ---
 Title: "Frameless Plot - ScottPlot 4.1 Cookbook"
 Description: "The Frameless() method disables and collapses all axes so the data area is all that appears. Although the figure background is blue in this example, none of it will show, because the data area occupies all of the available space."
-Date: 2023-12-24
-Version: ScottPlot 4.1.69
+Date: 2023-12-28
+Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/layout_frameless/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Layout", "Frameless Plot"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/layout", "/cookbook/4.1/recipes/layout_frameless/"]

@@ -1,8 +1,8 @@
 ---
 Title: "Custom Line Style - ScottPlot 4.1 Cookbook"
 Description: "A customizable line style exists which allows users to define any pattern."
-Date: 2023-12-24
-Version: ScottPlot 4.1.69
+Date: 2023-12-28
+Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/misc_custom_line_style/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Style", "Custom Line Style"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/style", "/cookbook/4.1/recipes/misc_custom_line_style/"]

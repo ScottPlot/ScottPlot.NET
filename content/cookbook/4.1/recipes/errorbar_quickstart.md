@@ -1,8 +1,8 @@
 ---
 Title: "Error Bar Quickstart - ScottPlot 4.1 Cookbook"
 Description: "Error Bars allow more fine-grained control over how your error bars are shown."
-Date: 2023-12-24
-Version: ScottPlot 4.1.69
+Date: 2023-12-28
+Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/errorbar_quickstart/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Error Bar", "Error Bar Quickstart"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-error-bar", "/cookbook/4.1/recipes/errorbar_quickstart/"]

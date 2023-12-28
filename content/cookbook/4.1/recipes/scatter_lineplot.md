@@ -1,8 +1,8 @@
 ---
 Title: "Lines Only - ScottPlot 4.1 Cookbook"
 Description: "A shortcut method makes it easy to create a scatter plot with just lines (no markers)"
-Date: 2023-12-24
-Version: ScottPlot 4.1.69
+Date: 2023-12-28
+Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/scatter_lineplot/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Scatter Plot", "Lines Only"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-scatter-plot", "/cookbook/4.1/recipes/scatter_lineplot/"]

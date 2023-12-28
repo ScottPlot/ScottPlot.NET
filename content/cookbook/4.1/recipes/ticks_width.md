@@ -1,8 +1,8 @@
 ---
 Title: "X Ticks Width - ScottPlot 4.1 Cookbook"
 Description: "This example show how to change the width of the X axe ticks"
-Date: 2023-12-24
-Version: ScottPlot 4.1.69
+Date: 2023-12-28
+Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/ticks_width/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Axis and Ticks", "X Ticks Width"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/axis-and-ticks", "/cookbook/4.1/recipes/ticks_width/"]

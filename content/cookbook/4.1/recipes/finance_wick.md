@@ -1,8 +1,8 @@
 ---
 Title: "Custom Wick Color - ScottPlot 4.1 Cookbook"
 Description: "By default candle wicks are the same color as their bodies, but this can be customized."
-Date: 2023-12-24
-Version: ScottPlot 4.1.69
+Date: 2023-12-28
+Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/finance_wick/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Finance", "Custom Wick Color"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-finance", "/cookbook/4.1/recipes/finance_wick/"]

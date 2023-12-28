@@ -1,8 +1,8 @@
 ---
 Title: "Bollinger Bands - ScottPlot 4.1 Cookbook"
 Description: "Bollinger bands are a common technical indicator that show the average +/- two times the standard deviation of a given time range preceeding it."
-Date: 2023-12-24
-Version: ScottPlot 4.1.69
+Date: 2023-12-28
+Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/finance_bollinger/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Finance", "Bollinger Bands"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-finance", "/cookbook/4.1/recipes/finance_bollinger/"]

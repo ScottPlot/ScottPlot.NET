@@ -1,8 +1,8 @@
 ---
 Title: "Gauge Colors - ScottPlot 4.1 Cookbook"
 Description: "Gauge colors can be customized by changing the default palette. "
-Date: 2023-12-24
-Version: ScottPlot 4.1.69
+Date: 2023-12-28
+Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/radialgauge_colors/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Radial Gauge", "Gauge Colors"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-radialgauge", "/cookbook/4.1/recipes/radialgauge_colors/"]
