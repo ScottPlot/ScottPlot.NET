@@ -89,6 +89,8 @@ Release notes for every version of ScottPlot
 </li>
 <li>Text: Improved support for multiline labels (<a href="https://github.com/ScottPlot/ScottPlot/issues/3087">#3087</a>) <em>Thanks <a href="https://github.com/raburton">@raburton</a></em>
 </li>
+<li>Layout: Improved tick and axis label alignment in fixed layout plots (<a href="https://github.com/ScottPlot/ScottPlot/issues/3104">#3104</a>) <em>Thanks <a href="https://github.com/albyoo">@albyoo</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
@@ -105,7 +107,7 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/lichen95'><img src='https://scottplot.net/images/contributors/lichen95.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/minjjKang'><img src='https://scottplot.net/images/contributors/minjjkang.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/faguetan'><img src='https://scottplot.net/images/contributors/faguetan.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/raburton'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/raburton'><img src='https://scottplot.net/images/contributors/raburton.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
