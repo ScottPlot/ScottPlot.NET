@@ -91,11 +91,13 @@ Release notes for every version of ScottPlot
 </li>
 <li>Layout: Improved tick and axis label alignment in fixed layout plots (<a href="https://github.com/ScottPlot/ScottPlot/issues/3104">#3104</a>) <em>Thanks <a href="https://github.com/albyoo">@albyoo</a></em>
 </li>
+<li>Layout: Created <code>Plot.Layout</code> class for holding <code>Frameless()</code> and related methods (<a href="https://github.com/ScottPlot/ScottPlot/issues/3106">#3106</a>) <em>Thanks <a href="https://github.com/angulion">@angulion</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/arthurits'>arthurits</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/albyoo'>albyoo</a>, <a href='https://github.com/Gray-lab'>Gray-lab</a>, <a href='https://github.com/KroMignon'>KroMignon</a>, <a href='https://github.com/bukkideme'>bukkideme</a>, <a href='https://github.com/lichen95'>lichen95</a>, <a href='https://github.com/minjjKang'>minjjKang</a>, <a href='https://github.com/faguetan'>faguetan</a>, <a href='https://github.com/raburton'>raburton</a>, <a href='https://github.com/swharden'>swharden</a>
+<a href='https://github.com/arthurits'>arthurits</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/albyoo'>albyoo</a>, <a href='https://github.com/Gray-lab'>Gray-lab</a>, <a href='https://github.com/KroMignon'>KroMignon</a>, <a href='https://github.com/bukkideme'>bukkideme</a>, <a href='https://github.com/lichen95'>lichen95</a>, <a href='https://github.com/minjjKang'>minjjKang</a>, <a href='https://github.com/faguetan'>faguetan</a>, <a href='https://github.com/raburton'>raburton</a>, <a href='https://github.com/angulion'>angulion</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/arthurits'><img src='https://scottplot.net/images/contributors/arthurits.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -108,6 +110,7 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/minjjKang'><img src='https://scottplot.net/images/contributors/minjjkang.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/faguetan'><img src='https://scottplot.net/images/contributors/faguetan.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/raburton'><img src='https://scottplot.net/images/contributors/raburton.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/angulion'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
@@ -128,6 +131,8 @@ Release notes for every version of ScottPlot
 <li>Marker: Added support for <code>Marker.horizontalBar</code> to compliment <code>verticalBar</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/3101">#3101</a>) <em>Thanks <a href="https://github.com/SerhiiMahera">@SerhiiMahera</a></em>
 </li>
 <li>Axis: Span limits are respected when zooming with a window or scroll wheel (<a href="https://github.com/ScottPlot/ScottPlot/issues/3082">#3082</a>) <em>Thanks <a href="https://github.com/ashe27">@ashe27</a></em>
+</li>
+<li>Statistics: Added <code>Descriptive.StdErr()</code> for calculating standard error of the mean (<a href="https://github.com/ScottPlot/ScottPlot/issues/3112">#3112</a>)
 </li>
 </ul>
 </div>
