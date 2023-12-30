@@ -29,6 +29,16 @@ Release notes for every version of ScottPlot
 <ul>
 <li>Axes: Improved automatic axis scaling for plots containing 1D plottables (<a href="https://github.com/ScottPlot/ScottPlot/issues/3132">#3132</a>)
 </li>
+<li>Coordinates: Added <code>AreReal</code> property to confirm <code>X</code> and <code>Y</code> are finite
+</li>
+<li>Crosshair: Added <code>X</code> and <code>Y</code> properties to compliment <code>Position</code>
+</li>
+<li>Axes: Removed <code>Plot.Axes</code> list to encourage interaction with <code>Plot.YAxes</code> and <code>Plot.XAxes</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/3133">#3133</a>)
+</li>
+<li>Plot: Added <code>AddLeftAxis()</code>, <code>AddRightAxis()</code>, etc. to simplify multi-axis creation and management (<a href="https://github.com/ScottPlot/ScottPlot/issues/3133">#3133</a>)
+</li>
+<li>Layout: Created <code>Plot.Layout.Frameless()</code> to hide axes and allow the data area to fill the figure
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
