@@ -39,6 +39,10 @@ Release notes for every version of ScottPlot
 </li>
 <li>Layout: Created <code>Plot.Layout.Frameless()</code> to hide axes and allow the data area to fill the figure
 </li>
+<li>Axes: Improve rotation for right axis labels
+</li>
+<li>Bar: Improve autoscaling for bar plots displaying error ranges
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
