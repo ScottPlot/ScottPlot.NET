@@ -47,6 +47,12 @@ Release notes for every version of ScottPlot
 </li>
 <li>Signal: Exposed <code>Color</code>, <code>LineWidth</code>, and <code>MaximumMarkerSize</code> so users do not interact with <code>LineStyle</code> and <code>MarkerStyle</code> directly (<a href="https://github.com/ScottPlot/ScottPlot/issues/3136">#3136</a>)
 </li>
+<li>Statistics: Created <code>Series</code> class for calculating statistics for time series data
+</li>
+<li>Scatter Plot: Added <code>LineWidth</code> and <code>MarkerSize</code> properties
+</li>
+<li>Finance: Created <code>SimpleMovingAverage</code> and <code>BollingerBands</code> in the <code>ScottPlot.Finance</code> namespace to facilitate calculation and display of technical indicators (<a href="https://github.com/ScottPlot/ScottPlot/issues/3137">#3137</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
