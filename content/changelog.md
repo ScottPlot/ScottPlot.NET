@@ -53,6 +53,8 @@ Release notes for every version of ScottPlot
 </li>
 <li>Finance: Created <code>SimpleMovingAverage</code> and <code>BollingerBands</code> in the <code>ScottPlot.Finance</code> namespace to facilitate calculation and display of technical indicators (<a href="https://github.com/ScottPlot/ScottPlot/issues/3137">#3137</a>)
 </li>
+<li>Axes: Moved axis management logic from <code>Plot</code> into the <code>Plot.Axes</code> class. Notable changed method names include <code>Plot.Axes.SetLimits()</code>, <code>Plot.Axes.GetLimits()</code>, <code>Plot.Axes.AutoScale()</code>, and <code>Plot.Axes.Margins()</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/3140">#3140</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
