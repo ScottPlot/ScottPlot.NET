@@ -55,6 +55,10 @@ Release notes for every version of ScottPlot
 </li>
 <li>Axes: Moved axis management logic from <code>Plot</code> into the <code>Plot.Axes</code> class. Notable changed method names include <code>Plot.Axes.SetLimits()</code>, <code>Plot.Axes.GetLimits()</code>, <code>Plot.Axes.AutoScale()</code>, and <code>Plot.Axes.Margins()</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/3140">#3140</a>)
 </li>
+<li>Rendering: Improved anti-aliased drawing of solid shapes
+</li>
+<li>Axis: Added rules for zoom in/out boundaries, axis span limits, and square ratio locking (<a href="https://github.com/ScottPlot/ScottPlot/issues/3139">#3139</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3142">#3142</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
