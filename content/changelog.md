@@ -67,6 +67,8 @@ Release notes for every version of ScottPlot
 </li>
 <li>Scatter Plot: Added support for generic types including Xs and Ys of different types (<a href="https://github.com/ScottPlot/ScottPlot/issues/3154">#3154</a>)
 </li>
+<li>Scatter Plot: Added support for DateTime types (<a href="https://github.com/ScottPlot/ScottPlot/issues/3154">#3154</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
