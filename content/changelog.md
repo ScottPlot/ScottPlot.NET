@@ -63,6 +63,10 @@ Release notes for every version of ScottPlot
 </li>
 <li>DataSources: Created <code>SignalSourceUInt16</code> to demonstrate how to plot data with custom types (<a href="https://github.com/ScottPlot/ScottPlot/issues/3154">#3154</a>) <em>Thanks <a href="https://github.com/angulion">@angulion</a></em>
 </li>
+<li>Signal Plot: Added support for generic type arrays and lists (<a href="https://github.com/ScottPlot/ScottPlot/issues/3154">#3154</a>)
+</li>
+<li>Scatter Plot: Added support for generic types including Xs and Ys of different types (<a href="https://github.com/ScottPlot/ScottPlot/issues/3154">#3154</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
@@ -70,7 +74,7 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/wolfcomp'>wolfcomp</a>, <a href='https://github.com/angulion'>angulion</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
-<a href='https://github.com/wolfcomp'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/wolfcomp'><img src='https://scottplot.net/images/contributors/wolfcomp.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/angulion'><img src='https://scottplot.net/images/contributors/angulion.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
