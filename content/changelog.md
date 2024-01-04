@@ -59,13 +59,19 @@ Release notes for every version of ScottPlot
 </li>
 <li>Axis: Added rules for zoom in/out boundaries, axis span limits, and square ratio locking (<a href="https://github.com/ScottPlot/ScottPlot/issues/3139">#3139</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3142">#3142</a>)
 </li>
+<li>ErrorBar: Improved axis limit detection for data that does not start at zero (<a href="https://github.com/ScottPlot/ScottPlot/issues/3155">#3155</a>) <em>Thanks <a href="https://github.com/wolfcomp">@wolfcomp</a></em>
+</li>
+<li>DataSources: Created <code>SignalSourceUInt16</code> to demonstrate how to plot data with custom types (<a href="https://github.com/ScottPlot/ScottPlot/issues/3154">#3154</a>) <em>Thanks <a href="https://github.com/angulion">@angulion</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/swharden'>swharden</a>
+<a href='https://github.com/wolfcomp'>wolfcomp</a>, <a href='https://github.com/angulion'>angulion</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
+<a href='https://github.com/wolfcomp'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/angulion'><img src='https://scottplot.net/images/contributors/angulion.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
