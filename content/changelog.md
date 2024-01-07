@@ -71,6 +71,10 @@ Release notes for every version of ScottPlot
 </li>
 <li>Style: Added support for more line patterns (<a href="https://github.com/ScottPlot/ScottPlot/issues/3161">#3161</a>) <em>Thanks <a href="https://github.com/MCF">@MCF</a></em>
 </li>
+<li>Controls: Assigning <code>Interaction</code> can be used instead of <code>Replace()</code> for customizing mouse actions (<a href="https://github.com/ScottPlot/ScottPlot/issues/3150">#3150</a>)
+</li>
+<li>Controls: Added <code>Menu</code> with <code>Add()</code> and <code>Clear()</code> methods to simplify context menu customization (<a href="https://github.com/ScottPlot/ScottPlot/issues/3150">#3150</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
