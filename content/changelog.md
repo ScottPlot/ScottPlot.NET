@@ -75,16 +75,21 @@ Release notes for every version of ScottPlot
 </li>
 <li>Controls: Added <code>Menu</code> with <code>Add()</code> and <code>Clear()</code> methods to simplify context menu customization (<a href="https://github.com/ScottPlot/ScottPlot/issues/3150">#3150</a>)
 </li>
+<li>Axes: Added rules for locking horizontal and/or vertical axes (<a href="https://github.com/ScottPlot/ScottPlot/issues/3160">#3160</a>) <em>Thanks <a href="https://github.com/raburton">@raburton</a></em>
+</li>
+<li>Signal: Added <code>Data.MinimumIndex</code> and <code>Data.MaximumIndex</code> to allow for partial array rendering (<a href="https://github.com/ScottPlot/ScottPlot/issues/3158">#3158</a>) <em>Thanks <a href="https://github.com/raburton">@raburton</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/wolfcomp'>wolfcomp</a>, <a href='https://github.com/angulion'>angulion</a>, <a href='https://github.com/MCF'>MCF</a>, <a href='https://github.com/swharden'>swharden</a>
+<a href='https://github.com/wolfcomp'>wolfcomp</a>, <a href='https://github.com/angulion'>angulion</a>, <a href='https://github.com/MCF'>MCF</a>, <a href='https://github.com/raburton'>raburton</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/wolfcomp'><img src='https://scottplot.net/images/contributors/wolfcomp.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/angulion'><img src='https://scottplot.net/images/contributors/angulion.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/MCF'><img src='https://scottplot.net/images/contributors/mcf.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/raburton'><img src='https://scottplot.net/images/contributors/raburton.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
