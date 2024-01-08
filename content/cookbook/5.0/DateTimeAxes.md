@@ -4,7 +4,7 @@ Description: Plot data values on a DataTime axes
 URL: /cookbook/5.0/DateTimeAxes/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "DateTime Axes"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/DateTimeAxes"]
-Date: 2023-12-28
+Date: 2024-01-08
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"
@@ -25,6 +25,7 @@ Axis tick labels can be displayed using a time format.
 [![](/cookbook/5.0/images/DateTimeAxisQuickstart.png)](/cookbook/5.0/images/DateTimeAxisQuickstart.png)
 
 ```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
 ScottPlot.Plot myPlot = new();
 
 // begin with an array of DateTime values
@@ -36,7 +37,7 @@ double[] ys = ScottPlot.Generate.RandomWalk(xs.Length);
 myPlot.Add.Scatter(xs, ys);
 
 // tell the plot to display dates on the bottom axis
-myPlot.AxisStyler.DateTimeTicks(Edge.Bottom);
+myPlot.Axes.DateTimeTicks(Edge.Bottom);
 
 myPlot.SavePng("demo.png");
 

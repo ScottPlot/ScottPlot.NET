@@ -1,10 +1,10 @@
 ---
 Title: OHLC Chart - ScottPlot 5.0 Cookbook
 Description: OHLC charts use symbols to display price data (open, high, low, and close) for specific time ranges.
-URL: /cookbook/5.0/Finance/OHLC/
+URL: /cookbook/5.0/Finance/OhlcChart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Financial Plot", "OHLC Chart"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Finance", "/cookbook/5.0/Finance/OHLC"]
-Date: 2023-12-28
+BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Finance", "/cookbook/5.0/Finance/OhlcChart"]
+Date: 2024-01-08
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"
@@ -20,15 +20,15 @@ SearchUrl: "/cookbook/5.0/search/"
 
 OHLC charts use symbols to display price data (open, high, low, and close) for specific time ranges.
 
-[![](/cookbook/5.0/images/OHLC.png)](/cookbook/5.0/images/OHLC.png)
+[![](/cookbook/5.0/images/OhlcChart.png)](/cookbook/5.0/images/OhlcChart.png)
 
 ```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
 ScottPlot.Plot myPlot = new();
 
-ScottPlot.RandomDataGenerator gen = new(0);
-var prices = gen.RandomOHLCs(30);
+var prices = Generate.RandomOHLCs(30);
 myPlot.Add.OHLC(prices);
-myPlot.AxisStyler.DateTimeTicks(Edge.Bottom);
+myPlot.Axes.DateTimeTicks(Edge.Bottom);
 
 myPlot.SavePng("demo.png");
 

@@ -4,7 +4,7 @@ Description: Plots contain many objects which can be customized individually by 
 URL: /cookbook/5.0/Styling/StyleClass/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Styling Plots", "Style Helper Functions"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Styling", "/cookbook/5.0/Styling/StyleClass"]
-Date: 2023-12-28
+Date: 2024-01-08
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"
@@ -23,15 +23,16 @@ Plots contain many objects which can be customized individually by assigining to
 [![](/cookbook/5.0/images/StyleClass.png)](/cookbook/5.0/images/StyleClass.png)
 
 ```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
 ScottPlot.Plot myPlot = new();
 
-myPlot.Add.Signal(ScottPlot.Generate.Sin(51));
-myPlot.Add.Signal(ScottPlot.Generate.Cos(51));
+myPlot.Add.Signal(Generate.Sin(51));
+myPlot.Add.Signal(Generate.Cos(51));
 
 // visible items have public properties that can be customized
-myPlot.XAxis.Label.Text = "Horizontal Axis";
-myPlot.YAxis.Label.Text = "Vertical Axis";
-myPlot.TitlePanel.Label.Text = "Plot Title";
+myPlot.Axes.Bottom.Label.Text = "Horizontal Axis";
+myPlot.Axes.Left.Label.Text = "Vertical Axis";
+myPlot.Axes.Title.Label.Text = "Plot Title";
 
 // the Style object contains helper methods to easily style many items at once
 myPlot.Style.Background(figure: Color.FromHex("#07263b"), data: Color.FromHex("#0b3049"));

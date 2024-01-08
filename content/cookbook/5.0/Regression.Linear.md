@@ -4,7 +4,7 @@ Description: Fit a line to a collection of X/Y data points.
 URL: /cookbook/5.0/Regression/Linear/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Regression", "LinearRegression"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Regression", "/cookbook/5.0/Regression/Linear"]
-Date: 2023-12-28
+Date: 2024-01-08
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"
@@ -23,6 +23,7 @@ Fit a line to a collection of X/Y data points.
 [![](/cookbook/5.0/images/Linear.png)](/cookbook/5.0/images/Linear.png)
 
 ```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
 ScottPlot.Plot myPlot = new();
 
 double[] xs = new double[] { 1, 2, 3, 4, 5, 6, 7 };
@@ -41,7 +42,7 @@ Coordinates pt1 = new(xs.First(), reg.GetValue(xs.First()));
 Coordinates pt2 = new(xs.Last(), reg.GetValue(xs.Last()));
 var line = myPlot.Add.Line(pt1, pt2);
 line.MarkerStyle = MarkerStyle.None;
-line.LineStyle.Pattern = LinePattern.Dash;
+line.LineStyle.Pattern = LinePattern.Dashed;
 line.LineStyle.Width = 2;
 
 // note the formula at the top of the plot

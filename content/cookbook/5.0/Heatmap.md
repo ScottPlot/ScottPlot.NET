@@ -4,7 +4,7 @@ Description: Heatmaps display values from 2D data as an image with cells of diff
 URL: /cookbook/5.0/Heatmap/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Heatmap"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Heatmap"]
-Date: 2023-12-28
+Date: 2024-01-08
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"
@@ -25,6 +25,7 @@ Heatmaps can be created from 2D arrays
 [![](/cookbook/5.0/images/HeatmapQuickstart.png)](/cookbook/5.0/images/HeatmapQuickstart.png)
 
 ```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
 ScottPlot.Plot myPlot = new();
 
 double[,] data = SampleData.MonaLisa();
@@ -42,6 +43,7 @@ Heatmaps can be inverted by reversing the order of colors in the colormap
 [![](/cookbook/5.0/images/HeatmapInverted.png)](/cookbook/5.0/images/HeatmapInverted.png)
 
 ```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
 ScottPlot.Plot myPlot = new();
 
 double[,] data = SampleData.MonaLisa();

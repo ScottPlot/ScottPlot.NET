@@ -4,7 +4,7 @@ Description: Bars can be labeled by manually specifying axis tick mark positions
 URL: /cookbook/5.0/Bar/BarTickLabels/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Bar Plot", "Bars with Labeled Ticks"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Bar", "/cookbook/5.0/Bar/BarTickLabels"]
-Date: 2023-12-28
+Date: 2024-01-08
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"
@@ -23,6 +23,7 @@ Bars can be labeled by manually specifying axis tick mark positions and labels.
 [![](/cookbook/5.0/images/BarTickLabels.png)](/cookbook/5.0/images/BarTickLabels.png)
 
 ```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
 ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Bar(position: 1, value: 5, error: 1);
@@ -38,9 +39,12 @@ Tick[] ticks =
     new(4, "Banana"),
 };
 
-myPlot.BottomAxis.TickGenerator = new ScottPlot.TickGenerators.NumericManual(ticks);
-myPlot.BottomAxis.MajorTickLength = 0;
-myPlot.DisableGrid();
+myPlot.Axes.Bottom.TickGenerator = new ScottPlot.TickGenerators.NumericManual(ticks);
+myPlot.Axes.Bottom.MajorTickLength = 0;
+myPlot.HideGrid();
+
+// tell the plot to autoscale with no padding beneath the bars
+myPlot.Axes.Margins(bottom: 0);
 
 myPlot.SavePng("demo.png");
 

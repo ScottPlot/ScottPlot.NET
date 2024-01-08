@@ -1,10 +1,10 @@
 ---
 Title: Grid Above Data - ScottPlot 5.0 Cookbook
 Description: Grid lines are typically drawn beneath data, but grids can be configured to render on top of plottables too.
-URL: /cookbook/5.0/Styling/GridAbove/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Styling Plots", "Grid Above Data"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Styling", "/cookbook/5.0/Styling/GridAbove"]
-Date: 2023-12-28
+URL: /cookbook/5.0/CustomizingGrids/GridAbove/
+BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Customizing Grids", "Grid Above Data"]
+BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/CustomizingGrids", "/cookbook/5.0/CustomizingGrids/GridAbove"]
+Date: 2024-01-08
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"
@@ -23,10 +23,11 @@ Grid lines are typically drawn beneath data, but grids can be configured to rend
 [![](/cookbook/5.0/images/GridAbove.png)](/cookbook/5.0/images/GridAbove.png)
 
 ```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
 ScottPlot.Plot myPlot = new();
 
-var sig = myPlot.Add.Signal(ScottPlot.Generate.Sin(51));
-sig.LineStyle.Width = 10;
+var sig = myPlot.Add.Signal(ScottPlot.Generate.Sin());
+sig.LineWidth = 10;
 
 ScottPlot.Grids.DefaultGrid grid = myPlot.GetDefaultGrid();
 grid.MajorLineStyle.Width = 3;

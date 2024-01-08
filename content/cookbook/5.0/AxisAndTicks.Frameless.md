@@ -4,7 +4,7 @@ Description: How to create a plot containig only the data area and no axes.
 URL: /cookbook/5.0/AxisAndTicks/Frameless/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Axis and Ticks", "Frameless Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AxisAndTicks", "/cookbook/5.0/AxisAndTicks/Frameless"]
-Date: 2023-12-28
+Date: 2024-01-08
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"
@@ -23,17 +23,16 @@ How to create a plot containig only the data area and no axes.
 [![](/cookbook/5.0/images/Frameless.png)](/cookbook/5.0/images/Frameless.png)
 
 ```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
 ScottPlot.Plot myPlot = new();
 
 myPlot.FigureBackground = Colors.Magenta; // should not be seen
 myPlot.DataBackground = Colors.WhiteSmoke;
 
-myPlot.Add.Signal(ScottPlot.Generate.Sin(51));
-myPlot.Add.Signal(ScottPlot.Generate.Cos(51));
+myPlot.Add.Signal(Generate.Sin(51));
+myPlot.Add.Signal(Generate.Cos(51));
 
-myPlot.XAxes.ForEach(x => x.IsVisible = false);
-myPlot.YAxes.ForEach(x => x.IsVisible = false);
-myPlot.TitlePanel.IsVisible = false;
+myPlot.Layout.Frameless();
 
 myPlot.SavePng("demo.png");
 

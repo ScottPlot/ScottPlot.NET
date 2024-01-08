@@ -4,7 +4,7 @@ Description: The exact position and size of each bar may be customized.
 URL: /cookbook/5.0/Bar/BarPosition/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Bar Plot", "Bar Positioning"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Bar", "/cookbook/5.0/Bar/BarPosition"]
-Date: 2023-12-28
+Date: 2024-01-08
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"
@@ -23,6 +23,7 @@ The exact position and size of each bar may be customized.
 [![](/cookbook/5.0/images/BarPosition.png)](/cookbook/5.0/images/BarPosition.png)
 
 ```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
 ScottPlot.Plot myPlot = new();
 
 List<ScottPlot.Bar> bars = new()

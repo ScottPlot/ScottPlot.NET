@@ -4,7 +4,7 @@ Description: Signal plots display evenly-spaced data
 URL: /cookbook/5.0/Signal/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Signal Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Signal"]
-Date: 2023-12-28
+Date: 2024-01-08
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"
@@ -18,13 +18,62 @@ SearchUrl: "/cookbook/5.0/search/"
 
 
 
-## Offset
+## Signal Plot Quickstart
+
+Signal plots are best for extremely large datasets. They use render using special optimizations that allow highspeed interactivity with plots containing millions of data points.
+
+[![](/cookbook/5.0/images/SignalQuickstart.png)](/cookbook/5.0/images/SignalQuickstart.png)
+
+```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
+ScottPlot.Plot myPlot = new();
+
+double[] values = Generate.RandomWalk(1_000_000);
+
+myPlot.Add.Signal(values);
+
+myPlot.Title("Signal Plot with 1 Million Points");
+
+myPlot.SavePng("demo.png");
+
+```
+
+
+## Signal Plot Styling
+
+Signal plots can be styled in a variety of ways.
+
+[![](/cookbook/5.0/images/SignalStyling.png)](/cookbook/5.0/images/SignalStyling.png)
+
+```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
+ScottPlot.Plot myPlot = new();
+
+var sig1 = myPlot.Add.Signal(Generate.Sin());
+sig1.Color = Colors.Magenta;
+sig1.LineWidth = 10;
+sig1.Label = "Sine";
+
+var sig2 = myPlot.Add.Signal(Generate.Cos());
+sig2.Color = Colors.Green;
+sig2.LineWidth = 5;
+sig2.Label = "Cosine";
+
+myPlot.ShowLegend();
+
+myPlot.SavePng("demo.png");
+
+```
+
+
+## Signal Offset
 
 Signal plots can be offset by a given X and Y value.
 
-[![](/cookbook/5.0/images/Offset.png)](/cookbook/5.0/images/Offset.png)
+[![](/cookbook/5.0/images/SignalOffset.png)](/cookbook/5.0/images/SignalOffset.png)
 
 ```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
 ScottPlot.Plot myPlot = new();
 
 double[] values = ScottPlot.Generate.Sin(51);
@@ -38,6 +87,77 @@ sig2.Data.YOffset = .25;
 sig2.Label = "Offset";
 
 myPlot.Legend.IsVisible = true;
+
+myPlot.SavePng("demo.png");
+
+```
+
+
+## Signal Marker Size
+
+Signal plots can have markers displayed at each point which are only visible when the plot is zoomed in.
+
+[![](/cookbook/5.0/images/SignalMarkerSize.png)](/cookbook/5.0/images/SignalMarkerSize.png)
+
+```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
+ScottPlot.Plot myPlot = new();
+
+var sig1 = myPlot.Add.Signal(Generate.Cos());
+sig1.Label = "Default";
+sig1.Data.YOffset = 3;
+
+var sig2 = myPlot.Add.Signal(Generate.Cos());
+sig2.Label = "Large Markers";
+sig2.MaximumMarkerSize = 20;
+sig2.Data.YOffset = 2;
+
+var sig3 = myPlot.Add.Signal(Generate.Cos());
+sig3.Label = "Hidden Markers";
+sig3.MaximumMarkerSize = 0;
+sig3.Data.YOffset = 1;
+
+myPlot.Legend.IsVisible = true;
+
+myPlot.SavePng("demo.png");
+
+```
+
+
+## Partial Signal Rendering
+
+Even if a signal plot references a large array of data, rendering can be limited to a range of values. If set,only the range of data between the minimum and maximum render indexes will be displayed.
+
+[![](/cookbook/5.0/images/SignalRenderIndexes.png)](/cookbook/5.0/images/SignalRenderIndexes.png)
+
+```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
+ScottPlot.Plot myPlot = new();
+
+double[] values = Generate.RandomWalk(1000);
+
+var sigAll = myPlot.Add.Signal(values);
+sigAll.Label = "Full";
+sigAll.Data.YOffset = 80;
+
+var sigLeft = myPlot.Add.Signal(values);
+sigLeft.Label = "Left";
+sigLeft.Data.YOffset = 60;
+sigLeft.Data.MaximumIndex = 700;
+
+var sigRight = myPlot.Add.Signal(values);
+sigRight.Label = "Right";
+sigRight.Data.YOffset = 40;
+sigRight.Data.MinimumIndex = 300;
+
+var sigMid = myPlot.Add.Signal(values);
+sigMid.Label = "Mid";
+sigMid.Data.YOffset = 20;
+sigMid.Data.MinimumIndex = 300;
+sigMid.Data.MaximumIndex = 700;
+
+myPlot.ShowLegend(Alignment.UpperRight);
+myPlot.Axes.Margins(top: .5);
 
 myPlot.SavePng("demo.png");
 

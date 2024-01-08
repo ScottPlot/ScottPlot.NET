@@ -4,7 +4,7 @@ Description: Bars can have errorbars.
 URL: /cookbook/5.0/Bar/BarWithError/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Bar Plot", "Bars with Error"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Bar", "/cookbook/5.0/Bar/BarWithError"]
-Date: 2023-12-28
+Date: 2024-01-08
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"
@@ -23,6 +23,7 @@ Bars can have errorbars.
 [![](/cookbook/5.0/images/BarWithError.png)](/cookbook/5.0/images/BarWithError.png)
 
 ```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
 ScottPlot.Plot myPlot = new();
 
 List<ScottPlot.Bar> bars = new()
@@ -34,6 +35,9 @@ List<ScottPlot.Bar> bars = new()
 };
 
 myPlot.Add.Bars(bars);
+
+// tell the plot to autoscale with no padding beneath the bars
+myPlot.Axes.Margins(bottom: 0);
 
 myPlot.SavePng("demo.png");
 

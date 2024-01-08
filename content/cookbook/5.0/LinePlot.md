@@ -4,7 +4,7 @@ Description: Line plots can be placed on the plot in coordinate space using a St
 URL: /cookbook/5.0/LinePlot/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Line Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/LinePlot"]
-Date: 2023-12-28
+Date: 2024-01-08
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"
@@ -25,6 +25,7 @@ Line plots are placed with a start and end location in coordinate space. Their s
 [![](/cookbook/5.0/images/LineQuickStart.png)](/cookbook/5.0/images/LineQuickStart.png)
 
 ```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
 ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Line(1, 12, 12, 0);
@@ -43,6 +44,7 @@ Line plots can be styled using a LineStyle.
 [![](/cookbook/5.0/images/LinePlotStyles.png)](/cookbook/5.0/images/LinePlotStyles.png)
 
 ```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
 ScottPlot.Plot myPlot = new();
 
 ScottPlot.Colormaps.Viridis colormap = new();
@@ -70,13 +72,14 @@ myPlot.SavePng("demo.png");
 ```
 
 
-## Line Plot Legend 123
+## Line Plot Legend
 
 Line plots with labels appear in the legend.
 
 [![](/cookbook/5.0/images/LinePlotLegendQWER.png)](/cookbook/5.0/images/LinePlotLegendQWER.png)
 
 ```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
 ScottPlot.Plot myPlot = new();
 
 var sin = myPlot.Add.Signal(Generate.Sin());

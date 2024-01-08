@@ -4,7 +4,7 @@ Description: Create a function plot from a formula.
 URL: /cookbook/5.0/Function/FunctionQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Function", "Function Quickstart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Function", "/cookbook/5.0/Function/FunctionQuickstart"]
-Date: 2023-12-28
+Date: 2024-01-08
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"
@@ -23,6 +23,7 @@ Create a function plot from a formula.
 [![](/cookbook/5.0/images/FunctionQuickstart.png)](/cookbook/5.0/images/FunctionQuickstart.png)
 
 ```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
 ScottPlot.Plot myPlot = new();
 
 // Functions are defined as delegates with an input and output
@@ -36,7 +37,7 @@ myPlot.Add.Function(func2);
 myPlot.Add.Function(func3);
 
 // Manually set axis limits because functions do not have discrete data points
-myPlot.SetAxisLimits(-10, 10, -1.5, 1.5);
+myPlot.Axes.SetLimits(-10, 10, -1.5, 1.5);
 
 myPlot.SavePng("demo.png");
 

@@ -1,16 +1,16 @@
 ---
-Title: Zoom to Fit Data - ScottPlot 5.0 Cookbook
-Description: The axis limits can be automatically adjusted to fit the data. Optional arguments allow users to define the amount of whitespace around the edges of the data.
+Title: AutoScale Axis Limits to Fit Data - ScottPlot 5.0 Cookbook
+Description: The axis limits can be automatically adjusted to fit the data. Optional arguments allow users to define the amount of whitespace around the edges of the data.In older versions of ScottPlot this functionality was achieved by a method named AxisAuto().
 URL: /cookbook/5.0/AxisAndTicks/AutoScale/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Axis and Ticks", "Zoom to Fit Data"]
+BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Axis and Ticks", "AutoScale Axis Limits to Fit Data"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AxisAndTicks", "/cookbook/5.0/AxisAndTicks/AutoScale"]
-Date: 2023-12-28
+Date: 2024-01-08
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"
 ---
 
-# Zoom to Fit Data
+# AutoScale Axis Limits to Fit Data
 
 
 
@@ -18,21 +18,22 @@ SearchUrl: "/cookbook/5.0/search/"
 
 
 
-The axis limits can be automatically adjusted to fit the data. Optional arguments allow users to define the amount of whitespace around the edges of the data.
+The axis limits can be automatically adjusted to fit the data. Optional arguments allow users to define the amount of whitespace around the edges of the data.In older versions of ScottPlot this functionality was achieved by a method named AxisAuto().
 
 [![](/cookbook/5.0/images/AutoScale.png)](/cookbook/5.0/images/AutoScale.png)
 
 ```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
 ScottPlot.Plot myPlot = new();
 
-myPlot.Add.Signal(ScottPlot.Generate.Sin(51));
-myPlot.Add.Signal(ScottPlot.Generate.Cos(51));
+myPlot.Add.Signal(Generate.Sin(51));
+myPlot.Add.Signal(Generate.Cos(51));
 
 // set limits that do not fit the data
-myPlot.SetAxisLimits(-100, 150, -5, 5);
+myPlot.Axes.SetLimits(-100, 150, -5, 5);
 
 // reset limits to fit the data
-myPlot.AutoScale();
+myPlot.Axes.AutoScale();
 
 myPlot.SavePng("demo.png");
 

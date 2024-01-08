@@ -4,7 +4,7 @@ Description: Bar plots can be added from a series of values.
 URL: /cookbook/5.0/Bar/Quickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Bar Plot", "Bar Plot Quickstart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Bar", "/cookbook/5.0/Bar/Quickstart"]
-Date: 2023-12-28
+Date: 2024-01-08
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"
@@ -23,12 +23,15 @@ Bar plots can be added from a series of values.
 [![](/cookbook/5.0/images/Quickstart.png)](/cookbook/5.0/images/Quickstart.png)
 
 ```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
 ScottPlot.Plot myPlot = new();
 
+// add bars
 double[] values = { 5, 10, 7, 13 };
 myPlot.Add.Bars(values);
-myPlot.AutoScale();
-myPlot.SetAxisLimits(bottom: 0);
+
+// tell the plot to autoscale with no padding beneath the bars
+myPlot.Axes.Margins(bottom: 0);
 
 myPlot.SavePng("demo.png");
 

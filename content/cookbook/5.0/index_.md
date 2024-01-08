@@ -4,7 +4,7 @@ Description: Example plots shown next to the code used to create them
 URL: /cookbook/5.0/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook"]
 BreadcrumbUrls: ["/cookbook/5.0/"]
-Date: 2023-12-28
+Date: 2024-01-08
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"
@@ -17,6 +17,43 @@ SearchUrl: "/cookbook/5.0/search/"
 <div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.11-beta is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
 
 
+<div class='mt-3 fs-4'><strong>Quickstart</strong></div>
+<ul>
+<li><a href='/cookbook/5.0/Quickstart'>ScottPlot 5 Quickstart</a> - A survey of basic functionality in ScottPlot 5</li>
+</ul>
+<div class='mt-3 fs-4'><strong>Introduction</strong></div>
+<ul>
+<li><a href='/cookbook/5.0/AxisAndTicks'>Axis and Ticks</a> - Examples of common customizations for axis labels and ticks</li>
+<li><a href='/cookbook/5.0/Legend'>Configuring Legends</a> - A legend is a key typically displayed in the corner of a plot</li>
+<li><a href='/cookbook/5.0/Styling'>Styling Plots</a> - How to customize plots</li>
+</ul>
+<div class='mt-3 fs-4'><strong>Axis</strong></div>
+<ul>
+<li><a href='/cookbook/5.0/CustomizingGrids'>Customizing Grids</a> - Advanced customization of grid lines</li>
+<li><a href='/cookbook/5.0/CustomizingTicks'>Customizing Ticks</a> - Advanced customization of tick marks and tick labels</li>
+<li><a href='/cookbook/5.0/DateTimeAxes'>DateTime Axes</a> - Plot data values on a DataTime axes</li>
+<li><a href='/cookbook/5.0/MultiAxis'>Advanced Axis Features</a> - Tick mark customization and creation of multi-Axis plots</li>
+</ul>
+<div class='mt-3 fs-4'><strong>Plot Types</strong></div>
+<ul>
+<li><a href='/cookbook/5.0/Bar'>Bar Plot</a> - Bar plots represent values as horizontal or vertical rectangles</li>
+<li><a href='/cookbook/5.0/Box'>Box Plot</a> - Box plots show a distribution at a glance</li>
+<li><a href='/cookbook/5.0/ErrorBar'>Error Bars</a> - Error Bars communicate the range of possible values for a measurement</li>
+<li><a href='/cookbook/5.0/FillY'>FillY plot</a> - FillY plots display the vertical range between two Y values at defined X positions</li>
+<li><a href='/cookbook/5.0/Finance'>Financial Plot</a> - Finance plots display price data binned into time ranges</li>
+<li><a href='/cookbook/5.0/Function'>Function</a> - Function plots are a type of line plot where Y positions are defined by a function that depends on X rather than a collection of discrete data points.</li>
+<li><a href='/cookbook/5.0/Heatmap'>Heatmap</a> - Heatmaps display values from 2D data as an image with cells of different intensities</li>
+<li><a href='/cookbook/5.0/LinePlot'>Line Plot</a> - Line plots can be placed on the plot in coordinate space using a Start, End, and an optional LineStyle.</li>
+<li><a href='/cookbook/5.0/Marker'>Marker</a> - Markers can be placed on the plot in coordinate space.</li>
+<li><a href='/cookbook/5.0/Polygon'>Polygon Plot</a> - Polygon plots draws a polygon</li>
+<li><a href='/cookbook/5.0/Scatter'>Scatter Plot</a> - Scatter plots display points at X/Y locations in coordinate space.</li>
+<li><a href='/cookbook/5.0/Signal'>Signal Plot</a> - Signal plots display evenly-spaced data</li>
+<li><a href='/cookbook/5.0/Text'>Text</a> - Text lables placed on the plot in coordinate space</li>
+</ul>
+<div class='mt-3 fs-4'><strong>Statistics</strong></div>
+<ul>
+<li><a href='/cookbook/5.0/Regression'>Regression</a> - Statistical operations to fit lines to data</li>
+</ul>
 <h1>Quickstart</h1>
 <h2 class=''><a href='/cookbook/5.0/Quickstart' class='text-dark'>ScottPlot 5 Quickstart</a></h2>
 <div>A survey of basic functionality in ScottPlot 5</div>
@@ -109,8 +146,8 @@ SearchUrl: "/cookbook/5.0/search/"
 <a href='/cookbook/5.0/AxisAndTicks/AutoScale'><img class='img-fluid' src='/cookbook/5.0/images/AutoScale.png' /></a>
 </div>
 <div class='col'>
-<div><a href='/cookbook/5.0/AxisAndTicks/AutoScale'><b>Zoom to Fit Data</b></a></div>
-<div>The axis limits can be automatically adjusted to fit the data. Optional arguments allow users to define the amount of whitespace around the edges of the data.</div>
+<div><a href='/cookbook/5.0/AxisAndTicks/AutoScale'><b>AutoScale Axis Limits to Fit Data</b></a></div>
+<div>The axis limits can be automatically adjusted to fit the data. Optional arguments allow users to define the amount of whitespace around the edges of the data.In older versions of ScottPlot this functionality was achieved by a method named AxisAuto().</div>
 </div>
 </div>
 <div class='row my-4'>
@@ -164,24 +201,6 @@ SearchUrl: "/cookbook/5.0/search/"
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Styling/GridCustom'><img class='img-fluid' src='/cookbook/5.0/images/GridCustom.png' /></a>
-</div>
-<div class='col'>
-<div><a href='/cookbook/5.0/Styling/GridCustom'><b>Grid Customization</b></a></div>
-<div>Grid lines can be customized. Custom grid systems can be created to give developers full control of grid rendering, but the default grid can be interacted with to customize its appearance.</div>
-</div>
-</div>
-<div class='row my-4'>
-<div class='col'>
-<a href='/cookbook/5.0/Styling/GridAbove'><img class='img-fluid' src='/cookbook/5.0/images/GridAbove.png' /></a>
-</div>
-<div class='col'>
-<div><a href='/cookbook/5.0/Styling/GridAbove'><b>Grid Above Data</b></a></div>
-<div>Grid lines are typically drawn beneath data, but grids can be configured to render on top of plottables too.</div>
-</div>
-</div>
-<div class='row my-4'>
-<div class='col'>
 <a href='/cookbook/5.0/Styling/Palette'><img class='img-fluid' src='/cookbook/5.0/images/Palette.png' /></a>
 </div>
 <div class='col'>
@@ -196,6 +215,15 @@ SearchUrl: "/cookbook/5.0/search/"
 <div class='col'>
 <div><a href='/cookbook/5.0/Styling/Markers'><b>Markers</b></a></div>
 <div>Many plot types have a MarkerStyle which can be customized.</div>
+</div>
+</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='/cookbook/5.0/Styling/MarkerNames'><img class='img-fluid' src='/cookbook/5.0/images/MarkerNames.png' /></a>
+</div>
+<div class='col'>
+<div><a href='/cookbook/5.0/Styling/MarkerNames'><b>Marker Names</b></a></div>
+<div>Markers can be referred to by their name.</div>
 </div>
 </div>
 <div class='row my-4'>
@@ -217,6 +245,35 @@ SearchUrl: "/cookbook/5.0/search/"
 </div>
 </div>
 <h1>Axis</h1>
+<h2 class=''><a href='/cookbook/5.0/CustomizingGrids' class='text-dark'>Customizing Grids</a></h2>
+<div>Advanced customization of grid lines</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='/cookbook/5.0/CustomizingGrids/HideGrid'><img class='img-fluid' src='/cookbook/5.0/images/HideGrid.png' /></a>
+</div>
+<div class='col'>
+<div><a href='/cookbook/5.0/CustomizingGrids/HideGrid'><b>Hide Grid</b></a></div>
+<div>Grid lines can be hidden.</div>
+</div>
+</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='/cookbook/5.0/CustomizingGrids/GridCustom'><img class='img-fluid' src='/cookbook/5.0/images/GridCustom.png' /></a>
+</div>
+<div class='col'>
+<div><a href='/cookbook/5.0/CustomizingGrids/GridCustom'><b>Grid Customization</b></a></div>
+<div>Grid lines can be customized. Custom grid systems can be created to give developers full control of grid rendering, but the default grid can be interacted with to customize its appearance.</div>
+</div>
+</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='/cookbook/5.0/CustomizingGrids/GridAbove'><img class='img-fluid' src='/cookbook/5.0/images/GridAbove.png' /></a>
+</div>
+<div class='col'>
+<div><a href='/cookbook/5.0/CustomizingGrids/GridAbove'><b>Grid Above Data</b></a></div>
+<div>Grid lines are typically drawn beneath data, but grids can be configured to render on top of plottables too.</div>
+</div>
+</div>
 <h2 class=''><a href='/cookbook/5.0/CustomizingTicks' class='text-dark'>Customizing Ticks</a></h2>
 <div>Advanced customization of tick marks and tick labels</div>
 <div class='row my-4'>
@@ -259,6 +316,15 @@ SearchUrl: "/cookbook/5.0/search/"
 </div>
 <h2 class=''><a href='/cookbook/5.0/MultiAxis' class='text-dark'>Advanced Axis Features</a></h2>
 <div>Tick mark customization and creation of multi-Axis plots</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='/cookbook/5.0/MultiAxis/RightAxis'><img class='img-fluid' src='/cookbook/5.0/images/RightAxis.png' /></a>
+</div>
+<div class='col'>
+<div><a href='/cookbook/5.0/MultiAxis/RightAxis'><b>Right Axis</b></a></div>
+<div>New plots have one axis on every side. Axes on the right and top are invisible by default. To use the right axis, make it visible, then tell a plottable to use it. </div>
+</div>
+</div>
 <div class='row my-4'>
 <div class='col'>
 <a href='/cookbook/5.0/MultiAxis/MultiAxisQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/MultiAxisQuickstart.png' /></a>
@@ -407,10 +473,10 @@ SearchUrl: "/cookbook/5.0/search/"
 <div>Finance plots display price data binned into time ranges</div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Finance/OHLC'><img class='img-fluid' src='/cookbook/5.0/images/OHLC.png' /></a>
+<a href='/cookbook/5.0/Finance/OhlcChart'><img class='img-fluid' src='/cookbook/5.0/images/OhlcChart.png' /></a>
 </div>
 <div class='col'>
-<div><a href='/cookbook/5.0/Finance/OHLC'><b>OHLC Chart</b></a></div>
+<div><a href='/cookbook/5.0/Finance/OhlcChart'><b>OHLC Chart</b></a></div>
 <div>OHLC charts use symbols to display price data (open, high, low, and close) for specific time ranges.</div>
 </div>
 </div>
@@ -421,6 +487,24 @@ SearchUrl: "/cookbook/5.0/search/"
 <div class='col'>
 <div><a href='/cookbook/5.0/Finance/Candlestick'><b>Candlestick Chart</b></a></div>
 <div>Candlestick charts use symbols to display price data. The rectangle indicates open and close prices, and the center line indicates minimum and maximum price for the given time period. Color indicates whether the price increased or decreased between open and close.</div>
+</div>
+</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='/cookbook/5.0/Finance/FinanceSma'><img class='img-fluid' src='/cookbook/5.0/images/FinanceSma.png' /></a>
+</div>
+<div class='col'>
+<div><a href='/cookbook/5.0/Finance/FinanceSma'><b>Simple Moving Average</b></a></div>
+<div>Tools exist for creating simple moving average (SMA) curves and displaying them next to finanial data.</div>
+</div>
+</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='/cookbook/5.0/Finance/FinanceBollinger'><img class='img-fluid' src='/cookbook/5.0/images/FinanceBollinger.png' /></a>
+</div>
+<div class='col'>
+<div><a href='/cookbook/5.0/Finance/FinanceBollinger'><b>Bollinger Bands</b></a></div>
+<div>Tools exist for creating Bollinger Bands which display weighted moving mean and variance for time series financial data.</div>
 </div>
 </div>
 <h2 class=''><a href='/cookbook/5.0/Function' class='text-dark'>Function</a></h2>
@@ -479,7 +563,7 @@ SearchUrl: "/cookbook/5.0/search/"
 <a href='/cookbook/5.0/LinePlot/LinePlotLegendQWER'><img class='img-fluid' src='/cookbook/5.0/images/LinePlotLegendQWER.png' /></a>
 </div>
 <div class='col'>
-<div><a href='/cookbook/5.0/LinePlot/LinePlotLegendQWER'><b>Line Plot Legend 123</b></a></div>
+<div><a href='/cookbook/5.0/LinePlot/LinePlotLegendQWER'><b>Line Plot Legend</b></a></div>
 <div>Line plots with labels appear in the legend.</div>
 </div>
 </div>
@@ -532,15 +616,107 @@ SearchUrl: "/cookbook/5.0/search/"
 <div>Polygon plots can be fully customized.</div>
 </div>
 </div>
+<h2 class=''><a href='/cookbook/5.0/Scatter' class='text-dark'>Scatter Plot</a></h2>
+<div>Scatter plots display points at X/Y locations in coordinate space.</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='/cookbook/5.0/Scatter/ScatterQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/ScatterQuickstart.png' /></a>
+</div>
+<div class='col'>
+<div><a href='/cookbook/5.0/Scatter/ScatterQuickstart'><b>Scatter Plot Quickstart</b></a></div>
+<div>Scatter plots can be created from two arrays containing X and Y values.</div>
+</div>
+</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='/cookbook/5.0/Scatter/ScatterCoordinates'><img class='img-fluid' src='/cookbook/5.0/images/ScatterCoordinates.png' /></a>
+</div>
+<div class='col'>
+<div><a href='/cookbook/5.0/Scatter/ScatterCoordinates'><b>Scatter Plot Coordinates</b></a></div>
+<div>Scatter plots can be created from a collection of Coordinates.</div>
+</div>
+</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='/cookbook/5.0/Scatter/ScatterDataType'><img class='img-fluid' src='/cookbook/5.0/images/ScatterDataType.png' /></a>
+</div>
+<div class='col'>
+<div><a href='/cookbook/5.0/Scatter/ScatterDataType'><b>Scatter Plot Data Type</b></a></div>
+<div>Scatter plots can be created from any numeric data type, not just double.</div>
+</div>
+</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='/cookbook/5.0/Scatter/ScatterList'><img class='img-fluid' src='/cookbook/5.0/images/ScatterList.png' /></a>
+</div>
+<div class='col'>
+<div><a href='/cookbook/5.0/Scatter/ScatterList'><b>Scatter Plot of List Data</b></a></div>
+<div>Scatter plots can be created from Lists, but be very cafeful not to add or remove items while a render is occurring or you may throw an index exception. See documentation about the Render Lock system for details.</div>
+</div>
+</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='/cookbook/5.0/Scatter/ScatterStyling'><img class='img-fluid' src='/cookbook/5.0/images/ScatterStyling.png' /></a>
+</div>
+<div class='col'>
+<div><a href='/cookbook/5.0/Scatter/ScatterStyling'><b>Scatter Plot Styling</b></a></div>
+<div>Scatter plots can be extensively styled by interacting with the object that is returned after a scatter plot is added. Assign text to a scatter plot's Label property to allow it to appear in the legend.</div>
+</div>
+</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='/cookbook/5.0/Scatter/ScatterLinePatterns'><img class='img-fluid' src='/cookbook/5.0/images/ScatterLinePatterns.png' /></a>
+</div>
+<div class='col'>
+<div><a href='/cookbook/5.0/Scatter/ScatterLinePatterns'><b>Scatter Line Patterns</b></a></div>
+<div>Several line patterns are available</div>
+</div>
+</div>
 <h2 class=''><a href='/cookbook/5.0/Signal' class='text-dark'>Signal Plot</a></h2>
 <div>Signal plots display evenly-spaced data</div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Signal/Offset'><img class='img-fluid' src='/cookbook/5.0/images/Offset.png' /></a>
+<a href='/cookbook/5.0/Signal/SignalQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/SignalQuickstart.png' /></a>
 </div>
 <div class='col'>
-<div><a href='/cookbook/5.0/Signal/Offset'><b>Offset</b></a></div>
+<div><a href='/cookbook/5.0/Signal/SignalQuickstart'><b>Signal Plot Quickstart</b></a></div>
+<div>Signal plots are best for extremely large datasets. They use render using special optimizations that allow highspeed interactivity with plots containing millions of data points.</div>
+</div>
+</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='/cookbook/5.0/Signal/SignalStyling'><img class='img-fluid' src='/cookbook/5.0/images/SignalStyling.png' /></a>
+</div>
+<div class='col'>
+<div><a href='/cookbook/5.0/Signal/SignalStyling'><b>Signal Plot Styling</b></a></div>
+<div>Signal plots can be styled in a variety of ways.</div>
+</div>
+</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='/cookbook/5.0/Signal/SignalOffset'><img class='img-fluid' src='/cookbook/5.0/images/SignalOffset.png' /></a>
+</div>
+<div class='col'>
+<div><a href='/cookbook/5.0/Signal/SignalOffset'><b>Signal Offset</b></a></div>
 <div>Signal plots can be offset by a given X and Y value.</div>
+</div>
+</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='/cookbook/5.0/Signal/SignalMarkerSize'><img class='img-fluid' src='/cookbook/5.0/images/SignalMarkerSize.png' /></a>
+</div>
+<div class='col'>
+<div><a href='/cookbook/5.0/Signal/SignalMarkerSize'><b>Signal Marker Size</b></a></div>
+<div>Signal plots can have markers displayed at each point which are only visible when the plot is zoomed in.</div>
+</div>
+</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='/cookbook/5.0/Signal/SignalRenderIndexes'><img class='img-fluid' src='/cookbook/5.0/images/SignalRenderIndexes.png' /></a>
+</div>
+<div class='col'>
+<div><a href='/cookbook/5.0/Signal/SignalRenderIndexes'><b>Partial Signal Rendering</b></a></div>
+<div>Even if a signal plot references a large array of data, rendering can be limited to a range of values. If set,only the range of data between the minimum and maximum render indexes will be displayed.</div>
 </div>
 </div>
 <h2 class=''><a href='/cookbook/5.0/Text' class='text-dark'>Text</a></h2>

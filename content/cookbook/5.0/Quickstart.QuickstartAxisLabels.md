@@ -4,7 +4,7 @@ Description: Axis labels can be extensively customized.
 URL: /cookbook/5.0/Quickstart/QuickstartAxisLabels/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "ScottPlot 5 Quickstart", "Axis Labels"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Quickstart", "/cookbook/5.0/Quickstart/QuickstartAxisLabels"]
-Date: 2023-12-28
+Date: 2024-01-08
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"
@@ -23,14 +23,15 @@ Axis labels can be extensively customized.
 [![](/cookbook/5.0/images/QuickstartAxisLabels.png)](/cookbook/5.0/images/QuickstartAxisLabels.png)
 
 ```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
 ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin(51));
 myPlot.Add.Signal(Generate.Cos(51));
 
-myPlot.XAxis.Label.Text = "Horizonal Axis";
-myPlot.YAxis.Label.Text = "Vertical Axis";
-myPlot.TitlePanel.Label.Text = "Plot Title";
+myPlot.Axes.Bottom.Label.Text = "Horizonal Axis";
+myPlot.Axes.Left.Label.Text = "Vertical Axis";
+myPlot.Axes.Left.Label.Text = "Plot Title";
 
 myPlot.SavePng("demo.png");
 

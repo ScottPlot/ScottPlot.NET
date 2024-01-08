@@ -4,7 +4,7 @@ Description: Advanced customization of tick marks and tick labels
 URL: /cookbook/5.0/CustomizingTicks/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Customizing Ticks"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/CustomizingTicks"]
-Date: 2023-12-28
+Date: 2024-01-08
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"
@@ -25,6 +25,7 @@ Users can customize the logic used to create tick labels from tick positions.
 [![](/cookbook/5.0/images/CustomTickFormatter.png)](/cookbook/5.0/images/CustomTickFormatter.png)
 
 ```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
 ScottPlot.Plot myPlot = new();
 
 double[] xs = ScottPlot.Generate.Consecutive(100, 1, -50);
@@ -49,7 +50,7 @@ ScottPlot.TickGenerators.NumericAutomatic myTickGenerator = new()
 };
 
 // tell an axis to use the custom tick generator
-myPlot.XAxis.TickGenerator = myTickGenerator;
+myPlot.Axes.Bottom.TickGenerator = myTickGenerator;
 
 myPlot.SavePng("demo.png");
 
@@ -63,12 +64,13 @@ Tick generators determine where ticks are to be placed and also contain logic fo
 [![](/cookbook/5.0/images/AltTickGen.png)](/cookbook/5.0/images/AltTickGen.png)
 
 ```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
 ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(ScottPlot.Generate.Sin(51));
 myPlot.Add.Signal(ScottPlot.Generate.Cos(51));
 
-myPlot.XAxis.TickGenerator = new ScottPlot.TickGenerators.NumericFixedInterval(11);
+myPlot.Axes.Bottom.TickGenerator = new ScottPlot.TickGenerators.NumericFixedInterval(11);
 
 myPlot.SavePng("demo.png");
 
@@ -82,6 +84,7 @@ Users can define ticks to be placed at specific locations.
 [![](/cookbook/5.0/images/CustomTicks.png)](/cookbook/5.0/images/CustomTicks.png)
 
 ```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
 ScottPlot.Plot myPlot = new();
 
 // display sample data
@@ -105,7 +108,7 @@ ticks.AddMinor(42);
 ticks.AddMinor(45);
 
 // tell the horizontal axis to use the custom tick genrator
-myPlot.BottomAxis.TickGenerator = ticks;
+myPlot.Axes.Bottom.TickGenerator = ticks;
 
 myPlot.SavePng("demo.png");
 

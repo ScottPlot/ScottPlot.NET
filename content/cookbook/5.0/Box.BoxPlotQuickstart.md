@@ -4,7 +4,7 @@ Description: Box plots can be created individually and added to the plot.
 URL: /cookbook/5.0/Box/BoxPlotQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Box Plot", "Box Plot Quickstart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Box", "/cookbook/5.0/Box/BoxPlotQuickstart"]
-Date: 2023-12-28
+Date: 2024-01-08
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"
@@ -23,6 +23,7 @@ Box plots can be created individually and added to the plot.
 [![](/cookbook/5.0/images/BoxPlotQuickstart.png)](/cookbook/5.0/images/BoxPlotQuickstart.png)
 
 ```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
 ScottPlot.Plot myPlot = new();
 
 ScottPlot.Box box = new()
@@ -37,7 +38,7 @@ ScottPlot.Box box = new()
 
 myPlot.Add.Box(box);
 
-myPlot.SetAxisLimits(0, 10, 70, 110);
+myPlot.Axes.SetLimits(0, 10, 70, 110);
 
 myPlot.SavePng("demo.png");
 

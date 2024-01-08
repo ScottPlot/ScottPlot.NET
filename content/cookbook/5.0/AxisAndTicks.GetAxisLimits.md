@@ -4,7 +4,7 @@ Description: The current axis limits can be read in multiple ways.
 URL: /cookbook/5.0/AxisAndTicks/GetAxisLimits/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Axis and Ticks", "Read Axis Limits"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AxisAndTicks", "/cookbook/5.0/AxisAndTicks/GetAxisLimits"]
-Date: 2023-12-28
+Date: 2024-01-08
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"
@@ -23,17 +23,18 @@ The current axis limits can be read in multiple ways.
 [![](/cookbook/5.0/images/GetAxisLimits.png)](/cookbook/5.0/images/GetAxisLimits.png)
 
 ```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
 ScottPlot.Plot myPlot = new();
 
-myPlot.Add.Signal(ScottPlot.Generate.Sin(51));
-myPlot.Add.Signal(ScottPlot.Generate.Cos(51));
+myPlot.Add.Signal(Generate.Sin(51));
+myPlot.Add.Signal(Generate.Cos(51));
 
 // Interact with a specific axis
-double top = myPlot.YAxis.Max;
-double bottom = myPlot.YAxis.Min;
+double top = myPlot.Axes.Left.Max;
+double bottom = myPlot.Axes.Left.Min;
 
 // Call a helper function
-AxisLimits limits = myPlot.GetAxisLimits();
+AxisLimits limits = myPlot.Axes.GetLimits();
 double left = limits.Rect.Left;
 double center = limits.Rect.HorizontalCenter;
 

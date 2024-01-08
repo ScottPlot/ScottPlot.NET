@@ -4,7 +4,7 @@ Description: Many plot types have a MarkerStyle which can be customized.
 URL: /cookbook/5.0/Styling/Markers/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Styling Plots", "Markers"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Styling", "/cookbook/5.0/Styling/Markers"]
-Date: 2023-12-28
+Date: 2024-01-08
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"
@@ -23,29 +23,19 @@ Many plot types have a MarkerStyle which can be customized.
 [![](/cookbook/5.0/images/Markers.png)](/cookbook/5.0/images/Markers.png)
 
 ```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
 ScottPlot.Plot myPlot = new();
-
-int count = 21;
-double[] xs = ScottPlot.Generate.Consecutive(count);
-double[] ys = ScottPlot.Generate.Sin(count);
 
 MarkerShape[] markerShapes = Enum.GetValues<MarkerShape>().ToArray();
 
 for (int i = 0; i < markerShapes.Length; i++)
 {
-    double[] data = ys.Select(y => markerShapes.Length - y + i).ToArray();
-
-    var scatter = myPlot.Add.Scatter(xs, data);
-
-    scatter.Label = markerShapes[i].ToString();
-
-    scatter.MarkerStyle = new MarkerStyle(
-        shape: markerShapes[i],
-        size: 10,
-        color: scatter.LineStyle.Color);
+    double[] xs = Generate.Consecutive(20);
+    double[] ys = Generate.Sin(20, offset: markerShapes.Length - i);
+    var scatter = myPlot.Add.Scatter(xs, ys);
+    scatter.MarkerStyle.Shape = markerShapes[i];
+    scatter.MarkerStyle.Size = 10;
 }
-
-myPlot.Legend.IsVisible = true;
 
 myPlot.SavePng("demo.png");
 

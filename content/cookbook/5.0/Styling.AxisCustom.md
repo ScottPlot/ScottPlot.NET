@@ -4,7 +4,7 @@ Description: Axis labels, tick marks, and frame can all be customized.
 URL: /cookbook/5.0/Styling/AxisCustom/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Styling Plots", "Axis Customization"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Styling", "/cookbook/5.0/Styling/AxisCustom"]
-Date: 2023-12-28
+Date: 2024-01-08
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"
@@ -23,33 +23,34 @@ Axis labels, tick marks, and frame can all be customized.
 [![](/cookbook/5.0/images/AxisCustom.png)](/cookbook/5.0/images/AxisCustom.png)
 
 ```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
 ScottPlot.Plot myPlot = new();
 
-myPlot.Add.Signal(ScottPlot.Generate.Sin(51));
-myPlot.Add.Signal(ScottPlot.Generate.Cos(51));
+myPlot.Add.Signal(Generate.Sin(51));
+myPlot.Add.Signal(Generate.Cos(51));
 
-myPlot.TitlePanel.Label.Text = "Plot Title";
-myPlot.TitlePanel.Label.Font.Color = Colors.RebeccaPurple;
-myPlot.TitlePanel.Label.Font.Size = 32;
-myPlot.TitlePanel.Label.Font.Name = Fonts.Serif;
-myPlot.TitlePanel.Label.Rotation = -5;
-myPlot.TitlePanel.Label.Font.Bold = false;
+myPlot.Axes.Title.Label.Text = "Plot Title";
+myPlot.Axes.Title.Label.Font.Color = Colors.RebeccaPurple;
+myPlot.Axes.Title.Label.Font.Size = 32;
+myPlot.Axes.Title.Label.Font.Name = Fonts.Serif;
+myPlot.Axes.Title.Label.Rotation = -5;
+myPlot.Axes.Title.Label.Font.Bold = false;
 
-myPlot.YAxis.Label.Text = "Vertical Axis";
-myPlot.YAxis.Label.ForeColor = Colors.Magenta;
-myPlot.YAxis.Label.Italic = true;
+myPlot.Axes.Left.Label.Text = "Vertical Axis";
+myPlot.Axes.Left.Label.ForeColor = Colors.Magenta;
+myPlot.Axes.Left.Label.Italic = true;
 
-myPlot.XAxis.Label.Text = "Horizontal Axis";
-myPlot.XAxis.Label.Bold = false;
-myPlot.XAxis.Label.FontName = Fonts.Monospace;
+myPlot.Axes.Bottom.Label.Text = "Horizontal Axis";
+myPlot.Axes.Bottom.Label.Bold = false;
+myPlot.Axes.Bottom.Label.FontName = Fonts.Monospace;
 
-myPlot.XAxis.MajorTickLength = 10;
-myPlot.XAxis.MajorTickWidth = 3;
-myPlot.XAxis.MajorTickColor = Colors.Magenta;
-myPlot.XAxis.MinorTickLength = 5;
-myPlot.XAxis.MinorTickWidth = 0.5f;
-myPlot.XAxis.MinorTickColor = Colors.Green;
-myPlot.XAxis.FrameLineStyle.Color = Colors.LightBlue;
+myPlot.Axes.Bottom.MajorTickLength = 10;
+myPlot.Axes.Bottom.MajorTickWidth = 3;
+myPlot.Axes.Bottom.MajorTickColor = Colors.Magenta;
+myPlot.Axes.Bottom.MinorTickLength = 5;
+myPlot.Axes.Bottom.MinorTickWidth = 0.5f;
+myPlot.Axes.Bottom.MinorTickColor = Colors.Green;
+myPlot.Axes.Bottom.FrameLineStyle.Color = Colors.LightBlue;
 
 myPlot.SavePng("demo.png");
 

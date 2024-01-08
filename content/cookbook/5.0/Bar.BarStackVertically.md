@@ -4,7 +4,7 @@ Description: Bars can be positioned on top of each other.
 URL: /cookbook/5.0/Bar/BarStackVertically/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Bar Plot", "Stacked Bar Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Bar", "/cookbook/5.0/Bar/BarStackVertically"]
-Date: 2023-12-28
+Date: 2024-01-08
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"
@@ -23,6 +23,7 @@ Bars can be positioned on top of each other.
 [![](/cookbook/5.0/images/BarStackVertically.png)](/cookbook/5.0/images/BarStackVertically.png)
 
 ```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
 ScottPlot.Plot myPlot = new();
 
 Color[] colors = {
@@ -52,9 +53,12 @@ Tick[] ticks =
     new(2, "Summer"),
 };
 
-myPlot.BottomAxis.TickGenerator = new ScottPlot.TickGenerators.NumericManual(ticks);
-myPlot.BottomAxis.MajorTickLength = 0;
-myPlot.DisableGrid();
+myPlot.Axes.Bottom.TickGenerator = new ScottPlot.TickGenerators.NumericManual(ticks);
+myPlot.Axes.Bottom.MajorTickLength = 0;
+myPlot.HideGrid();
+
+// tell the plot to autoscale with no padding beneath the bars
+myPlot.Axes.Margins(bottom: 0);
 
 myPlot.SavePng("demo.png");
 

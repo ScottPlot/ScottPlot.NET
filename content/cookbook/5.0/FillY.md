@@ -4,7 +4,7 @@ Description: FillY plots display the vertical range between two Y values at defi
 URL: /cookbook/5.0/FillY/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "FillY plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/FillY"]
-Date: 2023-12-28
+Date: 2024-01-08
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"
@@ -25,6 +25,7 @@ FillY plots can be created from X, Y1, and Y2 arrays.
 [![](/cookbook/5.0/images/FillYFromArrays.png)](/cookbook/5.0/images/FillYFromArrays.png)
 
 ```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
 ScottPlot.Plot myPlot = new();
 
 RandomDataGenerator dataGen = new(0);
@@ -49,6 +50,7 @@ FillY plots can be created from two scatter plots that share the same X values.
 [![](/cookbook/5.0/images/FillYFromScatters.png)](/cookbook/5.0/images/FillYFromScatters.png)
 
 ```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
 ScottPlot.Plot myPlot = new();
 
 RandomDataGenerator dataGen = new(0);
@@ -76,6 +78,7 @@ FillY plots can be created from data of any type if a conversion function is sup
 [![](/cookbook/5.0/images/Function.png)](/cookbook/5.0/images/Function.png)
 
 ```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
 ScottPlot.Plot myPlot = new();
 
 // create source data in a nonstandard data type
@@ -107,6 +110,7 @@ FillY plots can be customized using public properties.
 [![](/cookbook/5.0/images/Styling.png)](/cookbook/5.0/images/Styling.png)
 
 ```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
 ScottPlot.Plot myPlot = new();
 
 RandomDataGenerator dataGen = new(0);
@@ -125,7 +129,7 @@ xyy.MarkerStyle.Size = 8;
 
 xyy.LineStyle.AntiAlias = true;
 xyy.LineStyle.Color = Colors.DarkBlue;
-xyy.LineStyle.Pattern = LinePattern.Dot;
+xyy.LineStyle.Pattern = LinePattern.Dotted;
 xyy.LineStyle.Width = 2;
 xyy.Label = "xyy";
 

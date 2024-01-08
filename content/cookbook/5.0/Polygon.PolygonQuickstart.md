@@ -4,7 +4,7 @@ Description: Polygon plots can be added from a series of vertices, and must be i
 URL: /cookbook/5.0/Polygon/PolygonQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Polygon Plot", "Polygon Plot Quickstart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Polygon", "/cookbook/5.0/Polygon/PolygonQuickstart"]
-Date: 2023-12-28
+Date: 2024-01-08
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"
@@ -23,6 +23,7 @@ Polygon plots can be added from a series of vertices, and must be in clockwise o
 [![](/cookbook/5.0/images/PolygonQuickstart.png)](/cookbook/5.0/images/PolygonQuickstart.png)
 
 ```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
 ScottPlot.Plot myPlot = new();
 
 Coordinates[] vertices = new Coordinates[]
@@ -34,7 +35,7 @@ Coordinates[] vertices = new Coordinates[]
     new Coordinates(1,   0)
 };
 myPlot.Add.Polygon(vertices);
-myPlot.AutoScale();
+myPlot.Axes.AutoScale();
 
 myPlot.SavePng("demo.png");
 

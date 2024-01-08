@@ -4,7 +4,7 @@ Description: How to customize plots
 URL: /cookbook/5.0/Styling/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Styling Plots"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Styling"]
-Date: 2023-12-28
+Date: 2024-01-08
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"
@@ -25,15 +25,16 @@ Plots contain many objects which can be customized individually by assigining to
 [![](/cookbook/5.0/images/StyleClass.png)](/cookbook/5.0/images/StyleClass.png)
 
 ```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
 ScottPlot.Plot myPlot = new();
 
-myPlot.Add.Signal(ScottPlot.Generate.Sin(51));
-myPlot.Add.Signal(ScottPlot.Generate.Cos(51));
+myPlot.Add.Signal(Generate.Sin(51));
+myPlot.Add.Signal(Generate.Cos(51));
 
 // visible items have public properties that can be customized
-myPlot.XAxis.Label.Text = "Horizontal Axis";
-myPlot.YAxis.Label.Text = "Vertical Axis";
-myPlot.TitlePanel.Label.Text = "Plot Title";
+myPlot.Axes.Bottom.Label.Text = "Horizontal Axis";
+myPlot.Axes.Left.Label.Text = "Vertical Axis";
+myPlot.Axes.Title.Label.Text = "Plot Title";
 
 // the Style object contains helper methods to easily style many items at once
 myPlot.Style.Background(figure: Color.FromHex("#07263b"), data: Color.FromHex("#0b3049"));
@@ -52,78 +53,34 @@ Axis labels, tick marks, and frame can all be customized.
 [![](/cookbook/5.0/images/AxisCustom.png)](/cookbook/5.0/images/AxisCustom.png)
 
 ```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
 ScottPlot.Plot myPlot = new();
 
-myPlot.Add.Signal(ScottPlot.Generate.Sin(51));
-myPlot.Add.Signal(ScottPlot.Generate.Cos(51));
+myPlot.Add.Signal(Generate.Sin(51));
+myPlot.Add.Signal(Generate.Cos(51));
 
-myPlot.TitlePanel.Label.Text = "Plot Title";
-myPlot.TitlePanel.Label.Font.Color = Colors.RebeccaPurple;
-myPlot.TitlePanel.Label.Font.Size = 32;
-myPlot.TitlePanel.Label.Font.Name = Fonts.Serif;
-myPlot.TitlePanel.Label.Rotation = -5;
-myPlot.TitlePanel.Label.Font.Bold = false;
+myPlot.Axes.Title.Label.Text = "Plot Title";
+myPlot.Axes.Title.Label.Font.Color = Colors.RebeccaPurple;
+myPlot.Axes.Title.Label.Font.Size = 32;
+myPlot.Axes.Title.Label.Font.Name = Fonts.Serif;
+myPlot.Axes.Title.Label.Rotation = -5;
+myPlot.Axes.Title.Label.Font.Bold = false;
 
-myPlot.YAxis.Label.Text = "Vertical Axis";
-myPlot.YAxis.Label.ForeColor = Colors.Magenta;
-myPlot.YAxis.Label.Italic = true;
+myPlot.Axes.Left.Label.Text = "Vertical Axis";
+myPlot.Axes.Left.Label.ForeColor = Colors.Magenta;
+myPlot.Axes.Left.Label.Italic = true;
 
-myPlot.XAxis.Label.Text = "Horizontal Axis";
-myPlot.XAxis.Label.Bold = false;
-myPlot.XAxis.Label.FontName = Fonts.Monospace;
+myPlot.Axes.Bottom.Label.Text = "Horizontal Axis";
+myPlot.Axes.Bottom.Label.Bold = false;
+myPlot.Axes.Bottom.Label.FontName = Fonts.Monospace;
 
-myPlot.XAxis.MajorTickLength = 10;
-myPlot.XAxis.MajorTickWidth = 3;
-myPlot.XAxis.MajorTickColor = Colors.Magenta;
-myPlot.XAxis.MinorTickLength = 5;
-myPlot.XAxis.MinorTickWidth = 0.5f;
-myPlot.XAxis.MinorTickColor = Colors.Green;
-myPlot.XAxis.FrameLineStyle.Color = Colors.LightBlue;
-
-myPlot.SavePng("demo.png");
-
-```
-
-
-## Grid Customization
-
-Grid lines can be customized. Custom grid systems can be created to give developers full control of grid rendering, but the default grid can be interacted with to customize its appearance.
-
-[![](/cookbook/5.0/images/GridCustom.png)](/cookbook/5.0/images/GridCustom.png)
-
-```cs
-ScottPlot.Plot myPlot = new();
-
-myPlot.Add.Signal(ScottPlot.Generate.Sin(51));
-myPlot.Add.Signal(ScottPlot.Generate.Cos(51));
-
-ScottPlot.Grids.DefaultGrid grid = myPlot.GetDefaultGrid();
-
-grid.MajorLineStyle.Color = Colors.Green.WithOpacity(.5);
-grid.MinorLineStyle.Color = Colors.Green.WithOpacity(.1);
-grid.MinorLineStyle.Width = 1;
-
-myPlot.SavePng("demo.png");
-
-```
-
-
-## Grid Above Data
-
-Grid lines are typically drawn beneath data, but grids can be configured to render on top of plottables too.
-
-[![](/cookbook/5.0/images/GridAbove.png)](/cookbook/5.0/images/GridAbove.png)
-
-```cs
-ScottPlot.Plot myPlot = new();
-
-var sig = myPlot.Add.Signal(ScottPlot.Generate.Sin(51));
-sig.LineStyle.Width = 10;
-
-ScottPlot.Grids.DefaultGrid grid = myPlot.GetDefaultGrid();
-grid.MajorLineStyle.Width = 3;
-grid.MajorLineStyle.Color = Colors.WhiteSmoke;
-grid.IsBeneathPlottables = false;
+myPlot.Axes.Bottom.MajorTickLength = 10;
+myPlot.Axes.Bottom.MajorTickWidth = 3;
+myPlot.Axes.Bottom.MajorTickColor = Colors.Magenta;
+myPlot.Axes.Bottom.MinorTickLength = 5;
+myPlot.Axes.Bottom.MinorTickWidth = 0.5f;
+myPlot.Axes.Bottom.MinorTickColor = Colors.Green;
+myPlot.Axes.Bottom.FrameLineStyle.Color = Colors.LightBlue;
 
 myPlot.SavePng("demo.png");
 
@@ -137,15 +94,16 @@ A palette is a set of colors, and the Plot's palette defines the default colors 
 [![](/cookbook/5.0/images/Palette.png)](/cookbook/5.0/images/Palette.png)
 
 ```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
 ScottPlot.Plot myPlot = new();
 
 myPlot.Palette = new ScottPlot.Palettes.Nord();
 
 for (int i = 0; i < 5; i++)
 {
-    double[] data = ScottPlot.Generate.Sin(100, phase: -i / 20.0f);
+    double[] data = Generate.Sin(100, phase: -i / 20.0f);
     var sig = myPlot.Add.Signal(data);
-    sig.LineStyle.Width = 3;
+    sig.LineWidth = 3;
 }
 
 myPlot.SavePng("demo.png");
@@ -160,29 +118,51 @@ Many plot types have a MarkerStyle which can be customized.
 [![](/cookbook/5.0/images/Markers.png)](/cookbook/5.0/images/Markers.png)
 
 ```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
 ScottPlot.Plot myPlot = new();
-
-int count = 21;
-double[] xs = ScottPlot.Generate.Consecutive(count);
-double[] ys = ScottPlot.Generate.Sin(count);
 
 MarkerShape[] markerShapes = Enum.GetValues<MarkerShape>().ToArray();
 
 for (int i = 0; i < markerShapes.Length; i++)
 {
-    double[] data = ys.Select(y => markerShapes.Length - y + i).ToArray();
-
-    var scatter = myPlot.Add.Scatter(xs, data);
-
-    scatter.Label = markerShapes[i].ToString();
-
-    scatter.MarkerStyle = new MarkerStyle(
-        shape: markerShapes[i],
-        size: 10,
-        color: scatter.LineStyle.Color);
+    double[] xs = Generate.Consecutive(20);
+    double[] ys = Generate.Sin(20, offset: markerShapes.Length - i);
+    var scatter = myPlot.Add.Scatter(xs, ys);
+    scatter.MarkerStyle.Shape = markerShapes[i];
+    scatter.MarkerStyle.Size = 10;
 }
 
-myPlot.Legend.IsVisible = true;
+myPlot.SavePng("demo.png");
+
+```
+
+
+## Marker Names
+
+Markers can be referred to by their name.
+
+[![](/cookbook/5.0/images/MarkerNames.png)](/cookbook/5.0/images/MarkerNames.png)
+
+```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
+ScottPlot.Plot myPlot = new();
+
+MarkerShape[] markerShapes = Enum.GetValues<MarkerShape>().ToArray();
+
+for (int i = 0; i < markerShapes.Length; i++)
+{
+    var mp = myPlot.Add.Marker(x: i, y: 0);
+    mp.MarkerStyle.Shape = markerShapes[i];
+    mp.MarkerStyle.Size = 10;
+
+    var txt = myPlot.Add.Text(markerShapes[i].ToString(), i, 0.15);
+    txt.Label.Rotation = -90;
+    txt.Label.Alignment = Alignment.MiddleLeft;
+}
+
+myPlot.Title("Marker Names");
+myPlot.Axes.SetLimits(-1, markerShapes.Length, -1, 4);
+myPlot.HideGrid();
 
 myPlot.SavePng("demo.png");
 
@@ -196,27 +176,32 @@ Many plot types have a LineStyle which can be customized.
 [![](/cookbook/5.0/images/LineStyles.png)](/cookbook/5.0/images/LineStyles.png)
 
 ```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
 ScottPlot.Plot myPlot = new();
-
-int count = 21;
-double[] xs = ScottPlot.Generate.Consecutive(count);
-double[] ys = ScottPlot.Generate.Sin(count);
 
 LinePattern[] linePatterns = Enum.GetValues<LinePattern>().ToArray();
 
 for (int i = 0; i < linePatterns.Length; i++)
 {
-    double[] data = ys.Select(y => linePatterns.Length - y + i).ToArray();
+    LinePattern pattern = linePatterns[i];
 
-    var scatter = myPlot.Add.Scatter(xs, data);
+    var line = myPlot.Add.Line(0, -i, 1, -i);
+    line.Pattern = pattern;
+    line.Width = 2;
+    line.Color = Colors.Black;
 
-    scatter.Label = linePatterns[i].ToString();
-    scatter.LineStyle.Width = 2;
-    scatter.LineStyle.Pattern = linePatterns[i];
-    scatter.MarkerStyle = MarkerStyle.None;
+    var txt = myPlot.Add.Text(pattern.ToString(), 1.1, -i);
+    txt.Size = 18;
+    txt.Bold = true;
+    txt.Color = Colors.Black;
+    txt.Label.Alignment = Alignment.MiddleLeft;
 }
 
-myPlot.Legend.IsVisible = true;
+myPlot.Axes.Margins(right: 1);
+myPlot.HideGrid();
+myPlot.Layout.Frameless();
+
+myPlot.ShowLegend();
 
 myPlot.SavePng("demo.png");
 
@@ -230,11 +215,12 @@ All components of an image can be scaled up or down in size by adjusting the Sca
 [![](/cookbook/5.0/images/Scaling.png)](/cookbook/5.0/images/Scaling.png)
 
 ```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
 ScottPlot.Plot myPlot = new();
 
 myPlot.ScaleFactor = 2;
-myPlot.Add.Signal(ScottPlot.Generate.Sin());
-myPlot.Add.Signal(ScottPlot.Generate.Cos());
+myPlot.Add.Signal(Generate.Sin());
+myPlot.Add.Signal(Generate.Cos());
 
 myPlot.SavePng("demo.png");
 

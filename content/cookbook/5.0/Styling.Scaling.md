@@ -4,7 +4,7 @@ Description: All components of an image can be scaled up or down in size by adju
 URL: /cookbook/5.0/Styling/Scaling/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Styling Plots", "Scaling"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Styling", "/cookbook/5.0/Styling/Scaling"]
-Date: 2023-12-28
+Date: 2024-01-08
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"
@@ -23,11 +23,12 @@ All components of an image can be scaled up or down in size by adjusting the Sca
 [![](/cookbook/5.0/images/Scaling.png)](/cookbook/5.0/images/Scaling.png)
 
 ```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
 ScottPlot.Plot myPlot = new();
 
 myPlot.ScaleFactor = 2;
-myPlot.Add.Signal(ScottPlot.Generate.Sin());
-myPlot.Add.Signal(ScottPlot.Generate.Cos());
+myPlot.Add.Signal(Generate.Sin());
+myPlot.Add.Signal(Generate.Cos());
 
 myPlot.SavePng("demo.png");
 

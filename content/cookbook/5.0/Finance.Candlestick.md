@@ -4,7 +4,7 @@ Description: Candlestick charts use symbols to display price data. The rectangle
 URL: /cookbook/5.0/Finance/Candlestick/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Financial Plot", "Candlestick Chart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Finance", "/cookbook/5.0/Finance/Candlestick"]
-Date: 2023-12-28
+Date: 2024-01-08
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"
@@ -23,12 +23,12 @@ Candlestick charts use symbols to display price data. The rectangle indicates op
 [![](/cookbook/5.0/images/Candlestick.png)](/cookbook/5.0/images/Candlestick.png)
 
 ```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
 ScottPlot.Plot myPlot = new();
 
-ScottPlot.RandomDataGenerator gen = new(0);
-var prices = gen.RandomOHLCs(30);
+var prices = Generate.RandomOHLCs(30);
 myPlot.Add.Candlestick(prices);
-myPlot.AxisStyler.DateTimeTicks(Edge.Bottom);
+myPlot.Axes.DateTimeTicks(Edge.Bottom);
 
 myPlot.SavePng("demo.png");
 

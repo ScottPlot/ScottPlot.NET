@@ -4,7 +4,7 @@ Description: Heatmaps can be created from 2D arrays
 URL: /cookbook/5.0/Heatmap/HeatmapQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Heatmap", "Heatmap Quickstart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Heatmap", "/cookbook/5.0/Heatmap/HeatmapQuickstart"]
-Date: 2023-12-28
+Date: 2024-01-08
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"
@@ -23,6 +23,7 @@ Heatmaps can be created from 2D arrays
 [![](/cookbook/5.0/images/HeatmapQuickstart.png)](/cookbook/5.0/images/HeatmapQuickstart.png)
 
 ```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
 ScottPlot.Plot myPlot = new();
 
 double[,] data = SampleData.MonaLisa();

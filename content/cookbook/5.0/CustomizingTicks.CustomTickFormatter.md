@@ -4,7 +4,7 @@ Description: Users can customize the logic used to create tick labels from tick 
 URL: /cookbook/5.0/CustomizingTicks/CustomTickFormatter/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Customizing Ticks", "Custom Tick Formatters"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/CustomizingTicks", "/cookbook/5.0/CustomizingTicks/CustomTickFormatter"]
-Date: 2023-12-28
+Date: 2024-01-08
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"
@@ -23,6 +23,7 @@ Users can customize the logic used to create tick labels from tick positions.
 [![](/cookbook/5.0/images/CustomTickFormatter.png)](/cookbook/5.0/images/CustomTickFormatter.png)
 
 ```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
 ScottPlot.Plot myPlot = new();
 
 double[] xs = ScottPlot.Generate.Consecutive(100, 1, -50);
@@ -47,7 +48,7 @@ ScottPlot.TickGenerators.NumericAutomatic myTickGenerator = new()
 };
 
 // tell an axis to use the custom tick generator
-myPlot.XAxis.TickGenerator = myTickGenerator;
+myPlot.Axes.Bottom.TickGenerator = myTickGenerator;
 
 myPlot.SavePng("demo.png");
 

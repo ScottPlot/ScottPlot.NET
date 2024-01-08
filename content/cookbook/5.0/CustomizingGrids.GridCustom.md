@@ -1,10 +1,10 @@
 ---
 Title: Grid Customization - ScottPlot 5.0 Cookbook
 Description: Grid lines can be customized. Custom grid systems can be created to give developers full control of grid rendering, but the default grid can be interacted with to customize its appearance.
-URL: /cookbook/5.0/Styling/GridCustom/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Styling Plots", "Grid Customization"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Styling", "/cookbook/5.0/Styling/GridCustom"]
-Date: 2023-12-28
+URL: /cookbook/5.0/CustomizingGrids/GridCustom/
+BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Customizing Grids", "Grid Customization"]
+BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/CustomizingGrids", "/cookbook/5.0/CustomizingGrids/GridCustom"]
+Date: 2024-01-08
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"
@@ -23,6 +23,7 @@ Grid lines can be customized. Custom grid systems can be created to give develop
 [![](/cookbook/5.0/images/GridCustom.png)](/cookbook/5.0/images/GridCustom.png)
 
 ```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
 ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(ScottPlot.Generate.Sin(51));

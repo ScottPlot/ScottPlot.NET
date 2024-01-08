@@ -4,7 +4,7 @@ Description: Axis labels are the text labels centered on each axis. The text ins
 URL: /cookbook/5.0/AxisAndTicks/AxisLabels/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Axis and Ticks", "Adding Axis Labels"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AxisAndTicks", "/cookbook/5.0/AxisAndTicks/AxisLabels"]
-Date: 2023-12-28
+Date: 2024-01-08
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"
@@ -23,13 +23,14 @@ Axis labels are the text labels centered on each axis. The text inside these lab
 [![](/cookbook/5.0/images/AxisLabels.png)](/cookbook/5.0/images/AxisLabels.png)
 
 ```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
 ScottPlot.Plot myPlot = new();
 
-myPlot.Add.Signal(ScottPlot.Generate.Sin(51));
-myPlot.Add.Signal(ScottPlot.Generate.Cos(51));
+myPlot.Add.Signal(Generate.Sin(51));
+myPlot.Add.Signal(Generate.Cos(51));
 
-myPlot.XAxis.Label.Text = "Horizontal Axis";
-myPlot.YAxis.Label.Text = "Vertical Axis";
+myPlot.Axes.Bottom.Label.Text = "Horizontal Axis";
+myPlot.Axes.Left.Label.Text = "Vertical Axis";
 
 myPlot.SavePng("demo.png");
 

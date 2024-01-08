@@ -4,7 +4,7 @@ Description: FillY plots can be created from data of any type if a conversion fu
 URL: /cookbook/5.0/FillY/Function/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "FillY plot", "FillY with Custom Type"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/FillY", "/cookbook/5.0/FillY/Function"]
-Date: 2023-12-28
+Date: 2024-01-08
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"
@@ -23,6 +23,7 @@ FillY plots can be created from data of any type if a conversion function is sup
 [![](/cookbook/5.0/images/Function.png)](/cookbook/5.0/images/Function.png)
 
 ```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
 ScottPlot.Plot myPlot = new();
 
 // create source data in a nonstandard data type

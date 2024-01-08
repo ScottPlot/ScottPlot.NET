@@ -4,7 +4,7 @@ Description: Finance plots display price data binned into time ranges
 URL: /cookbook/5.0/Finance/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Financial Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Finance"]
-Date: 2023-12-28
+Date: 2024-01-08
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"
@@ -22,15 +22,15 @@ SearchUrl: "/cookbook/5.0/search/"
 
 OHLC charts use symbols to display price data (open, high, low, and close) for specific time ranges.
 
-[![](/cookbook/5.0/images/OHLC.png)](/cookbook/5.0/images/OHLC.png)
+[![](/cookbook/5.0/images/OhlcChart.png)](/cookbook/5.0/images/OhlcChart.png)
 
 ```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
 ScottPlot.Plot myPlot = new();
 
-ScottPlot.RandomDataGenerator gen = new(0);
-var prices = gen.RandomOHLCs(30);
+var prices = Generate.RandomOHLCs(30);
 myPlot.Add.OHLC(prices);
-myPlot.AxisStyler.DateTimeTicks(Edge.Bottom);
+myPlot.Axes.DateTimeTicks(Edge.Bottom);
 
 myPlot.SavePng("demo.png");
 
@@ -44,12 +44,86 @@ Candlestick charts use symbols to display price data. The rectangle indicates op
 [![](/cookbook/5.0/images/Candlestick.png)](/cookbook/5.0/images/Candlestick.png)
 
 ```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
 ScottPlot.Plot myPlot = new();
 
-ScottPlot.RandomDataGenerator gen = new(0);
-var prices = gen.RandomOHLCs(30);
+var prices = Generate.RandomOHLCs(30);
 myPlot.Add.Candlestick(prices);
-myPlot.AxisStyler.DateTimeTicks(Edge.Bottom);
+myPlot.Axes.DateTimeTicks(Edge.Bottom);
+
+myPlot.SavePng("demo.png");
+
+```
+
+
+## Simple Moving Average
+
+Tools exist for creating simple moving average (SMA) curves and displaying them next to finanial data.
+
+[![](/cookbook/5.0/images/FinanceSma.png)](/cookbook/5.0/images/FinanceSma.png)
+
+```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
+ScottPlot.Plot myPlot = new();
+
+// generate and plot time series price data
+var prices = Generate.RandomOHLCs(75);
+myPlot.Add.Candlestick(prices);
+myPlot.Axes.DateTimeTicks(Edge.Bottom);
+
+// calculate SMA and display it as a scatter plot
+int[] windowSizes = { 3, 8, 20 };
+foreach (int windowSize in windowSizes)
+{
+    ScottPlot.Finance.SimpleMovingAverage sma = new(prices, windowSize);
+    var sp = myPlot.Add.Scatter(sma.Dates, sma.Means);
+    sp.Label = $"SMA {windowSize}";
+    sp.MarkerSize = 0;
+    sp.LineWidth = 3;
+    sp.Color = Colors.Navy.WithAlpha(1 - windowSize / 30.0);
+}
+
+myPlot.ShowLegend();
+
+myPlot.SavePng("demo.png");
+
+```
+
+
+## Bollinger Bands
+
+Tools exist for creating Bollinger Bands which display weighted moving mean and variance for time series financial data.
+
+[![](/cookbook/5.0/images/FinanceBollinger.png)](/cookbook/5.0/images/FinanceBollinger.png)
+
+```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
+ScottPlot.Plot myPlot = new();
+
+// generate and plot time series price data
+var prices = Generate.RandomOHLCs(100);
+myPlot.Add.Candlestick(prices);
+myPlot.Axes.DateTimeTicks(Edge.Bottom);
+
+// calculate Bollinger Bands
+ScottPlot.Finance.BollingerBands bb = new(prices, 20);
+
+// display center line (mean) as a solid line
+var sp1 = myPlot.Add.Scatter(bb.Dates, bb.Means);
+sp1.MarkerSize = 0;
+sp1.Color = Colors.Navy;
+
+// display upper bands (positive variance) as a dashed line
+var sp2 = myPlot.Add.Scatter(bb.Dates, bb.UpperValues);
+sp2.MarkerSize = 0;
+sp2.Color = Colors.Navy;
+sp2.LineStyle.Pattern = LinePattern.Dotted;
+
+// display lower bands (positive variance) as a dashed line
+var sp3 = myPlot.Add.Scatter(bb.Dates, bb.LowerValues);
+sp3.MarkerSize = 0;
+sp3.Color = Colors.Navy;
+sp3.LineStyle.Pattern = LinePattern.Dotted;
 
 myPlot.SavePng("demo.png");
 

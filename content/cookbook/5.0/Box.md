@@ -4,7 +4,7 @@ Description: Box plots show a distribution at a glance
 URL: /cookbook/5.0/Box/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Box Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Box"]
-Date: 2023-12-28
+Date: 2024-01-08
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"
@@ -25,6 +25,7 @@ Box plots can be created individually and added to the plot.
 [![](/cookbook/5.0/images/BoxPlotQuickstart.png)](/cookbook/5.0/images/BoxPlotQuickstart.png)
 
 ```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
 ScottPlot.Plot myPlot = new();
 
 ScottPlot.Box box = new()
@@ -39,7 +40,7 @@ ScottPlot.Box box = new()
 
 myPlot.Add.Box(box);
 
-myPlot.SetAxisLimits(0, 10, 70, 110);
+myPlot.Axes.SetLimits(0, 10, 70, 110);
 
 myPlot.SavePng("demo.png");
 
@@ -53,6 +54,7 @@ Each collection of boxes added to the plot gets styled the same and appears as a
 [![](/cookbook/5.0/images/BoxPlotGroups.png)](/cookbook/5.0/images/BoxPlotGroups.png)
 
 ```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
 ScottPlot.Plot myPlot = new();
 
 List<ScottPlot.Box> boxes1 = new() {

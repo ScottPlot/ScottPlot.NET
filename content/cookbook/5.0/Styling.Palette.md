@@ -4,7 +4,7 @@ Description: A palette is a set of colors, and the Plot's palette defines the de
 URL: /cookbook/5.0/Styling/Palette/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Styling Plots", "Palettes"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Styling", "/cookbook/5.0/Styling/Palette"]
-Date: 2023-12-28
+Date: 2024-01-08
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"
@@ -23,15 +23,16 @@ A palette is a set of colors, and the Plot's palette defines the default colors 
 [![](/cookbook/5.0/images/Palette.png)](/cookbook/5.0/images/Palette.png)
 
 ```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
 ScottPlot.Plot myPlot = new();
 
 myPlot.Palette = new ScottPlot.Palettes.Nord();
 
 for (int i = 0; i < 5; i++)
 {
-    double[] data = ScottPlot.Generate.Sin(100, phase: -i / 20.0f);
+    double[] data = Generate.Sin(100, phase: -i / 20.0f);
     var sig = myPlot.Add.Signal(data);
-    sig.LineStyle.Width = 3;
+    sig.LineWidth = 3;
 }
 
 myPlot.SavePng("demo.png");

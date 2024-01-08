@@ -4,7 +4,7 @@ Description: A survey of basic functionality in ScottPlot 5
 URL: /cookbook/5.0/Quickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "ScottPlot 5 Quickstart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Quickstart"]
-Date: 2023-12-28
+Date: 2024-01-08
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"
@@ -25,6 +25,7 @@ Display paired X/Y data as a scatter plot.
 [![](/cookbook/5.0/images/QuickstartScatter.png)](/cookbook/5.0/images/QuickstartScatter.png)
 
 ```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
 ScottPlot.Plot myPlot = new();
 
 double[] dataX = { 1, 2, 3, 4, 5 };
@@ -43,6 +44,7 @@ Functions that add things to plots return the plottables they create. Interact w
 [![](/cookbook/5.0/images/CustomizingPlottables.png)](/cookbook/5.0/images/CustomizingPlottables.png)
 
 ```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
 ScottPlot.Plot myPlot = new();
 
 double[] dataX = { 1, 2, 3, 4, 5 };
@@ -65,6 +67,7 @@ Signal plots are optimized for displaying evenly spaced data.
 [![](/cookbook/5.0/images/QuickstartSignal.png)](/cookbook/5.0/images/QuickstartSignal.png)
 
 ```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
 ScottPlot.Plot myPlot = new();
 
 double[] sin = Generate.Sin(51);
@@ -84,6 +87,7 @@ Signal plots can interactively display millions of data points in real time. Dou
 [![](/cookbook/5.0/images/SignalPerformance.png)](/cookbook/5.0/images/SignalPerformance.png)
 
 ```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
 ScottPlot.Plot myPlot = new();
 
 double[] data = Generate.RandomWalk(1_000_000);
@@ -102,14 +106,15 @@ Axis labels can be extensively customized.
 [![](/cookbook/5.0/images/QuickstartAxisLabels.png)](/cookbook/5.0/images/QuickstartAxisLabels.png)
 
 ```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
 ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin(51));
 myPlot.Add.Signal(Generate.Cos(51));
 
-myPlot.XAxis.Label.Text = "Horizonal Axis";
-myPlot.YAxis.Label.Text = "Vertical Axis";
-myPlot.TitlePanel.Label.Text = "Plot Title";
+myPlot.Axes.Bottom.Label.Text = "Horizonal Axis";
+myPlot.Axes.Left.Label.Text = "Vertical Axis";
+myPlot.Axes.Left.Label.Text = "Plot Title";
 
 myPlot.SavePng("demo.png");
 
@@ -123,6 +128,7 @@ A legend displays plottables in a key along the edge of a plot. Most plottables 
 [![](/cookbook/5.0/images/Legend.png)](/cookbook/5.0/images/Legend.png)
 
 ```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
 ScottPlot.Plot myPlot = new();
 
 var sig1 = myPlot.Add.Signal(Generate.Sin(51));

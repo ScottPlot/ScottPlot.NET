@@ -4,7 +4,7 @@ Description: Text formatting can be extensively customized.
 URL: /cookbook/5.0/Text/Formatting/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Text", "Text Formatting"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Text", "/cookbook/5.0/Text/Formatting"]
-Date: 2023-12-28
+Date: 2024-01-08
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"
@@ -23,6 +23,7 @@ Text formatting can be extensively customized.
 [![](/cookbook/5.0/images/Formatting.png)](/cookbook/5.0/images/Formatting.png)
 
 ```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
 ScottPlot.Plot myPlot = new();
 
 var text = myPlot.Add.Text("Hello, World", 42, 69);

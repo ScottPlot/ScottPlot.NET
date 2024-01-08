@@ -1,16 +1,16 @@
 ---
-Title: Offset - ScottPlot 5.0 Cookbook
+Title: Signal Offset - ScottPlot 5.0 Cookbook
 Description: Signal plots can be offset by a given X and Y value.
-URL: /cookbook/5.0/Signal/Offset/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Signal Plot", "Offset"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Signal", "/cookbook/5.0/Signal/Offset"]
-Date: 2023-12-28
+URL: /cookbook/5.0/Signal/SignalOffset/
+BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Signal Plot", "Signal Offset"]
+BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Signal", "/cookbook/5.0/Signal/SignalOffset"]
+Date: 2024-01-08
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"
 ---
 
-# Offset
+# Signal Offset
 
 
 
@@ -20,9 +20,10 @@ SearchUrl: "/cookbook/5.0/search/"
 
 Signal plots can be offset by a given X and Y value.
 
-[![](/cookbook/5.0/images/Offset.png)](/cookbook/5.0/images/Offset.png)
+[![](/cookbook/5.0/images/SignalOffset.png)](/cookbook/5.0/images/SignalOffset.png)
 
 ```cs
+ScottPlot.Version.ShouldBe(5, 0, 11);
 ScottPlot.Plot myPlot = new();
 
 double[] values = ScottPlot.Generate.Sin(51);
