@@ -1,7 +1,7 @@
 ---
 Title: "Scatter Plot Labels - ScottPlot 4.1 Cookbook"
 Description: "Individual points can be labeled."
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/scatter_labels/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Scatter Plot", "Scatter Plot Labels"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/scatter_labels.png"
 Individual points can be labeled.
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 double[] xs = { 18.5, 20.6, 22.3, 24.5, 26.6, 15, 15 };

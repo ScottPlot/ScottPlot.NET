@@ -1,7 +1,7 @@
 ---
 Title: "Multiplier Notation - ScottPlot 4.1 Cookbook"
 Description: "Multiplier notation keeps tick labels small when plotting large data values. This style is also called engineering notation or scientific notation."
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/ticks_multiplier/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Advanced Axis Features", "Multiplier Notation"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/ticks_multiplier.png"
 Multiplier notation keeps tick labels small when plotting large data values. This style is also called engineering notation or scientific notation.
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 plt.AddLine(-1e5, -1e10, 1e5, 1e10);

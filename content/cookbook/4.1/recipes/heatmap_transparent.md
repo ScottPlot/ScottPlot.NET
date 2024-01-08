@@ -1,7 +1,7 @@
 ---
 Title: "Heatmap with Empty Squares - ScottPlot 4.1 Cookbook"
 Description: "You can use a 2D array of nullable doubles to indicate some squares do not contain data. This allows the user to display heatmaps with transparency and implement non-rectangular heatmaps."
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/heatmap_transparent/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Heatmap", "Heatmap with Empty Squares"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/heatmap_transparent.png"
 You can use a 2D array of nullable doubles to indicate some squares do not contain data. This allows the user to display heatmaps with transparency and implement non-rectangular heatmaps.
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 double?[,] intensities = {

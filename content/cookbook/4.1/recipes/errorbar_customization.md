@@ -1,7 +1,7 @@
 ---
 Title: "Customization - ScottPlot 4.1 Cookbook"
 Description: "You can customize the colour, cap size, and line width of the error bars."
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/errorbar_customization/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Error Bar", "Customization"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/errorbar_customization.png"
 You can customize the colour, cap size, and line width of the error bars.
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 Random rand = new Random(0);

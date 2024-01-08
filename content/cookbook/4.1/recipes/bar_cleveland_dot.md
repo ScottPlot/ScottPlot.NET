@@ -1,7 +1,7 @@
 ---
 Title: "Cleveland Dot Plot - ScottPlot 4.1 Cookbook"
 Description: "Cleveland Dot Plots allow comparing two categories in situations where a Bar Plot may be crowded."
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/bar_cleveland_dot/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Bar Graph", "Cleveland Dot Plot"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/bar_cleveland_dot.png"
 Cleveland Dot Plots allow comparing two categories in situations where a Bar Plot may be crowded.
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 // Data from https://footystats.org/england/premier-league/home-away-league-table

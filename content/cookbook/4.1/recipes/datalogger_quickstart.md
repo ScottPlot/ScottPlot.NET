@@ -1,7 +1,7 @@
 ---
 Title: "DataLogger - ScottPlot 4.1 Cookbook"
 Description: "A DataLogger is a plot type designed for growing datasets. Unlike most other plot types, the DataLogger can automatically expand the axis limits to accommodate new data as it is added."
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/datalogger_quickstart/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Data Logger", "DataLogger"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/datalogger_quickstart.png"
 A DataLogger is a plot type designed for growing datasets. Unlike most other plot types, the DataLogger can automatically expand the axis limits to accommodate new data as it is added.
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 var logger = plt.AddDataLogger();

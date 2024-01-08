@@ -1,7 +1,7 @@
 ---
 Title: "Custom Slice Labels - ScottPlot 4.1 Cookbook"
 Description: "Custom slice labels can be used to display values using custom formats"
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/pie_customlabels/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Pie Chart", "Custom Slice Labels"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/pie_customlabels.png"
 Custom slice labels can be used to display values using custom formats
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 double[] values = { 778, 43, 283, 76, 184 };

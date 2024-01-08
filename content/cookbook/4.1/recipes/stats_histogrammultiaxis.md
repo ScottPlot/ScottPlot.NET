@@ -1,7 +1,7 @@
 ---
 Title: "Histogram Multi-Axis - ScottPlot 4.1 Cookbook"
 Description: "This example demonstrates how to display a histogram counts on the primary Y axis and the probability curve on the secondary Y axis."
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/stats_histogrammultiaxis/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Statistics", "Histogram Multi-Axis"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/stats_histogrammultiaxis.png"
 This example demonstrates how to display a histogram counts on the primary Y axis and the probability curve on the secondary Y axis.
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 // create a histogram with a fixed number of bins

@@ -1,7 +1,7 @@
 ---
 Title: "No Axis Lines - ScottPlot 4.1 Cookbook"
 Description: "A radar chart can have no drawn axis as well."
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/radar_nolines/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Radar Chart", "No Axis Lines"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/radar_nolines.png"
 A radar chart can have no drawn axis as well.
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 double[,] values = {

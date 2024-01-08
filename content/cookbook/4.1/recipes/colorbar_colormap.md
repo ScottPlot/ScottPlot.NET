@@ -1,7 +1,7 @@
 ---
 Title: "Colorbar for Colormap - ScottPlot 4.1 Cookbook"
 Description: "By default colorbars use the Viridis colormap, but this behavior can be customized and many colormaps are available."
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/colorbar_colormap/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Colorbar", "Colorbar for Colormap"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/colorbar_colormap.png"
 By default colorbars use the Viridis colormap, but this behavior can be customized and many colormaps are available.
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 plt.AddColorbar(Drawing.Colormap.Turbo);

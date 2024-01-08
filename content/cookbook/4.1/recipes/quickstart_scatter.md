@@ -1,7 +1,7 @@
 ---
 Title: "Scatter Plot - ScottPlot 4.1 Cookbook"
 Description: "Scatter plots have paired X/Y points."
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/quickstart_scatter/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Quickstart", "Scatter Plot"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/quickstart_scatter.png"
 Scatter plots have paired X/Y points.
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 // sample data

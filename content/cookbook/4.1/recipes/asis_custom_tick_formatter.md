@@ -1,7 +1,7 @@
 ---
 Title: "Custom Tick Formatter - ScottPlot 4.1 Cookbook"
 Description: "For ultimate control over tick label format you can create a custom formatter function and use that to convert positions to labels. This allows logic to be used to format tick labels."
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/asis_custom_tick_formatter/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Advanced Axis Features", "Custom Tick Formatter"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/asis_custom_tick_formatter.png"
 For ultimate control over tick label format you can create a custom formatter function and use that to convert positions to labels. This allows logic to be used to format tick labels.
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 plt.AddSignal(ScottPlot.DataGen.Sin(51));

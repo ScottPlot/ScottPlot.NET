@@ -1,7 +1,7 @@
 ---
 Title: "Scatter Plot with Smooth Lines - ScottPlot 4.1 Cookbook"
 Description: "Lines drawn between scatter plot points are typically connected with straight lines, but the Smooth property can be enabled to connect points with curves instead."
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/scatter_smooth/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Scatter Plot", "Scatter Plot with Smooth Lines"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/scatter_smooth.png"
 Lines drawn between scatter plot points are typically connected with straight lines, but the Smooth property can be enabled to connect points with curves instead.
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 Random rand = new(1234);

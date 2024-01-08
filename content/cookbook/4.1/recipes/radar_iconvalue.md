@@ -1,7 +1,7 @@
 ---
 Title: "Categories with images - ScottPlot 4.1 Cookbook"
 Description: "Images can be displayed on the arms of the radar chart. When using images, labels will be ignored so setting them will have no effect."
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/radar_iconvalue/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Radar Chart", "Categories with images"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/radar_iconvalue.png"
 Images can be displayed on the arms of the radar chart. When using images, labels will be ignored so setting them will have no effect.
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 double[,] values = {

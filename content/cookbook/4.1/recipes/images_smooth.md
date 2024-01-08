@@ -1,7 +1,7 @@
 ---
 Title: "Image Anti-Aliasing - ScottPlot 4.1 Cookbook"
 Description: "Images have an option to enable or disable anti-aliasing"
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/images_smooth/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Image", "Image Anti-Aliasing"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/images_smooth.png"
 Images have an option to enable or disable anti-aliasing
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 Bitmap bmp = DataGen.SampleImage();

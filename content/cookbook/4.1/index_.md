@@ -1,7 +1,7 @@
 ---
 Title: "ScottPlot 4.1 Cookbook"
 Description: "Example plots shown next to the code used to create them"
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook"]
@@ -10,7 +10,7 @@ SearchUrl: "/cookbook/4.1/search/"
 ---
 
 # ScottPlot 4.0 Cookbook
-Generated using ScottPlot 4.1.70 on 12/28/2023 <br />
+Generated using ScottPlot 4.1.70 on 1/7/2024 <br />
 <h4>Customization</h4>
 <ul>
 <li><a href='#quickstart'>Quickstart</a> - Simple examples designed to help new users get familiar with ScottPlot.</li>
@@ -261,6 +261,7 @@ Generated using ScottPlot 4.1.70 on 12/28/2023 <br />
 <div class='row py-3'>  <div class='col-4'>    <a href='category/plottable-heatmap/#heatmap-with-colorbar'><img src='images/heatmap_colorbar_thumb.jpg' style='max-width: 100%'></a>  </div>  <div class='col'>    <div class='fw-bold'><a href='category/plottable-heatmap/#heatmap-with-colorbar'>Heatmap with Colorbar</a></div>    <div>Colorbars are often added when heatmaps are used.</div>  </div></div>
 <div class='row py-3'>  <div class='col-4'>    <a href='category/plottable-heatmap/#smooth-heatmap'><img src='images/heatmap_smooth_thumb.jpg' style='max-width: 100%'></a>  </div>  <div class='col'>    <div class='fw-bold'><a href='category/plottable-heatmap/#smooth-heatmap'>Smooth Heatmap</a></div>    <div>Heatmaps display values as rectangles with sharp borders by default. Enabling the Smooth feature uses bicubic interpolation to display the heatmap as a smooth gradient between values.</div>  </div></div>
 <div class='row py-3'>  <div class='col-4'>    <a href='category/plottable-heatmap/#heatmap-image'><img src='images/heatmap_image_thumb.jpg' style='max-width: 100%'></a>  </div>  <div class='col'>    <div class='fw-bold'><a href='category/plottable-heatmap/#heatmap-image'>Heatmap Image</a></div>    <div>Image data can be plotted using the heatmap plot type.</div>  </div></div>
+<div class='row py-3'>  <div class='col-4'>    <a href='category/plottable-heatmap/#frameless-heatmap'><img src='images/heatmap_frameless_thumb.jpg' style='max-width: 100%'></a>  </div>  <div class='col'>    <div class='fw-bold'><a href='category/plottable-heatmap/#frameless-heatmap'>Frameless Heatmap</a></div>    <div>Disable the frame and set margins to zero to create a heatmap plot that fills the entire image.</div>  </div></div>
 <div class='row py-3'>  <div class='col-4'>    <a href='category/plottable-heatmap/#heatmap-opacity'><img src='images/heatmap_opacity_thumb.jpg' style='max-width: 100%'></a>  </div>  <div class='col'>    <div class='fw-bold'><a href='category/plottable-heatmap/#heatmap-opacity'>Heatmap Opacity</a></div>    <div>Heatmaps have an Opacity property that can be set anywhere from 0 (transparent) to 1 (opaque).</div>  </div></div>
 <div class='row py-3'>  <div class='col-4'>    <a href='category/plottable-heatmap/#single-color-heatmap'><img src='images/heatmap_single_color_thumb.jpg' style='max-width: 100%'></a>  </div>  <div class='col'>    <div class='fw-bold'><a href='category/plottable-heatmap/#single-color-heatmap'>Single Color Heatmap</a></div>    <div>A single-color heatmap can be created where cell transparency is defined by a 2D array containing values 0 to 1.</div>  </div></div>
 <div class='row py-3'>  <div class='col-4'>    <a href='category/plottable-heatmap/#2d-waveform'><img src='images/heatmap_2dwaveform_thumb.jpg' style='max-width: 100%'></a>  </div>  <div class='col'>    <div class='fw-bold'><a href='category/plottable-heatmap/#2d-waveform'>2D Waveform</a></div>    <div>This example demonstrates a heatmap with 1000 tiles</div>  </div></div>

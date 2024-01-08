@@ -1,7 +1,7 @@
 ---
 Title: "Scale Limits - ScottPlot 4.1 Cookbook"
 Description: "Heatmap colormap scale can use a defined min/max value."
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/heatmap_limitscale/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Heatmap", "Scale Limits"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/heatmap_limitscale.png"
 Heatmap colormap scale can use a defined min/max value.
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 double[,] intensities = new double[100, 100];

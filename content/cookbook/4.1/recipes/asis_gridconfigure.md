@@ -1,7 +1,7 @@
 ---
 Title: "Grid Style - ScottPlot 4.1 Cookbook"
 Description: "Common grid line configurations are available."
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/asis_gridconfigure/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Axis and Ticks", "Grid Style"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/asis_gridconfigure.png"
 Common grid line configurations are available.
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 // plot sample data

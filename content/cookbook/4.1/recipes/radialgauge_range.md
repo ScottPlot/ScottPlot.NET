@@ -1,7 +1,7 @@
 ---
 Title: "Gauge Angular Range - ScottPlot 4.1 Cookbook"
 Description: "By default gauges are full circles (360 degrees) but smaller gauges can be created by customizing the gauge size."
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/radialgauge_range/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Radial Gauge", "Gauge Angular Range"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/radialgauge_range.png"
 By default gauges are full circles (360 degrees) but smaller gauges can be created by customizing the gauge size.
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 plt.Palette = ScottPlot.Palette.Nord;

@@ -1,7 +1,7 @@
 ---
 Title: "Polar Coordinates - ScottPlot 4.1 Cookbook"
 Description: "A helper function converts radius and theta arrays into Cartesian coordinates suitable for plotting with traditioanl plot types."
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/asis_polar/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Advanced Axis Features", "Polar Coordinates"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/asis_polar.png"
 A helper function converts radius and theta arrays into Cartesian coordinates suitable for plotting with traditioanl plot types.
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 // create data with polar coordinates

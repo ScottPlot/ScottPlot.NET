@@ -1,7 +1,7 @@
 ---
 Title: "Axis Line Vector - ScottPlot 4.1 Cookbook"
 Description: "An AxisLineVector allows to setup a series of VLines or HLines, without hassle.These lines can optionally be dragged as their counterparts"
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/axisline_vector/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Axis Line and Span", "Axis Line Vector"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/axisline_vector.png"
 An AxisLineVector allows to setup a series of VLines or HLines, without hassle.These lines can optionally be dragged as their counterparts
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 Random rand = new Random(0);

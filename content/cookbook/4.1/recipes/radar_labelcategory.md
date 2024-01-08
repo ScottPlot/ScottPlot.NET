@@ -1,7 +1,7 @@
 ---
 Title: "Labeled Categories - ScottPlot 4.1 Cookbook"
 Description: "Category labels can be displayed on the radar chart."
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/radar_labelcategory/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Radar Chart", "Labeled Categories"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/radar_labelcategory.png"
 Category labels can be displayed on the radar chart.
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 double[,] values = {

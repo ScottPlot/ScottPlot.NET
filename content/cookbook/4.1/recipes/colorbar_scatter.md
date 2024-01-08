@@ -1,7 +1,7 @@
 ---
 Title: "Scatter Plot with Colorbar - ScottPlot 4.1 Cookbook"
 Description: "This example shows how to add differently colored markers to the plot to simulate a scatter plot with points colored according to a colorbar. Note that the colormap generates the colors, and that a colorbar just displays a colormap"
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/colorbar_scatter/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Colorbar", "Scatter Plot with Colorbar"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/colorbar_scatter.png"
 This example shows how to add differently colored markers to the plot to simulate a scatter plot with points colored according to a colorbar. Note that the colormap generates the colors, and that a colorbar just displays a colormap
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 var cmap = ScottPlot.Drawing.Colormap.Viridis;

@@ -1,7 +1,7 @@
 ---
 Title: "Colorbar - ScottPlot 4.1 Cookbook"
 Description: "A colorbar displays a colormap beside the data area. Colorbars are typically added to plots containing heatmaps."
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/colorbar_quickstart/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Colorbar", "Colorbar"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/colorbar_quickstart.png"
 A colorbar displays a colormap beside the data area. Colorbars are typically added to plots containing heatmaps.
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 plt.AddColorbar();

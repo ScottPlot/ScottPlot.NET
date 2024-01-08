@@ -1,7 +1,7 @@
 ---
 Title: "2D Waveform - ScottPlot 4.1 Cookbook"
 Description: "This example demonstrates a heatmap with 1000 tiles"
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/heatmap_2dwaveform/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Heatmap", "2D Waveform"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/heatmap_2dwaveform.png"
 This example demonstrates a heatmap with 1000 tiles
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 int width = 100;

@@ -1,7 +1,7 @@
 ---
 Title: "Axis Span - ScottPlot 4.1 Cookbook"
 Description: "Axis spans shade a portion of one axis. Axis spans extend to negative and positive infinity on the other axis."
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/axisspan_quickstart/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Axis Line and Span", "Axis Span"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/axisspan_quickstart.png"
 Axis spans shade a portion of one axis. Axis spans extend to negative and positive infinity on the other axis.
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 // plot sample data

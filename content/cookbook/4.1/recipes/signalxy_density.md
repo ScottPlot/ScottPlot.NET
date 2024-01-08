@@ -1,7 +1,7 @@
 ---
 Title: "Different Densities - ScottPlot 4.1 Cookbook"
 Description: "Signal with mised low and high density data"
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/signalxy_density/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "SignalXY", "Different Densities"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/signalxy_density.png"
 Signal with mised low and high density data
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 Random rand = new(0);

@@ -1,7 +1,7 @@
 ---
 Title: "Signal Plot with Smooth Lines - ScottPlot 4.1 Cookbook"
 Description: "The Smooth field controls whether signal plot lines are drawn with smooth or straight line."
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/signal_smooth/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Signal Plot", "Signal Plot with Smooth Lines"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/signal_smooth.png"
 The Smooth field controls whether signal plot lines are drawn with smooth or straight line.
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 double[] data = DataGen.RandomWalk(1000);

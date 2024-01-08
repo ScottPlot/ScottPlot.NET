@@ -1,7 +1,7 @@
 ---
 Title: "Scatter Plot with Errorbars - ScottPlot 4.1 Cookbook"
 Description: "An array of values can be supplied for error bars and redering options can be customized as desired"
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/scatter_errorbar/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Scatter Plot", "Scatter Plot with Errorbars"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/scatter_errorbar.png"
 An array of values can be supplied for error bars and redering options can be customized as desired
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 int pointCount = 20;

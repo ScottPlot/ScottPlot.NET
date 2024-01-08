@@ -1,7 +1,7 @@
 ---
 Title: "Heatmap Quickstart - ScottPlot 4.1 Cookbook"
 Description: "Heatmaps display a 2D array using a colormap."
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/heatmap_quickstart/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Heatmap", "Heatmap Quickstart"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/heatmap_quickstart.png"
 Heatmaps display a 2D array using a colormap.
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 double[,] data2D = { { 1, 2, 3 },

@@ -1,7 +1,7 @@
 ---
 Title: "Step Display - ScottPlot 4.1 Cookbook"
 Description: "Signal plots can be styled as step plots where points are connected by right angles instead of straight lines."
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/signal_step/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Signal Plot", "Step Display"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/signal_step.png"
 Signal plots can be styled as step plots where points are connected by right angles instead of straight lines.
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 double[] ys = DataGen.Sin(51);

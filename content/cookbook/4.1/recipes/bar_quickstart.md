@@ -1,7 +1,7 @@
 ---
 Title: "Bar Graph - ScottPlot 4.1 Cookbook"
 Description: "A simple bar graph can be created from a series of values. By default values are palced at X positions 0, 1, 2, etc."
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/bar_quickstart/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Bar Graph", "Bar Graph"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/bar_quickstart.png"
 A simple bar graph can be created from a series of values. By default values are palced at X positions 0, 1, 2, etc.
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 // create sample data

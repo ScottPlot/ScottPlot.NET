@@ -1,7 +1,7 @@
 ---
 Title: "Plot a Range of Points - ScottPlot 4.1 Cookbook"
 Description: "It is sometimes useful to only display values within a range of the source data array."
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/signal_range/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Signal Plot", "Plot a Range of Points"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/signal_range.png"
 It is sometimes useful to only display values within a range of the source data array.
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 // create an array larger than we intend to display

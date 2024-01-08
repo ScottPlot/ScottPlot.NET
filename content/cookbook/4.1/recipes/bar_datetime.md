@@ -1,7 +1,7 @@
 ---
 Title: "DateTime Bar Plot - ScottPlot 4.1 Cookbook"
 Description: "Bars have a default width of 1.0, but when using DateTime axis this means bars are one day wide. To plot DateTime data you may need to manually set the width of a bar to a desired size (in fractions of a day)."
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/bar_datetime/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Bar Graph", "DateTime Bar Plot"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/bar_datetime.png"
 Bars have a default width of 1.0, but when using DateTime axis this means bars are one day wide. To plot DateTime data you may need to manually set the width of a bar to a desired size (in fractions of a day).
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 // let's plot 24 hours of data

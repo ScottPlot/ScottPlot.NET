@@ -1,7 +1,7 @@
 ---
 Title: "SignalXY with Fill - ScottPlot 4.1 Cookbook"
 Description: "Various options allow shading above/below the signal data."
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/signalxy_fillbelow/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "SignalXY", "SignalXY with Fill"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/signalxy_fillbelow.png"
 Various options allow shading above/below the signal data.
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 (double[] xs, double[] ys) = DataGen.RandomWalk2D(new Random(0), 5_000);

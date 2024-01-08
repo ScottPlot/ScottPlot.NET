@@ -1,7 +1,7 @@
 ---
 Title: "Axis Visibility - ScottPlot 4.1 Cookbook"
 Description: "Visibility of axes can be toggled. In this example an additional Y axis is added but the primary Y axis is hidden. The result is a plot that appears to only have one Y axis."
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/multiaxis_invisible/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Multi-Axis", "Axis Visibility"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/multiaxis_invisible.png"
 Visibility of axes can be toggled. In this example an additional Y axis is added but the primary Y axis is hidden. The result is a plot that appears to only have one Y axis.
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 // plot one set of data using the primary Y axis

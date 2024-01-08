@@ -1,7 +1,7 @@
 ---
 Title: "Advanced Grid Customization - ScottPlot 4.1 Cookbook"
 Description: "Grid lines can be extensively customized using various configuration methods."
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/asis_gridadvanced/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Advanced Axis Features", "Advanced Grid Customization"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/asis_gridadvanced.png"
 Grid lines can be extensively customized using various configuration methods.
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 // plot sample data

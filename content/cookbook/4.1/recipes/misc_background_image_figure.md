@@ -1,7 +1,7 @@
 ---
 Title: "Figure Background Image - ScottPlot 4.1 Cookbook"
 Description: "A backgorund image can be drawn behind the entire figure. If you do this you likely want to make your data background transparent."
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/misc_background_image_figure/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Style", "Figure Background Image"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/misc_background_image_figure.png"
 A backgorund image can be drawn behind the entire figure. If you do this you likely want to make your data background transparent.
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 plt.AddSignal(DataGen.Sin(51), 1, Color.Yellow);

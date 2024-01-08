@@ -1,7 +1,7 @@
 ---
 Title: "Ellipse Styling - ScottPlot 4.1 Cookbook"
 Description: "Ellipses styles can be extensively customized"
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/ellipse_styling/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Ellipse", "Ellipse Styling"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/ellipse_styling.png"
 Ellipses styles can be extensively customized
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 var el = plt.AddCircle(0, 0, 5);

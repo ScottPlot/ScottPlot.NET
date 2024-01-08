@@ -1,7 +1,7 @@
 ---
 Title: "Defined DateTime Spacing - ScottPlot 4.1 Cookbook"
 Description: "This example shows how to use a fixed inter-tick distance for a DateTime axis"
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/ticks_defineddatetimespace/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Advanced Axis Features", "Defined DateTime Spacing"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/ticks_defineddatetimespace.png"
 This example shows how to use a fixed inter-tick distance for a DateTime axis
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 // create a series of dates

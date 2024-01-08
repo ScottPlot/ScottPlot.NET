@@ -1,7 +1,7 @@
 ---
 Title: "Custom Hatching (patterns) - ScottPlot 4.1 Cookbook"
 Description: "Coxcomb charts allow custom hatching of their slices."
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/coxcomb_hatch/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Coxcomb Chart", "Custom Hatching (patterns)"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/coxcomb_hatch.png"
 Coxcomb charts allow custom hatching of their slices.
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 double[] values = { 11, 16, 7, 3, 14 };

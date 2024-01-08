@@ -1,7 +1,7 @@
 ---
 Title: "Palette Colormap - ScottPlot 4.1 Cookbook"
 Description: "Heatmap data can be presented using a colormap defined by a fixed set of colors."
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/heatmap_palette/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Heatmap", "Palette Colormap"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/heatmap_palette.png"
 Heatmap data can be presented using a colormap defined by a fixed set of colors.
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 double[,] data = DataGen.SampleImageData();

@@ -1,7 +1,7 @@
 ---
 Title: "Custom Fonts - ScottPlot 4.1 Cookbook"
 Description: "You can pass in a Font to further customize font options"
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/text_fonts/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Text", "Custom Fonts"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/text_fonts.png"
 You can pass in a Font to further customize font options
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 // display some interesting data in the background

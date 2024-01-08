@@ -1,7 +1,7 @@
 ---
 Title: "One Axis Only - ScottPlot 4.1 Cookbook"
 Description: "Axis ticks and lines can be disabled. Note that hiding them in this way preserves their whitespace. Setting XAxis.IsVisible to false would collapse the axis entirely. "
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/one_axisonly/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Axis and Ticks", "One Axis Only"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/one_axisonly.png"
 Axis ticks and lines can be disabled. Note that hiding them in this way preserves their whitespace. Setting XAxis.IsVisible to false would collapse the axis entirely. 
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 // plot sample data

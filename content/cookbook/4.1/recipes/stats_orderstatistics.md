@@ -1,7 +1,7 @@
 ---
 Title: "Nth Order Statistics - ScottPlot 4.1 Cookbook"
 Description: "The Nth order statistic of a set is the Nth smallest value of the set (indexed from 1)."
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/stats_orderstatistics/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Statistics", "Nth Order Statistics"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/stats_orderstatistics.png"
 The Nth order statistic of a set is the Nth smallest value of the set (indexed from 1).
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 Random rand = new Random(0);

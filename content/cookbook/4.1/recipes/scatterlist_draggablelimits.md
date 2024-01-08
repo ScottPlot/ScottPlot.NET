@@ -1,7 +1,7 @@
 ---
 Title: "Scatter List Draggable Limits - ScottPlot 4.1 Cookbook"
 Description: "A custom function can be used to limit the range of draggable points."
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/scatterlist_draggablelimits/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Scatter Plot", "Scatter List Draggable Limits"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/scatterlist_draggablelimits.png"
 A custom function can be used to limit the range of draggable points.
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 // plot sample data

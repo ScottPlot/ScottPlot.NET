@@ -1,7 +1,7 @@
 ---
 Title: "Stacked Filled Line Plot - ScottPlot 4.1 Cookbook"
 Description: "A stacked filled line plot effect can be achieved by overlapping polygons."
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/polygon_stackedfilledlineplot/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Polygon", "Stacked Filled Line Plot"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/polygon_stackedfilledlineplot.png"
 A stacked filled line plot effect can be achieved by overlapping polygons.
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 // create sample data

@@ -1,7 +1,7 @@
 ---
 Title: "SignalXY Scale - ScottPlot 4.1 Cookbook"
 Description: "SignalXY plots can have a Y scale that multiply all data by a defined amount. ScaleY is applied before OffsetX and OffsetY."
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/signalxy_scale/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "SignalXY", "SignalXY Scale"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/signalxy_scale.png"
 SignalXY plots can have a Y scale that multiply all data by a defined amount. ScaleY is applied before OffsetX and OffsetY.
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 // display 100,000 values between -1 and +1

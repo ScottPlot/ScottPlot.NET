@@ -1,7 +1,7 @@
 ---
 Title: "Position Labels on Additional Axes - ScottPlot 4.1 Cookbook"
 Description: "Position labels can be added to multi-axis plots. The axis line must be told which axis to render the label on."
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/axisline_positionlabels2/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Axis Line and Span", "Position Labels on Additional Axes"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/axisline_positionlabels2.png"
 Position labels can be added to multi-axis plots. The axis line must be told which axis to render the label on.
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 var hlineA = plt.AddHorizontalLine(3);

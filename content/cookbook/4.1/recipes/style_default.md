@@ -1,7 +1,7 @@
 ---
 Title: "Default Plot Style - ScottPlot 4.1 Cookbook"
 Description: "This example demonstrates the default plot style."
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/style_default/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Style", "Default Plot Style"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/style_default.png"
 This example demonstrates the default plot style.
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 plt.AddSignal(DataGen.Sin(51));

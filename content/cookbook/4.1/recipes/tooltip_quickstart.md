@@ -1,7 +1,7 @@
 ---
 Title: "Tooltip Quickstart - ScottPlot 4.1 Cookbook"
 Description: "Tooltips are annotations that point to an X/Y coordinate on the plot"
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/tooltip_quickstart/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Tooltip", "Tooltip Quickstart"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/tooltip_quickstart.png"
 Tooltips are annotations that point to an X/Y coordinate on the plot
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 double[] ys = DataGen.Sin(50);

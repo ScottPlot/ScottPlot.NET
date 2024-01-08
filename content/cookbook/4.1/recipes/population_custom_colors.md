@@ -1,7 +1,7 @@
 ---
 Title: "Customizing Colors - ScottPlot 4.1 Cookbook"
 Description: "Population plots apply different transparencies to boxes and markers by default. Precise control of colors can be achieved by defining alpha overrides as shown here."
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/population_custom_colors/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Population", "Customizing Colors"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/population_custom_colors.png"
 Population plots apply different transparencies to boxes and markers by default. Precise control of colors can be achieved by defining alpha overrides as shown here.
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 // Define population data (3 groups, 2 series per group)

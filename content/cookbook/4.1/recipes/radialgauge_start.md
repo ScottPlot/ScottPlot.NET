@@ -1,7 +1,7 @@
 ---
 Title: "Gauge Starting Angle - ScottPlot 4.1 Cookbook"
 Description: "The starting angle for gauges can be customized. 270 for North (default value), 0 for East, 90 for South, 180 for West, etc."
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/radialgauge_start/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Radial Gauge", "Gauge Starting Angle"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/radialgauge_start.png"
 The starting angle for gauges can be customized. 270 for North (default value), 0 for East, 90 for South, 180 for West, etc.
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 plt.Palette = ScottPlot.Palette.Nord;

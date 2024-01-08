@@ -1,7 +1,7 @@
 ---
 Title: "Interpolation by Density - ScottPlot 4.1 Cookbook"
 Description: "Heatmaps can be created from random 2D data points using the count within a square of fixed size."
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/heatmap_density/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Heatmap", "Interpolation by Density"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/heatmap_density.png"
 Heatmaps can be created from random 2D data points using the count within a square of fixed size.
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 Random rand = new Random(0);

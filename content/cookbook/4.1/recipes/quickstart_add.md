@@ -1,7 +1,7 @@
 ---
 Title: "Manually add a Plottable - ScottPlot 4.1 Cookbook"
 Description: "You can create a plot manually, then add it to the plot with Add(). This allows you to create custom plot types and add them to the plot."
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/quickstart_add/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Quickstart", "Manually add a Plottable"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/quickstart_add.png"
 You can create a plot manually, then add it to the plot with Add(). This allows you to create custom plot types and add them to the plot.
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 double[] xs = DataGen.Consecutive(51);

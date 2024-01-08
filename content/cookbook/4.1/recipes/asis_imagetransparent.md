@@ -1,7 +1,7 @@
 ---
 Title: "Transparent Images Axis Labels - ScottPlot 4.1 Cookbook"
 Description: "Transparency in PNGs is respected, but JPEG files do not support transparency."
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/asis_imagetransparent/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Advanced Axis Features", "Transparent Images Axis Labels"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/asis_imagetransparent.png"
 Transparency in PNGs is respected, but JPEG files do not support transparency.
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 plt.Style(Style.Light2);

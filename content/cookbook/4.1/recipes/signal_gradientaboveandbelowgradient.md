@@ -1,7 +1,7 @@
 ---
 Title: "Gradient Fill Above and Below - ScottPlot 4.1 Cookbook"
 Description: "Gradients can be used to fill above and below."
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/signal_gradientaboveandbelowgradient/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Signal Plot", "Gradient Fill Above and Below"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/signal_gradientaboveandbelowgradient.png"
 Gradients can be used to fill above and below.
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 double[] data = DataGen.RandomWalk(1000);

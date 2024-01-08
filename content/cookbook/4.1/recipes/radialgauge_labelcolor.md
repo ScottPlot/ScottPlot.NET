@@ -1,7 +1,7 @@
 ---
 Title: "Gauge Label Color - ScottPlot 4.1 Cookbook"
 Description: "Level text fonts may be customized."
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/radialgauge_labelcolor/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Radial Gauge", "Gauge Label Color"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/radialgauge_labelcolor.png"
 Level text fonts may be customized.
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 plt.Palette = ScottPlot.Palette.Nord;

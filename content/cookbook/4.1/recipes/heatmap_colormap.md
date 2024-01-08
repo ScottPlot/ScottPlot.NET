@@ -1,7 +1,7 @@
 ---
 Title: "Colormap - ScottPlot 4.1 Cookbook"
 Description: "Viridis is the default colormap, but several alternatives are available."
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/heatmap_colormap/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Heatmap", "Colormap"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/heatmap_colormap.png"
 Viridis is the default colormap, but several alternatives are available.
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 double[,] intensities = new double[100, 100];

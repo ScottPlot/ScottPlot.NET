@@ -1,7 +1,7 @@
 ---
 Title: "Colorbar Ticks - ScottPlot 4.1 Cookbook"
 Description: "Tick marks can be added to colorbars. Each tick is described by a position (a fraction of the distance from the bottom to the top) and a string (the tick label)."
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/colorbar_ticks/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Colorbar", "Colorbar Ticks"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/colorbar_ticks.png"
 Tick marks can be added to colorbars. Each tick is described by a position (a fraction of the distance from the bottom to the top) and a string (the tick label).
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 var cb = plt.AddColorbar(Drawing.Colormap.Turbo);

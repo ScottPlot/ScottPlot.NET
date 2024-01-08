@@ -1,7 +1,7 @@
 ---
 Title: "Signal Data with Gaps - ScottPlot 4.1 Cookbook"
 Description: "Signal with defined Xs that contain gaps"
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/signalxy_gaps/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "SignalXY", "Signal Data with Gaps"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/signalxy_gaps.png"
 Signal with defined Xs that contain gaps
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 var rand = new Random(0);

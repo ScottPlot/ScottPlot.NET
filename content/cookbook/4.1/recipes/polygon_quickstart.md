@@ -1,7 +1,7 @@
 ---
 Title: "Polygon Quickstart - ScottPlot 4.1 Cookbook"
 Description: "Polygons are 2D shapes made from pairs of X/Y points. The last point connects back to the first point, forming a closed shape. Polygons can be optionally outlined and optionally filled. Colors with semitransparency are especially useful for polygons."
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/polygon_quickstart/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Polygon", "Polygon Quickstart"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/polygon_quickstart.png"
 Polygons are 2D shapes made from pairs of X/Y points. The last point connects back to the first point, forming a closed shape. Polygons can be optionally outlined and optionally filled. Colors with semitransparency are especially useful for polygons.
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 double[] xs1 = { 2, 8, 6, 4 };

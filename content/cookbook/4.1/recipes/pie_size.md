@@ -1,7 +1,7 @@
 ---
 Title: "Custom Size - ScottPlot 4.1 Cookbook"
 Description: "You can define the size of the pie to make room for large labels."
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/pie_size/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Pie Chart", "Custom Size"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/pie_size.png"
 You can define the size of the pie to make room for large labels.
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 plt.Title("Really\nLarge\nTitle");

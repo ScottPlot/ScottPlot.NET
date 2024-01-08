@@ -1,7 +1,7 @@
 ---
 Title: "Bar Graph with Error Bars - ScottPlot 4.1 Cookbook"
 Description: "Errorbars can be added to any bar graph."
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/bar_error/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Bar Graph", "Bar Graph with Error Bars"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/bar_error.png"
 Errorbars can be added to any bar graph.
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 // add a bar graph to the plot

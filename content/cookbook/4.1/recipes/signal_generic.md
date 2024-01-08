@@ -1,7 +1,7 @@
 ---
 Title: "Signal Plot with Generic Data - ScottPlot 4.1 Cookbook"
 Description: "Signal plots accept double arrays by default, but a generic signal plot exists which can display most numeric data types."
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/signal_generic/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Signal Plot", "Signal Plot with Generic Data"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/signal_generic.png"
 Signal plots accept double arrays by default, but a generic signal plot exists which can display most numeric data types.
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 Random rand = new(0);

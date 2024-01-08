@@ -1,7 +1,7 @@
 ---
 Title: "Defined Tick Spacing - ScottPlot 4.1 Cookbook"
 Description: "The space between tick marks can be manually defined by setting the grid spacing."
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/ticks_definedspacing/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Advanced Axis Features", "Defined Tick Spacing"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/ticks_definedspacing.png"
 The space between tick marks can be manually defined by setting the grid spacing.
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 // plot the positive data in the negative space

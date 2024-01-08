@@ -1,7 +1,7 @@
 ---
 Title: "Bar Labels - ScottPlot 4.1 Cookbook"
 Description: "Bars placed at specific positions can be labeled by setting tick labels for those positions."
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/bar_labels/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Bar Graph", "Bar Labels"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/bar_labels.png"
 Bars placed at specific positions can be labeled by setting tick labels for those positions.
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 double[] values = { 26, 20, 23, 7, 16 };

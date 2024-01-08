@@ -1,7 +1,7 @@
 ---
 Title: "All marker shapes - ScottPlot 4.1 Cookbook"
 Description: "Legend indicates names of all available marker shapes"
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/scatter_markershape/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Scatter Plot", "All marker shapes"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/scatter_markershape.png"
 Legend indicates names of all available marker shapes
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 int pointCount = 51;

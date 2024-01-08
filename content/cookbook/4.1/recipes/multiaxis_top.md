@@ -1,7 +1,7 @@
 ---
 Title: "Top X Axis - ScottPlot 4.1 Cookbook"
 Description: "This example demonstrates how to display an X axis above the figure. The horizontal axis above the figure is index 1, so plots must be updated to indicate they are to use a nonstandard axis index."
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/multiaxis_top/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Multi-Axis", "Top X Axis"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/multiaxis_top.png"
 This example demonstrates how to display an X axis above the figure. The horizontal axis above the figure is index 1, so plots must be updated to indicate they are to use a nonstandard axis index.
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 double[] values = DataGen.RandomWalk(100);

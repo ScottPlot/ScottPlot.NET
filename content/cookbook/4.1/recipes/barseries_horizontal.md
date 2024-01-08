@@ -1,7 +1,7 @@
 ---
 Title: "BarSeries Horizontal - ScottPlot 4.1 Cookbook"
 Description: "Horizontal orientation can be achieved by customizing the IsVertical property of each Bar."
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/barseries_horizontal/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Bar Series", "BarSeries Horizontal"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/barseries_horizontal.png"
 Horizontal orientation can be achieved by customizing the IsVertical property of each Bar.
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 Random rand = new(0);

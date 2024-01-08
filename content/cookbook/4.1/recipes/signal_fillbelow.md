@@ -1,7 +1,7 @@
 ---
 Title: "Fill Below - ScottPlot 4.1 Cookbook"
 Description: "Signal plots can be filled below with a solid color."
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/signal_fillbelow/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Signal Plot", "Fill Below"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/signal_fillbelow.png"
 Signal plots can be filled below with a solid color.
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 double[] data = DataGen.RandomWalk(1000);

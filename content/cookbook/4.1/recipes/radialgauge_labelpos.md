@@ -1,7 +1,7 @@
 ---
 Title: "Gauge Label Position - ScottPlot 4.1 Cookbook"
 Description: "Gauge level text is positioned at the tip of each gauge by default, but this position can be adjusted by the user."
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/radialgauge_labelpos/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Radial Gauge", "Gauge Label Position"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/radialgauge_labelpos.png"
 Gauge level text is positioned at the tip of each gauge by default, but this position can be adjusted by the user.
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 plt.Palette = ScottPlot.Palette.Nord;

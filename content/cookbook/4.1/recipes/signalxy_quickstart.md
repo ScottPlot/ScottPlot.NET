@@ -1,7 +1,7 @@
 ---
 Title: "SignalXY Quickstart - ScottPlot 4.1 Cookbook"
 Description: "SignalXY is a speed-optimized plot for displaying values (Ys) with unevenly-spaced positions (Xs) that are in ascending order. If your data is evenly-spaced, Signal and SignalConst is faster."
-Date: 2023-12-28
+Date: 2024-01-07
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/signalxy_quickstart/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "SignalXY", "SignalXY Quickstart"]
@@ -15,6 +15,7 @@ OgImage: "/cookbook/4.1/images/signalxy_quickstart.png"
 SignalXY is a speed-optimized plot for displaying values (Ys) with unevenly-spaced positions (Xs) that are in ascending order. If your data is evenly-spaced, Signal and SignalConst is faster.
 
 ```cs
+ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
 
 (double[] xs, double[] ys) = DataGen.RandomWalk2D(new Random(0), 5_000);
