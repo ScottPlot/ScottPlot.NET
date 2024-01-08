@@ -23,8 +23,8 @@ Release notes for every version of ScottPlot
 
 </section>
 <section class='mb-5'>
-<h1 class='mb-0'>ScottPlot 5.0.12 (in development)</h1>
-<div><i>Not yet published as a NuGet package...</i></div>
+<h1 class='mb-0'>ScottPlot 5.0.12-beta</h1>
+<div><i>NuGet packages published 2024-01-07</i></div>
 <div class='mt-1'>
 <ul>
 <li>Axes: Improved automatic axis scaling for plots containing 1D plottables (<a href="https://github.com/ScottPlot/ScottPlot/issues/3132">#3132</a>)
@@ -92,7 +92,7 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/angulion'><img src='https://scottplot.net/images/contributors/angulion.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/MCF'><img src='https://scottplot.net/images/contributors/mcf.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/raburton'><img src='https://scottplot.net/images/contributors/raburton.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/skn41'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/skn41'><img src='https://scottplot.net/images/contributors/skn41.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
