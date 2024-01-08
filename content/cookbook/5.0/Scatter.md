@@ -8,6 +8,7 @@ Date: 2024-01-08
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"
+ShowEditLink: false
 ---
 
 # Scatter Plot
@@ -18,7 +19,7 @@ SearchUrl: "/cookbook/5.0/search/"
 
 
 
-## Scatter Plot Quickstart
+<h2><a href='/cookbook/5.0/Scatter/ScatterQuickstart'>Scatter Plot Quickstart</a></h2>
 
 Scatter plots can be created from two arrays containing X and Y values.
 
@@ -37,8 +38,10 @@ myPlot.SavePng("demo.png");
 
 ```
 
+<hr class='my-5 invisible'>
 
-## Scatter Plot Coordinates
+
+<h2><a href='/cookbook/5.0/Scatter/ScatterCoordinates'>Scatter Plot Coordinates</a></h2>
 
 Scatter plots can be created from a collection of Coordinates.
 
@@ -63,8 +66,10 @@ myPlot.SavePng("demo.png");
 
 ```
 
+<hr class='my-5 invisible'>
 
-## Scatter Plot Data Type
+
+<h2><a href='/cookbook/5.0/Scatter/ScatterDataType'>Scatter Plot Data Type</a></h2>
 
 Scatter plots can be created from any numeric data type, not just double.
 
@@ -83,8 +88,10 @@ myPlot.SavePng("demo.png");
 
 ```
 
+<hr class='my-5 invisible'>
 
-## Scatter Plot of List Data
+
+<h2><a href='/cookbook/5.0/Scatter/ScatterList'>Scatter Plot of List Data</a></h2>
 
 Scatter plots can be created from Lists, but be very cafeful not to add or remove items while a render is occurring or you may throw an index exception. See documentation about the Render Lock system for details.
 
@@ -103,8 +110,10 @@ myPlot.SavePng("demo.png");
 
 ```
 
+<hr class='my-5 invisible'>
 
-## Scatter Plot Styling
+
+<h2><a href='/cookbook/5.0/Scatter/ScatterStyling'>Scatter Plot Styling</a></h2>
 
 Scatter plots can be extensively styled by interacting with the object that is returned after a scatter plot is added. Assign text to a scatter plot's Label property to allow it to appear in the legend.
 
@@ -136,8 +145,10 @@ myPlot.SavePng("demo.png");
 
 ```
 
+<hr class='my-5 invisible'>
 
-## Scatter Line Patterns
+
+<h2><a href='/cookbook/5.0/Scatter/ScatterLinePatterns'>Scatter Line Patterns</a></h2>
 
 Several line patterns are available
 
@@ -174,4 +185,6 @@ myPlot.Axes.Margins(.05, .5, .05, .05);
 myPlot.SavePng("demo.png");
 
 ```
+
+<hr class='my-5 invisible'>
 

@@ -8,6 +8,7 @@ Date: 2024-01-08
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"
+ShowEditLink: false
 ---
 
 # Error Bars
@@ -18,7 +19,7 @@ SearchUrl: "/cookbook/5.0/search/"
 
 
 
-## Error Bar Quickstart
+<h2><a href='/cookbook/5.0/ErrorBar/ErrorBarQuickstart'>Error Bar Quickstart</a></h2>
 
 Error Bars go well with scatter plots.
 
@@ -42,8 +43,10 @@ myPlot.SavePng("demo.png");
 
 ```
 
+<hr class='my-5 invisible'>
 
-## ErrorBar Values
+
+<h2><a href='/cookbook/5.0/ErrorBar/CustomErrors'>ErrorBar Values</a></h2>
 
 Error size can be set for all dimensions.
 
@@ -75,4 +78,6 @@ myPlot.Add.Plottable(eb);
 myPlot.SavePng("demo.png");
 
 ```
+
+<hr class='my-5 invisible'>
 

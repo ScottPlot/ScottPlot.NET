@@ -8,6 +8,7 @@ Date: 2024-01-08
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"
+ShowEditLink: false
 ---
 
 # Signal Plot
@@ -18,7 +19,7 @@ SearchUrl: "/cookbook/5.0/search/"
 
 
 
-## Signal Plot Quickstart
+<h2><a href='/cookbook/5.0/Signal/SignalQuickstart'>Signal Plot Quickstart</a></h2>
 
 Signal plots are best for extremely large datasets. They use render using special optimizations that allow highspeed interactivity with plots containing millions of data points.
 
@@ -38,8 +39,10 @@ myPlot.SavePng("demo.png");
 
 ```
 
+<hr class='my-5 invisible'>
 
-## Signal Plot Styling
+
+<h2><a href='/cookbook/5.0/Signal/SignalStyling'>Signal Plot Styling</a></h2>
 
 Signal plots can be styled in a variety of ways.
 
@@ -65,8 +68,10 @@ myPlot.SavePng("demo.png");
 
 ```
 
+<hr class='my-5 invisible'>
 
-## Signal Offset
+
+<h2><a href='/cookbook/5.0/Signal/SignalOffset'>Signal Offset</a></h2>
 
 Signal plots can be offset by a given X and Y value.
 
@@ -92,8 +97,10 @@ myPlot.SavePng("demo.png");
 
 ```
 
+<hr class='my-5 invisible'>
 
-## Signal Marker Size
+
+<h2><a href='/cookbook/5.0/Signal/SignalMarkerSize'>Signal Marker Size</a></h2>
 
 Signal plots can have markers displayed at each point which are only visible when the plot is zoomed in.
 
@@ -123,8 +130,10 @@ myPlot.SavePng("demo.png");
 
 ```
 
+<hr class='my-5 invisible'>
 
-## Partial Signal Rendering
+
+<h2><a href='/cookbook/5.0/Signal/SignalRenderIndexes'>Partial Signal Rendering</a></h2>
 
 Even if a signal plot references a large array of data, rendering can be limited to a range of values. If set,only the range of data between the minimum and maximum render indexes will be displayed.
 
@@ -162,4 +171,6 @@ myPlot.Axes.Margins(top: .5);
 myPlot.SavePng("demo.png");
 
 ```
+
+<hr class='my-5 invisible'>
 

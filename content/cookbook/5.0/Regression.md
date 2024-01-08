@@ -8,6 +8,7 @@ Date: 2024-01-08
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"
+ShowEditLink: false
 ---
 
 # Regression
@@ -18,7 +19,7 @@ SearchUrl: "/cookbook/5.0/search/"
 
 
 
-## LinearRegression
+<h2><a href='/cookbook/5.0/Regression/Linear'>LinearRegression</a></h2>
 
 Fit a line to a collection of X/Y data points.
 
@@ -53,4 +54,6 @@ myPlot.Title($"y = {reg.Slope:0.###}x + {reg.Offset:0.###} (r²={reg.Rsquared:0.
 myPlot.SavePng("demo.png");
 
 ```
+
+<hr class='my-5 invisible'>
 

@@ -8,6 +8,7 @@ Date: 2024-01-08
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"
+ShowEditLink: false
 ---
 
 # Configuring Legends
@@ -18,7 +19,7 @@ SearchUrl: "/cookbook/5.0/search/"
 
 
 
-## Legend Customization
+<h2><a href='/cookbook/5.0/Legend/LegendStyle'>Legend Customization</a></h2>
 
 The default legend can be easily accessed and customized. It is possible to add multiple legends, including custom ones implementing ILegend.
 
@@ -47,8 +48,10 @@ myPlot.SavePng("demo.png");
 
 ```
 
+<hr class='my-5 invisible'>
 
-## Manual Legend
+
+<h2><a href='/cookbook/5.0/Legend/ManualLegend'>Manual Legend</a></h2>
 
 Legends may be constructed manually.
 
@@ -80,4 +83,6 @@ myPlot.Legend.ManualItems.Add(new LegendItem()
 myPlot.SavePng("demo.png");
 
 ```
+
+<hr class='my-5 invisible'>
 

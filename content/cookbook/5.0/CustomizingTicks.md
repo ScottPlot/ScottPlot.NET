@@ -8,6 +8,7 @@ Date: 2024-01-08
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"
+ShowEditLink: false
 ---
 
 # Customizing Ticks
@@ -18,7 +19,7 @@ SearchUrl: "/cookbook/5.0/search/"
 
 
 
-## Custom Tick Formatters
+<h2><a href='/cookbook/5.0/CustomizingTicks/CustomTickFormatter'>Custom Tick Formatters</a></h2>
 
 Users can customize the logic used to create tick labels from tick positions.
 
@@ -56,8 +57,10 @@ myPlot.SavePng("demo.png");
 
 ```
 
+<hr class='my-5 invisible'>
 
-## Custom Tick Generators
+
+<h2><a href='/cookbook/5.0/CustomizingTicks/AltTickGen'>Custom Tick Generators</a></h2>
 
 Tick generators determine where ticks are to be placed and also contain logic for generating tick labels from tick positions. Alternative tick generators can be created and assigned to axes. Some common tick generators are provided with ScottPlot, and users also have the option create their own.
 
@@ -76,8 +79,10 @@ myPlot.SavePng("demo.png");
 
 ```
 
+<hr class='my-5 invisible'>
 
-## Custom Tick Positions
+
+<h2><a href='/cookbook/5.0/CustomizingTicks/CustomTicks'>Custom Tick Positions</a></h2>
 
 Users can define ticks to be placed at specific locations.
 
@@ -113,4 +118,6 @@ myPlot.Axes.Bottom.TickGenerator = ticks;
 myPlot.SavePng("demo.png");
 
 ```
+
+<hr class='my-5 invisible'>
 

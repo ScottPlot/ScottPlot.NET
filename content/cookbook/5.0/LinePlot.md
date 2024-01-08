@@ -8,6 +8,7 @@ Date: 2024-01-08
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"
+ShowEditLink: false
 ---
 
 # Line Plot
@@ -18,7 +19,7 @@ SearchUrl: "/cookbook/5.0/search/"
 
 
 
-## Line Plot Quickstart
+<h2><a href='/cookbook/5.0/LinePlot/LineQuickStart'>Line Plot Quickstart</a></h2>
 
 Line plots are placed with a start and end location in coordinate space. Their styles can be customized.
 
@@ -36,8 +37,10 @@ myPlot.SavePng("demo.png");
 
 ```
 
+<hr class='my-5 invisible'>
 
-## Line Plot Shapes
+
+<h2><a href='/cookbook/5.0/LinePlot/LinePlotStyles'>Line Plot Shapes</a></h2>
 
 Line plots can be styled using a LineStyle.
 
@@ -71,8 +74,10 @@ myPlot.SavePng("demo.png");
 
 ```
 
+<hr class='my-5 invisible'>
 
-## Line Plot Legend
+
+<h2><a href='/cookbook/5.0/LinePlot/LinePlotLegendQWER'>Line Plot Legend</a></h2>
 
 Line plots with labels appear in the legend.
 
@@ -98,4 +103,6 @@ myPlot.ShowLegend(Alignment.UpperRight);
 myPlot.SavePng("demo.png");
 
 ```
+
+<hr class='my-5 invisible'>
 

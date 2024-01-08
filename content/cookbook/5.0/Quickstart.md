@@ -8,6 +8,7 @@ Date: 2024-01-08
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"
+ShowEditLink: false
 ---
 
 # ScottPlot 5 Quickstart
@@ -18,7 +19,7 @@ SearchUrl: "/cookbook/5.0/search/"
 
 
 
-## Scatter Plot
+<h2><a href='/cookbook/5.0/Quickstart/QuickstartScatter'>Scatter Plot</a></h2>
 
 Display paired X/Y data as a scatter plot.
 
@@ -36,8 +37,10 @@ myPlot.SavePng("demo.png");
 
 ```
 
+<hr class='my-5 invisible'>
 
-## Customizing Plottables
+
+<h2><a href='/cookbook/5.0/Quickstart/CustomizingPlottables'>Customizing Plottables</a></h2>
 
 Functions that add things to plots return the plottables they create. Interact with the properties of plottables to customize their styling and behavior.
 
@@ -59,8 +62,10 @@ myPlot.SavePng("demo.png");
 
 ```
 
+<hr class='my-5 invisible'>
 
-## Signal Plot
+
+<h2><a href='/cookbook/5.0/Quickstart/QuickstartSignal'>Signal Plot</a></h2>
 
 Signal plots are optimized for displaying evenly spaced data.
 
@@ -79,8 +84,10 @@ myPlot.SavePng("demo.png");
 
 ```
 
+<hr class='my-5 invisible'>
 
-## Signal Plot Performance
+
+<h2><a href='/cookbook/5.0/Quickstart/SignalPerformance'>Signal Plot Performance</a></h2>
 
 Signal plots can interactively display millions of data points in real time. Double-click the plot to display performance benchmarks.
 
@@ -98,8 +105,10 @@ myPlot.SavePng("demo.png");
 
 ```
 
+<hr class='my-5 invisible'>
 
-## Axis Labels
+
+<h2><a href='/cookbook/5.0/Quickstart/QuickstartAxisLabels'>Axis Labels</a></h2>
 
 Axis labels can be extensively customized.
 
@@ -120,8 +129,10 @@ myPlot.SavePng("demo.png");
 
 ```
 
+<hr class='my-5 invisible'>
 
-## Legend
+
+<h2><a href='/cookbook/5.0/Quickstart/Legend'>Legend</a></h2>
 
 A legend displays plottables in a key along the edge of a plot. Most plottables have a Label property which configures what text appears in the legend.
 
@@ -142,4 +153,6 @@ myPlot.Legend.IsVisible = true;
 myPlot.SavePng("demo.png");
 
 ```
+
+<hr class='my-5 invisible'>
 

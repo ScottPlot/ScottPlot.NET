@@ -8,6 +8,7 @@ Date: 2024-01-08
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"
+ShowEditLink: false
 ---
 
 # FillY plot
@@ -18,7 +19,7 @@ SearchUrl: "/cookbook/5.0/search/"
 
 
 
-## FillY From Array Data
+<h2><a href='/cookbook/5.0/FillY/FillYFromArrays'>FillY From Array Data</a></h2>
 
 FillY plots can be created from X, Y1, and Y2 arrays.
 
@@ -42,8 +43,10 @@ myPlot.SavePng("demo.png");
 
 ```
 
+<hr class='my-5 invisible'>
 
-## FillY From Scatter Plots
+
+<h2><a href='/cookbook/5.0/FillY/FillYFromScatters'>FillY From Scatter Plots</a></h2>
 
 FillY plots can be created from two scatter plots that share the same X values.
 
@@ -70,8 +73,10 @@ myPlot.SavePng("demo.png");
 
 ```
 
+<hr class='my-5 invisible'>
 
-## FillY with Custom Type
+
+<h2><a href='/cookbook/5.0/FillY/Function'>FillY with Custom Type</a></h2>
 
 FillY plots can be created from data of any type if a conversion function is supplied.
 
@@ -102,8 +107,10 @@ myPlot.SavePng("demo.png");
 
 ```
 
+<hr class='my-5 invisible'>
 
-## FillY Plot Styling
+
+<h2><a href='/cookbook/5.0/FillY/Styling'>FillY Plot Styling</a></h2>
 
 FillY plots can be customized using public properties.
 
@@ -138,4 +145,6 @@ myPlot.Legend.IsVisible = true;
 myPlot.SavePng("demo.png");
 
 ```
+
+<hr class='my-5 invisible'>
 

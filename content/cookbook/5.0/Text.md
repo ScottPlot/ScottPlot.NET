@@ -8,6 +8,7 @@ Date: 2024-01-08
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"
+ShowEditLink: false
 ---
 
 # Text
@@ -18,7 +19,7 @@ SearchUrl: "/cookbook/5.0/search/"
 
 
 
-## Text Quickstart
+<h2><a href='/cookbook/5.0/Text/TextQuickstart'>Text Quickstart</a></h2>
 
 Text can be placed anywhere in coordinate space.
 
@@ -36,8 +37,10 @@ myPlot.SavePng("demo.png");
 
 ```
 
+<hr class='my-5 invisible'>
 
-## Text Formatting
+
+<h2><a href='/cookbook/5.0/Text/Formatting'>Text Formatting</a></h2>
 
 Text formatting can be extensively customized.
 
@@ -61,4 +64,6 @@ text.Label.Alignment = Alignment.MiddleCenter;
 myPlot.SavePng("demo.png");
 
 ```
+
+<hr class='my-5 invisible'>
 

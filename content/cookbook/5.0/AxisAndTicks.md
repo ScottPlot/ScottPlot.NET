@@ -8,6 +8,7 @@ Date: 2024-01-08
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"
+ShowEditLink: false
 ---
 
 # Axis and Ticks
@@ -18,7 +19,7 @@ SearchUrl: "/cookbook/5.0/search/"
 
 
 
-## Adding Axis Labels
+<h2><a href='/cookbook/5.0/AxisAndTicks/AxisLabels'>Adding Axis Labels</a></h2>
 
 Axis labels are the text labels centered on each axis. The text inside these labels can be changed, and the style of the text can be extensively customized.
 
@@ -38,8 +39,10 @@ myPlot.SavePng("demo.png");
 
 ```
 
+<hr class='my-5 invisible'>
 
-## Manually Set Axis Limits
+
+<h2><a href='/cookbook/5.0/AxisAndTicks/SetAxisLimits'>Manually Set Axis Limits</a></h2>
 
 Axis Limits can be set manually in different ways.
 
@@ -65,8 +68,10 @@ myPlot.SavePng("demo.png");
 
 ```
 
+<hr class='my-5 invisible'>
 
-## Read Axis Limits
+
+<h2><a href='/cookbook/5.0/AxisAndTicks/GetAxisLimits'>Read Axis Limits</a></h2>
 
 The current axis limits can be read in multiple ways.
 
@@ -92,8 +97,10 @@ myPlot.SavePng("demo.png");
 
 ```
 
+<hr class='my-5 invisible'>
 
-## AutoScale Axis Limits to Fit Data
+
+<h2><a href='/cookbook/5.0/AxisAndTicks/AutoScale'>AutoScale Axis Limits to Fit Data</a></h2>
 
 The axis limits can be automatically adjusted to fit the data. Optional arguments allow users to define the amount of whitespace around the edges of the data.In older versions of ScottPlot this functionality was achieved by a method named AxisAuto().
 
@@ -116,8 +123,10 @@ myPlot.SavePng("demo.png");
 
 ```
 
+<hr class='my-5 invisible'>
 
-## Frameless Plot
+
+<h2><a href='/cookbook/5.0/AxisAndTicks/Frameless'>Frameless Plot</a></h2>
 
 How to create a plot containig only the data area and no axes.
 
@@ -138,4 +147,6 @@ myPlot.Layout.Frameless();
 myPlot.SavePng("demo.png");
 
 ```
+
+<hr class='my-5 invisible'>
 

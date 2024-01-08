@@ -8,6 +8,7 @@ Date: 2024-01-08
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"
+ShowEditLink: false
 ---
 
 # Polygon Plot
@@ -18,7 +19,7 @@ SearchUrl: "/cookbook/5.0/search/"
 
 
 
-## Polygon Plot Quickstart
+<h2><a href='/cookbook/5.0/Polygon/PolygonQuickstart'>Polygon Plot Quickstart</a></h2>
 
 Polygon plots can be added from a series of vertices, and must be in clockwise order.
 
@@ -43,8 +44,10 @@ myPlot.SavePng("demo.png");
 
 ```
 
+<hr class='my-5 invisible'>
 
-## Polygon Plot Styling
+
+<h2><a href='/cookbook/5.0/Polygon/PolygonStyling'>Polygon Plot Styling</a></h2>
 
 Polygon plots can be fully customized.
 
@@ -82,4 +85,6 @@ myPlot.Axes.AutoScale();
 myPlot.SavePng("demo.png");
 
 ```
+
+<hr class='my-5 invisible'>
 

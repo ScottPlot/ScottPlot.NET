@@ -8,6 +8,7 @@ Date: 2024-01-08
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"
+ShowEditLink: false
 ---
 
 # Box Plot
@@ -18,7 +19,7 @@ SearchUrl: "/cookbook/5.0/search/"
 
 
 
-## Box Plot Quickstart
+<h2><a href='/cookbook/5.0/Box/BoxPlotQuickstart'>Box Plot Quickstart</a></h2>
 
 Box plots can be created individually and added to the plot.
 
@@ -46,8 +47,10 @@ myPlot.SavePng("demo.png");
 
 ```
 
+<hr class='my-5 invisible'>
 
-## Box Plot Groups
+
+<h2><a href='/cookbook/5.0/Box/BoxPlotGroups'>Box Plot Groups</a></h2>
 
 Each collection of boxes added to the plot gets styled the same and appears as a single item in the legend. Add multiple bar series plots with defined X positions to give the appearance of grouped data.
 
@@ -80,4 +83,6 @@ myPlot.ShowLegend(Alignment.UpperRight);
 myPlot.SavePng("demo.png");
 
 ```
+
+<hr class='my-5 invisible'>
 

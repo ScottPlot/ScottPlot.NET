@@ -8,6 +8,7 @@ Date: 2024-01-08
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"
+ShowEditLink: false
 ---
 
 # Styling Plots
@@ -18,7 +19,7 @@ SearchUrl: "/cookbook/5.0/search/"
 
 
 
-## Style Helper Functions
+<h2><a href='/cookbook/5.0/Styling/StyleClass'>Style Helper Functions</a></h2>
 
 Plots contain many objects which can be customized individually by assigining to their public properties, but helper methods exist in the Plot's Style object that make it easier to customzie many items at once using a simpler API.
 
@@ -45,8 +46,10 @@ myPlot.SavePng("demo.png");
 
 ```
 
+<hr class='my-5 invisible'>
 
-## Axis Customization
+
+<h2><a href='/cookbook/5.0/Styling/AxisCustom'>Axis Customization</a></h2>
 
 Axis labels, tick marks, and frame can all be customized.
 
@@ -86,8 +89,10 @@ myPlot.SavePng("demo.png");
 
 ```
 
+<hr class='my-5 invisible'>
 
-## Palettes
+
+<h2><a href='/cookbook/5.0/Styling/Palette'>Palettes</a></h2>
 
 A palette is a set of colors, and the Plot's palette defines the default colors to use when adding new plottables. ScottPlot comes with many standard palettes, but users may also create their own.
 
@@ -110,8 +115,10 @@ myPlot.SavePng("demo.png");
 
 ```
 
+<hr class='my-5 invisible'>
 
-## Markers
+
+<h2><a href='/cookbook/5.0/Styling/Markers'>Markers</a></h2>
 
 Many plot types have a MarkerStyle which can be customized.
 
@@ -136,8 +143,10 @@ myPlot.SavePng("demo.png");
 
 ```
 
+<hr class='my-5 invisible'>
 
-## Marker Names
+
+<h2><a href='/cookbook/5.0/Styling/MarkerNames'>Marker Names</a></h2>
 
 Markers can be referred to by their name.
 
@@ -168,8 +177,10 @@ myPlot.SavePng("demo.png");
 
 ```
 
+<hr class='my-5 invisible'>
 
-## Line Styles
+
+<h2><a href='/cookbook/5.0/Styling/LineStyles'>Line Styles</a></h2>
 
 Many plot types have a LineStyle which can be customized.
 
@@ -207,8 +218,10 @@ myPlot.SavePng("demo.png");
 
 ```
 
+<hr class='my-5 invisible'>
 
-## Scaling
+
+<h2><a href='/cookbook/5.0/Styling/Scaling'>Scaling</a></h2>
 
 All components of an image can be scaled up or down in size by adjusting the ScaleFactor property. This is very useful for creating images that look nice on high DPI displays with display scaling enabled.
 
@@ -225,4 +238,6 @@ myPlot.Add.Signal(Generate.Cos());
 myPlot.SavePng("demo.png");
 
 ```
+
+<hr class='my-5 invisible'>
 

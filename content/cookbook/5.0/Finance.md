@@ -8,6 +8,7 @@ Date: 2024-01-08
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"
+ShowEditLink: false
 ---
 
 # Financial Plot
@@ -18,7 +19,7 @@ SearchUrl: "/cookbook/5.0/search/"
 
 
 
-## OHLC Chart
+<h2><a href='/cookbook/5.0/Finance/OhlcChart'>OHLC Chart</a></h2>
 
 OHLC charts use symbols to display price data (open, high, low, and close) for specific time ranges.
 
@@ -36,8 +37,10 @@ myPlot.SavePng("demo.png");
 
 ```
 
+<hr class='my-5 invisible'>
 
-## Candlestick Chart
+
+<h2><a href='/cookbook/5.0/Finance/Candlestick'>Candlestick Chart</a></h2>
 
 Candlestick charts use symbols to display price data. The rectangle indicates open and close prices, and the center line indicates minimum and maximum price for the given time period. Color indicates whether the price increased or decreased between open and close.
 
@@ -55,8 +58,10 @@ myPlot.SavePng("demo.png");
 
 ```
 
+<hr class='my-5 invisible'>
 
-## Simple Moving Average
+
+<h2><a href='/cookbook/5.0/Finance/FinanceSma'>Simple Moving Average</a></h2>
 
 Tools exist for creating simple moving average (SMA) curves and displaying them next to finanial data.
 
@@ -89,8 +94,10 @@ myPlot.SavePng("demo.png");
 
 ```
 
+<hr class='my-5 invisible'>
 
-## Bollinger Bands
+
+<h2><a href='/cookbook/5.0/Finance/FinanceBollinger'>Bollinger Bands</a></h2>
 
 Tools exist for creating Bollinger Bands which display weighted moving mean and variance for time series financial data.
 
@@ -128,4 +135,6 @@ sp3.LineStyle.Pattern = LinePattern.Dotted;
 myPlot.SavePng("demo.png");
 
 ```
+
+<hr class='my-5 invisible'>
 

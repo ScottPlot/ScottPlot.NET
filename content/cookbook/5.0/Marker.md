@@ -8,6 +8,7 @@ Date: 2024-01-08
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"
+ShowEditLink: false
 ---
 
 # Marker
@@ -18,7 +19,7 @@ SearchUrl: "/cookbook/5.0/search/"
 
 
 
-## Marker Quickstart
+<h2><a href='/cookbook/5.0/Marker/MarkerQuickstart'>Marker Quickstart</a></h2>
 
 Markers are symbols placed at a location in coordinate space. Their shape, size, and color can be customized.
 
@@ -39,8 +40,10 @@ myPlot.SavePng("demo.png");
 
 ```
 
+<hr class='my-5 invisible'>
 
-## Marker Shapes
+
+<h2><a href='/cookbook/5.0/Marker/MarkerShapes'>Marker Shapes</a></h2>
 
 Many marker shapes are available.
 
@@ -66,8 +69,10 @@ myPlot.SavePng("demo.png");
 
 ```
 
+<hr class='my-5 invisible'>
 
-## Marker Legend
+
+<h2><a href='/cookbook/5.0/Marker/MarkerLegend'>Marker Legend</a></h2>
 
 Markers with labels appear in the legend.
 
@@ -89,4 +94,6 @@ myPlot.ShowLegend();
 myPlot.SavePng("demo.png");
 
 ```
+
+<hr class='my-5 invisible'>
 

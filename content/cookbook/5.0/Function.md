@@ -8,6 +8,7 @@ Date: 2024-01-08
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"
+ShowEditLink: false
 ---
 
 # Function
@@ -18,7 +19,7 @@ SearchUrl: "/cookbook/5.0/search/"
 
 
 
-## Function Quickstart
+<h2><a href='/cookbook/5.0/Function/FunctionQuickstart'>Function Quickstart</a></h2>
 
 Create a function plot from a formula.
 
@@ -44,4 +45,6 @@ myPlot.Axes.SetLimits(-10, 10, -1.5, 1.5);
 myPlot.SavePng("demo.png");
 
 ```
+
+<hr class='my-5 invisible'>
 

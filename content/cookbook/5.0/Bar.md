@@ -8,6 +8,7 @@ Date: 2024-01-08
 Version: ScottPlot 5.0.11-beta
 Version: ScottPlot 5.0.11-beta
 SearchUrl: "/cookbook/5.0/search/"
+ShowEditLink: false
 ---
 
 # Bar Plot
@@ -18,7 +19,7 @@ SearchUrl: "/cookbook/5.0/search/"
 
 
 
-## Bar Plot Quickstart
+<h2><a href='/cookbook/5.0/Bar/Quickstart'>Bar Plot Quickstart</a></h2>
 
 Bar plots can be added from a series of values.
 
@@ -39,8 +40,10 @@ myPlot.SavePng("demo.png");
 
 ```
 
+<hr class='my-5 invisible'>
 
-## Bar Positioning
+
+<h2><a href='/cookbook/5.0/Bar/BarPosition'>Bar Positioning</a></h2>
 
 The exact position and size of each bar may be customized.
 
@@ -63,8 +66,10 @@ myPlot.SavePng("demo.png");
 
 ```
 
+<hr class='my-5 invisible'>
 
-## Bars with Error
+
+<h2><a href='/cookbook/5.0/Bar/BarWithError'>Bars with Error</a></h2>
 
 Bars can have errorbars.
 
@@ -91,8 +96,10 @@ myPlot.SavePng("demo.png");
 
 ```
 
+<hr class='my-5 invisible'>
 
-## Bars with Labeled Ticks
+
+<h2><a href='/cookbook/5.0/Bar/BarTickLabels'>Bars with Labeled Ticks</a></h2>
 
 Bars can be labeled by manually specifying axis tick mark positions and labels.
 
@@ -126,8 +133,10 @@ myPlot.SavePng("demo.png");
 
 ```
 
+<hr class='my-5 invisible'>
 
-## Stacked Bar Plot
+
+<h2><a href='/cookbook/5.0/Bar/BarStackVertically'>Stacked Bar Plot</a></h2>
 
 Bars can be positioned on top of each other.
 
@@ -175,8 +184,10 @@ myPlot.SavePng("demo.png");
 
 ```
 
+<hr class='my-5 invisible'>
 
-## Grouped Bar Plot
+
+<h2><a href='/cookbook/5.0/Bar/GroupedBarPlot'>Grouped Bar Plot</a></h2>
 
 Bars can be grouped by position and color.
 
@@ -236,4 +247,6 @@ myPlot.Axes.Margins(bottom: 0);
 myPlot.SavePng("demo.png");
 
 ```
+
+<hr class='my-5 invisible'>
 
