@@ -46,7 +46,7 @@ WpfPlot1.Refresh();
 
 ![](scottplot-quickstart-wpf.png)
 
-**Tip:** You may experience better startup behavior if you plot after the Window has loaded
+**Tip:** .NET Framework users may experience better startup behavior if the plot is setup in the `Loaded` event:
 
 ```cs
 public MainWindow()
