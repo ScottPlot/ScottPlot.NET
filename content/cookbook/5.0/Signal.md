@@ -4,9 +4,9 @@ Description: Signal plots display evenly-spaced data
 URL: /cookbook/5.0/Signal/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Signal Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Signal"]
-Date: 2024-01-08
-Version: ScottPlot 5.0.11-beta
-Version: ScottPlot 5.0.11-beta
+Date: 2024-01-09
+Version: ScottPlot 5.0.12-beta
+Version: ScottPlot 5.0.12-beta
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -15,7 +15,7 @@ ShowEditLink: false
 
 
 
-<div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.11-beta is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
+<div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.12-beta is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
 
 
 
@@ -26,7 +26,7 @@ Signal plots are best for extremely large datasets. They use render using specia
 [![](/cookbook/5.0/images/SignalQuickstart.png)](/cookbook/5.0/images/SignalQuickstart.png)
 
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 11);
+ScottPlot.Version.ShouldBe(5, 0, 12);
 ScottPlot.Plot myPlot = new();
 
 double[] values = Generate.RandomWalk(1_000_000);
@@ -49,7 +49,7 @@ Signal plots can be styled in a variety of ways.
 [![](/cookbook/5.0/images/SignalStyling.png)](/cookbook/5.0/images/SignalStyling.png)
 
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 11);
+ScottPlot.Version.ShouldBe(5, 0, 12);
 ScottPlot.Plot myPlot = new();
 
 var sig1 = myPlot.Add.Signal(Generate.Sin());
@@ -78,7 +78,7 @@ Signal plots can be offset by a given X and Y value.
 [![](/cookbook/5.0/images/SignalOffset.png)](/cookbook/5.0/images/SignalOffset.png)
 
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 11);
+ScottPlot.Version.ShouldBe(5, 0, 12);
 ScottPlot.Plot myPlot = new();
 
 double[] values = ScottPlot.Generate.Sin(51);
@@ -107,7 +107,7 @@ Signal plots can have markers displayed at each point which are only visible whe
 [![](/cookbook/5.0/images/SignalMarkerSize.png)](/cookbook/5.0/images/SignalMarkerSize.png)
 
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 11);
+ScottPlot.Version.ShouldBe(5, 0, 12);
 ScottPlot.Plot myPlot = new();
 
 var sig1 = myPlot.Add.Signal(Generate.Cos());
@@ -140,7 +140,7 @@ Even if a signal plot references a large array of data, rendering can be limited
 [![](/cookbook/5.0/images/SignalRenderIndexes.png)](/cookbook/5.0/images/SignalRenderIndexes.png)
 
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 11);
+ScottPlot.Version.ShouldBe(5, 0, 12);
 ScottPlot.Plot myPlot = new();
 
 double[] values = Generate.RandomWalk(1000);

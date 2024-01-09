@@ -4,9 +4,9 @@ Description: Finance plots display price data binned into time ranges
 URL: /cookbook/5.0/Finance/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Financial Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Finance"]
-Date: 2024-01-08
-Version: ScottPlot 5.0.11-beta
-Version: ScottPlot 5.0.11-beta
+Date: 2024-01-09
+Version: ScottPlot 5.0.12-beta
+Version: ScottPlot 5.0.12-beta
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -15,8 +15,29 @@ ShowEditLink: false
 
 
 
-<div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.11-beta is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
+<div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.12-beta is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
 
+
+
+<h2><a href='/cookbook/5.0/Finance/Candlestick'>Candlestick Chart</a></h2>
+
+Candlestick charts use symbols to display price data. The rectangle indicates open and close prices, and the center line indicates minimum and maximum price for the given time period. Color indicates whether the price increased or decreased between open and close.
+
+[![](/cookbook/5.0/images/Candlestick.png)](/cookbook/5.0/images/Candlestick.png)
+
+```cs
+ScottPlot.Version.ShouldBe(5, 0, 12);
+ScottPlot.Plot myPlot = new();
+
+var prices = Generate.RandomOHLCs(30);
+myPlot.Add.Candlestick(prices);
+myPlot.Axes.DateTimeTicks(Edge.Bottom);
+
+myPlot.SavePng("demo.png");
+
+```
+
+<hr class='my-5 invisible'>
 
 
 <h2><a href='/cookbook/5.0/Finance/OhlcChart'>OHLC Chart</a></h2>
@@ -26,7 +47,7 @@ OHLC charts use symbols to display price data (open, high, low, and close) for s
 [![](/cookbook/5.0/images/OhlcChart.png)](/cookbook/5.0/images/OhlcChart.png)
 
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 11);
+ScottPlot.Version.ShouldBe(5, 0, 12);
 ScottPlot.Plot myPlot = new();
 
 var prices = Generate.RandomOHLCs(30);
@@ -40,18 +61,25 @@ myPlot.SavePng("demo.png");
 <hr class='my-5 invisible'>
 
 
-<h2><a href='/cookbook/5.0/Finance/Candlestick'>Candlestick Chart</a></h2>
+<h2><a href='/cookbook/5.0/Finance/FinanceRightAxis'>Price on Right</a></h2>
 
-Candlestick charts use symbols to display price data. The rectangle indicates open and close prices, and the center line indicates minimum and maximum price for the given time period. Color indicates whether the price increased or decreased between open and close.
+Finance charts can be created which display price information on the right axis.
 
-[![](/cookbook/5.0/images/Candlestick.png)](/cookbook/5.0/images/Candlestick.png)
+[![](/cookbook/5.0/images/FinanceRightAxis.png)](/cookbook/5.0/images/FinanceRightAxis.png)
 
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 11);
+ScottPlot.Version.ShouldBe(5, 0, 12);
 ScottPlot.Plot myPlot = new();
 
+// add candlesticks to the plot
 var prices = Generate.RandomOHLCs(30);
-myPlot.Add.Candlestick(prices);
+var candles = myPlot.Add.Candlestick(prices);
+
+// configure the candlesticks to use the plot's right axis
+candles.Axes.YAxis = myPlot.Axes.Right;
+candles.Axes.YAxis.Label.Text = "Price";
+
+// style the bottom axis to display date
 myPlot.Axes.DateTimeTicks(Edge.Bottom);
 
 myPlot.SavePng("demo.png");
@@ -68,7 +96,7 @@ Tools exist for creating simple moving average (SMA) curves and displaying them 
 [![](/cookbook/5.0/images/FinanceSma.png)](/cookbook/5.0/images/FinanceSma.png)
 
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 11);
+ScottPlot.Version.ShouldBe(5, 0, 12);
 ScottPlot.Plot myPlot = new();
 
 // generate and plot time series price data
@@ -104,7 +132,7 @@ Tools exist for creating Bollinger Bands which display weighted moving mean and 
 [![](/cookbook/5.0/images/FinanceBollinger.png)](/cookbook/5.0/images/FinanceBollinger.png)
 
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 11);
+ScottPlot.Version.ShouldBe(5, 0, 12);
 ScottPlot.Plot myPlot = new();
 
 // generate and plot time series price data

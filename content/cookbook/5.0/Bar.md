@@ -4,9 +4,9 @@ Description: Bar plots represent values as horizontal or vertical rectangles
 URL: /cookbook/5.0/Bar/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Bar Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Bar"]
-Date: 2024-01-08
-Version: ScottPlot 5.0.11-beta
-Version: ScottPlot 5.0.11-beta
+Date: 2024-01-09
+Version: ScottPlot 5.0.12-beta
+Version: ScottPlot 5.0.12-beta
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -15,7 +15,7 @@ ShowEditLink: false
 
 
 
-<div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.11-beta is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
+<div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.12-beta is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
 
 
 
@@ -26,7 +26,7 @@ Bar plots can be added from a series of values.
 [![](/cookbook/5.0/images/Quickstart.png)](/cookbook/5.0/images/Quickstart.png)
 
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 11);
+ScottPlot.Version.ShouldBe(5, 0, 12);
 ScottPlot.Plot myPlot = new();
 
 // add bars
@@ -50,7 +50,7 @@ The exact position and size of each bar may be customized.
 [![](/cookbook/5.0/images/BarPosition.png)](/cookbook/5.0/images/BarPosition.png)
 
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 11);
+ScottPlot.Version.ShouldBe(5, 0, 12);
 ScottPlot.Plot myPlot = new();
 
 List<ScottPlot.Bar> bars = new()
@@ -76,7 +76,7 @@ Bars can have errorbars.
 [![](/cookbook/5.0/images/BarWithError.png)](/cookbook/5.0/images/BarWithError.png)
 
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 11);
+ScottPlot.Version.ShouldBe(5, 0, 12);
 ScottPlot.Plot myPlot = new();
 
 List<ScottPlot.Bar> bars = new()
@@ -106,7 +106,7 @@ Bars can be labeled by manually specifying axis tick mark positions and labels.
 [![](/cookbook/5.0/images/BarTickLabels.png)](/cookbook/5.0/images/BarTickLabels.png)
 
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 11);
+ScottPlot.Version.ShouldBe(5, 0, 12);
 ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Bar(position: 1, value: 5, error: 1);
@@ -143,7 +143,7 @@ Bars can be positioned on top of each other.
 [![](/cookbook/5.0/images/BarStackVertically.png)](/cookbook/5.0/images/BarStackVertically.png)
 
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 11);
+ScottPlot.Version.ShouldBe(5, 0, 12);
 ScottPlot.Plot myPlot = new();
 
 Color[] colors = {
@@ -194,7 +194,7 @@ Bars can be grouped by position and color.
 [![](/cookbook/5.0/images/GroupedBarPlot.png)](/cookbook/5.0/images/GroupedBarPlot.png)
 
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 11);
+ScottPlot.Version.ShouldBe(5, 0, 12);
 ScottPlot.Plot myPlot = new();
 
 Color[] colors = {

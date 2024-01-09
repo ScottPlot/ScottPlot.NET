@@ -4,9 +4,9 @@ Description: Scatter plots can be extensively styled by interacting with the obj
 URL: /cookbook/5.0/Scatter/ScatterStyling/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Scatter Plot", "Scatter Plot Styling"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Scatter", "/cookbook/5.0/Scatter/ScatterStyling"]
-Date: 2024-01-08
-Version: ScottPlot 5.0.11-beta
-Version: ScottPlot 5.0.11-beta
+Date: 2024-01-09
+Version: ScottPlot 5.0.12-beta
+Version: ScottPlot 5.0.12-beta
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -15,7 +15,7 @@ ShowEditLink: false
 
 
 
-<div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.11-beta is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
+<div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.12-beta is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
 
 
 
@@ -24,7 +24,7 @@ Scatter plots can be extensively styled by interacting with the object that is r
 [![](/cookbook/5.0/images/ScatterStyling.png)](/cookbook/5.0/images/ScatterStyling.png)
 
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 11);
+ScottPlot.Version.ShouldBe(5, 0, 12);
 ScottPlot.Plot myPlot = new();
 
 double[] xs = Generate.Consecutive(51);

@@ -4,9 +4,9 @@ Description: Example plots shown next to the code used to create them
 URL: /cookbook/5.0/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook"]
 BreadcrumbUrls: ["/cookbook/5.0/"]
-Date: 2024-01-08
-Version: ScottPlot 5.0.11-beta
-Version: ScottPlot 5.0.11-beta
+Date: 2024-01-09
+Version: ScottPlot 5.0.12-beta
+Version: ScottPlot 5.0.12-beta
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -15,7 +15,7 @@ ShowEditLink: false
 
 
 
-<div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.11-beta is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
+<div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.12-beta is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
 
 
 <div class='mt-3 fs-4'><strong>Quickstart</strong></div>
@@ -474,6 +474,15 @@ ShowEditLink: false
 <div>Finance plots display price data binned into time ranges</div>
 <div class='row my-4'>
 <div class='col'>
+<a href='/cookbook/5.0/Finance/Candlestick'><img class='img-fluid' src='/cookbook/5.0/images/Candlestick.png' /></a>
+</div>
+<div class='col'>
+<div><a href='/cookbook/5.0/Finance/Candlestick'><b>Candlestick Chart</b></a></div>
+<div>Candlestick charts use symbols to display price data. The rectangle indicates open and close prices, and the center line indicates minimum and maximum price for the given time period. Color indicates whether the price increased or decreased between open and close.</div>
+</div>
+</div>
+<div class='row my-4'>
+<div class='col'>
 <a href='/cookbook/5.0/Finance/OhlcChart'><img class='img-fluid' src='/cookbook/5.0/images/OhlcChart.png' /></a>
 </div>
 <div class='col'>
@@ -483,11 +492,11 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Finance/Candlestick'><img class='img-fluid' src='/cookbook/5.0/images/Candlestick.png' /></a>
+<a href='/cookbook/5.0/Finance/FinanceRightAxis'><img class='img-fluid' src='/cookbook/5.0/images/FinanceRightAxis.png' /></a>
 </div>
 <div class='col'>
-<div><a href='/cookbook/5.0/Finance/Candlestick'><b>Candlestick Chart</b></a></div>
-<div>Candlestick charts use symbols to display price data. The rectangle indicates open and close prices, and the center line indicates minimum and maximum price for the given time period. Color indicates whether the price increased or decreased between open and close.</div>
+<div><a href='/cookbook/5.0/Finance/FinanceRightAxis'><b>Price on Right</b></a></div>
+<div>Finance charts can be created which display price information on the right axis.</div>
 </div>
 </div>
 <div class='row my-4'>
