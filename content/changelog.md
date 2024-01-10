@@ -23,6 +23,29 @@ Release notes for every version of ScottPlot
 
 </section>
 <section class='mb-5'>
+<h1 class='mb-0'>ScottPlot 5.0.13-beta</h1>
+<div><mark>Warning: NuGet package date is missing</mark></div>
+<div><i>NuGet packages published </i></div>
+<div class='mt-1'>
+<ul>
+<li>SignalXY: New high performance plot type for signal data with defined ascending X positions (<a href="https://github.com/ScottPlot/ScottPlot/issues/3163">#3163</a>) <em>Thanks <a href="https://github.com/ChristianWeigand">@ChristianWeigand</a></em>
+</li>
+<li>Axis: Improve behavior of axis rules which reference axes from previous renders (<a href="https://github.com/ScottPlot/ScottPlot/issues/3179">#3179</a>) <em>Thanks <a href="https://github.com/3179">@3179</a></em>
+</li>
+</ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/ChristianWeigand'>ChristianWeigand</a>, <a href='https://github.com/3179'>3179</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/ChristianWeigand'><img src='https://scottplot.net/images/contributors/christianweigand.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/3179'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
+
+</section>
+<section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 5.0.12-beta</h1>
 <div><i>NuGet packages published 2024-01-07</i></div>
 <div class='mt-1'>
