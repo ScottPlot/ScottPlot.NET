@@ -4,9 +4,9 @@ Description: Scatter plots display points at X/Y locations in coordinate space.
 URL: /cookbook/5.0/Scatter/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Scatter Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Scatter"]
-Date: 2024-01-09
-Version: ScottPlot 5.0.12-beta
-Version: ScottPlot 5.0.12-beta
+Date: 2024-01-10
+Version: ScottPlot 5.0.13-beta
+Version: ScottPlot 5.0.13-beta
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -15,7 +15,7 @@ ShowEditLink: false
 
 
 
-<div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.12-beta is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
+<div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.13-beta is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
 
 
 
@@ -26,7 +26,7 @@ Scatter plots can be created from two arrays containing X and Y values.
 [![](/cookbook/5.0/images/ScatterQuickstart.png)](/cookbook/5.0/images/ScatterQuickstart.png)
 
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 12);
+ScottPlot.Version.ShouldBe(5, 0, 13);
 ScottPlot.Plot myPlot = new();
 
 double[] xs = { 1, 2, 3, 4, 5 };
@@ -48,7 +48,7 @@ Scatter plots can be created from a collection of Coordinates.
 [![](/cookbook/5.0/images/ScatterCoordinates.png)](/cookbook/5.0/images/ScatterCoordinates.png)
 
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 12);
+ScottPlot.Version.ShouldBe(5, 0, 13);
 ScottPlot.Plot myPlot = new();
 
 Coordinates[] coordinates =
@@ -76,7 +76,7 @@ Scatter plots can be created from any numeric data type, not just double.
 [![](/cookbook/5.0/images/ScatterDataType.png)](/cookbook/5.0/images/ScatterDataType.png)
 
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 12);
+ScottPlot.Version.ShouldBe(5, 0, 13);
 ScottPlot.Plot myPlot = new();
 
 float[] xs = { 1, 2, 3, 4, 5 };
@@ -98,7 +98,7 @@ Scatter plots can be created from Lists, but be very cafeful not to add or remov
 [![](/cookbook/5.0/images/ScatterList.png)](/cookbook/5.0/images/ScatterList.png)
 
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 12);
+ScottPlot.Version.ShouldBe(5, 0, 13);
 ScottPlot.Plot myPlot = new();
 
 List<double> xs = new() { 1, 2, 3, 4, 5 };
@@ -120,7 +120,7 @@ Scatter plots can be extensively styled by interacting with the object that is r
 [![](/cookbook/5.0/images/ScatterStyling.png)](/cookbook/5.0/images/ScatterStyling.png)
 
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 12);
+ScottPlot.Version.ShouldBe(5, 0, 13);
 ScottPlot.Plot myPlot = new();
 
 double[] xs = Generate.Consecutive(51);
@@ -155,7 +155,7 @@ Several line patterns are available
 [![](/cookbook/5.0/images/ScatterLinePatterns.png)](/cookbook/5.0/images/ScatterLinePatterns.png)
 
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 12);
+ScottPlot.Version.ShouldBe(5, 0, 13);
 ScottPlot.Plot myPlot = new();
 
 LinePattern[] patterns = Enum.GetValues<LinePattern>();
@@ -181,6 +181,51 @@ for (int i = 0; i < patterns.Length; i++)
 }
 
 myPlot.Axes.Margins(.05, .5, .05, .05);
+
+myPlot.SavePng("demo.png");
+
+```
+
+<hr class='my-5 invisible'>
+
+
+<h2><a href='/cookbook/5.0/Scatter/ScatterGeneric'>Scatter Generic</a></h2>
+
+Scatter plots support generic data types, although double is typically the most performant.
+
+[![](/cookbook/5.0/images/ScatterGeneric.png)](/cookbook/5.0/images/ScatterGeneric.png)
+
+```cs
+ScottPlot.Version.ShouldBe(5, 0, 13);
+ScottPlot.Plot myPlot = new();
+
+int[] xs = { 1, 2, 3, 4, 5 };
+float[] ys = { 1, 4, 9, 16, 25 };
+
+myPlot.Add.Scatter(xs, ys);
+
+myPlot.SavePng("demo.png");
+
+```
+
+<hr class='my-5 invisible'>
+
+
+<h2><a href='/cookbook/5.0/Scatter/ScatterDateTime'>Scatter DateTime</a></h2>
+
+A scatter plot may use DateTime units but be sure to setup the respective axis to display using DateTime format.
+
+[![](/cookbook/5.0/images/ScatterDateTime.png)](/cookbook/5.0/images/ScatterDateTime.png)
+
+```cs
+ScottPlot.Version.ShouldBe(5, 0, 13);
+ScottPlot.Plot myPlot = new();
+
+DateTime[] xs = Generate.DateTime.Days(100);
+double[] ys = Generate.RandomWalk(xs.Length);
+
+myPlot.Add.Scatter(xs, ys);
+myPlot.Axes.DateTimeTicks(Edge.Bottom);
 
 myPlot.SavePng("demo.png");
 
