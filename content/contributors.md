@@ -16,12 +16,16 @@ Members of the open-source community who contributed to ScottPlot
 <div class='display-3 my-5 text-center'>💖🚀✨</div>
 <div class='d-flex justify-content-center flex-wrap'>
 <div class='bg-light border rounded text-center mx-3 my-2'>
+<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/brand/favicon.png' height='125' width='125'/></a></div>
+<div><a href='https://github.com/Smonze'>@Smonze</a></div>
+</div>
+<div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/christianweigand.jpg' height='125' width='125'/></a></div>
 <div><a href='https://github.com/ChristianWeigand'>@ChristianWeigand</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
-<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/3179.png' height='125' width='125'/></a></div>
-<div><a href='https://github.com/3179'>@3179</a></div>
+<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/raburton.png' height='125' width='125'/></a></div>
+<div><a href='https://github.com/raburton'>@raburton</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/wolfcomp.png' height='125' width='125'/></a></div>
@@ -34,10 +38,6 @@ Members of the open-source community who contributed to ScottPlot
 <div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/mcf.jpg' height='125' width='125'/></a></div>
 <div><a href='https://github.com/MCF'>@MCF</a></div>
-</div>
-<div class='bg-light border rounded text-center mx-3 my-2'>
-<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/raburton.png' height='125' width='125'/></a></div>
-<div><a href='https://github.com/raburton'>@raburton</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/skn41.png' height='125' width='125'/></a></div>

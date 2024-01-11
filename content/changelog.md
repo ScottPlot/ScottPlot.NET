@@ -23,6 +23,25 @@ Release notes for every version of ScottPlot
 
 </section>
 <section class='mb-5'>
+<h1 class='mb-0'>ScottPlot 5.0.14-beta</h1>
+<div><i>NuGet packages published 2024-01-10</i></div>
+<div class='mt-1'>
+<ul>
+<li>Rendering: Improved performance by limiting how often <code>AutoScale()</code> is called by the renderer (<a href="https://github.com/ScottPlot/ScottPlot/issues/3183">#3183</a>) <em>Thanks <a href="https://github.com/Smonze">@Smonze</a></em>
+</li>
+</ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/Smonze'>Smonze</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/Smonze'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
+
+</section>
+<section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 5.0.13-beta</h1>
 <div><i>NuGet packages published 2024-01-09</i></div>
 <div class='mt-1'>
@@ -31,7 +50,7 @@ Release notes for every version of ScottPlot
 </li>
 <li>Scatter, Signal, and SignalXY: Improved support for generic data types
 </li>
-<li>Axis: Improve behavior of axis rules which reference axes from previous renders (<a href="https://github.com/ScottPlot/ScottPlot/issues/3179">#3179</a>) <em>Thanks <a href="https://github.com/3179">@3179</a></em>
+<li>Axis: Improve behavior of axis rules which reference axes from previous renders (<a href="https://github.com/ScottPlot/ScottPlot/issues/3179">#3179</a>) <em>Thanks <a href="https://github.com/raburton">@raburton</a></em>
 </li>
 <li>Primitives: Separated <code>CoordinateRange</code> struct for passing ranges and <code>CoordinateRangeMutable</code> for mutating them (<a href="https://github.com/ScottPlot/ScottPlot/issues/3170">#3170</a>)
 </li>
@@ -41,11 +60,11 @@ Release notes for every version of ScottPlot
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/ChristianWeigand'>ChristianWeigand</a>, <a href='https://github.com/3179'>3179</a>, <a href='https://github.com/swharden'>swharden</a>
+<a href='https://github.com/ChristianWeigand'>ChristianWeigand</a>, <a href='https://github.com/raburton'>raburton</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/ChristianWeigand'><img src='https://scottplot.net/images/contributors/christianweigand.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/3179'><img src='https://scottplot.net/images/contributors/3179.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/raburton'><img src='https://scottplot.net/images/contributors/raburton.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
