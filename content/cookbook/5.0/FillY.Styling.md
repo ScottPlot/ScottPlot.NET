@@ -4,9 +4,9 @@ Description: FillY plots can be customized using public properties.
 URL: /cookbook/5.0/FillY/Styling/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "FillY plot", "FillY Plot Styling"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/FillY", "/cookbook/5.0/FillY/Styling"]
-Date: 2024-01-10
-Version: ScottPlot 5.0.13-beta
-Version: ScottPlot 5.0.13-beta
+Date: 2024-01-11
+Version: ScottPlot 5.0.14-beta
+Version: ScottPlot 5.0.14-beta
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -15,7 +15,7 @@ ShowEditLink: false
 
 
 
-<div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.13-beta is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
+<div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.14-beta is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
 
 
 
@@ -24,7 +24,7 @@ FillY plots can be customized using public properties.
 [![](/cookbook/5.0/images/Styling.png)](/cookbook/5.0/images/Styling.png)
 
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 13);
+ScottPlot.Version.ShouldBe(5, 0, 14);
 ScottPlot.Plot myPlot = new();
 
 RandomDataGenerator dataGen = new(0);

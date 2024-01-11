@@ -4,9 +4,9 @@ Description: A survey of basic functionality in ScottPlot 5
 URL: /cookbook/5.0/Quickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "ScottPlot 5 Quickstart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Quickstart"]
-Date: 2024-01-10
-Version: ScottPlot 5.0.13-beta
-Version: ScottPlot 5.0.13-beta
+Date: 2024-01-11
+Version: ScottPlot 5.0.14-beta
+Version: ScottPlot 5.0.14-beta
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -15,7 +15,7 @@ ShowEditLink: false
 
 
 
-<div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.13-beta is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
+<div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.14-beta is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
 
 
 
@@ -26,7 +26,7 @@ Display paired X/Y data as a scatter plot.
 [![](/cookbook/5.0/images/QuickstartScatter.png)](/cookbook/5.0/images/QuickstartScatter.png)
 
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 13);
+ScottPlot.Version.ShouldBe(5, 0, 14);
 ScottPlot.Plot myPlot = new();
 
 double[] dataX = { 1, 2, 3, 4, 5 };
@@ -47,7 +47,7 @@ Functions that add things to plots return the plottables they create. Interact w
 [![](/cookbook/5.0/images/CustomizingPlottables.png)](/cookbook/5.0/images/CustomizingPlottables.png)
 
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 13);
+ScottPlot.Version.ShouldBe(5, 0, 14);
 ScottPlot.Plot myPlot = new();
 
 double[] dataX = { 1, 2, 3, 4, 5 };
@@ -72,7 +72,7 @@ Signal plots are optimized for displaying evenly spaced data.
 [![](/cookbook/5.0/images/QuickstartSignal.png)](/cookbook/5.0/images/QuickstartSignal.png)
 
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 13);
+ScottPlot.Version.ShouldBe(5, 0, 14);
 ScottPlot.Plot myPlot = new();
 
 double[] sin = Generate.Sin(51);
@@ -94,7 +94,7 @@ Signal plots can interactively display millions of data points in real time. Dou
 [![](/cookbook/5.0/images/SignalPerformance.png)](/cookbook/5.0/images/SignalPerformance.png)
 
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 13);
+ScottPlot.Version.ShouldBe(5, 0, 14);
 ScottPlot.Plot myPlot = new();
 
 double[] data = Generate.RandomWalk(1_000_000);
@@ -115,7 +115,7 @@ Axis labels can be extensively customized.
 [![](/cookbook/5.0/images/QuickstartAxisLabels.png)](/cookbook/5.0/images/QuickstartAxisLabels.png)
 
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 13);
+ScottPlot.Version.ShouldBe(5, 0, 14);
 ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin(51));
@@ -139,7 +139,7 @@ A legend displays plottables in a key along the edge of a plot. Most plottables 
 [![](/cookbook/5.0/images/Legend.png)](/cookbook/5.0/images/Legend.png)
 
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 13);
+ScottPlot.Version.ShouldBe(5, 0, 14);
 ScottPlot.Plot myPlot = new();
 
 var sig1 = myPlot.Add.Signal(Generate.Sin(51));
