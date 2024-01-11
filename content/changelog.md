@@ -36,7 +36,7 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/Smonze'>Smonze</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
-<a href='https://github.com/Smonze'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Smonze'><img src='https://scottplot.net/images/contributors/smonze.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
