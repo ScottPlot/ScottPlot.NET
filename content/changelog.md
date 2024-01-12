@@ -29,14 +29,19 @@ Release notes for every version of ScottPlot
 <ul>
 <li>Ticks: Added additional styling options for axis tick labels (<a href="https://github.com/ScottPlot/ScottPlot/issues/3185">#3185</a>) <em>Thanks <a href="https://github.com/barnettben">@barnettben</a></em>
 </li>
+<li>Finance: Added <code>Sequential</code> property to display OHLC data without gaps (<a href="https://github.com/ScottPlot/ScottPlot/issues/2611">#2611</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3187">#3187</a>) <em>Thanks <a href="https://github.com/robbyls">@robbyls</a>, <a href="https://github.com/mjpz">@mjpz</a>, and <a href="https://github.com/segeyros">@segeyros</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/barnettben'>barnettben</a>, <a href='https://github.com/swharden'>swharden</a>
+<a href='https://github.com/barnettben'>barnettben</a>, <a href='https://github.com/robbyls'>robbyls</a>, <a href='https://github.com/mjpz'>mjpz</a>, <a href='https://github.com/segeyros'>segeyros</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
-<a href='https://github.com/barnettben'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/barnettben'><img src='https://scottplot.net/images/contributors/barnettben.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/robbyls'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/mjpz'><img src='https://scottplot.net/images/contributors/mjpz.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/segeyros'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
