@@ -5,21 +5,18 @@ date: 2023-12-13
 url: /faq/version-5.0/
 ---
 
-<div id="new-projects-should-use-scottplot-5"></div>
-<div id="existing-projects-can-keep-using-scottplot-4"></div>
-
-<div class='mt-5'>
+<div class='mt-3'>
 <h3 class='m-0'>ScottPlot 5.0 was released in January, 2024! 🚀</h3>
 <p>This page describes what's new in ScottPlot 5.0 vs. ScottPlot 4.1</p>
 </div>
 
-<div class="alert alert-primary my-5" role="alert">
+<div class="alert alert-primary my-5" role="alert" id="new-projects-should-use-scottplot-5">
     <h4 class="alert-heading my-0">
         <a href ='#new-projects-should-use-scottplot-5'>
             New projects should use ScottPlot 5
         </a>
     </h4>
-    <ul class='my-0'>
+    <ul class='my-0' id="existing-projects-can-keep-using-scottplot-4">
         <li>ScottPlot 5 offers the best performance and long-term cross-platform support</li>
         <li>Review the <a href='/quickstart'>Quickstart</a>, <a href='/cookbook/5.0/'>Cookbook</a>, <a href='/demo'>Demo</a>, and information below to learn how to use it</li>
         <li>If there is a feature you would like to see added or a behavior you are unsure how to achieve using ScottPlot 5, <a href='https://github.com/ScottPlot/ScottPlot/issues'>create a GitHub issue</a> or raise the topic in the <a href='/discord'>ScottPlot Discord Channel</a></li>
