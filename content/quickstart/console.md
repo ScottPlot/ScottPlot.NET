@@ -9,7 +9,7 @@ date: 2023-12-13
 
 # Console Application Quickstart
 
-**Step 1:** Install the latest [ScottPlot 5 package](https://www.nuget.org/packages/ScottPlot) from NuGet. 
+**Step 1:** Install the [ScottPlot](https://www.nuget.org/packages/ScottPlot) NuGet package.
 Linux & MacOS users may need to [install additional packages](/faq/dependencies).
 
 **Step 2:** Write some code to plot data and save it as an image file.

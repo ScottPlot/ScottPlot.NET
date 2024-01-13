@@ -1,8 +1,8 @@
 ---
 Title: WPF Quickstart
-url: "quickstart/wpf"
 description: How to create an interactive plot in a C# WPF application
 date: 2021-09-26
+url: /quickstart/wpf/
 ---
 
 # WPF Quickstart
@@ -11,15 +11,9 @@ date: 2021-09-26
 
 **Step 2:** Add this to the root element of your XAML file:
 
-{{< code-sp4sp5 >}}
-
-xmlns:ScottPlot="clr-namespace:ScottPlot;assembly=ScottPlot.WPF"
-
----
-
+```xml
 xmlns:ScottPlot="clr-namespace:ScottPlot.WPF;assembly=ScottPlot.WPF"
-
-{{< /code-sp4sp5 >}}
+```
 
 **Step 3:** Add a `WpfPlot` to your layout and give it a unique name
 ```xml
@@ -28,25 +22,24 @@ xmlns:ScottPlot="clr-namespace:ScottPlot.WPF;assembly=ScottPlot.WPF"
 
 **Step 4:** Plot some data in your start-up sequence
 
-{{< code-sp4sp5 >}}
+{{< code-sp5 >}}
 
-double[] dataX = new double[] { 1, 2, 3, 4, 5 };
-double[] dataY = new double[] { 1, 4, 9, 16, 25 };
-WpfPlot1.Plot.AddScatter(dataX, dataY);
-WpfPlot1.Refresh();
-
----
-
+```cs
 double[] dataX = { 1, 2, 3, 4, 5 };
 double[] dataY = { 1, 4, 9, 16, 25 };
 WpfPlot1.Plot.Add.Scatter(dataX, dataY);
 WpfPlot1.Refresh();
+```
 
-{{< /code-sp4sp5 >}}
+{{< /code-sp5 >}}
 
-![](scottplot-quickstart-wpf.png)
+![](/images/quickstart/scottplot-quickstart-wpf.png)
 
-**Tip:** .NET Framework users may experience better startup behavior if the plot is setup in the `Loaded` event:
+## .NET Framework Notes
+
+Projects targeting .NET Framework should setup their plot inside the `Loaded` event.
+
+{{< code-sp5 >}}
 
 ```cs
 public MainWindow()
@@ -57,8 +50,10 @@ public MainWindow()
     {
         double[] dataX = { 1, 2, 3, 4, 5 };
         double[] dataY = { 1, 4, 9, 16, 25 };
-        WpfPlot1.Plot.AddScatter(dataX, dataY);
+        WpfPlot1.Plot.Add.Scatter(dataX, dataY);
         WpfPlot1.Refresh();
     };
 }
 ```
+
+{{< /code-sp5 >}}
