@@ -28,4 +28,4 @@ myPlot.SavePng("quickstart.png", 400, 300);
 
 {{< /code-sp5 >}}
 
-![](/images/cookbook/scottplot-quickstart-console.png)
+![](/images/quickstart/scottplot-quickstart-console.png)

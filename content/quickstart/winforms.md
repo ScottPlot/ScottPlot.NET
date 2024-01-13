@@ -1,9 +1,11 @@
 ---
 Title: Windows Forms Quickstart
-url: "quickstart/winforms"
 description: How to create an interactive plot in a C# Windows Forms application
 date: 2021-09-26
+url: /quickstart/winforms/
 ---
+
+{{< banner-sp5 >}}
 
 # Windows Forms Quickstart
 
@@ -13,25 +15,19 @@ date: 2021-09-26
 
 **Step 3:** Plot some data in your start-up sequence
 
-{{< code-sp4sp5 >}}
+{{< code-sp5 >}}
 
-double[] dataX = new double[] { 1, 2, 3, 4, 5 };
-double[] dataY = new double[] { 1, 4, 9, 16, 25 };
-
-formsPlot1.Plot.AddScatter(dataX, dataY);
-formsPlot1.Refresh();
-
----
-
+```cs
 double[] dataX = { 1, 2, 3, 4, 5 };
 double[] dataY = { 1, 4, 9, 16, 25 };
 
 formsPlot1.Plot.Add.Scatter(dataX, dataY);
 formsPlot1.Refresh();
+```
 
-{{< /code-sp4sp5 >}}
+{{< /code-sp5 >}}
 
-![](scottplot-quickstart-winforms.png)
+![](/images/quickstart/scottplot-quickstart-winforms.png)
 
 ### How to add a Plot Control Programmatically
 
