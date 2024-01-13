@@ -51,8 +51,8 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/mjpz'><img src='https://scottplot.net/images/contributors/mjpz.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/segeyros'><img src='https://scottplot.net/images/contributors/segeyros.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/Milyczekpolsl'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/sghctoma'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Milyczekpolsl'><img src='https://scottplot.net/images/contributors/milyczekpolsl.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/sghctoma'><img src='https://scottplot.net/images/contributors/sghctoma.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
