@@ -31,17 +31,20 @@ Release notes for every version of ScottPlot
 </li>
 <li>Finance: Added <code>Sequential</code> property to display OHLC data without gaps (<a href="https://github.com/ScottPlot/ScottPlot/issues/2611">#2611</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3187">#3187</a>) <em>Thanks <a href="https://github.com/robbyls">@robbyls</a>, <a href="https://github.com/mjpz">@mjpz</a>, and <a href="https://github.com/segeyros">@segeyros</a></em>
 </li>
+<li>SignalConst: A high performance plot type for evenly-spaced unchanging data (<a href="https://github.com/ScottPlot/ScottPlot/issues/70">#70</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3188">#3188</a>) <em>Thanks <a href="https://github.com/StendProg">@StendProg</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/barnettben'>barnettben</a>, <a href='https://github.com/robbyls'>robbyls</a>, <a href='https://github.com/mjpz'>mjpz</a>, <a href='https://github.com/segeyros'>segeyros</a>, <a href='https://github.com/swharden'>swharden</a>
+<a href='https://github.com/barnettben'>barnettben</a>, <a href='https://github.com/robbyls'>robbyls</a>, <a href='https://github.com/mjpz'>mjpz</a>, <a href='https://github.com/segeyros'>segeyros</a>, <a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/barnettben'><img src='https://scottplot.net/images/contributors/barnettben.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/robbyls'><img src='https://scottplot.net/images/contributors/robbyls.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/mjpz'><img src='https://scottplot.net/images/contributors/mjpz.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/segeyros'><img src='https://scottplot.net/images/contributors/segeyros.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
