@@ -1,6 +1,6 @@
 ---
-Title: ScottPlot
-Description: Interactive Plotting Library for .NET
+Title: ScottPlot - Interactive Plotting Library for .NET
+Description: ScottPlot is a free and open-source plotting library for .NET that makes it easy to interactively display large datasets. Line plots, bar charts, pie graphs, scatter plots, and more can be created with just a few lines of code.
 date: 2021-09-06
 lastmod: 2022-03-29
 layout: single
