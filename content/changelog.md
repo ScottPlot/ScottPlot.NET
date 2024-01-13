@@ -33,11 +33,17 @@ Release notes for every version of ScottPlot
 </li>
 <li>SignalConst: A high performance plot type for evenly-spaced unchanging data (<a href="https://github.com/ScottPlot/ScottPlot/issues/70">#70</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3188">#3188</a>) <em>Thanks <a href="https://github.com/StendProg">@StendProg</a></em>
 </li>
+<li>Plot: Created <code>Plot.Add.Rectangle()</code> for placing a rectangular polygon on the plot
+</li>
+<li>Axis Rules: Improved <code>MaximumBoundary</code> and <code>MinimumBoundary</code> correction behavior (<a href="https://github.com/ScottPlot/ScottPlot/issues/3191">#3191</a>) <em>Thanks <a href="https://github.com/Milyczekpolsl">@Milyczekpolsl</a></em>
+</li>
+<li>Bar Plot: Added support for horizontal bar graphs (<a href="https://github.com/ScottPlot/ScottPlot/issues/3192">#3192</a>) <em>Thanks <a href="https://github.com/sghctoma">@sghctoma</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/barnettben'>barnettben</a>, <a href='https://github.com/robbyls'>robbyls</a>, <a href='https://github.com/mjpz'>mjpz</a>, <a href='https://github.com/segeyros'>segeyros</a>, <a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/swharden'>swharden</a>
+<a href='https://github.com/barnettben'>barnettben</a>, <a href='https://github.com/robbyls'>robbyls</a>, <a href='https://github.com/mjpz'>mjpz</a>, <a href='https://github.com/segeyros'>segeyros</a>, <a href='https://github.com/StendProg'>StendProg</a>, <a href='https://github.com/Milyczekpolsl'>Milyczekpolsl</a>, <a href='https://github.com/sghctoma'>sghctoma</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/barnettben'><img src='https://scottplot.net/images/contributors/barnettben.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -45,6 +51,8 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/mjpz'><img src='https://scottplot.net/images/contributors/mjpz.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/segeyros'><img src='https://scottplot.net/images/contributors/segeyros.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Milyczekpolsl'><img src='https://scottplot.net/images/contributors/milyczekpolsl.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/sghctoma'><img src='https://scottplot.net/images/contributors/sghctoma.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
