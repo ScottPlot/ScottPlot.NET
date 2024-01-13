@@ -5,38 +5,18 @@ url: /versions
 date: 2023-12-13
 ---
 
-# ScottPlot Versions
+{{< banner-sp5 >}}
 
-**ScottPlot 4.1 is the current stable version of ScottPlot** recommended for new users and production applications. It is actively developed and maintained in parallel with ScottPlot 5.
+## Major Versions
 
-**ScottPlot 5.0 beta is an experimental version of ScottPlot** available as a preview package on NuGet, buts its API is not yet finalized and it is currently not recommended for production use.
+[**ScottPlot 5.0**](/faq/version-5.0/) (January, 2024) used SkiaSharp for improved performance and cross-platform support
 
-> 💡 **Why ScottPlot 5?** ScottPlot 4 was created using the cross-platform `System.Drawing.Common` graphics library for rendering, but then Microsoft ended cross-platform support for this package, motivating creation of a new version of ScottPlot using a different graphics library (SkiaSharp). This transition required numerous breaking changes to ScottPlot's API, so the major version was incremented and learnings from the last several years of ScottPlot 4 development and support were channelled into creating ScottPlot 5 with improved performance, better cross-platform support, additional features, and a simpler API.
+[**ScottPlot 4.1**](/faq/version-4.1/) (May, 2021) added multi-axis support and a stateless rendering system
 
-## Features by Version
+**ScottPlot 4.0** (Nov, 2019) targeted .NET Standard for cross-platform support
 
-* [What’s New in ScottPlot 4.1](/faq/version-4.1/)
-* [What’s New in ScottPlot 5.0](/faq/version-5.0/)
+**ScottPlot 3.0** (May, 2019) was released as a NuGet package for WinForms and WPF
 
-<div class="text-center"><div class="d-inline-block">
+**ScottPlot 2.0** (Jan, 2019) was created as its own GitHub project
 
-Feature | ScottPlot 5 | ScottPlot 4 | ScottPlot 3
----|---|---|---
-Release | ❌ preview | ✔️ stable | ⚠️ obsolete
-Performance | 🚀🚀🚀 | 🚀 | 🚀
-Graphics | SkiaSharp | System.Drawing.Common | System.Drawing.Common
-Windows | ✔️ | ✔️
-Linux | ✔️ | ⚠️ only .NET 6 | ❌
-MacOS | ✔️ | ⚠️ only .NET 6 | ❌
-.NET Framework | ✔️ ≥4.6.2 | ✔️ ≥4.6.2 | ✔️ ≥4.5
-.NET Core | ✔️ ≥4.6.2 | ✔️ ≥4.6.2 | ❌
-Nullable annotations | ✔️ | ❌ | ❌
-Windows Forms | ✔️ | ✔️ | ✔️
-WPF | ✔️ | ✔️ | ❌
-Avalonia | ✔️ | ✔️ | ❌
-Eto Forms | ✔️ | ✔️ | ❌
-Browser | ✔️ | ❌ | ❌
-WinUI | ✔️ | ❌ | ❌
-Android | ✔️ | ❌ | ❌
-
-</div></div>
+**ScottPlot 1.0** (June, 2017) started as a single 150-line class to demonstrate how to create a line plot with C#
