@@ -119,3 +119,9 @@ myPlot.Add.Signal(ys, pointsPerSecond);
 double secondsPerPoint = 0.01;
 myPlot.Add.Signal(ys, secondsPerPoint);
 ```
+
+### User Control Namespaces Changed
+
+**Windows Forms:** `ScottPlot.FormsPlot` is now `ScottPlot.WinForms.FormsPlot`. Users upgrading from ScottPlot 4 will need to edit this reference in their designer files.
+
+**WPF:** `ScottPlot.WpfPlot` is now `ScottPlot.WPF.WpfPlot`. Users upgrading from ScottPlot 4 will need to edit their xaml files to update the `xmls` window attribute.
