@@ -4,6 +4,10 @@ description: Commonly encountered issues related to font rendering on Linux and 
 date: 2023-12-13
 ---
 
+{{< banner-sp5 >}}
+
+{{< specific-sp4 >}}
+
 # Font Issues on Linux
 
 ScottPlot 4 uses `System.Drawing.Common` to render text in cross-platform environments, but not having the proper dependencies installed may result in unexpected font rendering behavior.

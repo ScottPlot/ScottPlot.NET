@@ -4,6 +4,10 @@ description: How to create and place an interactive ScottPlot control in a Form 
 date: 2023-12-13
 ---
 
+{{< banner-sp5 >}}
+
+{{< specific-sp4 >}}
+
 # Add ScottPlot WinForms Control Programmatically
 
 **ScottPlot controls are typically added to forms by drag/dropping the control from the Visual Studio Toolbox, but this can also be achieved in code.** Adding a ScottPlot control programmatically may be desired if developers experience Visual Studio designer view errors. These errors are commonly caused by old versions of Visual Studio, x86 vs. x64 mismatches, or issues locating DLLs or fonts.
@@ -69,7 +73,7 @@ If you're developing a complex WinForms app, it makes sense to place a `Panel` w
 
 After adding a `Panel` I recommend setting its `BackColor` to `ControlDark` to make it obvious where the plot will go
 
-![](screenshot.png)
+![](/images/faq/add-winforms-programmatically/screenshot.png)
 
 Then in your application's startup sequence you can add:
 

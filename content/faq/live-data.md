@@ -4,6 +4,10 @@ description: Different strategies for displaying live data that changes continuo
 date: 2023-12-13
 ---
 
+{{< banner-sp5 >}}
+
+{{< specific-sp4 >}}
+
 # How to Plot Realtime Data
 
 ## Use the `DataLogger` to show growing datasets

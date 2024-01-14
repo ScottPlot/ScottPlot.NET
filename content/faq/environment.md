@@ -4,6 +4,10 @@ description: How to Build ScottPlot from Source Code using Visual Studio
 date: 2023-12-13
 ---
 
+{{< banner-sp5 >}}
+
+{{< specific-sp4 >}}
+
 # ScottPlot Development Environment
 
 ## Build ScottPlot from Source

@@ -4,6 +4,10 @@ description: How to configure ScottPlot when DPI scaling is used
 date: 2023-12-13
 ---
 
+{{< banner-sp5 >}}
+
+{{< specific-sp4 >}}
+
 # Display Scaling
 
 Display scaling (DPI scaling) is a setting that allows the operating system to stretch a window to be larger than its original size. When a ScottPlot control is in a scaled window it could perform one of the following behaviors:

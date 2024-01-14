@@ -4,6 +4,10 @@ Description: Why does ScottPlot prefer double[]? Can other data types be used?
 date: 2023-12-13
 ---
 
+{{< banner-sp5 >}}
+
+{{< specific-sp4 >}}
+
 # ScottPlot Data Formats
 
 **ScottPlot is opinionated, and prefers data to be in `double[]` format.** We often receive suggestions and questions related to plotting data originating in other formats. This topic frequently surfaces in GitHub issues, discussions, and even pull requests (see links at the bottom of this page). 

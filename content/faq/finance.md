@@ -4,6 +4,10 @@ Description: How to plot candlesticks and volume indicators in separate plot con
 date: 2023-12-13
 ---
 
+{{< banner-sp5 >}}
+
+{{< specific-sp4 >}}
+
 # Financial Charting
 
 Finance charts often display price action next to volume indicators. This page describes how to synchronize two plot controls so they share a horizontal axis and can be used to simultaneously display price and volume.

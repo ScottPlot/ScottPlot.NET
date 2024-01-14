@@ -4,6 +4,10 @@ Description: How to use ScottPlot to display data containing gaps
 date: 2023-12-13
 ---
 
+{{< banner-sp5 >}}
+
+{{< specific-sp4 >}}
+
 # How to Plot Data with Gaps
 
 ### Scatter Plots Support Gaps with NaN

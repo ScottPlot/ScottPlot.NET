@@ -4,6 +4,10 @@ Description: Interact with the control configuration object to achieve advanced 
 date: 2023-12-13
 ---
 
+{{< banner-sp5 >}}
+
+{{< specific-sp4 >}}
+
 # User Control Advanced Configuration
 
 **ScottPlot user controls have a `Plot` object you're probably familiar with, but they also have a `Configuration` object which lets users modify the default behavior of user controls.** Options in this configuration object are typically related to user interaction, such as whether scroll-wheel-zoom is enabled, or left-click-pan is allowed.

@@ -4,6 +4,10 @@ description: How to create plottable objects, add them to plots, and interact wi
 date: 2023-12-13
 ---
 
+{{< banner-sp5 >}}
+
+{{< specific-sp4 >}}
+
 # Working with Plottable Objects
 
 * A **Plottable** is anything you can display on a plot. 

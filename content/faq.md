@@ -18,8 +18,7 @@ date: 2023-12-13
 * [Using Multiple or Additional Axes](multi-axis)
 
 ### Plot: Styling
-* [Layout Mechanics and Customization](layout)
-* [Custom Padding around the Data Area](layout/#configure-axis-size)
+* [Layout Customization](layout)
 * [Frameless Plots and Data Margin](https://scottplot.net/faq/layout/#frameless-plots)
 * [Anti-Aliasing](anti-aliasing)
 
@@ -63,5 +62,4 @@ date: 2023-12-13
 * [ScottPlot's Dependencies by Version](dependencies)
 * [Development Environment Setup](environment)
 * [About ScottPlot](history)
-* [ScottPlot vs. Other Plotting Libraries](compare)
 * [How to Create Reproducible Code Examples](repro)

@@ -4,6 +4,10 @@ description: How to create multi-plot figures with ScottPlot
 date: 2023-12-13
 ---
 
+{{< banner-sp5 >}}
+
+{{< specific-sp4 >}}
+
 # MultiPlot
 
 A _MultiPlot_ is a single image that contains multiple plots.

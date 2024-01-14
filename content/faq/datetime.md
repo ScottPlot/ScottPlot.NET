@@ -4,6 +4,10 @@ description: How to plot data on a DateTime axis
 date: 2023-12-13
 ---
 
+{{< banner-sp5 >}}
+
+{{< specific-sp4 >}}
+
 # How to plot data on a DateTime axis
 
 **C# can represent time with the `DateTime` type, but all of ScottPlot's methods prefer `double` arrays.** This page reviews how to plot data with a time axis using ScottPlot.

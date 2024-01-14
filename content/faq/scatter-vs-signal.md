@@ -4,6 +4,10 @@ description: Scatter and signal plots are the most commonly used plot types, so 
 date: 2023-12-13
 ---
 
+{{< banner-sp5 >}}
+
+{{< specific-sp4 >}}
+
 # Signal Plots are More Performant than Scatter Plots
 
 * **Scatter plots have paired X/Y data points.** Scatter plots are designed to display ***hundreds*** of points, but performance rapidly drops as the number of points increases, so scatter plots are not appropriate for large datasets.

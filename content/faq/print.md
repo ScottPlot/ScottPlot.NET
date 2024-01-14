@@ -4,6 +4,10 @@ description: How to print a plot using ScottPlot
 date: 2023-12-13
 ---
 
+{{< banner-sp5 >}}
+
+{{< specific-sp4 >}}
+
 # Printing with ScottPlot
 
 **The easiest way to print a plot is to render it as a `Bitmap` by calling `Plot.Render()`, then print the `Bitmap`.** Many resources are available online to indicate how to print an image using your framework of choice. This page demonstrates how I prefer to print plots using WinForms.

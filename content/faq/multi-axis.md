@@ -4,6 +4,10 @@ Description: How to create plots with multiple axes
 date: 2023-12-13
 ---
 
+{{< banner-sp5 >}}
+
+{{< specific-sp4 >}}
+
 # Multi-Axis Plots
 
 💡 **TLDR:** _Every plottable has an `XAxisIndex` and `YAxisIndex` field that determines which axis it will render on. You can use the primary (bottom/left) or secondary (right/top) axes, or `Add()` your own to achieve multiple axes on the same edge of a plot._

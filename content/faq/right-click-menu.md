@@ -4,6 +4,10 @@ description: How to add a custom right-click menu to ScottPlot user controls
 date: 2023-12-13
 ---
 
+{{< banner-sp5 >}}
+
+{{< specific-sp4 >}}
+
 # How to Customize the Right-Click Menu
 
 User controls have a `RightClicked` event handler you can add a custom event to. This event could open a context menu, but it could also perform other actions.

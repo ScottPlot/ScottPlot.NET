@@ -4,6 +4,10 @@ description: How to configure anti-aliasing settings in ScottPlot
 date: 2023-12-13
 ---
 
+{{< banner-sp5 >}}
+
+{{< specific-sp4 >}}
+
 # Anti-Aliasing
 
 ScottPlot renders using high quality (anti-aliased) graphics by default. This functionality can be overwritten when requesting a render:

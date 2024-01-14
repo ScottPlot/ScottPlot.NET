@@ -4,6 +4,10 @@ description: How to determine where the cursor is and what data points may be ne
 date: 2023-12-13
 ---
 
+{{< banner-sp5 >}}
+
+{{< specific-sp4 >}}
+
 # Determining the Mouse Position
 
 This page documents how to use ScottPlot user controls to determine where the mouse cursor is and which data points are near it. 

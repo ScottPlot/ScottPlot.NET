@@ -4,6 +4,10 @@ description: Where did ScottPlot come from and who is Scott?
 date: 2023-12-13
 ---
 
+{{< banner-sp5 >}}
+
+{{< specific-sp4 >}}
+
 # History of ScottPlot
 
 **Hi, I'm Scott!** I'm a biological research scientist, but I occasionally write code to accomplish science-related tasks. You can read more about me here: [swharden.com/about](https://swharden.com/about/)
@@ -15,19 +19,3 @@ date: 2023-12-13
 ## What's With the Name?
 
 **When I made ScottPlot, I thought I would be its only user.** I made it open-source so that others could _learn_ from it, but I didn't really intend people to _use_ it out of the box. Many improvements later, and after a great amount of input and contribution from the open-source community, ScottPlot is maturing into a very useful package, but it retains its original silly name.
-
-## ScottPlot Milestones
-
-* **June, 2017:** I first created a 150-line `swhPlot.cs` file that used `System.Drawing` to render a scatter plot onto a `Bitmap`. I found it useful, so I kept using it and incrementally improved it to add features.
-
-* **Jan, 2018:** I used the plotting class in several projects, so I decided to give it its own repository and called it `ScottPlot`. At the time I thought I would be the only one to use it (hence the ridiculous name), but I left it open-source and indicated in the readme it was only to be considered for experimental and educational value.
-
-* **May, 2019:** The first ScottPlot package was uploaded to NuGet. Around this time I decided I'd try harder to keep the API and documentation clean because it was apparent other people had started using it. A few pull requests had come in through GitHub too, which was a surprise but great motivation for me to continue refining this package. I was still pretty new to the .NET stack, but developing and maintaining ScottPlot catalyzed my learning.
-
-* **November, 2019:** ScottPlot stopping being a WinForms-only package and split into separate packages for ScottPlot (.NET Standard), the WinForms control (.NET Framework), and the WPF control (.NET Framework and .NET Core). This new version was ScottPlot 4.0
-
-* **March, 2021:** ScottPlot 4.1 was released which was the result of over a year of focus on internal refactoring to improve performance and add complex features (such as multi-axis support). It also was an opportunity to reflect on the previous few years of emails, pull requests, and hundreds of issue tickets and try to refine the API and improve the documentation to make common difficulties less confusing and more discoverable.
-
-* **January 1, 2023:** ScottPlot 5.0 beta was released. It improves performance and cross-platform support by eliminating the `System.Drawing` dependency in favor of `SkiaSharp`. It supports new platform targets like WinUI and Blazor, and has many performance and memory improvements as well.
-
-* **January 1, 2024:** ScottPlot 5.0 was released and now serves as the current version of ScottPlot. Read more on the [ScttPlot Versions](/versions/) page.

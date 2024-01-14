@@ -4,6 +4,10 @@ description: How does ScottPlot treat data arrays containing NaN and Infinity?
 date: 2023-12-13
 ---
 
+{{< banner-sp5 >}}
+
+{{< specific-sp4 >}}
+
 # Plotting Data Containing NaN and Infinity
 
 NaN-checks are not routinely performed inside the render loop (a decision favoring maximal performance), so attempting to plot `double[]` containing NaN may result in unexpected behavior (including exceptions). In general it is a good idea to avoid plotting data containing any of:

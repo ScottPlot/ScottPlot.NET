@@ -4,6 +4,10 @@ Description: By creating a class that implements IPlottable, users can create cu
 date: 2023-12-13
 ---
 
+{{< banner-sp5 >}}
+
+{{< specific-sp4 >}}
+
 # How to Create Custom Plot Types
 
 **ScottPlot comes with dozens of plot types (bar, scatter, pie, etc.), but users can create their own to customize styling and behavior.** ScottPlot uses the term _Plottable_ to describe objects which can be added to plots, store data, and contain logic to draw on the chart. 

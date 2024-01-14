@@ -4,6 +4,10 @@ description: How to use ScottPlot to display data in multi-threaded/async enviro
 date: 2023-12-13
 ---
 
+{{< banner-sp5 >}}
+
+{{< specific-sp4 >}}
+
 # Async and Multithreading Considerations
 
 Some applications are multi-threaded (e.g., WPF) allowing rendering to occur separately from data manipulation routines. While this allows for faster and more responsive applications, it raises potential problems if data inside plottable objects are manipulated mid-render. For example, replacing the `xs` and `ys` array in a scatter plot _while_ it is rendering may result in an exception.

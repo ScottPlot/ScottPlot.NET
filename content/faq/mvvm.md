@@ -4,6 +4,10 @@ Description: ScottPlot in the context of Model–View–ViewModel (MVVM) and Dat
 date: 2023-12-13
 ---
 
+{{< banner-sp5 >}}
+
+{{< specific-sp4 >}}
+
 # MVVM and Data Binding
 
 **Many charting libraries use MVVM and data binding patterns to interact with plots. ScottPlot does not.** This intentional decision allows ScottPlot to be more performant by giving the user raw access to array values used for plotting, and also enabling users to have total control over when new frames are rendered (a potentially costly operation). Although MVVM pattern and data binding are often useful when designing interactive GUI applications, consider that virtually all ScottPlot functionality can be used to create static images from headless console applications where these patterns are less widely used.

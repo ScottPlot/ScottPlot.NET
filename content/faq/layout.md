@@ -4,6 +4,10 @@ description: Advanced configuration for the data area, axes, figure padding, etc
 date: 2023-12-13
 ---
 
+{{< banner-sp5 >}}
+
+{{< specific-sp4 >}}
+
 # Advanced Layout Customization
 
 This page summarizes how plot layouts are created automatically and how this behavior can be customized. For additional information and code examples, refer to the following Cookbook sections:
