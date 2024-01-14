@@ -1,7 +1,7 @@
 ---
 Title: "Defined Axis Limits - ScottPlot 4.1 Cookbook"
 Description: "Radar charts with independent axis limits use scales fitted to the data by default, but scaling can be controlled by defining the maximum value for each axis."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/radar_axislimits/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Radar Chart", "Defined Axis Limits"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/radar_axislimits.png"
 <h2><a id='defined-axis-limits' href='/cookbook/4.1/recipes/radar_axislimits/'>Defined Axis Limits</a></h2>
 
 Radar charts with independent axis limits use scales fitted to the data by default, but scaling can be controlled by defining the maximum value for each axis.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -43,6 +45,8 @@ plt.Legend();
 
 plt.SaveFig("radar_axisLimits.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/radar_axislimits.png' class='d-block mx-auto my-5' />
 

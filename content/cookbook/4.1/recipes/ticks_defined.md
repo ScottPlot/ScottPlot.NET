@@ -1,7 +1,7 @@
 ---
 Title: "Manual Tick Labels - ScottPlot 4.1 Cookbook"
 Description: "Tick positions and labels can be defined manually."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/ticks_defined/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Advanced Axis Features", "Manual Tick Labels"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/ticks_defined.png"
 <h2><a id='manual-tick-labels' href='/cookbook/4.1/recipes/ticks_defined/'>Manual Tick Labels</a></h2>
 
 Tick positions and labels can be defined manually.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -34,6 +36,8 @@ plt.YAxis.ManualTickPositions(yPositions, yLabels);
 
 plt.SaveFig("ticks_defined.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/ticks_defined.png' class='d-block mx-auto my-5' />
 

@@ -1,7 +1,7 @@
 ---
 Title: "Custom Value Formatter - ScottPlot 4.1 Cookbook"
 Description: "A custom formatter can be used to generate labels above each bar using the numeric value of the bar itself."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/bar_values_custom_formatter/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Bar Graph", "Custom Value Formatter"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/bar_values_custom_formatter.png"
 <h2><a id='custom-value-formatter' href='/cookbook/4.1/recipes/bar_values_custom_formatter/'>Custom Value Formatter</a></h2>
 
 A custom formatter can be used to generate labels above each bar using the numeric value of the bar itself.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -29,6 +31,8 @@ plt.SetAxisLimits(yMin: 0);
 
 plt.SaveFig("bar_values_custom_formatter.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/bar_values_custom_formatter.png' class='d-block mx-auto my-5' />
 

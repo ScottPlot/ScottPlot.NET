@@ -1,7 +1,7 @@
 ---
 Title: "Bubble Plot - ScottPlot 4.1 Cookbook"
 Description: "Bubble plots display circles at specific X/Y locations. Each circle can be individually customized. Save the object that is returned when the bubble plot is created and call its Add() method to add bubbles."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/bubble_quickstart/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Bubble Plot", "Bubble Plot"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/bubble_quickstart.png"
 <h2><a id='bubble-plot' href='/cookbook/4.1/recipes/bubble_quickstart/'>Bubble Plot</a></h2>
 
 Bubble plots display circles at specific X/Y locations. Each circle can be individually customized. Save the object that is returned when the bubble plot is created and call its Add() method to add bubbles.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -41,6 +43,8 @@ plt.AxisAuto(.2, .25); // zoom out to accommodate large bubbles
 
 plt.SaveFig("bubble_quickstart.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/bubble_quickstart.png' class='d-block mx-auto my-5' />
 

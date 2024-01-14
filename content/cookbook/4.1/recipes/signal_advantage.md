@@ -1,7 +1,7 @@
 ---
 Title: "Speed Test - ScottPlot 4.1 Cookbook"
 Description: "Compare the speed to the same data plotted as a scatter plot."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/signal_advantage/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Signal Plot", "Speed Test"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/signal_advantage.png"
 <h2><a id='speed-test' href='/cookbook/4.1/recipes/signal_advantage/'>Speed Test</a></h2>
 
 Compare the speed to the same data plotted as a scatter plot.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -28,6 +30,8 @@ plt.Title($"Scatter Plot: One Million Points");
 
 plt.SaveFig("signal_advantage.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/signal_advantage.png' class='d-block mx-auto my-5' />
 

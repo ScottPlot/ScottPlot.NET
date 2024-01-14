@@ -1,7 +1,7 @@
 ---
 Title: "Tooltip Font - ScottPlot 4.1 Cookbook"
 Description: "Tooltips fonts can be customized"
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/tooltip_font/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Tooltip", "Tooltip Font"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/tooltip_font.png"
 <h2><a id='tooltip-font' href='/cookbook/4.1/recipes/tooltip_font/'>Tooltip Font</a></h2>
 
 Tooltips fonts can be customized
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -31,6 +33,8 @@ tt2.Font.Bold = true;
 
 plt.SaveFig("tooltip_font.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/tooltip_font.png' class='d-block mx-auto my-5' />
 

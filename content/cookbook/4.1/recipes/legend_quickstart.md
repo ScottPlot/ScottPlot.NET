@@ -1,7 +1,7 @@
 ---
 Title: "Legend Quickstart - ScottPlot 4.1 Cookbook"
 Description: "Add labels to plot items, then enable the legend to display a key in the corner of the data area."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/legend_quickstart/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Legend", "Legend Quickstart"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/legend_quickstart.png"
 <h2><a id='legend-quickstart' href='/cookbook/4.1/recipes/legend_quickstart/'>Legend Quickstart</a></h2>
 
 Add labels to plot items, then enable the legend to display a key in the corner of the data area.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -30,6 +32,8 @@ plt.Legend();
 
 plt.SaveFig("legend_quickstart.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/legend_quickstart.png' class='d-block mx-auto my-5' />
 

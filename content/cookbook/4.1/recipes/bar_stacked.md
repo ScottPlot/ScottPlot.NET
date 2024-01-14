@@ -1,7 +1,7 @@
 ---
 Title: "Stacked Bar Graphs - ScottPlot 4.1 Cookbook"
 Description: "Bars can be overlapped to give the appearance of stacking."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/bar_stacked/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Bar Graph", "Stacked Bar Graphs"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/bar_stacked.png"
 <h2><a id='stacked-bar-graphs' href='/cookbook/4.1/recipes/bar_stacked/'>Stacked Bar Graphs</a></h2>
 
 Bars can be overlapped to give the appearance of stacking.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -36,6 +38,8 @@ plt.SetAxisLimits(yMin: 0);
 
 plt.SaveFig("bar_stacked.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/bar_stacked.png' class='d-block mx-auto my-5' />
 

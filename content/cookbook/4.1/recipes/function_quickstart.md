@@ -1,7 +1,7 @@
 ---
 Title: "Function - ScottPlot 4.1 Cookbook"
 Description: "Function plots are defined by a function (not X/Y data points) so the curve is continuous and can be zoomed in and out infinitely"
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/function_quickstart/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Function", "Function"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/function_quickstart.png"
 <h2><a id='function' href='/cookbook/4.1/recipes/function_quickstart/'>Function</a></h2>
 
 Function plots are defined by a function (not X/Y data points) so the curve is continuous and can be zoomed in and out infinitely
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -33,6 +35,8 @@ plt.SetAxisLimits(-10, 10, -1.5, 1.5);
 
 plt.SaveFig("function_quickstart.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/function_quickstart.png' class='d-block mx-auto my-5' />
 

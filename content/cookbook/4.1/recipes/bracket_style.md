@@ -1,7 +1,7 @@
 ---
 Title: "Styling Brackets - ScottPlot 4.1 Cookbook"
 Description: "Brackets have additional options for customizations."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/bracket_style/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Bracket", "Styling Brackets"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/bracket_style.png"
 <h2><a id='styling-brackets' href='/cookbook/4.1/recipes/bracket_style/'>Styling Brackets</a></h2>
 
 Brackets have additional options for customizations.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -39,6 +41,8 @@ plt.Margins(.2, .2); // zoom out slightly to make room for labels
 
 plt.SaveFig("bracket_style.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/bracket_style.png' class='d-block mx-auto my-5' />
 

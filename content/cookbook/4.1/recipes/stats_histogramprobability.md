@@ -1,7 +1,7 @@
 ---
 Title: "Probability Histogram - ScottPlot 4.1 Cookbook"
 Description: "Histograms can be displayed as binned probability instead of binned counts. The ideal probability curve can also be plotted."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/stats_histogramprobability/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Statistics", "Probability Histogram"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/stats_histogramprobability.png"
 <h2><a id='probability-histogram' href='/cookbook/4.1/recipes/stats_histogramprobability/'>Probability Histogram</a></h2>
 
 Histograms can be displayed as binned probability instead of binned counts. The ideal probability curve can also be plotted.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -44,6 +46,8 @@ plt.SetAxisLimits(yMin: 0);
 
 plt.SaveFig("stats_histogramProbability.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/stats_histogramprobability.png' class='d-block mx-auto my-5' />
 

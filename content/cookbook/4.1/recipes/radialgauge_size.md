@@ -1,7 +1,7 @@
 ---
 Title: "Gauge Size - ScottPlot 4.1 Cookbook"
 Description: "The empty space between gauges can be adjusted as a fraction of their width. "
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/radialgauge_size/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Radial Gauge", "Gauge Size"]
@@ -14,6 +14,8 @@ OgImage: "/cookbook/4.1/images/radialgauge_size.png"
 
 The empty space between gauges can be adjusted as a fraction of their width. 
 
+{{< code-sp4 >}}
+
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
@@ -25,6 +27,8 @@ gauges.SpaceFraction = .05;
 
 plt.SaveFig("radialgauge_size.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/radialgauge_size.png' class='d-block mx-auto my-5' />
 

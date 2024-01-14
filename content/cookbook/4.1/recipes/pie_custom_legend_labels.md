@@ -1,7 +1,7 @@
 ---
 Title: "Custom Legend Labels - ScottPlot 4.1 Cookbook"
 Description: "Labels for slices and legend items can be independently configured."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/pie_custom_legend_labels/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Pie Chart", "Custom Legend Labels"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/pie_custom_legend_labels.png"
 <h2><a id='custom-legend-labels' href='/cookbook/4.1/recipes/pie_custom_legend_labels/'>Custom Legend Labels</a></h2>
 
 Labels for slices and legend items can be independently configured.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -31,6 +33,8 @@ plt.Legend();
 
 plt.SaveFig("pie_custom_legend_labels.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/pie_custom_legend_labels.png' class='d-block mx-auto my-5' />
 

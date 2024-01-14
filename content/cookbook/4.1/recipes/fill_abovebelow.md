@@ -1,7 +1,7 @@
 ---
 Title: "Fill Above and Below - ScottPlot 4.1 Cookbook"
 Description: "Sometimes you want to share the area under a curve, but change its color depending on which side of the baseline value it is. There's a helper method to make this easier."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/fill_abovebelow/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Fill", "Fill Above and Below"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/fill_abovebelow.png"
 <h2><a id='fill-above-and-below' href='/cookbook/4.1/recipes/fill_abovebelow/'>Fill Above and Below</a></h2>
 
 Sometimes you want to share the area under a curve, but change its color depending on which side of the baseline value it is. There's a helper method to make this easier.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -31,6 +33,8 @@ plt.SetAxisLimits(xMin: 0, xMax: 200);
 
 plt.SaveFig("fill_aboveBelow.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/fill_abovebelow.png' class='d-block mx-auto my-5' />
 

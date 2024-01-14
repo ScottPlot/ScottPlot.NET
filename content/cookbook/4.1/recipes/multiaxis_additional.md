@@ -1,7 +1,7 @@
 ---
 Title: "Additional Y Axis - ScottPlot 4.1 Cookbook"
 Description: "Additional axes can be added on any edge. Additional axes stack away from the plot area."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/multiaxis_additional/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Multi-Axis", "Additional Y Axis"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/multiaxis_additional.png"
 <h2><a id='additional-y-axis' href='/cookbook/4.1/recipes/multiaxis_additional/'>Additional Y Axis</a></h2>
 
 Additional axes can be added on any edge. Additional axes stack away from the plot area.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -33,6 +35,8 @@ yAxis3.Color(sigBig.Color);
 
 plt.SaveFig("multiAxis_additional.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/multiaxis_additional.png' class='d-block mx-auto my-5' />
 

@@ -1,7 +1,7 @@
 ---
 Title: "Size and Placement - ScottPlot 4.1 Cookbook"
 Description: "Edges of the heatmap can be defined as an alternative to defining offset and cell size,"
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/heatmap_placement/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Heatmap", "Size and Placement"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/heatmap_placement.png"
 <h2><a id='size-and-placement' href='/cookbook/4.1/recipes/heatmap_placement/'>Size and Placement</a></h2>
 
 Edges of the heatmap can be defined as an alternative to defining offset and cell size,
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -28,6 +30,8 @@ hm.YMax = 10;
 
 plt.SaveFig("heatmap_placement.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/heatmap_placement.png' class='d-block mx-auto my-5' />
 

@@ -1,7 +1,7 @@
 ---
 Title: "Lines Only - ScottPlot 4.1 Cookbook"
 Description: "A shortcut method makes it easy to create a scatter plot with just lines (no markers)"
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/scatter_lineplot/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Scatter Plot", "Lines Only"]
@@ -14,6 +14,8 @@ OgImage: "/cookbook/4.1/images/scatter_lineplot.png"
 
 A shortcut method makes it easy to create a scatter plot with just lines (no markers)
 
+{{< code-sp4 >}}
+
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
@@ -25,6 +27,8 @@ plt.AddScatterLines(xs, ys, Color.Red, 3);
 
 plt.SaveFig("scatter_lineplot.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/scatter_lineplot.png' class='d-block mx-auto my-5' />
 

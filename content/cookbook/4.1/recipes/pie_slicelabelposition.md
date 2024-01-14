@@ -1,7 +1,7 @@
 ---
 Title: "Slice Label Position - ScottPlot 4.1 Cookbook"
 Description: "Slice label position can be customized to place labels outside the pie. If labels are placed outside the pie, the pie size should be reduced to make room for them."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/pie_slicelabelposition/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Pie Chart", "Slice Label Position"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/pie_slicelabelposition.png"
 <h2><a id='slice-label-position' href='/cookbook/4.1/recipes/pie_slicelabelposition/'>Slice Label Position</a></h2>
 
 Slice label position can be customized to place labels outside the pie. If labels are placed outside the pie, the pie size should be reduced to make room for them.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -27,6 +29,8 @@ pie.SliceLabelColors = pie.SliceFillColors;
 
 plt.SaveFig("pie_sliceLabelPosition.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/pie_slicelabelposition.png' class='d-block mx-auto my-5' />
 

@@ -1,7 +1,7 @@
 ---
 Title: "Bubbles with Labels - ScottPlot 4.1 Cookbook"
 Description: "Bubble plots can be combined with other plot types to create more advanced charts. In this example each bubble is accompanied by a text object. Bubbles are also colored according to their size such that smaller bubbles are bluer."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/bubble_withtext/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Bubble Plot", "Bubbles with Labels"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/bubble_withtext.png"
 <h2><a id='bubbles-with-labels' href='/cookbook/4.1/recipes/bubble_withtext/'>Bubbles with Labels</a></h2>
 
 Bubble plots can be combined with other plot types to create more advanced charts. In this example each bubble is accompanied by a text object. Bubbles are also colored according to their size such that smaller bubbles are bluer.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -55,6 +57,8 @@ plt.AxisAuto(.2, .25); // zoom out to accommodate large bubbles
 
 plt.SaveFig("bubble_withText.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/bubble_withtext.png' class='d-block mx-auto my-5' />
 

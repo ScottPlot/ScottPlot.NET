@@ -1,7 +1,7 @@
 ---
 Title: "Repeating Axis Line - ScottPlot 4.1 Cookbook"
 Description: "Repeating axis lines allows to plot several axis lines, either horizontal or vertical, draggable or not, whose positions are linked"
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/repeatingaxisline_basics/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Axis Line and Span", "Repeating Axis Line"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/repeatingaxisline_basics.png"
 <h2><a id='repeating-axis-line' href='/cookbook/4.1/recipes/repeatingaxisline_basics/'>Repeating Axis Line</a></h2>
 
 Repeating axis lines allows to plot several axis lines, either horizontal or vertical, draggable or not, whose positions are linked
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -66,6 +68,8 @@ plt.SetAxisLimitsX(-100, 300);
 
 plt.SaveFig("repeatingAxisLine_basics.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/repeatingaxisline_basics.png' class='d-block mx-auto my-5' />
 

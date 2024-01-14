@@ -1,7 +1,7 @@
 ---
 Title: "Disable Vertical Grid - ScottPlot 4.1 Cookbook"
 Description: "Grid line visibility can be controlled for each axis individually. Use this to selectively enable grid lines only for the axes of interest. Keep in mind that vertical grid lines are controlled by horizontal axes."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/axis_griddisableone/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Axis and Ticks", "Disable Vertical Grid"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/axis_griddisableone.png"
 <h2><a id='disable-vertical-grid' href='/cookbook/4.1/recipes/axis_griddisableone/'>Disable Vertical Grid</a></h2>
 
 Grid line visibility can be controlled for each axis individually. Use this to selectively enable grid lines only for the axes of interest. Keep in mind that vertical grid lines are controlled by horizontal axes.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -27,6 +29,8 @@ plt.XAxis.Grid(false);
 
 plt.SaveFig("axis_gridDisableOne.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/axis_griddisableone.png' class='d-block mx-auto my-5' />
 

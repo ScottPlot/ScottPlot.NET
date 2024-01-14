@@ -1,7 +1,7 @@
 ---
 Title: "Colorbar Label - ScottPlot 4.1 Cookbook"
 Description: "Colorbars have a Label property similar to X and Y axes."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/colorbar_label/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Colorbar", "Colorbar Label"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/colorbar_label.png"
 <h2><a id='colorbar-label' href='/cookbook/4.1/recipes/colorbar_label/'>Colorbar Label</a></h2>
 
 Colorbars have a Label property similar to X and Y axes.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -29,6 +31,8 @@ cb.Label = "Custom Colorbar Label";
 
 plt.SaveFig("colorbar_label.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/colorbar_label.png' class='d-block mx-auto my-5' />
 

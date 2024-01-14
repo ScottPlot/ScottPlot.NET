@@ -1,7 +1,7 @@
 ---
 Title: "Customizable hatching (pattern) - ScottPlot 4.1 Cookbook"
 Description: "The hatch of each radar plot can be customized"
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/radar_hatch/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Radar Chart", "Customizable hatching (pattern)"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/radar_hatch.png"
 <h2><a id='customizable-hatching-(pattern)' href='/cookbook/4.1/recipes/radar_hatch/'>Customizable hatching (pattern)</a></h2>
 
 The hatch of each radar plot can be customized
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -42,6 +44,8 @@ plt.Legend();
 
 plt.SaveFig("radar_hatch.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/radar_hatch.png' class='d-block mx-auto my-5' />
 

@@ -1,7 +1,7 @@
 ---
 Title: "Crosshairs on Multiple Axes - ScottPlot 4.1 Cookbook"
 Description: "Crosshairs label coordinates on the primary axes by default, but the axis index can be changed allowing multiple crosshairs to label multiple axes."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/crosshair_multiple_different_axes/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Crosshair", "Crosshairs on Multiple Axes"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/crosshair_multiple_different_axes.png"
 <h2><a id='crosshairs-on-multiple-axes' href='/cookbook/4.1/recipes/crosshair_multiple_different_axes/'>Crosshairs on Multiple Axes</a></h2>
 
 Crosshairs label coordinates on the primary axes by default, but the axis index can be changed allowing multiple crosshairs to label multiple axes.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -52,6 +54,8 @@ plt.XAxis2.Ticks(true);
 
 plt.SaveFig("crosshair_multiple_different_axes.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/crosshair_multiple_different_axes.png' class='d-block mx-auto my-5' />
 

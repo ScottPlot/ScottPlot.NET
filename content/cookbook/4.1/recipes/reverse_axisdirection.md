@@ -1,7 +1,7 @@
 ---
 Title: "Reverse Axis Direction - ScottPlot 4.1 Cookbook"
 Description: "Plot data on reversed axis. And all points plotted match the reverse coordinate axis."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/reverse_axisdirection/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Advanced Axis Features", "Reverse Axis Direction"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/reverse_axisdirection.png"
 <h2><a id='reverse-axis-direction' href='/cookbook/4.1/recipes/reverse_axisdirection/'>Reverse Axis Direction</a></h2>
 
 Plot data on reversed axis. And all points plotted match the reverse coordinate axis.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -27,6 +29,8 @@ plt.YAxis.IsReverse = true;
 
 plt.SaveFig("reverse_axisDirection.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/reverse_axisdirection.png' class='d-block mx-auto my-5' />
 

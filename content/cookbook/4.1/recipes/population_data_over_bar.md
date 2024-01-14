@@ -1,7 +1,7 @@
 ---
 Title: "Data points over bar - ScottPlot 4.1 Cookbook"
 Description: "Alternate styling options allow data points to be displayed over the box and whisker plots."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/population_data_over_bar/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Population", "Data points over bar"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/population_data_over_bar.png"
 <h2><a id='data-points-over-bar' href='/cookbook/4.1/recipes/population_data_over_bar/'>Data points over bar</a></h2>
 
 Alternate styling options allow data points to be displayed over the box and whisker plots.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -45,6 +47,8 @@ plt.XTicks(populationNames);
 
 plt.SaveFig("population_data_over_bar.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/population_data_over_bar.png' class='d-block mx-auto my-5' />
 

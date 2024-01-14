@@ -1,7 +1,7 @@
 ---
 Title: "Single Color Heatmap - ScottPlot 4.1 Cookbook"
 Description: "A single-color heatmap can be created where cell transparency is defined by a 2D array containing values 0 to 1."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/heatmap_single_color/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Heatmap", "Single Color Heatmap"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/heatmap_single_color.png"
 <h2><a id='single-color-heatmap' href='/cookbook/4.1/recipes/heatmap_single_color/'>Single Color Heatmap</a></h2>
 
 A single-color heatmap can be created where cell transparency is defined by a 2D array containing values 0 to 1.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -34,6 +36,8 @@ hm3.OffsetY = 40;
 
 plt.SaveFig("heatmap_single_color.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/heatmap_single_color.png' class='d-block mx-auto my-5' />
 

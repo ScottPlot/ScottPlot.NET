@@ -1,7 +1,7 @@
 ---
 Title: "Inverted Brackets - ScottPlot 4.1 Cookbook"
 Description: "By default bracket labels appear clockwise relative to the line formed by their two points. Users can invert the direction of brackets as needed."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/bracket_invert/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Bracket", "Inverted Brackets"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/bracket_invert.png"
 <h2><a id='inverted-brackets' href='/cookbook/4.1/recipes/bracket_invert/'>Inverted Brackets</a></h2>
 
 By default bracket labels appear clockwise relative to the line formed by their two points. Users can invert the direction of brackets as needed.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -34,6 +36,8 @@ plt.Margins(.2, .2); // zoom out slightly to make room for labels
 
 plt.SaveFig("bracket_invert.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/bracket_invert.png' class='d-block mx-auto my-5' />
 

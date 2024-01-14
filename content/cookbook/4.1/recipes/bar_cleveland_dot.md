@@ -1,7 +1,7 @@
 ---
 Title: "Cleveland Dot Plot - ScottPlot 4.1 Cookbook"
 Description: "Cleveland Dot Plots allow comparing two categories in situations where a Bar Plot may be crowded."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/bar_cleveland_dot/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Bar Graph", "Cleveland Dot Plot"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/bar_cleveland_dot.png"
 <h2><a id='cleveland-dot-plot' href='/cookbook/4.1/recipes/bar_cleveland_dot/'>Cleveland Dot Plot</a></h2>
 
 Cleveland Dot Plots allow comparing two categories in situations where a Bar Plot may be crowded.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -33,6 +35,8 @@ plt.Legend();
 
 plt.SaveFig("bar_cleveland_dot.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/bar_cleveland_dot.png' class='d-block mx-auto my-5' />
 

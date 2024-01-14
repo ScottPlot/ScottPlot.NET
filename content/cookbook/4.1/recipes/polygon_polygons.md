@@ -1,7 +1,7 @@
 ---
 Title: "Many Polygons - ScottPlot 4.1 Cookbook"
 Description: "Special rendering optimizations are available to display a large number of polygons."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/polygon_polygons/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Polygon", "Many Polygons"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/polygon_polygons.png"
 <h2><a id='many-polygons' href='/cookbook/4.1/recipes/polygon_polygons/'>Many Polygons</a></h2>
 
 Special rendering optimizations are available to display a large number of polygons.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -47,6 +49,8 @@ plt.AxisScaleLock(true);
 
 plt.SaveFig("polygon_polygons.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/polygon_polygons.png' class='d-block mx-auto my-5' />
 

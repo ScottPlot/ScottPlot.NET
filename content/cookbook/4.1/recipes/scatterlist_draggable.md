@@ -1,7 +1,7 @@
 ---
 Title: "Scatter List Draggable - ScottPlot 4.1 Cookbook"
 Description: "There exists a Scatter Plot List with draggable points."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/scatterlist_draggable/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Scatter Plot", "Scatter List Draggable"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/scatterlist_draggable.png"
 <h2><a id='scatter-list-draggable' href='/cookbook/4.1/recipes/scatterlist_draggable/'>Scatter List Draggable</a></h2>
 
 There exists a Scatter Plot List with draggable points.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -28,6 +30,8 @@ plt.Add(scatter);
 
 plt.SaveFig("scatterList_draggable.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/scatterlist_draggable.png' class='d-block mx-auto my-5' />
 

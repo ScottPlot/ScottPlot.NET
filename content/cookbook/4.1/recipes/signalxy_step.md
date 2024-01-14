@@ -1,7 +1,7 @@
 ---
 Title: "SignalXY Step Mode - ScottPlot 4.1 Cookbook"
 Description: "Data points can be connected with steps (instead of straight lines)."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/signalxy_step/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "SignalXY", "SignalXY Step Mode"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/signalxy_step.png"
 <h2><a id='signalxy-step-mode' href='/cookbook/4.1/recipes/signalxy_step/'>SignalXY Step Mode</a></h2>
 
 Data points can be connected with steps (instead of straight lines).
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -28,6 +30,8 @@ plt.SetAxisLimits(110, 140, 17.5, 27.5);
 
 plt.SaveFig("signalxy_step.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/signalxy_step.png' class='d-block mx-auto my-5' />
 

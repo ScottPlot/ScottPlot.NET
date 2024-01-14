@@ -1,7 +1,7 @@
 ---
 Title: "Angle and Magnitude - ScottPlot 4.1 Cookbook"
 Description: "This example demonstrates how to define vectors according to a given angle and magnitude."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/vectorfield_anglemag/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Vector Field", "Angle and Magnitude"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/vectorfield_anglemag.png"
 <h2><a id='angle-and-magnitude' href='/cookbook/4.1/recipes/vectorfield_anglemag/'>Angle and Magnitude</a></h2>
 
 This example demonstrates how to define vectors according to a given angle and magnitude.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -38,6 +40,8 @@ plt.AddVectorField(vectors, xs, ys);
 
 plt.SaveFig("vectorField_angleMag.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/vectorfield_anglemag.png' class='d-block mx-auto my-5' />
 

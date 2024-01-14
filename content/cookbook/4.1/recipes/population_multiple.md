@@ -1,7 +1,7 @@
 ---
 Title: "Multiple Populations - ScottPlot 4.1 Cookbook"
 Description: "Multiple populations can be assembled into an array and plotted as a single group."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/population_multiple/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Population", "Multiple Populations"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/population_multiple.png"
 <h2><a id='multiple-populations' href='/cookbook/4.1/recipes/population_multiple/'>Multiple Populations</a></h2>
 
 Multiple populations can be assembled into an array and plotted as a single group.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -40,6 +42,8 @@ plt.XTicks(populationNames);
 
 plt.SaveFig("population_multiple.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/population_multiple.png' class='d-block mx-auto my-5' />
 

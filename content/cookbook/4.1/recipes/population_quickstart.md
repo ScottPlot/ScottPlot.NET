@@ -1,7 +1,7 @@
 ---
 Title: "Population Plot - ScottPlot 4.1 Cookbook"
 Description: "The population plot makes it easy to display populations as bar graphs, box-and-whisker plots, scattered values, or box plots and data points side-by-side. The population plot is different than using a box plot with an error bar in that you pass your original data into the population plot and it determines the standard deviation, standard error, quartiles, mean, median, outliers, etc., and you get to determine how to display these values."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/population_quickstart/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Population", "Population Plot"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/population_quickstart.png"
 <h2><a id='population-plot' href='/cookbook/4.1/recipes/population_quickstart/'>Population Plot</a></h2>
 
 The population plot makes it easy to display populations as bar graphs, box-and-whisker plots, scattered values, or box plots and data points side-by-side. The population plot is different than using a box plot with an error bar in that you pass your original data into the population plot and it determines the standard deviation, standard error, quartiles, mean, median, outliers, etc., and you get to determine how to display these values.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -37,6 +39,8 @@ plt.XAxis.Grid(false);
 
 plt.SaveFig("population_quickstart.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/population_quickstart.png' class='d-block mx-auto my-5' />
 

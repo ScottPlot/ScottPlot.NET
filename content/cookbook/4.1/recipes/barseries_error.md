@@ -1,7 +1,7 @@
 ---
 Title: "BarSeries with Error Bars - ScottPlot 4.1 Cookbook"
 Description: "Combine a BarSeries plot with an ErrorBar plot to achieve this effect."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/barseries_error/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Bar Series", "BarSeries with Error Bars"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/barseries_error.png"
 <h2><a id='barseries-with-error-bars' href='/cookbook/4.1/recipes/barseries_error/'>BarSeries with Error Bars</a></h2>
 
 Combine a BarSeries plot with an ErrorBar plot to achieve this effect.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -49,6 +51,8 @@ plt.SetAxisLimitsY(0, 120);
 
 plt.SaveFig("barseries_error.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/barseries_error.png' class='d-block mx-auto my-5' />
 

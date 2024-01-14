@@ -1,7 +1,7 @@
 ---
 Title: "Radar - ScottPlot 4.1 Cookbook"
 Description: "A radar chart concisely displays multiple values. Radar plots are also called a spider charts or star charts."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/radar_quickstart/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Radar Chart", "Radar"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/radar_quickstart.png"
 <h2><a id='radar' href='/cookbook/4.1/recipes/radar_quickstart/'>Radar</a></h2>
 
 A radar chart concisely displays multiple values. Radar plots are also called a spider charts or star charts.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -31,6 +33,8 @@ plt.Grid(enable: false);
 
 plt.SaveFig("radar_quickstart.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/radar_quickstart.png' class='d-block mx-auto my-5' />
 

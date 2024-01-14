@@ -1,7 +1,7 @@
 ---
 Title: "Bracket Annotations - ScottPlot 4.1 Cookbook"
 Description: "Brackets are useful for annotating a range of data."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/bracket_quickstart/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Bracket", "Bracket Annotations"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/bracket_quickstart.png"
 <h2><a id='bracket-annotations' href='/cookbook/4.1/recipes/bracket_quickstart/'>Bracket Annotations</a></h2>
 
 Brackets are useful for annotating a range of data.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -29,6 +31,8 @@ plt.Margins(.2, .2); // zoom out slightly to make room for labels
 
 plt.SaveFig("bracket_quickstart.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/bracket_quickstart.png' class='d-block mx-auto my-5' />
 

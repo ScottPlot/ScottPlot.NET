@@ -1,7 +1,7 @@
 ---
 Title: "Arbitrary Vectors - ScottPlot 4.1 Cookbook"
 Description: "Vectors can be placed arbitrarily in coordiante space (they are not required to be in a grid)"
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/vectorfield_arbitrary/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Vector Field", "Arbitrary Vectors"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/vectorfield_arbitrary.png"
 <h2><a id='arbitrary-vectors' href='/cookbook/4.1/recipes/vectorfield_arbitrary/'>Arbitrary Vectors</a></h2>
 
 Vectors can be placed arbitrarily in coordiante space (they are not required to be in a grid)
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -51,6 +53,8 @@ for (int i = 0; i < pointCount + 1; i++)
 
 plt.SaveFig("vectorField_arbitrary.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/vectorfield_arbitrary.png' class='d-block mx-auto my-5' />
 

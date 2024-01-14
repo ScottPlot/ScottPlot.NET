@@ -1,7 +1,7 @@
 ---
 Title: "Signal Data with Gaps - ScottPlot 4.1 Cookbook"
 Description: "Signal with defined Xs that contain gaps"
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/signalxy_gaps/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "SignalXY", "Signal Data with Gaps"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/signalxy_gaps.png"
 <h2><a id='signal-data-with-gaps' href='/cookbook/4.1/recipes/signalxy_gaps/'>Signal Data with Gaps</a></h2>
 
 Signal with defined Xs that contain gaps
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -33,6 +35,8 @@ plt.AddSignalXY(xs, ys);
 
 plt.SaveFig("signalxy_gaps.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/signalxy_gaps.png' class='d-block mx-auto my-5' />
 

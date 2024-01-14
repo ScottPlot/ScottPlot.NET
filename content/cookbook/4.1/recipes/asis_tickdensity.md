@@ -1,7 +1,7 @@
 ---
 Title: "Tick Density - ScottPlot 4.1 Cookbook"
 Description: "Axis tick density can be adjusted by the user. The largest the density is, the more ticks are displayed. Setting this value too high will result in overlapping tick labels."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/asis_tickdensity/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Advanced Axis Features", "Tick Density"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/asis_tickdensity.png"
 <h2><a id='tick-density' href='/cookbook/4.1/recipes/asis_tickdensity/'>Tick Density</a></h2>
 
 Axis tick density can be adjusted by the user. The largest the density is, the more ticks are displayed. Setting this value too high will result in overlapping tick labels.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -29,6 +31,8 @@ plt.YAxis.TickDensity(3);
 
 plt.SaveFig("asis_tickDensity.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/asis_tickdensity.png' class='d-block mx-auto my-5' />
 

@@ -1,7 +1,7 @@
 ---
 Title: "Advanced Grid Customization - ScottPlot 4.1 Cookbook"
 Description: "Grid lines can be extensively customized using various configuration methods."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/asis_gridadvanced/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Advanced Axis Features", "Advanced Grid Customization"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/asis_gridadvanced.png"
 <h2><a id='advanced-grid-customization' href='/cookbook/4.1/recipes/asis_gridadvanced/'>Advanced Grid Customization</a></h2>
 
 Grid lines can be extensively customized using various configuration methods.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -29,6 +31,8 @@ plt.YAxis.MajorGrid(lineWidth: 2, lineStyle: LineStyle.Dash, color: Color.Magent
 
 plt.SaveFig("asis_gridAdvanced.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/asis_gridadvanced.png' class='d-block mx-auto my-5' />
 

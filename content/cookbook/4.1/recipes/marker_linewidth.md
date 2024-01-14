@@ -1,7 +1,7 @@
 ---
 Title: "Marker Line Width - ScottPlot 4.1 Cookbook"
 Description: "Markers have options that can be customized, such as line width."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/marker_linewidth/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Marker", "Marker Line Width"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/marker_linewidth.png"
 <h2><a id='marker-line-width' href='/cookbook/4.1/recipes/marker_linewidth/'>Marker Line Width</a></h2>
 
 Markers have options that can be customized, such as line width.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -45,6 +47,8 @@ plt.Margins(.2, .2);
 
 plt.SaveFig("marker_linewidth.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/marker_linewidth.png' class='d-block mx-auto my-5' />
 

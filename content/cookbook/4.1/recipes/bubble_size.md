@@ -1,7 +1,7 @@
 ---
 Title: "Bubble Size - ScottPlot 4.1 Cookbook"
 Description: "The size of bubbles are defined in pixel units by default. However, it is possible to define the size of bubbles using the same units the coordinate system and axes use. If using axis units, users may want to enable the axis scale lock feature to enforce bubble circularity."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/bubble_size/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Bubble Plot", "Bubble Size"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/bubble_size.png"
 <h2><a id='bubble-size' href='/cookbook/4.1/recipes/bubble_size/'>Bubble Size</a></h2>
 
 The size of bubbles are defined in pixel units by default. However, it is possible to define the size of bubbles using the same units the coordinate system and axes use. If using axis units, users may want to enable the axis scale lock feature to enforce bubble circularity.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -46,6 +48,8 @@ plt.Title("Advanced Bubble Plot");
 
 plt.SaveFig("bubble_size.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/bubble_size.png' class='d-block mx-auto my-5' />
 

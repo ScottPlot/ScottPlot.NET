@@ -1,7 +1,7 @@
 ---
 Title: "Gaussian Interpolation - ScottPlot 4.1 Cookbook"
 Description: "Heatmaps can be created from 2D data points using bilinear interpolation with Gaussian weighting. This option results in a heatmap with a standard deviation of 4."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/heatmap_gaussian/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Heatmap", "Gaussian Interpolation"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/heatmap_gaussian.png"
 <h2><a id='gaussian-interpolation' href='/cookbook/4.1/recipes/heatmap_gaussian/'>Gaussian Interpolation</a></h2>
 
 Heatmaps can be created from 2D data points using bilinear interpolation with Gaussian weighting. This option results in a heatmap with a standard deviation of 4.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -30,6 +32,8 @@ var cb = plt.AddColorbar(hm);
 
 plt.SaveFig("heatmap_gaussian.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/heatmap_gaussian.png' class='d-block mx-auto my-5' />
 

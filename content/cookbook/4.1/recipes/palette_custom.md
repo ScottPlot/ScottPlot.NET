@@ -1,7 +1,7 @@
 ---
 Title: "Custom - ScottPlot 4.1 Cookbook"
 Description: "A custom palette can be created from an array of HTML color values. These colors will be used as the default colors for new plottables added to the plot."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/palette_custom/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Palette", "Custom"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/palette_custom.png"
 <h2><a id='custom' href='/cookbook/4.1/recipes/palette_custom/'>Custom</a></h2>
 
 A custom palette can be created from an array of HTML color values. These colors will be used as the default colors for new plottables added to the plot.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -36,6 +38,8 @@ plt.AxisAuto(0, 0.1);
 
 plt.SaveFig("palette_Custom.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/palette_custom.png' class='d-block mx-auto my-5' />
 

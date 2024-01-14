@@ -1,7 +1,7 @@
 ---
 Title: "Text - ScottPlot 4.1 Cookbook"
 Description: "The Text plottable displays a string at an X/Y coordinate in unit space. Unlike the Annotation plottable, text moves when the axes are adjusted."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/text_quickstart/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Text", "Text"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/text_quickstart.png"
 <h2><a id='text' href='/cookbook/4.1/recipes/text_quickstart/'>Text</a></h2>
 
 The Text plottable displays a string at an X/Y coordinate in unit space. Unlike the Annotation plottable, text moves when the axes are adjusted.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -30,6 +32,8 @@ plt.AddText("sample text", 10, .5, size: 16, color: Color.Blue);
 
 plt.SaveFig("text_quickstart.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/text_quickstart.png' class='d-block mx-auto my-5' />
 

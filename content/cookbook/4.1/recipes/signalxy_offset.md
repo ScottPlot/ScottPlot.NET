@@ -1,7 +1,7 @@
 ---
 Title: "SignalXY Offset - ScottPlot 4.1 Cookbook"
 Description: "SignalXY plots can have X and Y offsets that shift all data by a defined amount."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/signalxy_offset/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "SignalXY", "SignalXY Offset"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/signalxy_offset.png"
 <h2><a id='signalxy-offset' href='/cookbook/4.1/recipes/signalxy_offset/'>SignalXY Offset</a></h2>
 
 SignalXY plots can have X and Y offsets that shift all data by a defined amount.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -26,6 +28,8 @@ sig.OffsetY = 100;
 
 plt.SaveFig("signalxy_offset.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/signalxy_offset.png' class='d-block mx-auto my-5' />
 

@@ -1,7 +1,7 @@
 ---
 Title: "Tooltip Colors - ScottPlot 4.1 Cookbook"
 Description: "Tooltips border and fill styles can be customized"
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/tooltip_colors/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Tooltip", "Tooltip Colors"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/tooltip_colors.png"
 <h2><a id='tooltip-colors' href='/cookbook/4.1/recipes/tooltip_colors/'>Tooltip Colors</a></h2>
 
 Tooltips border and fill styles can be customized
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -31,6 +33,8 @@ tt.ArrowSize = 15;
 
 plt.SaveFig("tooltip_colors.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/tooltip_colors.png' class='d-block mx-auto my-5' />
 

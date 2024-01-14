@@ -1,7 +1,7 @@
 ---
 Title: "Offset Notation - ScottPlot 4.1 Cookbook"
 Description: "Offset notation keeps tick labels small when plotting large data values that are close together."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/ticks_offset/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Advanced Axis Features", "Offset Notation"]
@@ -14,6 +14,8 @@ OgImage: "/cookbook/4.1/images/ticks_offset.png"
 
 Offset notation keeps tick labels small when plotting large data values that are close together.
 
+{{< code-sp4 >}}
+
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
@@ -25,6 +27,8 @@ plt.YAxis.TickLabelNotation(offset: true);
 
 plt.SaveFig("ticks_offset.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/ticks_offset.png' class='d-block mx-auto my-5' />
 

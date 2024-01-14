@@ -1,7 +1,7 @@
 ---
 Title: "Add markers - ScottPlot 4.1 Cookbook"
 Description: "Want to place a marker at a position in X/Y space? AddMarker() will create a scatter plot with a single point."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/scatter_addmarker/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Scatter Plot", "Add markers"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/scatter_addmarker.png"
 <h2><a id='add-markers' href='/cookbook/4.1/recipes/scatter_addmarker/'>Add markers</a></h2>
 
 Want to place a marker at a position in X/Y space? AddMarker() will create a scatter plot with a single point.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -32,6 +34,8 @@ for (int i = 0; i < 100; i++)
 
 plt.SaveFig("scatter_AddMarker.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/scatter_addmarker.png' class='d-block mx-auto my-5' />
 

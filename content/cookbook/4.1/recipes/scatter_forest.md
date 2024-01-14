@@ -1,7 +1,7 @@
 ---
 Title: "Forest Plot - ScottPlot 4.1 Cookbook"
 Description: "Scatter plots can be used to create forest plots, which are useful for showing the agreement between multiple estimates."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/scatter_forest/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Scatter Plot", "Forest Plot"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/scatter_forest.png"
 <h2><a id='forest-plot' href='/cookbook/4.1/recipes/scatter_forest/'>Forest Plot</a></h2>
 
 Scatter plots can be used to create forest plots, which are useful for showing the agreement between multiple estimates.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -40,6 +42,8 @@ plt.Legend();
 
 plt.SaveFig("scatter_forest.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/scatter_forest.png' class='d-block mx-auto my-5' />
 

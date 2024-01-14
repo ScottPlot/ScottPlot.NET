@@ -1,7 +1,7 @@
 ---
 Title: "Quantiles - ScottPlot 4.1 Cookbook"
 Description: "A q-Quantile is a generalization of quartiles and percentiles to any number of buckets."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/stats_quantiles/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Statistics", "Quantiles"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/stats_quantiles.png"
 <h2><a id='quantiles' href='/cookbook/4.1/recipes/stats_quantiles/'>Quantiles</a></h2>
 
 A q-Quantile is a generalization of quartiles and percentiles to any number of buckets.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -32,6 +34,8 @@ plt.AddHorizontalLine(secondSeptile, width: 3, style: LineStyle.Dash);
 
 plt.SaveFig("stats_quantiles.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/stats_quantiles.png' class='d-block mx-auto my-5' />
 

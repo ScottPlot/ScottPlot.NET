@@ -1,7 +1,7 @@
 ---
 Title: "Reverse Order - ScottPlot 4.1 Cookbook"
 Description: "Gauges are displayed from the center outward by default but the order can be customized."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/radialgauge_reverse/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Radial Gauge", "Reverse Order"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/radialgauge_reverse.png"
 <h2><a id='reverse-order' href='/cookbook/4.1/recipes/radialgauge_reverse/'>Reverse Order</a></h2>
 
 Gauges are displayed from the center outward by default but the order can be customized.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -27,6 +29,8 @@ gauges.OrderInsideOut = false;
 
 plt.SaveFig("radialgauge_reverse.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/radialgauge_reverse.png' class='d-block mx-auto my-5' />
 

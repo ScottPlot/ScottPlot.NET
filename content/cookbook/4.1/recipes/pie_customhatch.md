@@ -1,7 +1,7 @@
 ---
 Title: "Customize Pie Hatching - ScottPlot 4.1 Cookbook"
 Description: "Hatching (patterns) for pie slices and labels can be customized."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/pie_customhatch/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Pie Chart", "Customize Pie Hatching"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/pie_customhatch.png"
 <h2><a id='customize-pie-hatching' href='/cookbook/4.1/recipes/pie_customhatch/'>Customize Pie Hatching</a></h2>
 
 Hatching (patterns) for pie slices and labels can be customized.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -36,6 +38,8 @@ plt.Legend();
 
 plt.SaveFig("pie_customHatch.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/pie_customhatch.png' class='d-block mx-auto my-5' />
 

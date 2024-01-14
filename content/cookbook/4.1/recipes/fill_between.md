@@ -1,7 +1,7 @@
 ---
 Title: "Fill Between Curves - ScottPlot 4.1 Cookbook"
 Description: "Given two curves, a polygon can be created to give the appearance of shading between them. Here we will display two scatter plots, then create a polygon to fill the region between them."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/fill_between/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Fill", "Fill Between Curves"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/fill_between.png"
 <h2><a id='fill-between-curves' href='/cookbook/4.1/recipes/fill_between/'>Fill Between Curves</a></h2>
 
 Given two curves, a polygon can be created to give the appearance of shading between them. Here we will display two scatter plots, then create a polygon to fill the region between them.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -35,6 +37,8 @@ plt.SetAxisLimits(xMin: 0, xMax: 10);
 
 plt.SaveFig("fill_between.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/fill_between.png' class='d-block mx-auto my-5' />
 

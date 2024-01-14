@@ -1,7 +1,7 @@
 ---
 Title: "Draggable Axis Lines - ScottPlot 4.1 Cookbook"
 Description: "In GUI environments, axis lines can be draggable and moved with the mouse. Drag limits define the boundaries the lines can be dragged."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/axisline_draggable/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Axis Line and Span", "Draggable Axis Lines"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/axisline_draggable.png"
 <h2><a id='draggable-axis-lines' href='/cookbook/4.1/recipes/axisline_draggable/'>Draggable Axis Lines</a></h2>
 
 In GUI environments, axis lines can be draggable and moved with the mouse. Drag limits define the boundaries the lines can be dragged.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -38,6 +40,8 @@ string message = $"Vertical line is at X={vLine.X}";
 
 plt.SaveFig("axisLine_draggable.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/axisline_draggable.png' class='d-block mx-auto my-5' />
 

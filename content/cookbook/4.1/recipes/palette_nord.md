@@ -1,7 +1,7 @@
 ---
 Title: "Nord - ScottPlot 4.1 Cookbook"
 Description: "Nord is a 7-color palette derived from Aurora source from NordConEmu."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/palette_nord/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Palette", "Nord"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/palette_nord.png"
 <h2><a id='nord' href='/cookbook/4.1/recipes/palette_nord/'>Nord</a></h2>
 
 Nord is a 7-color palette derived from Aurora source from NordConEmu.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -32,6 +34,8 @@ plt.AxisAuto(0, 0.1);
 
 plt.SaveFig("palette_Nord.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/palette_nord.png' class='d-block mx-auto my-5' />
 

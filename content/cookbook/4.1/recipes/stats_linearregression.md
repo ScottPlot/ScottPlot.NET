@@ -1,7 +1,7 @@
 ---
 Title: "Linear Regression - ScottPlot 4.1 Cookbook"
 Description: "A regression module is available to simplify the act of creating a linear regression line fitted to the data."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/stats_linearregression/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Statistics", "Linear Regression"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/stats_linearregression.png"
 <h2><a id='linear-regression' href='/cookbook/4.1/recipes/stats_linearregression/'>Linear Regression</a></h2>
 
 A regression module is available to simplify the act of creating a linear regression line fitted to the data.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -36,6 +38,8 @@ plt.AddLine(model.slope, model.offset, (x1, x2), lineWidth: 2);
 
 plt.SaveFig("stats_linearRegression.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/stats_linearregression.png' class='d-block mx-auto my-5' />
 

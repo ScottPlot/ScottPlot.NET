@@ -1,7 +1,7 @@
 ---
 Title: "Circle with Locked Scale - ScottPlot 4.1 Cookbook"
 Description: "For circles to always appear circular, the coordinate system must be forced to always display square-shaped pixels. This can be achieved by enabling the axis scale lock."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/circle_square_pixel/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Ellipse", "Circle with Locked Scale"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/circle_square_pixel.png"
 <h2><a id='circle-with-locked-scale' href='/cookbook/4.1/recipes/circle_square_pixel/'>Circle with Locked Scale</a></h2>
 
 For circles to always appear circular, the coordinate system must be forced to always display square-shaped pixels. This can be achieved by enabling the axis scale lock.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -32,6 +34,8 @@ plt.AxisScaleLock(true); // this forces pixels to have 1:1 scale ratio
 
 plt.SaveFig("circle_square_pixel.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/circle_square_pixel.png' class='d-block mx-auto my-5' />
 

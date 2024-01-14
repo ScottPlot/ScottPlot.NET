@@ -1,7 +1,7 @@
 ---
 Title: "Styled Signal Plot - ScottPlot 4.1 Cookbook"
 Description: "Signal plots can be styled using public fields. Signal plots can also be offset by a defined X or Y amount."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/signal_styled/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Signal Plot", "Styled Signal Plot"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/signal_styled.png"
 <h2><a id='styled-signal-plot' href='/cookbook/4.1/recipes/signal_styled/'>Styled Signal Plot</a></h2>
 
 Signal plots can be styled using public fields. Signal plots can also be offset by a defined X or Y amount.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -29,6 +31,8 @@ sp2.LineWidth = 2;
 
 plt.SaveFig("signal_styled.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/signal_styled.png' class='d-block mx-auto my-5' />
 

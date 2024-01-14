@@ -1,7 +1,7 @@
 ---
 Title: "Percentiles - ScottPlot 4.1 Cookbook"
 Description: "Percentiles are a good tool to analyze the distribution of your data and filter out extreme values."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/stats_percentiles/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Statistics", "Percentiles"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/stats_percentiles.png"
 <h2><a id='percentiles' href='/cookbook/4.1/recipes/stats_percentiles/'>Percentiles</a></h2>
 
 Percentiles are a good tool to analyze the distribution of your data and filter out extreme values.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -31,6 +33,8 @@ plt.AddHorizontalLine(tenthPercentile, width: 3, style: LineStyle.Dash);
 
 plt.SaveFig("stats_percentiles.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/stats_percentiles.png' class='d-block mx-auto my-5' />
 

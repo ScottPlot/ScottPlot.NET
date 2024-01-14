@@ -1,7 +1,7 @@
 ---
 Title: "Using a DateTime Axis - ScottPlot 4.1 Cookbook"
 Description: "You probably never want to do this... but OHLCs have an X value you can customize to be a DateTime (converted to a double using DateTime.ToOATime()). The advantage is that you can use the native DateTime axis support on the horizontal axis. The disadvantage is that gaps in time appear as gaps in the candlesticks. Weekends without trading will appear as gaps. The alternative to this method is to plot a series of OHLCs using sequential numbers, then manually define the axis tick labels."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/finance_datetimeaxis/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Finance", "Using a DateTime Axis"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/finance_datetimeaxis.png"
 <h2><a id='using-a-datetime-axis' href='/cookbook/4.1/recipes/finance_datetimeaxis/'>Using a DateTime Axis</a></h2>
 
 You probably never want to do this... but OHLCs have an X value you can customize to be a DateTime (converted to a double using DateTime.ToOATime()). The advantage is that you can use the native DateTime axis support on the horizontal axis. The disadvantage is that gaps in time appear as gaps in the candlesticks. Weekends without trading will appear as gaps. The alternative to this method is to plot a series of OHLCs using sequential numbers, then manually define the axis tick labels.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -26,6 +28,8 @@ plt.XAxis.DateTimeFormat(true);
 
 plt.SaveFig("finance_dateTimeAxis.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/finance_datetimeaxis.png' class='d-block mx-auto my-5' />
 

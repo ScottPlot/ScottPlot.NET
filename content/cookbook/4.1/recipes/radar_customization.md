@@ -1,7 +1,7 @@
 ---
 Title: "Customization - ScottPlot 4.1 Cookbook"
 Description: "Radar charts support extensive customization options."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/radar_customization/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Radar Chart", "Customization"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/radar_customization.png"
 <h2><a id='customization' href='/cookbook/4.1/recipes/radar_customization/'>Customization</a></h2>
 
 Radar charts support extensive customization options.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -42,6 +44,8 @@ radar.LineWidth = 3;
 
 plt.SaveFig("radar_customization.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/radar_customization.png' class='d-block mx-auto my-5' />
 

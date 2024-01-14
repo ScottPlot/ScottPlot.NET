@@ -1,7 +1,7 @@
 ---
 Title: "Background Gauges Normalization - ScottPlot 4.1 Cookbook"
 Description: "Gauge backgrounds are drawn as full circles by default. This behavior can be disabled to draw partial backgrounds for non-circular gauges."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/radialgauge_backnorm/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Radial Gauge", "Background Gauges Normalization"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/radialgauge_backnorm.png"
 <h2><a id='background-gauges-normalization' href='/cookbook/4.1/recipes/radialgauge_backnorm/'>Background Gauges Normalization</a></h2>
 
 Gauge backgrounds are drawn as full circles by default. This behavior can be disabled to draw partial backgrounds for non-circular gauges.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -28,6 +30,8 @@ gauges.StartingAngle = 180;
 
 plt.SaveFig("radialgauge_backnorm.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/radialgauge_backnorm.png' class='d-block mx-auto my-5' />
 

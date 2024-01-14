@@ -1,7 +1,7 @@
 ---
 Title: "Stacked Bar Plot - ScottPlot 4.1 Cookbook"
 Description: "By customizing each Bar of a BarSeries we can achieve a stacked bar plot. Text objects can be added to the plot to serve as labels."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/barseries_stacked/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Bar Series", "Stacked Bar Plot"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/barseries_stacked.png"
 <h2><a id='stacked-bar-plot' href='/cookbook/4.1/recipes/barseries_stacked/'>Stacked Bar Plot</a></h2>
 
 By customizing each Bar of a BarSeries we can achieve a stacked bar plot. Text objects can be added to the plot to serve as labels.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -60,6 +62,8 @@ plt.SetAxisLimits(-5, 5, -5, 70);
 
 plt.SaveFig("barseries_stacked.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/barseries_stacked.png' class='d-block mx-auto my-5' />
 

@@ -1,7 +1,7 @@
 ---
 Title: "Custom markers - ScottPlot 4.1 Cookbook"
 Description: "Markers can be customized using optional arguments and public fields."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/scatter_markers/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Scatter Plot", "Custom markers"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/scatter_markers.png"
 <h2><a id='custom-markers' href='/cookbook/4.1/recipes/scatter_markers/'>Custom markers</a></h2>
 
 Markers can be customized using optional arguments and public fields.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -32,6 +34,8 @@ sp2.MarkerShape = MarkerShape.filledSquare;
 
 plt.SaveFig("scatter_markers.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/scatter_markers.png' class='d-block mx-auto my-5' />
 

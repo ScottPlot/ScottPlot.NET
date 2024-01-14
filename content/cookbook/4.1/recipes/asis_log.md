@@ -1,7 +1,7 @@
 ---
 Title: "Log Scale - ScottPlot 4.1 Cookbook"
 Description: "ScottPlot is designed to display 2D data on linear X and Y axes, but you can log-transform data before plotting it and customize the ticks and grid to give the appearance of logarithmic scales."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/asis_log/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Advanced Axis Features", "Log Scale"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/asis_log.png"
 <h2><a id='log-scale' href='/cookbook/4.1/recipes/asis_log/'>Log Scale</a></h2>
 
 ScottPlot is designed to display 2D data on linear X and Y axes, but you can log-transform data before plotting it and customize the ticks and grid to give the appearance of logarithmic scales.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -41,6 +43,8 @@ plt.SetAxisLimits(0, 6, 0, Math.Log10(10_000_000));
 
 plt.SaveFig("asis_log.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/asis_log.png' class='d-block mx-auto my-5' />
 

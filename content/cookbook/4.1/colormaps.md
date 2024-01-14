@@ -1,7 +1,7 @@
 ---
 Title: "Colormaps - ScottPlot 4.1 Cookbook"
 Description: "List of Colormaps used to represent continuous data"
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/colormaps/
 ---
@@ -12,10 +12,14 @@ Colormaps can be passed into plottable objects that use them (e.g., Colorbar),
 or they can be instantiated directly so users can access the colors they produce. 
 Viridis and Turbo are typically recommended as the best colormaps to use for scientific data.
 
+{{< code-sp4 >}}
+
 ```cs
 var cmap = new ScottPlot.Drawing.Colormaps.Viridis();
 (byte r, byte g, byte b) = cmap.GetRGB(123);
 ```
+
+{{< /code-sp4 >}}
 
 
 ### Algae

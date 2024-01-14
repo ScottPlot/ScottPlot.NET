@@ -1,7 +1,7 @@
 ---
 Title: "Customization - ScottPlot 4.1 Cookbook"
 Description: "You can customize the colour, cap size, and line width of the error bars."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/errorbar_customization/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Error Bar", "Customization"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/errorbar_customization.png"
 <h2><a id='customization' href='/cookbook/4.1/recipes/errorbar_customization/'>Customization</a></h2>
 
 You can customize the colour, cap size, and line width of the error bars.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -35,6 +37,8 @@ errorBars.LineWidth = 3;
 
 plt.SaveFig("errorBar_customization.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/errorbar_customization.png' class='d-block mx-auto my-5' />
 

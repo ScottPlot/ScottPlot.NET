@@ -1,7 +1,7 @@
 ---
 Title: "Slice Percentages - ScottPlot 4.1 Cookbook"
 Description: "The percentage of each slice can be displayed at its center."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/pie_showpercentage/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Pie Chart", "Slice Percentages"]
@@ -14,6 +14,8 @@ OgImage: "/cookbook/4.1/images/pie_showpercentage.png"
 
 The percentage of each slice can be displayed at its center.
 
+{{< code-sp4 >}}
+
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
@@ -24,6 +26,8 @@ pie.ShowPercentages = true;
 
 plt.SaveFig("pie_showPercentage.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/pie_showpercentage.png' class='d-block mx-auto my-5' />
 

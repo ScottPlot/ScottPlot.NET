@@ -1,7 +1,7 @@
 ---
 Title: "Fixed Size Bins - ScottPlot 4.1 Cookbook"
 Description: "A histogram can be created using fixed size bins."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/stats_histogram_fixed_bins/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Statistics", "Fixed Size Bins"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/stats_histogram_fixed_bins.png"
 <h2><a id='fixed-size-bins' href='/cookbook/4.1/recipes/stats_histogram_fixed_bins/'>Fixed Size Bins</a></h2>
 
 A histogram can be created using fixed size bins.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -37,6 +39,8 @@ plt.SetAxisLimits(yMin: 0);
 
 plt.SaveFig("stats_histogram_fixed_bins.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/stats_histogram_fixed_bins.png' class='d-block mx-auto my-5' />
 

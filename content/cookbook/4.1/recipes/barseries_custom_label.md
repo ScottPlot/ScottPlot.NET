@@ -1,7 +1,7 @@
 ---
 Title: "Custom Label - ScottPlot 4.1 Cookbook"
 Description: "Value labels above bars can be customized."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/barseries_custom_label/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Bar Series", "Custom Label"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/barseries_custom_label.png"
 <h2><a id='custom-label' href='/cookbook/4.1/recipes/barseries_custom_label/'>Custom Label</a></h2>
 
 Value labels above bars can be customized.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -53,6 +55,8 @@ plt.SetAxisLimits(-1, 5, 0, 30);
 
 plt.SaveFig("barseries_custom_label.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/barseries_custom_label.png' class='d-block mx-auto my-5' />
 

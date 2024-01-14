@@ -1,7 +1,7 @@
 ---
 Title: "Heatmap Clipping - ScottPlot 4.1 Cookbook"
 Description: "Heatmaps can be clipped to an arbitrary polygon"
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/heatmap_clipping/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Heatmap", "Heatmap Clipping"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/heatmap_clipping.png"
 <h2><a id='heatmap-clipping' href='/cookbook/4.1/recipes/heatmap_clipping/'>Heatmap Clipping</a></h2>
 
 Heatmaps can be clipped to an arbitrary polygon
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -33,6 +35,8 @@ hm.ClippingPoints = new Coordinate[]
 
 plt.SaveFig("heatmap_clipping.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/heatmap_clipping.png' class='d-block mx-auto my-5' />
 

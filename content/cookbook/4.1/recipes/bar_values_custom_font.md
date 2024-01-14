@@ -1,7 +1,7 @@
 ---
 Title: "Customizing Value Label Font - ScottPlot 4.1 Cookbook"
 Description: "Font styling for bar value labels can be customized."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/bar_values_custom_font/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Bar Graph", "Customizing Value Label Font"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/bar_values_custom_font.png"
 <h2><a id='customizing-value-label-font' href='/cookbook/4.1/recipes/bar_values_custom_font/'>Customizing Value Label Font</a></h2>
 
 Font styling for bar value labels can be customized.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -30,6 +32,8 @@ plt.SetAxisLimits(yMin: 0);
 
 plt.SaveFig("bar_values_custom_font.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/bar_values_custom_font.png' class='d-block mx-auto my-5' />
 

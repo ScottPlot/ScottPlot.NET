@@ -1,7 +1,7 @@
 ---
 Title: "PolarNight - ScottPlot 4.1 Cookbook"
 Description: "PolarNight is a 4-color palette sourced from Nord. This palette is optimized for a dark background."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/palette_polarnight/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Palette", "PolarNight"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/palette_polarnight.png"
 <h2><a id='polarnight' href='/cookbook/4.1/recipes/palette_polarnight/'>PolarNight</a></h2>
 
 PolarNight is a 4-color palette sourced from Nord. This palette is optimized for a dark background.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -33,6 +35,8 @@ plt.Style(ScottPlot.Style.Blue2);
 
 plt.SaveFig("palette_PolarNight.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/palette_polarnight.png' class='d-block mx-auto my-5' />
 

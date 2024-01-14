@@ -1,7 +1,7 @@
 ---
 Title: "Fill Above and Below - ScottPlot 4.1 Cookbook"
 Description: "Signal plots can be filled above and below"
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/signal_fillaboveandbelow/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Signal Plot", "Fill Above and Below"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/signal_fillaboveandbelow.png"
 <h2><a id='fill-above-and-below' href='/cookbook/4.1/recipes/signal_fillaboveandbelow/'>Fill Above and Below</a></h2>
 
 Signal plots can be filled above and below
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -29,6 +31,8 @@ plt.Margins(x: 0);
 
 plt.SaveFig("signal_fillAboveAndBelow.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/signal_fillaboveandbelow.png' class='d-block mx-auto my-5' />
 

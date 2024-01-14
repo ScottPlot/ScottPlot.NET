@@ -1,7 +1,7 @@
 ---
 Title: "Custom Label Format - ScottPlot 4.1 Cookbook"
 Description: "For ultimate control over crosshair label format you can create a custom formatter function and use that to convert positions to labels. This allows logic to be used to format crosshair labels."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/crosshair_customlabelformatting/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Crosshair", "Custom Label Format"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/crosshair_customlabelformatting.png"
 <h2><a id='custom-label-format' href='/cookbook/4.1/recipes/crosshair_customlabelformatting/'>Custom Label Format</a></h2>
 
 For ultimate control over crosshair label format you can create a custom formatter function and use that to convert positions to labels. This allows logic to be used to format crosshair labels.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -45,6 +47,8 @@ plt.YLabel("Vertical Axis");
 
 plt.SaveFig("crosshair_customlabelformatting.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/crosshair_customlabelformatting.png' class='d-block mx-auto my-5' />
 

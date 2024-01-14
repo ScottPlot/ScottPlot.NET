@@ -1,7 +1,7 @@
 ---
 Title: "Microcharts - ScottPlot 4.1 Cookbook"
 Description: "This is the default 12-color palette used by Microcharts."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/palette_microcharts/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Palette", "Microcharts"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/palette_microcharts.png"
 <h2><a id='microcharts' href='/cookbook/4.1/recipes/palette_microcharts/'>Microcharts</a></h2>
 
 This is the default 12-color palette used by Microcharts.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -32,6 +34,8 @@ plt.AxisAuto(0, 0.1);
 
 plt.SaveFig("palette_Microcharts.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/palette_microcharts.png' class='d-block mx-auto my-5' />
 

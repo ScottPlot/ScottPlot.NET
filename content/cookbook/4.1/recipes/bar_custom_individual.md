@@ -1,7 +1,7 @@
 ---
 Title: "Custom Individual Bars - ScottPlot 4.1 Cookbook"
 Description: "Extreme customization can be achieved by placing each bar manually and adjusting its styling properties individually."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/bar_custom_individual/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Bar Graph", "Custom Individual Bars"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/bar_custom_individual.png"
 <h2><a id='custom-individual-bars' href='/cookbook/4.1/recipes/bar_custom_individual/'>Custom Individual Bars</a></h2>
 
 Extreme customization can be achieved by placing each bar manually and adjusting its styling properties individually.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -44,6 +46,8 @@ plt.SetAxisLimits(yMin: 0);
 
 plt.SaveFig("bar_custom_individual.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/bar_custom_individual.png' class='d-block mx-auto my-5' />
 

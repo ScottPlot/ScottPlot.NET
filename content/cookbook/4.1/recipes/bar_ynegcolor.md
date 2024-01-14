@@ -1,7 +1,7 @@
 ---
 Title: "Negative Bar Colors - ScottPlot 4.1 Cookbook"
 Description: "Bars with negative values can be colored differently than positive ones."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/bar_ynegcolor/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Bar Graph", "Negative Bar Colors"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/bar_ynegcolor.png"
 <h2><a id='negative-bar-colors' href='/cookbook/4.1/recipes/bar_ynegcolor/'>Negative Bar Colors</a></h2>
 
 Bars with negative values can be colored differently than positive ones.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -26,6 +28,8 @@ bar.FillColorNegative = Color.Red;
 
 plt.SaveFig("bar_yNegColor.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/bar_ynegcolor.png' class='d-block mx-auto my-5' />
 

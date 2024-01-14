@@ -1,7 +1,7 @@
 ---
 Title: "Customizable polygon outline - ScottPlot 4.1 Cookbook"
 Description: "The thickness of each radar plot's outline can be customized."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/radar_customizepolygonoutline/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Radar Chart", "Customizable polygon outline"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/radar_customizepolygonoutline.png"
 <h2><a id='customizable-polygon-outline' href='/cookbook/4.1/recipes/radar_customizepolygonoutline/'>Customizable polygon outline</a></h2>
 
 The thickness of each radar plot's outline can be customized.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -37,6 +39,8 @@ plt.Legend();
 
 plt.SaveFig("radar_customizePolygonOutline.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/radar_customizepolygonoutline.png' class='d-block mx-auto my-5' />
 

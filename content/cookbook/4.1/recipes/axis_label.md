@@ -1,7 +1,7 @@
 ---
 Title: "Axis Customizations - ScottPlot 4.1 Cookbook"
 Description: "Axes can be customized different ways. Axis labels and colors are the most common types of customizations."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/axis_label/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Axis and Ticks", "Axis Customizations"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/axis_label.png"
 <h2><a id='axis-customizations' href='/cookbook/4.1/recipes/axis_label/'>Axis Customizations</a></h2>
 
 Axes can be customized different ways. Axis labels and colors are the most common types of customizations.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -35,6 +37,8 @@ plt.XAxis.Color(Color.Green);
 
 plt.SaveFig("Axis_label.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/axis_label.png' class='d-block mx-auto my-5' />
 

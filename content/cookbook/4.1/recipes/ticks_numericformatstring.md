@@ -1,7 +1,7 @@
 ---
 Title: "Numeric Format String - ScottPlot 4.1 Cookbook"
 Description: "Tick labels can be converted to text using a custom format string."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/ticks_numericformatstring/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Advanced Axis Features", "Numeric Format String"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/ticks_numericformatstring.png"
 <h2><a id='numeric-format-string' href='/cookbook/4.1/recipes/ticks_numericformatstring/'>Numeric Format String</a></h2>
 
 Tick labels can be converted to text using a custom format string.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -28,6 +30,8 @@ plt.YAxis.TickLabelFormat("P1", dateTimeFormat: false);
 
 plt.SaveFig("ticks_numericFormatString.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/ticks_numericformatstring.png' class='d-block mx-auto my-5' />
 

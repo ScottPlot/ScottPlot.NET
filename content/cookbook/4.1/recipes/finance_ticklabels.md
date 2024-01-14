@@ -1,7 +1,7 @@
 ---
 Title: "Candlesticks with Custom Tick Labels - ScottPlot 4.1 Cookbook"
 Description: "A better way to represent time on the horizontal axis is to use traditional Cartesian coordinates so each candlestick is placed at X positions (0, 1, 2, etc.), then manually define the locations and label text of important positions on the plot. This is clunky, but possible. This inelegance is why financial charting is probably best done with real financial charting libraries, not a scientific charting library like ScottPlot..."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/finance_ticklabels/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Finance", "Candlesticks with Custom Tick Labels"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/finance_ticklabels.png"
 <h2><a id='candlesticks-with-custom-tick-labels' href='/cookbook/4.1/recipes/finance_ticklabels/'>Candlesticks with Custom Tick Labels</a></h2>
 
 A better way to represent time on the horizontal axis is to use traditional Cartesian coordinates so each candlestick is placed at X positions (0, 1, 2, etc.), then manually define the locations and label text of important positions on the plot. This is clunky, but possible. This inelegance is why financial charting is probably best done with real financial charting libraries, not a scientific charting library like ScottPlot...
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -28,6 +30,8 @@ plt.XTicks(tickPositions, tickLabels);
 
 plt.SaveFig("finance_tickLabels.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/finance_ticklabels.png' class='d-block mx-auto my-5' />
 

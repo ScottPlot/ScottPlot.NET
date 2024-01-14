@@ -1,7 +1,7 @@
 ---
 Title: "Gauge Label Font Percentage - ScottPlot 4.1 Cookbook"
 Description: "Size of the gauge level text as a fraction of the gauge width."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/radialgauge_labelfontsize/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Radial Gauge", "Gauge Label Font Percentage"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/radialgauge_labelfontsize.png"
 <h2><a id='gauge-label-font-percentage' href='/cookbook/4.1/recipes/radialgauge_labelfontsize/'>Gauge Label Font Percentage</a></h2>
 
 Size of the gauge level text as a fraction of the gauge width.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -26,6 +28,8 @@ gauges.FontSizeFraction = .4;
 
 plt.SaveFig("radialgauge_labelfontsize.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/radialgauge_labelfontsize.png' class='d-block mx-auto my-5' />
 

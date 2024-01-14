@@ -1,7 +1,7 @@
 ---
 Title: "Manual Ticks - ScottPlot 4.1 Cookbook"
 Description: "Full customization of ticks can be achieved using the ManualTickCollection helper class."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/ticks_manual/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Advanced Axis Features", "Manual Ticks"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/ticks_manual.png"
 <h2><a id='manual-ticks' href='/cookbook/4.1/recipes/ticks_manual/'>Manual Ticks</a></h2>
 
 Full customization of ticks can be achieved using the ManualTickCollection helper class.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -43,6 +45,8 @@ plt.BottomAxis.SetTicks(ticks);
 
 plt.SaveFig("ticks_manual.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/ticks_manual.png' class='d-block mx-auto my-5' />
 

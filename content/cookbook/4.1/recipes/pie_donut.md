@@ -1,7 +1,7 @@
 ---
 Title: "Donut Chart - ScottPlot 4.1 Cookbook"
 Description: "Donut plots are pie charts with a hollow center."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/pie_donut/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Pie Chart", "Donut Chart"]
@@ -14,6 +14,8 @@ OgImage: "/cookbook/4.1/images/pie_donut.png"
 
 Donut plots are pie charts with a hollow center.
 
+{{< code-sp4 >}}
+
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
@@ -25,6 +27,8 @@ pie.DonutSize = .6;
 
 plt.SaveFig("pie_donut.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/pie_donut.png' class='d-block mx-auto my-5' />
 

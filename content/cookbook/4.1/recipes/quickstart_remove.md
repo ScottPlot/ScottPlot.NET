@@ -1,7 +1,7 @@
 ---
 Title: "Remove a Plottable - ScottPlot 4.1 Cookbook"
 Description: "Call Remove() to remove a specific plottable."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/quickstart_remove/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Quickstart", "Remove a Plottable"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/quickstart_remove.png"
 <h2><a id='remove-a-plottable' href='/cookbook/4.1/recipes/quickstart_remove/'>Remove a Plottable</a></h2>
 
 Call Remove() to remove a specific plottable.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -29,6 +31,8 @@ plt.Remove(sinPlot);
 
 plt.SaveFig("quickstart_remove.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/quickstart_remove.png' class='d-block mx-auto my-5' />
 

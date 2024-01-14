@@ -1,7 +1,7 @@
 ---
 Title: "Heatmap Opacity - ScottPlot 4.1 Cookbook"
 Description: "Heatmaps have an Opacity property that can be set anywhere from 0 (transparent) to 1 (opaque)."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/heatmap_opacity/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Heatmap", "Heatmap Opacity"]
@@ -14,6 +14,8 @@ OgImage: "/cookbook/4.1/images/heatmap_opacity.png"
 
 Heatmaps have an Opacity property that can be set anywhere from 0 (transparent) to 1 (opaque).
 
+{{< code-sp4 >}}
+
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
@@ -24,6 +26,8 @@ hm.Opacity = 0.5;
 
 plt.SaveFig("heatmap_opacity.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/heatmap_opacity.png' class='d-block mx-auto my-5' />
 

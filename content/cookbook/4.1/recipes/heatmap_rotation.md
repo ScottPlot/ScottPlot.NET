@@ -1,7 +1,7 @@
 ---
 Title: "Heatmap Rotation - ScottPlot 4.1 Cookbook"
 Description: "A Heatmap can be rotated clockwise around around a user-specified center of rotation. Locking axis scales to enforce square pixels is recommended. Rotation occurs after any flipping operations."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/heatmap_rotation/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Heatmap", "Heatmap Rotation"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/heatmap_rotation.png"
 <h2><a id='heatmap-rotation' href='/cookbook/4.1/recipes/heatmap_rotation/'>Heatmap Rotation</a></h2>
 
 A Heatmap can be rotated clockwise around around a user-specified center of rotation. Locking axis scales to enforce square pixels is recommended. Rotation occurs after any flipping operations.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -47,6 +49,8 @@ plt.SetAxisLimits(-1, 4, -1, 2);
 
 plt.SaveFig("heatmap_rotation.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/heatmap_rotation.png' class='d-block mx-auto my-5' />
 

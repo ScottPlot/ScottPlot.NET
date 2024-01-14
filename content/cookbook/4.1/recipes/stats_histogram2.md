@@ -1,7 +1,7 @@
 ---
 Title: "Multiple Histograms - ScottPlot 4.1 Cookbook"
 Description: "This example demonstrates two histograms on the same plot. Note the use of fractional units on the vertical axis, allowing easy comparison of datasets with different numbers of points. Unlike the previous example, this one does not use multiple axes."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/stats_histogram2/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Statistics", "Multiple Histograms"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/stats_histogram2.png"
 <h2><a id='multiple-histograms' href='/cookbook/4.1/recipes/stats_histogram2/'>Multiple Histograms</a></h2>
 
 This example demonstrates two histograms on the same plot. Note the use of fractional units on the vertical axis, allowing easy comparison of datasets with different numbers of points. Unlike the previous example, this one does not use multiple axes.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -57,6 +59,8 @@ plt.SetAxisLimits(yMin: 0);
 
 plt.SaveFig("stats_histogram2.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/stats_histogram2.png' class='d-block mx-auto my-5' />
 

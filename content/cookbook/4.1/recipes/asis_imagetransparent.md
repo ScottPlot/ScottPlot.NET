@@ -1,7 +1,7 @@
 ---
 Title: "Transparent Images Axis Labels - ScottPlot 4.1 Cookbook"
 Description: "Transparency in PNGs is respected, but JPEG files do not support transparency."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/asis_imagetransparent/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Advanced Axis Features", "Transparent Images Axis Labels"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/asis_imagetransparent.png"
 <h2><a id='transparent-images-axis-labels' href='/cookbook/4.1/recipes/asis_imagetransparent/'>Transparent Images Axis Labels</a></h2>
 
 Transparency in PNGs is respected, but JPEG files do not support transparency.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -30,6 +32,8 @@ plt.XAxis.ImageLabel(new Bitmap("Images/theta.jpg"));
 
 plt.SaveFig("asis_imageTransparent.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/asis_imagetransparent.png' class='d-block mx-auto my-5' />
 

@@ -1,7 +1,7 @@
 ---
 Title: "Log Scale Tick Density - ScottPlot 4.1 Cookbook"
 Description: "Numer of minor ticks between major ticks can be customized."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/asis_logtickdensity/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Advanced Axis Features", "Log Scale Tick Density"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/asis_logtickdensity.png"
 <h2><a id='log-scale-tick-density' href='/cookbook/4.1/recipes/asis_logtickdensity/'>Log Scale Tick Density</a></h2>
 
 Numer of minor ticks between major ticks can be customized.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -38,6 +40,8 @@ plt.XAxis.MajorGrid(true, Color.FromArgb(80, Color.Black));
 
 plt.SaveFig("asis_logTickDensity.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/asis_logtickdensity.png' class='d-block mx-auto my-5' />
 

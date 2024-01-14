@@ -1,7 +1,7 @@
 ---
 Title: "Signal Plot Quickstart - ScottPlot 4.1 Cookbook"
 Description: "Signal plots are ideal for evenly-spaced data with thousands or millions of points."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/signal_quickstart/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Signal Plot", "Signal Plot Quickstart"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/signal_quickstart.png"
 <h2><a id='signal-plot-quickstart' href='/cookbook/4.1/recipes/signal_quickstart/'>Signal Plot Quickstart</a></h2>
 
 Signal plots are ideal for evenly-spaced data with thousands or millions of points.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -30,6 +32,8 @@ plt.Title($"Signal Plot: One Million Points");
 
 plt.SaveFig("signal_quickstart.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/signal_quickstart.png' class='d-block mx-auto my-5' />
 

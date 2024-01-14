@@ -1,7 +1,7 @@
 ---
 Title: "Bars with Y Offsets - ScottPlot 4.1 Cookbook"
 Description: "By default bar graphs start at 0, but this does not have to be the case. Y offsets can be defined for each bar. When Y offsets are used, values represent the height of the bars (relative to their offsets)."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/bar_yoffset/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Bar Graph", "Bars with Y Offsets"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/bar_yoffset.png"
 <h2><a id='bars-with-y-offsets' href='/cookbook/4.1/recipes/bar_yoffset/'>Bars with Y Offsets</a></h2>
 
 By default bar graphs start at 0, but this does not have to be the case. Y offsets can be defined for each bar. When Y offsets are used, values represent the height of the bars (relative to their offsets).
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -29,6 +31,8 @@ plt.SetAxisLimits(yMin: -100);
 
 plt.SaveFig("bar_yoffset.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/bar_yoffset.png' class='d-block mx-auto my-5' />
 

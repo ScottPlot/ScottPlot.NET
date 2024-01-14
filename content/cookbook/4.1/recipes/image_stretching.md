@@ -1,7 +1,7 @@
 ---
 Title: "Image Stretching - ScottPlot 4.1 Cookbook"
 Description: "By default image dimensions are in pixel units so they are not stretched as axes are manipulated. However, users have the option to define image dimensions in axis units. In this case, corners of images will remain fixed on the coordinate system and will get stretched as axes are stretched."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/image_stretching/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Image", "Image Stretching"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/image_stretching.png"
 <h2><a id='image-stretching' href='/cookbook/4.1/recipes/image_stretching/'>Image Stretching</a></h2>
 
 By default image dimensions are in pixel units so they are not stretched as axes are manipulated. However, users have the option to define image dimensions in axis units. In this case, corners of images will remain fixed on the coordinate system and will get stretched as axes are stretched.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -36,6 +38,8 @@ plt.AddPoint(40, -.5, color: Color.Green, size: 20);
 
 plt.SaveFig("image_stretching.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/image_stretching.png' class='d-block mx-auto my-5' />
 

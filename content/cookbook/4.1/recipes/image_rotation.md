@@ -1,7 +1,7 @@
 ---
 Title: "Image Rotation - ScottPlot 4.1 Cookbook"
 Description: "Images can be rotated around the position defined by their anchor."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/image_rotation/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Image", "Image Rotation"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/image_rotation.png"
 <h2><a id='image-rotation' href='/cookbook/4.1/recipes/image_rotation/'>Image Rotation</a></h2>
 
 Images can be rotated around the position defined by their anchor.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -34,6 +36,8 @@ plt.AddPoint(45, 0, color: Color.Magenta, size: 20);
 
 plt.SaveFig("image_rotation.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/image_rotation.png' class='d-block mx-auto my-5' />
 

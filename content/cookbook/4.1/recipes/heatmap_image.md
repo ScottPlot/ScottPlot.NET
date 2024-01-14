@@ -1,7 +1,7 @@
 ---
 Title: "Heatmap Image - ScottPlot 4.1 Cookbook"
 Description: "Image data can be plotted using the heatmap plot type."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/heatmap_image/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Heatmap", "Heatmap Image"]
@@ -14,6 +14,8 @@ OgImage: "/cookbook/4.1/images/heatmap_image.png"
 
 Image data can be plotted using the heatmap plot type.
 
+{{< code-sp4 >}}
+
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
 var plt = new ScottPlot.Plot(600, 400);
@@ -23,6 +25,8 @@ plt.AddHeatmap(imageData);
 
 plt.SaveFig("heatmap_image.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/heatmap_image.png' class='d-block mx-auto my-5' />
 

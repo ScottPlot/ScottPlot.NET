@@ -1,7 +1,7 @@
 ---
 Title: "Dark Mode - ScottPlot 4.1 Cookbook"
 Description: "A dark mode finance plot can be realized by customizing color options of the candles and figure. Colors in this example were chosen to mimic TC2000."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/finance_dark/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Finance", "Dark Mode"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/finance_dark.png"
 <h2><a id='dark-mode' href='/cookbook/4.1/recipes/finance_dark/'>Dark Mode</a></h2>
 
 A dark mode finance plot can be realized by customizing color options of the candles and figure. Colors in this example were chosen to mimic TC2000.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -64,6 +66,8 @@ legend.Font.Bold = true;
 
 plt.SaveFig("finance_dark.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/finance_dark.png' class='d-block mx-auto my-5' />
 

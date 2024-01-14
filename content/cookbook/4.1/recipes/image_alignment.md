@@ -1,7 +1,7 @@
 ---
 Title: "Image Alignment - ScottPlot 4.1 Cookbook"
 Description: "By default the X/Y coordinates define the upper left position of the image, but alignment can be customized by defining the anchor."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/image_alignment/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Image", "Image Alignment"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/image_alignment.png"
 <h2><a id='image-alignment' href='/cookbook/4.1/recipes/image_alignment/'>Image Alignment</a></h2>
 
 By default the X/Y coordinates define the upper left position of the image, but alignment can be customized by defining the anchor.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -34,6 +36,8 @@ plt.AddPoint(40, 0, Color.Magenta, size: 20);
 
 plt.SaveFig("image_alignment.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/image_alignment.png' class='d-block mx-auto my-5' />
 

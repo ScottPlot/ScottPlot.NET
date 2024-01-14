@@ -1,7 +1,7 @@
 ---
 Title: "Independent Axis Scaling - ScottPlot 4.1 Cookbook"
 Description: "Axis scaling can be independent, allowing values for each category to be displayed using a different scale. When independent axis mode is enabled, axis limits are automatically adjusted to fit the range of the data."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/radar_axisscaling/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Radar Chart", "Independent Axis Scaling"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/radar_axisscaling.png"
 <h2><a id='independent-axis-scaling' href='/cookbook/4.1/recipes/radar_axisscaling/'>Independent Axis Scaling</a></h2>
 
 Axis scaling can be independent, allowing values for each category to be displayed using a different scale. When independent axis mode is enabled, axis limits are automatically adjusted to fit the range of the data.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -36,6 +38,8 @@ plt.Legend();
 
 plt.SaveFig("radar_axisScaling.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/radar_axisscaling.png' class='d-block mx-auto my-5' />
 

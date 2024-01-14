@@ -1,7 +1,7 @@
 ---
 Title: "Straight Axis Lines - ScottPlot 4.1 Cookbook"
 Description: "Change the axis type to polygon to display radar charts with straight lines."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/radar_straightlines/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Radar Chart", "Straight Axis Lines"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/radar_straightlines.png"
 <h2><a id='straight-axis-lines' href='/cookbook/4.1/recipes/radar_straightlines/'>Straight Axis Lines</a></h2>
 
 Change the axis type to polygon to display radar charts with straight lines.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -28,6 +30,8 @@ radarPlot.AxisType = RadarAxis.Polygon;
 
 plt.SaveFig("radar_straightLines.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/radar_straightlines.png' class='d-block mx-auto my-5' />
 

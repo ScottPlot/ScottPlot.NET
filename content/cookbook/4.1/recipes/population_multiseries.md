@@ -1,7 +1,7 @@
 ---
 Title: "Multiple Series - ScottPlot 4.1 Cookbook"
 Description: "Multiple series of population groups can be plotted Here each group is clustered on the horizontal axis, and each series is given a different color and appears in the legend."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/population_multiseries/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Population", "Multiple Series"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/population_multiseries.png"
 <h2><a id='multiple-series' href='/cookbook/4.1/recipes/population_multiseries/'>Multiple Series</a></h2>
 
 Multiple series of population groups can be plotted Here each group is clustered on the horizontal axis, and each series is given a different color and appears in the legend.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -77,6 +79,8 @@ plt.Legend();
 
 plt.SaveFig("population_multiSeries.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/population_multiseries.png' class='d-block mx-auto my-5' />
 

@@ -1,7 +1,7 @@
 ---
 Title: "Arrows - ScottPlot 4.1 Cookbook"
 Description: "Arrows point to specific locations on the plot. "
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/plottable_arrow_quickstart/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Arrow", "Arrows"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/plottable_arrow_quickstart.png"
 <h2><a id='arrows' href='/cookbook/4.1/recipes/plottable_arrow_quickstart/'>Arrows</a></h2>
 
 Arrows point to specific locations on the plot. 
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -46,6 +48,8 @@ arrow3.MarkerSize = 15;
 
 plt.SaveFig("plottable_arrow_quickstart.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/plottable_arrow_quickstart.png' class='d-block mx-auto my-5' />
 

@@ -1,7 +1,7 @@
 ---
 Title: "Draggable Marker Snap - ScottPlot 4.1 Cookbook"
 Description: "This example shows how to add a draggable marker which is constrained to positions defined by an array of X/Y pairs."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/marker_draggableinvector/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Marker", "Draggable Marker Snap"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/marker_draggableinvector.png"
 <h2><a id='draggable-marker-snap' href='/cookbook/4.1/recipes/marker_draggableinvector/'>Draggable Marker Snap</a></h2>
 
 This example shows how to add a draggable marker which is constrained to positions defined by an array of X/Y pairs.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -33,6 +35,8 @@ plt.Legend();
 
 plt.SaveFig("marker_draggableinvector.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/marker_draggableinvector.png' class='d-block mx-auto my-5' />
 

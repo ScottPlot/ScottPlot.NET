@@ -1,7 +1,7 @@
 ---
 Title: "Customize Markers - ScottPlot 4.1 Cookbook"
 Description: "SignalXY plots have markers which only appear when they are zoomed in."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/signalxy_markers/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "SignalXY", "Customize Markers"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/signalxy_markers.png"
 <h2><a id='customize-markers' href='/cookbook/4.1/recipes/signalxy_markers/'>Customize Markers</a></h2>
 
 SignalXY plots have markers which only appear when they are zoomed in.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -30,6 +32,8 @@ plt.SetAxisLimits(100, 120, 10, 15);
 
 plt.SaveFig("signalxy_markers.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/signalxy_markers.png' class='d-block mx-auto my-5' />
 

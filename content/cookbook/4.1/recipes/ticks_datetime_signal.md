@@ -1,7 +1,7 @@
 ---
 Title: "Plotting DateTime Data on a Signal Plot - ScottPlot 4.1 Cookbook"
 Description: "DateTime can be displayed on the horizontal axis of a signal plot by using the sample rate to set the time interval per data point, and then setting the OffsetX to the desired start date."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/ticks_datetime_signal/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Axis and Ticks", "Plotting DateTime Data on a Signal Plot"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/ticks_datetime_signal.png"
 <h2><a id='plotting-datetime-data-on-a-signal-plot' href='/cookbook/4.1/recipes/ticks_datetime_signal/'>Plotting DateTime Data on a Signal Plot</a></h2>
 
 DateTime can be displayed on the horizontal axis of a signal plot by using the sample rate to set the time interval per data point, and then setting the OffsetX to the desired start date.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -33,6 +35,8 @@ signalPlot.OffsetX = new DateTime(1985, 10, 1).ToOADate();
 
 plt.SaveFig("ticks_dateTime_signal.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/ticks_datetime_signal.png' class='d-block mx-auto my-5' />
 

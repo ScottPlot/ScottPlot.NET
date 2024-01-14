@@ -1,7 +1,7 @@
 ---
 Title: "Draggable With Snapping - ScottPlot 4.1 Cookbook"
 Description: "Draggables can be configured to snap to the nearest integer or to a user-defined list of Positions out of the box."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/axisline_draggable_with_snap/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Axis Line and Span", "Draggable With Snapping"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/axisline_draggable_with_snap.png"
 <h2><a id='draggable-with-snapping' href='/cookbook/4.1/recipes/axisline_draggable_with_snap/'>Draggable With Snapping</a></h2>
 
 Draggables can be configured to snap to the nearest integer or to a user-defined list of Positions out of the box.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -37,6 +39,8 @@ vLine.DragSnap = new ScottPlot.SnapLogic.Independent2D(x: SnapNearestInList, y: 
 
 plt.SaveFig("axisLine_draggable_with_snap.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/axisline_draggable_with_snap.png' class='d-block mx-auto my-5' />
 

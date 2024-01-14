@@ -1,7 +1,7 @@
 ---
 Title: "Values Above Bars - ScottPlot 4.1 Cookbook"
 Description: "The value of each bar can be displayed above it."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/bar_values/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Bar Graph", "Values Above Bars"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/bar_values.png"
 <h2><a id='values-above-bars' href='/cookbook/4.1/recipes/bar_values/'>Values Above Bars</a></h2>
 
 The value of each bar can be displayed above it.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -30,6 +32,8 @@ plt.SetAxisLimits(yMin: 0);
 
 plt.SaveFig("bar_values.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/bar_values.png' class='d-block mx-auto my-5' />
 

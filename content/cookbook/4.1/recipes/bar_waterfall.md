@@ -1,7 +1,7 @@
 ---
 Title: "Waterfall Bar Graph - ScottPlot 4.1 Cookbook"
 Description: "Waterfall bar graphs use bars to represent changes in value from the previous level. This style graph can be created by offseting each bar by the sum of all bars preceeding it. This effect is similar to financial plots (OHLC and Candlestick) which are described in another section."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/bar_waterfall/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Bar Graph", "Waterfall Bar Graph"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/bar_waterfall.png"
 <h2><a id='waterfall-bar-graph' href='/cookbook/4.1/recipes/bar_waterfall/'>Waterfall Bar Graph</a></h2>
 
 Waterfall bar graphs use bars to represent changes in value from the previous level. This style graph can be created by offseting each bar by the sum of all bars preceeding it. This effect is similar to financial plots (OHLC and Candlestick) which are described in another section.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -28,6 +30,8 @@ bar.FillColor = Color.Green;
 
 plt.SaveFig("bar_waterfall.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/bar_waterfall.png' class='d-block mx-auto my-5' />
 

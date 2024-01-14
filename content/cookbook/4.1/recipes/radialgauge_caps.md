@@ -1,7 +1,7 @@
 ---
 Title: "Gauge Caps - ScottPlot 4.1 Cookbook"
 Description: "Caps can be customized for the starting and end of the gauges. "
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/radialgauge_caps/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Radial Gauge", "Gauge Caps"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/radialgauge_caps.png"
 <h2><a id='gauge-caps' href='/cookbook/4.1/recipes/radialgauge_caps/'>Gauge Caps</a></h2>
 
 Caps can be customized for the starting and end of the gauges. 
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -28,6 +30,8 @@ gauges.EndCap = System.Drawing.Drawing2D.LineCap.DiamondAnchor;
 
 plt.SaveFig("radialgauge_caps.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/radialgauge_caps.png' class='d-block mx-auto my-5' />
 

@@ -1,7 +1,7 @@
 ---
 Title: "Draggable Axis Span Events - ScottPlot 4.1 Cookbook"
 Description: "Axis spans can be dragged using the mouse. Span events can be useful for binding span edge values to UI elements."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/axisspan_draggable_events/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Axis Line and Span", "Draggable Axis Span Events"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/axisspan_draggable_events.png"
 <h2><a id='draggable-axis-span-events' href='/cookbook/4.1/recipes/axisspan_draggable_events/'>Draggable Axis Span Events</a></h2>
 
 Axis spans can be dragged using the mouse. Span events can be useful for binding span edge values to UI elements.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -52,6 +54,8 @@ plt.Legend(true);
 
 plt.SaveFig("axisSpan_draggable_events.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/axisspan_draggable_events.png' class='d-block mx-auto my-5' />
 

@@ -1,7 +1,7 @@
 ---
 Title: "2D Waveform - ScottPlot 4.1 Cookbook"
 Description: "This example demonstrates a heatmap with 1000 tiles"
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/heatmap_2dwaveform/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Heatmap", "2D Waveform"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/heatmap_2dwaveform.png"
 <h2><a id='2d-waveform' href='/cookbook/4.1/recipes/heatmap_2dwaveform/'>2D Waveform</a></h2>
 
 This example demonstrates a heatmap with 1000 tiles
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -32,6 +34,8 @@ var cb = plt.AddColorbar(hm);
 
 plt.SaveFig("heatmap_2dWaveform.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/heatmap_2dwaveform.png' class='d-block mx-auto my-5' />
 

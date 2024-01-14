@@ -1,7 +1,7 @@
 ---
 Title: "Gauge Labels in Legend - ScottPlot 4.1 Cookbook"
 Description: "Radial gauge labels will appear in the legend if they are assigned. "
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/radialgauge_legend/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Radial Gauge", "Gauge Labels in Legend"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/radialgauge_legend.png"
 <h2><a id='gauge-labels-in-legend' href='/cookbook/4.1/recipes/radialgauge_legend/'>Gauge Labels in Legend</a></h2>
 
 Radial gauge labels will appear in the legend if they are assigned. 
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -27,6 +29,8 @@ plt.Legend(true);
 
 plt.SaveFig("radialgauge_legend.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/radialgauge_legend.png' class='d-block mx-auto my-5' />
 

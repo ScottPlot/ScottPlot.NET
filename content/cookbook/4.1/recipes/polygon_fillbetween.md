@@ -1,7 +1,7 @@
 ---
 Title: "Fill Between Curves - ScottPlot 4.1 Cookbook"
 Description: "A shaded area between two curves can be created by enclosing the area as a polygon. For this to work the two curves must share the same X points."
-Date: 2024-01-07
+Date: 2024-01-14
 Version: ScottPlot 4.1.70
 URL: /cookbook/4.1/recipes/polygon_fillbetween/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Polygon", "Fill Between Curves"]
@@ -13,6 +13,8 @@ OgImage: "/cookbook/4.1/images/polygon_fillbetween.png"
 <h2><a id='fill-between-curves' href='/cookbook/4.1/recipes/polygon_fillbetween/'>Fill Between Curves</a></h2>
 
 A shaded area between two curves can be created by enclosing the area as a polygon. For this to work the two curves must share the same X points.
+
+{{< code-sp4 >}}
 
 ```cs
 ScottPlot.Version.ShouldBe(4, 1, 70);
@@ -37,6 +39,8 @@ plt.Margins(0, .5);
 
 plt.SaveFig("polygon_fillBetween.png");
 ```
+
+{{< /code-sp4 >}}
 
 <img src='../../images/polygon_fillbetween.png' class='d-block mx-auto my-5' />
 
