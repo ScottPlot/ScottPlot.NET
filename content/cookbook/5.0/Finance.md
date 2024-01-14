@@ -4,9 +4,9 @@ Description: Finance plots display price data binned into time ranges
 URL: /cookbook/5.0/Finance/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Financial Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Finance"]
-Date: 2024-01-11
-Version: ScottPlot 5.0.14-beta
-Version: ScottPlot 5.0.14-beta
+Date: 2024-01-14
+Version: ScottPlot 5.0.15
+Version: ScottPlot 5.0.15
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -15,7 +15,7 @@ ShowEditLink: false
 
 
 
-<div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.14-beta is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
+<div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.15 is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
 
 
 
@@ -26,7 +26,7 @@ Candlestick charts use symbols to display price data. The rectangle indicates op
 [![](/cookbook/5.0/images/Candlestick.png)](/cookbook/5.0/images/Candlestick.png)
 
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 14);
+ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 var prices = Generate.RandomOHLCs(30);
@@ -47,7 +47,7 @@ OHLC charts use symbols to display price data (open, high, low, and close) for s
 [![](/cookbook/5.0/images/OhlcChart.png)](/cookbook/5.0/images/OhlcChart.png)
 
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 14);
+ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 var prices = Generate.RandomOHLCs(30);
@@ -68,7 +68,7 @@ Finance charts can be created which display price information on the right axis.
 [![](/cookbook/5.0/images/FinanceRightAxis.png)](/cookbook/5.0/images/FinanceRightAxis.png)
 
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 14);
+ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 // add candlesticks to the plot
@@ -96,7 +96,7 @@ Tools exist for creating simple moving average (SMA) curves and displaying them 
 [![](/cookbook/5.0/images/FinanceSma.png)](/cookbook/5.0/images/FinanceSma.png)
 
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 14);
+ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 // generate and plot time series price data
@@ -132,7 +132,7 @@ Tools exist for creating Bollinger Bands which display weighted moving mean and 
 [![](/cookbook/5.0/images/FinanceBollinger.png)](/cookbook/5.0/images/FinanceBollinger.png)
 
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 14);
+ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 // generate and plot time series price data
@@ -159,6 +159,44 @@ var sp3 = myPlot.Add.Scatter(bb.Dates, bb.LowerValues);
 sp3.MarkerSize = 0;
 sp3.Color = Colors.Navy;
 sp3.LineStyle.Pattern = LinePattern.Dotted;
+
+myPlot.SavePng("demo.png");
+
+```
+
+<hr class='my-5 invisible'>
+
+
+<h2><a href='/cookbook/5.0/Finance/FinancialPlotWithoutGaps'>Financial Plot Without Gaps</a></h2>
+
+When the DateTimes stored in OHLC objects are used to determine the horizontal position of candlesticks, periods without data like weekends and holidays appear as gaps in the plot. Enabling sequential mode causes the plot to ignore the OHLC DateTimes and display candles at integer positions starting from zero. Since this is not a true DateTime axis, users enabling this mode must customize the tick labels themselves.
+
+[![](/cookbook/5.0/images/FinancialPlotWithoutGaps.png)](/cookbook/5.0/images/FinancialPlotWithoutGaps.png)
+
+```cs
+ScottPlot.Version.ShouldBe(5, 0, 15);
+ScottPlot.Plot myPlot = new();
+
+// create a candlestick plot
+var prices = Generate.RandomOHLCs(31);
+var candlePlot = myPlot.Add.Candlestick(prices);
+
+// enable sequential mode to place candles at X = 0, 1, 2, ...
+candlePlot.Sequential = true;
+
+// determine a few candles to display ticks for
+int tickCount = 5;
+int tickDelta = prices.Count / tickCount;
+DateTime[] tickDates = prices
+    .Where((x, i) => i % tickDelta == 0)
+    .Select(x => x.DateTime)
+    .ToArray();
+
+// use a manual tick generator for the horizontal axis
+double[] tickPositions = Generate.Consecutive(tickDates.Length, tickDelta);
+string[] tickLabels = tickDates.Select(x => x.ToString("MM/dd")).ToArray();
+ScottPlot.TickGenerators.NumericManual tickGen = new(tickPositions, tickLabels);
+myPlot.Axes.Bottom.TickGenerator = tickGen;
 
 myPlot.SavePng("demo.png");
 

@@ -4,9 +4,9 @@ Description: Example plots shown next to the code used to create them
 URL: /cookbook/5.0/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook"]
 BreadcrumbUrls: ["/cookbook/5.0/"]
-Date: 2024-01-11
-Version: ScottPlot 5.0.14-beta
-Version: ScottPlot 5.0.14-beta
+Date: 2024-01-14
+Version: ScottPlot 5.0.15
+Version: ScottPlot 5.0.15
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -15,7 +15,7 @@ ShowEditLink: false
 
 
 
-<div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.14-beta is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
+<div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.15 is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
 
 
 <div class='mt-3 fs-4'><strong>Quickstart</strong></div>
@@ -305,6 +305,15 @@ ShowEditLink: false
 <div>Users can define ticks to be placed at specific locations.</div>
 </div>
 </div>
+<div class='row my-4'>
+<div class='col'>
+<a href='/cookbook/5.0/CustomizingTicks/RotatedTicks'><img class='img-fluid' src='/cookbook/5.0/images/RotatedTicks.png' /></a>
+</div>
+<div class='col'>
+<div><a href='/cookbook/5.0/CustomizingTicks/RotatedTicks'><b>Rotated Tick Labels</b></a></div>
+<div>Users can customize tick label rotation.</div>
+</div>
+</div>
 <h2 class=''><a href='/cookbook/5.0/DateTimeAxes' class='text-dark'>DateTime Axes</a></h2>
 <div>Plot data values on a DataTime axes</div>
 <div class='row my-4'>
@@ -391,6 +400,15 @@ ShowEditLink: false
 <div class='col'>
 <div><a href='/cookbook/5.0/Bar/GroupedBarPlot'><b>Grouped Bar Plot</b></a></div>
 <div>Bars can be grouped by position and color.</div>
+</div>
+</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='/cookbook/5.0/Bar/HorizontalBar'><img class='img-fluid' src='/cookbook/5.0/images/HorizontalBar.png' /></a>
+</div>
+<div class='col'>
+<div><a href='/cookbook/5.0/Bar/HorizontalBar'><b>Horizontal Bar Plot</b></a></div>
+<div>Bar plots can be displayed horizontally.</div>
 </div>
 </div>
 <h2 class=''><a href='/cookbook/5.0/Box' class='text-dark'>Box Plot</a></h2>
@@ -516,6 +534,15 @@ ShowEditLink: false
 <div class='col'>
 <div><a href='/cookbook/5.0/Finance/FinanceBollinger'><b>Bollinger Bands</b></a></div>
 <div>Tools exist for creating Bollinger Bands which display weighted moving mean and variance for time series financial data.</div>
+</div>
+</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='/cookbook/5.0/Finance/FinancialPlotWithoutGaps'><img class='img-fluid' src='/cookbook/5.0/images/FinancialPlotWithoutGaps.png' /></a>
+</div>
+<div class='col'>
+<div><a href='/cookbook/5.0/Finance/FinancialPlotWithoutGaps'><b>Financial Plot Without Gaps</b></a></div>
+<div>When the DateTimes stored in OHLC objects are used to determine the horizontal position of candlesticks, periods without data like weekends and holidays appear as gaps in the plot. Enabling sequential mode causes the plot to ignore the OHLC DateTimes and display candles at integer positions starting from zero. Since this is not a true DateTime axis, users enabling this mode must customize the tick labels themselves.</div>
 </div>
 </div>
 <h2 class=''><a href='/cookbook/5.0/Function' class='text-dark'>Function</a></h2>

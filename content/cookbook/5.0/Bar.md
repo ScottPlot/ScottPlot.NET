@@ -4,9 +4,9 @@ Description: Bar plots represent values as horizontal or vertical rectangles
 URL: /cookbook/5.0/Bar/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Bar Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Bar"]
-Date: 2024-01-11
-Version: ScottPlot 5.0.14-beta
-Version: ScottPlot 5.0.14-beta
+Date: 2024-01-14
+Version: ScottPlot 5.0.15
+Version: ScottPlot 5.0.15
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -15,7 +15,7 @@ ShowEditLink: false
 
 
 
-<div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.14-beta is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
+<div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.15 is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
 
 
 
@@ -26,7 +26,7 @@ Bar plots can be added from a series of values.
 [![](/cookbook/5.0/images/Quickstart.png)](/cookbook/5.0/images/Quickstart.png)
 
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 14);
+ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 // add bars
@@ -50,7 +50,7 @@ The exact position and size of each bar may be customized.
 [![](/cookbook/5.0/images/BarPosition.png)](/cookbook/5.0/images/BarPosition.png)
 
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 14);
+ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 List<ScottPlot.Bar> bars = new()
@@ -76,7 +76,7 @@ Bars can have errorbars.
 [![](/cookbook/5.0/images/BarWithError.png)](/cookbook/5.0/images/BarWithError.png)
 
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 14);
+ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 List<ScottPlot.Bar> bars = new()
@@ -106,7 +106,7 @@ Bars can be labeled by manually specifying axis tick mark positions and labels.
 [![](/cookbook/5.0/images/BarTickLabels.png)](/cookbook/5.0/images/BarTickLabels.png)
 
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 14);
+ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Bar(position: 1, value: 5, error: 1);
@@ -123,7 +123,7 @@ Tick[] ticks =
 };
 
 myPlot.Axes.Bottom.TickGenerator = new ScottPlot.TickGenerators.NumericManual(ticks);
-myPlot.Axes.Bottom.MajorTickLength = 0;
+myPlot.Axes.Bottom.MajorTickStyle.Length = 0;
 myPlot.HideGrid();
 
 // tell the plot to autoscale with no padding beneath the bars
@@ -143,7 +143,7 @@ Bars can be positioned on top of each other.
 [![](/cookbook/5.0/images/BarStackVertically.png)](/cookbook/5.0/images/BarStackVertically.png)
 
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 14);
+ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 Color[] colors = {
@@ -174,7 +174,7 @@ Tick[] ticks =
 };
 
 myPlot.Axes.Bottom.TickGenerator = new ScottPlot.TickGenerators.NumericManual(ticks);
-myPlot.Axes.Bottom.MajorTickLength = 0;
+myPlot.Axes.Bottom.MajorTickStyle.Length = 0;
 myPlot.HideGrid();
 
 // tell the plot to autoscale with no padding beneath the bars
@@ -194,7 +194,7 @@ Bars can be grouped by position and color.
 [![](/cookbook/5.0/images/GroupedBarPlot.png)](/cookbook/5.0/images/GroupedBarPlot.png)
 
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 14);
+ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 Color[] colors = {
@@ -238,11 +238,41 @@ Tick[] ticks =
     new(10, "Group 3"),
 };
 myPlot.Axes.Bottom.TickGenerator = new ScottPlot.TickGenerators.NumericManual(ticks);
-myPlot.Axes.Bottom.MajorTickLength = 0;
+myPlot.Axes.Bottom.MajorTickStyle.Length = 0;
 myPlot.HideGrid();
 
 // tell the plot to autoscale with no padding beneath the bars
 myPlot.Axes.Margins(bottom: 0);
+
+myPlot.SavePng("demo.png");
+
+```
+
+<hr class='my-5 invisible'>
+
+
+<h2><a href='/cookbook/5.0/Bar/HorizontalBar'>Horizontal Bar Plot</a></h2>
+
+Bar plots can be displayed horizontally.
+
+[![](/cookbook/5.0/images/HorizontalBar.png)](/cookbook/5.0/images/HorizontalBar.png)
+
+```cs
+ScottPlot.Version.ShouldBe(5, 0, 15);
+ScottPlot.Plot myPlot = new();
+
+ScottPlot.Bar[] bars =
+{
+    new() { Position = 1, Value = 5, Error = 1, },
+    new() { Position = 2, Value = 7, Error = 2, },
+    new() { Position = 3, Value = 6, Error = 1, },
+    new() { Position = 4, Value = 8, Error = 2, },
+};
+
+var barPlot = myPlot.Add.Bars(bars);
+barPlot.Horizontal = true;
+
+myPlot.Axes.Margins(left: 0);
 
 myPlot.SavePng("demo.png");
 

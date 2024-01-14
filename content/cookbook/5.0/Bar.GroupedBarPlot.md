@@ -4,9 +4,9 @@ Description: Bars can be grouped by position and color.
 URL: /cookbook/5.0/Bar/GroupedBarPlot/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Bar Plot", "Grouped Bar Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Bar", "/cookbook/5.0/Bar/GroupedBarPlot"]
-Date: 2024-01-11
-Version: ScottPlot 5.0.14-beta
-Version: ScottPlot 5.0.14-beta
+Date: 2024-01-14
+Version: ScottPlot 5.0.15
+Version: ScottPlot 5.0.15
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -15,7 +15,7 @@ ShowEditLink: false
 
 
 
-<div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.14-beta is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
+<div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.15 is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
 
 
 
@@ -24,7 +24,7 @@ Bars can be grouped by position and color.
 [![](/cookbook/5.0/images/GroupedBarPlot.png)](/cookbook/5.0/images/GroupedBarPlot.png)
 
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 14);
+ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 Color[] colors = {
@@ -68,7 +68,7 @@ Tick[] ticks =
     new(10, "Group 3"),
 };
 myPlot.Axes.Bottom.TickGenerator = new ScottPlot.TickGenerators.NumericManual(ticks);
-myPlot.Axes.Bottom.MajorTickLength = 0;
+myPlot.Axes.Bottom.MajorTickStyle.Length = 0;
 myPlot.HideGrid();
 
 // tell the plot to autoscale with no padding beneath the bars

@@ -4,9 +4,9 @@ Description: FillY plots display the vertical range between two Y values at defi
 URL: /cookbook/5.0/FillY/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "FillY plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/FillY"]
-Date: 2024-01-11
-Version: ScottPlot 5.0.14-beta
-Version: ScottPlot 5.0.14-beta
+Date: 2024-01-14
+Version: ScottPlot 5.0.15
+Version: ScottPlot 5.0.15
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -15,7 +15,7 @@ ShowEditLink: false
 
 
 
-<div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.14-beta is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
+<div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.15 is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
 
 
 
@@ -26,7 +26,7 @@ FillY plots can be created from X, Y1, and Y2 arrays.
 [![](/cookbook/5.0/images/FillYFromArrays.png)](/cookbook/5.0/images/FillYFromArrays.png)
 
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 14);
+ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 RandomDataGenerator dataGen = new(0);
@@ -53,7 +53,7 @@ FillY plots can be created from two scatter plots that share the same X values.
 [![](/cookbook/5.0/images/FillYFromScatters.png)](/cookbook/5.0/images/FillYFromScatters.png)
 
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 14);
+ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 RandomDataGenerator dataGen = new(0);
@@ -83,7 +83,7 @@ FillY plots can be created from data of any type if a conversion function is sup
 [![](/cookbook/5.0/images/Function.png)](/cookbook/5.0/images/Function.png)
 
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 14);
+ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 // create source data in a nonstandard data type
@@ -117,7 +117,7 @@ FillY plots can be customized using public properties.
 [![](/cookbook/5.0/images/Styling.png)](/cookbook/5.0/images/Styling.png)
 
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 14);
+ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 RandomDataGenerator dataGen = new(0);

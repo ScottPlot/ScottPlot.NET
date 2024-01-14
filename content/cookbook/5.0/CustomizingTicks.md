@@ -4,9 +4,9 @@ Description: Advanced customization of tick marks and tick labels
 URL: /cookbook/5.0/CustomizingTicks/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Customizing Ticks"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/CustomizingTicks"]
-Date: 2024-01-11
-Version: ScottPlot 5.0.14-beta
-Version: ScottPlot 5.0.14-beta
+Date: 2024-01-14
+Version: ScottPlot 5.0.15
+Version: ScottPlot 5.0.15
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -15,7 +15,7 @@ ShowEditLink: false
 
 
 
-<div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.14-beta is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
+<div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.15 is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
 
 
 
@@ -26,7 +26,7 @@ Users can customize the logic used to create tick labels from tick positions.
 [![](/cookbook/5.0/images/CustomTickFormatter.png)](/cookbook/5.0/images/CustomTickFormatter.png)
 
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 14);
+ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 double[] xs = ScottPlot.Generate.Consecutive(100, 1, -50);
@@ -67,7 +67,7 @@ Tick generators determine where ticks are to be placed and also contain logic fo
 [![](/cookbook/5.0/images/AltTickGen.png)](/cookbook/5.0/images/AltTickGen.png)
 
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 14);
+ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(ScottPlot.Generate.Sin(51));
@@ -89,7 +89,7 @@ Users can define ticks to be placed at specific locations.
 [![](/cookbook/5.0/images/CustomTicks.png)](/cookbook/5.0/images/CustomTicks.png)
 
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 14);
+ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 // display sample data
@@ -114,6 +114,30 @@ ticks.AddMinor(45);
 
 // tell the horizontal axis to use the custom tick genrator
 myPlot.Axes.Bottom.TickGenerator = ticks;
+
+myPlot.SavePng("demo.png");
+
+```
+
+<hr class='my-5 invisible'>
+
+
+<h2><a href='/cookbook/5.0/CustomizingTicks/RotatedTicks'>Rotated Tick Labels</a></h2>
+
+Users can customize tick label rotation.
+
+[![](/cookbook/5.0/images/RotatedTicks.png)](/cookbook/5.0/images/RotatedTicks.png)
+
+```cs
+ScottPlot.Version.ShouldBe(5, 0, 15);
+ScottPlot.Plot myPlot = new();
+
+myPlot.Add.Signal(Generate.Sin());
+myPlot.Add.Signal(Generate.Cos());
+
+myPlot.Axes.Bottom.TickLabelStyle.Rotation = -45;
+myPlot.Axes.Bottom.TickLabelStyle.OffsetY = -8;
+myPlot.Axes.Bottom.TickLabelStyle.Alignment = Alignment.MiddleRight;
 
 myPlot.SavePng("demo.png");
 
