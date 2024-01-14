@@ -14,11 +14,6 @@ ShowEditLink: false
 # Polygon Plot Quickstart
 
 
-
-<div class='alert alert-warning' role='alert'><h4 class='alert-heading py-0 my-0'>⚠️ ScottPlot 5.0.15 is a preview package</h4><hr /><p class='mb-0'><span class='fw-semibold'>This page describes a beta release of ScottPlot.</span> It is available on NuGet as a preview package, but its API is not stable and it is not recommended for production use. See the <a href='https://scottplot.net/versions/'>ScottPlot Versions</a> page for more information. </p></div>
-
-
-
 Polygon plots can be added from a series of vertices, and must be in clockwise order.
 
 [![](/cookbook/5.0/images/PolygonQuickstart.png)](/cookbook/5.0/images/PolygonQuickstart.png)
