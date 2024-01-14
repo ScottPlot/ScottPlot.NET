@@ -1,7 +1,6 @@
 ---
 title: ScottPlot Cookbooks
 description: Cookbooks or organized by major version
-url: /cookbook
 date: 2023-12-13
 ---
 
