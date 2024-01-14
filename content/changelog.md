@@ -23,8 +23,8 @@ Release notes for every version of ScottPlot
 
 </section>
 <section class='mb-5'>
-<h1 class='mb-0'>ScottPlot 5.0.15-beta (not yet on NuGet)</h1>
-<div><i>NuGet packages published </i></div>
+<h1 class='mb-0'>ScottPlot 5.0.15</h1>
+<div><i>NuGet packages published 2024-01-14</i></div>
 <div class='mt-1'>
 <ul>
 <li>Ticks: Added additional styling options for axis tick labels (<a href="https://github.com/ScottPlot/ScottPlot/issues/3185">#3185</a>) <em>Thanks <a href="https://github.com/barnettben">@barnettben</a></em>
