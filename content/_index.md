@@ -21,33 +21,31 @@ layout: single
   <img src='/images/scottplot.gif' class="d-block mx-auto my-5" />
 </a>
 
-## Quickstart
+## Quickstart 
 
-* [**Windows Forms**](quickstart/winforms)
-* [**WPF**](quickstart/wpf)
-* [**Avalonia**](quickstart/avalonia)
-* [**Console Application**](quickstart/console)
-* [**PowerShell**](quickstart/powershell)
-* [**.NET Interactive Notebook**](quickstart/notebook)
+Quickstart pages exist for [console applications](/quickstart/console/), [Windows Forms](/quickstart/winforms/), [WPF](/quickstart/wpf/), [WinUI](/quickstart/winui/), [Blazor](/quickstart/blazor/), and more!
 
+{{< code-sp5 >}}
 
 ```cs
 double[] xs = { 1, 2, 3, 4, 5 };
 double[] ys = { 1, 4, 9, 16, 25 };
-var plt = new ScottPlot.Plot(400, 300);
-plt.AddScatter(xs, ys);
-plt.SaveFig("quickstart.png");
+ScottPlot.Plot myPlot = new(400, 300);
+myPlot.Add.Scatter(xs, ys);
+myPlot.SavePng("quickstart.png");
 ```
 
-![](quickstart/console/scottplot-quickstart-console.png)
+{{< /code-sp5 >}}
+
+![](/images/quickstart/scottplot-quickstart-console.png)
 
 
 ## Cookbook
 
-The [**ScottPlot Cookbook**](cookbook/4.1/) demonstrates how to create line plots, bar charts, pie graphs, scatter plots, and more with just a few lines of code. 
+The [**ScottPlot Cookbook**](cookbook/) demonstrates how to create line plots, bar charts, pie graphs, scatter plots, and more with just a few lines of code. 
 
-<a href='cookbook/4.1/'>
-  <img src='images/cookbook.jpg' class="d-block mx-auto my-5 w-75" />
+<a href='cookbook/'>
+  <img src='images/cookbook.jpg' class="d-block mx-auto my-5" />
 </a>
 
 ## Demo
@@ -55,7 +53,7 @@ The [**ScottPlot Cookbook**](cookbook/4.1/) demonstrates how to create line plot
 The [**ScottPlot Demo**](demo) is a click-to-run application that provides mouse-interactive versions of every cookbook recipe and demonstrates how to perform advanced interactive customizations.
 
 <a href='demo'>
-  <img src='/images/scottplot-demo.png' class="d-block mx-auto my-5 w-75" />
+  <img src='/images/demo/5.0/demo.png' class="d-block mx-auto my-5" />
 </a>
 
 ## Plot in the Cloud
