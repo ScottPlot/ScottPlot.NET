@@ -5,7 +5,17 @@ url: /faq
 date: 2023-12-13
 ---
 
-# ScottPlot FAQ
+{{< banner-sp5 >}}
+
+# ScottPlot 5.0 FAQ
+
+FAQ pages have not yet been created for ScottPlot 5.0 but users can refer to:
+* [ScottPlot 5.0 Cookbook](/cookbook/5.0/)
+* [ScottPlot 5.0 Demo Application](/demo/)
+
+# ScottPlot 4.1 FAQ
+
+{{< specific-sp4 >}}
 
 ### ScottPlot Basics
 * [Creating, Adding, and Modifying Plottable objects](plottable)
