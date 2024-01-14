@@ -2,7 +2,6 @@
 title: What's New in ScottPlot 5.0
 description: Notable changes between ScottPlot 4.1 and 5.0
 date: 2023-12-13
-url: /faq/version-5.0/
 ---
 
 <div class='mt-3'>
