@@ -5,7 +5,9 @@ url: /cookbook
 date: 2023-12-13
 ---
 
-* [**ScottPlot 5.0 (beta) Cookbook**](/cookbook/5.0/)
+# ScottPlot Cookbooks
+
+* [**ScottPlot 5.0 Cookbook**](/cookbook/5.0/)
 
 * [**ScottPlot 4.1 Cookbook**](/cookbook/4.1/)
 
