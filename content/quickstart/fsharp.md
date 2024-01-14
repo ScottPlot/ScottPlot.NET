@@ -1,9 +1,11 @@
 ---
 Title: F# Quickstart
 description: How to plot data using ScottPlot in a F# .NET application
-url: "quickstart/fsharp"
 date: 2023-12-13
+url: /quickstart/fsharp/
 ---
+
+{{< banner-sp5 >}}
 
 # F# Quickstart
 
@@ -11,12 +13,16 @@ date: 2023-12-13
 
 **Step 2:** Plot some data and save the figure as an image file
 
+{{< code-sp5 >}}
+
 ```fs
 let dataX = [| 1.0 .. 5.0 |]
 let dataY = [| for x in dataX -> x * x |]
-let plt = Plot(400, 300);
-plt.AddScatter(dataX, dataY);
-plt.SaveFig("quickstart.png");
+let plt = Plot();
+plt.Add.Scatter(dataX, dataY);
+plt.SaveFig("quickstart.png", 400, 300);
 ```
 
-![](../console/scottplot-quickstart-console.png)
+{{< /code-sp5 >}}
+
+![](/images/quickstart/scottplot-quickstart-console.png)

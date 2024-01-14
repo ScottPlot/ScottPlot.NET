@@ -5,16 +5,21 @@ url: "quickstart/ironpython"
 date: 2023-12-13
 ---
 
+{{< banner-sp5 >}}
+
 # IronPython Quickstart
 
 **Step 1:** Setup IronPython according to instructions on https://ironpython.net (full installation including GAC)
 
-**Step 2:** Get the latest ScottPlot NuGet package
+**Step 2:** Get the latest ScottPlot 4 NuGet package
+  * Important: Get the latest 4.1 version of ScottPlot
   * Download the `.nupkg` file from https://www.nuget.org/packages/ScottPlot/ 
   * Rename the file to `.zip` and extract its contents
   * Place ScottPlot.dll in the same directory as your python script
 
 **Step 3:** Create a python script to plot data and save the output as an image
+
+{{< code-sp4 >}}
 
 ```py
 import clr
@@ -36,7 +41,9 @@ myPlot.AddVerticalLine(0,width=3)
 myPlot.SaveFig("ironpython.png")
 ```
 
-![](/images/plots/ironpython.png)
+{{< /code-sp4 >}}
+
+![](/images/quickstart/ironpython.png)
 
 ## Additional Resources
 

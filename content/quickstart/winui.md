@@ -6,21 +6,21 @@ date: 2023-07-04
 lastmod: 2023-07-04
 ---
 
-# WinUI Quickstart
+{{< banner-sp5 >}}
 
-{{< scottplot5 >}}
+# WinUI Quickstart
 
 **Step 1:** Create a new WinUI project: `Blank App, Packaged (WinUI 3 in Desktop)`
 
 **Step 2:** Upgrade the `Microsoft.WindowsAppSDK` to the latest (non-prerelease) version
 
-**Step 3:** Install the ScottPlot.WinUI package (include prerelease packages in search)
+**Step 3:** Install the [ScottPlot.WinUI](https://www.nuget.org/packages/ScottPlot.WinUI/) NuGet package
 
 **Step 4:** In the solution explorer, right-click the app, and select properties. In the Application settings (General section) set the "Target OS version" to `10.0.22200.0` or later.
 
 **Step 5:** Edit `MainWindow.xaml` to reference the `ScottPlot.WinUI` package and add a `WinUIPlot` control to the window
 
-```xaml
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <Window
     x:Class="QuickstartApp.MainWindow"
@@ -38,6 +38,8 @@ lastmod: 2023-07-04
 
 **Step 6:** Edit `MainWindow.xaml.cs` to add data to the plot and initiate a render
 
+{{< code-sp5 >}}
+
 ```cs
 using Microsoft.UI.Xaml;
 using ScottPlot;
@@ -49,15 +51,13 @@ public sealed partial class MainWindow : Window
     public MainWindow()
     {
         InitializeComponent();
-
-        double[] sin = Generate.Sin(51);
-        double[] cos = Generate.Cos(51);
-        WinUIPlot1.Plot.Add.Signal(sin);
-        WinUIPlot1.Plot.Add.Signal(cos);
-
+        WinUIPlot1.Plot.Add.Signal(Generate.Sin(51));
+        WinUIPlot1.Plot.Add.Signal(Generate.Cos(51));
         WinUIPlot1.Refresh();
     }
 }
 ```
 
-![](scottplot-winui-quickstart.png)
+{{< /code-sp5 >}}
+
+![](/images/quickstart/scottplot-winui-quickstart.png)

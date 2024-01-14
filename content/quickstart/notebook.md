@@ -1,9 +1,11 @@
 ---
 Title: Plot Data in .NET Interactive Notebooks
 description: How to use ScottPlot to visualize data in .NET Polyglot notebooks
-url: "quickstart/notebook"
 date: 2023-12-13
+url: /quickstart/notebook/
 ---
+
+{{< banner-sp5 >}}
 
 # .NET Interactive Notebook Quickstart
 
@@ -21,6 +23,8 @@ date: 2023-12-13
 
 Add this to the top of your notebook to use the ScottPlot NuGet package and make it easy to display plots inline:
 
+{{< code-sp4 >}}
+
 ```cs
 // Install the ScottPlot NuGet package
 #r "nuget:ScottPlot, 4.1.*"
@@ -31,7 +35,11 @@ Formatter.Register(typeof(ScottPlot.Plot), (p, w) =>
     w.Write(((ScottPlot.Plot)p).GetImageHtml()), HtmlFormatter.MimeType);
 ```
 
+{{< /code-sp4 >}}
+
 ### Plot Data
+
+{{< code-sp4 >}}
 
 ```cs
 // create sample data
@@ -46,7 +54,9 @@ plt.AddScatter(dataX, dataY);
 plt
 ```
 
-![](../console/scottplot-quickstart-console.png)
+{{< /code-sp4 >}}
+
+![](/images/quickstart/scottplot-quickstart-console.png)
 
 ### Advanced Notebook Examples
 
@@ -56,7 +66,7 @@ Scatter plots, bar charts, and more are demonstrated in a notebook:
 
 * View as HTML: [demo.html](demo)
 
-[![](screenshot.png)](demo)
+[![](/notebooks/sp4/screenshot.png)](/notebooks/sp4/)
 
 ## Resources
 

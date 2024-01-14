@@ -5,6 +5,8 @@ date: 2021-09-26
 url: /quickstart/wpf/
 ---
 
+{{< banner-sp5 >}}
+
 # WPF Quickstart
 
 **Step 1:** Install the [`ScottPlot.WPF`](https://www.nuget.org/packages/ScottPlot.WPF) NuGet package

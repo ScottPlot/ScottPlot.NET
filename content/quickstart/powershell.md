@@ -1,9 +1,11 @@
 ---
 Title: PowerShell Quickstart
 description: How to plot data from PowerShell using ScottPlot
-url: "quickstart/powershell"
 date: 2023-12-13
+url: /quickstart/powershell/
 ---
+
+{{< banner-sp5 >}}
 
 # PowerShell Quickstart
 
@@ -24,16 +26,20 @@ date: 2023-12-13
 * Create `myScript.ps1` and copy the following contents into it
 * Run the script using PowerShell Core (not Windows PowerShell)
 
+{{< code-sp5 >}}
+
 ```ps1
 Add-Type -Path .\ScottPlot.dll
 [double[]] $dataX = @( 1, 2, 3, 4, 5 )
 [double[]] $dataY = @( 1, 4, 9, 16, 25 )
-$plt = [ScottPlot.Plot]::new(400, 300)
-[Void] $plt.AddScatter($dataX, $dataY)
-[Void] $plt.SaveFig("$pwd\quickstart.png")
+$plt = [ScottPlot.Plot]::new()
+[Void] $plt.Add.Scatter($dataX, $dataY)
+[Void] $plt.SaveFig("$pwd\quickstart.png", 400, 300)
 ```
 
-![](../console/scottplot-quickstart-console.png)
+{{< /code-sp5 >}}
+
+![](/images/quickstart/scottplot-quickstart-console.png)
 
 ## PowerShell Interactive Notebooks
 
