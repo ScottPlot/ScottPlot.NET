@@ -20,16 +20,19 @@ Heatmaps can be created from 2D arrays
 
 [![](/cookbook/5.0/images/HeatmapQuickstart.png)](/cookbook/5.0/images/HeatmapQuickstart.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 double[,] data = SampleData.MonaLisa();
 myPlot.Add.Heatmap(data);
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -40,8 +43,9 @@ Heatmaps can be inverted by reversing the order of colors in the colormap
 
 [![](/cookbook/5.0/images/HeatmapInverted.png)](/cookbook/5.0/images/HeatmapInverted.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 double[,] data = SampleData.MonaLisa();
@@ -54,9 +58,11 @@ var hm2 = myPlot.Add.Heatmap(data);
 hm2.Colormap = new ScottPlot.Colormaps.Viridis().Reversed();
 hm2.Extent = new(100, 165, 0, 100);
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 

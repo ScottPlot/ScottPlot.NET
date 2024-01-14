@@ -20,17 +20,20 @@ Text can be placed anywhere in coordinate space.
 
 [![](/cookbook/5.0/images/TextQuickstart.png)](/cookbook/5.0/images/TextQuickstart.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(ScottPlot.Generate.Sin());
 myPlot.Add.Signal(ScottPlot.Generate.Cos());
 myPlot.Add.Text("Hello, World", 25, 0.5);
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -41,8 +44,9 @@ Text formatting can be extensively customized.
 
 [![](/cookbook/5.0/images/Formatting.png)](/cookbook/5.0/images/Formatting.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 var text = myPlot.Add.Text("Hello, World", 42, 69);
@@ -56,9 +60,11 @@ text.Label.BorderWidth = 3;
 text.Label.Padding = 10;
 text.Label.Alignment = Alignment.MiddleCenter;
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 

@@ -20,8 +20,9 @@ Scatter plots can be created from two arrays containing X and Y values.
 
 [![](/cookbook/5.0/images/ScatterQuickstart.png)](/cookbook/5.0/images/ScatterQuickstart.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 double[] xs = { 1, 2, 3, 4, 5 };
@@ -29,9 +30,11 @@ double[] ys = { 1, 4, 9, 16, 25 };
 
 myPlot.Add.Scatter(xs, ys);
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -42,8 +45,9 @@ Scatter plots can be created from a collection of Coordinates.
 
 [![](/cookbook/5.0/images/ScatterCoordinates.png)](/cookbook/5.0/images/ScatterCoordinates.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 Coordinates[] coordinates =
@@ -57,9 +61,11 @@ Coordinates[] coordinates =
 
 myPlot.Add.Scatter(coordinates);
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -70,8 +76,9 @@ Scatter plots can be created from any numeric data type, not just double.
 
 [![](/cookbook/5.0/images/ScatterDataType.png)](/cookbook/5.0/images/ScatterDataType.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 float[] xs = { 1, 2, 3, 4, 5 };
@@ -79,9 +86,11 @@ int[] ys = { 1, 4, 9, 16, 25 };
 
 myPlot.Add.Scatter(xs, ys);
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -92,8 +101,9 @@ Scatter plots can be created from Lists, but be very cafeful not to add or remov
 
 [![](/cookbook/5.0/images/ScatterList.png)](/cookbook/5.0/images/ScatterList.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 List<double> xs = new() { 1, 2, 3, 4, 5 };
@@ -101,9 +111,11 @@ List<double> ys = new() { 1, 4, 9, 16, 25 };
 
 myPlot.Add.Scatter(xs, ys);
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -114,8 +126,9 @@ Scatter plots can be extensively styled by interacting with the object that is r
 
 [![](/cookbook/5.0/images/ScatterStyling.png)](/cookbook/5.0/images/ScatterStyling.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 double[] xs = Generate.Consecutive(51);
@@ -136,9 +149,11 @@ sp2.MarkerSize = 10;
 
 myPlot.ShowLegend();
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -149,8 +164,9 @@ Several line patterns are available
 
 [![](/cookbook/5.0/images/ScatterLinePatterns.png)](/cookbook/5.0/images/ScatterLinePatterns.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 LinePattern[] patterns = Enum.GetValues<LinePattern>();
@@ -177,9 +193,11 @@ for (int i = 0; i < patterns.Length; i++)
 
 myPlot.Axes.Margins(.05, .5, .05, .05);
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -190,8 +208,9 @@ Scatter plots support generic data types, although double is typically the most 
 
 [![](/cookbook/5.0/images/ScatterGeneric.png)](/cookbook/5.0/images/ScatterGeneric.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 int[] xs = { 1, 2, 3, 4, 5 };
@@ -199,9 +218,11 @@ float[] ys = { 1, 4, 9, 16, 25 };
 
 myPlot.Add.Scatter(xs, ys);
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -212,8 +233,9 @@ A scatter plot may use DateTime units but be sure to setup the respective axis t
 
 [![](/cookbook/5.0/images/ScatterDateTime.png)](/cookbook/5.0/images/ScatterDateTime.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 DateTime[] xs = Generate.DateTime.Days(100);
@@ -222,9 +244,11 @@ double[] ys = Generate.RandomWalk(xs.Length);
 myPlot.Add.Scatter(xs, ys);
 myPlot.Axes.DateTimeTicks(Edge.Bottom);
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 

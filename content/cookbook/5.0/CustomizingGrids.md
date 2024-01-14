@@ -20,8 +20,9 @@ Grid lines can be hidden.
 
 [![](/cookbook/5.0/images/HideGrid.png)](/cookbook/5.0/images/HideGrid.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin(51));
@@ -29,9 +30,11 @@ myPlot.Add.Signal(Generate.Cos(51));
 
 myPlot.HideGrid();
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -42,8 +45,9 @@ Grid lines can be customized. Custom grid systems can be created to give develop
 
 [![](/cookbook/5.0/images/GridCustom.png)](/cookbook/5.0/images/GridCustom.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(ScottPlot.Generate.Sin(51));
@@ -55,9 +59,11 @@ grid.MajorLineStyle.Color = Colors.Green.WithOpacity(.5);
 grid.MinorLineStyle.Color = Colors.Green.WithOpacity(.1);
 grid.MinorLineStyle.Width = 1;
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -68,8 +74,9 @@ Grid lines are typically drawn beneath data, but grids can be configured to rend
 
 [![](/cookbook/5.0/images/GridAbove.png)](/cookbook/5.0/images/GridAbove.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 var sig = myPlot.Add.Signal(ScottPlot.Generate.Sin());
@@ -80,9 +87,11 @@ grid.MajorLineStyle.Width = 3;
 grid.MajorLineStyle.Color = Colors.WhiteSmoke;
 grid.IsBeneathPlottables = false;
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 

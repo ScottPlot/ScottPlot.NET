@@ -20,8 +20,9 @@ Axis tick labels can be displayed using a time format.
 
 [![](/cookbook/5.0/images/DateTimeAxisQuickstart.png)](/cookbook/5.0/images/DateTimeAxisQuickstart.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 // begin with an array of DateTime values
@@ -35,9 +36,11 @@ myPlot.Add.Scatter(xs, ys);
 // tell the plot to display dates on the bottom axis
 myPlot.Axes.DateTimeTicks(Edge.Bottom);
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 

@@ -20,8 +20,9 @@ SignalXY plots are a high performance plot type for X/Y data where the X values 
 
 [![](/cookbook/5.0/images/SignalXYQuickstart.png)](/cookbook/5.0/images/SignalXYQuickstart.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 // generate sample data with gaps
@@ -38,9 +39,11 @@ double[] ys = yList.ToArray();
 // add a SignalXY plot
 myPlot.Add.SignalXY(xs, ys);
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -51,8 +54,9 @@ SignalXY plots support generic data types, although double is typically the most
 
 [![](/cookbook/5.0/images/SignalXYGeneric.png)](/cookbook/5.0/images/SignalXYGeneric.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 // generate sample data with gaps
@@ -69,9 +73,11 @@ float[] ys = yList.ToArray();
 // add a SignalXY plot
 myPlot.Add.SignalXY(xs, ys);
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 

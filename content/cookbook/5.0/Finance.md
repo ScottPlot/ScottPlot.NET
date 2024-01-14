@@ -20,17 +20,20 @@ Candlestick charts use symbols to display price data. The rectangle indicates op
 
 [![](/cookbook/5.0/images/Candlestick.png)](/cookbook/5.0/images/Candlestick.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 var prices = Generate.RandomOHLCs(30);
 myPlot.Add.Candlestick(prices);
 myPlot.Axes.DateTimeTicks(Edge.Bottom);
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -41,17 +44,20 @@ OHLC charts use symbols to display price data (open, high, low, and close) for s
 
 [![](/cookbook/5.0/images/OhlcChart.png)](/cookbook/5.0/images/OhlcChart.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 var prices = Generate.RandomOHLCs(30);
 myPlot.Add.OHLC(prices);
 myPlot.Axes.DateTimeTicks(Edge.Bottom);
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -62,8 +68,9 @@ Finance charts can be created which display price information on the right axis.
 
 [![](/cookbook/5.0/images/FinanceRightAxis.png)](/cookbook/5.0/images/FinanceRightAxis.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 // add candlesticks to the plot
@@ -77,9 +84,11 @@ candles.Axes.YAxis.Label.Text = "Price";
 // style the bottom axis to display date
 myPlot.Axes.DateTimeTicks(Edge.Bottom);
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -90,8 +99,9 @@ Tools exist for creating simple moving average (SMA) curves and displaying them 
 
 [![](/cookbook/5.0/images/FinanceSma.png)](/cookbook/5.0/images/FinanceSma.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 // generate and plot time series price data
@@ -113,9 +123,11 @@ foreach (int windowSize in windowSizes)
 
 myPlot.ShowLegend();
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -126,8 +138,9 @@ Tools exist for creating Bollinger Bands which display weighted moving mean and 
 
 [![](/cookbook/5.0/images/FinanceBollinger.png)](/cookbook/5.0/images/FinanceBollinger.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 // generate and plot time series price data
@@ -155,9 +168,11 @@ sp3.MarkerSize = 0;
 sp3.Color = Colors.Navy;
 sp3.LineStyle.Pattern = LinePattern.Dotted;
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -168,8 +183,9 @@ When the DateTimes stored in OHLC objects are used to determine the horizontal p
 
 [![](/cookbook/5.0/images/FinancialPlotWithoutGaps.png)](/cookbook/5.0/images/FinancialPlotWithoutGaps.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 // create a candlestick plot
@@ -193,9 +209,11 @@ string[] tickLabels = tickDates.Select(x => x.ToString("MM/dd")).ToArray();
 ScottPlot.TickGenerators.NumericManual tickGen = new(tickPositions, tickLabels);
 myPlot.Axes.Bottom.TickGenerator = tickGen;
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 

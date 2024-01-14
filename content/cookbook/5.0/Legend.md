@@ -20,8 +20,9 @@ The default legend can be easily accessed and customized. It is possible to add 
 
 [![](/cookbook/5.0/images/LegendStyle.png)](/cookbook/5.0/images/LegendStyle.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 var sig1 = myPlot.Add.Signal(ScottPlot.Generate.Sin(51));
@@ -39,9 +40,11 @@ myPlot.Legend.Font.Size = 16;
 myPlot.Legend.Font.Name = Fonts.Serif;
 myPlot.Legend.Location = Alignment.UpperCenter;
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -52,8 +55,9 @@ Legends may be constructed manually.
 
 [![](/cookbook/5.0/images/ManualLegend.png)](/cookbook/5.0/images/ManualLegend.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(ScottPlot.Generate.Sin(51));
@@ -75,9 +79,11 @@ myPlot.Legend.ManualItems.Add(new LegendItem()
     Label = "Beta"
 });
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 

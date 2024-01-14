@@ -20,8 +20,9 @@ Axis labels are the text labels centered on each axis. The text inside these lab
 
 [![](/cookbook/5.0/images/AxisLabels.png)](/cookbook/5.0/images/AxisLabels.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin(51));
@@ -30,9 +31,11 @@ myPlot.Add.Signal(Generate.Cos(51));
 myPlot.Axes.Bottom.Label.Text = "Horizontal Axis";
 myPlot.Axes.Left.Label.Text = "Vertical Axis";
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -43,8 +46,9 @@ Axis Limits can be set manually in different ways.
 
 [![](/cookbook/5.0/images/SetAxisLimits.png)](/cookbook/5.0/images/SetAxisLimits.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin(51));
@@ -59,9 +63,11 @@ myPlot.Axes.Left.Max = 5;
 // Call a helper function
 myPlot.Axes.SetLimits(-100, 150, -5, 5);
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -72,8 +78,9 @@ The current axis limits can be read in multiple ways.
 
 [![](/cookbook/5.0/images/GetAxisLimits.png)](/cookbook/5.0/images/GetAxisLimits.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin(51));
@@ -88,9 +95,11 @@ AxisLimits limits = myPlot.Axes.GetLimits();
 double left = limits.Rect.Left;
 double center = limits.Rect.HorizontalCenter;
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -101,8 +110,9 @@ The axis limits can be automatically adjusted to fit the data. Optional argument
 
 [![](/cookbook/5.0/images/AutoScale.png)](/cookbook/5.0/images/AutoScale.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin(51));
@@ -114,9 +124,11 @@ myPlot.Axes.SetLimits(-100, 150, -5, 5);
 // reset limits to fit the data
 myPlot.Axes.AutoScale();
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -127,8 +139,9 @@ How to create a plot containig only the data area and no axes.
 
 [![](/cookbook/5.0/images/Frameless.png)](/cookbook/5.0/images/Frameless.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 myPlot.FigureBackground = Colors.Magenta; // should not be seen
@@ -139,9 +152,11 @@ myPlot.Add.Signal(Generate.Cos(51));
 
 myPlot.Layout.Frameless();
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 

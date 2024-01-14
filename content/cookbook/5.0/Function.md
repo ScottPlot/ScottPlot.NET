@@ -20,8 +20,9 @@ Create a function plot from a formula.
 
 [![](/cookbook/5.0/images/FunctionQuickstart.png)](/cookbook/5.0/images/FunctionQuickstart.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 // Functions are defined as delegates with an input and output
@@ -37,9 +38,11 @@ myPlot.Add.Function(func3);
 // Manually set axis limits because functions do not have discrete data points
 myPlot.Axes.SetLimits(-10, 10, -1.5, 1.5);
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 

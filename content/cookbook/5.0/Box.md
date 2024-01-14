@@ -20,8 +20,9 @@ Box plots can be created individually and added to the plot.
 
 [![](/cookbook/5.0/images/BoxPlotQuickstart.png)](/cookbook/5.0/images/BoxPlotQuickstart.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 ScottPlot.Box box = new()
@@ -38,9 +39,11 @@ myPlot.Add.Box(box);
 
 myPlot.Axes.SetLimits(0, 10, 70, 110);
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -51,8 +54,9 @@ Each collection of boxes added to the plot gets styled the same and appears as a
 
 [![](/cookbook/5.0/images/BoxPlotGroups.png)](/cookbook/5.0/images/BoxPlotGroups.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 List<ScottPlot.Box> boxes1 = new() {
@@ -75,9 +79,11 @@ bp2.Label = "Group 2";
 
 myPlot.ShowLegend(Alignment.UpperRight);
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 

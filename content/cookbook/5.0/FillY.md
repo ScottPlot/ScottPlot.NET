@@ -20,8 +20,9 @@ FillY plots can be created from X, Y1, and Y2 arrays.
 
 [![](/cookbook/5.0/images/FillYFromArrays.png)](/cookbook/5.0/images/FillYFromArrays.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 RandomDataGenerator dataGen = new(0);
@@ -34,9 +35,11 @@ double[] ys2 = dataGen.RandomWalk(count, offset: 5);
 var xyy = myPlot.Add.FillY(xs, ys1, ys2);
 xyy.FillStyle.Color = Colors.Magenta.WithAlpha(100);
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -47,8 +50,9 @@ FillY plots can be created from two scatter plots that share the same X values.
 
 [![](/cookbook/5.0/images/FillYFromScatters.png)](/cookbook/5.0/images/FillYFromScatters.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 RandomDataGenerator dataGen = new(0);
@@ -64,9 +68,11 @@ var scatter2 = myPlot.Add.Scatter(xs, ys2);
 var xyy = myPlot.Add.FillY(scatter1, scatter2);
 xyy.FillStyle.Color = Colors.Blue.WithAlpha(100);
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -77,8 +83,9 @@ FillY plots can be created from data of any type if a conversion function is sup
 
 [![](/cookbook/5.0/images/Function.png)](/cookbook/5.0/images/Function.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 // create source data in a nonstandard data type
@@ -98,9 +105,11 @@ static (double, double, double) MyConverter((int, int, int) s) => (s.Item1, s.It
 // create a filled plot from source data using the custom converter
 myPlot.Add.FillY(data, MyConverter);
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -111,8 +120,9 @@ FillY plots can be customized using public properties.
 
 [![](/cookbook/5.0/images/Styling.png)](/cookbook/5.0/images/Styling.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 RandomDataGenerator dataGen = new(0);
@@ -137,9 +147,11 @@ xyy.Label = "xyy";
 
 myPlot.Legend.IsVisible = true;
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 

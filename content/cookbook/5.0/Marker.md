@@ -20,8 +20,9 @@ Markers are symbols placed at a location in coordinate space. Their shape, size,
 
 [![](/cookbook/5.0/images/MarkerQuickstart.png)](/cookbook/5.0/images/MarkerQuickstart.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin());
@@ -31,9 +32,11 @@ myPlot.Add.Marker(25, .5);
 myPlot.Add.Marker(35, .6);
 myPlot.Add.Marker(45, .7);
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -44,8 +47,9 @@ Many marker shapes are available.
 
 [![](/cookbook/5.0/images/MarkerShapes.png)](/cookbook/5.0/images/MarkerShapes.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 ScottPlot.Colormaps.Turbo colormap = new();
@@ -60,9 +64,11 @@ for (int i = 0; i < 100; i++)
     myPlot.Add.Marker(location, shape, size, color);
 }
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -73,8 +79,9 @@ Markers with labels appear in the legend.
 
 [![](/cookbook/5.0/images/MarkerLegend.png)](/cookbook/5.0/images/MarkerLegend.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 var sin = myPlot.Add.Signal(Generate.Sin());
@@ -86,9 +93,11 @@ cos.Label = "Cosine";
 marker.Label = "Marker";
 myPlot.ShowLegend();
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 

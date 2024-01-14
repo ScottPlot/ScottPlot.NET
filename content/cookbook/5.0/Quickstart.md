@@ -20,17 +20,20 @@ Display paired X/Y data as a scatter plot.
 
 [![](/cookbook/5.0/images/QuickstartScatter.png)](/cookbook/5.0/images/QuickstartScatter.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 double[] dataX = { 1, 2, 3, 4, 5 };
 double[] dataY = { 1, 4, 9, 16, 25 };
 myPlot.Add.Scatter(dataX, dataY);
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -41,8 +44,9 @@ Functions that add things to plots return the plottables they create. Interact w
 
 [![](/cookbook/5.0/images/CustomizingPlottables.png)](/cookbook/5.0/images/CustomizingPlottables.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 double[] dataX = { 1, 2, 3, 4, 5 };
@@ -53,9 +57,11 @@ myScatter.LineStyle.Color = Colors.Green.WithOpacity(.2);
 myScatter.MarkerStyle.Fill.Color = Colors.Magenta;
 myScatter.MarkerStyle.Size = 15;
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -66,8 +72,9 @@ Signal plots are optimized for displaying evenly spaced data.
 
 [![](/cookbook/5.0/images/QuickstartSignal.png)](/cookbook/5.0/images/QuickstartSignal.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 double[] sin = Generate.Sin(51);
@@ -75,9 +82,11 @@ double[] cos = Generate.Cos(51);
 myPlot.Add.Signal(sin);
 myPlot.Add.Signal(cos);
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -88,17 +97,20 @@ Signal plots can interactively display millions of data points in real time. Dou
 
 [![](/cookbook/5.0/images/SignalPerformance.png)](/cookbook/5.0/images/SignalPerformance.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 double[] data = Generate.RandomWalk(1_000_000);
 myPlot.Add.Signal(data);
 myPlot.Title("Signal plot with one million points");
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -109,8 +121,9 @@ Axis labels can be extensively customized.
 
 [![](/cookbook/5.0/images/QuickstartAxisLabels.png)](/cookbook/5.0/images/QuickstartAxisLabels.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin(51));
@@ -120,9 +133,11 @@ myPlot.Axes.Bottom.Label.Text = "Horizonal Axis";
 myPlot.Axes.Left.Label.Text = "Vertical Axis";
 myPlot.Axes.Left.Label.Text = "Plot Title";
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -133,8 +148,9 @@ A legend displays plottables in a key along the edge of a plot. Most plottables 
 
 [![](/cookbook/5.0/images/Legend.png)](/cookbook/5.0/images/Legend.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 var sig1 = myPlot.Add.Signal(Generate.Sin(51));
@@ -145,9 +161,11 @@ sig2.Label = "Cos";
 
 myPlot.Legend.IsVisible = true;
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 

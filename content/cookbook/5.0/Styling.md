@@ -20,8 +20,9 @@ Plots contain many objects which can be customized individually by assigining to
 
 [![](/cookbook/5.0/images/StyleClass.png)](/cookbook/5.0/images/StyleClass.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin(51));
@@ -37,9 +38,11 @@ myPlot.Style.Background(figure: Color.FromHex("#07263b"), data: Color.FromHex("#
 myPlot.Style.ColorAxes(Color.FromHex("#a0acb5"));
 myPlot.Style.ColorGrids(Color.FromHex("#0e3d54"));
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -50,8 +53,9 @@ Axis labels, tick marks, and frame can all be customized.
 
 [![](/cookbook/5.0/images/AxisCustom.png)](/cookbook/5.0/images/AxisCustom.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin(51));
@@ -80,9 +84,11 @@ myPlot.Axes.Bottom.MinorTickStyle.Width = 0.5f;
 myPlot.Axes.Bottom.MinorTickStyle.Color = Colors.Green;
 myPlot.Axes.Bottom.FrameLineStyle.Color = Colors.LightBlue;
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -93,8 +99,9 @@ A palette is a set of colors, and the Plot's palette defines the default colors 
 
 [![](/cookbook/5.0/images/Palette.png)](/cookbook/5.0/images/Palette.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 myPlot.Palette = new ScottPlot.Palettes.Nord();
@@ -106,9 +113,11 @@ for (int i = 0; i < 5; i++)
     sig.LineWidth = 3;
 }
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -119,8 +128,9 @@ Many plot types have a MarkerStyle which can be customized.
 
 [![](/cookbook/5.0/images/Markers.png)](/cookbook/5.0/images/Markers.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 MarkerShape[] markerShapes = Enum.GetValues<MarkerShape>().ToArray();
@@ -134,9 +144,11 @@ for (int i = 0; i < markerShapes.Length; i++)
     scatter.MarkerStyle.Size = 10;
 }
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -147,8 +159,9 @@ Markers can be referred to by their name.
 
 [![](/cookbook/5.0/images/MarkerNames.png)](/cookbook/5.0/images/MarkerNames.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 MarkerShape[] markerShapes = Enum.GetValues<MarkerShape>().ToArray();
@@ -168,9 +181,11 @@ myPlot.Title("Marker Names");
 myPlot.Axes.SetLimits(-1, markerShapes.Length, -1, 4);
 myPlot.HideGrid();
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -181,8 +196,9 @@ Many plot types have a LineStyle which can be customized.
 
 [![](/cookbook/5.0/images/LineStyles.png)](/cookbook/5.0/images/LineStyles.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 LinePattern[] linePatterns = Enum.GetValues<LinePattern>().ToArray();
@@ -209,9 +225,11 @@ myPlot.Layout.Frameless();
 
 myPlot.ShowLegend();
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -222,17 +240,20 @@ All components of an image can be scaled up or down in size by adjusting the Sca
 
 [![](/cookbook/5.0/images/Scaling.png)](/cookbook/5.0/images/Scaling.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 myPlot.ScaleFactor = 2;
 myPlot.Add.Signal(Generate.Sin());
 myPlot.Add.Signal(Generate.Cos());
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 

@@ -20,8 +20,9 @@ Users can customize the logic used to create tick labels from tick positions.
 
 [![](/cookbook/5.0/images/CustomTickFormatter.png)](/cookbook/5.0/images/CustomTickFormatter.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 double[] xs = ScottPlot.Generate.Consecutive(100, 1, -50);
@@ -48,9 +49,11 @@ ScottPlot.TickGenerators.NumericAutomatic myTickGenerator = new()
 // tell an axis to use the custom tick generator
 myPlot.Axes.Bottom.TickGenerator = myTickGenerator;
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -61,8 +64,9 @@ Tick generators determine where ticks are to be placed and also contain logic fo
 
 [![](/cookbook/5.0/images/AltTickGen.png)](/cookbook/5.0/images/AltTickGen.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(ScottPlot.Generate.Sin(51));
@@ -70,9 +74,11 @@ myPlot.Add.Signal(ScottPlot.Generate.Cos(51));
 
 myPlot.Axes.Bottom.TickGenerator = new ScottPlot.TickGenerators.NumericFixedInterval(11);
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -83,8 +89,9 @@ Users can define ticks to be placed at specific locations.
 
 [![](/cookbook/5.0/images/CustomTicks.png)](/cookbook/5.0/images/CustomTicks.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 // display sample data
@@ -110,9 +117,11 @@ ticks.AddMinor(45);
 // tell the horizontal axis to use the custom tick genrator
 myPlot.Axes.Bottom.TickGenerator = ticks;
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -123,8 +132,9 @@ Users can customize tick label rotation.
 
 [![](/cookbook/5.0/images/RotatedTicks.png)](/cookbook/5.0/images/RotatedTicks.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin());
@@ -134,9 +144,11 @@ myPlot.Axes.Bottom.TickLabelStyle.Rotation = -45;
 myPlot.Axes.Bottom.TickLabelStyle.OffsetY = -8;
 myPlot.Axes.Bottom.TickLabelStyle.Alignment = Alignment.MiddleRight;
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 

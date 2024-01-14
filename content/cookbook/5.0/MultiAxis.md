@@ -20,8 +20,9 @@ New plots have one axis on every side. Axes on the right and top are invisible b
 
 [![](/cookbook/5.0/images/RightAxis.png)](/cookbook/5.0/images/RightAxis.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 // plot data with very different scales
@@ -38,9 +39,11 @@ myPlot.Axes.Right.Label.Text = "Right Axis";
 myPlot.Axes.Left.Label.ForeColor = sig1.Color;
 myPlot.Axes.Right.Label.ForeColor = sig2.Color;
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -51,8 +54,9 @@ Additional axes may be added to plots. Plottables are displayed using the coordi
 
 [![](/cookbook/5.0/images/MultiAxisQuickstart.png)](/cookbook/5.0/images/MultiAxisQuickstart.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 // plottables use the standard X and Y axes by default
@@ -70,9 +74,11 @@ sig2.Axes.XAxis = myPlot.Axes.Bottom; // standard X axis
 sig2.Axes.YAxis = yAxis2; // custom Y axis
 yAxis2.Label.Text = "Secondary Y Axis";
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 

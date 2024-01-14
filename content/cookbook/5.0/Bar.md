@@ -20,8 +20,9 @@ Bar plots can be added from a series of values.
 
 [![](/cookbook/5.0/images/Quickstart.png)](/cookbook/5.0/images/Quickstart.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 // add bars
@@ -31,9 +32,11 @@ myPlot.Add.Bars(values);
 // tell the plot to autoscale with no padding beneath the bars
 myPlot.Axes.Margins(bottom: 0);
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -44,8 +47,9 @@ The exact position and size of each bar may be customized.
 
 [![](/cookbook/5.0/images/BarPosition.png)](/cookbook/5.0/images/BarPosition.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 List<ScottPlot.Bar> bars = new()
@@ -57,9 +61,11 @@ List<ScottPlot.Bar> bars = new()
 
 myPlot.Add.Bars(bars);
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -70,8 +76,9 @@ Bars can have errorbars.
 
 [![](/cookbook/5.0/images/BarWithError.png)](/cookbook/5.0/images/BarWithError.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 List<ScottPlot.Bar> bars = new()
@@ -87,9 +94,11 @@ myPlot.Add.Bars(bars);
 // tell the plot to autoscale with no padding beneath the bars
 myPlot.Axes.Margins(bottom: 0);
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -100,8 +109,9 @@ Bars can be labeled by manually specifying axis tick mark positions and labels.
 
 [![](/cookbook/5.0/images/BarTickLabels.png)](/cookbook/5.0/images/BarTickLabels.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Bar(position: 1, value: 5, error: 1);
@@ -124,9 +134,11 @@ myPlot.HideGrid();
 // tell the plot to autoscale with no padding beneath the bars
 myPlot.Axes.Margins(bottom: 0);
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -137,8 +149,9 @@ Bars can be positioned on top of each other.
 
 [![](/cookbook/5.0/images/BarStackVertically.png)](/cookbook/5.0/images/BarStackVertically.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 Color[] colors = {
@@ -175,9 +188,11 @@ myPlot.HideGrid();
 // tell the plot to autoscale with no padding beneath the bars
 myPlot.Axes.Margins(bottom: 0);
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -188,8 +203,9 @@ Bars can be grouped by position and color.
 
 [![](/cookbook/5.0/images/GroupedBarPlot.png)](/cookbook/5.0/images/GroupedBarPlot.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 Color[] colors = {
@@ -239,9 +255,11 @@ myPlot.HideGrid();
 // tell the plot to autoscale with no padding beneath the bars
 myPlot.Axes.Margins(bottom: 0);
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -252,8 +270,9 @@ Bar plots can be displayed horizontally.
 
 [![](/cookbook/5.0/images/HorizontalBar.png)](/cookbook/5.0/images/HorizontalBar.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 ScottPlot.Bar[] bars =
@@ -269,9 +288,11 @@ barPlot.Horizontal = true;
 
 myPlot.Axes.Margins(left: 0);
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 

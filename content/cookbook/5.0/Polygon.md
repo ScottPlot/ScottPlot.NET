@@ -20,8 +20,9 @@ Polygon plots can be added from a series of vertices, and must be in clockwise o
 
 [![](/cookbook/5.0/images/PolygonQuickstart.png)](/cookbook/5.0/images/PolygonQuickstart.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 Coordinates[] vertices = new Coordinates[]
@@ -35,9 +36,11 @@ Coordinates[] vertices = new Coordinates[]
 myPlot.Add.Polygon(vertices);
 myPlot.Axes.AutoScale();
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -48,8 +51,9 @@ Polygon plots can be fully customized.
 
 [![](/cookbook/5.0/images/PolygonStyling.png)](/cookbook/5.0/images/PolygonStyling.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 Coordinates[] vertices = new Coordinates[]
@@ -77,9 +81,11 @@ poly.MarkerStyle.Fill.Color = Colors.Gold;
 poly.MarkerStyle.Outline.Color = Colors.Brown;
 myPlot.Axes.AutoScale();
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 

@@ -20,8 +20,9 @@ Fit a line to a collection of X/Y data points.
 
 [![](/cookbook/5.0/images/Linear.png)](/cookbook/5.0/images/Linear.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 double[] xs = new double[] { 1, 2, 3, 4, 5, 6, 7 };
@@ -46,9 +47,11 @@ line.LineStyle.Width = 2;
 // note the formula at the top of the plot
 myPlot.Title($"y = {reg.Slope:0.###}x + {reg.Offset:0.###} (r²={reg.Rsquared:0.###})");
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 

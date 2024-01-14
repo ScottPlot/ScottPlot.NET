@@ -20,8 +20,9 @@ Signal plots are best for extremely large datasets. They use render using specia
 
 [![](/cookbook/5.0/images/SignalQuickstart.png)](/cookbook/5.0/images/SignalQuickstart.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 double[] values = Generate.RandomWalk(1_000_000);
@@ -30,9 +31,11 @@ myPlot.Add.Signal(values);
 
 myPlot.Title("Signal Plot with 1 Million Points");
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -43,8 +46,9 @@ Signal plots can be styled in a variety of ways.
 
 [![](/cookbook/5.0/images/SignalStyling.png)](/cookbook/5.0/images/SignalStyling.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 var sig1 = myPlot.Add.Signal(Generate.Sin());
@@ -59,9 +63,11 @@ sig2.Label = "Cosine";
 
 myPlot.ShowLegend();
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -72,8 +78,9 @@ Signal plots can be offset by a given X and Y value.
 
 [![](/cookbook/5.0/images/SignalOffset.png)](/cookbook/5.0/images/SignalOffset.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 double[] values = ScottPlot.Generate.Sin(51);
@@ -88,9 +95,11 @@ sig2.Label = "Offset";
 
 myPlot.Legend.IsVisible = true;
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -101,8 +110,9 @@ Signal plots can have markers displayed at each point which are only visible whe
 
 [![](/cookbook/5.0/images/SignalMarkerSize.png)](/cookbook/5.0/images/SignalMarkerSize.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 var sig1 = myPlot.Add.Signal(Generate.Cos());
@@ -121,9 +131,11 @@ sig3.Data.YOffset = 1;
 
 myPlot.Legend.IsVisible = true;
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -134,8 +146,9 @@ Even if a signal plot references a large array of data, rendering can be limited
 
 [![](/cookbook/5.0/images/SignalRenderIndexes.png)](/cookbook/5.0/images/SignalRenderIndexes.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 double[] values = Generate.RandomWalk(1000);
@@ -163,9 +176,11 @@ sigMid.Data.MaximumIndex = 700;
 myPlot.ShowLegend(Alignment.UpperRight);
 myPlot.Axes.Margins(top: .5);
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -176,8 +191,9 @@ Signal plots support generic data types, although double is typically the most p
 
 [![](/cookbook/5.0/images/SignalGeneric.png)](/cookbook/5.0/images/SignalGeneric.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 int[] values = Generate.RandomIntegers(1000, -100, 100);
@@ -186,9 +202,11 @@ myPlot.Add.Signal(values);
 
 myPlot.Title("Signal Plot with 1 Million Points");
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -199,8 +217,9 @@ A signal plot may use DateTime units but be sure to setup the respective axis to
 
 [![](/cookbook/5.0/images/SignalDateTime.png)](/cookbook/5.0/images/SignalDateTime.png)
 
+{{< code-sp5 >}}
+
 ```cs
-ScottPlot.Version.ShouldBe(5, 0, 15);
 ScottPlot.Plot myPlot = new();
 
 DateTime start = new(2024, 1, 1);
@@ -212,9 +231,11 @@ sig.Data.Period = 1.0; // one day between each point
 
 myPlot.Axes.DateTimeTicks(Edge.Bottom);
 
-myPlot.SavePng("demo.png");
+myPlot.SavePng("demo.png", 400, 300);
 
 ```
+
+{{< /code-sp5 >}}
 
 <hr class='my-5 invisible'>
 
