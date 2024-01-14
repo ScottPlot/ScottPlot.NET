@@ -1,7 +1,6 @@
 ---
 Title: Console Application Quickstart
 description: How to create a plot and save it as an image from a C# console application
-url: /quickstart/console/
 date: 2023-12-13
 ---
 

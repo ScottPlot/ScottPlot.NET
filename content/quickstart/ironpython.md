@@ -1,7 +1,6 @@
 ---
 Title: IronPython Quickstart
 description: How to plot data using ScottPlot using IronPython
-url: "quickstart/ironpython"
 date: 2023-12-13
 ---
 

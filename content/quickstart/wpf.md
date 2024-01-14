@@ -2,7 +2,6 @@
 Title: WPF Quickstart
 description: How to create an interactive plot in a C# WPF application
 date: 2021-09-26
-url: /quickstart/wpf/
 ---
 
 {{< banner-sp5 >}}

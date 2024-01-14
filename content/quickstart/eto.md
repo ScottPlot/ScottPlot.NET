@@ -2,7 +2,6 @@
 Title: Eto Quickstart
 date: 2021-12-29
 description: How to create an interactive plot in a C# Eto application
-url: "/quickstart/eto/"
 ---
 
 {{< banner-sp5 >}}

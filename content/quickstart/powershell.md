@@ -2,7 +2,6 @@
 Title: PowerShell Quickstart
 description: How to plot data from PowerShell using ScottPlot
 date: 2023-12-13
-url: /quickstart/powershell/
 ---
 
 {{< banner-sp5 >}}

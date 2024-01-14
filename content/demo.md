@@ -5,45 +5,147 @@ url: /demo
 date: 2023-12-13
 ---
 
-# ScottPlot Demo
+{{< banner-sp5 >}}
 
-**The ScottPlot Demo is a click-to-run application designed to make it easy to assess the capabilities of ScottPlot.** The demo application displays all [Cookbook](../cookbook) recipes and also demonstrate advanced user control features like mouse tracking, live data, and linked plots. 
+# ScottPlot 5.0 Demo
 
-<div class='text-center m-4'>
-<img src='/images/scottplot-demo.png' width='70%'>
+**The ScottPlot 5.0 Demo is a click-to-run application that demonstrates capabilities of ScottPlot.** The demo application displays all [ScottPlot 5.0 Cookbook](/cookbook/5.0/) recipes and demonstrates advanced user control features which are useful in GUI environments. 
+
+* Each demo is provided with a [link to its source code](https://github.com/ScottPlot/ScottPlot/tree/main/src/ScottPlot5/ScottPlot5%20Demos/ScottPlot5%20WinForms%20Demo/Demos)
+
+* The demo app is a [Windows Forms](/quickstart/winforms/) application, but the user control API is virtually identical across [WPF](/quickstart/wpf/), [Avalonia](/quickstart/avalonia/), [Eto](/quickstart/eto/), [WinUI](/quickstart/winui/), and [Blazor](/quickstart/blazor/), so the source code is relevant to all graphical platforms.
+
+<div class='text-center mt-5 mb-2' id='download'>
+<a class="btn btn-success btn-lg" href="#" role="button">
+<div class='d-flex align-items-center'>
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-download me-2" viewBox="0 0 16 16">
+<path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"/>
+<path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z"/>
+</svg>
+<div class='fs-4'>ScottPlot 5.0 Demo</div>
+</div>
+</a>
 </div>
 
-## Download
+![](/images/demo/5.0/demo.png)
 
-<div class="container p-2 mb-3">
-    <div class="row">
-        <div class="col text-center">
-            <a href="https://scottplot.net/demos/ScottPlot-Demo-WinForms.zip"
-                class="btn btn-success btn-lg shadow-sm">
-                <div class="fs-3">Windows Forms</div>
-                <div class="fs-6 fw-light">ScottPlot 4.1 Demo</div>
-            </a>
-        </div>
-        <div class="col text-center">
-            <a href="https://scottplot.net/demos/ScottPlot-Demo-WPF.zip"
-                class="btn btn-primary btn-lg shadow-sm">
-                <div class="fs-3">WPF</div>
-                <div class="fs-6 fw-light">ScottPlot 4.1 Demo</div>
-            </a>
-        </div>
-        <div class="col text-center">
-            <a href="https://scottplot.net/demos/ScottPlot-Demo-Avalonia.zip"
-                class="btn btn-secondary btn-lg shadow-sm">
-                <div class="fs-3">Avalonia</div>
-                <div class="fs-6 fw-light">ScottPlot 4.1 Demo</div>
-            </a>
-        </div>
-    </div>
+## Notable Demos
+
+### Show Value Under Mouse
+
+**The show value under mouse demo** uses the control's `MouseMove` event to determine the position of the cursor using `Plot.GetCoordinates()`, determines if a data point is beneath the cursor, and if so places a circular `Marker` around it. Although this demo showcases data from scatter plots, the concept can be applied to any plot type.
+
+* Source code: [ShowValueOnHover.cs](https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Demos/ScottPlot5%20WinForms%20Demo/Demos/ShowValueOnHover.cs)
+* Download: <a href='#download'>ScottPlot 5.0 demo</a>
+
+![](/images/demo/5.0/show-point.gif)
+
+
+### Interactive Plottables
+
+**The draggable axis line demo** shows how to use the user control's `MouseDown`, `MouseUP`, and `MouseMove` events to check whether a plotted object is beneath the mouse, grab it when clicked, move it when dragged, and drop it. Although this demo only showcases dragging axis lines, this technique can be applied to add interactivity to any plot type.
+
+* Source code: [DraggableAxisLines.cs](https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Demos/ScottPlot5%20WinForms%20Demo/Demos/DraggableAxisLines.cs)
+* Download: <a href='#download'>ScottPlot 5.0 demo</a>
+
+![](/images/demo/5.0/drag.gif)
+
+### Shared Axes
+
+**The shared axes demo** contains two separate plot controls and uses the `Plot.RenderManager.AxisLimitsChanged` event to detect when a control is manipulated and updates axis limits of the other control.
+
+* Source code: [SharedAxes.cs](https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Demos/ScottPlot5%20WinForms%20Demo/Demos/SharedAxes.cs)
+* Download: <a href='#download'>ScottPlot 5.0 demo</a>
+
+![](/images/demo/5.0/linked-axes.gif)
+
+### Axis Rules
+
+**The axis rules demo** demonstrates how to add to the list of `Plot.Axes.Rules` which are applied before rendering each frame. This strategy can be used to set boundaries that limit how far the user can zoom in or out, lock the vertical or horizontal axis, or enforce equal axes scaling such that circles and squares cannot be stretched into rectangles and ellipses.
+
+* Source code: [AxisRules.cs](https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Demos/ScottPlot5%20WinForms%20Demo/Demos/AxisRules.cs)
+* Download: <a href='#download'>ScottPlot 5.0 demo</a>
+
+![](/images/demo/5.0/axis-rules.png)
+
+### Custom Context Menu
+
+**The custom right-click menu** shows how to customize the context menu that appears when users right-click the plot. Developers can call the control's `Menu.Clear()` method to remove default menu items then call the control's `Menu.Add()` method to add new items which call custom actions when clicked.
+
+* Source code: [CustomMenu.cs](https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Demos/ScottPlot5%20WinForms%20Demo/Demos/CustomMenu.cs)
+* Download: <a href='#download'>ScottPlot 5.0 demo</a>
+
+![](/images/demo/5.0/menu.png)
+
+
+### Custom Mouse Actions
+
+**The custom mouse actions demo** shows how to customize which mouse actions perform various operations on the plot. This strategy can be used to enable alternative behaviors such as middle-click-drag panning, right-click autoscaling, and left-click launching a context menu.
+
+* Source code: [CustomMouseActions.cs](https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Demos/ScottPlot5%20WinForms%20Demo/Demos/CustomMouseActions.cs)
+* Download: <a href='#download'>ScottPlot 5.0 demo</a>
+
+![](/images/demo/5.0/custom-mouse.png)
+
+### Multi-Axis
+
+**The multi-axis demo** plots data with largely different dimensions on multiple axes with different scales, then demonstrates how to interact with the multi-axis plot.
+
+* Source code: [MultiAxis.cs](https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Demos/ScottPlot5%20WinForms%20Demo/Demos/MultiAxis.cs)
+* Download: <a href='#download'>ScottPlot 5.0 demo</a>
+
+![](/images/demo/5.0/multi-axis.png)
+
+
+
+# ScottPlot 4.1 Demo
+
+**The ScottPlot 4.1 Demo is a click-to-run application designed to make it easy to assess the capabilities of ScottPlot.** The demo application displays all [ScottPlot 4.1 Cookbook](/cookbook/4.1/) recipes and also demonstrate advanced user control features like mouse tracking, live data, and linked plots. 
+
+<img src="/images/demo/4.1/demo.png" class="w-75 mx-auto d-block my-3">
+
+<div class="row">
+
+<div class="col-md">
+<div class='text-center mt-5 mb-2' id='download41'>
+<a class="btn btn-success btn-lg" href="https://scottplot.net/demos/ScottPlot-Demo-WinForms.zip" role="button">
+<div class='d-flex align-items-center'>
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-download me-2" viewBox="0 0 16 16">
+<path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"/>
+<path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z"/>
+</svg>
+<div class='fs-4'>ScottPlot 4.1 WinForms Demo</div>
+</div>
+</a>
+</div>
 </div>
 
-## Source Code
-* [Windows Forms Demo Source](https://github.com/ScottPlot/ScottPlot/tree/main/src/ScottPlot4/ScottPlot.Demo/ScottPlot.Demo.WinForms/WinFormsDemos)
-* [WPF Demo Source](https://github.com/ScottPlot/ScottPlot/tree/main/src/ScottPlot4/ScottPlot.Demo/ScottPlot.Demo.WPF/WpfDemos)
-* [Avalonia Demo Source](https://github.com/ScottPlot/ScottPlot/tree/main/src/ScottPlot4/ScottPlot.Demo/ScottPlot.Demo.Avalonia/AvaloniaDemos)
-* [Eto Demo Source](https://github.com/ScottPlot/ScottPlot/tree/main/src/ScottPlot4/ScottPlot.Demo/ScottPlot.Demo.Eto/EtoFormsDemos)
-* [Cookbook Recipe Source](https://github.com/ScottPlot/ScottPlot/tree/main/src/ScottPlot4/ScottPlot.Cookbook/Recipes)
+<div class="col-md">
+<div class='text-center mt-5 mb-2' id='download41'>
+<a class="btn btn-primary btn-lg" href="https://scottplot.net/demos/ScottPlot-Demo-WPF.zip" role="button">
+<div class='d-flex align-items-center'>
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-download me-2" viewBox="0 0 16 16">
+<path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"/>
+<path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z"/>
+</svg>
+<div class='fs-4'>ScottPlot 4.1 WPF Demo</div>
+</div>
+</a>
+</div>
+</div>
+
+<div class="col-md">
+<div class='text-center mt-5 mb-2' id='download41'>
+<a class="btn btn-secondary btn-lg" href="https://scottplot.net/demos/ScottPlot-Demo-Avalonia.zip" role="button">
+<div class='d-flex align-items-center'>
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-download me-2" viewBox="0 0 16 16">
+<path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"/>
+<path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z"/>
+</svg>
+<div class='fs-4'>ScottPlot 4.1 Avalonia Demo</div>
+</div>
+</a>
+</div>
+</div>
+
+</div>
