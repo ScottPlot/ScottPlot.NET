@@ -1,7 +1,6 @@
 ---
 Title: ScottPlot Demo
 Description: A click-to-run application demonstrating ScottPlot's capabilities
-url: /demo
 date: 2023-12-13
 ---
 

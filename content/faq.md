@@ -1,7 +1,6 @@
 ---
 title: ScottPlot FAQ
 description: Frequently asked questions about the ScottPlot library, user controls, and implementation suggestions.
-url: /faq
 date: 2023-12-13
 ---
 
