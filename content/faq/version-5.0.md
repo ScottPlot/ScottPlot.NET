@@ -119,6 +119,22 @@ double secondsPerPoint = 0.01;
 myPlot.Add.Signal(ys, secondsPerPoint);
 ```
 
+### Axis Limits
+
+Logic that acts on axes is now inside the `Axes` class instead of living at the top level of the `Plot` class.
+
+```cs
+// ScottPlot 4
+var limits = myPlot.GetAxisLimits();
+myPlot.SetAxisLimits(0, 50, -1, 1);
+```
+
+```cs
+// ScottPlot 5
+var limits = myPlot.Axes.GetLimits();
+myPlot.Axes.SetLimits(0, 50, -1, 1);
+```
+
 ### User Control Namespaces Changed
 
 **Windows Forms:** `ScottPlot.FormsPlot` is now `ScottPlot.WinForms.FormsPlot`. Users upgrading from ScottPlot 4 will need to edit this reference in their designer files.

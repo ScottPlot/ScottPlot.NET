@@ -96,7 +96,23 @@ date: 2023-12-13
 
 ![](/images/demo/5.0/multi-axis.png)
 
+### Plot Streaming Data
 
+**The data streamer demo** displays live data using a fixed number of data points. The oldest data points are removed as new data points are shifted in. If the `ManageAxisLimits` property is enabled, the data streamer will automatically adjust the axis limits to keep the incoming data in view. The data streamer plot type has options for switching between a wipe view (like an ECG machine) and a scroll view (where the newest data is always on one side of the plot).
+
+* Source code: [DataStreamer.cs](https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Demos/ScottPlot5%20WinForms%20Demo/Demos/DataStreamer.cs)
+* Download: <a href='#download'>ScottPlot 5.0 demo</a>
+
+![](/images/demo/5.0/data-streamer.png)
+
+### Plot Growing Data
+
+**The data logger demo** displays live data in a `List` that grows as new data is added. If the `ManageAxisLimits` property is enabled, the data logger will automatically adjust the axis limits to keep the incoming data in view. The data logger plot type has options for switching between a full signal view or views that focus on the latest portion of the incoming signal.
+
+* Source code: [DataLogger.cs](https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Demos/ScottPlot5%20WinForms%20Demo/Demos/DataLogger.cs)
+* Download: <a href='#download'>ScottPlot 5.0 demo</a>
+
+![](/images/demo/5.0/data-logger.png)
 
 # ScottPlot 4.1 Demo
 
