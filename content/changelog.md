@@ -33,13 +33,16 @@ Release notes for every version of ScottPlot
 </li>
 <li>Generate: Created a <code>Generate.RandomWalker</code> class for producing an infinite amount of streaming random data
 </li>
+<li>Ticks: Improved support for multi-line tick labels on vertical axes (<a href="https://github.com/ScottPlot/ScottPlot/issues/3208">#3208</a>) <em>Thanks <a href="https://github.com/raburton">@raburton</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/swharden'>swharden</a>
+<a href='https://github.com/raburton'>raburton</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
+<a href='https://github.com/raburton'><img src='https://scottplot.net/images/contributors/raburton.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
