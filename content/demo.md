@@ -103,7 +103,7 @@ date: 2023-12-13
 * Source code: [DataStreamer.cs](https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Demos/ScottPlot5%20WinForms%20Demo/Demos/DataStreamer.cs)
 * Download: <a href='#download'>ScottPlot 5.0 demo</a>
 
-![](/images/demo/5.0/data-streamer.png)
+![](/images/demo/5.0/data-streamer.gif)
 
 ### Plot Growing Data
 
@@ -112,7 +112,7 @@ date: 2023-12-13
 * Source code: [DataLogger.cs](https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Demos/ScottPlot5%20WinForms%20Demo/Demos/DataLogger.cs)
 * Download: <a href='#download'>ScottPlot 5.0 demo</a>
 
-![](/images/demo/5.0/data-logger.png)
+![](/images/demo/5.0/data-logger.gif)
 
 # ScottPlot 4.1 Demo
 
