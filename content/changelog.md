@@ -23,6 +23,28 @@ Release notes for every version of ScottPlot
 
 </section>
 <section class='mb-5'>
+<h1 class='mb-0'>ScottPlot 5.0.16 (not yet on NuGet)</h1>
+<div><i>NuGet packages published </i></div>
+<div class='mt-1'>
+<ul>
+<li>Data Streamer: A new plot type for displaying live data as a fixed-width line trace (<a href="https://github.com/ScottPlot/ScottPlot/issues/3202">#3202</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3205">#3205</a>)
+</li>
+<li>Data Logger: A new plot type for displaying live data as a growing scatter plot (<a href="https://github.com/ScottPlot/ScottPlot/issues/3202">#3202</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3205">#3205</a>)
+</li>
+<li>Generate: Created a <code>Generate.RandomWalker</code> class for producing an infinite amount of streaming random data
+</li>
+</ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
+
+</section>
+<section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 5.0.15</h1>
 <div><i>NuGet packages published 2024-01-14</i></div>
 <div class='mt-1'>
