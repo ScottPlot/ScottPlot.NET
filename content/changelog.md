@@ -43,6 +43,8 @@ Release notes for every version of ScottPlot
 </li>
 <li>Style: Added <code>Plot.Style.SetBestFonts()</code> to apply the best font to all plot components (<a href="https://github.com/ScottPlot/ScottPlot/issues/3184">#3184</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2746">#2746</a>) <em>Thanks <a href="https://github.com/prime167">@prime167</a></em>
 </li>
+<li>Controls: Removed <code>GetCoordinates()</code> from <code>IPlotControl</code>. Users can call Plot.GetCoordinates()` directly. (<a href="https://github.com/ScottPlot/ScottPlot/issues/3199">#3199</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
