@@ -23,8 +23,8 @@ Release notes for every version of ScottPlot
 
 </section>
 <section class='mb-5'>
-<h1 class='mb-0'>ScottPlot 5.0.16 (not yet on NuGet)</h1>
-<div><i>NuGet packages published </i></div>
+<h1 class='mb-0'>ScottPlot 5.0.16</h1>
+<div><i>NuGet packages published 2024-01-15</i></div>
 <div class='mt-1'>
 <ul>
 <li>Data Streamer: A new plot type for displaying live data as a fixed-width line trace (<a href="https://github.com/ScottPlot/ScottPlot/issues/3202">#3202</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3205">#3205</a>)
@@ -44,6 +44,12 @@ Release notes for every version of ScottPlot
 <li>Style: Added <code>Plot.Style.SetBestFonts()</code> to apply the best font to all plot components (<a href="https://github.com/ScottPlot/ScottPlot/issues/3184">#3184</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2746">#2746</a>) <em>Thanks <a href="https://github.com/prime167">@prime167</a></em>
 </li>
 <li>Controls: Removed <code>GetCoordinates()</code> from <code>IPlotControl</code>. Users can call Plot.GetCoordinates()` directly. (<a href="https://github.com/ScottPlot/ScottPlot/issues/3199">#3199</a>)
+</li>
+<li>Ticks: Do not display manually defined grid lines, tick marks, or tick labels to appear outside the data area (<a href="https://github.com/ScottPlot/ScottPlot/issues/3207">#3207</a>)
+</li>
+<li>Rendering: Created <code>IManagesAxisLimits</code> for <code>IPlottable</code> objects that manipulate axis limits at render time (<a href="https://github.com/ScottPlot/ScottPlot/issues/3207">#3207</a>)
+</li>
+<li>NuGet: Improved package descriptions to better reflect that ScottPlot 5 is no longer in preview (<a href="https://github.com/ScottPlot/ScottPlot/issues/3207">#3207</a>)
 </li>
 </ul>
 </div>
