@@ -35,14 +35,23 @@ Release notes for every version of ScottPlot
 </li>
 <li>Ticks: Improved support for multi-line tick labels on vertical axes (<a href="https://github.com/ScottPlot/ScottPlot/issues/3208">#3208</a>) <em>Thanks <a href="https://github.com/raburton">@raburton</a></em>
 </li>
+<li>Text: Exposed <code>FontName</code> and <code>LabelText</code> properties
+</li>
+<li>Internationalization: <code>Fonts.Detect()</code> now inspects all characters instead of just the first (<a href="https://github.com/ScottPlot/ScottPlot/issues/3184">#3184</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2746">#2746</a>) <em>Thanks <a href="https://github.com/prime167">@prime167</a></em>
+</li>
+<li>Label: Added <code>SetBestFont()</code> to apply the installed font most likely able to display characters in the label (<a href="https://github.com/ScottPlot/ScottPlot/issues/3184">#3184</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2746">#2746</a>) <em>Thanks <a href="https://github.com/prime167">@prime167</a></em>
+</li>
+<li>Style: Added <code>Plot.Style.SetBestFonts()</code> to apply the best font to all plot components (<a href="https://github.com/ScottPlot/ScottPlot/issues/3184">#3184</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2746">#2746</a>) <em>Thanks <a href="https://github.com/prime167">@prime167</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/raburton'>raburton</a>, <a href='https://github.com/swharden'>swharden</a>
+<a href='https://github.com/raburton'>raburton</a>, <a href='https://github.com/prime167'>prime167</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/raburton'><img src='https://scottplot.net/images/contributors/raburton.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/prime167'><img src='https://scottplot.net/images/contributors/prime167.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
