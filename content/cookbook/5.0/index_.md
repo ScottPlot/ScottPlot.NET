@@ -4,9 +4,9 @@ Description: Example plots shown next to the code used to create them
 URL: /cookbook/5.0/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook"]
 BreadcrumbUrls: ["/cookbook/5.0/"]
-Date: 2024-01-14
-Version: ScottPlot 5.0.15
-Version: ScottPlot 5.0.15
+Date: 2024-01-16
+Version: ScottPlot 5.0.16
+Version: ScottPlot 5.0.16
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -50,6 +50,10 @@ ShowEditLink: false
 <div class='mt-3 fs-4'><strong>Statistics</strong></div>
 <ul>
 <li><a href='/cookbook/5.0/Regression'>Regression</a> - Statistical operations to fit lines to data</li>
+</ul>
+<div class='mt-3 fs-4'><strong>Miscellaneous</strong></div>
+<ul>
+<li><a href='/cookbook/5.0/Internationalization'>Internationalization</a> - Using ScottPlot across cultures with different text and numeric requirements.</li>
 </ul>
 <h1>Quickstart</h1>
 <h2 class=''><a href='/cookbook/5.0/Quickstart' class='text-dark'>ScottPlot 5 Quickstart</a></h2>
@@ -838,5 +842,26 @@ ShowEditLink: false
 <div class='col'>
 <div><a href='/cookbook/5.0/Regression/Linear'><b>LinearRegression</b></a></div>
 <div>Fit a line to a collection of X/Y data points.</div>
+</div>
+</div>
+<h1>Miscellaneous</h1>
+<h2 class=''><a href='/cookbook/5.0/Internationalization' class='text-dark'>Internationalization</a></h2>
+<div>Using ScottPlot across cultures with different text and numeric requirements.</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='/cookbook/5.0/Internationalization/FontDetection'><img class='img-fluid' src='/cookbook/5.0/images/FontDetection.png' /></a>
+</div>
+<div class='col'>
+<div><a href='/cookbook/5.0/Internationalization/FontDetection'><b>Supported Font Detection</b></a></div>
+<div>ScottPlot comes with font detection methods which help identify the best installed font for displaying text which may contain international characters.</div>
+</div>
+</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='/cookbook/5.0/Internationalization/AutomaticFontDetection'><img class='img-fluid' src='/cookbook/5.0/images/AutomaticFontDetection.png' /></a>
+</div>
+<div class='col'>
+<div><a href='/cookbook/5.0/Internationalization/AutomaticFontDetection'><b>Automatic Font Detection</b></a></div>
+<div>The Plot's Style class contains a method which automatically sets the fonts of common plot objects to the font most likely able to display the characters they contain.</div>
 </div>
 </div>

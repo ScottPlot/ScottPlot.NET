@@ -4,9 +4,9 @@ Description: How to customize plots
 URL: /cookbook/5.0/Styling/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Styling Plots"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Styling"]
-Date: 2024-01-14
-Version: ScottPlot 5.0.15
-Version: ScottPlot 5.0.15
+Date: 2024-01-16
+Version: ScottPlot 5.0.16
+Version: ScottPlot 5.0.16
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -62,11 +62,11 @@ myPlot.Add.Signal(Generate.Sin(51));
 myPlot.Add.Signal(Generate.Cos(51));
 
 myPlot.Axes.Title.Label.Text = "Plot Title";
-myPlot.Axes.Title.Label.Font.Color = Colors.RebeccaPurple;
-myPlot.Axes.Title.Label.Font.Size = 32;
-myPlot.Axes.Title.Label.Font.Name = Fonts.Serif;
+myPlot.Axes.Title.Label.ForeColor = Colors.RebeccaPurple;
+myPlot.Axes.Title.Label.FontSize = 32;
+myPlot.Axes.Title.Label.FontName = Fonts.Serif;
 myPlot.Axes.Title.Label.Rotation = -5;
-myPlot.Axes.Title.Label.Font.Bold = false;
+myPlot.Axes.Title.Label.Bold = false;
 
 myPlot.Axes.Left.Label.Text = "Vertical Axis";
 myPlot.Axes.Left.Label.ForeColor = Colors.Magenta;

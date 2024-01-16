@@ -4,9 +4,9 @@ Description: Markers are symbols placed at a location in coordinate space. Their
 URL: /cookbook/5.0/Marker/MarkerQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Marker", "Marker Quickstart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Marker", "/cookbook/5.0/Marker/MarkerQuickstart"]
-Date: 2024-01-14
-Version: ScottPlot 5.0.15
-Version: ScottPlot 5.0.15
+Date: 2024-01-16
+Version: ScottPlot 5.0.16
+Version: ScottPlot 5.0.16
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---

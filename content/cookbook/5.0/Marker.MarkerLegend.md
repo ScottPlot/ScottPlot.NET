@@ -4,9 +4,9 @@ Description: Markers with labels appear in the legend.
 URL: /cookbook/5.0/Marker/MarkerLegend/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Marker", "Marker Legend"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Marker", "/cookbook/5.0/Marker/MarkerLegend"]
-Date: 2024-01-14
-Version: ScottPlot 5.0.15
-Version: ScottPlot 5.0.15
+Date: 2024-01-16
+Version: ScottPlot 5.0.16
+Version: ScottPlot 5.0.16
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---

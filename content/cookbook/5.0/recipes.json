@@ -1,14 +1,15 @@
 {
-  "version": "5.0.15",
-  "dateUtc": "2024-01-14T20:54:25",
-  "recipeCount": 82,
-  "jsonSizeKb": 102,
+  "version": "5.0.16",
+  "dateUtc": "2024-01-16T03:46:52",
+  "recipeCount": 84,
+  "jsonSizeKb": 105,
   "chapters": [
     "Quickstart",
     "Introduction",
     "Axis",
     "Plot Types",
-    "Statistics"
+    "Statistics",
+    "Miscellaneous"
   ],
   "categories": [
     {
@@ -106,6 +107,12 @@
       "name": "Regression",
       "description": "Statistical operations to fit lines to data",
       "url": "/cookbook/5.0/Regression"
+    },
+    {
+      "chapter": "Miscellaneous",
+      "name": "Internationalization",
+      "description": "Using ScottPlot across cultures with different text and numeric requirements.",
+      "url": "/cookbook/5.0/Internationalization"
     },
     {
       "chapter": "Introduction",
@@ -408,7 +415,7 @@
       "category": "Styling Plots",
       "name": "Axis Customization",
       "description": "Axis labels, tick marks, and frame can all be customized.",
-      "source": "ScottPlot.Plot myPlot = new();\n\nmyPlot.Add.Signal(Generate.Sin(51));\nmyPlot.Add.Signal(Generate.Cos(51));\n\nmyPlot.Axes.Title.Label.Text = \u0022Plot Title\u0022;\nmyPlot.Axes.Title.Label.Font.Color = Colors.RebeccaPurple;\nmyPlot.Axes.Title.Label.Font.Size = 32;\nmyPlot.Axes.Title.Label.Font.Name = Fonts.Serif;\nmyPlot.Axes.Title.Label.Rotation = -5;\nmyPlot.Axes.Title.Label.Font.Bold = false;\n\nmyPlot.Axes.Left.Label.Text = \u0022Vertical Axis\u0022;\nmyPlot.Axes.Left.Label.ForeColor = Colors.Magenta;\nmyPlot.Axes.Left.Label.Italic = true;\n\nmyPlot.Axes.Bottom.Label.Text = \u0022Horizontal Axis\u0022;\nmyPlot.Axes.Bottom.Label.Bold = false;\nmyPlot.Axes.Bottom.Label.FontName = Fonts.Monospace;\n\nmyPlot.Axes.Bottom.MajorTickStyle.Length = 10;\nmyPlot.Axes.Bottom.MajorTickStyle.Width = 3;\nmyPlot.Axes.Bottom.MajorTickStyle.Color = Colors.Magenta;\nmyPlot.Axes.Bottom.MinorTickStyle.Length = 5;\nmyPlot.Axes.Bottom.MinorTickStyle.Width = 0.5f;\nmyPlot.Axes.Bottom.MinorTickStyle.Color = Colors.Green;\nmyPlot.Axes.Bottom.FrameLineStyle.Color = Colors.LightBlue;\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "source": "ScottPlot.Plot myPlot = new();\n\nmyPlot.Add.Signal(Generate.Sin(51));\nmyPlot.Add.Signal(Generate.Cos(51));\n\nmyPlot.Axes.Title.Label.Text = \u0022Plot Title\u0022;\nmyPlot.Axes.Title.Label.ForeColor = Colors.RebeccaPurple;\nmyPlot.Axes.Title.Label.FontSize = 32;\nmyPlot.Axes.Title.Label.FontName = Fonts.Serif;\nmyPlot.Axes.Title.Label.Rotation = -5;\nmyPlot.Axes.Title.Label.Bold = false;\n\nmyPlot.Axes.Left.Label.Text = \u0022Vertical Axis\u0022;\nmyPlot.Axes.Left.Label.ForeColor = Colors.Magenta;\nmyPlot.Axes.Left.Label.Italic = true;\n\nmyPlot.Axes.Bottom.Label.Text = \u0022Horizontal Axis\u0022;\nmyPlot.Axes.Bottom.Label.Bold = false;\nmyPlot.Axes.Bottom.Label.FontName = Fonts.Monospace;\n\nmyPlot.Axes.Bottom.MajorTickStyle.Length = 10;\nmyPlot.Axes.Bottom.MajorTickStyle.Width = 3;\nmyPlot.Axes.Bottom.MajorTickStyle.Color = Colors.Magenta;\nmyPlot.Axes.Bottom.MinorTickStyle.Length = 5;\nmyPlot.Axes.Bottom.MinorTickStyle.Width = 0.5f;\nmyPlot.Axes.Bottom.MinorTickStyle.Color = Colors.Green;\nmyPlot.Axes.Bottom.FrameLineStyle.Color = Colors.LightBlue;\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
       "categoryClassName": "Styling",
       "recipeClassName": "AxisCustom",
       "anchorUrl": "/cookbook/5.0/Styling#AxisCustom",
@@ -486,6 +493,34 @@
       "recipeUrl": "/cookbook/5.0/Styling/Scaling",
       "imageUrl": "/cookbook/5.0/images/Scaling.png",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Introduction/Styling.cs"
+    },
+    {
+      "chapter": "Miscellaneous",
+      "category": "Internationalization",
+      "name": "Supported Font Detection",
+      "description": "ScottPlot comes with font detection methods which help identify the best installed font for displaying text which may contain international characters.",
+      "source": "ScottPlot.Plot myPlot = new();\n\nstring chinese = \u0022\u6D4B\u8BD5\u0022;\nmyPlot.Axes.Title.Label.Text = chinese;\nmyPlot.Axes.Title.Label.FontName = Fonts.Detect(chinese);\n\nstring japanese = \u0022\u8A66\u9A13\u0022;\nmyPlot.Axes.Left.Label.Text = japanese;\nmyPlot.Axes.Left.Label.FontName = Fonts.Detect(japanese);\n\nstring korean = \u0022\uD14C\uC2A4\uD2B8\u0022;\nmyPlot.Axes.Bottom.Label.Text = korean;\nmyPlot.Axes.Bottom.Label.FontName = Fonts.Detect(korean);\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "categoryClassName": "Internationalization",
+      "recipeClassName": "FontDetection",
+      "anchorUrl": "/cookbook/5.0/Internationalization#FontDetection",
+      "categoryUrl": "/cookbook/5.0/Internationalization",
+      "recipeUrl": "/cookbook/5.0/Internationalization/FontDetection",
+      "imageUrl": "/cookbook/5.0/images/FontDetection.png",
+      "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Miscellaneous/Internationalization.cs"
+    },
+    {
+      "chapter": "Miscellaneous",
+      "category": "Internationalization",
+      "name": "Automatic Font Detection",
+      "description": "The Plot\u0027s Style class contains a method which automatically sets the fonts of common plot objects to the font most likely able to display the characters they contain.",
+      "source": "ScottPlot.Plot myPlot = new();\n\nmyPlot.Title(\u0022\u6D4B\u8BD5\u0022); // Chinese\nmyPlot.YLabel(\u0022\u8A66\u9A13\u0022); // Japanese\nmyPlot.XLabel(\u0022\uD14C\uC2A4\uD2B8\u0022); // Korean\nmyPlot.Style.SetBestFonts();\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "categoryClassName": "Internationalization",
+      "recipeClassName": "AutomaticFontDetection",
+      "anchorUrl": "/cookbook/5.0/Internationalization#AutomaticFontDetection",
+      "categoryUrl": "/cookbook/5.0/Internationalization",
+      "recipeUrl": "/cookbook/5.0/Internationalization/AutomaticFontDetection",
+      "imageUrl": "/cookbook/5.0/images/AutomaticFontDetection.png",
+      "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Miscellaneous/Internationalization.cs"
     },
     {
       "chapter": "Plot Types",
