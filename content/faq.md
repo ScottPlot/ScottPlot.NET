@@ -8,9 +8,10 @@ date: 2023-12-13
 
 # ScottPlot 5.0 FAQ
 
-FAQ pages have not yet been created for ScottPlot 5.0 but users can refer to:
 * [ScottPlot 5.0 Cookbook](/cookbook/5.0/)
 * [ScottPlot 5.0 Demo Application](/demo/)
+* [Locking the render system in multi-threaded/async environments](/faq/async/)
+* [Launching interactive plot windows from console applications](/faq/launch-console/)
 
 # ScottPlot 4.1 FAQ
 
@@ -51,7 +52,6 @@ FAQ pages have not yet been created for ScottPlot 5.0 but users can refer to:
 * [Custom Right-Click Menu](right-click-menu)
 * [Get the Mouse Position](mouse-position)
 * [Show the Value of the Point Under the Cursor](mouse-position#highlight-the-data-point-near-the-cursor)
-* [Use `RenderLock()` in multi-threaded/async environments](async)
 * [Advanced customization using the `Configuration` object](configuration)
 * [Change what left, right, or middle buttons do](buttons)
 * [Add ScottPlot control programmatically (WinForms)](add-winforms-programmatically)
