@@ -16,9 +16,29 @@ Release notes for every version of ScottPlot
 </li>
 <li><a href='https://scottplot.net/changelog/'>https://scottplot.net/changelog/</a> is a formatted version of this document
 </li>
-<li><a href='https://scottplot.net/contributors/'>https://scottplot.net/contributors/</a> shows all of ScottPlot's contributors
+</ul>
+</div>
+
+</section>
+<section class='mb-5'>
+<h1 class='mb-0'>ScottPlot 5.0.17 (not yet on NuGet)</h1>
+<div><i>NuGet packages published </i></div>
+<div class='mt-1'>
+<ul>
+<li>Rendering: Added a <code>RenderManager.EnableRendering</code> flag to skip render requests while performing dangerous actions in multi-threaded environments. Skipping renders compliments the <code>PreRenderLock</code> event which hangs renders. See the <a href="https://scottplot.net/faq/async/">async FAQ page</a> for usage details. (<a href="https://github.com/ScottPlot/ScottPlot/issues/3213">#3213</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3095">#3095</a>) <em>Thanks Lumtoo and <a href="https://github.com/bclehmann">@bclehmann</a></em>
+</li>
+<li>WPF: Improved &quot;Copy to Clipboard&quot; functionality (<a href="https://github.com/ScottPlot/ScottPlot/issues/3214">#3214</a>) <em>Thanks <a href="https://github.com/MCF">@MCF</a></em>
 </li>
 </ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/MCF'>MCF</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/MCF'><img src='https://scottplot.net/images/contributors/mcf.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
 </section>
