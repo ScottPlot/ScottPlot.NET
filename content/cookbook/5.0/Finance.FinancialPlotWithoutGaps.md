@@ -4,9 +4,9 @@ Description: When the DateTimes stored in OHLC objects are used to determine the
 URL: /cookbook/5.0/Finance/FinancialPlotWithoutGaps/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Financial Plot", "Financial Plot Without Gaps"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Finance", "/cookbook/5.0/Finance/FinancialPlotWithoutGaps"]
-Date: 2024-01-16
-Version: ScottPlot 5.0.16
-Version: ScottPlot 5.0.16
+Date: 2024-01-17
+Version: ScottPlot 5.0.17
+Version: ScottPlot 5.0.17
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---

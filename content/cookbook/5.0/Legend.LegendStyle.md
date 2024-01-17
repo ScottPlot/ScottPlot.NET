@@ -4,9 +4,9 @@ Description: The default legend can be easily accessed and customized. It is pos
 URL: /cookbook/5.0/Legend/LegendStyle/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Configuring Legends", "Legend Customization"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Legend", "/cookbook/5.0/Legend/LegendStyle"]
-Date: 2024-01-16
-Version: ScottPlot 5.0.16
-Version: ScottPlot 5.0.16
+Date: 2024-01-17
+Version: ScottPlot 5.0.17
+Version: ScottPlot 5.0.17
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---

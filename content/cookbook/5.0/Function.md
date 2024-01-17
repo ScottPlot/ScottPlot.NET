@@ -4,9 +4,9 @@ Description: Function plots are a type of line plot where Y positions are define
 URL: /cookbook/5.0/Function/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Function"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Function"]
-Date: 2024-01-16
-Version: ScottPlot 5.0.16
-Version: ScottPlot 5.0.16
+Date: 2024-01-17
+Version: ScottPlot 5.0.17
+Version: ScottPlot 5.0.17
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
