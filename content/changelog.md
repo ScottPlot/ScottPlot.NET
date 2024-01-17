@@ -21,8 +21,27 @@ Release notes for every version of ScottPlot
 
 </section>
 <section class='mb-5'>
-<h1 class='mb-0'>ScottPlot 5.0.17 (not yet on NuGet)</h1>
+<h1 class='mb-0'>ScottPlot 5.0.18 (not yet on NuGet...)</h1>
 <div><i>NuGet packages published </i></div>
+<div class='mt-1'>
+<ul>
+<li>Axes: Improved default label rotation for DateTime axes (<a href="https://github.com/ScottPlot/ScottPlot/issues/3211">#3211</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3216">#3216</a>) <em>Thanks <a href="https://github.com/CBrauer">@CBrauer</a></em>
+</li>
+</ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/CBrauer'>CBrauer</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/CBrauer'><img src='https://scottplot.net/images/contributors/cbrauer.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
+
+</section>
+<section class='mb-5'>
+<h1 class='mb-0'>ScottPlot 5.0.17</h1>
+<div><i>NuGet packages published 2024-01-16</i></div>
 <div class='mt-1'>
 <ul>
 <li>Rendering: Added a <code>RenderManager.EnableRendering</code> flag to skip render requests while performing dangerous actions in multi-threaded environments. Skipping renders compliments the <code>PreRenderLock</code> event which hangs renders. See the <a href="https://scottplot.net/faq/async/">async FAQ page</a> for usage details. (<a href="https://github.com/ScottPlot/ScottPlot/issues/3213">#3213</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3095">#3095</a>) <em>Thanks Lumtoo and <a href="https://github.com/bclehmann">@bclehmann</a></em>
@@ -43,7 +62,7 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/MCF'><img src='https://scottplot.net/images/contributors/mcf.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/chaojian-zhang'><img src='https://scottplot.net/images/contributors/chaojian-zhang.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/devbotas'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/devbotas'><img src='https://scottplot.net/images/contributors/devbotas.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
