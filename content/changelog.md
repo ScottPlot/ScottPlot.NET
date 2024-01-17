@@ -31,16 +31,19 @@ Release notes for every version of ScottPlot
 </li>
 <li>Controls: Created <code>FormsPlotViewer</code> and <code>WpfPlotViewer</code> for launching interactive plots from console applications. See the <a href="https://scottplot.net/faq/launch-console/">Interactive Plots in Console Applications</a> page for details. (<a href="https://github.com/ScottPlot/ScottPlot/issues/3212">#3212</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/308">#308</a>) <em>Thanks <a href="https://github.com/chaojian-zhang">@chaojian-zhang</a></em>
 </li>
+<li>DataLogger: Added <code>Add()</code> overloads which support X/Y pairs (<a href="https://github.com/ScottPlot/ScottPlot/issues/3210">#3210</a>) <em>Thanks <a href="https://github.com/devbotas">@devbotas</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/MCF'>MCF</a>, <a href='https://github.com/chaojian-zhang'>chaojian-zhang</a>, <a href='https://github.com/swharden'>swharden</a>
+<a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/MCF'>MCF</a>, <a href='https://github.com/chaojian-zhang'>chaojian-zhang</a>, <a href='https://github.com/devbotas'>devbotas</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/MCF'><img src='https://scottplot.net/images/contributors/mcf.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/chaojian-zhang'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/chaojian-zhang'><img src='https://scottplot.net/images/contributors/chaojian-zhang.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/devbotas'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
