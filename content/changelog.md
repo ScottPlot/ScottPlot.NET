@@ -31,17 +31,20 @@ Release notes for every version of ScottPlot
 </li>
 <li>Controls: Add a Reset function for context menus (<a href="https://github.com/ScottPlot/ScottPlot/issues/3224">#3224</a>) <em>Thanks <a href="https://github.com/MCF">@MCF</a></em>
 </li>
+<li>Axes: Prevent exceptions when generating ticks for a DateTime axis with zero size (<a href="https://github.com/ScottPlot/ScottPlot/issues/3221">#3221</a>) <em>Thanks <a href="https://github.com/devbotas">@devbotas</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/CBrauer'>CBrauer</a>, <a href='https://github.com/kl7107'>kl7107</a>, <a href='https://github.com/prime167'>prime167</a>, <a href='https://github.com/MCF'>MCF</a>, <a href='https://github.com/swharden'>swharden</a>
+<a href='https://github.com/CBrauer'>CBrauer</a>, <a href='https://github.com/kl7107'>kl7107</a>, <a href='https://github.com/prime167'>prime167</a>, <a href='https://github.com/MCF'>MCF</a>, <a href='https://github.com/devbotas'>devbotas</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/CBrauer'><img src='https://scottplot.net/images/contributors/cbrauer.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/kl7107'><img src='https://scottplot.net/images/contributors/kl7107.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/prime167'><img src='https://scottplot.net/images/contributors/prime167.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/MCF'><img src='https://scottplot.net/images/contributors/mcf.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/devbotas'><img src='https://scottplot.net/images/contributors/devbotas.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
