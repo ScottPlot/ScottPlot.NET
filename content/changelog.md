@@ -21,8 +21,8 @@ Release notes for every version of ScottPlot
 
 </section>
 <section class='mb-5'>
-<h1 class='mb-0'>ScottPlot 5.0.18 (not yet on NuGet...)</h1>
-<div><i>NuGet packages published </i></div>
+<h1 class='mb-0'>ScottPlot 5.0.18</h1>
+<div><i>NuGet packages published 2024-01-17</i></div>
 <div class='mt-1'>
 <ul>
 <li>Axes: Improved default label rotation for DateTime axes (<a href="https://github.com/ScottPlot/ScottPlot/issues/3211">#3211</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3216">#3216</a>) <em>Thanks <a href="https://github.com/CBrauer">@CBrauer</a></em>
@@ -37,11 +37,13 @@ Release notes for every version of ScottPlot
 </li>
 <li>SignalXY: Added <code>OffsetX</code> and <code>OffsetY</code> for for applying a fixed offset in coordinate space (<a href="https://github.com/ScottPlot/ScottPlot/issues/3227">#3227</a>)
 </li>
+<li>SignalConst: Improved display when signals are zoomed in enough to see individual points (<a href="https://github.com/ScottPlot/ScottPlot/issues/3228">#3228</a>) <em>Thanks <a href="https://github.com/Marvenix">@Marvenix</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/CBrauer'>CBrauer</a>, <a href='https://github.com/kl7107'>kl7107</a>, <a href='https://github.com/prime167'>prime167</a>, <a href='https://github.com/MCF'>MCF</a>, <a href='https://github.com/devbotas'>devbotas</a>, <a href='https://github.com/swharden'>swharden</a>
+<a href='https://github.com/CBrauer'>CBrauer</a>, <a href='https://github.com/kl7107'>kl7107</a>, <a href='https://github.com/prime167'>prime167</a>, <a href='https://github.com/MCF'>MCF</a>, <a href='https://github.com/devbotas'>devbotas</a>, <a href='https://github.com/Marvenix'>Marvenix</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/CBrauer'><img src='https://scottplot.net/images/contributors/cbrauer.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -49,6 +51,7 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/prime167'><img src='https://scottplot.net/images/contributors/prime167.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/MCF'><img src='https://scottplot.net/images/contributors/mcf.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/devbotas'><img src='https://scottplot.net/images/contributors/devbotas.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Marvenix'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
