@@ -41,11 +41,13 @@ Release notes for every version of ScottPlot
 </li>
 <li>Plot: Improved render manager initialization (<a href="https://github.com/ScottPlot/ScottPlot/issues/3233">#3233</a>) <em>Thanks <a href="https://github.com/VoteForPedro">@VoteForPedro</a></em>
 </li>
+<li>Projects: Sign all assemblies using strong names (<a href="https://github.com/ScottPlot/ScottPlot/issues/3235">#3235</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/283">#283</a>) <em>Thanks <a href="https://github.com/mlessmann">@mlessmann</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/CBrauer'>CBrauer</a>, <a href='https://github.com/kl7107'>kl7107</a>, <a href='https://github.com/prime167'>prime167</a>, <a href='https://github.com/MCF'>MCF</a>, <a href='https://github.com/devbotas'>devbotas</a>, <a href='https://github.com/Marvenix'>Marvenix</a>, <a href='https://github.com/VoteForPedro'>VoteForPedro</a>, <a href='https://github.com/swharden'>swharden</a>
+<a href='https://github.com/CBrauer'>CBrauer</a>, <a href='https://github.com/kl7107'>kl7107</a>, <a href='https://github.com/prime167'>prime167</a>, <a href='https://github.com/MCF'>MCF</a>, <a href='https://github.com/devbotas'>devbotas</a>, <a href='https://github.com/Marvenix'>Marvenix</a>, <a href='https://github.com/VoteForPedro'>VoteForPedro</a>, <a href='https://github.com/mlessmann'>mlessmann</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/CBrauer'><img src='https://scottplot.net/images/contributors/cbrauer.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -54,7 +56,8 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/MCF'><img src='https://scottplot.net/images/contributors/mcf.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/devbotas'><img src='https://scottplot.net/images/contributors/devbotas.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Marvenix'><img src='https://scottplot.net/images/contributors/marvenix.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/VoteForPedro'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/VoteForPedro'><img src='https://scottplot.net/images/contributors/voteforpedro.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/mlessmann'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
