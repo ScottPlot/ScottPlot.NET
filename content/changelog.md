@@ -27,14 +27,21 @@ Release notes for every version of ScottPlot
 <ul>
 <li>Axes: Improved default label rotation for DateTime axes (<a href="https://github.com/ScottPlot/ScottPlot/issues/3211">#3211</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3216">#3216</a>) <em>Thanks <a href="https://github.com/CBrauer">@CBrauer</a></em>
 </li>
+<li>Fonts: Improved font detection for strings containing mixed-language characters (<a href="https://github.com/ScottPlot/ScottPlot/issues/3220">#3220</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3184">#3184</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2746">#2746</a>) <em>Thanks <a href="https://github.com/kl7107">@kl7107</a> and <a href="https://github.com/prime167">@prime167</a></em>
+</li>
+<li>Controls: Add a Reset function for context menus (<a href="https://github.com/ScottPlot/ScottPlot/issues/3224">#3224</a>) <em>Thanks <a href="https://github.com/MCF">@MCF</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/CBrauer'>CBrauer</a>, <a href='https://github.com/swharden'>swharden</a>
+<a href='https://github.com/CBrauer'>CBrauer</a>, <a href='https://github.com/kl7107'>kl7107</a>, <a href='https://github.com/prime167'>prime167</a>, <a href='https://github.com/MCF'>MCF</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/CBrauer'><img src='https://scottplot.net/images/contributors/cbrauer.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/kl7107'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/prime167'><img src='https://scottplot.net/images/contributors/prime167.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/MCF'><img src='https://scottplot.net/images/contributors/mcf.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
@@ -44,7 +51,7 @@ Release notes for every version of ScottPlot
 <div><i>NuGet packages published 2024-01-16</i></div>
 <div class='mt-1'>
 <ul>
-<li>Rendering: Added a <code>RenderManager.EnableRendering</code> flag to skip render requests while performing dangerous actions in multi-threaded environments. Skipping renders compliments the <code>PreRenderLock</code> event which hangs renders. See the <a href="https://scottplot.net/faq/async/">async FAQ page</a> for usage details. (<a href="https://github.com/ScottPlot/ScottPlot/issues/3213">#3213</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3095">#3095</a>) <em>Thanks Lumtoo and <a href="https://github.com/bclehmann">@bclehmann</a></em>
+<li>Rendering: Added a <code>RenderManager.EnableRendering</code> flag to skip render requests while performing dangerous actions in multi-threaded environments. Skipping renders compliments the <code>PreRenderLock</code> event which hangs renders. See the <a href="https://scottplot.net/faq/async/">async FAQ page</a> for usage details. (<a href="https://github.com/ScottPlot/ScottPlot/issues/3213">#3213</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3095">#3095</a>) <em>Thanks <a href="https://github.com/LumAsWell">@LumAsWell</a> and <a href="https://github.com/bclehmann">@bclehmann</a></em>
 </li>
 <li>WPF: Improved &quot;Copy to Clipboard&quot; functionality (<a href="https://github.com/ScottPlot/ScottPlot/issues/3214">#3214</a>) <em>Thanks <a href="https://github.com/MCF">@MCF</a></em>
 </li>
@@ -56,9 +63,10 @@ Release notes for every version of ScottPlot
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/MCF'>MCF</a>, <a href='https://github.com/chaojian-zhang'>chaojian-zhang</a>, <a href='https://github.com/devbotas'>devbotas</a>, <a href='https://github.com/swharden'>swharden</a>
+<a href='https://github.com/LumAsWell'>LumAsWell</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/MCF'>MCF</a>, <a href='https://github.com/chaojian-zhang'>chaojian-zhang</a>, <a href='https://github.com/devbotas'>devbotas</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
+<a href='https://github.com/LumAsWell'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/MCF'><img src='https://scottplot.net/images/contributors/mcf.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/chaojian-zhang'><img src='https://scottplot.net/images/contributors/chaojian-zhang.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>

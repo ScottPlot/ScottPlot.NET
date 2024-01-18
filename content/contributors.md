@@ -20,12 +20,24 @@ Members of the open-source community who contributed to ScottPlot
 <div><a href='https://github.com/CBrauer'>@CBrauer</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
-<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/bclehmann.png' height='125' width='125'/></a></div>
-<div><a href='https://github.com/bclehmann'>@bclehmann</a></div>
+<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/brand/favicon.png' height='125' width='125'/></a></div>
+<div><a href='https://github.com/kl7107'>@kl7107</a></div>
+</div>
+<div class='bg-light border rounded text-center mx-3 my-2'>
+<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/prime167.png' height='125' width='125'/></a></div>
+<div><a href='https://github.com/prime167'>@prime167</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/mcf.jpg' height='125' width='125'/></a></div>
 <div><a href='https://github.com/MCF'>@MCF</a></div>
+</div>
+<div class='bg-light border rounded text-center mx-3 my-2'>
+<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/brand/favicon.png' height='125' width='125'/></a></div>
+<div><a href='https://github.com/LumAsWell'>@LumAsWell</a></div>
+</div>
+<div class='bg-light border rounded text-center mx-3 my-2'>
+<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/bclehmann.png' height='125' width='125'/></a></div>
+<div><a href='https://github.com/bclehmann'>@bclehmann</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/chaojian-zhang.png' height='125' width='125'/></a></div>
@@ -38,10 +50,6 @@ Members of the open-source community who contributed to ScottPlot
 <div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/raburton.png' height='125' width='125'/></a></div>
 <div><a href='https://github.com/raburton'>@raburton</a></div>
-</div>
-<div class='bg-light border rounded text-center mx-3 my-2'>
-<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/prime167.png' height='125' width='125'/></a></div>
-<div><a href='https://github.com/prime167'>@prime167</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/barnettben.jpg' height='125' width='125'/></a></div>
