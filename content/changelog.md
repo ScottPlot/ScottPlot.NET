@@ -33,6 +33,10 @@ Release notes for every version of ScottPlot
 </li>
 <li>Axes: Prevent exceptions when generating ticks for a DateTime axis with zero size (<a href="https://github.com/ScottPlot/ScottPlot/issues/3221">#3221</a>) <em>Thanks <a href="https://github.com/devbotas">@devbotas</a></em>
 </li>
+<li>SignalXY: Added <code>MinimumIndex</code> and <code>MaximumIndex</code> for partial array rendering (<a href="https://github.com/ScottPlot/ScottPlot/issues/3227">#3227</a>)
+</li>
+<li>SignalXY: Added <code>OffsetX</code> and <code>OffsetY</code> for for applying a fixed offset in coordinate space (<a href="https://github.com/ScottPlot/ScottPlot/issues/3227">#3227</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
