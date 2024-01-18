@@ -39,7 +39,7 @@ Release notes for every version of ScottPlot
 </div>
 <div class='text-center'>
 <a href='https://github.com/CBrauer'><img src='https://scottplot.net/images/contributors/cbrauer.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/kl7107'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/kl7107'><img src='https://scottplot.net/images/contributors/kl7107.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/prime167'><img src='https://scottplot.net/images/contributors/prime167.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/MCF'><img src='https://scottplot.net/images/contributors/mcf.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -66,7 +66,7 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/LumAsWell'>LumAsWell</a>, <a href='https://github.com/bclehmann'>bclehmann</a>, <a href='https://github.com/MCF'>MCF</a>, <a href='https://github.com/chaojian-zhang'>chaojian-zhang</a>, <a href='https://github.com/devbotas'>devbotas</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
-<a href='https://github.com/LumAsWell'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/LumAsWell'><img src='https://scottplot.net/images/contributors/lumaswell.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/MCF'><img src='https://scottplot.net/images/contributors/mcf.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/chaojian-zhang'><img src='https://scottplot.net/images/contributors/chaojian-zhang.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
