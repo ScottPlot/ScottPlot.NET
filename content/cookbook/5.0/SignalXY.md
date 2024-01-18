@@ -4,9 +4,9 @@ Description: SignalXY are a high performance plot type optimized for X/Y pairs w
 URL: /cookbook/5.0/SignalXY/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "SignalXY Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/SignalXY"]
-Date: 2024-01-17
-Version: ScottPlot 5.0.17
-Version: ScottPlot 5.0.17
+Date: 2024-01-18
+Version: ScottPlot 5.0.18
+Version: ScottPlot 5.0.18
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -72,6 +72,81 @@ float[] ys = yList.ToArray();
 
 // add a SignalXY plot
 myPlot.Add.SignalXY(xs, ys);
+
+myPlot.SavePng("demo.png", 400, 300);
+
+```
+
+{{< /code-sp5 >}}
+
+<hr class='my-5 invisible'>
+
+
+<h2><a href='/cookbook/5.0/SignalXY/SignalXYRenderIndexes'>Partial SignalXY Rendering</a></h2>
+
+Even if a SignalXY plot references a large array of data, rendering can be limited to a range of values. If set,only the range of data between the minimum and maximum render indexes will be displayed.
+
+[![](/cookbook/5.0/images/SignalXYRenderIndexes.png)](/cookbook/5.0/images/SignalXYRenderIndexes.png)
+
+{{< code-sp5 >}}
+
+```cs
+ScottPlot.Plot myPlot = new();
+
+double[] xs = Generate.Consecutive(1000);
+double[] ys = Generate.RandomWalk(1000);
+
+var sigAll = myPlot.Add.SignalXY(xs, ys);
+sigAll.Label = "Full";
+sigAll.Data.YOffset = 80;
+
+var sigLeft = myPlot.Add.SignalXY(xs, ys);
+sigLeft.Label = "Left";
+sigLeft.Data.YOffset = 60;
+sigLeft.Data.MaximumIndex = 700;
+
+var sigRight = myPlot.Add.SignalXY(xs, ys);
+sigRight.Label = "Right";
+sigRight.Data.YOffset = 40;
+sigRight.Data.MinimumIndex = 300;
+
+var sigMid = myPlot.Add.SignalXY(xs, ys);
+sigMid.Label = "Mid";
+sigMid.Data.YOffset = 20;
+sigMid.Data.MinimumIndex = 300;
+sigMid.Data.MaximumIndex = 700;
+
+myPlot.ShowLegend(Alignment.UpperRight);
+myPlot.Axes.Margins(top: .5);
+
+myPlot.SavePng("demo.png", 400, 300);
+
+```
+
+{{< /code-sp5 >}}
+
+<hr class='my-5 invisible'>
+
+
+<h2><a href='/cookbook/5.0/SignalXY/SignalXYOffset'>SignalXY Offset</a></h2>
+
+A fixed offset can be applied to SignalXY plots.
+
+[![](/cookbook/5.0/images/SignalXYOffset.png)](/cookbook/5.0/images/SignalXYOffset.png)
+
+{{< code-sp5 >}}
+
+```cs
+ScottPlot.Plot myPlot = new();
+
+double[] xs = Generate.Consecutive(1000);
+double[] ys = Generate.Sin(1000);
+
+var sig1 = myPlot.Add.SignalXY(xs, ys);
+
+var sig2 = myPlot.Add.SignalXY(xs, ys);
+sig2.Data.XOffset = 250;
+sig2.Data.YOffset = .5;
 
 myPlot.SavePng("demo.png", 400, 300);
 

@@ -4,9 +4,9 @@ Description: Advanced customization of grid lines
 URL: /cookbook/5.0/CustomizingGrids/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Customizing Grids"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/CustomizingGrids"]
-Date: 2024-01-17
-Version: ScottPlot 5.0.17
-Version: ScottPlot 5.0.17
+Date: 2024-01-18
+Version: ScottPlot 5.0.18
+Version: ScottPlot 5.0.18
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---

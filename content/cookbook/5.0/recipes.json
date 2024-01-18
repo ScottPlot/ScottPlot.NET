@@ -1,8 +1,8 @@
 {
-  "version": "5.0.17",
-  "dateUtc": "2024-01-17T01:43:01",
-  "recipeCount": 84,
-  "jsonSizeKb": 105,
+  "version": "5.0.18",
+  "dateUtc": "2024-01-18T03:14:29",
+  "recipeCount": 87,
+  "jsonSizeKb": 109,
   "chapters": [
     "Quickstart",
     "Introduction",
@@ -89,6 +89,12 @@
       "name": "Signal Plot",
       "description": "Signal plots display evenly-spaced data",
       "url": "/cookbook/5.0/Signal"
+    },
+    {
+      "chapter": "Plot Types",
+      "name": "SignalConst",
+      "description": "SignalConst is a type of signal plot which contains immutable data points and occupies more memory but offers greater performance for extremely large datasets. It is rarely needed, but best use for plotting data containing millions of points.",
+      "url": "/cookbook/5.0/SignalConst"
     },
     {
       "chapter": "Plot Types",
@@ -1182,6 +1188,20 @@
     },
     {
       "chapter": "Plot Types",
+      "category": "SignalConst",
+      "name": "SignalConst Quickstart",
+      "description": "SignalConst can display data with millions of points at high framerates, ideal for interactive manipulation of large datasets.",
+      "source": "ScottPlot.Plot myPlot = new();\n\ndouble[] data = Generate.RandomWalk(1_000_000);\nmyPlot.Add.SignalConst(data);\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "categoryClassName": "SignalConst",
+      "recipeClassName": "SignalConstQuickstart",
+      "anchorUrl": "/cookbook/5.0/SignalConst#SignalConstQuickstart",
+      "categoryUrl": "/cookbook/5.0/SignalConst",
+      "recipeUrl": "/cookbook/5.0/SignalConst/SignalConstQuickstart",
+      "imageUrl": "/cookbook/5.0/images/SignalConstQuickstart.png",
+      "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SignalConst.cs"
+    },
+    {
+      "chapter": "Plot Types",
       "category": "SignalXY Plot",
       "name": "SignalXY Quickstart",
       "description": "SignalXY plots are a high performance plot type for X/Y data where the X values are always ascending.",
@@ -1206,6 +1226,34 @@
       "categoryUrl": "/cookbook/5.0/SignalXY",
       "recipeUrl": "/cookbook/5.0/SignalXY/SignalXYGeneric",
       "imageUrl": "/cookbook/5.0/images/SignalXYGeneric.png",
+      "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SignalXY.cs"
+    },
+    {
+      "chapter": "Plot Types",
+      "category": "SignalXY Plot",
+      "name": "Partial SignalXY Rendering",
+      "description": "Even if a SignalXY plot references a large array of data, rendering can be limited to a range of values. If set,only the range of data between the minimum and maximum render indexes will be displayed.",
+      "source": "ScottPlot.Plot myPlot = new();\n\ndouble[] xs = Generate.Consecutive(1000);\ndouble[] ys = Generate.RandomWalk(1000);\n\nvar sigAll = myPlot.Add.SignalXY(xs, ys);\nsigAll.Label = \u0022Full\u0022;\nsigAll.Data.YOffset = 80;\n\nvar sigLeft = myPlot.Add.SignalXY(xs, ys);\nsigLeft.Label = \u0022Left\u0022;\nsigLeft.Data.YOffset = 60;\nsigLeft.Data.MaximumIndex = 700;\n\nvar sigRight = myPlot.Add.SignalXY(xs, ys);\nsigRight.Label = \u0022Right\u0022;\nsigRight.Data.YOffset = 40;\nsigRight.Data.MinimumIndex = 300;\n\nvar sigMid = myPlot.Add.SignalXY(xs, ys);\nsigMid.Label = \u0022Mid\u0022;\nsigMid.Data.YOffset = 20;\nsigMid.Data.MinimumIndex = 300;\nsigMid.Data.MaximumIndex = 700;\n\nmyPlot.ShowLegend(Alignment.UpperRight);\nmyPlot.Axes.Margins(top: .5);\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "categoryClassName": "SignalXY",
+      "recipeClassName": "SignalXYRenderIndexes",
+      "anchorUrl": "/cookbook/5.0/SignalXY#SignalXYRenderIndexes",
+      "categoryUrl": "/cookbook/5.0/SignalXY",
+      "recipeUrl": "/cookbook/5.0/SignalXY/SignalXYRenderIndexes",
+      "imageUrl": "/cookbook/5.0/images/SignalXYRenderIndexes.png",
+      "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SignalXY.cs"
+    },
+    {
+      "chapter": "Plot Types",
+      "category": "SignalXY Plot",
+      "name": "SignalXY Offset",
+      "description": "A fixed offset can be applied to SignalXY plots.",
+      "source": "ScottPlot.Plot myPlot = new();\n\ndouble[] xs = Generate.Consecutive(1000);\ndouble[] ys = Generate.Sin(1000);\n\nvar sig1 = myPlot.Add.SignalXY(xs, ys);\n\nvar sig2 = myPlot.Add.SignalXY(xs, ys);\nsig2.Data.XOffset = 250;\nsig2.Data.YOffset = .5;\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "categoryClassName": "SignalXY",
+      "recipeClassName": "SignalXYOffset",
+      "anchorUrl": "/cookbook/5.0/SignalXY#SignalXYOffset",
+      "categoryUrl": "/cookbook/5.0/SignalXY",
+      "recipeUrl": "/cookbook/5.0/SignalXY/SignalXYOffset",
+      "imageUrl": "/cookbook/5.0/images/SignalXYOffset.png",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SignalXY.cs"
     },
     {
@@ -1297,7 +1345,7 @@
       "category": "ScottPlot 5 Quickstart",
       "name": "Axis Labels",
       "description": "Axis labels can be extensively customized.",
-      "source": "ScottPlot.Plot myPlot = new();\n\nmyPlot.Add.Signal(Generate.Sin(51));\nmyPlot.Add.Signal(Generate.Cos(51));\n\nmyPlot.Axes.Bottom.Label.Text = \u0022Horizonal Axis\u0022;\nmyPlot.Axes.Left.Label.Text = \u0022Vertical Axis\u0022;\nmyPlot.Axes.Left.Label.Text = \u0022Plot Title\u0022;\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "source": "ScottPlot.Plot myPlot = new();\n\nmyPlot.Add.Signal(Generate.Sin(51));\nmyPlot.Add.Signal(Generate.Cos(51));\n\nmyPlot.Axes.Bottom.Label.Text = \u0022Horizonal Axis\u0022;\nmyPlot.Axes.Left.Label.Text = \u0022Vertical Axis\u0022;\nmyPlot.Axes.Top.Label.Text = \u0022Plot Title\u0022;\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
       "categoryClassName": "Quickstart",
       "recipeClassName": "QuickstartAxisLabels",
       "anchorUrl": "/cookbook/5.0/Quickstart#QuickstartAxisLabels",

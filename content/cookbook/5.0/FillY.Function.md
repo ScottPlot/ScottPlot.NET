@@ -4,9 +4,9 @@ Description: FillY plots can be created from data of any type if a conversion fu
 URL: /cookbook/5.0/FillY/Function/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "FillY plot", "FillY with Custom Type"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/FillY", "/cookbook/5.0/FillY/Function"]
-Date: 2024-01-17
-Version: ScottPlot 5.0.17
-Version: ScottPlot 5.0.17
+Date: 2024-01-18
+Version: ScottPlot 5.0.18
+Version: ScottPlot 5.0.18
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---

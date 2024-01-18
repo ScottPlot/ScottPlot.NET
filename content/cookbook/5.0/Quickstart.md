@@ -4,9 +4,9 @@ Description: A survey of basic functionality in ScottPlot 5
 URL: /cookbook/5.0/Quickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "ScottPlot 5 Quickstart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Quickstart"]
-Date: 2024-01-17
-Version: ScottPlot 5.0.17
-Version: ScottPlot 5.0.17
+Date: 2024-01-18
+Version: ScottPlot 5.0.18
+Version: ScottPlot 5.0.18
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -131,7 +131,7 @@ myPlot.Add.Signal(Generate.Cos(51));
 
 myPlot.Axes.Bottom.Label.Text = "Horizonal Axis";
 myPlot.Axes.Left.Label.Text = "Vertical Axis";
-myPlot.Axes.Left.Label.Text = "Plot Title";
+myPlot.Axes.Top.Label.Text = "Plot Title";
 
 myPlot.SavePng("demo.png", 400, 300);
 
