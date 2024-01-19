@@ -4,9 +4,9 @@ Description: The Plot's Style class contains a method which automatically sets t
 URL: /cookbook/5.0/Internationalization/AutomaticFontDetection/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Internationalization", "Automatic Font Detection"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Internationalization", "/cookbook/5.0/Internationalization/AutomaticFontDetection"]
-Date: 2024-01-18
-Version: ScottPlot 5.0.18
-Version: ScottPlot 5.0.18
+Date: 2024-01-19
+Version: ScottPlot 5.0.19
+Version: ScottPlot 5.0.19
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---

@@ -4,9 +4,9 @@ Description: Signal plots support generic data types, although double is typical
 URL: /cookbook/5.0/Signal/SignalGeneric/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Signal Plot", "Signal Generic"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Signal", "/cookbook/5.0/Signal/SignalGeneric"]
-Date: 2024-01-18
-Version: ScottPlot 5.0.18
-Version: ScottPlot 5.0.18
+Date: 2024-01-19
+Version: ScottPlot 5.0.19
+Version: ScottPlot 5.0.19
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---

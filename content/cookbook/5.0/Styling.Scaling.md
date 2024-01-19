@@ -4,9 +4,9 @@ Description: All components of an image can be scaled up or down in size by adju
 URL: /cookbook/5.0/Styling/Scaling/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Styling Plots", "Scaling"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Styling", "/cookbook/5.0/Styling/Scaling"]
-Date: 2024-01-18
-Version: ScottPlot 5.0.18
-Version: ScottPlot 5.0.18
+Date: 2024-01-19
+Version: ScottPlot 5.0.19
+Version: ScottPlot 5.0.19
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---

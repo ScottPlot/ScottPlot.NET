@@ -4,9 +4,9 @@ Description: New plots have one axis on every side. Axes on the right and top ar
 URL: /cookbook/5.0/MultiAxis/RightAxis/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Advanced Axis Features", "Right Axis"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/MultiAxis", "/cookbook/5.0/MultiAxis/RightAxis"]
-Date: 2024-01-18
-Version: ScottPlot 5.0.18
-Version: ScottPlot 5.0.18
+Date: 2024-01-19
+Version: ScottPlot 5.0.19
+Version: ScottPlot 5.0.19
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---

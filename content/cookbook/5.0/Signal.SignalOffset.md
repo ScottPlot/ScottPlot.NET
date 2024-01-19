@@ -4,9 +4,9 @@ Description: Signal plots can be offset by a given X and Y value.
 URL: /cookbook/5.0/Signal/SignalOffset/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Signal Plot", "Signal Offset"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Signal", "/cookbook/5.0/Signal/SignalOffset"]
-Date: 2024-01-18
-Version: ScottPlot 5.0.18
-Version: ScottPlot 5.0.18
+Date: 2024-01-19
+Version: ScottPlot 5.0.19
+Version: ScottPlot 5.0.19
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---

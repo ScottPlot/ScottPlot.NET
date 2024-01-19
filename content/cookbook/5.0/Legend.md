@@ -4,9 +4,9 @@ Description: A legend is a key typically displayed in the corner of a plot
 URL: /cookbook/5.0/Legend/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Configuring Legends"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Legend"]
-Date: 2024-01-18
-Version: ScottPlot 5.0.18
-Version: ScottPlot 5.0.18
+Date: 2024-01-19
+Version: ScottPlot 5.0.19
+Version: ScottPlot 5.0.19
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
