@@ -43,6 +43,10 @@ Release notes for every version of ScottPlot
 </li>
 <li>Projects: Sign all assemblies using strong names (<a href="https://github.com/ScottPlot/ScottPlot/issues/3235">#3235</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/283">#283</a>) <em>Thanks <a href="https://github.com/mlessmann">@mlessmann</a></em>
 </li>
+<li>Axes: Improved automatic axis determination for plots containing non-real or infinite data limits (<a href="https://github.com/ScottPlot/ScottPlot/issues/3232">#3232</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3237">#3237</a>)
+</li>
+<li>Bar Plots: Do not overwrite existing colors when adding <code>Bar</code> collections to the plot (<a href="https://github.com/ScottPlot/ScottPlot/issues/3231">#3231</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
@@ -57,7 +61,7 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/devbotas'><img src='https://scottplot.net/images/contributors/devbotas.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Marvenix'><img src='https://scottplot.net/images/contributors/marvenix.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/VoteForPedro'><img src='https://scottplot.net/images/contributors/voteforpedro.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/mlessmann'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/mlessmann'><img src='https://scottplot.net/images/contributors/mlessmann.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
