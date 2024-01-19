@@ -21,6 +21,36 @@ Release notes for every version of ScottPlot
 
 </section>
 <section class='mb-5'>
+<h1 class='mb-0'>ScottPlot 5.0.19</h1>
+<div><i>NuGet packages published 2024-01-18</i></div>
+<div class='mt-1'>
+<ul>
+<li>Plot: Improved render manager initialization (<a href="https://github.com/ScottPlot/ScottPlot/issues/3233">#3233</a>) <em>Thanks <a href="https://github.com/VoteForPedro">@VoteForPedro</a></em>
+</li>
+<li>Projects: Sign all assemblies using strong names (<a href="https://github.com/ScottPlot/ScottPlot/issues/3235">#3235</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/283">#283</a>) <em>Thanks <a href="https://github.com/mlessmann">@mlessmann</a></em>
+</li>
+<li>Axes: Improved automatic axis determination for plots containing non-real or infinite data limits (<a href="https://github.com/ScottPlot/ScottPlot/issues/3232">#3232</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3237">#3237</a>)
+</li>
+<li>Bar Plots: Do not overwrite existing colors when adding <code>Bar</code> collections to the plot (<a href="https://github.com/ScottPlot/ScottPlot/issues/3231">#3231</a>)
+</li>
+<li>Label: Clear cached typefaces when styles change (<a href="https://github.com/ScottPlot/ScottPlot/issues/3236">#3236</a>) <em>Thanks <a href="https://github.com/kl7107">@kl7107</a> and <a href="https://github.com/prime167">@prime167</a></em>
+</li>
+</ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/VoteForPedro'>VoteForPedro</a>, <a href='https://github.com/mlessmann'>mlessmann</a>, <a href='https://github.com/kl7107'>kl7107</a>, <a href='https://github.com/prime167'>prime167</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/VoteForPedro'><img src='https://scottplot.net/images/contributors/voteforpedro.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/mlessmann'><img src='https://scottplot.net/images/contributors/mlessmann.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/kl7107'><img src='https://scottplot.net/images/contributors/kl7107.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/prime167'><img src='https://scottplot.net/images/contributors/prime167.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
+
+</section>
+<section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 5.0.18</h1>
 <div><i>NuGet packages published 2024-01-17</i></div>
 <div class='mt-1'>
@@ -39,19 +69,11 @@ Release notes for every version of ScottPlot
 </li>
 <li>SignalConst: Improved display when signals are zoomed in enough to see individual points (<a href="https://github.com/ScottPlot/ScottPlot/issues/3228">#3228</a>) <em>Thanks <a href="https://github.com/Marvenix">@Marvenix</a></em>
 </li>
-<li>Plot: Improved render manager initialization (<a href="https://github.com/ScottPlot/ScottPlot/issues/3233">#3233</a>) <em>Thanks <a href="https://github.com/VoteForPedro">@VoteForPedro</a></em>
-</li>
-<li>Projects: Sign all assemblies using strong names (<a href="https://github.com/ScottPlot/ScottPlot/issues/3235">#3235</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/283">#283</a>) <em>Thanks <a href="https://github.com/mlessmann">@mlessmann</a></em>
-</li>
-<li>Axes: Improved automatic axis determination for plots containing non-real or infinite data limits (<a href="https://github.com/ScottPlot/ScottPlot/issues/3232">#3232</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3237">#3237</a>)
-</li>
-<li>Bar Plots: Do not overwrite existing colors when adding <code>Bar</code> collections to the plot (<a href="https://github.com/ScottPlot/ScottPlot/issues/3231">#3231</a>)
-</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/CBrauer'>CBrauer</a>, <a href='https://github.com/kl7107'>kl7107</a>, <a href='https://github.com/prime167'>prime167</a>, <a href='https://github.com/MCF'>MCF</a>, <a href='https://github.com/devbotas'>devbotas</a>, <a href='https://github.com/Marvenix'>Marvenix</a>, <a href='https://github.com/VoteForPedro'>VoteForPedro</a>, <a href='https://github.com/mlessmann'>mlessmann</a>, <a href='https://github.com/swharden'>swharden</a>
+<a href='https://github.com/CBrauer'>CBrauer</a>, <a href='https://github.com/kl7107'>kl7107</a>, <a href='https://github.com/prime167'>prime167</a>, <a href='https://github.com/MCF'>MCF</a>, <a href='https://github.com/devbotas'>devbotas</a>, <a href='https://github.com/Marvenix'>Marvenix</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/CBrauer'><img src='https://scottplot.net/images/contributors/cbrauer.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -60,8 +82,6 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/MCF'><img src='https://scottplot.net/images/contributors/mcf.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/devbotas'><img src='https://scottplot.net/images/contributors/devbotas.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Marvenix'><img src='https://scottplot.net/images/contributors/marvenix.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/VoteForPedro'><img src='https://scottplot.net/images/contributors/voteforpedro.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/mlessmann'><img src='https://scottplot.net/images/contributors/mlessmann.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
