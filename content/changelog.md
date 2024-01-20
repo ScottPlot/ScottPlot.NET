@@ -35,6 +35,8 @@ Release notes for every version of ScottPlot
 </li>
 <li>Label: Clear cached typefaces when styles change (<a href="https://github.com/ScottPlot/ScottPlot/issues/3236">#3236</a>) <em>Thanks <a href="https://github.com/kl7107">@kl7107</a> and <a href="https://github.com/prime167">@prime167</a></em>
 </li>
+<li>Assembly: ScottPlot packages are now strongly named (<a href="https://github.com/ScottPlot/ScottPlot/issues/3235">#3235</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3241">#3241</a>) <em>Thanks <a href="https://github.com/mlessmann">@mlessmann</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
