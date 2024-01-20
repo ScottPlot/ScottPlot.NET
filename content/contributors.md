@@ -16,12 +16,20 @@ Members of the open-source community who contributed to ScottPlot
 <div class='display-3 my-5 text-center'>💖🚀✨</div>
 <div class='d-flex justify-content-center flex-wrap'>
 <div class='bg-light border rounded text-center mx-3 my-2'>
-<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/voteforpedro.png' height='125' width='125'/></a></div>
-<div><a href='https://github.com/VoteForPedro'>@VoteForPedro</a></div>
-</div>
-<div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/mlessmann.jpg' height='125' width='125'/></a></div>
 <div><a href='https://github.com/mlessmann'>@mlessmann</a></div>
+</div>
+<div class='bg-light border rounded text-center mx-3 my-2'>
+<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/brand/favicon.png' height='125' width='125'/></a></div>
+<div><a href='https://github.com/NoahSigl'>@NoahSigl</a></div>
+</div>
+<div class='bg-light border rounded text-center mx-3 my-2'>
+<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/brand/favicon.png' height='125' width='125'/></a></div>
+<div><a href='https://github.com/MarekJur'>@MarekJur</a></div>
+</div>
+<div class='bg-light border rounded text-center mx-3 my-2'>
+<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/voteforpedro.png' height='125' width='125'/></a></div>
+<div><a href='https://github.com/VoteForPedro'>@VoteForPedro</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/kl7107.png' height='125' width='125'/></a></div>

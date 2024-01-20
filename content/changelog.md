@@ -21,6 +21,50 @@ Release notes for every version of ScottPlot
 
 </section>
 <section class='mb-5'>
+<h1 class='mb-0'>ScottPlot 5.0.20 (not yet on NuGet)</h1>
+<div><i>NuGet packages published </i></div>
+<div class='mt-1'>
+<ul>
+<li>Assembly: ScottPlot packages are now strongly named (<a href="https://github.com/ScottPlot/ScottPlot/issues/3235">#3235</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3241">#3241</a>) <em>Thanks <a href="https://github.com/mlessmann">@mlessmann</a></em>
+</li>
+<li>Scatter Plot: Added a <code>ConnectStyle</code> to enable step display mode (<a href="https://github.com/ScottPlot/ScottPlot/issues/3242">#3242</a>) <em>Thanks <a href="https://github.com/NoahSigl">@NoahSigl</a></em>
+</li>
+</ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/mlessmann'>mlessmann</a>, <a href='https://github.com/NoahSigl'>NoahSigl</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/mlessmann'><img src='https://scottplot.net/images/contributors/mlessmann.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/NoahSigl'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
+
+</section>
+<section class='mb-5'>
+<h1 class='mb-0'>ScottPlot 4.1.71 (not yet on NuGet)</h1>
+<div><i>NuGet packages published </i></div>
+<div class='mt-1'>
+<ul>
+<li>Assembly: All ScottPlot packages use the same strong name signing key (<a href="https://github.com/ScottPlot/ScottPlot/issues/3235">#3235</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3241">#3241</a>) <em>Thanks <a href="https://github.com/mlessmann">@mlessmann</a></em>
+</li>
+<li>WPF Control: Routed events now pass the original source (<a href="https://github.com/ScottPlot/ScottPlot/issues/3243">#3243</a>) <em>Thanks <a href="https://github.com/MarekJur">@MarekJur</a></em>
+</li>
+</ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/mlessmann'>mlessmann</a>, <a href='https://github.com/MarekJur'>MarekJur</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/mlessmann'><img src='https://scottplot.net/images/contributors/mlessmann.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/MarekJur'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
+
+</section>
+<section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 5.0.19</h1>
 <div><i>NuGet packages published 2024-01-18</i></div>
 <div class='mt-1'>
@@ -34,8 +78,6 @@ Release notes for every version of ScottPlot
 <li>Bar Plots: Do not overwrite existing colors when adding <code>Bar</code> collections to the plot (<a href="https://github.com/ScottPlot/ScottPlot/issues/3231">#3231</a>)
 </li>
 <li>Label: Clear cached typefaces when styles change (<a href="https://github.com/ScottPlot/ScottPlot/issues/3236">#3236</a>) <em>Thanks <a href="https://github.com/kl7107">@kl7107</a> and <a href="https://github.com/prime167">@prime167</a></em>
-</li>
-<li>Assembly: ScottPlot packages are now strongly named (<a href="https://github.com/ScottPlot/ScottPlot/issues/3235">#3235</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3241">#3241</a>) <em>Thanks <a href="https://github.com/mlessmann">@mlessmann</a></em>
 </li>
 </ul>
 </div>
