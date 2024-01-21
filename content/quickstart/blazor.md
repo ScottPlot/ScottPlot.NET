@@ -37,4 +37,4 @@ date: 2023-12-13
 
 {{< /code-sp5 >}}
 
-![](/images/quickstart/blazor.png)
+![](/images/quickstart/blazor.gif)
