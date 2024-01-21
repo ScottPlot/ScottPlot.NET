@@ -29,6 +29,10 @@ Release notes for every version of ScottPlot
 </li>
 <li>Scatter Plot: Added a <code>ConnectStyle</code> to enable step display mode (<a href="https://github.com/ScottPlot/ScottPlot/issues/3242">#3242</a>) <em>Thanks <a href="https://github.com/NoahSigl">@NoahSigl</a></em>
 </li>
+<li>Polygon: <code>Plot.Add.Polygon()</code> now accepts generic type lists and arrays (<a href="https://github.com/ScottPlot/ScottPlot/issues/3244">#3244</a>) <em>Thanks howhowone_23</em>
+</li>
+<li>Demo: Added a draggable points window to show how to drag points of a scatter plot (<a href="https://github.com/ScottPlot/ScottPlot/issues/3248">#3248</a>) <em>Thanks bologna</em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
