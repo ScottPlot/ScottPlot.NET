@@ -45,6 +45,16 @@ Release notes for every version of ScottPlot
 </li>
 <li>SignalXY: Support vertical orientation (<a href="https://github.com/ScottPlot/ScottPlot/issues/3253">#3253</a>) <em>Thanks <a href="https://github.com/manaruto">@manaruto</a></em>
 </li>
+<li>Data logger and streamer: The property <code>Data</code> has been renamed to <code>DataSource</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/3260">#3260</a>)
+</li>
+<li>SignalConst: The property <code>Data</code> has been renamed to <code>DataSource</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/3260">#3260</a>)
+</li>
+<li>Axes: Added <code>AutoScaleExpand()</code> to zoom out to fit data only if necessary (<a href="https://github.com/ScottPlot/ScottPlot/issues/3259">#3259</a>)
+</li>
+<li>Style: Added <code>Plot.Style.ColorLegend()</code> for quick customization of legend colors (<a href="https://github.com/ScottPlot/ScottPlot/issues/3247">#3247</a>)
+</li>
+<li>Plot: Replacing palettes is now achieved by setting <code>Plot.Add.Palette</code> instead of <code>Plot.Palette</code>.
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
@@ -55,8 +65,8 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/mlessmann'><img src='https://scottplot.net/images/contributors/mlessmann.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/NoahSigl'><img src='https://scottplot.net/images/contributors/noahsigl.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/CBrauer'><img src='https://scottplot.net/images/contributors/cbrauer.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/fujiangang'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/manaruto'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/fujiangang'><img src='https://scottplot.net/images/contributors/fujiangang.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/manaruto'><img src='https://scottplot.net/images/contributors/manaruto.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
