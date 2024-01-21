@@ -40,14 +40,25 @@ date: 2023-12-13
 ![](/images/demo/5.0/show-point.gif)
 
 
-### Interactive Plottables
+### Draggable Axis Lines
 
-**The draggable axis line demo** shows how to use the user control's `MouseDown`, `MouseUP`, and `MouseMove` events to check whether a plotted object is beneath the mouse, grab it when clicked, move it when dragged, and drop it. Although this demo only showcases dragging axis lines, this technique can be applied to add interactivity to any plot type.
+**The draggable axis line demo** shows how to use the user control's `MouseDown`, `MouseUp`, and `MouseMove` events to check whether a plotted object is beneath the mouse, grab it when clicked, move it when dragged, and drop it. Although this demo only showcases dragging axis lines, this technique can be applied to add interactivity to any plot type.
 
 * Source code: [DraggableAxisLines.cs](https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Demos/ScottPlot5%20WinForms%20Demo/Demos/DraggableAxisLines.cs)
 * Download: <a href='#download'>ScottPlot 5.0 demo</a>
 
 ![](/images/demo/5.0/drag.gif)
+
+
+### Draggable Data Points Lines
+
+**The draggable points demo** shows how to use the user control's `MouseDown`, `MouseUp`, and `MouseMove` events to check whether a plotted object is beneath the mouse, grab it when clicked, move it when dragged, and drop it.
+
+* Source code: [DraggablePoints.cs](https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Demos/ScottPlot5%20WinForms%20Demo/Demos/DraggablePoints.cs)
+* Download: <a href='#download'>ScottPlot 5.0 demo</a>
+
+![](/images/demo/5.0/draggable-points.gif)
+
 
 ### Shared Axes
 
