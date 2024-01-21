@@ -50,7 +50,7 @@ date: 2023-12-13
 ![](/images/demo/5.0/drag.gif)
 
 
-### Draggable Data Points Lines
+### Draggable Data Points
 
 **The draggable points demo** shows how to use the user control's `MouseDown`, `MouseUp`, and `MouseMove` events to check whether a plotted object is beneath the mouse, grab it when clicked, move it when dragged, and drop it.
 
