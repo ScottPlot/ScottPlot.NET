@@ -124,6 +124,15 @@ date: 2023-12-13
 
 ![](/images/demo/5.0/data-logger.gif)
 
+### Plot Live Financial Data
+
+**The Live Finance** demo demonstrates how to display price OHLC data in real time, modifying the last bar for live updates and adding new bars as time progresses.
+
+* Source code: [LiveFinance.cs](https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Demos/ScottPlot5%20WinForms%20Demo/Demos/LiveFinance.cs)
+* Download: <a href='#download'>ScottPlot 5.0 demo</a>
+
+![](/images/demo/5.0/live-finance.gif)
+
 # ScottPlot 4.1 Demo
 
 **The ScottPlot 4.1 Demo is a click-to-run application designed to make it easy to assess the capabilities of ScottPlot.** The demo application displays all [ScottPlot 4.1 Cookbook](/cookbook/4.1/) recipes and also demonstrate advanced user control features like mouse tracking, live data, and linked plots. 
