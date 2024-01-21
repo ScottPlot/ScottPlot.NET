@@ -33,15 +33,22 @@ Release notes for every version of ScottPlot
 </li>
 <li>Demo: Added a draggable points window to show how to drag points of a scatter plot (<a href="https://github.com/ScottPlot/ScottPlot/issues/3248">#3248</a>) <em>Thanks bologna</em>
 </li>
+<li>Generate: Added <code>RandomNumber()</code> and <code>RandomNumbers()</code> overloads
+</li>
+<li>OHLC: Improved autoscaling behavior for empty datasets
+</li>
+<li>Generate: Added <code>RandomOHLCs()</code> overload that accepts a starting <code>DateTime</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/3254">#3254</a>) <em>Thanks <a href="https://github.com/CBrauer">@CBrauer</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/mlessmann'>mlessmann</a>, <a href='https://github.com/NoahSigl'>NoahSigl</a>, <a href='https://github.com/swharden'>swharden</a>
+<a href='https://github.com/mlessmann'>mlessmann</a>, <a href='https://github.com/NoahSigl'>NoahSigl</a>, <a href='https://github.com/CBrauer'>CBrauer</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/mlessmann'><img src='https://scottplot.net/images/contributors/mlessmann.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/NoahSigl'><img src='https://scottplot.net/images/contributors/noahsigl.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/CBrauer'><img src='https://scottplot.net/images/contributors/cbrauer.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
