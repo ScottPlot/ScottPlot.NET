@@ -6,6 +6,8 @@ date: 2023-12-13
 
 {{< banner-sp5 >}}
 
+# Blazor Quickstart
+
 **Step 1:** Create a new Blazor project
 
 **Step 2:** Add the `ScottPlot.Blazor` NuGet package
