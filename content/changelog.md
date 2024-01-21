@@ -39,16 +39,24 @@ Release notes for every version of ScottPlot
 </li>
 <li>Generate: Added <code>RandomOHLCs()</code> overload that accepts a starting <code>DateTime</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/3254">#3254</a>) <em>Thanks <a href="https://github.com/CBrauer">@CBrauer</a></em>
 </li>
+<li>Axes: Improved support for inverted axes (<a href="https://github.com/ScottPlot/ScottPlot/issues/3252">#3252</a>) <em>Thanks <a href="https://github.com/fujiangang">@fujiangang</a></em>
+</li>
+<li>Finance: Improved performance of financial charts by not rendering symbols outside the data area (<a href="https://github.com/ScottPlot/ScottPlot/issues/3258">#3258</a>) <em>Thanks Lyakabynka</em>
+</li>
+<li>SignalXY: Support vertical orientation (<a href="https://github.com/ScottPlot/ScottPlot/issues/3253">#3253</a>) <em>Thanks <a href="https://github.com/manaruto">@manaruto</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/mlessmann'>mlessmann</a>, <a href='https://github.com/NoahSigl'>NoahSigl</a>, <a href='https://github.com/CBrauer'>CBrauer</a>, <a href='https://github.com/swharden'>swharden</a>
+<a href='https://github.com/mlessmann'>mlessmann</a>, <a href='https://github.com/NoahSigl'>NoahSigl</a>, <a href='https://github.com/CBrauer'>CBrauer</a>, <a href='https://github.com/fujiangang'>fujiangang</a>, <a href='https://github.com/manaruto'>manaruto</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/mlessmann'><img src='https://scottplot.net/images/contributors/mlessmann.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/NoahSigl'><img src='https://scottplot.net/images/contributors/noahsigl.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/CBrauer'><img src='https://scottplot.net/images/contributors/cbrauer.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/fujiangang'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/manaruto'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
