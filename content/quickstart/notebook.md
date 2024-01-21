@@ -22,23 +22,23 @@ date: 2023-12-13
 
 Add this to the top of your notebook to use the ScottPlot NuGet package and make it easy to display plots inline:
 
-{{< code-sp4 >}}
+{{< code-sp5 >}}
 
 ```cs
 // Install the ScottPlot NuGet package
-#r "nuget:ScottPlot, 4.1.*"
+#r "nuget:ScottPlot, 5.0.*"
 
 // Setup a custom formatter to display plots as images
 using Microsoft.DotNet.Interactive.Formatting;
 Formatter.Register(typeof(ScottPlot.Plot), (p, w) => 
-    w.Write(((ScottPlot.Plot)p).GetImageHtml()), HtmlFormatter.MimeType);
+    w.Write(((ScottPlot.Plot)p).GetImageHtml(400, 300)), HtmlFormatter.MimeType);
 ```
 
-{{< /code-sp4 >}}
+{{< /code-sp5 >}}
 
 ### Plot Data
 
-{{< code-sp4 >}}
+{{< code-sp5 >}}
 
 ```cs
 // create sample data
@@ -46,31 +46,13 @@ double[] dataX = new double[] { 1, 2, 3, 4, 5 };
 double[] dataY = new double[] { 1, 4, 9, 16, 25 };
 
 // plot the data
-var plt = new ScottPlot.Plot(400, 300);
-plt.AddScatter(dataX, dataY);
+ScottPlot.Plot plt = new();
+plt.Add.Scatter(dataX, dataY);
 
 // display the plot
 plt
 ```
 
-{{< /code-sp4 >}}
+{{< /code-sp5 >}}
 
 ![](/images/quickstart/scottplot-quickstart-console.png)
-
-### Advanced Notebook Examples
-
-Scatter plots, bar charts, and more are demonstrated in a notebook:
-
-* Download: [demo.ipynb](demo.ipynb)
-
-* View as HTML: [demo.html](demo)
-
-[![](/notebooks/sp4/screenshot.png)](/notebooks/sp4/)
-
-## Resources
-
-* [Announcing Polyglot Notebooks! Multi-language notebooks in Visual Studio Code](https://devblogs.microsoft.com/dotnet/announcing-polyglot-notebooks-harness-the-power-of-multilanguage-notebooks-in-visual-studio-code/) (March 15, 2023)
-
-* [.NET Interactive Notebooks is now Polyglot Notebooks!](https://devblogs.microsoft.com/dotnet/dotnet-interactive-notebooks-is-now-polyglot-notebooks/) (Nov 3, 2022)
-
-* [Doug Finke](https://github.com/dfinke) prepared a [YouTube video](https://www.youtube.com/watch?v=nL0JRukCU4k) and [GitHub repository](https://github.com/dfinke/PowerShellScottPlot) demonstrating how to create data visualizations with PowerShell and ScottPlot in the a Polyglot Interactive Notebook.
