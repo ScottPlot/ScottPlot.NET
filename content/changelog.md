@@ -21,8 +21,8 @@ Release notes for every version of ScottPlot
 
 </section>
 <section class='mb-5'>
-<h1 class='mb-0'>ScottPlot 5.0.20 (not yet on NuGet)</h1>
-<div><i>NuGet packages published </i></div>
+<h1 class='mb-0'>ScottPlot 5.0.20</h1>
+<div><i>NuGet packages published 2024-01-21</i></div>
 <div class='mt-1'>
 <ul>
 <li>Assembly: ScottPlot packages are now strongly named (<a href="https://github.com/ScottPlot/ScottPlot/issues/3235">#3235</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3241">#3241</a>) <em>Thanks <a href="https://github.com/mlessmann">@mlessmann</a></em>
@@ -55,6 +55,12 @@ Release notes for every version of ScottPlot
 </li>
 <li>Plot: Replacing palettes is now achieved by setting <code>Plot.Add.Palette</code> instead of <code>Plot.Palette</code>.
 </li>
+<li>Plot: Added <code>ShowLegend()</code> overload that accepts manually created legend items
+</li>
+<li>Scatter Plot: Added <code>LinePattern</code> property for customizing line style
+</li>
+<li>Pie: Improved default colors of pie charts created from discrete values
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
@@ -72,8 +78,8 @@ Release notes for every version of ScottPlot
 
 </section>
 <section class='mb-5'>
-<h1 class='mb-0'>ScottPlot 4.1.71 (not yet on NuGet)</h1>
-<div><i>NuGet packages published </i></div>
+<h1 class='mb-0'>ScottPlot 4.1.71</h1>
+<div><i>NuGet packages published 2024-01-21</i></div>
 <div class='mt-1'>
 <ul>
 <li>Assembly: All ScottPlot packages use the same strong name signing key (<a href="https://github.com/ScottPlot/ScottPlot/issues/3235">#3235</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3241">#3241</a>) <em>Thanks <a href="https://github.com/mlessmann">@mlessmann</a></em>
