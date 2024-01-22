@@ -4,9 +4,9 @@ Description: Advanced customization of tick marks and tick labels
 URL: /cookbook/5.0/CustomizingTicks/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Customizing Ticks"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/CustomizingTicks"]
-Date: 2024-01-19
-Version: ScottPlot 5.0.19
-Version: ScottPlot 5.0.19
+Date: 2024-01-22
+Version: ScottPlot 5.0.20
+Version: ScottPlot 5.0.20
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -25,9 +25,9 @@ Users can customize the logic used to create tick labels from tick positions.
 ```cs
 ScottPlot.Plot myPlot = new();
 
-double[] xs = ScottPlot.Generate.Consecutive(100, 1, -50);
-myPlot.Add.Scatter(xs, ScottPlot.Generate.Sin(100));
-myPlot.Add.Scatter(xs, ScottPlot.Generate.Cos(100));
+double[] xs = Generate.Consecutive(100, 1, -50);
+myPlot.Add.Scatter(xs, Generate.Sin(100));
+myPlot.Add.Scatter(xs, Generate.Cos(100));
 
 // create a static function containing the string formatting logic
 static string CustomFormatter(double position)
@@ -69,8 +69,8 @@ Tick generators determine where ticks are to be placed and also contain logic fo
 ```cs
 ScottPlot.Plot myPlot = new();
 
-myPlot.Add.Signal(ScottPlot.Generate.Sin(51));
-myPlot.Add.Signal(ScottPlot.Generate.Cos(51));
+myPlot.Add.Signal(Generate.Sin(51));
+myPlot.Add.Signal(Generate.Cos(51));
 
 myPlot.Axes.Bottom.TickGenerator = new ScottPlot.TickGenerators.NumericFixedInterval(11);
 

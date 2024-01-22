@@ -1,8 +1,8 @@
 ---
 Title: "Display first N points - ScottPlot 4.1 Cookbook"
 Description: "When plotting live data it is useful to allocate a large array in memory then fill it with values as they come in. By setting the maxRenderIndex property of a scatter plot to can prevent rendering the end of the array (which is probably filled with zeros)."
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/signal_firstnpoints/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Signal Plot", "Display first N points"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-signal-plot", "/cookbook/4.1/recipes/signal_firstnpoints/"]
@@ -17,7 +17,7 @@ When plotting live data it is useful to allocate a large array in memory then fi
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 // create an array larger than we intend to display

@@ -4,9 +4,9 @@ Description: FillY plots can be customized using public properties.
 URL: /cookbook/5.0/FillY/Styling/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "FillY plot", "FillY Plot Styling"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/FillY", "/cookbook/5.0/FillY/Styling"]
-Date: 2024-01-19
-Version: ScottPlot 5.0.19
-Version: ScottPlot 5.0.19
+Date: 2024-01-22
+Version: ScottPlot 5.0.20
+Version: ScottPlot 5.0.20
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -26,7 +26,7 @@ ScottPlot.Plot myPlot = new();
 RandomDataGenerator dataGen = new(0);
 
 int count = 20;
-double[] xs = ScottPlot.Generate.Consecutive(count);
+double[] xs = Generate.Consecutive(count);
 double[] ys1 = dataGen.RandomWalk(count, offset: -5);
 double[] ys2 = dataGen.RandomWalk(count, offset: 5);
 

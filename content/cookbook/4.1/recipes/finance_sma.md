@@ -1,8 +1,8 @@
 ---
 Title: "Simple Moving Average (SMA) - ScottPlot 4.1 Cookbook"
 Description: "A simple moving average (SMA) technical indicator can be calculated and drawn as a scatter plot."
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/finance_sma/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Finance", "Simple Moving Average (SMA)"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-finance", "/cookbook/4.1/recipes/finance_sma/"]
@@ -17,7 +17,7 @@ A simple moving average (SMA) technical indicator can be calculated and drawn as
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 OHLC[] ohlcs = DataGen.RandomStockPrices(null, 75);

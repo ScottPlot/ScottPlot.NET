@@ -1,8 +1,8 @@
 ---
 Title: "Spline Interpolation - ScottPlot 4.1 Cookbook"
 Description: "Interpolated splines create curves with many X/Y points to smoothly connect a limited number of input points."
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/misc_interpolation/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Miscellaneous", "Spline Interpolation"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/misc", "/cookbook/4.1/recipes/misc_interpolation/"]
@@ -17,7 +17,7 @@ Interpolated splines create curves with many X/Y points to smoothly connect a li
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 // create a small number of X/Y data points and display them

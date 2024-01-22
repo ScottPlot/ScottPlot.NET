@@ -1,8 +1,8 @@
 ---
 Title: "Scatter List Quickstart - ScottPlot 4.1 Cookbook"
 Description: "This plot type has add/remove/clear methods like typical lists."
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/scatterlist_quickstart/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Scatter Plot", "Scatter List Quickstart"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-scatter-plot", "/cookbook/4.1/recipes/scatterlist_quickstart/"]
@@ -17,7 +17,7 @@ This plot type has add/remove/clear methods like typical lists.
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 double[] xs = { 1, 2, 3, 4 };

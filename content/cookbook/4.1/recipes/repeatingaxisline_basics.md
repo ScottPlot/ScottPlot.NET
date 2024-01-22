@@ -1,8 +1,8 @@
 ---
 Title: "Repeating Axis Line - ScottPlot 4.1 Cookbook"
 Description: "Repeating axis lines allows to plot several axis lines, either horizontal or vertical, draggable or not, whose positions are linked"
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/repeatingaxisline_basics/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Axis Line and Span", "Repeating Axis Line"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-axis-line-and-span", "/cookbook/4.1/recipes/repeatingaxisline_basics/"]
@@ -17,7 +17,7 @@ Repeating axis lines allows to plot several axis lines, either horizontal or ver
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 //Generate a single signal containing 3 harmonic signals

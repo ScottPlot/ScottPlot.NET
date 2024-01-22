@@ -4,9 +4,9 @@ Description: Bars can have errorbars.
 URL: /cookbook/5.0/Bar/BarWithError/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Bar Plot", "Bars with Error"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Bar", "/cookbook/5.0/Bar/BarWithError"]
-Date: 2024-01-19
-Version: ScottPlot 5.0.19
-Version: ScottPlot 5.0.19
+Date: 2024-01-22
+Version: ScottPlot 5.0.20
+Version: ScottPlot 5.0.20
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -23,12 +23,12 @@ Bars can have errorbars.
 ```cs
 ScottPlot.Plot myPlot = new();
 
-List<ScottPlot.Bar> bars = new()
+ScottPlot.Bar[] bars =
 {
-    new() { Position = 1, Value = 5, Error = 1, },
-    new() { Position = 2, Value = 7, Error = 2, },
-    new() { Position = 3, Value = 6, Error = 1, },
-    new() { Position = 4, Value = 8, Error = 2, },
+    new() { Position = 1, Value = 5, Error = 1, FillColor = Colors.Red },
+    new() { Position = 2, Value = 7, Error = 2, FillColor = Colors.Orange },
+    new() { Position = 3, Value = 6, Error = 1, FillColor = Colors.Green },
+    new() { Position = 4, Value = 8, Error = 2, FillColor = Colors.Blue },
 };
 
 myPlot.Add.Bars(bars);

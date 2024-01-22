@@ -1,8 +1,8 @@
 ---
 Title: "Styled Scale Bar - ScottPlot 4.1 Cookbook"
 Description: "An L-shaped scalebar can be added in the corner of any plot. Set the vertical or horizontal sizer to zero and the scale bar will only span one dimension."
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/scalebar_styled/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Scale Bar", "Styled Scale Bar"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-scale-bar", "/cookbook/4.1/recipes/scalebar_styled/"]
@@ -17,7 +17,7 @@ An L-shaped scalebar can be added in the corner of any plot. Set the vertical or
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 // plot sample data

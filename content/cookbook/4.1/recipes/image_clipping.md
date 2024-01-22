@@ -1,8 +1,8 @@
 ---
 Title: "Image Clipping - ScottPlot 4.1 Cookbook"
 Description: "Images can be clipped to an arbitrary polygon"
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/image_clipping/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Image", "Image Clipping"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-image", "/cookbook/4.1/recipes/image_clipping/"]
@@ -17,7 +17,7 @@ Images can be clipped to an arbitrary polygon
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 Bitmap bmp = DataGen.SampleImage();

@@ -4,9 +4,9 @@ Description: Example plots shown next to the code used to create them
 URL: /cookbook/5.0/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook"]
 BreadcrumbUrls: ["/cookbook/5.0/"]
-Date: 2024-01-19
-Version: ScottPlot 5.0.19
-Version: ScottPlot 5.0.19
+Date: 2024-01-22
+Version: ScottPlot 5.0.20
+Version: ScottPlot 5.0.20
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -21,14 +21,15 @@ ShowEditLink: false
 <ul>
 <li><a href='/cookbook/5.0/AxisAndTicks'>Axis and Ticks</a> - Examples of common customizations for axis labels and ticks</li>
 <li><a href='/cookbook/5.0/Legend'>Configuring Legends</a> - A legend is a key typically displayed in the corner of a plot</li>
-<li><a href='/cookbook/5.0/Styling'>Styling Plots</a> - How to customize plots</li>
+<li><a href='/cookbook/5.0/Styling'>Styling Plots</a> - How to customize appearance of plots</li>
 </ul>
 <div class='mt-3 fs-4'><strong>Axis</strong></div>
 <ul>
+<li><a href='/cookbook/5.0/AdvancedAxis'>Advanced Axis Features</a> - How to further customize axes</li>
 <li><a href='/cookbook/5.0/CustomizingGrids'>Customizing Grids</a> - Advanced customization of grid lines</li>
 <li><a href='/cookbook/5.0/CustomizingTicks'>Customizing Ticks</a> - Advanced customization of tick marks and tick labels</li>
 <li><a href='/cookbook/5.0/DateTimeAxes'>DateTime Axes</a> - Plot data values on a DataTime axes</li>
-<li><a href='/cookbook/5.0/MultiAxis'>Advanced Axis Features</a> - Tick mark customization and creation of multi-Axis plots</li>
+<li><a href='/cookbook/5.0/MultiAxis'>Multiple Axes</a> - Tick mark customization and creation of multi-Axis plots</li>
 </ul>
 <div class='mt-3 fs-4'><strong>Plot Types</strong></div>
 <ul>
@@ -41,6 +42,7 @@ ShowEditLink: false
 <li><a href='/cookbook/5.0/Heatmap'>Heatmap</a> - Heatmaps display values from 2D data as an image with cells of different intensities</li>
 <li><a href='/cookbook/5.0/LinePlot'>Line Plot</a> - Line plots can be placed on the plot in coordinate space using a Start, End, and an optional LineStyle.</li>
 <li><a href='/cookbook/5.0/Marker'>Marker</a> - Markers can be placed on the plot in coordinate space.</li>
+<li><a href='/cookbook/5.0/Pie'>Pie</a> - Pie charts illustrate numerical proportions as slices of a circle.</li>
 <li><a href='/cookbook/5.0/Polygon'>Polygon Plot</a> - Polygon plots draws a polygon</li>
 <li><a href='/cookbook/5.0/Scatter'>Scatter Plot</a> - Scatter plots display points at X/Y locations in coordinate space.</li>
 <li><a href='/cookbook/5.0/Signal'>Signal Plot</a> - Signal plots display evenly-spaced data</li>
@@ -118,20 +120,11 @@ ShowEditLink: false
 <div>Examples of common customizations for axis labels and ticks</div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/AxisAndTicks/AxisLabels'><img class='img-fluid' src='/cookbook/5.0/images/AxisLabels.png' /></a>
-</div>
-<div class='col'>
-<div><a href='/cookbook/5.0/AxisAndTicks/AxisLabels'><b>Adding Axis Labels</b></a></div>
-<div>Axis labels are the text labels centered on each axis. The text inside these labels can be changed, and the style of the text can be extensively customized.</div>
-</div>
-</div>
-<div class='row my-4'>
-<div class='col'>
 <a href='/cookbook/5.0/AxisAndTicks/SetAxisLimits'><img class='img-fluid' src='/cookbook/5.0/images/SetAxisLimits.png' /></a>
 </div>
 <div class='col'>
-<div><a href='/cookbook/5.0/AxisAndTicks/SetAxisLimits'><b>Manually Set Axis Limits</b></a></div>
-<div>Axis Limits can be set manually in different ways.</div>
+<div><a href='/cookbook/5.0/AxisAndTicks/SetAxisLimits'><b>Set Axis Limits</b></a></div>
+<div>Axis Limits can be set by the user.</div>
 </div>
 </div>
 <div class='row my-4'>
@@ -140,7 +133,7 @@ ShowEditLink: false
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/AxisAndTicks/GetAxisLimits'><b>Read Axis Limits</b></a></div>
-<div>The current axis limits can be read in multiple ways.</div>
+<div>Use GetLimits() to obtain the current axis limits.</div>
 </div>
 </div>
 <div class='row my-4'>
@@ -165,11 +158,11 @@ ShowEditLink: false
 <div>A legend is a key typically displayed in the corner of a plot</div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Legend/LegendStyle'><img class='img-fluid' src='/cookbook/5.0/images/LegendStyle.png' /></a>
+<a href='/cookbook/5.0/Legend/LegendQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/LegendQuickstart.png' /></a>
 </div>
 <div class='col'>
-<div><a href='/cookbook/5.0/Legend/LegendStyle'><b>Legend Customization</b></a></div>
-<div>The default legend can be easily accessed and customized. It is possible to add multiple legends, including custom ones implementing ILegend.</div>
+<div><a href='/cookbook/5.0/Legend/LegendQuickstart'><b>Legend Quickstart</b></a></div>
+<div>Many plottables have a Label property that can be set so they appear in the legend.</div>
 </div>
 </div>
 <div class='row my-4'>
@@ -177,12 +170,21 @@ ShowEditLink: false
 <a href='/cookbook/5.0/Legend/ManualLegend'><img class='img-fluid' src='/cookbook/5.0/images/ManualLegend.png' /></a>
 </div>
 <div class='col'>
-<div><a href='/cookbook/5.0/Legend/ManualLegend'><b>Manual Legend</b></a></div>
+<div><a href='/cookbook/5.0/Legend/ManualLegend'><b>Manual Legend Items</b></a></div>
 <div>Legends may be constructed manually.</div>
 </div>
 </div>
+<div class='row my-4'>
+<div class='col'>
+<a href='/cookbook/5.0/Legend/LegendStyle'><img class='img-fluid' src='/cookbook/5.0/images/LegendStyle.png' /></a>
+</div>
+<div class='col'>
+<div><a href='/cookbook/5.0/Legend/LegendStyle'><b>Legend Customization</b></a></div>
+<div>Access the Legend object directly for advanced customization options.</div>
+</div>
+</div>
 <h2 class=''><a href='/cookbook/5.0/Styling' class='text-dark'>Styling Plots</a></h2>
-<div>How to customize plots</div>
+<div>How to customize appearance of plots</div>
 <div class='row my-4'>
 <div class='col'>
 <a href='/cookbook/5.0/Styling/StyleClass'><img class='img-fluid' src='/cookbook/5.0/images/StyleClass.png' /></a>
@@ -246,7 +248,36 @@ ShowEditLink: false
 <div>All components of an image can be scaled up or down in size by adjusting the ScaleFactor property. This is very useful for creating images that look nice on high DPI displays with display scaling enabled.</div>
 </div>
 </div>
+<div class='row my-4'>
+<div class='col'>
+<a href='/cookbook/5.0/Styling/DarkMode'><img class='img-fluid' src='/cookbook/5.0/images/DarkMode.png' /></a>
+</div>
+<div class='col'>
+<div><a href='/cookbook/5.0/Styling/DarkMode'><b>Dark Mode</b></a></div>
+<div>Plots can be created using dark mode by setting the colors of major plot components to ones consistent with a dark theme.</div>
+</div>
+</div>
 <h1>Axis</h1>
+<h2 class=''><a href='/cookbook/5.0/AdvancedAxis' class='text-dark'>Advanced Axis Features</a></h2>
+<div>How to further customize axes</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='/cookbook/5.0/AdvancedAxis/InvertedAxis'><img class='img-fluid' src='/cookbook/5.0/images/InvertedAxis.png' /></a>
+</div>
+<div class='col'>
+<div><a href='/cookbook/5.0/AdvancedAxis/InvertedAxis'><b>Inverted Axis</b></a></div>
+<div>Users can display data on an inverted axis by setting axis limits setting the lower edge to a value more positive than the upper edge.</div>
+</div>
+</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='/cookbook/5.0/AdvancedAxis/InvertedAutoAxis'><img class='img-fluid' src='/cookbook/5.0/images/InvertedAutoAxis.png' /></a>
+</div>
+<div class='col'>
+<div><a href='/cookbook/5.0/AdvancedAxis/InvertedAutoAxis'><b>Inverted Auto-Axis</b></a></div>
+<div>Customize the logic for the automatic axis scaler to ensure that axis limits for a particular axis are always inverted when autoscaled.</div>
+</div>
+</div>
 <h2 class=''><a href='/cookbook/5.0/CustomizingGrids' class='text-dark'>Customizing Grids</a></h2>
 <div>Advanced customization of grid lines</div>
 <div class='row my-4'>
@@ -325,7 +356,7 @@ ShowEditLink: false
 <div>Axis tick labels can be displayed using a time format.</div>
 </div>
 </div>
-<h2 class=''><a href='/cookbook/5.0/MultiAxis' class='text-dark'>Advanced Axis Features</a></h2>
+<h2 class=''><a href='/cookbook/5.0/MultiAxis' class='text-dark'>Multiple Axes</a></h2>
 <div>Tick mark customization and creation of multi-Axis plots</div>
 <div class='row my-4'>
 <div class='col'>
@@ -634,6 +665,26 @@ ShowEditLink: false
 <div>Markers with labels appear in the legend.</div>
 </div>
 </div>
+<h2 class=''><a href='/cookbook/5.0/Pie' class='text-dark'>Pie</a></h2>
+<div>Pie charts illustrate numerical proportions as slices of a circle.</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='/cookbook/5.0/Pie/PieQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/PieQuickstart.png' /></a>
+</div>
+<div class='col'>
+<div><a href='/cookbook/5.0/Pie/PieQuickstart'><b>Pie Chart from Values</b></a></div>
+<div>A pie chart can be created from a few values.</div>
+</div>
+</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='/cookbook/5.0/Pie/PieSlices'><img class='img-fluid' src='/cookbook/5.0/images/PieSlices.png' /></a>
+</div>
+<div class='col'>
+<div><a href='/cookbook/5.0/Pie/PieSlices'><b>Pie Chart from Slices</b></a></div>
+<div>A pie chart can be created from a collection of slices.</div>
+</div>
+</div>
 <h2 class=''><a href='/cookbook/5.0/Polygon' class='text-dark'>Polygon Plot</a></h2>
 <div>Polygon plots draws a polygon</div>
 <div class='row my-4'>
@@ -726,6 +777,15 @@ ShowEditLink: false
 <div class='col'>
 <div><a href='/cookbook/5.0/Scatter/ScatterDateTime'><b>Scatter DateTime</b></a></div>
 <div>A scatter plot may use DateTime units but be sure to setup the respective axis to display using DateTime format.</div>
+</div>
+</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='/cookbook/5.0/Scatter/ScatterStep'><img class='img-fluid' src='/cookbook/5.0/images/ScatterStep.png' /></a>
+</div>
+<div class='col'>
+<div><a href='/cookbook/5.0/Scatter/ScatterStep'><b>Step Plot</b></a></div>
+<div>Scatter plots can be created using a step plot display where points are connected with right angles instead of diagnal lines. The direction of the steps can be customized.</div>
 </div>
 </div>
 <h2 class=''><a href='/cookbook/5.0/Signal' class='text-dark'>Signal Plot</a></h2>
@@ -840,6 +900,15 @@ ShowEditLink: false
 <div class='col'>
 <div><a href='/cookbook/5.0/SignalXY/SignalXYOffset'><b>SignalXY Offset</b></a></div>
 <div>A fixed offset can be applied to SignalXY plots.</div>
+</div>
+</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='/cookbook/5.0/SignalXY/VerticalSignalXY'><img class='img-fluid' src='/cookbook/5.0/images/VerticalSignalXY.png' /></a>
+</div>
+<div class='col'>
+<div><a href='/cookbook/5.0/SignalXY/VerticalSignalXY'><b>Vertical SignalXY</b></a></div>
+<div>Although SignalXY plots typically display data left-to-right, it is possible to use this plot type to display data bottom-to-top.</div>
 </div>
 </div>
 <h2 class=''><a href='/cookbook/5.0/Text' class='text-dark'>Text</a></h2>

@@ -1,12 +1,12 @@
 ---
 Title: Styling Plots - ScottPlot 5.0 Cookbook
-Description: How to customize plots
+Description: How to customize appearance of plots
 URL: /cookbook/5.0/Styling/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Styling Plots"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Styling"]
-Date: 2024-01-19
-Version: ScottPlot 5.0.19
-Version: ScottPlot 5.0.19
+Date: 2024-01-22
+Version: ScottPlot 5.0.20
+Version: ScottPlot 5.0.20
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -104,7 +104,8 @@ A palette is a set of colors, and the Plot's palette defines the default colors 
 ```cs
 ScottPlot.Plot myPlot = new();
 
-myPlot.Palette = new ScottPlot.Palettes.Nord();
+// change the default palette used when adding new plottables
+myPlot.Add.Palette = new ScottPlot.Palettes.Nord();
 
 for (int i = 0; i < 5; i++)
 {
@@ -208,8 +209,8 @@ for (int i = 0; i < linePatterns.Length; i++)
     LinePattern pattern = linePatterns[i];
 
     var line = myPlot.Add.Line(0, -i, 1, -i);
-    line.Pattern = pattern;
-    line.Width = 2;
+    line.LinePattern = pattern;
+    line.LineWidth = 2;
     line.Color = Colors.Black;
 
     var txt = myPlot.Add.Text(pattern.ToString(), 1.1, -i);
@@ -248,6 +249,52 @@ ScottPlot.Plot myPlot = new();
 myPlot.ScaleFactor = 2;
 myPlot.Add.Signal(Generate.Sin());
 myPlot.Add.Signal(Generate.Cos());
+
+myPlot.SavePng("demo.png", 400, 300);
+
+```
+
+{{< /code-sp5 >}}
+
+<hr class='my-5 invisible'>
+
+
+<h2><a href='/cookbook/5.0/Styling/DarkMode'>Dark Mode</a></h2>
+
+Plots can be created using dark mode by setting the colors of major plot components to ones consistent with a dark theme.
+
+[![](/cookbook/5.0/images/DarkMode.png)](/cookbook/5.0/images/DarkMode.png)
+
+{{< code-sp5 >}}
+
+```cs
+ScottPlot.Plot myPlot = new();
+
+// set the color palette used when coloring new items added to the plot
+myPlot.Add.Palette = new ScottPlot.Palettes.Penumbra();
+
+// add things to the plot
+for (int i = 0; i < 5; i++)
+{
+    var sig = myPlot.Add.Signal(Generate.Sin(51, phase: -.05 * i));
+    sig.LineWidth = 3;
+    sig.Label = $"Line {i + 1}";
+}
+myPlot.XLabel("Horizontal Axis");
+myPlot.YLabel("Vertical Axis");
+myPlot.Title("ScottPlot 5 in Dark Mode");
+myPlot.ShowLegend();
+
+// change figure colors
+myPlot.Style.ColorAxes(Color.FromHex("#d7d7d7"));
+myPlot.Style.ColorGrids(Color.FromHex("#404040"));
+myPlot.Style.Background(
+    figure: Color.FromHex("#181818"),
+    data: Color.FromHex("#1f1f1f"));
+myPlot.Style.ColorLegend(
+    background: Color.FromHex("#404040"),
+    foreground: Color.FromHex("#d7d7d7"),
+    border: Color.FromHex("#d7d7d7"));
 
 myPlot.SavePng("demo.png", 400, 300);
 

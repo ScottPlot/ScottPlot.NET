@@ -1,8 +1,8 @@
 ---
 Title: "Arbitrary Vectors - ScottPlot 4.1 Cookbook"
 Description: "Vectors can be placed arbitrarily in coordiante space (they are not required to be in a grid)"
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/vectorfield_arbitrary/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Vector Field", "Arbitrary Vectors"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-vector-field", "/cookbook/4.1/recipes/vectorfield_arbitrary/"]
@@ -17,7 +17,7 @@ Vectors can be placed arbitrarily in coordiante space (they are not required to 
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 // Create a vector field list and add it to the plot

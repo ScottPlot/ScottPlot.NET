@@ -4,9 +4,9 @@ Description: Bars can be grouped by position and color.
 URL: /cookbook/5.0/Bar/GroupedBarPlot/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Bar Plot", "Grouped Bar Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Bar", "/cookbook/5.0/Bar/GroupedBarPlot"]
-Date: 2024-01-19
-Version: ScottPlot 5.0.19
-Version: ScottPlot 5.0.19
+Date: 2024-01-22
+Version: ScottPlot 5.0.20
+Version: ScottPlot 5.0.20
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -23,28 +23,24 @@ Bars can be grouped by position and color.
 ```cs
 ScottPlot.Plot myPlot = new();
 
-Color[] colors = {
-    myPlot.Palette.GetColor(0),
-    myPlot.Palette.GetColor(1),
-    myPlot.Palette.GetColor(2),
-};
+ScottPlot.Palettes.Category10 palette = new();
 
 ScottPlot.Bar[] bars =
 {
     // first group
-    new() { Position = 1, Value = 2, FillColor = colors[0], Error = 1 },
-    new() { Position = 2, Value = 5, FillColor = colors[1], Error = 2 },
-    new() { Position = 3, Value = 7, FillColor = colors[2], Error = 1 },
+    new() { Position = 1, Value = 2, FillColor = palette.GetColor(0), Error = 1 },
+    new() { Position = 2, Value = 5, FillColor = palette.GetColor(1), Error = 2 },
+    new() { Position = 3, Value = 7, FillColor = palette.GetColor(2), Error = 1 },
 
     // second group
-    new() { Position = 5, Value = 4, FillColor = colors[0], Error = 2 },
-    new() { Position = 6, Value = 7, FillColor = colors[1], Error = 1 },
-    new() { Position = 7, Value = 13, FillColor = colors[2], Error = 3 },
+    new() { Position = 5, Value = 4, FillColor = palette.GetColor(0), Error = 2 },
+    new() { Position = 6, Value = 7, FillColor = palette.GetColor(1), Error = 1 },
+    new() { Position = 7, Value = 13, FillColor = palette.GetColor(2), Error = 3 },
 
     // third group
-    new() { Position = 9, Value = 5, FillColor = colors[0], Error = 1 },
-    new() { Position = 10, Value = 6, FillColor = colors[1], Error = 3 },
-    new() { Position = 11, Value = 11, FillColor = colors[2], Error = 2 },
+    new() { Position = 9, Value = 5, FillColor = palette.GetColor(0), Error = 1 },
+    new() { Position = 10, Value = 6, FillColor = palette.GetColor(1), Error = 3 },
+    new() { Position = 11, Value = 11, FillColor = palette.GetColor(2), Error = 2 },
 };
 
 myPlot.Add.Bars(bars);
@@ -52,9 +48,13 @@ myPlot.Add.Bars(bars);
 // build the legend manually
 myPlot.Legend.IsVisible = true;
 myPlot.Legend.Location = Alignment.UpperLeft;
-myPlot.Legend.ManualItems.Add(new LegendItem() { Label = "Monday", FillColor = colors[0] });
-myPlot.Legend.ManualItems.Add(new LegendItem() { Label = "Tuesday", FillColor = colors[1] });
-myPlot.Legend.ManualItems.Add(new LegendItem() { Label = "Wednesday", FillColor = colors[2] });
+
+LegendItem[] legendItems =
+{
+    new() { Label = "Monday", FillColor = palette.GetColor(0) },
+    new() { Label = "Tuesday", FillColor = palette.GetColor(1) },
+    new() { Label = "Wednesday", FillColor = palette.GetColor(2) }
+};
 
 // show group labels on the bottom axis
 Tick[] ticks =

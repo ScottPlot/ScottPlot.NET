@@ -1,8 +1,8 @@
 ---
 Title: "Styling Brackets - ScottPlot 4.1 Cookbook"
 Description: "Brackets have additional options for customizations."
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/bracket_style/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Bracket", "Styling Brackets"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-bracket", "/cookbook/4.1/recipes/bracket_style/"]
@@ -17,7 +17,7 @@ Brackets have additional options for customizations.
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 plt.AddBracket(-1, 0, 0, 1, "Default Style");

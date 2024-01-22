@@ -4,9 +4,9 @@ Description: Bars can be positioned on top of each other.
 URL: /cookbook/5.0/Bar/BarStackVertically/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Bar Plot", "Stacked Bar Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Bar", "/cookbook/5.0/Bar/BarStackVertically"]
-Date: 2024-01-19
-Version: ScottPlot 5.0.19
-Version: ScottPlot 5.0.19
+Date: 2024-01-22
+Version: ScottPlot 5.0.20
+Version: ScottPlot 5.0.20
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -23,23 +23,19 @@ Bars can be positioned on top of each other.
 ```cs
 ScottPlot.Plot myPlot = new();
 
-Color[] colors = {
-    myPlot.Palette.GetColor(0),
-    myPlot.Palette.GetColor(1),
-    myPlot.Palette.GetColor(2),
-};
+ScottPlot.Palettes.Category10 palette = new();
 
 ScottPlot.Bar[] bars =
 {
     // first set of stacked bars
-    new() { Position = 1, ValueBase = 0, Value = 2, FillColor = colors[0] },
-    new() { Position = 1, ValueBase = 2, Value = 5, FillColor = colors[1] },
-    new() { Position = 1, ValueBase = 5, Value = 10, FillColor = colors[2] },
+    new() { Position = 1, ValueBase = 0, Value = 2, FillColor = palette.GetColor(0) },
+    new() { Position = 1, ValueBase = 2, Value = 5, FillColor = palette.GetColor(1) },
+    new() { Position = 1, ValueBase = 5, Value = 10, FillColor = palette.GetColor(2) },
 
     // second set of stacked bars
-    new() { Position = 2, ValueBase = 0, Value = 4, FillColor = colors[0] },
-    new() { Position = 2, ValueBase = 4, Value = 7, FillColor = colors[1] },
-    new() { Position = 2, ValueBase = 7, Value = 10, FillColor = colors[2] },
+    new() { Position = 2, ValueBase = 0, Value = 4, FillColor = palette.GetColor(0) },
+    new() { Position = 2, ValueBase = 4, Value = 7, FillColor = palette.GetColor(1) },
+    new() { Position = 2, ValueBase = 7, Value = 10, FillColor = palette.GetColor(2) },
 };
 
 myPlot.Add.Bars(bars);

@@ -1,8 +1,8 @@
 ---
 Title: "Quickstart - ScottPlot 4.1 Cookbook"
 Description: "A vector field can be useful to show data explained by differential equations"
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/vectorfield_quickstart/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Vector Field", "Quickstart"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-vector-field", "/cookbook/4.1/recipes/vectorfield_quickstart/"]
@@ -17,7 +17,7 @@ A vector field can be useful to show data explained by differential equations
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 double[] xPositions = DataGen.Range(0, 10);

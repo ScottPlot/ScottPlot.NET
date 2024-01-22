@@ -1,8 +1,8 @@
 ---
 Title: "Setting Multi Axis Limits - ScottPlot 4.1 Cookbook"
 Description: "Axis limits can be set for each axis by indicating which axis index you are wish to modify when setting axis limits."
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/multiaxis_limits/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Multi-Axis", "Setting Multi Axis Limits"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/multi-axis", "/cookbook/4.1/recipes/multiaxis_limits/"]
@@ -17,7 +17,7 @@ Axis limits can be set for each axis by indicating which axis index you are wish
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 // signal one on the primary Y axis

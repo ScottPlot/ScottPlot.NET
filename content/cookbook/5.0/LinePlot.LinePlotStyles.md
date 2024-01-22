@@ -4,9 +4,9 @@ Description: Line plots can be styled using a LineStyle.
 URL: /cookbook/5.0/LinePlot/LinePlotStyles/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Line Plot", "Line Plot Shapes"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/LinePlot", "/cookbook/5.0/LinePlot/LinePlotStyles"]
-Date: 2024-01-19
-Version: ScottPlot 5.0.19
-Version: ScottPlot 5.0.19
+Date: 2024-01-22
+Version: ScottPlot 5.0.20
+Version: ScottPlot 5.0.20
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -33,14 +33,14 @@ for (int i = 0; i < 10; i++)
     var line = myPlot.Add.Line(start, end);
 
     // customize the line
-    line.LineStyle.Color = Generate.RandomColor(colormap);
-    line.LineStyle.Width = Generate.RandomInteger(1, 4);
-    line.LineStyle.Pattern = Generate.RandomLinePattern();
+    line.LineColor = Generate.RandomColor(colormap);
+    line.LineWidth = Generate.RandomInteger(1, 4);
+    line.LinePattern = Generate.RandomLinePattern();
 
     // customize markers
-    line.MarkerStyle.Fill.Color = line.LineStyle.Color;
-    line.MarkerStyle.Shape = Generate.RandomMarkerShape();
-    line.MarkerStyle.Size = Generate.RandomInteger(5, 15);
+    line.MarkerColor = line.LineStyle.Color;
+    line.MarkerShape = Generate.RandomMarkerShape();
+    line.MarkerSize = Generate.RandomInteger(5, 15);
 }
 
 myPlot.SavePng("demo.png", 400, 300);

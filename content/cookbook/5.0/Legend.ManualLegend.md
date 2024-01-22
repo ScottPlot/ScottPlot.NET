@@ -1,17 +1,17 @@
 ---
-Title: Manual Legend - ScottPlot 5.0 Cookbook
+Title: Manual Legend Items - ScottPlot 5.0 Cookbook
 Description: Legends may be constructed manually.
 URL: /cookbook/5.0/Legend/ManualLegend/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Configuring Legends", "Manual Legend"]
+BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Configuring Legends", "Manual Legend Items"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Legend", "/cookbook/5.0/Legend/ManualLegend"]
-Date: 2024-01-19
-Version: ScottPlot 5.0.19
-Version: ScottPlot 5.0.19
+Date: 2024-01-22
+Version: ScottPlot 5.0.20
+Version: ScottPlot 5.0.20
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
 
-# Manual Legend
+# Manual Legend Items
 
 
 Legends may be constructed manually.
@@ -23,24 +23,28 @@ Legends may be constructed manually.
 ```cs
 ScottPlot.Plot myPlot = new();
 
-myPlot.Add.Signal(ScottPlot.Generate.Sin(51));
-myPlot.Add.Signal(ScottPlot.Generate.Cos(51));
-
+myPlot.Add.Signal(Generate.Sin(51));
+myPlot.Add.Signal(Generate.Cos(51));
 myPlot.Legend.IsVisible = true;
 
-myPlot.Legend.ManualItems.Add(new LegendItem()
+LegendItem item1 = new()
 {
     LineColor = Colors.Magenta,
+    MarkerColor = Colors.Magenta,
     LineWidth = 2,
     Label = "Alpha"
-});
+};
 
-myPlot.Legend.ManualItems.Add(new LegendItem()
+LegendItem item2 = new()
 {
     LineColor = Colors.Green,
+    MarkerColor = Colors.Green,
     LineWidth = 4,
     Label = "Beta"
-});
+};
+
+LegendItem[] items = { item1, item2 };
+myPlot.ShowLegend(items);
 
 myPlot.SavePng("demo.png", 400, 300);
 

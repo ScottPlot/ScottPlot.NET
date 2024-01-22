@@ -1,8 +1,8 @@
 ---
 Title: "Bar Fill Pattern - ScottPlot 4.1 Cookbook"
 Description: "Bar graph fill pattern can be customized."
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/bar_pattern/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Bar Graph", "Bar Fill Pattern"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-bar-graph", "/cookbook/4.1/recipes/bar_pattern/"]
@@ -17,7 +17,7 @@ Bar graph fill pattern can be customized.
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 var bar1 = plt.AddBar(new double[] { 10, 13, 15 }, new double[] { 1, 5, 9 });

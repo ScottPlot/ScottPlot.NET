@@ -1,8 +1,8 @@
 ---
 Title: "Filled Line Plot - ScottPlot 4.1 Cookbook"
 Description: "Polygons can be used to create 2D shapes resembling filled line plots. When mixed with semitransprent fills, these can be useful for displaying data."
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/polygon_filledlineplot/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Polygon", "Filled Line Plot"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-polygon", "/cookbook/4.1/recipes/polygon_filledlineplot/"]
@@ -17,7 +17,7 @@ Polygons can be used to create 2D shapes resembling filled line plots. When mixe
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 // create sample data

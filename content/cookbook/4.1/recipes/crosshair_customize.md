@@ -1,8 +1,8 @@
 ---
 Title: "Crosshair Customization - ScottPlot 4.1 Cookbook"
 Description: "Crosshair styling and label formatting can be customized by accessing public fields."
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/crosshair_customize/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Crosshair", "Crosshair Customization"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-crosshair", "/cookbook/4.1/recipes/crosshair_customize/"]
@@ -17,7 +17,7 @@ Crosshair styling and label formatting can be customized by accessing public fie
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 plt.Title("Customized Crosshair");

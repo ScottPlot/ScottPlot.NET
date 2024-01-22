@@ -1,8 +1,8 @@
 ---
 Title: "Draw Grid Above Plottables - ScottPlot 4.1 Cookbook"
 Description: "Sometimes it's useful to draw the grid lines above the plottables rather than below."
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/axis_gridabove/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Axis and Ticks", "Draw Grid Above Plottables"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/axis-and-ticks", "/cookbook/4.1/recipes/axis_gridabove/"]
@@ -17,7 +17,7 @@ Sometimes it's useful to draw the grid lines above the plottables rather than be
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 double[] xs = DataGen.Consecutive(51);

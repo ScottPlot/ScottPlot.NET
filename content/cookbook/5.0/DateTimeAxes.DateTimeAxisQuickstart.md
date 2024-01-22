@@ -4,9 +4,9 @@ Description: Axis tick labels can be displayed using a time format.
 URL: /cookbook/5.0/DateTimeAxes/DateTimeAxisQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "DateTime Axes", "DateTime Axis Quickstart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/DateTimeAxes", "/cookbook/5.0/DateTimeAxes/DateTimeAxisQuickstart"]
-Date: 2024-01-19
-Version: ScottPlot 5.0.19
-Version: ScottPlot 5.0.19
+Date: 2024-01-22
+Version: ScottPlot 5.0.20
+Version: ScottPlot 5.0.20
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -23,13 +23,10 @@ Axis tick labels can be displayed using a time format.
 ```cs
 ScottPlot.Plot myPlot = new();
 
-// begin with an array of DateTime values
-DateTime[] dates = ScottPlot.Generate.DateTime.Days(100);
-
-// convert DateTime to OLE Automation (OADate) format
-double[] xs = dates.Select(x => x.ToOADate()).ToArray();
-double[] ys = ScottPlot.Generate.RandomWalk(xs.Length);
-myPlot.Add.Scatter(xs, ys);
+// plot data using DateTime units
+DateTime[] dates = Generate.DateTime.Days(100);
+double[] ys = Generate.RandomWalk(100);
+myPlot.Add.Scatter(dates, ys);
 
 // tell the plot to display dates on the bottom axis
 myPlot.Axes.DateTimeTicks(Edge.Bottom);

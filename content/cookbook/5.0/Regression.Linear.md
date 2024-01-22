@@ -4,9 +4,9 @@ Description: Fit a line to a collection of X/Y data points.
 URL: /cookbook/5.0/Regression/Linear/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Regression", "LinearRegression"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Regression", "/cookbook/5.0/Regression/Linear"]
-Date: 2024-01-19
-Version: ScottPlot 5.0.19
-Version: ScottPlot 5.0.19
+Date: 2024-01-22
+Version: ScottPlot 5.0.20
+Version: ScottPlot 5.0.20
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -29,7 +29,7 @@ double[] ys = new double[] { 2, 2, 3, 3, 3.8, 4.2, 4 };
 // plot original data as a scatter plot
 var sp = myPlot.Add.Scatter(xs, ys);
 sp.LineStyle = LineStyle.None;
-sp.MarkerStyle.Size = 10;
+sp.MarkerSize = 10;
 
 // calculate the regression line
 ScottPlot.Statistics.LinearRegression reg = new(xs, ys);
@@ -38,12 +38,12 @@ ScottPlot.Statistics.LinearRegression reg = new(xs, ys);
 Coordinates pt1 = new(xs.First(), reg.GetValue(xs.First()));
 Coordinates pt2 = new(xs.Last(), reg.GetValue(xs.Last()));
 var line = myPlot.Add.Line(pt1, pt2);
-line.MarkerStyle = MarkerStyle.None;
-line.LineStyle.Pattern = LinePattern.Dashed;
-line.LineStyle.Width = 2;
+line.MarkerSize = 0;
+line.LineWidth = 2;
+line.LinePattern = LinePattern.Dashed;
 
 // note the formula at the top of the plot
-myPlot.Title($"y = {reg.Slope:0.###}x + {reg.Offset:0.###} (r²={reg.Rsquared:0.###})");
+myPlot.Title(reg.FormulaWithRSquared);
 
 myPlot.SavePng("demo.png", 400, 300);
 

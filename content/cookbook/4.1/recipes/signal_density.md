@@ -1,8 +1,8 @@
 ---
 Title: "Display data density - ScottPlot 4.1 Cookbook"
 Description: "When plotting extremely high density data, you can't always see the trends underneath all those overlapping data points. If you send an array of colors to PlotSignal(), it will use those colors to display density."
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/signal_density/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Signal Plot", "Display data density"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-signal-plot", "/cookbook/4.1/recipes/signal_density/"]
@@ -17,7 +17,7 @@ When plotting extremely high density data, you can't always see the trends under
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 // create an extremely noisy signal with a subtle sine wave beneath it

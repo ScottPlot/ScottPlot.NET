@@ -1,8 +1,8 @@
 ---
 Title: "Scaled Arrowheads - ScottPlot 4.1 Cookbook"
 Description: "Use a slower drawing method that draws tips that are proportional to the length of the arrows."
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/vectorfield_fancytips/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Vector Field", "Scaled Arrowheads"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-vector-field", "/cookbook/4.1/recipes/vectorfield_fancytips/"]
@@ -17,7 +17,7 @@ Use a slower drawing method that draws tips that are proportional to the length 
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 double[] xPositions = DataGen.Range(0, 10);

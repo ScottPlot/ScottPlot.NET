@@ -1,8 +1,8 @@
 ---
 Title: "Right Y Axis - ScottPlot 4.1 Cookbook"
 Description: "This example demonstrates how to display a Y axis on the right side of the figure. The vertical axis to the right of the figure is index 1, so plots must be updated to indicate they are to use a nonstandard axis index."
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/multiaxis_right/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Multi-Axis", "Right Y Axis"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/multi-axis", "/cookbook/4.1/recipes/multiaxis_right/"]
@@ -17,7 +17,7 @@ This example demonstrates how to display a Y axis on the right side of the figur
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 double[] values = DataGen.RandomWalk(100);

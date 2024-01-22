@@ -1,8 +1,8 @@
 ---
 Title: "Legend - ScottPlot 4.1 Cookbook"
 Description: "Most plottable objects have a Label which defines how they appear in the legend"
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/quickstart_legend/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Quickstart", "Legend"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/quickstart", "/cookbook/4.1/recipes/quickstart_legend/"]
@@ -17,7 +17,7 @@ Most plottable objects have a Label which defines how they appear in the legend
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 double[] xs = DataGen.Consecutive(51);

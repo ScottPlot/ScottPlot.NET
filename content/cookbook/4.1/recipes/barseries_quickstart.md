@@ -1,8 +1,8 @@
 ---
 Title: "BarSeries Quickstart - ScottPlot 4.1 Cookbook"
 Description: "A BarSeries plot allows each Bar to be created and customized individually."
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/barseries_quickstart/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Bar Series", "BarSeries Quickstart"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-bar-series", "/cookbook/4.1/recipes/barseries_quickstart/"]
@@ -17,7 +17,7 @@ A BarSeries plot allows each Bar to be created and customized individually.
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 // Create a collection of Bar objects

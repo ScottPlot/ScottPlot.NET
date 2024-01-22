@@ -1,8 +1,8 @@
 ---
 Title: "Colors - ScottPlot 4.1 Cookbook"
 Description: "List of Colors from all ScottPlot Palettes"
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/colors/
 ---
 

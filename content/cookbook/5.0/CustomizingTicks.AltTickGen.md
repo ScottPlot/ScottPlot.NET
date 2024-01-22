@@ -4,9 +4,9 @@ Description: Tick generators determine where ticks are to be placed and also con
 URL: /cookbook/5.0/CustomizingTicks/AltTickGen/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Customizing Ticks", "Custom Tick Generators"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/CustomizingTicks", "/cookbook/5.0/CustomizingTicks/AltTickGen"]
-Date: 2024-01-19
-Version: ScottPlot 5.0.19
-Version: ScottPlot 5.0.19
+Date: 2024-01-22
+Version: ScottPlot 5.0.20
+Version: ScottPlot 5.0.20
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -23,8 +23,8 @@ Tick generators determine where ticks are to be placed and also contain logic fo
 ```cs
 ScottPlot.Plot myPlot = new();
 
-myPlot.Add.Signal(ScottPlot.Generate.Sin(51));
-myPlot.Add.Signal(ScottPlot.Generate.Cos(51));
+myPlot.Add.Signal(Generate.Sin(51));
+myPlot.Add.Signal(Generate.Cos(51));
 
 myPlot.Axes.Bottom.TickGenerator = new ScottPlot.TickGenerators.NumericFixedInterval(11);
 

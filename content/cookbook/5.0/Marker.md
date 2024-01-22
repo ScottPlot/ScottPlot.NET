@@ -4,9 +4,9 @@ Description: Markers can be placed on the plot in coordinate space.
 URL: /cookbook/5.0/Marker/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Marker"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Marker"]
-Date: 2024-01-19
-Version: ScottPlot 5.0.19
-Version: ScottPlot 5.0.19
+Date: 2024-01-22
+Version: ScottPlot 5.0.20
+Version: ScottPlot 5.0.20
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -85,11 +85,12 @@ Markers with labels appear in the legend.
 ScottPlot.Plot myPlot = new();
 
 var sin = myPlot.Add.Signal(Generate.Sin());
-var cos = myPlot.Add.Signal(Generate.Cos());
-var marker = myPlot.Add.Marker(25, .5);
-
 sin.Label = "Sine";
+
+var cos = myPlot.Add.Signal(Generate.Cos());
 cos.Label = "Cosine";
+
+var marker = myPlot.Add.Marker(25, .5);
 marker.Label = "Marker";
 myPlot.ShowLegend();
 

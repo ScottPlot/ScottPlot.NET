@@ -1,8 +1,8 @@
 ---
 Title: "Parallel Processing - ScottPlot 4.1 Cookbook"
 Description: "Heatmaps have opt-in parallel processing which may improve performance when calling Update() for large datasets."
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/heatmap_parallel/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Heatmap", "Parallel Processing"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-heatmap", "/cookbook/4.1/recipes/heatmap_parallel/"]
@@ -17,7 +17,7 @@ Heatmaps have opt-in parallel processing which may improve performance when call
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 double[,] data = Generate.Sin2D(width: 1_000, height: 1_000);

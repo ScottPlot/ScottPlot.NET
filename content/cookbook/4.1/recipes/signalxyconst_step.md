@@ -1,8 +1,8 @@
 ---
 Title: "SignalConst Step Mode - ScottPlot 4.1 Cookbook"
 Description: "Data points can be connected with steps (instead of straight lines)."
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/signalxyconst_step/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "SignalXY", "SignalConst Step Mode"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-signalxy", "/cookbook/4.1/recipes/signalxyconst_step/"]
@@ -17,7 +17,7 @@ Data points can be connected with steps (instead of straight lines).
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 // generate random, unevenly-spaced data

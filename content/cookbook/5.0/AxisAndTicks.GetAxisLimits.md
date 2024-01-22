@@ -1,12 +1,12 @@
 ---
 Title: Read Axis Limits - ScottPlot 5.0 Cookbook
-Description: The current axis limits can be read in multiple ways.
+Description: Use GetLimits() to obtain the current axis limits.
 URL: /cookbook/5.0/AxisAndTicks/GetAxisLimits/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Axis and Ticks", "Read Axis Limits"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AxisAndTicks", "/cookbook/5.0/AxisAndTicks/GetAxisLimits"]
-Date: 2024-01-19
-Version: ScottPlot 5.0.19
-Version: ScottPlot 5.0.19
+Date: 2024-01-22
+Version: ScottPlot 5.0.20
+Version: ScottPlot 5.0.20
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -14,7 +14,7 @@ ShowEditLink: false
 # Read Axis Limits
 
 
-The current axis limits can be read in multiple ways.
+Use GetLimits() to obtain the current axis limits.
 
 [![](/cookbook/5.0/images/GetAxisLimits.png)](/cookbook/5.0/images/GetAxisLimits.png)
 
@@ -26,14 +26,11 @@ ScottPlot.Plot myPlot = new();
 myPlot.Add.Signal(Generate.Sin(51));
 myPlot.Add.Signal(Generate.Cos(51));
 
-// Interact with a specific axis
-double top = myPlot.Axes.Left.Max;
-double bottom = myPlot.Axes.Left.Min;
-
-// Call a helper function
 AxisLimits limits = myPlot.Axes.GetLimits();
-double left = limits.Rect.Left;
-double center = limits.Rect.HorizontalCenter;
+double xMin = limits.Left;
+double xMax = limits.Right;
+double yMin = limits.Bottom;
+double yMax = limits.Top;
 
 myPlot.SavePng("demo.png", 400, 300);
 

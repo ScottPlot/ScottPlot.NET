@@ -4,9 +4,9 @@ Description: Users can customize the logic used to create tick labels from tick 
 URL: /cookbook/5.0/CustomizingTicks/CustomTickFormatter/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Customizing Ticks", "Custom Tick Formatters"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/CustomizingTicks", "/cookbook/5.0/CustomizingTicks/CustomTickFormatter"]
-Date: 2024-01-19
-Version: ScottPlot 5.0.19
-Version: ScottPlot 5.0.19
+Date: 2024-01-22
+Version: ScottPlot 5.0.20
+Version: ScottPlot 5.0.20
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -23,9 +23,9 @@ Users can customize the logic used to create tick labels from tick positions.
 ```cs
 ScottPlot.Plot myPlot = new();
 
-double[] xs = ScottPlot.Generate.Consecutive(100, 1, -50);
-myPlot.Add.Scatter(xs, ScottPlot.Generate.Sin(100));
-myPlot.Add.Scatter(xs, ScottPlot.Generate.Cos(100));
+double[] xs = Generate.Consecutive(100, 1, -50);
+myPlot.Add.Scatter(xs, Generate.Sin(100));
+myPlot.Add.Scatter(xs, Generate.Cos(100));
 
 // create a static function containing the string formatting logic
 static string CustomFormatter(double position)

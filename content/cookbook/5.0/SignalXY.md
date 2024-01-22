@@ -4,9 +4,9 @@ Description: SignalXY are a high performance plot type optimized for X/Y pairs w
 URL: /cookbook/5.0/SignalXY/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "SignalXY Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/SignalXY"]
-Date: 2024-01-19
-Version: ScottPlot 5.0.19
-Version: ScottPlot 5.0.19
+Date: 2024-01-22
+Version: ScottPlot 5.0.20
+Version: ScottPlot 5.0.20
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -147,6 +147,32 @@ var sig1 = myPlot.Add.SignalXY(xs, ys);
 var sig2 = myPlot.Add.SignalXY(xs, ys);
 sig2.Data.XOffset = 250;
 sig2.Data.YOffset = .5;
+
+myPlot.SavePng("demo.png", 400, 300);
+
+```
+
+{{< /code-sp5 >}}
+
+<hr class='my-5 invisible'>
+
+
+<h2><a href='/cookbook/5.0/SignalXY/VerticalSignalXY'>Vertical SignalXY</a></h2>
+
+Although SignalXY plots typically display data left-to-right, it is possible to use this plot type to display data bottom-to-top.
+
+[![](/cookbook/5.0/images/VerticalSignalXY.png)](/cookbook/5.0/images/VerticalSignalXY.png)
+
+{{< code-sp5 >}}
+
+```cs
+ScottPlot.Plot myPlot = new();
+
+double[] xs = Generate.Consecutive(1000);
+double[] ys = Generate.RandomWalk(1000);
+
+var sig1 = myPlot.Add.SignalXY(xs, ys);
+sig1.Data.Rotated = true;
 
 myPlot.SavePng("demo.png", 400, 300);
 

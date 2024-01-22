@@ -1,8 +1,8 @@
 ---
 Title: "Frameless Heatmap - ScottPlot 4.1 Cookbook"
 Description: "Disable the frame and set margins to zero to create a heatmap plot that fills the entire image."
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/heatmap_frameless/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Heatmap", "Frameless Heatmap"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-heatmap", "/cookbook/4.1/recipes/heatmap_frameless/"]
@@ -17,7 +17,7 @@ Disable the frame and set margins to zero to create a heatmap plot that fills th
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 double[,] imageData = DataGen.SampleImageData();

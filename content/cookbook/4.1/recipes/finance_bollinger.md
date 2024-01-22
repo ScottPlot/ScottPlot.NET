@@ -1,8 +1,8 @@
 ---
 Title: "Bollinger Bands - ScottPlot 4.1 Cookbook"
 Description: "Bollinger bands are a common technical indicator that show the average +/- two times the standard deviation of a given time range preceeding it."
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/finance_bollinger/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Finance", "Bollinger Bands"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-finance", "/cookbook/4.1/recipes/finance_bollinger/"]
@@ -17,7 +17,7 @@ Bollinger bands are a common technical indicator that show the average +/- two t
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 OHLC[] ohlcs = DataGen.RandomStockPrices(null, 100);

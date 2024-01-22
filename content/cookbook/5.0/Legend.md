@@ -4,9 +4,9 @@ Description: A legend is a key typically displayed in the corner of a plot
 URL: /cookbook/5.0/Legend/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Configuring Legends"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Legend"]
-Date: 2024-01-19
-Version: ScottPlot 5.0.19
-Version: ScottPlot 5.0.19
+Date: 2024-01-22
+Version: ScottPlot 5.0.20
+Version: ScottPlot 5.0.20
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -14,31 +14,24 @@ ShowEditLink: false
 # Configuring Legends
 
 
-<h2><a href='/cookbook/5.0/Legend/LegendStyle'>Legend Customization</a></h2>
+<h2><a href='/cookbook/5.0/Legend/LegendQuickstart'>Legend Quickstart</a></h2>
 
-The default legend can be easily accessed and customized. It is possible to add multiple legends, including custom ones implementing ILegend.
+Many plottables have a Label property that can be set so they appear in the legend.
 
-[![](/cookbook/5.0/images/LegendStyle.png)](/cookbook/5.0/images/LegendStyle.png)
+[![](/cookbook/5.0/images/LegendQuickstart.png)](/cookbook/5.0/images/LegendQuickstart.png)
 
 {{< code-sp5 >}}
 
 ```cs
 ScottPlot.Plot myPlot = new();
 
-var sig1 = myPlot.Add.Signal(ScottPlot.Generate.Sin(51));
+var sig1 = myPlot.Add.Signal(Generate.Sin(51));
 sig1.Label = "Sin";
 
-var sig2 = myPlot.Add.Signal(ScottPlot.Generate.Cos(51));
+var sig2 = myPlot.Add.Signal(Generate.Cos(51));
 sig2.Label = "Cos";
 
-myPlot.Legend.IsVisible = true;
-myPlot.Legend.OutlineStyle.Color = Colors.Navy;
-myPlot.Legend.OutlineStyle.Width = 2;
-myPlot.Legend.BackgroundFill.Color = Colors.LightBlue;
-myPlot.Legend.ShadowFill.Color = Colors.Blue.WithOpacity(.5);
-myPlot.Legend.Font.Size = 16;
-myPlot.Legend.Font.Name = Fonts.Serif;
-myPlot.Legend.Location = Alignment.UpperCenter;
+myPlot.ShowLegend();
 
 myPlot.SavePng("demo.png", 400, 300);
 
@@ -49,7 +42,7 @@ myPlot.SavePng("demo.png", 400, 300);
 <hr class='my-5 invisible'>
 
 
-<h2><a href='/cookbook/5.0/Legend/ManualLegend'>Manual Legend</a></h2>
+<h2><a href='/cookbook/5.0/Legend/ManualLegend'>Manual Legend Items</a></h2>
 
 Legends may be constructed manually.
 
@@ -60,24 +53,63 @@ Legends may be constructed manually.
 ```cs
 ScottPlot.Plot myPlot = new();
 
-myPlot.Add.Signal(ScottPlot.Generate.Sin(51));
-myPlot.Add.Signal(ScottPlot.Generate.Cos(51));
-
+myPlot.Add.Signal(Generate.Sin(51));
+myPlot.Add.Signal(Generate.Cos(51));
 myPlot.Legend.IsVisible = true;
 
-myPlot.Legend.ManualItems.Add(new LegendItem()
+LegendItem item1 = new()
 {
     LineColor = Colors.Magenta,
+    MarkerColor = Colors.Magenta,
     LineWidth = 2,
     Label = "Alpha"
-});
+};
 
-myPlot.Legend.ManualItems.Add(new LegendItem()
+LegendItem item2 = new()
 {
     LineColor = Colors.Green,
+    MarkerColor = Colors.Green,
     LineWidth = 4,
     Label = "Beta"
-});
+};
+
+LegendItem[] items = { item1, item2 };
+myPlot.ShowLegend(items);
+
+myPlot.SavePng("demo.png", 400, 300);
+
+```
+
+{{< /code-sp5 >}}
+
+<hr class='my-5 invisible'>
+
+
+<h2><a href='/cookbook/5.0/Legend/LegendStyle'>Legend Customization</a></h2>
+
+Access the Legend object directly for advanced customization options.
+
+[![](/cookbook/5.0/images/LegendStyle.png)](/cookbook/5.0/images/LegendStyle.png)
+
+{{< code-sp5 >}}
+
+```cs
+ScottPlot.Plot myPlot = new();
+
+var sig1 = myPlot.Add.Signal(Generate.Sin(51));
+sig1.Label = "Sin";
+
+var sig2 = myPlot.Add.Signal(Generate.Cos(51));
+sig2.Label = "Cos";
+
+myPlot.Legend.IsVisible = true;
+myPlot.Legend.OutlineStyle.Color = Colors.Navy;
+myPlot.Legend.OutlineStyle.Width = 2;
+myPlot.Legend.BackgroundFill.Color = Colors.LightBlue;
+myPlot.Legend.ShadowFill.Color = Colors.Blue.WithOpacity(.5);
+myPlot.Legend.Font.Size = 16;
+myPlot.Legend.Font.Name = Fonts.Serif;
+myPlot.Legend.Location = Alignment.UpperCenter;
 
 myPlot.SavePng("demo.png", 400, 300);
 

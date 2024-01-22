@@ -1,8 +1,8 @@
 ---
 Title: "Axis Zoom Limit - ScottPlot 4.1 Cookbook"
 Description: "Axes can be given a zoom limit which allows the user to pan everywhere but never zoom in beyond a given span"
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/axis_zoomlimit/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Axis and Ticks", "Axis Zoom Limit"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/axis-and-ticks", "/cookbook/4.1/recipes/axis_zoomlimit/"]
@@ -17,7 +17,7 @@ Axes can be given a zoom limit which allows the user to pan everywhere but never
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 plt.AddSignal(DataGen.Sin(51));

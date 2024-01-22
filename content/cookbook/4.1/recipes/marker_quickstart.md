@@ -1,8 +1,8 @@
 ---
 Title: "Marker - ScottPlot 4.1 Cookbook"
 Description: "You can place individual markers anywhere on the plot. "
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/marker_quickstart/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Marker", "Marker"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-marker", "/cookbook/4.1/recipes/marker_quickstart/"]
@@ -17,7 +17,7 @@ You can place individual markers anywhere on the plot.
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 var colormap = ScottPlot.Drawing.Colormap.Turbo;

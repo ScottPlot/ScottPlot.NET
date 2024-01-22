@@ -1,8 +1,8 @@
 ---
 Title: "Lollipop Plot Customizations - ScottPlot 4.1 Cookbook"
 Description: "Lollipop plots can be extensively customized."
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/bar_lollipop_custom/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Bar Graph", "Lollipop Plot Customizations"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-bar-graph", "/cookbook/4.1/recipes/bar_lollipop_custom/"]
@@ -17,7 +17,7 @@ Lollipop plots can be extensively customized.
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 double[] values = { 26, 20, 23, 7, 16 };

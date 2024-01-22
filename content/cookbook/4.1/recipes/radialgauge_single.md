@@ -1,8 +1,8 @@
 ---
 Title: "Single Gauge Mode - ScottPlot 4.1 Cookbook"
 Description: "The SingleGauge mode draws all gauges stacked together as a single gauge. This is useful for showing a progress gauges composed of many individual smaller gauges."
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/radialgauge_single/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Radial Gauge", "Single Gauge Mode"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-radialgauge", "/cookbook/4.1/recipes/radialgauge_single/"]
@@ -17,7 +17,7 @@ The SingleGauge mode draws all gauges stacked together as a single gauge. This i
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 plt.Palette = ScottPlot.Palette.Nord;

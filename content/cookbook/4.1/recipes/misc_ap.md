@@ -1,8 +1,8 @@
 ---
 Title: "Action Potential - ScottPlot 4.1 Cookbook"
 Description: "The raw trace (voltage) and first derivative (voltage change / time) of a mammalian action potential."
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/misc_ap/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Miscellaneous", "Action Potential"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/misc", "/cookbook/4.1/recipes/misc_ap/"]
@@ -17,7 +17,7 @@ The raw trace (voltage) and first derivative (voltage change / time) of a mammal
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 // obtain a signal for the voltage

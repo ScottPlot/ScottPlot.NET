@@ -4,9 +4,9 @@ Description: Functions that add things to plots return the plottables they creat
 URL: /cookbook/5.0/Quickstart/CustomizingPlottables/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "ScottPlot 5 Quickstart", "Customizing Plottables"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Quickstart", "/cookbook/5.0/Quickstart/CustomizingPlottables"]
-Date: 2024-01-19
-Version: ScottPlot 5.0.19
-Version: ScottPlot 5.0.19
+Date: 2024-01-22
+Version: ScottPlot 5.0.20
+Version: ScottPlot 5.0.20
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -26,10 +26,9 @@ ScottPlot.Plot myPlot = new();
 double[] dataX = { 1, 2, 3, 4, 5 };
 double[] dataY = { 1, 4, 9, 16, 25 };
 var myScatter = myPlot.Add.Scatter(dataX, dataY);
-myScatter.LineStyle.Width = 5;
-myScatter.LineStyle.Color = Colors.Green.WithOpacity(.2);
-myScatter.MarkerStyle.Fill.Color = Colors.Magenta;
-myScatter.MarkerStyle.Size = 15;
+myScatter.Color = Colors.Green.WithOpacity(.2);
+myScatter.LineWidth = 5;
+myScatter.MarkerSize = 15;
 
 myPlot.SavePng("demo.png", 400, 300);
 

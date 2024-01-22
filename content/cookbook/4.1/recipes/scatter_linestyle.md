@@ -1,8 +1,8 @@
 ---
 Title: "Custom lines - ScottPlot 4.1 Cookbook"
 Description: "Line color, size, and style can be customized. Setting markerSize to 0 prevents markers from being rendered."
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/scatter_linestyle/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Scatter Plot", "Custom lines"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-scatter-plot", "/cookbook/4.1/recipes/scatter_linestyle/"]
@@ -17,7 +17,7 @@ Line color, size, and style can be customized. Setting markerSize to 0 prevents 
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 int pointCount = 51;

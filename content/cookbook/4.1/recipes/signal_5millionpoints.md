@@ -1,8 +1,8 @@
 ---
 Title: "5 Million Points - ScottPlot 4.1 Cookbook"
 Description: "Signal plots with millions of points can be interacted with in real time."
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/signal_5millionpoints/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Signal Plot", "5 Million Points"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-signal-plot", "/cookbook/4.1/recipes/signal_5millionpoints/"]
@@ -17,7 +17,7 @@ Signal plots with millions of points can be interacted with in real time.
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 Random rand = new Random(0);

@@ -4,9 +4,9 @@ Description: FillY plots can be created from X, Y1, and Y2 arrays.
 URL: /cookbook/5.0/FillY/FillYFromArrays/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "FillY plot", "FillY From Array Data"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/FillY", "/cookbook/5.0/FillY/FillYFromArrays"]
-Date: 2024-01-19
-Version: ScottPlot 5.0.19
-Version: ScottPlot 5.0.19
+Date: 2024-01-22
+Version: ScottPlot 5.0.20
+Version: ScottPlot 5.0.20
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -26,7 +26,7 @@ ScottPlot.Plot myPlot = new();
 RandomDataGenerator dataGen = new(0);
 
 int count = 20;
-double[] xs = ScottPlot.Generate.Consecutive(count);
+double[] xs = Generate.Consecutive(count);
 double[] ys1 = dataGen.RandomWalk(count, offset: -5);
 double[] ys2 = dataGen.RandomWalk(count, offset: 5);
 

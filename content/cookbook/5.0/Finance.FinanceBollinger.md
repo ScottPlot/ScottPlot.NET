@@ -4,9 +4,9 @@ Description: Tools exist for creating Bollinger Bands which display weighted mov
 URL: /cookbook/5.0/Finance/FinanceBollinger/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Financial Plot", "Bollinger Bands"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Finance", "/cookbook/5.0/Finance/FinanceBollinger"]
-Date: 2024-01-19
-Version: ScottPlot 5.0.19
-Version: ScottPlot 5.0.19
+Date: 2024-01-22
+Version: ScottPlot 5.0.20
+Version: ScottPlot 5.0.20
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -40,13 +40,13 @@ sp1.Color = Colors.Navy;
 var sp2 = myPlot.Add.Scatter(bb.Dates, bb.UpperValues);
 sp2.MarkerSize = 0;
 sp2.Color = Colors.Navy;
-sp2.LineStyle.Pattern = LinePattern.Dotted;
+sp2.LinePattern = LinePattern.Dotted;
 
 // display lower bands (positive variance) as a dashed line
 var sp3 = myPlot.Add.Scatter(bb.Dates, bb.LowerValues);
 sp3.MarkerSize = 0;
 sp3.Color = Colors.Navy;
-sp3.LineStyle.Pattern = LinePattern.Dotted;
+sp3.LinePattern = LinePattern.Dotted;
 
 myPlot.SavePng("demo.png", 400, 300);
 

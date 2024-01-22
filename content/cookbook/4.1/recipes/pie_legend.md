@@ -1,8 +1,8 @@
 ---
 Title: "Slices in Legend - ScottPlot 4.1 Cookbook"
 Description: "Slices can be labeled in the legend."
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/pie_legend/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Pie Chart", "Slices in Legend"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-pie", "/cookbook/4.1/recipes/pie_legend/"]
@@ -17,7 +17,7 @@ Slices can be labeled in the legend.
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 double[] values = { 778, 43, 283, 76, 184 };

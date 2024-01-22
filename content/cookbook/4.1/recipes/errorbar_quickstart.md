@@ -1,8 +1,8 @@
 ---
 Title: "Error Bar Quickstart - ScottPlot 4.1 Cookbook"
 Description: "Error Bars allow more fine-grained control over how your error bars are shown."
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/errorbar_quickstart/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Error Bar", "Error Bar Quickstart"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-error-bar", "/cookbook/4.1/recipes/errorbar_quickstart/"]
@@ -17,7 +17,7 @@ Error Bars allow more fine-grained control over how your error bars are shown.
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 Random rand = new Random(0);

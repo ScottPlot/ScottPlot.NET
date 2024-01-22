@@ -1,8 +1,8 @@
 ---
 Title: "Images as Axis Labels - ScottPlot 4.1 Cookbook"
 Description: "Images can be used as axis labels to allow for things like LaTeX axis labels."
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/asis_image/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Advanced Axis Features", "Images as Axis Labels"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/advanced-axis-features", "/cookbook/4.1/recipes/asis_image/"]
@@ -17,7 +17,7 @@ Images can be used as axis labels to allow for things like LaTeX axis labels.
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 // create an interesting plot

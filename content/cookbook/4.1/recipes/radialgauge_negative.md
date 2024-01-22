@@ -1,8 +1,8 @@
 ---
 Title: "Negative Values - ScottPlot 4.1 Cookbook"
 Description: "Radial gauge plots support positive and negative values."
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/radialgauge_negative/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Radial Gauge", "Negative Values"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-radialgauge", "/cookbook/4.1/recipes/radialgauge_negative/"]
@@ -17,7 +17,7 @@ Radial gauge plots support positive and negative values.
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 plt.Palette = ScottPlot.Palette.Nord;

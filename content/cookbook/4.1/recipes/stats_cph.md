@@ -1,8 +1,8 @@
 ---
 Title: "CPH - ScottPlot 4.1 Cookbook"
 Description: "This example demonstrates how to plot a cumulative probability histogram (CPH) to compare the distribution of two datasets."
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/stats_cph/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Statistics", "CPH"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/statistics", "/cookbook/4.1/recipes/stats_cph/"]
@@ -17,7 +17,7 @@ This example demonstrates how to plot a cumulative probability histogram (CPH) t
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 // create two histogram with fixed bin sizes

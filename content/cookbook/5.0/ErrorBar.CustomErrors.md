@@ -4,9 +4,9 @@ Description: Error size can be set for all dimensions.
 URL: /cookbook/5.0/ErrorBar/CustomErrors/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Error Bars", "ErrorBar Values"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/ErrorBar", "/cookbook/5.0/ErrorBar/CustomErrors"]
-Date: 2024-01-19
-Version: ScottPlot 5.0.19
-Version: ScottPlot 5.0.19
+Date: 2024-01-22
+Version: ScottPlot 5.0.20
+Version: ScottPlot 5.0.20
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -25,18 +25,18 @@ ScottPlot.Plot myPlot = new();
 
 int points = 10;
 
-double[] xs = ScottPlot.Generate.Consecutive(points);
-double[] ys = ScottPlot.Generate.RandomWalk(points);
+double[] xs = Generate.Consecutive(points);
+double[] ys = Generate.RandomWalk(points);
 var scatter = myPlot.Add.Scatter(xs, ys);
 scatter.LineStyle.Width = 0;
 
 ScottPlot.Plottables.ErrorBar eb = new(
     xs: xs,
     ys: ys,
-    xErrorsNegative: ScottPlot.Generate.RandomSample(points, .5),
-    xErrorsPositive: ScottPlot.Generate.RandomSample(points, .5),
-    yErrorsNegative: ScottPlot.Generate.RandomSample(points),
-    yErrorsPositive: ScottPlot.Generate.RandomSample(points));
+    xErrorsNegative: Generate.RandomSample(points, .5),
+    xErrorsPositive: Generate.RandomSample(points, .5),
+    yErrorsNegative: Generate.RandomSample(points),
+    yErrorsPositive: Generate.RandomSample(points));
 
 eb.Color = scatter.Color;
 

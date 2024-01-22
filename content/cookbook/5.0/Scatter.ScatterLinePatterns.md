@@ -4,9 +4,9 @@ Description: Several line patterns are available
 URL: /cookbook/5.0/Scatter/ScatterLinePatterns/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Scatter Plot", "Scatter Line Patterns"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Scatter", "/cookbook/5.0/Scatter/ScatterLinePatterns"]
-Date: 2024-01-19
-Version: ScottPlot 5.0.19
-Version: ScottPlot 5.0.19
+Date: 2024-01-22
+Version: ScottPlot 5.0.20
+Version: ScottPlot 5.0.20
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -35,7 +35,7 @@ for (int i = 0; i < patterns.Length; i++)
     var sp = myPlot.Add.Scatter(xs, ys);
     sp.LineWidth = 2;
     sp.MarkerSize = 0;
-    sp.LineStyle.Pattern = patterns[i];
+    sp.LinePattern = patterns[i];
     sp.Color = palette.GetColor(i);
 
     var txt = myPlot.Add.Text(patterns[i].ToString(), 51, yOffset);

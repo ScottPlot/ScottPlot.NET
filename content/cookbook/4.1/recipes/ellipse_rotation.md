@@ -1,8 +1,8 @@
 ---
 Title: "Ellipse Rotation - ScottPlot 4.1 Cookbook"
 Description: "Ellipses can also be rotated"
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/ellipse_rotation/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Ellipse", "Ellipse Rotation"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-ellipse", "/cookbook/4.1/recipes/ellipse_rotation/"]
@@ -17,7 +17,7 @@ Ellipses can also be rotated
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 for (int i = 0; i < 5; i++)

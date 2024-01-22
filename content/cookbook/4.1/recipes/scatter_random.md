@@ -1,8 +1,8 @@
 ---
 Title: "Random X/Y Points - ScottPlot 4.1 Cookbook"
 Description: "X data for scatter plots does not have to be evenly spaced, making scatter plots are ideal for displaying random data like this."
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/scatter_random/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Scatter Plot", "Random X/Y Points"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-scatter-plot", "/cookbook/4.1/recipes/scatter_random/"]
@@ -17,7 +17,7 @@ X data for scatter plots does not have to be evenly spaced, making scatter plots
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 Random rand = new Random(0);

@@ -4,9 +4,9 @@ Description: Polygon plots can be fully customized.
 URL: /cookbook/5.0/Polygon/PolygonStyling/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Polygon Plot", "Polygon Plot Styling"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Polygon", "/cookbook/5.0/Polygon/PolygonStyling"]
-Date: 2024-01-19
-Version: ScottPlot 5.0.19
-Version: ScottPlot 5.0.19
+Date: 2024-01-22
+Version: ScottPlot 5.0.20
+Version: ScottPlot 5.0.20
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -23,19 +23,22 @@ Polygon plots can be fully customized.
 ```cs
 ScottPlot.Plot myPlot = new();
 
-Coordinates[] vertices = new Coordinates[]
+Coordinates[] vertices =
 {
-    new Coordinates(0,   0.25),
-    new Coordinates(0.3, 0.75),
-    new Coordinates(1,   1),
-    new Coordinates(0.7, 0.5),
-    new Coordinates(1,   0)
+    new (0, 0.25),
+    new (0.3, 0.75),
+    new (1, 1),
+    new (0.7, 0.5),
+    new (1, 0)
 };
+
 var poly = myPlot.Add.Polygon(vertices);
+
 poly.FillStyle = new FillStyle
 {
     Color = Colors.IndianRed
 };
+
 poly.LineStyle = new LineStyle
 {
     AntiAlias = true,
@@ -43,6 +46,7 @@ poly.LineStyle = new LineStyle
     Pattern = LinePattern.Dashed,
     Width = 2
 };
+
 poly.MarkerStyle = new MarkerStyle(MarkerShape.OpenCircle, 8);
 poly.MarkerStyle.Fill.Color = Colors.Gold;
 poly.MarkerStyle.Outline.Color = Colors.Brown;

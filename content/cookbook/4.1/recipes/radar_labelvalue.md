@@ -1,8 +1,8 @@
 ---
 Title: "Labeled Values - ScottPlot 4.1 Cookbook"
 Description: "Labels can be displayed on the arms of the radar chart."
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/radar_labelvalue/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Radar Chart", "Labeled Values"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-radar", "/cookbook/4.1/recipes/radar_labelvalue/"]
@@ -17,7 +17,7 @@ Labels can be displayed on the arms of the radar chart.
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 double[,] values = {

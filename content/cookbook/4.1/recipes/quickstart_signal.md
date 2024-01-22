@@ -1,8 +1,8 @@
 ---
 Title: "Signal Plot - ScottPlot 4.1 Cookbook"
 Description: "Signal plots have evenly spaced Y points. Signal plots are very fast and can interactively display millions of data points. There are many different types of plottable objects, each serving a different purpose."
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/quickstart_signal/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Quickstart", "Signal Plot"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/quickstart", "/cookbook/4.1/recipes/quickstart_signal/"]
@@ -17,7 +17,7 @@ Signal plots have evenly spaced Y points. Signal plots are very fast and can int
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 double[] values = DataGen.RandomWalk(1_000_000);

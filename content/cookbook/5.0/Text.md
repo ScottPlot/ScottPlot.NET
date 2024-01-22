@@ -4,9 +4,9 @@ Description: Text lables placed on the plot in coordinate space
 URL: /cookbook/5.0/Text/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Text"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Text"]
-Date: 2024-01-19
-Version: ScottPlot 5.0.19
-Version: ScottPlot 5.0.19
+Date: 2024-01-22
+Version: ScottPlot 5.0.20
+Version: ScottPlot 5.0.20
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -25,8 +25,8 @@ Text can be placed anywhere in coordinate space.
 ```cs
 ScottPlot.Plot myPlot = new();
 
-myPlot.Add.Signal(ScottPlot.Generate.Sin());
-myPlot.Add.Signal(ScottPlot.Generate.Cos());
+myPlot.Add.Signal(Generate.Sin());
+myPlot.Add.Signal(Generate.Cos());
 myPlot.Add.Text("Hello, World", 25, 0.5);
 
 myPlot.SavePng("demo.png", 400, 300);

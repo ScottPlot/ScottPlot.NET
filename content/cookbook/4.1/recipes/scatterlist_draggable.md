@@ -1,8 +1,8 @@
 ---
 Title: "Scatter List Draggable - ScottPlot 4.1 Cookbook"
 Description: "There exists a Scatter Plot List with draggable points."
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/scatterlist_draggable/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Scatter Plot", "Scatter List Draggable"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-scatter-plot", "/cookbook/4.1/recipes/scatterlist_draggable/"]
@@ -17,7 +17,7 @@ There exists a Scatter Plot List with draggable points.
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 double[] xs = ScottPlot.DataGen.Consecutive(51);

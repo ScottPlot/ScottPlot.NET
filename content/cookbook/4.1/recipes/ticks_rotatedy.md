@@ -1,8 +1,8 @@
 ---
 Title: "Rotated Y Ticks - ScottPlot 4.1 Cookbook"
 Description: "Vertical tick labels can be rotated as desired."
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/ticks_rotatedy/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Axis and Ticks", "Rotated Y Ticks"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/axis-and-ticks", "/cookbook/4.1/recipes/ticks_rotatedy/"]
@@ -17,7 +17,7 @@ Vertical tick labels can be rotated as desired.
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 // plot sample data

@@ -1,8 +1,8 @@
 ---
 Title: "Labeled Marker - ScottPlot 4.1 Cookbook"
 Description: "Markers have an optional text label."
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/marker_labeled/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Marker", "Labeled Marker"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-marker", "/cookbook/4.1/recipes/marker_labeled/"]
@@ -17,7 +17,7 @@ Markers have an optional text label.
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 plt.AddSignal(DataGen.Sin(51));

@@ -1,8 +1,8 @@
 ---
 Title: "Histogram Stdev - ScottPlot 4.1 Cookbook"
 Description: "This example demonstrates how to display a histogram with labeled mean and standard deviations."
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/stats_histogramstdev/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Statistics", "Histogram Stdev"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/statistics", "/cookbook/4.1/recipes/stats_histogramstdev/"]
@@ -17,7 +17,7 @@ This example demonstrates how to display a histogram with labeled mean and stand
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 // create a histogram with a fixed number of bins

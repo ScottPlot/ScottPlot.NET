@@ -1,8 +1,8 @@
 ---
 Title: "Background Color - ScottPlot 4.1 Cookbook"
 Description: "Plots have two background colors that can be individually customized. The figure background is the background of the whole image. The data background is the background of the rectangle that contains the data. Both background types support transparency, although PNG file export is required."
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/style_background/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Style", "Background Color"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/style", "/cookbook/4.1/recipes/style_background/"]
@@ -17,7 +17,7 @@ Plots have two background colors that can be individually customized. The figure
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 plt.AddSignal(DataGen.Sin(51));

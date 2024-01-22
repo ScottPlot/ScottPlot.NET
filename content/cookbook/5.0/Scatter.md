@@ -4,9 +4,9 @@ Description: Scatter plots display points at X/Y locations in coordinate space.
 URL: /cookbook/5.0/Scatter/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Scatter Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Scatter"]
-Date: 2024-01-19
-Version: ScottPlot 5.0.19
-Version: ScottPlot 5.0.19
+Date: 2024-01-22
+Version: ScottPlot 5.0.20
+Version: ScottPlot 5.0.20
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -181,7 +181,7 @@ for (int i = 0; i < patterns.Length; i++)
     var sp = myPlot.Add.Scatter(xs, ys);
     sp.LineWidth = 2;
     sp.MarkerSize = 0;
-    sp.LineStyle.Pattern = patterns[i];
+    sp.LinePattern = patterns[i];
     sp.Color = palette.GetColor(i);
 
     var txt = myPlot.Add.Text(patterns[i].ToString(), 51, yOffset);
@@ -243,6 +243,45 @@ double[] ys = Generate.RandomWalk(xs.Length);
 
 myPlot.Add.Scatter(xs, ys);
 myPlot.Axes.DateTimeTicks(Edge.Bottom);
+
+myPlot.SavePng("demo.png", 400, 300);
+
+```
+
+{{< /code-sp5 >}}
+
+<hr class='my-5 invisible'>
+
+
+<h2><a href='/cookbook/5.0/Scatter/ScatterStep'>Step Plot</a></h2>
+
+Scatter plots can be created using a step plot display where points are connected with right angles instead of diagnal lines. The direction of the steps can be customized.
+
+[![](/cookbook/5.0/images/ScatterStep.png)](/cookbook/5.0/images/ScatterStep.png)
+
+{{< code-sp5 >}}
+
+```cs
+ScottPlot.Plot myPlot = new();
+
+double[] xs = Generate.Consecutive(20);
+double[] ys1 = Generate.Consecutive(20, first: 10);
+double[] ys2 = Generate.Consecutive(20, first: 5);
+double[] ys3 = Generate.Consecutive(20, first: 0);
+
+var sp1 = myPlot.Add.Scatter(xs, ys1);
+sp1.ConnectStyle = ConnectStyle.Straight;
+sp1.Label = "Straight";
+
+var sp2 = myPlot.Add.Scatter(xs, ys2);
+sp2.ConnectStyle = ConnectStyle.StepHorizontal;
+sp2.Label = "StepHorizontal";
+
+var sp3 = myPlot.Add.Scatter(xs, ys3);
+sp3.ConnectStyle = ConnectStyle.StepVertical;
+sp3.Label = "StepVertical";
+
+myPlot.ShowLegend();
 
 myPlot.SavePng("demo.png", 400, 300);
 

@@ -1,8 +1,8 @@
 ---
 Title: "X Ticks Width - ScottPlot 4.1 Cookbook"
 Description: "This example show how to change the width of the X axe ticks"
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/ticks_width/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Axis and Ticks", "X Ticks Width"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/axis-and-ticks", "/cookbook/4.1/recipes/ticks_width/"]
@@ -17,7 +17,7 @@ This example show how to change the width of the X axe ticks
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 //Plot sample data

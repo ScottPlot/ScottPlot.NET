@@ -1,8 +1,8 @@
 ---
 Title: "Text Alignment and Rotation - ScottPlot 4.1 Cookbook"
 Description: "Alignment indicates which corner is placed at the X/Y coordinate."
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/text_alignment/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Text", "Text Alignment and Rotation"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-text", "/cookbook/4.1/recipes/text_alignment/"]
@@ -17,7 +17,7 @@ Alignment indicates which corner is placed at the X/Y coordinate.
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 ScottPlot.Alignment[] alignments = (ScottPlot.Alignment[])Enum.GetValues(typeof(ScottPlot.Alignment));

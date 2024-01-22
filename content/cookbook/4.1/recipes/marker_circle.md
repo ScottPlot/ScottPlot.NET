@@ -1,8 +1,8 @@
 ---
 Title: "Circle Marker - ScottPlot 4.1 Cookbook"
 Description: "Circles can be added anywhere on the plot. If a line style is used, a custom pattern should be created."
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/marker_circle/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Marker", "Circle Marker"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-marker", "/cookbook/4.1/recipes/marker_circle/"]
@@ -17,7 +17,7 @@ Circles can be added anywhere on the plot. If a line style is used, a custom pat
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 // create a custom pattern (defining dash and space lengths)

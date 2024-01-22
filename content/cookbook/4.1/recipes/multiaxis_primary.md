@@ -1,8 +1,8 @@
 ---
 Title: "Primary Axes - ScottPlot 4.1 Cookbook"
 Description: "Plots always have 4 fundamental axes available to work with. By default primary axes are totally visible, and secondary axes have ticks hidden and no label. Sometimes the top axis is given a label to simulate a plot title."
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/multiaxis_primary/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Multi-Axis", "Primary Axes"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/multi-axis", "/cookbook/4.1/recipes/multiaxis_primary/"]
@@ -17,7 +17,7 @@ Plots always have 4 fundamental axes available to work with. By default primary 
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 // plot one set of data using the primary Y axis

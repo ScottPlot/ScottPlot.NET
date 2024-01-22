@@ -1,8 +1,8 @@
 ---
 Title: "Negative Bar Colors - ScottPlot 4.1 Cookbook"
 Description: "Bars with negative values can be colored differently than positive ones."
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/bar_ynegcolor/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Bar Graph", "Negative Bar Colors"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-bar-graph", "/cookbook/4.1/recipes/bar_ynegcolor/"]
@@ -17,7 +17,7 @@ Bars with negative values can be colored differently than positive ones.
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 double[] values = { 23, -17, 19, -24, 22 };

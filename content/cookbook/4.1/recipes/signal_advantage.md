@@ -1,8 +1,8 @@
 ---
 Title: "Speed Test - ScottPlot 4.1 Cookbook"
 Description: "Compare the speed to the same data plotted as a scatter plot."
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/signal_advantage/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Signal Plot", "Speed Test"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-signal-plot", "/cookbook/4.1/recipes/signal_advantage/"]
@@ -17,7 +17,7 @@ Compare the speed to the same data plotted as a scatter plot.
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 double[] xs = DataGen.Consecutive(100_000, 1.0 / 20_000);

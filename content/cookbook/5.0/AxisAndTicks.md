@@ -4,9 +4,9 @@ Description: Examples of common customizations for axis labels and ticks
 URL: /cookbook/5.0/AxisAndTicks/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Axis and Ticks"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AxisAndTicks"]
-Date: 2024-01-19
-Version: ScottPlot 5.0.19
-Version: ScottPlot 5.0.19
+Date: 2024-01-22
+Version: ScottPlot 5.0.20
+Version: ScottPlot 5.0.20
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -14,35 +14,9 @@ ShowEditLink: false
 # Axis and Ticks
 
 
-<h2><a href='/cookbook/5.0/AxisAndTicks/AxisLabels'>Adding Axis Labels</a></h2>
+<h2><a href='/cookbook/5.0/AxisAndTicks/SetAxisLimits'>Set Axis Limits</a></h2>
 
-Axis labels are the text labels centered on each axis. The text inside these labels can be changed, and the style of the text can be extensively customized.
-
-[![](/cookbook/5.0/images/AxisLabels.png)](/cookbook/5.0/images/AxisLabels.png)
-
-{{< code-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
-
-myPlot.Add.Signal(Generate.Sin(51));
-myPlot.Add.Signal(Generate.Cos(51));
-
-myPlot.Axes.Bottom.Label.Text = "Horizontal Axis";
-myPlot.Axes.Left.Label.Text = "Vertical Axis";
-
-myPlot.SavePng("demo.png", 400, 300);
-
-```
-
-{{< /code-sp5 >}}
-
-<hr class='my-5 invisible'>
-
-
-<h2><a href='/cookbook/5.0/AxisAndTicks/SetAxisLimits'>Manually Set Axis Limits</a></h2>
-
-Axis Limits can be set manually in different ways.
+Axis Limits can be set by the user.
 
 [![](/cookbook/5.0/images/SetAxisLimits.png)](/cookbook/5.0/images/SetAxisLimits.png)
 
@@ -54,13 +28,6 @@ ScottPlot.Plot myPlot = new();
 myPlot.Add.Signal(Generate.Sin(51));
 myPlot.Add.Signal(Generate.Cos(51));
 
-// Interact with a specific axis
-myPlot.Axes.Bottom.Min = -100;
-myPlot.Axes.Bottom.Max = 150;
-myPlot.Axes.Left.Min = -5;
-myPlot.Axes.Left.Max = 5;
-
-// Call a helper function
 myPlot.Axes.SetLimits(-100, 150, -5, 5);
 
 myPlot.SavePng("demo.png", 400, 300);
@@ -74,7 +41,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <h2><a href='/cookbook/5.0/AxisAndTicks/GetAxisLimits'>Read Axis Limits</a></h2>
 
-The current axis limits can be read in multiple ways.
+Use GetLimits() to obtain the current axis limits.
 
 [![](/cookbook/5.0/images/GetAxisLimits.png)](/cookbook/5.0/images/GetAxisLimits.png)
 
@@ -86,14 +53,11 @@ ScottPlot.Plot myPlot = new();
 myPlot.Add.Signal(Generate.Sin(51));
 myPlot.Add.Signal(Generate.Cos(51));
 
-// Interact with a specific axis
-double top = myPlot.Axes.Left.Max;
-double bottom = myPlot.Axes.Left.Min;
-
-// Call a helper function
 AxisLimits limits = myPlot.Axes.GetLimits();
-double left = limits.Rect.Left;
-double center = limits.Rect.HorizontalCenter;
+double xMin = limits.Left;
+double xMax = limits.Right;
+double yMin = limits.Bottom;
+double yMax = limits.Top;
 
 myPlot.SavePng("demo.png", 400, 300);
 
@@ -144,13 +108,14 @@ How to create a plot containig only the data area and no axes.
 ```cs
 ScottPlot.Plot myPlot = new();
 
-myPlot.FigureBackground = Colors.Magenta; // should not be seen
-myPlot.DataBackground = Colors.WhiteSmoke;
-
 myPlot.Add.Signal(Generate.Sin(51));
 myPlot.Add.Signal(Generate.Cos(51));
 
+// make the data area cover the full figure
 myPlot.Layout.Frameless();
+
+// set the data area background so we can observe its size
+myPlot.DataBackground = Colors.WhiteSmoke;
 
 myPlot.SavePng("demo.png", 400, 300);
 

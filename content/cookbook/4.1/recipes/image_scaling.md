@@ -1,8 +1,8 @@
 ---
 Title: "Image Scaling - ScottPlot 4.1 Cookbook"
 Description: "Size of the image (in relative pixel units) can be adjusted."
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/image_scaling/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Image", "Image Scaling"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-image", "/cookbook/4.1/recipes/image_scaling/"]
@@ -17,7 +17,7 @@ Size of the image (in relative pixel units) can be adjusted.
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 plt.AddSignal(DataGen.Sin(51));

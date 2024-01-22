@@ -1,8 +1,8 @@
 ---
 Title: "Display Scaling - ScottPlot 4.1 Cookbook"
 Description: "When display scaling is enabled the dots per inch (DPI) is changed so images appear larger. When scaling is increased bitmap images are stretched to appear larger, but may appear blurry as a result. Alternatively images could be increased in size when DPI scaling is enabled, but fonts and lines may appear small. This example shows how to increase the size of common plot components so they look good on high resolution scaled displays (e.g., 4K monitors). DPI stretching can be set in the user control's Configuration module."
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/misc_dpiscale/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Miscellaneous", "Display Scaling"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/misc", "/cookbook/4.1/recipes/misc_dpiscale/"]
@@ -17,7 +17,7 @@ When display scaling is enabled the dots per inch (DPI) is changed so images app
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 var sig1 = plt.AddSignal(DataGen.Sin(51));

@@ -1,8 +1,8 @@
 ---
 Title: "Error Bars in One Dimension - ScottPlot 4.1 Cookbook"
 Description: "If you only have error data for one dimension you can simply pass in null for the other dimension."
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/errorbar_onedimension/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Error Bar", "Error Bars in One Dimension"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-error-bar", "/cookbook/4.1/recipes/errorbar_onedimension/"]
@@ -17,7 +17,7 @@ If you only have error data for one dimension you can simply pass in null for th
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 Random rand = new Random(0);

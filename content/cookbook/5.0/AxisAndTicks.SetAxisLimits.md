@@ -1,20 +1,20 @@
 ---
-Title: Manually Set Axis Limits - ScottPlot 5.0 Cookbook
-Description: Axis Limits can be set manually in different ways.
+Title: Set Axis Limits - ScottPlot 5.0 Cookbook
+Description: Axis Limits can be set by the user.
 URL: /cookbook/5.0/AxisAndTicks/SetAxisLimits/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Axis and Ticks", "Manually Set Axis Limits"]
+BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Axis and Ticks", "Set Axis Limits"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AxisAndTicks", "/cookbook/5.0/AxisAndTicks/SetAxisLimits"]
-Date: 2024-01-19
-Version: ScottPlot 5.0.19
-Version: ScottPlot 5.0.19
+Date: 2024-01-22
+Version: ScottPlot 5.0.20
+Version: ScottPlot 5.0.20
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
 
-# Manually Set Axis Limits
+# Set Axis Limits
 
 
-Axis Limits can be set manually in different ways.
+Axis Limits can be set by the user.
 
 [![](/cookbook/5.0/images/SetAxisLimits.png)](/cookbook/5.0/images/SetAxisLimits.png)
 
@@ -26,13 +26,6 @@ ScottPlot.Plot myPlot = new();
 myPlot.Add.Signal(Generate.Sin(51));
 myPlot.Add.Signal(Generate.Cos(51));
 
-// Interact with a specific axis
-myPlot.Axes.Bottom.Min = -100;
-myPlot.Axes.Bottom.Max = 150;
-myPlot.Axes.Left.Min = -5;
-myPlot.Axes.Left.Max = 5;
-
-// Call a helper function
 myPlot.Axes.SetLimits(-100, 150, -5, 5);
 
 myPlot.SavePng("demo.png", 400, 300);

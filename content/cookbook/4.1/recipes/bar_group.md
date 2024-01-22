@@ -1,8 +1,8 @@
 ---
 Title: "Grouped Bar Graphs - ScottPlot 4.1 Cookbook"
 Description: "By customizing positions of multiple bar plots you can achieve the appearance of grouped bar graphs. The AddBarGroups() method is designed to simplify this process. More advanced grouping and bar plot styling is possible using the Population plot type."
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/bar_group/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Bar Graph", "Grouped Bar Graphs"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-bar-graph", "/cookbook/4.1/recipes/bar_group/"]
@@ -17,7 +17,7 @@ By customizing positions of multiple bar plots you can achieve the appearance of
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 // generate random data to plot

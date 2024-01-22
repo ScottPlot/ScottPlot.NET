@@ -1,8 +1,8 @@
 ---
 Title: "Legend Orientation - ScottPlot 4.1 Cookbook"
 Description: "Legends can be customized to support horizontal orientation"
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/legend_orientation/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Legend", "Legend Orientation"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/legend", "/cookbook/4.1/recipes/legend_orientation/"]
@@ -17,7 +17,7 @@ Legends can be customized to support horizontal orientation
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 plt.AddSignal(DataGen.Sin(51), label: "sin");

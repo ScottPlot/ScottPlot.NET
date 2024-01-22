@@ -4,9 +4,9 @@ Description: The exact position and size of each bar may be customized.
 URL: /cookbook/5.0/Bar/BarPosition/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Bar Plot", "Bar Positioning"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Bar", "/cookbook/5.0/Bar/BarPosition"]
-Date: 2024-01-19
-Version: ScottPlot 5.0.19
-Version: ScottPlot 5.0.19
+Date: 2024-01-22
+Version: ScottPlot 5.0.20
+Version: ScottPlot 5.0.20
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -23,11 +23,11 @@ The exact position and size of each bar may be customized.
 ```cs
 ScottPlot.Plot myPlot = new();
 
-List<ScottPlot.Bar> bars = new()
+ScottPlot.Bar[] bars =
 {
-    new() { Position = 1, Value = 5, ValueBase = 3, },
-    new() { Position = 2, Value = 7, ValueBase = 0, },
-    new() { Position = 4, Value = 3, ValueBase = 2, },
+    new() { Position = 1, Value = 5, ValueBase = 3, FillColor = Colors.Red },
+    new() { Position = 2, Value = 7, ValueBase = 0, FillColor = Colors.Blue },
+    new() { Position = 4, Value = 3, ValueBase = 2, FillColor = Colors.Green },
 };
 
 myPlot.Add.Bars(bars);

@@ -1,8 +1,8 @@
 ---
 Title: "Color Range - ScottPlot 4.1 Cookbook"
 Description: "You can restrict a colorbar to only show a small range of a colormap. In this example we only use the middle of a rainbow colormap."
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/colorbar_range/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Colorbar", "Color Range"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-colorbar", "/cookbook/4.1/recipes/colorbar_range/"]
@@ -17,7 +17,7 @@ You can restrict a colorbar to only show a small range of a colormap. In this ex
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 var cb = plt.AddColorbar(Drawing.Colormap.Turbo);

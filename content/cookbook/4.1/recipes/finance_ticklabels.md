@@ -1,8 +1,8 @@
 ---
 Title: "Candlesticks with Custom Tick Labels - ScottPlot 4.1 Cookbook"
 Description: "A better way to represent time on the horizontal axis is to use traditional Cartesian coordinates so each candlestick is placed at X positions (0, 1, 2, etc.), then manually define the locations and label text of important positions on the plot. This is clunky, but possible. This inelegance is why financial charting is probably best done with real financial charting libraries, not a scientific charting library like ScottPlot..."
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/finance_ticklabels/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Finance", "Candlesticks with Custom Tick Labels"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-finance", "/cookbook/4.1/recipes/finance_ticklabels/"]
@@ -17,7 +17,7 @@ A better way to represent time on the horizontal axis is to use traditional Cart
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 OHLC[] prices = DataGen.RandomStockPrices(null, 30);

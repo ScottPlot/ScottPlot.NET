@@ -1,12 +1,12 @@
 ---
 Title: Legend Customization - ScottPlot 5.0 Cookbook
-Description: The default legend can be easily accessed and customized. It is possible to add multiple legends, including custom ones implementing ILegend.
+Description: Access the Legend object directly for advanced customization options.
 URL: /cookbook/5.0/Legend/LegendStyle/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Configuring Legends", "Legend Customization"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Legend", "/cookbook/5.0/Legend/LegendStyle"]
-Date: 2024-01-19
-Version: ScottPlot 5.0.19
-Version: ScottPlot 5.0.19
+Date: 2024-01-22
+Version: ScottPlot 5.0.20
+Version: ScottPlot 5.0.20
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -14,7 +14,7 @@ ShowEditLink: false
 # Legend Customization
 
 
-The default legend can be easily accessed and customized. It is possible to add multiple legends, including custom ones implementing ILegend.
+Access the Legend object directly for advanced customization options.
 
 [![](/cookbook/5.0/images/LegendStyle.png)](/cookbook/5.0/images/LegendStyle.png)
 
@@ -23,10 +23,10 @@ The default legend can be easily accessed and customized. It is possible to add 
 ```cs
 ScottPlot.Plot myPlot = new();
 
-var sig1 = myPlot.Add.Signal(ScottPlot.Generate.Sin(51));
+var sig1 = myPlot.Add.Signal(Generate.Sin(51));
 sig1.Label = "Sin";
 
-var sig2 = myPlot.Add.Signal(ScottPlot.Generate.Cos(51));
+var sig2 = myPlot.Add.Signal(Generate.Cos(51));
 sig2.Label = "Cos";
 
 myPlot.Legend.IsVisible = true;

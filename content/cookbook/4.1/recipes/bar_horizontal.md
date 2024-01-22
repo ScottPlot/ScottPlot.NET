@@ -1,8 +1,8 @@
 ---
 Title: "Horizontal Bar Graph - ScottPlot 4.1 Cookbook"
 Description: "Bar graphs are typically displayed as columns, but it's possible to show bars as rows."
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/bar_horizontal/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Bar Graph", "Horizontal Bar Graph"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-bar-graph", "/cookbook/4.1/recipes/bar_horizontal/"]
@@ -17,7 +17,7 @@ Bar graphs are typically displayed as columns, but it's possible to show bars as
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 // create sample data

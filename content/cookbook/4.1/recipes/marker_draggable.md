@@ -1,8 +1,8 @@
 ---
 Title: "Draggable Marker - ScottPlot 4.1 Cookbook"
 Description: "A special type of marker exists which allows dragging with the mouse."
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/marker_draggable/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Marker", "Draggable Marker"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-marker", "/cookbook/4.1/recipes/marker_draggable/"]
@@ -17,7 +17,7 @@ A special type of marker exists which allows dragging with the mouse.
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 plt.AddSignal(ScottPlot.DataGen.Sin(51));

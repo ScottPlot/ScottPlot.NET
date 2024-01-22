@@ -1,8 +1,8 @@
 ---
 Title: "Donut with Text - ScottPlot 4.1 Cookbook"
 Description: "Custom text can be displayed in the center of a donut chart. Notice too how the colors of each slice are customized in this example."
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/pie_donuttext/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Pie Chart", "Donut with Text"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-pie", "/cookbook/4.1/recipes/pie_donuttext/"]
@@ -17,7 +17,7 @@ Custom text can be displayed in the center of a donut chart. Notice too how the 
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 double[] values = { 779, 586 };

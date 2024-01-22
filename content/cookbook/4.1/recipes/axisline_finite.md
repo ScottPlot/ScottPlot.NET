@@ -1,8 +1,8 @@
 ---
 Title: "Finite Axis Line - ScottPlot 4.1 Cookbook"
 Description: "Axis lines can have lower and/or upper bounds. This can be useful for labeling points of interest."
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/axisline_finite/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Axis Line and Span", "Finite Axis Line"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-axis-line-and-span", "/cookbook/4.1/recipes/axisline_finite/"]
@@ -17,7 +17,7 @@ Axis lines can have lower and/or upper bounds. This can be useful for labeling p
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 plt.AddFunction(x => Math.Pow(x, 2), lineStyle: LineStyle.Dash);

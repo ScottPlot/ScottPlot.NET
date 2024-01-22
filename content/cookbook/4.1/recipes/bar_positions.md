@@ -1,8 +1,8 @@
 ---
 Title: "Bar Graph with Defined Positions - ScottPlot 4.1 Cookbook"
 Description: "Horizontal positions for each bar can be defined manually. If you define bar positions, you will probably want to define the bar width as well."
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/bar_positions/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Bar Graph", "Bar Graph with Defined Positions"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-bar-graph", "/cookbook/4.1/recipes/bar_positions/"]
@@ -17,7 +17,7 @@ Horizontal positions for each bar can be defined manually. If you define bar pos
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 // create sample data

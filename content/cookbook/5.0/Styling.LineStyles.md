@@ -4,9 +4,9 @@ Description: Many plot types have a LineStyle which can be customized.
 URL: /cookbook/5.0/Styling/LineStyles/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Styling Plots", "Line Styles"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Styling", "/cookbook/5.0/Styling/LineStyles"]
-Date: 2024-01-19
-Version: ScottPlot 5.0.19
-Version: ScottPlot 5.0.19
+Date: 2024-01-22
+Version: ScottPlot 5.0.20
+Version: ScottPlot 5.0.20
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -30,8 +30,8 @@ for (int i = 0; i < linePatterns.Length; i++)
     LinePattern pattern = linePatterns[i];
 
     var line = myPlot.Add.Line(0, -i, 1, -i);
-    line.Pattern = pattern;
-    line.Width = 2;
+    line.LinePattern = pattern;
+    line.LineWidth = 2;
     line.Color = Colors.Black;
 
     var txt = myPlot.Add.Text(pattern.ToString(), 1.1, -i);

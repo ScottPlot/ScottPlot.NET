@@ -4,9 +4,9 @@ Description: A legend displays plottables in a key along the edge of a plot. Mos
 URL: /cookbook/5.0/Quickstart/Legend/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "ScottPlot 5 Quickstart", "Legend"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Quickstart", "/cookbook/5.0/Quickstart/Legend"]
-Date: 2024-01-19
-Version: ScottPlot 5.0.19
-Version: ScottPlot 5.0.19
+Date: 2024-01-22
+Version: ScottPlot 5.0.20
+Version: ScottPlot 5.0.20
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -29,7 +29,7 @@ sig1.Label = "Sin";
 var sig2 = myPlot.Add.Signal(Generate.Cos(51));
 sig2.Label = "Cos";
 
-myPlot.Legend.IsVisible = true;
+myPlot.ShowLegend();
 
 myPlot.SavePng("demo.png", 400, 300);
 

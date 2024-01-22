@@ -1,8 +1,8 @@
 ---
 Title: "Flipped Heatmap - ScottPlot 4.1 Cookbook"
 Description: "Heatmaps can be flipped vertically and/or horizontally."
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/heatmap_flip/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Heatmap", "Flipped Heatmap"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-heatmap", "/cookbook/4.1/recipes/heatmap_flip/"]
@@ -17,7 +17,7 @@ Heatmaps can be flipped vertically and/or horizontally.
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 double[,] data = ScottPlot.DataGen.SampleImageData();

@@ -1,8 +1,8 @@
 ---
 Title: "Smooth Heatmap - ScottPlot 4.1 Cookbook"
 Description: "Heatmaps display values as rectangles with sharp borders by default. Enabling the Smooth feature uses bicubic interpolation to display the heatmap as a smooth gradient between values."
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/heatmap_smooth/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Heatmap", "Smooth Heatmap"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-heatmap", "/cookbook/4.1/recipes/heatmap_smooth/"]
@@ -17,7 +17,7 @@ Heatmaps display values as rectangles with sharp borders by default. Enabling th
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 var rand = new Random(0);

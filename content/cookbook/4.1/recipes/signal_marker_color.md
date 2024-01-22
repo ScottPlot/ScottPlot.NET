@@ -1,8 +1,8 @@
 ---
 Title: "Signal Marker Color - ScottPlot 4.1 Cookbook"
 Description: "The markers that display when signal plots are zoomed in may have a different color than the lines connecting them"
-Date: 2024-01-14
-Version: ScottPlot 4.1.70
+Date: 2024-01-21
+Version: ScottPlot 4.1.71
 URL: /cookbook/4.1/recipes/signal_marker_color/
 BreadcrumbNames: ["ScottPlot 4.1 Cookbook", "Signal Plot", "Signal Marker Color"]
 BreadcrumbUrls: ["/cookbook/4.1/", "/cookbook/4.1/category/plottable-signal-plot", "/cookbook/4.1/recipes/signal_marker_color/"]
@@ -17,7 +17,7 @@ The markers that display when signal plots are zoomed in may have a different co
 {{< code-sp4 >}}
 
 ```cs
-ScottPlot.Version.ShouldBe(4, 1, 70);
+ScottPlot.Version.ShouldBe(4, 1, 71);
 var plt = new ScottPlot.Plot(600, 400);
 
 double[] values = DataGen.Sin(51);
