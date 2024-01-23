@@ -21,6 +21,32 @@ Release notes for every version of ScottPlot
 
 </section>
 <section class='mb-5'>
+<h1 class='mb-0'>ScottPlot 5.0.21 (Not yet on NuGet)</h1>
+<div><i>NuGet packages published </i></div>
+<div class='mt-1'>
+<ul>
+<li>RenderManager: Exposed <code>EnableRendering</code> to facilitate render locking in async environments (<a href="https://github.com/ScottPlot/ScottPlot/issues/3264">#3264</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3213">#3213</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3095">#3095</a>) <em>Thanks <a href="https://github.com/kagerouttepaso">@kagerouttepaso</a></em>
+</li>
+<li>Arrow: Added a new arrow plot type that can be used to mark a position in coordinate space (<a href="https://github.com/ScottPlot/ScottPlot/issues/3265">#3265</a>) <em>Thanks <a href="https://github.com/hockerschwan">@hockerschwan</a></em>
+</li>
+<li>Label: Improved measurement of text containing leading or tailing whitespace (<a href="https://github.com/ScottPlot/ScottPlot/issues/3223">#3223</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3268">#3268</a>) <em>Thanks <a href="https://github.com/KroMignon">@KroMignon</a> and <a href="https://github.com/lindpatr">@lindpatr</a></em>
+</li>
+</ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/kagerouttepaso'>kagerouttepaso</a>, <a href='https://github.com/hockerschwan'>hockerschwan</a>, <a href='https://github.com/KroMignon'>KroMignon</a>, <a href='https://github.com/lindpatr'>lindpatr</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/kagerouttepaso'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/hockerschwan'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/KroMignon'><img src='https://scottplot.net/images/contributors/kromignon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/lindpatr'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
+
+</section>
+<section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 5.0.20</h1>
 <div><i>NuGet packages published 2024-01-21</i></div>
 <div class='mt-1'>
