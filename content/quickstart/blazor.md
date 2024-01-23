@@ -1,6 +1,6 @@
 ---
 Title: ScottPlot Blazor Quickstart
-description: How to display interactive plots in the browser using C# and Blazor
+description: How to display interactive plots in the browser using C# and Blazor WebAssembly
 date: 2023-12-13
 ---
 
@@ -8,7 +8,7 @@ date: 2023-12-13
 
 # Blazor Quickstart
 
-**Step 1:** Create a new Blazor project
+**Step 1:** Create a new Blazor WebAssembly project
 
 **Step 2:** Add the `ScottPlot.Blazor` NuGet package
 
