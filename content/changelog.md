@@ -38,10 +38,10 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/kagerouttepaso'>kagerouttepaso</a>, <a href='https://github.com/hockerschwan'>hockerschwan</a>, <a href='https://github.com/KroMignon'>KroMignon</a>, <a href='https://github.com/lindpatr'>lindpatr</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
-<a href='https://github.com/kagerouttepaso'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/hockerschwan'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/kagerouttepaso'><img src='https://scottplot.net/images/contributors/kagerouttepaso.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/hockerschwan'><img src='https://scottplot.net/images/contributors/hockerschwan.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/KroMignon'><img src='https://scottplot.net/images/contributors/kromignon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/lindpatr'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/lindpatr'><img src='https://scottplot.net/images/contributors/lindpatr.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 

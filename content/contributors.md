@@ -16,11 +16,11 @@ Members of the open-source community who contributed to ScottPlot
 <div class='display-3 my-5 text-center'>💖🚀✨</div>
 <div class='d-flex justify-content-center flex-wrap'>
 <div class='bg-light border rounded text-center mx-3 my-2'>
-<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/brand/favicon.png' height='125' width='125'/></a></div>
+<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/kagerouttepaso.png' height='125' width='125'/></a></div>
 <div><a href='https://github.com/kagerouttepaso'>@kagerouttepaso</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
-<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/brand/favicon.png' height='125' width='125'/></a></div>
+<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/hockerschwan.png' height='125' width='125'/></a></div>
 <div><a href='https://github.com/hockerschwan'>@hockerschwan</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
@@ -28,7 +28,7 @@ Members of the open-source community who contributed to ScottPlot
 <div><a href='https://github.com/KroMignon'>@KroMignon</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
-<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/brand/favicon.png' height='125' width='125'/></a></div>
+<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/lindpatr.png' height='125' width='125'/></a></div>
 <div><a href='https://github.com/lindpatr'>@lindpatr</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
