@@ -31,17 +31,22 @@ Release notes for every version of ScottPlot
 </li>
 <li>Label: Improved measurement of text containing leading or tailing whitespace (<a href="https://github.com/ScottPlot/ScottPlot/issues/3223">#3223</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3268">#3268</a>) <em>Thanks <a href="https://github.com/KroMignon">@KroMignon</a> and <a href="https://github.com/lindpatr">@lindpatr</a></em>
 </li>
+<li>Axis Line: Added <code>LabelOppositeAxis</code> property and created dedicated cookbook page (<a href="https://github.com/ScottPlot/ScottPlot/issues/3275">#3275</a>) <em>Thanks Lyakabynka</em>
+</li>
+<li>Plot: <code>AddRectangle()</code> now accepts more input types (<a href="https://github.com/ScottPlot/ScottPlot/issues/3263">#3263</a>) <em>Thanks <a href="https://github.com/enumer">@enumer</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/kagerouttepaso'>kagerouttepaso</a>, <a href='https://github.com/hockerschwan'>hockerschwan</a>, <a href='https://github.com/KroMignon'>KroMignon</a>, <a href='https://github.com/lindpatr'>lindpatr</a>, <a href='https://github.com/swharden'>swharden</a>
+<a href='https://github.com/kagerouttepaso'>kagerouttepaso</a>, <a href='https://github.com/hockerschwan'>hockerschwan</a>, <a href='https://github.com/KroMignon'>KroMignon</a>, <a href='https://github.com/lindpatr'>lindpatr</a>, <a href='https://github.com/enumer'>enumer</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/kagerouttepaso'><img src='https://scottplot.net/images/contributors/kagerouttepaso.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/hockerschwan'><img src='https://scottplot.net/images/contributors/hockerschwan.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/KroMignon'><img src='https://scottplot.net/images/contributors/kromignon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/lindpatr'><img src='https://scottplot.net/images/contributors/lindpatr.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/enumer'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
