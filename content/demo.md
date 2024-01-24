@@ -62,6 +62,9 @@ date: 2023-12-13
 ### Selectable Data Points
 **The select points demo** shows how to use the control's `MouseDown`, `MouseUp`, and `MouseMove` events to track where the mouse was pressed, dragged, and released to determine which data points are within the mouse rectangle. It then places `Marker` objects over the selected data points. Notice that none of these plot types contain mouse-specific logic, but users can add their own without too much complexity.
 
+* Source code: [SelectPoints.cs](https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Demos/ScottPlot5%20WinForms%20Demo/Demos/SelectPoints.cs)
+* Download: <a href='#download'>ScottPlot 5.0 demo</a>
+
 ![](/images/demo/5.0/select-points.gif)
 
 ### Shared Axes
