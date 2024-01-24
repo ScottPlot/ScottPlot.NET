@@ -59,6 +59,10 @@ date: 2023-12-13
 
 ![](/images/demo/5.0/draggable-points.gif)
 
+### Selectable Data Points
+**The select points demo** shows how to use the control's `MouseDown`, `MouseUp`, and `MouseMove` events to track where the mouse was pressed, dragged, and released to determine which data points are within the mouse rectangle. It then places `Marker` objects over the selected data points. Notice that none of these plot types contain mouse-specific logic, but users can add their own without too much complexity.
+
+![](/images/demo/5.0/select-points.gif)
 
 ### Shared Axes
 
