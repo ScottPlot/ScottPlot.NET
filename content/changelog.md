@@ -35,6 +35,12 @@ Release notes for every version of ScottPlot
 </li>
 <li>Plot: <code>AddRectangle()</code> now accepts more input types (<a href="https://github.com/ScottPlot/ScottPlot/issues/3263">#3263</a>) <em>Thanks <a href="https://github.com/enumer">@enumer</a></em>
 </li>
+<li>Ticks: Created <code>IMinorTickGenerator</code> to allow users to inject their own logic for placing minor ticks
+</li>
+<li>Axes: Added support for log-scale tick labels and grid lines (<a href="https://github.com/ScottPlot/ScottPlot/issues/3143">#3143</a>)
+</li>
+<li>Plot: Users can now <code>Add.Ellipse()</code> and <code>Add.Circle()</code> to place closed curves on plots (<a href="https://github.com/ScottPlot/ScottPlot/issues/3277">#3277</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3287">#3287</a>) <em>Thanks <a href="https://github.com/hockerschwan">@hockerschwan</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
