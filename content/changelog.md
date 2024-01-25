@@ -41,11 +41,13 @@ Release notes for every version of ScottPlot
 </li>
 <li>Plot: Users can now <code>Add.Ellipse()</code> and <code>Add.Circle()</code> to place closed curves on plots (<a href="https://github.com/ScottPlot/ScottPlot/issues/3277">#3277</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3287">#3287</a>) <em>Thanks <a href="https://github.com/hockerschwan">@hockerschwan</a></em>
 </li>
+<li>Plot: Added a <code>Plot.Remove()</code> overload for removing all plottables of the given type (<a href="https://github.com/ScottPlot/ScottPlot/issues/3296">#3296</a>) <em>Thanks <a href="https://github.com/DerekGooding">@DerekGooding</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/kagerouttepaso'>kagerouttepaso</a>, <a href='https://github.com/hockerschwan'>hockerschwan</a>, <a href='https://github.com/KroMignon'>KroMignon</a>, <a href='https://github.com/lindpatr'>lindpatr</a>, <a href='https://github.com/enumer'>enumer</a>, <a href='https://github.com/swharden'>swharden</a>
+<a href='https://github.com/kagerouttepaso'>kagerouttepaso</a>, <a href='https://github.com/hockerschwan'>hockerschwan</a>, <a href='https://github.com/KroMignon'>KroMignon</a>, <a href='https://github.com/lindpatr'>lindpatr</a>, <a href='https://github.com/enumer'>enumer</a>, <a href='https://github.com/DerekGooding'>DerekGooding</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/kagerouttepaso'><img src='https://scottplot.net/images/contributors/kagerouttepaso.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -53,6 +55,7 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/KroMignon'><img src='https://scottplot.net/images/contributors/kromignon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/lindpatr'><img src='https://scottplot.net/images/contributors/lindpatr.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/enumer'><img src='https://scottplot.net/images/contributors/enumer.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/DerekGooding'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
