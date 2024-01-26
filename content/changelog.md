@@ -47,11 +47,17 @@ Release notes for every version of ScottPlot
 </li>
 <li>Plot: Added <code>Plot.GetPlottables()</code> overloads to facilitate iterating over plottables of a specific type
 </li>
+<li>Rendering: Added support for gradient fills (<a href="https://github.com/ScottPlot/ScottPlot/issues/3298">#3298</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3157">#3157</a>) <em>Thanks <a href="https://github.com/KroMignon">@KroMignon</a> and <a href="https://github.com/faguetan">@faguetan</a></em>
+</li>
+<li>Controls: Disabling interactions then re-enabling them restores original interactions (<a href="https://github.com/ScottPlot/ScottPlot/issues/3305">#3305</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3304">#3304</a>) <em>Thanks <a href="https://github.com/Nils-Berghs">@Nils-Berghs</a></em>
+</li>
+<li>Plot: Added <code>Plot.GetPixel()</code> overload for improved support on multi-axis plots (<a href="https://github.com/ScottPlot/ScottPlot/issues/3306">#3306</a>) <em>Thanks <a href="https://github.com/MCF">@MCF</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/kagerouttepaso'>kagerouttepaso</a>, <a href='https://github.com/hockerschwan'>hockerschwan</a>, <a href='https://github.com/KroMignon'>KroMignon</a>, <a href='https://github.com/lindpatr'>lindpatr</a>, <a href='https://github.com/enumer'>enumer</a>, <a href='https://github.com/DerekGooding'>DerekGooding</a>, <a href='https://github.com/swharden'>swharden</a>
+<a href='https://github.com/kagerouttepaso'>kagerouttepaso</a>, <a href='https://github.com/hockerschwan'>hockerschwan</a>, <a href='https://github.com/KroMignon'>KroMignon</a>, <a href='https://github.com/lindpatr'>lindpatr</a>, <a href='https://github.com/enumer'>enumer</a>, <a href='https://github.com/DerekGooding'>DerekGooding</a>, <a href='https://github.com/faguetan'>faguetan</a>, <a href='https://github.com/Nils-Berghs'>Nils-Berghs</a>, <a href='https://github.com/MCF'>MCF</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/kagerouttepaso'><img src='https://scottplot.net/images/contributors/kagerouttepaso.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -60,6 +66,9 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/lindpatr'><img src='https://scottplot.net/images/contributors/lindpatr.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/enumer'><img src='https://scottplot.net/images/contributors/enumer.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/DerekGooding'><img src='https://scottplot.net/images/contributors/derekgooding.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/faguetan'><img src='https://scottplot.net/images/contributors/faguetan.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Nils-Berghs'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/MCF'><img src='https://scottplot.net/images/contributors/mcf.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
