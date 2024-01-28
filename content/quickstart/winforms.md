@@ -30,7 +30,9 @@ formsPlot1.Refresh();
 
 ### Note for .NET Framework Users
 
-ScottPlot 5 presently has an issue ([#3300](https://github.com/ScottPlot/ScottPlot/issues/3300)) specific to .NET Framework projects that causes the control to crash when added to a window by dragging it from the Visual Studio toolbox. The solution is to either (1) create a .NET (not .NET Framework) app, or (2) add the control programmatically as describe dbelow.
+ScottPlot 5 presently has an issue ([#3300](https://github.com/ScottPlot/ScottPlot/issues/3300)) specific to .NET Framework projects that causes the control to crash when added to a window by dragging it from the Visual Studio toolbox. Solutions include:
+  * Create a .NET (not .NET Framework) project.
+  * Add the control programmatically as described below.
 
 ### How to add a Plot Control Programmatically
 
