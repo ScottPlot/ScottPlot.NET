@@ -59,6 +59,8 @@ Release notes for every version of ScottPlot
 </li>
 <li>Interactivity: Added methods to simplify dragging axis lines and spans. See the demo application for details. (<a href="https://github.com/ScottPlot/ScottPlot/issues/3307">#3307</a>) <em>Thanks <a href="https://github.com/erikjl">@erikjl</a></em>
 </li>
+<li>Ticks: Improved tick density calculation to prevent overlapping tick labels for very large numbers (<a href="https://github.com/ScottPlot/ScottPlot/issues/3203">#3203</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
@@ -76,7 +78,7 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/Nils-Berghs'><img src='https://scottplot.net/images/contributors/nils-berghs.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/MCF'><img src='https://scottplot.net/images/contributors/mcf.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/PhoenixChenLu'><img src='https://scottplot.net/images/contributors/phoenixchenlu.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/erikjl'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/erikjl'><img src='https://scottplot.net/images/contributors/erikjl.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
