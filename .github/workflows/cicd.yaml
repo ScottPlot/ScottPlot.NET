@@ -6,6 +6,11 @@ on:
     branches:
       - main
 
+# cancel running versions of this workflow when this one starts
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: true
+
 jobs:
   deploy:
     name: Build and Deploy
