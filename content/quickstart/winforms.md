@@ -28,6 +28,28 @@ formsPlot1.Refresh();
 
 ![](/images/quickstart/scottplot-quickstart-winforms.png)
 
+### Note for .NET Framework Users
+
+* ScottPlot 5 presently has an issue ([#3300](https://github.com/ScottPlot/ScottPlot/issues/3300)) specific to .NET Framework projects that causes the control to crash when added to a window by dragging it from the Visual Studio toolbox. The solution is to either (1) create a .NET (not .NET Framework) app, or (2) add the control programmatically as describe dbelow.
+
 ### How to add a Plot Control Programmatically
 
 If users are not using the visual designer (or are having trouble locating the plot control in the toolbox), a FormsPlot can be added to the Form programmatically. See the [FAQ: Add ScottPlot WinForms Control Programmatically](/faq/add-winforms-programmatically/) page for additional information.
+
+```cs
+using System.Windows.Forms;
+
+namespace WinFormsQuickstart
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+
+            var fp = new ScottPlot.WinForms.FormsPlot() { Dock = DockStyle.Fill };
+            Controls.Add(fp);
+        }
+    }
+}
+```
