@@ -55,11 +55,15 @@ Release notes for every version of ScottPlot
 </li>
 <li>Axis Lines: Label background color may be distinct from line color (<a href="https://github.com/ScottPlot/ScottPlot/issues/3309">#3309</a>) <em>Thanks <a href="https://github.com/PhoenixChenLu">@PhoenixChenLu</a></em>
 </li>
+<li>Axis Spans: New <code>Plot.Add.HorizontalSpan()</code> and <code>Plot.Add.VerticalSpan()</code> methods for shading axis ranges (<a href="https://github.com/ScottPlot/ScottPlot/issues/3307">#3307</a>) <em>Thanks <a href="https://github.com/erikjl">@erikjl</a></em>
+</li>
+<li>Interactivity: Added methods to simplify dragging axis lines and spans. See the demo application for details. (<a href="https://github.com/ScottPlot/ScottPlot/issues/3307">#3307</a>) <em>Thanks <a href="https://github.com/erikjl">@erikjl</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/kagerouttepaso'>kagerouttepaso</a>, <a href='https://github.com/hockerschwan'>hockerschwan</a>, <a href='https://github.com/KroMignon'>KroMignon</a>, <a href='https://github.com/lindpatr'>lindpatr</a>, <a href='https://github.com/enumer'>enumer</a>, <a href='https://github.com/DerekGooding'>DerekGooding</a>, <a href='https://github.com/faguetan'>faguetan</a>, <a href='https://github.com/Nils-Berghs'>Nils-Berghs</a>, <a href='https://github.com/MCF'>MCF</a>, <a href='https://github.com/PhoenixChenLu'>PhoenixChenLu</a>, <a href='https://github.com/swharden'>swharden</a>
+<a href='https://github.com/kagerouttepaso'>kagerouttepaso</a>, <a href='https://github.com/hockerschwan'>hockerschwan</a>, <a href='https://github.com/KroMignon'>KroMignon</a>, <a href='https://github.com/lindpatr'>lindpatr</a>, <a href='https://github.com/enumer'>enumer</a>, <a href='https://github.com/DerekGooding'>DerekGooding</a>, <a href='https://github.com/faguetan'>faguetan</a>, <a href='https://github.com/Nils-Berghs'>Nils-Berghs</a>, <a href='https://github.com/MCF'>MCF</a>, <a href='https://github.com/PhoenixChenLu'>PhoenixChenLu</a>, <a href='https://github.com/erikjl'>erikjl</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/kagerouttepaso'><img src='https://scottplot.net/images/contributors/kagerouttepaso.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -71,7 +75,8 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/faguetan'><img src='https://scottplot.net/images/contributors/faguetan.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Nils-Berghs'><img src='https://scottplot.net/images/contributors/nils-berghs.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/MCF'><img src='https://scottplot.net/images/contributors/mcf.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/PhoenixChenLu'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/PhoenixChenLu'><img src='https://scottplot.net/images/contributors/phoenixchenlu.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/erikjl'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
