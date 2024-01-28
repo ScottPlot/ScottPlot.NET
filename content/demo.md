@@ -50,6 +50,16 @@ date: 2023-12-13
 ![](/images/demo/5.0/drag.gif)
 
 
+### Draggable Axis Spans
+
+**The draggable axis span demo** shows how to use the user control's `MouseDown`, `MouseUp`, and `MouseMove` events to check whether a plotted object is beneath the mouse, grab it when clicked, and move or resize it when dragged. Although this demo only showcases dragging axis spans, this technique can be applied to add interactivity to any plot type.
+
+* Source code: [DraggableAxisSpans.cs](https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Demos/ScottPlot5%20WinForms%20Demo/Demos/DraggableAxisSpans.cs)
+* Download: <a href='#download'>ScottPlot 5.0 demo</a>
+
+![](/images/demo/5.0/draggable-span.gif)
+
+
 ### Draggable Data Points
 
 **The draggable points demo** shows how to use the user control's `MouseDown`, `MouseUp`, and `MouseMove` events to check whether a plotted object is beneath the mouse, grab it when clicked, move it when dragged, and drop it.
