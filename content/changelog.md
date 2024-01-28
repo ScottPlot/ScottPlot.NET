@@ -61,11 +61,19 @@ Release notes for every version of ScottPlot
 </li>
 <li>Ticks: Improved tick density calculation to prevent overlapping tick labels for very large numbers (<a href="https://github.com/ScottPlot/ScottPlot/issues/3203">#3203</a>)
 </li>
+<li>Axes: Deprecate <code>DateTimeTicks(Edge.Bottom)</code> in favor of <code>DateTimeTicksBottom()</code> which now returns the created axis.
+</li>
+<li>Cookbook: Demonstrate DateTime tick labels with custom string formatting (<a href="https://github.com/ScottPlot/ScottPlot/issues/3272">#3272</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3273">#3273</a>) <em>Thanks <a href="https://github.com/sterenas">@sterenas</a> and <a href="https://github.com/stratdev3">@stratdev3</a></em>
+</li>
+<li>Demo: Added icon to main application and all windows launched within (<a href="https://github.com/ScottPlot/ScottPlot/issues/3281">#3281</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3273">#3273</a>) <em>Thanks <a href="https://github.com/sterenas">@sterenas</a></em>
+</li>
+<li>Controls: Do not list OpenGL controls in the toolbox. They can still be added programmatically, but they invite many problems and offer little performance improvements for most applications so their use is discouraged (<a href="https://github.com/ScottPlot/ScottPlot/issues/3282">#3282</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3262">#3262</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3271">#3271</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/kagerouttepaso'>kagerouttepaso</a>, <a href='https://github.com/hockerschwan'>hockerschwan</a>, <a href='https://github.com/KroMignon'>KroMignon</a>, <a href='https://github.com/lindpatr'>lindpatr</a>, <a href='https://github.com/enumer'>enumer</a>, <a href='https://github.com/DerekGooding'>DerekGooding</a>, <a href='https://github.com/faguetan'>faguetan</a>, <a href='https://github.com/Nils-Berghs'>Nils-Berghs</a>, <a href='https://github.com/MCF'>MCF</a>, <a href='https://github.com/PhoenixChenLu'>PhoenixChenLu</a>, <a href='https://github.com/erikjl'>erikjl</a>, <a href='https://github.com/swharden'>swharden</a>
+<a href='https://github.com/kagerouttepaso'>kagerouttepaso</a>, <a href='https://github.com/hockerschwan'>hockerschwan</a>, <a href='https://github.com/KroMignon'>KroMignon</a>, <a href='https://github.com/lindpatr'>lindpatr</a>, <a href='https://github.com/enumer'>enumer</a>, <a href='https://github.com/DerekGooding'>DerekGooding</a>, <a href='https://github.com/faguetan'>faguetan</a>, <a href='https://github.com/Nils-Berghs'>Nils-Berghs</a>, <a href='https://github.com/MCF'>MCF</a>, <a href='https://github.com/PhoenixChenLu'>PhoenixChenLu</a>, <a href='https://github.com/erikjl'>erikjl</a>, <a href='https://github.com/sterenas'>sterenas</a>, <a href='https://github.com/stratdev3'>stratdev3</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/kagerouttepaso'><img src='https://scottplot.net/images/contributors/kagerouttepaso.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -79,6 +87,8 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/MCF'><img src='https://scottplot.net/images/contributors/mcf.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/PhoenixChenLu'><img src='https://scottplot.net/images/contributors/phoenixchenlu.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/erikjl'><img src='https://scottplot.net/images/contributors/erikjl.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/sterenas'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/stratdev3'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
