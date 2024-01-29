@@ -71,6 +71,12 @@ Release notes for every version of ScottPlot
 </li>
 <li>WinForms: Disable design time visibility in .NET Framework projects to prevent Visual Studio error messages (<a href="https://github.com/ScottPlot/ScottPlot/issues/3300">#3300</a>) <em>Thanks <a href="https://github.com/MaxFun">@MaxFun</a></em>
 </li>
+<li>Markers: Added <code>Plot.Add.Markers()</code> to display a collection of marker positions all using the same style (<a href="https://github.com/ScottPlot/ScottPlot/issues/3283">#3283</a>)
+</li>
+<li>Axes: Added <code>Plot.Axes.Remove()</code> to allow users to remove additional axes they may have added (<a href="https://github.com/ScottPlot/ScottPlot/issues/3288">#3288</a>) <em>Thanks Felix</em>
+</li>
+<li>Data Streamer and Data Logger: Renamed <code>IAxisManager</code> to <code>IAxisLimitManager</code> to disambiguate it from the <code>AxisManager</code> class (<a href="https://github.com/ScottPlot/ScottPlot/issues/3289">#3289</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
@@ -91,7 +97,7 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/erikjl'><img src='https://scottplot.net/images/contributors/erikjl.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/sterenas'><img src='https://scottplot.net/images/contributors/sterenas.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/stratdev3'><img src='https://scottplot.net/images/contributors/stratdev3.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/MaxFun'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/MaxFun'><img src='https://scottplot.net/images/contributors/maxfun.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
