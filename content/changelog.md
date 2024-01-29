@@ -77,6 +77,8 @@ Release notes for every version of ScottPlot
 </li>
 <li>Data Streamer and Data Logger: Renamed <code>IAxisManager</code> to <code>IAxisLimitManager</code> to disambiguate it from the <code>AxisManager</code> class (<a href="https://github.com/ScottPlot/ScottPlot/issues/3289">#3289</a>)
 </li>
+<li>Pie: Added support for displaying slice label text above each slice (<a href="https://github.com/ScottPlot/ScottPlot/issues/3295">#3295</a>) <em>Thanks <a href="https://github.com/sterenas">@sterenas</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
