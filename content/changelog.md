@@ -21,8 +21,8 @@ Release notes for every version of ScottPlot
 
 </section>
 <section class='mb-5'>
-<h1 class='mb-0'>ScottPlot 5.0.21 (Not yet on NuGet)</h1>
-<div><i>NuGet packages published </i></div>
+<h1 class='mb-0'>ScottPlot 5.0.21</h1>
+<div><i>NuGet packages published 2024-01-28</i></div>
 <div class='mt-1'>
 <ul>
 <li>RenderManager: Exposed <code>EnableRendering</code> to facilitate render locking in async environments (<a href="https://github.com/ScottPlot/ScottPlot/issues/3264">#3264</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3213">#3213</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3095">#3095</a>) <em>Thanks <a href="https://github.com/kagerouttepaso">@kagerouttepaso</a></em>
@@ -78,6 +78,8 @@ Release notes for every version of ScottPlot
 <li>Data Streamer and Data Logger: Renamed <code>IAxisManager</code> to <code>IAxisLimitManager</code> to disambiguate it from the <code>AxisManager</code> class (<a href="https://github.com/ScottPlot/ScottPlot/issues/3289">#3289</a>)
 </li>
 <li>Pie: Added support for displaying slice label text above each slice (<a href="https://github.com/ScottPlot/ScottPlot/issues/3295">#3295</a>) <em>Thanks <a href="https://github.com/sterenas">@sterenas</a></em>
+</li>
+<li>Plot: <code>Save()</code> methods used to return the saved file path as a <code>string</code> but now they return a <code>SavedImageInfo</code> with a <code>Path</code> property and additional information (<a href="https://github.com/ScottPlot/ScottPlot/issues/3314">#3314</a>)
 </li>
 </ul>
 </div>
