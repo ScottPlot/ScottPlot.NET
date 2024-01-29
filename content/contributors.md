@@ -52,8 +52,24 @@ Members of the open-source community who contributed to ScottPlot
 <div><a href='https://github.com/MCF'>@MCF</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
-<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/brand/favicon.png' height='125' width='125'/></a></div>
+<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/phoenixchenlu.jpg' height='125' width='125'/></a></div>
 <div><a href='https://github.com/PhoenixChenLu'>@PhoenixChenLu</a></div>
+</div>
+<div class='bg-light border rounded text-center mx-3 my-2'>
+<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/erikjl.jpg' height='125' width='125'/></a></div>
+<div><a href='https://github.com/erikjl'>@erikjl</a></div>
+</div>
+<div class='bg-light border rounded text-center mx-3 my-2'>
+<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/sterenas.jpg' height='125' width='125'/></a></div>
+<div><a href='https://github.com/sterenas'>@sterenas</a></div>
+</div>
+<div class='bg-light border rounded text-center mx-3 my-2'>
+<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/stratdev3.png' height='125' width='125'/></a></div>
+<div><a href='https://github.com/stratdev3'>@stratdev3</a></div>
+</div>
+<div class='bg-light border rounded text-center mx-3 my-2'>
+<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/maxfun.png' height='125' width='125'/></a></div>
+<div><a href='https://github.com/MaxFun'>@MaxFun</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/mlessmann.jpg' height='125' width='125'/></a></div>
