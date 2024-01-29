@@ -4,9 +4,9 @@ Description: Bar plots can be displayed horizontally.
 URL: /cookbook/5.0/Bar/HorizontalBar/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Bar Plot", "Horizontal Bar Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Bar", "/cookbook/5.0/Bar/HorizontalBar"]
-Date: 2024-01-22
-Version: ScottPlot 5.0.20
-Version: ScottPlot 5.0.20
+Date: 2024-01-29
+Version: ScottPlot 5.0.21
+Version: ScottPlot 5.0.21
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Bar plots can be displayed horizontally.
 
-[![](/cookbook/5.0/images/HorizontalBar.png)](/cookbook/5.0/images/HorizontalBar.png)
+[![](/cookbook/5.0/images/HorizontalBar.png?240128210832)](/cookbook/5.0/images/HorizontalBar.png?240128210832)
 
 {{< code-sp5 >}}
 

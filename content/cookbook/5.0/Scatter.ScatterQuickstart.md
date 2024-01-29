@@ -4,9 +4,9 @@ Description: Scatter plots can be created from two arrays containing X and Y val
 URL: /cookbook/5.0/Scatter/ScatterQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Scatter Plot", "Scatter Plot Quickstart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Scatter", "/cookbook/5.0/Scatter/ScatterQuickstart"]
-Date: 2024-01-22
-Version: ScottPlot 5.0.20
-Version: ScottPlot 5.0.20
+Date: 2024-01-29
+Version: ScottPlot 5.0.21
+Version: ScottPlot 5.0.21
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Scatter plots can be created from two arrays containing X and Y values.
 
-[![](/cookbook/5.0/images/ScatterQuickstart.png)](/cookbook/5.0/images/ScatterQuickstart.png)
+[![](/cookbook/5.0/images/ScatterQuickstart.png?240128210832)](/cookbook/5.0/images/ScatterQuickstart.png?240128210832)
 
 {{< code-sp5 >}}
 

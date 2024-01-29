@@ -4,9 +4,9 @@ Description: A signal plot may use DateTime units but be sure to setup the respe
 URL: /cookbook/5.0/Signal/SignalDateTime/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Signal Plot", "Signal DateTime"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Signal", "/cookbook/5.0/Signal/SignalDateTime"]
-Date: 2024-01-22
-Version: ScottPlot 5.0.20
-Version: ScottPlot 5.0.20
+Date: 2024-01-29
+Version: ScottPlot 5.0.21
+Version: ScottPlot 5.0.21
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 A signal plot may use DateTime units but be sure to setup the respective axis to display using DateTime format.
 
-[![](/cookbook/5.0/images/SignalDateTime.png)](/cookbook/5.0/images/SignalDateTime.png)
+[![](/cookbook/5.0/images/SignalDateTime.png?240128210832)](/cookbook/5.0/images/SignalDateTime.png?240128210832)
 
 {{< code-sp5 >}}
 
@@ -30,7 +30,7 @@ var sig = myPlot.Add.Signal(ys);
 sig.Data.XOffset = start.ToOADate();
 sig.Data.Period = 1.0; // one day between each point
 
-myPlot.Axes.DateTimeTicks(Edge.Bottom);
+myPlot.Axes.DateTimeTicksBottom();
 
 myPlot.SavePng("demo.png", 400, 300);
 

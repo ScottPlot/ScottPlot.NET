@@ -4,9 +4,9 @@ Description: How to create a plot containig only the data area and no axes.
 URL: /cookbook/5.0/AxisAndTicks/Frameless/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Axis and Ticks", "Frameless Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AxisAndTicks", "/cookbook/5.0/AxisAndTicks/Frameless"]
-Date: 2024-01-22
-Version: ScottPlot 5.0.20
-Version: ScottPlot 5.0.20
+Date: 2024-01-29
+Version: ScottPlot 5.0.21
+Version: ScottPlot 5.0.21
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 How to create a plot containig only the data area and no axes.
 
-[![](/cookbook/5.0/images/Frameless.png)](/cookbook/5.0/images/Frameless.png)
+[![](/cookbook/5.0/images/Frameless.png?240128210832)](/cookbook/5.0/images/Frameless.png?240128210832)
 
 {{< code-sp5 >}}
 

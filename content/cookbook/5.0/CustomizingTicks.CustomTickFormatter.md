@@ -1,12 +1,12 @@
 ---
 Title: Custom Tick Formatters - ScottPlot 5.0 Cookbook
-Description: Users can customize the logic used to create tick labels from tick positions.
+Description: Users can customize the logic used to create tick labels from tick positions. Old versions of ScottPlot achieved this using a ManualTickPositions method.
 URL: /cookbook/5.0/CustomizingTicks/CustomTickFormatter/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Customizing Ticks", "Custom Tick Formatters"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/CustomizingTicks", "/cookbook/5.0/CustomizingTicks/CustomTickFormatter"]
-Date: 2024-01-22
-Version: ScottPlot 5.0.20
-Version: ScottPlot 5.0.20
+Date: 2024-01-29
+Version: ScottPlot 5.0.21
+Version: ScottPlot 5.0.21
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -14,9 +14,9 @@ ShowEditLink: false
 # Custom Tick Formatters
 
 
-Users can customize the logic used to create tick labels from tick positions.
+Users can customize the logic used to create tick labels from tick positions. Old versions of ScottPlot achieved this using a ManualTickPositions method.
 
-[![](/cookbook/5.0/images/CustomTickFormatter.png)](/cookbook/5.0/images/CustomTickFormatter.png)
+[![](/cookbook/5.0/images/CustomTickFormatter.png?240128210832)](/cookbook/5.0/images/CustomTickFormatter.png?240128210832)
 
 {{< code-sp5 >}}
 

@@ -4,9 +4,9 @@ Description: Tools exist for creating simple moving average (SMA) curves and dis
 URL: /cookbook/5.0/Finance/FinanceSma/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Financial Plot", "Simple Moving Average"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Finance", "/cookbook/5.0/Finance/FinanceSma"]
-Date: 2024-01-22
-Version: ScottPlot 5.0.20
-Version: ScottPlot 5.0.20
+Date: 2024-01-29
+Version: ScottPlot 5.0.21
+Version: ScottPlot 5.0.21
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Tools exist for creating simple moving average (SMA) curves and displaying them next to finanial data.
 
-[![](/cookbook/5.0/images/FinanceSma.png)](/cookbook/5.0/images/FinanceSma.png)
+[![](/cookbook/5.0/images/FinanceSma.png?240128210832)](/cookbook/5.0/images/FinanceSma.png?240128210832)
 
 {{< code-sp5 >}}
 
@@ -26,7 +26,7 @@ ScottPlot.Plot myPlot = new();
 // generate and plot time series price data
 var prices = Generate.RandomOHLCs(75);
 myPlot.Add.Candlestick(prices);
-myPlot.Axes.DateTimeTicks(Edge.Bottom);
+myPlot.Axes.DateTimeTicksBottom();
 
 // calculate SMA and display it as a scatter plot
 int[] windowSizes = { 3, 8, 20 };

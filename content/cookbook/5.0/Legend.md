@@ -4,9 +4,9 @@ Description: A legend is a key typically displayed in the corner of a plot
 URL: /cookbook/5.0/Legend/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Configuring Legends"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Legend"]
-Date: 2024-01-22
-Version: ScottPlot 5.0.20
-Version: ScottPlot 5.0.20
+Date: 2024-01-29
+Version: ScottPlot 5.0.21
+Version: ScottPlot 5.0.21
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,7 +18,7 @@ ShowEditLink: false
 
 Many plottables have a Label property that can be set so they appear in the legend.
 
-[![](/cookbook/5.0/images/LegendQuickstart.png)](/cookbook/5.0/images/LegendQuickstart.png)
+[![](/cookbook/5.0/images/LegendQuickstart.png?240128210832)](/cookbook/5.0/images/LegendQuickstart.png?240128210832)
 
 {{< code-sp5 >}}
 
@@ -46,7 +46,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Legends may be constructed manually.
 
-[![](/cookbook/5.0/images/ManualLegend.png)](/cookbook/5.0/images/ManualLegend.png)
+[![](/cookbook/5.0/images/ManualLegend.png?240128210832)](/cookbook/5.0/images/ManualLegend.png?240128210832)
 
 {{< code-sp5 >}}
 
@@ -89,7 +89,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Access the Legend object directly for advanced customization options.
 
-[![](/cookbook/5.0/images/LegendStyle.png)](/cookbook/5.0/images/LegendStyle.png)
+[![](/cookbook/5.0/images/LegendStyle.png?240128210832)](/cookbook/5.0/images/LegendStyle.png?240128210832)
 
 {{< code-sp5 >}}
 

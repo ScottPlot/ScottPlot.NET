@@ -4,9 +4,9 @@ Description: Finance charts can be created which display price information on th
 URL: /cookbook/5.0/Finance/FinanceRightAxis/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Financial Plot", "Price on Right"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Finance", "/cookbook/5.0/Finance/FinanceRightAxis"]
-Date: 2024-01-22
-Version: ScottPlot 5.0.20
-Version: ScottPlot 5.0.20
+Date: 2024-01-29
+Version: ScottPlot 5.0.21
+Version: ScottPlot 5.0.21
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Finance charts can be created which display price information on the right axis.
 
-[![](/cookbook/5.0/images/FinanceRightAxis.png)](/cookbook/5.0/images/FinanceRightAxis.png)
+[![](/cookbook/5.0/images/FinanceRightAxis.png?240128210832)](/cookbook/5.0/images/FinanceRightAxis.png?240128210832)
 
 {{< code-sp5 >}}
 
@@ -32,7 +32,7 @@ candles.Axes.YAxis = myPlot.Axes.Right;
 candles.Axes.YAxis.Label.Text = "Price";
 
 // style the bottom axis to display date
-myPlot.Axes.DateTimeTicks(Edge.Bottom);
+myPlot.Axes.DateTimeTicksBottom();
 
 myPlot.SavePng("demo.png", 400, 300);
 

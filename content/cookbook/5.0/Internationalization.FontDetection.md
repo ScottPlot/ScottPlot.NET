@@ -4,9 +4,9 @@ Description: ScottPlot comes with font detection methods which help identify the
 URL: /cookbook/5.0/Internationalization/FontDetection/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Internationalization", "Supported Font Detection"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Internationalization", "/cookbook/5.0/Internationalization/FontDetection"]
-Date: 2024-01-22
-Version: ScottPlot 5.0.20
-Version: ScottPlot 5.0.20
+Date: 2024-01-29
+Version: ScottPlot 5.0.21
+Version: ScottPlot 5.0.21
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 ScottPlot comes with font detection methods which help identify the best installed font for displaying text which may contain international characters.
 
-[![](/cookbook/5.0/images/FontDetection.png)](/cookbook/5.0/images/FontDetection.png)
+[![](/cookbook/5.0/images/FontDetection.png?240128210832)](/cookbook/5.0/images/FontDetection.png?240128210832)
 
 {{< code-sp5 >}}
 

@@ -4,9 +4,9 @@ Description: Advanced customization of tick marks and tick labels
 URL: /cookbook/5.0/CustomizingTicks/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Customizing Ticks"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/CustomizingTicks"]
-Date: 2024-01-22
-Version: ScottPlot 5.0.20
-Version: ScottPlot 5.0.20
+Date: 2024-01-29
+Version: ScottPlot 5.0.21
+Version: ScottPlot 5.0.21
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,9 +16,9 @@ ShowEditLink: false
 
 <h2><a href='/cookbook/5.0/CustomizingTicks/CustomTickFormatter'>Custom Tick Formatters</a></h2>
 
-Users can customize the logic used to create tick labels from tick positions.
+Users can customize the logic used to create tick labels from tick positions. Old versions of ScottPlot achieved this using a ManualTickPositions method.
 
-[![](/cookbook/5.0/images/CustomTickFormatter.png)](/cookbook/5.0/images/CustomTickFormatter.png)
+[![](/cookbook/5.0/images/CustomTickFormatter.png?240128210832)](/cookbook/5.0/images/CustomTickFormatter.png?240128210832)
 
 {{< code-sp5 >}}
 
@@ -62,7 +62,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Tick generators determine where ticks are to be placed and also contain logic for generating tick labels from tick positions. Alternative tick generators can be created and assigned to axes. Some common tick generators are provided with ScottPlot, and users also have the option create their own.
 
-[![](/cookbook/5.0/images/AltTickGen.png)](/cookbook/5.0/images/AltTickGen.png)
+[![](/cookbook/5.0/images/AltTickGen.png?240128210832)](/cookbook/5.0/images/AltTickGen.png?240128210832)
 
 {{< code-sp5 >}}
 
@@ -87,7 +87,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Users can define ticks to be placed at specific locations.
 
-[![](/cookbook/5.0/images/CustomTicks.png)](/cookbook/5.0/images/CustomTicks.png)
+[![](/cookbook/5.0/images/CustomTicks.png?240128210832)](/cookbook/5.0/images/CustomTicks.png?240128210832)
 
 {{< code-sp5 >}}
 
@@ -130,7 +130,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Users can customize tick label rotation.
 
-[![](/cookbook/5.0/images/RotatedTicks.png)](/cookbook/5.0/images/RotatedTicks.png)
+[![](/cookbook/5.0/images/RotatedTicks.png?240128210832)](/cookbook/5.0/images/RotatedTicks.png?240128210832)
 
 {{< code-sp5 >}}
 
@@ -143,6 +143,124 @@ myPlot.Add.Signal(Generate.Cos());
 myPlot.Axes.Bottom.TickLabelStyle.Rotation = -45;
 myPlot.Axes.Bottom.TickLabelStyle.OffsetY = -8;
 myPlot.Axes.Bottom.TickLabelStyle.Alignment = Alignment.MiddleRight;
+
+myPlot.SavePng("demo.png", 400, 300);
+
+```
+
+{{< /code-sp5 >}}
+
+<hr class='my-5 invisible'>
+
+
+<h2><a href='/cookbook/5.0/CustomizingTicks/DisableGridLines'>Disable Grid Lines</a></h2>
+
+Users can disable grid lines for specific axes.
+
+[![](/cookbook/5.0/images/DisableGridLines.png?240128210832)](/cookbook/5.0/images/DisableGridLines.png?240128210832)
+
+{{< code-sp5 >}}
+
+```cs
+ScottPlot.Plot myPlot = new();
+
+myPlot.Add.Signal(Generate.Sin());
+myPlot.Add.Signal(Generate.Cos());
+
+ScottPlot.Grids.DefaultGrid grid = myPlot.GetDefaultGrid();
+grid.MajorLineStyle.Width = 1; // TODO: demonstrate how to disable just vertical or horizontal grid lines
+
+myPlot.SavePng("demo.png", 400, 300);
+
+```
+
+{{< /code-sp5 >}}
+
+<hr class='my-5 invisible'>
+
+
+<h2><a href='/cookbook/5.0/CustomizingTicks/StandardMinorTickDistribution'>Minor Tick Density</a></h2>
+
+Minor tick marks are automatically generated at intervals between major tick marks. By default they are evenly spaced, but their density may be customized.
+
+[![](/cookbook/5.0/images/StandardMinorTickDistribution.png?240128210832)](/cookbook/5.0/images/StandardMinorTickDistribution.png?240128210832)
+
+{{< code-sp5 >}}
+
+```cs
+ScottPlot.Plot myPlot = new();
+
+// plot sample data
+double[] xs = Generate.Consecutive(100);
+double[] ys = Generate.NoisyExponential(100);
+var sp = myPlot.Add.Scatter(xs, ys);
+sp.LineWidth = 0;
+
+// create a minor tick generator with 10 minor ticks per major tick
+ScottPlot.TickGenerators.EvenlySpacedMinorTickGenerator minorTickGen = new(10);
+
+// create a numeric tick generator that uses our custom minor tick generator
+ScottPlot.TickGenerators.NumericAutomatic tickGen = new();
+tickGen.MinorTickGenerator = minorTickGen;
+
+// tell the left axis to use our custom tick generator
+myPlot.Axes.Left.TickGenerator = tickGen;
+
+myPlot.SavePng("demo.png", 400, 300);
+
+```
+
+{{< /code-sp5 >}}
+
+<hr class='my-5 invisible'>
+
+
+<h2><a href='/cookbook/5.0/CustomizingTicks/LogScaleTicks'>Log Scale Tick Marks</a></h2>
+
+The apperance of logarithmic scaling can be achieved by log-scaling the data to be displayed then customizing the minor ticks and grid.
+
+[![](/cookbook/5.0/images/LogScaleTicks.png?240128210832)](/cookbook/5.0/images/LogScaleTicks.png?240128210832)
+
+{{< code-sp5 >}}
+
+```cs
+ScottPlot.Plot myPlot = new();
+
+// start with original data
+double[] xs = Generate.Consecutive(100);
+double[] ys = Generate.NoisyExponential(100);
+
+// log-scale the data and account for negative values
+double[] logYs = ys.Select(Math.Log10).ToArray();
+
+// add log-scaled data to th eplot
+var sp = myPlot.Add.Scatter(xs, logYs);
+sp.LineWidth = 0;
+
+// create a minor tick generator that places log-distributed minor ticks
+ScottPlot.TickGenerators.LogMinorTickGenerator minorTickGen = new();
+
+// create a numeric tick generator that uses our custom minor tick generator
+ScottPlot.TickGenerators.NumericAutomatic tickGen = new();
+tickGen.MinorTickGenerator = minorTickGen;
+
+// create a custom tick formatter to set the label text for each tick
+static string LogTickLabelFormatter(double y) => $"{Math.Pow(10, y):N0}";
+
+// tell our major tick generator to only show major ticks that are whole integers
+tickGen.IntegerTicksOnly = true;
+
+// tell our custom tick generator to use our new label formatter
+tickGen.LabelFormatter = LogTickLabelFormatter;
+
+// tell the left axis to use our custom tick generator
+myPlot.Axes.Left.TickGenerator = tickGen;
+
+// show grid lines for minor ticks
+var grid = myPlot.GetDefaultGrid();
+grid.MajorLineStyle.Color = Colors.Black.WithOpacity(.15);
+grid.MinorLineStyle.Color = Colors.Black.WithOpacity(.05);
+grid.MinorLineStyle.Width = 1;
 
 myPlot.SavePng("demo.png", 400, 300);
 

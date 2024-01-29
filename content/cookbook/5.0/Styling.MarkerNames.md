@@ -4,9 +4,9 @@ Description: Markers can be referred to by their name.
 URL: /cookbook/5.0/Styling/MarkerNames/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Styling Plots", "Marker Names"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Styling", "/cookbook/5.0/Styling/MarkerNames"]
-Date: 2024-01-22
-Version: ScottPlot 5.0.20
-Version: ScottPlot 5.0.20
+Date: 2024-01-29
+Version: ScottPlot 5.0.21
+Version: ScottPlot 5.0.21
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Markers can be referred to by their name.
 
-[![](/cookbook/5.0/images/MarkerNames.png)](/cookbook/5.0/images/MarkerNames.png)
+[![](/cookbook/5.0/images/MarkerNames.png?240128210832)](/cookbook/5.0/images/MarkerNames.png?240128210832)
 
 {{< code-sp5 >}}
 

@@ -4,9 +4,9 @@ Description: Create a function plot from a formula.
 URL: /cookbook/5.0/Function/FunctionQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Function", "Function Quickstart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Function", "/cookbook/5.0/Function/FunctionQuickstart"]
-Date: 2024-01-22
-Version: ScottPlot 5.0.20
-Version: ScottPlot 5.0.20
+Date: 2024-01-29
+Version: ScottPlot 5.0.21
+Version: ScottPlot 5.0.21
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Create a function plot from a formula.
 
-[![](/cookbook/5.0/images/FunctionQuickstart.png)](/cookbook/5.0/images/FunctionQuickstart.png)
+[![](/cookbook/5.0/images/FunctionQuickstart.png?240128210832)](/cookbook/5.0/images/FunctionQuickstart.png?240128210832)
 
 {{< code-sp5 >}}
 
