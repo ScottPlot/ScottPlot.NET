@@ -58,3 +58,67 @@ public MainWindow()
 ```
 
 {{< /code-sp5 >}}
+
+## Display Scaling Notes
+
+The ScottPlot WPF control requires additional considerations for some features to work properly on high DPI, scaled displays.
+
+### Converting Mouse Position to ScottPlot Pixels
+
+When using mouse events and their cursor positions, the display scale must be applied as necessary before converting into Pixel coordinates.  The conversion is shown in the following mouse tracking event handler example.
+
+
+{{< code-sp5 >}}
+
+```cs
+public partial class MainWindow : Window
+{
+    readonly ScottPlot.Plottables.Crosshair CH;
+
+    public MainWindow()
+    {
+        InitializeComponent();
+
+        WpfPlot1.Plot.Add.Signal(Generate.Sin());
+        CH = WpfPlot1.Plot.Add.Crosshair(0, 0);
+
+        WpfPlot1.MouseMove += (s, e) =>
+        {
+            System.Windows.Point position = e.GetPosition(WpfPlot1);
+            double x = position.X;
+            double y = position.Y;
+
+            if (WpfPlot1.DisplayScale != 1.0)
+            {
+                x *= WpfPlot1.DisplayScale;
+                y *= WpfPlot1.DisplayScale;
+            }
+
+            Pixel mousePixel = new(x, y);
+            Coordinates mouseCoordinates = WpfPlot1.Plot.GetCoordinates(mousePixel);
+            CH.Position = mouseCoordinates;
+            WpfPlot1.Refresh();
+        };
+    }
+}
+```
+
+{{< /code-sp5 >}}
+
+### Plot Appearance and Display DPI
+
+By default, many of the elements on a plot are sized based on physical display pixels.  Plots will then have such things as labels, ticks and legends rendered very small on a high DPI display.  Set a plot's scale factor to the WPF display scale to make the plot appear the same at all display DPIs.
+
+{{< code-sp5 >}}
+
+```cs
+    public MainWindow()
+    {
+        InitializeComponent();
+
+        WpfPlot1.Plot.ScaleFactor = WpfPlot1.DisplayScale;
+    }
+
+
+```
+{{< /code-sp5 >}}
