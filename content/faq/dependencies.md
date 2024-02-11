@@ -49,7 +49,16 @@ Docker users can find additional information in [#2366](https://github.com/Scott
 
 ScottPlot 5 does not depend on `System.Drawing.Common`, so the concerns above concerns do not apply.
 
-However, the following packages may be useful for non-Windows systems:
+Linux users that find runtime errors like _System.DllNotFoundException: Unable to load shared library 'libSkiaSharp' or one of its dependencies_ or _libSkiaSharp.so: cannot open shared object file_ may benefit from adding the [`SkiaSharp.NativeAssets.Linux.NoDependencies` NuGet package](https://www.nuget.org/packages/SkiaSharp.NativeAssets.Linux.NoDependencies/) to their project in addition to the ScottPlot package.
+
+```xml
+<ItemGroup>
+    <PackageReference Include="ScottPlot" Version="5.0.21" />
+    <PackageReference Include="SkiaSharp.NativeAssets.Linux.NoDependencies" Version="2.*" />
+</ItemGroup>
+```
+
+The following packages may also be useful to install on non-Windows systems:
 
 ```
 apt-get update
