@@ -16,14 +16,7 @@ Users with questions about ScottPlot are encouraged to investigate the following
 
 * [**Search GitHub Issues**](https://github.com/ScottPlot/ScottPlot/issues) - Thousands of questions have been asked and you may benefit from the discussions
 
-### AI Resources
-
-**Consider asking AI how to use ScottPlot!** Many public LLMs are aware of ScottPlot, but be sure to specify whether you want code examples for ScottPlot 4 or ScottPlot 5.
-
-* **Glime** https://web.glimelab.ai/LaHDOwnV6OPCQf - A GPT model trained on ScottPlot code and documentation
-* **ChatGPT** https://chat.openai.com - A public LLM by OpenAI
-* **Gemini** https://gemini.google.com - A public LLM by Google (formerly Bard)
-* **Perplexity** https://labs.perplexity.ai - A public interface to the Code Llama LLM by Meta
+* [**Ask AI a Question**](/ai) - We have a special AI trained on ScottPlot's documentation, but many public LLMs are aware of ScottPlot and can provide helpful information.
 
 ### Ask a Question
 

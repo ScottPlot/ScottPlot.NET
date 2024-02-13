@@ -1,3 +1,23 @@
-<script defer onload="window.glime.init(`LaHDOwnV6OPCQf`, {styles:{theme: `light`}})"
-    src="https://cdn.glimelab.ai/widget/1.0.0/widget.js">
-    </script>
+{{ if .Params.LaunchAI }}
+<script>
+    function AfterAiLoaded() {
+        // NOTE: This doesn't work if called too early...
+        setTimeout(function () { window.glime.expand() }, 1000);
+    }
+</script>
+{{ else }}
+<script>
+    function AfterAiLoaded() { }
+</script>
+{{ end }}
+
+<script>
+    function LoadAI() {
+        window.glime.init(`LaHDOwnV6OPCQf`, { styles: { theme: `light` } });
+
+        AfterAiLoaded();
+    }
+</script>
+
+<script defer onload="LoadAI();" src="https://cdn.glimelab.ai/widget/1.0.0/widget.js">
+</script>
