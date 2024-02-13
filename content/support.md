@@ -18,6 +18,12 @@ Users with questions about ScottPlot are encouraged to investigate the following
 
 ### Ask a Question
 
+* **Try asking AI!** Be sure to clarify whether you are asking about ScottPlot 4 or ScottPlot 5.
+  * **Glime** https://web.glimelab.ai/LaHDOwnV6OPCQf - A GPT model trained on ScottPlot code and documentation
+  * **ChatGPT** https://chat.openai.com - A public LLM by OpenAI
+  * **Gemini** https://gemini.google.com - A public LLM by Google (formerly Bard)
+  * **Perplexity** https://labs.perplexity.ai - A public interface to the Code Llama LLM by Meta
+
 * [**Creating a new GitHub Issue**](https://github.com/ScottPlot/ScottPlot/issues) is the recommended way to ask questions about ScottPlot.
 
 * [**Join the ScottPlot Discord**](http://localhost:1313/discord/) to engage in conversation related to ScottPlot, and questions are welcome!
