@@ -4,7 +4,7 @@ Description: Resources for users who have questions about ScottPlot
 date: 2023-12-13
 ---
 
-### Online Resources
+### Online Documentation
 
 Users with questions about ScottPlot are encouraged to investigate the following sources:
 
@@ -16,13 +16,16 @@ Users with questions about ScottPlot are encouraged to investigate the following
 
 * [**Search GitHub Issues**](https://github.com/ScottPlot/ScottPlot/issues) - Thousands of questions have been asked and you may benefit from the discussions
 
-### Ask a Question
+### AI Resources
 
-* **Try asking AI!** Be sure to clarify whether you are asking about ScottPlot 4 or ScottPlot 5.
-  * **Glime** https://web.glimelab.ai/LaHDOwnV6OPCQf - A GPT model trained on ScottPlot code and documentation
-  * **ChatGPT** https://chat.openai.com - A public LLM by OpenAI
-  * **Gemini** https://gemini.google.com - A public LLM by Google (formerly Bard)
-  * **Perplexity** https://labs.perplexity.ai - A public interface to the Code Llama LLM by Meta
+**Consider asking AI how to use ScottPlot!** Many public LLMs are aware of ScottPlot, but be sure to specify whether you want code examples for ScottPlot 4 or ScottPlot 5.
+
+* **Glime** https://web.glimelab.ai/LaHDOwnV6OPCQf - A GPT model trained on ScottPlot code and documentation
+* **ChatGPT** https://chat.openai.com - A public LLM by OpenAI
+* **Gemini** https://gemini.google.com - A public LLM by Google (formerly Bard)
+* **Perplexity** https://labs.perplexity.ai - A public interface to the Code Llama LLM by Meta
+
+### Ask a Question
 
 * [**Creating a new GitHub Issue**](https://github.com/ScottPlot/ScottPlot/issues) is the recommended way to ask questions about ScottPlot.
 
