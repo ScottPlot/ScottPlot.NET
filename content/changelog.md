@@ -44,22 +44,25 @@ Release notes for every version of ScottPlot
 </li>
 <li>Avalonia: Redraw plots using a non-blocking background thread to improve multi-axis behavior (<a href="https://github.com/ScottPlot/ScottPlot/issues/3373">#3373</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3359">#3359</a>) <em>Thanks <a href="https://github.com/oktrue">@oktrue</a>, <a href="https://github.com/BendRocks">@BendRocks</a>, and <a href="https://github.com/ykarpeev">@ykarpeev</a></em>
 </li>
+<li>Bar plot: Added a <code>Label</code> property to allow a collection of bars to be displayed as a single item in the legend (<a href="https://github.com/ScottPlot/ScottPlot/issues/3375">#3375</a>) <em>Thanks <a href="https://github.com/fhannan-ti">@fhannan-ti</a></em>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/KroMignon'>KroMignon</a>, <a href='https://github.com/MCF'>MCF</a>, <a href='https://github.com/Milkitic'>Milkitic</a>, <a href='https://github.com/drolevar'>drolevar</a>, <a href='https://github.com/arthurits'>arthurits</a>, <a href='https://github.com/DominicBeer'>DominicBeer</a>, <a href='https://github.com/oktrue'>oktrue</a>, <a href='https://github.com/BendRocks'>BendRocks</a>, <a href='https://github.com/ykarpeev'>ykarpeev</a>, <a href='https://github.com/swharden'>swharden</a>
+<a href='https://github.com/KroMignon'>KroMignon</a>, <a href='https://github.com/MCF'>MCF</a>, <a href='https://github.com/Milkitic'>Milkitic</a>, <a href='https://github.com/drolevar'>drolevar</a>, <a href='https://github.com/arthurits'>arthurits</a>, <a href='https://github.com/DominicBeer'>DominicBeer</a>, <a href='https://github.com/oktrue'>oktrue</a>, <a href='https://github.com/BendRocks'>BendRocks</a>, <a href='https://github.com/ykarpeev'>ykarpeev</a>, <a href='https://github.com/fhannan-ti'>fhannan-ti</a>, <a href='https://github.com/swharden'>swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/KroMignon'><img src='https://scottplot.net/images/contributors/kromignon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/MCF'><img src='https://scottplot.net/images/contributors/mcf.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/Milkitic'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/drolevar'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Milkitic'><img src='https://scottplot.net/images/contributors/milkitic.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/drolevar'><img src='https://scottplot.net/images/contributors/drolevar.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/arthurits'><img src='https://scottplot.net/images/contributors/arthurits.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/DominicBeer'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/DominicBeer'><img src='https://scottplot.net/images/contributors/dominicbeer.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/oktrue'><img src='https://scottplot.net/images/contributors/oktrue.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/BendRocks'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/ykarpeev'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/BendRocks'><img src='https://scottplot.net/images/contributors/bendrocks.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/ykarpeev'><img src='https://scottplot.net/images/contributors/ykarpeev.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/fhannan-ti'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
