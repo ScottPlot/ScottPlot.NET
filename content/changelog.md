@@ -21,6 +21,50 @@ Release notes for every version of ScottPlot
 
 </section>
 <section class='mb-5'>
+<h1 class='mb-0'>ScottPlot 5.0.22</h1>
+<div><mark>Warning: NuGet package date is missing</mark></div>
+<div><i>NuGet packages published </i></div>
+<div class='mt-1'>
+<ul>
+<li>Rendering: Added additional options for gradient fills (<a href="https://github.com/ScottPlot/ScottPlot/issues/3324">#3324</a>) <em>Thanks <a href="https://github.com/KroMignon">@KroMignon</a></em>
+</li>
+<li>Plot: Improve <code>GetPixel()</code> behavior when a custom <code>ScaleFactor</code> is in use (<a href="https://github.com/ScottPlot/ScottPlot/issues/3327">#3327</a>) <em>Thanks <a href="https://github.com/MCF">@MCF</a></em>
+</li>
+<li>Fonts: Improve behavior of cached typefaces (<a href="https://github.com/ScottPlot/ScottPlot/issues/3334">#3334</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3335">#3335</a>) <em>Thanks <a href="https://github.com/Milkitic">@Milkitic</a></em>
+</li>
+<li>Legend: Added support for horizontal orientation (<a href="https://github.com/ScottPlot/ScottPlot/issues/3341">#3341</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3302">#3302</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3280">#3280</a>) <em>Thanks <a href="https://github.com/KroMignon">@KroMignon</a></em>
+</li>
+<li>Controls: Created <code>AddSeparator()</code> to facilitate creation of custom context menus (<a href="https://github.com/ScottPlot/ScottPlot/issues/3342">#3342</a>) <em>Thanks <a href="https://github.com/MCF">@MCF</a></em>
+</li>
+<li>Live Data: Improved indexing of the <code>Wipe</code> view to prevent race conditions when displaying live data (<a href="https://github.com/ScottPlot/ScottPlot/issues/3352">#3352</a>) <em>Thanks <a href="https://github.com/drolevar">@drolevar</a></em>
+</li>
+<li>Radial Gauge Plot: Added a new plot type for displaying categorical data as circular gauges (<a href="https://github.com/ScottPlot/ScottPlot/issues/3358">#3358</a>) <em>Thanks <a href="https://github.com/arthurits">@arthurits</a></em>
+</li>
+<li>Generate: Improved <code>RandomNormalSample()</code> behavior by fixing an off-by-one indexing error <em>Thanks <a href="https://github.com/DominicBeer">@DominicBeer</a></em>
+</li>
+<li>Avalonia: Redraw plots using a non-blocking background thread to improve multi-axis behavior (<a href="https://github.com/ScottPlot/ScottPlot/issues/3373">#3373</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3359">#3359</a>) <em>Thanks <a href="https://github.com/oktrue">@oktrue</a>, <a href="https://github.com/BendRocks">@BendRocks</a>, and <a href="https://github.com/ykarpeev">@ykarpeev</a></em>
+</li>
+</ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/KroMignon'>KroMignon</a>, <a href='https://github.com/MCF'>MCF</a>, <a href='https://github.com/Milkitic'>Milkitic</a>, <a href='https://github.com/drolevar'>drolevar</a>, <a href='https://github.com/arthurits'>arthurits</a>, <a href='https://github.com/DominicBeer'>DominicBeer</a>, <a href='https://github.com/oktrue'>oktrue</a>, <a href='https://github.com/BendRocks'>BendRocks</a>, <a href='https://github.com/ykarpeev'>ykarpeev</a>, <a href='https://github.com/swharden'>swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/KroMignon'><img src='https://scottplot.net/images/contributors/kromignon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/MCF'><img src='https://scottplot.net/images/contributors/mcf.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Milkitic'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/drolevar'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/arthurits'><img src='https://scottplot.net/images/contributors/arthurits.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/DominicBeer'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/oktrue'><img src='https://scottplot.net/images/contributors/oktrue.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/BendRocks'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/ykarpeev'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
+
+</section>
+<section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 5.0.21</h1>
 <div><i>NuGet packages published 2024-01-28</i></div>
 <div class='mt-1'>
