@@ -35,6 +35,12 @@ Release notes for every version of ScottPlot
 </li>
 <li>WPF: Redraw plots using a non-blocking background background thread to improve multi-axis behavior (<a href="https://github.com/ScottPlot/ScottPlot/issues/3373">#3373</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3359">#3359</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3381">#3381</a>) <a href="https://github.com/drolevar">@drolevar</a>
 </li>
+<li>Ellipse: Added <code>LineWidth</code>, <code>LineColor</code>, and <code>FillColor</code> shortcut properties
+</li>
+<li>Color: Added <code>Lighten()</code> and <code>Darken()</code> properties (<a href="https://github.com/ScottPlot/ScottPlot/issues/3387">#3387</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3390">#3390</a>) <a href="https://github.com/KroMignon">@KroMignon</a>
+</li>
+<li>Color: Modified <code>ToHSL()</code> to return improved Hue, Saturation and Luminosity values (<a href="https://github.com/ScottPlot/ScottPlot/issues/3390">#3390</a>) <a href="https://github.com/KroMignon">@KroMignon</a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
