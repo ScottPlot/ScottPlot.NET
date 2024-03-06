@@ -2,6 +2,11 @@ name: Changelog
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - dev/ChangelogPageMaker/**
 
 jobs:
   deploy:
