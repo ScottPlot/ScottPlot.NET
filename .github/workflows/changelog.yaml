@@ -12,10 +12,10 @@ jobs:
         uses: actions/checkout@v3
         with:
           token: ${{ secrets.GH_TOKEN }}
-      - name: ✨ Setup .NET 7
+      - name: ✨ Setup .NET 8
         uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: "7.x"
+          dotnet-version: "8.x"
       - name: 🚚 Restore
         run: dotnet restore "dev/ChangelogPageMaker"
       - name: 🛠️ Build
