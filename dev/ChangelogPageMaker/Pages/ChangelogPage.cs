@@ -3,13 +3,12 @@ using System.Text;
 
 namespace ChangelogPageMaker.Pages;
 
-internal class ChangelogPage : HtmlPageBase
+internal class ChangelogPage(Changelog changelog) 
+    : HtmlPageBase(
+        title: "ScottPlot Changelog",
+        description: "Release notes for every version of ScottPlot", 
+        changelog)
 {
-    public ChangelogPage(Changelog changelog)
-        : base("ScottPlot Changelog", "Release notes for every version of ScottPlot", changelog)
-    {
-    }
-
     public override string GetHtml()
     {
         StringBuilder sb = new();

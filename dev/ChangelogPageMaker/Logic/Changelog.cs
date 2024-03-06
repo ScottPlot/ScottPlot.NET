@@ -54,7 +54,7 @@ internal class ChangelogChange
 
         foreach (string id in ids)
         {
-            md = md.Replace($"@{id}", $"[@_USER{id}](https://github.com/{id})");
+            md = md.Replace($"@{id}", $"[**@_USER{id}**](https://github.com/{id})");
         }
 
         md = md.Replace("#_ISSUE", "#");
@@ -112,18 +112,6 @@ internal class ChangelogRelease
         }
 
         sb.AppendLine($"<h1 class='mb-0'>{Title}</h1>");
-
-        if (Title.Contains("development", StringComparison.InvariantCultureIgnoreCase))
-        {
-            sb.AppendLine($"<div><i>Not yet published as a NuGet package...</i></div>");
-            return;
-        }
-
-        if (Title.Split(" ").Length == 2 && string.IsNullOrWhiteSpace(Date))
-        {
-            sb.AppendLine($"<div><mark>Warning: NuGet package date is missing</mark></div>");
-        }
-
         sb.AppendLine($"<div><i>NuGet packages published {Date}</i></div>");
     }
 
@@ -141,8 +129,13 @@ internal class ChangelogRelease
 
     private void AddContributorNames(StringBuilder sb)
     {
+        string[] htmlContributors = Contributors
+            .Append("swharden")
+            .Select(x => $"<a href='https://github.com/{x}'>@{x}</a>")
+            .ToArray();
+
         sb.AppendLine("<div class='text-center'>");
-        sb.AppendLine(string.Join(", ", Contributors.Append("swharden").Select(x => $"<a href='https://github.com/{x}'>{x}</a>")));
+        sb.AppendLine(string.Join(", ", htmlContributors));
         sb.AppendLine("</div>");
     }
 
