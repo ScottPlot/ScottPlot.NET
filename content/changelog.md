@@ -60,6 +60,8 @@ Release notes for every version of ScottPlot
 </li>
 <li>Controls: Prevent unnecessary zoom rectangle clearing (<a href="https://github.com/ScottPlot/ScottPlot/issues/3412">#3412</a>) <a href="https://github.com/drolevar"><strong>@drolevar</strong></a>
 </li>
+<li>Axes: Improve placement of decisecond and centisecond ticks on DateTime axes (<a href="https://github.com/ScottPlot/ScottPlot/issues/3413">#3413</a>) <a href="https://github.com/drolevar"><strong>@drolevar</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
