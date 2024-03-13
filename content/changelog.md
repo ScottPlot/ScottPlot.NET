@@ -56,6 +56,10 @@ Release notes for every version of ScottPlot
 </li>
 <li>Controls: Improved behavior of middle-click-drag zoom rectangle actions when CTRL or SHIFT is pressed
 </li>
+<li>DataLogger and DataStreamer: Improve support for multi-axis plots (<a href="https://github.com/ScottPlot/ScottPlot/issues/3411">#3411</a>) <a href="https://github.com/drolevar"><strong>@drolevar</strong></a>
+</li>
+<li>Controls: Prevent unnecessary zoom rectangle clearing (<a href="https://github.com/ScottPlot/ScottPlot/issues/3412">#3412</a>) <a href="https://github.com/drolevar"><strong>@drolevar</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
@@ -80,6 +84,25 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/xichaoqiang'><img src='https://scottplot.net/images/contributors/xichaoqiang.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/unsigned-ru'><img src='https://scottplot.net/images/contributors/unsigned-ru.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/levipara'><img src='https://scottplot.net/images/contributors/levipara.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
+
+</section>
+<section class='mb-5'>
+<h1 class='mb-0'>ScottPlot 4.1.72</h1>
+<div><i>NuGet packages published </i></div>
+<div class='mt-1'>
+<ul>
+<li>DataLogger: Improve support for multi-axis plots (<a href="https://github.com/ScottPlot/ScottPlot/issues/3411">#3411</a>) <a href="https://github.com/drolevar"><strong>@drolevar</strong></a>
+</li>
+</ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/swharden'>@swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/drolevar'><img src='https://scottplot.net/images/contributors/drolevar.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
