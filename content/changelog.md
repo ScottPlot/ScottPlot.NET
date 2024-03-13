@@ -52,6 +52,10 @@ Release notes for every version of ScottPlot
 </li>
 <li>Axes: Updated the auto-scaler to ignore plottables with visibility disabled (<a href="https://github.com/ScottPlot/ScottPlot/issues/3407">#3407</a>) <a href="https://github.com/levipara"><strong>@levipara</strong></a>
 </li>
+<li>Axes: Restrict pan, zoom, and autoscale to a single dimension if the cursor is over an axis panel (<a href="https://github.com/ScottPlot/ScottPlot/issues/3410">#3410</a>) <a href="https://github.com/drolevar"><strong>@drolevar</strong></a>
+</li>
+<li>Controls: Improved behavior of middle-click-drag zoom rectangle actions when CTRL or SHIFT is pressed
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
@@ -75,7 +79,7 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/csbebetter'><img src='https://scottplot.net/images/contributors/csbebetter.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/xichaoqiang'><img src='https://scottplot.net/images/contributors/xichaoqiang.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/unsigned-ru'><img src='https://scottplot.net/images/contributors/unsigned-ru.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/levipara'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/levipara'><img src='https://scottplot.net/images/contributors/levipara.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
