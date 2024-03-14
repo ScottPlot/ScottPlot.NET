@@ -92,7 +92,7 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/xichaoqiang'><img src='https://scottplot.net/images/contributors/xichaoqiang.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/unsigned-ru'><img src='https://scottplot.net/images/contributors/unsigned-ru.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/levipara'><img src='https://scottplot.net/images/contributors/levipara.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/NicolasLairNET'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/NicolasLairNET'><img src='https://scottplot.net/images/contributors/nicolaslairnet.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
