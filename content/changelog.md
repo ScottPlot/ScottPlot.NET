@@ -78,6 +78,8 @@ Release notes for every version of ScottPlot
 </li>
 <li>DataLogger and DataStreamer: prevent possible out-of-range exception when using the <code>Scroll</code> view mode (<a href="https://github.com/ScottPlot/ScottPlot/issues/3430">#3430</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3429">#3429</a>) <a href="https://github.com/KroMignon"><strong>@KroMignon</strong></a>
 </li>
+<li>Color: Added <code>MixWith()</code> and related methods to facilitate color mixing and creation of color gradients (<a href="https://github.com/ScottPlot/ScottPlot/issues/3443">#3443</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3441">#3441</a>) <a href="https://github.com/KroMignon"><strong>@KroMignon</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
