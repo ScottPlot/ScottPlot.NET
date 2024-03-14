@@ -68,6 +68,12 @@ Release notes for every version of ScottPlot
 </li>
 <li>Heatmap: Improve vertical placement of scaled heatmaps (<a href="https://github.com/ScottPlot/ScottPlot/issues/3416">#3416</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3417">#3417</a>) <a href="https://github.com/BrianAtZetica"><strong>@BrianAtZetica</strong></a>
 </li>
+<li>Heatmap: Added <code>FlipHorizontally</code> and <code>FlipVertically</code> properties (<a href="https://github.com/ScottPlot/ScottPlot/issues/3418">#3418</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3419">#3419</a>) <a href="https://github.com/BrianAtZetica"><strong>@BrianAtZetica</strong></a>
+</li>
+<li>Heatmap: Fixed off-by-one render error when <code>Extent</code> is provided by the user (<a href="https://github.com/ScottPlot/ScottPlot/issues/3434">#3434</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3419">#3419</a>) <a href="https://github.com/BrianAtZetica"><strong>@BrianAtZetica</strong></a>
+</li>
+<li>Heatmap: Added support for the <code>Smooth</code> property do render anti-aliased images (<a href="https://github.com/ScottPlot/ScottPlot/issues/3419">#3419</a>) <a href="https://github.com/BrianAtZetica"><strong>@BrianAtZetica</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
