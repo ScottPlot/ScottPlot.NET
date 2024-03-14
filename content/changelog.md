@@ -74,6 +74,10 @@ Release notes for every version of ScottPlot
 </li>
 <li>Heatmap: Added support for the <code>Smooth</code> property do render anti-aliased images (<a href="https://github.com/ScottPlot/ScottPlot/issues/3419">#3419</a>) <a href="https://github.com/BrianAtZetica"><strong>@BrianAtZetica</strong></a>
 </li>
+<li>Ticks: Fix issue where manual ticks could be displayed outside the data area (<a href="https://github.com/ScottPlot/ScottPlot/issues/3425">#3425</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3427">#3427</a>) <a href="https://github.com/oktrue"><strong>@oktrue</strong></a>
+</li>
+<li>DataLogger and DataStreamer: prevent possible out-of-range exception when using the <code>Scroll</code> view mode (<a href="https://github.com/ScottPlot/ScottPlot/issues/3430">#3430</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3429">#3429</a>) <a href="https://github.com/KroMignon"><strong>@KroMignon</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
