@@ -86,6 +86,14 @@ Release notes for every version of ScottPlot
 </li>
 <li>Marker: Improved default settings for outline-only markers (<a href="https://github.com/ScottPlot/ScottPlot/issues/3456">#3456</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3453">#3453</a>) <a href="https://github.com/KroMignon"><strong>@KroMignon</strong></a>
 </li>
+<li>Scatter: New <code>Add.ScatterLine()</code> method creates a scatter plot with a line only and no markers (<a href="https://github.com/ScottPlot/ScottPlot/issues/3462">#3462</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3452">#3452</a>) <a href="https://github.com/MCF"><strong>@MCF</strong></a>
+</li>
+<li>Scatter: New <code>Add.ScatterPoints()</code> method creates a scatter plot with markers only and no line (<a href="https://github.com/ScottPlot/ScottPlot/issues/3462">#3462</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3452">#3452</a>) <a href="https://github.com/MCF"><strong>@MCF</strong></a>
+</li>
+<li>Ticks: Improve performance by reducing the number of string measurements (<a href="https://github.com/ScottPlot/ScottPlot/issues/3468">#3468</a>) <a href="https://github.com/drolevar"><strong>@drolevar</strong></a>
+</li>
+<li>Plot: <code>GetCoordinateRect()</code> now returns dimensions that respect <code>ScaleFactor</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/3471">#3471</a>) <a href="https://github.com/MCF"><strong>@MCF</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
