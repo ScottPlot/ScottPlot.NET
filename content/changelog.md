@@ -84,6 +84,8 @@ Release notes for every version of ScottPlot
 </li>
 <li>Plot: <code>ScaleFactor</code> is now a <code>double</code> for simplified assignment (<a href="https://github.com/ScottPlot/ScottPlot/issues/3454">#3454</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3455">#3455</a>) <a href="https://github.com/MCF"><strong>@MCF</strong></a>
 </li>
+<li>Marker: Improved default settings for outline-only markers (<a href="https://github.com/ScottPlot/ScottPlot/issues/3456">#3456</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3453">#3453</a>) <a href="https://github.com/KroMignon"><strong>@KroMignon</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
@@ -110,7 +112,7 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/levipara'><img src='https://scottplot.net/images/contributors/levipara.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/NicolasLairNET'><img src='https://scottplot.net/images/contributors/nicolaslairnet.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/aespitia'><img src='https://scottplot.net/images/contributors/aespitia.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/Prototipo-Erick-Santander'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Prototipo-Erick-Santander'><img src='https://scottplot.net/images/contributors/prototipo-erick-santander.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
