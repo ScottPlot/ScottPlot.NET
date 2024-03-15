@@ -34,6 +34,11 @@ Formatter.Register(typeof(ScottPlot.Plot), (p, w) =>
     w.Write(((ScottPlot.Plot)p).GetImageHtml(400, 300)), HtmlFormatter.MimeType);
 ```
 
+Linux users require an additional package as well
+```cs
+#r "nuget:SkiaSharp.NativeAssets.Linux.NoDependencies"
+```
+
 {{< /code-sp5 >}}
 
 ### Plot Data
