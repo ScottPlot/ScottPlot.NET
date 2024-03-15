@@ -94,6 +94,8 @@ Release notes for every version of ScottPlot
 </li>
 <li>Plot: <code>GetCoordinateRect()</code> now returns dimensions that respect <code>ScaleFactor</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/3471">#3471</a>) <a href="https://github.com/MCF"><strong>@MCF</strong></a>
 </li>
+<li>Label: Added <code>Measure()</code> overloads to facilitate measuring arbitrary strings without modifying the label text (<a href="https://github.com/ScottPlot/ScottPlot/issues/3474">#3474</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3473">#3473</a>) <a href="https://github.com/aespitia"><strong>@aespitia</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
