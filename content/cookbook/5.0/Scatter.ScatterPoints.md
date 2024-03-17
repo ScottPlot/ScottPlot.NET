@@ -16,7 +16,7 @@ ShowEditLink: false
 
 The `ScatterPoints()` method can be used to create a scatter plot with markers only (line width is set to 0).
 
-[![](/cookbook/5.0/images/ScatterPoints.png?240316204900)](/cookbook/5.0/images/ScatterPoints.png?240316204900)
+[![](/cookbook/5.0/images/ScatterPoints.png?240316205800)](/cookbook/5.0/images/ScatterPoints.png?240316205800)
 
 {{< code-sp5 >}}
 

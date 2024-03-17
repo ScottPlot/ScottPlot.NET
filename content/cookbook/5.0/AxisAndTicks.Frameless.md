@@ -16,7 +16,7 @@ ShowEditLink: false
 
 How to create a plot containig only the data area and no axes.
 
-[![](/cookbook/5.0/images/Frameless.png?240316204900)](/cookbook/5.0/images/Frameless.png?240316204900)
+[![](/cookbook/5.0/images/Frameless.png?240316205800)](/cookbook/5.0/images/Frameless.png?240316205800)
 
 {{< code-sp5 >}}
 

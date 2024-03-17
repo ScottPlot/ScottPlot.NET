@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Signal plots are best for extremely large datasets. They use render using special optimizations that allow highspeed interactivity with plots containing millions of data points.
 
-[![](/cookbook/5.0/images/SignalQuickstart.png?240316204900)](/cookbook/5.0/images/SignalQuickstart.png?240316204900)
+[![](/cookbook/5.0/images/SignalQuickstart.png?240316205800)](/cookbook/5.0/images/SignalQuickstart.png?240316205800)
 
 {{< code-sp5 >}}
 

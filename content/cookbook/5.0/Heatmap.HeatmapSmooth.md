@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Enable the `Smooth` property for anti-aliased rendering
 
-[![](/cookbook/5.0/images/HeatmapSmooth.png?240316204900)](/cookbook/5.0/images/HeatmapSmooth.png?240316204900)
+[![](/cookbook/5.0/images/HeatmapSmooth.png?240316205800)](/cookbook/5.0/images/HeatmapSmooth.png?240316205800)
 
 {{< code-sp5 >}}
 

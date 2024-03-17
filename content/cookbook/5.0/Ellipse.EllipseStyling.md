@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Ellipses styles can be extensively customized
 
-[![](/cookbook/5.0/images/EllipseStyling.png?240316204900)](/cookbook/5.0/images/EllipseStyling.png?240316204900)
+[![](/cookbook/5.0/images/EllipseStyling.png?240316205800)](/cookbook/5.0/images/EllipseStyling.png?240316205800)
 
 {{< code-sp5 >}}
 

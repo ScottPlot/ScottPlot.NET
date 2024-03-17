@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Axis lines have labels that can be used to display arbitrary on the axes they are attached to.
 
-[![](/cookbook/5.0/images/AxisLineLabel.png?240316204900)](/cookbook/5.0/images/AxisLineLabel.png?240316204900)
+[![](/cookbook/5.0/images/AxisLineLabel.png?240316205800)](/cookbook/5.0/images/AxisLineLabel.png?240316205800)
 
 {{< code-sp5 >}}
 

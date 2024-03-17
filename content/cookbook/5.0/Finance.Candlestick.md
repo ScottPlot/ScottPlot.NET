@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Candlestick charts use symbols to display price data. The rectangle indicates open and close prices, and the center line indicates minimum and maximum price for the given time period. Color indicates whether the price increased or decreased between open and close.
 
-[![](/cookbook/5.0/images/Candlestick.png?240316204900)](/cookbook/5.0/images/Candlestick.png?240316204900)
+[![](/cookbook/5.0/images/Candlestick.png?240316205800)](/cookbook/5.0/images/Candlestick.png?240316205800)
 
 {{< code-sp5 >}}
 

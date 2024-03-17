@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Signal plots support generic data types, although double is typically the most performant.
 
-[![](/cookbook/5.0/images/SignalGeneric.png?240316204900)](/cookbook/5.0/images/SignalGeneric.png?240316204900)
+[![](/cookbook/5.0/images/SignalGeneric.png?240316205800)](/cookbook/5.0/images/SignalGeneric.png?240316205800)
 
 {{< code-sp5 >}}
 

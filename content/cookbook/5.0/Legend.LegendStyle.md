@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Access the Legend object directly for advanced customization options.
 
-[![](/cookbook/5.0/images/LegendStyle.png?240316204900)](/cookbook/5.0/images/LegendStyle.png?240316204900)
+[![](/cookbook/5.0/images/LegendStyle.png?240316205800)](/cookbook/5.0/images/LegendStyle.png?240316205800)
 
 {{< code-sp5 >}}
 

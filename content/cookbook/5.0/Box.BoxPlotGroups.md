@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Each collection of boxes added to the plot gets styled the same and appears as a single item in the legend. Add multiple bar series plots with defined X positions to give the appearance of grouped data.
 
-[![](/cookbook/5.0/images/BoxPlotGroups.png?240316204900)](/cookbook/5.0/images/BoxPlotGroups.png?240316204900)
+[![](/cookbook/5.0/images/BoxPlotGroups.png?240316205800)](/cookbook/5.0/images/BoxPlotGroups.png?240316205800)
 
 {{< code-sp5 >}}
 

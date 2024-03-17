@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Tick generators determine where ticks are to be placed and also contain logic for generating tick labels from tick positions. Alternative tick generators can be created and assigned to axes. Some common tick generators are provided with ScottPlot, and users also have the option create their own.
 
-[![](/cookbook/5.0/images/AltTickGen.png?240316204900)](/cookbook/5.0/images/AltTickGen.png?240316204900)
+[![](/cookbook/5.0/images/AltTickGen.png?240316205800)](/cookbook/5.0/images/AltTickGen.png?240316205800)
 
 {{< code-sp5 >}}
 

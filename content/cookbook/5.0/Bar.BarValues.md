@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Set the `Label` property of bars to have text displayed above each bar.
 
-[![](/cookbook/5.0/images/BarValues.png?240316204900)](/cookbook/5.0/images/BarValues.png?240316204900)
+[![](/cookbook/5.0/images/BarValues.png?240316205800)](/cookbook/5.0/images/BarValues.png?240316205800)
 
 {{< code-sp5 >}}
 

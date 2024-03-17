@@ -16,7 +16,7 @@ ShowEditLink: false
 
 FillY plots can be customized using public properties.
 
-[![](/cookbook/5.0/images/Styling.png?240316204900)](/cookbook/5.0/images/Styling.png?240316204900)
+[![](/cookbook/5.0/images/Styling.png?240316205800)](/cookbook/5.0/images/Styling.png?240316205800)
 
 {{< code-sp5 >}}
 

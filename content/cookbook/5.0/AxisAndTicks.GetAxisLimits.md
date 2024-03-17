@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Use GetLimits() to obtain the current axis limits.
 
-[![](/cookbook/5.0/images/GetAxisLimits.png?240316204900)](/cookbook/5.0/images/GetAxisLimits.png?240316204900)
+[![](/cookbook/5.0/images/GetAxisLimits.png?240316205800)](/cookbook/5.0/images/GetAxisLimits.png?240316205800)
 
 {{< code-sp5 >}}
 

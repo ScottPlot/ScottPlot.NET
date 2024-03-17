@@ -16,7 +16,7 @@ ShowEditLink: false
 
 The `ScatterLine()` method can be used to create a scatter plot with a line only (marker size is set to 0).
 
-[![](/cookbook/5.0/images/ScatterLine.png?240316204900)](/cookbook/5.0/images/ScatterLine.png?240316204900)
+[![](/cookbook/5.0/images/ScatterLine.png?240316205800)](/cookbook/5.0/images/ScatterLine.png?240316205800)
 
 {{< code-sp5 >}}
 

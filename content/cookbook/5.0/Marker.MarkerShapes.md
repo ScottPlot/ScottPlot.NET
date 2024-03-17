@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Many marker shapes are available.
 
-[![](/cookbook/5.0/images/MarkerShapes.png?240316204900)](/cookbook/5.0/images/MarkerShapes.png?240316204900)
+[![](/cookbook/5.0/images/MarkerShapes.png?240316205800)](/cookbook/5.0/images/MarkerShapes.png?240316205800)
 
 {{< code-sp5 >}}
 

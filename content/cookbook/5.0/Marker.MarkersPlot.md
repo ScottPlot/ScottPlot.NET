@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Collections of markers that are all styled the same may be added to the plot
 
-[![](/cookbook/5.0/images/MarkersPlot.png?240316204900)](/cookbook/5.0/images/MarkersPlot.png?240316204900)
+[![](/cookbook/5.0/images/MarkersPlot.png?240316205800)](/cookbook/5.0/images/MarkersPlot.png?240316205800)
 
 {{< code-sp5 >}}
 

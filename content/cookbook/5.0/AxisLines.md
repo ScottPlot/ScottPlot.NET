@@ -18,7 +18,7 @@ ShowEditLink: false
 
 Axis lines are vertical or horizontal lines that span an entire axis.
 
-[![](/cookbook/5.0/images/AxisLineQuickstart.png?240316204900)](/cookbook/5.0/images/AxisLineQuickstart.png?240316204900)
+[![](/cookbook/5.0/images/AxisLineQuickstart.png?240316205800)](/cookbook/5.0/images/AxisLineQuickstart.png?240316205800)
 
 {{< code-sp5 >}}
 
@@ -44,7 +44,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Axis lines have labels that can be used to display arbitrary on the axes they are attached to.
 
-[![](/cookbook/5.0/images/AxisLineLabel.png?240316204900)](/cookbook/5.0/images/AxisLineLabel.png?240316204900)
+[![](/cookbook/5.0/images/AxisLineLabel.png?240316205800)](/cookbook/5.0/images/AxisLineLabel.png?240316205800)
 
 {{< code-sp5 >}}
 
@@ -85,7 +85,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Axis lines have extensive customization options.
 
-[![](/cookbook/5.0/images/AxisLineStyle.png?240316204900)](/cookbook/5.0/images/AxisLineStyle.png?240316204900)
+[![](/cookbook/5.0/images/AxisLineStyle.png?240316205800)](/cookbook/5.0/images/AxisLineStyle.png?240316205800)
 
 {{< code-sp5 >}}
 

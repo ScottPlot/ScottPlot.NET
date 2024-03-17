@@ -18,7 +18,7 @@ ShowEditLink: false
 
 SignalConst can display data with millions of points at high framerates, ideal for interactive manipulation of large datasets.
 
-[![](/cookbook/5.0/images/SignalConstQuickstart.png?240316204900)](/cookbook/5.0/images/SignalConstQuickstart.png?240316204900)
+[![](/cookbook/5.0/images/SignalConstQuickstart.png?240316205800)](/cookbook/5.0/images/SignalConstQuickstart.png?240316205800)
 
 {{< code-sp5 >}}
 

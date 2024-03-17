@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Finance charts can be created which display price information on the right axis.
 
-[![](/cookbook/5.0/images/FinanceRightAxis.png?240316204900)](/cookbook/5.0/images/FinanceRightAxis.png?240316204900)
+[![](/cookbook/5.0/images/FinanceRightAxis.png?240316205800)](/cookbook/5.0/images/FinanceRightAxis.png?240316205800)
 
 {{< code-sp5 >}}
 

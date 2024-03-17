@@ -16,7 +16,7 @@ ShowEditLink: false
 
 A pie chart can be created from a few values.
 
-[![](/cookbook/5.0/images/PieQuickstart.png?240316204900)](/cookbook/5.0/images/PieQuickstart.png?240316204900)
+[![](/cookbook/5.0/images/PieQuickstart.png?240316205800)](/cookbook/5.0/images/PieQuickstart.png?240316205800)
 
 {{< code-sp5 >}}
 

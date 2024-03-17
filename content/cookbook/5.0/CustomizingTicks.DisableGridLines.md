@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Users can disable grid lines for specific axes.
 
-[![](/cookbook/5.0/images/DisableGridLines.png?240316204900)](/cookbook/5.0/images/DisableGridLines.png?240316204900)
+[![](/cookbook/5.0/images/DisableGridLines.png?240316205800)](/cookbook/5.0/images/DisableGridLines.png?240316205800)
 
 {{< code-sp5 >}}
 

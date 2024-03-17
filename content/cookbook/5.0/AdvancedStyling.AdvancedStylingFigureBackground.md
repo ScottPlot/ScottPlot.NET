@@ -16,7 +16,7 @@ ShowEditLink: false
 
 An image can be used for the background of a figure.
 
-[![](/cookbook/5.0/images/AdvancedStylingFigureBackground.png?240316204900)](/cookbook/5.0/images/AdvancedStylingFigureBackground.png?240316204900)
+[![](/cookbook/5.0/images/AdvancedStylingFigureBackground.png?240316205800)](/cookbook/5.0/images/AdvancedStylingFigureBackground.png?240316205800)
 
 {{< code-sp5 >}}
 

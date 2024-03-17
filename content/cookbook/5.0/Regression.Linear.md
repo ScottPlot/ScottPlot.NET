@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Fit a line to a collection of X/Y data points.
 
-[![](/cookbook/5.0/images/Linear.png?240316204900)](/cookbook/5.0/images/Linear.png?240316204900)
+[![](/cookbook/5.0/images/Linear.png?240316205800)](/cookbook/5.0/images/Linear.png?240316205800)
 
 {{< code-sp5 >}}
 

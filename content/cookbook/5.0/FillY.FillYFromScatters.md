@@ -16,7 +16,7 @@ ShowEditLink: false
 
 FillY plots can be created from two scatter plots that share the same X values.
 
-[![](/cookbook/5.0/images/FillYFromScatters.png?240316204900)](/cookbook/5.0/images/FillYFromScatters.png?240316204900)
+[![](/cookbook/5.0/images/FillYFromScatters.png?240316205800)](/cookbook/5.0/images/FillYFromScatters.png?240316205800)
 
 {{< code-sp5 >}}
 

@@ -16,7 +16,7 @@ ShowEditLink: false
 
 A signal plot may use DateTime units but be sure to setup the respective axis to display using DateTime format.
 
-[![](/cookbook/5.0/images/SignalDateTime.png?240316204900)](/cookbook/5.0/images/SignalDateTime.png?240316204900)
+[![](/cookbook/5.0/images/SignalDateTime.png?240316205800)](/cookbook/5.0/images/SignalDateTime.png?240316205800)
 
 {{< code-sp5 >}}
 

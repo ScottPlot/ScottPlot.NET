@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Slice labels can be displayed centered with the slice at a customizable distance from the center of the pie.
 
-[![](/cookbook/5.0/images/PieSliceLabels.png?240316204900)](/cookbook/5.0/images/PieSliceLabels.png?240316204900)
+[![](/cookbook/5.0/images/PieSliceLabels.png?240316205800)](/cookbook/5.0/images/PieSliceLabels.png?240316205800)
 
 {{< code-sp5 >}}
 

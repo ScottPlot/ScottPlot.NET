@@ -16,7 +16,7 @@ ShowEditLink: false
 
 The Plot's Style class contains a method which automatically sets the fonts of common plot objects to the font most likely able to display the characters they contain.
 
-[![](/cookbook/5.0/images/AutomaticFontDetection.png?240316204900)](/cookbook/5.0/images/AutomaticFontDetection.png?240316204900)
+[![](/cookbook/5.0/images/AutomaticFontDetection.png?240316205800)](/cookbook/5.0/images/AutomaticFontDetection.png?240316205800)
 
 {{< code-sp5 >}}
 

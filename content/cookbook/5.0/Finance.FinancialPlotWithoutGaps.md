@@ -16,7 +16,7 @@ ShowEditLink: false
 
 When the DateTimes stored in OHLC objects are used to determine the horizontal position of candlesticks, periods without data like weekends and holidays appear as gaps in the plot. Enabling sequential mode causes the plot to ignore the OHLC DateTimes and display candles at integer positions starting from zero. Since this is not a true DateTime axis, users enabling this mode must customize the tick labels themselves.
 
-[![](/cookbook/5.0/images/FinancialPlotWithoutGaps.png?240316204900)](/cookbook/5.0/images/FinancialPlotWithoutGaps.png?240316204900)
+[![](/cookbook/5.0/images/FinancialPlotWithoutGaps.png?240316205800)](/cookbook/5.0/images/FinancialPlotWithoutGaps.png?240316205800)
 
 {{< code-sp5 >}}
 

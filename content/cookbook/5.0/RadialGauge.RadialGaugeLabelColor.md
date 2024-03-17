@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Level text fonts may be customized.
 
-[![](/cookbook/5.0/images/RadialGaugeLabelColor.png?240316204900)](/cookbook/5.0/images/RadialGaugeLabelColor.png?240316204900)
+[![](/cookbook/5.0/images/RadialGaugeLabelColor.png?240316205800)](/cookbook/5.0/images/RadialGaugeLabelColor.png?240316205800)
 
 {{< code-sp5 >}}
 

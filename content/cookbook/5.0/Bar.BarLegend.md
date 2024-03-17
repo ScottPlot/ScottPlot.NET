@@ -16,7 +16,7 @@ ShowEditLink: false
 
 A collection of bars can appear in the legend as a single item.
 
-[![](/cookbook/5.0/images/BarLegend.png?240316204900)](/cookbook/5.0/images/BarLegend.png?240316204900)
+[![](/cookbook/5.0/images/BarLegend.png?240316205800)](/cookbook/5.0/images/BarLegend.png?240316205800)
 
 {{< code-sp5 >}}
 

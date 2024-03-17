@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Users can display data on an inverted axis by setting axis limits setting the lower edge to a value more positive than the upper edge.
 
-[![](/cookbook/5.0/images/InvertedAxis.png?240316204900)](/cookbook/5.0/images/InvertedAxis.png?240316204900)
+[![](/cookbook/5.0/images/InvertedAxis.png?240316205800)](/cookbook/5.0/images/InvertedAxis.png?240316205800)
 
 {{< code-sp5 >}}
 

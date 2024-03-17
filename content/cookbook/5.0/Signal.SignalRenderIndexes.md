@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Even if a signal plot references a large array of data, rendering can be limited to a range of values. If set,only the range of data between the minimum and maximum render indexes will be displayed.
 
-[![](/cookbook/5.0/images/SignalRenderIndexes.png?240316204900)](/cookbook/5.0/images/SignalRenderIndexes.png?240316204900)
+[![](/cookbook/5.0/images/SignalRenderIndexes.png?240316205800)](/cookbook/5.0/images/SignalRenderIndexes.png?240316205800)
 
 {{< code-sp5 >}}
 

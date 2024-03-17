@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Functions that add things to plots return the plottables they create. Interact with the properties of plottables to customize their styling and behavior.
 
-[![](/cookbook/5.0/images/CustomizingPlottables.png?240316204900)](/cookbook/5.0/images/CustomizingPlottables.png?240316204900)
+[![](/cookbook/5.0/images/CustomizingPlottables.png?240316205800)](/cookbook/5.0/images/CustomizingPlottables.png?240316205800)
 
 {{< code-sp5 >}}
 

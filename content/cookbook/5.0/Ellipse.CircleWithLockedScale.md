@@ -16,7 +16,7 @@ ShowEditLink: false
 
 For circles to always appear circular, the coordinate system must be forced to always display square-shaped pixels. This can be achieved by enabling the axis scale lock.
 
-[![](/cookbook/5.0/images/CircleWithLockedScale.png?240316204900)](/cookbook/5.0/images/CircleWithLockedScale.png?240316204900)
+[![](/cookbook/5.0/images/CircleWithLockedScale.png?240316205800)](/cookbook/5.0/images/CircleWithLockedScale.png?240316205800)
 
 {{< code-sp5 >}}
 

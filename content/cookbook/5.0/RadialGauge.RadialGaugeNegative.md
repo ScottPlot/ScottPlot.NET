@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Radial gauge plots support positive and negative values.
 
-[![](/cookbook/5.0/images/RadialGaugeNegative.png?240316204900)](/cookbook/5.0/images/RadialGaugeNegative.png?240316204900)
+[![](/cookbook/5.0/images/RadialGaugeNegative.png?240316205800)](/cookbook/5.0/images/RadialGaugeNegative.png?240316205800)
 
 {{< code-sp5 >}}
 

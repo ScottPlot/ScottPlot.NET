@@ -16,7 +16,7 @@ ShowEditLink: false
 
 The apperance of logarithmic scaling can be achieved by log-scaling the data to be displayed then customizing the minor ticks and grid.
 
-[![](/cookbook/5.0/images/LogScaleTicks.png?240316204900)](/cookbook/5.0/images/LogScaleTicks.png?240316204900)
+[![](/cookbook/5.0/images/LogScaleTicks.png?240316205800)](/cookbook/5.0/images/LogScaleTicks.png?240316205800)
 
 {{< code-sp5 >}}
 

@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Axis Limits can be set by the user.
 
-[![](/cookbook/5.0/images/SetAxisLimits.png?240316204900)](/cookbook/5.0/images/SetAxisLimits.png?240316204900)
+[![](/cookbook/5.0/images/SetAxisLimits.png?240316205800)](/cookbook/5.0/images/SetAxisLimits.png?240316205800)
 
 {{< code-sp5 >}}
 

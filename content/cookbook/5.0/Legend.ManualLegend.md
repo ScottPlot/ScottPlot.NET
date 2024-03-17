@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Legends may be constructed manually.
 
-[![](/cookbook/5.0/images/ManualLegend.png?240316204900)](/cookbook/5.0/images/ManualLegend.png?240316204900)
+[![](/cookbook/5.0/images/ManualLegend.png?240316205800)](/cookbook/5.0/images/ManualLegend.png?240316205800)
 
 {{< code-sp5 >}}
 

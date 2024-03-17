@@ -18,7 +18,7 @@ ShowEditLink: false
 
 Error Bars go well with scatter plots.
 
-[![](/cookbook/5.0/images/ErrorBarQuickstart.png?240316204900)](/cookbook/5.0/images/ErrorBarQuickstart.png?240316204900)
+[![](/cookbook/5.0/images/ErrorBarQuickstart.png?240316205800)](/cookbook/5.0/images/ErrorBarQuickstart.png?240316205800)
 
 {{< code-sp5 >}}
 
@@ -48,7 +48,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Error size can be set for all dimensions.
 
-[![](/cookbook/5.0/images/CustomErrors.png?240316204900)](/cookbook/5.0/images/CustomErrors.png?240316204900)
+[![](/cookbook/5.0/images/CustomErrors.png?240316205800)](/cookbook/5.0/images/CustomErrors.png?240316205800)
 
 {{< code-sp5 >}}
 

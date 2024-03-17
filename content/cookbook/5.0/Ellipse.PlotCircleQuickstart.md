@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Circles can be added to plots. Circles are really Ellipses with the same X and Y radius. Note that circles appear as ellipses unless the plot has a square coordinate system.
 
-[![](/cookbook/5.0/images/PlotCircleQuickstart.png?240316204900)](/cookbook/5.0/images/PlotCircleQuickstart.png?240316204900)
+[![](/cookbook/5.0/images/PlotCircleQuickstart.png?240316205800)](/cookbook/5.0/images/PlotCircleQuickstart.png?240316205800)
 
 {{< code-sp5 >}}
 

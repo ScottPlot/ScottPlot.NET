@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Plots contain many objects which can be customized individually by assigining to their public properties, but helper methods exist in the Plot's Style object that make it easier to customzie many items at once using a simpler API.
 
-[![](/cookbook/5.0/images/StyleClass.png?240316204900)](/cookbook/5.0/images/StyleClass.png?240316204900)
+[![](/cookbook/5.0/images/StyleClass.png?240316205800)](/cookbook/5.0/images/StyleClass.png?240316205800)
 
 {{< code-sp5 >}}
 

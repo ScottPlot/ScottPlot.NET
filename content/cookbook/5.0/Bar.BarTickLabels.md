@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Bars can be labeled by manually specifying axis tick mark positions and labels.
 
-[![](/cookbook/5.0/images/BarTickLabels.png?240316204900)](/cookbook/5.0/images/BarTickLabels.png?240316204900)
+[![](/cookbook/5.0/images/BarTickLabels.png?240316205800)](/cookbook/5.0/images/BarTickLabels.png?240316205800)
 
 {{< code-sp5 >}}
 

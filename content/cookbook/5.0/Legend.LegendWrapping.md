@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Legend items may wrap to improve display for a large number of items
 
-[![](/cookbook/5.0/images/LegendWrapping.png?240316204900)](/cookbook/5.0/images/LegendWrapping.png?240316204900)
+[![](/cookbook/5.0/images/LegendWrapping.png?240316205800)](/cookbook/5.0/images/LegendWrapping.png?240316205800)
 
 {{< code-sp5 >}}
 

@@ -18,7 +18,7 @@ ShowEditLink: false
 
 Heatmaps can be created from 2D arrays
 
-[![](/cookbook/5.0/images/HeatmapQuickstart.png?240316204900)](/cookbook/5.0/images/HeatmapQuickstart.png?240316204900)
+[![](/cookbook/5.0/images/HeatmapQuickstart.png?240316205800)](/cookbook/5.0/images/HeatmapQuickstart.png?240316205800)
 
 {{< code-sp5 >}}
 
@@ -41,7 +41,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Heatmaps can be inverted by reversing the order of colors in the colormap
 
-[![](/cookbook/5.0/images/HeatmapInverted.png?240316204900)](/cookbook/5.0/images/HeatmapInverted.png?240316204900)
+[![](/cookbook/5.0/images/HeatmapInverted.png?240316205800)](/cookbook/5.0/images/HeatmapInverted.png?240316205800)
 
 {{< code-sp5 >}}
 
@@ -71,7 +71,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 A heatmap's Colormap is the logic used to convert from cell value to cell color and they can set by the user. ScottPlot comes with many common colormaps, but users may implement IColormap and apply their own. A colorbar can be added to indicate which colors map to which values.
 
-[![](/cookbook/5.0/images/HeatmapColormap.png?240316204900)](/cookbook/5.0/images/HeatmapColormap.png?240316204900)
+[![](/cookbook/5.0/images/HeatmapColormap.png?240316205800)](/cookbook/5.0/images/HeatmapColormap.png?240316205800)
 
 {{< code-sp5 >}}
 
@@ -99,7 +99,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Heatmaps can be flipped horizontally and/or vertically
 
-[![](/cookbook/5.0/images/HeatmapFlip.png?240316204900)](/cookbook/5.0/images/HeatmapFlip.png?240316204900)
+[![](/cookbook/5.0/images/HeatmapFlip.png?240316205800)](/cookbook/5.0/images/HeatmapFlip.png?240316205800)
 
 {{< code-sp5 >}}
 
@@ -143,7 +143,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Enable the `Smooth` property for anti-aliased rendering
 
-[![](/cookbook/5.0/images/HeatmapSmooth.png?240316204900)](/cookbook/5.0/images/HeatmapSmooth.png?240316204900)
+[![](/cookbook/5.0/images/HeatmapSmooth.png?240316205800)](/cookbook/5.0/images/HeatmapSmooth.png?240316205800)
 
 {{< code-sp5 >}}
 

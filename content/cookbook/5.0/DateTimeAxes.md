@@ -18,7 +18,7 @@ ShowEditLink: false
 
 Axis tick labels can be displayed using a time format.
 
-[![](/cookbook/5.0/images/DateTimeAxisQuickstart.png?240316204900)](/cookbook/5.0/images/DateTimeAxisQuickstart.png?240316204900)
+[![](/cookbook/5.0/images/DateTimeAxisQuickstart.png?240316205800)](/cookbook/5.0/images/DateTimeAxisQuickstart.png?240316205800)
 
 {{< code-sp5 >}}
 
@@ -46,7 +46,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 DateTime axes are achieved using Microsoft's DateTime.ToOADate() and DateTime.FromOADate() methods to convert between dates and numeric values. Advanced users who wish to display data on DateTime axes may prefer to work with collections of doubles rather than collections of DateTimes.
 
-[![](/cookbook/5.0/images/DateTimeAxisMixed.png?240316204900)](/cookbook/5.0/images/DateTimeAxisMixed.png?240316204900)
+[![](/cookbook/5.0/images/DateTimeAxisMixed.png?240316205800)](/cookbook/5.0/images/DateTimeAxisMixed.png?240316205800)
 
 {{< code-sp5 >}}
 
@@ -90,7 +90,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Users can provide their own logic for customizing DateTime tick labels
 
-[![](/cookbook/5.0/images/DateTimeAxisCustomFormatter.png?240316204900)](/cookbook/5.0/images/DateTimeAxisCustomFormatter.png?240316204900)
+[![](/cookbook/5.0/images/DateTimeAxisCustomFormatter.png?240316205800)](/cookbook/5.0/images/DateTimeAxisCustomFormatter.png?240316205800)
 
 {{< code-sp5 >}}
 

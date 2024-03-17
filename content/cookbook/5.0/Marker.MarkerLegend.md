@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Markers with labels appear in the legend.
 
-[![](/cookbook/5.0/images/MarkerLegend.png?240316204900)](/cookbook/5.0/images/MarkerLegend.png?240316204900)
+[![](/cookbook/5.0/images/MarkerLegend.png?240316205800)](/cookbook/5.0/images/MarkerLegend.png?240316205800)
 
 {{< code-sp5 >}}
 

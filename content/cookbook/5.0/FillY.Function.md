@@ -16,7 +16,7 @@ ShowEditLink: false
 
 FillY plots can be created from data of any type if a conversion function is supplied.
 
-[![](/cookbook/5.0/images/Function.png?240316204900)](/cookbook/5.0/images/Function.png?240316204900)
+[![](/cookbook/5.0/images/Function.png?240316205800)](/cookbook/5.0/images/Function.png?240316205800)
 
 {{< code-sp5 >}}
 

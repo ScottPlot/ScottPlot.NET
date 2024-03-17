@@ -16,7 +16,7 @@ ShowEditLink: false
 
 SignalXY plots support generic data types, although double is typically the most performant.
 
-[![](/cookbook/5.0/images/SignalXYGeneric.png?240316204900)](/cookbook/5.0/images/SignalXYGeneric.png?240316204900)
+[![](/cookbook/5.0/images/SignalXYGeneric.png?240316205800)](/cookbook/5.0/images/SignalXYGeneric.png?240316205800)
 
 {{< code-sp5 >}}
 

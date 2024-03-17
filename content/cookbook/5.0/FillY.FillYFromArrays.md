@@ -16,7 +16,7 @@ ShowEditLink: false
 
 FillY plots can be created from X, Y1, and Y2 arrays.
 
-[![](/cookbook/5.0/images/FillYFromArrays.png?240316204900)](/cookbook/5.0/images/FillYFromArrays.png?240316204900)
+[![](/cookbook/5.0/images/FillYFromArrays.png?240316205800)](/cookbook/5.0/images/FillYFromArrays.png?240316205800)
 
 {{< code-sp5 >}}
 

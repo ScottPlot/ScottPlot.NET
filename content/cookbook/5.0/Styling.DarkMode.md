@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Plots can be created using dark mode by setting the colors of major plot components to ones consistent with a dark theme.
 
-[![](/cookbook/5.0/images/DarkMode.png?240316204900)](/cookbook/5.0/images/DarkMode.png?240316204900)
+[![](/cookbook/5.0/images/DarkMode.png?240316205800)](/cookbook/5.0/images/DarkMode.png?240316205800)
 
 {{< code-sp5 >}}
 

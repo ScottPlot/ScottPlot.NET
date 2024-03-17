@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Users can define ticks to be placed at specific locations.
 
-[![](/cookbook/5.0/images/CustomTicks.png?240316204900)](/cookbook/5.0/images/CustomTicks.png?240316204900)
+[![](/cookbook/5.0/images/CustomTicks.png?240316205800)](/cookbook/5.0/images/CustomTicks.png?240316205800)
 
 {{< code-sp5 >}}
 

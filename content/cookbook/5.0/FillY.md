@@ -18,7 +18,7 @@ ShowEditLink: false
 
 FillY plots can be created from X, Y1, and Y2 arrays.
 
-[![](/cookbook/5.0/images/FillYFromArrays.png?240316204900)](/cookbook/5.0/images/FillYFromArrays.png?240316204900)
+[![](/cookbook/5.0/images/FillYFromArrays.png?240316205800)](/cookbook/5.0/images/FillYFromArrays.png?240316205800)
 
 {{< code-sp5 >}}
 
@@ -48,7 +48,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 FillY plots can be created from two scatter plots that share the same X values.
 
-[![](/cookbook/5.0/images/FillYFromScatters.png?240316204900)](/cookbook/5.0/images/FillYFromScatters.png?240316204900)
+[![](/cookbook/5.0/images/FillYFromScatters.png?240316205800)](/cookbook/5.0/images/FillYFromScatters.png?240316205800)
 
 {{< code-sp5 >}}
 
@@ -81,7 +81,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 FillY plots can be created from data of any type if a conversion function is supplied.
 
-[![](/cookbook/5.0/images/Function.png?240316204900)](/cookbook/5.0/images/Function.png?240316204900)
+[![](/cookbook/5.0/images/Function.png?240316205800)](/cookbook/5.0/images/Function.png?240316205800)
 
 {{< code-sp5 >}}
 
@@ -118,7 +118,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 FillY plots can be customized using public properties.
 
-[![](/cookbook/5.0/images/Styling.png?240316204900)](/cookbook/5.0/images/Styling.png?240316204900)
+[![](/cookbook/5.0/images/Styling.png?240316205800)](/cookbook/5.0/images/Styling.png?240316205800)
 
 {{< code-sp5 >}}
 

@@ -16,7 +16,7 @@ ShowEditLink: false
 
 An image can be used for the background of the data area.
 
-[![](/cookbook/5.0/images/AdvancedStylingDataBackground.png?240316204900)](/cookbook/5.0/images/AdvancedStylingDataBackground.png?240316204900)
+[![](/cookbook/5.0/images/AdvancedStylingDataBackground.png?240316205800)](/cookbook/5.0/images/AdvancedStylingDataBackground.png?240316205800)
 
 {{< code-sp5 >}}
 

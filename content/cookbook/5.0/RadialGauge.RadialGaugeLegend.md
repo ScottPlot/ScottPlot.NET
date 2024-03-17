@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Radial gauge labels will appear in the legend if they are assigned. 
 
-[![](/cookbook/5.0/images/RadialGaugeLegend.png?240316204900)](/cookbook/5.0/images/RadialGaugeLegend.png?240316204900)
+[![](/cookbook/5.0/images/RadialGaugeLegend.png?240316205800)](/cookbook/5.0/images/RadialGaugeLegend.png?240316205800)
 
 {{< code-sp5 >}}
 

@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Create a function plot from a formula.
 
-[![](/cookbook/5.0/images/FunctionQuickstart.png?240316204900)](/cookbook/5.0/images/FunctionQuickstart.png?240316204900)
+[![](/cookbook/5.0/images/FunctionQuickstart.png?240316205800)](/cookbook/5.0/images/FunctionQuickstart.png?240316205800)
 
 {{< code-sp5 >}}
 

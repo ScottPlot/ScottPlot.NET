@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Grid lines are typically drawn beneath data, but grids can be configured to render on top of plottables too.
 
-[![](/cookbook/5.0/images/GridAbove.png?240316204900)](/cookbook/5.0/images/GridAbove.png?240316204900)
+[![](/cookbook/5.0/images/GridAbove.png?240316205800)](/cookbook/5.0/images/GridAbove.png?240316205800)
 
 {{< code-sp5 >}}
 

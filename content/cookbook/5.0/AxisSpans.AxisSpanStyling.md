@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Axis spans can be extensively customized.
 
-[![](/cookbook/5.0/images/AxisSpanStyling.png?240316204900)](/cookbook/5.0/images/AxisSpanStyling.png?240316204900)
+[![](/cookbook/5.0/images/AxisSpanStyling.png?240316205800)](/cookbook/5.0/images/AxisSpanStyling.png?240316205800)
 
 {{< code-sp5 >}}
 

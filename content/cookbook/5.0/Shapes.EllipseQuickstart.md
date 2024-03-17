@@ -16,7 +16,7 @@ ShowEditLink: false
 
 An ellipse can be placed on the plot and styled as desired.
 
-[![](/cookbook/5.0/images/EllipseQuickstart.png?240316204900)](/cookbook/5.0/images/EllipseQuickstart.png?240316204900)
+[![](/cookbook/5.0/images/EllipseQuickstart.png?240316205800)](/cookbook/5.0/images/EllipseQuickstart.png?240316205800)
 
 {{< code-sp5 >}}
 

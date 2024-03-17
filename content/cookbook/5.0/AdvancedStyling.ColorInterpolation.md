@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Colors can be mixed to createa range of colors. This strategy uses linear RGB interpolation.
 
-[![](/cookbook/5.0/images/ColorInterpolation.png?240316204900)](/cookbook/5.0/images/ColorInterpolation.png?240316204900)
+[![](/cookbook/5.0/images/ColorInterpolation.png?240316205800)](/cookbook/5.0/images/ColorInterpolation.png?240316205800)
 
 {{< code-sp5 >}}
 

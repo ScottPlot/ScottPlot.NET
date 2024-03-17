@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Markers are symbols placed at a location in coordinate space. Their shape, size, and color can be customized.
 
-[![](/cookbook/5.0/images/MarkerQuickstart.png?240316204900)](/cookbook/5.0/images/MarkerQuickstart.png?240316204900)
+[![](/cookbook/5.0/images/MarkerQuickstart.png?240316205800)](/cookbook/5.0/images/MarkerQuickstart.png?240316205800)
 
 {{< code-sp5 >}}
 

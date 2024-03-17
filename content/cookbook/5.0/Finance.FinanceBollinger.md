@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Tools exist for creating Bollinger Bands which display weighted moving mean and variance for time series financial data.
 
-[![](/cookbook/5.0/images/FinanceBollinger.png?240316204900)](/cookbook/5.0/images/FinanceBollinger.png?240316204900)
+[![](/cookbook/5.0/images/FinanceBollinger.png?240316205800)](/cookbook/5.0/images/FinanceBollinger.png?240316205800)
 
 {{< code-sp5 >}}
 

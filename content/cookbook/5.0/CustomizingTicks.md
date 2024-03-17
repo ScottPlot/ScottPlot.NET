@@ -18,7 +18,7 @@ ShowEditLink: false
 
 Users can customize the logic used to create tick labels from tick positions. Old versions of ScottPlot achieved this using a ManualTickPositions method.
 
-[![](/cookbook/5.0/images/CustomTickFormatter.png?240316204900)](/cookbook/5.0/images/CustomTickFormatter.png?240316204900)
+[![](/cookbook/5.0/images/CustomTickFormatter.png?240316205800)](/cookbook/5.0/images/CustomTickFormatter.png?240316205800)
 
 {{< code-sp5 >}}
 
@@ -62,7 +62,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Tick generators determine where ticks are to be placed and also contain logic for generating tick labels from tick positions. Alternative tick generators can be created and assigned to axes. Some common tick generators are provided with ScottPlot, and users also have the option create their own.
 
-[![](/cookbook/5.0/images/AltTickGen.png?240316204900)](/cookbook/5.0/images/AltTickGen.png?240316204900)
+[![](/cookbook/5.0/images/AltTickGen.png?240316205800)](/cookbook/5.0/images/AltTickGen.png?240316205800)
 
 {{< code-sp5 >}}
 
@@ -87,7 +87,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Users can define ticks to be placed at specific locations.
 
-[![](/cookbook/5.0/images/CustomTicks.png?240316204900)](/cookbook/5.0/images/CustomTicks.png?240316204900)
+[![](/cookbook/5.0/images/CustomTicks.png?240316205800)](/cookbook/5.0/images/CustomTicks.png?240316205800)
 
 {{< code-sp5 >}}
 
@@ -130,7 +130,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Users can customize tick label rotation.
 
-[![](/cookbook/5.0/images/RotatedTicks.png?240316204900)](/cookbook/5.0/images/RotatedTicks.png?240316204900)
+[![](/cookbook/5.0/images/RotatedTicks.png?240316205800)](/cookbook/5.0/images/RotatedTicks.png?240316205800)
 
 {{< code-sp5 >}}
 
@@ -157,7 +157,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 The axis size can be increased to accommodate rotated or long tick labels.
 
-[![](/cookbook/5.0/images/RotatedTicksLongLabels.png?240316204900)](/cookbook/5.0/images/RotatedTicksLongLabels.png?240316204900)
+[![](/cookbook/5.0/images/RotatedTicksLongLabels.png?240316205800)](/cookbook/5.0/images/RotatedTicksLongLabels.png?240316205800)
 
 {{< code-sp5 >}}
 
@@ -208,7 +208,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Users can disable grid lines for specific axes.
 
-[![](/cookbook/5.0/images/DisableGridLines.png?240316204900)](/cookbook/5.0/images/DisableGridLines.png?240316204900)
+[![](/cookbook/5.0/images/DisableGridLines.png?240316205800)](/cookbook/5.0/images/DisableGridLines.png?240316205800)
 
 {{< code-sp5 >}}
 
@@ -234,7 +234,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Minor tick marks are automatically generated at intervals between major tick marks. By default they are evenly spaced, but their density may be customized.
 
-[![](/cookbook/5.0/images/StandardMinorTickDistribution.png?240316204900)](/cookbook/5.0/images/StandardMinorTickDistribution.png?240316204900)
+[![](/cookbook/5.0/images/StandardMinorTickDistribution.png?240316205800)](/cookbook/5.0/images/StandardMinorTickDistribution.png?240316205800)
 
 {{< code-sp5 >}}
 
@@ -270,7 +270,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 The apperance of logarithmic scaling can be achieved by log-scaling the data to be displayed then customizing the minor ticks and grid.
 
-[![](/cookbook/5.0/images/LogScaleTicks.png?240316204900)](/cookbook/5.0/images/LogScaleTicks.png?240316204900)
+[![](/cookbook/5.0/images/LogScaleTicks.png?240316205800)](/cookbook/5.0/images/LogScaleTicks.png?240316205800)
 
 {{< code-sp5 >}}
 

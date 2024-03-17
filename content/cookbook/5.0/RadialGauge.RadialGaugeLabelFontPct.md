@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Size of the gauge level text as a fraction of the gauge width.
 
-[![](/cookbook/5.0/images/RadialGaugeLabelFontPct.png?240316204900)](/cookbook/5.0/images/RadialGaugeLabelFontPct.png?240316204900)
+[![](/cookbook/5.0/images/RadialGaugeLabelFontPct.png?240316205800)](/cookbook/5.0/images/RadialGaugeLabelFontPct.png?240316205800)
 
 {{< code-sp5 >}}
 

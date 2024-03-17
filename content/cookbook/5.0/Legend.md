@@ -18,7 +18,7 @@ ShowEditLink: false
 
 Many plottables have a Label property that can be set so they appear in the legend.
 
-[![](/cookbook/5.0/images/LegendQuickstart.png?240316204900)](/cookbook/5.0/images/LegendQuickstart.png?240316204900)
+[![](/cookbook/5.0/images/LegendQuickstart.png?240316205800)](/cookbook/5.0/images/LegendQuickstart.png?240316205800)
 
 {{< code-sp5 >}}
 
@@ -46,7 +46,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Legends may be constructed manually.
 
-[![](/cookbook/5.0/images/ManualLegend.png?240316204900)](/cookbook/5.0/images/ManualLegend.png?240316204900)
+[![](/cookbook/5.0/images/ManualLegend.png?240316205800)](/cookbook/5.0/images/ManualLegend.png?240316205800)
 
 {{< code-sp5 >}}
 
@@ -89,7 +89,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Access the Legend object directly for advanced customization options.
 
-[![](/cookbook/5.0/images/LegendStyle.png?240316204900)](/cookbook/5.0/images/LegendStyle.png?240316204900)
+[![](/cookbook/5.0/images/LegendStyle.png?240316205800)](/cookbook/5.0/images/LegendStyle.png?240316205800)
 
 {{< code-sp5 >}}
 
@@ -124,7 +124,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Legend items may be arranged horizontally instead of vertically
 
-[![](/cookbook/5.0/images/LegendOrientation.png?240316204900)](/cookbook/5.0/images/LegendOrientation.png?240316204900)
+[![](/cookbook/5.0/images/LegendOrientation.png?240316205800)](/cookbook/5.0/images/LegendOrientation.png?240316205800)
 
 {{< code-sp5 >}}
 
@@ -155,7 +155,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Legend items may wrap to improve display for a large number of items
 
-[![](/cookbook/5.0/images/LegendWrapping.png?240316204900)](/cookbook/5.0/images/LegendWrapping.png?240316204900)
+[![](/cookbook/5.0/images/LegendWrapping.png?240316205800)](/cookbook/5.0/images/LegendWrapping.png?240316205800)
 
 {{< code-sp5 >}}
 

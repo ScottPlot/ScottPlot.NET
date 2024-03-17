@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Additional axes may be added to plots. Plottables are displayed using the coordinate system of the primary axes by default, but any plottable can be displayed using any X and Y axis.
 
-[![](/cookbook/5.0/images/MultiAxisQuickstart.png?240316204900)](/cookbook/5.0/images/MultiAxisQuickstart.png?240316204900)
+[![](/cookbook/5.0/images/MultiAxisQuickstart.png?240316205800)](/cookbook/5.0/images/MultiAxisQuickstart.png?240316205800)
 
 {{< code-sp5 >}}
 

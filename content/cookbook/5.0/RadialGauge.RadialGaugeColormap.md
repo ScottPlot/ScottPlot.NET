@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Gauge colors can be customized by changing the default palette.
 
-[![](/cookbook/5.0/images/RadialGaugeColormap.png?240316204900)](/cookbook/5.0/images/RadialGaugeColormap.png?240316204900)
+[![](/cookbook/5.0/images/RadialGaugeColormap.png?240316205800)](/cookbook/5.0/images/RadialGaugeColormap.png?240316205800)
 
 {{< code-sp5 >}}
 

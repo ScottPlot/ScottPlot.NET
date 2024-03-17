@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Although SignalXY plots typically display data left-to-right, it is possible to use this plot type to display data bottom-to-top.
 
-[![](/cookbook/5.0/images/VerticalSignalXY.png?240316204900)](/cookbook/5.0/images/VerticalSignalXY.png?240316204900)
+[![](/cookbook/5.0/images/VerticalSignalXY.png?240316205800)](/cookbook/5.0/images/VerticalSignalXY.png?240316205800)
 
 {{< code-sp5 >}}
 

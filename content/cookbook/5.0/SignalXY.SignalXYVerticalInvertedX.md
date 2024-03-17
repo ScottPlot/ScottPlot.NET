@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Demonstrates how to display a rotated SignalXY plot (so it goes from bottom to top) which is also displayed on an inverted horizontal axis (where positive values are on the left).
 
-[![](/cookbook/5.0/images/SignalXYVerticalInvertedX.png?240316204900)](/cookbook/5.0/images/SignalXYVerticalInvertedX.png?240316204900)
+[![](/cookbook/5.0/images/SignalXYVerticalInvertedX.png?240316205800)](/cookbook/5.0/images/SignalXYVerticalInvertedX.png?240316205800)
 
 {{< code-sp5 >}}
 

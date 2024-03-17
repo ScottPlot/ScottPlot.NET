@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Several line patterns are available
 
-[![](/cookbook/5.0/images/ScatterLinePatterns.png?240316204900)](/cookbook/5.0/images/ScatterLinePatterns.png?240316204900)
+[![](/cookbook/5.0/images/ScatterLinePatterns.png?240316205800)](/cookbook/5.0/images/ScatterLinePatterns.png?240316205800)
 
 {{< code-sp5 >}}
 

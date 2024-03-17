@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Multiline labels have a default line height estimated from the typeface and font size, however line height may be manually defined by the user.
 
-[![](/cookbook/5.0/images/LabelLineHeight.png?240316204900)](/cookbook/5.0/images/LabelLineHeight.png?240316204900)
+[![](/cookbook/5.0/images/LabelLineHeight.png?240316205800)](/cookbook/5.0/images/LabelLineHeight.png?240316205800)
 
 {{< code-sp5 >}}
 

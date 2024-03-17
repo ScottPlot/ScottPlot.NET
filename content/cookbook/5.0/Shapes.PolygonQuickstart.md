@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Polygon plots can be added from a series of vertices, and must be in clockwise order.
 
-[![](/cookbook/5.0/images/PolygonQuickstart.png?240316204900)](/cookbook/5.0/images/PolygonQuickstart.png?240316204900)
+[![](/cookbook/5.0/images/PolygonQuickstart.png?240316205800)](/cookbook/5.0/images/PolygonQuickstart.png?240316205800)
 
 {{< code-sp5 >}}
 

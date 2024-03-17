@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Heatmaps can be flipped horizontally and/or vertically
 
-[![](/cookbook/5.0/images/HeatmapFlip.png?240316204900)](/cookbook/5.0/images/HeatmapFlip.png?240316204900)
+[![](/cookbook/5.0/images/HeatmapFlip.png?240316205800)](/cookbook/5.0/images/HeatmapFlip.png?240316205800)
 
 {{< code-sp5 >}}
 

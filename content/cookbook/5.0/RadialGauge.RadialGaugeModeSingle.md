@@ -16,7 +16,7 @@ ShowEditLink: false
 
 The SingleGauge mode draws all gauges stacked together as a single gauge. This is useful for showing a progress gauges composed of many individual smaller gauges.
 
-[![](/cookbook/5.0/images/RadialGaugeModeSingle.png?240316204900)](/cookbook/5.0/images/RadialGaugeModeSingle.png?240316204900)
+[![](/cookbook/5.0/images/RadialGaugeModeSingle.png?240316205800)](/cookbook/5.0/images/RadialGaugeModeSingle.png?240316205800)
 
 {{< code-sp5 >}}
 

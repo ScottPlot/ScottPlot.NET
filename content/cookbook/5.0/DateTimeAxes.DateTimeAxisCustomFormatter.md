@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Users can provide their own logic for customizing DateTime tick labels
 
-[![](/cookbook/5.0/images/DateTimeAxisCustomFormatter.png?240316204900)](/cookbook/5.0/images/DateTimeAxisCustomFormatter.png?240316204900)
+[![](/cookbook/5.0/images/DateTimeAxisCustomFormatter.png?240316205800)](/cookbook/5.0/images/DateTimeAxisCustomFormatter.png?240316205800)
 
 {{< code-sp5 >}}
 

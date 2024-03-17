@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Many plot types have a MarkerStyle which can be customized.
 
-[![](/cookbook/5.0/images/Markers.png?240316204900)](/cookbook/5.0/images/Markers.png?240316204900)
+[![](/cookbook/5.0/images/Markers.png?240316205800)](/cookbook/5.0/images/Markers.png?240316205800)
 
 {{< code-sp5 >}}
 

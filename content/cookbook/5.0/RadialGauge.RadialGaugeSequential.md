@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Sequential gauge mode indicates that the base of each gauge starts at the tip of the previous gauge.
 
-[![](/cookbook/5.0/images/RadialGaugeSequential.png?240316204900)](/cookbook/5.0/images/RadialGaugeSequential.png?240316204900)
+[![](/cookbook/5.0/images/RadialGaugeSequential.png?240316205800)](/cookbook/5.0/images/RadialGaugeSequential.png?240316205800)
 
 {{< code-sp5 >}}
 

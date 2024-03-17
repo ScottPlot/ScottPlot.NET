@@ -16,7 +16,7 @@ ShowEditLink: false
 
 A legend displays plottables in a key along the edge of a plot. Most plottables have a Label property which configures what text appears in the legend.
 
-[![](/cookbook/5.0/images/Legend.png?240316204900)](/cookbook/5.0/images/Legend.png?240316204900)
+[![](/cookbook/5.0/images/Legend.png?240316205800)](/cookbook/5.0/images/Legend.png?240316205800)
 
 {{< code-sp5 >}}
 

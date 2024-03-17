@@ -16,7 +16,7 @@ ShowEditLink: false
 
 The value of each gauge is displayed as text by default but this behavior can be overridden. Note that this is different than the labels fiels which is what appears in the legened.
 
-[![](/cookbook/5.0/images/RadialGaugeLabels.png?240316204900)](/cookbook/5.0/images/RadialGaugeLabels.png?240316204900)
+[![](/cookbook/5.0/images/RadialGaugeLabels.png?240316205800)](/cookbook/5.0/images/RadialGaugeLabels.png?240316205800)
 
 {{< code-sp5 >}}
 
