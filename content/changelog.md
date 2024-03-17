@@ -140,7 +140,7 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/wsomegapoint'><img src='https://scottplot.net/images/contributors/wsomegapoint.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/aespitia'><img src='https://scottplot.net/images/contributors/aespitia.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Prototipo-Erick-Santander'><img src='https://scottplot.net/images/contributors/prototipo-erick-santander.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/David-A-Blankenship'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/David-A-Blankenship'><img src='https://scottplot.net/images/contributors/david-a-blankenship.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/edwwsw'><img src='https://scottplot.net/images/contributors/edwwsw.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/yui1227'><img src='https://scottplot.net/images/contributors/yui1227.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/DouglasWatt'><img src='https://scottplot.net/images/contributors/douglaswatt.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
