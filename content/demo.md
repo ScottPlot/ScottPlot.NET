@@ -15,7 +15,7 @@ date: 2023-12-13
 * The demo app is a [Windows Forms](/quickstart/winforms/) application, but the user control API is virtually identical across [WPF](/quickstart/wpf/), [Avalonia](/quickstart/avalonia/), [Eto](/quickstart/eto/), [WinUI](/quickstart/winui/), and [Blazor](/quickstart/blazor/), so the source code is relevant to all graphical platforms.
 
 <div class='text-center mt-5 mb-2' id='download'>
-<a class="btn btn-success btn-lg" href="https://scottplot.net/demos/scottplot-5.0-demo-winforms.zip?version=5.0.16" role="button">
+<a class="btn btn-success btn-lg" href="https://scottplot.net/demos/scottplot-5.0-demo-winforms.zip" role="button">
 <div class='d-flex align-items-center'>
 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-download me-2" viewBox="0 0 16 16">
 <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"/>
