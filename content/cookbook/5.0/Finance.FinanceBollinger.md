@@ -4,9 +4,9 @@ Description: Tools exist for creating Bollinger Bands which display weighted mov
 URL: /cookbook/5.0/Finance/FinanceBollinger/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Financial Plot", "Bollinger Bands"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Finance", "/cookbook/5.0/Finance/FinanceBollinger"]
-Date: 2024-01-29
-Version: ScottPlot 5.0.21
-Version: ScottPlot 5.0.21
+Date: 2024-03-17
+Version: ScottPlot 5.0.22
+Version: ScottPlot 5.0.22
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Tools exist for creating Bollinger Bands which display weighted moving mean and variance for time series financial data.
 
-[![](/cookbook/5.0/images/FinanceBollinger.png?240128210832)](/cookbook/5.0/images/FinanceBollinger.png?240128210832)
+[![](/cookbook/5.0/images/FinanceBollinger.png?240316204900)](/cookbook/5.0/images/FinanceBollinger.png?240316204900)
 
 {{< code-sp5 >}}
 

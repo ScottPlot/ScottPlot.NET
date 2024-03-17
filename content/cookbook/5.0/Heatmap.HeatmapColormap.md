@@ -4,9 +4,9 @@ Description: A heatmap's Colormap is the logic used to convert from cell value t
 URL: /cookbook/5.0/Heatmap/HeatmapColormap/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Heatmap", "Heatmap with custom Colormap"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Heatmap", "/cookbook/5.0/Heatmap/HeatmapColormap"]
-Date: 2024-01-29
-Version: ScottPlot 5.0.21
-Version: ScottPlot 5.0.21
+Date: 2024-03-17
+Version: ScottPlot 5.0.22
+Version: ScottPlot 5.0.22
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 A heatmap's Colormap is the logic used to convert from cell value to cell color and they can set by the user. ScottPlot comes with many common colormaps, but users may implement IColormap and apply their own. A colorbar can be added to indicate which colors map to which values.
 
-[![](/cookbook/5.0/images/HeatmapColormap.png?240128210832)](/cookbook/5.0/images/HeatmapColormap.png?240128210832)
+[![](/cookbook/5.0/images/HeatmapColormap.png?240316204900)](/cookbook/5.0/images/HeatmapColormap.png?240316204900)
 
 {{< code-sp5 >}}
 

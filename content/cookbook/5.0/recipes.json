@@ -1,8 +1,8 @@
 {
-  "version": "5.0.21",
-  "dateUtc": "2024-01-29T02:08:33",
-  "recipeCount": 117,
-  "jsonSizeKb": 149,
+  "version": "5.0.22",
+  "dateUtc": "2024-03-17T00:49:02",
+  "recipeCount": 151,
+  "jsonSizeKb": 190,
   "chapters": [
     "Introduction",
     "Axis",
@@ -97,6 +97,12 @@
     },
     {
       "chapter": "Plot Types",
+      "name": "Radial gauge",
+      "description": "A radial gauge chart displays scalar data as circular gauges.",
+      "url": "/cookbook/5.0/RadialGauge"
+    },
+    {
+      "chapter": "Plot Types",
       "name": "Scatter Plot",
       "description": "Scatter plots display points at X/Y locations in coordinate space.",
       "url": "/cookbook/5.0/Scatter"
@@ -128,7 +134,7 @@
     {
       "chapter": "Plot Types",
       "name": "Text",
-      "description": "Text lables placed on the plot in coordinate space",
+      "description": "Text labels can be placed on the plot in coordinate space",
       "url": "/cookbook/5.0/Text"
     },
     {
@@ -136,6 +142,12 @@
       "name": "Regression",
       "description": "Statistical operations to fit lines to data",
       "url": "/cookbook/5.0/Regression"
+    },
+    {
+      "chapter": "Miscellaneous",
+      "name": "Advanced Styling",
+      "description": "Features for users seeking extensive customization options.",
+      "url": "/cookbook/5.0/AdvancedStyling"
     },
     {
       "chapter": "Miscellaneous",
@@ -210,7 +222,7 @@
       "anchorUrl": "/cookbook/5.0/AdvancedAxis#InvertedAxis",
       "categoryUrl": "/cookbook/5.0/AdvancedAxis",
       "recipeUrl": "/cookbook/5.0/AdvancedAxis/InvertedAxis",
-      "imageUrl": "/cookbook/5.0/images/InvertedAxis.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/InvertedAxis.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Axis/AdvancedAxis.cs"
     },
     {
@@ -224,7 +236,21 @@
       "anchorUrl": "/cookbook/5.0/AdvancedAxis#InvertedAutoAxis",
       "categoryUrl": "/cookbook/5.0/AdvancedAxis",
       "recipeUrl": "/cookbook/5.0/AdvancedAxis/InvertedAutoAxis",
-      "imageUrl": "/cookbook/5.0/images/InvertedAutoAxis.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/InvertedAutoAxis.png?240316204900",
+      "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Axis/AdvancedAxis.cs"
+    },
+    {
+      "chapter": "Axis",
+      "category": "Advanced Axis Features",
+      "name": "SquareAxisUnits",
+      "description": "Axis rules can be put in place which force the vertical scale (units per pixel) to match the horizontal scale so circles always appear as circles and not stretched ellipses.",
+      "source": "ScottPlot.Plot myPlot = new();\n\nmyPlot.Add.Circle(0, 0, 10);\n\n// force pixels to have a 1:1 scale ratio\nmyPlot.Axes.SquareUnits();\n\n// even if you try to \u0022stretch\u0022 the axis, it will adjust the axis limits automatically\nmyPlot.Axes.SetLimits(-10, 10, -20, 20);\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "categoryClassName": "AdvancedAxis",
+      "recipeClassName": "SquareAxisUnits",
+      "anchorUrl": "/cookbook/5.0/AdvancedAxis#SquareAxisUnits",
+      "categoryUrl": "/cookbook/5.0/AdvancedAxis",
+      "recipeUrl": "/cookbook/5.0/AdvancedAxis/SquareAxisUnits",
+      "imageUrl": "/cookbook/5.0/images/SquareAxisUnits.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Axis/AdvancedAxis.cs"
     },
     {
@@ -238,7 +264,7 @@
       "anchorUrl": "/cookbook/5.0/CustomizingGrids#HideGrid",
       "categoryUrl": "/cookbook/5.0/CustomizingGrids",
       "recipeUrl": "/cookbook/5.0/CustomizingGrids/HideGrid",
-      "imageUrl": "/cookbook/5.0/images/HideGrid.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/HideGrid.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Axis/CustomizingGrids.cs"
     },
     {
@@ -252,7 +278,7 @@
       "anchorUrl": "/cookbook/5.0/CustomizingGrids#GridCustom",
       "categoryUrl": "/cookbook/5.0/CustomizingGrids",
       "recipeUrl": "/cookbook/5.0/CustomizingGrids/GridCustom",
-      "imageUrl": "/cookbook/5.0/images/GridCustom.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/GridCustom.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Axis/CustomizingGrids.cs"
     },
     {
@@ -266,7 +292,7 @@
       "anchorUrl": "/cookbook/5.0/CustomizingGrids#GridAbove",
       "categoryUrl": "/cookbook/5.0/CustomizingGrids",
       "recipeUrl": "/cookbook/5.0/CustomizingGrids/GridAbove",
-      "imageUrl": "/cookbook/5.0/images/GridAbove.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/GridAbove.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Axis/CustomizingGrids.cs"
     },
     {
@@ -280,7 +306,7 @@
       "anchorUrl": "/cookbook/5.0/CustomizingTicks#CustomTickFormatter",
       "categoryUrl": "/cookbook/5.0/CustomizingTicks",
       "recipeUrl": "/cookbook/5.0/CustomizingTicks/CustomTickFormatter",
-      "imageUrl": "/cookbook/5.0/images/CustomTickFormatter.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/CustomTickFormatter.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Axis/CustomizingTicks.cs"
     },
     {
@@ -294,7 +320,7 @@
       "anchorUrl": "/cookbook/5.0/CustomizingTicks#AltTickGen",
       "categoryUrl": "/cookbook/5.0/CustomizingTicks",
       "recipeUrl": "/cookbook/5.0/CustomizingTicks/AltTickGen",
-      "imageUrl": "/cookbook/5.0/images/AltTickGen.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/AltTickGen.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Axis/CustomizingTicks.cs"
     },
     {
@@ -308,7 +334,7 @@
       "anchorUrl": "/cookbook/5.0/CustomizingTicks#CustomTicks",
       "categoryUrl": "/cookbook/5.0/CustomizingTicks",
       "recipeUrl": "/cookbook/5.0/CustomizingTicks/CustomTicks",
-      "imageUrl": "/cookbook/5.0/images/CustomTicks.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/CustomTicks.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Axis/CustomizingTicks.cs"
     },
     {
@@ -322,7 +348,21 @@
       "anchorUrl": "/cookbook/5.0/CustomizingTicks#RotatedTicks",
       "categoryUrl": "/cookbook/5.0/CustomizingTicks",
       "recipeUrl": "/cookbook/5.0/CustomizingTicks/RotatedTicks",
-      "imageUrl": "/cookbook/5.0/images/RotatedTicks.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/RotatedTicks.png?240316204900",
+      "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Axis/CustomizingTicks.cs"
+    },
+    {
+      "chapter": "Axis",
+      "category": "Customizing Ticks",
+      "name": "Rotated Tick with Long Labels",
+      "description": "The axis size can be increased to accommodate rotated or long tick labels.",
+      "source": "ScottPlot.Plot myPlot = new();\n\n// create a bar plot\ndouble[] values = { 5, 10, 7, 13, 25, 60 };\nmyPlot.Add.Bars(values);\nmyPlot.Axes.Margins(bottom: 0);\n\n// create a tick for each bar\nTick[] ticks =\n{\n    new(0, \u0022First Long Title\u0022),\n    new(1, \u0022Second Long Title\u0022),\n    new(2, \u0022Third Long Title\u0022),\n    new(3, \u0022Fourth Long Title\u0022),\n    new(4, \u0022Fifth Long Title\u0022),\n    new(5, \u0022Sixth Long Title\u0022)\n};\nmyPlot.Axes.Bottom.TickGenerator = new ScottPlot.TickGenerators.NumericManual(ticks);\nmyPlot.Axes.Bottom.TickLabelStyle.Rotation = 45;\nmyPlot.Axes.Bottom.TickLabelStyle.Alignment = Alignment.MiddleLeft;\n\n// determine the width of the largest tick label\nfloat largestLabelWidth = 0;\nforeach (Tick tick in ticks)\n{\n    PixelSize size = myPlot.Axes.Bottom.TickLabelStyle.Measure(tick.Label);\n    largestLabelWidth = Math.Max(largestLabelWidth, size.Width);\n}\n\n// ensure axis panels do not get smaller than the largest label\nmyPlot.Axes.Bottom.MinimumSize = largestLabelWidth;\nmyPlot.Axes.Right.MinimumSize = largestLabelWidth;\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "categoryClassName": "CustomizingTicks",
+      "recipeClassName": "RotatedTicksLongLabels",
+      "anchorUrl": "/cookbook/5.0/CustomizingTicks#RotatedTicksLongLabels",
+      "categoryUrl": "/cookbook/5.0/CustomizingTicks",
+      "recipeUrl": "/cookbook/5.0/CustomizingTicks/RotatedTicksLongLabels",
+      "imageUrl": "/cookbook/5.0/images/RotatedTicksLongLabels.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Axis/CustomizingTicks.cs"
     },
     {
@@ -336,7 +376,7 @@
       "anchorUrl": "/cookbook/5.0/CustomizingTicks#DisableGridLines",
       "categoryUrl": "/cookbook/5.0/CustomizingTicks",
       "recipeUrl": "/cookbook/5.0/CustomizingTicks/DisableGridLines",
-      "imageUrl": "/cookbook/5.0/images/DisableGridLines.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/DisableGridLines.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Axis/CustomizingTicks.cs"
     },
     {
@@ -350,7 +390,7 @@
       "anchorUrl": "/cookbook/5.0/CustomizingTicks#StandardMinorTickDistribution",
       "categoryUrl": "/cookbook/5.0/CustomizingTicks",
       "recipeUrl": "/cookbook/5.0/CustomizingTicks/StandardMinorTickDistribution",
-      "imageUrl": "/cookbook/5.0/images/StandardMinorTickDistribution.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/StandardMinorTickDistribution.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Axis/CustomizingTicks.cs"
     },
     {
@@ -364,7 +404,7 @@
       "anchorUrl": "/cookbook/5.0/CustomizingTicks#LogScaleTicks",
       "categoryUrl": "/cookbook/5.0/CustomizingTicks",
       "recipeUrl": "/cookbook/5.0/CustomizingTicks/LogScaleTicks",
-      "imageUrl": "/cookbook/5.0/images/LogScaleTicks.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/LogScaleTicks.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Axis/CustomizingTicks.cs"
     },
     {
@@ -378,7 +418,7 @@
       "anchorUrl": "/cookbook/5.0/DateTimeAxes#DateTimeAxisQuickstart",
       "categoryUrl": "/cookbook/5.0/DateTimeAxes",
       "recipeUrl": "/cookbook/5.0/DateTimeAxes/DateTimeAxisQuickstart",
-      "imageUrl": "/cookbook/5.0/images/DateTimeAxisQuickstart.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/DateTimeAxisQuickstart.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Axis/DateTimeAxes.cs"
     },
     {
@@ -386,13 +426,13 @@
       "category": "DateTime Axes",
       "name": "DateTime Axis Values",
       "description": "DateTime axes are achieved using Microsoft\u0027s DateTime.ToOADate() and DateTime.FromOADate() methods to convert between dates and numeric values. Advanced users who wish to display data on DateTime axes may prefer to work with collections of doubles rather than collections of DateTimes.",
-      "source": "ScottPlot.Plot myPlot = new();\n\n// create an array of DateTimes one hour apart\nint numberOfHours = 72;\nDateTime[] dateTimes = new DateTime[numberOfHours];\nDateTime startDateTime = new(2024, 1, 1);\nTimeSpan deltaTimeSpan = TimeSpan.FromHours(1);\nfor (int i = 0; i \u003C numberOfHours; i\u002B\u002B)\n{\n    dateTimes[i] = startDateTime \u002B i * deltaTimeSpan;\n}\n\n// create an array of doubles representing the same DateTimes one hour apart\ndouble[] dateDoubles = new double[numberOfHours];\ndouble startDouble = startDateTime.ToOADate(); // days since 1900\ndouble deltaDouble = 1.0 / 24.0; // an hour is 1/24 of a day\nfor (int i = 0; i \u003C numberOfHours; i\u002B\u002B)\n{\n    dateDoubles[i] = startDouble \u002B i * deltaDouble;\n}\n\n// now both arrays represent the same dates\nmyPlot.Add.Scatter(dateTimes, Generate.Sin(numberOfHours));\nmyPlot.Add.Scatter(dateDoubles, Generate.Cos(numberOfHours));\nmyPlot.Axes.DateTimeTicksBottom();\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "source": "ScottPlot.Plot myPlot = new();\n\n// create an array of DateTimes one hour apart\nint numberOfHours = 24;\nDateTime[] dateTimes = new DateTime[numberOfHours];\nDateTime startDateTime = new(2024, 1, 1);\nTimeSpan deltaTimeSpan = TimeSpan.FromHours(1);\nfor (int i = 0; i \u003C numberOfHours; i\u002B\u002B)\n{\n    dateTimes[i] = startDateTime \u002B i * deltaTimeSpan;\n}\n\n// create an array of doubles representing the same DateTimes one hour apart\ndouble[] dateDoubles = new double[numberOfHours];\ndouble startDouble = startDateTime.ToOADate(); // days since 1900\ndouble deltaDouble = 1.0 / 24.0; // an hour is 1/24 of a day\nfor (int i = 0; i \u003C numberOfHours; i\u002B\u002B)\n{\n    dateDoubles[i] = startDouble \u002B i * deltaDouble;\n}\n\n// now both arrays represent the same dates\nmyPlot.Add.Scatter(dateTimes, Generate.Sin(numberOfHours));\nmyPlot.Add.Scatter(dateDoubles, Generate.Cos(numberOfHours));\nmyPlot.Axes.DateTimeTicksBottom();\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
       "categoryClassName": "DateTimeAxes",
       "recipeClassName": "DateTimeAxisMixed",
       "anchorUrl": "/cookbook/5.0/DateTimeAxes#DateTimeAxisMixed",
       "categoryUrl": "/cookbook/5.0/DateTimeAxes",
       "recipeUrl": "/cookbook/5.0/DateTimeAxes/DateTimeAxisMixed",
-      "imageUrl": "/cookbook/5.0/images/DateTimeAxisMixed.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/DateTimeAxisMixed.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Axis/DateTimeAxes.cs"
     },
     {
@@ -406,7 +446,7 @@
       "anchorUrl": "/cookbook/5.0/DateTimeAxes#DateTimeAxisCustomFormatter",
       "categoryUrl": "/cookbook/5.0/DateTimeAxes",
       "recipeUrl": "/cookbook/5.0/DateTimeAxes/DateTimeAxisCustomFormatter",
-      "imageUrl": "/cookbook/5.0/images/DateTimeAxisCustomFormatter.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/DateTimeAxisCustomFormatter.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Axis/DateTimeAxes.cs"
     },
     {
@@ -420,7 +460,7 @@
       "anchorUrl": "/cookbook/5.0/MultiAxis#RightAxis",
       "categoryUrl": "/cookbook/5.0/MultiAxis",
       "recipeUrl": "/cookbook/5.0/MultiAxis/RightAxis",
-      "imageUrl": "/cookbook/5.0/images/RightAxis.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/RightAxis.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Axis/MultiAxis.cs"
     },
     {
@@ -434,7 +474,7 @@
       "anchorUrl": "/cookbook/5.0/MultiAxis#MultiAxisQuickstart",
       "categoryUrl": "/cookbook/5.0/MultiAxis",
       "recipeUrl": "/cookbook/5.0/MultiAxis/MultiAxisQuickstart",
-      "imageUrl": "/cookbook/5.0/images/MultiAxisQuickstart.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/MultiAxisQuickstart.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Axis/MultiAxis.cs"
     },
     {
@@ -448,7 +488,7 @@
       "anchorUrl": "/cookbook/5.0/AxisAndTicks#SetAxisLimits",
       "categoryUrl": "/cookbook/5.0/AxisAndTicks",
       "recipeUrl": "/cookbook/5.0/AxisAndTicks/SetAxisLimits",
-      "imageUrl": "/cookbook/5.0/images/SetAxisLimits.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/SetAxisLimits.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Introduction/AxisAndTicks.cs"
     },
     {
@@ -462,7 +502,7 @@
       "anchorUrl": "/cookbook/5.0/AxisAndTicks#GetAxisLimits",
       "categoryUrl": "/cookbook/5.0/AxisAndTicks",
       "recipeUrl": "/cookbook/5.0/AxisAndTicks/GetAxisLimits",
-      "imageUrl": "/cookbook/5.0/images/GetAxisLimits.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/GetAxisLimits.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Introduction/AxisAndTicks.cs"
     },
     {
@@ -476,7 +516,7 @@
       "anchorUrl": "/cookbook/5.0/AxisAndTicks#AutoScale",
       "categoryUrl": "/cookbook/5.0/AxisAndTicks",
       "recipeUrl": "/cookbook/5.0/AxisAndTicks/AutoScale",
-      "imageUrl": "/cookbook/5.0/images/AutoScale.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/AutoScale.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Introduction/AxisAndTicks.cs"
     },
     {
@@ -484,13 +524,13 @@
       "category": "Axis and Ticks",
       "name": "Frameless Plot",
       "description": "How to create a plot containig only the data area and no axes.",
-      "source": "ScottPlot.Plot myPlot = new();\n\nmyPlot.Add.Signal(Generate.Sin(51));\nmyPlot.Add.Signal(Generate.Cos(51));\n\n// make the data area cover the full figure\nmyPlot.Layout.Frameless();\n\n// set the data area background so we can observe its size\nmyPlot.DataBackground = Colors.WhiteSmoke;\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "source": "ScottPlot.Plot myPlot = new();\n\nmyPlot.Add.Signal(Generate.Sin(51));\nmyPlot.Add.Signal(Generate.Cos(51));\n\n// make the data area cover the full figure\nmyPlot.Layout.Frameless();\n\n// set the data area background so we can observe its size\nmyPlot.DataBackground.Color = Colors.WhiteSmoke;\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
       "categoryClassName": "AxisAndTicks",
       "recipeClassName": "Frameless",
       "anchorUrl": "/cookbook/5.0/AxisAndTicks#Frameless",
       "categoryUrl": "/cookbook/5.0/AxisAndTicks",
       "recipeUrl": "/cookbook/5.0/AxisAndTicks/Frameless",
-      "imageUrl": "/cookbook/5.0/images/Frameless.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/Frameless.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Introduction/AxisAndTicks.cs"
     },
     {
@@ -504,7 +544,7 @@
       "anchorUrl": "/cookbook/5.0/Legend#LegendQuickstart",
       "categoryUrl": "/cookbook/5.0/Legend",
       "recipeUrl": "/cookbook/5.0/Legend/LegendQuickstart",
-      "imageUrl": "/cookbook/5.0/images/LegendQuickstart.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/LegendQuickstart.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Introduction/Legend.cs"
     },
     {
@@ -518,7 +558,7 @@
       "anchorUrl": "/cookbook/5.0/Legend#ManualLegend",
       "categoryUrl": "/cookbook/5.0/Legend",
       "recipeUrl": "/cookbook/5.0/Legend/ManualLegend",
-      "imageUrl": "/cookbook/5.0/images/ManualLegend.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/ManualLegend.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Introduction/Legend.cs"
     },
     {
@@ -532,7 +572,35 @@
       "anchorUrl": "/cookbook/5.0/Legend#LegendStyle",
       "categoryUrl": "/cookbook/5.0/Legend",
       "recipeUrl": "/cookbook/5.0/Legend/LegendStyle",
-      "imageUrl": "/cookbook/5.0/images/LegendStyle.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/LegendStyle.png?240316204900",
+      "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Introduction/Legend.cs"
+    },
+    {
+      "chapter": "Introduction",
+      "category": "Configuring Legends",
+      "name": "Legend Orientation",
+      "description": "Legend items may be arranged horizontally instead of vertically",
+      "source": "ScottPlot.Plot myPlot = new();\n\nvar sig1 = myPlot.Add.Signal(Generate.Sin(51, phase: .2));\nvar sig2 = myPlot.Add.Signal(Generate.Sin(51, phase: .4));\nvar sig3 = myPlot.Add.Signal(Generate.Sin(51, phase: .6));\n\nsig1.Label = \u0022Signal 1\u0022;\nsig2.Label = \u0022Signal 2\u0022;\nsig3.Label = \u0022Signal 3\u0022;\n\nmyPlot.Legend.IsVisible = true;\nmyPlot.Legend.Orientation = Orientation.Horizontal;\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "categoryClassName": "Legend",
+      "recipeClassName": "LegendOrientation",
+      "anchorUrl": "/cookbook/5.0/Legend#LegendOrientation",
+      "categoryUrl": "/cookbook/5.0/Legend",
+      "recipeUrl": "/cookbook/5.0/Legend/LegendOrientation",
+      "imageUrl": "/cookbook/5.0/images/LegendOrientation.png?240316204900",
+      "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Introduction/Legend.cs"
+    },
+    {
+      "chapter": "Introduction",
+      "category": "Configuring Legends",
+      "name": "Legend Wrapping",
+      "description": "Legend items may wrap to improve display for a large number of items",
+      "source": "ScottPlot.Plot myPlot = new();\n\nfor (int i = 1; i \u003C= 10; i\u002B\u002B)\n{\n    var sig = myPlot.Add.Signal(Generate.Sin(51, phase: .02 * i));\n    sig.Label = $\u0022Signal #{i}\u0022;\n}\n\nmyPlot.Legend.IsVisible = true;\nmyPlot.Legend.Orientation = Orientation.Horizontal;\nmyPlot.Legend.AllowMultiline = true;\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "categoryClassName": "Legend",
+      "recipeClassName": "LegendWrapping",
+      "anchorUrl": "/cookbook/5.0/Legend#LegendWrapping",
+      "categoryUrl": "/cookbook/5.0/Legend",
+      "recipeUrl": "/cookbook/5.0/Legend/LegendWrapping",
+      "imageUrl": "/cookbook/5.0/images/LegendWrapping.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Introduction/Legend.cs"
     },
     {
@@ -546,7 +614,7 @@
       "anchorUrl": "/cookbook/5.0/ScottPlotQuickstart#QuickstartScatter",
       "categoryUrl": "/cookbook/5.0/ScottPlotQuickstart",
       "recipeUrl": "/cookbook/5.0/ScottPlotQuickstart/QuickstartScatter",
-      "imageUrl": "/cookbook/5.0/images/QuickstartScatter.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/QuickstartScatter.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Introduction/Quickstart.cs"
     },
     {
@@ -560,7 +628,7 @@
       "anchorUrl": "/cookbook/5.0/ScottPlotQuickstart#CustomizingPlottables",
       "categoryUrl": "/cookbook/5.0/ScottPlotQuickstart",
       "recipeUrl": "/cookbook/5.0/ScottPlotQuickstart/CustomizingPlottables",
-      "imageUrl": "/cookbook/5.0/images/CustomizingPlottables.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/CustomizingPlottables.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Introduction/Quickstart.cs"
     },
     {
@@ -574,7 +642,7 @@
       "anchorUrl": "/cookbook/5.0/ScottPlotQuickstart#QuickstartSignal",
       "categoryUrl": "/cookbook/5.0/ScottPlotQuickstart",
       "recipeUrl": "/cookbook/5.0/ScottPlotQuickstart/QuickstartSignal",
-      "imageUrl": "/cookbook/5.0/images/QuickstartSignal.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/QuickstartSignal.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Introduction/Quickstart.cs"
     },
     {
@@ -588,7 +656,7 @@
       "anchorUrl": "/cookbook/5.0/ScottPlotQuickstart#SignalPerformance",
       "categoryUrl": "/cookbook/5.0/ScottPlotQuickstart",
       "recipeUrl": "/cookbook/5.0/ScottPlotQuickstart/SignalPerformance",
-      "imageUrl": "/cookbook/5.0/images/SignalPerformance.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/SignalPerformance.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Introduction/Quickstart.cs"
     },
     {
@@ -602,7 +670,7 @@
       "anchorUrl": "/cookbook/5.0/ScottPlotQuickstart#QuickstartAxisLabels",
       "categoryUrl": "/cookbook/5.0/ScottPlotQuickstart",
       "recipeUrl": "/cookbook/5.0/ScottPlotQuickstart/QuickstartAxisLabels",
-      "imageUrl": "/cookbook/5.0/images/QuickstartAxisLabels.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/QuickstartAxisLabels.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Introduction/Quickstart.cs"
     },
     {
@@ -616,7 +684,7 @@
       "anchorUrl": "/cookbook/5.0/ScottPlotQuickstart#Legend",
       "categoryUrl": "/cookbook/5.0/ScottPlotQuickstart",
       "recipeUrl": "/cookbook/5.0/ScottPlotQuickstart/Legend",
-      "imageUrl": "/cookbook/5.0/images/Legend.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/Legend.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Introduction/Quickstart.cs"
     },
     {
@@ -630,7 +698,7 @@
       "anchorUrl": "/cookbook/5.0/ScottPlotQuickstart#AddPlottablesManually",
       "categoryUrl": "/cookbook/5.0/ScottPlotQuickstart",
       "recipeUrl": "/cookbook/5.0/ScottPlotQuickstart/AddPlottablesManually",
-      "imageUrl": "/cookbook/5.0/images/AddPlottablesManually.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/AddPlottablesManually.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Introduction/Quickstart.cs"
     },
     {
@@ -644,7 +712,7 @@
       "anchorUrl": "/cookbook/5.0/Styling#StyleClass",
       "categoryUrl": "/cookbook/5.0/Styling",
       "recipeUrl": "/cookbook/5.0/Styling/StyleClass",
-      "imageUrl": "/cookbook/5.0/images/StyleClass.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/StyleClass.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Introduction/Styling.cs"
     },
     {
@@ -652,13 +720,13 @@
       "category": "Styling Plots",
       "name": "Axis Customization",
       "description": "Axis labels, tick marks, and frame can all be customized.",
-      "source": "ScottPlot.Plot myPlot = new();\n\nmyPlot.Add.Signal(Generate.Sin(51));\nmyPlot.Add.Signal(Generate.Cos(51));\n\nmyPlot.Axes.Title.Label.Text = \u0022Plot Title\u0022;\nmyPlot.Axes.Title.Label.ForeColor = Colors.RebeccaPurple;\nmyPlot.Axes.Title.Label.FontSize = 32;\nmyPlot.Axes.Title.Label.FontName = Fonts.Serif;\nmyPlot.Axes.Title.Label.Rotation = -5;\nmyPlot.Axes.Title.Label.Bold = false;\n\nmyPlot.Axes.Left.Label.Text = \u0022Vertical Axis\u0022;\nmyPlot.Axes.Left.Label.ForeColor = Colors.Magenta;\nmyPlot.Axes.Left.Label.Italic = true;\n\nmyPlot.Axes.Bottom.Label.Text = \u0022Horizontal Axis\u0022;\nmyPlot.Axes.Bottom.Label.Bold = false;\nmyPlot.Axes.Bottom.Label.FontName = Fonts.Monospace;\n\nmyPlot.Axes.Bottom.MajorTickStyle.Length = 10;\nmyPlot.Axes.Bottom.MajorTickStyle.Width = 3;\nmyPlot.Axes.Bottom.MajorTickStyle.Color = Colors.Magenta;\nmyPlot.Axes.Bottom.MinorTickStyle.Length = 5;\nmyPlot.Axes.Bottom.MinorTickStyle.Width = 0.5f;\nmyPlot.Axes.Bottom.MinorTickStyle.Color = Colors.Green;\nmyPlot.Axes.Bottom.FrameLineStyle.Color = Colors.LightBlue;\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "source": "ScottPlot.Plot myPlot = new();\n\nmyPlot.Add.Signal(Generate.Sin(51));\nmyPlot.Add.Signal(Generate.Cos(51));\n\nmyPlot.Axes.Title.Label.Text = \u0022Plot Title\u0022;\nmyPlot.Axes.Title.Label.ForeColor = Colors.RebeccaPurple;\nmyPlot.Axes.Title.Label.FontSize = 32;\nmyPlot.Axes.Title.Label.FontName = Fonts.Serif;\nmyPlot.Axes.Title.Label.Rotation = -5;\nmyPlot.Axes.Title.Label.Bold = false;\n\nmyPlot.Axes.Left.Label.Text = \u0022Vertical Axis\u0022;\nmyPlot.Axes.Left.Label.ForeColor = Colors.Magenta;\nmyPlot.Axes.Left.Label.Italic = true;\n\nmyPlot.Axes.Bottom.Label.Text = \u0022Horizontal Axis\u0022;\nmyPlot.Axes.Bottom.Label.Bold = false;\nmyPlot.Axes.Bottom.Label.FontName = Fonts.Monospace;\n\nmyPlot.Axes.Bottom.MajorTickStyle.Length = 10;\nmyPlot.Axes.Bottom.MajorTickStyle.Width = 3;\nmyPlot.Axes.Bottom.MajorTickStyle.Color = Colors.Magenta;\nmyPlot.Axes.Bottom.MinorTickStyle.Length = 5;\nmyPlot.Axes.Bottom.MinorTickStyle.Width = 0.5f;\nmyPlot.Axes.Bottom.MinorTickStyle.Color = Colors.Green;\nmyPlot.Axes.Bottom.FrameLineStyle.Color = Colors.Blue;\nmyPlot.Axes.Bottom.FrameLineStyle.Width = 3;\n\nmyPlot.Axes.Right.FrameLineStyle.Width = 0;\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
       "categoryClassName": "Styling",
       "recipeClassName": "AxisCustom",
       "anchorUrl": "/cookbook/5.0/Styling#AxisCustom",
       "categoryUrl": "/cookbook/5.0/Styling",
       "recipeUrl": "/cookbook/5.0/Styling/AxisCustom",
-      "imageUrl": "/cookbook/5.0/images/AxisCustom.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/AxisCustom.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Introduction/Styling.cs"
     },
     {
@@ -672,7 +740,7 @@
       "anchorUrl": "/cookbook/5.0/Styling#Palette",
       "categoryUrl": "/cookbook/5.0/Styling",
       "recipeUrl": "/cookbook/5.0/Styling/Palette",
-      "imageUrl": "/cookbook/5.0/images/Palette.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/Palette.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Introduction/Styling.cs"
     },
     {
@@ -686,7 +754,7 @@
       "anchorUrl": "/cookbook/5.0/Styling#Markers",
       "categoryUrl": "/cookbook/5.0/Styling",
       "recipeUrl": "/cookbook/5.0/Styling/Markers",
-      "imageUrl": "/cookbook/5.0/images/Markers.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/Markers.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Introduction/Styling.cs"
     },
     {
@@ -694,13 +762,13 @@
       "category": "Styling Plots",
       "name": "Marker Names",
       "description": "Markers can be referred to by their name.",
-      "source": "ScottPlot.Plot myPlot = new();\n\nMarkerShape[] markerShapes = Enum.GetValues\u003CMarkerShape\u003E().ToArray();\n\nfor (int i = 0; i \u003C markerShapes.Length; i\u002B\u002B)\n{\n    var mp = myPlot.Add.Marker(x: i, y: 0);\n    mp.MarkerStyle.Shape = markerShapes[i];\n    mp.MarkerStyle.Size = 10;\n\n    var txt = myPlot.Add.Text(markerShapes[i].ToString(), i, 0.15);\n    txt.Label.Rotation = -90;\n    txt.Label.Alignment = Alignment.MiddleLeft;\n}\n\nmyPlot.Title(\u0022Marker Names\u0022);\nmyPlot.Axes.SetLimits(-1, markerShapes.Length, -1, 4);\nmyPlot.HideGrid();\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "source": "ScottPlot.Plot myPlot = new();\n\nMarkerShape[] markerShapes = Enum.GetValues\u003CMarkerShape\u003E().ToArray();\nScottPlot.Palettes.Category20 palette = new();\n\nfor (int i = 0; i \u003C markerShapes.Length; i\u002B\u002B)\n{\n    var mp = myPlot.Add.Marker(x: i, y: 0);\n    mp.MarkerStyle.Shape = markerShapes[i];\n    mp.MarkerStyle.Size = 10;\n    mp.MarkerStyle.Outline.Width = 1.5f;\n    mp.MarkerStyle.Outline.Color = palette.GetColor(i);\n    mp.MarkerStyle.Fill.Color = palette.GetColor(i).WithAlpha(.5);\n\n    var txt = myPlot.Add.Text(markerShapes[i].ToString(), i, 0.15);\n    txt.Label.Rotation = -90;\n    txt.Label.Alignment = Alignment.MiddleLeft;\n}\n\nmyPlot.Title(\u0022Marker Names\u0022);\nmyPlot.Axes.SetLimits(-1, markerShapes.Length, -1, 4);\nmyPlot.HideGrid();\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
       "categoryClassName": "Styling",
       "recipeClassName": "MarkerNames",
       "anchorUrl": "/cookbook/5.0/Styling#MarkerNames",
       "categoryUrl": "/cookbook/5.0/Styling",
       "recipeUrl": "/cookbook/5.0/Styling/MarkerNames",
-      "imageUrl": "/cookbook/5.0/images/MarkerNames.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/MarkerNames.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Introduction/Styling.cs"
     },
     {
@@ -714,7 +782,7 @@
       "anchorUrl": "/cookbook/5.0/Styling#LineStyles",
       "categoryUrl": "/cookbook/5.0/Styling",
       "recipeUrl": "/cookbook/5.0/Styling/LineStyles",
-      "imageUrl": "/cookbook/5.0/images/LineStyles.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/LineStyles.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Introduction/Styling.cs"
     },
     {
@@ -728,7 +796,7 @@
       "anchorUrl": "/cookbook/5.0/Styling#Scaling",
       "categoryUrl": "/cookbook/5.0/Styling",
       "recipeUrl": "/cookbook/5.0/Styling/Scaling",
-      "imageUrl": "/cookbook/5.0/images/Scaling.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/Scaling.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Introduction/Styling.cs"
     },
     {
@@ -742,8 +810,50 @@
       "anchorUrl": "/cookbook/5.0/Styling#DarkMode",
       "categoryUrl": "/cookbook/5.0/Styling",
       "recipeUrl": "/cookbook/5.0/Styling/DarkMode",
-      "imageUrl": "/cookbook/5.0/images/DarkMode.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/DarkMode.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Introduction/Styling.cs"
+    },
+    {
+      "chapter": "Miscellaneous",
+      "category": "Advanced Styling",
+      "name": "Data Area Background Image",
+      "description": "An image can be used for the background of the data area.",
+      "source": "ScottPlot.Plot myPlot = new();\n\n// plot sample data\nvar sig1 = myPlot.Add.Signal(Generate.Sin());\nvar sig2 = myPlot.Add.Signal(Generate.Cos());\nsig1.LineWidth = 3;\nsig2.LineWidth = 3;\n\n// One could load an image from a file...\n// Image bgImage = new(\u0022background.png\u0022);\n\n// But in this example we will use a sample image:\nImage bgImage = SampleImages.ScottPlotLogo();\nmyPlot.DataBackground.Image = bgImage;\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "categoryClassName": "AdvancedStyling",
+      "recipeClassName": "AdvancedStylingDataBackground",
+      "anchorUrl": "/cookbook/5.0/AdvancedStyling#AdvancedStylingDataBackground",
+      "categoryUrl": "/cookbook/5.0/AdvancedStyling",
+      "recipeUrl": "/cookbook/5.0/AdvancedStyling/AdvancedStylingDataBackground",
+      "imageUrl": "/cookbook/5.0/images/AdvancedStylingDataBackground.png?240316204900",
+      "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Miscellaneous/AdvancedStyling.cs"
+    },
+    {
+      "chapter": "Miscellaneous",
+      "category": "Advanced Styling",
+      "name": "Figure Background Image",
+      "description": "An image can be used for the background of a figure.",
+      "source": "ScottPlot.Plot myPlot = new();\n\n// plot sample data\nvar sig1 = myPlot.Add.Signal(Generate.Sin());\nvar sig2 = myPlot.Add.Signal(Generate.Cos());\n\n// One could load an image from a file...\n// Image bgImage = new(\u0022background.png\u0022);\n\n// But in this example we will use a sample image:\nImage bgImage = SampleImages.MonaLisa();\nmyPlot.FigureBackground.Image = bgImage;\n\n// Color the axes and data so they stand out against the dark background\nmyPlot.Style.ColorAxes(Colors.White);\nsig1.Color = sig1.Color.Lighten(.2);\nsig2.Color = sig2.Color.Lighten(.2);\nsig1.LineWidth = 3;\nsig2.LineWidth = 3;\n\n// Shade the data area to make it stand out\nmyPlot.DataBackground.Color = Colors.Black.WithAlpha(.5);\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "categoryClassName": "AdvancedStyling",
+      "recipeClassName": "AdvancedStylingFigureBackground",
+      "anchorUrl": "/cookbook/5.0/AdvancedStyling#AdvancedStylingFigureBackground",
+      "categoryUrl": "/cookbook/5.0/AdvancedStyling",
+      "recipeUrl": "/cookbook/5.0/AdvancedStyling/AdvancedStylingFigureBackground",
+      "imageUrl": "/cookbook/5.0/images/AdvancedStylingFigureBackground.png?240316204900",
+      "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Miscellaneous/AdvancedStyling.cs"
+    },
+    {
+      "chapter": "Miscellaneous",
+      "category": "Advanced Styling",
+      "name": "Color Interpolation",
+      "description": "Colors can be mixed to createa range of colors. This strategy uses linear RGB interpolation.",
+      "source": "ScottPlot.Plot myPlot = new();\n\nfor (int i = 0; i \u003C= 10; i\u002B\u002B)\n{\n    double fraction = (double)i / 10;\n    double x = i;\n    double y = Math.Sin(Math.PI * 2 * fraction);\n    var circle = myPlot.Add.Circle(x, y, 2);\n    circle.FillColor = Colors.Blue.MixedWith(Colors.Green, fraction);\n    circle.LineColor = Colors.Black.WithAlpha(.5);\n}\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "categoryClassName": "AdvancedStyling",
+      "recipeClassName": "ColorInterpolation",
+      "anchorUrl": "/cookbook/5.0/AdvancedStyling#ColorInterpolation",
+      "categoryUrl": "/cookbook/5.0/AdvancedStyling",
+      "recipeUrl": "/cookbook/5.0/AdvancedStyling/ColorInterpolation",
+      "imageUrl": "/cookbook/5.0/images/ColorInterpolation.png?240316204900",
+      "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Miscellaneous/AdvancedStyling.cs"
     },
     {
       "chapter": "Miscellaneous",
@@ -756,7 +866,7 @@
       "anchorUrl": "/cookbook/5.0/Internationalization#FontDetection",
       "categoryUrl": "/cookbook/5.0/Internationalization",
       "recipeUrl": "/cookbook/5.0/Internationalization/FontDetection",
-      "imageUrl": "/cookbook/5.0/images/FontDetection.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/FontDetection.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Miscellaneous/Internationalization.cs"
     },
     {
@@ -764,13 +874,13 @@
       "category": "Internationalization",
       "name": "Automatic Font Detection",
       "description": "The Plot\u0027s Style class contains a method which automatically sets the fonts of common plot objects to the font most likely able to display the characters they contain.",
-      "source": "ScottPlot.Plot myPlot = new();\n\nmyPlot.Title(\u0022\u6D4B\u8BD5\u0022); // Chinese\nmyPlot.YLabel(\u0022\u8A66\u9A13\u0022); // Japanese\nmyPlot.XLabel(\u0022\uD14C\uC2A4\uD2B8\u0022); // Korean\nmyPlot.Style.SetBestFonts();\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "source": "ScottPlot.Plot myPlot = new();\n\nvar sig1 = myPlot.Add.Signal(Generate.Sin());\nvar sig2 = myPlot.Add.Signal(Generate.Cos());\n\nsig1.Label = \u0022\u6D4B\u8BD5\u0022; // Chinese\nsig2.Label = \u0022\uD14C\uC2A4\uD2B8\u0022; // Korean\nmyPlot.ShowLegend();\n\nmyPlot.Title(\u0022\u6D4B\u8BD5\u0022); // Chinese\nmyPlot.YLabel(\u0022\u8A66\u9A13\u0022); // Japanese\nmyPlot.XLabel(\u0022\uD14C\uC2A4\uD2B8\u0022); // Korean\n\nmyPlot.Style.SetBestFonts();\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
       "categoryClassName": "Internationalization",
       "recipeClassName": "AutomaticFontDetection",
       "anchorUrl": "/cookbook/5.0/Internationalization#AutomaticFontDetection",
       "categoryUrl": "/cookbook/5.0/Internationalization",
       "recipeUrl": "/cookbook/5.0/Internationalization/AutomaticFontDetection",
-      "imageUrl": "/cookbook/5.0/images/AutomaticFontDetection.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/AutomaticFontDetection.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Miscellaneous/Internationalization.cs"
     },
     {
@@ -784,7 +894,7 @@
       "anchorUrl": "/cookbook/5.0/ArrowCoordinated#ArrowQuickstart",
       "categoryUrl": "/cookbook/5.0/ArrowCoordinated",
       "recipeUrl": "/cookbook/5.0/ArrowCoordinated/ArrowQuickstart",
-      "imageUrl": "/cookbook/5.0/images/ArrowQuickstart.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/ArrowQuickstart.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Arrow.cs"
     },
     {
@@ -798,7 +908,7 @@
       "anchorUrl": "/cookbook/5.0/AxisLines#AxisLineQuickstart",
       "categoryUrl": "/cookbook/5.0/AxisLines",
       "recipeUrl": "/cookbook/5.0/AxisLines/AxisLineQuickstart",
-      "imageUrl": "/cookbook/5.0/images/AxisLineQuickstart.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/AxisLineQuickstart.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/AxisLines.cs"
     },
     {
@@ -812,7 +922,7 @@
       "anchorUrl": "/cookbook/5.0/AxisLines#AxisLineLabel",
       "categoryUrl": "/cookbook/5.0/AxisLines",
       "recipeUrl": "/cookbook/5.0/AxisLines/AxisLineLabel",
-      "imageUrl": "/cookbook/5.0/images/AxisLineLabel.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/AxisLineLabel.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/AxisLines.cs"
     },
     {
@@ -826,7 +936,7 @@
       "anchorUrl": "/cookbook/5.0/AxisLines#AxisLineStyle",
       "categoryUrl": "/cookbook/5.0/AxisLines",
       "recipeUrl": "/cookbook/5.0/AxisLines/AxisLineStyle",
-      "imageUrl": "/cookbook/5.0/images/AxisLineStyle.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/AxisLineStyle.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/AxisLines.cs"
     },
     {
@@ -840,7 +950,7 @@
       "anchorUrl": "/cookbook/5.0/AxisSpans#AxisSpanQuickstart",
       "categoryUrl": "/cookbook/5.0/AxisSpans",
       "recipeUrl": "/cookbook/5.0/AxisSpans/AxisSpanQuickstart",
-      "imageUrl": "/cookbook/5.0/images/AxisSpanQuickstart.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/AxisSpanQuickstart.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/AxisSpans.cs"
     },
     {
@@ -854,7 +964,7 @@
       "anchorUrl": "/cookbook/5.0/AxisSpans#AxisSpanStyling",
       "categoryUrl": "/cookbook/5.0/AxisSpans",
       "recipeUrl": "/cookbook/5.0/AxisSpans/AxisSpanStyling",
-      "imageUrl": "/cookbook/5.0/images/AxisSpanStyling.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/AxisSpanStyling.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/AxisSpans.cs"
     },
     {
@@ -868,7 +978,35 @@
       "anchorUrl": "/cookbook/5.0/Bar#Quickstart",
       "categoryUrl": "/cookbook/5.0/Bar",
       "recipeUrl": "/cookbook/5.0/Bar/Quickstart",
-      "imageUrl": "/cookbook/5.0/images/Quickstart.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/Quickstart.png?240316204900",
+      "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs"
+    },
+    {
+      "chapter": "Plot Types",
+      "category": "Bar Plot",
+      "name": "Bar Plot Legend",
+      "description": "A collection of bars can appear in the legend as a single item.",
+      "source": "ScottPlot.Plot myPlot = new();\n\ndouble[] xs1 = { 1, 2, 3, 4 };\ndouble[] ys1 = { 5, 10, 7, 13 };\nvar bars1 = myPlot.Add.Bars(xs1, ys1);\nbars1.Label = \u0022Alpha\u0022;\n\ndouble[] xs2 = { 6, 7, 8, 9 };\ndouble[] ys2 = { 7, 12, 9, 15 };\nvar bars2 = myPlot.Add.Bars(xs2, ys2);\nbars2.Label = \u0022Beta\u0022;\n\nmyPlot.ShowLegend(Alignment.UpperLeft);\nmyPlot.Axes.Margins(bottom: 0);\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "categoryClassName": "Bar",
+      "recipeClassName": "BarLegend",
+      "anchorUrl": "/cookbook/5.0/Bar#BarLegend",
+      "categoryUrl": "/cookbook/5.0/Bar",
+      "recipeUrl": "/cookbook/5.0/Bar/BarLegend",
+      "imageUrl": "/cookbook/5.0/images/BarLegend.png?240316204900",
+      "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs"
+    },
+    {
+      "chapter": "Plot Types",
+      "category": "Bar Plot",
+      "name": "Bar with Value Labels",
+      "description": "Set the \u0060Label\u0060 property of bars to have text displayed above each bar.",
+      "source": "ScottPlot.Plot myPlot = new();\n\ndouble[] values = { 5, 10, 7, 13 };\nvar barPlot = myPlot.Add.Bars(values);\n\n// define the content of labels\nforeach (var bar in barPlot.Bars)\n{\n    bar.Label = bar.Value.ToString();\n}\n\n// customize label style\nbarPlot.ValueLabelStyle.Bold = true;\nbarPlot.ValueLabelStyle.FontSize = 18;\n\nmyPlot.Axes.Margins(bottom: 0, top: .2);\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "categoryClassName": "Bar",
+      "recipeClassName": "BarValues",
+      "anchorUrl": "/cookbook/5.0/Bar#BarValues",
+      "categoryUrl": "/cookbook/5.0/Bar",
+      "recipeUrl": "/cookbook/5.0/Bar/BarValues",
+      "imageUrl": "/cookbook/5.0/images/BarValues.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs"
     },
     {
@@ -882,7 +1020,7 @@
       "anchorUrl": "/cookbook/5.0/Bar#BarPosition",
       "categoryUrl": "/cookbook/5.0/Bar",
       "recipeUrl": "/cookbook/5.0/Bar/BarPosition",
-      "imageUrl": "/cookbook/5.0/images/BarPosition.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/BarPosition.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs"
     },
     {
@@ -896,7 +1034,7 @@
       "anchorUrl": "/cookbook/5.0/Bar#BarWithError",
       "categoryUrl": "/cookbook/5.0/Bar",
       "recipeUrl": "/cookbook/5.0/Bar/BarWithError",
-      "imageUrl": "/cookbook/5.0/images/BarWithError.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/BarWithError.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs"
     },
     {
@@ -910,7 +1048,7 @@
       "anchorUrl": "/cookbook/5.0/Bar#BarTickLabels",
       "categoryUrl": "/cookbook/5.0/Bar",
       "recipeUrl": "/cookbook/5.0/Bar/BarTickLabels",
-      "imageUrl": "/cookbook/5.0/images/BarTickLabels.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/BarTickLabels.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs"
     },
     {
@@ -924,7 +1062,7 @@
       "anchorUrl": "/cookbook/5.0/Bar#BarStackVertically",
       "categoryUrl": "/cookbook/5.0/Bar",
       "recipeUrl": "/cookbook/5.0/Bar/BarStackVertically",
-      "imageUrl": "/cookbook/5.0/images/BarStackVertically.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/BarStackVertically.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs"
     },
     {
@@ -932,13 +1070,13 @@
       "category": "Bar Plot",
       "name": "Grouped Bar Plot",
       "description": "Bars can be grouped by position and color.",
-      "source": "ScottPlot.Plot myPlot = new();\n\nScottPlot.Palettes.Category10 palette = new();\n\nScottPlot.Bar[] bars =\n{\n    // first group\n    new() { Position = 1, Value = 2, FillColor = palette.GetColor(0), Error = 1 },\n    new() { Position = 2, Value = 5, FillColor = palette.GetColor(1), Error = 2 },\n    new() { Position = 3, Value = 7, FillColor = palette.GetColor(2), Error = 1 },\n\n    // second group\n    new() { Position = 5, Value = 4, FillColor = palette.GetColor(0), Error = 2 },\n    new() { Position = 6, Value = 7, FillColor = palette.GetColor(1), Error = 1 },\n    new() { Position = 7, Value = 13, FillColor = palette.GetColor(2), Error = 3 },\n\n    // third group\n    new() { Position = 9, Value = 5, FillColor = palette.GetColor(0), Error = 1 },\n    new() { Position = 10, Value = 6, FillColor = palette.GetColor(1), Error = 3 },\n    new() { Position = 11, Value = 11, FillColor = palette.GetColor(2), Error = 2 },\n};\n\nmyPlot.Add.Bars(bars);\n\n// build the legend manually\nmyPlot.Legend.IsVisible = true;\nmyPlot.Legend.Location = Alignment.UpperLeft;\n\nLegendItem[] legendItems =\n{\n    new() { Label = \u0022Monday\u0022, FillColor = palette.GetColor(0) },\n    new() { Label = \u0022Tuesday\u0022, FillColor = palette.GetColor(1) },\n    new() { Label = \u0022Wednesday\u0022, FillColor = palette.GetColor(2) }\n};\n\n// show group labels on the bottom axis\nTick[] ticks =\n{\n    new(2, \u0022Group 1\u0022),\n    new(6, \u0022Group 2\u0022),\n    new(10, \u0022Group 3\u0022),\n};\nmyPlot.Axes.Bottom.TickGenerator = new ScottPlot.TickGenerators.NumericManual(ticks);\nmyPlot.Axes.Bottom.MajorTickStyle.Length = 0;\nmyPlot.HideGrid();\n\n// tell the plot to autoscale with no padding beneath the bars\nmyPlot.Axes.Margins(bottom: 0);\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "source": "ScottPlot.Plot myPlot = new();\n\nScottPlot.Palettes.Category10 palette = new();\n\nScottPlot.Bar[] bars =\n{\n    // first group\n    new() { Position = 1, Value = 2, FillColor = palette.GetColor(0), Error = 1 },\n    new() { Position = 2, Value = 5, FillColor = palette.GetColor(1), Error = 2 },\n    new() { Position = 3, Value = 7, FillColor = palette.GetColor(2), Error = 1 },\n\n    // second group\n    new() { Position = 5, Value = 4, FillColor = palette.GetColor(0), Error = 2 },\n    new() { Position = 6, Value = 7, FillColor = palette.GetColor(1), Error = 1 },\n    new() { Position = 7, Value = 13, FillColor = palette.GetColor(2), Error = 3 },\n\n    // third group\n    new() { Position = 9, Value = 5, FillColor = palette.GetColor(0), Error = 1 },\n    new() { Position = 10, Value = 6, FillColor = palette.GetColor(1), Error = 3 },\n    new() { Position = 11, Value = 11, FillColor = palette.GetColor(2), Error = 2 },\n};\n\nmyPlot.Add.Bars(bars);\n\n// build the legend manually\nmyPlot.Legend.IsVisible = true;\nmyPlot.Legend.Location = Alignment.UpperLeft;\nmyPlot.Legend.ManualItems.Add(new() { Label = \u0022Monday\u0022, FillColor = palette.GetColor(0) });\nmyPlot.Legend.ManualItems.Add(new() { Label = \u0022Tuesday\u0022, FillColor = palette.GetColor(1) });\nmyPlot.Legend.ManualItems.Add(new() { Label = \u0022Wednesday\u0022, FillColor = palette.GetColor(2) });\n\n// show group labels on the bottom axis\nTick[] ticks =\n{\n    new(2, \u0022Group 1\u0022),\n    new(6, \u0022Group 2\u0022),\n    new(10, \u0022Group 3\u0022),\n};\nmyPlot.Axes.Bottom.TickGenerator = new ScottPlot.TickGenerators.NumericManual(ticks);\nmyPlot.Axes.Bottom.MajorTickStyle.Length = 0;\nmyPlot.HideGrid();\n\n// tell the plot to autoscale with no padding beneath the bars\nmyPlot.Axes.Margins(bottom: 0);\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
       "categoryClassName": "Bar",
       "recipeClassName": "GroupedBarPlot",
       "anchorUrl": "/cookbook/5.0/Bar#GroupedBarPlot",
       "categoryUrl": "/cookbook/5.0/Bar",
       "recipeUrl": "/cookbook/5.0/Bar/GroupedBarPlot",
-      "imageUrl": "/cookbook/5.0/images/GroupedBarPlot.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/GroupedBarPlot.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs"
     },
     {
@@ -952,7 +1090,7 @@
       "anchorUrl": "/cookbook/5.0/Bar#HorizontalBar",
       "categoryUrl": "/cookbook/5.0/Bar",
       "recipeUrl": "/cookbook/5.0/Bar/HorizontalBar",
-      "imageUrl": "/cookbook/5.0/images/HorizontalBar.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/HorizontalBar.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs"
     },
     {
@@ -966,7 +1104,7 @@
       "anchorUrl": "/cookbook/5.0/Box#BoxPlotQuickstart",
       "categoryUrl": "/cookbook/5.0/Box",
       "recipeUrl": "/cookbook/5.0/Box/BoxPlotQuickstart",
-      "imageUrl": "/cookbook/5.0/images/BoxPlotQuickstart.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/BoxPlotQuickstart.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Box.cs"
     },
     {
@@ -980,7 +1118,7 @@
       "anchorUrl": "/cookbook/5.0/Box#BoxPlotGroups",
       "categoryUrl": "/cookbook/5.0/Box",
       "recipeUrl": "/cookbook/5.0/Box/BoxPlotGroups",
-      "imageUrl": "/cookbook/5.0/images/BoxPlotGroups.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/BoxPlotGroups.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Box.cs"
     },
     {
@@ -994,7 +1132,7 @@
       "anchorUrl": "/cookbook/5.0/Ellipse#PlotEllipseQuickstart",
       "categoryUrl": "/cookbook/5.0/Ellipse",
       "recipeUrl": "/cookbook/5.0/Ellipse/PlotEllipseQuickstart",
-      "imageUrl": "/cookbook/5.0/images/PlotEllipseQuickstart.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/PlotEllipseQuickstart.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Ellipse.cs"
     },
     {
@@ -1008,7 +1146,7 @@
       "anchorUrl": "/cookbook/5.0/Ellipse#PlotCircleQuickstart",
       "categoryUrl": "/cookbook/5.0/Ellipse",
       "recipeUrl": "/cookbook/5.0/Ellipse/PlotCircleQuickstart",
-      "imageUrl": "/cookbook/5.0/images/PlotCircleQuickstart.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/PlotCircleQuickstart.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Ellipse.cs"
     },
     {
@@ -1016,13 +1154,13 @@
       "category": "Ellipse",
       "name": "Circle with Locked Scale",
       "description": "For circles to always appear circular, the coordinate system must be forced to always display square-shaped pixels. This can be achieved by enabling the axis scale lock.",
-      "source": "ScottPlot.Plot myPlot = new();\n\nRandom rand = new(0);\nfor (int i = 0; i \u003C 5; i\u002B\u002B)\n{\n    myPlot.Add.Circle(\n        xCenter: rand.Next(-10, 10),\n        yCenter: rand.Next(-10, 10),\n        radius: rand.Next(1, 7));\n}\n\n// force pixels to have a 1:1 scale ratio\nScottPlot.AxisRules.SquareZoomOut rule = new(myPlot.Axes.Bottom, myPlot.Axes.Left);\nmyPlot.Axes.Rules.Add(rule);\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "source": "ScottPlot.Plot myPlot = new();\n\nRandom rand = new(0);\nfor (int i = 0; i \u003C 5; i\u002B\u002B)\n{\n    myPlot.Add.Circle(\n        xCenter: rand.Next(-10, 10),\n        yCenter: rand.Next(-10, 10),\n        radius: rand.Next(1, 7));\n}\n\n// force pixels to have a 1:1 scale ratio\nmyPlot.Axes.SquareUnits();\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
       "categoryClassName": "Ellipse",
       "recipeClassName": "CircleWithLockedScale",
       "anchorUrl": "/cookbook/5.0/Ellipse#CircleWithLockedScale",
       "categoryUrl": "/cookbook/5.0/Ellipse",
       "recipeUrl": "/cookbook/5.0/Ellipse/CircleWithLockedScale",
-      "imageUrl": "/cookbook/5.0/images/CircleWithLockedScale.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/CircleWithLockedScale.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Ellipse.cs"
     },
     {
@@ -1036,7 +1174,7 @@
       "anchorUrl": "/cookbook/5.0/Ellipse#EllipseStyling",
       "categoryUrl": "/cookbook/5.0/Ellipse",
       "recipeUrl": "/cookbook/5.0/Ellipse/EllipseStyling",
-      "imageUrl": "/cookbook/5.0/images/EllipseStyling.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/EllipseStyling.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Ellipse.cs"
     },
     {
@@ -1050,7 +1188,7 @@
       "anchorUrl": "/cookbook/5.0/Ellipse#EllipseRotation",
       "categoryUrl": "/cookbook/5.0/Ellipse",
       "recipeUrl": "/cookbook/5.0/Ellipse/EllipseRotation",
-      "imageUrl": "/cookbook/5.0/images/EllipseRotation.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/EllipseRotation.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Ellipse.cs"
     },
     {
@@ -1064,7 +1202,7 @@
       "anchorUrl": "/cookbook/5.0/ErrorBar#ErrorBarQuickstart",
       "categoryUrl": "/cookbook/5.0/ErrorBar",
       "recipeUrl": "/cookbook/5.0/ErrorBar/ErrorBarQuickstart",
-      "imageUrl": "/cookbook/5.0/images/ErrorBarQuickstart.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/ErrorBarQuickstart.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/ErrorBar.cs"
     },
     {
@@ -1078,7 +1216,7 @@
       "anchorUrl": "/cookbook/5.0/ErrorBar#CustomErrors",
       "categoryUrl": "/cookbook/5.0/ErrorBar",
       "recipeUrl": "/cookbook/5.0/ErrorBar/CustomErrors",
-      "imageUrl": "/cookbook/5.0/images/CustomErrors.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/CustomErrors.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/ErrorBar.cs"
     },
     {
@@ -1092,7 +1230,7 @@
       "anchorUrl": "/cookbook/5.0/FillY#FillYFromArrays",
       "categoryUrl": "/cookbook/5.0/FillY",
       "recipeUrl": "/cookbook/5.0/FillY/FillYFromArrays",
-      "imageUrl": "/cookbook/5.0/images/FillYFromArrays.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/FillYFromArrays.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/FillY.cs"
     },
     {
@@ -1106,7 +1244,7 @@
       "anchorUrl": "/cookbook/5.0/FillY#FillYFromScatters",
       "categoryUrl": "/cookbook/5.0/FillY",
       "recipeUrl": "/cookbook/5.0/FillY/FillYFromScatters",
-      "imageUrl": "/cookbook/5.0/images/FillYFromScatters.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/FillYFromScatters.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/FillY.cs"
     },
     {
@@ -1120,7 +1258,7 @@
       "anchorUrl": "/cookbook/5.0/FillY#Function",
       "categoryUrl": "/cookbook/5.0/FillY",
       "recipeUrl": "/cookbook/5.0/FillY/Function",
-      "imageUrl": "/cookbook/5.0/images/Function.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/Function.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/FillY.cs"
     },
     {
@@ -1134,7 +1272,7 @@
       "anchorUrl": "/cookbook/5.0/FillY#Styling",
       "categoryUrl": "/cookbook/5.0/FillY",
       "recipeUrl": "/cookbook/5.0/FillY/Styling",
-      "imageUrl": "/cookbook/5.0/images/Styling.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/Styling.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/FillY.cs"
     },
     {
@@ -1148,7 +1286,7 @@
       "anchorUrl": "/cookbook/5.0/Finance#Candlestick",
       "categoryUrl": "/cookbook/5.0/Finance",
       "recipeUrl": "/cookbook/5.0/Finance/Candlestick",
-      "imageUrl": "/cookbook/5.0/images/Candlestick.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/Candlestick.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Finance.cs"
     },
     {
@@ -1162,7 +1300,7 @@
       "anchorUrl": "/cookbook/5.0/Finance#OhlcChart",
       "categoryUrl": "/cookbook/5.0/Finance",
       "recipeUrl": "/cookbook/5.0/Finance/OhlcChart",
-      "imageUrl": "/cookbook/5.0/images/OhlcChart.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/OhlcChart.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Finance.cs"
     },
     {
@@ -1176,7 +1314,7 @@
       "anchorUrl": "/cookbook/5.0/Finance#FinanceRightAxis",
       "categoryUrl": "/cookbook/5.0/Finance",
       "recipeUrl": "/cookbook/5.0/Finance/FinanceRightAxis",
-      "imageUrl": "/cookbook/5.0/images/FinanceRightAxis.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/FinanceRightAxis.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Finance.cs"
     },
     {
@@ -1190,7 +1328,7 @@
       "anchorUrl": "/cookbook/5.0/Finance#FinanceSma",
       "categoryUrl": "/cookbook/5.0/Finance",
       "recipeUrl": "/cookbook/5.0/Finance/FinanceSma",
-      "imageUrl": "/cookbook/5.0/images/FinanceSma.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/FinanceSma.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Finance.cs"
     },
     {
@@ -1204,7 +1342,7 @@
       "anchorUrl": "/cookbook/5.0/Finance#FinanceBollinger",
       "categoryUrl": "/cookbook/5.0/Finance",
       "recipeUrl": "/cookbook/5.0/Finance/FinanceBollinger",
-      "imageUrl": "/cookbook/5.0/images/FinanceBollinger.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/FinanceBollinger.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Finance.cs"
     },
     {
@@ -1218,7 +1356,7 @@
       "anchorUrl": "/cookbook/5.0/Finance#FinancialPlotWithoutGaps",
       "categoryUrl": "/cookbook/5.0/Finance",
       "recipeUrl": "/cookbook/5.0/Finance/FinancialPlotWithoutGaps",
-      "imageUrl": "/cookbook/5.0/images/FinancialPlotWithoutGaps.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/FinancialPlotWithoutGaps.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Finance.cs"
     },
     {
@@ -1232,7 +1370,7 @@
       "anchorUrl": "/cookbook/5.0/Function#FunctionQuickstart",
       "categoryUrl": "/cookbook/5.0/Function",
       "recipeUrl": "/cookbook/5.0/Function/FunctionQuickstart",
-      "imageUrl": "/cookbook/5.0/images/FunctionQuickstart.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/FunctionQuickstart.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Function.cs"
     },
     {
@@ -1246,7 +1384,7 @@
       "anchorUrl": "/cookbook/5.0/Heatmap#HeatmapQuickstart",
       "categoryUrl": "/cookbook/5.0/Heatmap",
       "recipeUrl": "/cookbook/5.0/Heatmap/HeatmapQuickstart",
-      "imageUrl": "/cookbook/5.0/images/HeatmapQuickstart.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/HeatmapQuickstart.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Heatmap.cs"
     },
     {
@@ -1260,7 +1398,7 @@
       "anchorUrl": "/cookbook/5.0/Heatmap#HeatmapInverted",
       "categoryUrl": "/cookbook/5.0/Heatmap",
       "recipeUrl": "/cookbook/5.0/Heatmap/HeatmapInverted",
-      "imageUrl": "/cookbook/5.0/images/HeatmapInverted.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/HeatmapInverted.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Heatmap.cs"
     },
     {
@@ -1274,7 +1412,35 @@
       "anchorUrl": "/cookbook/5.0/Heatmap#HeatmapColormap",
       "categoryUrl": "/cookbook/5.0/Heatmap",
       "recipeUrl": "/cookbook/5.0/Heatmap/HeatmapColormap",
-      "imageUrl": "/cookbook/5.0/images/HeatmapColormap.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/HeatmapColormap.png?240316204900",
+      "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Heatmap.cs"
+    },
+    {
+      "chapter": "Plot Types",
+      "category": "Heatmap",
+      "name": "Flipped Heatmap",
+      "description": "Heatmaps can be flipped horizontally and/or vertically",
+      "source": "ScottPlot.Plot myPlot = new();\n\ndouble[,] data = SampleData.MonaLisa();\n\nmyPlot.Add.Text(\u0022default\u0022, 0, 1.5);\nvar hm1 = myPlot.Add.Heatmap(data);\nhm1.Extent = new CoordinateRect(0, 1, 0, 1);\n\nmyPlot.Add.Text(\u0022flip X\u0022, 2, 1.5);\nvar hm2 = myPlot.Add.Heatmap(data);\nhm2.Extent = new CoordinateRect(2, 3, 0, 1);\nhm2.FlipHorizontally = true;\n\nmyPlot.Add.Text(\u0022flip Y\u0022, 4, 1.5);\nvar hm3 = myPlot.Add.Heatmap(data);\nhm3.Extent = new CoordinateRect(4, 5, 0, 1);\nhm3.FlipVertically = true;\n\nmyPlot.Add.Text(\u0022flip X\u0026Y\u0022, 6, 1.5);\nvar hm4 = myPlot.Add.Heatmap(data);\nhm4.Extent = new CoordinateRect(6, 7, 0, 1);\nhm4.FlipHorizontally = true;\nhm4.FlipVertically = true;\n\nmyPlot.Axes.SetLimits(-.5, 7.5, -1, 2);\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "categoryClassName": "Heatmap",
+      "recipeClassName": "HeatmapFlip",
+      "anchorUrl": "/cookbook/5.0/Heatmap#HeatmapFlip",
+      "categoryUrl": "/cookbook/5.0/Heatmap",
+      "recipeUrl": "/cookbook/5.0/Heatmap/HeatmapFlip",
+      "imageUrl": "/cookbook/5.0/images/HeatmapFlip.png?240316204900",
+      "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Heatmap.cs"
+    },
+    {
+      "chapter": "Plot Types",
+      "category": "Heatmap",
+      "name": "Smooth Heatmap",
+      "description": "Enable the \u0060Smooth\u0060 property for anti-aliased rendering",
+      "source": "ScottPlot.Plot myPlot = new();\n\ndouble[,] data = SampleData.MonaLisa();\n\nmyPlot.Add.Text(\u0022Smooth = false\u0022, 0, 1.1);\nvar hm1 = myPlot.Add.Heatmap(data);\nhm1.Extent = new CoordinateRect(0, 1, 0, 1);\n\nmyPlot.Add.Text(\u0022Smooth = true\u0022, 1.1, 1.1);\nvar hm2 = myPlot.Add.Heatmap(data);\nhm2.Extent = new CoordinateRect(1.1, 2.1, 0, 1);\nhm2.Smooth = true;\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "categoryClassName": "Heatmap",
+      "recipeClassName": "HeatmapSmooth",
+      "anchorUrl": "/cookbook/5.0/Heatmap#HeatmapSmooth",
+      "categoryUrl": "/cookbook/5.0/Heatmap",
+      "recipeUrl": "/cookbook/5.0/Heatmap/HeatmapSmooth",
+      "imageUrl": "/cookbook/5.0/images/HeatmapSmooth.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Heatmap.cs"
     },
     {
@@ -1288,7 +1454,7 @@
       "anchorUrl": "/cookbook/5.0/LinePlot#LineQuickStart",
       "categoryUrl": "/cookbook/5.0/LinePlot",
       "recipeUrl": "/cookbook/5.0/LinePlot/LineQuickStart",
-      "imageUrl": "/cookbook/5.0/images/LineQuickStart.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/LineQuickStart.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Line.cs"
     },
     {
@@ -1302,7 +1468,7 @@
       "anchorUrl": "/cookbook/5.0/LinePlot#LinePlotStyles",
       "categoryUrl": "/cookbook/5.0/LinePlot",
       "recipeUrl": "/cookbook/5.0/LinePlot/LinePlotStyles",
-      "imageUrl": "/cookbook/5.0/images/LinePlotStyles.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/LinePlotStyles.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Line.cs"
     },
     {
@@ -1316,7 +1482,7 @@
       "anchorUrl": "/cookbook/5.0/LinePlot#LinePlotLegendQWER",
       "categoryUrl": "/cookbook/5.0/LinePlot",
       "recipeUrl": "/cookbook/5.0/LinePlot/LinePlotLegendQWER",
-      "imageUrl": "/cookbook/5.0/images/LinePlotLegendQWER.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/LinePlotLegendQWER.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Line.cs"
     },
     {
@@ -1330,7 +1496,7 @@
       "anchorUrl": "/cookbook/5.0/Marker#MarkerQuickstart",
       "categoryUrl": "/cookbook/5.0/Marker",
       "recipeUrl": "/cookbook/5.0/Marker/MarkerQuickstart",
-      "imageUrl": "/cookbook/5.0/images/MarkerQuickstart.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/MarkerQuickstart.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Marker.cs"
     },
     {
@@ -1344,7 +1510,7 @@
       "anchorUrl": "/cookbook/5.0/Marker#MarkerShapes",
       "categoryUrl": "/cookbook/5.0/Marker",
       "recipeUrl": "/cookbook/5.0/Marker/MarkerShapes",
-      "imageUrl": "/cookbook/5.0/images/MarkerShapes.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/MarkerShapes.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Marker.cs"
     },
     {
@@ -1358,7 +1524,7 @@
       "anchorUrl": "/cookbook/5.0/Marker#MarkerLegend",
       "categoryUrl": "/cookbook/5.0/Marker",
       "recipeUrl": "/cookbook/5.0/Marker/MarkerLegend",
-      "imageUrl": "/cookbook/5.0/images/MarkerLegend.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/MarkerLegend.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Marker.cs"
     },
     {
@@ -1372,7 +1538,7 @@
       "anchorUrl": "/cookbook/5.0/Marker#MarkersPlot",
       "categoryUrl": "/cookbook/5.0/Marker",
       "recipeUrl": "/cookbook/5.0/Marker/MarkersPlot",
-      "imageUrl": "/cookbook/5.0/images/MarkersPlot.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/MarkersPlot.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Marker.cs"
     },
     {
@@ -1386,7 +1552,7 @@
       "anchorUrl": "/cookbook/5.0/Pie#PieQuickstart",
       "categoryUrl": "/cookbook/5.0/Pie",
       "recipeUrl": "/cookbook/5.0/Pie/PieQuickstart",
-      "imageUrl": "/cookbook/5.0/images/PieQuickstart.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/PieQuickstart.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Pie.cs"
     },
     {
@@ -1400,7 +1566,21 @@
       "anchorUrl": "/cookbook/5.0/Pie#PieSlices",
       "categoryUrl": "/cookbook/5.0/Pie",
       "recipeUrl": "/cookbook/5.0/Pie/PieSlices",
-      "imageUrl": "/cookbook/5.0/images/PieSlices.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/PieSlices.png?240316204900",
+      "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Pie.cs"
+    },
+    {
+      "chapter": "Plot Types",
+      "category": "Pie",
+      "name": "Donut from Slices",
+      "description": "A donut chart is a pie chart with an open center. Donut charts can be created from a collection of slices.",
+      "source": "ScottPlot.Plot myPlot = new();\n\nList\u003CPieSlice\u003E slices = new()\n{\n    new PieSlice() { Value = 5, FillColor = Colors.Red, Label = \u0022Red\u0022 },\n    new PieSlice() { Value = 2, FillColor = Colors.Orange, Label = \u0022Orange\u0022 },\n    new PieSlice() { Value = 8, FillColor = Colors.Gold, Label = \u0022Yellow\u0022 },\n    new PieSlice() { Value = 4, FillColor = Colors.Green, Label = \u0022Green\u0022 },\n    new PieSlice() { Value = 8, FillColor = Colors.Blue, Label = \u0022Blue\u0022 },\n};\n\nvar pie = myPlot.Add.Pie(slices);\npie.DonutFraction = .5;\n\nmyPlot.ShowLegend();\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "categoryClassName": "Pie",
+      "recipeClassName": "PieDonut",
+      "anchorUrl": "/cookbook/5.0/Pie#PieDonut",
+      "categoryUrl": "/cookbook/5.0/Pie",
+      "recipeUrl": "/cookbook/5.0/Pie/PieDonut",
+      "imageUrl": "/cookbook/5.0/images/PieDonut.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Pie.cs"
     },
     {
@@ -1414,8 +1594,246 @@
       "anchorUrl": "/cookbook/5.0/Pie#PieSliceLabels",
       "categoryUrl": "/cookbook/5.0/Pie",
       "recipeUrl": "/cookbook/5.0/Pie/PieSliceLabels",
-      "imageUrl": "/cookbook/5.0/images/PieSliceLabels.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/PieSliceLabels.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Pie.cs"
+    },
+    {
+      "chapter": "Plot Types",
+      "category": "Radial gauge",
+      "name": "Radial gauge from values",
+      "description": "A radial gauge chart can be created from a few values.",
+      "source": "ScottPlot.Plot myPlot = new();\n\ndouble[] values = { 100, 80, 65, 45, 20 };\nmyPlot.Add.RadialGaugePlot(values);\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "categoryClassName": "RadialGauge",
+      "recipeClassName": "RadialGaugeQuickstart",
+      "anchorUrl": "/cookbook/5.0/RadialGauge#RadialGaugeQuickstart",
+      "categoryUrl": "/cookbook/5.0/RadialGauge",
+      "recipeUrl": "/cookbook/5.0/RadialGauge/RadialGaugeQuickstart",
+      "imageUrl": "/cookbook/5.0/images/RadialGaugeQuickstart.png?240316204900",
+      "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/RadialGauge.cs"
+    },
+    {
+      "chapter": "Plot Types",
+      "category": "Radial gauge",
+      "name": "Gauge Colors",
+      "description": "Gauge colors can be customized by changing the default palette.",
+      "source": "ScottPlot.Plot myPlot = new();\n\nmyPlot.Add.Palette = new ScottPlot.Palettes.Nord();\ndouble[] values = { 100, 80, 65, 45, 20 };\nmyPlot.Add.RadialGaugePlot(values);\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "categoryClassName": "RadialGauge",
+      "recipeClassName": "RadialGaugeColormap",
+      "anchorUrl": "/cookbook/5.0/RadialGauge#RadialGaugeColormap",
+      "categoryUrl": "/cookbook/5.0/RadialGauge",
+      "recipeUrl": "/cookbook/5.0/RadialGauge/RadialGaugeColormap",
+      "imageUrl": "/cookbook/5.0/images/RadialGaugeColormap.png?240316204900",
+      "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/RadialGauge.cs"
+    },
+    {
+      "chapter": "Plot Types",
+      "category": "Radial gauge",
+      "name": "Negative Values",
+      "description": "Radial gauge plots support positive and negative values.",
+      "source": "ScottPlot.Plot myPlot = new();\n\nmyPlot.Add.Palette = new ScottPlot.Palettes.Nord();\ndouble[] values = { 100, 80, -65, 45, -20 };\nmyPlot.Add.RadialGaugePlot(values);\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "categoryClassName": "RadialGauge",
+      "recipeClassName": "RadialGaugeNegative",
+      "anchorUrl": "/cookbook/5.0/RadialGauge#RadialGaugeNegative",
+      "categoryUrl": "/cookbook/5.0/RadialGauge",
+      "recipeUrl": "/cookbook/5.0/RadialGauge/RadialGaugeNegative",
+      "imageUrl": "/cookbook/5.0/images/RadialGaugeNegative.png?240316204900",
+      "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/RadialGauge.cs"
+    },
+    {
+      "chapter": "Plot Types",
+      "category": "Radial gauge",
+      "name": "Sequential Gauge Mode",
+      "description": "Sequential gauge mode indicates that the base of each gauge starts at the tip of the previous gauge.",
+      "source": "ScottPlot.Plot myPlot = new();\n\nmyPlot.Add.Palette = new ScottPlot.Palettes.Nord();\ndouble[] values = { 100, 80, 65, 45, 50 };\nvar radialGaugePlot = myPlot.Add.RadialGaugePlot(values);\nradialGaugePlot.GaugeMode = ScottPlot.RadialGaugeMode.Sequential;\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "categoryClassName": "RadialGauge",
+      "recipeClassName": "RadialGaugeSequential",
+      "anchorUrl": "/cookbook/5.0/RadialGauge#RadialGaugeSequential",
+      "categoryUrl": "/cookbook/5.0/RadialGauge",
+      "recipeUrl": "/cookbook/5.0/RadialGauge/RadialGaugeSequential",
+      "imageUrl": "/cookbook/5.0/images/RadialGaugeSequential.png?240316204900",
+      "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/RadialGauge.cs"
+    },
+    {
+      "chapter": "Plot Types",
+      "category": "Radial gauge",
+      "name": "Reverse Order",
+      "description": "Gauges are displayed from the center outward by default but the order can be customized.",
+      "source": "ScottPlot.Plot myPlot = new();\n\nmyPlot.Add.Palette = new ScottPlot.Palettes.Nord();\ndouble[] values = { 100, 80, 65, 45, 50 };\nvar radialGaugePlot = myPlot.Add.RadialGaugePlot(values);\nradialGaugePlot.GaugeMode = ScottPlot.RadialGaugeMode.Sequential;\nradialGaugePlot.OrderInsideOut = false;\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "categoryClassName": "RadialGauge",
+      "recipeClassName": "RadialGaugeReverse",
+      "anchorUrl": "/cookbook/5.0/RadialGauge#RadialGaugeReverse",
+      "categoryUrl": "/cookbook/5.0/RadialGauge",
+      "recipeUrl": "/cookbook/5.0/RadialGauge/RadialGaugeReverse",
+      "imageUrl": "/cookbook/5.0/images/RadialGaugeReverse.png?240316204900",
+      "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/RadialGauge.cs"
+    },
+    {
+      "chapter": "Plot Types",
+      "category": "Radial gauge",
+      "name": "Single Gauge Mode",
+      "description": "The SingleGauge mode draws all gauges stacked together as a single gauge. This is useful for showing a progress gauges composed of many individual smaller gauges.",
+      "source": "ScottPlot.Plot myPlot = new();\n\nmyPlot.Add.Palette = new ScottPlot.Palettes.Nord();\ndouble[] values = { 100, 80, 65, 45 };\n\nvar radialGaugePlot = myPlot.Add.RadialGaugePlot(values);\nradialGaugePlot.GaugeMode = ScottPlot.RadialGaugeMode.SingleGauge;\nradialGaugePlot.MaximumAngle = 180;\nradialGaugePlot.StartingAngle = 180;\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "categoryClassName": "RadialGauge",
+      "recipeClassName": "RadialGaugeModeSingle",
+      "anchorUrl": "/cookbook/5.0/RadialGauge#RadialGaugeModeSingle",
+      "categoryUrl": "/cookbook/5.0/RadialGauge",
+      "recipeUrl": "/cookbook/5.0/RadialGauge/RadialGaugeModeSingle",
+      "imageUrl": "/cookbook/5.0/images/RadialGaugeModeSingle.png?240316204900",
+      "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/RadialGauge.cs"
+    },
+    {
+      "chapter": "Plot Types",
+      "category": "Radial gauge",
+      "name": "Gauge Direction",
+      "description": "The direction of gauges can be customized. Clockwise is used by default.",
+      "source": "ScottPlot.Plot myPlot = new();\n\nmyPlot.Add.Palette = new ScottPlot.Palettes.Nord();\ndouble[] values = { 100, 80, 65, 45, 20 };\n\nvar radialGaugePlot = myPlot.Add.RadialGaugePlot(values);\nradialGaugePlot.Clockwise = false;\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "categoryClassName": "RadialGauge",
+      "recipeClassName": "RadialGaugeDirection",
+      "anchorUrl": "/cookbook/5.0/RadialGauge#RadialGaugeDirection",
+      "categoryUrl": "/cookbook/5.0/RadialGauge",
+      "recipeUrl": "/cookbook/5.0/RadialGauge/RadialGaugeDirection",
+      "imageUrl": "/cookbook/5.0/images/RadialGaugeDirection.png?240316204900",
+      "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/RadialGauge.cs"
+    },
+    {
+      "chapter": "Plot Types",
+      "category": "Radial gauge",
+      "name": "Gauge Size",
+      "description": "The empty space between gauges can be adjusted as a fraction of their width. ",
+      "source": "ScottPlot.Plot myPlot = new();\n\nmyPlot.Add.Palette = new ScottPlot.Palettes.Nord();\ndouble[] values = { 100, 80, 65, 45, 20 };\nvar radialGaugePlot = myPlot.Add.RadialGaugePlot(values);\nradialGaugePlot.SpaceFraction = .05;\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "categoryClassName": "RadialGauge",
+      "recipeClassName": "RadialGaugeSize",
+      "anchorUrl": "/cookbook/5.0/RadialGauge#RadialGaugeSize",
+      "categoryUrl": "/cookbook/5.0/RadialGauge",
+      "recipeUrl": "/cookbook/5.0/RadialGauge/RadialGaugeSize",
+      "imageUrl": "/cookbook/5.0/images/RadialGaugeSize.png?240316204900",
+      "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/RadialGauge.cs"
+    },
+    {
+      "chapter": "Plot Types",
+      "category": "Radial gauge",
+      "name": "Gauge Starting Angle",
+      "description": "The starting angle for gauges can be customized. 270 for North (default value), 0 for East, 90 for South, 180 for West, etc.",
+      "source": "ScottPlot.Plot myPlot = new();\n\nmyPlot.Add.Palette = new ScottPlot.Palettes.Nord();\ndouble[] values = { 100, 80, 65, 45, 20 };\n\nvar radialGaugePlot = myPlot.Add.RadialGaugePlot(values);\nradialGaugePlot.StartingAngle = 180;\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "categoryClassName": "RadialGauge",
+      "recipeClassName": "RadialGaugeStart",
+      "anchorUrl": "/cookbook/5.0/RadialGauge#RadialGaugeStart",
+      "categoryUrl": "/cookbook/5.0/RadialGauge",
+      "recipeUrl": "/cookbook/5.0/RadialGauge/RadialGaugeStart",
+      "imageUrl": "/cookbook/5.0/images/RadialGaugeStart.png?240316204900",
+      "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/RadialGauge.cs"
+    },
+    {
+      "chapter": "Plot Types",
+      "category": "Radial gauge",
+      "name": "Gauge Angular Range",
+      "description": "By default gauges are full circles (360 degrees) but smaller gauges can be created by customizing the gauge size.",
+      "source": "ScottPlot.Plot myPlot = new();\n\nmyPlot.Add.Palette = new ScottPlot.Palettes.Nord();\ndouble[] values = { 100, 80, 65, 45, 20 };\n\nvar radialGaugePlot = myPlot.Add.RadialGaugePlot(values);\nradialGaugePlot.MaximumAngle = 180;\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "categoryClassName": "RadialGauge",
+      "recipeClassName": "RadialGaugeRange",
+      "anchorUrl": "/cookbook/5.0/RadialGauge#RadialGaugeRange",
+      "categoryUrl": "/cookbook/5.0/RadialGauge",
+      "recipeUrl": "/cookbook/5.0/RadialGauge/RadialGaugeRange",
+      "imageUrl": "/cookbook/5.0/images/RadialGaugeRange.png?240316204900",
+      "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/RadialGauge.cs"
+    },
+    {
+      "chapter": "Plot Types",
+      "category": "Radial gauge",
+      "name": "Show Levels",
+      "description": "The value of each gauge is displayed as text by default but this behavior can be overridden. Note that this is different than the labels fiels which is what appears in the legened.",
+      "source": "ScottPlot.Plot myPlot = new();\n\nmyPlot.Add.Palette = new ScottPlot.Palettes.Nord();\ndouble[] values = { 100, 80, 65, 45, 20 };\n\nvar radialGaugePlot = myPlot.Add.RadialGaugePlot(values);\nradialGaugePlot.ShowLevels = false;\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "categoryClassName": "RadialGauge",
+      "recipeClassName": "RadialGaugeLabels",
+      "anchorUrl": "/cookbook/5.0/RadialGauge#RadialGaugeLabels",
+      "categoryUrl": "/cookbook/5.0/RadialGauge",
+      "recipeUrl": "/cookbook/5.0/RadialGauge/RadialGaugeLabels",
+      "imageUrl": "/cookbook/5.0/images/RadialGaugeLabels.png?240316204900",
+      "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/RadialGauge.cs"
+    },
+    {
+      "chapter": "Plot Types",
+      "category": "Radial gauge",
+      "name": "Gauge Label Position",
+      "description": "Gauge level text is positioned at the tip of each gauge by default, but this position can be adjusted by the user.",
+      "source": "ScottPlot.Plot myPlot = new();\n\nmyPlot.Add.Palette = new ScottPlot.Palettes.Nord();\ndouble[] values = { 100, 80, 65, 45, 20 };\n\nvar radialGaugePlot = myPlot.Add.RadialGaugePlot(values);\nradialGaugePlot.LabelPositionFraction = 0.5;\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "categoryClassName": "RadialGauge",
+      "recipeClassName": "RadialGaugeLabelPos",
+      "anchorUrl": "/cookbook/5.0/RadialGauge#RadialGaugeLabelPos",
+      "categoryUrl": "/cookbook/5.0/RadialGauge",
+      "recipeUrl": "/cookbook/5.0/RadialGauge/RadialGaugeLabelPos",
+      "imageUrl": "/cookbook/5.0/images/RadialGaugeLabelPos.png?240316204900",
+      "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/RadialGauge.cs"
+    },
+    {
+      "chapter": "Plot Types",
+      "category": "Radial gauge",
+      "name": "Gauge Label Font Percentage",
+      "description": "Size of the gauge level text as a fraction of the gauge width.",
+      "source": "ScottPlot.Plot myPlot = new();\n\nmyPlot.Add.Palette = new ScottPlot.Palettes.Nord();\ndouble[] values = { 100, 80, 65, 45, 20 };\n\nvar radialGaugePlot = myPlot.Add.RadialGaugePlot(values);\nradialGaugePlot.FontSizeFraction = .4;\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "categoryClassName": "RadialGauge",
+      "recipeClassName": "RadialGaugeLabelFontPct",
+      "anchorUrl": "/cookbook/5.0/RadialGauge#RadialGaugeLabelFontPct",
+      "categoryUrl": "/cookbook/5.0/RadialGauge",
+      "recipeUrl": "/cookbook/5.0/RadialGauge/RadialGaugeLabelFontPct",
+      "imageUrl": "/cookbook/5.0/images/RadialGaugeLabelFontPct.png?240316204900",
+      "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/RadialGauge.cs"
+    },
+    {
+      "chapter": "Plot Types",
+      "category": "Radial gauge",
+      "name": "Gauge Label Color",
+      "description": "Level text fonts may be customized.",
+      "source": "ScottPlot.Plot myPlot = new();\n\nmyPlot.Add.Palette = new ScottPlot.Palettes.Nord();\ndouble[] values = { 100, 80, 65, 45, 20 };\n\nvar radialGaugePlot = myPlot.Add.RadialGaugePlot(values);\nradialGaugePlot.Font.Color = Colors.Black;\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "categoryClassName": "RadialGauge",
+      "recipeClassName": "RadialGaugeLabelColor",
+      "anchorUrl": "/cookbook/5.0/RadialGauge#RadialGaugeLabelColor",
+      "categoryUrl": "/cookbook/5.0/RadialGauge",
+      "recipeUrl": "/cookbook/5.0/RadialGauge/RadialGaugeLabelColor",
+      "imageUrl": "/cookbook/5.0/images/RadialGaugeLabelColor.png?240316204900",
+      "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/RadialGauge.cs"
+    },
+    {
+      "chapter": "Plot Types",
+      "category": "Radial gauge",
+      "name": "Gauge Labels in Legend",
+      "description": "Radial gauge labels will appear in the legend if they are assigned. ",
+      "source": "ScottPlot.Plot myPlot = new();\n\nmyPlot.Add.Palette = new ScottPlot.Palettes.Nord();\ndouble[] values = { 100, 80, 65, 45, 20 };\n\nvar radialGaugePlot = myPlot.Add.RadialGaugePlot(values);\nradialGaugePlot.Labels = new string[] { \u0022alpha\u0022, \u0022beta\u0022, \u0022gamma\u0022, \u0022delta\u0022, \u0022epsilon\u0022 };\nmyPlot.ShowLegend();\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "categoryClassName": "RadialGauge",
+      "recipeClassName": "RadialGaugeLegend",
+      "anchorUrl": "/cookbook/5.0/RadialGauge#RadialGaugeLegend",
+      "categoryUrl": "/cookbook/5.0/RadialGauge",
+      "recipeUrl": "/cookbook/5.0/RadialGauge/RadialGaugeLegend",
+      "imageUrl": "/cookbook/5.0/images/RadialGaugeLegend.png?240316204900",
+      "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/RadialGauge.cs"
+    },
+    {
+      "chapter": "Plot Types",
+      "category": "Radial gauge",
+      "name": "Background Gauges Dim",
+      "description": "By default the full range of each gauge is drawn as a semitransparent ring. The amount of transparency can be adjusted as desired.",
+      "source": "ScottPlot.Plot myPlot = new();\n\nmyPlot.Add.Palette = new ScottPlot.Palettes.Nord();\ndouble[] values = { 100, 80, 65, 45, 20 };\n\nvar radialGaugePlot = myPlot.Add.RadialGaugePlot(values);\nradialGaugePlot.BackgroundTransparencyFraction = .5;\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "categoryClassName": "RadialGauge",
+      "recipeClassName": "RadialGaugeBackDim",
+      "anchorUrl": "/cookbook/5.0/RadialGauge#RadialGaugeBackDim",
+      "categoryUrl": "/cookbook/5.0/RadialGauge",
+      "recipeUrl": "/cookbook/5.0/RadialGauge/RadialGaugeBackDim",
+      "imageUrl": "/cookbook/5.0/images/RadialGaugeBackDim.png?240316204900",
+      "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/RadialGauge.cs"
+    },
+    {
+      "chapter": "Plot Types",
+      "category": "Radial gauge",
+      "name": "Background Gauges Normalization",
+      "description": "Gauge backgrounds are drawn as full circles by default. This behavior can be disabled to draw partial backgrounds for non-circular gauges.",
+      "source": "ScottPlot.Plot myPlot = new();\n\nmyPlot.Add.Palette = new ScottPlot.Palettes.Nord();\ndouble[] values = { 100, 80, 65, 45, 20 };\n\nvar radialGaugePlot = myPlot.Add.RadialGaugePlot(values);\nradialGaugePlot.CircularBackground = false;\nradialGaugePlot.MaximumAngle = 180;\nradialGaugePlot.StartingAngle = 180;\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "categoryClassName": "RadialGauge",
+      "recipeClassName": "RadialGaugeBackNorm",
+      "anchorUrl": "/cookbook/5.0/RadialGauge#RadialGaugeBackNorm",
+      "categoryUrl": "/cookbook/5.0/RadialGauge",
+      "recipeUrl": "/cookbook/5.0/RadialGauge/RadialGaugeBackNorm",
+      "imageUrl": "/cookbook/5.0/images/RadialGaugeBackNorm.png?240316204900",
+      "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/RadialGauge.cs"
     },
     {
       "chapter": "Plot Types",
@@ -1428,7 +1846,7 @@
       "anchorUrl": "/cookbook/5.0/Scatter#ScatterQuickstart",
       "categoryUrl": "/cookbook/5.0/Scatter",
       "recipeUrl": "/cookbook/5.0/Scatter/ScatterQuickstart",
-      "imageUrl": "/cookbook/5.0/images/ScatterQuickstart.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/ScatterQuickstart.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Scatter.cs"
     },
     {
@@ -1442,7 +1860,7 @@
       "anchorUrl": "/cookbook/5.0/Scatter#ScatterCoordinates",
       "categoryUrl": "/cookbook/5.0/Scatter",
       "recipeUrl": "/cookbook/5.0/Scatter/ScatterCoordinates",
-      "imageUrl": "/cookbook/5.0/images/ScatterCoordinates.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/ScatterCoordinates.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Scatter.cs"
     },
     {
@@ -1456,7 +1874,7 @@
       "anchorUrl": "/cookbook/5.0/Scatter#ScatterDataType",
       "categoryUrl": "/cookbook/5.0/Scatter",
       "recipeUrl": "/cookbook/5.0/Scatter/ScatterDataType",
-      "imageUrl": "/cookbook/5.0/images/ScatterDataType.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/ScatterDataType.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Scatter.cs"
     },
     {
@@ -1470,7 +1888,35 @@
       "anchorUrl": "/cookbook/5.0/Scatter#ScatterList",
       "categoryUrl": "/cookbook/5.0/Scatter",
       "recipeUrl": "/cookbook/5.0/Scatter/ScatterList",
-      "imageUrl": "/cookbook/5.0/images/ScatterList.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/ScatterList.png?240316204900",
+      "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Scatter.cs"
+    },
+    {
+      "chapter": "Plot Types",
+      "category": "Scatter Plot",
+      "name": "Scatter Plot with Lines Only",
+      "description": "The \u0060ScatterLine()\u0060 method can be used to create a scatter plot with a line only (marker size is set to 0).",
+      "source": "ScottPlot.Plot myPlot = new();\n\ndouble[] xs = Generate.Consecutive(51);\ndouble[] sin = Generate.Sin(51);\ndouble[] cos = Generate.Cos(51);\n\nmyPlot.Add.ScatterLine(xs, sin);\nmyPlot.Add.ScatterLine(xs, cos);\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "categoryClassName": "Scatter",
+      "recipeClassName": "ScatterLine",
+      "anchorUrl": "/cookbook/5.0/Scatter#ScatterLine",
+      "categoryUrl": "/cookbook/5.0/Scatter",
+      "recipeUrl": "/cookbook/5.0/Scatter/ScatterLine",
+      "imageUrl": "/cookbook/5.0/images/ScatterLine.png?240316204900",
+      "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Scatter.cs"
+    },
+    {
+      "chapter": "Plot Types",
+      "category": "Scatter Plot",
+      "name": "Scatter Plot with Points Only",
+      "description": "The \u0060ScatterPoints()\u0060 method can be used to create a scatter plot with markers only (line width is set to 0).",
+      "source": "ScottPlot.Plot myPlot = new();\n\ndouble[] xs = Generate.Consecutive(51);\ndouble[] sin = Generate.Sin(51);\ndouble[] cos = Generate.Cos(51);\n\nmyPlot.Add.ScatterPoints(xs, sin);\nmyPlot.Add.ScatterPoints(xs, cos);\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "categoryClassName": "Scatter",
+      "recipeClassName": "ScatterPoints",
+      "anchorUrl": "/cookbook/5.0/Scatter#ScatterPoints",
+      "categoryUrl": "/cookbook/5.0/Scatter",
+      "recipeUrl": "/cookbook/5.0/Scatter/ScatterPoints",
+      "imageUrl": "/cookbook/5.0/images/ScatterPoints.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Scatter.cs"
     },
     {
@@ -1484,7 +1930,7 @@
       "anchorUrl": "/cookbook/5.0/Scatter#ScatterStyling",
       "categoryUrl": "/cookbook/5.0/Scatter",
       "recipeUrl": "/cookbook/5.0/Scatter/ScatterStyling",
-      "imageUrl": "/cookbook/5.0/images/ScatterStyling.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/ScatterStyling.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Scatter.cs"
     },
     {
@@ -1498,7 +1944,7 @@
       "anchorUrl": "/cookbook/5.0/Scatter#ScatterLinePatterns",
       "categoryUrl": "/cookbook/5.0/Scatter",
       "recipeUrl": "/cookbook/5.0/Scatter/ScatterLinePatterns",
-      "imageUrl": "/cookbook/5.0/images/ScatterLinePatterns.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/ScatterLinePatterns.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Scatter.cs"
     },
     {
@@ -1512,7 +1958,7 @@
       "anchorUrl": "/cookbook/5.0/Scatter#ScatterGeneric",
       "categoryUrl": "/cookbook/5.0/Scatter",
       "recipeUrl": "/cookbook/5.0/Scatter/ScatterGeneric",
-      "imageUrl": "/cookbook/5.0/images/ScatterGeneric.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/ScatterGeneric.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Scatter.cs"
     },
     {
@@ -1526,7 +1972,7 @@
       "anchorUrl": "/cookbook/5.0/Scatter#ScatterDateTime",
       "categoryUrl": "/cookbook/5.0/Scatter",
       "recipeUrl": "/cookbook/5.0/Scatter/ScatterDateTime",
-      "imageUrl": "/cookbook/5.0/images/ScatterDateTime.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/ScatterDateTime.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Scatter.cs"
     },
     {
@@ -1540,7 +1986,7 @@
       "anchorUrl": "/cookbook/5.0/Scatter#ScatterStep",
       "categoryUrl": "/cookbook/5.0/Scatter",
       "recipeUrl": "/cookbook/5.0/Scatter/ScatterStep",
-      "imageUrl": "/cookbook/5.0/images/ScatterStep.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/ScatterStep.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Scatter.cs"
     },
     {
@@ -1554,7 +2000,7 @@
       "anchorUrl": "/cookbook/5.0/Shapes#RectangleQuickstart",
       "categoryUrl": "/cookbook/5.0/Shapes",
       "recipeUrl": "/cookbook/5.0/Shapes/RectangleQuickstart",
-      "imageUrl": "/cookbook/5.0/images/RectangleQuickstart.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/RectangleQuickstart.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Shapes.cs"
     },
     {
@@ -1562,13 +2008,13 @@
       "category": "Shapes",
       "name": "Circle",
       "description": "A circle can be placed on the plot and styled as desired.",
-      "source": "ScottPlot.Plot myPlot = new();\n\n// TODO: need a circle plot type\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "source": "ScottPlot.Plot myPlot = new();\n\nvar c1 = myPlot.Add.Circle(1, 0, .5);\nvar c2 = myPlot.Add.Circle(2, 0, .5);\nvar c3 = myPlot.Add.Circle(3, 0, .5);\n\nc1.FillStyle.Color = Colors.Blue;\nc2.FillStyle.Color = Colors.Blue.Darken(.75);\nc3.FillStyle.Color = Colors.Blue.Lighten(.75);\n\nc1.LineWidth = 0;\nc2.LineWidth = 0;\nc3.LineWidth = 0;\n\n// force circles to remain circles\nScottPlot.AxisRules.SquareZoomOut squareRule = new(myPlot.Axes.Bottom, myPlot.Axes.Left);\nmyPlot.Axes.Rules.Add(squareRule);\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
       "categoryClassName": "Shapes",
       "recipeClassName": "CircleQuickstart",
       "anchorUrl": "/cookbook/5.0/Shapes#CircleQuickstart",
       "categoryUrl": "/cookbook/5.0/Shapes",
       "recipeUrl": "/cookbook/5.0/Shapes/CircleQuickstart",
-      "imageUrl": "/cookbook/5.0/images/CircleQuickstart.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/CircleQuickstart.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Shapes.cs"
     },
     {
@@ -1576,13 +2022,13 @@
       "category": "Shapes",
       "name": "Ellipse",
       "description": "An ellipse can be placed on the plot and styled as desired.",
-      "source": "ScottPlot.Plot myPlot = new();\n\n// TODO: need ellipse plot type\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "source": "ScottPlot.Plot myPlot = new();\n\nfor (int i = 0; i \u003C 10; i\u002B\u002B)\n{\n    var el = myPlot.Add.Ellipse(0, 0, 1, 10, rotation: i * 10);\n    double fraction = i / 10.0;\n    el.LineColor = Colors.Blue.WithAlpha(fraction);\n}\n\n// force circles to remain circles\nScottPlot.AxisRules.SquareZoomOut squareRule = new(myPlot.Axes.Bottom, myPlot.Axes.Left);\nmyPlot.Axes.Rules.Add(squareRule);\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
       "categoryClassName": "Shapes",
       "recipeClassName": "EllipseQuickstart",
       "anchorUrl": "/cookbook/5.0/Shapes#EllipseQuickstart",
       "categoryUrl": "/cookbook/5.0/Shapes",
       "recipeUrl": "/cookbook/5.0/Shapes/EllipseQuickstart",
-      "imageUrl": "/cookbook/5.0/images/EllipseQuickstart.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/EllipseQuickstart.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Shapes.cs"
     },
     {
@@ -1596,7 +2042,7 @@
       "anchorUrl": "/cookbook/5.0/Shapes#PolygonQuickstart",
       "categoryUrl": "/cookbook/5.0/Shapes",
       "recipeUrl": "/cookbook/5.0/Shapes/PolygonQuickstart",
-      "imageUrl": "/cookbook/5.0/images/PolygonQuickstart.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/PolygonQuickstart.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Shapes.cs"
     },
     {
@@ -1604,13 +2050,13 @@
       "category": "Shapes",
       "name": "Polygon Plot Styling",
       "description": "Polygon plots can be fully customized.",
-      "source": "ScottPlot.Plot myPlot = new();\n\nCoordinates[] points =\n{\n    new (0, 0.25),\n    new (0.3, 0.75),\n    new (1, 1),\n    new (0.7, 0.5),\n    new (1, 0)\n};\n\nvar poly = myPlot.Add.Polygon(points);\n\npoly.FillStyle = new FillStyle\n{\n    Color = Colors.Green,\n    HatchColor = Colors.Blue,\n    Hatch = new Gradient()\n    {\n        GradiantType = GradiantType.Linear,\n        AlignmentStart = Alignment.UpperRight,\n        AlignmentEnd = Alignment.LowerLeft,\n    }\n};\n\npoly.LineStyle = new LineStyle\n{\n    AntiAlias = true,\n    Color = Colors.Black,\n    Pattern = LinePattern.Dashed,\n    Width = 2\n};\n\npoly.MarkerStyle = new MarkerStyle(MarkerShape.OpenCircle, 8);\npoly.MarkerStyle.Fill.Color = Colors.Gold;\npoly.MarkerStyle.Outline.Color = Colors.Brown;\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "source": "ScottPlot.Plot myPlot = new();\n\nCoordinates[] points =\n{\n    new (0, 0.25),\n    new (0.3, 0.75),\n    new (1, 1),\n    new (0.7, 0.5),\n    new (1, 0)\n};\n\nvar poly = myPlot.Add.Polygon(points);\n\npoly.FillStyle = new FillStyle\n{\n    Color = Colors.Green,\n    HatchColor = Colors.Blue,\n    Hatch = new Gradient()\n    {\n        GradientType = GradientType.Linear,\n        AlignmentStart = Alignment.UpperRight,\n        AlignmentEnd = Alignment.LowerLeft,\n    }\n};\n\npoly.LineStyle = new LineStyle\n{\n    AntiAlias = true,\n    Color = Colors.Black,\n    Pattern = LinePattern.Dashed,\n    Width = 2\n};\n\npoly.MarkerStyle = new MarkerStyle(MarkerShape.OpenCircle, 8);\npoly.MarkerStyle.Fill.Color = Colors.Gold;\npoly.MarkerStyle.Outline.Color = Colors.Brown;\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
       "categoryClassName": "Shapes",
       "recipeClassName": "PolygonStyling",
       "anchorUrl": "/cookbook/5.0/Shapes#PolygonStyling",
       "categoryUrl": "/cookbook/5.0/Shapes",
       "recipeUrl": "/cookbook/5.0/Shapes/PolygonStyling",
-      "imageUrl": "/cookbook/5.0/images/PolygonStyling.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/PolygonStyling.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Shapes.cs"
     },
     {
@@ -1624,7 +2070,7 @@
       "anchorUrl": "/cookbook/5.0/Signal#SignalQuickstart",
       "categoryUrl": "/cookbook/5.0/Signal",
       "recipeUrl": "/cookbook/5.0/Signal/SignalQuickstart",
-      "imageUrl": "/cookbook/5.0/images/SignalQuickstart.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/SignalQuickstart.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Signal.cs"
     },
     {
@@ -1638,7 +2084,7 @@
       "anchorUrl": "/cookbook/5.0/Signal#SignalStyling",
       "categoryUrl": "/cookbook/5.0/Signal",
       "recipeUrl": "/cookbook/5.0/Signal/SignalStyling",
-      "imageUrl": "/cookbook/5.0/images/SignalStyling.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/SignalStyling.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Signal.cs"
     },
     {
@@ -1652,7 +2098,7 @@
       "anchorUrl": "/cookbook/5.0/Signal#SignalOffset",
       "categoryUrl": "/cookbook/5.0/Signal",
       "recipeUrl": "/cookbook/5.0/Signal/SignalOffset",
-      "imageUrl": "/cookbook/5.0/images/SignalOffset.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/SignalOffset.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Signal.cs"
     },
     {
@@ -1666,7 +2112,7 @@
       "anchorUrl": "/cookbook/5.0/Signal#SignalMarkerSize",
       "categoryUrl": "/cookbook/5.0/Signal",
       "recipeUrl": "/cookbook/5.0/Signal/SignalMarkerSize",
-      "imageUrl": "/cookbook/5.0/images/SignalMarkerSize.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/SignalMarkerSize.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Signal.cs"
     },
     {
@@ -1680,7 +2126,7 @@
       "anchorUrl": "/cookbook/5.0/Signal#SignalRenderIndexes",
       "categoryUrl": "/cookbook/5.0/Signal",
       "recipeUrl": "/cookbook/5.0/Signal/SignalRenderIndexes",
-      "imageUrl": "/cookbook/5.0/images/SignalRenderIndexes.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/SignalRenderIndexes.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Signal.cs"
     },
     {
@@ -1694,7 +2140,7 @@
       "anchorUrl": "/cookbook/5.0/Signal#SignalGeneric",
       "categoryUrl": "/cookbook/5.0/Signal",
       "recipeUrl": "/cookbook/5.0/Signal/SignalGeneric",
-      "imageUrl": "/cookbook/5.0/images/SignalGeneric.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/SignalGeneric.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Signal.cs"
     },
     {
@@ -1708,7 +2154,7 @@
       "anchorUrl": "/cookbook/5.0/Signal#SignalDateTime",
       "categoryUrl": "/cookbook/5.0/Signal",
       "recipeUrl": "/cookbook/5.0/Signal/SignalDateTime",
-      "imageUrl": "/cookbook/5.0/images/SignalDateTime.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/SignalDateTime.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Signal.cs"
     },
     {
@@ -1722,7 +2168,7 @@
       "anchorUrl": "/cookbook/5.0/SignalConst#SignalConstQuickstart",
       "categoryUrl": "/cookbook/5.0/SignalConst",
       "recipeUrl": "/cookbook/5.0/SignalConst/SignalConstQuickstart",
-      "imageUrl": "/cookbook/5.0/images/SignalConstQuickstart.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/SignalConstQuickstart.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SignalConst.cs"
     },
     {
@@ -1736,7 +2182,7 @@
       "anchorUrl": "/cookbook/5.0/SignalXY#SignalXYQuickstart",
       "categoryUrl": "/cookbook/5.0/SignalXY",
       "recipeUrl": "/cookbook/5.0/SignalXY/SignalXYQuickstart",
-      "imageUrl": "/cookbook/5.0/images/SignalXYQuickstart.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/SignalXYQuickstart.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SignalXY.cs"
     },
     {
@@ -1750,7 +2196,7 @@
       "anchorUrl": "/cookbook/5.0/SignalXY#SignalXYGeneric",
       "categoryUrl": "/cookbook/5.0/SignalXY",
       "recipeUrl": "/cookbook/5.0/SignalXY/SignalXYGeneric",
-      "imageUrl": "/cookbook/5.0/images/SignalXYGeneric.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/SignalXYGeneric.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SignalXY.cs"
     },
     {
@@ -1764,7 +2210,7 @@
       "anchorUrl": "/cookbook/5.0/SignalXY#SignalXYRenderIndexes",
       "categoryUrl": "/cookbook/5.0/SignalXY",
       "recipeUrl": "/cookbook/5.0/SignalXY/SignalXYRenderIndexes",
-      "imageUrl": "/cookbook/5.0/images/SignalXYRenderIndexes.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/SignalXYRenderIndexes.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SignalXY.cs"
     },
     {
@@ -1778,7 +2224,7 @@
       "anchorUrl": "/cookbook/5.0/SignalXY#SignalXYOffset",
       "categoryUrl": "/cookbook/5.0/SignalXY",
       "recipeUrl": "/cookbook/5.0/SignalXY/SignalXYOffset",
-      "imageUrl": "/cookbook/5.0/images/SignalXYOffset.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/SignalXYOffset.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SignalXY.cs"
     },
     {
@@ -1792,7 +2238,35 @@
       "anchorUrl": "/cookbook/5.0/SignalXY#VerticalSignalXY",
       "categoryUrl": "/cookbook/5.0/SignalXY",
       "recipeUrl": "/cookbook/5.0/SignalXY/VerticalSignalXY",
-      "imageUrl": "/cookbook/5.0/images/VerticalSignalXY.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/VerticalSignalXY.png?240316204900",
+      "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SignalXY.cs"
+    },
+    {
+      "chapter": "Plot Types",
+      "category": "SignalXY Plot",
+      "name": "Vertical SignalXY with Inverted X Axis",
+      "description": "Demonstrates how to display a rotated SignalXY plot (so it goes from bottom to top) which is also displayed on an inverted horizontal axis (where positive values are on the left).",
+      "source": "ScottPlot.Plot myPlot = new();\n\n// add a signal plot\ndouble[] xs = Generate.Consecutive(5_000);\ndouble[] ys = Generate.Sin(count: xs.Length, oscillations: 4);\n\n// rotate it so it is vertical\nvar signal = myPlot.Add.SignalXY(xs, ys);\nsignal.Data.Rotated = true;\n\n// invert the horizontal axis\nmyPlot.Axes.SetLimitsX(1, -1);\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "categoryClassName": "SignalXY",
+      "recipeClassName": "SignalXYVerticalInvertedX",
+      "anchorUrl": "/cookbook/5.0/SignalXY#SignalXYVerticalInvertedX",
+      "categoryUrl": "/cookbook/5.0/SignalXY",
+      "recipeUrl": "/cookbook/5.0/SignalXY/SignalXYVerticalInvertedX",
+      "imageUrl": "/cookbook/5.0/images/SignalXYVerticalInvertedX.png?240316204900",
+      "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SignalXY.cs"
+    },
+    {
+      "chapter": "Plot Types",
+      "category": "SignalXY Plot",
+      "name": "Vertical SignalXY with Inverted Y Axis",
+      "description": "Demonstrates how to display a rotated SignalXY plot on an inverted vertical axis so data goes from top to bottom.",
+      "source": "ScottPlot.Plot myPlot = new();\n\n// add a signal plot\ndouble[] xs = Generate.Consecutive(5_000);\ndouble[] ys = Generate.Sin(count: xs.Length, oscillations: 4);\n\n// rotate it so it is vertical\nvar signal = myPlot.Add.SignalXY(xs, ys);\nsignal.Data.Rotated = true;\n\n// invert the vertical axis\nmyPlot.Axes.SetLimitsY(5000, 0);\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "categoryClassName": "SignalXY",
+      "recipeClassName": "SignalXYVerticalInvertedY",
+      "anchorUrl": "/cookbook/5.0/SignalXY#SignalXYVerticalInvertedY",
+      "categoryUrl": "/cookbook/5.0/SignalXY",
+      "recipeUrl": "/cookbook/5.0/SignalXY/SignalXYVerticalInvertedY",
+      "imageUrl": "/cookbook/5.0/images/SignalXYVerticalInvertedY.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SignalXY.cs"
     },
     {
@@ -1806,7 +2280,7 @@
       "anchorUrl": "/cookbook/5.0/Text#TextQuickstart",
       "categoryUrl": "/cookbook/5.0/Text",
       "recipeUrl": "/cookbook/5.0/Text/TextQuickstart",
-      "imageUrl": "/cookbook/5.0/images/TextQuickstart.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/TextQuickstart.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Text.cs"
     },
     {
@@ -1820,7 +2294,21 @@
       "anchorUrl": "/cookbook/5.0/Text#Formatting",
       "categoryUrl": "/cookbook/5.0/Text",
       "recipeUrl": "/cookbook/5.0/Text/Formatting",
-      "imageUrl": "/cookbook/5.0/images/Formatting.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/Formatting.png?240316204900",
+      "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Text.cs"
+    },
+    {
+      "chapter": "Plot Types",
+      "category": "Text",
+      "name": "Line Height",
+      "description": "Multiline labels have a default line height estimated from the typeface and font size, however line height may be manually defined by the user.",
+      "source": "ScottPlot.Plot myPlot = new();\n\nvar label1 = myPlot.Add.Text($\u0022line\\nheight\u0022, 0, 0);\nlabel1.LineSpacing = 0;\nlabel1.FontColor = Colors.Red;\n\nvar label2 = myPlot.Add.Text($\u0022can\\nbe\u0022, 1, 0);\nlabel2.LineSpacing = 10;\nlabel2.FontColor = Colors.Orange;\n\nvar label3 = myPlot.Add.Text($\u0022automatic\\nor\u0022, 2, 0);\nlabel3.LineSpacing = null;\nlabel3.FontColor = Colors.Green;\n\nvar label4 = myPlot.Add.Text($\u0022set\\nmanually\u0022, 3, 0);\nlabel4.LineSpacing = 15;\nlabel4.FontColor = Colors.Blue;\n\nmyPlot.Axes.SetLimitsX(-.5, 4);\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "categoryClassName": "Text",
+      "recipeClassName": "LabelLineHeight",
+      "anchorUrl": "/cookbook/5.0/Text#LabelLineHeight",
+      "categoryUrl": "/cookbook/5.0/Text",
+      "recipeUrl": "/cookbook/5.0/Text/LabelLineHeight",
+      "imageUrl": "/cookbook/5.0/images/LabelLineHeight.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Text.cs"
     },
     {
@@ -1834,7 +2322,7 @@
       "anchorUrl": "/cookbook/5.0/Regression#Linear",
       "categoryUrl": "/cookbook/5.0/Regression",
       "recipeUrl": "/cookbook/5.0/Regression/Linear",
-      "imageUrl": "/cookbook/5.0/images/Linear.png?240128210832",
+      "imageUrl": "/cookbook/5.0/images/Linear.png?240316204900",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Statistics/Regression.cs"
     }
   ]

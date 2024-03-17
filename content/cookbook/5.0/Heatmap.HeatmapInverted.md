@@ -4,9 +4,9 @@ Description: Heatmaps can be inverted by reversing the order of colors in the co
 URL: /cookbook/5.0/Heatmap/HeatmapInverted/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Heatmap", "Inverted Heatmap"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Heatmap", "/cookbook/5.0/Heatmap/HeatmapInverted"]
-Date: 2024-01-29
-Version: ScottPlot 5.0.21
-Version: ScottPlot 5.0.21
+Date: 2024-03-17
+Version: ScottPlot 5.0.22
+Version: ScottPlot 5.0.22
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Heatmaps can be inverted by reversing the order of colors in the colormap
 
-[![](/cookbook/5.0/images/HeatmapInverted.png?240128210832)](/cookbook/5.0/images/HeatmapInverted.png?240128210832)
+[![](/cookbook/5.0/images/HeatmapInverted.png?240316204900)](/cookbook/5.0/images/HeatmapInverted.png?240316204900)
 
 {{< code-sp5 >}}
 

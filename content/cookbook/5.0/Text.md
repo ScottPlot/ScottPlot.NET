@@ -1,12 +1,12 @@
 ---
 Title: Text - ScottPlot 5.0 Cookbook
-Description: Text lables placed on the plot in coordinate space
+Description: Text labels can be placed on the plot in coordinate space
 URL: /cookbook/5.0/Text/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Text"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Text"]
-Date: 2024-01-29
-Version: ScottPlot 5.0.21
-Version: ScottPlot 5.0.21
+Date: 2024-03-17
+Version: ScottPlot 5.0.22
+Version: ScottPlot 5.0.22
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,7 +18,7 @@ ShowEditLink: false
 
 Text can be placed anywhere in coordinate space.
 
-[![](/cookbook/5.0/images/TextQuickstart.png?240128210832)](/cookbook/5.0/images/TextQuickstart.png?240128210832)
+[![](/cookbook/5.0/images/TextQuickstart.png?240316204900)](/cookbook/5.0/images/TextQuickstart.png?240316204900)
 
 {{< code-sp5 >}}
 
@@ -42,7 +42,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Text formatting can be extensively customized.
 
-[![](/cookbook/5.0/images/Formatting.png?240128210832)](/cookbook/5.0/images/Formatting.png?240128210832)
+[![](/cookbook/5.0/images/Formatting.png?240316204900)](/cookbook/5.0/images/Formatting.png?240316204900)
 
 {{< code-sp5 >}}
 
@@ -59,6 +59,44 @@ text.Label.BorderColor = Colors.Magenta;
 text.Label.BorderWidth = 3;
 text.Label.Padding = 10;
 text.Label.Alignment = Alignment.MiddleCenter;
+
+myPlot.SavePng("demo.png", 400, 300);
+
+```
+
+{{< /code-sp5 >}}
+
+<hr class='my-5 invisible'>
+
+
+<h2><a href='/cookbook/5.0/Text/LabelLineHeight'>Line Height</a></h2>
+
+Multiline labels have a default line height estimated from the typeface and font size, however line height may be manually defined by the user.
+
+[![](/cookbook/5.0/images/LabelLineHeight.png?240316204900)](/cookbook/5.0/images/LabelLineHeight.png?240316204900)
+
+{{< code-sp5 >}}
+
+```cs
+ScottPlot.Plot myPlot = new();
+
+var label1 = myPlot.Add.Text($"line\nheight", 0, 0);
+label1.LineSpacing = 0;
+label1.FontColor = Colors.Red;
+
+var label2 = myPlot.Add.Text($"can\nbe", 1, 0);
+label2.LineSpacing = 10;
+label2.FontColor = Colors.Orange;
+
+var label3 = myPlot.Add.Text($"automatic\nor", 2, 0);
+label3.LineSpacing = null;
+label3.FontColor = Colors.Green;
+
+var label4 = myPlot.Add.Text($"set\nmanually", 3, 0);
+label4.LineSpacing = 15;
+label4.FontColor = Colors.Blue;
+
+myPlot.Axes.SetLimitsX(-.5, 4);
 
 myPlot.SavePng("demo.png", 400, 300);
 

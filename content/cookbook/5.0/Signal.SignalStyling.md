@@ -4,9 +4,9 @@ Description: Signal plots can be styled in a variety of ways.
 URL: /cookbook/5.0/Signal/SignalStyling/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Signal Plot", "Signal Plot Styling"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Signal", "/cookbook/5.0/Signal/SignalStyling"]
-Date: 2024-01-29
-Version: ScottPlot 5.0.21
-Version: ScottPlot 5.0.21
+Date: 2024-03-17
+Version: ScottPlot 5.0.22
+Version: ScottPlot 5.0.22
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Signal plots can be styled in a variety of ways.
 
-[![](/cookbook/5.0/images/SignalStyling.png?240128210832)](/cookbook/5.0/images/SignalStyling.png?240128210832)
+[![](/cookbook/5.0/images/SignalStyling.png?240316204900)](/cookbook/5.0/images/SignalStyling.png?240316204900)
 
 {{< code-sp5 >}}
 

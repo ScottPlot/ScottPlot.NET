@@ -4,9 +4,9 @@ Description: Scatter plots display points at X/Y locations in coordinate space.
 URL: /cookbook/5.0/Scatter/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Scatter Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Scatter"]
-Date: 2024-01-29
-Version: ScottPlot 5.0.21
-Version: ScottPlot 5.0.21
+Date: 2024-03-17
+Version: ScottPlot 5.0.22
+Version: ScottPlot 5.0.22
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,7 +18,7 @@ ShowEditLink: false
 
 Scatter plots can be created from two arrays containing X and Y values.
 
-[![](/cookbook/5.0/images/ScatterQuickstart.png?240128210832)](/cookbook/5.0/images/ScatterQuickstart.png?240128210832)
+[![](/cookbook/5.0/images/ScatterQuickstart.png?240316204900)](/cookbook/5.0/images/ScatterQuickstart.png?240316204900)
 
 {{< code-sp5 >}}
 
@@ -43,7 +43,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Scatter plots can be created from a collection of Coordinates.
 
-[![](/cookbook/5.0/images/ScatterCoordinates.png?240128210832)](/cookbook/5.0/images/ScatterCoordinates.png?240128210832)
+[![](/cookbook/5.0/images/ScatterCoordinates.png?240316204900)](/cookbook/5.0/images/ScatterCoordinates.png?240316204900)
 
 {{< code-sp5 >}}
 
@@ -74,7 +74,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Scatter plots can be created from any numeric data type, not just double.
 
-[![](/cookbook/5.0/images/ScatterDataType.png?240128210832)](/cookbook/5.0/images/ScatterDataType.png?240128210832)
+[![](/cookbook/5.0/images/ScatterDataType.png?240316204900)](/cookbook/5.0/images/ScatterDataType.png?240316204900)
 
 {{< code-sp5 >}}
 
@@ -99,7 +99,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Scatter plots can be created from Lists, but be very cafeful not to add or remove items while a render is occurring or you may throw an index exception. See documentation about the Render Lock system for details.
 
-[![](/cookbook/5.0/images/ScatterList.png?240128210832)](/cookbook/5.0/images/ScatterList.png?240128210832)
+[![](/cookbook/5.0/images/ScatterList.png?240316204900)](/cookbook/5.0/images/ScatterList.png?240316204900)
 
 {{< code-sp5 >}}
 
@@ -120,11 +120,65 @@ myPlot.SavePng("demo.png", 400, 300);
 <hr class='my-5 invisible'>
 
 
+<h2><a href='/cookbook/5.0/Scatter/ScatterLine'>Scatter Plot with Lines Only</a></h2>
+
+The `ScatterLine()` method can be used to create a scatter plot with a line only (marker size is set to 0).
+
+[![](/cookbook/5.0/images/ScatterLine.png?240316204900)](/cookbook/5.0/images/ScatterLine.png?240316204900)
+
+{{< code-sp5 >}}
+
+```cs
+ScottPlot.Plot myPlot = new();
+
+double[] xs = Generate.Consecutive(51);
+double[] sin = Generate.Sin(51);
+double[] cos = Generate.Cos(51);
+
+myPlot.Add.ScatterLine(xs, sin);
+myPlot.Add.ScatterLine(xs, cos);
+
+myPlot.SavePng("demo.png", 400, 300);
+
+```
+
+{{< /code-sp5 >}}
+
+<hr class='my-5 invisible'>
+
+
+<h2><a href='/cookbook/5.0/Scatter/ScatterPoints'>Scatter Plot with Points Only</a></h2>
+
+The `ScatterPoints()` method can be used to create a scatter plot with markers only (line width is set to 0).
+
+[![](/cookbook/5.0/images/ScatterPoints.png?240316204900)](/cookbook/5.0/images/ScatterPoints.png?240316204900)
+
+{{< code-sp5 >}}
+
+```cs
+ScottPlot.Plot myPlot = new();
+
+double[] xs = Generate.Consecutive(51);
+double[] sin = Generate.Sin(51);
+double[] cos = Generate.Cos(51);
+
+myPlot.Add.ScatterPoints(xs, sin);
+myPlot.Add.ScatterPoints(xs, cos);
+
+myPlot.SavePng("demo.png", 400, 300);
+
+```
+
+{{< /code-sp5 >}}
+
+<hr class='my-5 invisible'>
+
+
 <h2><a href='/cookbook/5.0/Scatter/ScatterStyling'>Scatter Plot Styling</a></h2>
 
 Scatter plots can be extensively styled by interacting with the object that is returned after a scatter plot is added. Assign text to a scatter plot's Label property to allow it to appear in the legend.
 
-[![](/cookbook/5.0/images/ScatterStyling.png?240128210832)](/cookbook/5.0/images/ScatterStyling.png?240128210832)
+[![](/cookbook/5.0/images/ScatterStyling.png?240316204900)](/cookbook/5.0/images/ScatterStyling.png?240316204900)
 
 {{< code-sp5 >}}
 
@@ -162,7 +216,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Several line patterns are available
 
-[![](/cookbook/5.0/images/ScatterLinePatterns.png?240128210832)](/cookbook/5.0/images/ScatterLinePatterns.png?240128210832)
+[![](/cookbook/5.0/images/ScatterLinePatterns.png?240316204900)](/cookbook/5.0/images/ScatterLinePatterns.png?240316204900)
 
 {{< code-sp5 >}}
 
@@ -206,7 +260,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Scatter plots support generic data types, although double is typically the most performant.
 
-[![](/cookbook/5.0/images/ScatterGeneric.png?240128210832)](/cookbook/5.0/images/ScatterGeneric.png?240128210832)
+[![](/cookbook/5.0/images/ScatterGeneric.png?240316204900)](/cookbook/5.0/images/ScatterGeneric.png?240316204900)
 
 {{< code-sp5 >}}
 
@@ -231,7 +285,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 A scatter plot may use DateTime units but be sure to setup the respective axis to display using DateTime format.
 
-[![](/cookbook/5.0/images/ScatterDateTime.png?240128210832)](/cookbook/5.0/images/ScatterDateTime.png?240128210832)
+[![](/cookbook/5.0/images/ScatterDateTime.png?240316204900)](/cookbook/5.0/images/ScatterDateTime.png?240316204900)
 
 {{< code-sp5 >}}
 
@@ -257,7 +311,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Scatter plots can be created using a step plot display where points are connected with right angles instead of diagnal lines. The direction of the steps can be customized.
 
-[![](/cookbook/5.0/images/ScatterStep.png?240128210832)](/cookbook/5.0/images/ScatterStep.png?240128210832)
+[![](/cookbook/5.0/images/ScatterStep.png?240316204900)](/cookbook/5.0/images/ScatterStep.png?240316204900)
 
 {{< code-sp5 >}}
 

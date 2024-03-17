@@ -4,9 +4,9 @@ Description: DateTime axes are achieved using Microsoft's DateTime.ToOADate() an
 URL: /cookbook/5.0/DateTimeAxes/DateTimeAxisMixed/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "DateTime Axes", "DateTime Axis Values"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/DateTimeAxes", "/cookbook/5.0/DateTimeAxes/DateTimeAxisMixed"]
-Date: 2024-01-29
-Version: ScottPlot 5.0.21
-Version: ScottPlot 5.0.21
+Date: 2024-03-17
+Version: ScottPlot 5.0.22
+Version: ScottPlot 5.0.22
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 DateTime axes are achieved using Microsoft's DateTime.ToOADate() and DateTime.FromOADate() methods to convert between dates and numeric values. Advanced users who wish to display data on DateTime axes may prefer to work with collections of doubles rather than collections of DateTimes.
 
-[![](/cookbook/5.0/images/DateTimeAxisMixed.png?240128210832)](/cookbook/5.0/images/DateTimeAxisMixed.png?240128210832)
+[![](/cookbook/5.0/images/DateTimeAxisMixed.png?240316204900)](/cookbook/5.0/images/DateTimeAxisMixed.png?240316204900)
 
 {{< code-sp5 >}}
 
@@ -24,7 +24,7 @@ DateTime axes are achieved using Microsoft's DateTime.ToOADate() and DateTime.Fr
 ScottPlot.Plot myPlot = new();
 
 // create an array of DateTimes one hour apart
-int numberOfHours = 72;
+int numberOfHours = 24;
 DateTime[] dateTimes = new DateTime[numberOfHours];
 DateTime startDateTime = new(2024, 1, 1);
 TimeSpan deltaTimeSpan = TimeSpan.FromHours(1);

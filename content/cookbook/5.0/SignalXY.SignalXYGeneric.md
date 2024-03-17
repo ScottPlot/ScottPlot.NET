@@ -4,9 +4,9 @@ Description: SignalXY plots support generic data types, although double is typic
 URL: /cookbook/5.0/SignalXY/SignalXYGeneric/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "SignalXY Plot", "SignalXY Generic"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/SignalXY", "/cookbook/5.0/SignalXY/SignalXYGeneric"]
-Date: 2024-01-29
-Version: ScottPlot 5.0.21
-Version: ScottPlot 5.0.21
+Date: 2024-03-17
+Version: ScottPlot 5.0.22
+Version: ScottPlot 5.0.22
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 SignalXY plots support generic data types, although double is typically the most performant.
 
-[![](/cookbook/5.0/images/SignalXYGeneric.png?240128210832)](/cookbook/5.0/images/SignalXYGeneric.png?240128210832)
+[![](/cookbook/5.0/images/SignalXYGeneric.png?240316204900)](/cookbook/5.0/images/SignalXYGeneric.png?240316204900)
 
 {{< code-sp5 >}}
 

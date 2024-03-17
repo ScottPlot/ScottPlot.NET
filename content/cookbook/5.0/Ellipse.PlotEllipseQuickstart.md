@@ -4,9 +4,9 @@ Description: Ellipses can be added to plots
 URL: /cookbook/5.0/Ellipse/PlotEllipseQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Ellipse", "Ellipse Quickstart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Ellipse", "/cookbook/5.0/Ellipse/PlotEllipseQuickstart"]
-Date: 2024-01-29
-Version: ScottPlot 5.0.21
-Version: ScottPlot 5.0.21
+Date: 2024-03-17
+Version: ScottPlot 5.0.22
+Version: ScottPlot 5.0.22
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Ellipses can be added to plots
 
-[![](/cookbook/5.0/images/PlotEllipseQuickstart.png?240128210832)](/cookbook/5.0/images/PlotEllipseQuickstart.png?240128210832)
+[![](/cookbook/5.0/images/PlotEllipseQuickstart.png?240316204900)](/cookbook/5.0/images/PlotEllipseQuickstart.png?240316204900)
 
 {{< code-sp5 >}}
 

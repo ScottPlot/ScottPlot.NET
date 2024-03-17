@@ -4,9 +4,9 @@ Description: Slice labels can be displayed centered with the slice at a customiz
 URL: /cookbook/5.0/Pie/PieSliceLabels/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Pie", "Pie Slice Labels"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Pie", "/cookbook/5.0/Pie/PieSliceLabels"]
-Date: 2024-01-29
-Version: ScottPlot 5.0.21
-Version: ScottPlot 5.0.21
+Date: 2024-03-17
+Version: ScottPlot 5.0.22
+Version: ScottPlot 5.0.22
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Slice labels can be displayed centered with the slice at a customizable distance from the center of the pie.
 
-[![](/cookbook/5.0/images/PieSliceLabels.png?240128210832)](/cookbook/5.0/images/PieSliceLabels.png?240128210832)
+[![](/cookbook/5.0/images/PieSliceLabels.png?240316204900)](/cookbook/5.0/images/PieSliceLabels.png?240316204900)
 
 {{< code-sp5 >}}
 

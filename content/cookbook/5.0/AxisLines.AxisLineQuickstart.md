@@ -4,9 +4,9 @@ Description: Axis lines are vertical or horizontal lines that span an entire axi
 URL: /cookbook/5.0/AxisLines/AxisLineQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Axis Lines", "Axis Lines"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AxisLines", "/cookbook/5.0/AxisLines/AxisLineQuickstart"]
-Date: 2024-01-29
-Version: ScottPlot 5.0.21
-Version: ScottPlot 5.0.21
+Date: 2024-03-17
+Version: ScottPlot 5.0.22
+Version: ScottPlot 5.0.22
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Axis lines are vertical or horizontal lines that span an entire axis.
 
-[![](/cookbook/5.0/images/AxisLineQuickstart.png?240128210832)](/cookbook/5.0/images/AxisLineQuickstart.png?240128210832)
+[![](/cookbook/5.0/images/AxisLineQuickstart.png?240316204900)](/cookbook/5.0/images/AxisLineQuickstart.png?240316204900)
 
 {{< code-sp5 >}}
 

@@ -4,9 +4,9 @@ Description: Bar plots represent values as horizontal or vertical rectangles
 URL: /cookbook/5.0/Bar/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Bar Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Bar"]
-Date: 2024-01-29
-Version: ScottPlot 5.0.21
-Version: ScottPlot 5.0.21
+Date: 2024-03-17
+Version: ScottPlot 5.0.22
+Version: ScottPlot 5.0.22
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,7 +18,7 @@ ShowEditLink: false
 
 Bar plots can be added from a series of values.
 
-[![](/cookbook/5.0/images/Quickstart.png?240128210832)](/cookbook/5.0/images/Quickstart.png?240128210832)
+[![](/cookbook/5.0/images/Quickstart.png?240316204900)](/cookbook/5.0/images/Quickstart.png?240316204900)
 
 {{< code-sp5 >}}
 
@@ -41,11 +41,79 @@ myPlot.SavePng("demo.png", 400, 300);
 <hr class='my-5 invisible'>
 
 
+<h2><a href='/cookbook/5.0/Bar/BarLegend'>Bar Plot Legend</a></h2>
+
+A collection of bars can appear in the legend as a single item.
+
+[![](/cookbook/5.0/images/BarLegend.png?240316204900)](/cookbook/5.0/images/BarLegend.png?240316204900)
+
+{{< code-sp5 >}}
+
+```cs
+ScottPlot.Plot myPlot = new();
+
+double[] xs1 = { 1, 2, 3, 4 };
+double[] ys1 = { 5, 10, 7, 13 };
+var bars1 = myPlot.Add.Bars(xs1, ys1);
+bars1.Label = "Alpha";
+
+double[] xs2 = { 6, 7, 8, 9 };
+double[] ys2 = { 7, 12, 9, 15 };
+var bars2 = myPlot.Add.Bars(xs2, ys2);
+bars2.Label = "Beta";
+
+myPlot.ShowLegend(Alignment.UpperLeft);
+myPlot.Axes.Margins(bottom: 0);
+
+myPlot.SavePng("demo.png", 400, 300);
+
+```
+
+{{< /code-sp5 >}}
+
+<hr class='my-5 invisible'>
+
+
+<h2><a href='/cookbook/5.0/Bar/BarValues'>Bar with Value Labels</a></h2>
+
+Set the `Label` property of bars to have text displayed above each bar.
+
+[![](/cookbook/5.0/images/BarValues.png?240316204900)](/cookbook/5.0/images/BarValues.png?240316204900)
+
+{{< code-sp5 >}}
+
+```cs
+ScottPlot.Plot myPlot = new();
+
+double[] values = { 5, 10, 7, 13 };
+var barPlot = myPlot.Add.Bars(values);
+
+// define the content of labels
+foreach (var bar in barPlot.Bars)
+{
+    bar.Label = bar.Value.ToString();
+}
+
+// customize label style
+barPlot.ValueLabelStyle.Bold = true;
+barPlot.ValueLabelStyle.FontSize = 18;
+
+myPlot.Axes.Margins(bottom: 0, top: .2);
+
+myPlot.SavePng("demo.png", 400, 300);
+
+```
+
+{{< /code-sp5 >}}
+
+<hr class='my-5 invisible'>
+
+
 <h2><a href='/cookbook/5.0/Bar/BarPosition'>Bar Positioning</a></h2>
 
 The exact position and size of each bar may be customized.
 
-[![](/cookbook/5.0/images/BarPosition.png?240128210832)](/cookbook/5.0/images/BarPosition.png?240128210832)
+[![](/cookbook/5.0/images/BarPosition.png?240316204900)](/cookbook/5.0/images/BarPosition.png?240316204900)
 
 {{< code-sp5 >}}
 
@@ -74,7 +142,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Bars can have errorbars.
 
-[![](/cookbook/5.0/images/BarWithError.png?240128210832)](/cookbook/5.0/images/BarWithError.png?240128210832)
+[![](/cookbook/5.0/images/BarWithError.png?240316204900)](/cookbook/5.0/images/BarWithError.png?240316204900)
 
 {{< code-sp5 >}}
 
@@ -107,7 +175,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Bars can be labeled by manually specifying axis tick mark positions and labels.
 
-[![](/cookbook/5.0/images/BarTickLabels.png?240128210832)](/cookbook/5.0/images/BarTickLabels.png?240128210832)
+[![](/cookbook/5.0/images/BarTickLabels.png?240316204900)](/cookbook/5.0/images/BarTickLabels.png?240316204900)
 
 {{< code-sp5 >}}
 
@@ -147,7 +215,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Bars can be positioned on top of each other.
 
-[![](/cookbook/5.0/images/BarStackVertically.png?240128210832)](/cookbook/5.0/images/BarStackVertically.png?240128210832)
+[![](/cookbook/5.0/images/BarStackVertically.png?240316204900)](/cookbook/5.0/images/BarStackVertically.png?240316204900)
 
 {{< code-sp5 >}}
 
@@ -197,7 +265,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Bars can be grouped by position and color.
 
-[![](/cookbook/5.0/images/GroupedBarPlot.png?240128210832)](/cookbook/5.0/images/GroupedBarPlot.png?240128210832)
+[![](/cookbook/5.0/images/GroupedBarPlot.png?240316204900)](/cookbook/5.0/images/GroupedBarPlot.png?240316204900)
 
 {{< code-sp5 >}}
 
@@ -229,13 +297,9 @@ myPlot.Add.Bars(bars);
 // build the legend manually
 myPlot.Legend.IsVisible = true;
 myPlot.Legend.Location = Alignment.UpperLeft;
-
-LegendItem[] legendItems =
-{
-    new() { Label = "Monday", FillColor = palette.GetColor(0) },
-    new() { Label = "Tuesday", FillColor = palette.GetColor(1) },
-    new() { Label = "Wednesday", FillColor = palette.GetColor(2) }
-};
+myPlot.Legend.ManualItems.Add(new() { Label = "Monday", FillColor = palette.GetColor(0) });
+myPlot.Legend.ManualItems.Add(new() { Label = "Tuesday", FillColor = palette.GetColor(1) });
+myPlot.Legend.ManualItems.Add(new() { Label = "Wednesday", FillColor = palette.GetColor(2) });
 
 // show group labels on the bottom axis
 Tick[] ticks =
@@ -264,7 +328,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Bar plots can be displayed horizontally.
 
-[![](/cookbook/5.0/images/HorizontalBar.png?240128210832)](/cookbook/5.0/images/HorizontalBar.png?240128210832)
+[![](/cookbook/5.0/images/HorizontalBar.png?240316204900)](/cookbook/5.0/images/HorizontalBar.png?240316204900)
 
 {{< code-sp5 >}}
 

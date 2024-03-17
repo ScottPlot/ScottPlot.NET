@@ -4,9 +4,9 @@ Description: Advanced customization of grid lines
 URL: /cookbook/5.0/CustomizingGrids/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Customizing Grids"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/CustomizingGrids"]
-Date: 2024-01-29
-Version: ScottPlot 5.0.21
-Version: ScottPlot 5.0.21
+Date: 2024-03-17
+Version: ScottPlot 5.0.22
+Version: ScottPlot 5.0.22
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,7 +18,7 @@ ShowEditLink: false
 
 Grid lines can be hidden.
 
-[![](/cookbook/5.0/images/HideGrid.png?240128210832)](/cookbook/5.0/images/HideGrid.png?240128210832)
+[![](/cookbook/5.0/images/HideGrid.png?240316204900)](/cookbook/5.0/images/HideGrid.png?240316204900)
 
 {{< code-sp5 >}}
 
@@ -43,7 +43,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Grid lines can be customized. Custom grid systems can be created to give developers full control of grid rendering, but the default grid can be interacted with to customize its appearance.
 
-[![](/cookbook/5.0/images/GridCustom.png?240128210832)](/cookbook/5.0/images/GridCustom.png?240128210832)
+[![](/cookbook/5.0/images/GridCustom.png?240316204900)](/cookbook/5.0/images/GridCustom.png?240316204900)
 
 {{< code-sp5 >}}
 
@@ -72,7 +72,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Grid lines are typically drawn beneath data, but grids can be configured to render on top of plottables too.
 
-[![](/cookbook/5.0/images/GridAbove.png?240128210832)](/cookbook/5.0/images/GridAbove.png?240128210832)
+[![](/cookbook/5.0/images/GridAbove.png?240316204900)](/cookbook/5.0/images/GridAbove.png?240316204900)
 
 {{< code-sp5 >}}
 

@@ -4,9 +4,9 @@ Description: Using ScottPlot across cultures with different text and numeric req
 URL: /cookbook/5.0/Internationalization/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Internationalization"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Internationalization"]
-Date: 2024-01-29
-Version: ScottPlot 5.0.21
-Version: ScottPlot 5.0.21
+Date: 2024-03-17
+Version: ScottPlot 5.0.22
+Version: ScottPlot 5.0.22
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,7 +18,7 @@ ShowEditLink: false
 
 ScottPlot comes with font detection methods which help identify the best installed font for displaying text which may contain international characters.
 
-[![](/cookbook/5.0/images/FontDetection.png?240128210832)](/cookbook/5.0/images/FontDetection.png?240128210832)
+[![](/cookbook/5.0/images/FontDetection.png?240316204900)](/cookbook/5.0/images/FontDetection.png?240316204900)
 
 {{< code-sp5 >}}
 
@@ -50,16 +50,24 @@ myPlot.SavePng("demo.png", 400, 300);
 
 The Plot's Style class contains a method which automatically sets the fonts of common plot objects to the font most likely able to display the characters they contain.
 
-[![](/cookbook/5.0/images/AutomaticFontDetection.png?240128210832)](/cookbook/5.0/images/AutomaticFontDetection.png?240128210832)
+[![](/cookbook/5.0/images/AutomaticFontDetection.png?240316204900)](/cookbook/5.0/images/AutomaticFontDetection.png?240316204900)
 
 {{< code-sp5 >}}
 
 ```cs
 ScottPlot.Plot myPlot = new();
 
+var sig1 = myPlot.Add.Signal(Generate.Sin());
+var sig2 = myPlot.Add.Signal(Generate.Cos());
+
+sig1.Label = "测试"; // Chinese
+sig2.Label = "테스트"; // Korean
+myPlot.ShowLegend();
+
 myPlot.Title("测试"); // Chinese
 myPlot.YLabel("試験"); // Japanese
 myPlot.XLabel("테스트"); // Korean
+
 myPlot.Style.SetBestFonts();
 
 myPlot.SavePng("demo.png", 400, 300);

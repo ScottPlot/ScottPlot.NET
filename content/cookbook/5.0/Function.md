@@ -4,9 +4,9 @@ Description: Function plots are a type of line plot where Y positions are define
 URL: /cookbook/5.0/Function/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Function"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Function"]
-Date: 2024-01-29
-Version: ScottPlot 5.0.21
-Version: ScottPlot 5.0.21
+Date: 2024-03-17
+Version: ScottPlot 5.0.22
+Version: ScottPlot 5.0.22
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,7 +18,7 @@ ShowEditLink: false
 
 Create a function plot from a formula.
 
-[![](/cookbook/5.0/images/FunctionQuickstart.png?240128210832)](/cookbook/5.0/images/FunctionQuickstart.png?240128210832)
+[![](/cookbook/5.0/images/FunctionQuickstart.png?240316204900)](/cookbook/5.0/images/FunctionQuickstart.png?240316204900)
 
 {{< code-sp5 >}}
 

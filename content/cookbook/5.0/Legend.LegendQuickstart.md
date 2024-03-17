@@ -4,9 +4,9 @@ Description: Many plottables have a Label property that can be set so they appea
 URL: /cookbook/5.0/Legend/LegendQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Configuring Legends", "Legend Quickstart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Legend", "/cookbook/5.0/Legend/LegendQuickstart"]
-Date: 2024-01-29
-Version: ScottPlot 5.0.21
-Version: ScottPlot 5.0.21
+Date: 2024-03-17
+Version: ScottPlot 5.0.22
+Version: ScottPlot 5.0.22
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Many plottables have a Label property that can be set so they appear in the legend.
 
-[![](/cookbook/5.0/images/LegendQuickstart.png?240128210832)](/cookbook/5.0/images/LegendQuickstart.png?240128210832)
+[![](/cookbook/5.0/images/LegendQuickstart.png?240316204900)](/cookbook/5.0/images/LegendQuickstart.png?240316204900)
 
 {{< code-sp5 >}}
 

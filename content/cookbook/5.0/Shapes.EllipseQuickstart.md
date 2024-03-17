@@ -4,9 +4,9 @@ Description: An ellipse can be placed on the plot and styled as desired.
 URL: /cookbook/5.0/Shapes/EllipseQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Shapes", "Ellipse"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Shapes", "/cookbook/5.0/Shapes/EllipseQuickstart"]
-Date: 2024-01-29
-Version: ScottPlot 5.0.21
-Version: ScottPlot 5.0.21
+Date: 2024-03-17
+Version: ScottPlot 5.0.22
+Version: ScottPlot 5.0.22
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,14 +16,23 @@ ShowEditLink: false
 
 An ellipse can be placed on the plot and styled as desired.
 
-[![](/cookbook/5.0/images/EllipseQuickstart.png?240128210832)](/cookbook/5.0/images/EllipseQuickstart.png?240128210832)
+[![](/cookbook/5.0/images/EllipseQuickstart.png?240316204900)](/cookbook/5.0/images/EllipseQuickstart.png?240316204900)
 
 {{< code-sp5 >}}
 
 ```cs
 ScottPlot.Plot myPlot = new();
 
-// TODO: need ellipse plot type
+for (int i = 0; i < 10; i++)
+{
+    var el = myPlot.Add.Ellipse(0, 0, 1, 10, rotation: i * 10);
+    double fraction = i / 10.0;
+    el.LineColor = Colors.Blue.WithAlpha(fraction);
+}
+
+// force circles to remain circles
+ScottPlot.AxisRules.SquareZoomOut squareRule = new(myPlot.Axes.Bottom, myPlot.Axes.Left);
+myPlot.Axes.Rules.Add(squareRule);
 
 myPlot.SavePng("demo.png", 400, 300);
 

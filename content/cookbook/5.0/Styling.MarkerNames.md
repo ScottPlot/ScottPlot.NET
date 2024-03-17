@@ -4,9 +4,9 @@ Description: Markers can be referred to by their name.
 URL: /cookbook/5.0/Styling/MarkerNames/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Styling Plots", "Marker Names"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Styling", "/cookbook/5.0/Styling/MarkerNames"]
-Date: 2024-01-29
-Version: ScottPlot 5.0.21
-Version: ScottPlot 5.0.21
+Date: 2024-03-17
+Version: ScottPlot 5.0.22
+Version: ScottPlot 5.0.22
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Markers can be referred to by their name.
 
-[![](/cookbook/5.0/images/MarkerNames.png?240128210832)](/cookbook/5.0/images/MarkerNames.png?240128210832)
+[![](/cookbook/5.0/images/MarkerNames.png?240316204900)](/cookbook/5.0/images/MarkerNames.png?240316204900)
 
 {{< code-sp5 >}}
 
@@ -24,12 +24,16 @@ Markers can be referred to by their name.
 ScottPlot.Plot myPlot = new();
 
 MarkerShape[] markerShapes = Enum.GetValues<MarkerShape>().ToArray();
+ScottPlot.Palettes.Category20 palette = new();
 
 for (int i = 0; i < markerShapes.Length; i++)
 {
     var mp = myPlot.Add.Marker(x: i, y: 0);
     mp.MarkerStyle.Shape = markerShapes[i];
     mp.MarkerStyle.Size = 10;
+    mp.MarkerStyle.Outline.Width = 1.5f;
+    mp.MarkerStyle.Outline.Color = palette.GetColor(i);
+    mp.MarkerStyle.Fill.Color = palette.GetColor(i).WithAlpha(.5);
 
     var txt = myPlot.Add.Text(markerShapes[i].ToString(), i, 0.15);
     txt.Label.Rotation = -90;
