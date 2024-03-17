@@ -14,14 +14,28 @@ Release notes for every version of ScottPlot
 <ul>
 <li>Plot: Added <code>ShowLegend()</code> overload that does not override the current <code>Orientation</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/3450">#3450</a>) <a href="https://github.com/aespitia"><strong>@aespitia</strong></a>
 </li>
+<li>Grid: The standard grid can be accessed via <code>Plot.Grid</code> instead of <code>GetDefaultGrid()</code>
+</li>
+<li>Style: <code>Plot.Style.ColorLegend()</code> is deprecated. Access <code>Plot.Legend</code> properties directly as seen in the cookbook.
+</li>
+<li>Style: <code>Plot.Style.ColorAxes()</code> has moved to <code>Plot.Axes.Color()</code>
+</li>
+<li>Style: <code>Plot.Style.AxisFrame()</code> has moved to <code>Plot.Axes.Frame()</code>
+</li>
+<li>Style: <code>Plot.Style.SetBestFonts()</code> has moved to <code>Plot.Font.Automatic()</code>
+</li>
+<li>Grid: Added <code>Plot.Grid</code> with axis-specific styling options as seen in the cookbook (<a href="https://github.com/ScottPlot/ScottPlot/issues/3291">#3291</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3293">#3293</a>) <a href="https://github.com/bjschwarz"><strong>@bjschwarz</strong></a>, <a href="https://github.com/PaxITIS"><strong>@PaxITIS</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/bjschwarz'>@bjschwarz</a>, <a href='https://github.com/PaxITIS'>@PaxITIS</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/aespitia'><img src='https://scottplot.net/images/contributors/aespitia.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/bjschwarz'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/PaxITIS'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
