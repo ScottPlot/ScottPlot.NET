@@ -9,7 +9,7 @@ Release notes for every version of ScottPlot
 
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 5.0.22</h1>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2024-03-16</i></div>
 <div class='mt-1'>
 <ul>
 <li>Rendering: Added additional options for gradient fills (<a href="https://github.com/ScottPlot/ScottPlot/issues/3324">#3324</a>) <a href="https://github.com/KroMignon"><strong>@KroMignon</strong></a>
@@ -94,7 +94,7 @@ Release notes for every version of ScottPlot
 </li>
 <li>Plot: <code>GetCoordinateRect()</code> now returns dimensions that respect <code>ScaleFactor</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/3471">#3471</a>) <a href="https://github.com/MCF"><strong>@MCF</strong></a>
 </li>
-<li>Label: Added <code>Measure()</code> overloads to facilitate measuring arbitrary strings without modifying the label text (<a href="https://github.com/ScottPlot/ScottPlot/issues/3474">#3474</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3473">#3473</a>) <a href="https://github.com/aespitia"><strong>@aespitia</strong></a>
+<li>Label: Added <code>Measure()</code> overloads to facilitate measuring arbitrary strings without modifying the label text (<a href="https://github.com/ScottPlot/ScottPlot/issues/3474">#3474</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3473">#3473</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3458">#3458</a>) <a href="https://github.com/aespitia"><strong>@aespitia</strong></a> <a href="https://github.com/David-A-Blankenship"><strong>@David-A-Blankenship</strong></a>
 </li>
 <li>Layout: Improved positioning of text for bottom tick labels with large font (<a href="https://github.com/ScottPlot/ScottPlot/issues/3436">#3436</a>) <a href="https://github.com/edwwsw"><strong>@edwwsw</strong></a>
 </li>
@@ -108,11 +108,15 @@ Release notes for every version of ScottPlot
 </li>
 <li>Bar: Added <code>Label</code> property to allow values to be displayed above bars (<a href="https://github.com/ScottPlot/ScottPlot/issues/3477">#3477</a>) <a href="https://github.com/DouglasWatt"><strong>@DouglasWatt</strong></a>
 </li>
+<li>Axes: Added <code>Plot.Axes.SquareUnits()</code> helper method for adding an axis rule that enforces equal axis scales (<a href="https://github.com/ScottPlot/ScottPlot/issues/3451">#3451</a>)
+</li>
+<li>Pie: Fixed issue were pie charts may have duplicate legends (<a href="https://github.com/ScottPlot/ScottPlot/issues/3445">#3445</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/KroMignon'>@KroMignon</a>, <a href='https://github.com/MCF'>@MCF</a>, <a href='https://github.com/Milkitic'>@Milkitic</a>, <a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/arthurits'>@arthurits</a>, <a href='https://github.com/DominicBeer'>@DominicBeer</a>, <a href='https://github.com/oktrue'>@oktrue</a>, <a href='https://github.com/BendRocks'>@BendRocks</a>, <a href='https://github.com/ykarpeev'>@ykarpeev</a>, <a href='https://github.com/fhannan-ti'>@fhannan-ti</a>, <a href='https://github.com/BrianAtZetica'>@BrianAtZetica</a>, <a href='https://github.com/Excustic'>@Excustic</a>, <a href='https://github.com/redrabbit007'>@redrabbit007</a>, <a href='https://github.com/csbebetter'>@csbebetter</a>, <a href='https://github.com/xichaoqiang'>@xichaoqiang</a>, <a href='https://github.com/unsigned-ru'>@unsigned-ru</a>, <a href='https://github.com/levipara'>@levipara</a>, <a href='https://github.com/NicolasLairNET'>@NicolasLairNET</a>, <a href='https://github.com/wsomegapoint'>@wsomegapoint</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/Prototipo-Erick-Santander'>@Prototipo-Erick-Santander</a>, <a href='https://github.com/edwwsw'>@edwwsw</a>, <a href='https://github.com/yui1227'>@yui1227</a>, <a href='https://github.com/DouglasWatt'>@DouglasWatt</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/KroMignon'>@KroMignon</a>, <a href='https://github.com/MCF'>@MCF</a>, <a href='https://github.com/Milkitic'>@Milkitic</a>, <a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/arthurits'>@arthurits</a>, <a href='https://github.com/DominicBeer'>@DominicBeer</a>, <a href='https://github.com/oktrue'>@oktrue</a>, <a href='https://github.com/BendRocks'>@BendRocks</a>, <a href='https://github.com/ykarpeev'>@ykarpeev</a>, <a href='https://github.com/fhannan-ti'>@fhannan-ti</a>, <a href='https://github.com/BrianAtZetica'>@BrianAtZetica</a>, <a href='https://github.com/Excustic'>@Excustic</a>, <a href='https://github.com/redrabbit007'>@redrabbit007</a>, <a href='https://github.com/csbebetter'>@csbebetter</a>, <a href='https://github.com/xichaoqiang'>@xichaoqiang</a>, <a href='https://github.com/unsigned-ru'>@unsigned-ru</a>, <a href='https://github.com/levipara'>@levipara</a>, <a href='https://github.com/NicolasLairNET'>@NicolasLairNET</a>, <a href='https://github.com/wsomegapoint'>@wsomegapoint</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/Prototipo-Erick-Santander'>@Prototipo-Erick-Santander</a>, <a href='https://github.com/David-A-Blankenship'>@David-A-Blankenship</a>, <a href='https://github.com/edwwsw'>@edwwsw</a>, <a href='https://github.com/yui1227'>@yui1227</a>, <a href='https://github.com/DouglasWatt'>@DouglasWatt</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/KroMignon'><img src='https://scottplot.net/images/contributors/kromignon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -136,16 +140,17 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/wsomegapoint'><img src='https://scottplot.net/images/contributors/wsomegapoint.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/aespitia'><img src='https://scottplot.net/images/contributors/aespitia.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Prototipo-Erick-Santander'><img src='https://scottplot.net/images/contributors/prototipo-erick-santander.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/David-A-Blankenship'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/edwwsw'><img src='https://scottplot.net/images/contributors/edwwsw.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/yui1227'><img src='https://scottplot.net/images/contributors/yui1227.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/DouglasWatt'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/DouglasWatt'><img src='https://scottplot.net/images/contributors/douglaswatt.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.1.72</h1>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2024-03-16</i></div>
 <div class='mt-1'>
 <ul>
 <li>DataLogger: Improve support for multi-axis plots (<a href="https://github.com/ScottPlot/ScottPlot/issues/3411">#3411</a>) <a href="https://github.com/drolevar"><strong>@drolevar</strong></a>
