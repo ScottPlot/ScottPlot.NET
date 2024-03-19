@@ -26,16 +26,27 @@ Release notes for every version of ScottPlot
 </li>
 <li>Grid: Added <code>Plot.Grid</code> with axis-specific styling options as seen in the cookbook (<a href="https://github.com/ScottPlot/ScottPlot/issues/3291">#3291</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3293">#3293</a>) <a href="https://github.com/bjschwarz"><strong>@bjschwarz</strong></a>, <a href="https://github.com/PaxITIS"><strong>@PaxITIS</strong></a>
 </li>
+<li>SignalXY: Fixed a bug where the final line segment was not drawn (<a href="https://github.com/ScottPlot/ScottPlot/issues/3495">#3495</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3423">#3423</a>) <a href="https://github.com/MareMare"><strong>@MareMare</strong></a> <a href="https://github.com/mjazd"><strong>@mjazd</strong></a>
+</li>
+<li>SignalXY: Improved support for inverted vertical axes (<a href="https://github.com/ScottPlot/ScottPlot/issues/3495">#3495</a>) <a href="https://github.com/MareMare"><strong>@MareMare</strong></a>
+</li>
+<li>Controls: Ignore mouse wheel zooming if a zoom rectangle is being drawn (<a href="https://github.com/ScottPlot/ScottPlot/issues/3498">#3498</a>) <a href="https://github.com/BrianAtZetica"><strong>@BrianAtZetica</strong></a>
+</li>
+<li>Controls: Improve axis lock behavior when dragging the mouse on a control (<a href="https://github.com/ScottPlot/ScottPlot/issues/3498">#3498</a>) <a href="https://github.com/BrianAtZetica"><strong>@BrianAtZetica</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/bjschwarz'>@bjschwarz</a>, <a href='https://github.com/PaxITIS'>@PaxITIS</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/bjschwarz'>@bjschwarz</a>, <a href='https://github.com/PaxITIS'>@PaxITIS</a>, <a href='https://github.com/MareMare'>@MareMare</a>, <a href='https://github.com/mjazd'>@mjazd</a>, <a href='https://github.com/BrianAtZetica'>@BrianAtZetica</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/aespitia'><img src='https://scottplot.net/images/contributors/aespitia.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/bjschwarz'><img src='https://scottplot.net/images/contributors/bjschwarz.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/PaxITIS'><img src='https://scottplot.net/images/contributors/paxitis.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/MareMare'><img src='https://scottplot.net/images/contributors/maremare.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/mjazd'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/BrianAtZetica'><img src='https://scottplot.net/images/contributors/brianatzetica.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
