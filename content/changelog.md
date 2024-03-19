@@ -38,11 +38,13 @@ Release notes for every version of ScottPlot
 </li>
 <li>Heatmap: Intensity values that are <code>double.NaN</code> are now displayed as transparent cells (<a href="https://github.com/ScottPlot/ScottPlot/issues/3499">#3499</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3349">#3349</a>) <a href="https://github.com/BrianAtZetica"><strong>@BrianAtZetica</strong></a>
 </li>
+<li>Text: Added an <code>OffsetX</code> and <code>OffsetY</code> properties for adjusting text position in pixel units (<a href="https://github.com/ScottPlot/ScottPlot/issues/3506">#3506</a>) <a href="https://github.com/jamaa"><strong>@jamaa</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/bjschwarz'>@bjschwarz</a>, <a href='https://github.com/PaxITIS'>@PaxITIS</a>, <a href='https://github.com/MareMare'>@MareMare</a>, <a href='https://github.com/mjazd'>@mjazd</a>, <a href='https://github.com/BrianAtZetica'>@BrianAtZetica</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/bjschwarz'>@bjschwarz</a>, <a href='https://github.com/PaxITIS'>@PaxITIS</a>, <a href='https://github.com/MareMare'>@MareMare</a>, <a href='https://github.com/mjazd'>@mjazd</a>, <a href='https://github.com/BrianAtZetica'>@BrianAtZetica</a>, <a href='https://github.com/jamaa'>@jamaa</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/aespitia'><img src='https://scottplot.net/images/contributors/aespitia.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -51,6 +53,7 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/MareMare'><img src='https://scottplot.net/images/contributors/maremare.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/mjazd'><img src='https://scottplot.net/images/contributors/mjazd.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/BrianAtZetica'><img src='https://scottplot.net/images/contributors/brianatzetica.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/jamaa'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
