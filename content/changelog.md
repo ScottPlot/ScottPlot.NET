@@ -44,11 +44,13 @@ Release notes for every version of ScottPlot
 </li>
 <li>Polygon: Improved automatic axis limit detection of polygons (<a href="https://github.com/ScottPlot/ScottPlot/issues/3501">#3501</a>) <a href="https://github.com/drphobos"><strong>@drphobos</strong></a>
 </li>
+<li>Annotation: New plot type for adding text labels aligned to the data area which are always visible (<a href="https://github.com/ScottPlot/ScottPlot/issues/3510">#3510</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3356">#3356</a>) <a href="https://github.com/dlampa"><strong>@dlampa</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/bjschwarz'>@bjschwarz</a>, <a href='https://github.com/PaxITIS'>@PaxITIS</a>, <a href='https://github.com/MareMare'>@MareMare</a>, <a href='https://github.com/mjazd'>@mjazd</a>, <a href='https://github.com/BrianAtZetica'>@BrianAtZetica</a>, <a href='https://github.com/jamaa'>@jamaa</a>, <a href='https://github.com/RubensMigliore'>@RubensMigliore</a>, <a href='https://github.com/drphobos'>@drphobos</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/bjschwarz'>@bjschwarz</a>, <a href='https://github.com/PaxITIS'>@PaxITIS</a>, <a href='https://github.com/MareMare'>@MareMare</a>, <a href='https://github.com/mjazd'>@mjazd</a>, <a href='https://github.com/BrianAtZetica'>@BrianAtZetica</a>, <a href='https://github.com/jamaa'>@jamaa</a>, <a href='https://github.com/RubensMigliore'>@RubensMigliore</a>, <a href='https://github.com/drphobos'>@drphobos</a>, <a href='https://github.com/dlampa'>@dlampa</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/aespitia'><img src='https://scottplot.net/images/contributors/aespitia.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -58,8 +60,9 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/mjazd'><img src='https://scottplot.net/images/contributors/mjazd.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/BrianAtZetica'><img src='https://scottplot.net/images/contributors/brianatzetica.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/jamaa'><img src='https://scottplot.net/images/contributors/jamaa.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/RubensMigliore'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/drphobos'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/RubensMigliore'><img src='https://scottplot.net/images/contributors/rubensmigliore.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/drphobos'><img src='https://scottplot.net/images/contributors/drphobos.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/dlampa'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
