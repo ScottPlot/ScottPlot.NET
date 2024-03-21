@@ -5,19 +5,26 @@
         <div class="content-limited-width">
 
             <!-- show logo above navigation bar when the screen is large -->
-            <div class="d-flex show-when-large pt-3" id="logo-large">
-                <div class="me-2 mt-1">
-                    <a href="/">
-                        <img class="" src='/images/brand/favicon.svg' width="56" height="56" />
-                    </a>
-                </div>
-                <div class="mt-1">
-                    <a class="text-light lh-1" href="/" style="font-size: 1.8em;">
-                        ScottPlot.NET
-                    </a>
-                    <div class="">
-                        {{ partial "github-info.html" . }}
+            <div class="d-flex justify-content-between show-when-large pt-3 px-2">
+                <div class="d-flex">
+                    <div class="me-2 mt-1">
+                        <a href="/">
+                            <img class="" src='/images/brand/favicon.svg' width="56" height="56" />
+                        </a>
                     </div>
+                    <div class="mt-1">
+                        <a class="text-light lh-1" href="/" style="font-size: 1.8em;">
+                            ScottPlot.NET
+                        </a>
+                        <div class="">
+                            {{ partial "github-info.html" . }}
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <a href="https://github.com/scottplot/scottplot/">
+                        <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/scottplot/scottplot" id="starImg">
+                    </a>
                 </div>
             </div>
 

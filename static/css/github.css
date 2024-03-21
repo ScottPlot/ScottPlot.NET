@@ -34,7 +34,8 @@ h1 {
     margin-top: 1.5em;
 }
 
-h1 a, h1 a code {
+h1 a,
+h1 a code {
     color: black !important;
     text-decoration: none;
 }
@@ -53,7 +54,8 @@ h2 {
     margin-top: 1.5em;
 }
 
-h2 a, h2 a code {
+h2 a,
+h2 a code {
     color: black !important;
     text-decoration: none;
 }
@@ -71,7 +73,8 @@ h3 {
     margin-top: 1.5em;
 }
 
-h3 a, h3 a code {
+h3 a,
+h3 a code {
     color: black !important;
     text-decoration: none;
 }
@@ -89,7 +92,8 @@ h4 {
     margin-top: 1.5em;
 }
 
-h4 a, h4 a code {
+h4 a,
+h4 a code {
     color: black !important;
     text-decoration: none;
 }
@@ -97,4 +101,14 @@ h4 a, h4 a code {
 h4 a:hover {
     color: black;
     text-decoration: underline;
+}
+
+/* star button */
+
+#starImg {
+    opacity: .5
+}
+
+#starImg:hover {
+    opacity: 1;
 }
