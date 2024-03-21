@@ -46,6 +46,8 @@ Release notes for every version of ScottPlot
 </li>
 <li>Annotation: New plot type for adding text labels aligned to the data area which are always visible (<a href="https://github.com/ScottPlot/ScottPlot/issues/3510">#3510</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3356">#3356</a>) <a href="https://github.com/dlampa"><strong>@dlampa</strong></a>
 </li>
+<li>Ticks: Added <code>MinimumTickSpacing</code>, <code>TickDensity</code>, and <code>TargetTickCount</code> properties to the automatic tick generator (see Cookbook)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
@@ -62,7 +64,7 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/jamaa'><img src='https://scottplot.net/images/contributors/jamaa.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/RubensMigliore'><img src='https://scottplot.net/images/contributors/rubensmigliore.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/drphobos'><img src='https://scottplot.net/images/contributors/drphobos.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/dlampa'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/dlampa'><img src='https://scottplot.net/images/contributors/dlampa.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
