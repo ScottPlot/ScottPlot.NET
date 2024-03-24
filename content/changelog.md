@@ -9,7 +9,7 @@ Release notes for every version of ScottPlot
 
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 5.0.23</h1>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2024-03-24</i></div>
 <div class='mt-1'>
 <ul>
 <li>Plot: Added <code>ShowLegend()</code> overload that does not override the current <code>Orientation</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/3450">#3450</a>) <a href="https://github.com/aespitia"><strong>@aespitia</strong></a>
@@ -81,7 +81,7 @@ Release notes for every version of ScottPlot
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.1.73</h1>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2024-03-24</i></div>
 <div class='mt-1'>
 <ul>
 <li>Image: Improve automatic axis limit detection for images with manually defined positions (<a href="https://github.com/ScottPlot/ScottPlot/issues/3529">#3529</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3515">#3515</a>) <a href="https://github.com/bukkideme"><strong>@bukkideme</strong></a>
