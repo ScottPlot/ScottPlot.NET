@@ -200,6 +200,8 @@ Release notes for every version of ScottPlot
 </li>
 <li>Pie: Fixed issue were pie charts may have duplicate legends (<a href="https://github.com/ScottPlot/ScottPlot/issues/3445">#3445</a>)
 </li>
+<li>Axes: Improved render event behavior and support for multi-axis plots (<a href="https://github.com/ScottPlot/ScottPlot/issues/3525">#3525</a>) <a href="https://github.com/BrianAtZetica"><strong>@BrianAtZetica</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
