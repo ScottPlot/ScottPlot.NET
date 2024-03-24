@@ -4,9 +4,9 @@ Description: A survey of basic functionality in ScottPlot 5
 URL: /cookbook/5.0/ScottPlotQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Quickstart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/ScottPlotQuickstart"]
-Date: 2024-03-17
-Version: ScottPlot 5.0.22
-Version: ScottPlot 5.0.22
+Date: 2024-03-24
+Version: ScottPlot 5.0.23
+Version: ScottPlot 5.0.23
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,7 +18,7 @@ ShowEditLink: false
 
 Display paired X/Y data as a scatter plot.
 
-[![](/cookbook/5.0/images/QuickstartScatter.png?240316205800)](/cookbook/5.0/images/QuickstartScatter.png?240316205800)
+[![](/cookbook/5.0/images/QuickstartScatter.png?240324174053)](/cookbook/5.0/images/QuickstartScatter.png?240324174053)
 
 {{< code-sp5 >}}
 
@@ -42,7 +42,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Functions that add things to plots return the plottables they create. Interact with the properties of plottables to customize their styling and behavior.
 
-[![](/cookbook/5.0/images/CustomizingPlottables.png?240316205800)](/cookbook/5.0/images/CustomizingPlottables.png?240316205800)
+[![](/cookbook/5.0/images/CustomizingPlottables.png?240324174053)](/cookbook/5.0/images/CustomizingPlottables.png?240324174053)
 
 {{< code-sp5 >}}
 
@@ -69,7 +69,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Signal plots are optimized for displaying evenly spaced data.
 
-[![](/cookbook/5.0/images/QuickstartSignal.png?240316205800)](/cookbook/5.0/images/QuickstartSignal.png?240316205800)
+[![](/cookbook/5.0/images/QuickstartSignal.png?240324174053)](/cookbook/5.0/images/QuickstartSignal.png?240324174053)
 
 {{< code-sp5 >}}
 
@@ -94,7 +94,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Signal plots can interactively display millions of data points in real time. Double-click the plot to display performance benchmarks.
 
-[![](/cookbook/5.0/images/SignalPerformance.png?240316205800)](/cookbook/5.0/images/SignalPerformance.png?240316205800)
+[![](/cookbook/5.0/images/SignalPerformance.png?240324174053)](/cookbook/5.0/images/SignalPerformance.png?240324174053)
 
 {{< code-sp5 >}}
 
@@ -118,7 +118,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Axis labels can be extensively customized.
 
-[![](/cookbook/5.0/images/QuickstartAxisLabels.png?240316205800)](/cookbook/5.0/images/QuickstartAxisLabels.png?240316205800)
+[![](/cookbook/5.0/images/QuickstartAxisLabels.png?240324174053)](/cookbook/5.0/images/QuickstartAxisLabels.png?240324174053)
 
 {{< code-sp5 >}}
 
@@ -145,7 +145,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 A legend displays plottables in a key along the edge of a plot. Most plottables have a Label property which configures what text appears in the legend.
 
-[![](/cookbook/5.0/images/Legend.png?240316205800)](/cookbook/5.0/images/Legend.png?240316205800)
+[![](/cookbook/5.0/images/Legend.png?240324174053)](/cookbook/5.0/images/Legend.png?240324174053)
 
 {{< code-sp5 >}}
 
@@ -173,7 +173,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Although the Plot.Add class has many helpful methods for creating plottable objects and adding them to the plot, users can instantiate plottable objects themselves and use Add.Plottable() to place it on the plot. This stategy allows users to create their own plottables (implementing IPlottable) with custom appearance or behavior.
 
-[![](/cookbook/5.0/images/AddPlottablesManually.png?240316205800)](/cookbook/5.0/images/AddPlottablesManually.png?240316205800)
+[![](/cookbook/5.0/images/AddPlottablesManually.png?240324174053)](/cookbook/5.0/images/AddPlottablesManually.png?240324174053)
 
 {{< code-sp5 >}}
 

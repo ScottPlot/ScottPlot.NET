@@ -4,9 +4,9 @@ Description: Users can disable grid lines for specific axes.
 URL: /cookbook/5.0/CustomizingTicks/DisableGridLines/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Customizing Ticks", "Disable Grid Lines"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/CustomizingTicks", "/cookbook/5.0/CustomizingTicks/DisableGridLines"]
-Date: 2024-03-17
-Version: ScottPlot 5.0.22
-Version: ScottPlot 5.0.22
+Date: 2024-03-24
+Version: ScottPlot 5.0.23
+Version: ScottPlot 5.0.23
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Users can disable grid lines for specific axes.
 
-[![](/cookbook/5.0/images/DisableGridLines.png?240316205800)](/cookbook/5.0/images/DisableGridLines.png?240316205800)
+[![](/cookbook/5.0/images/DisableGridLines.png?240324174053)](/cookbook/5.0/images/DisableGridLines.png?240324174053)
 
 {{< code-sp5 >}}
 
@@ -26,8 +26,8 @@ ScottPlot.Plot myPlot = new();
 myPlot.Add.Signal(Generate.Sin());
 myPlot.Add.Signal(Generate.Cos());
 
-ScottPlot.Grids.DefaultGrid grid = myPlot.GetDefaultGrid();
-grid.MajorLineStyle.Width = 1; // TODO: demonstrate how to disable just vertical or horizontal grid lines
+myPlot.Grid.XAxisStyle.IsVisible = true;
+myPlot.Grid.YAxisStyle.IsVisible = false;
 
 myPlot.SavePng("demo.png", 400, 300);
 

@@ -4,9 +4,9 @@ Description: Plots can be created using dark mode by setting the colors of major
 URL: /cookbook/5.0/Styling/DarkMode/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Styling Plots", "Dark Mode"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Styling", "/cookbook/5.0/Styling/DarkMode"]
-Date: 2024-03-17
-Version: ScottPlot 5.0.22
-Version: ScottPlot 5.0.22
+Date: 2024-03-24
+Version: ScottPlot 5.0.23
+Version: ScottPlot 5.0.23
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Plots can be created using dark mode by setting the colors of major plot components to ones consistent with a dark theme.
 
-[![](/cookbook/5.0/images/DarkMode.png?240316205800)](/cookbook/5.0/images/DarkMode.png?240316205800)
+[![](/cookbook/5.0/images/DarkMode.png?240324174053)](/cookbook/5.0/images/DarkMode.png?240324174053)
 
 {{< code-sp5 >}}
 
@@ -39,15 +39,13 @@ myPlot.Title("ScottPlot 5 in Dark Mode");
 myPlot.ShowLegend();
 
 // change figure colors
-myPlot.Style.ColorAxes(Color.FromHex("#d7d7d7"));
-myPlot.Style.ColorGrids(Color.FromHex("#404040"));
-myPlot.Style.Background(
-    figure: Color.FromHex("#181818"),
-    data: Color.FromHex("#1f1f1f"));
-myPlot.Style.ColorLegend(
-    background: Color.FromHex("#404040"),
-    foreground: Color.FromHex("#d7d7d7"),
-    border: Color.FromHex("#d7d7d7"));
+myPlot.Axes.Color(Color.FromHex("#d7d7d7"));
+myPlot.Grid.MajorLineColor = Color.FromHex("#404040");
+myPlot.FigureBackground.Color = Color.FromHex("#181818");
+myPlot.DataBackground.Color = Color.FromHex("#1f1f1f");
+myPlot.Legend.BackgroundFill.Color = Color.FromHex("#404040");
+myPlot.Legend.Font.Color = Color.FromHex("#d7d7d7");
+myPlot.Legend.OutlineStyle.Color = Color.FromHex("#d7d7d7");
 
 myPlot.SavePng("demo.png", 400, 300);
 

@@ -4,9 +4,9 @@ Description: By default the full range of each gauge is drawn as a semitranspare
 URL: /cookbook/5.0/RadialGauge/RadialGaugeBackDim/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Radial gauge", "Background Gauges Dim"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/RadialGauge", "/cookbook/5.0/RadialGauge/RadialGaugeBackDim"]
-Date: 2024-03-17
-Version: ScottPlot 5.0.22
-Version: ScottPlot 5.0.22
+Date: 2024-03-24
+Version: ScottPlot 5.0.23
+Version: ScottPlot 5.0.23
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 By default the full range of each gauge is drawn as a semitransparent ring. The amount of transparency can be adjusted as desired.
 
-[![](/cookbook/5.0/images/RadialGaugeBackDim.png?240316205800)](/cookbook/5.0/images/RadialGaugeBackDim.png?240316205800)
+[![](/cookbook/5.0/images/RadialGaugeBackDim.png?240324174053)](/cookbook/5.0/images/RadialGaugeBackDim.png?240324174053)
 
 {{< code-sp5 >}}
 

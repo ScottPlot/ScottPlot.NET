@@ -4,9 +4,9 @@ Description: An image can be used for the background of a figure.
 URL: /cookbook/5.0/AdvancedStyling/AdvancedStylingFigureBackground/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Advanced Styling", "Figure Background Image"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AdvancedStyling", "/cookbook/5.0/AdvancedStyling/AdvancedStylingFigureBackground"]
-Date: 2024-03-17
-Version: ScottPlot 5.0.22
-Version: ScottPlot 5.0.22
+Date: 2024-03-24
+Version: ScottPlot 5.0.23
+Version: ScottPlot 5.0.23
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 An image can be used for the background of a figure.
 
-[![](/cookbook/5.0/images/AdvancedStylingFigureBackground.png?240316205800)](/cookbook/5.0/images/AdvancedStylingFigureBackground.png?240316205800)
+[![](/cookbook/5.0/images/AdvancedStylingFigureBackground.png?240324174053)](/cookbook/5.0/images/AdvancedStylingFigureBackground.png?240324174053)
 
 {{< code-sp5 >}}
 
@@ -35,7 +35,7 @@ Image bgImage = SampleImages.MonaLisa();
 myPlot.FigureBackground.Image = bgImage;
 
 // Color the axes and data so they stand out against the dark background
-myPlot.Style.ColorAxes(Colors.White);
+myPlot.Axes.Color(Colors.White);
 sig1.Color = sig1.Color.Lighten(.2);
 sig2.Color = sig2.Color.Lighten(.2);
 sig1.LineWidth = 3;

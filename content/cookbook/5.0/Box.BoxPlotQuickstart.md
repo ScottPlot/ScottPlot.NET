@@ -4,9 +4,9 @@ Description: Box plots can be created individually and added to the plot.
 URL: /cookbook/5.0/Box/BoxPlotQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Box Plot", "Box Plot Quickstart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Box", "/cookbook/5.0/Box/BoxPlotQuickstart"]
-Date: 2024-03-17
-Version: ScottPlot 5.0.22
-Version: ScottPlot 5.0.22
+Date: 2024-03-24
+Version: ScottPlot 5.0.23
+Version: ScottPlot 5.0.23
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Box plots can be created individually and added to the plot.
 
-[![](/cookbook/5.0/images/BoxPlotQuickstart.png?240316205800)](/cookbook/5.0/images/BoxPlotQuickstart.png?240316205800)
+[![](/cookbook/5.0/images/BoxPlotQuickstart.png?240324174053)](/cookbook/5.0/images/BoxPlotQuickstart.png?240324174053)
 
 {{< code-sp5 >}}
 

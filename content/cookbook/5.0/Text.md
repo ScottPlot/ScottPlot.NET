@@ -4,9 +4,9 @@ Description: Text labels can be placed on the plot in coordinate space
 URL: /cookbook/5.0/Text/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Text"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Text"]
-Date: 2024-03-17
-Version: ScottPlot 5.0.22
-Version: ScottPlot 5.0.22
+Date: 2024-03-24
+Version: ScottPlot 5.0.23
+Version: ScottPlot 5.0.23
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,7 +18,7 @@ ShowEditLink: false
 
 Text can be placed anywhere in coordinate space.
 
-[![](/cookbook/5.0/images/TextQuickstart.png?240316205800)](/cookbook/5.0/images/TextQuickstart.png?240316205800)
+[![](/cookbook/5.0/images/TextQuickstart.png?240324174053)](/cookbook/5.0/images/TextQuickstart.png?240324174053)
 
 {{< code-sp5 >}}
 
@@ -42,7 +42,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Text formatting can be extensively customized.
 
-[![](/cookbook/5.0/images/Formatting.png?240316205800)](/cookbook/5.0/images/Formatting.png?240316205800)
+[![](/cookbook/5.0/images/Formatting.png?240324174053)](/cookbook/5.0/images/Formatting.png?240324174053)
 
 {{< code-sp5 >}}
 
@@ -73,7 +73,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Multiline labels have a default line height estimated from the typeface and font size, however line height may be manually defined by the user.
 
-[![](/cookbook/5.0/images/LabelLineHeight.png?240316205800)](/cookbook/5.0/images/LabelLineHeight.png?240316205800)
+[![](/cookbook/5.0/images/LabelLineHeight.png?240324174053)](/cookbook/5.0/images/LabelLineHeight.png?240324174053)
 
 {{< code-sp5 >}}
 
@@ -97,6 +97,47 @@ label4.LineSpacing = 15;
 label4.FontColor = Colors.Blue;
 
 myPlot.Axes.SetLimitsX(-.5, 4);
+
+myPlot.SavePng("demo.png", 400, 300);
+
+```
+
+{{< /code-sp5 >}}
+
+<hr class='my-5 invisible'>
+
+
+<h2><a href='/cookbook/5.0/Text/TextOffset'>Text Offset</a></h2>
+
+The offset properties can be used to fine-tune text position in pixel units
+
+[![](/cookbook/5.0/images/TextOffset.png?240324174053)](/cookbook/5.0/images/TextOffset.png?240324174053)
+
+{{< code-sp5 >}}
+
+```cs
+ScottPlot.Plot myPlot = new();
+
+for (int i = 0; i < 25; i += 5)
+{
+    // place a marker at the point
+    var marker = myPlot.Add.Marker(i, 1);
+
+    // place a styled text label at the point
+    var txt = myPlot.Add.Text($"{i}", i, 1);
+    txt.FontSize = 16;
+    txt.BorderColor = Colors.Black;
+    txt.BorderWidth = 1;
+    txt.Padding = 2;
+    txt.Bold = true;
+    txt.BackColor = marker.Color.WithAlpha(.5);
+
+    // offset the text label by the given number of pixels
+    txt.OffsetX = i;
+    txt.OffsetY = i;
+}
+
+myPlot.Axes.SetLimitsX(-5, 30);
 
 myPlot.SavePng("demo.png", 400, 300);
 

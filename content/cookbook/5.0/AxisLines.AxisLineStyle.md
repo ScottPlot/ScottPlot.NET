@@ -4,9 +4,9 @@ Description: Axis lines have extensive customization options.
 URL: /cookbook/5.0/AxisLines/AxisLineStyle/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Axis Lines", "Axis Line Style"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AxisLines", "/cookbook/5.0/AxisLines/AxisLineStyle"]
-Date: 2024-03-17
-Version: ScottPlot 5.0.22
-Version: ScottPlot 5.0.22
+Date: 2024-03-24
+Version: ScottPlot 5.0.23
+Version: ScottPlot 5.0.23
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Axis lines have extensive customization options.
 
-[![](/cookbook/5.0/images/AxisLineStyle.png?240316205800)](/cookbook/5.0/images/AxisLineStyle.png?240316205800)
+[![](/cookbook/5.0/images/AxisLineStyle.png?240324174053)](/cookbook/5.0/images/AxisLineStyle.png?240324174053)
 
 {{< code-sp5 >}}
 

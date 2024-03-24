@@ -4,9 +4,9 @@ Description: A legend is a key typically displayed in the corner of a plot
 URL: /cookbook/5.0/Legend/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Configuring Legends"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Legend"]
-Date: 2024-03-17
-Version: ScottPlot 5.0.22
-Version: ScottPlot 5.0.22
+Date: 2024-03-24
+Version: ScottPlot 5.0.23
+Version: ScottPlot 5.0.23
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,7 +18,7 @@ ShowEditLink: false
 
 Many plottables have a Label property that can be set so they appear in the legend.
 
-[![](/cookbook/5.0/images/LegendQuickstart.png?240316205800)](/cookbook/5.0/images/LegendQuickstart.png?240316205800)
+[![](/cookbook/5.0/images/LegendQuickstart.png?240324174053)](/cookbook/5.0/images/LegendQuickstart.png?240324174053)
 
 {{< code-sp5 >}}
 
@@ -46,7 +46,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Legends may be constructed manually.
 
-[![](/cookbook/5.0/images/ManualLegend.png?240316205800)](/cookbook/5.0/images/ManualLegend.png?240316205800)
+[![](/cookbook/5.0/images/ManualLegend.png?240324174053)](/cookbook/5.0/images/ManualLegend.png?240324174053)
 
 {{< code-sp5 >}}
 
@@ -89,7 +89,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Access the Legend object directly for advanced customization options.
 
-[![](/cookbook/5.0/images/LegendStyle.png?240316205800)](/cookbook/5.0/images/LegendStyle.png?240316205800)
+[![](/cookbook/5.0/images/LegendStyle.png?240324174053)](/cookbook/5.0/images/LegendStyle.png?240324174053)
 
 {{< code-sp5 >}}
 
@@ -124,7 +124,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Legend items may be arranged horizontally instead of vertically
 
-[![](/cookbook/5.0/images/LegendOrientation.png?240316205800)](/cookbook/5.0/images/LegendOrientation.png?240316205800)
+[![](/cookbook/5.0/images/LegendOrientation.png?240324174053)](/cookbook/5.0/images/LegendOrientation.png?240324174053)
 
 {{< code-sp5 >}}
 
@@ -155,7 +155,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Legend items may wrap to improve display for a large number of items
 
-[![](/cookbook/5.0/images/LegendWrapping.png?240316205800)](/cookbook/5.0/images/LegendWrapping.png?240316205800)
+[![](/cookbook/5.0/images/LegendWrapping.png?240324174053)](/cookbook/5.0/images/LegendWrapping.png?240324174053)
 
 {{< code-sp5 >}}
 

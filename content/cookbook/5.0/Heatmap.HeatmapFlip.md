@@ -4,9 +4,9 @@ Description: Heatmaps can be flipped horizontally and/or vertically
 URL: /cookbook/5.0/Heatmap/HeatmapFlip/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Heatmap", "Flipped Heatmap"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Heatmap", "/cookbook/5.0/Heatmap/HeatmapFlip"]
-Date: 2024-03-17
-Version: ScottPlot 5.0.22
-Version: ScottPlot 5.0.22
+Date: 2024-03-24
+Version: ScottPlot 5.0.23
+Version: ScottPlot 5.0.23
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Heatmaps can be flipped horizontally and/or vertically
 
-[![](/cookbook/5.0/images/HeatmapFlip.png?240316205800)](/cookbook/5.0/images/HeatmapFlip.png?240316205800)
+[![](/cookbook/5.0/images/HeatmapFlip.png?240324174053)](/cookbook/5.0/images/HeatmapFlip.png?240324174053)
 
 {{< code-sp5 >}}
 
@@ -27,21 +27,21 @@ double[,] data = SampleData.MonaLisa();
 
 myPlot.Add.Text("default", 0, 1.5);
 var hm1 = myPlot.Add.Heatmap(data);
-hm1.Extent = new CoordinateRect(0, 1, 0, 1);
+hm1.Position = new CoordinateRect(0, 1, 0, 1);
 
 myPlot.Add.Text("flip X", 2, 1.5);
 var hm2 = myPlot.Add.Heatmap(data);
-hm2.Extent = new CoordinateRect(2, 3, 0, 1);
+hm2.Position = new CoordinateRect(2, 3, 0, 1);
 hm2.FlipHorizontally = true;
 
 myPlot.Add.Text("flip Y", 4, 1.5);
 var hm3 = myPlot.Add.Heatmap(data);
-hm3.Extent = new CoordinateRect(4, 5, 0, 1);
+hm3.Position = new CoordinateRect(4, 5, 0, 1);
 hm3.FlipVertically = true;
 
 myPlot.Add.Text("flip X&Y", 6, 1.5);
 var hm4 = myPlot.Add.Heatmap(data);
-hm4.Extent = new CoordinateRect(6, 7, 0, 1);
+hm4.Position = new CoordinateRect(6, 7, 0, 1);
 hm4.FlipHorizontally = true;
 hm4.FlipVertically = true;
 

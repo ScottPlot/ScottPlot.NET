@@ -4,9 +4,9 @@ Description: The axis size can be increased to accommodate rotated or long tick 
 URL: /cookbook/5.0/CustomizingTicks/RotatedTicksLongLabels/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Customizing Ticks", "Rotated Tick with Long Labels"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/CustomizingTicks", "/cookbook/5.0/CustomizingTicks/RotatedTicksLongLabels"]
-Date: 2024-03-17
-Version: ScottPlot 5.0.22
-Version: ScottPlot 5.0.22
+Date: 2024-03-24
+Version: ScottPlot 5.0.23
+Version: ScottPlot 5.0.23
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 The axis size can be increased to accommodate rotated or long tick labels.
 
-[![](/cookbook/5.0/images/RotatedTicksLongLabels.png?240316205800)](/cookbook/5.0/images/RotatedTicksLongLabels.png?240316205800)
+[![](/cookbook/5.0/images/RotatedTicksLongLabels.png?240324174053)](/cookbook/5.0/images/RotatedTicksLongLabels.png?240324174053)
 
 {{< code-sp5 >}}
 

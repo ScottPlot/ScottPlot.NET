@@ -4,9 +4,9 @@ Description: Line plots with labels appear in the legend.
 URL: /cookbook/5.0/LinePlot/LinePlotLegendQWER/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Line Plot", "Line Plot Legend"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/LinePlot", "/cookbook/5.0/LinePlot/LinePlotLegendQWER"]
-Date: 2024-03-17
-Version: ScottPlot 5.0.22
-Version: ScottPlot 5.0.22
+Date: 2024-03-24
+Version: ScottPlot 5.0.23
+Version: ScottPlot 5.0.23
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Line plots with labels appear in the legend.
 
-[![](/cookbook/5.0/images/LinePlotLegendQWER.png?240316205800)](/cookbook/5.0/images/LinePlotLegendQWER.png?240316205800)
+[![](/cookbook/5.0/images/LinePlotLegendQWER.png?240324174053)](/cookbook/5.0/images/LinePlotLegendQWER.png?240324174053)
 
 {{< code-sp5 >}}
 

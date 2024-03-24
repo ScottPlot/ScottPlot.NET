@@ -4,9 +4,9 @@ Description: Grid lines are typically drawn beneath data, but grids can be confi
 URL: /cookbook/5.0/CustomizingGrids/GridAbove/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Customizing Grids", "Grid Above Data"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/CustomizingGrids", "/cookbook/5.0/CustomizingGrids/GridAbove"]
-Date: 2024-03-17
-Version: ScottPlot 5.0.22
-Version: ScottPlot 5.0.22
+Date: 2024-03-24
+Version: ScottPlot 5.0.23
+Version: ScottPlot 5.0.23
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Grid lines are typically drawn beneath data, but grids can be configured to render on top of plottables too.
 
-[![](/cookbook/5.0/images/GridAbove.png?240316205800)](/cookbook/5.0/images/GridAbove.png?240316205800)
+[![](/cookbook/5.0/images/GridAbove.png?240324174053)](/cookbook/5.0/images/GridAbove.png?240324174053)
 
 {{< code-sp5 >}}
 
@@ -26,10 +26,9 @@ ScottPlot.Plot myPlot = new();
 var sig = myPlot.Add.Signal(ScottPlot.Generate.Sin());
 sig.LineWidth = 10;
 
-ScottPlot.Grids.DefaultGrid grid = myPlot.GetDefaultGrid();
-grid.MajorLineStyle.Width = 3;
-grid.MajorLineStyle.Color = Colors.WhiteSmoke;
-grid.IsBeneathPlottables = false;
+myPlot.Grid.MajorLineWidth = 3;
+myPlot.Grid.MajorLineColor = Colors.WhiteSmoke;
+myPlot.Grid.IsBeneathPlottables = false;
 
 myPlot.SavePng("demo.png", 400, 300);
 

@@ -4,9 +4,9 @@ Description: The `ScatterLine()` method can be used to create a scatter plot wit
 URL: /cookbook/5.0/Scatter/ScatterLine/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Scatter Plot", "Scatter Plot with Lines Only"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Scatter", "/cookbook/5.0/Scatter/ScatterLine"]
-Date: 2024-03-17
-Version: ScottPlot 5.0.22
-Version: ScottPlot 5.0.22
+Date: 2024-03-24
+Version: ScottPlot 5.0.23
+Version: ScottPlot 5.0.23
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 The `ScatterLine()` method can be used to create a scatter plot with a line only (marker size is set to 0).
 
-[![](/cookbook/5.0/images/ScatterLine.png?240316205800)](/cookbook/5.0/images/ScatterLine.png?240316205800)
+[![](/cookbook/5.0/images/ScatterLine.png?240324174053)](/cookbook/5.0/images/ScatterLine.png?240324174053)
 
 {{< code-sp5 >}}
 

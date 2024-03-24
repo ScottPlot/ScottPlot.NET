@@ -4,9 +4,9 @@ Description: A donut chart is a pie chart with an open center. Donut charts can 
 URL: /cookbook/5.0/Pie/PieDonut/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Pie", "Donut from Slices"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Pie", "/cookbook/5.0/Pie/PieDonut"]
-Date: 2024-03-17
-Version: ScottPlot 5.0.22
-Version: ScottPlot 5.0.22
+Date: 2024-03-24
+Version: ScottPlot 5.0.23
+Version: ScottPlot 5.0.23
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 A donut chart is a pie chart with an open center. Donut charts can be created from a collection of slices.
 
-[![](/cookbook/5.0/images/PieDonut.png?240316205800)](/cookbook/5.0/images/PieDonut.png?240316205800)
+[![](/cookbook/5.0/images/PieDonut.png?240324174053)](/cookbook/5.0/images/PieDonut.png?240324174053)
 
 {{< code-sp5 >}}
 

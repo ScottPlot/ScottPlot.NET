@@ -1,12 +1,12 @@
 ---
 Title: Style Helper Functions - ScottPlot 5.0 Cookbook
-Description: Plots contain many objects which can be customized individually by assigining to their public properties, but helper methods exist in the Plot's Style object that make it easier to customzie many items at once using a simpler API.
+Description: Plots contain many objects which can be customized individually by assigning to their public properties, but helper methods exist in the Plot's Style object that make it easier to customize many items at once using a simpler API.
 URL: /cookbook/5.0/Styling/StyleClass/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Styling Plots", "Style Helper Functions"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Styling", "/cookbook/5.0/Styling/StyleClass"]
-Date: 2024-03-17
-Version: ScottPlot 5.0.22
-Version: ScottPlot 5.0.22
+Date: 2024-03-24
+Version: ScottPlot 5.0.23
+Version: ScottPlot 5.0.23
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -14,9 +14,9 @@ ShowEditLink: false
 # Style Helper Functions
 
 
-Plots contain many objects which can be customized individually by assigining to their public properties, but helper methods exist in the Plot's Style object that make it easier to customzie many items at once using a simpler API.
+Plots contain many objects which can be customized individually by assigning to their public properties, but helper methods exist in the Plot's Style object that make it easier to customize many items at once using a simpler API.
 
-[![](/cookbook/5.0/images/StyleClass.png?240316205800)](/cookbook/5.0/images/StyleClass.png?240316205800)
+[![](/cookbook/5.0/images/StyleClass.png?240324174053)](/cookbook/5.0/images/StyleClass.png?240324174053)
 
 {{< code-sp5 >}}
 
@@ -31,10 +31,13 @@ myPlot.Axes.Bottom.Label.Text = "Horizontal Axis";
 myPlot.Axes.Left.Label.Text = "Vertical Axis";
 myPlot.Axes.Title.Label.Text = "Plot Title";
 
-// the Style object contains helper methods to easily style many items at once
-myPlot.Style.Background(figure: Color.FromHex("#07263b"), data: Color.FromHex("#0b3049"));
-myPlot.Style.ColorAxes(Color.FromHex("#a0acb5"));
-myPlot.Style.ColorGrids(Color.FromHex("#0e3d54"));
+// some items must be styled directly
+myPlot.Grid.MajorLineColor = Color.FromHex("#0e3d54");
+myPlot.FigureBackground.Color = Color.FromHex("#07263b");
+myPlot.DataBackground.Color = Color.FromHex("#0b3049");
+
+// the Style object contains helper methods to style many items at once
+myPlot.Axes.Color(Color.FromHex("#a0acb5"));
 
 myPlot.SavePng("demo.png", 400, 300);
 

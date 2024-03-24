@@ -4,9 +4,9 @@ Description: Enable the `Smooth` property for anti-aliased rendering
 URL: /cookbook/5.0/Heatmap/HeatmapSmooth/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Heatmap", "Smooth Heatmap"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Heatmap", "/cookbook/5.0/Heatmap/HeatmapSmooth"]
-Date: 2024-03-17
-Version: ScottPlot 5.0.22
-Version: ScottPlot 5.0.22
+Date: 2024-03-24
+Version: ScottPlot 5.0.23
+Version: ScottPlot 5.0.23
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Enable the `Smooth` property for anti-aliased rendering
 
-[![](/cookbook/5.0/images/HeatmapSmooth.png?240316205800)](/cookbook/5.0/images/HeatmapSmooth.png?240316205800)
+[![](/cookbook/5.0/images/HeatmapSmooth.png?240324174053)](/cookbook/5.0/images/HeatmapSmooth.png?240324174053)
 
 {{< code-sp5 >}}
 
@@ -27,11 +27,11 @@ double[,] data = SampleData.MonaLisa();
 
 myPlot.Add.Text("Smooth = false", 0, 1.1);
 var hm1 = myPlot.Add.Heatmap(data);
-hm1.Extent = new CoordinateRect(0, 1, 0, 1);
+hm1.Position = new CoordinateRect(0, 1, 0, 1);
 
 myPlot.Add.Text("Smooth = true", 1.1, 1.1);
 var hm2 = myPlot.Add.Heatmap(data);
-hm2.Extent = new CoordinateRect(1.1, 2.1, 0, 1);
+hm2.Position = new CoordinateRect(1.1, 2.1, 0, 1);
 hm2.Smooth = true;
 
 myPlot.SavePng("demo.png", 400, 300);

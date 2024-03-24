@@ -4,9 +4,9 @@ Description: Legend items may be arranged horizontally instead of vertically
 URL: /cookbook/5.0/Legend/LegendOrientation/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Configuring Legends", "Legend Orientation"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Legend", "/cookbook/5.0/Legend/LegendOrientation"]
-Date: 2024-03-17
-Version: ScottPlot 5.0.22
-Version: ScottPlot 5.0.22
+Date: 2024-03-24
+Version: ScottPlot 5.0.23
+Version: ScottPlot 5.0.23
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Legend items may be arranged horizontally instead of vertically
 
-[![](/cookbook/5.0/images/LegendOrientation.png?240316205800)](/cookbook/5.0/images/LegendOrientation.png?240316205800)
+[![](/cookbook/5.0/images/LegendOrientation.png?240324174053)](/cookbook/5.0/images/LegendOrientation.png?240324174053)
 
 {{< code-sp5 >}}
 

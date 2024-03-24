@@ -4,9 +4,9 @@ Description: Scatter plots can be extensively styled by interacting with the obj
 URL: /cookbook/5.0/Scatter/ScatterStyling/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Scatter Plot", "Scatter Plot Styling"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Scatter", "/cookbook/5.0/Scatter/ScatterStyling"]
-Date: 2024-03-17
-Version: ScottPlot 5.0.22
-Version: ScottPlot 5.0.22
+Date: 2024-03-24
+Version: ScottPlot 5.0.23
+Version: ScottPlot 5.0.23
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Scatter plots can be extensively styled by interacting with the object that is returned after a scatter plot is added. Assign text to a scatter plot's Label property to allow it to appear in the legend.
 
-[![](/cookbook/5.0/images/ScatterStyling.png?240316205800)](/cookbook/5.0/images/ScatterStyling.png?240316205800)
+[![](/cookbook/5.0/images/ScatterStyling.png?240324174053)](/cookbook/5.0/images/ScatterStyling.png?240324174053)
 
 {{< code-sp5 >}}
 

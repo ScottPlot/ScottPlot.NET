@@ -4,9 +4,9 @@ Description: Heatmaps can be inverted by reversing the order of colors in the co
 URL: /cookbook/5.0/Heatmap/HeatmapInverted/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Heatmap", "Inverted Heatmap"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Heatmap", "/cookbook/5.0/Heatmap/HeatmapInverted"]
-Date: 2024-03-17
-Version: ScottPlot 5.0.22
-Version: ScottPlot 5.0.22
+Date: 2024-03-24
+Version: ScottPlot 5.0.23
+Version: ScottPlot 5.0.23
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Heatmaps can be inverted by reversing the order of colors in the colormap
 
-[![](/cookbook/5.0/images/HeatmapInverted.png?240316205800)](/cookbook/5.0/images/HeatmapInverted.png?240316205800)
+[![](/cookbook/5.0/images/HeatmapInverted.png?240324174053)](/cookbook/5.0/images/HeatmapInverted.png?240324174053)
 
 {{< code-sp5 >}}
 
@@ -27,11 +27,11 @@ double[,] data = SampleData.MonaLisa();
 
 var hm1 = myPlot.Add.Heatmap(data);
 hm1.Colormap = new ScottPlot.Colormaps.Viridis();
-hm1.Extent = new(0, 65, 0, 100);
+hm1.Position = new(0, 65, 0, 100);
 
 var hm2 = myPlot.Add.Heatmap(data);
 hm2.Colormap = new ScottPlot.Colormaps.Viridis().Reversed();
-hm2.Extent = new(100, 165, 0, 100);
+hm2.Position = new(100, 165, 0, 100);
 
 myPlot.SavePng("demo.png", 400, 300);
 

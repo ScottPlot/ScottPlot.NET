@@ -4,9 +4,9 @@ Description: Features for users seeking extensive customization options.
 URL: /cookbook/5.0/AdvancedStyling/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Advanced Styling"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AdvancedStyling"]
-Date: 2024-03-17
-Version: ScottPlot 5.0.22
-Version: ScottPlot 5.0.22
+Date: 2024-03-24
+Version: ScottPlot 5.0.23
+Version: ScottPlot 5.0.23
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,7 +18,7 @@ ShowEditLink: false
 
 An image can be used for the background of the data area.
 
-[![](/cookbook/5.0/images/AdvancedStylingDataBackground.png?240316205800)](/cookbook/5.0/images/AdvancedStylingDataBackground.png?240316205800)
+[![](/cookbook/5.0/images/AdvancedStylingDataBackground.png?240324174053)](/cookbook/5.0/images/AdvancedStylingDataBackground.png?240324174053)
 
 {{< code-sp5 >}}
 
@@ -51,7 +51,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 An image can be used for the background of a figure.
 
-[![](/cookbook/5.0/images/AdvancedStylingFigureBackground.png?240316205800)](/cookbook/5.0/images/AdvancedStylingFigureBackground.png?240316205800)
+[![](/cookbook/5.0/images/AdvancedStylingFigureBackground.png?240324174053)](/cookbook/5.0/images/AdvancedStylingFigureBackground.png?240324174053)
 
 {{< code-sp5 >}}
 
@@ -70,7 +70,7 @@ Image bgImage = SampleImages.MonaLisa();
 myPlot.FigureBackground.Image = bgImage;
 
 // Color the axes and data so they stand out against the dark background
-myPlot.Style.ColorAxes(Colors.White);
+myPlot.Axes.Color(Colors.White);
 sig1.Color = sig1.Color.Lighten(.2);
 sig2.Color = sig2.Color.Lighten(.2);
 sig1.LineWidth = 3;
@@ -92,7 +92,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Colors can be mixed to createa range of colors. This strategy uses linear RGB interpolation.
 
-[![](/cookbook/5.0/images/ColorInterpolation.png?240316205800)](/cookbook/5.0/images/ColorInterpolation.png?240316205800)
+[![](/cookbook/5.0/images/ColorInterpolation.png?240324174053)](/cookbook/5.0/images/ColorInterpolation.png?240324174053)
 
 {{< code-sp5 >}}
 

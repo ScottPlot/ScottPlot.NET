@@ -4,9 +4,9 @@ Description: Axis lines indicate a position on an axis.
 URL: /cookbook/5.0/AxisLines/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Axis Lines"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AxisLines"]
-Date: 2024-03-17
-Version: ScottPlot 5.0.22
-Version: ScottPlot 5.0.22
+Date: 2024-03-24
+Version: ScottPlot 5.0.23
+Version: ScottPlot 5.0.23
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,7 +18,7 @@ ShowEditLink: false
 
 Axis lines are vertical or horizontal lines that span an entire axis.
 
-[![](/cookbook/5.0/images/AxisLineQuickstart.png?240316205800)](/cookbook/5.0/images/AxisLineQuickstart.png?240316205800)
+[![](/cookbook/5.0/images/AxisLineQuickstart.png?240324174053)](/cookbook/5.0/images/AxisLineQuickstart.png?240324174053)
 
 {{< code-sp5 >}}
 
@@ -44,7 +44,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Axis lines have labels that can be used to display arbitrary on the axes they are attached to.
 
-[![](/cookbook/5.0/images/AxisLineLabel.png?240316205800)](/cookbook/5.0/images/AxisLineLabel.png?240316205800)
+[![](/cookbook/5.0/images/AxisLineLabel.png?240324174053)](/cookbook/5.0/images/AxisLineLabel.png?240324174053)
 
 {{< code-sp5 >}}
 
@@ -85,7 +85,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Axis lines have extensive customization options.
 
-[![](/cookbook/5.0/images/AxisLineStyle.png?240316205800)](/cookbook/5.0/images/AxisLineStyle.png?240316205800)
+[![](/cookbook/5.0/images/AxisLineStyle.png?240324174053)](/cookbook/5.0/images/AxisLineStyle.png?240324174053)
 
 {{< code-sp5 >}}
 
