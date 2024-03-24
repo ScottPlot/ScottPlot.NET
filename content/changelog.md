@@ -50,6 +50,8 @@ Release notes for every version of ScottPlot
 </li>
 <li>Avalonia: Fixed transparent background issue introduced in the previous version (<a href="https://github.com/ScottPlot/ScottPlot/issues/3502">#3502</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3516">#3516</a>) <a href="https://github.com/chjrom"><strong>@chjrom</strong></a> <a href="https://github.com/MrOldOwl"><strong>@MrOldOwl</strong></a> <a href="https://github.com/kebox7"><strong>@kebox7</strong></a>
 </li>
+<li>Rendering: Improved canvas state management to prevent duplicate restoration calls (<a href="https://github.com/ScottPlot/ScottPlot/issues/3527">#3527</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3523">#3523</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3528">#3528</a>) <a href="https://github.com/BrianAtZetica"><strong>@BrianAtZetica</strong></a> <a href="https://github.com/chjrom"><strong>@chjrom</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
@@ -70,6 +72,25 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/chjrom'><img src='https://scottplot.net/images/contributors/chjrom.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/MrOldOwl'><img src='https://scottplot.net/images/contributors/mroldowl.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/kebox7'><img src='https://scottplot.net/images/contributors/kebox7.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
+
+</section>
+<section class='mb-5'>
+<h1 class='mb-0'>ScottPlot 4.1.73</h1>
+<div><i>NuGet packages published </i></div>
+<div class='mt-1'>
+<ul>
+<li>Image: Improve automatic axis limit detection for images with manually defined positions (<a href="https://github.com/ScottPlot/ScottPlot/issues/3529">#3529</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3515">#3515</a>) <a href="https://github.com/bukkideme"><strong>@bukkideme</strong></a>
+</li>
+</ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/bukkideme'>@bukkideme</a>, <a href='https://github.com/swharden'>@swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/bukkideme'><img src='https://scottplot.net/images/contributors/bukkideme.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
