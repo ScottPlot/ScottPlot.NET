@@ -52,11 +52,13 @@ Release notes for every version of ScottPlot
 </li>
 <li>Rendering: Improved canvas state management to prevent duplicate restoration calls (<a href="https://github.com/ScottPlot/ScottPlot/issues/3527">#3527</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3523">#3523</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3528">#3528</a>) <a href="https://github.com/BrianAtZetica"><strong>@BrianAtZetica</strong></a> <a href="https://github.com/chjrom"><strong>@chjrom</strong></a>
 </li>
+<li>Signal: Improved performance of large signal plots when zoomed in (<a href="https://github.com/ScottPlot/ScottPlot/issues/3530">#3530</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3229">#3229</a>) <a href="https://github.com/minjjKang"><strong>@minjjKang</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/bjschwarz'>@bjschwarz</a>, <a href='https://github.com/PaxITIS'>@PaxITIS</a>, <a href='https://github.com/MareMare'>@MareMare</a>, <a href='https://github.com/mjazd'>@mjazd</a>, <a href='https://github.com/BrianAtZetica'>@BrianAtZetica</a>, <a href='https://github.com/jamaa'>@jamaa</a>, <a href='https://github.com/RubensMigliore'>@RubensMigliore</a>, <a href='https://github.com/drphobos'>@drphobos</a>, <a href='https://github.com/dlampa'>@dlampa</a>, <a href='https://github.com/chjrom'>@chjrom</a>, <a href='https://github.com/MrOldOwl'>@MrOldOwl</a>, <a href='https://github.com/kebox7'>@kebox7</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/bjschwarz'>@bjschwarz</a>, <a href='https://github.com/PaxITIS'>@PaxITIS</a>, <a href='https://github.com/MareMare'>@MareMare</a>, <a href='https://github.com/mjazd'>@mjazd</a>, <a href='https://github.com/BrianAtZetica'>@BrianAtZetica</a>, <a href='https://github.com/jamaa'>@jamaa</a>, <a href='https://github.com/RubensMigliore'>@RubensMigliore</a>, <a href='https://github.com/drphobos'>@drphobos</a>, <a href='https://github.com/dlampa'>@dlampa</a>, <a href='https://github.com/chjrom'>@chjrom</a>, <a href='https://github.com/MrOldOwl'>@MrOldOwl</a>, <a href='https://github.com/kebox7'>@kebox7</a>, <a href='https://github.com/minjjKang'>@minjjKang</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/aespitia'><img src='https://scottplot.net/images/contributors/aespitia.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -72,6 +74,7 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/chjrom'><img src='https://scottplot.net/images/contributors/chjrom.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/MrOldOwl'><img src='https://scottplot.net/images/contributors/mroldowl.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/kebox7'><img src='https://scottplot.net/images/contributors/kebox7.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/minjjKang'><img src='https://scottplot.net/images/contributors/minjjkang.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
