@@ -12,16 +12,23 @@ Release notes for every version of ScottPlot
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
-<li>Ticks: Modified <code>NumericFixedInterval</code> to add support for inverted axes (<a href="https://github.com/ScottPlot/ScottPlot/issues/3567">#3567</a>) <em><a href="https://github.com/Alexander-png"><strong>@Alexander-png</strong></a></em>
+<li>Ticks: Modified <code>NumericFixedInterval</code> to add support for inverted axes (<a href="https://github.com/ScottPlot/ScottPlot/issues/3567">#3567</a>) <a href="https://github.com/Alexander-png"><strong>@Alexander-png</strong></a>
+</li>
+<li>Bar plot: Improved support for labels on horizontally oriented bar plots (<a href="https://github.com/ScottPlot/ScottPlot/issues/3546">#3546</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3520">#3520</a>) <a href="https://github.com/aespitia"><strong>@aespitia</strong></a> <a href="https://github.com/yui1227"><strong>@yui1227</strong></a>
+</li>
+<li>Axis: Added new axis rules for edge locking, center locking, and tick snapping (<a href="https://github.com/ScottPlot/ScottPlot/issues/3547">#3547</a>) <a href="https://github.com/BrianAtZetica"><strong>@BrianAtZetica</strong></a>
 </li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/Alexander-png'>@Alexander-png</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/Alexander-png'>@Alexander-png</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/yui1227'>@yui1227</a>, <a href='https://github.com/BrianAtZetica'>@BrianAtZetica</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
-<a href='https://github.com/Alexander-png'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Alexander-png'><img src='https://scottplot.net/images/contributors/alexander-png.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/aespitia'><img src='https://scottplot.net/images/contributors/aespitia.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/yui1227'><img src='https://scottplot.net/images/contributors/yui1227.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/BrianAtZetica'><img src='https://scottplot.net/images/contributors/brianatzetica.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
@@ -43,7 +50,7 @@ Release notes for every version of ScottPlot
 </li>
 <li>Style: <code>Plot.Style.SetBestFonts()</code> has moved to <code>Plot.Font.Automatic()</code>
 </li>
-<li>Grid: Added <code>Plot.Grid</code> with axis-specific styling options as seen in the cookbook (<a href="https://github.com/ScottPlot/ScottPlot/issues/3291">#3291</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3293">#3293</a>) <a href="https://github.com/bjschwarz"><strong>@bjschwarz</strong></a>, <a href="https://github.com/PaxITIS"><strong>@PaxITIS</strong></a>
+<li>Grid: Added <code>Plot.Grid</code> with axis-specific styling options as seen in the cookbook (<a href="https://github.com/ScottPlot/ScottPlot/issues/3291">#3291</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3293">#3293</a>) <a href="https://github.com/bjschwarz"><strong>@bjschwarz</strong></a> <a href="https://github.com/PaxITIS"><strong>@PaxITIS</strong></a>
 </li>
 <li>SignalXY: Fixed a bug where the final line segment was not drawn (<a href="https://github.com/ScottPlot/ScottPlot/issues/3495">#3495</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3423">#3423</a>) <a href="https://github.com/MareMare"><strong>@MareMare</strong></a> <a href="https://github.com/mjazd"><strong>@mjazd</strong></a>
 </li>
