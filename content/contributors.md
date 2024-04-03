@@ -56,12 +56,20 @@ Members of the open-source community who contributed to ScottPlot
 <div><a href='https://github.com/chjrom'>@chjrom</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
-<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/brand/favicon.png' height='125' width='125'/></a></div>
+<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/limula-pma.png' height='125' width='125'/></a></div>
 <div><a href='https://github.com/Limula-PMA'>@Limula-PMA</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
-<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/brand/favicon.png' height='125' width='125'/></a></div>
+<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/bwedding.jpg' height='125' width='125'/></a></div>
 <div><a href='https://github.com/bwedding'>@bwedding</a></div>
+</div>
+<div class='bg-light border rounded text-center mx-3 my-2'>
+<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/drolevar.jpg' height='125' width='125'/></a></div>
+<div><a href='https://github.com/drolevar'>@drolevar</a></div>
+</div>
+<div class='bg-light border rounded text-center mx-3 my-2'>
+<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/brand/favicon.png' height='125' width='125'/></a></div>
+<div><a href='https://github.com/Hub3r'>@Hub3r</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/bjschwarz.jpg' height='125' width='125'/></a></div>
@@ -114,10 +122,6 @@ Members of the open-source community who contributed to ScottPlot
 <div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/milkitic.jpg' height='125' width='125'/></a></div>
 <div><a href='https://github.com/Milkitic'>@Milkitic</a></div>
-</div>
-<div class='bg-light border rounded text-center mx-3 my-2'>
-<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/drolevar.jpg' height='125' width='125'/></a></div>
-<div><a href='https://github.com/drolevar'>@drolevar</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/arthurits.png' height='125' width='125'/></a></div>
