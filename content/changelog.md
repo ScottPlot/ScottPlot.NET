@@ -26,11 +26,17 @@ Release notes for every version of ScottPlot
 </li>
 <li>Annotation: Improve positioning so it is unaffected by typeface or font (<a href="https://github.com/ScottPlot/ScottPlot/issues/3558">#3558</a>) <a href="https://github.com/MCF"><strong>@MCF</strong></a>
 </li>
+<li>Controls: Improve render artifacts on platforms that allow concurrent rendering and UI manipulation (<a href="https://github.com/ScottPlot/ScottPlot/issues/3559">#3559</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3557">#3557</a>) <a href="https://github.com/chjrom"><strong>@chjrom</strong></a> <a href="https://github.com/Limula-PMA"><strong>@Limula-PMA</strong></a>
+</li>
+<li>Controls: Improve behavior of interactions started outside the plot area (<a href="https://github.com/ScottPlot/ScottPlot/issues/3571">#3571</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3543">#3543</a>) <a href="https://github.com/bwedding"><strong>@bwedding</strong></a> <a href="https://github.com/pkstrsk"><strong>@pkstrsk</strong></a>
+</li>
+<li>Label: Prevent rendering borders when line width is zero (<a href="https://github.com/ScottPlot/ScottPlot/issues/3572">#3572</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3538">#3538</a>) <a href="https://github.com/bwedding"><strong>@bwedding</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/Alexander-png'>@Alexander-png</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/yui1227'>@yui1227</a>, <a href='https://github.com/BrianAtZetica'>@BrianAtZetica</a>, <a href='https://github.com/endreew'>@endreew</a>, <a href='https://github.com/KroMignon'>@KroMignon</a>, <a href='https://github.com/blahetal'>@blahetal</a>, <a href='https://github.com/pkstrsk'>@pkstrsk</a>, <a href='https://github.com/MCF'>@MCF</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/Alexander-png'>@Alexander-png</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/yui1227'>@yui1227</a>, <a href='https://github.com/BrianAtZetica'>@BrianAtZetica</a>, <a href='https://github.com/endreew'>@endreew</a>, <a href='https://github.com/KroMignon'>@KroMignon</a>, <a href='https://github.com/blahetal'>@blahetal</a>, <a href='https://github.com/pkstrsk'>@pkstrsk</a>, <a href='https://github.com/MCF'>@MCF</a>, <a href='https://github.com/chjrom'>@chjrom</a>, <a href='https://github.com/Limula-PMA'>@Limula-PMA</a>, <a href='https://github.com/bwedding'>@bwedding</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/Alexander-png'><img src='https://scottplot.net/images/contributors/alexander-png.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -39,9 +45,12 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/BrianAtZetica'><img src='https://scottplot.net/images/contributors/brianatzetica.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/endreew'><img src='https://scottplot.net/images/contributors/endreew.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/KroMignon'><img src='https://scottplot.net/images/contributors/kromignon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/blahetal'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/pkstrsk'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/blahetal'><img src='https://scottplot.net/images/contributors/blahetal.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/pkstrsk'><img src='https://scottplot.net/images/contributors/pkstrsk.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/MCF'><img src='https://scottplot.net/images/contributors/mcf.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/chjrom'><img src='https://scottplot.net/images/contributors/chjrom.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Limula-PMA'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/bwedding'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
