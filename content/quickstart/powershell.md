@@ -22,7 +22,8 @@ date: 2023-12-13
 
 **Step 3: Create a PowerShell script**
 * Enter the builder folder containing `ScottPlot.dll`
-* Enter the runtimes folder, select your platform (ex. win-x64), copy `libSkiaSharp` and paste it in the folder containing `ScottPlot.dll`
+* Enter the runtimes folder, select your platform (ex. win-x64)
+* Copy `libSkiaSharp` and paste it in the folder containing `ScottPlot.dll`
 * Create `myScript.ps1` and copy the following contents into it
 * Run the script using PowerShell Core (not Windows PowerShell)
 
