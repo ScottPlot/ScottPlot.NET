@@ -36,11 +36,15 @@ Release notes for every version of ScottPlot
 </li>
 <li>DataLogger: Added support for <code>NaN</code> values to display gaps in the line (<a href="https://github.com/ScottPlot/ScottPlot/issues/3577">#3577</a>) <a href="https://github.com/drolevar"><strong>@drolevar</strong></a>
 </li>
+<li>Finance: OHLC plots now have a <code>Sequential</code> mode (like candlestick plots) for displaying data without gaps (<a href="https://github.com/ScottPlot/ScottPlot/issues/3590">#3590</a>) <a href="https://github.com/oktrue"><strong>@oktrue</strong></a>
+</li>
+<li>Plot: Added optional arguments to <code>GetCoordinateRect()</code> to support non-standard axes (<a href="https://github.com/ScottPlot/ScottPlot/issues/3591">#3591</a>) <a href="https://github.com/oktrue"><strong>@oktrue</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/Alexander-png'>@Alexander-png</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/yui1227'>@yui1227</a>, <a href='https://github.com/BrianAtZetica'>@BrianAtZetica</a>, <a href='https://github.com/endreew'>@endreew</a>, <a href='https://github.com/KroMignon'>@KroMignon</a>, <a href='https://github.com/blahetal'>@blahetal</a>, <a href='https://github.com/pkstrsk'>@pkstrsk</a>, <a href='https://github.com/MCF'>@MCF</a>, <a href='https://github.com/chjrom'>@chjrom</a>, <a href='https://github.com/Limula-PMA'>@Limula-PMA</a>, <a href='https://github.com/bwedding'>@bwedding</a>, <a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/Hub3r'>@Hub3r</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/Alexander-png'>@Alexander-png</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/yui1227'>@yui1227</a>, <a href='https://github.com/BrianAtZetica'>@BrianAtZetica</a>, <a href='https://github.com/endreew'>@endreew</a>, <a href='https://github.com/KroMignon'>@KroMignon</a>, <a href='https://github.com/blahetal'>@blahetal</a>, <a href='https://github.com/pkstrsk'>@pkstrsk</a>, <a href='https://github.com/MCF'>@MCF</a>, <a href='https://github.com/chjrom'>@chjrom</a>, <a href='https://github.com/Limula-PMA'>@Limula-PMA</a>, <a href='https://github.com/bwedding'>@bwedding</a>, <a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/Hub3r'>@Hub3r</a>, <a href='https://github.com/oktrue'>@oktrue</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/Alexander-png'><img src='https://scottplot.net/images/contributors/alexander-png.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -56,7 +60,8 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/Limula-PMA'><img src='https://scottplot.net/images/contributors/limula-pma.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/bwedding'><img src='https://scottplot.net/images/contributors/bwedding.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/drolevar'><img src='https://scottplot.net/images/contributors/drolevar.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/Hub3r'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Hub3r'><img src='https://scottplot.net/images/contributors/hub3r.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/oktrue'><img src='https://scottplot.net/images/contributors/oktrue.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
