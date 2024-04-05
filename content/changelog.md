@@ -40,11 +40,17 @@ Release notes for every version of ScottPlot
 </li>
 <li>Plot: Added optional arguments to <code>GetCoordinateRect()</code> to support non-standard axes (<a href="https://github.com/ScottPlot/ScottPlot/issues/3591">#3591</a>) <a href="https://github.com/oktrue"><strong>@oktrue</strong></a>
 </li>
+<li>Axes: Added optional arguments to <code>Plot.Axes.AutoScale()</code> to add support for nonstandard axes (<a href="https://github.com/ScottPlot/ScottPlot/issues/3592">#3592</a>)
+</li>
+<li>Axis Rules: Improved <code>Plot.Axes.SquareUnits()</code> to support inverted axes (<a href="https://github.com/ScottPlot/ScottPlot/issues/3592">#3592</a>) <a href="https://github.com/VisMotrix"><strong>@VisMotrix</strong></a>
+</li>
+<li>WinForms: Improve <code>FormsPlot</code> disposal so the control displays properly when re-launched (<a href="https://github.com/ScottPlot/ScottPlot/issues/3593">#3593</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3589">#3589</a>) <a href="https://github.com/bwedding"><strong>@bwedding</strong></a> <a href="https://github.com/Kruno313"><strong>@Kruno313</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/Alexander-png'>@Alexander-png</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/yui1227'>@yui1227</a>, <a href='https://github.com/BrianAtZetica'>@BrianAtZetica</a>, <a href='https://github.com/endreew'>@endreew</a>, <a href='https://github.com/KroMignon'>@KroMignon</a>, <a href='https://github.com/blahetal'>@blahetal</a>, <a href='https://github.com/pkstrsk'>@pkstrsk</a>, <a href='https://github.com/MCF'>@MCF</a>, <a href='https://github.com/chjrom'>@chjrom</a>, <a href='https://github.com/Limula-PMA'>@Limula-PMA</a>, <a href='https://github.com/bwedding'>@bwedding</a>, <a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/Hub3r'>@Hub3r</a>, <a href='https://github.com/oktrue'>@oktrue</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/Alexander-png'>@Alexander-png</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/yui1227'>@yui1227</a>, <a href='https://github.com/BrianAtZetica'>@BrianAtZetica</a>, <a href='https://github.com/endreew'>@endreew</a>, <a href='https://github.com/KroMignon'>@KroMignon</a>, <a href='https://github.com/blahetal'>@blahetal</a>, <a href='https://github.com/pkstrsk'>@pkstrsk</a>, <a href='https://github.com/MCF'>@MCF</a>, <a href='https://github.com/chjrom'>@chjrom</a>, <a href='https://github.com/Limula-PMA'>@Limula-PMA</a>, <a href='https://github.com/bwedding'>@bwedding</a>, <a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/Hub3r'>@Hub3r</a>, <a href='https://github.com/oktrue'>@oktrue</a>, <a href='https://github.com/VisMotrix'>@VisMotrix</a>, <a href='https://github.com/Kruno313'>@Kruno313</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/Alexander-png'><img src='https://scottplot.net/images/contributors/alexander-png.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -62,6 +68,8 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/drolevar'><img src='https://scottplot.net/images/contributors/drolevar.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Hub3r'><img src='https://scottplot.net/images/contributors/hub3r.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/oktrue'><img src='https://scottplot.net/images/contributors/oktrue.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/VisMotrix'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Kruno313'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
