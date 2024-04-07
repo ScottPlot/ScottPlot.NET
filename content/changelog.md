@@ -9,7 +9,7 @@ Release notes for every version of ScottPlot
 
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 5.0.24</h1>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2024-04-07</i></div>
 <div class='mt-1'>
 <ul>
 <li>Ticks: Modified <code>NumericFixedInterval</code> to add support for inverted axes (<a href="https://github.com/ScottPlot/ScottPlot/issues/3567">#3567</a>) <a href="https://github.com/Alexander-png"><strong>@Alexander-png</strong></a>
@@ -104,7 +104,7 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/mawbydp'><img src='https://scottplot.net/images/contributors/mawbydp.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/hnMel'><img src='https://scottplot.net/images/contributors/hnmel.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Giviruk'><img src='https://scottplot.net/images/contributors/giviruk.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/wellsw'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/wellsw'><img src='https://scottplot.net/images/contributors/wellsw.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
