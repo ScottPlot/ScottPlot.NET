@@ -8,8 +8,107 @@ Description: Release notes for every version of ScottPlot
 Release notes for every version of ScottPlot
 
 <section class='mb-5'>
-<h1 class='mb-0'>ScottPlot 5.0.23</h1>
+<h1 class='mb-0'>ScottPlot 5.0.24</h1>
 <div><i>NuGet packages published </i></div>
+<div class='mt-1'>
+<ul>
+<li>Ticks: Modified <code>NumericFixedInterval</code> to add support for inverted axes (<a href="https://github.com/ScottPlot/ScottPlot/issues/3567">#3567</a>) <a href="https://github.com/Alexander-png"><strong>@Alexander-png</strong></a>
+</li>
+<li>Bar plot: Improved support for labels on horizontally oriented bar plots (<a href="https://github.com/ScottPlot/ScottPlot/issues/3546">#3546</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3520">#3520</a>) <a href="https://github.com/aespitia"><strong>@aespitia</strong></a> <a href="https://github.com/yui1227"><strong>@yui1227</strong></a>
+</li>
+<li>Axis: Added new axis rules for edge locking, center locking, and tick snapping (<a href="https://github.com/ScottPlot/ScottPlot/issues/3547">#3547</a>) <a href="https://github.com/BrianAtZetica"><strong>@BrianAtZetica</strong></a>
+</li>
+<li>SignalXY: Added <code>GetNearest()</code> for locating the data point nearest the cursor (<a href="https://github.com/ScottPlot/ScottPlot/issues/3550">#3550</a>) <a href="https://github.com/endreew"><strong>@endreew</strong></a>
+</li>
+<li>Demo: Added demonstration for draggable <code>SignalXY</code> plots which respond to the cursor (<a href="https://github.com/ScottPlot/ScottPlot/issues/3550">#3550</a>) <a href="https://github.com/endreew"><strong>@endreew</strong></a>
+</li>
+<li>Legend: Do not display plottables where <code>IsVisible</code> is <code>false</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/3552">#3552</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3545">#3545</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3541">#3541</a>) <a href="https://github.com/KroMignon"><strong>@KroMignon</strong></a>, <a href="https://github.com/blahetal"><strong>@blahetal</strong></a>, <a href="https://github.com/pkstrsk"><strong>@pkstrsk</strong></a>
+</li>
+<li>Annotation: Improve positioning so it is unaffected by typeface or font (<a href="https://github.com/ScottPlot/ScottPlot/issues/3558">#3558</a>) <a href="https://github.com/MCF"><strong>@MCF</strong></a>
+</li>
+<li>Controls: Improve render artifacts on platforms that allow concurrent rendering and UI manipulation (<a href="https://github.com/ScottPlot/ScottPlot/issues/3559">#3559</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3557">#3557</a>) <a href="https://github.com/chjrom"><strong>@chjrom</strong></a> <a href="https://github.com/Limula-PMA"><strong>@Limula-PMA</strong></a>
+</li>
+<li>Controls: Improve behavior of interactions started outside the plot area (<a href="https://github.com/ScottPlot/ScottPlot/issues/3571">#3571</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3543">#3543</a>) <a href="https://github.com/bwedding"><strong>@bwedding</strong></a> <a href="https://github.com/pkstrsk"><strong>@pkstrsk</strong></a>
+</li>
+<li>Label: Prevent rendering borders when line width is zero (<a href="https://github.com/ScottPlot/ScottPlot/issues/3572">#3572</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3538">#3538</a>) <a href="https://github.com/bwedding"><strong>@bwedding</strong></a>
+</li>
+<li>Scatter: Added support for <code>NaN</code> values to display gaps in the line (<a href="https://github.com/ScottPlot/ScottPlot/issues/3577">#3577</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3276">#3276</a>) <a href="https://github.com/drolevar"><strong>@drolevar</strong></a> <a href="https://github.com/Hub3r"><strong>@Hub3r</strong></a>
+</li>
+<li>DataLogger: Added support for <code>NaN</code> values to display gaps in the line (<a href="https://github.com/ScottPlot/ScottPlot/issues/3577">#3577</a>) <a href="https://github.com/drolevar"><strong>@drolevar</strong></a>
+</li>
+<li>Finance: OHLC plots now have a <code>Sequential</code> mode (like candlestick plots) for displaying data without gaps (<a href="https://github.com/ScottPlot/ScottPlot/issues/3590">#3590</a>) <a href="https://github.com/oktrue"><strong>@oktrue</strong></a>
+</li>
+<li>Plot: Added optional arguments to <code>GetCoordinateRect()</code> to support non-standard axes (<a href="https://github.com/ScottPlot/ScottPlot/issues/3591">#3591</a>) <a href="https://github.com/oktrue"><strong>@oktrue</strong></a>
+</li>
+<li>Axes: Added optional arguments to <code>Plot.Axes.AutoScale()</code> to add support for nonstandard axes (<a href="https://github.com/ScottPlot/ScottPlot/issues/3592">#3592</a>)
+</li>
+<li>Axis Rules: Improved <code>Plot.Axes.SquareUnits()</code> to support inverted axes (<a href="https://github.com/ScottPlot/ScottPlot/issues/3592">#3592</a>) <a href="https://github.com/VisMotrix"><strong>@VisMotrix</strong></a>
+</li>
+<li>WinForms: Improve <code>FormsPlot</code> disposal so the control displays properly when re-launched (<a href="https://github.com/ScottPlot/ScottPlot/issues/3593">#3593</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3589">#3589</a>) <a href="https://github.com/bwedding"><strong>@bwedding</strong></a> <a href="https://github.com/Kruno313"><strong>@Kruno313</strong></a>
+</li>
+<li>Signal: Added support for inverted horizontal axes (<a href="https://github.com/ScottPlot/ScottPlot/issues/3594">#3594</a>) <a href="https://github.com/Excustic"><strong>@Excustic</strong></a>
+</li>
+<li>Axes: New helper methods <code>Plot.Axes.InvertX()</code>, <code>Plot.Axes.RectifyX()</code>, and similar for Y (<a href="https://github.com/ScottPlot/ScottPlot/issues/3594">#3594</a>)
+</li>
+<li>Rendering: Improved performance for plot types with many lines (<a href="https://github.com/ScottPlot/ScottPlot/issues/3601">#3601</a>) <a href="https://github.com/drolevar"><strong>@drolevar</strong></a>
+</li>
+<li>Function Plot: Improve support for functions with limited X ranges (<a href="https://github.com/ScottPlot/ScottPlot/issues/3595">#3595</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3603">#3603</a>) <a href="https://github.com/Dibyanshuaman"><strong>@Dibyanshuaman</strong></a> <a href="https://github.com/Matthew-Chidlow"><strong>@Matthew-Chidlow</strong></a>
+</li>
+<li>Controls: All controls now include <code>Reset()</code> overloads for resetting or replacing the <code>Plot</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/3604">#3604</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3353">#3353</a>) <a href="https://github.com/aniketkumar7"><strong>@aniketkumar7</strong></a> <a href="https://github.com/jon-rizzo"><strong>@jon-rizzo</strong></a>
+</li>
+<li>Scatter: The <code>Smooth</code> property now allows points to be connected with smooth lines (<a href="https://github.com/ScottPlot/ScottPlot/issues/3606">#3606</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3274">#3274</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3566">#3566</a>) <a href="https://github.com/bjschwarz"><strong>@bjschwarz</strong></a> <a href="https://github.com/ja1234567"><strong>@ja1234567</strong></a> <a href="https://github.com/bwedding"><strong>@bwedding</strong></a> <a href="https://github.com/CBrauer"><strong>@CBrauer</strong></a>
+</li>
+<li>Layout: Added logic to reduce the size of axes which are visible but not used by any plottable (<a href="https://github.com/ScottPlot/ScottPlot/issues/3608">#3608</a>)
+</li>
+<li>Colorbar: Improved positioning and support for adding multiple colorbars to plots (<a href="https://github.com/ScottPlot/ScottPlot/issues/3294">#3294</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3560">#3560</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3586">#3586</a>) <a href="https://github.com/NateEbling"><strong>@NateEbling</strong></a> <a href="https://github.com/mawbydp"><strong>@mawbydp</strong></a> <a href="https://github.com/hnMel"><strong>@hnMel</strong></a>
+</li>
+<li>Colorbar: Added a <code>Label</code> which users can customize to display an optional title (<a href="https://github.com/ScottPlot/ScottPlot/issues/3611">#3611</a>) <a href="https://github.com/mawbydp"><strong>@mawbydp</strong></a>
+</li>
+<li>SignalXY: Added support for markers and marker styling (<a href="https://github.com/ScottPlot/ScottPlot/issues/3602">#3602</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3609">#3609</a>) <a href="https://github.com/Giviruk"><strong>@Giviruk</strong></a>
+</li>
+</ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/Alexander-png'>@Alexander-png</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/yui1227'>@yui1227</a>, <a href='https://github.com/BrianAtZetica'>@BrianAtZetica</a>, <a href='https://github.com/endreew'>@endreew</a>, <a href='https://github.com/KroMignon'>@KroMignon</a>, <a href='https://github.com/blahetal'>@blahetal</a>, <a href='https://github.com/pkstrsk'>@pkstrsk</a>, <a href='https://github.com/MCF'>@MCF</a>, <a href='https://github.com/chjrom'>@chjrom</a>, <a href='https://github.com/Limula-PMA'>@Limula-PMA</a>, <a href='https://github.com/bwedding'>@bwedding</a>, <a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/Hub3r'>@Hub3r</a>, <a href='https://github.com/oktrue'>@oktrue</a>, <a href='https://github.com/VisMotrix'>@VisMotrix</a>, <a href='https://github.com/Kruno313'>@Kruno313</a>, <a href='https://github.com/Excustic'>@Excustic</a>, <a href='https://github.com/Dibyanshuaman'>@Dibyanshuaman</a>, <a href='https://github.com/Matthew-Chidlow'>@Matthew-Chidlow</a>, <a href='https://github.com/aniketkumar7'>@aniketkumar7</a>, <a href='https://github.com/jon-rizzo'>@jon-rizzo</a>, <a href='https://github.com/bjschwarz'>@bjschwarz</a>, <a href='https://github.com/ja1234567'>@ja1234567</a>, <a href='https://github.com/CBrauer'>@CBrauer</a>, <a href='https://github.com/NateEbling'>@NateEbling</a>, <a href='https://github.com/mawbydp'>@mawbydp</a>, <a href='https://github.com/hnMel'>@hnMel</a>, <a href='https://github.com/Giviruk'>@Giviruk</a>, <a href='https://github.com/swharden'>@swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/Alexander-png'><img src='https://scottplot.net/images/contributors/alexander-png.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/aespitia'><img src='https://scottplot.net/images/contributors/aespitia.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/yui1227'><img src='https://scottplot.net/images/contributors/yui1227.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/BrianAtZetica'><img src='https://scottplot.net/images/contributors/brianatzetica.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/endreew'><img src='https://scottplot.net/images/contributors/endreew.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/KroMignon'><img src='https://scottplot.net/images/contributors/kromignon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/blahetal'><img src='https://scottplot.net/images/contributors/blahetal.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/pkstrsk'><img src='https://scottplot.net/images/contributors/pkstrsk.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/MCF'><img src='https://scottplot.net/images/contributors/mcf.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/chjrom'><img src='https://scottplot.net/images/contributors/chjrom.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Limula-PMA'><img src='https://scottplot.net/images/contributors/limula-pma.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/bwedding'><img src='https://scottplot.net/images/contributors/bwedding.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/drolevar'><img src='https://scottplot.net/images/contributors/drolevar.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Hub3r'><img src='https://scottplot.net/images/contributors/hub3r.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/oktrue'><img src='https://scottplot.net/images/contributors/oktrue.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/VisMotrix'><img src='https://scottplot.net/images/contributors/vismotrix.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Kruno313'><img src='https://scottplot.net/images/contributors/kruno313.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Excustic'><img src='https://scottplot.net/images/contributors/excustic.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Dibyanshuaman'><img src='https://scottplot.net/images/contributors/dibyanshuaman.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Matthew-Chidlow'><img src='https://scottplot.net/images/contributors/matthew-chidlow.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/aniketkumar7'><img src='https://scottplot.net/images/contributors/aniketkumar7.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/jon-rizzo'><img src='https://scottplot.net/images/contributors/jon-rizzo.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/bjschwarz'><img src='https://scottplot.net/images/contributors/bjschwarz.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/ja1234567'><img src='https://scottplot.net/images/contributors/ja1234567.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/CBrauer'><img src='https://scottplot.net/images/contributors/cbrauer.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/NateEbling'><img src='https://scottplot.net/images/contributors/nateebling.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/mawbydp'><img src='https://scottplot.net/images/contributors/mawbydp.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/hnMel'><img src='https://scottplot.net/images/contributors/hnmel.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Giviruk'><img src='https://scottplot.net/images/contributors/giviruk.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
+
+</section>
+<section class='mb-5'>
+<h1 class='mb-0'>ScottPlot 5.0.23</h1>
+<div><i>NuGet packages published 2024-03-24</i></div>
 <div class='mt-1'>
 <ul>
 <li>Plot: Added <code>ShowLegend()</code> overload that does not override the current <code>Orientation</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/3450">#3450</a>) <a href="https://github.com/aespitia"><strong>@aespitia</strong></a>
@@ -24,7 +123,7 @@ Release notes for every version of ScottPlot
 </li>
 <li>Style: <code>Plot.Style.SetBestFonts()</code> has moved to <code>Plot.Font.Automatic()</code>
 </li>
-<li>Grid: Added <code>Plot.Grid</code> with axis-specific styling options as seen in the cookbook (<a href="https://github.com/ScottPlot/ScottPlot/issues/3291">#3291</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3293">#3293</a>) <a href="https://github.com/bjschwarz"><strong>@bjschwarz</strong></a>, <a href="https://github.com/PaxITIS"><strong>@PaxITIS</strong></a>
+<li>Grid: Added <code>Plot.Grid</code> with axis-specific styling options as seen in the cookbook (<a href="https://github.com/ScottPlot/ScottPlot/issues/3291">#3291</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3293">#3293</a>) <a href="https://github.com/bjschwarz"><strong>@bjschwarz</strong></a> <a href="https://github.com/PaxITIS"><strong>@PaxITIS</strong></a>
 </li>
 <li>SignalXY: Fixed a bug where the final line segment was not drawn (<a href="https://github.com/ScottPlot/ScottPlot/issues/3495">#3495</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3423">#3423</a>) <a href="https://github.com/MareMare"><strong>@MareMare</strong></a> <a href="https://github.com/mjazd"><strong>@mjazd</strong></a>
 </li>
@@ -81,7 +180,7 @@ Release notes for every version of ScottPlot
 </section>
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 4.1.73</h1>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2024-03-24</i></div>
 <div class='mt-1'>
 <ul>
 <li>Image: Improve automatic axis limit detection for images with manually defined positions (<a href="https://github.com/ScottPlot/ScottPlot/issues/3529">#3529</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3515">#3515</a>) <a href="https://github.com/bukkideme"><strong>@bukkideme</strong></a>
