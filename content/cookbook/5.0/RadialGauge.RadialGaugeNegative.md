@@ -4,9 +4,9 @@ Description: Radial gauge plots support positive and negative values.
 URL: /cookbook/5.0/RadialGauge/RadialGaugeNegative/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Radial gauge", "Negative Values"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/RadialGauge", "/cookbook/5.0/RadialGauge/RadialGaugeNegative"]
-Date: 2024-03-24
-Version: ScottPlot 5.0.23
-Version: ScottPlot 5.0.23
+Date: 2024-04-07
+Version: ScottPlot 5.0.24
+Version: ScottPlot 5.0.24
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Radial gauge plots support positive and negative values.
 
-[![](/cookbook/5.0/images/RadialGaugeNegative.png?240324174053)](/cookbook/5.0/images/RadialGaugeNegative.png?240324174053)
+[![](/cookbook/5.0/images/RadialGaugeNegative.png?240407170921)](/cookbook/5.0/images/RadialGaugeNegative.png?240407170921)
 
 {{< code-sp5 >}}
 

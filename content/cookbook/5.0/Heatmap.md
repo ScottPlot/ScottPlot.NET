@@ -4,9 +4,9 @@ Description: Heatmaps display values from 2D data as an image with cells of diff
 URL: /cookbook/5.0/Heatmap/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Heatmap"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Heatmap"]
-Date: 2024-03-24
-Version: ScottPlot 5.0.23
-Version: ScottPlot 5.0.23
+Date: 2024-04-07
+Version: ScottPlot 5.0.24
+Version: ScottPlot 5.0.24
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,7 +18,7 @@ ShowEditLink: false
 
 Heatmaps can be created from 2D arrays
 
-[![](/cookbook/5.0/images/HeatmapQuickstart.png?240324174053)](/cookbook/5.0/images/HeatmapQuickstart.png?240324174053)
+[![](/cookbook/5.0/images/HeatmapQuickstart.png?240407170921)](/cookbook/5.0/images/HeatmapQuickstart.png?240407170921)
 
 {{< code-sp5 >}}
 
@@ -41,7 +41,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Heatmaps can be inverted by reversing the order of colors in the colormap
 
-[![](/cookbook/5.0/images/HeatmapInverted.png?240324174053)](/cookbook/5.0/images/HeatmapInverted.png?240324174053)
+[![](/cookbook/5.0/images/HeatmapInverted.png?240407170921)](/cookbook/5.0/images/HeatmapInverted.png?240407170921)
 
 {{< code-sp5 >}}
 
@@ -71,7 +71,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 A heatmap's Colormap is the logic used to convert from cell value to cell color and they can set by the user. ScottPlot comes with many common colormaps, but users may implement IColormap and apply their own. A colorbar can be added to indicate which colors map to which values.
 
-[![](/cookbook/5.0/images/HeatmapColormap.png?240324174053)](/cookbook/5.0/images/HeatmapColormap.png?240324174053)
+[![](/cookbook/5.0/images/HeatmapColormap.png?240407170921)](/cookbook/5.0/images/HeatmapColormap.png?240407170921)
 
 {{< code-sp5 >}}
 
@@ -83,8 +83,68 @@ double[,] data = SampleData.MonaLisa();
 var hm1 = myPlot.Add.Heatmap(data);
 hm1.Colormap = new ScottPlot.Colormaps.Turbo();
 
-// TODO: this isn't working quite right yet...
 myPlot.Add.ColorBar(hm1);
+
+myPlot.SavePng("demo.png", 400, 300);
+
+```
+
+{{< /code-sp5 >}}
+
+<hr class='my-5 invisible'>
+
+
+<h2><a href='/cookbook/5.0/Heatmap/HeatmapMultipleColorbar'>Multiple Colorbars</a></h2>
+
+Multiple colorbars may be added to plots.
+
+[![](/cookbook/5.0/images/HeatmapMultipleColorbar.png?240407170921)](/cookbook/5.0/images/HeatmapMultipleColorbar.png?240407170921)
+
+{{< code-sp5 >}}
+
+```cs
+ScottPlot.Plot myPlot = new();
+
+double[,] data = SampleData.MonaLisa();
+
+var hm1 = myPlot.Add.Heatmap(data);
+hm1.Extent = new(0, 1, 0, 1);
+hm1.Colormap = new ScottPlot.Colormaps.Turbo();
+myPlot.Add.ColorBar(hm1);
+
+var hm2 = myPlot.Add.Heatmap(data);
+hm2.Extent = new(1.5, 2.5, 0, 1);
+hm2.Colormap = new ScottPlot.Colormaps.Viridis();
+myPlot.Add.ColorBar(hm2);
+
+myPlot.SavePng("demo.png", 400, 300);
+
+```
+
+{{< /code-sp5 >}}
+
+<hr class='my-5 invisible'>
+
+
+<h2><a href='/cookbook/5.0/Heatmap/ColorbarTitle'>Colorbar Title</a></h2>
+
+A colorbar displays a colormap on an edge of the plot, and it has an optional label which can be customized to display a title.
+
+[![](/cookbook/5.0/images/ColorbarTitle.png?240407170921)](/cookbook/5.0/images/ColorbarTitle.png?240407170921)
+
+{{< code-sp5 >}}
+
+```cs
+ScottPlot.Plot myPlot = new();
+
+double[,] data = SampleData.MonaLisa();
+
+var hm = myPlot.Add.Heatmap(data);
+hm.Colormap = new ScottPlot.Colormaps.Turbo();
+
+var cb = myPlot.Add.ColorBar(hm);
+cb.Label = "Intensity";
+cb.LabelStyle.FontSize = 24;
 
 myPlot.SavePng("demo.png", 400, 300);
 
@@ -99,7 +159,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Heatmaps can be flipped horizontally and/or vertically
 
-[![](/cookbook/5.0/images/HeatmapFlip.png?240324174053)](/cookbook/5.0/images/HeatmapFlip.png?240324174053)
+[![](/cookbook/5.0/images/HeatmapFlip.png?240407170921)](/cookbook/5.0/images/HeatmapFlip.png?240407170921)
 
 {{< code-sp5 >}}
 
@@ -143,7 +203,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Enable the `Smooth` property for anti-aliased rendering
 
-[![](/cookbook/5.0/images/HeatmapSmooth.png?240324174053)](/cookbook/5.0/images/HeatmapSmooth.png?240324174053)
+[![](/cookbook/5.0/images/HeatmapSmooth.png?240407170921)](/cookbook/5.0/images/HeatmapSmooth.png?240407170921)
 
 {{< code-sp5 >}}
 
@@ -174,7 +234,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Assign double.NaN to a heatmap cell to make it transparent.
 
-[![](/cookbook/5.0/images/HeatmapTransparentCells.png?240324174053)](/cookbook/5.0/images/HeatmapTransparentCells.png?240324174053)
+[![](/cookbook/5.0/images/HeatmapTransparentCells.png?240407170921)](/cookbook/5.0/images/HeatmapTransparentCells.png?240407170921)
 
 {{< code-sp5 >}}
 
@@ -217,7 +277,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 The transparency of the entire heatmap can be adjusted.
 
-[![](/cookbook/5.0/images/HeatmapGlobalTransparency.png?240324174053)](/cookbook/5.0/images/HeatmapGlobalTransparency.png?240324174053)
+[![](/cookbook/5.0/images/HeatmapGlobalTransparency.png?240407170921)](/cookbook/5.0/images/HeatmapGlobalTransparency.png?240407170921)
 
 {{< code-sp5 >}}
 
@@ -248,7 +308,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 An alpha map (a 2d array of byte values) can be used to apply custom transparency to each cell of a heatmap.
 
-[![](/cookbook/5.0/images/HeatmapAlphaMap.png?240324174053)](/cookbook/5.0/images/HeatmapAlphaMap.png?240324174053)
+[![](/cookbook/5.0/images/HeatmapAlphaMap.png?240407170921)](/cookbook/5.0/images/HeatmapAlphaMap.png?240407170921)
 
 {{< code-sp5 >}}
 

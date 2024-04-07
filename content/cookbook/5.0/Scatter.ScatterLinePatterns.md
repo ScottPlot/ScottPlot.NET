@@ -4,9 +4,9 @@ Description: Several line patterns are available
 URL: /cookbook/5.0/Scatter/ScatterLinePatterns/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Scatter Plot", "Scatter Line Patterns"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Scatter", "/cookbook/5.0/Scatter/ScatterLinePatterns"]
-Date: 2024-03-24
-Version: ScottPlot 5.0.23
-Version: ScottPlot 5.0.23
+Date: 2024-04-07
+Version: ScottPlot 5.0.24
+Version: ScottPlot 5.0.24
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Several line patterns are available
 
-[![](/cookbook/5.0/images/ScatterLinePatterns.png?240324174053)](/cookbook/5.0/images/ScatterLinePatterns.png?240324174053)
+[![](/cookbook/5.0/images/ScatterLinePatterns.png?240407170921)](/cookbook/5.0/images/ScatterLinePatterns.png?240407170921)
 
 {{< code-sp5 >}}
 

@@ -4,9 +4,9 @@ Description: The transparency of the entire heatmap can be adjusted.
 URL: /cookbook/5.0/Heatmap/HeatmapGlobalTransparency/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Heatmap", "Global Transparency"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Heatmap", "/cookbook/5.0/Heatmap/HeatmapGlobalTransparency"]
-Date: 2024-03-24
-Version: ScottPlot 5.0.23
-Version: ScottPlot 5.0.23
+Date: 2024-04-07
+Version: ScottPlot 5.0.24
+Version: ScottPlot 5.0.24
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 The transparency of the entire heatmap can be adjusted.
 
-[![](/cookbook/5.0/images/HeatmapGlobalTransparency.png?240324174053)](/cookbook/5.0/images/HeatmapGlobalTransparency.png?240324174053)
+[![](/cookbook/5.0/images/HeatmapGlobalTransparency.png?240407170921)](/cookbook/5.0/images/HeatmapGlobalTransparency.png?240407170921)
 
 {{< code-sp5 >}}
 

@@ -4,9 +4,9 @@ Description: A heatmap's Colormap is the logic used to convert from cell value t
 URL: /cookbook/5.0/Heatmap/HeatmapColormap/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Heatmap", "Heatmap with custom Colormap"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Heatmap", "/cookbook/5.0/Heatmap/HeatmapColormap"]
-Date: 2024-03-24
-Version: ScottPlot 5.0.23
-Version: ScottPlot 5.0.23
+Date: 2024-04-07
+Version: ScottPlot 5.0.24
+Version: ScottPlot 5.0.24
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 A heatmap's Colormap is the logic used to convert from cell value to cell color and they can set by the user. ScottPlot comes with many common colormaps, but users may implement IColormap and apply their own. A colorbar can be added to indicate which colors map to which values.
 
-[![](/cookbook/5.0/images/HeatmapColormap.png?240324174053)](/cookbook/5.0/images/HeatmapColormap.png?240324174053)
+[![](/cookbook/5.0/images/HeatmapColormap.png?240407170921)](/cookbook/5.0/images/HeatmapColormap.png?240407170921)
 
 {{< code-sp5 >}}
 
@@ -28,7 +28,6 @@ double[,] data = SampleData.MonaLisa();
 var hm1 = myPlot.Add.Heatmap(data);
 hm1.Colormap = new ScottPlot.Colormaps.Turbo();
 
-// TODO: this isn't working quite right yet...
 myPlot.Add.ColorBar(hm1);
 
 myPlot.SavePng("demo.png", 400, 300);

@@ -4,9 +4,9 @@ Description: Users can disable grid lines for specific axes.
 URL: /cookbook/5.0/CustomizingTicks/DisableGridLines/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Customizing Ticks", "Disable Grid Lines"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/CustomizingTicks", "/cookbook/5.0/CustomizingTicks/DisableGridLines"]
-Date: 2024-03-24
-Version: ScottPlot 5.0.23
-Version: ScottPlot 5.0.23
+Date: 2024-04-07
+Version: ScottPlot 5.0.24
+Version: ScottPlot 5.0.24
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Users can disable grid lines for specific axes.
 
-[![](/cookbook/5.0/images/DisableGridLines.png?240324174053)](/cookbook/5.0/images/DisableGridLines.png?240324174053)
+[![](/cookbook/5.0/images/DisableGridLines.png?240407170921)](/cookbook/5.0/images/DisableGridLines.png?240407170921)
 
 {{< code-sp5 >}}
 

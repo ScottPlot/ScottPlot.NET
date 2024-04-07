@@ -4,9 +4,9 @@ Description: The apperance of logarithmic scaling can be achieved by log-scaling
 URL: /cookbook/5.0/CustomizingTicks/LogScaleTicks/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Customizing Ticks", "Log Scale Tick Marks"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/CustomizingTicks", "/cookbook/5.0/CustomizingTicks/LogScaleTicks"]
-Date: 2024-03-24
-Version: ScottPlot 5.0.23
-Version: ScottPlot 5.0.23
+Date: 2024-04-07
+Version: ScottPlot 5.0.24
+Version: ScottPlot 5.0.24
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 The apperance of logarithmic scaling can be achieved by log-scaling the data to be displayed then customizing the minor ticks and grid.
 
-[![](/cookbook/5.0/images/LogScaleTicks.png?240324174053)](/cookbook/5.0/images/LogScaleTicks.png?240324174053)
+[![](/cookbook/5.0/images/LogScaleTicks.png?240407170921)](/cookbook/5.0/images/LogScaleTicks.png?240407170921)
 
 {{< code-sp5 >}}
 

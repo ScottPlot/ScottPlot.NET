@@ -1,22 +1,22 @@
 ---
-Title: Financial Plot Without Gaps - ScottPlot 5.0 Cookbook
-Description: When the DateTimes stored in OHLC objects are used to determine the horizontal position of candlesticks, periods without data like weekends and holidays appear as gaps in the plot. Enabling sequential mode causes the plot to ignore the OHLC DateTimes and display candles at integer positions starting from zero. Since this is not a true DateTime axis, users enabling this mode must customize the tick labels themselves.
+Title: Candlestick Chart Without Gaps - ScottPlot 5.0 Cookbook
+Description: When the DateTimes stored in OHLC objects are used to determine the horizontal position of candlesticks, periods without data like weekends and holidays appear as gaps in the plot. Enabling sequential mode causes the plot to ignore the OHLC DateTimes and display candles at integer positions starting from zero. Users can customize the tick generator to display dates instead of numbers on the horizontal axis if desired.
 URL: /cookbook/5.0/Finance/FinancialPlotWithoutGaps/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Financial Plot", "Financial Plot Without Gaps"]
+BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Financial Plot", "Candlestick Chart Without Gaps"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Finance", "/cookbook/5.0/Finance/FinancialPlotWithoutGaps"]
-Date: 2024-03-24
-Version: ScottPlot 5.0.23
-Version: ScottPlot 5.0.23
+Date: 2024-04-07
+Version: ScottPlot 5.0.24
+Version: ScottPlot 5.0.24
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
 
-# Financial Plot Without Gaps
+# Candlestick Chart Without Gaps
 
 
-When the DateTimes stored in OHLC objects are used to determine the horizontal position of candlesticks, periods without data like weekends and holidays appear as gaps in the plot. Enabling sequential mode causes the plot to ignore the OHLC DateTimes and display candles at integer positions starting from zero. Since this is not a true DateTime axis, users enabling this mode must customize the tick labels themselves.
+When the DateTimes stored in OHLC objects are used to determine the horizontal position of candlesticks, periods without data like weekends and holidays appear as gaps in the plot. Enabling sequential mode causes the plot to ignore the OHLC DateTimes and display candles at integer positions starting from zero. Users can customize the tick generator to display dates instead of numbers on the horizontal axis if desired.
 
-[![](/cookbook/5.0/images/FinancialPlotWithoutGaps.png?240324174053)](/cookbook/5.0/images/FinancialPlotWithoutGaps.png?240324174053)
+[![](/cookbook/5.0/images/FinancialPlotWithoutGaps.png?240407170921)](/cookbook/5.0/images/FinancialPlotWithoutGaps.png?240407170921)
 
 {{< code-sp5 >}}
 
@@ -38,7 +38,8 @@ DateTime[] tickDates = prices
     .Select(x => x.DateTime)
     .ToArray();
 
-// use a manual tick generator for the horizontal axis
+// By default, horizontal tick labels will be numbers (1, 2, 3...)
+// We can use a manual tick generator to display dates on the horizontal axis
 double[] tickPositions = Generate.Consecutive(tickDates.Length, tickDelta);
 string[] tickLabels = tickDates.Select(x => x.ToString("MM/dd")).ToArray();
 ScottPlot.TickGenerators.NumericManual tickGen = new(tickPositions, tickLabels);

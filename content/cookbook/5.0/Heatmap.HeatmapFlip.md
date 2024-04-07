@@ -4,9 +4,9 @@ Description: Heatmaps can be flipped horizontally and/or vertically
 URL: /cookbook/5.0/Heatmap/HeatmapFlip/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Heatmap", "Flipped Heatmap"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Heatmap", "/cookbook/5.0/Heatmap/HeatmapFlip"]
-Date: 2024-03-24
-Version: ScottPlot 5.0.23
-Version: ScottPlot 5.0.23
+Date: 2024-04-07
+Version: ScottPlot 5.0.24
+Version: ScottPlot 5.0.24
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Heatmaps can be flipped horizontally and/or vertically
 
-[![](/cookbook/5.0/images/HeatmapFlip.png?240324174053)](/cookbook/5.0/images/HeatmapFlip.png?240324174053)
+[![](/cookbook/5.0/images/HeatmapFlip.png?240407170921)](/cookbook/5.0/images/HeatmapFlip.png?240407170921)
 
 {{< code-sp5 >}}
 

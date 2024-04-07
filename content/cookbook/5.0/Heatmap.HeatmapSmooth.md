@@ -4,9 +4,9 @@ Description: Enable the `Smooth` property for anti-aliased rendering
 URL: /cookbook/5.0/Heatmap/HeatmapSmooth/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Heatmap", "Smooth Heatmap"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Heatmap", "/cookbook/5.0/Heatmap/HeatmapSmooth"]
-Date: 2024-03-24
-Version: ScottPlot 5.0.23
-Version: ScottPlot 5.0.23
+Date: 2024-04-07
+Version: ScottPlot 5.0.24
+Version: ScottPlot 5.0.24
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Enable the `Smooth` property for anti-aliased rendering
 
-[![](/cookbook/5.0/images/HeatmapSmooth.png?240324174053)](/cookbook/5.0/images/HeatmapSmooth.png?240324174053)
+[![](/cookbook/5.0/images/HeatmapSmooth.png?240407170921)](/cookbook/5.0/images/HeatmapSmooth.png?240407170921)
 
 {{< code-sp5 >}}
 
