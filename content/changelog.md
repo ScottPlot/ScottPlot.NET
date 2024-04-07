@@ -92,7 +92,7 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/Kruno313'><img src='https://scottplot.net/images/contributors/kruno313.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Excustic'><img src='https://scottplot.net/images/contributors/excustic.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Dibyanshuaman'><img src='https://scottplot.net/images/contributors/dibyanshuaman.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/Matthew-Chidlow'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Matthew-Chidlow'><img src='https://scottplot.net/images/contributors/matthew-chidlow.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/aniketkumar7'><img src='https://scottplot.net/images/contributors/aniketkumar7.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/jon-rizzo'><img src='https://scottplot.net/images/contributors/jon-rizzo.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/bjschwarz'><img src='https://scottplot.net/images/contributors/bjschwarz.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
