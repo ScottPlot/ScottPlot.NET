@@ -16,7 +16,7 @@ ShowEditLink: false
 
 A circle can be placed on the plot and styled as desired.
 
-[![](/cookbook/5.0/images/CircleQuickstart.png?240407170921)](/cookbook/5.0/images/CircleQuickstart.png?240407170921)
+[![](/cookbook/5.0/images/CircleQuickstart.png?240407172904)](/cookbook/5.0/images/CircleQuickstart.png?240407172904)
 
 {{< code-sp5 >}}
 

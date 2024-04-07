@@ -16,7 +16,7 @@ ShowEditLink: false
 
 The axis limits can be automatically adjusted to fit the data. Optional arguments allow users to define the amount of whitespace around the edges of the data.In older versions of ScottPlot this functionality was achieved by a method named AxisAuto().
 
-[![](/cookbook/5.0/images/AutoScale.png?240407170921)](/cookbook/5.0/images/AutoScale.png?240407170921)
+[![](/cookbook/5.0/images/AutoScale.png?240407172904)](/cookbook/5.0/images/AutoScale.png?240407172904)
 
 {{< code-sp5 >}}
 

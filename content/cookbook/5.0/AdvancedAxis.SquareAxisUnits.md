@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Axis rules can be put in place which force the vertical scale (units per pixel) to match the horizontal scale so circles always appear as circles and not stretched ellipses.
 
-[![](/cookbook/5.0/images/SquareAxisUnits.png?240407170921)](/cookbook/5.0/images/SquareAxisUnits.png?240407170921)
+[![](/cookbook/5.0/images/SquareAxisUnits.png?240407172904)](/cookbook/5.0/images/SquareAxisUnits.png?240407172904)
 
 {{< code-sp5 >}}
 

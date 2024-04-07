@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Line plots with labels appear in the legend.
 
-[![](/cookbook/5.0/images/LinePlotLegendQWER.png?240407170921)](/cookbook/5.0/images/LinePlotLegendQWER.png?240407170921)
+[![](/cookbook/5.0/images/LinePlotLegendQWER.png?240407172904)](/cookbook/5.0/images/LinePlotLegendQWER.png?240407172904)
 
 {{< code-sp5 >}}
 

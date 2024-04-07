@@ -16,7 +16,7 @@ ShowEditLink: false
 
 The starting angle for gauges can be customized. 270 for North (default value), 0 for East, 90 for South, 180 for West, etc.
 
-[![](/cookbook/5.0/images/RadialGaugeStart.png?240407170921)](/cookbook/5.0/images/RadialGaugeStart.png?240407170921)
+[![](/cookbook/5.0/images/RadialGaugeStart.png?240407172904)](/cookbook/5.0/images/RadialGaugeStart.png?240407172904)
 
 {{< code-sp5 >}}
 

@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Customize the logic for the automatic axis scaler to ensure that axis limits for a particular axis are always inverted when autoscaled.
 
-[![](/cookbook/5.0/images/InvertedAutoAxis.png?240407170921)](/cookbook/5.0/images/InvertedAutoAxis.png?240407170921)
+[![](/cookbook/5.0/images/InvertedAutoAxis.png?240407172904)](/cookbook/5.0/images/InvertedAutoAxis.png?240407172904)
 
 {{< code-sp5 >}}
 

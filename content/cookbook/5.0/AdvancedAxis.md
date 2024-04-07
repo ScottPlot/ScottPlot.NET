@@ -18,7 +18,7 @@ ShowEditLink: false
 
 Users can display data on an inverted axis by setting axis limits setting the lower edge to a value more positive than the upper edge.
 
-[![](/cookbook/5.0/images/InvertedAxis.png?240407170921)](/cookbook/5.0/images/InvertedAxis.png?240407170921)
+[![](/cookbook/5.0/images/InvertedAxis.png?240407172904)](/cookbook/5.0/images/InvertedAxis.png?240407172904)
 
 {{< code-sp5 >}}
 
@@ -43,7 +43,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Customize the logic for the automatic axis scaler to ensure that axis limits for a particular axis are always inverted when autoscaled.
 
-[![](/cookbook/5.0/images/InvertedAutoAxis.png?240407170921)](/cookbook/5.0/images/InvertedAutoAxis.png?240407170921)
+[![](/cookbook/5.0/images/InvertedAutoAxis.png?240407172904)](/cookbook/5.0/images/InvertedAutoAxis.png?240407172904)
 
 {{< code-sp5 >}}
 
@@ -68,7 +68,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Axis rules can be put in place which force the vertical scale (units per pixel) to match the horizontal scale so circles always appear as circles and not stretched ellipses.
 
-[![](/cookbook/5.0/images/SquareAxisUnits.png?240407170921)](/cookbook/5.0/images/SquareAxisUnits.png?240407170921)
+[![](/cookbook/5.0/images/SquareAxisUnits.png?240407172904)](/cookbook/5.0/images/SquareAxisUnits.png?240407172904)
 
 {{< code-sp5 >}}
 

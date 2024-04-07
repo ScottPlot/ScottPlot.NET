@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Scatter plots can be created from two arrays containing X and Y values.
 
-[![](/cookbook/5.0/images/ScatterQuickstart.png?240407170921)](/cookbook/5.0/images/ScatterQuickstart.png?240407170921)
+[![](/cookbook/5.0/images/ScatterQuickstart.png?240407172904)](/cookbook/5.0/images/ScatterQuickstart.png?240407172904)
 
 {{< code-sp5 >}}
 

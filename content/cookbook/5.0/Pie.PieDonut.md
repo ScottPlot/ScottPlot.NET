@@ -16,7 +16,7 @@ ShowEditLink: false
 
 A donut chart is a pie chart with an open center. Donut charts can be created from a collection of slices.
 
-[![](/cookbook/5.0/images/PieDonut.png?240407170921)](/cookbook/5.0/images/PieDonut.png?240407170921)
+[![](/cookbook/5.0/images/PieDonut.png?240407172904)](/cookbook/5.0/images/PieDonut.png?240407172904)
 
 {{< code-sp5 >}}
 

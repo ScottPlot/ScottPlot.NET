@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Box plots can be created individually and added to the plot.
 
-[![](/cookbook/5.0/images/BoxPlotQuickstart.png?240407170921)](/cookbook/5.0/images/BoxPlotQuickstart.png?240407170921)
+[![](/cookbook/5.0/images/BoxPlotQuickstart.png?240407172904)](/cookbook/5.0/images/BoxPlotQuickstart.png?240407172904)
 
 {{< code-sp5 >}}
 

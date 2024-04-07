@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Signal plots are optimized for displaying evenly spaced data.
 
-[![](/cookbook/5.0/images/QuickstartSignal.png?240407170921)](/cookbook/5.0/images/QuickstartSignal.png?240407170921)
+[![](/cookbook/5.0/images/QuickstartSignal.png?240407172904)](/cookbook/5.0/images/QuickstartSignal.png?240407172904)
 
 {{< code-sp5 >}}
 

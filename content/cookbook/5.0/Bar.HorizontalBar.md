@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Bar plots can be displayed horizontally.
 
-[![](/cookbook/5.0/images/HorizontalBar.png?240407170921)](/cookbook/5.0/images/HorizontalBar.png?240407170921)
+[![](/cookbook/5.0/images/HorizontalBar.png?240407172904)](/cookbook/5.0/images/HorizontalBar.png?240407172904)
 
 {{< code-sp5 >}}
 

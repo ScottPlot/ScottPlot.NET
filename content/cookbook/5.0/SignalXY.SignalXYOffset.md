@@ -16,7 +16,7 @@ ShowEditLink: false
 
 A fixed offset can be applied to SignalXY plots.
 
-[![](/cookbook/5.0/images/SignalXYOffset.png?240407170921)](/cookbook/5.0/images/SignalXYOffset.png?240407170921)
+[![](/cookbook/5.0/images/SignalXYOffset.png?240407172904)](/cookbook/5.0/images/SignalXYOffset.png?240407172904)
 
 {{< code-sp5 >}}
 

@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Axis lines are vertical or horizontal lines that span an entire axis.
 
-[![](/cookbook/5.0/images/AxisLineQuickstart.png?240407170921)](/cookbook/5.0/images/AxisLineQuickstart.png?240407170921)
+[![](/cookbook/5.0/images/AxisLineQuickstart.png?240407172904)](/cookbook/5.0/images/AxisLineQuickstart.png?240407172904)
 
 {{< code-sp5 >}}
 

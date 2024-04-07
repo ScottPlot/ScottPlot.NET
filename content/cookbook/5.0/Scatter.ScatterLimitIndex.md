@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Although a scatter plot may contain a very large amount of data, much of it may be unpopulated. The user can define min and max render indexes, and only values within that range will be displayed when the scatter plot is rendered.
 
-[![](/cookbook/5.0/images/ScatterLimitIndex.png?240407170921)](/cookbook/5.0/images/ScatterLimitIndex.png?240407170921)
+[![](/cookbook/5.0/images/ScatterLimitIndex.png?240407172904)](/cookbook/5.0/images/ScatterLimitIndex.png?240407172904)
 
 {{< code-sp5 >}}
 

@@ -16,7 +16,7 @@ ShowEditLink: false
 
 The transparency of the entire heatmap can be adjusted.
 
-[![](/cookbook/5.0/images/HeatmapGlobalTransparency.png?240407170921)](/cookbook/5.0/images/HeatmapGlobalTransparency.png?240407170921)
+[![](/cookbook/5.0/images/HeatmapGlobalTransparency.png?240407172904)](/cookbook/5.0/images/HeatmapGlobalTransparency.png?240407172904)
 
 {{< code-sp5 >}}
 

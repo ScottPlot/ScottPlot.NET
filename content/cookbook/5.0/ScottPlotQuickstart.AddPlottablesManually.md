@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Although the Plot.Add class has many helpful methods for creating plottable objects and adding them to the plot, users can instantiate plottable objects themselves and use Add.Plottable() to place it on the plot. This stategy allows users to create their own plottables (implementing IPlottable) with custom appearance or behavior.
 
-[![](/cookbook/5.0/images/AddPlottablesManually.png?240407170921)](/cookbook/5.0/images/AddPlottablesManually.png?240407170921)
+[![](/cookbook/5.0/images/AddPlottablesManually.png?240407172904)](/cookbook/5.0/images/AddPlottablesManually.png?240407172904)
 
 {{< code-sp5 >}}
 

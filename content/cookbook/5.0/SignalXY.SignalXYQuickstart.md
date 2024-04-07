@@ -16,7 +16,7 @@ ShowEditLink: false
 
 SignalXY plots are a high performance plot type for X/Y data where the X values are always ascending.
 
-[![](/cookbook/5.0/images/SignalXYQuickstart.png?240407170921)](/cookbook/5.0/images/SignalXYQuickstart.png?240407170921)
+[![](/cookbook/5.0/images/SignalXYQuickstart.png?240407172904)](/cookbook/5.0/images/SignalXYQuickstart.png?240407172904)
 
 {{< code-sp5 >}}
 

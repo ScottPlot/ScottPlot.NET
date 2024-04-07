@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Minor tick marks are automatically generated at intervals between major tick marks. By default they are evenly spaced, but their density may be customized.
 
-[![](/cookbook/5.0/images/StandardMinorTickDistribution.png?240407170921)](/cookbook/5.0/images/StandardMinorTickDistribution.png?240407170921)
+[![](/cookbook/5.0/images/StandardMinorTickDistribution.png?240407172904)](/cookbook/5.0/images/StandardMinorTickDistribution.png?240407172904)
 
 {{< code-sp5 >}}
 

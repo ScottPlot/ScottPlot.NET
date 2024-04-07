@@ -16,7 +16,7 @@ ShowEditLink: false
 
 The offset properties can be used to fine-tune text position in pixel units
 
-[![](/cookbook/5.0/images/TextOffset.png?240407170921)](/cookbook/5.0/images/TextOffset.png?240407170921)
+[![](/cookbook/5.0/images/TextOffset.png?240407172904)](/cookbook/5.0/images/TextOffset.png?240407172904)
 
 {{< code-sp5 >}}
 

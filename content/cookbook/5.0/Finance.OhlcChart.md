@@ -16,7 +16,7 @@ ShowEditLink: false
 
 OHLC charts use symbols to display price data (open, high, low, and close) for specific time ranges.
 
-[![](/cookbook/5.0/images/OhlcChart.png?240407170921)](/cookbook/5.0/images/OhlcChart.png?240407170921)
+[![](/cookbook/5.0/images/OhlcChart.png?240407172904)](/cookbook/5.0/images/OhlcChart.png?240407172904)
 
 {{< code-sp5 >}}
 

@@ -16,7 +16,7 @@ ShowEditLink: false
 
 A heatmap's Colormap is the logic used to convert from cell value to cell color and they can set by the user. ScottPlot comes with many common colormaps, but users may implement IColormap and apply their own. A colorbar can be added to indicate which colors map to which values.
 
-[![](/cookbook/5.0/images/HeatmapColormap.png?240407170921)](/cookbook/5.0/images/HeatmapColormap.png?240407170921)
+[![](/cookbook/5.0/images/HeatmapColormap.png?240407172904)](/cookbook/5.0/images/HeatmapColormap.png?240407172904)
 
 {{< code-sp5 >}}
 

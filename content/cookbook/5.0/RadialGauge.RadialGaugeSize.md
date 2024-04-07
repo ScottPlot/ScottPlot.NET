@@ -16,7 +16,7 @@ ShowEditLink: false
 
 The empty space between gauges can be adjusted as a fraction of their width. 
 
-[![](/cookbook/5.0/images/RadialGaugeSize.png?240407170921)](/cookbook/5.0/images/RadialGaugeSize.png?240407170921)
+[![](/cookbook/5.0/images/RadialGaugeSize.png?240407172904)](/cookbook/5.0/images/RadialGaugeSize.png?240407172904)
 
 {{< code-sp5 >}}
 

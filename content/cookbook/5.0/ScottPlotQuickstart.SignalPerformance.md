@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Signal plots can interactively display millions of data points in real time. Double-click the plot to display performance benchmarks.
 
-[![](/cookbook/5.0/images/SignalPerformance.png?240407170921)](/cookbook/5.0/images/SignalPerformance.png?240407170921)
+[![](/cookbook/5.0/images/SignalPerformance.png?240407172904)](/cookbook/5.0/images/SignalPerformance.png?240407172904)
 
 {{< code-sp5 >}}
 

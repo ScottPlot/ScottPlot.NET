@@ -16,7 +16,7 @@ ShowEditLink: false
 
 The axis size can be increased to accommodate rotated or long tick labels.
 
-[![](/cookbook/5.0/images/RotatedTicksLongLabels.png?240407170921)](/cookbook/5.0/images/RotatedTicksLongLabels.png?240407170921)
+[![](/cookbook/5.0/images/RotatedTicksLongLabels.png?240407172904)](/cookbook/5.0/images/RotatedTicksLongLabels.png?240407172904)
 
 {{< code-sp5 >}}
 

@@ -16,7 +16,7 @@ ShowEditLink: false
 
 A target number of ticks can be provided and the automatic tick generator will attempt to place that number of ticks. This strategy allows tick density to decrease as the image size increases.
 
-[![](/cookbook/5.0/images/TickCount.png?240407170921)](/cookbook/5.0/images/TickCount.png?240407170921)
+[![](/cookbook/5.0/images/TickCount.png?240407172904)](/cookbook/5.0/images/TickCount.png?240407172904)
 
 {{< code-sp5 >}}
 

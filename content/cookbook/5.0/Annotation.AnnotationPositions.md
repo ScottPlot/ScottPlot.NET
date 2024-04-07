@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Annotations are aligned with the data area.
 
-[![](/cookbook/5.0/images/AnnotationPositions.png?240407170921)](/cookbook/5.0/images/AnnotationPositions.png?240407170921)
+[![](/cookbook/5.0/images/AnnotationPositions.png?240407172904)](/cookbook/5.0/images/AnnotationPositions.png?240407172904)
 
 {{< code-sp5 >}}
 

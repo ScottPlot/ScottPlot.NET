@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Gauge backgrounds are drawn as full circles by default. This behavior can be disabled to draw partial backgrounds for non-circular gauges.
 
-[![](/cookbook/5.0/images/RadialGaugeBackNorm.png?240407170921)](/cookbook/5.0/images/RadialGaugeBackNorm.png?240407170921)
+[![](/cookbook/5.0/images/RadialGaugeBackNorm.png?240407172904)](/cookbook/5.0/images/RadialGaugeBackNorm.png?240407172904)
 
 {{< code-sp5 >}}
 

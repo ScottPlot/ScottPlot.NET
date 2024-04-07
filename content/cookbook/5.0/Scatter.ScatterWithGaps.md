@@ -16,7 +16,7 @@ ShowEditLink: false
 
 NaN values in a scatter plot's data will appear as gaps in the line.
 
-[![](/cookbook/5.0/images/ScatterWithGaps.png?240407170921)](/cookbook/5.0/images/ScatterWithGaps.png?240407170921)
+[![](/cookbook/5.0/images/ScatterWithGaps.png?240407172904)](/cookbook/5.0/images/ScatterWithGaps.png?240407172904)
 
 {{< code-sp5 >}}
 

@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Many plot types have a LineStyle which can be customized.
 
-[![](/cookbook/5.0/images/LineStyles.png?240407170921)](/cookbook/5.0/images/LineStyles.png?240407170921)
+[![](/cookbook/5.0/images/LineStyles.png?240407172904)](/cookbook/5.0/images/LineStyles.png?240407172904)
 
 {{< code-sp5 >}}
 

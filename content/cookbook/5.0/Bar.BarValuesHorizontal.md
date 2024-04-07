@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Set the `Label` property of bars to have text displayed beside (left or right) of each bar.
 
-[![](/cookbook/5.0/images/BarValuesHorizontal.png?240407170921)](/cookbook/5.0/images/BarValuesHorizontal.png?240407170921)
+[![](/cookbook/5.0/images/BarValuesHorizontal.png?240407172904)](/cookbook/5.0/images/BarValuesHorizontal.png?240407172904)
 
 {{< code-sp5 >}}
 

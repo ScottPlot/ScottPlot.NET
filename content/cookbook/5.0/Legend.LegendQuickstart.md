@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Many plottables have a Label property that can be set so they appear in the legend.
 
-[![](/cookbook/5.0/images/LegendQuickstart.png?240407170921)](/cookbook/5.0/images/LegendQuickstart.png?240407170921)
+[![](/cookbook/5.0/images/LegendQuickstart.png?240407172904)](/cookbook/5.0/images/LegendQuickstart.png?240407172904)
 
 {{< code-sp5 >}}
 

@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Signal plots can be offset by a given X and Y value.
 
-[![](/cookbook/5.0/images/SignalOffset.png?240407170921)](/cookbook/5.0/images/SignalOffset.png?240407170921)
+[![](/cookbook/5.0/images/SignalOffset.png?240407172904)](/cookbook/5.0/images/SignalOffset.png?240407172904)
 
 {{< code-sp5 >}}
 

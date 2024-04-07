@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Users can customize the logic used to create tick labels from tick positions. Old versions of ScottPlot achieved this using a ManualTickPositions method.
 
-[![](/cookbook/5.0/images/CustomTickFormatter.png?240407170921)](/cookbook/5.0/images/CustomTickFormatter.png?240407170921)
+[![](/cookbook/5.0/images/CustomTickFormatter.png?240407172904)](/cookbook/5.0/images/CustomTickFormatter.png?240407172904)
 
 {{< code-sp5 >}}
 

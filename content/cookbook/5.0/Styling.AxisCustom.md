@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Axis labels, tick marks, and frame can all be customized.
 
-[![](/cookbook/5.0/images/AxisCustom.png?240407170921)](/cookbook/5.0/images/AxisCustom.png?240407170921)
+[![](/cookbook/5.0/images/AxisCustom.png?240407172904)](/cookbook/5.0/images/AxisCustom.png?240407172904)
 
 {{< code-sp5 >}}
 

@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Scatter plots support generic data types, although double is typically the most performant.
 
-[![](/cookbook/5.0/images/ScatterGeneric.png?240407170921)](/cookbook/5.0/images/ScatterGeneric.png?240407170921)
+[![](/cookbook/5.0/images/ScatterGeneric.png?240407172904)](/cookbook/5.0/images/ScatterGeneric.png?240407172904)
 
 {{< code-sp5 >}}
 

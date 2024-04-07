@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Grid lines can be customized. Custom grid systems can be created to give developers full control of grid rendering, but the default grid can be interacted with to customize its appearance.
 
-[![](/cookbook/5.0/images/GridCustom.png?240407170921)](/cookbook/5.0/images/GridCustom.png?240407170921)
+[![](/cookbook/5.0/images/GridCustom.png?240407172904)](/cookbook/5.0/images/GridCustom.png?240407172904)
 
 {{< code-sp5 >}}
 

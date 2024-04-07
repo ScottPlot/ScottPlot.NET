@@ -16,7 +16,7 @@ ShowEditLink: false
 
 By default the full range of each gauge is drawn as a semitransparent ring. The amount of transparency can be adjusted as desired.
 
-[![](/cookbook/5.0/images/RadialGaugeBackDim.png?240407170921)](/cookbook/5.0/images/RadialGaugeBackDim.png?240407170921)
+[![](/cookbook/5.0/images/RadialGaugeBackDim.png?240407172904)](/cookbook/5.0/images/RadialGaugeBackDim.png?240407172904)
 
 {{< code-sp5 >}}
 

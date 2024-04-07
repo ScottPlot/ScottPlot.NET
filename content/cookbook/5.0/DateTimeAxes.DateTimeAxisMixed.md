@@ -16,7 +16,7 @@ ShowEditLink: false
 
 DateTime axes are achieved using Microsoft's DateTime.ToOADate() and DateTime.FromOADate() methods to convert between dates and numeric values. Advanced users who wish to display data on DateTime axes may prefer to work with collections of doubles rather than collections of DateTimes.
 
-[![](/cookbook/5.0/images/DateTimeAxisMixed.png?240407170921)](/cookbook/5.0/images/DateTimeAxisMixed.png?240407170921)
+[![](/cookbook/5.0/images/DateTimeAxisMixed.png?240407172904)](/cookbook/5.0/images/DateTimeAxisMixed.png?240407172904)
 
 {{< code-sp5 >}}
 

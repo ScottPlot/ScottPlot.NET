@@ -18,7 +18,7 @@ ShowEditLink: false
 
 Axis spans label a range of an axis. Vertical spans shade the full width of a vertical range, and horizontal spans shade the full height of a horizontal range.
 
-[![](/cookbook/5.0/images/AxisSpanQuickstart.png?240407170921)](/cookbook/5.0/images/AxisSpanQuickstart.png?240407170921)
+[![](/cookbook/5.0/images/AxisSpanQuickstart.png?240407172904)](/cookbook/5.0/images/AxisSpanQuickstart.png?240407172904)
 
 {{< code-sp5 >}}
 
@@ -48,7 +48,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Axis spans can be extensively customized.
 
-[![](/cookbook/5.0/images/AxisSpanStyling.png?240407170921)](/cookbook/5.0/images/AxisSpanStyling.png?240407170921)
+[![](/cookbook/5.0/images/AxisSpanStyling.png?240407172904)](/cookbook/5.0/images/AxisSpanStyling.png?240407172904)
 
 {{< code-sp5 >}}
 

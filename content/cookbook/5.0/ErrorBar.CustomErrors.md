@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Error size can be set for all dimensions.
 
-[![](/cookbook/5.0/images/CustomErrors.png?240407170921)](/cookbook/5.0/images/CustomErrors.png?240407170921)
+[![](/cookbook/5.0/images/CustomErrors.png?240407172904)](/cookbook/5.0/images/CustomErrors.png?240407172904)
 
 {{< code-sp5 >}}
 

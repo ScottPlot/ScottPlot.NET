@@ -18,7 +18,7 @@ ShowEditLink: false
 
 Line plots are placed with a start and end location in coordinate space. Their styles can be customized.
 
-[![](/cookbook/5.0/images/LineQuickStart.png?240407170921)](/cookbook/5.0/images/LineQuickStart.png?240407170921)
+[![](/cookbook/5.0/images/LineQuickStart.png?240407172904)](/cookbook/5.0/images/LineQuickStart.png?240407172904)
 
 {{< code-sp5 >}}
 
@@ -42,7 +42,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Line plots can be styled using a LineStyle.
 
-[![](/cookbook/5.0/images/LinePlotStyles.png?240407170921)](/cookbook/5.0/images/LinePlotStyles.png?240407170921)
+[![](/cookbook/5.0/images/LinePlotStyles.png?240407172904)](/cookbook/5.0/images/LinePlotStyles.png?240407172904)
 
 {{< code-sp5 >}}
 
@@ -82,7 +82,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Line plots with labels appear in the legend.
 
-[![](/cookbook/5.0/images/LinePlotLegendQWER.png?240407170921)](/cookbook/5.0/images/LinePlotLegendQWER.png?240407170921)
+[![](/cookbook/5.0/images/LinePlotLegendQWER.png?240407172904)](/cookbook/5.0/images/LinePlotLegendQWER.png?240407172904)
 
 {{< code-sp5 >}}
 

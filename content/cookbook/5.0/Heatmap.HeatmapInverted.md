@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Heatmaps can be inverted by reversing the order of colors in the colormap
 
-[![](/cookbook/5.0/images/HeatmapInverted.png?240407170921)](/cookbook/5.0/images/HeatmapInverted.png?240407170921)
+[![](/cookbook/5.0/images/HeatmapInverted.png?240407172904)](/cookbook/5.0/images/HeatmapInverted.png?240407172904)
 
 {{< code-sp5 >}}
 

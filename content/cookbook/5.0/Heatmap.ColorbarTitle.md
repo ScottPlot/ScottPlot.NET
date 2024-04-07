@@ -16,7 +16,7 @@ ShowEditLink: false
 
 A colorbar displays a colormap on an edge of the plot, and it has an optional label which can be customized to display a title.
 
-[![](/cookbook/5.0/images/ColorbarTitle.png?240407170921)](/cookbook/5.0/images/ColorbarTitle.png?240407170921)
+[![](/cookbook/5.0/images/ColorbarTitle.png?240407172904)](/cookbook/5.0/images/ColorbarTitle.png?240407172904)
 
 {{< code-sp5 >}}
 

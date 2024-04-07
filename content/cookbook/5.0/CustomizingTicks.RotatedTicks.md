@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Users can customize tick label rotation.
 
-[![](/cookbook/5.0/images/RotatedTicks.png?240407170921)](/cookbook/5.0/images/RotatedTicks.png?240407170921)
+[![](/cookbook/5.0/images/RotatedTicks.png?240407172904)](/cookbook/5.0/images/RotatedTicks.png?240407172904)
 
 {{< code-sp5 >}}
 

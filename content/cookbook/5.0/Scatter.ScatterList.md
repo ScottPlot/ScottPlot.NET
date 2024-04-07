@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Scatter plots can be created from Lists, but be very cafeful not to add or remove items while a render is occurring or you may throw an index exception. See documentation about the Render Lock system for details.
 
-[![](/cookbook/5.0/images/ScatterList.png?240407170921)](/cookbook/5.0/images/ScatterList.png?240407170921)
+[![](/cookbook/5.0/images/ScatterList.png?240407172904)](/cookbook/5.0/images/ScatterList.png?240407172904)
 
 {{< code-sp5 >}}
 

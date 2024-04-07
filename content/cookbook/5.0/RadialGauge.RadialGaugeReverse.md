@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Gauges are displayed from the center outward by default but the order can be customized.
 
-[![](/cookbook/5.0/images/RadialGaugeReverse.png?240407170921)](/cookbook/5.0/images/RadialGaugeReverse.png?240407170921)
+[![](/cookbook/5.0/images/RadialGaugeReverse.png?240407172904)](/cookbook/5.0/images/RadialGaugeReverse.png?240407172904)
 
 {{< code-sp5 >}}
 

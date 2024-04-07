@@ -16,7 +16,7 @@ ShowEditLink: false
 
 The direction of gauges can be customized. Clockwise is used by default.
 
-[![](/cookbook/5.0/images/RadialGaugeDirection.png?240407170921)](/cookbook/5.0/images/RadialGaugeDirection.png?240407170921)
+[![](/cookbook/5.0/images/RadialGaugeDirection.png?240407172904)](/cookbook/5.0/images/RadialGaugeDirection.png?240407172904)
 
 {{< code-sp5 >}}
 

@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Signal plots can be styled in a variety of ways.
 
-[![](/cookbook/5.0/images/SignalStyling.png?240407170921)](/cookbook/5.0/images/SignalStyling.png?240407170921)
+[![](/cookbook/5.0/images/SignalStyling.png?240407172904)](/cookbook/5.0/images/SignalStyling.png?240407172904)
 
 {{< code-sp5 >}}
 

@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Scatter plots can be created using a step plot display where points are connected with right angles instead of diagnal lines. The direction of the steps can be customized.
 
-[![](/cookbook/5.0/images/ScatterStep.png?240407170921)](/cookbook/5.0/images/ScatterStep.png?240407170921)
+[![](/cookbook/5.0/images/ScatterStep.png?240407172904)](/cookbook/5.0/images/ScatterStep.png?240407172904)
 
 {{< code-sp5 >}}
 

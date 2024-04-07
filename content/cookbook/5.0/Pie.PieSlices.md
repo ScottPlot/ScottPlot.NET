@@ -16,7 +16,7 @@ ShowEditLink: false
 
 A pie chart can be created from a collection of slices.
 
-[![](/cookbook/5.0/images/PieSlices.png?240407170921)](/cookbook/5.0/images/PieSlices.png?240407170921)
+[![](/cookbook/5.0/images/PieSlices.png?240407172904)](/cookbook/5.0/images/PieSlices.png?240407172904)
 
 {{< code-sp5 >}}
 

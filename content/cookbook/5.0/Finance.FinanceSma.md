@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Tools exist for creating simple moving average (SMA) curves and displaying them next to finanial data.
 
-[![](/cookbook/5.0/images/FinanceSma.png?240407170921)](/cookbook/5.0/images/FinanceSma.png?240407170921)
+[![](/cookbook/5.0/images/FinanceSma.png?240407172904)](/cookbook/5.0/images/FinanceSma.png?240407172904)
 
 {{< code-sp5 >}}
 

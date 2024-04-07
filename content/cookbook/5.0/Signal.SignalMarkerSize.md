@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Signal plots can have markers displayed at each point which are only visible when the plot is zoomed in.
 
-[![](/cookbook/5.0/images/SignalMarkerSize.png?240407170921)](/cookbook/5.0/images/SignalMarkerSize.png?240407170921)
+[![](/cookbook/5.0/images/SignalMarkerSize.png?240407172904)](/cookbook/5.0/images/SignalMarkerSize.png?240407172904)
 
 {{< code-sp5 >}}
 

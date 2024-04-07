@@ -16,7 +16,7 @@ ShowEditLink: false
 
 ScottPlot comes with font detection methods which help identify the best installed font for displaying text which may contain international characters.
 
-[![](/cookbook/5.0/images/FontDetection.png?240407170921)](/cookbook/5.0/images/FontDetection.png?240407170921)
+[![](/cookbook/5.0/images/FontDetection.png?240407172904)](/cookbook/5.0/images/FontDetection.png?240407172904)
 
 {{< code-sp5 >}}
 

@@ -16,7 +16,7 @@ ShowEditLink: false
 
 The exact position and size of each bar may be customized.
 
-[![](/cookbook/5.0/images/BarPosition.png?240407170921)](/cookbook/5.0/images/BarPosition.png?240407170921)
+[![](/cookbook/5.0/images/BarPosition.png?240407172904)](/cookbook/5.0/images/BarPosition.png?240407172904)
 
 {{< code-sp5 >}}
 

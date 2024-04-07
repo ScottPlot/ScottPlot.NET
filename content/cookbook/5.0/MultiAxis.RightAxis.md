@@ -16,7 +16,7 @@ ShowEditLink: false
 
 New plots have one axis on every side. Axes on the right and top are invisible by default. To use the right axis, make it visible, then tell a plottable to use it. 
 
-[![](/cookbook/5.0/images/RightAxis.png?240407170921)](/cookbook/5.0/images/RightAxis.png?240407170921)
+[![](/cookbook/5.0/images/RightAxis.png?240407172904)](/cookbook/5.0/images/RightAxis.png?240407172904)
 
 {{< code-sp5 >}}
 

@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Line plots are placed with a start and end location in coordinate space. Their styles can be customized.
 
-[![](/cookbook/5.0/images/LineQuickStart.png?240407170921)](/cookbook/5.0/images/LineQuickStart.png?240407170921)
+[![](/cookbook/5.0/images/LineQuickStart.png?240407172904)](/cookbook/5.0/images/LineQuickStart.png?240407172904)
 
 {{< code-sp5 >}}
 

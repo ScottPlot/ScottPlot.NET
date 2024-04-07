@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Even if a SignalXY plot references a large array of data, rendering can be limited to a range of values. If set,only the range of data between the minimum and maximum render indexes will be displayed.
 
-[![](/cookbook/5.0/images/SignalXYRenderIndexes.png?240407170921)](/cookbook/5.0/images/SignalXYRenderIndexes.png?240407170921)
+[![](/cookbook/5.0/images/SignalXYRenderIndexes.png?240407172904)](/cookbook/5.0/images/SignalXYRenderIndexes.png?240407172904)
 
 {{< code-sp5 >}}
 

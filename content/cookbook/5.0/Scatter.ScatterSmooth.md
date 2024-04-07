@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Scatter plots draw straight lines between points by default, but setting the Smooth property allows the scatter plot to connect points with smooth lines.
 
-[![](/cookbook/5.0/images/ScatterSmooth.png?240407170921)](/cookbook/5.0/images/ScatterSmooth.png?240407170921)
+[![](/cookbook/5.0/images/ScatterSmooth.png?240407172904)](/cookbook/5.0/images/ScatterSmooth.png?240407172904)
 
 {{< code-sp5 >}}
 

@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Assign double.NaN to a heatmap cell to make it transparent.
 
-[![](/cookbook/5.0/images/HeatmapTransparentCells.png?240407170921)](/cookbook/5.0/images/HeatmapTransparentCells.png?240407170921)
+[![](/cookbook/5.0/images/HeatmapTransparentCells.png?240407172904)](/cookbook/5.0/images/HeatmapTransparentCells.png?240407172904)
 
 {{< code-sp5 >}}
 

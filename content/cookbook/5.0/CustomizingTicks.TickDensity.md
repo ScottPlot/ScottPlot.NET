@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Tick density can be adjusted as a fraction of the default value. Unlike MinimumTickSpacing, this strategy is aware of the size of tick labels and adjusts accordingly.
 
-[![](/cookbook/5.0/images/TickDensity.png?240407170921)](/cookbook/5.0/images/TickDensity.png?240407170921)
+[![](/cookbook/5.0/images/TickDensity.png?240407172904)](/cookbook/5.0/images/TickDensity.png?240407172904)
 
 {{< code-sp5 >}}
 

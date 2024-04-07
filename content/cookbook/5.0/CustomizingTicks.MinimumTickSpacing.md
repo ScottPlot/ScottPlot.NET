@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Space between ticks can be increased by setting a value to indicate the minimum distance between tick labels (in pixels).
 
-[![](/cookbook/5.0/images/MinimumTickSpacing.png?240407170921)](/cookbook/5.0/images/MinimumTickSpacing.png?240407170921)
+[![](/cookbook/5.0/images/MinimumTickSpacing.png?240407172904)](/cookbook/5.0/images/MinimumTickSpacing.png?240407172904)
 
 {{< code-sp5 >}}
 

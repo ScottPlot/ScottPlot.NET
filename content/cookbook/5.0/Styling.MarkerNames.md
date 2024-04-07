@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Markers can be referred to by their name.
 
-[![](/cookbook/5.0/images/MarkerNames.png?240407170921)](/cookbook/5.0/images/MarkerNames.png?240407170921)
+[![](/cookbook/5.0/images/MarkerNames.png?240407172904)](/cookbook/5.0/images/MarkerNames.png?240407172904)
 
 {{< code-sp5 >}}
 

@@ -18,7 +18,7 @@ ShowEditLink: false
 
 A rectangle can be added to the plot and styled as desired.
 
-[![](/cookbook/5.0/images/RectangleQuickstart.png?240407170921)](/cookbook/5.0/images/RectangleQuickstart.png?240407170921)
+[![](/cookbook/5.0/images/RectangleQuickstart.png?240407172904)](/cookbook/5.0/images/RectangleQuickstart.png?240407172904)
 
 {{< code-sp5 >}}
 
@@ -54,7 +54,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 A circle can be placed on the plot and styled as desired.
 
-[![](/cookbook/5.0/images/CircleQuickstart.png?240407170921)](/cookbook/5.0/images/CircleQuickstart.png?240407170921)
+[![](/cookbook/5.0/images/CircleQuickstart.png?240407172904)](/cookbook/5.0/images/CircleQuickstart.png?240407172904)
 
 {{< code-sp5 >}}
 
@@ -90,7 +90,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 An ellipse can be placed on the plot and styled as desired.
 
-[![](/cookbook/5.0/images/EllipseQuickstart.png?240407170921)](/cookbook/5.0/images/EllipseQuickstart.png?240407170921)
+[![](/cookbook/5.0/images/EllipseQuickstart.png?240407172904)](/cookbook/5.0/images/EllipseQuickstart.png?240407172904)
 
 {{< code-sp5 >}}
 
@@ -121,7 +121,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Polygon plots can be added from a series of vertices, and must be in clockwise order.
 
-[![](/cookbook/5.0/images/PolygonQuickstart.png?240407170921)](/cookbook/5.0/images/PolygonQuickstart.png?240407170921)
+[![](/cookbook/5.0/images/PolygonQuickstart.png?240407172904)](/cookbook/5.0/images/PolygonQuickstart.png?240407172904)
 
 {{< code-sp5 >}}
 
@@ -152,7 +152,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Polygon plots can be fully customized.
 
-[![](/cookbook/5.0/images/PolygonStyling.png?240407170921)](/cookbook/5.0/images/PolygonStyling.png?240407170921)
+[![](/cookbook/5.0/images/PolygonStyling.png?240407172904)](/cookbook/5.0/images/PolygonStyling.png?240407172904)
 
 {{< code-sp5 >}}
 

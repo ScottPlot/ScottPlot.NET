@@ -16,7 +16,7 @@ ShowEditLink: false
 
 By default gauges are full circles (360 degrees) but smaller gauges can be created by customizing the gauge size.
 
-[![](/cookbook/5.0/images/RadialGaugeRange.png?240407170921)](/cookbook/5.0/images/RadialGaugeRange.png?240407170921)
+[![](/cookbook/5.0/images/RadialGaugeRange.png?240407172904)](/cookbook/5.0/images/RadialGaugeRange.png?240407172904)
 
 {{< code-sp5 >}}
 

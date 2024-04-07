@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Bars can be positioned on top of each other.
 
-[![](/cookbook/5.0/images/BarStackVertically.png?240407170921)](/cookbook/5.0/images/BarStackVertically.png?240407170921)
+[![](/cookbook/5.0/images/BarStackVertically.png?240407172904)](/cookbook/5.0/images/BarStackVertically.png?240407172904)
 
 {{< code-sp5 >}}
 

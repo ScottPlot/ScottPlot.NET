@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Users can enable a marker to be displayedat each data point. However, this can reduce performance for extremely large datasets.
 
-[![](/cookbook/5.0/images/SignalXYMarkers.png?240407170921)](/cookbook/5.0/images/SignalXYMarkers.png?240407170921)
+[![](/cookbook/5.0/images/SignalXYMarkers.png?240407172904)](/cookbook/5.0/images/SignalXYMarkers.png?240407172904)
 
 {{< code-sp5 >}}
 

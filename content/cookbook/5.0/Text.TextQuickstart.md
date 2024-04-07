@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Text can be placed anywhere in coordinate space.
 
-[![](/cookbook/5.0/images/TextQuickstart.png?240407170921)](/cookbook/5.0/images/TextQuickstart.png?240407170921)
+[![](/cookbook/5.0/images/TextQuickstart.png?240407172904)](/cookbook/5.0/images/TextQuickstart.png?240407172904)
 
 {{< code-sp5 >}}
 

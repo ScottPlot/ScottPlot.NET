@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Scatter plots can be extensively styled by interacting with the object that is returned after a scatter plot is added. Assign text to a scatter plot's Label property to allow it to appear in the legend.
 
-[![](/cookbook/5.0/images/ScatterStyling.png?240407170921)](/cookbook/5.0/images/ScatterStyling.png?240407170921)
+[![](/cookbook/5.0/images/ScatterStyling.png?240407172904)](/cookbook/5.0/images/ScatterStyling.png?240407172904)
 
 {{< code-sp5 >}}
 

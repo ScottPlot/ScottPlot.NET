@@ -18,7 +18,7 @@ ShowEditLink: false
 
 Markers are symbols placed at a location in coordinate space. Their shape, size, and color can be customized.
 
-[![](/cookbook/5.0/images/MarkerQuickstart.png?240407170921)](/cookbook/5.0/images/MarkerQuickstart.png?240407170921)
+[![](/cookbook/5.0/images/MarkerQuickstart.png?240407172904)](/cookbook/5.0/images/MarkerQuickstart.png?240407172904)
 
 {{< code-sp5 >}}
 
@@ -45,7 +45,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Many marker shapes are available.
 
-[![](/cookbook/5.0/images/MarkerShapes.png?240407170921)](/cookbook/5.0/images/MarkerShapes.png?240407170921)
+[![](/cookbook/5.0/images/MarkerShapes.png?240407172904)](/cookbook/5.0/images/MarkerShapes.png?240407172904)
 
 {{< code-sp5 >}}
 
@@ -77,7 +77,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Markers with labels appear in the legend.
 
-[![](/cookbook/5.0/images/MarkerLegend.png?240407170921)](/cookbook/5.0/images/MarkerLegend.png?240407170921)
+[![](/cookbook/5.0/images/MarkerLegend.png?240407172904)](/cookbook/5.0/images/MarkerLegend.png?240407172904)
 
 {{< code-sp5 >}}
 
@@ -107,7 +107,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Collections of markers that are all styled the same may be added to the plot
 
-[![](/cookbook/5.0/images/MarkersPlot.png?240407170921)](/cookbook/5.0/images/MarkersPlot.png?240407170921)
+[![](/cookbook/5.0/images/MarkersPlot.png?240407172904)](/cookbook/5.0/images/MarkersPlot.png?240407172904)
 
 {{< code-sp5 >}}
 

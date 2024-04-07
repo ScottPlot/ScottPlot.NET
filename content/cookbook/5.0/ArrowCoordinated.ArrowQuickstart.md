@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Arrows can be placed on plots to point to a location in coordinate space and extensively customized.
 
-[![](/cookbook/5.0/images/ArrowQuickstart.png?240407170921)](/cookbook/5.0/images/ArrowQuickstart.png?240407170921)
+[![](/cookbook/5.0/images/ArrowQuickstart.png?240407172904)](/cookbook/5.0/images/ArrowQuickstart.png?240407172904)
 
 {{< code-sp5 >}}
 

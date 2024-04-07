@@ -16,7 +16,7 @@ ShowEditLink: false
 
 All components of an image can be scaled up or down in size by adjusting the ScaleFactor property. This is very useful for creating images that look nice on high DPI displays with display scaling enabled.
 
-[![](/cookbook/5.0/images/Scaling.png?240407170921)](/cookbook/5.0/images/Scaling.png?240407170921)
+[![](/cookbook/5.0/images/Scaling.png?240407172904)](/cookbook/5.0/images/Scaling.png?240407172904)
 
 {{< code-sp5 >}}
 

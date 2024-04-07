@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Scatter plots can be created from any numeric data type, not just double.
 
-[![](/cookbook/5.0/images/ScatterDataType.png?240407170921)](/cookbook/5.0/images/ScatterDataType.png?240407170921)
+[![](/cookbook/5.0/images/ScatterDataType.png?240407172904)](/cookbook/5.0/images/ScatterDataType.png?240407172904)
 
 {{< code-sp5 >}}
 

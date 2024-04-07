@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Display paired X/Y data as a scatter plot.
 
-[![](/cookbook/5.0/images/QuickstartScatter.png?240407170921)](/cookbook/5.0/images/QuickstartScatter.png?240407170921)
+[![](/cookbook/5.0/images/QuickstartScatter.png?240407172904)](/cookbook/5.0/images/QuickstartScatter.png?240407172904)
 
 {{< code-sp5 >}}
 

@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Legend items may be arranged horizontally instead of vertically
 
-[![](/cookbook/5.0/images/LegendOrientation.png?240407170921)](/cookbook/5.0/images/LegendOrientation.png?240407170921)
+[![](/cookbook/5.0/images/LegendOrientation.png?240407172904)](/cookbook/5.0/images/LegendOrientation.png?240407172904)
 
 {{< code-sp5 >}}
 

@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Bars can be grouped by position and color.
 
-[![](/cookbook/5.0/images/GroupedBarPlot.png?240407170921)](/cookbook/5.0/images/GroupedBarPlot.png?240407170921)
+[![](/cookbook/5.0/images/GroupedBarPlot.png?240407172904)](/cookbook/5.0/images/GroupedBarPlot.png?240407172904)
 
 {{< code-sp5 >}}
 

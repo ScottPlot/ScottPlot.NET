@@ -18,7 +18,7 @@ ShowEditLink: false
 
 A pie chart can be created from a few values.
 
-[![](/cookbook/5.0/images/PieQuickstart.png?240407170921)](/cookbook/5.0/images/PieQuickstart.png?240407170921)
+[![](/cookbook/5.0/images/PieQuickstart.png?240407172904)](/cookbook/5.0/images/PieQuickstart.png?240407172904)
 
 {{< code-sp5 >}}
 
@@ -42,7 +42,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 A pie chart can be created from a collection of slices.
 
-[![](/cookbook/5.0/images/PieSlices.png?240407170921)](/cookbook/5.0/images/PieSlices.png?240407170921)
+[![](/cookbook/5.0/images/PieSlices.png?240407172904)](/cookbook/5.0/images/PieSlices.png?240407172904)
 
 {{< code-sp5 >}}
 
@@ -76,7 +76,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 A donut chart is a pie chart with an open center. Donut charts can be created from a collection of slices.
 
-[![](/cookbook/5.0/images/PieDonut.png?240407170921)](/cookbook/5.0/images/PieDonut.png?240407170921)
+[![](/cookbook/5.0/images/PieDonut.png?240407172904)](/cookbook/5.0/images/PieDonut.png?240407172904)
 
 {{< code-sp5 >}}
 
@@ -110,7 +110,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Slice labels can be displayed centered with the slice at a customizable distance from the center of the pie.
 
-[![](/cookbook/5.0/images/PieSliceLabels.png?240407170921)](/cookbook/5.0/images/PieSliceLabels.png?240407170921)
+[![](/cookbook/5.0/images/PieSliceLabels.png?240407172904)](/cookbook/5.0/images/PieSliceLabels.png?240407172904)
 
 {{< code-sp5 >}}
 

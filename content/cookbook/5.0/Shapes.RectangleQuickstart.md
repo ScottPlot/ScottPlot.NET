@@ -16,7 +16,7 @@ ShowEditLink: false
 
 A rectangle can be added to the plot and styled as desired.
 
-[![](/cookbook/5.0/images/RectangleQuickstart.png?240407170921)](/cookbook/5.0/images/RectangleQuickstart.png?240407170921)
+[![](/cookbook/5.0/images/RectangleQuickstart.png?240407172904)](/cookbook/5.0/images/RectangleQuickstart.png?240407172904)
 
 {{< code-sp5 >}}
 

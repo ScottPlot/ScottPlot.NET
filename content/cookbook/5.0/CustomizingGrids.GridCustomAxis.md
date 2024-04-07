@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Axis-specific styling properties are available for extensive axis-specific customization of grid line styling.
 
-[![](/cookbook/5.0/images/GridCustomAxis.png?240407170921)](/cookbook/5.0/images/GridCustomAxis.png?240407170921)
+[![](/cookbook/5.0/images/GridCustomAxis.png?240407172904)](/cookbook/5.0/images/GridCustomAxis.png?240407172904)
 
 {{< code-sp5 >}}
 

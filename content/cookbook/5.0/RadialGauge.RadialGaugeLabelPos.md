@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Gauge level text is positioned at the tip of each gauge by default, but this position can be adjusted by the user.
 
-[![](/cookbook/5.0/images/RadialGaugeLabelPos.png?240407170921)](/cookbook/5.0/images/RadialGaugeLabelPos.png?240407170921)
+[![](/cookbook/5.0/images/RadialGaugeLabelPos.png?240407172904)](/cookbook/5.0/images/RadialGaugeLabelPos.png?240407172904)
 
 {{< code-sp5 >}}
 

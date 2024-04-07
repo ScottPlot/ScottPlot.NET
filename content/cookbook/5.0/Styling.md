@@ -18,7 +18,7 @@ ShowEditLink: false
 
 Plots contain many objects which can be customized individually by assigning to their public properties, but helper methods exist in the Plot's Style object that make it easier to customize many items at once using a simpler API.
 
-[![](/cookbook/5.0/images/StyleClass.png?240407170921)](/cookbook/5.0/images/StyleClass.png?240407170921)
+[![](/cookbook/5.0/images/StyleClass.png?240407172904)](/cookbook/5.0/images/StyleClass.png?240407172904)
 
 {{< code-sp5 >}}
 
@@ -54,7 +54,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Axis labels, tick marks, and frame can all be customized.
 
-[![](/cookbook/5.0/images/AxisCustom.png?240407170921)](/cookbook/5.0/images/AxisCustom.png?240407170921)
+[![](/cookbook/5.0/images/AxisCustom.png?240407172904)](/cookbook/5.0/images/AxisCustom.png?240407172904)
 
 {{< code-sp5 >}}
 
@@ -103,7 +103,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 A palette is a set of colors, and the Plot's palette defines the default colors to use when adding new plottables. ScottPlot comes with many standard palettes, but users may also create their own.
 
-[![](/cookbook/5.0/images/Palette.png?240407170921)](/cookbook/5.0/images/Palette.png?240407170921)
+[![](/cookbook/5.0/images/Palette.png?240407172904)](/cookbook/5.0/images/Palette.png?240407172904)
 
 {{< code-sp5 >}}
 
@@ -133,7 +133,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Many plot types have a MarkerStyle which can be customized.
 
-[![](/cookbook/5.0/images/Markers.png?240407170921)](/cookbook/5.0/images/Markers.png?240407170921)
+[![](/cookbook/5.0/images/Markers.png?240407172904)](/cookbook/5.0/images/Markers.png?240407172904)
 
 {{< code-sp5 >}}
 
@@ -164,7 +164,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Markers can be referred to by their name.
 
-[![](/cookbook/5.0/images/MarkerNames.png?240407170921)](/cookbook/5.0/images/MarkerNames.png?240407170921)
+[![](/cookbook/5.0/images/MarkerNames.png?240407172904)](/cookbook/5.0/images/MarkerNames.png?240407172904)
 
 {{< code-sp5 >}}
 
@@ -205,7 +205,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Many plot types have a LineStyle which can be customized.
 
-[![](/cookbook/5.0/images/LineStyles.png?240407170921)](/cookbook/5.0/images/LineStyles.png?240407170921)
+[![](/cookbook/5.0/images/LineStyles.png?240407172904)](/cookbook/5.0/images/LineStyles.png?240407172904)
 
 {{< code-sp5 >}}
 
@@ -249,7 +249,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 All components of an image can be scaled up or down in size by adjusting the ScaleFactor property. This is very useful for creating images that look nice on high DPI displays with display scaling enabled.
 
-[![](/cookbook/5.0/images/Scaling.png?240407170921)](/cookbook/5.0/images/Scaling.png?240407170921)
+[![](/cookbook/5.0/images/Scaling.png?240407172904)](/cookbook/5.0/images/Scaling.png?240407172904)
 
 {{< code-sp5 >}}
 
@@ -273,7 +273,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Plots can be created using dark mode by setting the colors of major plot components to ones consistent with a dark theme.
 
-[![](/cookbook/5.0/images/DarkMode.png?240407170921)](/cookbook/5.0/images/DarkMode.png?240407170921)
+[![](/cookbook/5.0/images/DarkMode.png?240407172904)](/cookbook/5.0/images/DarkMode.png?240407172904)
 
 {{< code-sp5 >}}
 
