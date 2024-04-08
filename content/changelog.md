@@ -16,15 +16,18 @@ Release notes for every version of ScottPlot
 </li>
 <li>Function: Exposed <code>MinX</code> and <code>MaxX</code> to allow users to restrict display to a horizontal range (<a href="https://github.com/ScottPlot/ScottPlot/issues/3595">#3595</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3603">#3603</a>) <a href="https://github.com/Matthew-Chidlow"><strong>@Matthew-Chidlow</strong></a> <a href="https://github.com/Dibyanshuaman"><strong>@Dibyanshuaman</strong></a>
 </li>
+<li>Axis Lines: Added <code>ExcludeFromLegend</code> so text can be added to axis line labels without appearing in the legend (<a href="https://github.com/ScottPlot/ScottPlot/issues/3612">#3612</a>) <a href="https://github.com/MCF"><strong>@MCF</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/Matthew-Chidlow'>@Matthew-Chidlow</a>, <a href='https://github.com/Dibyanshuaman'>@Dibyanshuaman</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/Matthew-Chidlow'>@Matthew-Chidlow</a>, <a href='https://github.com/Dibyanshuaman'>@Dibyanshuaman</a>, <a href='https://github.com/MCF'>@MCF</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/Matthew-Chidlow'><img src='https://scottplot.net/images/contributors/matthew-chidlow.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Dibyanshuaman'><img src='https://scottplot.net/images/contributors/dibyanshuaman.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/MCF'><img src='https://scottplot.net/images/contributors/mcf.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
