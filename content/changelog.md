@@ -8,6 +8,28 @@ Description: Release notes for every version of ScottPlot
 Release notes for every version of ScottPlot
 
 <section class='mb-5'>
+<h1 class='mb-0'>ScottPlot 5.0.26</h1>
+<div><i>NuGet packages published </i></div>
+<div class='mt-1'>
+<ul>
+<li>Function: Improved autoscaling behavior and respect for user-defined horizontal ranges (<a href="https://github.com/ScottPlot/ScottPlot/issues/3618">#3618</a>) <a href="https://github.com/Matthew-Chidlow"><strong>@Matthew-Chidlow</strong></a>
+</li>
+<li>Function: Exposed <code>MinX</code> and <code>MaxX</code> to allow users to restrict display to a horizontal range (<a href="https://github.com/ScottPlot/ScottPlot/issues/3595">#3595</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3603">#3603</a>) <a href="https://github.com/Matthew-Chidlow"><strong>@Matthew-Chidlow</strong></a> <a href="https://github.com/Dibyanshuaman"><strong>@Dibyanshuaman</strong></a>
+</li>
+</ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/Matthew-Chidlow'>@Matthew-Chidlow</a>, <a href='https://github.com/Dibyanshuaman'>@Dibyanshuaman</a>, <a href='https://github.com/swharden'>@swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/Matthew-Chidlow'><img src='https://scottplot.net/images/contributors/matthew-chidlow.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Dibyanshuaman'><img src='https://scottplot.net/images/contributors/dibyanshuaman.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
+
+</section>
+<section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 5.0.25</h1>
 <div><i>NuGet packages published 2024-04-08</i></div>
 <div class='mt-1'>
@@ -26,7 +48,7 @@ Release notes for every version of ScottPlot
 </div>
 <div class='text-center'>
 <a href='https://github.com/Matthew-Chidlow'><img src='https://scottplot.net/images/contributors/matthew-chidlow.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/SongPing'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/SongPing'><img src='https://scottplot.net/images/contributors/songping.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
