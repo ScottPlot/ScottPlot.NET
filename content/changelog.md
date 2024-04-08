@@ -8,6 +8,30 @@ Description: Release notes for every version of ScottPlot
 Release notes for every version of ScottPlot
 
 <section class='mb-5'>
+<h1 class='mb-0'>ScottPlot 5.0.25</h1>
+<div><i>NuGet packages published 2024-04-08</i></div>
+<div class='mt-1'>
+<ul>
+<li>NuGet: Use snupkg format to include debug symbols (<a href="https://github.com/ScottPlot/ScottPlot/issues/3496">#3496</a>)
+</li>
+<li>Scatter: Fixed indexing error affecting <code>GetNearest()</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/3616">#3616</a>) <a href="https://github.com/Matthew-Chidlow"><strong>@Matthew-Chidlow</strong></a> <a href="https://github.com/SongPing"><strong>@SongPing</strong></a>
+</li>
+<li>Generate: Exposed a static <code>RandomWalker</code> instance for easily generating random walk datasets
+</li>
+</ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/Matthew-Chidlow'>@Matthew-Chidlow</a>, <a href='https://github.com/SongPing'>@SongPing</a>, <a href='https://github.com/swharden'>@swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/Matthew-Chidlow'><img src='https://scottplot.net/images/contributors/matthew-chidlow.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/SongPing'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
+
+</section>
+<section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 5.0.24</h1>
 <div><i>NuGet packages published 2024-04-07</i></div>
 <div class='mt-1'>
