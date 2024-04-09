@@ -22,11 +22,15 @@ Release notes for every version of ScottPlot
 </li>
 <li>Scatter: Upgraded the default smooth behavior to use cubic spline interpolation (<a href="https://github.com/ScottPlot/ScottPlot/issues/3623">#3623</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3606">#3606</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3274">#3274</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3566">#3566</a>) <a href="https://github.com/drolevar"><strong>@drolevar</strong></a>
 </li>
+<li>Vector Field: Added a new plot type to display a collection of rooted vectors (<a href="https://github.com/ScottPlot/ScottPlot/issues/3625">#3625</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3626">#3626</a>) <a href="https://github.com/bclehmann"><strong>@bclehmann</strong></a>
+</li>
+<li>AxisLine: Improve appearance in of the key displayed in the legend (<a href="https://github.com/ScottPlot/ScottPlot/issues/3627">#3627</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3613">#3613</a>) <a href="https://github.com/MCF"><strong>@MCF</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/Matthew-Chidlow'>@Matthew-Chidlow</a>, <a href='https://github.com/Dibyanshuaman'>@Dibyanshuaman</a>, <a href='https://github.com/MCF'>@MCF</a>, <a href='https://github.com/KroMignon'>@KroMignon</a>, <a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/Matthew-Chidlow'>@Matthew-Chidlow</a>, <a href='https://github.com/Dibyanshuaman'>@Dibyanshuaman</a>, <a href='https://github.com/MCF'>@MCF</a>, <a href='https://github.com/KroMignon'>@KroMignon</a>, <a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/Matthew-Chidlow'><img src='https://scottplot.net/images/contributors/matthew-chidlow.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -34,6 +38,7 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/MCF'><img src='https://scottplot.net/images/contributors/mcf.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/KroMignon'><img src='https://scottplot.net/images/contributors/kromignon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/drolevar'><img src='https://scottplot.net/images/contributors/drolevar.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
