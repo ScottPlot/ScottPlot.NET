@@ -20,17 +20,20 @@ Release notes for every version of ScottPlot
 </li>
 <li>WPF: Added <code>GetPlotPixelPosition()</code> for getting mouse position relative to the figure (<a href="https://github.com/ScottPlot/ScottPlot/issues/3622">#3622</a>) <a href="https://github.com/KroMignon"><strong>@KroMignon</strong></a>
 </li>
+<li>Scatter: Upgraded the default smooth behavior to use cubic spline interpolation (<a href="https://github.com/ScottPlot/ScottPlot/issues/3623">#3623</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3606">#3606</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3274">#3274</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3566">#3566</a>) <a href="https://github.com/drolevar"><strong>@drolevar</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/Matthew-Chidlow'>@Matthew-Chidlow</a>, <a href='https://github.com/Dibyanshuaman'>@Dibyanshuaman</a>, <a href='https://github.com/MCF'>@MCF</a>, <a href='https://github.com/KroMignon'>@KroMignon</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/Matthew-Chidlow'>@Matthew-Chidlow</a>, <a href='https://github.com/Dibyanshuaman'>@Dibyanshuaman</a>, <a href='https://github.com/MCF'>@MCF</a>, <a href='https://github.com/KroMignon'>@KroMignon</a>, <a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/Matthew-Chidlow'><img src='https://scottplot.net/images/contributors/matthew-chidlow.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Dibyanshuaman'><img src='https://scottplot.net/images/contributors/dibyanshuaman.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/MCF'><img src='https://scottplot.net/images/contributors/mcf.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/KroMignon'><img src='https://scottplot.net/images/contributors/kromignon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/drolevar'><img src='https://scottplot.net/images/contributors/drolevar.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
