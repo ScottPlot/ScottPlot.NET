@@ -26,11 +26,13 @@ Release notes for every version of ScottPlot
 </li>
 <li>AxisLine: Improve appearance in of the key displayed in the legend (<a href="https://github.com/ScottPlot/ScottPlot/issues/3627">#3627</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3613">#3613</a>) <a href="https://github.com/MCF"><strong>@MCF</strong></a>
 </li>
+<li>Crosshair: Expose <code>VerticalLine</code> and <code>HorizontalLine</code> for to allow axis-specific customization (<a href="https://github.com/ScottPlot/ScottPlot/issues/3638">#3638</a>) <a href="https://github.com/Fruchtzwerg94"><strong>@Fruchtzwerg94</strong></a> <a href="https://github.com/heartacker"><strong>@heartacker</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/Matthew-Chidlow'>@Matthew-Chidlow</a>, <a href='https://github.com/Dibyanshuaman'>@Dibyanshuaman</a>, <a href='https://github.com/MCF'>@MCF</a>, <a href='https://github.com/KroMignon'>@KroMignon</a>, <a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/Matthew-Chidlow'>@Matthew-Chidlow</a>, <a href='https://github.com/Dibyanshuaman'>@Dibyanshuaman</a>, <a href='https://github.com/MCF'>@MCF</a>, <a href='https://github.com/KroMignon'>@KroMignon</a>, <a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/Fruchtzwerg94'>@Fruchtzwerg94</a>, <a href='https://github.com/heartacker'>@heartacker</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/Matthew-Chidlow'><img src='https://scottplot.net/images/contributors/matthew-chidlow.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -39,6 +41,8 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/KroMignon'><img src='https://scottplot.net/images/contributors/kromignon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/drolevar'><img src='https://scottplot.net/images/contributors/drolevar.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Fruchtzwerg94'><img src='https://scottplot.net/images/contributors/fruchtzwerg94.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/heartacker'><img src='https://scottplot.net/images/contributors/heartacker.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
