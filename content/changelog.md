@@ -20,7 +20,7 @@ Release notes for every version of ScottPlot
 </li>
 <li>WPF: Added <code>GetPlotPixelPosition()</code> for getting mouse position relative to the figure (<a href="https://github.com/ScottPlot/ScottPlot/issues/3622">#3622</a>) <a href="https://github.com/KroMignon"><strong>@KroMignon</strong></a>
 </li>
-<li>Scatter: Upgraded the default smooth behavior to use cubic spline interpolation (<a href="https://github.com/ScottPlot/ScottPlot/issues/3623">#3623</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3606">#3606</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3274">#3274</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3566">#3566</a>) <a href="https://github.com/drolevar"><strong>@drolevar</strong></a>
+<li>Scatter: Upgraded the default smooth behavior to use cubic spline interpolation and exposed <code>SmoothTension</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/3623">#3623</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3606">#3606</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3274">#3274</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3566">#3566</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3629">#3629</a>) <a href="https://github.com/drolevar"><strong>@drolevar</strong></a>
 </li>
 <li>Vector Field: Added a new plot type to display a collection of rooted vectors (<a href="https://github.com/ScottPlot/ScottPlot/issues/3625">#3625</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3626">#3626</a>) <a href="https://github.com/bclehmann"><strong>@bclehmann</strong></a>
 </li>
@@ -50,7 +50,7 @@ Release notes for every version of ScottPlot
 <ul>
 <li>NuGet: Use snupkg format to include debug symbols (<a href="https://github.com/ScottPlot/ScottPlot/issues/3496">#3496</a>)
 </li>
-<li>Scatter: Fixed indexing error affecting <code>GetNearest()</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/3616">#3616</a>) <a href="https://github.com/Matthew-Chidlow"><strong>@Matthew-Chidlow</strong></a> <a href="https://github.com/SongPing"><strong>@SongPing</strong></a>
+<li>Scatter: Fixed indexing error affecting <code>GetNearest()</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/3616">#3616</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3461">#3461</a>) <a href="https://github.com/Matthew-Chidlow"><strong>@Matthew-Chidlow</strong></a> <a href="https://github.com/SongPing"><strong>@SongPing</strong></a> <a href="https://github.com/sunshuaize"><strong>@sunshuaize</strong></a> <a href="https://github.com/mikeKuester"><strong>@mikeKuester</strong></a>
 </li>
 <li>Generate: Exposed a static <code>RandomWalker</code> instance for easily generating random walk datasets
 </li>
@@ -58,11 +58,13 @@ Release notes for every version of ScottPlot
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/Matthew-Chidlow'>@Matthew-Chidlow</a>, <a href='https://github.com/SongPing'>@SongPing</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/Matthew-Chidlow'>@Matthew-Chidlow</a>, <a href='https://github.com/SongPing'>@SongPing</a>, <a href='https://github.com/sunshuaize'>@sunshuaize</a>, <a href='https://github.com/mikeKuester'>@mikeKuester</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/Matthew-Chidlow'><img src='https://scottplot.net/images/contributors/matthew-chidlow.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/SongPing'><img src='https://scottplot.net/images/contributors/songping.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/sunshuaize'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/mikeKuester'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
@@ -2190,13 +2192,13 @@ Release notes for every version of ScottPlot
 </li>
 <li>Render: Improved thread safety of the render lock system (<a href="https://github.com/ScottPlot/ScottPlot/issues/2030">#2030</a>) <a href="https://github.com/anprevost"><strong>@anprevost</strong></a>
 </li>
-<li>Scatter: Exposed <code>SmoothTension</code> to customize behavior when <code>Smooth</code> is enabled (<a href="https://github.com/ScottPlot/ScottPlot/issues/1878">#1878</a>)Michael99
+<li>Scatter: Exposed <code>SmoothTension</code> to customize behavior when <code>Smooth</code> is enabled (<a href="https://github.com/ScottPlot/ScottPlot/issues/1878">#1878</a>) <a href="https://github.com/Michael99"><strong>@Michael99</strong></a>
 </li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/Fruchtzwerg94'>@Fruchtzwerg94</a>, <a href='https://github.com/xmln17'>@xmln17</a>, <a href='https://github.com/hamhub7'>@hamhub7</a>, <a href='https://github.com/PlayCreatively'>@PlayCreatively</a>, <a href='https://github.com/Xerxes004'>@Xerxes004</a>, <a href='https://github.com/dhgigisoave'>@dhgigisoave</a>, <a href='https://github.com/Agorath'>@Agorath</a>, <a href='https://github.com/anprevost'>@anprevost</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/Fruchtzwerg94'>@Fruchtzwerg94</a>, <a href='https://github.com/xmln17'>@xmln17</a>, <a href='https://github.com/hamhub7'>@hamhub7</a>, <a href='https://github.com/PlayCreatively'>@PlayCreatively</a>, <a href='https://github.com/Xerxes004'>@Xerxes004</a>, <a href='https://github.com/dhgigisoave'>@dhgigisoave</a>, <a href='https://github.com/Agorath'>@Agorath</a>, <a href='https://github.com/anprevost'>@anprevost</a>, <a href='https://github.com/Michael99'>@Michael99</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -2208,6 +2210,7 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/dhgigisoave'><img src='https://scottplot.net/images/contributors/dhgigisoave.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Agorath'><img src='https://scottplot.net/images/contributors/agorath.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/anprevost'><img src='https://scottplot.net/images/contributors/anprevost.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Michael99'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
