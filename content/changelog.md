@@ -34,11 +34,13 @@ Release notes for every version of ScottPlot
 </li>
 <li>WinUI: Added automatic display scaling detection and correction (<a href="https://github.com/ScottPlot/ScottPlot/issues/3642">#3642</a>) <a href="https://github.com/PZidlik"><strong>@PZidlik</strong></a>
 </li>
+<li>Bar: Added a <code>CenterLabel</code> flag to cause value labels to be displayed centered within a bar (<a href="https://github.com/ScottPlot/ScottPlot/issues/3391">#3391</a>) <a href="https://github.com/tibormarchynzoom"><strong>@tibormarchynzoom</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/Matthew-Chidlow'>@Matthew-Chidlow</a>, <a href='https://github.com/Dibyanshuaman'>@Dibyanshuaman</a>, <a href='https://github.com/MCF'>@MCF</a>, <a href='https://github.com/KroMignon'>@KroMignon</a>, <a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/Fruchtzwerg94'>@Fruchtzwerg94</a>, <a href='https://github.com/heartacker'>@heartacker</a>, <a href='https://github.com/jpgarza93'>@jpgarza93</a>, <a href='https://github.com/PZidlik'>@PZidlik</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/Matthew-Chidlow'>@Matthew-Chidlow</a>, <a href='https://github.com/Dibyanshuaman'>@Dibyanshuaman</a>, <a href='https://github.com/MCF'>@MCF</a>, <a href='https://github.com/KroMignon'>@KroMignon</a>, <a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/Fruchtzwerg94'>@Fruchtzwerg94</a>, <a href='https://github.com/heartacker'>@heartacker</a>, <a href='https://github.com/jpgarza93'>@jpgarza93</a>, <a href='https://github.com/PZidlik'>@PZidlik</a>, <a href='https://github.com/tibormarchynzoom'>@tibormarchynzoom</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/Matthew-Chidlow'><img src='https://scottplot.net/images/contributors/matthew-chidlow.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -51,6 +53,7 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/heartacker'><img src='https://scottplot.net/images/contributors/heartacker.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/jpgarza93'><img src='https://scottplot.net/images/contributors/jpgarza93.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/PZidlik'><img src='https://scottplot.net/images/contributors/pzidlik.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/tibormarchynzoom'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
