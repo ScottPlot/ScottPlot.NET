@@ -28,6 +28,8 @@ Release notes for every version of ScottPlot
 </li>
 <li>Crosshair: Expose <code>VerticalLine</code> and <code>HorizontalLine</code> for to allow axis-specific customization (<a href="https://github.com/ScottPlot/ScottPlot/issues/3638">#3638</a>) <a href="https://github.com/Fruchtzwerg94"><strong>@Fruchtzwerg94</strong></a> <a href="https://github.com/heartacker"><strong>@heartacker</strong></a>
 </li>
+<li>AxisLine: Added properties for faster styling including an optional <code>TextAlignment</code> setting (<a href="https://github.com/ScottPlot/ScottPlot/issues/3640">#3640</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3624">#3624</a>) <a href="https://github.com/MCF"><strong>@MCF</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
