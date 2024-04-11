@@ -30,11 +30,13 @@ Release notes for every version of ScottPlot
 </li>
 <li>AxisLine: Added properties for faster styling including an optional <code>TextAlignment</code> setting (<a href="https://github.com/ScottPlot/ScottPlot/issues/3640">#3640</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3624">#3624</a>) <a href="https://github.com/MCF"><strong>@MCF</strong></a>
 </li>
+<li>Axes: Improved autoscaling support behavior for plots where nonstandard axes are in use (<a href="https://github.com/ScottPlot/ScottPlot/issues/3641">#3641</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3637">#3637</a>) <a href="https://github.com/KroMignon"><strong>@KroMignon</strong></a> <a href="https://github.com/jpgarza93"><strong>@jpgarza93</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/Matthew-Chidlow'>@Matthew-Chidlow</a>, <a href='https://github.com/Dibyanshuaman'>@Dibyanshuaman</a>, <a href='https://github.com/MCF'>@MCF</a>, <a href='https://github.com/KroMignon'>@KroMignon</a>, <a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/Fruchtzwerg94'>@Fruchtzwerg94</a>, <a href='https://github.com/heartacker'>@heartacker</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/Matthew-Chidlow'>@Matthew-Chidlow</a>, <a href='https://github.com/Dibyanshuaman'>@Dibyanshuaman</a>, <a href='https://github.com/MCF'>@MCF</a>, <a href='https://github.com/KroMignon'>@KroMignon</a>, <a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/Fruchtzwerg94'>@Fruchtzwerg94</a>, <a href='https://github.com/heartacker'>@heartacker</a>, <a href='https://github.com/jpgarza93'>@jpgarza93</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/Matthew-Chidlow'><img src='https://scottplot.net/images/contributors/matthew-chidlow.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -45,6 +47,7 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Fruchtzwerg94'><img src='https://scottplot.net/images/contributors/fruchtzwerg94.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/heartacker'><img src='https://scottplot.net/images/contributors/heartacker.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/jpgarza93'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
