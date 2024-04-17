@@ -13,8 +13,6 @@ layout: single
 
 **ScottPlot is a free and open-source plotting library for .NET** that makes it easy to interactively display large datasets. Line plots, bar charts, pie graphs, scatter plots, and more can be created with just a few lines of code.
 
-{{< banner-sp5 >}}
-
 <a href='cookbook'>
   <img src='/images/scottplot.gif' class="d-block mx-auto my-5" />
 </a>
@@ -23,8 +21,6 @@ layout: single
 
 Quickstart pages exist for [console applications](/quickstart/console/), [Windows Forms](/quickstart/winforms/), [WPF](/quickstart/wpf/), [WinUI](/quickstart/winui/), [Blazor](/quickstart/blazor/), and more!
 
-{{< code-sp5 >}}
-
 ```cs
 double[] xs = { 1, 2, 3, 4, 5 };
 double[] ys = { 1, 4, 9, 16, 25 };
@@ -32,8 +28,6 @@ ScottPlot.Plot myPlot = new(400, 300);
 myPlot.Add.Scatter(xs, ys);
 myPlot.SavePng("quickstart.png");
 ```
-
-{{< /code-sp5 >}}
 
 ![](/images/quickstart/scottplot-quickstart-console.png)
 
@@ -48,7 +42,7 @@ The [**ScottPlot Cookbook**](cookbook/) demonstrates how to create line plots, b
 
 ## Demo
 
-The [**ScottPlot Demo**](demo) is a click-to-run application that provides mouse-interactive versions of every cookbook recipe and demonstrates how to perform advanced interactive customizations.
+The [**ScottPlot Demo**](demo/) is a click-to-run application that provides mouse-interactive versions of every cookbook recipe and demonstrates how to perform advanced interactive customizations.
 
 <a href='demo'>
   <img src='/images/demo/5.0/demo.png' class="d-block mx-auto my-5" />
@@ -58,13 +52,13 @@ The [**ScottPlot Demo**](demo) is a click-to-run application that provides mouse
 
 **ScottPlot does not require a GUI so it can be used to create plots in cloud applications.** The images below are regenerated hourly using Azure Functions to update star metrics from the GitHub API and download count from the NuGet API. The data is plotted with ScottPlot and saved as an image file in blob storage. Try it out!
 
-**Try it out!** [Give us a star](https://github.com/scottplot/scottplot) and come back in an hour and your name will appear here:
+**Try it out:** If you [**give us a star** ⭐](https://github.com/scottplot/scottplot) and come back in an hour and your name will appear in the graph below!
 
 
-<a href="https://stargraph.z20.web.core.windows.net/scottplot-stars.png" target="_blank">
-  <img src="https://stargraph.z20.web.core.windows.net/scottplot-stars.png?" class="d-block mx-auto my-5" >
+<a href="https://scottplotstatsstorage.z20.web.core.windows.net/stars.png" target="_blank">
+  <img src="https://scottplotstatsstorage.z20.web.core.windows.net/stars.png" class="d-block mx-auto my-5" >
 </a>
 
-<a href='https://nugetppt.z20.web.core.windows.net/plots/scottplot.png'>
-  <img src='https://nugetppt.z20.web.core.windows.net/plots/scottplot.png' class="d-block mx-auto my-5" >
+<a href='https://scottplotstatsstorage.z20.web.core.windows.net/scottplot-download-count.png'>
+  <img src='https://scottplotstatsstorage.z20.web.core.windows.net/scottplot-download-count.png' class="d-block mx-auto my-5" >
 </a>
