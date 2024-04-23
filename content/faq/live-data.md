@@ -83,7 +83,7 @@ public Form1()
 {
     InitializeComponent();
     UpdateValues();
-    formsPlot1.Plot.AddSignal(Values);
+    formsPlot1.Plot.Add.Signal(Values);
 }
 
 public void UpdateValues()
@@ -124,7 +124,7 @@ int NextIndex = 0;
 public Form1()
 {
     InitializeComponent();
-    formsPlot1.Plot.AddSignal(Values);
+    formsPlot1.Plot.Add.Signal(Values);
     VerticalLine = formsPlot1.Plot.AddVerticalLine(0, Color.Red, 2);
     formsPlot1.Plot.SetAxisLimits(0, Values.Length, -2, 2);
 }
@@ -173,7 +173,7 @@ int NextPointIndex = 0;
 public Form1()
 {
     InitializeComponent();
-    SignalPlot = formsPlot1.Plot.AddSignal(Values);
+    SignalPlot = formsPlot1.Plot.Add.Signal(Values);
     formsPlot1.Plot.SetAxisLimits(0, 100, -2, 2);
 }
 
