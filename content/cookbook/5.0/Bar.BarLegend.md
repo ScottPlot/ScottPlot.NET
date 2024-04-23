@@ -4,9 +4,9 @@ Description: A collection of bars can appear in the legend as a single item.
 URL: /cookbook/5.0/Bar/BarLegend/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Bar Plot", "Bar Plot Legend"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Bar", "/cookbook/5.0/Bar/BarLegend"]
-Date: 2024-04-07
-Version: ScottPlot 5.0.24
-Version: ScottPlot 5.0.24
+Date: 2024-04-23
+Version: ScottPlot 5.0.27
+Version: ScottPlot 5.0.27
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 A collection of bars can appear in the legend as a single item.
 
-[![](/cookbook/5.0/images/BarLegend.png?240407172904)](/cookbook/5.0/images/BarLegend.png?240407172904)
+[![](/cookbook/5.0/images/BarLegend.png?240423091821)](/cookbook/5.0/images/BarLegend.png?240423091821)
 
 {{< code-sp5 >}}
 
@@ -26,12 +26,12 @@ ScottPlot.Plot myPlot = new();
 double[] xs1 = { 1, 2, 3, 4 };
 double[] ys1 = { 5, 10, 7, 13 };
 var bars1 = myPlot.Add.Bars(xs1, ys1);
-bars1.Label = "Alpha";
+bars1.LegendText = "Alpha";
 
 double[] xs2 = { 6, 7, 8, 9 };
 double[] ys2 = { 7, 12, 9, 15 };
 var bars2 = myPlot.Add.Bars(xs2, ys2);
-bars2.Label = "Beta";
+bars2.LegendText = "Beta";
 
 myPlot.ShowLegend(Alignment.UpperLeft);
 myPlot.Axes.Margins(bottom: 0);

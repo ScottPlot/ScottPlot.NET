@@ -4,9 +4,9 @@ Description: Users can define ticks to be placed at specific locations.
 URL: /cookbook/5.0/CustomizingTicks/CustomTicks/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Customizing Ticks", "Custom Tick Positions"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/CustomizingTicks", "/cookbook/5.0/CustomizingTicks/CustomTicks"]
-Date: 2024-04-07
-Version: ScottPlot 5.0.24
-Version: ScottPlot 5.0.24
+Date: 2024-04-23
+Version: ScottPlot 5.0.27
+Version: ScottPlot 5.0.27
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Users can define ticks to be placed at specific locations.
 
-[![](/cookbook/5.0/images/CustomTicks.png?240407172904)](/cookbook/5.0/images/CustomTicks.png?240407172904)
+[![](/cookbook/5.0/images/CustomTicks.png?240423091821)](/cookbook/5.0/images/CustomTicks.png?240423091821)
 
 {{< code-sp5 >}}
 
@@ -43,7 +43,7 @@ ticks.AddMinor(35);
 ticks.AddMinor(42);
 ticks.AddMinor(45);
 
-// tell the horizontal axis to use the custom tick genrator
+// tell the horizontal axis to use the custom tick generator
 myPlot.Axes.Bottom.TickGenerator = ticks;
 
 myPlot.SavePng("demo.png", 400, 300);

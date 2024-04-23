@@ -1,12 +1,12 @@
 ---
 Title: Scatter Plot with Smooth Lines - ScottPlot 5.0 Cookbook
-Description: Scatter plots draw straight lines between points by default, but setting the Smooth property allows the scatter plot to connect points with smooth lines.
+Description: Scatter plots draw straight lines between points by default, but setting the Smooth property allows the scatter plot to connect points with smooth lines. Lines are smoothed using cubic spline interpolation.
 URL: /cookbook/5.0/Scatter/ScatterSmooth/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Scatter Plot", "Scatter Plot with Smooth Lines"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Scatter", "/cookbook/5.0/Scatter/ScatterSmooth"]
-Date: 2024-04-07
-Version: ScottPlot 5.0.24
-Version: ScottPlot 5.0.24
+Date: 2024-04-23
+Version: ScottPlot 5.0.27
+Version: ScottPlot 5.0.27
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -14,9 +14,9 @@ ShowEditLink: false
 # Scatter Plot with Smooth Lines
 
 
-Scatter plots draw straight lines between points by default, but setting the Smooth property allows the scatter plot to connect points with smooth lines.
+Scatter plots draw straight lines between points by default, but setting the Smooth property allows the scatter plot to connect points with smooth lines. Lines are smoothed using cubic spline interpolation.
 
-[![](/cookbook/5.0/images/ScatterSmooth.png?240407172904)](/cookbook/5.0/images/ScatterSmooth.png?240407172904)
+[![](/cookbook/5.0/images/ScatterSmooth.png?240423091821)](/cookbook/5.0/images/ScatterSmooth.png?240423091821)
 
 {{< code-sp5 >}}
 
@@ -28,9 +28,9 @@ double[] ys = Generate.RandomSample(10, 5, 15);
 
 var sp = myPlot.Add.Scatter(xs, ys);
 sp.Smooth = true;
-sp.Label = "Smooth";
+sp.LegendText = "Smooth";
 sp.LineWidth = 2;
-sp.MarkerSize = 7;
+sp.MarkerSize = 10;
 
 myPlot.SavePng("demo.png", 400, 300);
 

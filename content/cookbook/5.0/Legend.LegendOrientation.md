@@ -4,9 +4,9 @@ Description: Legend items may be arranged horizontally instead of vertically
 URL: /cookbook/5.0/Legend/LegendOrientation/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Configuring Legends", "Legend Orientation"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Legend", "/cookbook/5.0/Legend/LegendOrientation"]
-Date: 2024-04-07
-Version: ScottPlot 5.0.24
-Version: ScottPlot 5.0.24
+Date: 2024-04-23
+Version: ScottPlot 5.0.27
+Version: ScottPlot 5.0.27
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Legend items may be arranged horizontally instead of vertically
 
-[![](/cookbook/5.0/images/LegendOrientation.png?240407172904)](/cookbook/5.0/images/LegendOrientation.png?240407172904)
+[![](/cookbook/5.0/images/LegendOrientation.png?240423091821)](/cookbook/5.0/images/LegendOrientation.png?240423091821)
 
 {{< code-sp5 >}}
 
@@ -27,12 +27,11 @@ var sig1 = myPlot.Add.Signal(Generate.Sin(51, phase: .2));
 var sig2 = myPlot.Add.Signal(Generate.Sin(51, phase: .4));
 var sig3 = myPlot.Add.Signal(Generate.Sin(51, phase: .6));
 
-sig1.Label = "Signal 1";
-sig2.Label = "Signal 2";
-sig3.Label = "Signal 3";
+sig1.LegendText = "Signal 1";
+sig2.LegendText = "Signal 2";
+sig3.LegendText = "Signal 3";
 
-myPlot.Legend.IsVisible = true;
-myPlot.Legend.Orientation = Orientation.Horizontal;
+myPlot.ShowLegend(Alignment.UpperLeft, Orientation.Horizontal);
 
 myPlot.SavePng("demo.png", 400, 300);
 

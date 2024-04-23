@@ -4,9 +4,9 @@ Description: Signal plots can be styled in a variety of ways.
 URL: /cookbook/5.0/Signal/SignalStyling/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Signal Plot", "Signal Plot Styling"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Signal", "/cookbook/5.0/Signal/SignalStyling"]
-Date: 2024-04-07
-Version: ScottPlot 5.0.24
-Version: ScottPlot 5.0.24
+Date: 2024-04-23
+Version: ScottPlot 5.0.27
+Version: ScottPlot 5.0.27
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Signal plots can be styled in a variety of ways.
 
-[![](/cookbook/5.0/images/SignalStyling.png?240407172904)](/cookbook/5.0/images/SignalStyling.png?240407172904)
+[![](/cookbook/5.0/images/SignalStyling.png?240423091821)](/cookbook/5.0/images/SignalStyling.png?240423091821)
 
 {{< code-sp5 >}}
 
@@ -26,12 +26,12 @@ ScottPlot.Plot myPlot = new();
 var sig1 = myPlot.Add.Signal(Generate.Sin());
 sig1.Color = Colors.Magenta;
 sig1.LineWidth = 10;
-sig1.Label = "Sine";
+sig1.LegendText = "Sine";
 
 var sig2 = myPlot.Add.Signal(Generate.Cos());
 sig2.Color = Colors.Green;
 sig2.LineWidth = 5;
-sig2.Label = "Cosine";
+sig2.LegendText = "Cosine";
 
 myPlot.ShowLegend();
 

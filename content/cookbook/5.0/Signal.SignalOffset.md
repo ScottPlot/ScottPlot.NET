@@ -4,9 +4,9 @@ Description: Signal plots can be offset by a given X and Y value.
 URL: /cookbook/5.0/Signal/SignalOffset/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Signal Plot", "Signal Offset"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Signal", "/cookbook/5.0/Signal/SignalOffset"]
-Date: 2024-04-07
-Version: ScottPlot 5.0.24
-Version: ScottPlot 5.0.24
+Date: 2024-04-23
+Version: ScottPlot 5.0.27
+Version: ScottPlot 5.0.27
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Signal plots can be offset by a given X and Y value.
 
-[![](/cookbook/5.0/images/SignalOffset.png?240407172904)](/cookbook/5.0/images/SignalOffset.png?240407172904)
+[![](/cookbook/5.0/images/SignalOffset.png?240423091821)](/cookbook/5.0/images/SignalOffset.png?240423091821)
 
 {{< code-sp5 >}}
 
@@ -26,12 +26,12 @@ ScottPlot.Plot myPlot = new();
 double[] values = ScottPlot.Generate.Sin(51);
 
 var sig1 = myPlot.Add.Signal(values);
-sig1.Label = "Default";
+sig1.LegendText = "Default";
 
 var sig2 = myPlot.Add.Signal(values);
 sig2.Data.XOffset = 10;
 sig2.Data.YOffset = .25;
-sig2.Label = "Offset";
+sig2.LegendText = "Offset";
 
 myPlot.Legend.IsVisible = true;
 

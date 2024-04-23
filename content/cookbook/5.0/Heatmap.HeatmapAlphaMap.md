@@ -4,9 +4,9 @@ Description: An alpha map (a 2d array of byte values) can be used to apply custo
 URL: /cookbook/5.0/Heatmap/HeatmapAlphaMap/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Heatmap", "Alpha Map"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Heatmap", "/cookbook/5.0/Heatmap/HeatmapAlphaMap"]
-Date: 2024-04-07
-Version: ScottPlot 5.0.24
-Version: ScottPlot 5.0.24
+Date: 2024-04-23
+Version: ScottPlot 5.0.27
+Version: ScottPlot 5.0.27
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 An alpha map (a 2d array of byte values) can be used to apply custom transparency to each cell of a heatmap.
 
-[![](/cookbook/5.0/images/HeatmapAlphaMap.png?240407172904)](/cookbook/5.0/images/HeatmapAlphaMap.png?240407172904)
+[![](/cookbook/5.0/images/HeatmapAlphaMap.png?240423091821)](/cookbook/5.0/images/HeatmapAlphaMap.png?240423091821)
 
 {{< code-sp5 >}}
 

@@ -4,9 +4,9 @@ Description: Fit a line to a collection of X/Y data points.
 URL: /cookbook/5.0/Regression/Linear/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Regression", "LinearRegression"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Regression", "/cookbook/5.0/Regression/Linear"]
-Date: 2024-04-07
-Version: ScottPlot 5.0.24
-Version: ScottPlot 5.0.24
+Date: 2024-04-23
+Version: ScottPlot 5.0.27
+Version: ScottPlot 5.0.27
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Fit a line to a collection of X/Y data points.
 
-[![](/cookbook/5.0/images/Linear.png?240407172904)](/cookbook/5.0/images/Linear.png?240407172904)
+[![](/cookbook/5.0/images/Linear.png?240423091821)](/cookbook/5.0/images/Linear.png?240423091821)
 
 {{< code-sp5 >}}
 
@@ -28,7 +28,7 @@ double[] ys = new double[] { 2, 2, 3, 3, 3.8, 4.2, 4 };
 
 // plot original data as a scatter plot
 var sp = myPlot.Add.Scatter(xs, ys);
-sp.LineStyle = LineStyle.None;
+sp.LineWidth = 0;
 sp.MarkerSize = 10;
 
 // calculate the regression line

@@ -4,9 +4,9 @@ Description: Although the Plot.Add class has many helpful methods for creating p
 URL: /cookbook/5.0/ScottPlotQuickstart/AddPlottablesManually/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Quickstart", "Add Plottables Manually"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/ScottPlotQuickstart", "/cookbook/5.0/ScottPlotQuickstart/AddPlottablesManually"]
-Date: 2024-04-07
-Version: ScottPlot 5.0.24
-Version: ScottPlot 5.0.24
+Date: 2024-04-23
+Version: ScottPlot 5.0.27
+Version: ScottPlot 5.0.27
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Although the Plot.Add class has many helpful methods for creating plottable objects and adding them to the plot, users can instantiate plottable objects themselves and use Add.Plottable() to place it on the plot. This stategy allows users to create their own plottables (implementing IPlottable) with custom appearance or behavior.
 
-[![](/cookbook/5.0/images/AddPlottablesManually.png?240407172904)](/cookbook/5.0/images/AddPlottablesManually.png?240407172904)
+[![](/cookbook/5.0/images/AddPlottablesManually.png?240423091821)](/cookbook/5.0/images/AddPlottablesManually.png?240423091821)
 
 {{< code-sp5 >}}
 
@@ -24,18 +24,14 @@ Although the Plot.Add class has many helpful methods for creating plottable obje
 ScottPlot.Plot myPlot = new();
 
 // create a plottable and modify it as desired
-ScottPlot.Plottables.Marker marker = new()
+ScottPlot.Plottables.Arrow arrow = new()
 {
-    X = 2,
-    Y = 3,
-    Size = 20,
-    Color = Colors.Magenta,
-    Shape = MarkerShape.OpenDiamond,
-    Label = "My Marker",
+    Base = new Coordinates(1, 2),
+    Tip = new Coordinates(3, 4),
 };
 
 // add the custom plottable to the plot
-myPlot.Add.Plottable(marker);
+myPlot.Add.Plottable(arrow);
 
 myPlot.ShowLegend();
 

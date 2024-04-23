@@ -4,9 +4,9 @@ Description: Finance plots display price data binned into time ranges
 URL: /cookbook/5.0/Finance/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Financial Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Finance"]
-Date: 2024-04-07
-Version: ScottPlot 5.0.24
-Version: ScottPlot 5.0.24
+Date: 2024-04-23
+Version: ScottPlot 5.0.27
+Version: ScottPlot 5.0.27
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,7 +18,7 @@ ShowEditLink: false
 
 Candlestick charts use symbols to display price data. The rectangle indicates open and close prices, and the center line indicates minimum and maximum price for the given time period. Color indicates whether the price increased or decreased between open and close.
 
-[![](/cookbook/5.0/images/Candlestick.png?240407172904)](/cookbook/5.0/images/Candlestick.png?240407172904)
+[![](/cookbook/5.0/images/Candlestick.png?240423091821)](/cookbook/5.0/images/Candlestick.png?240423091821)
 
 {{< code-sp5 >}}
 
@@ -42,7 +42,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 OHLC charts use symbols to display price data (open, high, low, and close) for specific time ranges.
 
-[![](/cookbook/5.0/images/OhlcChart.png?240407172904)](/cookbook/5.0/images/OhlcChart.png?240407172904)
+[![](/cookbook/5.0/images/OhlcChart.png?240423091821)](/cookbook/5.0/images/OhlcChart.png?240423091821)
 
 {{< code-sp5 >}}
 
@@ -62,11 +62,48 @@ myPlot.SavePng("demo.png", 400, 300);
 <hr class='my-5 invisible'>
 
 
+<h2><a href='/cookbook/5.0/Finance/FinanceChartBins'>Finance Chart with Custom Time Bins</a></h2>
+
+Finance charts can display price range information over arbitrary time scales.
+
+[![](/cookbook/5.0/images/FinanceChartBins.png?240423091821)](/cookbook/5.0/images/FinanceChartBins.png?240423091821)
+
+{{< code-sp5 >}}
+
+```cs
+ScottPlot.Plot myPlot = new();
+
+DateTime timeOpen = new(1985, 09, 24, 9, 30, 0); // 9:30 AM
+DateTime timeClose = new(1985, 09, 24, 16, 0, 0); // 4:00 PM
+TimeSpan timeSpan = TimeSpan.FromMinutes(10); // 10 minute bins
+
+List<OHLC> prices = new();
+for (DateTime dt = timeOpen; dt <= timeClose; dt += timeSpan)
+{
+    double open = Generate.RandomNumber(20, 40) + prices.Count;
+    double close = Generate.RandomNumber(20, 40) + prices.Count;
+    double high = Math.Max(open, close) + Generate.RandomNumber(5);
+    double low = Math.Min(open, close) - Generate.RandomNumber(5);
+    prices.Add(new OHLC(open, high, low, close, dt, timeSpan));
+}
+
+myPlot.Add.Candlestick(prices);
+myPlot.Axes.DateTimeTicksBottom();
+
+myPlot.SavePng("demo.png", 400, 300);
+
+```
+
+{{< /code-sp5 >}}
+
+<hr class='my-5 invisible'>
+
+
 <h2><a href='/cookbook/5.0/Finance/FinanceRightAxis'>Price on Right</a></h2>
 
 Finance charts can be created which display price information on the right axis.
 
-[![](/cookbook/5.0/images/FinanceRightAxis.png?240407172904)](/cookbook/5.0/images/FinanceRightAxis.png?240407172904)
+[![](/cookbook/5.0/images/FinanceRightAxis.png?240423091821)](/cookbook/5.0/images/FinanceRightAxis.png?240423091821)
 
 {{< code-sp5 >}}
 
@@ -97,7 +134,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Tools exist for creating simple moving average (SMA) curves and displaying them next to finanial data.
 
-[![](/cookbook/5.0/images/FinanceSma.png?240407172904)](/cookbook/5.0/images/FinanceSma.png?240407172904)
+[![](/cookbook/5.0/images/FinanceSma.png?240423091821)](/cookbook/5.0/images/FinanceSma.png?240423091821)
 
 {{< code-sp5 >}}
 
@@ -115,7 +152,7 @@ foreach (int windowSize in windowSizes)
 {
     ScottPlot.Finance.SimpleMovingAverage sma = new(prices, windowSize);
     var sp = myPlot.Add.Scatter(sma.Dates, sma.Means);
-    sp.Label = $"SMA {windowSize}";
+    sp.LegendText = $"SMA {windowSize}";
     sp.MarkerSize = 0;
     sp.LineWidth = 3;
     sp.Color = Colors.Navy.WithAlpha(1 - windowSize / 30.0);
@@ -136,7 +173,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Tools exist for creating Bollinger Bands which display weighted moving mean and variance for time series financial data.
 
-[![](/cookbook/5.0/images/FinanceBollinger.png?240407172904)](/cookbook/5.0/images/FinanceBollinger.png?240407172904)
+[![](/cookbook/5.0/images/FinanceBollinger.png?240423091821)](/cookbook/5.0/images/FinanceBollinger.png?240423091821)
 
 {{< code-sp5 >}}
 
@@ -181,7 +218,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 When the DateTimes stored in OHLC objects are used to determine the horizontal position of candlesticks, periods without data like weekends and holidays appear as gaps in the plot. Enabling sequential mode causes the plot to ignore the OHLC DateTimes and display candles at integer positions starting from zero. Users can customize the tick generator to display dates instead of numbers on the horizontal axis if desired.
 
-[![](/cookbook/5.0/images/FinancialPlotWithoutGaps.png?240407172904)](/cookbook/5.0/images/FinancialPlotWithoutGaps.png?240407172904)
+[![](/cookbook/5.0/images/FinancialPlotWithoutGaps.png?240423091821)](/cookbook/5.0/images/FinancialPlotWithoutGaps.png?240423091821)
 
 {{< code-sp5 >}}
 
@@ -223,7 +260,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 When the DateTimes stored in OHLC objects are used to determine the horizontal position, periods without data like weekends and holidays appear as gaps in the plot. Enabling sequential mode causes the plot to ignore the OHLC DateTimes and place OHLCs at integer positions starting from zero. Users can customize the tick generator to display dates instead of numbers on the horizontal axis if desired.
 
-[![](/cookbook/5.0/images/FinancialPlotWithoutGapsOhlc.png?240407172904)](/cookbook/5.0/images/FinancialPlotWithoutGapsOhlc.png?240407172904)
+[![](/cookbook/5.0/images/FinancialPlotWithoutGapsOhlc.png?240423091821)](/cookbook/5.0/images/FinancialPlotWithoutGapsOhlc.png?240423091821)
 
 {{< code-sp5 >}}
 

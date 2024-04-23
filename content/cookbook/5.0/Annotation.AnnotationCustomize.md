@@ -4,9 +4,9 @@ Description: Annotations can be extensively customized.
 URL: /cookbook/5.0/Annotation/AnnotationCustomize/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Annotation", "Annotation Customization"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Annotation", "/cookbook/5.0/Annotation/AnnotationCustomize"]
-Date: 2024-04-07
-Version: ScottPlot 5.0.24
-Version: ScottPlot 5.0.24
+Date: 2024-04-23
+Version: ScottPlot 5.0.27
+Version: ScottPlot 5.0.27
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Annotations can be extensively customized.
 
-[![](/cookbook/5.0/images/AnnotationCustomize.png?240407172904)](/cookbook/5.0/images/AnnotationCustomize.png?240407172904)
+[![](/cookbook/5.0/images/AnnotationCustomize.png?240423091821)](/cookbook/5.0/images/AnnotationCustomize.png?240423091821)
 
 {{< code-sp5 >}}
 
@@ -27,12 +27,12 @@ myPlot.Add.Signal(Generate.Sin());
 myPlot.Add.Signal(Generate.Cos());
 
 var anno = myPlot.Add.Annotation("Customized\nAnnotation");
-anno.Label.FontSize = 32;
-anno.Label.FontName = Fonts.Serif;
-anno.Label.BackColor = Colors.RebeccaPurple.WithAlpha(.3);
-anno.Label.ForeColor = Colors.RebeccaPurple;
-anno.Label.BorderColor = Colors.Green;
-anno.Label.BorderWidth = 3;
+anno.LabelFontSize = 32;
+anno.LabelFontName = Fonts.Serif;
+anno.LabelBackgroundColor = Colors.RebeccaPurple.WithAlpha(.3);
+anno.LabelFontColor = Colors.RebeccaPurple;
+anno.LabelBorderColor = Colors.Green;
+anno.LabelBorderWidth = 3;
 anno.OffsetY = 40;
 anno.OffsetX = 20;
 

@@ -4,9 +4,9 @@ Description: Several line patterns are available
 URL: /cookbook/5.0/Scatter/ScatterLinePatterns/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Scatter Plot", "Scatter Line Patterns"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Scatter", "/cookbook/5.0/Scatter/ScatterLinePatterns"]
-Date: 2024-04-07
-Version: ScottPlot 5.0.24
-Version: ScottPlot 5.0.24
+Date: 2024-04-23
+Version: ScottPlot 5.0.27
+Version: ScottPlot 5.0.27
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Several line patterns are available
 
-[![](/cookbook/5.0/images/ScatterLinePatterns.png?240407172904)](/cookbook/5.0/images/ScatterLinePatterns.png?240407172904)
+[![](/cookbook/5.0/images/ScatterLinePatterns.png?240423091821)](/cookbook/5.0/images/ScatterLinePatterns.png?240423091821)
 
 {{< code-sp5 >}}
 
@@ -39,10 +39,10 @@ for (int i = 0; i < patterns.Length; i++)
     sp.Color = palette.GetColor(i);
 
     var txt = myPlot.Add.Text(patterns[i].ToString(), 51, yOffset);
-    txt.Label.ForeColor = sp.Color;
-    txt.Label.FontSize = 22;
-    txt.Label.Bold = true;
-    txt.Label.Alignment = Alignment.MiddleLeft;
+    txt.LabelFontColor = sp.Color;
+    txt.LabelFontSize = 22;
+    txt.LabelBold = true;
+    txt.LabelAlignment = Alignment.MiddleLeft;
 }
 
 myPlot.Axes.Margins(.05, .5, .05, .05);

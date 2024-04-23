@@ -4,9 +4,9 @@ Description: Many plottables have a Label property that can be set so they appea
 URL: /cookbook/5.0/Legend/LegendQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Configuring Legends", "Legend Quickstart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Legend", "/cookbook/5.0/Legend/LegendQuickstart"]
-Date: 2024-04-07
-Version: ScottPlot 5.0.24
-Version: ScottPlot 5.0.24
+Date: 2024-04-23
+Version: ScottPlot 5.0.27
+Version: ScottPlot 5.0.27
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Many plottables have a Label property that can be set so they appear in the legend.
 
-[![](/cookbook/5.0/images/LegendQuickstart.png?240407172904)](/cookbook/5.0/images/LegendQuickstart.png?240407172904)
+[![](/cookbook/5.0/images/LegendQuickstart.png?240423091821)](/cookbook/5.0/images/LegendQuickstart.png?240423091821)
 
 {{< code-sp5 >}}
 
@@ -24,10 +24,10 @@ Many plottables have a Label property that can be set so they appear in the lege
 ScottPlot.Plot myPlot = new();
 
 var sig1 = myPlot.Add.Signal(Generate.Sin(51));
-sig1.Label = "Sin";
+sig1.LegendText = "Sin";
 
 var sig2 = myPlot.Add.Signal(Generate.Cos(51));
-sig2.Label = "Cos";
+sig2.LegendText = "Cos";
 
 myPlot.ShowLegend();
 

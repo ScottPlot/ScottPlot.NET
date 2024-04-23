@@ -4,9 +4,9 @@ Description: Even if a signal plot references a large array of data, rendering c
 URL: /cookbook/5.0/Signal/SignalRenderIndexes/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Signal Plot", "Partial Signal Rendering"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Signal", "/cookbook/5.0/Signal/SignalRenderIndexes"]
-Date: 2024-04-07
-Version: ScottPlot 5.0.24
-Version: ScottPlot 5.0.24
+Date: 2024-04-23
+Version: ScottPlot 5.0.27
+Version: ScottPlot 5.0.27
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Even if a signal plot references a large array of data, rendering can be limited to a range of values. If set,only the range of data between the minimum and maximum render indexes will be displayed.
 
-[![](/cookbook/5.0/images/SignalRenderIndexes.png?240407172904)](/cookbook/5.0/images/SignalRenderIndexes.png?240407172904)
+[![](/cookbook/5.0/images/SignalRenderIndexes.png?240423091821)](/cookbook/5.0/images/SignalRenderIndexes.png?240423091821)
 
 {{< code-sp5 >}}
 
@@ -26,21 +26,21 @@ ScottPlot.Plot myPlot = new();
 double[] values = Generate.RandomWalk(1000);
 
 var sigAll = myPlot.Add.Signal(values);
-sigAll.Label = "Full";
+sigAll.LegendText = "Full";
 sigAll.Data.YOffset = 80;
 
 var sigLeft = myPlot.Add.Signal(values);
-sigLeft.Label = "Left";
+sigLeft.LegendText = "Left";
 sigLeft.Data.YOffset = 60;
 sigLeft.Data.MaximumIndex = 700;
 
 var sigRight = myPlot.Add.Signal(values);
-sigRight.Label = "Right";
+sigRight.LegendText = "Right";
 sigRight.Data.YOffset = 40;
 sigRight.Data.MinimumIndex = 300;
 
 var sigMid = myPlot.Add.Signal(values);
-sigMid.Label = "Mid";
+sigMid.LegendText = "Mid";
 sigMid.Data.YOffset = 20;
 sigMid.Data.MinimumIndex = 300;
 sigMid.Data.MaximumIndex = 700;

@@ -4,9 +4,9 @@ Description: Access the Legend object directly for advanced customization option
 URL: /cookbook/5.0/Legend/LegendStyle/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Configuring Legends", "Legend Customization"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Legend", "/cookbook/5.0/Legend/LegendStyle"]
-Date: 2024-04-07
-Version: ScottPlot 5.0.24
-Version: ScottPlot 5.0.24
+Date: 2024-04-23
+Version: ScottPlot 5.0.27
+Version: ScottPlot 5.0.27
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Access the Legend object directly for advanced customization options.
 
-[![](/cookbook/5.0/images/LegendStyle.png?240407172904)](/cookbook/5.0/images/LegendStyle.png?240407172904)
+[![](/cookbook/5.0/images/LegendStyle.png?240423091821)](/cookbook/5.0/images/LegendStyle.png?240423091821)
 
 {{< code-sp5 >}}
 
@@ -24,19 +24,23 @@ Access the Legend object directly for advanced customization options.
 ScottPlot.Plot myPlot = new();
 
 var sig1 = myPlot.Add.Signal(Generate.Sin(51));
-sig1.Label = "Sin";
+sig1.LegendText = "Sin";
 
 var sig2 = myPlot.Add.Signal(Generate.Cos(51));
-sig2.Label = "Cos";
+sig2.LegendText = "Cos";
 
 myPlot.Legend.IsVisible = true;
-myPlot.Legend.OutlineStyle.Color = Colors.Navy;
-myPlot.Legend.OutlineStyle.Width = 2;
-myPlot.Legend.BackgroundFill.Color = Colors.LightBlue;
-myPlot.Legend.ShadowFill.Color = Colors.Blue.WithOpacity(.5);
-myPlot.Legend.Font.Size = 16;
-myPlot.Legend.Font.Name = Fonts.Serif;
-myPlot.Legend.Location = Alignment.UpperCenter;
+myPlot.Legend.Alignment = Alignment.UpperCenter;
+
+myPlot.Legend.OutlineColor = Colors.Navy;
+myPlot.Legend.OutlineWidth = 5;
+myPlot.Legend.BackgroundColor = Colors.LightBlue;
+
+myPlot.Legend.ShadowColor = Colors.Blue.WithOpacity(.2);
+myPlot.Legend.ShadowOffset = new(10, 10);
+
+myPlot.Legend.FontSize = 32;
+myPlot.Legend.FontName = Fonts.Serif;
 
 myPlot.SavePng("demo.png", 400, 300);
 

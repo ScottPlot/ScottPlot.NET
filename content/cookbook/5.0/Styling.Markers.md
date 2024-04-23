@@ -4,9 +4,9 @@ Description: Many plot types have a MarkerStyle which can be customized.
 URL: /cookbook/5.0/Styling/Markers/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Styling Plots", "Markers"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Styling", "/cookbook/5.0/Styling/Markers"]
-Date: 2024-04-07
-Version: ScottPlot 5.0.24
-Version: ScottPlot 5.0.24
+Date: 2024-04-23
+Version: ScottPlot 5.0.27
+Version: ScottPlot 5.0.27
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Many plot types have a MarkerStyle which can be customized.
 
-[![](/cookbook/5.0/images/Markers.png?240407172904)](/cookbook/5.0/images/Markers.png?240407172904)
+[![](/cookbook/5.0/images/Markers.png?240423091821)](/cookbook/5.0/images/Markers.png?240423091821)
 
 {{< code-sp5 >}}
 
@@ -24,15 +24,28 @@ Many plot types have a MarkerStyle which can be customized.
 ScottPlot.Plot myPlot = new();
 
 MarkerShape[] markerShapes = Enum.GetValues<MarkerShape>().ToArray();
+ScottPlot.Palettes.Category10 palette = new();
 
 for (int i = 0; i < markerShapes.Length; i++)
 {
-    double[] xs = Generate.Consecutive(20);
-    double[] ys = Generate.Sin(20, offset: markerShapes.Length - i);
+    double[] xs = Generate.Consecutive(10);
+    double[] ys = Generate.Sin(10, offset: markerShapes.Length - i);
+    Color color = palette.GetColor(i);
+
     var scatter = myPlot.Add.Scatter(xs, ys);
     scatter.MarkerStyle.Shape = markerShapes[i];
     scatter.MarkerStyle.Size = 10;
+    scatter.LineColor = color.WithAlpha(.2);
+    scatter.MarkerFillColor = color;
+    scatter.MarkerLineColor = color;
+
+    var txt = myPlot.Add.Text(markerShapes[i].ToString(), 10, ys.Last());
+    txt.LabelAlignment = Alignment.MiddleLeft;
+    txt.LabelFontColor = color;
 }
+
+myPlot.Axes.SetLimitsX(-2, 20);
+myPlot.HideGrid();
 
 myPlot.SavePng("demo.png", 400, 300);
 

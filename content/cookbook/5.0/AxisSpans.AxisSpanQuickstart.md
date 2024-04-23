@@ -4,9 +4,9 @@ Description: Axis spans label a range of an axis. Vertical spans shade the full 
 URL: /cookbook/5.0/AxisSpans/AxisSpanQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Axis Spans", "Axis Span Quickstart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AxisSpans", "/cookbook/5.0/AxisSpans/AxisSpanQuickstart"]
-Date: 2024-04-07
-Version: ScottPlot 5.0.24
-Version: ScottPlot 5.0.24
+Date: 2024-04-23
+Version: ScottPlot 5.0.27
+Version: ScottPlot 5.0.27
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Axis spans label a range of an axis. Vertical spans shade the full width of a vertical range, and horizontal spans shade the full height of a horizontal range.
 
-[![](/cookbook/5.0/images/AxisSpanQuickstart.png?240407172904)](/cookbook/5.0/images/AxisSpanQuickstart.png?240407172904)
+[![](/cookbook/5.0/images/AxisSpanQuickstart.png?240423091821)](/cookbook/5.0/images/AxisSpanQuickstart.png?240423091821)
 
 {{< code-sp5 >}}
 
@@ -29,8 +29,8 @@ myPlot.Add.Signal(Generate.Cos());
 var hSpan = myPlot.Add.HorizontalSpan(10, 20);
 var vSpan = myPlot.Add.VerticalSpan(0.25, 0.75);
 
-hSpan.Label.Text = "Horizontal Span";
-vSpan.Label.Text = "Vertical Span";
+hSpan.LegendText = "Horizontal Span";
+vSpan.LegendText = "Vertical Span";
 myPlot.ShowLegend();
 
 myPlot.SavePng("demo.png", 400, 300);

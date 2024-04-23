@@ -4,9 +4,9 @@ Description: The offset properties can be used to fine-tune text position in pix
 URL: /cookbook/5.0/Text/TextOffset/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Text", "Text Offset"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Text", "/cookbook/5.0/Text/TextOffset"]
-Date: 2024-04-07
-Version: ScottPlot 5.0.24
-Version: ScottPlot 5.0.24
+Date: 2024-04-23
+Version: ScottPlot 5.0.27
+Version: ScottPlot 5.0.27
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 The offset properties can be used to fine-tune text position in pixel units
 
-[![](/cookbook/5.0/images/TextOffset.png?240407172904)](/cookbook/5.0/images/TextOffset.png?240407172904)
+[![](/cookbook/5.0/images/TextOffset.png?240423091821)](/cookbook/5.0/images/TextOffset.png?240423091821)
 
 {{< code-sp5 >}}
 
@@ -30,12 +30,12 @@ for (int i = 0; i < 25; i += 5)
 
     // place a styled text label at the point
     var txt = myPlot.Add.Text($"{i}", i, 1);
-    txt.FontSize = 16;
-    txt.BorderColor = Colors.Black;
-    txt.BorderWidth = 1;
-    txt.Padding = 2;
-    txt.Bold = true;
-    txt.BackColor = marker.Color.WithAlpha(.5);
+    txt.LabelFontSize = 16;
+    txt.LabelBorderColor = Colors.Black;
+    txt.LabelBorderWidth = 1;
+    txt.LabelPadding = 2;
+    txt.LabelBold = true;
+    txt.LabelBackgroundColor = marker.Color.WithAlpha(.5);
 
     // offset the text label by the given number of pixels
     txt.OffsetX = i;

@@ -4,9 +4,9 @@ Description: Create a function plot from a formula.
 URL: /cookbook/5.0/Function/FunctionQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Function", "Function Quickstart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Function", "/cookbook/5.0/Function/FunctionQuickstart"]
-Date: 2024-04-07
-Version: ScottPlot 5.0.24
-Version: ScottPlot 5.0.24
+Date: 2024-04-23
+Version: ScottPlot 5.0.27
+Version: ScottPlot 5.0.27
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Create a function plot from a formula.
 
-[![](/cookbook/5.0/images/FunctionQuickstart.png?240407172904)](/cookbook/5.0/images/FunctionQuickstart.png?240407172904)
+[![](/cookbook/5.0/images/FunctionQuickstart.png?240423091821)](/cookbook/5.0/images/FunctionQuickstart.png?240423091821)
 
 {{< code-sp5 >}}
 
@@ -24,9 +24,9 @@ Create a function plot from a formula.
 ScottPlot.Plot myPlot = new();
 
 // Functions are defined as delegates with an input and output
-var func1 = new Func<double, double>((x) => Math.Sin(x) * Math.Sin(x / 2));
-var func2 = new Func<double, double>((x) => Math.Sin(x) * Math.Sin(x / 3));
-var func3 = new Func<double, double>((x) => Math.Cos(x) * Math.Sin(x / 5));
+static double func1(double x) => (Math.Sin(x) * Math.Sin(x / 2));
+static double func2(double x) => (Math.Sin(x) * Math.Sin(x / 3));
+static double func3(double x) => (Math.Cos(x) * Math.Sin(x / 5));
 
 // Add functions to the plot
 myPlot.Add.Function(func1);

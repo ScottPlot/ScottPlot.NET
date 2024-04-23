@@ -4,9 +4,9 @@ Description: The Plot's Style class contains a method which automatically sets t
 URL: /cookbook/5.0/Internationalization/AutomaticFontDetection/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Internationalization", "Automatic Font Detection"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Internationalization", "/cookbook/5.0/Internationalization/AutomaticFontDetection"]
-Date: 2024-04-07
-Version: ScottPlot 5.0.24
-Version: ScottPlot 5.0.24
+Date: 2024-04-23
+Version: ScottPlot 5.0.27
+Version: ScottPlot 5.0.27
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,18 +16,20 @@ ShowEditLink: false
 
 The Plot's Style class contains a method which automatically sets the fonts of common plot objects to the font most likely able to display the characters they contain.
 
-[![](/cookbook/5.0/images/AutomaticFontDetection.png?240407172904)](/cookbook/5.0/images/AutomaticFontDetection.png?240407172904)
+[![](/cookbook/5.0/images/AutomaticFontDetection.png?240423091821)](/cookbook/5.0/images/AutomaticFontDetection.png?240423091821)
 
 {{< code-sp5 >}}
 
 ```cs
 ScottPlot.Plot myPlot = new();
 
-var sig1 = myPlot.Add.Signal(Generate.Sin());
-var sig2 = myPlot.Add.Signal(Generate.Cos());
+var sig1 = myPlot.Add.Signal(Generate.Sin(phase: .1));
+var sig2 = myPlot.Add.Signal(Generate.Sin(phase: .2));
+var sig3 = myPlot.Add.Signal(Generate.Sin(phase: .3));
 
-sig1.Label = "测试"; // Chinese
-sig2.Label = "테스트"; // Korean
+sig1.LegendText = "测试"; // Chinese
+sig2.LegendText = "試験"; // Japanese
+sig3.LegendText = "테스트"; // Korean
 myPlot.ShowLegend();
 
 myPlot.Title("测试"); // Chinese

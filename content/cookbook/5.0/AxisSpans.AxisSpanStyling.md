@@ -4,9 +4,9 @@ Description: Axis spans can be extensively customized.
 URL: /cookbook/5.0/AxisSpans/AxisSpanStyling/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Axis Spans", "Axis Span Styling"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AxisSpans", "/cookbook/5.0/AxisSpans/AxisSpanStyling"]
-Date: 2024-04-07
-Version: ScottPlot 5.0.24
-Version: ScottPlot 5.0.24
+Date: 2024-04-23
+Version: ScottPlot 5.0.27
+Version: ScottPlot 5.0.27
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Axis spans can be extensively customized.
 
-[![](/cookbook/5.0/images/AxisSpanStyling.png?240407172904)](/cookbook/5.0/images/AxisSpanStyling.png?240407172904)
+[![](/cookbook/5.0/images/AxisSpanStyling.png?240423091821)](/cookbook/5.0/images/AxisSpanStyling.png?240423091821)
 
 {{< code-sp5 >}}
 
@@ -27,7 +27,7 @@ myPlot.Add.Signal(Generate.Sin());
 myPlot.Add.Signal(Generate.Cos());
 
 var hs = myPlot.Add.HorizontalSpan(10, 20);
-hs.Label.Text = "Hello";
+hs.LegendText = "Hello";
 hs.LineStyle.Width = 2;
 hs.LineStyle.Color = Colors.Magenta;
 hs.LineStyle.Pattern = LinePattern.Dashed;

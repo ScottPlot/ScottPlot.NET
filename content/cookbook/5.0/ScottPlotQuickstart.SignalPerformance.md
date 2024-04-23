@@ -4,9 +4,9 @@ Description: Signal plots can interactively display millions of data points in r
 URL: /cookbook/5.0/ScottPlotQuickstart/SignalPerformance/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Quickstart", "Signal Plot Performance"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/ScottPlotQuickstart", "/cookbook/5.0/ScottPlotQuickstart/SignalPerformance"]
-Date: 2024-04-07
-Version: ScottPlot 5.0.24
-Version: ScottPlot 5.0.24
+Date: 2024-04-23
+Version: ScottPlot 5.0.27
+Version: ScottPlot 5.0.27
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Signal plots can interactively display millions of data points in real time. Double-click the plot to display performance benchmarks.
 
-[![](/cookbook/5.0/images/SignalPerformance.png?240407172904)](/cookbook/5.0/images/SignalPerformance.png?240407172904)
+[![](/cookbook/5.0/images/SignalPerformance.png?240423091821)](/cookbook/5.0/images/SignalPerformance.png?240423091821)
 
 {{< code-sp5 >}}
 

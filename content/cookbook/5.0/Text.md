@@ -4,9 +4,9 @@ Description: Text labels can be placed on the plot in coordinate space
 URL: /cookbook/5.0/Text/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Text"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Text"]
-Date: 2024-04-07
-Version: ScottPlot 5.0.24
-Version: ScottPlot 5.0.24
+Date: 2024-04-23
+Version: ScottPlot 5.0.27
+Version: ScottPlot 5.0.27
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,7 +18,7 @@ ShowEditLink: false
 
 Text can be placed anywhere in coordinate space.
 
-[![](/cookbook/5.0/images/TextQuickstart.png?240407172904)](/cookbook/5.0/images/TextQuickstart.png?240407172904)
+[![](/cookbook/5.0/images/TextQuickstart.png?240423091821)](/cookbook/5.0/images/TextQuickstart.png?240423091821)
 
 {{< code-sp5 >}}
 
@@ -42,7 +42,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Text formatting can be extensively customized.
 
-[![](/cookbook/5.0/images/Formatting.png?240407172904)](/cookbook/5.0/images/Formatting.png?240407172904)
+[![](/cookbook/5.0/images/Formatting.png?240423091821)](/cookbook/5.0/images/Formatting.png?240423091821)
 
 {{< code-sp5 >}}
 
@@ -50,15 +50,15 @@ Text formatting can be extensively customized.
 ScottPlot.Plot myPlot = new();
 
 var text = myPlot.Add.Text("Hello, World", 42, 69);
-text.Label.FontSize = 26;
-text.Label.Bold = true;
-text.Label.Rotation = -45;
-text.Label.ForeColor = Colors.Yellow;
-text.Label.BackColor = Colors.Navy.WithAlpha(.5);
-text.Label.BorderColor = Colors.Magenta;
-text.Label.BorderWidth = 3;
-text.Label.Padding = 10;
-text.Label.Alignment = Alignment.MiddleCenter;
+text.LabelFontSize = 26;
+text.LabelBold = true;
+text.LabelRotation = -45;
+text.LabelFontColor = Colors.Yellow;
+text.LabelBackgroundColor = Colors.Navy.WithAlpha(.5);
+text.LabelBorderColor = Colors.Magenta;
+text.LabelBorderWidth = 3;
+text.LabelPadding = 10;
+text.LabelAlignment = Alignment.MiddleCenter;
 
 myPlot.SavePng("demo.png", 400, 300);
 
@@ -73,7 +73,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Multiline labels have a default line height estimated from the typeface and font size, however line height may be manually defined by the user.
 
-[![](/cookbook/5.0/images/LabelLineHeight.png?240407172904)](/cookbook/5.0/images/LabelLineHeight.png?240407172904)
+[![](/cookbook/5.0/images/LabelLineHeight.png?240423091821)](/cookbook/5.0/images/LabelLineHeight.png?240423091821)
 
 {{< code-sp5 >}}
 
@@ -81,21 +81,26 @@ Multiline labels have a default line height estimated from the typeface and font
 ScottPlot.Plot myPlot = new();
 
 var label1 = myPlot.Add.Text($"line\nheight", 0, 0);
-label1.LineSpacing = 0;
-label1.FontColor = Colors.Red;
+label1.LabelLineSpacing = 0;
+label1.LabelFontColor = Colors.Red;
+label1.LabelBorderColor = Colors.Black;
 
 var label2 = myPlot.Add.Text($"can\nbe", 1, 0);
-label2.LineSpacing = 10;
-label2.FontColor = Colors.Orange;
+label2.LabelLineSpacing = 10;
+label2.LabelFontColor = Colors.Orange;
+label2.LabelBorderColor = Colors.Black;
 
 var label3 = myPlot.Add.Text($"automatic\nor", 2, 0);
-label3.LineSpacing = null;
-label3.FontColor = Colors.Green;
+label3.LabelLineSpacing = null;
+label3.LabelFontColor = Colors.Green;
+label3.LabelBorderColor = Colors.Black;
 
 var label4 = myPlot.Add.Text($"set\nmanually", 3, 0);
-label4.LineSpacing = 15;
-label4.FontColor = Colors.Blue;
+label4.LabelLineSpacing = 15;
+label4.LabelFontColor = Colors.Blue;
+label4.LabelBorderColor = Colors.Black;
 
+myPlot.HideGrid();
 myPlot.Axes.SetLimitsX(-.5, 4);
 
 myPlot.SavePng("demo.png", 400, 300);
@@ -111,7 +116,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 The offset properties can be used to fine-tune text position in pixel units
 
-[![](/cookbook/5.0/images/TextOffset.png?240407172904)](/cookbook/5.0/images/TextOffset.png?240407172904)
+[![](/cookbook/5.0/images/TextOffset.png?240423091821)](/cookbook/5.0/images/TextOffset.png?240423091821)
 
 {{< code-sp5 >}}
 
@@ -125,12 +130,12 @@ for (int i = 0; i < 25; i += 5)
 
     // place a styled text label at the point
     var txt = myPlot.Add.Text($"{i}", i, 1);
-    txt.FontSize = 16;
-    txt.BorderColor = Colors.Black;
-    txt.BorderWidth = 1;
-    txt.Padding = 2;
-    txt.Bold = true;
-    txt.BackColor = marker.Color.WithAlpha(.5);
+    txt.LabelFontSize = 16;
+    txt.LabelBorderColor = Colors.Black;
+    txt.LabelBorderWidth = 1;
+    txt.LabelPadding = 2;
+    txt.LabelBold = true;
+    txt.LabelBackgroundColor = marker.Color.WithAlpha(.5);
 
     // offset the text label by the given number of pixels
     txt.OffsetX = i;

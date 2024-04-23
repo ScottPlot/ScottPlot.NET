@@ -4,9 +4,9 @@ Description: Signal plots can have markers displayed at each point which are onl
 URL: /cookbook/5.0/Signal/SignalMarkerSize/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Signal Plot", "Signal Marker Size"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Signal", "/cookbook/5.0/Signal/SignalMarkerSize"]
-Date: 2024-04-07
-Version: ScottPlot 5.0.24
-Version: ScottPlot 5.0.24
+Date: 2024-04-23
+Version: ScottPlot 5.0.27
+Version: ScottPlot 5.0.27
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Signal plots can have markers displayed at each point which are only visible when the plot is zoomed in.
 
-[![](/cookbook/5.0/images/SignalMarkerSize.png?240407172904)](/cookbook/5.0/images/SignalMarkerSize.png?240407172904)
+[![](/cookbook/5.0/images/SignalMarkerSize.png?240423091821)](/cookbook/5.0/images/SignalMarkerSize.png?240423091821)
 
 {{< code-sp5 >}}
 
@@ -24,16 +24,16 @@ Signal plots can have markers displayed at each point which are only visible whe
 ScottPlot.Plot myPlot = new();
 
 var sig1 = myPlot.Add.Signal(Generate.Cos());
-sig1.Label = "Default";
+sig1.LegendText = "Default";
 sig1.Data.YOffset = 3;
 
 var sig2 = myPlot.Add.Signal(Generate.Cos());
-sig2.Label = "Large Markers";
+sig2.LegendText = "Large Markers";
 sig2.MaximumMarkerSize = 20;
 sig2.Data.YOffset = 2;
 
 var sig3 = myPlot.Add.Signal(Generate.Cos());
-sig3.Label = "Hidden Markers";
+sig3.LegendText = "Hidden Markers";
 sig3.MaximumMarkerSize = 0;
 sig3.Data.YOffset = 1;
 

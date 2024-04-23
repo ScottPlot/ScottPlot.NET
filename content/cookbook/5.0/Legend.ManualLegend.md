@@ -4,9 +4,9 @@ Description: Legends may be constructed manually.
 URL: /cookbook/5.0/Legend/ManualLegend/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Configuring Legends", "Manual Legend Items"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Legend", "/cookbook/5.0/Legend/ManualLegend"]
-Date: 2024-04-07
-Version: ScottPlot 5.0.24
-Version: ScottPlot 5.0.24
+Date: 2024-04-23
+Version: ScottPlot 5.0.27
+Version: ScottPlot 5.0.27
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Legends may be constructed manually.
 
-[![](/cookbook/5.0/images/ManualLegend.png?240407172904)](/cookbook/5.0/images/ManualLegend.png?240407172904)
+[![](/cookbook/5.0/images/ManualLegend.png?240423091821)](/cookbook/5.0/images/ManualLegend.png?240423091821)
 
 {{< code-sp5 >}}
 
@@ -30,17 +30,19 @@ myPlot.Legend.IsVisible = true;
 LegendItem item1 = new()
 {
     LineColor = Colors.Magenta,
-    MarkerColor = Colors.Magenta,
+    MarkerFillColor = Colors.Magenta,
+    MarkerLineColor = Colors.Magenta,
     LineWidth = 2,
-    Label = "Alpha"
+    LabelText = "Alpha"
 };
 
 LegendItem item2 = new()
 {
     LineColor = Colors.Green,
-    MarkerColor = Colors.Green,
+    MarkerFillColor = Colors.Green,
+    MarkerLineColor = Colors.Green,
     LineWidth = 4,
-    Label = "Beta"
+    LabelText = "Beta"
 };
 
 LegendItem[] items = { item1, item2 };

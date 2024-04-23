@@ -4,9 +4,9 @@ Description: FillY plots can be customized using public properties.
 URL: /cookbook/5.0/FillY/Styling/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "FillY plot", "FillY Plot Styling"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/FillY", "/cookbook/5.0/FillY/Styling"]
-Date: 2024-04-07
-Version: ScottPlot 5.0.24
-Version: ScottPlot 5.0.24
+Date: 2024-04-23
+Version: ScottPlot 5.0.27
+Version: ScottPlot 5.0.27
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 FillY plots can be customized using public properties.
 
-[![](/cookbook/5.0/images/Styling.png?240407172904)](/cookbook/5.0/images/Styling.png?240407172904)
+[![](/cookbook/5.0/images/Styling.png?240423091821)](/cookbook/5.0/images/Styling.png?240423091821)
 
 {{< code-sp5 >}}
 
@@ -41,7 +41,7 @@ xyy.LineStyle.AntiAlias = true;
 xyy.LineStyle.Color = Colors.DarkBlue;
 xyy.LineStyle.Pattern = LinePattern.Dotted;
 xyy.LineStyle.Width = 2;
-xyy.Label = "xyy";
+xyy.LegendText = "xyy";
 
 myPlot.Legend.IsVisible = true;
 

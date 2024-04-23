@@ -4,9 +4,9 @@ Description: Gauges are displayed from the center outward by default but the ord
 URL: /cookbook/5.0/RadialGauge/RadialGaugeReverse/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Radial gauge", "Reverse Order"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/RadialGauge", "/cookbook/5.0/RadialGauge/RadialGaugeReverse"]
-Date: 2024-04-07
-Version: ScottPlot 5.0.24
-Version: ScottPlot 5.0.24
+Date: 2024-04-23
+Version: ScottPlot 5.0.27
+Version: ScottPlot 5.0.27
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Gauges are displayed from the center outward by default but the order can be customized.
 
-[![](/cookbook/5.0/images/RadialGaugeReverse.png?240407172904)](/cookbook/5.0/images/RadialGaugeReverse.png?240407172904)
+[![](/cookbook/5.0/images/RadialGaugeReverse.png?240423091821)](/cookbook/5.0/images/RadialGaugeReverse.png?240423091821)
 
 {{< code-sp5 >}}
 

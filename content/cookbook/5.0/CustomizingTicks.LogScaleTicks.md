@@ -1,12 +1,12 @@
 ---
 Title: Log Scale Tick Marks - ScottPlot 5.0 Cookbook
-Description: The apperance of logarithmic scaling can be achieved by log-scaling the data to be displayed then customizing the minor ticks and grid.
+Description: The appearance of logarithmic scaling can be achieved by log-scaling the data to be displayed then customizing the minor ticks and grid.
 URL: /cookbook/5.0/CustomizingTicks/LogScaleTicks/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Customizing Ticks", "Log Scale Tick Marks"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/CustomizingTicks", "/cookbook/5.0/CustomizingTicks/LogScaleTicks"]
-Date: 2024-04-07
-Version: ScottPlot 5.0.24
-Version: ScottPlot 5.0.24
+Date: 2024-04-23
+Version: ScottPlot 5.0.27
+Version: ScottPlot 5.0.27
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -14,9 +14,9 @@ ShowEditLink: false
 # Log Scale Tick Marks
 
 
-The apperance of logarithmic scaling can be achieved by log-scaling the data to be displayed then customizing the minor ticks and grid.
+The appearance of logarithmic scaling can be achieved by log-scaling the data to be displayed then customizing the minor ticks and grid.
 
-[![](/cookbook/5.0/images/LogScaleTicks.png?240407172904)](/cookbook/5.0/images/LogScaleTicks.png?240407172904)
+[![](/cookbook/5.0/images/LogScaleTicks.png?240423091821)](/cookbook/5.0/images/LogScaleTicks.png?240423091821)
 
 {{< code-sp5 >}}
 
@@ -30,7 +30,7 @@ double[] ys = Generate.NoisyExponential(100);
 // log-scale the data and account for negative values
 double[] logYs = ys.Select(Math.Log10).ToArray();
 
-// add log-scaled data to th eplot
+// add log-scaled data to the plot
 var sp = myPlot.Add.Scatter(xs, logYs);
 sp.LineWidth = 0;
 

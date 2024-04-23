@@ -4,9 +4,9 @@ Description: A pie chart can be created from a few values.
 URL: /cookbook/5.0/Pie/PieQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Pie", "Pie Chart from Values"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Pie", "/cookbook/5.0/Pie/PieQuickstart"]
-Date: 2024-04-07
-Version: ScottPlot 5.0.24
-Version: ScottPlot 5.0.24
+Date: 2024-04-23
+Version: ScottPlot 5.0.27
+Version: ScottPlot 5.0.27
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 A pie chart can be created from a few values.
 
-[![](/cookbook/5.0/images/PieQuickstart.png?240407172904)](/cookbook/5.0/images/PieQuickstart.png?240407172904)
+[![](/cookbook/5.0/images/PieQuickstart.png?240423091821)](/cookbook/5.0/images/PieQuickstart.png?240423091821)
 
 {{< code-sp5 >}}
 

@@ -4,9 +4,9 @@ Description: Axis lines have extensive customization options.
 URL: /cookbook/5.0/AxisLines/AxisLineStyle/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Axis Lines", "Axis Line Style"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AxisLines", "/cookbook/5.0/AxisLines/AxisLineStyle"]
-Date: 2024-04-07
-Version: ScottPlot 5.0.24
-Version: ScottPlot 5.0.24
+Date: 2024-04-23
+Version: ScottPlot 5.0.27
+Version: ScottPlot 5.0.27
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Axis lines have extensive customization options.
 
-[![](/cookbook/5.0/images/AxisLineStyle.png?240407172904)](/cookbook/5.0/images/AxisLineStyle.png?240407172904)
+[![](/cookbook/5.0/images/AxisLineStyle.png?240423091821)](/cookbook/5.0/images/AxisLineStyle.png?240423091821)
 
 {{< code-sp5 >}}
 
@@ -39,9 +39,9 @@ var hl2 = myPlot.Add.HorizontalLine(-.23);
 hl2.LineColor = Colors.Navy;
 hl2.LineWidth = 5;
 hl2.Text = "Hello";
-hl2.Label.FontSize = 24;
-hl2.Label.BackColor = Colors.Blue;
-hl2.Label.ForeColor = Colors.Yellow;
+hl2.LabelFontSize = 24;
+hl2.LabelBackgroundColor = Colors.Blue;
+hl2.LabelFontColor = Colors.Yellow;
 hl2.LinePattern = LinePattern.DenselyDashed;
 
 myPlot.SavePng("demo.png", 400, 300);

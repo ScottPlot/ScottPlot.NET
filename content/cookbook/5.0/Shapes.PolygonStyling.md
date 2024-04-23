@@ -4,9 +4,9 @@ Description: Polygon plots can be fully customized.
 URL: /cookbook/5.0/Shapes/PolygonStyling/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Shapes", "Polygon Plot Styling"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Shapes", "/cookbook/5.0/Shapes/PolygonStyling"]
-Date: 2024-04-07
-Version: ScottPlot 5.0.24
-Version: ScottPlot 5.0.24
+Date: 2024-04-23
+Version: ScottPlot 5.0.27
+Version: ScottPlot 5.0.27
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Polygon plots can be fully customized.
 
-[![](/cookbook/5.0/images/PolygonStyling.png?240407172904)](/cookbook/5.0/images/PolygonStyling.png?240407172904)
+[![](/cookbook/5.0/images/PolygonStyling.png?240423091821)](/cookbook/5.0/images/PolygonStyling.png?240423091821)
 
 {{< code-sp5 >}}
 
@@ -33,30 +33,23 @@ Coordinates[] points =
 };
 
 var poly = myPlot.Add.Polygon(points);
-
-poly.FillStyle = new FillStyle
+poly.FillColor = Colors.Green;
+poly.FillHatchColor = Colors.Blue;
+poly.FillHatch = new Gradient()
 {
-    Color = Colors.Green,
-    HatchColor = Colors.Blue,
-    Hatch = new Gradient()
-    {
-        GradientType = GradientType.Linear,
-        AlignmentStart = Alignment.UpperRight,
-        AlignmentEnd = Alignment.LowerLeft,
-    }
+    GradientType = GradientType.Linear,
+    AlignmentStart = Alignment.UpperRight,
+    AlignmentEnd = Alignment.LowerLeft,
 };
 
-poly.LineStyle = new LineStyle
-{
-    AntiAlias = true,
-    Color = Colors.Black,
-    Pattern = LinePattern.Dashed,
-    Width = 2
-};
+poly.LineColor = Colors.Black;
+poly.LinePattern = LinePattern.Dashed;
+poly.LineWidth = 2;
 
-poly.MarkerStyle = new MarkerStyle(MarkerShape.OpenCircle, 8);
-poly.MarkerStyle.Fill.Color = Colors.Gold;
-poly.MarkerStyle.Outline.Color = Colors.Brown;
+poly.MarkerShape = MarkerShape.OpenCircle;
+poly.MarkerSize = 8;
+poly.MarkerFillColor = Colors.Gold;
+poly.MarkerLineColor = Colors.Brown;
 
 myPlot.SavePng("demo.png", 400, 300);
 

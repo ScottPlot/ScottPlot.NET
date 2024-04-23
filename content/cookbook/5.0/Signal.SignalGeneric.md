@@ -4,9 +4,9 @@ Description: Signal plots support generic data types, although double is typical
 URL: /cookbook/5.0/Signal/SignalGeneric/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Signal Plot", "Signal Generic"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Signal", "/cookbook/5.0/Signal/SignalGeneric"]
-Date: 2024-04-07
-Version: ScottPlot 5.0.24
-Version: ScottPlot 5.0.24
+Date: 2024-04-23
+Version: ScottPlot 5.0.27
+Version: ScottPlot 5.0.27
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Signal plots support generic data types, although double is typically the most performant.
 
-[![](/cookbook/5.0/images/SignalGeneric.png?240407172904)](/cookbook/5.0/images/SignalGeneric.png?240407172904)
+[![](/cookbook/5.0/images/SignalGeneric.png?240423091821)](/cookbook/5.0/images/SignalGeneric.png?240423091821)
 
 {{< code-sp5 >}}
 
@@ -26,8 +26,6 @@ ScottPlot.Plot myPlot = new();
 int[] values = Generate.RandomIntegers(1000, -100, 100);
 
 myPlot.Add.Signal(values);
-
-myPlot.Title("Signal Plot with 1 Million Points");
 
 myPlot.SavePng("demo.png", 400, 300);
 

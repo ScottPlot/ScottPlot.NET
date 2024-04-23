@@ -4,9 +4,9 @@ Description: SignalXY are a high performance plot type optimized for X/Y pairs w
 URL: /cookbook/5.0/SignalXY/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "SignalXY Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/SignalXY"]
-Date: 2024-04-07
-Version: ScottPlot 5.0.24
-Version: ScottPlot 5.0.24
+Date: 2024-04-23
+Version: ScottPlot 5.0.27
+Version: ScottPlot 5.0.27
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,7 +18,7 @@ ShowEditLink: false
 
 SignalXY plots are a high performance plot type for X/Y data where the X values are always ascending.
 
-[![](/cookbook/5.0/images/SignalXYQuickstart.png?240407172904)](/cookbook/5.0/images/SignalXYQuickstart.png?240407172904)
+[![](/cookbook/5.0/images/SignalXYQuickstart.png?240423091821)](/cookbook/5.0/images/SignalXYQuickstart.png?240423091821)
 
 {{< code-sp5 >}}
 
@@ -52,7 +52,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 SignalXY plots support generic data types, although double is typically the most performant.
 
-[![](/cookbook/5.0/images/SignalXYGeneric.png?240407172904)](/cookbook/5.0/images/SignalXYGeneric.png?240407172904)
+[![](/cookbook/5.0/images/SignalXYGeneric.png?240423091821)](/cookbook/5.0/images/SignalXYGeneric.png?240423091821)
 
 {{< code-sp5 >}}
 
@@ -86,7 +86,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Even if a SignalXY plot references a large array of data, rendering can be limited to a range of values. If set,only the range of data between the minimum and maximum render indexes will be displayed.
 
-[![](/cookbook/5.0/images/SignalXYRenderIndexes.png?240407172904)](/cookbook/5.0/images/SignalXYRenderIndexes.png?240407172904)
+[![](/cookbook/5.0/images/SignalXYRenderIndexes.png?240423091821)](/cookbook/5.0/images/SignalXYRenderIndexes.png?240423091821)
 
 {{< code-sp5 >}}
 
@@ -97,21 +97,21 @@ double[] xs = Generate.Consecutive(1000);
 double[] ys = Generate.RandomWalk(1000);
 
 var sigAll = myPlot.Add.SignalXY(xs, ys);
-sigAll.Label = "Full";
+sigAll.LegendText = "Full";
 sigAll.Data.YOffset = 80;
 
 var sigLeft = myPlot.Add.SignalXY(xs, ys);
-sigLeft.Label = "Left";
+sigLeft.LegendText = "Left";
 sigLeft.Data.YOffset = 60;
 sigLeft.Data.MaximumIndex = 700;
 
 var sigRight = myPlot.Add.SignalXY(xs, ys);
-sigRight.Label = "Right";
+sigRight.LegendText = "Right";
 sigRight.Data.YOffset = 40;
 sigRight.Data.MinimumIndex = 300;
 
 var sigMid = myPlot.Add.SignalXY(xs, ys);
-sigMid.Label = "Mid";
+sigMid.LegendText = "Mid";
 sigMid.Data.YOffset = 20;
 sigMid.Data.MinimumIndex = 300;
 sigMid.Data.MaximumIndex = 700;
@@ -132,7 +132,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 A fixed offset can be applied to SignalXY plots.
 
-[![](/cookbook/5.0/images/SignalXYOffset.png?240407172904)](/cookbook/5.0/images/SignalXYOffset.png?240407172904)
+[![](/cookbook/5.0/images/SignalXYOffset.png?240423091821)](/cookbook/5.0/images/SignalXYOffset.png?240423091821)
 
 {{< code-sp5 >}}
 
@@ -161,7 +161,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Although SignalXY plots typically display data left-to-right, it is possible to use this plot type to display data bottom-to-top.
 
-[![](/cookbook/5.0/images/VerticalSignalXY.png?240407172904)](/cookbook/5.0/images/VerticalSignalXY.png?240407172904)
+[![](/cookbook/5.0/images/VerticalSignalXY.png?240423091821)](/cookbook/5.0/images/VerticalSignalXY.png?240423091821)
 
 {{< code-sp5 >}}
 
@@ -187,7 +187,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Demonstrates how to display a rotated SignalXY plot (so it goes from bottom to top) which is also displayed on an inverted horizontal axis (where positive values are on the left).
 
-[![](/cookbook/5.0/images/SignalXYVerticalInvertedX.png?240407172904)](/cookbook/5.0/images/SignalXYVerticalInvertedX.png?240407172904)
+[![](/cookbook/5.0/images/SignalXYVerticalInvertedX.png?240423091821)](/cookbook/5.0/images/SignalXYVerticalInvertedX.png?240423091821)
 
 {{< code-sp5 >}}
 
@@ -218,7 +218,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Demonstrates how to display a rotated SignalXY plot on an inverted vertical axis so data goes from top to bottom.
 
-[![](/cookbook/5.0/images/SignalXYVerticalInvertedY.png?240407172904)](/cookbook/5.0/images/SignalXYVerticalInvertedY.png?240407172904)
+[![](/cookbook/5.0/images/SignalXYVerticalInvertedY.png?240423091821)](/cookbook/5.0/images/SignalXYVerticalInvertedY.png?240423091821)
 
 {{< code-sp5 >}}
 
@@ -249,7 +249,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Users can enable a marker to be displayedat each data point. However, this can reduce performance for extremely large datasets.
 
-[![](/cookbook/5.0/images/SignalXYMarkers.png?240407172904)](/cookbook/5.0/images/SignalXYMarkers.png?240407172904)
+[![](/cookbook/5.0/images/SignalXYMarkers.png?240423091821)](/cookbook/5.0/images/SignalXYMarkers.png?240423091821)
 
 {{< code-sp5 >}}
 

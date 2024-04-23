@@ -4,9 +4,9 @@ Description: A legend displays plottables in a key along the edge of a plot. Mos
 URL: /cookbook/5.0/ScottPlotQuickstart/Legend/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Quickstart", "Legend"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/ScottPlotQuickstart", "/cookbook/5.0/ScottPlotQuickstart/Legend"]
-Date: 2024-04-07
-Version: ScottPlot 5.0.24
-Version: ScottPlot 5.0.24
+Date: 2024-04-23
+Version: ScottPlot 5.0.27
+Version: ScottPlot 5.0.27
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 A legend displays plottables in a key along the edge of a plot. Most plottables have a Label property which configures what text appears in the legend.
 
-[![](/cookbook/5.0/images/Legend.png?240407172904)](/cookbook/5.0/images/Legend.png?240407172904)
+[![](/cookbook/5.0/images/Legend.png?240423091821)](/cookbook/5.0/images/Legend.png?240423091821)
 
 {{< code-sp5 >}}
 
@@ -24,10 +24,10 @@ A legend displays plottables in a key along the edge of a plot. Most plottables 
 ScottPlot.Plot myPlot = new();
 
 var sig1 = myPlot.Add.Signal(Generate.Sin(51));
-sig1.Label = "Sin";
+sig1.LegendText = "Sin";
 
 var sig2 = myPlot.Add.Signal(Generate.Cos(51));
-sig2.Label = "Cos";
+sig2.LegendText = "Cos";
 
 myPlot.ShowLegend();
 

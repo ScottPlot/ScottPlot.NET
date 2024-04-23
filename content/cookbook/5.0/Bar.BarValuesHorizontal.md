@@ -4,9 +4,9 @@ Description: Set the `Label` property of bars to have text displayed beside (lef
 URL: /cookbook/5.0/Bar/BarValuesHorizontal/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Bar Plot", "Bar with Value Labels (horizontal)"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Bar", "/cookbook/5.0/Bar/BarValuesHorizontal"]
-Date: 2024-04-07
-Version: ScottPlot 5.0.24
-Version: ScottPlot 5.0.24
+Date: 2024-04-23
+Version: ScottPlot 5.0.27
+Version: ScottPlot 5.0.27
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,20 +16,20 @@ ShowEditLink: false
 
 Set the `Label` property of bars to have text displayed beside (left or right) of each bar.
 
-[![](/cookbook/5.0/images/BarValuesHorizontal.png?240407172904)](/cookbook/5.0/images/BarValuesHorizontal.png?240407172904)
+[![](/cookbook/5.0/images/BarValuesHorizontal.png?240423091821)](/cookbook/5.0/images/BarValuesHorizontal.png?240423091821)
 
 {{< code-sp5 >}}
 
 ```cs
 ScottPlot.Plot myPlot = new();
 
-double[] values = { -5, 10, 7, 13 };
-var barPlot = myPlot.Add.Bars(values);
+double[] values = { -20, 10, 7, 13 };
 
 // set the label for each bar
+var barPlot = myPlot.Add.Bars(values);
 foreach (var bar in barPlot.Bars)
 {
-    bar.Label = bar.Value.ToString();
+    bar.Label = "Label " + bar.Value.ToString();
 }
 
 // customize label style
@@ -38,7 +38,8 @@ barPlot.ValueLabelStyle.FontSize = 18;
 barPlot.Horizontal = true;
 
 // add extra margin to account for label
-myPlot.Axes.Margins(left: .2, right: .2);
+myPlot.Axes.SetLimitsX(-45, 35);
+myPlot.Add.VerticalLine(0, 1, Colors.Black);
 
 myPlot.SavePng("demo.png", 400, 300);
 

@@ -4,9 +4,9 @@ Description: Line plots with labels appear in the legend.
 URL: /cookbook/5.0/LinePlot/LinePlotLegendQWER/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Line Plot", "Line Plot Legend"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/LinePlot", "/cookbook/5.0/LinePlot/LinePlotLegendQWER"]
-Date: 2024-04-07
-Version: ScottPlot 5.0.24
-Version: ScottPlot 5.0.24
+Date: 2024-04-23
+Version: ScottPlot 5.0.27
+Version: ScottPlot 5.0.27
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Line plots with labels appear in the legend.
 
-[![](/cookbook/5.0/images/LinePlotLegendQWER.png?240407172904)](/cookbook/5.0/images/LinePlotLegendQWER.png?240407172904)
+[![](/cookbook/5.0/images/LinePlotLegendQWER.png?240423091821)](/cookbook/5.0/images/LinePlotLegendQWER.png?240423091821)
 
 {{< code-sp5 >}}
 
@@ -24,15 +24,15 @@ Line plots with labels appear in the legend.
 ScottPlot.Plot myPlot = new();
 
 var sin = myPlot.Add.Signal(Generate.Sin());
-sin.Label = "Sine";
+sin.LegendText = "Sine";
 
 var cos = myPlot.Add.Signal(Generate.Cos());
-cos.Label = "Cosine";
+cos.LegendText = "Cosine";
 
 var line = myPlot.Add.Line(1, 12, 12, 0);
 line.LineWidth = 3;
 line.MarkerSize = 10;
-line.Label = "Line Plot";
+line.LegendText = "Line Plot";
 
 myPlot.ShowLegend(Alignment.UpperRight);
 

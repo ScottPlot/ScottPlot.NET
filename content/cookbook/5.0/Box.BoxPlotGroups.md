@@ -4,9 +4,9 @@ Description: Each collection of boxes added to the plot gets styled the same and
 URL: /cookbook/5.0/Box/BoxPlotGroups/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Box Plot", "Box Plot Groups"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Box", "/cookbook/5.0/Box/BoxPlotGroups"]
-Date: 2024-04-07
-Version: ScottPlot 5.0.24
-Version: ScottPlot 5.0.24
+Date: 2024-04-23
+Version: ScottPlot 5.0.27
+Version: ScottPlot 5.0.27
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Each collection of boxes added to the plot gets styled the same and appears as a single item in the legend. Add multiple bar series plots with defined X positions to give the appearance of grouped data.
 
-[![](/cookbook/5.0/images/BoxPlotGroups.png?240407172904)](/cookbook/5.0/images/BoxPlotGroups.png?240407172904)
+[![](/cookbook/5.0/images/BoxPlotGroups.png?240423091821)](/cookbook/5.0/images/BoxPlotGroups.png?240423091821)
 
 {{< code-sp5 >}}
 
@@ -36,10 +36,10 @@ List<ScottPlot.Box> boxes2 = new() {
 };
 
 var bp1 = myPlot.Add.Boxes(boxes1);
-bp1.Label = "Group 1";
+bp1.LegendText = "Group 1";
 
 var bp2 = myPlot.Add.Boxes(boxes2);
-bp2.Label = "Group 2";
+bp2.LegendText = "Group 2";
 
 myPlot.ShowLegend(Alignment.UpperRight);
 

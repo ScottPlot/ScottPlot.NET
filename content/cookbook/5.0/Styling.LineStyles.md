@@ -4,9 +4,9 @@ Description: Many plot types have a LineStyle which can be customized.
 URL: /cookbook/5.0/Styling/LineStyles/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Styling Plots", "Line Styles"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Styling", "/cookbook/5.0/Styling/LineStyles"]
-Date: 2024-04-07
-Version: ScottPlot 5.0.24
-Version: ScottPlot 5.0.24
+Date: 2024-04-23
+Version: ScottPlot 5.0.27
+Version: ScottPlot 5.0.27
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Many plot types have a LineStyle which can be customized.
 
-[![](/cookbook/5.0/images/LineStyles.png?240407172904)](/cookbook/5.0/images/LineStyles.png?240407172904)
+[![](/cookbook/5.0/images/LineStyles.png?240423091821)](/cookbook/5.0/images/LineStyles.png?240423091821)
 
 {{< code-sp5 >}}
 
@@ -35,10 +35,10 @@ for (int i = 0; i < linePatterns.Length; i++)
     line.Color = Colors.Black;
 
     var txt = myPlot.Add.Text(pattern.ToString(), 1.1, -i);
-    txt.Size = 18;
-    txt.Bold = true;
-    txt.Color = Colors.Black;
-    txt.Label.Alignment = Alignment.MiddleLeft;
+    txt.LabelFontSize = 18;
+    txt.LabelBold = true;
+    txt.LabelFontColor = Colors.Black;
+    txt.LabelAlignment = Alignment.MiddleLeft;
 }
 
 myPlot.Axes.Margins(right: 1);

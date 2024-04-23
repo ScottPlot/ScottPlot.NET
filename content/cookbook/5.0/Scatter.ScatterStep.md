@@ -4,9 +4,9 @@ Description: Scatter plots can be created using a step plot display where points
 URL: /cookbook/5.0/Scatter/ScatterStep/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Scatter Plot", "Step Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Scatter", "/cookbook/5.0/Scatter/ScatterStep"]
-Date: 2024-04-07
-Version: ScottPlot 5.0.24
-Version: ScottPlot 5.0.24
+Date: 2024-04-23
+Version: ScottPlot 5.0.27
+Version: ScottPlot 5.0.27
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Scatter plots can be created using a step plot display where points are connected with right angles instead of diagnal lines. The direction of the steps can be customized.
 
-[![](/cookbook/5.0/images/ScatterStep.png?240407172904)](/cookbook/5.0/images/ScatterStep.png?240407172904)
+[![](/cookbook/5.0/images/ScatterStep.png?240423091821)](/cookbook/5.0/images/ScatterStep.png?240423091821)
 
 {{< code-sp5 >}}
 
@@ -30,15 +30,15 @@ double[] ys3 = Generate.Consecutive(20, first: 0);
 
 var sp1 = myPlot.Add.Scatter(xs, ys1);
 sp1.ConnectStyle = ConnectStyle.Straight;
-sp1.Label = "Straight";
+sp1.LegendText = "Straight";
 
 var sp2 = myPlot.Add.Scatter(xs, ys2);
 sp2.ConnectStyle = ConnectStyle.StepHorizontal;
-sp2.Label = "StepHorizontal";
+sp2.LegendText = "StepHorizontal";
 
 var sp3 = myPlot.Add.Scatter(xs, ys3);
 sp3.ConnectStyle = ConnectStyle.StepVertical;
-sp3.Label = "StepVertical";
+sp3.LegendText = "StepVertical";
 
 myPlot.ShowLegend();
 

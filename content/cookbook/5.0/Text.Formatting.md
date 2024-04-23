@@ -4,9 +4,9 @@ Description: Text formatting can be extensively customized.
 URL: /cookbook/5.0/Text/Formatting/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Text", "Text Formatting"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Text", "/cookbook/5.0/Text/Formatting"]
-Date: 2024-04-07
-Version: ScottPlot 5.0.24
-Version: ScottPlot 5.0.24
+Date: 2024-04-23
+Version: ScottPlot 5.0.27
+Version: ScottPlot 5.0.27
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Text formatting can be extensively customized.
 
-[![](/cookbook/5.0/images/Formatting.png?240407172904)](/cookbook/5.0/images/Formatting.png?240407172904)
+[![](/cookbook/5.0/images/Formatting.png?240423091821)](/cookbook/5.0/images/Formatting.png?240423091821)
 
 {{< code-sp5 >}}
 
@@ -24,15 +24,15 @@ Text formatting can be extensively customized.
 ScottPlot.Plot myPlot = new();
 
 var text = myPlot.Add.Text("Hello, World", 42, 69);
-text.Label.FontSize = 26;
-text.Label.Bold = true;
-text.Label.Rotation = -45;
-text.Label.ForeColor = Colors.Yellow;
-text.Label.BackColor = Colors.Navy.WithAlpha(.5);
-text.Label.BorderColor = Colors.Magenta;
-text.Label.BorderWidth = 3;
-text.Label.Padding = 10;
-text.Label.Alignment = Alignment.MiddleCenter;
+text.LabelFontSize = 26;
+text.LabelBold = true;
+text.LabelRotation = -45;
+text.LabelFontColor = Colors.Yellow;
+text.LabelBackgroundColor = Colors.Navy.WithAlpha(.5);
+text.LabelBorderColor = Colors.Magenta;
+text.LabelBorderWidth = 3;
+text.LabelPadding = 10;
+text.LabelAlignment = Alignment.MiddleCenter;
 
 myPlot.SavePng("demo.png", 400, 300);
 
