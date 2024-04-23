@@ -22,6 +22,8 @@ date: 2023-12-13
 
 **Step 3: Create a PowerShell script**
 * Enter the builder folder containing `ScottPlot.dll`
+* Enter the runtimes folder, select your platform (ex. win-x64)
+* Copy `libSkiaSharp` and paste it in the folder containing `ScottPlot.dll`
 * Create `myScript.ps1` and copy the following contents into it
 * Run the script using PowerShell Core (not Windows PowerShell)
 
@@ -33,7 +35,7 @@ Add-Type -Path .\ScottPlot.dll
 [double[]] $dataY = @( 1, 4, 9, 16, 25 )
 $plt = [ScottPlot.Plot]::new()
 [Void] $plt.Add.Scatter($dataX, $dataY)
-[Void] $plt.SaveFig("$pwd\quickstart.png", 400, 300)
+[Void] $plt.SavePng("$pwd\quickstart.png", 400, 300)
 ```
 
 {{< /code-sp5 >}}
