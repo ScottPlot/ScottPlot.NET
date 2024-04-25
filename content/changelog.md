@@ -8,8 +8,81 @@ Description: Release notes for every version of ScottPlot
 Release notes for every version of ScottPlot
 
 <section class='mb-5'>
+<h1 class='mb-0'>ScottPlot 5.0.27</h1>
+<div><i>NuGet packages published 2024-04-23</i></div>
+<div class='mt-1'>
+<ul>
+<li>Signal: Corrected floating point error that caused points to be dropped in rare conditions (<a href="https://github.com/ScottPlot/ScottPlot/issues/3665">#3665</a>) <a href="https://github.com/mjazd"><strong>@mjazd</strong></a>
+</li>
+<li>DataStreamer: Added an optional argument to <code>ViewWipeRight()</code> that sets the fraction of oldest data to hide (<a href="https://github.com/ScottPlot/ScottPlot/issues/3668">#3668</a>) <a href="https://github.com/mloppnow"><strong>@mloppnow</strong></a>
+</li>
+<li>Label: Refactored plottables to use consistently named properties. Properties such as <code>plottable.Label.FontColor</code> are now <code>plottable.Label.FontColor</code>, or <code>plottable.LabelStyle.FontColor</code>. Referencing obsolete property names yield build errors with messages that indicate names of the new properties to use. (<a href="https://github.com/ScottPlot/ScottPlot/issues/3658">#3658</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3666">#3666</a>)
+</li>
+<li>Plottables: Styling objects <code>LabelStyle</code>, <code>LineStyle</code>, <code>MarkerStyle</code>, etc. are now readonly. Their contents may be set, and most plottables expose shortcuts to their properties. (<a href="https://github.com/ScottPlot/ScottPlot/issues/3658">#3658</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3666">#3666</a>)
+</li>
+<li>Plot: Added <code>RenderInMemory()</code> (alias for <code>GetImage()</code>) so users can force a render as part of their startup process (<a href="https://github.com/ScottPlot/ScottPlot/issues/3674">#3674</a>) Boris
+</li>
+<li>Ticks: improve appearance of rotated multiline tick labels (<a href="https://github.com/ScottPlot/ScottPlot/issues/3673">#3673</a>) <a href="https://github.com/aespitia"><strong>@aespitia</strong></a>
+</li>
+<li>Demo: Add an example window where the legend is displayed outside the plot control (<a href="https://github.com/ScottPlot/ScottPlot/issues/3672">#3672</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3635">#3635</a>) <a href="https://github.com/mikeKuester"><strong>@mikeKuester</strong></a> <a href="https://github.com/Graat"><strong>@Graat</strong></a>
+</li>
+<li>Demo: Fix mouse tracking logic to improve behavior of the multi-series mouseover demo (<a href="https://github.com/ScottPlot/ScottPlot/issues/3680">#3680</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3684">#3684</a>) <a href="https://github.com/jamaa"><strong>@jamaa</strong></a> <a href="https://github.com/Graat"><strong>@Graat</strong></a>
+</li>
+<li>Ticks: Refined tick label measurement for improved tick spacing (<a href="https://github.com/ScottPlot/ScottPlot/issues/3689">#3689</a>)
+</li>
+<li>Legend: Added many additional customization options and support for multiple shapes (<a href="https://github.com/ScottPlot/ScottPlot/issues/3689">#3689</a>)
+</li>
+<li>Legend: Text appearing in the legend for many plot types has been renamed from <code>Label</code> to <code>LegendText</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/3689">#3689</a>)
+</li>
+<li>Rendering: Added <code>Plot.GetSvgXml()</code> so plots can create SVG images in memory without saving to disk (<a href="https://github.com/ScottPlot/ScottPlot/issues/3694">#3694</a>) <a href="https://github.com/aespitia"><strong>@aespitia</strong></a>
+</li>
+<li>Bar: Improved alignment of value labels on horizontal bar charts (<a href="https://github.com/ScottPlot/ScottPlot/issues/3698">#3698</a>) <a href="https://github.com/aespitia"><strong>@aespitia</strong></a>
+</li>
+<li>Legend: Created a <code>LegendPanel</code> to allow legends to be displayed outside the data area (<a href="https://github.com/ScottPlot/ScottPlot/issues/3672">#3672</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3635">#3635</a>) <a href="https://github.com/Graat"><strong>@Graat</strong></a> <a href="https://github.com/mikeKuester"><strong>@mikeKuester</strong></a>
+</li>
+<li>Axis: Prevent left axis from appearing if no plottables use it (<a href="https://github.com/ScottPlot/ScottPlot/issues/3637">#3637</a>) <a href="https://github.com/jpgarza93"><strong>@jpgarza93</strong></a>
+</li>
+<li>Label: Added <code>BorderRadius</code> to support backgrounds and outlines with rounded edges (<a href="https://github.com/ScottPlot/ScottPlot/issues/3659">#3659</a>)
+</li>
+<li>Axis Rules: Changed behavior of axis rules to reduce reliance on previous renders (<a href="https://github.com/ScottPlot/ScottPlot/issues/3674">#3674</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/1966">#1966</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3547">#3547</a>)
+</li>
+<li>Blazor: Numerous improvements to the Blazor cookbook (<a href="https://github.com/ScottPlot/ScottPlot/issues/3667">#3667</a>) <a href="https://github.com/KroMignon"><strong>@KroMignon</strong></a>
+</li>
+<li>Finance: Improve support for DateTime candlesticks before 1900 where OADate is negative (<a href="https://github.com/ScottPlot/ScottPlot/issues/3678">#3678</a>)
+</li>
+<li>Label: Added ability to separately control background vs. text Anti-Aliasing (<a href="https://github.com/ScottPlot/ScottPlot/issues/3686">#3686</a>)
+</li>
+<li>Ticks: Use system <code>CultureInfo</code> to generate numeric tick labels (<a href="https://github.com/ScottPlot/ScottPlot/issues/3688">#3688</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3687">#3687</a>) <a href="https://github.com/xantiva"><strong>@xantiva</strong></a> <a href="https://github.com/mikeKuester"><strong>@mikeKuester</strong></a>
+</li>
+<li>Plottables: Made all <code>Render()</code> methods <code>virtual void</code> to facilitate advanced customization (<a href="https://github.com/ScottPlot/ScottPlot/issues/3693">#3693</a>) <a href="https://github.com/sdhongjun"><strong>@sdhongjun</strong></a>
+</li>
+<li>Function: Improve function plot performance by only calculating visible range (<a href="https://github.com/ScottPlot/ScottPlot/issues/3703">#3703</a>) <a href="https://github.com/Matthew-Chidlow"><strong>@Matthew-Chidlow</strong></a>
+</li>
+</ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/mjazd'>@mjazd</a>, <a href='https://github.com/mloppnow'>@mloppnow</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/mikeKuester'>@mikeKuester</a>, <a href='https://github.com/Graat'>@Graat</a>, <a href='https://github.com/jamaa'>@jamaa</a>, <a href='https://github.com/jpgarza93'>@jpgarza93</a>, <a href='https://github.com/KroMignon'>@KroMignon</a>, <a href='https://github.com/xantiva'>@xantiva</a>, <a href='https://github.com/sdhongjun'>@sdhongjun</a>, <a href='https://github.com/Matthew-Chidlow'>@Matthew-Chidlow</a>, <a href='https://github.com/swharden'>@swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/mjazd'><img src='https://scottplot.net/images/contributors/mjazd.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/mloppnow'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/aespitia'><img src='https://scottplot.net/images/contributors/aespitia.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/mikeKuester'><img src='https://scottplot.net/images/contributors/mikekuester.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Graat'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/jamaa'><img src='https://scottplot.net/images/contributors/jamaa.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/jpgarza93'><img src='https://scottplot.net/images/contributors/jpgarza93.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/KroMignon'><img src='https://scottplot.net/images/contributors/kromignon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/xantiva'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/sdhongjun'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Matthew-Chidlow'><img src='https://scottplot.net/images/contributors/matthew-chidlow.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
+
+</section>
+<section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 5.0.26</h1>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2024-04-14</i></div>
 <div class='mt-1'>
 <ul>
 <li>Function: Improved autoscaling behavior and respect for user-defined horizontal ranges (<a href="https://github.com/ScottPlot/ScottPlot/issues/3618">#3618</a>) <a href="https://github.com/Matthew-Chidlow"><strong>@Matthew-Chidlow</strong></a>
@@ -36,11 +109,21 @@ Release notes for every version of ScottPlot
 </li>
 <li>Bar: Added a <code>CenterLabel</code> flag to cause value labels to be displayed centered within a bar (<a href="https://github.com/ScottPlot/ScottPlot/issues/3391">#3391</a>) <a href="https://github.com/tibormarchynzoom"><strong>@tibormarchynzoom</strong></a>
 </li>
+<li>FormsPlot: Allow plots to persist through <code>Show()</code> and <code>Close()</code> events (<a href="https://github.com/ScottPlot/ScottPlot/issues/3643">#3643</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3589">#3589</a>) <a href="https://github.com/CodeBehemoth"><strong>@CodeBehemoth</strong></a> <a href="https://github.com/bwedding"><strong>@bwedding</strong></a> <a href="https://github.com/Kruno313"><strong>@Kruno313</strong></a>
+</li>
+<li>Callout: New plot type that displays text with an arrow that points to a location on the plot (<a href="https://github.com/ScottPlot/ScottPlot/issues/3650">#3650</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3654">#3654</a>) <a href="https://github.com/NicolasLairNET"><strong>@NicolasLairNET</strong></a>
+</li>
+<li>Cookbook: Simplified function recipes to use static methods (<a href="https://github.com/ScottPlot/ScottPlot/issues/3656">#3656</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3655">#3655</a>) <a href="https://github.com/abdul-muyeed"><strong>@abdul-muyeed</strong></a>
+</li>
+<li>Demo: Created a WPF demo application to document WPF-specific topics like display scaling (<a href="https://github.com/ScottPlot/ScottPlot/issues/3585">#3585</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3622">#3622</a>) <a href="https://github.com/KroMignon"><strong>@KroMignon</strong></a> <a href="https://github.com/MagicFawkes"><strong>@MagicFawkes</strong></a>
+</li>
+<li>Blazor: Fixed issue causing the <code>ScottPlot.Blazor</code> package to install the SkiaSharp WinForms control (<a href="https://github.com/ScottPlot/ScottPlot/issues/3621">#3621</a>) <a href="https://github.com/angelofb"><strong>@angelofb</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/Matthew-Chidlow'>@Matthew-Chidlow</a>, <a href='https://github.com/Dibyanshuaman'>@Dibyanshuaman</a>, <a href='https://github.com/MCF'>@MCF</a>, <a href='https://github.com/KroMignon'>@KroMignon</a>, <a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/Fruchtzwerg94'>@Fruchtzwerg94</a>, <a href='https://github.com/heartacker'>@heartacker</a>, <a href='https://github.com/jpgarza93'>@jpgarza93</a>, <a href='https://github.com/PZidlik'>@PZidlik</a>, <a href='https://github.com/tibormarchynzoom'>@tibormarchynzoom</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/Matthew-Chidlow'>@Matthew-Chidlow</a>, <a href='https://github.com/Dibyanshuaman'>@Dibyanshuaman</a>, <a href='https://github.com/MCF'>@MCF</a>, <a href='https://github.com/KroMignon'>@KroMignon</a>, <a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/Fruchtzwerg94'>@Fruchtzwerg94</a>, <a href='https://github.com/heartacker'>@heartacker</a>, <a href='https://github.com/jpgarza93'>@jpgarza93</a>, <a href='https://github.com/PZidlik'>@PZidlik</a>, <a href='https://github.com/tibormarchynzoom'>@tibormarchynzoom</a>, <a href='https://github.com/CodeBehemoth'>@CodeBehemoth</a>, <a href='https://github.com/bwedding'>@bwedding</a>, <a href='https://github.com/Kruno313'>@Kruno313</a>, <a href='https://github.com/NicolasLairNET'>@NicolasLairNET</a>, <a href='https://github.com/abdul-muyeed'>@abdul-muyeed</a>, <a href='https://github.com/MagicFawkes'>@MagicFawkes</a>, <a href='https://github.com/angelofb'>@angelofb</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/Matthew-Chidlow'><img src='https://scottplot.net/images/contributors/matthew-chidlow.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -54,6 +137,33 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/jpgarza93'><img src='https://scottplot.net/images/contributors/jpgarza93.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/PZidlik'><img src='https://scottplot.net/images/contributors/pzidlik.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/tibormarchynzoom'><img src='https://scottplot.net/images/contributors/tibormarchynzoom.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/CodeBehemoth'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/bwedding'><img src='https://scottplot.net/images/contributors/bwedding.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Kruno313'><img src='https://scottplot.net/images/contributors/kruno313.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/NicolasLairNET'><img src='https://scottplot.net/images/contributors/nicolaslairnet.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/abdul-muyeed'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/MagicFawkes'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/angelofb'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
+
+</section>
+<section class='mb-5'>
+<h1 class='mb-0'>ScottPlot 4.1.74</h1>
+<div><i>NuGet packages published 2024-04-14</i></div>
+<div class='mt-1'>
+<ul>
+<li>Security: Use System.Drawing.Common version 4.7.2 to address <a href="https://github.com/advisories/GHSA-ghhp-997w-qr28">CVE-2021-26701</a>
+</li>
+<li>Package: Target supported versions of .NET Framework (4.6.2, 4.7.2, and 4.8) and .NET (6.0 and 8.0)
+</li>
+</ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/swharden'>@swharden</a>
+</div>
+<div class='text-center'>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
@@ -2924,7 +3034,7 @@ Release notes for every version of ScottPlot
 </li>
 <li>Style: Plottables that implement <code>IStylable</code> are now styled when <code>Plot.Style()</code> is called. Styles are now improved for <code>ScaleBar</code> and <code>Colorbar</code> plot types. (<a href="https://github.com/ScottPlot/ScottPlot/issues/1451">#1451</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/1447">#1447</a>) <a href="https://github.com/diluculo"><strong>@diluculo</strong></a>
 </li>
-<li>Population plot: Population plots <code>DataFormat</code> now have a <code>DataFormat</code> member that displays individual data points on top of a bar graph representing their mean and variance (<a href="https://github.com/ScottPlot/ScottPlot/issues/1440">#1440</a>) Thanks <a href="https://github.com/Syntaxrabbit"><strong>@Syntaxrabbit</strong></a>
+<li>Population plot: Population plots <code>DataFormat</code> now have a <code>DataFormat</code> member that displays individual data points on top of a bar graph representing their mean and variance (<a href="https://github.com/ScottPlot/ScottPlot/issues/1440">#1440</a>) <a href="https://github.com/Syntaxrabbit"><strong>@Syntaxrabbit</strong></a>
 </li>
 <li>SignalXY: Fixed bug affecting filled plots with zero area (<a href="https://github.com/ScottPlot/ScottPlot/issues/1476">#1476</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/1477">#1477</a>) <a href="https://github.com/chenxuuu"><strong>@chenxuuu</strong></a>
 </li>
