@@ -4,9 +4,9 @@ Description: FillY plots display the vertical range between two Y values at defi
 URL: /cookbook/5.0/FillY/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "FillY plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/FillY"]
-Date: 2024-04-23
-Version: ScottPlot 5.0.27
-Version: ScottPlot 5.0.27
+Date: 2024-04-25
+Version: ScottPlot 5.0.28
+Version: ScottPlot 5.0.28
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,7 +18,7 @@ ShowEditLink: false
 
 FillY plots can be created from X, Y1, and Y2 arrays.
 
-[![](/cookbook/5.0/images/FillYFromArrays.png?240423091821)](/cookbook/5.0/images/FillYFromArrays.png?240423091821)
+[![](/cookbook/5.0/images/FillYFromArrays.png?240425082609)](/cookbook/5.0/images/FillYFromArrays.png?240425082609)
 
 {{< code-sp5 >}}
 
@@ -32,8 +32,11 @@ double[] xs = Generate.Consecutive(count);
 double[] ys1 = dataGen.RandomWalk(count, offset: -5);
 double[] ys2 = dataGen.RandomWalk(count, offset: 5);
 
-var xyy = myPlot.Add.FillY(xs, ys1, ys2);
-xyy.FillStyle.Color = Colors.Magenta.WithAlpha(100);
+var fill = myPlot.Add.FillY(xs, ys1, ys2);
+fill.FillColor = Colors.Blue.WithAlpha(100);
+fill.LineColor = Colors.Blue;
+fill.MarkerColor = Colors.Blue;
+fill.LineWidth = 2;
 
 myPlot.SavePng("demo.png", 400, 300);
 
@@ -48,7 +51,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 FillY plots can be created from two scatter plots that share the same X values.
 
-[![](/cookbook/5.0/images/FillYFromScatters.png?240423091821)](/cookbook/5.0/images/FillYFromScatters.png?240423091821)
+[![](/cookbook/5.0/images/FillYFromScatters.png?240425082609)](/cookbook/5.0/images/FillYFromScatters.png?240425082609)
 
 {{< code-sp5 >}}
 
@@ -65,8 +68,12 @@ double[] ys2 = dataGen.RandomWalk(count, offset: 5);
 var scatter1 = myPlot.Add.Scatter(xs, ys1);
 var scatter2 = myPlot.Add.Scatter(xs, ys2);
 
-var xyy = myPlot.Add.FillY(scatter1, scatter2);
-xyy.FillStyle.Color = Colors.Blue.WithAlpha(100);
+var fill = myPlot.Add.FillY(scatter1, scatter2);
+fill.FillColor = Colors.Blue.WithAlpha(.1);
+fill.LineWidth = 0;
+
+// push the fill behind the scatter plots
+myPlot.MoveToBack(fill);
 
 myPlot.SavePng("demo.png", 400, 300);
 
@@ -81,7 +88,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 FillY plots can be created from data of any type if a conversion function is supplied.
 
-[![](/cookbook/5.0/images/Function.png?240423091821)](/cookbook/5.0/images/Function.png?240423091821)
+[![](/cookbook/5.0/images/Function.png?240425082609)](/cookbook/5.0/images/Function.png?240425082609)
 
 {{< code-sp5 >}}
 
@@ -103,7 +110,9 @@ for (int i = 0; i < 10; i++)
 static (double, double, double) MyConverter((int, int, int) s) => (s.Item1, s.Item2, s.Item3);
 
 // create a filled plot from source data using the custom converter
-myPlot.Add.FillY(data, MyConverter);
+var fill = myPlot.Add.FillY(data, MyConverter);
+fill.FillColor = Colors.Blue.WithAlpha(.2);
+fill.LineColor = Colors.Blue;
 
 myPlot.SavePng("demo.png", 400, 300);
 
@@ -118,7 +127,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 FillY plots can be customized using public properties.
 
-[![](/cookbook/5.0/images/Styling.png?240423091821)](/cookbook/5.0/images/Styling.png?240423091821)
+[![](/cookbook/5.0/images/Styling.png?240425082609)](/cookbook/5.0/images/Styling.png?240425082609)
 
 {{< code-sp5 >}}
 
@@ -132,20 +141,19 @@ double[] xs = Generate.Consecutive(count);
 double[] ys1 = dataGen.RandomWalk(count, offset: -5);
 double[] ys2 = dataGen.RandomWalk(count, offset: 5);
 
-var xyy = myPlot.Add.FillY(xs, ys1, ys2);
-xyy.FillStyle.Color = Colors.OrangeRed.WithAlpha(100);
+var fill = myPlot.Add.FillY(xs, ys1, ys2);
+fill.MarkerShape = MarkerShape.FilledDiamond;
+fill.MarkerSize = 15;
+fill.MarkerColor = Colors.Blue;
+fill.LineColor = Colors.Blue;
+fill.LinePattern = LinePattern.Dotted;
+fill.LineWidth = 2;
+fill.FillColor = Colors.Blue.WithAlpha(.2);
+fill.FillHatch = new ScottPlot.Hatches.Striped(ScottPlot.Hatches.StripeDirection.DiagonalUp);
+fill.FillHatchColor = Colors.Blue.WithAlpha(.4);
+fill.LegendText = "Filled Area";
 
-xyy.MarkerStyle.IsVisible = true;
-xyy.MarkerStyle.Shape = MarkerShape.OpenSquare;
-xyy.MarkerStyle.Size = 8;
-
-xyy.LineStyle.AntiAlias = true;
-xyy.LineStyle.Color = Colors.DarkBlue;
-xyy.LineStyle.Pattern = LinePattern.Dotted;
-xyy.LineStyle.Width = 2;
-xyy.LegendText = "xyy";
-
-myPlot.Legend.IsVisible = true;
+myPlot.ShowLegend();
 
 myPlot.SavePng("demo.png", 400, 300);
 

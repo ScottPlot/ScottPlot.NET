@@ -4,9 +4,9 @@ Description: FillY plots can be customized using public properties.
 URL: /cookbook/5.0/FillY/Styling/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "FillY plot", "FillY Plot Styling"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/FillY", "/cookbook/5.0/FillY/Styling"]
-Date: 2024-04-23
-Version: ScottPlot 5.0.27
-Version: ScottPlot 5.0.27
+Date: 2024-04-25
+Version: ScottPlot 5.0.28
+Version: ScottPlot 5.0.28
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 FillY plots can be customized using public properties.
 
-[![](/cookbook/5.0/images/Styling.png?240423091821)](/cookbook/5.0/images/Styling.png?240423091821)
+[![](/cookbook/5.0/images/Styling.png?240425082609)](/cookbook/5.0/images/Styling.png?240425082609)
 
 {{< code-sp5 >}}
 
@@ -30,20 +30,19 @@ double[] xs = Generate.Consecutive(count);
 double[] ys1 = dataGen.RandomWalk(count, offset: -5);
 double[] ys2 = dataGen.RandomWalk(count, offset: 5);
 
-var xyy = myPlot.Add.FillY(xs, ys1, ys2);
-xyy.FillStyle.Color = Colors.OrangeRed.WithAlpha(100);
+var fill = myPlot.Add.FillY(xs, ys1, ys2);
+fill.MarkerShape = MarkerShape.FilledDiamond;
+fill.MarkerSize = 15;
+fill.MarkerColor = Colors.Blue;
+fill.LineColor = Colors.Blue;
+fill.LinePattern = LinePattern.Dotted;
+fill.LineWidth = 2;
+fill.FillColor = Colors.Blue.WithAlpha(.2);
+fill.FillHatch = new ScottPlot.Hatches.Striped(ScottPlot.Hatches.StripeDirection.DiagonalUp);
+fill.FillHatchColor = Colors.Blue.WithAlpha(.4);
+fill.LegendText = "Filled Area";
 
-xyy.MarkerStyle.IsVisible = true;
-xyy.MarkerStyle.Shape = MarkerShape.OpenSquare;
-xyy.MarkerStyle.Size = 8;
-
-xyy.LineStyle.AntiAlias = true;
-xyy.LineStyle.Color = Colors.DarkBlue;
-xyy.LineStyle.Pattern = LinePattern.Dotted;
-xyy.LineStyle.Width = 2;
-xyy.LegendText = "xyy";
-
-myPlot.Legend.IsVisible = true;
+myPlot.ShowLegend();
 
 myPlot.SavePng("demo.png", 400, 300);
 

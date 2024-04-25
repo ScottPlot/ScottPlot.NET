@@ -4,9 +4,9 @@ Description: Axis line labels can have custom positioning, including rotation an
 URL: /cookbook/5.0/AxisLines/AxisLineLabelPositioning/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Axis Lines", "Axis Line Label Positioning"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AxisLines", "/cookbook/5.0/AxisLines/AxisLineLabelPositioning"]
-Date: 2024-04-23
-Version: ScottPlot 5.0.27
-Version: ScottPlot 5.0.27
+Date: 2024-04-25
+Version: ScottPlot 5.0.28
+Version: ScottPlot 5.0.28
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Axis line labels can have custom positioning, including rotation and alignment.
 
-[![](/cookbook/5.0/images/AxisLineLabelPositioning.png?240423091821)](/cookbook/5.0/images/AxisLineLabelPositioning.png?240423091821)
+[![](/cookbook/5.0/images/AxisLineLabelPositioning.png?240425082609)](/cookbook/5.0/images/AxisLineLabelPositioning.png?240425082609)
 
 {{< code-sp5 >}}
 

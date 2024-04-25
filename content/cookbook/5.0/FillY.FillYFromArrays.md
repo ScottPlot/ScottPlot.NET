@@ -4,9 +4,9 @@ Description: FillY plots can be created from X, Y1, and Y2 arrays.
 URL: /cookbook/5.0/FillY/FillYFromArrays/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "FillY plot", "FillY From Array Data"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/FillY", "/cookbook/5.0/FillY/FillYFromArrays"]
-Date: 2024-04-23
-Version: ScottPlot 5.0.27
-Version: ScottPlot 5.0.27
+Date: 2024-04-25
+Version: ScottPlot 5.0.28
+Version: ScottPlot 5.0.28
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 FillY plots can be created from X, Y1, and Y2 arrays.
 
-[![](/cookbook/5.0/images/FillYFromArrays.png?240423091821)](/cookbook/5.0/images/FillYFromArrays.png?240423091821)
+[![](/cookbook/5.0/images/FillYFromArrays.png?240425082609)](/cookbook/5.0/images/FillYFromArrays.png?240425082609)
 
 {{< code-sp5 >}}
 
@@ -30,8 +30,11 @@ double[] xs = Generate.Consecutive(count);
 double[] ys1 = dataGen.RandomWalk(count, offset: -5);
 double[] ys2 = dataGen.RandomWalk(count, offset: 5);
 
-var xyy = myPlot.Add.FillY(xs, ys1, ys2);
-xyy.FillStyle.Color = Colors.Magenta.WithAlpha(100);
+var fill = myPlot.Add.FillY(xs, ys1, ys2);
+fill.FillColor = Colors.Blue.WithAlpha(100);
+fill.LineColor = Colors.Blue;
+fill.MarkerColor = Colors.Blue;
+fill.LineWidth = 2;
 
 myPlot.SavePng("demo.png", 400, 300);
 

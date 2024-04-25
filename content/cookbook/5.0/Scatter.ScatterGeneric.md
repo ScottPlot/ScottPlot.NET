@@ -4,9 +4,9 @@ Description: Scatter plots support generic data types, although double is typica
 URL: /cookbook/5.0/Scatter/ScatterGeneric/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Scatter Plot", "Scatter Generic"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Scatter", "/cookbook/5.0/Scatter/ScatterGeneric"]
-Date: 2024-04-23
-Version: ScottPlot 5.0.27
-Version: ScottPlot 5.0.27
+Date: 2024-04-25
+Version: ScottPlot 5.0.28
+Version: ScottPlot 5.0.28
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Scatter plots support generic data types, although double is typically the most performant.
 
-[![](/cookbook/5.0/images/ScatterGeneric.png?240423091821)](/cookbook/5.0/images/ScatterGeneric.png?240423091821)
+[![](/cookbook/5.0/images/ScatterGeneric.png?240425082609)](/cookbook/5.0/images/ScatterGeneric.png?240425082609)
 
 {{< code-sp5 >}}
 

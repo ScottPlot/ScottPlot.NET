@@ -4,9 +4,9 @@ Description: Additional axes may be added to plots. Plottables are displayed usi
 URL: /cookbook/5.0/MultiAxis/MultiAxisQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Multiple Axes", "Multi-Axis"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/MultiAxis", "/cookbook/5.0/MultiAxis/MultiAxisQuickstart"]
-Date: 2024-04-23
-Version: ScottPlot 5.0.27
-Version: ScottPlot 5.0.27
+Date: 2024-04-25
+Version: ScottPlot 5.0.28
+Version: ScottPlot 5.0.28
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Additional axes may be added to plots. Plottables are displayed using the coordinate system of the primary axes by default, but any plottable can be displayed using any X and Y axis.
 
-[![](/cookbook/5.0/images/MultiAxisQuickstart.png?240423091821)](/cookbook/5.0/images/MultiAxisQuickstart.png?240423091821)
+[![](/cookbook/5.0/images/MultiAxisQuickstart.png?240425082609)](/cookbook/5.0/images/MultiAxisQuickstart.png?240425082609)
 
 {{< code-sp5 >}}
 

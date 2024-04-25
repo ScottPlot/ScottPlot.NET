@@ -4,9 +4,9 @@ Description: A function can be limited to a range of X values.
 URL: /cookbook/5.0/Function/FunctionLimitX/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Function", "Function Limit X"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Function", "/cookbook/5.0/Function/FunctionLimitX"]
-Date: 2024-04-23
-Version: ScottPlot 5.0.27
-Version: ScottPlot 5.0.27
+Date: 2024-04-25
+Version: ScottPlot 5.0.28
+Version: ScottPlot 5.0.28
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 A function can be limited to a range of X values.
 
-[![](/cookbook/5.0/images/FunctionLimitX.png?240423091821)](/cookbook/5.0/images/FunctionLimitX.png?240423091821)
+[![](/cookbook/5.0/images/FunctionLimitX.png?240425082609)](/cookbook/5.0/images/FunctionLimitX.png?240425082609)
 
 {{< code-sp5 >}}
 

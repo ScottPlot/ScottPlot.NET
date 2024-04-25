@@ -4,9 +4,9 @@ Description: Scatter plots display points at X/Y locations in coordinate space.
 URL: /cookbook/5.0/Scatter/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Scatter Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Scatter"]
-Date: 2024-04-23
-Version: ScottPlot 5.0.27
-Version: ScottPlot 5.0.27
+Date: 2024-04-25
+Version: ScottPlot 5.0.28
+Version: ScottPlot 5.0.28
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,7 +18,7 @@ ShowEditLink: false
 
 Scatter plots can be created from two arrays containing X and Y values.
 
-[![](/cookbook/5.0/images/ScatterQuickstart.png?240423091821)](/cookbook/5.0/images/ScatterQuickstart.png?240423091821)
+[![](/cookbook/5.0/images/ScatterQuickstart.png?240425082609)](/cookbook/5.0/images/ScatterQuickstart.png?240425082609)
 
 {{< code-sp5 >}}
 
@@ -43,7 +43,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Scatter plots can be created from a collection of Coordinates.
 
-[![](/cookbook/5.0/images/ScatterCoordinates.png?240423091821)](/cookbook/5.0/images/ScatterCoordinates.png?240423091821)
+[![](/cookbook/5.0/images/ScatterCoordinates.png?240425082609)](/cookbook/5.0/images/ScatterCoordinates.png?240425082609)
 
 {{< code-sp5 >}}
 
@@ -74,7 +74,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Scatter plots can be created from any numeric data type, not just double.
 
-[![](/cookbook/5.0/images/ScatterDataType.png?240423091821)](/cookbook/5.0/images/ScatterDataType.png?240423091821)
+[![](/cookbook/5.0/images/ScatterDataType.png?240425082609)](/cookbook/5.0/images/ScatterDataType.png?240425082609)
 
 {{< code-sp5 >}}
 
@@ -99,7 +99,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Scatter plots can be created from Lists, but be very cafeful not to add or remove items while a render is occurring or you may throw an index exception. See documentation about the Render Lock system for details.
 
-[![](/cookbook/5.0/images/ScatterList.png?240423091821)](/cookbook/5.0/images/ScatterList.png?240423091821)
+[![](/cookbook/5.0/images/ScatterList.png?240425082609)](/cookbook/5.0/images/ScatterList.png?240425082609)
 
 {{< code-sp5 >}}
 
@@ -124,7 +124,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 The `ScatterLine()` method can be used to create a scatter plot with a line only (marker size is set to 0).
 
-[![](/cookbook/5.0/images/ScatterLine.png?240423091821)](/cookbook/5.0/images/ScatterLine.png?240423091821)
+[![](/cookbook/5.0/images/ScatterLine.png?240425082609)](/cookbook/5.0/images/ScatterLine.png?240425082609)
 
 {{< code-sp5 >}}
 
@@ -151,7 +151,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 The `ScatterPoints()` method can be used to create a scatter plot with markers only (line width is set to 0).
 
-[![](/cookbook/5.0/images/ScatterPoints.png?240423091821)](/cookbook/5.0/images/ScatterPoints.png?240423091821)
+[![](/cookbook/5.0/images/ScatterPoints.png?240425082609)](/cookbook/5.0/images/ScatterPoints.png?240425082609)
 
 {{< code-sp5 >}}
 
@@ -178,7 +178,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Scatter plots can be extensively styled by interacting with the object that is returned after a scatter plot is added. Assign text to a scatter plot's Label property to allow it to appear in the legend.
 
-[![](/cookbook/5.0/images/ScatterStyling.png?240423091821)](/cookbook/5.0/images/ScatterStyling.png?240423091821)
+[![](/cookbook/5.0/images/ScatterStyling.png?240425082609)](/cookbook/5.0/images/ScatterStyling.png?240425082609)
 
 {{< code-sp5 >}}
 
@@ -216,7 +216,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Several line patterns are available
 
-[![](/cookbook/5.0/images/ScatterLinePatterns.png?240423091821)](/cookbook/5.0/images/ScatterLinePatterns.png?240423091821)
+[![](/cookbook/5.0/images/ScatterLinePatterns.png?240425082609)](/cookbook/5.0/images/ScatterLinePatterns.png?240425082609)
 
 {{< code-sp5 >}}
 
@@ -260,7 +260,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Scatter plots support generic data types, although double is typically the most performant.
 
-[![](/cookbook/5.0/images/ScatterGeneric.png?240423091821)](/cookbook/5.0/images/ScatterGeneric.png?240423091821)
+[![](/cookbook/5.0/images/ScatterGeneric.png?240425082609)](/cookbook/5.0/images/ScatterGeneric.png?240425082609)
 
 {{< code-sp5 >}}
 
@@ -285,7 +285,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 A scatter plot may use DateTime units but be sure to setup the respective axis to display using DateTime format.
 
-[![](/cookbook/5.0/images/ScatterDateTime.png?240423091821)](/cookbook/5.0/images/ScatterDateTime.png?240423091821)
+[![](/cookbook/5.0/images/ScatterDateTime.png?240425082609)](/cookbook/5.0/images/ScatterDateTime.png?240425082609)
 
 {{< code-sp5 >}}
 
@@ -311,7 +311,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Scatter plots can be created using a step plot display where points are connected with right angles instead of diagnal lines. The direction of the steps can be customized.
 
-[![](/cookbook/5.0/images/ScatterStep.png?240423091821)](/cookbook/5.0/images/ScatterStep.png?240423091821)
+[![](/cookbook/5.0/images/ScatterStep.png?240425082609)](/cookbook/5.0/images/ScatterStep.png?240425082609)
 
 {{< code-sp5 >}}
 
@@ -350,7 +350,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 NaN values in a scatter plot's data will appear as gaps in the line.
 
-[![](/cookbook/5.0/images/ScatterWithGaps.png?240423091821)](/cookbook/5.0/images/ScatterWithGaps.png?240423091821)
+[![](/cookbook/5.0/images/ScatterWithGaps.png?240425082609)](/cookbook/5.0/images/ScatterWithGaps.png?240425082609)
 
 {{< code-sp5 >}}
 
@@ -388,7 +388,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Scatter plots draw straight lines between points by default, but setting the Smooth property allows the scatter plot to connect points with smooth lines. Lines are smoothed using cubic spline interpolation.
 
-[![](/cookbook/5.0/images/ScatterSmooth.png?240423091821)](/cookbook/5.0/images/ScatterSmooth.png?240423091821)
+[![](/cookbook/5.0/images/ScatterSmooth.png?240425082609)](/cookbook/5.0/images/ScatterSmooth.png?240425082609)
 
 {{< code-sp5 >}}
 
@@ -417,7 +417,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Tension of smooth lines can be adjusted for some smoothing strategies. Low tensions lead to 'overshoot' and high tensions produce curveswhich appear more like straight lines.
 
-[![](/cookbook/5.0/images/ScatterSmoothTension.png?240423091821)](/cookbook/5.0/images/ScatterSmoothTension.png?240423091821)
+[![](/cookbook/5.0/images/ScatterSmoothTension.png?240425082609)](/cookbook/5.0/images/ScatterSmoothTension.png?240425082609)
 
 {{< code-sp5 >}}
 
@@ -457,7 +457,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 The quadratic half point path strategy allows scatter plots to be displayed with smooth lines connecting points, but lines are eased in and out of points so they never 'overshoot' the values vertically.
 
-[![](/cookbook/5.0/images/ScatterQuad.png?240423091821)](/cookbook/5.0/images/ScatterQuad.png?240423091821)
+[![](/cookbook/5.0/images/ScatterQuad.png?240425082609)](/cookbook/5.0/images/ScatterQuad.png?240425082609)
 
 {{< code-sp5 >}}
 
@@ -486,7 +486,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Although a scatter plot may contain a very large amount of data, much of it may be unpopulated. The user can define min and max render indexes, and only values within that range will be displayed when the scatter plot is rendered.
 
-[![](/cookbook/5.0/images/ScatterLimitIndex.png?240423091821)](/cookbook/5.0/images/ScatterLimitIndex.png?240423091821)
+[![](/cookbook/5.0/images/ScatterLimitIndex.png?240425082609)](/cookbook/5.0/images/ScatterLimitIndex.png?240425082609)
 
 {{< code-sp5 >}}
 
@@ -499,6 +499,90 @@ double[] ys = Generate.Sin(51);
 var sp = myPlot.Add.Scatter(xs, ys);
 sp.MinRenderIndex = 10;
 sp.MaxRenderIndex = 40;
+
+myPlot.SavePng("demo.png", 400, 300);
+
+```
+
+{{< /code-sp5 >}}
+
+<hr class='my-5 invisible'>
+
+
+<h2><a href='/cookbook/5.0/Scatter/ScatterFill'>Scatter Plot with Fill</a></h2>
+
+The area beneath a scatter plot can be filled.
+
+[![](/cookbook/5.0/images/ScatterFill.png?240425082609)](/cookbook/5.0/images/ScatterFill.png?240425082609)
+
+{{< code-sp5 >}}
+
+```cs
+ScottPlot.Plot myPlot = new();
+
+double[] xs = Generate.Consecutive(51);
+double[] ys = Generate.Sin(51);
+
+var sp = myPlot.Add.Scatter(xs, ys);
+sp.FillY = true;
+sp.FillYColor = sp.Color.WithAlpha(.2);
+
+myPlot.SavePng("demo.png", 400, 300);
+
+```
+
+{{< /code-sp5 >}}
+
+<hr class='my-5 invisible'>
+
+
+<h2><a href='/cookbook/5.0/Scatter/ScatterFillValue'>Scatter Plot Filled to a Value</a></h2>
+
+The base of the fill can be defined.
+
+[![](/cookbook/5.0/images/ScatterFillValue.png?240425082609)](/cookbook/5.0/images/ScatterFillValue.png?240425082609)
+
+{{< code-sp5 >}}
+
+```cs
+ScottPlot.Plot myPlot = new();
+
+double[] xs = Generate.Consecutive(51);
+double[] ys = Generate.Sin(51);
+
+var sp = myPlot.Add.Scatter(xs, ys);
+sp.FillY = true;
+sp.FillYColor = sp.Color.WithAlpha(.2);
+sp.FillYValue = 0.6;
+
+myPlot.SavePng("demo.png", 400, 300);
+
+```
+
+{{< /code-sp5 >}}
+
+<hr class='my-5 invisible'>
+
+
+<h2><a href='/cookbook/5.0/Scatter/ScatterFillAboveBelow'>Scatter Plot Filled Above and Below</a></h2>
+
+Filled areas above and below the FillY value can be individually customized
+
+[![](/cookbook/5.0/images/ScatterFillAboveBelow.png?240425082609)](/cookbook/5.0/images/ScatterFillAboveBelow.png?240425082609)
+
+{{< code-sp5 >}}
+
+```cs
+ScottPlot.Plot myPlot = new();
+
+double[] xs = Generate.Consecutive(51);
+double[] ys = Generate.Sin(51);
+
+var sp = myPlot.Add.Scatter(xs, ys);
+sp.FillY = true;
+sp.FillYValue = 0;
+sp.FillYAboveColor = Colors.Green.WithAlpha(.2);
+sp.FillYBelowColor = Colors.Red.WithAlpha(.2);
 
 myPlot.SavePng("demo.png", 400, 300);
 

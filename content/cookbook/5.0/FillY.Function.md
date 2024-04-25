@@ -4,9 +4,9 @@ Description: FillY plots can be created from data of any type if a conversion fu
 URL: /cookbook/5.0/FillY/Function/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "FillY plot", "FillY with Custom Type"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/FillY", "/cookbook/5.0/FillY/Function"]
-Date: 2024-04-23
-Version: ScottPlot 5.0.27
-Version: ScottPlot 5.0.27
+Date: 2024-04-25
+Version: ScottPlot 5.0.28
+Version: ScottPlot 5.0.28
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 FillY plots can be created from data of any type if a conversion function is supplied.
 
-[![](/cookbook/5.0/images/Function.png?240423091821)](/cookbook/5.0/images/Function.png?240423091821)
+[![](/cookbook/5.0/images/Function.png?240425082609)](/cookbook/5.0/images/Function.png?240425082609)
 
 {{< code-sp5 >}}
 
@@ -38,7 +38,9 @@ for (int i = 0; i < 10; i++)
 static (double, double, double) MyConverter((int, int, int) s) => (s.Item1, s.Item2, s.Item3);
 
 // create a filled plot from source data using the custom converter
-myPlot.Add.FillY(data, MyConverter);
+var fill = myPlot.Add.FillY(data, MyConverter);
+fill.FillColor = Colors.Blue.WithAlpha(.2);
+fill.LineColor = Colors.Blue;
 
 myPlot.SavePng("demo.png", 400, 300);
 

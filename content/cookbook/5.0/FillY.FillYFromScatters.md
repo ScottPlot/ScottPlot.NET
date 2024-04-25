@@ -4,9 +4,9 @@ Description: FillY plots can be created from two scatter plots that share the sa
 URL: /cookbook/5.0/FillY/FillYFromScatters/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "FillY plot", "FillY From Scatter Plots"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/FillY", "/cookbook/5.0/FillY/FillYFromScatters"]
-Date: 2024-04-23
-Version: ScottPlot 5.0.27
-Version: ScottPlot 5.0.27
+Date: 2024-04-25
+Version: ScottPlot 5.0.28
+Version: ScottPlot 5.0.28
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 FillY plots can be created from two scatter plots that share the same X values.
 
-[![](/cookbook/5.0/images/FillYFromScatters.png?240423091821)](/cookbook/5.0/images/FillYFromScatters.png?240423091821)
+[![](/cookbook/5.0/images/FillYFromScatters.png?240425082609)](/cookbook/5.0/images/FillYFromScatters.png?240425082609)
 
 {{< code-sp5 >}}
 
@@ -33,8 +33,12 @@ double[] ys2 = dataGen.RandomWalk(count, offset: 5);
 var scatter1 = myPlot.Add.Scatter(xs, ys1);
 var scatter2 = myPlot.Add.Scatter(xs, ys2);
 
-var xyy = myPlot.Add.FillY(scatter1, scatter2);
-xyy.FillStyle.Color = Colors.Blue.WithAlpha(100);
+var fill = myPlot.Add.FillY(scatter1, scatter2);
+fill.FillColor = Colors.Blue.WithAlpha(.1);
+fill.LineWidth = 0;
+
+// push the fill behind the scatter plots
+myPlot.MoveToBack(fill);
 
 myPlot.SavePng("demo.png", 400, 300);
 
