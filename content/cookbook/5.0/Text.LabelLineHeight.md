@@ -4,9 +4,9 @@ Description: Multiline labels have a default line height estimated from the type
 URL: /cookbook/5.0/Text/LabelLineHeight/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Text", "Line Height"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Text", "/cookbook/5.0/Text/LabelLineHeight"]
-Date: 2024-04-25
-Version: ScottPlot 5.0.28
-Version: ScottPlot 5.0.28
+Date: 2024-04-26
+Version: ScottPlot 5.0.29
+Version: ScottPlot 5.0.29
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Multiline labels have a default line height estimated from the typeface and font size, however line height may be manually defined by the user.
 
-[![](/cookbook/5.0/images/LabelLineHeight.png?240425082609)](/cookbook/5.0/images/LabelLineHeight.png?240425082609)
+[![](/cookbook/5.0/images/LabelLineHeight.png?240426090552)](/cookbook/5.0/images/LabelLineHeight.png?240426090552)
 
 {{< code-sp5 >}}
 

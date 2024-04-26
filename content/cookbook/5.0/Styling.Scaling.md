@@ -4,9 +4,9 @@ Description: All components of an image can be scaled up or down in size by adju
 URL: /cookbook/5.0/Styling/Scaling/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Styling Plots", "Scaling"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Styling", "/cookbook/5.0/Styling/Scaling"]
-Date: 2024-04-25
-Version: ScottPlot 5.0.28
-Version: ScottPlot 5.0.28
+Date: 2024-04-26
+Version: ScottPlot 5.0.29
+Version: ScottPlot 5.0.29
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 All components of an image can be scaled up or down in size by adjusting the ScaleFactor property. This is very useful for creating images that look nice on high DPI displays with display scaling enabled.
 
-[![](/cookbook/5.0/images/Scaling.png?240425082609)](/cookbook/5.0/images/Scaling.png?240425082609)
+[![](/cookbook/5.0/images/Scaling.png?240426090552)](/cookbook/5.0/images/Scaling.png?240426090552)
 
 {{< code-sp5 >}}
 

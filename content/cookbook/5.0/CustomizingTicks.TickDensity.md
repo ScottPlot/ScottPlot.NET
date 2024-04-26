@@ -4,9 +4,9 @@ Description: Tick density can be adjusted as a fraction of the default value. Un
 URL: /cookbook/5.0/CustomizingTicks/TickDensity/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Customizing Ticks", "Tick Density"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/CustomizingTicks", "/cookbook/5.0/CustomizingTicks/TickDensity"]
-Date: 2024-04-25
-Version: ScottPlot 5.0.28
-Version: ScottPlot 5.0.28
+Date: 2024-04-26
+Version: ScottPlot 5.0.29
+Version: ScottPlot 5.0.29
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Tick density can be adjusted as a fraction of the default value. Unlike MinimumTickSpacing, this strategy is aware of the size of tick labels and adjusts accordingly.
 
-[![](/cookbook/5.0/images/TickDensity.png?240425082609)](/cookbook/5.0/images/TickDensity.png?240425082609)
+[![](/cookbook/5.0/images/TickDensity.png?240426090552)](/cookbook/5.0/images/TickDensity.png?240426090552)
 
 {{< code-sp5 >}}
 

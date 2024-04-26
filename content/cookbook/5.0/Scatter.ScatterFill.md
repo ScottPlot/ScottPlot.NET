@@ -4,9 +4,9 @@ Description: The area beneath a scatter plot can be filled.
 URL: /cookbook/5.0/Scatter/ScatterFill/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Scatter Plot", "Scatter Plot with Fill"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Scatter", "/cookbook/5.0/Scatter/ScatterFill"]
-Date: 2024-04-25
-Version: ScottPlot 5.0.28
-Version: ScottPlot 5.0.28
+Date: 2024-04-26
+Version: ScottPlot 5.0.29
+Version: ScottPlot 5.0.29
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 The area beneath a scatter plot can be filled.
 
-[![](/cookbook/5.0/images/ScatterFill.png?240425082609)](/cookbook/5.0/images/ScatterFill.png?240425082609)
+[![](/cookbook/5.0/images/ScatterFill.png?240426090552)](/cookbook/5.0/images/ScatterFill.png?240426090552)
 
 {{< code-sp5 >}}
 

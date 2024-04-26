@@ -4,9 +4,9 @@ Description: Vector field arrows can be colored according to their magnitude.
 URL: /cookbook/5.0/VectorField/VectorFieldColormap/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Vector Field", "Vector Field Colormap"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/VectorField", "/cookbook/5.0/VectorField/VectorFieldColormap"]
-Date: 2024-04-25
-Version: ScottPlot 5.0.28
-Version: ScottPlot 5.0.28
+Date: 2024-04-26
+Version: ScottPlot 5.0.29
+Version: ScottPlot 5.0.29
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Vector field arrows can be colored according to their magnitude.
 
-[![](/cookbook/5.0/images/VectorFieldColormap.png?240425082609)](/cookbook/5.0/images/VectorFieldColormap.png?240425082609)
+[![](/cookbook/5.0/images/VectorFieldColormap.png?240426090552)](/cookbook/5.0/images/VectorFieldColormap.png?240426090552)
 
 {{< code-sp5 >}}
 

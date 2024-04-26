@@ -1,9 +1,9 @@
 ---
-Title: Hide Grid - ScottPlot 5.0 Cookbook
-Description: Grid lines can be hidden.
-URL: /cookbook/5.0/CustomizingGrids/HideGrid/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Customizing Grids", "Hide Grid"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/CustomizingGrids", "/cookbook/5.0/CustomizingGrids/HideGrid"]
+Title: Grid with Top Axis - ScottPlot 5.0 Cookbook
+Description: Grid lines use the bottom and left axes by default, but this behavior can be customized for plots which use other axes.
+URL: /cookbook/5.0/CustomizingGrids/GridWithTopAxis/
+BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Customizing Grids", "Grid with Top Axis"]
+BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/CustomizingGrids", "/cookbook/5.0/CustomizingGrids/GridWithTopAxis"]
 Date: 2024-04-26
 Version: ScottPlot 5.0.29
 Version: ScottPlot 5.0.29
@@ -11,22 +11,21 @@ SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
 
-# Hide Grid
+# Grid with Top Axis
 
 
-Grid lines can be hidden.
+Grid lines use the bottom and left axes by default, but this behavior can be customized for plots which use other axes.
 
-[![](/cookbook/5.0/images/HideGrid.png?240426090552)](/cookbook/5.0/images/HideGrid.png?240426090552)
+[![](/cookbook/5.0/images/GridWithTopAxis.png?240426090552)](/cookbook/5.0/images/GridWithTopAxis.png?240426090552)
 
 {{< code-sp5 >}}
 
 ```cs
 ScottPlot.Plot myPlot = new();
 
-myPlot.Add.Signal(Generate.Sin(51));
-myPlot.Add.Signal(Generate.Cos(51));
-
-myPlot.HideGrid();
+var sig = myPlot.Add.Signal(ScottPlot.Generate.Sin());
+sig.Axes.XAxis = myPlot.Axes.Top;
+myPlot.Grid.XAxis = myPlot.Axes.Top;
 
 myPlot.SavePng("demo.png", 400, 300);
 

@@ -4,9 +4,9 @@ Description: Grid lines can be customized. Custom grid systems can be created to
 URL: /cookbook/5.0/CustomizingGrids/GridCustom/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Customizing Grids", "Grid Customization"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/CustomizingGrids", "/cookbook/5.0/CustomizingGrids/GridCustom"]
-Date: 2024-04-25
-Version: ScottPlot 5.0.28
-Version: ScottPlot 5.0.28
+Date: 2024-04-26
+Version: ScottPlot 5.0.29
+Version: ScottPlot 5.0.29
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Grid lines can be customized. Custom grid systems can be created to give developers full control of grid rendering, but the default grid can be interacted with to customize its appearance.
 
-[![](/cookbook/5.0/images/GridCustom.png?240425082609)](/cookbook/5.0/images/GridCustom.png?240425082609)
+[![](/cookbook/5.0/images/GridCustom.png?240426090552)](/cookbook/5.0/images/GridCustom.png?240426090552)
 
 {{< code-sp5 >}}
 
@@ -26,8 +26,10 @@ ScottPlot.Plot myPlot = new();
 myPlot.Add.Signal(Generate.Sin(51));
 myPlot.Add.Signal(Generate.Cos(51));
 
-myPlot.Grid.MajorLineColor = Colors.Green.WithOpacity(.5);
-myPlot.Grid.MinorLineColor = Colors.Green.WithOpacity(.1);
+myPlot.Grid.MajorLineColor = Colors.Green.WithOpacity(.3);
+myPlot.Grid.MajorLineWidth = 2;
+
+myPlot.Grid.MinorLineColor = Colors.Gray.WithOpacity(.1);
 myPlot.Grid.MinorLineWidth = 1;
 
 myPlot.SavePng("demo.png", 400, 300);

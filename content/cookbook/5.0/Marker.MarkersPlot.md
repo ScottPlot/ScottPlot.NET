@@ -4,9 +4,9 @@ Description: Collections of markers that are all styled the same may be added to
 URL: /cookbook/5.0/Marker/MarkersPlot/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Marker", "Many Markers"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Marker", "/cookbook/5.0/Marker/MarkersPlot"]
-Date: 2024-04-25
-Version: ScottPlot 5.0.28
-Version: ScottPlot 5.0.28
+Date: 2024-04-26
+Version: ScottPlot 5.0.29
+Version: ScottPlot 5.0.29
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Collections of markers that are all styled the same may be added to the plot
 
-[![](/cookbook/5.0/images/MarkersPlot.png?240425082609)](/cookbook/5.0/images/MarkersPlot.png?240425082609)
+[![](/cookbook/5.0/images/MarkersPlot.png?240426090552)](/cookbook/5.0/images/MarkersPlot.png?240426090552)
 
 {{< code-sp5 >}}
 

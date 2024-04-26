@@ -4,9 +4,9 @@ Description: Line plots can be styled using a LineStyle.
 URL: /cookbook/5.0/LinePlot/LinePlotStyles/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Line Plot", "Line Plot Shapes"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/LinePlot", "/cookbook/5.0/LinePlot/LinePlotStyles"]
-Date: 2024-04-25
-Version: ScottPlot 5.0.28
-Version: ScottPlot 5.0.28
+Date: 2024-04-26
+Version: ScottPlot 5.0.29
+Version: ScottPlot 5.0.29
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Line plots can be styled using a LineStyle.
 
-[![](/cookbook/5.0/images/LinePlotStyles.png?240425082609)](/cookbook/5.0/images/LinePlotStyles.png?240425082609)
+[![](/cookbook/5.0/images/LinePlotStyles.png?240426090552)](/cookbook/5.0/images/LinePlotStyles.png?240426090552)
 
 {{< code-sp5 >}}
 

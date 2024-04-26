@@ -4,9 +4,9 @@ Description: Users can provide their own logic for customizing DateTime tick lab
 URL: /cookbook/5.0/DateTimeAxes/DateTimeAxisCustomFormatter/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "DateTime Axes", "Custom DateTime Label Format"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/DateTimeAxes", "/cookbook/5.0/DateTimeAxes/DateTimeAxisCustomFormatter"]
-Date: 2024-04-25
-Version: ScottPlot 5.0.28
-Version: ScottPlot 5.0.28
+Date: 2024-04-26
+Version: ScottPlot 5.0.29
+Version: ScottPlot 5.0.29
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Users can provide their own logic for customizing DateTime tick labels
 
-[![](/cookbook/5.0/images/DateTimeAxisCustomFormatter.png?240425082609)](/cookbook/5.0/images/DateTimeAxisCustomFormatter.png?240425082609)
+[![](/cookbook/5.0/images/DateTimeAxisCustomFormatter.png?240426090552)](/cookbook/5.0/images/DateTimeAxisCustomFormatter.png?240426090552)
 
 {{< code-sp5 >}}
 

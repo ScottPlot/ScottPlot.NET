@@ -4,9 +4,9 @@ Description: Multiple legends may be added to a plot
 URL: /cookbook/5.0/Legend/LegendMultiple/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Configuring Legends", "Multiple Legends"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Legend", "/cookbook/5.0/Legend/LegendMultiple"]
-Date: 2024-04-25
-Version: ScottPlot 5.0.28
-Version: ScottPlot 5.0.28
+Date: 2024-04-26
+Version: ScottPlot 5.0.29
+Version: ScottPlot 5.0.29
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Multiple legends may be added to a plot
 
-[![](/cookbook/5.0/images/LegendMultiple.png?240425082609)](/cookbook/5.0/images/LegendMultiple.png?240425082609)
+[![](/cookbook/5.0/images/LegendMultiple.png?240426090552)](/cookbook/5.0/images/LegendMultiple.png?240426090552)
 
 {{< code-sp5 >}}
 
