@@ -8,6 +8,117 @@ Description: Release notes for every version of ScottPlot
 Release notes for every version of ScottPlot
 
 <section class='mb-5'>
+<h1 class='mb-0'>ScottPlot 5.0.30</h1>
+<div><i>NuGet packages published 2024-04-26</i></div>
+<div class='mt-1'>
+<ul>
+<li>Bar: Set default line width to 1 so error bars are visible without requiring line customization (<a href="https://github.com/ScottPlot/ScottPlot/issues/3741">#3741</a>) <a href="https://github.com/Kareltje1980"><strong>@Kareltje1980</strong></a>
+</li>
+<li>Controls: Added a <code>Interaction.ChangeOpposingAxesTogether</code> flag to enable mouse actions to one axis to be applied to all axes with the same orientation (<a href="https://github.com/ScottPlot/ScottPlot/issues/3729">#3729</a>) <a href="https://github.com/rubenslkirchner"><strong>@rubenslkirchner</strong></a>
+</li>
+<li>DataLogger: Remove requirement for new data points to contain ascending X values (<a href="https://github.com/ScottPlot/ScottPlot/issues/3737">#3737</a>) <a href="https://github.com/TenebrosFR"><strong>@TenebrosFR</strong></a>
+</li>
+<li>RandomWalk2D: Created <code>ScottPlot.DataGenerators.RandomWalk2D</code> for easily generating 2D random data with randomly changing velocity
+</li>
+<li>Ticks: Improve tick distribution by using the <code>TickLabelStyle</code> font size to evaluate maximum tick label size (<a href="https://github.com/ScottPlot/ScottPlot/issues/3736">#3736</a>) <a href="https://github.com/ebarnard"><strong>@ebarnard</strong></a>
+</li>
+<li>Arrow: Refactored the arrow system to support multiple arrow types including user-provided ones (<a href="https://github.com/ScottPlot/ScottPlot/issues/3745">#3745</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3697">#3697</a>)
+</li>
+<li>Color: Colors can be created from System.Drawing colors with <code>ScottPlot.Color.FromColor(System.Drawing.Color.Blue)</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/3745">#3745</a>)
+</li>
+<li>Signal and SignalXY: Added <code>YScale</code> parameter to display data vertically scaled by the specified fraction (<a href="https://github.com/ScottPlot/ScottPlot/issues/3711">#3711</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3708">#3708</a>) <a href="https://github.com/feichti92"><strong>@feichti92</strong></a>
+</li>
+</ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/Kareltje1980'>@Kareltje1980</a>, <a href='https://github.com/rubenslkirchner'>@rubenslkirchner</a>, <a href='https://github.com/TenebrosFR'>@TenebrosFR</a>, <a href='https://github.com/ebarnard'>@ebarnard</a>, <a href='https://github.com/feichti92'>@feichti92</a>, <a href='https://github.com/swharden'>@swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/Kareltje1980'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/rubenslkirchner'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/TenebrosFR'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/ebarnard'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/feichti92'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
+
+</section>
+<section class='mb-5'>
+<h1 class='mb-0'>ScottPlot 5.0.29</h1>
+<div><i>NuGet packages published 2024-04-26</i></div>
+<div class='mt-1'>
+<ul>
+<li>Axes: Added a <code>Plot.Axes.ContinuouslyAutoscale</code> flag useful for plots containing continuously updating data (<a href="https://github.com/ScottPlot/ScottPlot/issues/3732">#3732</a>) <a href="https://github.com/rubenslkirchner"><strong>@rubenslkirchner</strong></a>
+</li>
+<li>DataStreamer: Improved axis limit management behavior (<a href="https://github.com/ScottPlot/ScottPlot/issues/3732">#3732</a>) <a href="https://github.com/rubenslkirchner"><strong>@rubenslkirchner</strong></a>
+</li>
+<li>Plot: Improved <code>CoordinateRect()</code> support for inverted axes (<a href="https://github.com/ScottPlot/ScottPlot/issues/3731">#3731</a>) <a href="https://github.com/Fokatu"><strong>@Fokatu</strong></a>
+</li>
+<li>Grid: Improved behavior of <code>MajorLineWidth</code> property
+</li>
+<li>Cookbook: Demonstrate grid alignment with non-standard axes (<a href="https://github.com/ScottPlot/ScottPlot/issues/3714">#3714</a>) <a href="https://github.com/MichaelKuelshammer"><strong>@MichaelKuelshammer</strong></a>
+</li>
+<li>Demo: Improved strategy for axis limit copying in the shared axis demo (<a href="https://github.com/ScottPlot/ScottPlot/issues/3729">#3729</a>) <a href="https://github.com/rubenslkirchner"><strong>@rubenslkirchner</strong></a>
+</li>
+</ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/rubenslkirchner'>@rubenslkirchner</a>, <a href='https://github.com/Fokatu'>@Fokatu</a>, <a href='https://github.com/MichaelKuelshammer'>@MichaelKuelshammer</a>, <a href='https://github.com/swharden'>@swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/rubenslkirchner'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Fokatu'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/MichaelKuelshammer'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
+
+</section>
+<section class='mb-5'>
+<h1 class='mb-0'>ScottPlot 5.0.28</h1>
+<div><i>NuGet packages published 2024-04-25</i></div>
+<div class='mt-1'>
+<ul>
+<li>Marker: Refactored marker system to support improved styling and the ability to use custom markers (<a href="https://github.com/ScottPlot/ScottPlot/issues/3716">#3716</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3141">#3141</a>)
+</li>
+<li>Interpolation: Improved control points for the first and last points of an interpolated cubic Bézier spline (<a href="https://github.com/ScottPlot/ScottPlot/issues/3717">#3717</a>) <a href="https://github.com/drolevar"><strong>@drolevar</strong></a>
+</li>
+<li>FillY: Improved default line style (<a href="https://github.com/ScottPlot/ScottPlot/issues/3726">#3726</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3723">#3723</a>) <a href="https://github.com/SebastianDirks"><strong>@SebastianDirks</strong></a> <a href="https://github.com/Fruchtzwerg94"><strong>@Fruchtzwerg94</strong></a>
+</li>
+<li>Plot: Added <code>MoveToFront()</code> and <code>MoveToBack()</code> to control the order plottables are rendered
+</li>
+<li>Scatter: Disable marker outline visibility by default (<a href="https://github.com/ScottPlot/ScottPlot/issues/3720">#3720</a>)
+</li>
+<li>Markers: Disable rendering of lines when <code>LineWidth</code> is <code>0</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/3720">#3720</a>)
+</li>
+<li>Scatter: Added support for filling above and below the curve (<a href="https://github.com/ScottPlot/ScottPlot/issues/3318">#3318</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3380">#3380</a>) <a href="https://github.com/xichaoqiang"><strong>@xichaoqiang</strong></a> <a href="https://github.com/Diddlik"><strong>@Diddlik</strong></a> <a href="https://github.com/slotinvo"><strong>@slotinvo</strong></a>
+</li>
+<li>DataStreamer: Added <code>ContinuouslyAutoscale</code> flag to allow the vertical range to always tightly fit the data (<a href="https://github.com/ScottPlot/ScottPlot/issues/3561">#3561</a>) <a href="https://github.com/hazenjaqdx3"><strong>@hazenjaqdx3</strong></a> <a href="https://github.com/zhhding"><strong>@zhhding</strong></a> <a href="https://github.com/Xhichn"><strong>@Xhichn</strong></a>
+</li>
+<li>Markers: Added <code>FillOutline</code> flag to make drawing lines on filled markers an opt-in feature
+</li>
+</ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/SebastianDirks'>@SebastianDirks</a>, <a href='https://github.com/Fruchtzwerg94'>@Fruchtzwerg94</a>, <a href='https://github.com/xichaoqiang'>@xichaoqiang</a>, <a href='https://github.com/Diddlik'>@Diddlik</a>, <a href='https://github.com/slotinvo'>@slotinvo</a>, <a href='https://github.com/hazenjaqdx3'>@hazenjaqdx3</a>, <a href='https://github.com/zhhding'>@zhhding</a>, <a href='https://github.com/Xhichn'>@Xhichn</a>, <a href='https://github.com/swharden'>@swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/drolevar'><img src='https://scottplot.net/images/contributors/drolevar.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/SebastianDirks'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Fruchtzwerg94'><img src='https://scottplot.net/images/contributors/fruchtzwerg94.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/xichaoqiang'><img src='https://scottplot.net/images/contributors/xichaoqiang.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Diddlik'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/slotinvo'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/hazenjaqdx3'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/zhhding'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Xhichn'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
+
+</section>
+<section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 5.0.27</h1>
 <div><i>NuGet packages published 2024-04-23</i></div>
 <div class='mt-1'>
@@ -66,15 +177,15 @@ Release notes for every version of ScottPlot
 </div>
 <div class='text-center'>
 <a href='https://github.com/mjazd'><img src='https://scottplot.net/images/contributors/mjazd.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/mloppnow'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/mloppnow'><img src='https://scottplot.net/images/contributors/mloppnow.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/aespitia'><img src='https://scottplot.net/images/contributors/aespitia.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/mikeKuester'><img src='https://scottplot.net/images/contributors/mikekuester.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/Graat'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Graat'><img src='https://scottplot.net/images/contributors/graat.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/jamaa'><img src='https://scottplot.net/images/contributors/jamaa.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/jpgarza93'><img src='https://scottplot.net/images/contributors/jpgarza93.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/KroMignon'><img src='https://scottplot.net/images/contributors/kromignon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/xantiva'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/sdhongjun'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/xantiva'><img src='https://scottplot.net/images/contributors/xantiva.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/sdhongjun'><img src='https://scottplot.net/images/contributors/sdhongjun.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Matthew-Chidlow'><img src='https://scottplot.net/images/contributors/matthew-chidlow.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
@@ -137,13 +248,13 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/jpgarza93'><img src='https://scottplot.net/images/contributors/jpgarza93.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/PZidlik'><img src='https://scottplot.net/images/contributors/pzidlik.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/tibormarchynzoom'><img src='https://scottplot.net/images/contributors/tibormarchynzoom.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/CodeBehemoth'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/CodeBehemoth'><img src='https://scottplot.net/images/contributors/codebehemoth.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/bwedding'><img src='https://scottplot.net/images/contributors/bwedding.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Kruno313'><img src='https://scottplot.net/images/contributors/kruno313.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/NicolasLairNET'><img src='https://scottplot.net/images/contributors/nicolaslairnet.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/abdul-muyeed'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/MagicFawkes'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/angelofb'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/abdul-muyeed'><img src='https://scottplot.net/images/contributors/abdul-muyeed.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/MagicFawkes'><img src='https://scottplot.net/images/contributors/magicfawkes.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/angelofb'><img src='https://scottplot.net/images/contributors/angelofb.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
