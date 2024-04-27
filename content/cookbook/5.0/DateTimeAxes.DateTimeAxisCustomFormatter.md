@@ -5,8 +5,8 @@ URL: /cookbook/5.0/DateTimeAxes/DateTimeAxisCustomFormatter/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "DateTime Axes", "Custom DateTime Label Format"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/DateTimeAxes", "/cookbook/5.0/DateTimeAxes/DateTimeAxisCustomFormatter"]
 Date: 2024-04-27
-Version: ScottPlot 5.0.30
-Version: ScottPlot 5.0.30
+Version: ScottPlot 5.0.31
+Version: ScottPlot 5.0.31
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Users can provide their own logic for customizing DateTime tick labels
 
-[![](/cookbook/5.0/images/DateTimeAxisCustomFormatter.png?240426212031)](/cookbook/5.0/images/DateTimeAxisCustomFormatter.png?240426212031)
+[![](/cookbook/5.0/images/DateTimeAxisCustomFormatter.png?240427161103)](/cookbook/5.0/images/DateTimeAxisCustomFormatter.png?240427161103)
 
 {{< code-sp5 >}}
 
@@ -24,7 +24,7 @@ Users can provide their own logic for customizing DateTime tick labels
 ScottPlot.Plot myPlot = new();
 
 // plot sample DateTime data
-DateTime[] dates = Generate.DateTime.Days(100);
+DateTime[] dates = Generate.ConsecutiveDays(100);
 double[] ys = Generate.RandomWalk(100);
 myPlot.Add.Scatter(dates, ys);
 myPlot.Axes.DateTimeTicksBottom();

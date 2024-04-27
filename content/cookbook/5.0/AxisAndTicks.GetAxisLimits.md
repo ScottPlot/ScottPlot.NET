@@ -5,8 +5,8 @@ URL: /cookbook/5.0/AxisAndTicks/GetAxisLimits/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Axis and Ticks", "Read Axis Limits"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AxisAndTicks", "/cookbook/5.0/AxisAndTicks/GetAxisLimits"]
 Date: 2024-04-27
-Version: ScottPlot 5.0.30
-Version: ScottPlot 5.0.30
+Version: ScottPlot 5.0.31
+Version: ScottPlot 5.0.31
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Use GetLimits() to obtain the current axis limits.
 
-[![](/cookbook/5.0/images/GetAxisLimits.png?240426212031)](/cookbook/5.0/images/GetAxisLimits.png?240426212031)
+[![](/cookbook/5.0/images/GetAxisLimits.png?240427161103)](/cookbook/5.0/images/GetAxisLimits.png?240427161103)
 
 {{< code-sp5 >}}
 

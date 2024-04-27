@@ -5,8 +5,8 @@ URL: /cookbook/5.0/Scatter/ScatterDateTime/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Scatter Plot", "Scatter DateTime"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Scatter", "/cookbook/5.0/Scatter/ScatterDateTime"]
 Date: 2024-04-27
-Version: ScottPlot 5.0.30
-Version: ScottPlot 5.0.30
+Version: ScottPlot 5.0.31
+Version: ScottPlot 5.0.31
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,14 +16,14 @@ ShowEditLink: false
 
 A scatter plot may use DateTime units but be sure to setup the respective axis to display using DateTime format.
 
-[![](/cookbook/5.0/images/ScatterDateTime.png?240426212031)](/cookbook/5.0/images/ScatterDateTime.png?240426212031)
+[![](/cookbook/5.0/images/ScatterDateTime.png?240427161103)](/cookbook/5.0/images/ScatterDateTime.png?240427161103)
 
 {{< code-sp5 >}}
 
 ```cs
 ScottPlot.Plot myPlot = new();
 
-DateTime[] xs = Generate.DateTime.Days(100);
+DateTime[] xs = Generate.ConsecutiveDays(100);
 double[] ys = Generate.RandomWalk(xs.Length);
 
 myPlot.Add.Scatter(xs, ys);

@@ -5,8 +5,8 @@ URL: /cookbook/5.0/Signal/SignalRenderIndexes/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Signal Plot", "Partial Signal Rendering"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Signal", "/cookbook/5.0/Signal/SignalRenderIndexes"]
 Date: 2024-04-27
-Version: ScottPlot 5.0.30
-Version: ScottPlot 5.0.30
+Version: ScottPlot 5.0.31
+Version: ScottPlot 5.0.31
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Even if a signal plot references a large array of data, rendering can be limited to a range of values. If set,only the range of data between the minimum and maximum render indexes will be displayed.
 
-[![](/cookbook/5.0/images/SignalRenderIndexes.png?240426212031)](/cookbook/5.0/images/SignalRenderIndexes.png?240426212031)
+[![](/cookbook/5.0/images/SignalRenderIndexes.png?240427161103)](/cookbook/5.0/images/SignalRenderIndexes.png?240427161103)
 
 {{< code-sp5 >}}
 

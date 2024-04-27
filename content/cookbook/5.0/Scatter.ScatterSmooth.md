@@ -5,8 +5,8 @@ URL: /cookbook/5.0/Scatter/ScatterSmooth/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Scatter Plot", "Scatter Plot with Smooth Lines"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Scatter", "/cookbook/5.0/Scatter/ScatterSmooth"]
 Date: 2024-04-27
-Version: ScottPlot 5.0.30
-Version: ScottPlot 5.0.30
+Version: ScottPlot 5.0.31
+Version: ScottPlot 5.0.31
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Scatter plots draw straight lines between points by default, but setting the Smooth property allows the scatter plot to connect points with smooth lines. Lines are smoothed using cubic spline interpolation.
 
-[![](/cookbook/5.0/images/ScatterSmooth.png?240426212031)](/cookbook/5.0/images/ScatterSmooth.png?240426212031)
+[![](/cookbook/5.0/images/ScatterSmooth.png?240427161103)](/cookbook/5.0/images/ScatterSmooth.png?240427161103)
 
 {{< code-sp5 >}}
 

@@ -5,8 +5,8 @@ URL: /cookbook/5.0/AdvancedAxis/InvertedAutoAxis/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Advanced Axis Features", "Inverted Auto-Axis"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AdvancedAxis", "/cookbook/5.0/AdvancedAxis/InvertedAutoAxis"]
 Date: 2024-04-27
-Version: ScottPlot 5.0.30
-Version: ScottPlot 5.0.30
+Version: ScottPlot 5.0.31
+Version: ScottPlot 5.0.31
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Customize the logic for the automatic axis scaler to ensure that axis limits for a particular axis are always inverted when autoscaled.
 
-[![](/cookbook/5.0/images/InvertedAutoAxis.png?240426212031)](/cookbook/5.0/images/InvertedAutoAxis.png?240426212031)
+[![](/cookbook/5.0/images/InvertedAutoAxis.png?240427161103)](/cookbook/5.0/images/InvertedAutoAxis.png?240427161103)
 
 {{< code-sp5 >}}
 

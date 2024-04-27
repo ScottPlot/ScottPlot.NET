@@ -5,8 +5,8 @@ URL: /cookbook/5.0/DateTimeAxes/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "DateTime Axes"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/DateTimeAxes"]
 Date: 2024-04-27
-Version: ScottPlot 5.0.30
-Version: ScottPlot 5.0.30
+Version: ScottPlot 5.0.31
+Version: ScottPlot 5.0.31
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,7 +18,7 @@ ShowEditLink: false
 
 Axis tick labels can be displayed using a time format.
 
-[![](/cookbook/5.0/images/DateTimeAxisQuickstart.png?240426212031)](/cookbook/5.0/images/DateTimeAxisQuickstart.png?240426212031)
+[![](/cookbook/5.0/images/DateTimeAxisQuickstart.png?240427161103)](/cookbook/5.0/images/DateTimeAxisQuickstart.png?240427161103)
 
 {{< code-sp5 >}}
 
@@ -26,7 +26,7 @@ Axis tick labels can be displayed using a time format.
 ScottPlot.Plot myPlot = new();
 
 // plot data using DateTime units
-DateTime[] dates = Generate.DateTime.Days(100);
+DateTime[] dates = Generate.ConsecutiveDays(100);
 double[] ys = Generate.RandomWalk(100);
 myPlot.Add.Scatter(dates, ys);
 
@@ -46,7 +46,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 DateTime axes are achieved using Microsoft's DateTime.ToOADate() and DateTime.FromOADate() methods to convert between dates and numeric values. Advanced users who wish to display data on DateTime axes may prefer to work with collections of doubles rather than collections of DateTimes.
 
-[![](/cookbook/5.0/images/DateTimeAxisMixed.png?240426212031)](/cookbook/5.0/images/DateTimeAxisMixed.png?240426212031)
+[![](/cookbook/5.0/images/DateTimeAxisMixed.png?240427161103)](/cookbook/5.0/images/DateTimeAxisMixed.png?240427161103)
 
 {{< code-sp5 >}}
 
@@ -90,7 +90,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Users can provide their own logic for customizing DateTime tick labels
 
-[![](/cookbook/5.0/images/DateTimeAxisCustomFormatter.png?240426212031)](/cookbook/5.0/images/DateTimeAxisCustomFormatter.png?240426212031)
+[![](/cookbook/5.0/images/DateTimeAxisCustomFormatter.png?240427161103)](/cookbook/5.0/images/DateTimeAxisCustomFormatter.png?240427161103)
 
 {{< code-sp5 >}}
 
@@ -98,7 +98,7 @@ Users can provide their own logic for customizing DateTime tick labels
 ScottPlot.Plot myPlot = new();
 
 // plot sample DateTime data
-DateTime[] dates = Generate.DateTime.Days(100);
+DateTime[] dates = Generate.ConsecutiveDays(100);
 double[] ys = Generate.RandomWalk(100);
 myPlot.Add.Scatter(dates, ys);
 myPlot.Axes.DateTimeTicksBottom();

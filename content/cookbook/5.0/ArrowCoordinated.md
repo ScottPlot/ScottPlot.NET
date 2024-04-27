@@ -5,8 +5,8 @@ URL: /cookbook/5.0/ArrowCoordinated/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Arrow"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/ArrowCoordinated"]
 Date: 2024-04-27
-Version: ScottPlot 5.0.30
-Version: ScottPlot 5.0.30
+Version: ScottPlot 5.0.31
+Version: ScottPlot 5.0.31
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,45 +18,51 @@ ShowEditLink: false
 
 Arrows can be placed on plots to point to a location in coordinate space and extensively customized.
 
-[![](/cookbook/5.0/images/ArrowQuickstart.png?240426212031)](/cookbook/5.0/images/ArrowQuickstart.png?240426212031)
+[![](/cookbook/5.0/images/ArrowQuickstart.png?240427161103)](/cookbook/5.0/images/ArrowQuickstart.png?240427161103)
 
 {{< code-sp5 >}}
 
 ```cs
 ScottPlot.Plot myPlot = new();
 
-// plot some sample data
-double[] sin = Generate.Sin(51);
-double[] cos = Generate.Cos(51);
-myPlot.Add.Signal(sin);
-myPlot.Add.Signal(cos);
+// create a line
+Coordinates arrowTip = new(0, 0);
+Coordinates arrowBase = new(1, 1);
+CoordinateLine arrowLine = new(arrowBase, arrowTip);
 
-// add arrows using coordinates
-myPlot.Add.Arrow(27, .2, 25, 0);
+// add a simple arrow
+myPlot.Add.Arrow(arrowLine);
 
-// you can define a minimum length so the line persists even when zooming out
-var arrow2 = myPlot.Add.Arrow(23, -.5, 27, -.25);
-arrow2.Color = Colors.Red;
-arrow2.MinimumLength = 100;
+// arrow line and fill styles can be customized
+var arrow2 = myPlot.Add.Arrow(arrowLine.WithDelta(1, 0));
+arrow2.ArrowLineColor = Colors.Red;
+arrow2.ArrowMinimumLength = 100;
+arrow2.ArrowLineColor = Colors.Black;
+arrow2.ArrowFillColor = Colors.Transparent;
 
 // the shape of the arrowhead can be adjusted
-var skinny = myPlot.Add.Arrow(12, .5, 12, 1);
-skinny.Color = Colors.Green;
-skinny.ArrowheadLength = 24;
-skinny.ArrowheadWidth = 8;
+var skinny = myPlot.Add.Arrow(arrowLine.WithDelta(2, 0));
+skinny.ArrowFillColor = Colors.Green;
+skinny.ArrowLineWidth = 0;
+skinny.ArrowWidth = 3;
+skinny.ArrowheadLength = 20;
+skinny.ArrowheadAxisLength = 20;
+skinny.ArrowheadWidth = 7;
 
-var fat = myPlot.Add.Arrow(20, 1, 20, .6);
-fat.Color = Colors.Blue;
-fat.ArrowheadLength = 24;
-fat.ArrowheadWidth = 36;
-fat.LineWidth = 8;
+var fat = myPlot.Add.Arrow(arrowLine.WithDelta(3, 0));
+fat.ArrowFillColor = Colors.Blue;
+fat.ArrowLineWidth = 0;
+fat.ArrowWidth = 18;
+fat.ArrowheadLength = 20;
+fat.ArrowheadAxisLength = 20;
+fat.ArrowheadWidth = 30;
 
 // offset backs the arrow away from the tip coordinate
-myPlot.Add.Marker(40, 0.3);
-var arrow4 = myPlot.Add.Arrow(35, 0.6, 40, 0.3);
-arrow4.Color = Colors.Fuchsia;
-arrow4.Offset = 10;
-arrow4.MinimumLength = 50;
+myPlot.Add.Marker(arrowLine.WithDelta(4, 0).End);
+var arrow4 = myPlot.Add.Arrow(arrowLine.WithDelta(4, 0));
+arrow4.ArrowOffset = 15;
+
+myPlot.Axes.SetLimits(-1, 6, -1, 2);
 
 myPlot.SavePng("demo.png", 400, 300);
 

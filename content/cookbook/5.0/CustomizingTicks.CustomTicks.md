@@ -5,8 +5,8 @@ URL: /cookbook/5.0/CustomizingTicks/CustomTicks/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Customizing Ticks", "Custom Tick Positions"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/CustomizingTicks", "/cookbook/5.0/CustomizingTicks/CustomTicks"]
 Date: 2024-04-27
-Version: ScottPlot 5.0.30
-Version: ScottPlot 5.0.30
+Version: ScottPlot 5.0.31
+Version: ScottPlot 5.0.31
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Users can define ticks to be placed at specific locations.
 
-[![](/cookbook/5.0/images/CustomTicks.png?240426212031)](/cookbook/5.0/images/CustomTicks.png?240426212031)
+[![](/cookbook/5.0/images/CustomTicks.png?240427161103)](/cookbook/5.0/images/CustomTicks.png?240427161103)
 
 {{< code-sp5 >}}
 

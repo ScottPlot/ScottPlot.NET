@@ -5,8 +5,8 @@ URL: /cookbook/5.0/DateTimeAxes/DateTimeAxisQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "DateTime Axes", "DateTime Axis Quickstart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/DateTimeAxes", "/cookbook/5.0/DateTimeAxes/DateTimeAxisQuickstart"]
 Date: 2024-04-27
-Version: ScottPlot 5.0.30
-Version: ScottPlot 5.0.30
+Version: ScottPlot 5.0.31
+Version: ScottPlot 5.0.31
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Axis tick labels can be displayed using a time format.
 
-[![](/cookbook/5.0/images/DateTimeAxisQuickstart.png?240426212031)](/cookbook/5.0/images/DateTimeAxisQuickstart.png?240426212031)
+[![](/cookbook/5.0/images/DateTimeAxisQuickstart.png?240427161103)](/cookbook/5.0/images/DateTimeAxisQuickstart.png?240427161103)
 
 {{< code-sp5 >}}
 
@@ -24,7 +24,7 @@ Axis tick labels can be displayed using a time format.
 ScottPlot.Plot myPlot = new();
 
 // plot data using DateTime units
-DateTime[] dates = Generate.DateTime.Days(100);
+DateTime[] dates = Generate.ConsecutiveDays(100);
 double[] ys = Generate.RandomWalk(100);
 myPlot.Add.Scatter(dates, ys);
 

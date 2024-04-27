@@ -5,8 +5,8 @@ URL: /cookbook/5.0/Bar/BarValues/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Bar Plot", "Bar with Value Labels"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Bar", "/cookbook/5.0/Bar/BarValues"]
 Date: 2024-04-27
-Version: ScottPlot 5.0.30
-Version: ScottPlot 5.0.30
+Version: ScottPlot 5.0.31
+Version: ScottPlot 5.0.31
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Set the `Label` property of bars to have text displayed above each bar.
 
-[![](/cookbook/5.0/images/BarValues.png?240426212031)](/cookbook/5.0/images/BarValues.png?240426212031)
+[![](/cookbook/5.0/images/BarValues.png?240427161103)](/cookbook/5.0/images/BarValues.png?240427161103)
 
 {{< code-sp5 >}}
 

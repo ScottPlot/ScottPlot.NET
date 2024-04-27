@@ -5,8 +5,8 @@ URL: /cookbook/5.0/AxisSpans/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Axis Spans"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AxisSpans"]
 Date: 2024-04-27
-Version: ScottPlot 5.0.30
-Version: ScottPlot 5.0.30
+Version: ScottPlot 5.0.31
+Version: ScottPlot 5.0.31
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,7 +18,7 @@ ShowEditLink: false
 
 Axis spans label a range of an axis. Vertical spans shade the full width of a vertical range, and horizontal spans shade the full height of a horizontal range.
 
-[![](/cookbook/5.0/images/AxisSpanQuickstart.png?240426212031)](/cookbook/5.0/images/AxisSpanQuickstart.png?240426212031)
+[![](/cookbook/5.0/images/AxisSpanQuickstart.png?240427161103)](/cookbook/5.0/images/AxisSpanQuickstart.png?240427161103)
 
 {{< code-sp5 >}}
 
@@ -48,7 +48,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Axis spans can be extensively customized.
 
-[![](/cookbook/5.0/images/AxisSpanStyling.png?240426212031)](/cookbook/5.0/images/AxisSpanStyling.png?240426212031)
+[![](/cookbook/5.0/images/AxisSpanStyling.png?240427161103)](/cookbook/5.0/images/AxisSpanStyling.png?240427161103)
 
 {{< code-sp5 >}}
 

@@ -5,8 +5,8 @@ URL: /cookbook/5.0/ScottPlotQuickstart/AddPlottablesManually/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Quickstart", "Add Plottables Manually"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/ScottPlotQuickstart", "/cookbook/5.0/ScottPlotQuickstart/AddPlottablesManually"]
 Date: 2024-04-27
-Version: ScottPlot 5.0.30
-Version: ScottPlot 5.0.30
+Version: ScottPlot 5.0.31
+Version: ScottPlot 5.0.31
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Although the Plot.Add class has many helpful methods for creating plottable objects and adding them to the plot, users can instantiate plottable objects themselves and use Add.Plottable() to place it on the plot. This stategy allows users to create their own plottables (implementing IPlottable) with custom appearance or behavior.
 
-[![](/cookbook/5.0/images/AddPlottablesManually.png?240426212031)](/cookbook/5.0/images/AddPlottablesManually.png?240426212031)
+[![](/cookbook/5.0/images/AddPlottablesManually.png?240427161103)](/cookbook/5.0/images/AddPlottablesManually.png?240427161103)
 
 {{< code-sp5 >}}
 

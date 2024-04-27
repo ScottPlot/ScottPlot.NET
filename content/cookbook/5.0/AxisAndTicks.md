@@ -5,8 +5,8 @@ URL: /cookbook/5.0/AxisAndTicks/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Axis and Ticks"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AxisAndTicks"]
 Date: 2024-04-27
-Version: ScottPlot 5.0.30
-Version: ScottPlot 5.0.30
+Version: ScottPlot 5.0.31
+Version: ScottPlot 5.0.31
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,7 +18,7 @@ ShowEditLink: false
 
 Axis Limits can be set by the user.
 
-[![](/cookbook/5.0/images/SetAxisLimits.png?240426212031)](/cookbook/5.0/images/SetAxisLimits.png?240426212031)
+[![](/cookbook/5.0/images/SetAxisLimits.png?240427161103)](/cookbook/5.0/images/SetAxisLimits.png?240427161103)
 
 {{< code-sp5 >}}
 
@@ -43,7 +43,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Use GetLimits() to obtain the current axis limits.
 
-[![](/cookbook/5.0/images/GetAxisLimits.png?240426212031)](/cookbook/5.0/images/GetAxisLimits.png?240426212031)
+[![](/cookbook/5.0/images/GetAxisLimits.png?240427161103)](/cookbook/5.0/images/GetAxisLimits.png?240427161103)
 
 {{< code-sp5 >}}
 
@@ -72,7 +72,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 The axis limits can be automatically adjusted to fit the data. Optional arguments allow users to define the amount of whitespace around the edges of the data.In older versions of ScottPlot this functionality was achieved by a method named AxisAuto().
 
-[![](/cookbook/5.0/images/AutoScale.png?240426212031)](/cookbook/5.0/images/AutoScale.png?240426212031)
+[![](/cookbook/5.0/images/AutoScale.png?240427161103)](/cookbook/5.0/images/AutoScale.png?240427161103)
 
 {{< code-sp5 >}}
 
@@ -101,7 +101,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 How to create a plot containig only the data area and no axes.
 
-[![](/cookbook/5.0/images/Frameless.png?240426212031)](/cookbook/5.0/images/Frameless.png?240426212031)
+[![](/cookbook/5.0/images/Frameless.png?240427161103)](/cookbook/5.0/images/Frameless.png?240427161103)
 
 {{< code-sp5 >}}
 

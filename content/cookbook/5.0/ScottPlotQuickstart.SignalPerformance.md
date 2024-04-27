@@ -5,8 +5,8 @@ URL: /cookbook/5.0/ScottPlotQuickstart/SignalPerformance/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Quickstart", "Signal Plot Performance"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/ScottPlotQuickstart", "/cookbook/5.0/ScottPlotQuickstart/SignalPerformance"]
 Date: 2024-04-27
-Version: ScottPlot 5.0.30
-Version: ScottPlot 5.0.30
+Version: ScottPlot 5.0.31
+Version: ScottPlot 5.0.31
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Signal plots can interactively display millions of data points in real time. Double-click the plot to display performance benchmarks.
 
-[![](/cookbook/5.0/images/SignalPerformance.png?240426212031)](/cookbook/5.0/images/SignalPerformance.png?240426212031)
+[![](/cookbook/5.0/images/SignalPerformance.png?240427161103)](/cookbook/5.0/images/SignalPerformance.png?240427161103)
 
 {{< code-sp5 >}}
 

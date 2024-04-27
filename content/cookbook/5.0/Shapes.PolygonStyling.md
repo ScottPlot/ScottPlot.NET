@@ -5,8 +5,8 @@ URL: /cookbook/5.0/Shapes/PolygonStyling/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Shapes", "Polygon Plot Styling"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Shapes", "/cookbook/5.0/Shapes/PolygonStyling"]
 Date: 2024-04-27
-Version: ScottPlot 5.0.30
-Version: ScottPlot 5.0.30
+Version: ScottPlot 5.0.31
+Version: ScottPlot 5.0.31
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Polygon plots can be fully customized.
 
-[![](/cookbook/5.0/images/PolygonStyling.png?240426212031)](/cookbook/5.0/images/PolygonStyling.png?240426212031)
+[![](/cookbook/5.0/images/PolygonStyling.png?240427161103)](/cookbook/5.0/images/PolygonStyling.png?240427161103)
 
 {{< code-sp5 >}}
 

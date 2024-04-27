@@ -5,8 +5,8 @@ URL: /cookbook/5.0/Ellipse/EllipseStyling/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Ellipse", "Ellipse Styling"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Ellipse", "/cookbook/5.0/Ellipse/EllipseStyling"]
 Date: 2024-04-27
-Version: ScottPlot 5.0.30
-Version: ScottPlot 5.0.30
+Version: ScottPlot 5.0.31
+Version: ScottPlot 5.0.31
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Ellipses styles can be extensively customized
 
-[![](/cookbook/5.0/images/EllipseStyling.png?240426212031)](/cookbook/5.0/images/EllipseStyling.png?240426212031)
+[![](/cookbook/5.0/images/EllipseStyling.png?240427161103)](/cookbook/5.0/images/EllipseStyling.png?240427161103)
 
 {{< code-sp5 >}}
 
