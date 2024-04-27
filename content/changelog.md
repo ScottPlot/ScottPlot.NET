@@ -35,11 +35,11 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/Kareltje1980'>@Kareltje1980</a>, <a href='https://github.com/rubenslkirchner'>@rubenslkirchner</a>, <a href='https://github.com/TenebrosFR'>@TenebrosFR</a>, <a href='https://github.com/ebarnard'>@ebarnard</a>, <a href='https://github.com/feichti92'>@feichti92</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
-<a href='https://github.com/Kareltje1980'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/rubenslkirchner'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/TenebrosFR'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/ebarnard'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/feichti92'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Kareltje1980'><img src='https://scottplot.net/images/contributors/kareltje1980.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/rubenslkirchner'><img src='https://scottplot.net/images/contributors/rubenslkirchner.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/TenebrosFR'><img src='https://scottplot.net/images/contributors/tenebrosfr.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/ebarnard'><img src='https://scottplot.net/images/contributors/ebarnard.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/feichti92'><img src='https://scottplot.net/images/contributors/feichti92.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
@@ -68,9 +68,9 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/rubenslkirchner'>@rubenslkirchner</a>, <a href='https://github.com/Fokatu'>@Fokatu</a>, <a href='https://github.com/MichaelKuelshammer'>@MichaelKuelshammer</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
-<a href='https://github.com/rubenslkirchner'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/Fokatu'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/MichaelKuelshammer'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/rubenslkirchner'><img src='https://scottplot.net/images/contributors/rubenslkirchner.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Fokatu'><img src='https://scottplot.net/images/contributors/fokatu.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/MichaelKuelshammer'><img src='https://scottplot.net/images/contributors/michaelkuelshammer.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
@@ -106,14 +106,14 @@ Release notes for every version of ScottPlot
 </div>
 <div class='text-center'>
 <a href='https://github.com/drolevar'><img src='https://scottplot.net/images/contributors/drolevar.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/SebastianDirks'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/SebastianDirks'><img src='https://scottplot.net/images/contributors/sebastiandirks.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Fruchtzwerg94'><img src='https://scottplot.net/images/contributors/fruchtzwerg94.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/xichaoqiang'><img src='https://scottplot.net/images/contributors/xichaoqiang.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/Diddlik'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/slotinvo'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/hazenjaqdx3'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/zhhding'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/Xhichn'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Diddlik'><img src='https://scottplot.net/images/contributors/diddlik.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/slotinvo'><img src='https://scottplot.net/images/contributors/slotinvo.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/hazenjaqdx3'><img src='https://scottplot.net/images/contributors/hazenjaqdx3.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/zhhding'><img src='https://scottplot.net/images/contributors/zhhding.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Xhichn'><img src='https://scottplot.net/images/contributors/xhichn.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 

@@ -16,31 +16,31 @@ Members of the open-source community who contributed to ScottPlot
 <div class='display-3 my-5 text-center'>💖🚀✨</div>
 <div class='d-flex justify-content-center flex-wrap'>
 <div class='bg-light border rounded text-center mx-3 my-2'>
-<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/brand/favicon.png' height='125' width='125'/></a></div>
+<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/kareltje1980.png' height='125' width='125'/></a></div>
 <div><a href='https://github.com/Kareltje1980'>@Kareltje1980</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
-<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/brand/favicon.png' height='125' width='125'/></a></div>
+<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/rubenslkirchner.jpg' height='125' width='125'/></a></div>
 <div><a href='https://github.com/rubenslkirchner'>@rubenslkirchner</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
-<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/brand/favicon.png' height='125' width='125'/></a></div>
+<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/tenebrosfr.png' height='125' width='125'/></a></div>
 <div><a href='https://github.com/TenebrosFR'>@TenebrosFR</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
-<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/brand/favicon.png' height='125' width='125'/></a></div>
+<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/ebarnard.png' height='125' width='125'/></a></div>
 <div><a href='https://github.com/ebarnard'>@ebarnard</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
-<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/brand/favicon.png' height='125' width='125'/></a></div>
+<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/feichti92.png' height='125' width='125'/></a></div>
 <div><a href='https://github.com/feichti92'>@feichti92</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
-<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/brand/favicon.png' height='125' width='125'/></a></div>
+<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/fokatu.png' height='125' width='125'/></a></div>
 <div><a href='https://github.com/Fokatu'>@Fokatu</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
-<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/brand/favicon.png' height='125' width='125'/></a></div>
+<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/michaelkuelshammer.jpg' height='125' width='125'/></a></div>
 <div><a href='https://github.com/MichaelKuelshammer'>@MichaelKuelshammer</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
@@ -48,7 +48,7 @@ Members of the open-source community who contributed to ScottPlot
 <div><a href='https://github.com/drolevar'>@drolevar</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
-<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/brand/favicon.png' height='125' width='125'/></a></div>
+<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/sebastiandirks.png' height='125' width='125'/></a></div>
 <div><a href='https://github.com/SebastianDirks'>@SebastianDirks</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
@@ -60,23 +60,23 @@ Members of the open-source community who contributed to ScottPlot
 <div><a href='https://github.com/xichaoqiang'>@xichaoqiang</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
-<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/brand/favicon.png' height='125' width='125'/></a></div>
+<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/diddlik.jpg' height='125' width='125'/></a></div>
 <div><a href='https://github.com/Diddlik'>@Diddlik</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
-<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/brand/favicon.png' height='125' width='125'/></a></div>
+<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/slotinvo.png' height='125' width='125'/></a></div>
 <div><a href='https://github.com/slotinvo'>@slotinvo</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
-<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/brand/favicon.png' height='125' width='125'/></a></div>
+<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/hazenjaqdx3.png' height='125' width='125'/></a></div>
 <div><a href='https://github.com/hazenjaqdx3'>@hazenjaqdx3</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
-<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/brand/favicon.png' height='125' width='125'/></a></div>
+<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/zhhding.png' height='125' width='125'/></a></div>
 <div><a href='https://github.com/zhhding'>@zhhding</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
-<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/brand/favicon.png' height='125' width='125'/></a></div>
+<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/xhichn.png' height='125' width='125'/></a></div>
 <div><a href='https://github.com/Xhichn'>@Xhichn</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
