@@ -4,9 +4,9 @@ Description: Level text fonts may be customized.
 URL: /cookbook/5.0/RadialGauge/RadialGaugeLabelColor/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Radial gauge", "Gauge Label Color"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/RadialGauge", "/cookbook/5.0/RadialGauge/RadialGaugeLabelColor"]
-Date: 2024-04-26
-Version: ScottPlot 5.0.29
-Version: ScottPlot 5.0.29
+Date: 2024-04-27
+Version: ScottPlot 5.0.30
+Version: ScottPlot 5.0.30
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Level text fonts may be customized.
 
-[![](/cookbook/5.0/images/RadialGaugeLabelColor.png?240426090552)](/cookbook/5.0/images/RadialGaugeLabelColor.png?240426090552)
+[![](/cookbook/5.0/images/RadialGaugeLabelColor.png?240426212031)](/cookbook/5.0/images/RadialGaugeLabelColor.png?240426212031)
 
 {{< code-sp5 >}}
 

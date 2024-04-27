@@ -4,9 +4,9 @@ Description: How to further customize axes
 URL: /cookbook/5.0/AdvancedAxis/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Advanced Axis Features"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AdvancedAxis"]
-Date: 2024-04-26
-Version: ScottPlot 5.0.29
-Version: ScottPlot 5.0.29
+Date: 2024-04-27
+Version: ScottPlot 5.0.30
+Version: ScottPlot 5.0.30
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,7 +18,7 @@ ShowEditLink: false
 
 Users can display data on an inverted axis by setting axis limits setting the lower edge to a value more positive than the upper edge.
 
-[![](/cookbook/5.0/images/InvertedAxis.png?240426090552)](/cookbook/5.0/images/InvertedAxis.png?240426090552)
+[![](/cookbook/5.0/images/InvertedAxis.png?240426212031)](/cookbook/5.0/images/InvertedAxis.png?240426212031)
 
 {{< code-sp5 >}}
 
@@ -43,7 +43,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Customize the logic for the automatic axis scaler to ensure that axis limits for a particular axis are always inverted when autoscaled.
 
-[![](/cookbook/5.0/images/InvertedAutoAxis.png?240426090552)](/cookbook/5.0/images/InvertedAutoAxis.png?240426090552)
+[![](/cookbook/5.0/images/InvertedAutoAxis.png?240426212031)](/cookbook/5.0/images/InvertedAutoAxis.png?240426212031)
 
 {{< code-sp5 >}}
 
@@ -68,7 +68,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Axis rules can be put in place which force the vertical scale (units per pixel) to match the horizontal scale so circles always appear as circles and not stretched ellipses.
 
-[![](/cookbook/5.0/images/SquareAxisUnits.png?240426090552)](/cookbook/5.0/images/SquareAxisUnits.png?240426090552)
+[![](/cookbook/5.0/images/SquareAxisUnits.png?240426212031)](/cookbook/5.0/images/SquareAxisUnits.png?240426212031)
 
 {{< code-sp5 >}}
 

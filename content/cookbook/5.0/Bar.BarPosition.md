@@ -4,9 +4,9 @@ Description: The exact position and size of each bar may be customized.
 URL: /cookbook/5.0/Bar/BarPosition/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Bar Plot", "Bar Positioning"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Bar", "/cookbook/5.0/Bar/BarPosition"]
-Date: 2024-04-26
-Version: ScottPlot 5.0.29
-Version: ScottPlot 5.0.29
+Date: 2024-04-27
+Version: ScottPlot 5.0.30
+Version: ScottPlot 5.0.30
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 The exact position and size of each bar may be customized.
 
-[![](/cookbook/5.0/images/BarPosition.png?240426090552)](/cookbook/5.0/images/BarPosition.png?240426090552)
+[![](/cookbook/5.0/images/BarPosition.png?240426212031)](/cookbook/5.0/images/BarPosition.png?240426212031)
 
 {{< code-sp5 >}}
 

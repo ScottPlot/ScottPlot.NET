@@ -4,9 +4,9 @@ Description: Set the `Label` property of bars to have text displayed beside (lef
 URL: /cookbook/5.0/Bar/BarValuesHorizontal/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Bar Plot", "Bar with Value Labels (horizontal)"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Bar", "/cookbook/5.0/Bar/BarValuesHorizontal"]
-Date: 2024-04-26
-Version: ScottPlot 5.0.29
-Version: ScottPlot 5.0.29
+Date: 2024-04-27
+Version: ScottPlot 5.0.30
+Version: ScottPlot 5.0.30
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Set the `Label` property of bars to have text displayed beside (left or right) of each bar.
 
-[![](/cookbook/5.0/images/BarValuesHorizontal.png?240426090552)](/cookbook/5.0/images/BarValuesHorizontal.png?240426090552)
+[![](/cookbook/5.0/images/BarValuesHorizontal.png?240426212031)](/cookbook/5.0/images/BarValuesHorizontal.png?240426212031)
 
 {{< code-sp5 >}}
 

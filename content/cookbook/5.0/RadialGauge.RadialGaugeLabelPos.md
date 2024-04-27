@@ -4,9 +4,9 @@ Description: Gauge level text is positioned at the tip of each gauge by default,
 URL: /cookbook/5.0/RadialGauge/RadialGaugeLabelPos/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Radial gauge", "Gauge Label Position"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/RadialGauge", "/cookbook/5.0/RadialGauge/RadialGaugeLabelPos"]
-Date: 2024-04-26
-Version: ScottPlot 5.0.29
-Version: ScottPlot 5.0.29
+Date: 2024-04-27
+Version: ScottPlot 5.0.30
+Version: ScottPlot 5.0.30
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Gauge level text is positioned at the tip of each gauge by default, but this position can be adjusted by the user.
 
-[![](/cookbook/5.0/images/RadialGaugeLabelPos.png?240426090552)](/cookbook/5.0/images/RadialGaugeLabelPos.png?240426090552)
+[![](/cookbook/5.0/images/RadialGaugeLabelPos.png?240426212031)](/cookbook/5.0/images/RadialGaugeLabelPos.png?240426212031)
 
 {{< code-sp5 >}}
 

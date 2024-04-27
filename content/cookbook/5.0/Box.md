@@ -4,9 +4,9 @@ Description: Box plots show a distribution at a glance
 URL: /cookbook/5.0/Box/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Box Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Box"]
-Date: 2024-04-26
-Version: ScottPlot 5.0.29
-Version: ScottPlot 5.0.29
+Date: 2024-04-27
+Version: ScottPlot 5.0.30
+Version: ScottPlot 5.0.30
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,7 +18,7 @@ ShowEditLink: false
 
 Box plots can be created individually and added to the plot.
 
-[![](/cookbook/5.0/images/BoxPlotQuickstart.png?240426090552)](/cookbook/5.0/images/BoxPlotQuickstart.png?240426090552)
+[![](/cookbook/5.0/images/BoxPlotQuickstart.png?240426212031)](/cookbook/5.0/images/BoxPlotQuickstart.png?240426212031)
 
 {{< code-sp5 >}}
 
@@ -52,7 +52,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Each collection of boxes added to the plot gets styled the same and appears as a single item in the legend. Add multiple bar series plots with defined X positions to give the appearance of grouped data.
 
-[![](/cookbook/5.0/images/BoxPlotGroups.png?240426090552)](/cookbook/5.0/images/BoxPlotGroups.png?240426090552)
+[![](/cookbook/5.0/images/BoxPlotGroups.png?240426212031)](/cookbook/5.0/images/BoxPlotGroups.png?240426212031)
 
 {{< code-sp5 >}}
 

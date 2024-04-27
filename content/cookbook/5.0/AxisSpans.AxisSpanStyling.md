@@ -4,9 +4,9 @@ Description: Axis spans can be extensively customized.
 URL: /cookbook/5.0/AxisSpans/AxisSpanStyling/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Axis Spans", "Axis Span Styling"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AxisSpans", "/cookbook/5.0/AxisSpans/AxisSpanStyling"]
-Date: 2024-04-26
-Version: ScottPlot 5.0.29
-Version: ScottPlot 5.0.29
+Date: 2024-04-27
+Version: ScottPlot 5.0.30
+Version: ScottPlot 5.0.30
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Axis spans can be extensively customized.
 
-[![](/cookbook/5.0/images/AxisSpanStyling.png?240426090552)](/cookbook/5.0/images/AxisSpanStyling.png?240426090552)
+[![](/cookbook/5.0/images/AxisSpanStyling.png?240426212031)](/cookbook/5.0/images/AxisSpanStyling.png?240426212031)
 
 {{< code-sp5 >}}
 

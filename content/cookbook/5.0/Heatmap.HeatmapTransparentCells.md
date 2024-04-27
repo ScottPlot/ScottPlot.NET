@@ -4,9 +4,9 @@ Description: Assign double.NaN to a heatmap cell to make it transparent.
 URL: /cookbook/5.0/Heatmap/HeatmapTransparentCells/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Heatmap", "Transparent Cells"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Heatmap", "/cookbook/5.0/Heatmap/HeatmapTransparentCells"]
-Date: 2024-04-26
-Version: ScottPlot 5.0.29
-Version: ScottPlot 5.0.29
+Date: 2024-04-27
+Version: ScottPlot 5.0.30
+Version: ScottPlot 5.0.30
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Assign double.NaN to a heatmap cell to make it transparent.
 
-[![](/cookbook/5.0/images/HeatmapTransparentCells.png?240426090552)](/cookbook/5.0/images/HeatmapTransparentCells.png?240426090552)
+[![](/cookbook/5.0/images/HeatmapTransparentCells.png?240426212031)](/cookbook/5.0/images/HeatmapTransparentCells.png?240426212031)
 
 {{< code-sp5 >}}
 

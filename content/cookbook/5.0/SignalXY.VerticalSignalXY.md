@@ -4,9 +4,9 @@ Description: Although SignalXY plots typically display data left-to-right, it is
 URL: /cookbook/5.0/SignalXY/VerticalSignalXY/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "SignalXY Plot", "Vertical SignalXY"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/SignalXY", "/cookbook/5.0/SignalXY/VerticalSignalXY"]
-Date: 2024-04-26
-Version: ScottPlot 5.0.29
-Version: ScottPlot 5.0.29
+Date: 2024-04-27
+Version: ScottPlot 5.0.30
+Version: ScottPlot 5.0.30
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Although SignalXY plots typically display data left-to-right, it is possible to use this plot type to display data bottom-to-top.
 
-[![](/cookbook/5.0/images/VerticalSignalXY.png?240426090552)](/cookbook/5.0/images/VerticalSignalXY.png?240426090552)
+[![](/cookbook/5.0/images/VerticalSignalXY.png?240426212031)](/cookbook/5.0/images/VerticalSignalXY.png?240426212031)
 
 {{< code-sp5 >}}
 

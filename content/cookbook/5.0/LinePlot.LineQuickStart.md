@@ -4,9 +4,9 @@ Description: Line plots are placed with a start and end location in coordinate s
 URL: /cookbook/5.0/LinePlot/LineQuickStart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Line Plot", "Line Plot Quickstart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/LinePlot", "/cookbook/5.0/LinePlot/LineQuickStart"]
-Date: 2024-04-26
-Version: ScottPlot 5.0.29
-Version: ScottPlot 5.0.29
+Date: 2024-04-27
+Version: ScottPlot 5.0.30
+Version: ScottPlot 5.0.30
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Line plots are placed with a start and end location in coordinate space. Their styles can be customized.
 
-[![](/cookbook/5.0/images/LineQuickStart.png?240426090552)](/cookbook/5.0/images/LineQuickStart.png?240426090552)
+[![](/cookbook/5.0/images/LineQuickStart.png?240426212031)](/cookbook/5.0/images/LineQuickStart.png?240426212031)
 
 {{< code-sp5 >}}
 
