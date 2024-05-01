@@ -4,9 +4,9 @@ Description: Scatter plots can be created from Lists, but be very cafeful not to
 URL: /cookbook/5.0/Scatter/ScatterList/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Scatter Plot", "Scatter Plot of List Data"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Scatter", "/cookbook/5.0/Scatter/ScatterList"]
-Date: 2024-04-27
-Version: ScottPlot 5.0.31
-Version: ScottPlot 5.0.31
+Date: 2024-05-01
+Version: ScottPlot 5.0.32
+Version: ScottPlot 5.0.32
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Scatter plots can be created from Lists, but be very cafeful not to add or remove items while a render is occurring or you may throw an index exception. See documentation about the Render Lock system for details.
 
-[![](/cookbook/5.0/images/ScatterList.png?240427161103)](/cookbook/5.0/images/ScatterList.png?240427161103)
+[![](/cookbook/5.0/images/ScatterList.png?240501080901)](/cookbook/5.0/images/ScatterList.png?240501080901)
 
 {{< code-sp5 >}}
 

@@ -4,9 +4,9 @@ Description: Axis-specific styling properties are available for extensive axis-s
 URL: /cookbook/5.0/CustomizingGrids/GridCustomAxis/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Customizing Grids", "Axis Specific Grid Customization"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/CustomizingGrids", "/cookbook/5.0/CustomizingGrids/GridCustomAxis"]
-Date: 2024-04-27
-Version: ScottPlot 5.0.31
-Version: ScottPlot 5.0.31
+Date: 2024-05-01
+Version: ScottPlot 5.0.32
+Version: ScottPlot 5.0.32
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Axis-specific styling properties are available for extensive axis-specific customization of grid line styling.
 
-[![](/cookbook/5.0/images/GridCustomAxis.png?240427161103)](/cookbook/5.0/images/GridCustomAxis.png?240427161103)
+[![](/cookbook/5.0/images/GridCustomAxis.png?240501080901)](/cookbook/5.0/images/GridCustomAxis.png?240501080901)
 
 {{< code-sp5 >}}
 

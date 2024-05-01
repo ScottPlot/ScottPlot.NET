@@ -4,9 +4,9 @@ Description: Display paired X/Y data as a scatter plot.
 URL: /cookbook/5.0/ScottPlotQuickstart/QuickstartScatter/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Quickstart", "Scatter Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/ScottPlotQuickstart", "/cookbook/5.0/ScottPlotQuickstart/QuickstartScatter"]
-Date: 2024-04-27
-Version: ScottPlot 5.0.31
-Version: ScottPlot 5.0.31
+Date: 2024-05-01
+Version: ScottPlot 5.0.32
+Version: ScottPlot 5.0.32
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Display paired X/Y data as a scatter plot.
 
-[![](/cookbook/5.0/images/QuickstartScatter.png?240427161103)](/cookbook/5.0/images/QuickstartScatter.png?240427161103)
+[![](/cookbook/5.0/images/QuickstartScatter.png?240501080901)](/cookbook/5.0/images/QuickstartScatter.png?240501080901)
 
 {{< code-sp5 >}}
 

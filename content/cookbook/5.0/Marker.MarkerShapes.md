@@ -1,12 +1,12 @@
 ---
 Title: Marker Shapes - ScottPlot 5.0 Cookbook
-Description: Many marker shapes are available.
+Description: Standard marker shapes are provided, but advanced users are able to create their own as well.
 URL: /cookbook/5.0/Marker/MarkerShapes/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Marker", "Marker Shapes"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Marker", "/cookbook/5.0/Marker/MarkerShapes"]
-Date: 2024-04-27
-Version: ScottPlot 5.0.31
-Version: ScottPlot 5.0.31
+Date: 2024-05-01
+Version: ScottPlot 5.0.32
+Version: ScottPlot 5.0.32
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -14,26 +14,44 @@ ShowEditLink: false
 # Marker Shapes
 
 
-Many marker shapes are available.
+Standard marker shapes are provided, but advanced users are able to create their own as well.
 
-[![](/cookbook/5.0/images/MarkerShapes.png?240427161103)](/cookbook/5.0/images/MarkerShapes.png?240427161103)
+[![](/cookbook/5.0/images/MarkerShapes.png?240501080901)](/cookbook/5.0/images/MarkerShapes.png?240501080901)
 
 {{< code-sp5 >}}
 
 ```cs
 ScottPlot.Plot myPlot = new();
 
-ScottPlot.Colormaps.Turbo colormap = new();
+MarkerShape[] markerShapes = Enum.GetValues<MarkerShape>().ToArray();
+ScottPlot.Palettes.Category20 palette = new();
 
-for (int i = 0; i < 100; i++)
+for (int i = 0; i < markerShapes.Length; i++)
 {
-    MarkerShape shape = Generate.RandomMarkerShape();
-    Coordinates location = Generate.RandomCoordinates();
-    float size = Generate.RandomInteger(5, 10);
-    Color color = Generate.RandomColor(colormap);
+    var mp = myPlot.Add.Marker(x: i, y: 0);
+    mp.MarkerStyle.Shape = markerShapes[i];
+    mp.MarkerStyle.Size = 10;
 
-    myPlot.Add.Marker(location, shape, size, color);
+    // markers made from filled shapes have can be customized
+    mp.MarkerStyle.FillColor = palette.GetColor(i).WithAlpha(.5);
+
+    // markers made from filled shapes have optional outlines
+    mp.MarkerStyle.OutlineColor = palette.GetColor(i);
+    mp.MarkerStyle.OutlineWidth = 2;
+
+    // markers created from lines can be customized
+    mp.MarkerStyle.LineWidth = 2f;
+    mp.MarkerStyle.LineColor = palette.GetColor(i);
+
+    var txt = myPlot.Add.Text(markerShapes[i].ToString(), i, 0.15);
+    txt.LabelRotation = -90;
+    txt.LabelAlignment = Alignment.MiddleLeft;
+    txt.LabelFontColor = Colors.Black;
 }
+
+myPlot.Title("Marker Names");
+myPlot.Axes.SetLimits(-1, markerShapes.Length, -1, 4);
+myPlot.HideGrid();
 
 myPlot.SavePng("demo.png", 400, 300);
 

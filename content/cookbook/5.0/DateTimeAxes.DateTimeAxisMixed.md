@@ -4,9 +4,9 @@ Description: DateTime axes are achieved using Microsoft's DateTime.ToOADate() an
 URL: /cookbook/5.0/DateTimeAxes/DateTimeAxisMixed/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "DateTime Axes", "DateTime Axis Values"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/DateTimeAxes", "/cookbook/5.0/DateTimeAxes/DateTimeAxisMixed"]
-Date: 2024-04-27
-Version: ScottPlot 5.0.31
-Version: ScottPlot 5.0.31
+Date: 2024-05-01
+Version: ScottPlot 5.0.32
+Version: ScottPlot 5.0.32
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 DateTime axes are achieved using Microsoft's DateTime.ToOADate() and DateTime.FromOADate() methods to convert between dates and numeric values. Advanced users who wish to display data on DateTime axes may prefer to work with collections of doubles rather than collections of DateTimes.
 
-[![](/cookbook/5.0/images/DateTimeAxisMixed.png?240427161103)](/cookbook/5.0/images/DateTimeAxisMixed.png?240427161103)
+[![](/cookbook/5.0/images/DateTimeAxisMixed.png?240501080901)](/cookbook/5.0/images/DateTimeAxisMixed.png?240501080901)
 
 {{< code-sp5 >}}
 
@@ -46,6 +46,9 @@ for (int i = 0; i < numberOfHours; i++)
 myPlot.Add.Scatter(dateTimes, Generate.Sin(numberOfHours));
 myPlot.Add.Scatter(dateDoubles, Generate.Cos(numberOfHours));
 myPlot.Axes.DateTimeTicksBottom();
+
+// add padding on the right to make room for wide tick labels
+myPlot.Axes.Right.MinimumSize = 50;
 
 myPlot.SavePng("demo.png", 400, 300);
 

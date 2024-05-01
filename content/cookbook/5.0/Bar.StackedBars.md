@@ -4,9 +4,9 @@ Description: Bars can be stacked to present data in groups.
 URL: /cookbook/5.0/Bar/StackedBars/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Bar Plot", "Stacked Bar Chart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Bar", "/cookbook/5.0/Bar/StackedBars"]
-Date: 2024-04-27
-Version: ScottPlot 5.0.31
-Version: ScottPlot 5.0.31
+Date: 2024-05-01
+Version: ScottPlot 5.0.32
+Version: ScottPlot 5.0.32
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Bars can be stacked to present data in groups.
 
-[![](/cookbook/5.0/images/StackedBars.png?240427161103)](/cookbook/5.0/images/StackedBars.png?240427161103)
+[![](/cookbook/5.0/images/StackedBars.png?240501080901)](/cookbook/5.0/images/StackedBars.png?240501080901)
 
 {{< code-sp5 >}}
 

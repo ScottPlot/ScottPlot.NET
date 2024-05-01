@@ -4,9 +4,9 @@ Description: FillY plots can be customized using public properties.
 URL: /cookbook/5.0/FillY/Styling/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "FillY plot", "FillY Plot Styling"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/FillY", "/cookbook/5.0/FillY/Styling"]
-Date: 2024-04-27
-Version: ScottPlot 5.0.31
-Version: ScottPlot 5.0.31
+Date: 2024-05-01
+Version: ScottPlot 5.0.32
+Version: ScottPlot 5.0.32
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 FillY plots can be customized using public properties.
 
-[![](/cookbook/5.0/images/Styling.png?240427161103)](/cookbook/5.0/images/Styling.png?240427161103)
+[![](/cookbook/5.0/images/Styling.png?240501080901)](/cookbook/5.0/images/Styling.png?240501080901)
 
 {{< code-sp5 >}}
 

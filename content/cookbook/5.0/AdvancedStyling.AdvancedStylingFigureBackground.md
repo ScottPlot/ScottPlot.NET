@@ -4,9 +4,9 @@ Description: An image can be used for the background of a figure.
 URL: /cookbook/5.0/AdvancedStyling/AdvancedStylingFigureBackground/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Advanced Styling", "Figure Background Image"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AdvancedStyling", "/cookbook/5.0/AdvancedStyling/AdvancedStylingFigureBackground"]
-Date: 2024-04-27
-Version: ScottPlot 5.0.31
-Version: ScottPlot 5.0.31
+Date: 2024-05-01
+Version: ScottPlot 5.0.32
+Version: ScottPlot 5.0.32
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 An image can be used for the background of a figure.
 
-[![](/cookbook/5.0/images/AdvancedStylingFigureBackground.png?240427161103)](/cookbook/5.0/images/AdvancedStylingFigureBackground.png?240427161103)
+[![](/cookbook/5.0/images/AdvancedStylingFigureBackground.png?240501080901)](/cookbook/5.0/images/AdvancedStylingFigureBackground.png?240501080901)
 
 {{< code-sp5 >}}
 

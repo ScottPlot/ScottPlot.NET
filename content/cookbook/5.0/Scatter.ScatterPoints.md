@@ -4,9 +4,9 @@ Description: The `ScatterPoints()` method can be used to create a scatter plot w
 URL: /cookbook/5.0/Scatter/ScatterPoints/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Scatter Plot", "Scatter Plot with Points Only"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Scatter", "/cookbook/5.0/Scatter/ScatterPoints"]
-Date: 2024-04-27
-Version: ScottPlot 5.0.31
-Version: ScottPlot 5.0.31
+Date: 2024-05-01
+Version: ScottPlot 5.0.32
+Version: ScottPlot 5.0.32
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 The `ScatterPoints()` method can be used to create a scatter plot with markers only (line width is set to 0).
 
-[![](/cookbook/5.0/images/ScatterPoints.png?240427161103)](/cookbook/5.0/images/ScatterPoints.png?240427161103)
+[![](/cookbook/5.0/images/ScatterPoints.png?240501080901)](/cookbook/5.0/images/ScatterPoints.png?240501080901)
 
 {{< code-sp5 >}}
 

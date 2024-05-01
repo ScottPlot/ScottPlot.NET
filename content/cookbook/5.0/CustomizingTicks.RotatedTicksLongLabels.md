@@ -4,9 +4,9 @@ Description: The axis size can be increased to accommodate rotated or long tick 
 URL: /cookbook/5.0/CustomizingTicks/RotatedTicksLongLabels/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Customizing Ticks", "Rotated Tick with Long Labels"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/CustomizingTicks", "/cookbook/5.0/CustomizingTicks/RotatedTicksLongLabels"]
-Date: 2024-04-27
-Version: ScottPlot 5.0.31
-Version: ScottPlot 5.0.31
+Date: 2024-05-01
+Version: ScottPlot 5.0.32
+Version: ScottPlot 5.0.32
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 The axis size can be increased to accommodate rotated or long tick labels.
 
-[![](/cookbook/5.0/images/RotatedTicksLongLabels.png?240427161103)](/cookbook/5.0/images/RotatedTicksLongLabels.png?240427161103)
+[![](/cookbook/5.0/images/RotatedTicksLongLabels.png?240501080901)](/cookbook/5.0/images/RotatedTicksLongLabels.png?240501080901)
 
 {{< code-sp5 >}}
 
@@ -44,9 +44,10 @@ myPlot.Axes.Bottom.TickLabelStyle.Alignment = Alignment.MiddleLeft;
 
 // determine the width of the largest tick label
 float largestLabelWidth = 0;
+using SKPaint paint = new();
 foreach (Tick tick in ticks)
 {
-    PixelSize size = myPlot.Axes.Bottom.TickLabelStyle.Measure(tick.Label);
+    PixelSize size = myPlot.Axes.Bottom.TickLabelStyle.Measure(tick.Label, paint).Size;
     largestLabelWidth = Math.Max(largestLabelWidth, size.Width);
 }
 

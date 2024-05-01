@@ -4,9 +4,9 @@ Description: Size of the gauge level text as a fraction of the gauge width.
 URL: /cookbook/5.0/RadialGauge/RadialGaugeLabelFontPct/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Radial gauge", "Gauge Label Font Percentage"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/RadialGauge", "/cookbook/5.0/RadialGauge/RadialGaugeLabelFontPct"]
-Date: 2024-04-27
-Version: ScottPlot 5.0.31
-Version: ScottPlot 5.0.31
+Date: 2024-05-01
+Version: ScottPlot 5.0.32
+Version: ScottPlot 5.0.32
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Size of the gauge level text as a fraction of the gauge width.
 
-[![](/cookbook/5.0/images/RadialGaugeLabelFontPct.png?240427161103)](/cookbook/5.0/images/RadialGaugeLabelFontPct.png?240427161103)
+[![](/cookbook/5.0/images/RadialGaugeLabelFontPct.png?240501080901)](/cookbook/5.0/images/RadialGaugeLabelFontPct.png?240501080901)
 
 {{< code-sp5 >}}
 

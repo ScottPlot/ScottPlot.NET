@@ -4,9 +4,9 @@ Description: Bars can be labeled by manually specifying axis tick mark positions
 URL: /cookbook/5.0/Bar/BarTickLabels/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Bar Plot", "Bars with Labeled Ticks"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Bar", "/cookbook/5.0/Bar/BarTickLabels"]
-Date: 2024-04-27
-Version: ScottPlot 5.0.31
-Version: ScottPlot 5.0.31
+Date: 2024-05-01
+Version: ScottPlot 5.0.32
+Version: ScottPlot 5.0.32
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Bars can be labeled by manually specifying axis tick mark positions and labels.
 
-[![](/cookbook/5.0/images/BarTickLabels.png?240427161103)](/cookbook/5.0/images/BarTickLabels.png?240427161103)
+[![](/cookbook/5.0/images/BarTickLabels.png?240501080901)](/cookbook/5.0/images/BarTickLabels.png?240501080901)
 
 {{< code-sp5 >}}
 

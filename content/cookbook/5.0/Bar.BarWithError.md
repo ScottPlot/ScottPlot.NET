@@ -4,9 +4,9 @@ Description: Bars can have errorbars.
 URL: /cookbook/5.0/Bar/BarWithError/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Bar Plot", "Bars with Error"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Bar", "/cookbook/5.0/Bar/BarWithError"]
-Date: 2024-04-27
-Version: ScottPlot 5.0.31
-Version: ScottPlot 5.0.31
+Date: 2024-05-01
+Version: ScottPlot 5.0.32
+Version: ScottPlot 5.0.32
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Bars can have errorbars.
 
-[![](/cookbook/5.0/images/BarWithError.png?240427161103)](/cookbook/5.0/images/BarWithError.png?240427161103)
+[![](/cookbook/5.0/images/BarWithError.png?240501080901)](/cookbook/5.0/images/BarWithError.png?240501080901)
 
 {{< code-sp5 >}}
 

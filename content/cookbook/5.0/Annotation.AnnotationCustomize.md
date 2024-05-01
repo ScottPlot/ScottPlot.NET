@@ -4,9 +4,9 @@ Description: Annotations can be extensively customized.
 URL: /cookbook/5.0/Annotation/AnnotationCustomize/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Annotation", "Annotation Customization"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Annotation", "/cookbook/5.0/Annotation/AnnotationCustomize"]
-Date: 2024-04-27
-Version: ScottPlot 5.0.31
-Version: ScottPlot 5.0.31
+Date: 2024-05-01
+Version: ScottPlot 5.0.32
+Version: ScottPlot 5.0.32
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Annotations can be extensively customized.
 
-[![](/cookbook/5.0/images/AnnotationCustomize.png?240427161103)](/cookbook/5.0/images/AnnotationCustomize.png?240427161103)
+[![](/cookbook/5.0/images/AnnotationCustomize.png?240501080901)](/cookbook/5.0/images/AnnotationCustomize.png?240501080901)
 
 {{< code-sp5 >}}
 
@@ -33,6 +33,7 @@ anno.LabelBackgroundColor = Colors.RebeccaPurple.WithAlpha(.3);
 anno.LabelFontColor = Colors.RebeccaPurple;
 anno.LabelBorderColor = Colors.Green;
 anno.LabelBorderWidth = 3;
+anno.LabelShadowColor = Colors.Transparent;
 anno.OffsetY = 40;
 anno.OffsetX = 20;
 
