@@ -4,9 +4,9 @@ Description: Finance charts can be created which display price information on th
 URL: /cookbook/5.0/Finance/FinanceRightAxis/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Financial Plot", "Price on Right"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Finance", "/cookbook/5.0/Finance/FinanceRightAxis"]
-Date: 2024-05-01
-Version: ScottPlot 5.0.32
-Version: ScottPlot 5.0.32
+Date: 2024-05-04
+Version: ScottPlot 5.0.33
+Version: ScottPlot 5.0.33
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Finance charts can be created which display price information on the right axis.
 
-[![](/cookbook/5.0/images/FinanceRightAxis.png?240501080901)](/cookbook/5.0/images/FinanceRightAxis.png?240501080901)
+[![](/cookbook/5.0/images/FinanceRightAxis.png?240504011455)](/cookbook/5.0/images/FinanceRightAxis.png?240504011455)
 
 {{< code-sp5 >}}
 

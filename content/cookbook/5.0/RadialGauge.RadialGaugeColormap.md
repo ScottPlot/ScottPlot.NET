@@ -4,9 +4,9 @@ Description: Gauge colors can be customized by changing the default palette.
 URL: /cookbook/5.0/RadialGauge/RadialGaugeColormap/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Radial gauge", "Gauge Colors"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/RadialGauge", "/cookbook/5.0/RadialGauge/RadialGaugeColormap"]
-Date: 2024-05-01
-Version: ScottPlot 5.0.32
-Version: ScottPlot 5.0.32
+Date: 2024-05-04
+Version: ScottPlot 5.0.33
+Version: ScottPlot 5.0.33
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Gauge colors can be customized by changing the default palette.
 
-[![](/cookbook/5.0/images/RadialGaugeColormap.png?240501080901)](/cookbook/5.0/images/RadialGaugeColormap.png?240501080901)
+[![](/cookbook/5.0/images/RadialGaugeColormap.png?240504011455)](/cookbook/5.0/images/RadialGaugeColormap.png?240504011455)
 
 {{< code-sp5 >}}
 

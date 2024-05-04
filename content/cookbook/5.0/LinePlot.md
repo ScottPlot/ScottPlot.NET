@@ -4,9 +4,9 @@ Description: Line plots can be placed on the plot in coordinate space using a St
 URL: /cookbook/5.0/LinePlot/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Line Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/LinePlot"]
-Date: 2024-05-01
-Version: ScottPlot 5.0.32
-Version: ScottPlot 5.0.32
+Date: 2024-05-04
+Version: ScottPlot 5.0.33
+Version: ScottPlot 5.0.33
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,7 +18,7 @@ ShowEditLink: false
 
 Line plots are placed with a start and end location in coordinate space. Their styles can be customized.
 
-[![](/cookbook/5.0/images/LineQuickStart.png?240501080901)](/cookbook/5.0/images/LineQuickStart.png?240501080901)
+[![](/cookbook/5.0/images/LineQuickStart.png?240504011455)](/cookbook/5.0/images/LineQuickStart.png?240504011455)
 
 {{< code-sp5 >}}
 
@@ -42,7 +42,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Line plots can be styled using a LineStyle.
 
-[![](/cookbook/5.0/images/LinePlotStyles.png?240501080901)](/cookbook/5.0/images/LinePlotStyles.png?240501080901)
+[![](/cookbook/5.0/images/LinePlotStyles.png?240504011455)](/cookbook/5.0/images/LinePlotStyles.png?240504011455)
 
 {{< code-sp5 >}}
 
@@ -82,7 +82,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Line plots with labels appear in the legend.
 
-[![](/cookbook/5.0/images/LinePlotLegendQWER.png?240501080901)](/cookbook/5.0/images/LinePlotLegendQWER.png?240501080901)
+[![](/cookbook/5.0/images/LinePlotLegendQWER.png?240504011455)](/cookbook/5.0/images/LinePlotLegendQWER.png?240504011455)
 
 {{< code-sp5 >}}
 

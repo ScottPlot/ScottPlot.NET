@@ -4,9 +4,9 @@ Description: A scatter plot may use DateTime units but be sure to setup the resp
 URL: /cookbook/5.0/Scatter/ScatterDateTime/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Scatter Plot", "Scatter DateTime"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Scatter", "/cookbook/5.0/Scatter/ScatterDateTime"]
-Date: 2024-05-01
-Version: ScottPlot 5.0.32
-Version: ScottPlot 5.0.32
+Date: 2024-05-04
+Version: ScottPlot 5.0.33
+Version: ScottPlot 5.0.33
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 A scatter plot may use DateTime units but be sure to setup the respective axis to display using DateTime format.
 
-[![](/cookbook/5.0/images/ScatterDateTime.png?240501080901)](/cookbook/5.0/images/ScatterDateTime.png?240501080901)
+[![](/cookbook/5.0/images/ScatterDateTime.png?240504011455)](/cookbook/5.0/images/ScatterDateTime.png?240504011455)
 
 {{< code-sp5 >}}
 

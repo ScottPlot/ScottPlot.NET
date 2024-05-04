@@ -4,9 +4,9 @@ Description: New plots have one axis on every side. Axes on the right and top ar
 URL: /cookbook/5.0/MultiAxis/RightAxis/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Multiple Axes", "Right Axis"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/MultiAxis", "/cookbook/5.0/MultiAxis/RightAxis"]
-Date: 2024-05-01
-Version: ScottPlot 5.0.32
-Version: ScottPlot 5.0.32
+Date: 2024-05-04
+Version: ScottPlot 5.0.33
+Version: ScottPlot 5.0.33
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 New plots have one axis on every side. Axes on the right and top are invisible by default. To use the right axis, make it visible, then tell a plottable to use it. 
 
-[![](/cookbook/5.0/images/RightAxis.png?240501080901)](/cookbook/5.0/images/RightAxis.png?240501080901)
+[![](/cookbook/5.0/images/RightAxis.png?240504011455)](/cookbook/5.0/images/RightAxis.png?240504011455)
 
 {{< code-sp5 >}}
 

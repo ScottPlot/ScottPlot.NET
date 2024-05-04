@@ -4,9 +4,9 @@ Description: Axis tick labels can be displayed using a time format.
 URL: /cookbook/5.0/DateTimeAxes/DateTimeAxisQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "DateTime Axes", "DateTime Axis Quickstart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/DateTimeAxes", "/cookbook/5.0/DateTimeAxes/DateTimeAxisQuickstart"]
-Date: 2024-05-01
-Version: ScottPlot 5.0.32
-Version: ScottPlot 5.0.32
+Date: 2024-05-04
+Version: ScottPlot 5.0.33
+Version: ScottPlot 5.0.33
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Axis tick labels can be displayed using a time format.
 
-[![](/cookbook/5.0/images/DateTimeAxisQuickstart.png?240501080901)](/cookbook/5.0/images/DateTimeAxisQuickstart.png?240501080901)
+[![](/cookbook/5.0/images/DateTimeAxisQuickstart.png?240504011455)](/cookbook/5.0/images/DateTimeAxisQuickstart.png?240504011455)
 
 {{< code-sp5 >}}
 

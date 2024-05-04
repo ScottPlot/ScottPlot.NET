@@ -4,9 +4,9 @@ Description: Polygon plots can be added from a series of vertices, and must be i
 URL: /cookbook/5.0/Shapes/PolygonQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Shapes", "Polygon Plot Quickstart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Shapes", "/cookbook/5.0/Shapes/PolygonQuickstart"]
-Date: 2024-05-01
-Version: ScottPlot 5.0.32
-Version: ScottPlot 5.0.32
+Date: 2024-05-04
+Version: ScottPlot 5.0.33
+Version: ScottPlot 5.0.33
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Polygon plots can be added from a series of vertices, and must be in clockwise order.
 
-[![](/cookbook/5.0/images/PolygonQuickstart.png?240501080901)](/cookbook/5.0/images/PolygonQuickstart.png?240501080901)
+[![](/cookbook/5.0/images/PolygonQuickstart.png?240504011455)](/cookbook/5.0/images/PolygonQuickstart.png?240504011455)
 
 {{< code-sp5 >}}
 

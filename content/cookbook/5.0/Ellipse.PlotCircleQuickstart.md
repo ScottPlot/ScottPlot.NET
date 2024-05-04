@@ -4,9 +4,9 @@ Description: Circles can be added to plots. Circles are really Ellipses with the
 URL: /cookbook/5.0/Ellipse/PlotCircleQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Ellipse", "Circle Quickstart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Ellipse", "/cookbook/5.0/Ellipse/PlotCircleQuickstart"]
-Date: 2024-05-01
-Version: ScottPlot 5.0.32
-Version: ScottPlot 5.0.32
+Date: 2024-05-04
+Version: ScottPlot 5.0.33
+Version: ScottPlot 5.0.33
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Circles can be added to plots. Circles are really Ellipses with the same X and Y radius. Note that circles appear as ellipses unless the plot has a square coordinate system.
 
-[![](/cookbook/5.0/images/PlotCircleQuickstart.png?240501080901)](/cookbook/5.0/images/PlotCircleQuickstart.png?240501080901)
+[![](/cookbook/5.0/images/PlotCircleQuickstart.png?240504011455)](/cookbook/5.0/images/PlotCircleQuickstart.png?240504011455)
 
 {{< code-sp5 >}}
 

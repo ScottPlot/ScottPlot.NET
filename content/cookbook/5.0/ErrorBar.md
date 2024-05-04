@@ -4,9 +4,9 @@ Description: Error Bars communicate the range of possible values for a measureme
 URL: /cookbook/5.0/ErrorBar/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Error Bars"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/ErrorBar"]
-Date: 2024-05-01
-Version: ScottPlot 5.0.32
-Version: ScottPlot 5.0.32
+Date: 2024-05-04
+Version: ScottPlot 5.0.33
+Version: ScottPlot 5.0.33
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,7 +18,7 @@ ShowEditLink: false
 
 Error Bars go well with scatter plots.
 
-[![](/cookbook/5.0/images/ErrorBarQuickstart.png?240501080901)](/cookbook/5.0/images/ErrorBarQuickstart.png?240501080901)
+[![](/cookbook/5.0/images/ErrorBarQuickstart.png?240504011455)](/cookbook/5.0/images/ErrorBarQuickstart.png?240504011455)
 
 {{< code-sp5 >}}
 
@@ -48,7 +48,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Error size can be set for all dimensions.
 
-[![](/cookbook/5.0/images/CustomErrors.png?240501080901)](/cookbook/5.0/images/CustomErrors.png?240501080901)
+[![](/cookbook/5.0/images/CustomErrors.png?240504011455)](/cookbook/5.0/images/CustomErrors.png?240504011455)
 
 {{< code-sp5 >}}
 

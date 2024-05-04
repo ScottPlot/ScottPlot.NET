@@ -4,9 +4,9 @@ Description: SignalConst is a type of signal plot which contains immutable data 
 URL: /cookbook/5.0/SignalConst/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "SignalConst"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/SignalConst"]
-Date: 2024-05-01
-Version: ScottPlot 5.0.32
-Version: ScottPlot 5.0.32
+Date: 2024-05-04
+Version: ScottPlot 5.0.33
+Version: ScottPlot 5.0.33
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,7 +18,7 @@ ShowEditLink: false
 
 SignalConst can display data with millions of points at high framerates, ideal for interactive manipulation of large datasets.
 
-[![](/cookbook/5.0/images/SignalConstQuickstart.png?240501080901)](/cookbook/5.0/images/SignalConstQuickstart.png?240501080901)
+[![](/cookbook/5.0/images/SignalConstQuickstart.png?240504011455)](/cookbook/5.0/images/SignalConstQuickstart.png?240504011455)
 
 {{< code-sp5 >}}
 

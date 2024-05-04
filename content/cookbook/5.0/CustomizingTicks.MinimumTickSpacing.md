@@ -4,9 +4,9 @@ Description: Space between ticks can be increased by setting a value to indicate
 URL: /cookbook/5.0/CustomizingTicks/MinimumTickSpacing/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Customizing Ticks", "Minimum Tick Spacing"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/CustomizingTicks", "/cookbook/5.0/CustomizingTicks/MinimumTickSpacing"]
-Date: 2024-05-01
-Version: ScottPlot 5.0.32
-Version: ScottPlot 5.0.32
+Date: 2024-05-04
+Version: ScottPlot 5.0.33
+Version: ScottPlot 5.0.33
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Space between ticks can be increased by setting a value to indicate the minimum distance between tick labels (in pixels).
 
-[![](/cookbook/5.0/images/MinimumTickSpacing.png?240501080901)](/cookbook/5.0/images/MinimumTickSpacing.png?240501080901)
+[![](/cookbook/5.0/images/MinimumTickSpacing.png?240504011455)](/cookbook/5.0/images/MinimumTickSpacing.png?240504011455)
 
 {{< code-sp5 >}}
 

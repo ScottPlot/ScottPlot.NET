@@ -4,9 +4,9 @@ Description: The SingleGauge mode draws all gauges stacked together as a single 
 URL: /cookbook/5.0/RadialGauge/RadialGaugeModeSingle/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Radial gauge", "Single Gauge Mode"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/RadialGauge", "/cookbook/5.0/RadialGauge/RadialGaugeModeSingle"]
-Date: 2024-05-01
-Version: ScottPlot 5.0.32
-Version: ScottPlot 5.0.32
+Date: 2024-05-04
+Version: ScottPlot 5.0.33
+Version: ScottPlot 5.0.33
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 The SingleGauge mode draws all gauges stacked together as a single gauge. This is useful for showing a progress gauges composed of many individual smaller gauges.
 
-[![](/cookbook/5.0/images/RadialGaugeModeSingle.png?240501080901)](/cookbook/5.0/images/RadialGaugeModeSingle.png?240501080901)
+[![](/cookbook/5.0/images/RadialGaugeModeSingle.png?240504011455)](/cookbook/5.0/images/RadialGaugeModeSingle.png?240504011455)
 
 {{< code-sp5 >}}
 
