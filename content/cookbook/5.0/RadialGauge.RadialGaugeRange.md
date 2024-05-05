@@ -4,9 +4,9 @@ Description: By default gauges are full circles (360 degrees) but smaller gauges
 URL: /cookbook/5.0/RadialGauge/RadialGaugeRange/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Radial gauge", "Gauge Angular Range"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/RadialGauge", "/cookbook/5.0/RadialGauge/RadialGaugeRange"]
-Date: 2024-05-04
-Version: ScottPlot 5.0.33
-Version: ScottPlot 5.0.33
+Date: 2024-05-05
+Version: ScottPlot 5.0.34
+Version: ScottPlot 5.0.34
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 By default gauges are full circles (360 degrees) but smaller gauges can be created by customizing the gauge size.
 
-[![](/cookbook/5.0/images/RadialGaugeRange.png?240504011455)](/cookbook/5.0/images/RadialGaugeRange.png?240504011455)
+[![](/cookbook/5.0/images/RadialGaugeRange.png?240505131914)](/cookbook/5.0/images/RadialGaugeRange.png?240505131914)
 
 {{< code-sp5 >}}
 

@@ -4,9 +4,9 @@ Description: Text labels can be placed on the plot in coordinate space
 URL: /cookbook/5.0/Text/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Text"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Text"]
-Date: 2024-05-04
-Version: ScottPlot 5.0.33
-Version: ScottPlot 5.0.33
+Date: 2024-05-05
+Version: ScottPlot 5.0.34
+Version: ScottPlot 5.0.34
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,7 +18,7 @@ ShowEditLink: false
 
 Text can be placed anywhere in coordinate space.
 
-[![](/cookbook/5.0/images/TextQuickstart.png?240504011455)](/cookbook/5.0/images/TextQuickstart.png?240504011455)
+[![](/cookbook/5.0/images/TextQuickstart.png?240505131914)](/cookbook/5.0/images/TextQuickstart.png?240505131914)
 
 {{< code-sp5 >}}
 
@@ -42,7 +42,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Text formatting can be extensively customized.
 
-[![](/cookbook/5.0/images/Formatting.png?240504011455)](/cookbook/5.0/images/Formatting.png?240504011455)
+[![](/cookbook/5.0/images/Formatting.png?240505131914)](/cookbook/5.0/images/Formatting.png?240505131914)
 
 {{< code-sp5 >}}
 
@@ -73,7 +73,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Multiline labels have a default line height estimated from the typeface and font size, however line height may be manually defined by the user.
 
-[![](/cookbook/5.0/images/LabelLineHeight.png?240504011455)](/cookbook/5.0/images/LabelLineHeight.png?240504011455)
+[![](/cookbook/5.0/images/LabelLineHeight.png?240505131914)](/cookbook/5.0/images/LabelLineHeight.png?240505131914)
 
 {{< code-sp5 >}}
 
@@ -116,7 +116,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 The offset properties can be used to fine-tune text position in pixel units
 
-[![](/cookbook/5.0/images/TextOffset.png?240504011455)](/cookbook/5.0/images/TextOffset.png?240504011455)
+[![](/cookbook/5.0/images/TextOffset.png?240505131914)](/cookbook/5.0/images/TextOffset.png?240505131914)
 
 {{< code-sp5 >}}
 

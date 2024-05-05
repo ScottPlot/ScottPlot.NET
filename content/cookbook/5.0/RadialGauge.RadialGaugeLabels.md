@@ -4,9 +4,9 @@ Description: The value of each gauge is displayed as text by default but this be
 URL: /cookbook/5.0/RadialGauge/RadialGaugeLabels/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Radial gauge", "Show Levels"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/RadialGauge", "/cookbook/5.0/RadialGauge/RadialGaugeLabels"]
-Date: 2024-05-04
-Version: ScottPlot 5.0.33
-Version: ScottPlot 5.0.33
+Date: 2024-05-05
+Version: ScottPlot 5.0.34
+Version: ScottPlot 5.0.34
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 The value of each gauge is displayed as text by default but this behavior can be overridden. Note that this is different than the labels fiels which is what appears in the legened.
 
-[![](/cookbook/5.0/images/RadialGaugeLabels.png?240504011455)](/cookbook/5.0/images/RadialGaugeLabels.png?240504011455)
+[![](/cookbook/5.0/images/RadialGaugeLabels.png?240505131914)](/cookbook/5.0/images/RadialGaugeLabels.png?240505131914)
 
 {{< code-sp5 >}}
 

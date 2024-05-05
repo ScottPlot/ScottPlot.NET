@@ -4,9 +4,9 @@ Description: Markers can be placed on the plot in coordinate space.
 URL: /cookbook/5.0/Marker/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Marker"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Marker"]
-Date: 2024-05-04
-Version: ScottPlot 5.0.33
-Version: ScottPlot 5.0.33
+Date: 2024-05-05
+Version: ScottPlot 5.0.34
+Version: ScottPlot 5.0.34
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,7 +18,7 @@ ShowEditLink: false
 
 Markers are symbols placed at a location in coordinate space. Their shape, size, and color can be customized.
 
-[![](/cookbook/5.0/images/MarkerQuickstart.png?240504011455)](/cookbook/5.0/images/MarkerQuickstart.png?240504011455)
+[![](/cookbook/5.0/images/MarkerQuickstart.png?240505131914)](/cookbook/5.0/images/MarkerQuickstart.png?240505131914)
 
 {{< code-sp5 >}}
 
@@ -45,7 +45,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Standard marker shapes are provided, but advanced users are able to create their own as well.
 
-[![](/cookbook/5.0/images/MarkerShapes.png?240504011455)](/cookbook/5.0/images/MarkerShapes.png?240504011455)
+[![](/cookbook/5.0/images/MarkerShapes.png?240505131914)](/cookbook/5.0/images/MarkerShapes.png?240505131914)
 
 {{< code-sp5 >}}
 
@@ -95,7 +95,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Markers with labels appear in the legend.
 
-[![](/cookbook/5.0/images/MarkerLegend.png?240504011455)](/cookbook/5.0/images/MarkerLegend.png?240504011455)
+[![](/cookbook/5.0/images/MarkerLegend.png?240505131914)](/cookbook/5.0/images/MarkerLegend.png?240505131914)
 
 {{< code-sp5 >}}
 
@@ -125,7 +125,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Collections of markers that are all styled the same may be added to the plot
 
-[![](/cookbook/5.0/images/MarkersPlot.png?240504011455)](/cookbook/5.0/images/MarkersPlot.png?240504011455)
+[![](/cookbook/5.0/images/MarkersPlot.png?240505131914)](/cookbook/5.0/images/MarkersPlot.png?240505131914)
 
 {{< code-sp5 >}}
 

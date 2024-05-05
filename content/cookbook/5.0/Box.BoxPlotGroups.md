@@ -4,9 +4,9 @@ Description: Each collection of boxes added to the plot gets styled the same and
 URL: /cookbook/5.0/Box/BoxPlotGroups/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Box Plot", "Box Plot Groups"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Box", "/cookbook/5.0/Box/BoxPlotGroups"]
-Date: 2024-05-04
-Version: ScottPlot 5.0.33
-Version: ScottPlot 5.0.33
+Date: 2024-05-05
+Version: ScottPlot 5.0.34
+Version: ScottPlot 5.0.34
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Each collection of boxes added to the plot gets styled the same and appears as a single item in the legend. Add multiple bar series plots with defined X positions to give the appearance of grouped data.
 
-[![](/cookbook/5.0/images/BoxPlotGroups.png?240504011455)](/cookbook/5.0/images/BoxPlotGroups.png?240504011455)
+[![](/cookbook/5.0/images/BoxPlotGroups.png?240505131914)](/cookbook/5.0/images/BoxPlotGroups.png?240505131914)
 
 {{< code-sp5 >}}
 

@@ -4,9 +4,9 @@ Description: Function plots are a type of line plot where Y positions are define
 URL: /cookbook/5.0/Function/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Function"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Function"]
-Date: 2024-05-04
-Version: ScottPlot 5.0.33
-Version: ScottPlot 5.0.33
+Date: 2024-05-05
+Version: ScottPlot 5.0.34
+Version: ScottPlot 5.0.34
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,7 +18,7 @@ ShowEditLink: false
 
 Create a function plot from a formula.
 
-[![](/cookbook/5.0/images/FunctionQuickstart.png?240504011455)](/cookbook/5.0/images/FunctionQuickstart.png?240504011455)
+[![](/cookbook/5.0/images/FunctionQuickstart.png?240505131914)](/cookbook/5.0/images/FunctionQuickstart.png?240505131914)
 
 {{< code-sp5 >}}
 
@@ -51,7 +51,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 A function can be limited to a range of X values.
 
-[![](/cookbook/5.0/images/FunctionLimitX.png?240504011455)](/cookbook/5.0/images/FunctionLimitX.png?240504011455)
+[![](/cookbook/5.0/images/FunctionLimitX.png?240505131914)](/cookbook/5.0/images/FunctionLimitX.png?240505131914)
 
 {{< code-sp5 >}}
 

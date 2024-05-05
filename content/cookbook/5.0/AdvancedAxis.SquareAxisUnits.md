@@ -4,9 +4,9 @@ Description: Axis rules can be put in place which force the vertical scale (unit
 URL: /cookbook/5.0/AdvancedAxis/SquareAxisUnits/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Advanced Axis Features", "SquareAxisUnits"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AdvancedAxis", "/cookbook/5.0/AdvancedAxis/SquareAxisUnits"]
-Date: 2024-05-04
-Version: ScottPlot 5.0.33
-Version: ScottPlot 5.0.33
+Date: 2024-05-05
+Version: ScottPlot 5.0.34
+Version: ScottPlot 5.0.34
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Axis rules can be put in place which force the vertical scale (units per pixel) to match the horizontal scale so circles always appear as circles and not stretched ellipses.
 
-[![](/cookbook/5.0/images/SquareAxisUnits.png?240504011455)](/cookbook/5.0/images/SquareAxisUnits.png?240504011455)
+[![](/cookbook/5.0/images/SquareAxisUnits.png?240505131914)](/cookbook/5.0/images/SquareAxisUnits.png?240505131914)
 
 {{< code-sp5 >}}
 

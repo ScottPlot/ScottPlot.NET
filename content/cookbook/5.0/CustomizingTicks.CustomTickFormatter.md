@@ -4,9 +4,9 @@ Description: Users can customize the logic used to create tick labels from tick 
 URL: /cookbook/5.0/CustomizingTicks/CustomTickFormatter/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Customizing Ticks", "Custom Tick Formatters"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/CustomizingTicks", "/cookbook/5.0/CustomizingTicks/CustomTickFormatter"]
-Date: 2024-05-04
-Version: ScottPlot 5.0.33
-Version: ScottPlot 5.0.33
+Date: 2024-05-05
+Version: ScottPlot 5.0.34
+Version: ScottPlot 5.0.34
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Users can customize the logic used to create tick labels from tick positions. Old versions of ScottPlot achieved this using a ManualTickPositions method.
 
-[![](/cookbook/5.0/images/CustomTickFormatter.png?240504011455)](/cookbook/5.0/images/CustomTickFormatter.png?240504011455)
+[![](/cookbook/5.0/images/CustomTickFormatter.png?240505131914)](/cookbook/5.0/images/CustomTickFormatter.png?240505131914)
 
 {{< code-sp5 >}}
 

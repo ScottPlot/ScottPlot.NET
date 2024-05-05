@@ -4,9 +4,9 @@ Description: OHLC charts use symbols to display price data (open, high, low, and
 URL: /cookbook/5.0/Finance/OhlcChart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Financial Plot", "OHLC Chart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Finance", "/cookbook/5.0/Finance/OhlcChart"]
-Date: 2024-05-04
-Version: ScottPlot 5.0.33
-Version: ScottPlot 5.0.33
+Date: 2024-05-05
+Version: ScottPlot 5.0.34
+Version: ScottPlot 5.0.34
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 OHLC charts use symbols to display price data (open, high, low, and close) for specific time ranges.
 
-[![](/cookbook/5.0/images/OhlcChart.png?240504011455)](/cookbook/5.0/images/OhlcChart.png?240504011455)
+[![](/cookbook/5.0/images/OhlcChart.png?240505131914)](/cookbook/5.0/images/OhlcChart.png?240505131914)
 
 {{< code-sp5 >}}
 

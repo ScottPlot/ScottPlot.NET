@@ -4,9 +4,9 @@ Description: Plot data values on a DataTime axes
 URL: /cookbook/5.0/DateTimeAxes/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "DateTime Axes"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/DateTimeAxes"]
-Date: 2024-05-04
-Version: ScottPlot 5.0.33
-Version: ScottPlot 5.0.33
+Date: 2024-05-05
+Version: ScottPlot 5.0.34
+Version: ScottPlot 5.0.34
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,7 +18,7 @@ ShowEditLink: false
 
 Axis tick labels can be displayed using a time format.
 
-[![](/cookbook/5.0/images/DateTimeAxisQuickstart.png?240504011455)](/cookbook/5.0/images/DateTimeAxisQuickstart.png?240504011455)
+[![](/cookbook/5.0/images/DateTimeAxisQuickstart.png?240505131914)](/cookbook/5.0/images/DateTimeAxisQuickstart.png?240505131914)
 
 {{< code-sp5 >}}
 
@@ -46,7 +46,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 DateTime axes are achieved using Microsoft's DateTime.ToOADate() and DateTime.FromOADate() methods to convert between dates and numeric values. Advanced users who wish to display data on DateTime axes may prefer to work with collections of doubles rather than collections of DateTimes.
 
-[![](/cookbook/5.0/images/DateTimeAxisMixed.png?240504011455)](/cookbook/5.0/images/DateTimeAxisMixed.png?240504011455)
+[![](/cookbook/5.0/images/DateTimeAxisMixed.png?240505131914)](/cookbook/5.0/images/DateTimeAxisMixed.png?240505131914)
 
 {{< code-sp5 >}}
 
@@ -93,7 +93,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Users can provide their own logic for customizing DateTime tick labels
 
-[![](/cookbook/5.0/images/DateTimeAxisCustomFormatter.png?240504011455)](/cookbook/5.0/images/DateTimeAxisCustomFormatter.png?240504011455)
+[![](/cookbook/5.0/images/DateTimeAxisCustomFormatter.png?240505131914)](/cookbook/5.0/images/DateTimeAxisCustomFormatter.png?240505131914)
 
 {{< code-sp5 >}}
 
@@ -115,6 +115,66 @@ myPlot.RenderManager.RenderStarting += (s, e) =>
         DateTime dt = DateTime.FromOADate(ticks[i].Position);
         string label = $"{dt:MMM} '{dt:yy}";
         ticks[i] = new Tick(ticks[i].Position, label);
+    }
+};
+
+myPlot.SavePng("demo.png", 400, 300);
+
+```
+
+{{< /code-sp5 >}}
+
+<hr class='my-5 invisible'>
+
+
+<h2><a href='/cookbook/5.0/DateTimeAxes/DateTimeAxisFixedIntervalTicks'>DateTime Axis Fixed Interval Ticks</a></h2>
+
+Make ticks render at fixed intervals. Optionally make the ticks render from a custom start date, rather than using the start date of the plot (e.g. to draw ticks on the hour every hour, or on the first of every month, etc).
+
+[![](/cookbook/5.0/images/DateTimeAxisFixedIntervalTicks.png?240505131914)](/cookbook/5.0/images/DateTimeAxisFixedIntervalTicks.png?240505131914)
+
+{{< code-sp5 >}}
+
+```cs
+ScottPlot.Plot myPlot = new();
+
+// Plot 24 hours sample DateTime data (1 point every minute)
+DateTime[] dates = Generate.ConsecutiveMinutes(24 * 60, new DateTime(2000, 1, 1, 2, 12, 0));
+double[] ys = Generate.RandomWalk(24 * 60);
+myPlot.Add.Scatter(dates, ys);
+var dtAx = myPlot.Axes.DateTimeTicksBottom();
+
+// Create fixed-intervals ticks, major ticks every 6 hours, minor ticks every hour
+dtAx.TickGenerator = new DateTimeFixedInterval(
+    new Hour(), 6,
+    new Hour(), 1,
+    // Here we provide a delegate to override when the ticks start. In this case, we want the majors to be
+    // 00:00, 06:00, 12:00, etc. and the minors to be on the hour, every hour, so we start at midnight.
+    // If you do not provide this delegate, the ticks will start at whatever the Min on the x-axis is.
+    // The major ticks might end up as 1:30am, 7:30am, etc, and the tick positions will be fixed on the plot
+    // when it is panned around.
+    dt => new DateTime(dt.Year, dt.Month, dt.Day));
+
+// Customise gridlines to make the ticks easier to see
+myPlot.Grid.XAxisStyle.MajorLineStyle.Color = Colors.Black.WithOpacity();
+myPlot.Grid.XAxisStyle.MajorLineStyle.Width = 2;
+
+myPlot.Grid.XAxisStyle.MinorLineStyle.Color = Colors.Gray.WithOpacity(0.25);
+myPlot.Grid.XAxisStyle.MinorLineStyle.Width = 1;
+myPlot.Grid.XAxisStyle.MinorLineStyle.Pattern = LinePattern.DenselyDashed;
+
+// Remove labels on minor ticks, otherwise there is a lot of tick label overlap
+myPlot.RenderManager.RenderStarting += (s, e) =>
+{
+    Tick[] ticks = myPlot.Axes.Bottom.TickGenerator.Ticks;
+    for (int i = 0; i < ticks.Length; i++)
+    {
+        if (ticks[i].IsMajor)
+        {
+            continue;
+        }
+
+        ticks[i] = new Tick(ticks[i].Position, "", ticks[i].IsMajor);
     }
 };
 

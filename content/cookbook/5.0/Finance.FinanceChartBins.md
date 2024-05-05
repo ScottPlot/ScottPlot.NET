@@ -4,9 +4,9 @@ Description: Finance charts can display price range information over arbitrary t
 URL: /cookbook/5.0/Finance/FinanceChartBins/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Financial Plot", "Finance Chart with Custom Time Bins"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Finance", "/cookbook/5.0/Finance/FinanceChartBins"]
-Date: 2024-05-04
-Version: ScottPlot 5.0.33
-Version: ScottPlot 5.0.33
+Date: 2024-05-05
+Version: ScottPlot 5.0.34
+Version: ScottPlot 5.0.34
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Finance charts can display price range information over arbitrary time scales.
 
-[![](/cookbook/5.0/images/FinanceChartBins.png?240504011455)](/cookbook/5.0/images/FinanceChartBins.png?240504011455)
+[![](/cookbook/5.0/images/FinanceChartBins.png?240505131914)](/cookbook/5.0/images/FinanceChartBins.png?240505131914)
 
 {{< code-sp5 >}}
 

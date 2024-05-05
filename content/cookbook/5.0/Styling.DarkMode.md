@@ -4,9 +4,9 @@ Description: Plots can be created using dark mode by setting the colors of major
 URL: /cookbook/5.0/Styling/DarkMode/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Styling Plots", "Dark Mode"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Styling", "/cookbook/5.0/Styling/DarkMode"]
-Date: 2024-05-04
-Version: ScottPlot 5.0.33
-Version: ScottPlot 5.0.33
+Date: 2024-05-05
+Version: ScottPlot 5.0.34
+Version: ScottPlot 5.0.34
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Plots can be created using dark mode by setting the colors of major plot components to ones consistent with a dark theme.
 
-[![](/cookbook/5.0/images/DarkMode.png?240504011455)](/cookbook/5.0/images/DarkMode.png?240504011455)
+[![](/cookbook/5.0/images/DarkMode.png?240505131914)](/cookbook/5.0/images/DarkMode.png?240505131914)
 
 {{< code-sp5 >}}
 

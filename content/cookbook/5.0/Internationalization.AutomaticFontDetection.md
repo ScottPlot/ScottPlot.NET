@@ -4,9 +4,9 @@ Description: The Plot's Style class contains a method which automatically sets t
 URL: /cookbook/5.0/Internationalization/AutomaticFontDetection/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Internationalization", "Automatic Font Detection"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Internationalization", "/cookbook/5.0/Internationalization/AutomaticFontDetection"]
-Date: 2024-05-04
-Version: ScottPlot 5.0.33
-Version: ScottPlot 5.0.33
+Date: 2024-05-05
+Version: ScottPlot 5.0.34
+Version: ScottPlot 5.0.34
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 The Plot's Style class contains a method which automatically sets the fonts of common plot objects to the font most likely able to display the characters they contain.
 
-[![](/cookbook/5.0/images/AutomaticFontDetection.png?240504011455)](/cookbook/5.0/images/AutomaticFontDetection.png?240504011455)
+[![](/cookbook/5.0/images/AutomaticFontDetection.png?240505131914)](/cookbook/5.0/images/AutomaticFontDetection.png?240505131914)
 
 {{< code-sp5 >}}
 

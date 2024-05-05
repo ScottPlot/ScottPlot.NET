@@ -4,9 +4,9 @@ Description: The quadratic half point path strategy allows scatter plots to be d
 URL: /cookbook/5.0/Scatter/ScatterQuad/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Scatter Plot", "Smooth Scatter without Overshoot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Scatter", "/cookbook/5.0/Scatter/ScatterQuad"]
-Date: 2024-05-04
-Version: ScottPlot 5.0.33
-Version: ScottPlot 5.0.33
+Date: 2024-05-05
+Version: ScottPlot 5.0.34
+Version: ScottPlot 5.0.34
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 The quadratic half point path strategy allows scatter plots to be displayed with smooth lines connecting points, but lines are eased in and out of points so they never 'overshoot' the values vertically.
 
-[![](/cookbook/5.0/images/ScatterQuad.png?240504011455)](/cookbook/5.0/images/ScatterQuad.png?240504011455)
+[![](/cookbook/5.0/images/ScatterQuad.png?240505131914)](/cookbook/5.0/images/ScatterQuad.png?240505131914)
 
 {{< code-sp5 >}}
 

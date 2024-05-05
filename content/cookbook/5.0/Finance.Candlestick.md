@@ -4,9 +4,9 @@ Description: Candlestick charts use symbols to display price data. The rectangle
 URL: /cookbook/5.0/Finance/Candlestick/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Financial Plot", "Candlestick Chart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Finance", "/cookbook/5.0/Finance/Candlestick"]
-Date: 2024-05-04
-Version: ScottPlot 5.0.33
-Version: ScottPlot 5.0.33
+Date: 2024-05-05
+Version: ScottPlot 5.0.34
+Version: ScottPlot 5.0.34
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Candlestick charts use symbols to display price data. The rectangle indicates open and close prices, and the center line indicates minimum and maximum price for the given time period. Color indicates whether the price increased or decreased between open and close.
 
-[![](/cookbook/5.0/images/Candlestick.png?240504011455)](/cookbook/5.0/images/Candlestick.png?240504011455)
+[![](/cookbook/5.0/images/Candlestick.png?240505131914)](/cookbook/5.0/images/Candlestick.png?240505131914)
 
 {{< code-sp5 >}}
 

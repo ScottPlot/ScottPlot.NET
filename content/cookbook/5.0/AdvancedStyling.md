@@ -4,9 +4,9 @@ Description: Features for users seeking extensive customization options.
 URL: /cookbook/5.0/AdvancedStyling/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Advanced Styling"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AdvancedStyling"]
-Date: 2024-05-04
-Version: ScottPlot 5.0.33
-Version: ScottPlot 5.0.33
+Date: 2024-05-05
+Version: ScottPlot 5.0.34
+Version: ScottPlot 5.0.34
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,7 +18,7 @@ ShowEditLink: false
 
 An image can be used for the background of the data area.
 
-[![](/cookbook/5.0/images/AdvancedStylingDataBackground.png?240504011455)](/cookbook/5.0/images/AdvancedStylingDataBackground.png?240504011455)
+[![](/cookbook/5.0/images/AdvancedStylingDataBackground.png?240505131914)](/cookbook/5.0/images/AdvancedStylingDataBackground.png?240505131914)
 
 {{< code-sp5 >}}
 
@@ -51,7 +51,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 An image can be used for the background of a figure.
 
-[![](/cookbook/5.0/images/AdvancedStylingFigureBackground.png?240504011455)](/cookbook/5.0/images/AdvancedStylingFigureBackground.png?240504011455)
+[![](/cookbook/5.0/images/AdvancedStylingFigureBackground.png?240505131914)](/cookbook/5.0/images/AdvancedStylingFigureBackground.png?240505131914)
 
 {{< code-sp5 >}}
 
@@ -92,7 +92,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Colors can be mixed to createa range of colors. This strategy uses linear RGB interpolation.
 
-[![](/cookbook/5.0/images/ColorInterpolation.png?240504011455)](/cookbook/5.0/images/ColorInterpolation.png?240504011455)
+[![](/cookbook/5.0/images/ColorInterpolation.png?240505131914)](/cookbook/5.0/images/ColorInterpolation.png?240505131914)
 
 {{< code-sp5 >}}
 

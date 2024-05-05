@@ -4,9 +4,9 @@ Description: Radial gauge labels will appear in the legend if they are assigned.
 URL: /cookbook/5.0/RadialGauge/RadialGaugeLegend/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Radial gauge", "Gauge Labels in Legend"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/RadialGauge", "/cookbook/5.0/RadialGauge/RadialGaugeLegend"]
-Date: 2024-05-04
-Version: ScottPlot 5.0.33
-Version: ScottPlot 5.0.33
+Date: 2024-05-05
+Version: ScottPlot 5.0.34
+Version: ScottPlot 5.0.34
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Radial gauge labels will appear in the legend if they are assigned. 
 
-[![](/cookbook/5.0/images/RadialGaugeLegend.png?240504011455)](/cookbook/5.0/images/RadialGaugeLegend.png?240504011455)
+[![](/cookbook/5.0/images/RadialGaugeLegend.png?240505131914)](/cookbook/5.0/images/RadialGaugeLegend.png?240505131914)
 
 {{< code-sp5 >}}
 
