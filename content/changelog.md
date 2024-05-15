@@ -8,6 +8,176 @@ Description: Release notes for every version of ScottPlot
 Release notes for every version of ScottPlot
 
 <section class='mb-5'>
+<h1 class='mb-0'>ScottPlot 5.0.35</h1>
+<div><i>NuGet packages published </i></div>
+<div class='mt-1'>
+<ul>
+<li>Legend: Added <code>Plot.ShowLegend()</code> overload that accepts an <code>Edge</code> for quickly adding a legend outside the data area (<a href="https://github.com/ScottPlot/ScottPlot/issues/3672">#3672</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3635">#3635</a>)
+</li>
+<li>Radar Plot: New plot type (also called a spider charts or star charts) for representing multi-axis data as a 2D shape on a circular axis system (<a href="https://github.com/ScottPlot/ScottPlot/issues/3457">#3457</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3780">#3780</a>) <a href="https://github.com/bclehmann"><strong>@bclehmann</strong></a>
+</li>
+<li>Coxcomb Plot: New plot type like a pie graph where the angle of slices is constant but the radii are not (<a href="https://github.com/ScottPlot/ScottPlot/issues/3457">#3457</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3780">#3780</a>) <a href="https://github.com/bclehmann"><strong>@bclehmann</strong></a>
+</li>
+<li>Axes: Added <code>LabelFormatter</code> property to <code>DateTimeAutomatic</code> for custom formatting of DateTime tick labels (<a href="https://github.com/ScottPlot/ScottPlot/issues/3783">#3783</a>) <a href="https://github.com/loyvsc"><strong>@loyvsc</strong></a>
+</li>
+<li>Rendering: Improve how backgrounds are drawn on on plots using a custom <code>ScaleFactor</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/3818">#3818</a>) <a href="https://github.com/MCF"><strong>@MCF</strong></a>
+</li>
+<li>Plot: Added <code>Plot.Clear&lt;T&gt;()</code> as an alias for <code>Plot.Remove&lt;T&gt;()</code> to remove all plottables of the given type (<a href="https://github.com/ScottPlot/ScottPlot/issues/3820">#3820</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3804">#3804</a>) <a href="https://github.com/CoderPM2011"><strong>@CoderPM2011</strong></a>
+</li>
+<li>Axes: Added <code>ScottPlot.AxisPanels.Experimental</code> namespace with examples in the demo app and cookbook (<a href="https://github.com/ScottPlot/ScottPlot/issues/3823">#3823</a>) <a href="https://github.com/EricEzaM"><strong>@EricEzaM</strong></a>
+</li>
+</ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/loyvsc'>@loyvsc</a>, <a href='https://github.com/MCF'>@MCF</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/EricEzaM'>@EricEzaM</a>, <a href='https://github.com/swharden'>@swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/loyvsc'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/MCF'><img src='https://scottplot.net/images/contributors/mcf.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/CoderPM2011'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/EricEzaM'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
+
+</section>
+<section class='mb-5'>
+<h1 class='mb-0'>ScottPlot 5.0.34</h1>
+<div><i>NuGet packages published 2024-05-05</i></div>
+<div class='mt-1'>
+<ul>
+<li>Axes: Added <code>AutoScale()</code> overloads that accept user-defined lists of plottables (<a href="https://github.com/ScottPlot/ScottPlot/issues/3776">#3776</a>) <a href="https://github.com/levipara"><strong>@levipara</strong></a>
+</li>
+<li>SignalConst: Properly implement range search to achieve extreme performance improvements for large datasets (<a href="https://github.com/ScottPlot/ScottPlot/issues/3778">#3778</a>) <a href="https://github.com/StendProg"><strong>@StendProg</strong></a> <a href="https://github.com/bclehmann"><strong>@bclehmann</strong></a> <a href="https://github.com/Cardroid"><strong>@Cardroid</strong></a>
+</li>
+<li>Ticks: Added options for minor ticks when using DateTime axes (<a href="https://github.com/ScottPlot/ScottPlot/issues/3779">#3779</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3408">#3408</a>) <a href="https://github.com/EricEzaM"><strong>@EricEzaM</strong></a>
+</li>
+<li>Label: Improved support for measurement of labels with null strings (<a href="https://github.com/ScottPlot/ScottPlot/issues/3736">#3736</a>) <a href="https://github.com/Or8e4m4n"><strong>@Or8e4m4n</strong></a>
+</li>
+</ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/levipara'>@levipara</a>, <a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/Cardroid'>@Cardroid</a>, <a href='https://github.com/EricEzaM'>@EricEzaM</a>, <a href='https://github.com/Or8e4m4n'>@Or8e4m4n</a>, <a href='https://github.com/swharden'>@swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/levipara'><img src='https://scottplot.net/images/contributors/levipara.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Cardroid'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/EricEzaM'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Or8e4m4n'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
+
+</section>
+<section class='mb-5'>
+<h1 class='mb-0'>ScottPlot 5.0.33</h1>
+<div><i>NuGet packages published 2024-05-04</i></div>
+<div class='mt-1'>
+<ul>
+<li>Markers: Reduced memory allocations and improved performance during rendering (<a href="https://github.com/ScottPlot/ScottPlot/issues/3767">#3767</a>) <a href="https://github.com/drolevar"><strong>@drolevar</strong></a>
+</li>
+<li>Axes: Prevent exceptions for conditions where tick generation produces no ticks (<a href="https://github.com/ScottPlot/ScottPlot/issues/3768">#3768</a>) <a href="https://github.com/drolevar"><strong>@drolevar</strong></a> <a href="https://github.com/bclehmann"><strong>@bclehmann</strong></a>
+</li>
+<li>Signal: Added an experimental signal source that uses caching of binned ranges to improve performance of large datasets (<a href="https://github.com/ScottPlot/ScottPlot/issues/3718">#3718</a>) <a href="https://github.com/Cardroid"><strong>@Cardroid</strong></a>
+</li>
+<li>Label: Added <code>Measure()</code> overloads to facilitate label size evaluation without requiring <code>SKPaint</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/3761">#3761</a>) <a href="https://github.com/aespitia"><strong>@aespitia</strong></a>
+</li>
+<li>Signal: Fix rendering artifacts for <code>List&lt;T&gt;</code> data sources introduced in version 5.0.31 (<a href="https://github.com/ScottPlot/ScottPlot/issues/3765">#3765</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3747">#3747</a>) <a href="https://github.com/Limula-PMA"><strong>@Limula-PMA</strong></a>
+</li>
+<li>Crosshair: Added options for a marker to be rendered at the intersection if <code>MarkerShape</code> is defined
+</li>
+<li>Label: Added <code>FontFile</code> and <code>SetTypeface()</code> to allow users to apply custom fonts (<a href="https://github.com/ScottPlot/ScottPlot/issues/3722">#3722</a>) <a href="https://github.com/kebox7"><strong>@kebox7</strong></a>
+</li>
+<li>SignalXY: Added <code>ConnectStyle</code> property to mimic scatter plots and allow for step display style (<a href="https://github.com/ScottPlot/ScottPlot/issues/3764">#3764</a>) <a href="https://github.com/kareem469"><strong>@kareem469</strong></a>
+</li>
+</ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/Cardroid'>@Cardroid</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/Limula-PMA'>@Limula-PMA</a>, <a href='https://github.com/kebox7'>@kebox7</a>, <a href='https://github.com/kareem469'>@kareem469</a>, <a href='https://github.com/swharden'>@swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/drolevar'><img src='https://scottplot.net/images/contributors/drolevar.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Cardroid'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/aespitia'><img src='https://scottplot.net/images/contributors/aespitia.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Limula-PMA'><img src='https://scottplot.net/images/contributors/limula-pma.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/kebox7'><img src='https://scottplot.net/images/contributors/kebox7.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/kareem469'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
+
+</section>
+<section class='mb-5'>
+<h1 class='mb-0'>ScottPlot 5.0.32</h1>
+<div><i>NuGet packages published 2024-05-01</i></div>
+<div class='mt-1'>
+<ul>
+<li>Image: Added support support conversion to/from pixel value arrays to facilitate differential image analysis and testing (<a href="https://github.com/ScottPlot/ScottPlot/issues/3748">#3748</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3727">#3727</a>)
+</li>
+<li>Layout: Improve measurement of vertical axis tick labels (<a href="https://github.com/ScottPlot/ScottPlot/issues/3736">#3736</a>) <a href="https://github.com/ebarnard"><strong>@ebarnard</strong></a>
+</li>
+<li>Annotation: Improved positioning of annotations containing many lines (<a href="https://github.com/ScottPlot/ScottPlot/issues/3749">#3749</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3700">#3700</a>) <a href="https://github.com/LerkLin"><strong>@LerkLin</strong></a>
+</li>
+<li>Label: Significantly improved precision of single and multi-line text measurement and alignment (<a href="https://github.com/ScottPlot/ScottPlot/issues/3700">#3700</a>)
+</li>
+<li>Axis Line: Set default line width to 1 which also improved default appearance of crosshair (<a href="https://github.com/ScottPlot/ScottPlot/issues/3752">#3752</a>) <a href="https://github.com/fdesordi"><strong>@fdesordi</strong></a>
+</li>
+<li>Rendering: Copy the plottable list inside the render loop to facilitate plottable list modification mid-render (<a href="https://github.com/ScottPlot/ScottPlot/issues/3753">#3753</a>) <a href="https://github.com/ZSYMAX"><strong>@ZSYMAX</strong></a>
+</li>
+<li>Controls: Exposed <code>ZoomRectangle.LineStyle</code> setter to support advanced customization of middle-click-drag zoom rectangle (<a href="https://github.com/ScottPlot/ScottPlot/issues/3754">#3754</a>) <a href="https://github.com/Graat"><strong>@Graat</strong></a>
+</li>
+<li>Markers: Separate <code>LineColor</code>, <code>LineWidth</code>, etc. from <code>OutlineColor</code>, <code>OutlineWidth</code>, etc. to allow separate customization of line-based vs. fill-based marker shapes (<a href="https://github.com/ScottPlot/ScottPlot/issues/3755">#3755</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3716">#3716</a>) <a href="https://github.com/CD-SailingPerf"><strong>@CD-SailingPerf</strong></a>
+</li>
+<li>Legend: Added <code>TightHorizontalWrapping</code> flag to allow items in horizontally oriented legends to wrap without aligning to columns (<a href="https://github.com/ScottPlot/ScottPlot/issues/3758">#3758</a>) <a href="https://github.com/MCF"><strong>@MCF</strong></a>
+</li>
+</ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/ebarnard'>@ebarnard</a>, <a href='https://github.com/LerkLin'>@LerkLin</a>, <a href='https://github.com/fdesordi'>@fdesordi</a>, <a href='https://github.com/ZSYMAX'>@ZSYMAX</a>, <a href='https://github.com/Graat'>@Graat</a>, <a href='https://github.com/CD-SailingPerf'>@CD-SailingPerf</a>, <a href='https://github.com/MCF'>@MCF</a>, <a href='https://github.com/swharden'>@swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/ebarnard'><img src='https://scottplot.net/images/contributors/ebarnard.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/LerkLin'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/fdesordi'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/ZSYMAX'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Graat'><img src='https://scottplot.net/images/contributors/graat.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/CD-SailingPerf'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/MCF'><img src='https://scottplot.net/images/contributors/mcf.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
+
+</section>
+<section class='mb-5'>
+<h1 class='mb-0'>ScottPlot 5.0.31</h1>
+<div><i>NuGet packages published 2024-04-27</i></div>
+<div class='mt-1'>
+<ul>
+<li>Arrow: Refactored the arrow system to support multiple arrow types including user-provided ones (<a href="https://github.com/ScottPlot/ScottPlot/issues/3745">#3745</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3697">#3697</a>)
+</li>
+<li>Color: Colors can be created from System.Drawing colors with <code>ScottPlot.Color.FromColor(System.Drawing.Color.Blue)</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/3745">#3745</a>)
+</li>
+<li>Signal and SignalXY: Added <code>YScale</code> parameter to display data vertically scaled by the specified fraction (<a href="https://github.com/ScottPlot/ScottPlot/issues/3711">#3711</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3708">#3708</a>) <a href="https://github.com/feichti92"><strong>@feichti92</strong></a>
+</li>
+<li>Generate: Added <code>ConsecutiveHours()</code>, <code>ConsecutiveDays()</code>, <code>ConsecutiveWeekdays()</code>, to replace <code>Generate.DateTime</code> methods (<a href="https://github.com/ScottPlot/ScottPlot/issues/3721">#3721</a>)
+</li>
+</ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/feichti92'>@feichti92</a>, <a href='https://github.com/swharden'>@swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/feichti92'><img src='https://scottplot.net/images/contributors/feichti92.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
+
+</section>
+<section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 5.0.30</h1>
 <div><i>NuGet packages published 2024-04-26</i></div>
 <div class='mt-1'>
@@ -22,24 +192,17 @@ Release notes for every version of ScottPlot
 </li>
 <li>Ticks: Improve tick distribution by using the <code>TickLabelStyle</code> font size to evaluate maximum tick label size (<a href="https://github.com/ScottPlot/ScottPlot/issues/3736">#3736</a>) <a href="https://github.com/ebarnard"><strong>@ebarnard</strong></a>
 </li>
-<li>Arrow: Refactored the arrow system to support multiple arrow types including user-provided ones (<a href="https://github.com/ScottPlot/ScottPlot/issues/3745">#3745</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3697">#3697</a>)
-</li>
-<li>Color: Colors can be created from System.Drawing colors with <code>ScottPlot.Color.FromColor(System.Drawing.Color.Blue)</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/3745">#3745</a>)
-</li>
-<li>Signal and SignalXY: Added <code>YScale</code> parameter to display data vertically scaled by the specified fraction (<a href="https://github.com/ScottPlot/ScottPlot/issues/3711">#3711</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3708">#3708</a>) <a href="https://github.com/feichti92"><strong>@feichti92</strong></a>
-</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/Kareltje1980'>@Kareltje1980</a>, <a href='https://github.com/rubenslkirchner'>@rubenslkirchner</a>, <a href='https://github.com/TenebrosFR'>@TenebrosFR</a>, <a href='https://github.com/ebarnard'>@ebarnard</a>, <a href='https://github.com/feichti92'>@feichti92</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/Kareltje1980'>@Kareltje1980</a>, <a href='https://github.com/rubenslkirchner'>@rubenslkirchner</a>, <a href='https://github.com/TenebrosFR'>@TenebrosFR</a>, <a href='https://github.com/ebarnard'>@ebarnard</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/Kareltje1980'><img src='https://scottplot.net/images/contributors/kareltje1980.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/rubenslkirchner'><img src='https://scottplot.net/images/contributors/rubenslkirchner.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/TenebrosFR'><img src='https://scottplot.net/images/contributors/tenebrosfr.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/ebarnard'><img src='https://scottplot.net/images/contributors/ebarnard.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/feichti92'><img src='https://scottplot.net/images/contributors/feichti92.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
