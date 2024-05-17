@@ -26,18 +26,42 @@ Release notes for every version of ScottPlot
 </li>
 <li>Axes: Added <code>ScottPlot.AxisPanels.Experimental</code> namespace with examples in the demo app and cookbook (<a href="https://github.com/ScottPlot/ScottPlot/issues/3823">#3823</a>) <a href="https://github.com/EricEzaM"><strong>@EricEzaM</strong></a>
 </li>
+<li>Rendering: Added <code>Plot.RenderManager.RemoveAction&lt;T&gt;()</code> for easily removing specific actions from the render sequence
+</li>
+<li>SVG: Fixed issue where plots would have a black outline in some browsers (<a href="https://github.com/ScottPlot/ScottPlot/issues/3709">#3709</a>) <a href="https://github.com/sproott"><strong>@sproott</strong></a> <a href="https://github.com/KennyTK"><strong>@KennyTK</strong></a> <a href="https://github.com/aespitia"><strong>@aespitia</strong></a>
+</li>
+<li>Controls: Add &quot;open in new window&quot; to right-click menu for WinForms and WPF controls (<a href="https://github.com/ScottPlot/ScottPlot/issues/3730">#3730</a>)
+</li>
+<li>Cookbook: Demonstrate how to achieve a frameless heatmap (<a href="https://github.com/ScottPlot/ScottPlot/issues/3828">#3828</a>) <a href="https://github.com/itsmygam3"><strong>@itsmygam3</strong></a>
+</li>
+<li>Cookbook: Demonstrate <code>Heatmap.CellAlignment</code> to achieve heatmaps that do not extend past their boundaries (<a href="https://github.com/ScottPlot/ScottPlot/issues/3806">#3806</a>) <a href="https://github.com/FengQingYangDad"><strong>@FengQingYangDad</strong></a>
+</li>
+<li>Signal: Improve support for datasets with no elements (<a href="https://github.com/ScottPlot/ScottPlot/issues/3797">#3797</a>)
+</li>
+<li>Scatter: Improved line clipping when fill mode is enabled (<a href="https://github.com/ScottPlot/ScottPlot/issues/3792">#3792</a>) <a href="https://github.com/BendRocks"><strong>@BendRocks</strong></a> <a href="https://github.com/CoderPM2011"><strong>@CoderPM2011</strong></a>
+</li>
+<li>Signal and Scatter: Added <code>MinRenderIndex</code> and <code>MaxRenderIndex</code> properties as shortcuts to those in the <code>Data</code> property (<a href="https://github.com/ScottPlot/ScottPlot/issues/3798">#3798</a>)
+</li>
+<li>Scatter: Improve appearance when <code>FillY</code> is enabled and all data is on one side of <code>FillYValue</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/3791">#3791</a>) <a href="https://github.com/BendRocks"><strong>@BendRocks</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/loyvsc'>@loyvsc</a>, <a href='https://github.com/MCF'>@MCF</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/EricEzaM'>@EricEzaM</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/loyvsc'>@loyvsc</a>, <a href='https://github.com/MCF'>@MCF</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/EricEzaM'>@EricEzaM</a>, <a href='https://github.com/sproott'>@sproott</a>, <a href='https://github.com/KennyTK'>@KennyTK</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/itsmygam3'>@itsmygam3</a>, <a href='https://github.com/FengQingYangDad'>@FengQingYangDad</a>, <a href='https://github.com/BendRocks'>@BendRocks</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/loyvsc'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/loyvsc'><img src='https://scottplot.net/images/contributors/loyvsc.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/MCF'><img src='https://scottplot.net/images/contributors/mcf.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/CoderPM2011'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/EricEzaM'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/CoderPM2011'><img src='https://scottplot.net/images/contributors/coderpm2011.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/EricEzaM'><img src='https://scottplot.net/images/contributors/ericezam.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/sproott'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/KennyTK'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/aespitia'><img src='https://scottplot.net/images/contributors/aespitia.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/itsmygam3'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/FengQingYangDad'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/BendRocks'><img src='https://scottplot.net/images/contributors/bendrocks.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
@@ -65,9 +89,9 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/levipara'><img src='https://scottplot.net/images/contributors/levipara.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/Cardroid'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/EricEzaM'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/Or8e4m4n'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Cardroid'><img src='https://scottplot.net/images/contributors/cardroid.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/EricEzaM'><img src='https://scottplot.net/images/contributors/ericezam.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Or8e4m4n'><img src='https://scottplot.net/images/contributors/or8e4m4n.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
@@ -102,11 +126,11 @@ Release notes for every version of ScottPlot
 <div class='text-center'>
 <a href='https://github.com/drolevar'><img src='https://scottplot.net/images/contributors/drolevar.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/Cardroid'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Cardroid'><img src='https://scottplot.net/images/contributors/cardroid.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/aespitia'><img src='https://scottplot.net/images/contributors/aespitia.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Limula-PMA'><img src='https://scottplot.net/images/contributors/limula-pma.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/kebox7'><img src='https://scottplot.net/images/contributors/kebox7.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/kareem469'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/kareem469'><img src='https://scottplot.net/images/contributors/kareem469.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
@@ -142,11 +166,11 @@ Release notes for every version of ScottPlot
 </div>
 <div class='text-center'>
 <a href='https://github.com/ebarnard'><img src='https://scottplot.net/images/contributors/ebarnard.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/LerkLin'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/fdesordi'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/ZSYMAX'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/LerkLin'><img src='https://scottplot.net/images/contributors/lerklin.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/fdesordi'><img src='https://scottplot.net/images/contributors/fdesordi.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/ZSYMAX'><img src='https://scottplot.net/images/contributors/zsymax.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Graat'><img src='https://scottplot.net/images/contributors/graat.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/CD-SailingPerf'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/CD-SailingPerf'><img src='https://scottplot.net/images/contributors/cd-sailingperf.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/MCF'><img src='https://scottplot.net/images/contributors/mcf.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
