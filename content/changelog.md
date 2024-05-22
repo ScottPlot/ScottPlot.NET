@@ -50,11 +50,13 @@ Release notes for every version of ScottPlot
 </li>
 <li>Controls: Made axis locking methods <code>virtual</code> inside <code>InputBindings</code> to facilitate custom behavior (<a href="https://github.com/ScottPlot/ScottPlot/issues/3838">#3838</a>) <a href="https://github.com/JinjieZhao"><strong>@JinjieZhao</strong></a>
 </li>
+<li>Fonts: Improved support for true-type font files and custom typefaces (<a href="https://github.com/ScottPlot/ScottPlot/issues/3841">#3841</a>) <a href="https://github.com/kebox7"><strong>@kebox7</strong></a> <a href="https://github.com/bclehmann"><strong>@bclehmann</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/loyvsc'>@loyvsc</a>, <a href='https://github.com/MCF'>@MCF</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/EricEzaM'>@EricEzaM</a>, <a href='https://github.com/sproott'>@sproott</a>, <a href='https://github.com/KennyTK'>@KennyTK</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/itsmygam3'>@itsmygam3</a>, <a href='https://github.com/FengQingYangDad'>@FengQingYangDad</a>, <a href='https://github.com/BendRocks'>@BendRocks</a>, <a href='https://github.com/Giviruk'>@Giviruk</a>, <a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/JinjieZhao'>@JinjieZhao</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/loyvsc'>@loyvsc</a>, <a href='https://github.com/MCF'>@MCF</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/EricEzaM'>@EricEzaM</a>, <a href='https://github.com/sproott'>@sproott</a>, <a href='https://github.com/KennyTK'>@KennyTK</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/itsmygam3'>@itsmygam3</a>, <a href='https://github.com/FengQingYangDad'>@FengQingYangDad</a>, <a href='https://github.com/BendRocks'>@BendRocks</a>, <a href='https://github.com/Giviruk'>@Giviruk</a>, <a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/JinjieZhao'>@JinjieZhao</a>, <a href='https://github.com/kebox7'>@kebox7</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -70,7 +72,8 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/BendRocks'><img src='https://scottplot.net/images/contributors/bendrocks.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Giviruk'><img src='https://scottplot.net/images/contributors/giviruk.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/drolevar'><img src='https://scottplot.net/images/contributors/drolevar.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/JinjieZhao'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/JinjieZhao'><img src='https://scottplot.net/images/contributors/jinjiezhao.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/kebox7'><img src='https://scottplot.net/images/contributors/kebox7.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
