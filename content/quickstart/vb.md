@@ -34,11 +34,8 @@ plt.SavePng("quickstart.png", 600, 400)
 Public Class Form1
     Public Sub New()
         InitializeComponent()
-
         Dim xs = New Double() { 1, 2, 3, 4, 5 }
         Dim ys = New Double() { 1, 4, 9, 16, 25 }
-
-        Dim plt = New ScottPlot.Plot()
         FormsPlot1.Plot.Add.Scatter(xs, ys)
         FormsPlot1.Refresh()
     End Sub
