@@ -22,7 +22,7 @@ Users with questions about ScottPlot are encouraged to investigate the following
 
 * [**Creating a new GitHub Issue**](https://github.com/ScottPlot/ScottPlot/issues) is the recommended way to ask questions about ScottPlot.
 
-* [**Join the ScottPlot Discord**](http://localhost:1313/discord/) to engage in conversation related to ScottPlot, and questions are welcome!
+* [**Join the ScottPlot Discord**](https://scottplot.net/discord/) to engage in conversation related to ScottPlot, and questions are welcome!
 
 * [**Users may contact Scott directly**](https://swharden.com/about/#contact) but this form of communication is typically discouraged for general questions because sharing your question publicly allows other members of the open-source community to answer faster than I may be able to, and the public discussion may benefit others in the future who have a similar question.
 
