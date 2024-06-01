@@ -4,8 +4,6 @@ Description: How to plot data using ScottPlot in a VB.NET application
 date: 2023-12-13
 ---
 
-{{< banner-sp5 >}}
-
 # Visual Basic Quickstart
 
 **Step 1:** Install the [`ScottPlot`](https://www.nuget.org/packages/ScottPlot) NuGet package
@@ -21,7 +19,7 @@ Dim ys = New Double() { 1, 4, 9, 16, 25 }
 Dim plt = New ScottPlot.Plot()
 plt.Add.Scatter(xs, ys)
 
-plt.SaveFig("quickstart.png")
+plt.SavePng("quickstart.png", 600, 400)
 ```
 
 {{< /code-sp5 >}}
