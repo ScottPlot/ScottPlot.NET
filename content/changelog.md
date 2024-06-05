@@ -52,11 +52,25 @@ Release notes for every version of ScottPlot
 </li>
 <li>Fonts: Improved support for true-type font files and custom typefaces (<a href="https://github.com/ScottPlot/ScottPlot/issues/3841">#3841</a>) <a href="https://github.com/kebox7"><strong>@kebox7</strong></a> <a href="https://github.com/bclehmann"><strong>@bclehmann</strong></a>
 </li>
+<li>Axis: Simplified strategy for achieving shared axis limits between multiple controls as seen in the demo application (<a href="https://github.com/ScottPlot/ScottPlot/issues/3873">#3873</a>) <a href="https://github.com/StendProg"><strong>@StendProg</strong></a>
+</li>
+<li>Controls: Improved <code>Plot.Interactions.Disable()</code> behavior so interactivity can be restored with <code>Plot.Interactions.Enable()</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/3879">#3879</a>) <a href="https://github.com/StendProg"><strong>@StendProg</strong></a> <a href="https://github.com/KroMignon"><strong>@KroMignon</strong></a>
+</li>
+<li>Controls: Improved mouse zoom behavior for plots with custom scale factors (<a href="https://github.com/ScottPlot/ScottPlot/issues/3887">#3887</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3886">#3886</a>) <a href="https://github.com/BrianAtZetica"><strong>@BrianAtZetica</strong></a>
+</li>
+<li>Text: Improve support for text objects containing null strings (<a href="https://github.com/ScottPlot/ScottPlot/issues/3892">#3892</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3861">#3861</a>) <a href="https://github.com/sdpenner"><strong>@sdpenner</strong></a>
+</li>
+<li>Controls: Improve behavior of Alt + Left-Click-Drag zoom rectangle (<a href="https://github.com/ScottPlot/ScottPlot/issues/3896">#3896</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3845">#3845</a>) <a href="https://github.com/MCF"><strong>@MCF</strong></a>
+</li>
+<li>Label: Improve support for text positioning when custom offsets are in use (<a href="https://github.com/ScottPlot/ScottPlot/issues/3898">#3898</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3865">#3865</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3836">#3836</a>) <a href="https://github.com/ValeraTychov"><strong>@ValeraTychov</strong></a>, <a href="https://github.com/bclehmann"><strong>@bclehmann</strong></a>, <a href="https://github.com/VibrationAnalystCN"><strong>@VibrationAnalystCN</strong></a>
+</li>
+<li>Avalonia: Enable <code>Focusable</code> to improve support for passing keyboard events (<a href="https://github.com/ScottPlot/ScottPlot/issues/3899">#3899</a>) <a href="https://github.com/bclehmann"><strong>@bclehmann</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/loyvsc'>@loyvsc</a>, <a href='https://github.com/MCF'>@MCF</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/EricEzaM'>@EricEzaM</a>, <a href='https://github.com/sproott'>@sproott</a>, <a href='https://github.com/KennyTK'>@KennyTK</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/itsmygam3'>@itsmygam3</a>, <a href='https://github.com/FengQingYangDad'>@FengQingYangDad</a>, <a href='https://github.com/BendRocks'>@BendRocks</a>, <a href='https://github.com/Giviruk'>@Giviruk</a>, <a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/JinjieZhao'>@JinjieZhao</a>, <a href='https://github.com/kebox7'>@kebox7</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/loyvsc'>@loyvsc</a>, <a href='https://github.com/MCF'>@MCF</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/EricEzaM'>@EricEzaM</a>, <a href='https://github.com/sproott'>@sproott</a>, <a href='https://github.com/KennyTK'>@KennyTK</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/itsmygam3'>@itsmygam3</a>, <a href='https://github.com/FengQingYangDad'>@FengQingYangDad</a>, <a href='https://github.com/BendRocks'>@BendRocks</a>, <a href='https://github.com/Giviruk'>@Giviruk</a>, <a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/JinjieZhao'>@JinjieZhao</a>, <a href='https://github.com/kebox7'>@kebox7</a>, <a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/KroMignon'>@KroMignon</a>, <a href='https://github.com/BrianAtZetica'>@BrianAtZetica</a>, <a href='https://github.com/sdpenner'>@sdpenner</a>, <a href='https://github.com/ValeraTychov'>@ValeraTychov</a>, <a href='https://github.com/VibrationAnalystCN'>@VibrationAnalystCN</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -74,6 +88,12 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/drolevar'><img src='https://scottplot.net/images/contributors/drolevar.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/JinjieZhao'><img src='https://scottplot.net/images/contributors/jinjiezhao.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/kebox7'><img src='https://scottplot.net/images/contributors/kebox7.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/KroMignon'><img src='https://scottplot.net/images/contributors/kromignon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/BrianAtZetica'><img src='https://scottplot.net/images/contributors/brianatzetica.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/sdpenner'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/ValeraTychov'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/VibrationAnalystCN'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
