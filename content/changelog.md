@@ -68,11 +68,15 @@ Release notes for every version of ScottPlot
 </li>
 <li>ImageMarker: New plot type for displaying an image at a point (<a href="https://github.com/ScottPlot/ScottPlot/issues/3904">#3904</a>) <a href="https://github.com/levipara"><strong>@levipara</strong></a>
 </li>
+<li>SignalXY: Added <code>GetNearestX()</code> to the data source to help locate the point closest to the cursor's X position (<a href="https://github.com/ScottPlot/ScottPlot/issues/3807">#3807</a>) <a href="https://github.com/cataclism"><strong>@cataclism</strong></a>
+</li>
+<li>Scatter: Added <code>GetNearestX()</code> to the data source to help locate the point closest to the cursor's X position (<a href="https://github.com/ScottPlot/ScottPlot/issues/3807">#3807</a>) <a href="https://github.com/MatKinPro"><strong>@MatKinPro</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/loyvsc'>@loyvsc</a>, <a href='https://github.com/MCF'>@MCF</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/EricEzaM'>@EricEzaM</a>, <a href='https://github.com/sproott'>@sproott</a>, <a href='https://github.com/KennyTK'>@KennyTK</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/itsmygam3'>@itsmygam3</a>, <a href='https://github.com/FengQingYangDad'>@FengQingYangDad</a>, <a href='https://github.com/BendRocks'>@BendRocks</a>, <a href='https://github.com/Giviruk'>@Giviruk</a>, <a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/JinjieZhao'>@JinjieZhao</a>, <a href='https://github.com/kebox7'>@kebox7</a>, <a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/KroMignon'>@KroMignon</a>, <a href='https://github.com/BrianAtZetica'>@BrianAtZetica</a>, <a href='https://github.com/sdpenner'>@sdpenner</a>, <a href='https://github.com/ValeraTychov'>@ValeraTychov</a>, <a href='https://github.com/VibrationAnalystCN'>@VibrationAnalystCN</a>, <a href='https://github.com/levipara'>@levipara</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/loyvsc'>@loyvsc</a>, <a href='https://github.com/MCF'>@MCF</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/EricEzaM'>@EricEzaM</a>, <a href='https://github.com/sproott'>@sproott</a>, <a href='https://github.com/KennyTK'>@KennyTK</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/itsmygam3'>@itsmygam3</a>, <a href='https://github.com/FengQingYangDad'>@FengQingYangDad</a>, <a href='https://github.com/BendRocks'>@BendRocks</a>, <a href='https://github.com/Giviruk'>@Giviruk</a>, <a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/JinjieZhao'>@JinjieZhao</a>, <a href='https://github.com/kebox7'>@kebox7</a>, <a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/KroMignon'>@KroMignon</a>, <a href='https://github.com/BrianAtZetica'>@BrianAtZetica</a>, <a href='https://github.com/sdpenner'>@sdpenner</a>, <a href='https://github.com/ValeraTychov'>@ValeraTychov</a>, <a href='https://github.com/VibrationAnalystCN'>@VibrationAnalystCN</a>, <a href='https://github.com/levipara'>@levipara</a>, <a href='https://github.com/cataclism'>@cataclism</a>, <a href='https://github.com/MatKinPro'>@MatKinPro</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -97,6 +101,8 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/ValeraTychov'><img src='https://scottplot.net/images/contributors/valeratychov.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/VibrationAnalystCN'><img src='https://scottplot.net/images/contributors/vibrationanalystcn.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/levipara'><img src='https://scottplot.net/images/contributors/levipara.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/cataclism'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/MatKinPro'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
