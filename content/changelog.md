@@ -72,6 +72,8 @@ Release notes for every version of ScottPlot
 </li>
 <li>Scatter: Added <code>GetNearestX()</code> to the data source to help locate the point closest to the cursor's X position (<a href="https://github.com/ScottPlot/ScottPlot/issues/3807">#3807</a>) <a href="https://github.com/MatKinPro"><strong>@MatKinPro</strong></a>
 </li>
+<li>Controls: Disable middle-click-drag zooming on axes which have no data (<a href="https://github.com/ScottPlot/ScottPlot/issues/3810">#3810</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3897">#3897</a>) <a href="https://github.com/MCF"><strong>@MCF</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
@@ -101,8 +103,8 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/ValeraTychov'><img src='https://scottplot.net/images/contributors/valeratychov.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/VibrationAnalystCN'><img src='https://scottplot.net/images/contributors/vibrationanalystcn.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/levipara'><img src='https://scottplot.net/images/contributors/levipara.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/cataclism'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/MatKinPro'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/cataclism'><img src='https://scottplot.net/images/contributors/cataclism.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/MatKinPro'><img src='https://scottplot.net/images/contributors/matkinpro.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
