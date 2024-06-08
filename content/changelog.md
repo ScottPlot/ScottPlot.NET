@@ -76,11 +76,19 @@ Release notes for every version of ScottPlot
 </li>
 <li>DataLogger: Create <code>Add()</code> overloads which accept fixed-length arrays (<a href="https://github.com/ScottPlot/ScottPlot/issues/3555">#3555</a>) <a href="https://github.com/h25019871990"><strong>@h25019871990</strong></a>
 </li>
+<li>SignalXY: Ensure the final point is always drawn in high density mode (<a href="https://github.com/ScottPlot/ScottPlot/issues/3812">#3812</a>)
+</li>
+<li>Axes: Improved exception messages when calling <code>Zoom()</code> methods with invalid scale factors (<a href="https://github.com/ScottPlot/ScottPlot/issues/3813">#3813</a>) <a href="https://github.com/KennyTK"><strong>@KennyTK</strong></a>
+</li>
+<li>WinForms: Exposed <code>SKControl</code> so users may bind to its events (<a href="https://github.com/ScottPlot/ScottPlot/issues/3819">#3819</a>) <a href="https://github.com/CD-SailingPerf"><strong>@CD-SailingPerf</strong></a>
+</li>
+<li>Scatter: Added support for <code>Scale</code> and <code>Offset</code> properties (<a href="https://github.com/ScottPlot/ScottPlot/issues/3835">#3835</a>) <a href="https://github.com/bukkideme"><strong>@bukkideme</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/loyvsc'>@loyvsc</a>, <a href='https://github.com/MCF'>@MCF</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/EricEzaM'>@EricEzaM</a>, <a href='https://github.com/sproott'>@sproott</a>, <a href='https://github.com/KennyTK'>@KennyTK</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/itsmygam3'>@itsmygam3</a>, <a href='https://github.com/FengQingYangDad'>@FengQingYangDad</a>, <a href='https://github.com/BendRocks'>@BendRocks</a>, <a href='https://github.com/Giviruk'>@Giviruk</a>, <a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/JinjieZhao'>@JinjieZhao</a>, <a href='https://github.com/kebox7'>@kebox7</a>, <a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/KroMignon'>@KroMignon</a>, <a href='https://github.com/BrianAtZetica'>@BrianAtZetica</a>, <a href='https://github.com/sdpenner'>@sdpenner</a>, <a href='https://github.com/ValeraTychov'>@ValeraTychov</a>, <a href='https://github.com/VibrationAnalystCN'>@VibrationAnalystCN</a>, <a href='https://github.com/levipara'>@levipara</a>, <a href='https://github.com/cataclism'>@cataclism</a>, <a href='https://github.com/MatKinPro'>@MatKinPro</a>, <a href='https://github.com/h25019871990'>@h25019871990</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/loyvsc'>@loyvsc</a>, <a href='https://github.com/MCF'>@MCF</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/EricEzaM'>@EricEzaM</a>, <a href='https://github.com/sproott'>@sproott</a>, <a href='https://github.com/KennyTK'>@KennyTK</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/itsmygam3'>@itsmygam3</a>, <a href='https://github.com/FengQingYangDad'>@FengQingYangDad</a>, <a href='https://github.com/BendRocks'>@BendRocks</a>, <a href='https://github.com/Giviruk'>@Giviruk</a>, <a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/JinjieZhao'>@JinjieZhao</a>, <a href='https://github.com/kebox7'>@kebox7</a>, <a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/KroMignon'>@KroMignon</a>, <a href='https://github.com/BrianAtZetica'>@BrianAtZetica</a>, <a href='https://github.com/sdpenner'>@sdpenner</a>, <a href='https://github.com/ValeraTychov'>@ValeraTychov</a>, <a href='https://github.com/VibrationAnalystCN'>@VibrationAnalystCN</a>, <a href='https://github.com/levipara'>@levipara</a>, <a href='https://github.com/cataclism'>@cataclism</a>, <a href='https://github.com/MatKinPro'>@MatKinPro</a>, <a href='https://github.com/h25019871990'>@h25019871990</a>, <a href='https://github.com/CD-SailingPerf'>@CD-SailingPerf</a>, <a href='https://github.com/bukkideme'>@bukkideme</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -107,7 +115,9 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/levipara'><img src='https://scottplot.net/images/contributors/levipara.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/cataclism'><img src='https://scottplot.net/images/contributors/cataclism.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/MatKinPro'><img src='https://scottplot.net/images/contributors/matkinpro.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/h25019871990'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/h25019871990'><img src='https://scottplot.net/images/contributors/h25019871990.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/CD-SailingPerf'><img src='https://scottplot.net/images/contributors/cd-sailingperf.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/bukkideme'><img src='https://scottplot.net/images/contributors/bukkideme.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
