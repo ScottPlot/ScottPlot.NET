@@ -94,6 +94,8 @@ Release notes for every version of ScottPlot
 </li>
 <li>SignalXY: Improved appearance of rotated plots when low density mode is in use (<a href="https://github.com/ScottPlot/ScottPlot/issues/3921">#3921</a>) <a href="https://github.com/BrianAtZetica"><strong>@BrianAtZetica</strong></a>
 </li>
+<li>Heatmap: Added <code>ManualRange</code> so users can specify a range spanned by the colormap (<a href="https://github.com/ScottPlot/ScottPlot/issues/3922">#3922</a>) <a href="https://github.com/sdpenner"><strong>@sdpenner</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
