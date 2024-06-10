@@ -76,7 +76,7 @@ Release notes for every version of ScottPlot
 </li>
 <li>DataLogger: Create <code>Add()</code> overloads which accept fixed-length arrays (<a href="https://github.com/ScottPlot/ScottPlot/issues/3555">#3555</a>) <a href="https://github.com/h25019871990"><strong>@h25019871990</strong></a>
 </li>
-<li>SignalXY: Ensure the final point is always drawn in high density mode (<a href="https://github.com/ScottPlot/ScottPlot/issues/3812">#3812</a>)
+<li>SignalXY: Ensure the final point is always drawn in high density mode (<a href="https://github.com/ScottPlot/ScottPlot/issues/3812">#3812</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3812">#3812</a>)
 </li>
 <li>Axes: Improved exception messages when calling <code>Zoom()</code> methods with invalid scale factors (<a href="https://github.com/ScottPlot/ScottPlot/issues/3813">#3813</a>) <a href="https://github.com/KennyTK"><strong>@KennyTK</strong></a>
 </li>
@@ -89,6 +89,10 @@ Release notes for every version of ScottPlot
 <li>Heatmap: Exposed <code>CellWidth</code> and <code>CellHeight</code> as an alternative sizing strategy to setting <code>Extent</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/3869">#3869</a>) <a href="https://github.com/alexisvrignaud"><strong>@alexisvrignaud</strong></a>
 </li>
 <li>ImageRect: New plot type that places an image inside a defined rectangle on the plot (<a href="https://github.com/ScottPlot/ScottPlot/issues/3870">#3870</a>) <a href="https://github.com/sdpenner"><strong>@sdpenner</strong></a>
+</li>
+<li>Axis Rules: Improved behavior of snapping rules and improve smoothness of panning rules (<a href="https://github.com/ScottPlot/ScottPlot/issues/3919">#3919</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3547">#3547</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3701">#3701</a>) <a href="https://github.com/BrianAtZetica"><strong>@BrianAtZetica</strong></a>
+</li>
+<li>SignalXY: Improved appearance of rotated plots when low density mode is in use (<a href="https://github.com/ScottPlot/ScottPlot/issues/3921">#3921</a>) <a href="https://github.com/BrianAtZetica"><strong>@BrianAtZetica</strong></a>
 </li>
 </ul>
 </div>
@@ -124,7 +128,7 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/h25019871990'><img src='https://scottplot.net/images/contributors/h25019871990.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/CD-SailingPerf'><img src='https://scottplot.net/images/contributors/cd-sailingperf.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/bukkideme'><img src='https://scottplot.net/images/contributors/bukkideme.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/alexisvrignaud'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/alexisvrignaud'><img src='https://scottplot.net/images/contributors/alexisvrignaud.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
