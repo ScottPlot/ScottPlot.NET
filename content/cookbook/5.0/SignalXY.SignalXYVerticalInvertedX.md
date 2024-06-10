@@ -4,9 +4,9 @@ Description: Demonstrates how to display a rotated SignalXY plot (so it goes fro
 URL: /cookbook/5.0/SignalXY/SignalXYVerticalInvertedX/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "SignalXY Plot", "Vertical SignalXY with Inverted X Axis"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/SignalXY", "/cookbook/5.0/SignalXY/SignalXYVerticalInvertedX"]
-Date: 2024-05-05
-Version: ScottPlot 5.0.34
-Version: ScottPlot 5.0.34
+Date: 2024-06-10
+Version: ScottPlot 5.0.35
+Version: ScottPlot 5.0.35
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Demonstrates how to display a rotated SignalXY plot (so it goes from bottom to top) which is also displayed on an inverted horizontal axis (where positive values are on the left).
 
-[![](/cookbook/5.0/images/SignalXYVerticalInvertedX.png?240505131914)](/cookbook/5.0/images/SignalXYVerticalInvertedX.png?240505131914)
+[![](/cookbook/5.0/images/SignalXYVerticalInvertedX.png?240610190353)](/cookbook/5.0/images/SignalXYVerticalInvertedX.png?240610190353)
 
 {{< code-sp5 >}}
 

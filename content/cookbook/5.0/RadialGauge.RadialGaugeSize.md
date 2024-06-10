@@ -4,9 +4,9 @@ Description: The empty space between gauges can be adjusted as a fraction of the
 URL: /cookbook/5.0/RadialGauge/RadialGaugeSize/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Radial gauge", "Gauge Size"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/RadialGauge", "/cookbook/5.0/RadialGauge/RadialGaugeSize"]
-Date: 2024-05-05
-Version: ScottPlot 5.0.34
-Version: ScottPlot 5.0.34
+Date: 2024-06-10
+Version: ScottPlot 5.0.35
+Version: ScottPlot 5.0.35
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 The empty space between gauges can be adjusted as a fraction of their width. 
 
-[![](/cookbook/5.0/images/RadialGaugeSize.png?240505131914)](/cookbook/5.0/images/RadialGaugeSize.png?240505131914)
+[![](/cookbook/5.0/images/RadialGaugeSize.png?240610190353)](/cookbook/5.0/images/RadialGaugeSize.png?240610190353)
 
 {{< code-sp5 >}}
 

@@ -4,9 +4,9 @@ Description: FillY plots display the vertical range between two Y values at defi
 URL: /cookbook/5.0/FillY/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "FillY plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/FillY"]
-Date: 2024-05-05
-Version: ScottPlot 5.0.34
-Version: ScottPlot 5.0.34
+Date: 2024-06-10
+Version: ScottPlot 5.0.35
+Version: ScottPlot 5.0.35
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,7 +18,7 @@ ShowEditLink: false
 
 FillY plots can be created from X, Y1, and Y2 arrays.
 
-[![](/cookbook/5.0/images/FillYFromArrays.png?240505131914)](/cookbook/5.0/images/FillYFromArrays.png?240505131914)
+[![](/cookbook/5.0/images/FillYFromArrays.png?240610190353)](/cookbook/5.0/images/FillYFromArrays.png?240610190353)
 
 {{< code-sp5 >}}
 
@@ -51,7 +51,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 FillY plots can be created from two scatter plots that share the same X values.
 
-[![](/cookbook/5.0/images/FillYFromScatters.png?240505131914)](/cookbook/5.0/images/FillYFromScatters.png?240505131914)
+[![](/cookbook/5.0/images/FillYFromScatters.png?240610190353)](/cookbook/5.0/images/FillYFromScatters.png?240610190353)
 
 {{< code-sp5 >}}
 
@@ -88,7 +88,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 FillY plots can be created from data of any type if a conversion function is supplied.
 
-[![](/cookbook/5.0/images/Function.png?240505131914)](/cookbook/5.0/images/Function.png?240505131914)
+[![](/cookbook/5.0/images/Function.png?240610190353)](/cookbook/5.0/images/Function.png?240610190353)
 
 {{< code-sp5 >}}
 
@@ -127,7 +127,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 FillY plots can be customized using public properties.
 
-[![](/cookbook/5.0/images/Styling.png?240505131914)](/cookbook/5.0/images/Styling.png?240505131914)
+[![](/cookbook/5.0/images/Styling.png?240610190353)](/cookbook/5.0/images/Styling.png?240610190353)
 
 {{< code-sp5 >}}
 

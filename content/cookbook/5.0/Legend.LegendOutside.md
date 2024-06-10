@@ -1,12 +1,12 @@
 ---
 Title: Legend Outside the Plot - ScottPlot 5.0 Cookbook
-Description: The default legend can be hidden so that it may be added into a legend panel and displayed outside the data area.
+Description: Use the ShowLegend() overload that accepts an Edge to display the legend outside the data area.
 URL: /cookbook/5.0/Legend/LegendOutside/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Configuring Legends", "Legend Outside the Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Legend", "/cookbook/5.0/Legend/LegendOutside"]
-Date: 2024-05-05
-Version: ScottPlot 5.0.34
-Version: ScottPlot 5.0.34
+Date: 2024-06-10
+Version: ScottPlot 5.0.35
+Version: ScottPlot 5.0.35
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -14,9 +14,9 @@ ShowEditLink: false
 # Legend Outside the Plot
 
 
-The default legend can be hidden so that it may be added into a legend panel and displayed outside the data area.
+Use the ShowLegend() overload that accepts an Edge to display the legend outside the data area.
 
-[![](/cookbook/5.0/images/LegendOutside.png?240505131914)](/cookbook/5.0/images/LegendOutside.png?240505131914)
+[![](/cookbook/5.0/images/LegendOutside.png?240610190353)](/cookbook/5.0/images/LegendOutside.png?240610190353)
 
 {{< code-sp5 >}}
 
@@ -29,17 +29,7 @@ var sig2 = myPlot.Add.Signal(Generate.Cos());
 sig1.LegendText = "Sine";
 sig2.LegendText = "Cosine";
 
-// hide the default legend
-myPlot.HideLegend();
-
-// display the legend in a LegendPanel outside the plot
-ScottPlot.Panels.LegendPanel pan = new(myPlot.Legend)
-{
-    Edge = Edge.Right,
-    Alignment = Alignment.UpperCenter,
-};
-
-myPlot.Axes.AddPanel(pan);
+myPlot.ShowLegend(Edge.Right);
 
 myPlot.SavePng("demo.png", 400, 300);
 

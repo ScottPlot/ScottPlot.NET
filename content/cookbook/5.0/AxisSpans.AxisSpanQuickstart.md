@@ -4,9 +4,9 @@ Description: Axis spans label a range of an axis. Vertical spans shade the full 
 URL: /cookbook/5.0/AxisSpans/AxisSpanQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Axis Spans", "Axis Span Quickstart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AxisSpans", "/cookbook/5.0/AxisSpans/AxisSpanQuickstart"]
-Date: 2024-05-05
-Version: ScottPlot 5.0.34
-Version: ScottPlot 5.0.34
+Date: 2024-06-10
+Version: ScottPlot 5.0.35
+Version: ScottPlot 5.0.35
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Axis spans label a range of an axis. Vertical spans shade the full width of a vertical range, and horizontal spans shade the full height of a horizontal range.
 
-[![](/cookbook/5.0/images/AxisSpanQuickstart.png?240505131914)](/cookbook/5.0/images/AxisSpanQuickstart.png?240505131914)
+[![](/cookbook/5.0/images/AxisSpanQuickstart.png?240610190353)](/cookbook/5.0/images/AxisSpanQuickstart.png?240610190353)
 
 {{< code-sp5 >}}
 

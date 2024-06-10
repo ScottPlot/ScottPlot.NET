@@ -4,9 +4,9 @@ Description: Scatter plots can be created from any numeric data type, not just d
 URL: /cookbook/5.0/Scatter/ScatterDataType/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Scatter Plot", "Scatter Plot Data Type"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Scatter", "/cookbook/5.0/Scatter/ScatterDataType"]
-Date: 2024-05-05
-Version: ScottPlot 5.0.34
-Version: ScottPlot 5.0.34
+Date: 2024-06-10
+Version: ScottPlot 5.0.35
+Version: ScottPlot 5.0.35
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Scatter plots can be created from any numeric data type, not just double.
 
-[![](/cookbook/5.0/images/ScatterDataType.png?240505131914)](/cookbook/5.0/images/ScatterDataType.png?240505131914)
+[![](/cookbook/5.0/images/ScatterDataType.png?240610190353)](/cookbook/5.0/images/ScatterDataType.png?240610190353)
 
 {{< code-sp5 >}}
 

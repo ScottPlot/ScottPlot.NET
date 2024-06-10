@@ -4,9 +4,9 @@ Description: Annotations are always-visible text labels positioned over the data
 URL: /cookbook/5.0/Annotation/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Annotation"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Annotation"]
-Date: 2024-05-05
-Version: ScottPlot 5.0.34
-Version: ScottPlot 5.0.34
+Date: 2024-06-10
+Version: ScottPlot 5.0.35
+Version: ScottPlot 5.0.35
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,7 +18,7 @@ ShowEditLink: false
 
 Annotations are labels you can place on the data area of a plot. Unlike Text added to the plot (which is placed in coordinate units on the axes), Annotations are positioned relative to the data area (in pixel units) and do not move as the plot is panned and zoomed.
 
-[![](/cookbook/5.0/images/AnnotationQuickstart.png?240505131914)](/cookbook/5.0/images/AnnotationQuickstart.png?240505131914)
+[![](/cookbook/5.0/images/AnnotationQuickstart.png?240610190353)](/cookbook/5.0/images/AnnotationQuickstart.png?240610190353)
 
 {{< code-sp5 >}}
 
@@ -43,7 +43,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Annotations can be extensively customized.
 
-[![](/cookbook/5.0/images/AnnotationCustomize.png?240505131914)](/cookbook/5.0/images/AnnotationCustomize.png?240505131914)
+[![](/cookbook/5.0/images/AnnotationCustomize.png?240610190353)](/cookbook/5.0/images/AnnotationCustomize.png?240610190353)
 
 {{< code-sp5 >}}
 
@@ -77,7 +77,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Annotations are aligned with the data area.
 
-[![](/cookbook/5.0/images/AnnotationPositions.png?240505131914)](/cookbook/5.0/images/AnnotationPositions.png?240505131914)
+[![](/cookbook/5.0/images/AnnotationPositions.png?240610190353)](/cookbook/5.0/images/AnnotationPositions.png?240610190353)
 
 {{< code-sp5 >}}
 

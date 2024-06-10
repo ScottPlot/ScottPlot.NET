@@ -4,9 +4,9 @@ Description: Tools exist for creating simple moving average (SMA) curves and dis
 URL: /cookbook/5.0/Finance/FinanceSma/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Financial Plot", "Simple Moving Average"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Finance", "/cookbook/5.0/Finance/FinanceSma"]
-Date: 2024-05-05
-Version: ScottPlot 5.0.34
-Version: ScottPlot 5.0.34
+Date: 2024-06-10
+Version: ScottPlot 5.0.35
+Version: ScottPlot 5.0.35
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Tools exist for creating simple moving average (SMA) curves and displaying them next to finanial data.
 
-[![](/cookbook/5.0/images/FinanceSma.png?240505131914)](/cookbook/5.0/images/FinanceSma.png?240505131914)
+[![](/cookbook/5.0/images/FinanceSma.png?240610190353)](/cookbook/5.0/images/FinanceSma.png?240610190353)
 
 {{< code-sp5 >}}
 

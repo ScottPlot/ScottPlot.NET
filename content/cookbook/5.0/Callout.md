@@ -4,9 +4,9 @@ Description: Callouts display a label and are connected with an arrow that marks
 URL: /cookbook/5.0/Callout/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Callout"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Callout"]
-Date: 2024-05-05
-Version: ScottPlot 5.0.34
-Version: ScottPlot 5.0.34
+Date: 2024-06-10
+Version: ScottPlot 5.0.35
+Version: ScottPlot 5.0.35
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,7 +18,7 @@ ShowEditLink: false
 
 Callouts display a label and are connected with an arrow that marks a point on the plot.
 
-[![](/cookbook/5.0/images/CalloutQuickstart.png?240505131914)](/cookbook/5.0/images/CalloutQuickstart.png?240505131914)
+[![](/cookbook/5.0/images/CalloutQuickstart.png?240610190353)](/cookbook/5.0/images/CalloutQuickstart.png?240610190353)
 
 {{< code-sp5 >}}
 

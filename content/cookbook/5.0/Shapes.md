@@ -4,9 +4,9 @@ Description: Basic shapes that can be added to plots
 URL: /cookbook/5.0/Shapes/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Shapes"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Shapes"]
-Date: 2024-05-05
-Version: ScottPlot 5.0.34
-Version: ScottPlot 5.0.34
+Date: 2024-06-10
+Version: ScottPlot 5.0.35
+Version: ScottPlot 5.0.35
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,7 +18,7 @@ ShowEditLink: false
 
 A rectangle can be added to the plot and styled as desired.
 
-[![](/cookbook/5.0/images/RectangleQuickstart.png?240505131914)](/cookbook/5.0/images/RectangleQuickstart.png?240505131914)
+[![](/cookbook/5.0/images/RectangleQuickstart.png?240610190353)](/cookbook/5.0/images/RectangleQuickstart.png?240610190353)
 
 {{< code-sp5 >}}
 
@@ -54,7 +54,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 A circle can be placed on the plot and styled as desired.
 
-[![](/cookbook/5.0/images/CircleQuickstart.png?240505131914)](/cookbook/5.0/images/CircleQuickstart.png?240505131914)
+[![](/cookbook/5.0/images/CircleQuickstart.png?240610190353)](/cookbook/5.0/images/CircleQuickstart.png?240610190353)
 
 {{< code-sp5 >}}
 
@@ -90,7 +90,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 An ellipse can be placed on the plot and styled as desired.
 
-[![](/cookbook/5.0/images/EllipseQuickstart.png?240505131914)](/cookbook/5.0/images/EllipseQuickstart.png?240505131914)
+[![](/cookbook/5.0/images/EllipseQuickstart.png?240610190353)](/cookbook/5.0/images/EllipseQuickstart.png?240610190353)
 
 {{< code-sp5 >}}
 
@@ -121,7 +121,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Polygon plots can be added from a series of vertices, and must be in clockwise order.
 
-[![](/cookbook/5.0/images/PolygonQuickstart.png?240505131914)](/cookbook/5.0/images/PolygonQuickstart.png?240505131914)
+[![](/cookbook/5.0/images/PolygonQuickstart.png?240610190353)](/cookbook/5.0/images/PolygonQuickstart.png?240610190353)
 
 {{< code-sp5 >}}
 
@@ -152,7 +152,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Polygon plots can be fully customized.
 
-[![](/cookbook/5.0/images/PolygonStyling.png?240505131914)](/cookbook/5.0/images/PolygonStyling.png?240505131914)
+[![](/cookbook/5.0/images/PolygonStyling.png?240610190353)](/cookbook/5.0/images/PolygonStyling.png?240610190353)
 
 {{< code-sp5 >}}
 

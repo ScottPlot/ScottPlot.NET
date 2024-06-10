@@ -4,9 +4,9 @@ Description: Filled areas above and below the FillY value can be individually cu
 URL: /cookbook/5.0/Scatter/ScatterFillAboveBelow/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Scatter Plot", "Scatter Plot Filled Above and Below"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Scatter", "/cookbook/5.0/Scatter/ScatterFillAboveBelow"]
-Date: 2024-05-05
-Version: ScottPlot 5.0.34
-Version: ScottPlot 5.0.34
+Date: 2024-06-10
+Version: ScottPlot 5.0.35
+Version: ScottPlot 5.0.35
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Filled areas above and below the FillY value can be individually customized
 
-[![](/cookbook/5.0/images/ScatterFillAboveBelow.png?240505131914)](/cookbook/5.0/images/ScatterFillAboveBelow.png?240505131914)
+[![](/cookbook/5.0/images/ScatterFillAboveBelow.png?240610190353)](/cookbook/5.0/images/ScatterFillAboveBelow.png?240610190353)
 
 {{< code-sp5 >}}
 

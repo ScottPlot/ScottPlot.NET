@@ -4,9 +4,9 @@ Description: A legend is a key typically displayed in the corner of a plot
 URL: /cookbook/5.0/Legend/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Configuring Legends"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Legend"]
-Date: 2024-05-05
-Version: ScottPlot 5.0.34
-Version: ScottPlot 5.0.34
+Date: 2024-06-10
+Version: ScottPlot 5.0.35
+Version: ScottPlot 5.0.35
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,7 +18,7 @@ ShowEditLink: false
 
 Many plottables have a Label property that can be set so they appear in the legend.
 
-[![](/cookbook/5.0/images/LegendQuickstart.png?240505131914)](/cookbook/5.0/images/LegendQuickstart.png?240505131914)
+[![](/cookbook/5.0/images/LegendQuickstart.png?240610190353)](/cookbook/5.0/images/LegendQuickstart.png?240610190353)
 
 {{< code-sp5 >}}
 
@@ -46,7 +46,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Legends may be constructed manually.
 
-[![](/cookbook/5.0/images/ManualLegend.png?240505131914)](/cookbook/5.0/images/ManualLegend.png?240505131914)
+[![](/cookbook/5.0/images/ManualLegend.png?240610190353)](/cookbook/5.0/images/ManualLegend.png?240610190353)
 
 {{< code-sp5 >}}
 
@@ -91,7 +91,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Access the Legend object directly for advanced customization options.
 
-[![](/cookbook/5.0/images/LegendStyle.png?240505131914)](/cookbook/5.0/images/LegendStyle.png?240505131914)
+[![](/cookbook/5.0/images/LegendStyle.png?240610190353)](/cookbook/5.0/images/LegendStyle.png?240610190353)
 
 {{< code-sp5 >}}
 
@@ -130,7 +130,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Legend items may be arranged horizontally instead of vertically
 
-[![](/cookbook/5.0/images/LegendOrientation.png?240505131914)](/cookbook/5.0/images/LegendOrientation.png?240505131914)
+[![](/cookbook/5.0/images/LegendOrientation.png?240610190353)](/cookbook/5.0/images/LegendOrientation.png?240610190353)
 
 {{< code-sp5 >}}
 
@@ -160,7 +160,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Legend items may wrap to improve display for a large number of items
 
-[![](/cookbook/5.0/images/LegendWrapping.png?240505131914)](/cookbook/5.0/images/LegendWrapping.png?240505131914)
+[![](/cookbook/5.0/images/LegendWrapping.png?240610190353)](/cookbook/5.0/images/LegendWrapping.png?240610190353)
 
 {{< code-sp5 >}}
 
@@ -190,7 +190,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Multiple legends may be added to a plot
 
-[![](/cookbook/5.0/images/LegendMultiple.png?240505131914)](/cookbook/5.0/images/LegendMultiple.png?240505131914)
+[![](/cookbook/5.0/images/LegendMultiple.png?240610190353)](/cookbook/5.0/images/LegendMultiple.png?240610190353)
 
 {{< code-sp5 >}}
 
@@ -226,9 +226,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <h2><a href='/cookbook/5.0/Legend/LegendOutside'>Legend Outside the Plot</a></h2>
 
-The default legend can be hidden so that it may be added into a legend panel and displayed outside the data area.
+Use the ShowLegend() overload that accepts an Edge to display the legend outside the data area.
 
-[![](/cookbook/5.0/images/LegendOutside.png?240505131914)](/cookbook/5.0/images/LegendOutside.png?240505131914)
+[![](/cookbook/5.0/images/LegendOutside.png?240610190353)](/cookbook/5.0/images/LegendOutside.png?240610190353)
 
 {{< code-sp5 >}}
 
@@ -241,17 +241,7 @@ var sig2 = myPlot.Add.Signal(Generate.Cos());
 sig1.LegendText = "Sine";
 sig2.LegendText = "Cosine";
 
-// hide the default legend
-myPlot.HideLegend();
-
-// display the legend in a LegendPanel outside the plot
-ScottPlot.Panels.LegendPanel pan = new(myPlot.Legend)
-{
-    Edge = Edge.Right,
-    Alignment = Alignment.UpperCenter,
-};
-
-myPlot.Axes.AddPanel(pan);
+myPlot.ShowLegend(Edge.Right);
 
 myPlot.SavePng("demo.png", 400, 300);
 

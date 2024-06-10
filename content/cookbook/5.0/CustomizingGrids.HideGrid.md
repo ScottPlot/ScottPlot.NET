@@ -4,9 +4,9 @@ Description: Grid lines can be hidden.
 URL: /cookbook/5.0/CustomizingGrids/HideGrid/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Customizing Grids", "Hide Grid"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/CustomizingGrids", "/cookbook/5.0/CustomizingGrids/HideGrid"]
-Date: 2024-05-05
-Version: ScottPlot 5.0.34
-Version: ScottPlot 5.0.34
+Date: 2024-06-10
+Version: ScottPlot 5.0.35
+Version: ScottPlot 5.0.35
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Grid lines can be hidden.
 
-[![](/cookbook/5.0/images/HideGrid.png?240505131914)](/cookbook/5.0/images/HideGrid.png?240505131914)
+[![](/cookbook/5.0/images/HideGrid.png?240610190353)](/cookbook/5.0/images/HideGrid.png?240610190353)
 
 {{< code-sp5 >}}
 

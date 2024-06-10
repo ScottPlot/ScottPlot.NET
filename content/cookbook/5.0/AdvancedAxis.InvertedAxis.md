@@ -4,9 +4,9 @@ Description: Users can display data on an inverted axis by setting axis limits s
 URL: /cookbook/5.0/AdvancedAxis/InvertedAxis/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Advanced Axis Features", "Inverted Axis"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AdvancedAxis", "/cookbook/5.0/AdvancedAxis/InvertedAxis"]
-Date: 2024-05-05
-Version: ScottPlot 5.0.34
-Version: ScottPlot 5.0.34
+Date: 2024-06-10
+Version: ScottPlot 5.0.35
+Version: ScottPlot 5.0.35
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Users can display data on an inverted axis by setting axis limits setting the lower edge to a value more positive than the upper edge.
 
-[![](/cookbook/5.0/images/InvertedAxis.png?240505131914)](/cookbook/5.0/images/InvertedAxis.png?240505131914)
+[![](/cookbook/5.0/images/InvertedAxis.png?240610190353)](/cookbook/5.0/images/InvertedAxis.png?240610190353)
 
 {{< code-sp5 >}}
 

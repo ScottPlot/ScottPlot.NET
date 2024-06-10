@@ -4,9 +4,9 @@ Description: Tension of smooth lines can be adjusted for some smoothing strategi
 URL: /cookbook/5.0/Scatter/ScatterSmoothTension/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Scatter Plot", "Smooth Line Tension"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Scatter", "/cookbook/5.0/Scatter/ScatterSmoothTension"]
-Date: 2024-05-05
-Version: ScottPlot 5.0.34
-Version: ScottPlot 5.0.34
+Date: 2024-06-10
+Version: ScottPlot 5.0.35
+Version: ScottPlot 5.0.35
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Tension of smooth lines can be adjusted for some smoothing strategies. Low tensions lead to 'overshoot' and high tensions produce curveswhich appear more like straight lines.
 
-[![](/cookbook/5.0/images/ScatterSmoothTension.png?240505131914)](/cookbook/5.0/images/ScatterSmoothTension.png?240505131914)
+[![](/cookbook/5.0/images/ScatterSmoothTension.png?240610190353)](/cookbook/5.0/images/ScatterSmoothTension.png?240610190353)
 
 {{< code-sp5 >}}
 

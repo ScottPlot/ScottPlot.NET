@@ -4,9 +4,9 @@ Description: Users can customize tick label rotation.
 URL: /cookbook/5.0/CustomizingTicks/RotatedTicks/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Customizing Ticks", "Rotated Tick Labels"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/CustomizingTicks", "/cookbook/5.0/CustomizingTicks/RotatedTicks"]
-Date: 2024-05-05
-Version: ScottPlot 5.0.34
-Version: ScottPlot 5.0.34
+Date: 2024-06-10
+Version: ScottPlot 5.0.35
+Version: ScottPlot 5.0.35
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Users can customize tick label rotation.
 
-[![](/cookbook/5.0/images/RotatedTicks.png?240505131914)](/cookbook/5.0/images/RotatedTicks.png?240505131914)
+[![](/cookbook/5.0/images/RotatedTicks.png?240610190353)](/cookbook/5.0/images/RotatedTicks.png?240610190353)
 
 {{< code-sp5 >}}
 

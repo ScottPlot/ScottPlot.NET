@@ -4,9 +4,9 @@ Description: Signal plots can have markers displayed at each point which are onl
 URL: /cookbook/5.0/Signal/SignalMarkerSize/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Signal Plot", "Signal Marker Size"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Signal", "/cookbook/5.0/Signal/SignalMarkerSize"]
-Date: 2024-05-05
-Version: ScottPlot 5.0.34
-Version: ScottPlot 5.0.34
+Date: 2024-06-10
+Version: ScottPlot 5.0.35
+Version: ScottPlot 5.0.35
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Signal plots can have markers displayed at each point which are only visible when the plot is zoomed in.
 
-[![](/cookbook/5.0/images/SignalMarkerSize.png?240505131914)](/cookbook/5.0/images/SignalMarkerSize.png?240505131914)
+[![](/cookbook/5.0/images/SignalMarkerSize.png?240610190353)](/cookbook/5.0/images/SignalMarkerSize.png?240610190353)
 
 {{< code-sp5 >}}
 

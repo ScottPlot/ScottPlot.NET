@@ -4,9 +4,9 @@ Description: Axis lines indicate a position on an axis.
 URL: /cookbook/5.0/AxisLines/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Axis Lines"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AxisLines"]
-Date: 2024-05-05
-Version: ScottPlot 5.0.34
-Version: ScottPlot 5.0.34
+Date: 2024-06-10
+Version: ScottPlot 5.0.35
+Version: ScottPlot 5.0.35
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,7 +18,7 @@ ShowEditLink: false
 
 Axis lines are vertical or horizontal lines that span an entire axis.
 
-[![](/cookbook/5.0/images/AxisLineQuickstart.png?240505131914)](/cookbook/5.0/images/AxisLineQuickstart.png?240505131914)
+[![](/cookbook/5.0/images/AxisLineQuickstart.png?240610190353)](/cookbook/5.0/images/AxisLineQuickstart.png?240610190353)
 
 {{< code-sp5 >}}
 
@@ -44,7 +44,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Axis lines have labels that can be used to display arbitrary text on the axes they are attached to.
 
-[![](/cookbook/5.0/images/AxisLineLabel.png?240505131914)](/cookbook/5.0/images/AxisLineLabel.png?240505131914)
+[![](/cookbook/5.0/images/AxisLineLabel.png?240610190353)](/cookbook/5.0/images/AxisLineLabel.png?240610190353)
 
 {{< code-sp5 >}}
 
@@ -89,7 +89,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Axis line labels can have custom positioning, including rotation and alignment.
 
-[![](/cookbook/5.0/images/AxisLineLabelPositioning.png?240505131914)](/cookbook/5.0/images/AxisLineLabelPositioning.png?240505131914)
+[![](/cookbook/5.0/images/AxisLineLabelPositioning.png?240610190353)](/cookbook/5.0/images/AxisLineLabelPositioning.png?240610190353)
 
 {{< code-sp5 >}}
 
@@ -131,7 +131,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Axis lines have extensive customization options.
 
-[![](/cookbook/5.0/images/AxisLineStyle.png?240505131914)](/cookbook/5.0/images/AxisLineStyle.png?240505131914)
+[![](/cookbook/5.0/images/AxisLineStyle.png?240610190353)](/cookbook/5.0/images/AxisLineStyle.png?240610190353)
 
 {{< code-sp5 >}}
 
@@ -172,7 +172,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Axis lines will be added to the legend if their Text property is set unless their ExcludeFromLegend property is true.
 
-[![](/cookbook/5.0/images/AxisLineInLegend.png?240505131914)](/cookbook/5.0/images/AxisLineInLegend.png?240505131914)
+[![](/cookbook/5.0/images/AxisLineInLegend.png?240610190353)](/cookbook/5.0/images/AxisLineInLegend.png?240610190353)
 
 {{< code-sp5 >}}
 
