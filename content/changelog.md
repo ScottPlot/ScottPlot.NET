@@ -102,9 +102,11 @@ Release notes for every version of ScottPlot
 </li>
 <li>DataLogger: Improved automatic axis management for loggers with empty datasets (<a href="https://github.com/ScottPlot/ScottPlot/issues/3880">#3880</a>) <a href="https://github.com/TenebrosFR"><strong>@TenebrosFR</strong></a>
 </li>
-<li>SignalXY: improve interpolation of edge points when step mode is enabled (<a href="https://github.com/ScottPlot/ScottPlot/issues/3894">#3894</a>) <a href="https://github.com/seishinkouki"><strong>@seishinkouki</strong></a> <a href="https://github.com/StendProg"><strong>@StendProg</strong></a>
+<li>SignalXY: Improved interpolation of edge points when step mode is enabled (<a href="https://github.com/ScottPlot/ScottPlot/issues/3894">#3894</a>) <a href="https://github.com/seishinkouki"><strong>@seishinkouki</strong></a> <a href="https://github.com/StendProg"><strong>@StendProg</strong></a>
 </li>
 <li>SignalXY: Improve behavior of off-screen single-point signals (<a href="https://github.com/ScottPlot/ScottPlot/issues/3926">#3926</a>) <a href="https://github.com/githubkau"><strong>@githubkau</strong></a>
+</li>
+<li>SignalXY: Improved cookbook recipe demonstrating SignalXY plots with markers at each point
 </li>
 </ul>
 </div>
@@ -144,8 +146,8 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/r-j-s'><img src='https://scottplot.net/images/contributors/r-j-s.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/mawbydp'><img src='https://scottplot.net/images/contributors/mawbydp.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/TenebrosFR'><img src='https://scottplot.net/images/contributors/tenebrosfr.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/seishinkouki'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/githubkau'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/seishinkouki'><img src='https://scottplot.net/images/contributors/seishinkouki.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/githubkau'><img src='https://scottplot.net/images/contributors/githubkau.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
