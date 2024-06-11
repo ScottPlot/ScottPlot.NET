@@ -4,8 +4,6 @@ description: How to use ScottPlot to visualize data in .NET Polyglot notebooks
 date: 2023-12-13
 ---
 
-{{< banner-sp5 >}}
-
 # .NET Interactive Notebook Quickstart
 
 .NET Interactive Notebooks (polyglot notebooks) allow programmers to work with data in an interactive environment. To get started using ScottPlot to display data in a .NET notebook, 
@@ -22,8 +20,6 @@ date: 2023-12-13
 
 Add this to the top of your notebook to use the ScottPlot NuGet package and make it easy to display plots inline:
 
-{{< code-sp5 >}}
-
 ```cs
 // Install the ScottPlot NuGet package
 #r "nuget:ScottPlot, 5.0.*"
@@ -39,11 +35,7 @@ Linux users require an additional package as well
 #r "nuget:SkiaSharp.NativeAssets.Linux.NoDependencies"
 ```
 
-{{< /code-sp5 >}}
-
 ### Plot Data
-
-{{< code-sp5 >}}
 
 ```cs
 // create sample data
@@ -57,7 +49,5 @@ plt.Add.Scatter(dataX, dataY);
 // display the plot
 plt
 ```
-
-{{< /code-sp5 >}}
 
 ![](/images/quickstart/scottplot-quickstart-console.png)

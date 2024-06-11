@@ -4,8 +4,6 @@ description: How to display interactive plots in the browser using C# and Blazor
 date: 2023-12-13
 ---
 
-{{< banner-sp5 >}}
-
 # Blazor Quickstart
 
 **Step 1:** Create a new Blazor WebAssembly project
@@ -13,8 +11,6 @@ date: 2023-12-13
 **Step 2:** Add the `ScottPlot.Blazor` NuGet package
 
 **Step 3:** Place a `BlazorPlot` on your `.razor` page and plot some data
-
-{{< code-sp5 >}}
 
 ```cs
 @page "/"
@@ -36,7 +32,5 @@ date: 2023-12-13
     }
 }
 ```
-
-{{< /code-sp5 >}}
 
 ![](/images/quickstart/blazor.gif)

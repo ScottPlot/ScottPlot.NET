@@ -4,8 +4,6 @@ description: How to plot data using ScottPlot using IronPython
 date: 2023-12-13
 ---
 
-{{< banner-sp5 >}}
-
 # IronPython Quickstart
 
 **Step 1:** Setup IronPython according to instructions on https://ironpython.net (full installation including GAC)

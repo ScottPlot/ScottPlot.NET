@@ -4,16 +4,12 @@ description: How to create a plot and save it as an image from a C# console appl
 date: 2023-12-13
 ---
 
-{{< banner-sp5 >}}
-
 # Console Application Quickstart
 
 **Step 1:** Install the [ScottPlot](https://www.nuget.org/packages/ScottPlot) NuGet package.
 Linux & MacOS users may need to [install additional packages](/faq/dependencies).
 
 **Step 2:** Write some code to plot data and save it as an image file.
-
-{{< code-sp5 >}}
 
 ```cs
 double[] dataX = { 1, 2, 3, 4, 5 };
@@ -24,7 +20,5 @@ myPlot.Add.Scatter(dataX, dataY);
 
 myPlot.SavePng("quickstart.png", 400, 300);
 ```
-
-{{< /code-sp5 >}}
 
 ![](/images/quickstart/scottplot-quickstart-console.png)

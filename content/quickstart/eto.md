@@ -4,15 +4,11 @@ date: 2021-12-29
 description: How to create an interactive plot in a C# Eto application
 ---
 
-{{< banner-sp5 >}}
-
 # Eto Quickstart
 
 **Step 1:** Install the [`ScottPlot.Eto`](https://www.nuget.org/packages/ScottPlot.Eto) NuGet package. Linux & MacOS users must take [these additional steps](/faq/dependencies).
 
 **Step 2:** Add a `ScottPlot.Eto.PlotView` Control to your Form:
-
-{{< code-sp5 >}}
 
 ```cs
 var plotView = new ScottPlot.Eto.PlotView();
@@ -24,21 +20,19 @@ plotView.Plot.Add.Scatter(xs, ys);
 this.Content = plotView;
 ```
 
-{{< /code-sp5 >}}
-
 <div class="container">
     <div class="row">
         <div class="col-md">
             <h3>WPF</h3>
-            <img src="/images/quickstart/eto-quickstart-wpf.png">
+            <a href="/images/quickstart/eto-quickstart-wpf.png"><img src="/images/quickstart/eto-quickstart-wpf.png"></a>
         </div>
         <div class="col-md">
             <h3>GTK</h3>
-            <img src="/images/quickstart/eto-quickstart-gtk.png">
+            <a href="/images/quickstart/eto-quickstart-gtk.png"><img src="/images/quickstart/eto-quickstart-gtk.png"></a>
         </div>
         <div class="col-md">
             <h3>OSX</h3>
-            <img src="/images/quickstart/eto-quickstart-osx.png">
+            <a href="/images/quickstart/eto-quickstart-osx.png"><img src="/images/quickstart/eto-quickstart-osx.png"></a>
         </div>
     </div>
 </div>

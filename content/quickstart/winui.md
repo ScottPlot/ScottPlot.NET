@@ -4,8 +4,6 @@ description: How to create an interactive plot using ScottPlot in a WinUI applic
 date: 2023-07-04
 ---
 
-{{< banner-sp5 >}}
-
 # WinUI Quickstart
 
 **Step 1:** Create a new WinUI project: `Blank App, Packaged (WinUI 3 in Desktop)`
@@ -36,8 +34,6 @@ date: 2023-07-04
 
 **Step 6:** Edit `MainWindow.xaml.cs` to add data to the plot and initiate a render
 
-{{< code-sp5 >}}
-
 ```cs
 using Microsoft.UI.Xaml;
 using ScottPlot;
@@ -55,7 +51,5 @@ public sealed partial class MainWindow : Window
     }
 }
 ```
-
-{{< /code-sp5 >}}
 
 ![](/images/quickstart/scottplot-winui-quickstart.png)

@@ -6,8 +6,6 @@ lastmod: 2021-12-29
 url: /quickstart/avalonia/
 ---
 
-{{< banner-sp5 >}}
-
 # Avalonia Quickstart
 
 **Step 1:** Install the [`ScottPlot.Avalonia`](https://www.nuget.org/packages/ScottPlot.Avalonia) NuGet package. Linux & MacOS users must take [these additional steps](/faq/dependencies).
@@ -36,8 +34,6 @@ Your `Window` element should look something like this:
 
 **Step 4:** Plot some data in your start-up sequence
 
-{{< code-sp5 >}}
-
 ```cs
 double[] dataX = { 1, 2, 3, 4, 5 };
 double[] dataY = { 1, 4, 9, 16, 25 };
@@ -47,6 +43,4 @@ avaPlot1.Plot.Add.Scatter(dataX, dataY);
 avaPlot1.Refresh();
 ```
 
-{{< /code-sp5 >}}
-
-<img src="scottplot-quickstart-avalonia.png" class="d-block mx-auto shadow my-5">
+<img src="/images/quickstart/scottplot-quickstart-avalonia.png" class="d-block mx-auto shadow my-5">

@@ -4,8 +4,6 @@ description: How to plot data from PowerShell using ScottPlot
 date: 2023-12-13
 ---
 
-{{< banner-sp5 >}}
-
 # PowerShell Quickstart
 
 **Step 1: Get PowerShell Core** 
@@ -27,8 +25,6 @@ date: 2023-12-13
 * Create `myScript.ps1` and copy the following contents into it
 * Run the script using PowerShell Core (not Windows PowerShell)
 
-{{< code-sp5 >}}
-
 ```ps1
 Add-Type -Path .\ScottPlot.dll
 [double[]] $dataX = @( 1, 2, 3, 4, 5 )
@@ -38,13 +34,11 @@ $plt = [ScottPlot.Plot]::new()
 [Void] $plt.SavePng("$pwd\quickstart.png", 400, 300)
 ```
 
-{{< /code-sp5 >}}
-
 ![](/images/quickstart/scottplot-quickstart-console.png)
 
 ## PowerShell Interactive Notebooks
 
-[Doug Finke](https://github.com/dfinke) prepared a [YouTube video](https://www.youtube.com/watch?v=nL0JRukCU4k) and [GitHub repository](https://github.com/dfinke/PowerShellScottPlot) demonstrating how to create data visualizations with PowerShell and ScottPlot in the a Polyglot Interactive Notebook.
+[Doug Finke](https://github.com/dfinke) prepared a [YouTube video](https://www.youtube.com/watch?v=nL0JRukCU4k) and [GitHub repository](https://github.com/dfinke/PowerShellScottPlot) demonstrating how to create data visualizations with PowerShell and ScottPlot 4 in the a Polyglot Interactive Notebook.
 
 * https://www.youtube.com/watch?v=nL0JRukCU4k
 * https://github.com/dfinke/PowerShellScottPlot
