@@ -24,9 +24,9 @@ Quickstart pages exist for [console applications](/quickstart/console/), [Window
 ```cs
 double[] xs = { 1, 2, 3, 4, 5 };
 double[] ys = { 1, 4, 9, 16, 25 };
-ScottPlot.Plot myPlot = new(400, 300);
+ScottPlot.Plot myPlot = new();
 myPlot.Add.Scatter(xs, ys);
-myPlot.SavePng("quickstart.png");
+myPlot.SavePng("quickstart.png", 400, 300);
 ```
 
 ![](/images/quickstart/scottplot-quickstart-console.png)
@@ -34,17 +34,17 @@ myPlot.SavePng("quickstart.png");
 
 ## Cookbook
 
-The [**ScottPlot Cookbook**](cookbook/) demonstrates how to create line plots, bar charts, pie graphs, scatter plots, and more with just a few lines of code. 
+The [**ScottPlot Cookbook**](cookbook/5.0/) demonstrates how to create line plots, bar charts, pie graphs, scatter plots, and more with just a few lines of code. 
 
-<a href='cookbook/'>
+<a href='cookbook/5.0/'>
   <img src='images/cookbook.jpg' class="d-block mx-auto my-5" />
 </a>
 
 ## Demo
 
-The [**ScottPlot Demo**](demo/) is a click-to-run application that provides mouse-interactive versions of every cookbook recipe and demonstrates how to perform advanced interactive customizations.
+The [**ScottPlot Demo**](demo/5.0/) is a click-to-run application that provides mouse-interactive versions of every cookbook recipe and demonstrates how to perform advanced interactive customizations.
 
-<a href='demo'>
+<a href='demo/5.0/'>
   <img src='/images/demo/5.0/demo.png' class="d-block mx-auto my-5" />
 </a>
 

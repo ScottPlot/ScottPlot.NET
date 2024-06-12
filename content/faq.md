@@ -70,5 +70,5 @@ date: 2023-12-13
 * [What's New in ScottPlot 5.0](version-5.0)
 * [ScottPlot's Dependencies by Version](dependencies)
 * [Development Environment Setup](environment)
-* [About ScottPlot](history)
+* [About ScottPlot](/about)
 * [How to Create Reproducible Code Examples](repro)
