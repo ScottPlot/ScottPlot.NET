@@ -8,8 +8,33 @@ Description: Release notes for every version of ScottPlot
 Release notes for every version of ScottPlot
 
 <section class='mb-5'>
-<h1 class='mb-0'>ScottPlot 5.0.35</h1>
+<h1 class='mb-0'>ScottPlot 5.0.36</h1>
 <div><i>NuGet packages published </i></div>
+<div class='mt-1'>
+<ul>
+<li>Fonts: Made typeface caching thread-safe to improve support for multi-threaded environments (<a href="https://github.com/ScottPlot/ScottPlot/issues/3940">#3940</a>) <a href="https://github.com/Hawkwind250"><strong>@Hawkwind250</strong></a>
+</li>
+<li>Ticks: Added a custom <code>LabelFormatter</code> to DateTime axes which use fixed intervals (<a href="https://github.com/ScottPlot/ScottPlot/issues/3936">#3936</a>) <a href="https://github.com/Fruchtzwerg94"><strong>@Fruchtzwerg94</strong></a>
+</li>
+<li>Fonts: Enabled sub-pixel text positioning for improved character placement (<a href="https://github.com/ScottPlot/ScottPlot/issues/3937">#3937</a>) <a href="https://github.com/bforlgreen"><strong>@bforlgreen</strong></a>
+</li>
+</ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/Hawkwind250'>@Hawkwind250</a>, <a href='https://github.com/Fruchtzwerg94'>@Fruchtzwerg94</a>, <a href='https://github.com/bforlgreen'>@bforlgreen</a>, <a href='https://github.com/swharden'>@swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/Hawkwind250'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Fruchtzwerg94'><img src='https://scottplot.net/images/contributors/fruchtzwerg94.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/bforlgreen'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
+
+</section>
+<section class='mb-5'>
+<h1 class='mb-0'>ScottPlot 5.0.35</h1>
+<div><i>NuGet packages published 2024-06-10</i></div>
 <div class='mt-1'>
 <ul>
 <li>Legend: Added <code>Plot.ShowLegend()</code> overload that accepts an <code>Edge</code> for quickly adding a legend outside the data area (<a href="https://github.com/ScottPlot/ScottPlot/issues/3672">#3672</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3635">#3635</a>)
