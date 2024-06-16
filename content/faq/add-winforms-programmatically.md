@@ -6,7 +6,7 @@ date: 2023-12-13
 
 # Add ScottPlot WinForms Control Programmatically
 
-**ScottPlot controls can be added programmatically if they do not appear in the Visual Studio Toolbox** due to an old version of .NET Framework of Visual Studio. The recommended method for adding ScottPlot controls programmatically is to place it inside a panel.
+The FormsPlot control may not appear in the Visual Studio Toolbox or may throw `System.TypeInitializationException` when used in the designer. This is an known issue that affects old versions of Visual Studio and/or projects that target .NET Framework. The recommended solution is to place a `Panel` where you want the plot, then create a `FormsPlot` programmatically and place it inside it.
 
 **Step 1:** Open Visual Studio and create a new Windows Forms App
 
@@ -24,13 +24,14 @@ namespace WindowsFormsApp33
 {
     public partial class Form1 : Form
     {
+        // Create an instance of a FormsPlot like this
         readonly FormsPlot FormsPlot1 = new FormsPlot() { Dock = DockStyle.Fill };
 
         public Form1()
         {
             InitializeComponent();
 
-            // Add the control to the panel
+            // Add the FormsPlot to the panel
             panel1.Controls.Add(FormsPlot1);
 
             // Plot data using the control
