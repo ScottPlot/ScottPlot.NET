@@ -6,7 +6,7 @@ date: 2023-12-13
 
 # Add ScottPlot WinForms Control Programmatically
 
-The FormsPlot control may not appear in the Visual Studio Toolbox or may throw `System.TypeInitializationException` when used in the designer. This is an known issue that affects old versions of Visual Studio and/or projects that target .NET Framework. The recommended solution is to place a `Panel` where you want the plot, then create a `FormsPlot` programmatically and place it inside it.
+**The FormsPlot control may not appear in the Visual Studio Toolbox or it might throw a `TypeInitializationException` when first used.** This is an known issue affecting old versions of Visual Studio or projects that target .NET Framework. The recommended fix is to place a `Panel` where you want the plot instead, then create a `FormsPlot` programmatically to go inside it.
 
 **Step 1:** Open Visual Studio and create a new Windows Forms App
 
