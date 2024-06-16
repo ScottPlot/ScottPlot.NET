@@ -10,7 +10,7 @@ date: 2021-09-26
 
 **Step 2:** Drag a `FormsPlot` from the Toolbox onto your Form
 
-_Note: If `FormsPlot` does not appear in the Visual Studio Toolbox, [it can be added programmatically](/faq/add-winforms-programmatically/)_
+_Note: If `FormsPlot` does not appear in the Visual Studio Toolbox or it produces an error when used, [add a FormsPlot programmatically](/faq/add-winforms-programmatically/)._
 
 **Step 3:** Plot some data in your start-up sequence
 
