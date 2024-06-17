@@ -20,6 +20,10 @@ Release notes for every version of ScottPlot
 </li>
 <li>Axes: Improved automatic axis limit expansion for extremely large numbers (<a href="https://github.com/ScottPlot/ScottPlot/issues/3930">#3930</a>) <a href="https://github.com/CodeDevAM"><strong>@CodeDevAM</strong></a>
 </li>
+<li>Statistics: Added <code>ScottPlot.Statistics.Descriptive</code> methods <code>Median()</code> and <code>Percentile()</code>
+</li>
+<li>Population: Added a new Population plot type for displaying collections of values (<a href="https://github.com/ScottPlot/ScottPlot/issues/3944">#3944</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3676">#3676</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
@@ -30,7 +34,7 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/Hawkwind250'><img src='https://scottplot.net/images/contributors/hawkwind250.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Fruchtzwerg94'><img src='https://scottplot.net/images/contributors/fruchtzwerg94.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/bforlgreen'><img src='https://scottplot.net/images/contributors/bforlgreen.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/CodeDevAM'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/CodeDevAM'><img src='https://scottplot.net/images/contributors/codedevam.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
