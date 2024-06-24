@@ -24,17 +24,22 @@ Release notes for every version of ScottPlot
 </li>
 <li>Population: Added a new Population plot type for displaying collections of values (<a href="https://github.com/ScottPlot/ScottPlot/issues/3944">#3944</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3676">#3676</a>)
 </li>
+<li>IAxisLimitManager: Separated <code>GetAxisLimits()</code> into <code>GetRangeX()</code> and <code>GetRangeY()</code> for improved customization and performance (<a href="https://github.com/ScottPlot/ScottPlot/issues/3946">#3946</a>) <a href="https://github.com/drolevar"><strong>@drolevar</strong></a>
+</li>
+<li>Experimental: Added <code>Plottables.Experimental.DataStreamer2</code> plot type for displaying streaming data in a circular buffer (<a href="https://github.com/ScottPlot/ScottPlot/issues/3946">#3946</a>) <a href="https://github.com/drolevar"><strong>@drolevar</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/Hawkwind250'>@Hawkwind250</a>, <a href='https://github.com/Fruchtzwerg94'>@Fruchtzwerg94</a>, <a href='https://github.com/bforlgreen'>@bforlgreen</a>, <a href='https://github.com/CodeDevAM'>@CodeDevAM</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/Hawkwind250'>@Hawkwind250</a>, <a href='https://github.com/Fruchtzwerg94'>@Fruchtzwerg94</a>, <a href='https://github.com/bforlgreen'>@bforlgreen</a>, <a href='https://github.com/CodeDevAM'>@CodeDevAM</a>, <a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/Hawkwind250'><img src='https://scottplot.net/images/contributors/hawkwind250.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Fruchtzwerg94'><img src='https://scottplot.net/images/contributors/fruchtzwerg94.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/bforlgreen'><img src='https://scottplot.net/images/contributors/bforlgreen.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/CodeDevAM'><img src='https://scottplot.net/images/contributors/codedevam.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/drolevar'><img src='https://scottplot.net/images/contributors/drolevar.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
