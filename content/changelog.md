@@ -28,11 +28,31 @@ Release notes for every version of ScottPlot
 </li>
 <li>Experimental: Added <code>Plottables.Experimental.DataStreamer2</code> plot type for displaying streaming data in a circular buffer (<a href="https://github.com/ScottPlot/ScottPlot/issues/3946">#3946</a>) <a href="https://github.com/drolevar"><strong>@drolevar</strong></a>
 </li>
+<li>Rendering: Automatically re-render if a render invokes an event that requests it (<a href="https://github.com/ScottPlot/ScottPlot/issues/3952">#3952</a>) <a href="https://github.com/BrianAtZetica"><strong>@BrianAtZetica</strong></a>
+</li>
+<li>SVG: File encoding now supports text containing UTF8 characters (<a href="https://github.com/ScottPlot/ScottPlot/issues/3956">#3956</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3957">#3957</a>) <a href="https://github.com/aespitia"><strong>@aespitia</strong></a>
+</li>
+<li>Documentation: Added a sandbox .NET API project and quickstart section to the website (<a href="https://github.com/ScottPlot/ScottPlot/issues/3959">#3959</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3824">#3824</a>) <a href="https://github.com/aespitia"><strong>@aespitia</strong></a>
+</li>
+<li>Color: Added <code>ToColor()</code> and <code>FromColor()</code> to simplify conversion between <code>ScottPlot.Color</code> and <code>System.Drawing.Color</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/3964">#3964</a>, ##3953) <a href="https://github.com/aespitia"><strong>@aespitia</strong></a>
+</li>
+<li>Console: Saved image path can be displayed by calling <code>myPlot.SavePng('demo.png', 600, 400).ConsoleWritePath()</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/3965">#3965</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3943">#3943</a>) <a href="https://github.com/aespitia"><strong>@aespitia</strong></a>
+</li>
+<li>Rendering: Improved sharpness of axis frames, tick marks, and grid lines by disabling anti-aliasing by default and added <code>Plot.Axes.AntiAlias()</code> so users can customize this behavior (<a href="https://github.com/ScottPlot/ScottPlot/issues/3976">#3976</a>) <a href="https://github.com/bforlgreen"><strong>@bforlgreen</strong></a>
+</li>
+<li>Signal: Added support for generic data sources in read-only lists (<a href="https://github.com/ScottPlot/ScottPlot/issues/3978">#3978</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3942">#3942</a>) <a href="https://github.com/sdpenner"><strong>@sdpenner</strong></a>
+</li>
+<li>LinearRegression: Added overload that accepts <code>IEnumerable&lt;Coordinates&gt;</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/3982">#3982</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3981">#3981</a>) <a href="https://github.com/ANGADJEET"><strong>@ANGADJEET</strong></a> <a href="https://github.com/CoderPM2011"><strong>@CoderPM2011</strong></a>
+</li>
+<li>Colormap: Added <code>GetColors()</code> for generating a given number of colors evenly spaced along a colormap (<a href="https://github.com/ScottPlot/ScottPlot/issues/3983">#3983</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3947">#3947</a>) <a href="https://github.com/CoderPM2011"><strong>@CoderPM2011</strong></a>
+</li>
+<li>CoordinateLine: Added additional constructors for creating lines given a point and slope (<a href="https://github.com/ScottPlot/ScottPlot/issues/3987">#3987</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3986">#3986</a>) <a href="https://github.com/aalgrou"><strong>@aalgrou</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/Hawkwind250'>@Hawkwind250</a>, <a href='https://github.com/Fruchtzwerg94'>@Fruchtzwerg94</a>, <a href='https://github.com/bforlgreen'>@bforlgreen</a>, <a href='https://github.com/CodeDevAM'>@CodeDevAM</a>, <a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/Hawkwind250'>@Hawkwind250</a>, <a href='https://github.com/Fruchtzwerg94'>@Fruchtzwerg94</a>, <a href='https://github.com/bforlgreen'>@bforlgreen</a>, <a href='https://github.com/CodeDevAM'>@CodeDevAM</a>, <a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/BrianAtZetica'>@BrianAtZetica</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/sdpenner'>@sdpenner</a>, <a href='https://github.com/ANGADJEET'>@ANGADJEET</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/aalgrou'>@aalgrou</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/Hawkwind250'><img src='https://scottplot.net/images/contributors/hawkwind250.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -40,6 +60,12 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/bforlgreen'><img src='https://scottplot.net/images/contributors/bforlgreen.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/CodeDevAM'><img src='https://scottplot.net/images/contributors/codedevam.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/drolevar'><img src='https://scottplot.net/images/contributors/drolevar.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/BrianAtZetica'><img src='https://scottplot.net/images/contributors/brianatzetica.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/aespitia'><img src='https://scottplot.net/images/contributors/aespitia.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/sdpenner'><img src='https://scottplot.net/images/contributors/sdpenner.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/ANGADJEET'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/CoderPM2011'><img src='https://scottplot.net/images/contributors/coderpm2011.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/aalgrou'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
