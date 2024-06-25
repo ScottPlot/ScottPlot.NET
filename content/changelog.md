@@ -48,11 +48,15 @@ Release notes for every version of ScottPlot
 </li>
 <li>CoordinateLine: Added additional constructors for creating lines given a point and slope (<a href="https://github.com/ScottPlot/ScottPlot/issues/3987">#3987</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3986">#3986</a>) <a href="https://github.com/aalgrou"><strong>@aalgrou</strong></a>
 </li>
+<li>DataLogger: Added <code>Clear()</code> and <code>ResetMinAndMaxValues()</code> to the data logger source class (<a href="https://github.com/ScottPlot/ScottPlot/issues/3993">#3993</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3969">#3969</a>) <a href="https://github.com/jpgarza93"><strong>@jpgarza93</strong></a>
+</li>
+<li>Controls: Improved behavior of middle-click-drag zooming over axis panels for plots using DPI scaling (<a href="https://github.com/ScottPlot/ScottPlot/issues/3994">#3994</a>) <a href="https://github.com/bforlgreen"><strong>@bforlgreen</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/Hawkwind250'>@Hawkwind250</a>, <a href='https://github.com/Fruchtzwerg94'>@Fruchtzwerg94</a>, <a href='https://github.com/bforlgreen'>@bforlgreen</a>, <a href='https://github.com/CodeDevAM'>@CodeDevAM</a>, <a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/BrianAtZetica'>@BrianAtZetica</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/sdpenner'>@sdpenner</a>, <a href='https://github.com/ANGADJEET'>@ANGADJEET</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/aalgrou'>@aalgrou</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/Hawkwind250'>@Hawkwind250</a>, <a href='https://github.com/Fruchtzwerg94'>@Fruchtzwerg94</a>, <a href='https://github.com/bforlgreen'>@bforlgreen</a>, <a href='https://github.com/CodeDevAM'>@CodeDevAM</a>, <a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/BrianAtZetica'>@BrianAtZetica</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/sdpenner'>@sdpenner</a>, <a href='https://github.com/ANGADJEET'>@ANGADJEET</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/aalgrou'>@aalgrou</a>, <a href='https://github.com/jpgarza93'>@jpgarza93</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/Hawkwind250'><img src='https://scottplot.net/images/contributors/hawkwind250.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -63,9 +67,10 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/BrianAtZetica'><img src='https://scottplot.net/images/contributors/brianatzetica.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/aespitia'><img src='https://scottplot.net/images/contributors/aespitia.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/sdpenner'><img src='https://scottplot.net/images/contributors/sdpenner.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/ANGADJEET'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/ANGADJEET'><img src='https://scottplot.net/images/contributors/angadjeet.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/CoderPM2011'><img src='https://scottplot.net/images/contributors/coderpm2011.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/aalgrou'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/aalgrou'><img src='https://scottplot.net/images/contributors/aalgrou.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/jpgarza93'><img src='https://scottplot.net/images/contributors/jpgarza93.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 

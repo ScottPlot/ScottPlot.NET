@@ -48,7 +48,7 @@ Members of the open-source community who contributed to ScottPlot
 <div><a href='https://github.com/sdpenner'>@sdpenner</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
-<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/brand/favicon.png' height='125' width='125'/></a></div>
+<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/angadjeet.jpg' height='125' width='125'/></a></div>
 <div><a href='https://github.com/ANGADJEET'>@ANGADJEET</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
@@ -56,8 +56,12 @@ Members of the open-source community who contributed to ScottPlot
 <div><a href='https://github.com/CoderPM2011'>@CoderPM2011</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
-<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/brand/favicon.png' height='125' width='125'/></a></div>
+<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/aalgrou.png' height='125' width='125'/></a></div>
 <div><a href='https://github.com/aalgrou'>@aalgrou</a></div>
+</div>
+<div class='bg-light border rounded text-center mx-3 my-2'>
+<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/jpgarza93.jpg' height='125' width='125'/></a></div>
+<div><a href='https://github.com/jpgarza93'>@jpgarza93</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/bclehmann.png' height='125' width='125'/></a></div>
@@ -270,10 +274,6 @@ Members of the open-source community who contributed to ScottPlot
 <div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/jamaa.jpg' height='125' width='125'/></a></div>
 <div><a href='https://github.com/jamaa'>@jamaa</a></div>
-</div>
-<div class='bg-light border rounded text-center mx-3 my-2'>
-<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/jpgarza93.jpg' height='125' width='125'/></a></div>
-<div><a href='https://github.com/jpgarza93'>@jpgarza93</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/xantiva.png' height='125' width='125'/></a></div>
