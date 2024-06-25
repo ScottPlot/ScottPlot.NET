@@ -4,7 +4,7 @@ description: How to display interactive plots in the browser using C# and Blazor
 date: 2023-12-13
 ---
 
-# Blazor Quickstart
+# Blazor WASM Quickstart
 
 **Step 1:** Create a new Blazor WebAssembly project
 
