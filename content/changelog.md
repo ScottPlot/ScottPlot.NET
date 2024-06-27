@@ -52,6 +52,8 @@ Release notes for every version of ScottPlot
 </li>
 <li>Controls: Improved behavior of middle-click-drag zooming over axis panels for plots using DPI scaling (<a href="https://github.com/ScottPlot/ScottPlot/issues/3994">#3994</a>) <a href="https://github.com/bforlgreen"><strong>@bforlgreen</strong></a>
 </li>
+<li>Style: Added <code>Plot.Axes.Hairline()</code> to enable axis frames, tick marks, and grid lines to render 1px wide regardless of scale factor (<a href="https://github.com/ScottPlot/ScottPlot/issues/3995">#3995</a>) <a href="https://github.com/bforlgreen"><strong>@bforlgreen</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
