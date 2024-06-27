@@ -54,11 +54,15 @@ Release notes for every version of ScottPlot
 </li>
 <li>Style: Added <code>Plot.Axes.Hairline()</code> to enable axis frames, tick marks, and grid lines to render 1px wide regardless of scale factor (<a href="https://github.com/ScottPlot/ScottPlot/issues/3995">#3995</a>) <a href="https://github.com/bforlgreen"><strong>@bforlgreen</strong></a>
 </li>
+<li>Axes: Display no ticks instead of throwing an exception if automatic DateTime ticks are used with invalid ranges (<a href="https://github.com/ScottPlot/ScottPlot/issues/4001">#4001</a>) <a href="https://github.com/githubkau"><strong>@githubkau</strong></a>
+</li>
+<li>SignalXY: Improve support for data sources containing zero-length arrays (<a href="https://github.com/ScottPlot/ScottPlot/issues/4000">#4000</a>) <a href="https://github.com/githubkau"><strong>@githubkau</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/Hawkwind250'>@Hawkwind250</a>, <a href='https://github.com/Fruchtzwerg94'>@Fruchtzwerg94</a>, <a href='https://github.com/bforlgreen'>@bforlgreen</a>, <a href='https://github.com/CodeDevAM'>@CodeDevAM</a>, <a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/BrianAtZetica'>@BrianAtZetica</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/sdpenner'>@sdpenner</a>, <a href='https://github.com/ANGADJEET'>@ANGADJEET</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/aalgrou'>@aalgrou</a>, <a href='https://github.com/jpgarza93'>@jpgarza93</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/Hawkwind250'>@Hawkwind250</a>, <a href='https://github.com/Fruchtzwerg94'>@Fruchtzwerg94</a>, <a href='https://github.com/bforlgreen'>@bforlgreen</a>, <a href='https://github.com/CodeDevAM'>@CodeDevAM</a>, <a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/BrianAtZetica'>@BrianAtZetica</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/sdpenner'>@sdpenner</a>, <a href='https://github.com/ANGADJEET'>@ANGADJEET</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/aalgrou'>@aalgrou</a>, <a href='https://github.com/jpgarza93'>@jpgarza93</a>, <a href='https://github.com/githubkau'>@githubkau</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/Hawkwind250'><img src='https://scottplot.net/images/contributors/hawkwind250.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -73,6 +77,7 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/CoderPM2011'><img src='https://scottplot.net/images/contributors/coderpm2011.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/aalgrou'><img src='https://scottplot.net/images/contributors/aalgrou.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/jpgarza93'><img src='https://scottplot.net/images/contributors/jpgarza93.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/githubkau'><img src='https://scottplot.net/images/contributors/githubkau.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
