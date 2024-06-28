@@ -76,6 +76,8 @@ Release notes for every version of ScottPlot
 </li>
 <li>Heatmap: Exposed <code>Intensities</code> setter to allow users to replace heatmap data with a 2D array of a different size (<a href="https://github.com/ScottPlot/ScottPlot/issues/3941">#3941</a>) <a href="https://github.com/sdpenner"><strong>@sdpenner</strong></a>
 </li>
+<li>Axes: Added <code>Plot.Axes.Link()</code> to simplify sharing axis limits between multiple plots or plot controls (<a href="https://github.com/ScottPlot/ScottPlot/issues/4003">#4003</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
@@ -99,10 +101,10 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/MarkG008'><img src='https://scottplot.net/images/contributors/markg008.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/banncan'><img src='https://scottplot.net/images/contributors/banncan.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/swaitvor'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swaitvor'><img src='https://scottplot.net/images/contributors/swaitvor.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/chhh'><img src='https://scottplot.net/images/contributors/chhh.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/cataclism'><img src='https://scottplot.net/images/contributors/cataclism.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/danieljfarrell'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/danieljfarrell'><img src='https://scottplot.net/images/contributors/danieljfarrell.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
