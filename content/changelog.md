@@ -58,11 +58,21 @@ Release notes for every version of ScottPlot
 </li>
 <li>SignalXY: Improve support for data sources containing zero-length arrays (<a href="https://github.com/ScottPlot/ScottPlot/issues/4000">#4000</a>) <a href="https://github.com/githubkau"><strong>@githubkau</strong></a>
 </li>
+<li>CoordinateRect: Added constructor that accepts <code>IAxes</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/4008">#4008</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3985">#3985</a>) <a href="https://github.com/CoderPM2011"><strong>@CoderPM2011</strong></a>
+</li>
+<li>CoordinateRect: Fixed an issue that caused <code>BottomRight</code> to return incorrect coordinates (<a href="https://github.com/ScottPlot/ScottPlot/issues/4009">#4009</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3996">#3996</a>) <a href="https://github.com/CoderPM2011"><strong>@CoderPM2011</strong></a>
+</li>
+<li>Cookbook: Added a demonstration of stacked filled line plots (<a href="https://github.com/ScottPlot/ScottPlot/issues/4010">#4010</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3967">#3967</a>) <a href="https://github.com/CoderPM2011"><strong>@CoderPM2011</strong></a> <a href="https://github.com/MarkG008"><strong>@MarkG008</strong></a>
+</li>
+<li>Benchmark: Improved text default alignment of double-click benchmark (<a href="https://github.com/ScottPlot/ScottPlot/issues/4014">#4014</a>) <a href="https://github.com/banncan"><strong>@banncan</strong></a>
+</li>
+<li>SignalXY: Improved behavior of <code>MinRenderIndex</code> and <code>MaxRenderIndex</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/4011">#4011</a>) <a href="https://github.com/StendProg"><strong>@StendProg</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/Hawkwind250'>@Hawkwind250</a>, <a href='https://github.com/Fruchtzwerg94'>@Fruchtzwerg94</a>, <a href='https://github.com/bforlgreen'>@bforlgreen</a>, <a href='https://github.com/CodeDevAM'>@CodeDevAM</a>, <a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/BrianAtZetica'>@BrianAtZetica</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/sdpenner'>@sdpenner</a>, <a href='https://github.com/ANGADJEET'>@ANGADJEET</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/aalgrou'>@aalgrou</a>, <a href='https://github.com/jpgarza93'>@jpgarza93</a>, <a href='https://github.com/githubkau'>@githubkau</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/Hawkwind250'>@Hawkwind250</a>, <a href='https://github.com/Fruchtzwerg94'>@Fruchtzwerg94</a>, <a href='https://github.com/bforlgreen'>@bforlgreen</a>, <a href='https://github.com/CodeDevAM'>@CodeDevAM</a>, <a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/BrianAtZetica'>@BrianAtZetica</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/sdpenner'>@sdpenner</a>, <a href='https://github.com/ANGADJEET'>@ANGADJEET</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/aalgrou'>@aalgrou</a>, <a href='https://github.com/jpgarza93'>@jpgarza93</a>, <a href='https://github.com/githubkau'>@githubkau</a>, <a href='https://github.com/MarkG008'>@MarkG008</a>, <a href='https://github.com/banncan'>@banncan</a>, <a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/Hawkwind250'><img src='https://scottplot.net/images/contributors/hawkwind250.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -78,6 +88,9 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/aalgrou'><img src='https://scottplot.net/images/contributors/aalgrou.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/jpgarza93'><img src='https://scottplot.net/images/contributors/jpgarza93.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/githubkau'><img src='https://scottplot.net/images/contributors/githubkau.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/MarkG008'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/banncan'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
