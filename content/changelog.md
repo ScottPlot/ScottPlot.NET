@@ -9,7 +9,7 @@ Release notes for every version of ScottPlot
 
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 5.0.36</h1>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2024-06-29</i></div>
 <div class='mt-1'>
 <ul>
 <li>Fonts: Made typeface caching thread-safe to improve support for multi-threaded environments (<a href="https://github.com/ScottPlot/ScottPlot/issues/3940">#3940</a>) <a href="https://github.com/Hawkwind250"><strong>@Hawkwind250</strong></a>
@@ -78,11 +78,19 @@ Release notes for every version of ScottPlot
 </li>
 <li>Axes: Added <code>Plot.Axes.Link()</code> to simplify sharing axis limits between multiple plots or plot controls (<a href="https://github.com/ScottPlot/ScottPlot/issues/4003">#4003</a>)
 </li>
+<li>Blazor: Added automatic resizing options to the in-browser cookbook (<a href="https://github.com/ScottPlot/ScottPlot/issues/3710">#3710</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3664">#3664</a>) <a href="https://github.com/KroMignon"><strong>@KroMignon</strong></a>
+</li>
+<li>Axis Spans: Improved visibility of extremely narrow spans (<a href="https://github.com/ScottPlot/ScottPlot/issues/4017">#4017</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3968">#3968</a>) <a href="https://github.com/CoderPM2011"><strong>@CoderPM2011</strong></a>
+</li>
+<li>Generate: Added <code>RandomNormalNumber()</code> that returns a single value to compliment <code>RandomNormal()</code> which returns a collection (<a href="https://github.com/ScottPlot/ScottPlot/issues/4018">#4018</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3980">#3980</a>) <a href="https://github.com/CoderPM2011"><strong>@CoderPM2011</strong></a>
+</li>
+<li>Axis Lines: Offset label according to the panel offset to improve appearance on multi-axis plots (<a href="https://github.com/ScottPlot/ScottPlot/issues/1766">#1766</a>) <a href="https://github.com/fuxinsen"><strong>@fuxinsen</strong></a> <a href="https://github.com/mengfanmin123"><strong>@mengfanmin123</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/Hawkwind250'>@Hawkwind250</a>, <a href='https://github.com/Fruchtzwerg94'>@Fruchtzwerg94</a>, <a href='https://github.com/bforlgreen'>@bforlgreen</a>, <a href='https://github.com/CodeDevAM'>@CodeDevAM</a>, <a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/BrianAtZetica'>@BrianAtZetica</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/sdpenner'>@sdpenner</a>, <a href='https://github.com/ANGADJEET'>@ANGADJEET</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/aalgrou'>@aalgrou</a>, <a href='https://github.com/jpgarza93'>@jpgarza93</a>, <a href='https://github.com/githubkau'>@githubkau</a>, <a href='https://github.com/MarkG008'>@MarkG008</a>, <a href='https://github.com/banncan'>@banncan</a>, <a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/swaitvor'>@swaitvor</a>, <a href='https://github.com/chhh'>@chhh</a>, <a href='https://github.com/cataclism'>@cataclism</a>, <a href='https://github.com/danieljfarrell'>@danieljfarrell</a>, <a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/Hawkwind250'>@Hawkwind250</a>, <a href='https://github.com/Fruchtzwerg94'>@Fruchtzwerg94</a>, <a href='https://github.com/bforlgreen'>@bforlgreen</a>, <a href='https://github.com/CodeDevAM'>@CodeDevAM</a>, <a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/BrianAtZetica'>@BrianAtZetica</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/sdpenner'>@sdpenner</a>, <a href='https://github.com/ANGADJEET'>@ANGADJEET</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/aalgrou'>@aalgrou</a>, <a href='https://github.com/jpgarza93'>@jpgarza93</a>, <a href='https://github.com/githubkau'>@githubkau</a>, <a href='https://github.com/MarkG008'>@MarkG008</a>, <a href='https://github.com/banncan'>@banncan</a>, <a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/swaitvor'>@swaitvor</a>, <a href='https://github.com/chhh'>@chhh</a>, <a href='https://github.com/cataclism'>@cataclism</a>, <a href='https://github.com/danieljfarrell'>@danieljfarrell</a>, <a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/KroMignon'>@KroMignon</a>, <a href='https://github.com/fuxinsen'>@fuxinsen</a>, <a href='https://github.com/mengfanmin123'>@mengfanmin123</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/Hawkwind250'><img src='https://scottplot.net/images/contributors/hawkwind250.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -106,6 +114,9 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/cataclism'><img src='https://scottplot.net/images/contributors/cataclism.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/danieljfarrell'><img src='https://scottplot.net/images/contributors/danieljfarrell.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/KroMignon'><img src='https://scottplot.net/images/contributors/kromignon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/fuxinsen'><img src='https://scottplot.net/images/contributors/fuxinsen.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/mengfanmin123'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
