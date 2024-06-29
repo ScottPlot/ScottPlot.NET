@@ -4,9 +4,9 @@ Description: Users can create their own fully custom axes to replace the default
 URL: /cookbook/5.0/AdvancedAxis/ExperimentalAxisWithSubtitle/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Advanced Axis Features", "Axis with Subtitle"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AdvancedAxis", "/cookbook/5.0/AdvancedAxis/ExperimentalAxisWithSubtitle"]
-Date: 2024-06-10
-Version: ScottPlot 5.0.35
-Version: ScottPlot 5.0.35
+Date: 2024-06-29
+Version: ScottPlot 5.0.36
+Version: ScottPlot 5.0.36
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Users can create their own fully custom axes to replace the default ones (as demonstrated in the demo app). Some experimental axes are available for users who may be interested in alternative axis display styles.
 
-[![](/cookbook/5.0/images/ExperimentalAxisWithSubtitle.png?240610190353)](/cookbook/5.0/images/ExperimentalAxisWithSubtitle.png?240610190353)
+[![](/cookbook/5.0/images/ExperimentalAxisWithSubtitle.png?240629072232)](/cookbook/5.0/images/ExperimentalAxisWithSubtitle.png?240629072232)
 
 {{< code-sp5 >}}
 

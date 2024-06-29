@@ -4,9 +4,9 @@ Description: Grid lines are typically drawn beneath data, but grids can be confi
 URL: /cookbook/5.0/CustomizingGrids/GridAbove/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Customizing Grids", "Grid Above Data"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/CustomizingGrids", "/cookbook/5.0/CustomizingGrids/GridAbove"]
-Date: 2024-06-10
-Version: ScottPlot 5.0.35
-Version: ScottPlot 5.0.35
+Date: 2024-06-29
+Version: ScottPlot 5.0.36
+Version: ScottPlot 5.0.36
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Grid lines are typically drawn beneath data, but grids can be configured to render on top of plottables too.
 
-[![](/cookbook/5.0/images/GridAbove.png?240610190353)](/cookbook/5.0/images/GridAbove.png?240610190353)
+[![](/cookbook/5.0/images/GridAbove.png?240629072232)](/cookbook/5.0/images/GridAbove.png?240629072232)
 
 {{< code-sp5 >}}
 

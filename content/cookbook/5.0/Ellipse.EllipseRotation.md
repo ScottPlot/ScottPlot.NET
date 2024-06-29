@@ -4,9 +4,9 @@ Description: Ellipses can also be rotated
 URL: /cookbook/5.0/Ellipse/EllipseRotation/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Ellipse", "Ellipse Rotation"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Ellipse", "/cookbook/5.0/Ellipse/EllipseRotation"]
-Date: 2024-06-10
-Version: ScottPlot 5.0.35
-Version: ScottPlot 5.0.35
+Date: 2024-06-29
+Version: ScottPlot 5.0.36
+Version: ScottPlot 5.0.36
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Ellipses can also be rotated
 
-[![](/cookbook/5.0/images/EllipseRotation.png?240610190353)](/cookbook/5.0/images/EllipseRotation.png?240610190353)
+[![](/cookbook/5.0/images/EllipseRotation.png?240629072232)](/cookbook/5.0/images/EllipseRotation.png?240629072232)
 
 {{< code-sp5 >}}
 

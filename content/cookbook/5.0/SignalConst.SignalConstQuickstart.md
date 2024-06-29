@@ -4,9 +4,9 @@ Description: SignalConst can display data with millions of points at high framer
 URL: /cookbook/5.0/SignalConst/SignalConstQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "SignalConst", "SignalConst Quickstart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/SignalConst", "/cookbook/5.0/SignalConst/SignalConstQuickstart"]
-Date: 2024-06-10
-Version: ScottPlot 5.0.35
-Version: ScottPlot 5.0.35
+Date: 2024-06-29
+Version: ScottPlot 5.0.36
+Version: ScottPlot 5.0.36
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 SignalConst can display data with millions of points at high framerates, ideal for interactive manipulation of large datasets.
 
-[![](/cookbook/5.0/images/SignalConstQuickstart.png?240610190353)](/cookbook/5.0/images/SignalConstQuickstart.png?240610190353)
+[![](/cookbook/5.0/images/SignalConstQuickstart.png?240629072232)](/cookbook/5.0/images/SignalConstQuickstart.png?240629072232)
 
 {{< code-sp5 >}}
 

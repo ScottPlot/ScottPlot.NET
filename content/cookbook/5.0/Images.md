@@ -4,9 +4,9 @@ Description: Images can be placed on plots in a variety of ways
 URL: /cookbook/5.0/Images/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Images"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Images"]
-Date: 2024-06-10
-Version: ScottPlot 5.0.35
-Version: ScottPlot 5.0.35
+Date: 2024-06-29
+Version: ScottPlot 5.0.36
+Version: ScottPlot 5.0.36
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,7 +18,7 @@ ShowEditLink: false
 
 An image can be drawn inside a rectangle defined in coordinate units.
 
-[![](/cookbook/5.0/images/ImageRectQuickstart.png?240610190353)](/cookbook/5.0/images/ImageRectQuickstart.png?240610190353)
+[![](/cookbook/5.0/images/ImageRectQuickstart.png?240629072232)](/cookbook/5.0/images/ImageRectQuickstart.png?240629072232)
 
 {{< code-sp5 >}}
 

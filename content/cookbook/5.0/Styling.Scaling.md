@@ -1,22 +1,22 @@
 ---
-Title: Scaling - ScottPlot 5.0 Cookbook
+Title: Scale Factor - ScottPlot 5.0 Cookbook
 Description: All components of an image can be scaled up or down in size by adjusting the ScaleFactor property. This is very useful for creating images that look nice on high DPI displays with display scaling enabled.
 URL: /cookbook/5.0/Styling/Scaling/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Styling Plots", "Scaling"]
+BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Styling Plots", "Scale Factor"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Styling", "/cookbook/5.0/Styling/Scaling"]
-Date: 2024-06-10
-Version: ScottPlot 5.0.35
-Version: ScottPlot 5.0.35
+Date: 2024-06-29
+Version: ScottPlot 5.0.36
+Version: ScottPlot 5.0.36
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
 
-# Scaling
+# Scale Factor
 
 
 All components of an image can be scaled up or down in size by adjusting the ScaleFactor property. This is very useful for creating images that look nice on high DPI displays with display scaling enabled.
 
-[![](/cookbook/5.0/images/Scaling.png?240610190353)](/cookbook/5.0/images/Scaling.png?240610190353)
+[![](/cookbook/5.0/images/Scaling.png?240629072232)](/cookbook/5.0/images/Scaling.png?240629072232)
 
 {{< code-sp5 >}}
 

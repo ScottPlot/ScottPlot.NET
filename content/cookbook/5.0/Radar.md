@@ -4,9 +4,9 @@ Description: Radar charts (also called a spider charts or star charts) represent
 URL: /cookbook/5.0/Radar/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Radar Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Radar"]
-Date: 2024-06-10
-Version: ScottPlot 5.0.35
-Version: ScottPlot 5.0.35
+Date: 2024-06-29
+Version: ScottPlot 5.0.36
+Version: ScottPlot 5.0.36
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,7 +18,7 @@ ShowEditLink: false
 
 Radar charts (also called a spider charts or star charts) represent multi-axis data as a 2D shape on axes arranged circularly around a center point.
 
-[![](/cookbook/5.0/images/RadarQuickstart.png?240610190353)](/cookbook/5.0/images/RadarQuickstart.png?240610190353)
+[![](/cookbook/5.0/images/RadarQuickstart.png?240629072232)](/cookbook/5.0/images/RadarQuickstart.png?240629072232)
 
 {{< code-sp5 >}}
 

@@ -4,9 +4,9 @@ Description: Dimensions of a heatmap may be set by specifying how large a cell s
 URL: /cookbook/5.0/Heatmap/HeatmapCellSize/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Heatmap", "Heatmap Cell Size"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Heatmap", "/cookbook/5.0/Heatmap/HeatmapCellSize"]
-Date: 2024-06-10
-Version: ScottPlot 5.0.35
-Version: ScottPlot 5.0.35
+Date: 2024-06-29
+Version: ScottPlot 5.0.36
+Version: ScottPlot 5.0.36
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Dimensions of a heatmap may be set by specifying how large a cell should be in pixel units.
 
-[![](/cookbook/5.0/images/HeatmapCellSize.png?240610190353)](/cookbook/5.0/images/HeatmapCellSize.png?240610190353)
+[![](/cookbook/5.0/images/HeatmapCellSize.png?240629072232)](/cookbook/5.0/images/HeatmapCellSize.png?240629072232)
 
 {{< code-sp5 >}}
 

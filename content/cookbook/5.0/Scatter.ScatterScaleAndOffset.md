@@ -4,9 +4,9 @@ Description: Scatter plot points can be multiplied by custom X and Y scale facto
 URL: /cookbook/5.0/Scatter/ScatterScaleAndOffset/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Scatter Plot", "Scatter Scale and Offset"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Scatter", "/cookbook/5.0/Scatter/ScatterScaleAndOffset"]
-Date: 2024-06-10
-Version: ScottPlot 5.0.35
-Version: ScottPlot 5.0.35
+Date: 2024-06-29
+Version: ScottPlot 5.0.36
+Version: ScottPlot 5.0.36
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Scatter plot points can be multiplied by custom X and Y scale factors, or shifted horizontally or vertically using X and Y offset values.
 
-[![](/cookbook/5.0/images/ScatterScaleAndOffset.png?240610190353)](/cookbook/5.0/images/ScatterScaleAndOffset.png?240610190353)
+[![](/cookbook/5.0/images/ScatterScaleAndOffset.png?240629072232)](/cookbook/5.0/images/ScatterScaleAndOffset.png?240629072232)
 
 {{< code-sp5 >}}
 
