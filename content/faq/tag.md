@@ -4,10 +4,6 @@ description: How to pair plottables with custom objects
 date: 2023-12-13
 ---
 
-{{< banner-sp5 >}}
-
-{{< specific-sp4 >}}
-
 # Tagging Plottables with Custom Objects
 
 **Windows Forms controls have a [Tag property](https://learn.microsoft.com/en-us/dotnet/api/system.windows.forms.control.tag) to allow users to store arbitrary `object` references.** ScottPlot controls and plottables intentionally do not have such a property. Plottables have public properties used to store styling and data configuration information, but storing additional unrelated state inside plottables is not advised.

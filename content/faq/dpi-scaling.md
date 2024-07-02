@@ -4,37 +4,66 @@ description: How to configure ScottPlot when DPI scaling is used
 date: 2023-12-13
 ---
 
-{{< banner-sp5 >}}
-
-{{< specific-sp4 >}}
-
 # Display Scaling
 
-Display scaling (DPI scaling) is a setting that allows the operating system to stretch a window to be larger than its original size. When a ScottPlot control is in a scaled window it could perform one of the following behaviors:
+Display scaling (DPI scaling) is a setting that allows the operating system to stretch a window to be larger than its original size. Viewing native resolution images on scaled displays may cause lines and text to appear very small. Increasing ScottPlot's `ScaleFactor` to match the screen's display scaling may result in a more comfortable viewing experience for the user. See the [**ScottPlot Cookbook**](/cookbook/) for more information.
 
-* **Stretch:** The plot image (a bitmap) can be stretched larger, but this may result in blurry text.
+<div class="d-flex">
 
-* **Scale:** The plot could increase in size (width and height), but this may result in small text.
+<div class='text-center'>
 
-Which behavior is used can be defined using the `Configuration` module in each ScottPlot control:
+<h3>Scale Factor = 1</h3>
+
+![](/images/faq/dpi-scaling/dpi-scaling-1.png)
+
+</div>
+
+<div class='text-center'>
+
+<h3>Scale Factor = 2</h3>
+
+![](/images/faq/dpi-scaling/dpi-scaling-2.png)
+
+</div>
+
+</div>
 
 ```cs
-WpfPlot1.Configuration.DpiStretch = true; // blurry text
-WpfPlot1.Configuration.DpiStretch = false; // small text
+ScottPlot.Plot myPlot = new();
+
+myPlot.ScaleFactor = 2;
+myPlot.Add.Signal(Generate.Sin());
+myPlot.Add.Signal(Generate.Cos());
+
+myPlot.SavePng("demo.png", 400, 300);
 ```
 
-<div class='text-center'>
 
-![](dpi-scaling.gif)
 
-</div>
+## Mouse Position in WPF Applications
 
-## Increase Text Size
+WPF applications support display scaling, but the pixel position of the mouse is reported in unscaled units. Users desiring mouse-interactive behavior in WPF applications must multiple mouse position by `WpfPlot.DisplayScale` to compensate for this before passing coordinates into ScottPlot.
 
-**Users who want sharp _and_ large text** can disable DPI stretching and increase the size of all the fonts and lines so the plot does not appear too small. An example of this is in the [ScottPlot 4.1 Cookbook: Display Scaling](https://scottplot.net/cookbook/4.1/category/misc/#display-scaling).
+```cs
+public partial class DisplayScaling : Window
+{
+    public DisplayScaling()
+    {
+        InitializeComponent();
 
-<div class='text-center'>
+        // add a crosshair to the plot
+        var cross = WpfPlot1.Plot.Add.Crosshair(0, 0);
 
-![](scottplot-dpi-scale.png)
+        // move the crosshair to track the cursor
+        MouseMove += (s, e) => {
+            Point p = e.GetPosition(WpfPlot1);
+            ScottPlot.Pixel mousePixel = new(p.X * WpfPlot1.DisplayScale, p.Y * WpfPlot1.DisplayScale);
+            ScottPlot.Coordinates coordinates = WpfPlot1.Plot.GetCoordinates(mousePixel);
+            cross.Position = coordinates;
+            WpfPlot1.Refresh();
+        };
+    }
+}
+```
 
-</div>
+Refer to the WPF demo application in the [ScottPlot GitHub repository](https://github.com/ScottPlot/ScottPlot) for full source code.

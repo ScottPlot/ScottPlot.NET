@@ -4,10 +4,6 @@ Description: ScottPlot in the context of Model–View–ViewModel (MVVM) and Dat
 date: 2023-12-13
 ---
 
-{{< banner-sp5 >}}
-
-{{< specific-sp4 >}}
-
 # MVVM and Data Binding
 
 **Many charting libraries use MVVM and data binding patterns to interact with plots. ScottPlot does not.** This intentional decision allows ScottPlot to be more performant by giving the user raw access to array values used for plotting, and also enabling users to have total control over when new frames are rendered (a potentially costly operation). Although MVVM pattern and data binding are often useful when designing interactive GUI applications, consider that virtually all ScottPlot functionality can be used to create static images from headless console applications where these patterns are less widely used.
@@ -16,10 +12,4 @@ date: 2023-12-13
 
 * See [#1781](https://github.com/ScottPlot/ScottPlot/issues/1781#issuecomment-1104310560) for a discussion about how MVVM pattern could be realized using ScottPlot in WPF
 
-## User Control Source Code
-
 **The ScottPlot controls mostly just pass mouse actions to ScottPlot (a GUI-agnostic .NET Standard library), render a Bitmap, and display the image.** It should be an easy task to create a custom control that exposes data (in a format that will be highly specific for your application) and uses events to invoke rendering after data changes. Although this is easy it implement, it is also easy to implement with poor performance, so the developer is encouraged to keep careful track of how often renders are performed.
-
-* WPF: [WpfPlot.xaml.cs](https://github.com/ScottPlot/ScottPlot/blob/master/src/controls/ScottPlot.WPF/WpfPlot.xaml.cs) / [WpfPlot.xaml](https://github.com/ScottPlot/ScottPlot/blob/master/src/controls/ScottPlot.WPF/WpfPlot.xaml)
-
-* WinForms: [FormsPlot.cs](https://github.com/ScottPlot/ScottPlot/blob/master/src/controls/ScottPlot.WinForms/FormsPlot.cs)
