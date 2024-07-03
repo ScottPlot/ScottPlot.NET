@@ -16,6 +16,8 @@ Release notes for every version of ScottPlot
 </li>
 <li>Maui: Created a <code>ScottPlot.Maui.MauiPlot</code> control to provide interactive plots in .NET Maui applications (<a href="https://github.com/ScottPlot/ScottPlot/issues/4013">#4013</a>) <a href="https://github.com/ByteSore"><strong>@ByteSore</strong></a>
 </li>
+<li>Style: Added <code>Plot.GetStyle()</code> and <code>Plot.SetStyle()</code> for applying and customizing styles in the <code>ScottPlot.PlotStyles</code> namespace (<a href="https://github.com/ScottPlot/ScottPlot/issues/4025">#4025</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3955">#3955</a>) <a href="https://github.com/StendProg"><strong>@StendProg</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
