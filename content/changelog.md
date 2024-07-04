@@ -18,16 +18,19 @@ Release notes for every version of ScottPlot
 </li>
 <li>Style: Added <code>Plot.GetStyle()</code> and <code>Plot.SetStyle()</code> for applying and customizing styles in the <code>ScottPlot.PlotStyles</code> namespace (<a href="https://github.com/ScottPlot/ScottPlot/issues/4025">#4025</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3955">#3955</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4037">#4037</a>) <a href="https://github.com/StendProg"><strong>@StendProg</strong></a> <a href="https://github.com/kebox7"><strong>@kebox7</strong></a>
 </li>
+<li>AxisLimits: Improved accuracy and performance of <code>WithZoom()</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/4041">#4041</a>) <a href="https://github.com/idotta"><strong>@idotta</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/ByteSore'>@ByteSore</a>, <a href='https://github.com/kebox7'>@kebox7</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/ByteSore'>@ByteSore</a>, <a href='https://github.com/kebox7'>@kebox7</a>, <a href='https://github.com/idotta'>@idotta</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/ByteSore'><img src='https://scottplot.net/images/contributors/bytesore.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/kebox7'><img src='https://scottplot.net/images/contributors/kebox7.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/idotta'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
