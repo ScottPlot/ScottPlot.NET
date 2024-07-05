@@ -8,7 +8,9 @@ ShowEditLink: false
 
 # ScottPlot 5.0.36 API
 
-_Generated 7/5/2024 12:19:01 PM_
+_Generated 7/5/2024 12:25:59 PM_
+
+<div class='my-5'>&nbsp;</div>
 
 <style>
 body {font-family: sans-serif;}
@@ -849,6 +851,9 @@ a:hover {text-decoration: underline;}
 <div><span class='otherType'>void</span> <span class='name'>XLabel(<span class='otherType'>string</span> <span class='name'>label</span>, <span class='otherType'>single?</span> <span class='name'>size</span>)</span> <span class='docs'></span></div>
 <div><span class='otherType'>void</span> <span class='name'>YLabel(<span class='otherType'>string</span> <span class='name'>label</span>, <span class='otherType'>single?</span> <span class='name'>size</span>)</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.Grids.DefaultGrid'>ScottPlot.Grids.DefaultGrid</a> <span class='name'>GetDefaultGrid()</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.PlotStyle'>ScottPlot.PlotStyle</a> <span class='name'>GetStyle()</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>SetStyle(<a class='scottPlotType' href='#ScottPlot.PlotStyle'>ScottPlot.PlotStyle</a> <span class='name'>style</span>)</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>SetStyle(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>otherPlot</span>)</span> <span class='docs'></span></div>
 <div><span class='otherType'>void</span> <span class='name'>Developer_ShowAxisDetails(<span class='otherType'>bool</span> <span class='name'>enable</span>)</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.PlottableAdder'><a style='color: black;' href='#ScottPlot.PlottableAdder'>ScottPlot.PlottableAdder</a></div>
@@ -2364,6 +2369,21 @@ a:hover {text-decoration: underline;}
 </div>
 <div><span class='otherType'>void</span> <span class='name'>LaunchWebBrowser(<span class='otherType'>string</span> <span class='name'>url</span>)</span> <span class='docs'></span></div>
 <div><span class='otherType'>void</span> <span class='name'>LaunchFile(<span class='otherType'>string</span> <span class='name'>filePath</span>)</span> <span class='docs'></span></div>
+<div style='margin-top: 2em'>
+<div class='title' id='ScottPlot.PlotStyle'><a style='color: black;' href='#ScottPlot.PlotStyle'>ScottPlot.PlotStyle</a></div>
+<div class='docs'></div>
+</div>
+<div><a class='scottPlotType' href='#ScottPlot.Color?'>ScottPlot.Color?</a> <span class='name'>AxisColor</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Color?'>ScottPlot.Color?</a> <span class='name'>DataBackgroundColor</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Color?'>ScottPlot.Color?</a> <span class='name'>FigureBackgroundColor</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Color?'>ScottPlot.Color?</a> <span class='name'>GridMajorLineColor</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Color?'>ScottPlot.Color?</a> <span class='name'>LegendBackgroundColor</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Color?'>ScottPlot.Color?</a> <span class='name'>LegendFontColor</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Color?'>ScottPlot.Color?</a> <span class='name'>LegendOutlineColor</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.IPalette'>ScottPlot.IPalette</a> <span class='name'>Palette</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>Apply(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>plot</span>)</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.PlotStyle'>ScottPlot.PlotStyle</a> <span class='name'>FromPlot(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>plot</span>)</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.PlotStyle'>ScottPlot.PlotStyle</a> <span class='name'>WhereDifferentFrom(<a class='scottPlotType' href='#ScottPlot.PlotStyle'>ScottPlot.PlotStyle</a> <span class='name'>other</span>)</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.Population'><a style='color: black;' href='#ScottPlot.Population'>ScottPlot.Population</a></div>
 <div class='docs'></div>
@@ -4324,6 +4344,34 @@ a:hover {text-decoration: underline;}
 <div><span class='otherType'>void</span> <span class='name'>ViewFull()</span> <span class='docs'>Automatically expand the axis as needed to ensure the full dataset is visible before each render.</span></div>
 <div><span class='otherType'>void</span> <span class='name'>ViewJump(<span class='otherType'>double</span> <span class='name'>width</span>, <span class='otherType'>double</span> <span class='name'>paddingFraction</span>)</span> <span class='docs'></span></div>
 <div><span class='otherType'>void</span> <span class='name'>ViewSlide(<span class='otherType'>double</span> <span class='name'>width</span>)</span> <span class='docs'></span></div>
+<div style='margin-top: 2em'>
+<div class='title' id='ScottPlot.PlotStyles.Dark'><a style='color: black;' href='#ScottPlot.PlotStyles.Dark'>ScottPlot.PlotStyles.Dark</a></div>
+<div class='docs'></div>
+</div>
+<div><a class='scottPlotType' href='#ScottPlot.Color?'>ScottPlot.Color?</a> <span class='name'>AxisColor</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Color?'>ScottPlot.Color?</a> <span class='name'>DataBackgroundColor</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Color?'>ScottPlot.Color?</a> <span class='name'>FigureBackgroundColor</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Color?'>ScottPlot.Color?</a> <span class='name'>GridMajorLineColor</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Color?'>ScottPlot.Color?</a> <span class='name'>LegendBackgroundColor</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Color?'>ScottPlot.Color?</a> <span class='name'>LegendFontColor</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Color?'>ScottPlot.Color?</a> <span class='name'>LegendOutlineColor</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.IPalette'>ScottPlot.IPalette</a> <span class='name'>Palette</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>Apply(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>plot</span>)</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.PlotStyle'>ScottPlot.PlotStyle</a> <span class='name'>WhereDifferentFrom(<a class='scottPlotType' href='#ScottPlot.PlotStyle'>ScottPlot.PlotStyle</a> <span class='name'>other</span>)</span> <span class='docs'></span></div>
+<div style='margin-top: 2em'>
+<div class='title' id='ScottPlot.PlotStyles.Light'><a style='color: black;' href='#ScottPlot.PlotStyles.Light'>ScottPlot.PlotStyles.Light</a></div>
+<div class='docs'></div>
+</div>
+<div><a class='scottPlotType' href='#ScottPlot.Color?'>ScottPlot.Color?</a> <span class='name'>AxisColor</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Color?'>ScottPlot.Color?</a> <span class='name'>DataBackgroundColor</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Color?'>ScottPlot.Color?</a> <span class='name'>FigureBackgroundColor</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Color?'>ScottPlot.Color?</a> <span class='name'>GridMajorLineColor</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Color?'>ScottPlot.Color?</a> <span class='name'>LegendBackgroundColor</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Color?'>ScottPlot.Color?</a> <span class='name'>LegendFontColor</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Color?'>ScottPlot.Color?</a> <span class='name'>LegendOutlineColor</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.IPalette'>ScottPlot.IPalette</a> <span class='name'>Palette</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>Apply(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>plot</span>)</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.PlotStyle'>ScottPlot.PlotStyle</a> <span class='name'>WhereDifferentFrom(<a class='scottPlotType' href='#ScottPlot.PlotStyle'>ScottPlot.PlotStyle</a> <span class='name'>other</span>)</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.PathStrategies.Arrows'><a style='color: black;' href='#ScottPlot.PathStrategies.Arrows'>ScottPlot.PathStrategies.Arrows</a></div>
 <div class='docs'></div>
