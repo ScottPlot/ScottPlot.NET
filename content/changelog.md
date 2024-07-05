@@ -22,17 +22,25 @@ Release notes for every version of ScottPlot
 </li>
 <li>Documentation: Added automatically generated API documentation to the website (<a href="https://github.com/ScottPlot/ScottPlot/issues/4040">#4040</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3822">#3822</a>)
 </li>
+<li>Label: Added nullable <code>Typeface</code> which allows users to supply their own typefaces for rendering text in labels and legend items (<a href="https://github.com/ScottPlot/ScottPlot/issues/3830">#3830</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3825">#3825</a>) <a href="https://github.com/lasooch"><strong>@lasooch</strong></a>
+</li>
+<li>Label: <code>ScottPlot.Label</code> has been renamed to <code>ScottPlot.LabelStyle</code> to better signal its purpose is to hold styling information rather than store text
+</li>
+<li>Label: Improved support for custom horizontal alignment in multiline strings (<a href="https://github.com/ScottPlot/ScottPlot/issues/4045">#4045</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3958">#3958</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3859">#3859</a>) <a href="https://github.com/karlipl"><strong>@karlipl</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/ByteSore'>@ByteSore</a>, <a href='https://github.com/kebox7'>@kebox7</a>, <a href='https://github.com/idotta'>@idotta</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/ByteSore'>@ByteSore</a>, <a href='https://github.com/kebox7'>@kebox7</a>, <a href='https://github.com/idotta'>@idotta</a>, <a href='https://github.com/lasooch'>@lasooch</a>, <a href='https://github.com/karlipl'>@karlipl</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/ByteSore'><img src='https://scottplot.net/images/contributors/bytesore.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/kebox7'><img src='https://scottplot.net/images/contributors/kebox7.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/idotta'><img src='https://scottplot.net/images/contributors/idotta.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/lasooch'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/karlipl'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
