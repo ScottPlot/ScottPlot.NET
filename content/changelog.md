@@ -20,6 +20,8 @@ Release notes for every version of ScottPlot
 </li>
 <li>AxisLimits: Improved accuracy and performance of <code>WithZoom()</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/4041">#4041</a>) <a href="https://github.com/idotta"><strong>@idotta</strong></a>
 </li>
+<li>Documentation: Added automatically generated API documentation to the website (<a href="https://github.com/ScottPlot/ScottPlot/issues/4040">#4040</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3822">#3822</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
@@ -30,7 +32,7 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/ByteSore'><img src='https://scottplot.net/images/contributors/bytesore.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/kebox7'><img src='https://scottplot.net/images/contributors/kebox7.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/idotta'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/idotta'><img src='https://scottplot.net/images/contributors/idotta.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
