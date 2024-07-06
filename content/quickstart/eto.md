@@ -6,19 +6,53 @@ description: How to create an interactive plot in a C# Eto application
 
 # Eto Quickstart
 
-**Step 1:** Install the [`ScottPlot.Eto`](https://www.nuget.org/packages/ScottPlot.Eto) NuGet package. Linux & MacOS users must take [these additional steps](/faq/dependencies).
+**Step 1:** Create a new .NET console application
 
-**Step 2:** Add a `ScottPlot.Eto.PlotView` Control to your Form:
+**Step 2:** Install the following NuGet packages:
+* [`Eto.Forms`](https://www.nuget.org/packages/Eto.Forms)
+* [`Eto.Platform.Wpf`](https://www.nuget.org/packages/Eto.Platform.Wpf)
+* [`ScottPlot.Eto`](https://www.nuget.org/packages/ScottPlot.Eto)
+
+_Linux & MacOS may need to [take additional steps](/faq/dependencies)_
+
+**Step 3:** Create `MainWindow.cs` and add the following:
 
 ```cs
-var plotView = new ScottPlot.Eto.PlotView();
+partial class MainWindow : Eto.Forms.Form
+{
+    private readonly ScottPlot.Eto.EtoPlot EtoPlot1 = new();
 
-double[] xs = new double[] { 1, 2, 3, 4, 5 };
-double[] ys = new double[] { 1, 4, 9, 16, 25 };
-plotView.Plot.Add.Scatter(xs, ys);
+    public MainWindow()
+    {
+        InitializeComponent();
 
-this.Content = plotView;
+        EtoPlot1.Plot.Add.Signal(ScottPlot.Generate.Sin());
+        EtoPlot1.Plot.Add.Signal(ScottPlot.Generate.Cos());
+    }
+
+    private void InitializeComponent()
+    {
+        Content = EtoPlot1;
+        Width = 800;
+        Height = 600;
+    }
+}
 ```
+
+**Step 4:** Edit `Program.cs` to contain the following:
+
+```cs
+static class Program
+{
+    [STAThread]
+    static void Main(string[] args)
+    {
+        new Eto.Forms.Application(Eto.Platform.Detect).Run(new MainWindow());
+    }
+}
+```
+
+## Screenshots
 
 <div class="container">
     <div class="row">
