@@ -19,7 +19,7 @@ layout: single
 
 ## Quickstart 
 
-Quickstart pages exist for [console applications](/quickstart/console/), [Windows Forms](/quickstart/winforms/), [WPF](/quickstart/wpf/), [WinUI](/quickstart/winui/), [Blazor](/quickstart/blazor/), and more!
+Quickstart pages exist for [console applications](/quickstart/console/), [Windows Forms](/quickstart/winforms/), [WPF](/quickstart/wpf/), [WinUI](/quickstart/winui/), [.NET MAUI](/quickstart/maui/), [Blazor](/quickstart/blazor/), and more!
 
 ```cs
 double[] xs = { 1, 2, 3, 4, 5 };
