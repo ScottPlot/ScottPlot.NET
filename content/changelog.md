@@ -28,11 +28,13 @@ Release notes for every version of ScottPlot
 </li>
 <li>Label: Improved support for custom horizontal alignment in multiline strings (<a href="https://github.com/ScottPlot/ScottPlot/issues/4045">#4045</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3958">#3958</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3859">#3859</a>) <a href="https://github.com/karlipl"><strong>@karlipl</strong></a>
 </li>
+<li>Fonts: Improve performance when automatic best font detection is enabled (<a href="https://github.com/ScottPlot/ScottPlot/issues/4049">#4049</a>) <a href="https://github.com/zxy874175242"><strong>@zxy874175242</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/ByteSore'>@ByteSore</a>, <a href='https://github.com/kebox7'>@kebox7</a>, <a href='https://github.com/idotta'>@idotta</a>, <a href='https://github.com/lasooch'>@lasooch</a>, <a href='https://github.com/karlipl'>@karlipl</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/ByteSore'>@ByteSore</a>, <a href='https://github.com/kebox7'>@kebox7</a>, <a href='https://github.com/idotta'>@idotta</a>, <a href='https://github.com/lasooch'>@lasooch</a>, <a href='https://github.com/karlipl'>@karlipl</a>, <a href='https://github.com/zxy874175242'>@zxy874175242</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -41,6 +43,7 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/idotta'><img src='https://scottplot.net/images/contributors/idotta.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/lasooch'><img src='https://scottplot.net/images/contributors/lasooch.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/karlipl'><img src='https://scottplot.net/images/contributors/karlipl.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/zxy874175242'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
