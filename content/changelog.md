@@ -12,6 +12,8 @@ Release notes for every version of ScottPlot
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
+<li>Controls: A new <code>IPlotControl.UserInputProcessor</code> has been created to replace <code>IPlotControl.Interaction</code> which will be deprecated in a future release. The new system supports arbitrary inputs (not limited to mouse actions and key presses), offers extended ability to inject highly customizable ordered plot manipulation logic that respond to streamed inputs, and has been designed to facilitate automated UI testing. Set <code>IPlotControl.UserInputProcessor.IsEnabled</code> to <code>true</code> to opt-in to this new event processor. (<a href="https://github.com/ScottPlot/ScottPlot/issues/4053">#4053</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3186">#3186</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3622">#3622</a>)
+</li>
 <li>Signal and SignalXY: Improve data source <code>GetNearestX()</code> accuracy (<a href="https://github.com/ScottPlot/ScottPlot/issues/4019">#4019</a>) <a href="https://github.com/StendProg"><strong>@StendProg</strong></a>
 </li>
 <li>Maui: Created a <code>ScottPlot.Maui.MauiPlot</code> control to provide interactive plots in .NET Maui applications (<a href="https://github.com/ScottPlot/ScottPlot/issues/4013">#4013</a>) <a href="https://github.com/ByteSore"><strong>@ByteSore</strong></a>
@@ -30,6 +32,8 @@ Release notes for every version of ScottPlot
 </li>
 <li>Fonts: Improve performance when automatic best font detection is enabled (<a href="https://github.com/ScottPlot/ScottPlot/issues/4049">#4049</a>) <a href="https://github.com/zxy874175242"><strong>@zxy874175242</strong></a>
 </li>
+<li>Controls: Added autoscale to default context menu (<a href="https://github.com/ScottPlot/ScottPlot/issues/4053">#4053</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
@@ -43,7 +47,7 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/idotta'><img src='https://scottplot.net/images/contributors/idotta.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/lasooch'><img src='https://scottplot.net/images/contributors/lasooch.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/karlipl'><img src='https://scottplot.net/images/contributors/karlipl.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/zxy874175242'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/zxy874175242'><img src='https://scottplot.net/images/contributors/zxy874175242.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
