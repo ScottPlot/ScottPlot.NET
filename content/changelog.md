@@ -24,7 +24,7 @@ Release notes for every version of ScottPlot
 </li>
 <li>Documentation: Added automatically generated API documentation to the website (<a href="https://github.com/ScottPlot/ScottPlot/issues/4040">#4040</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3822">#3822</a>)
 </li>
-<li>Label: Added nullable <code>Typeface</code> which allows users to supply their own typefaces for rendering text in labels and legend items (<a href="https://github.com/ScottPlot/ScottPlot/issues/3830">#3830</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3825">#3825</a>) <a href="https://github.com/lasooch"><strong>@lasooch</strong></a>
+<li>Font: Improved documentation and testing for plot objects (like Legends) that use custom typefaces (<a href="https://github.com/ScottPlot/ScottPlot/issues/3830">#3830</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3825">#3825</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4060">#4060</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4043">#4043</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4057">#4057</a>) <a href="https://github.com/lasooch"><strong>@lasooch</strong></a> <a href="https://github.com/kebox7"><strong>@kebox7</strong></a>
 </li>
 <li>Label: <code>ScottPlot.Label</code> has been renamed to <code>ScottPlot.LabelStyle</code> to better signal its purpose is to hold styling information rather than store text
 </li>
@@ -34,11 +34,13 @@ Release notes for every version of ScottPlot
 </li>
 <li>Controls: Added autoscale to default context menu (<a href="https://github.com/ScottPlot/ScottPlot/issues/4053">#4053</a>)
 </li>
+<li>Axes: A polar plot axis can now be added with <code>myPlot.Add.PolarAxis()</code> and customized as seen in the cookbook (<a href="https://github.com/ScottPlot/ScottPlot/issues/4055">#4055</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3939">#3939</a>) <a href="https://github.com/CoderPM2011"><strong>@CoderPM2011</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/ByteSore'>@ByteSore</a>, <a href='https://github.com/kebox7'>@kebox7</a>, <a href='https://github.com/idotta'>@idotta</a>, <a href='https://github.com/lasooch'>@lasooch</a>, <a href='https://github.com/karlipl'>@karlipl</a>, <a href='https://github.com/zxy874175242'>@zxy874175242</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/ByteSore'>@ByteSore</a>, <a href='https://github.com/kebox7'>@kebox7</a>, <a href='https://github.com/idotta'>@idotta</a>, <a href='https://github.com/lasooch'>@lasooch</a>, <a href='https://github.com/karlipl'>@karlipl</a>, <a href='https://github.com/zxy874175242'>@zxy874175242</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -48,6 +50,7 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/lasooch'><img src='https://scottplot.net/images/contributors/lasooch.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/karlipl'><img src='https://scottplot.net/images/contributors/karlipl.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/zxy874175242'><img src='https://scottplot.net/images/contributors/zxy874175242.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/CoderPM2011'><img src='https://scottplot.net/images/contributors/coderpm2011.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
