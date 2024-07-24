@@ -36,11 +36,33 @@ Release notes for every version of ScottPlot
 </li>
 <li>Axes: A polar plot axis can now be added with <code>myPlot.Add.PolarAxis()</code> and customized as seen in the cookbook (<a href="https://github.com/ScottPlot/ScottPlot/issues/4055">#4055</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3939">#3939</a>) <a href="https://github.com/CoderPM2011"><strong>@CoderPM2011</strong></a>
 </li>
+<li>Axis lines and spans: Added <code>EnableAutoscale</code> flag to allow plottables to be ignored when <code>Plot.Axes.AutoScale()</code> is called (<a href="https://github.com/ScottPlot/ScottPlot/issues/4069">#4069</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4067">#4067</a>) <a href="https://github.com/KroMignon"><strong>@KroMignon</strong></a> <a href="https://github.com/andresod"><strong>@andresod</strong></a>
+</li>
+<li>SignalConst: Improved support for custom legend text (<a href="https://github.com/ScottPlot/ScottPlot/issues/4081">#4081</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4082">#4082</a>) <a href="https://github.com/KroMignon"><strong>@KroMignon</strong></a> <a href="https://github.com/fanshuxian"><strong>@fanshuxian</strong></a>
+</li>
+<li>SignalConst: Improve accuracy of the first point in low density mode (<a href="https://github.com/ScottPlot/ScottPlot/issues/4082">#4082</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4083">#4083</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4086">#4086</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4083">#4083</a>) <a href="https://github.com/StendProg"><strong>@StendProg</strong></a> <a href="https://github.com/KroMignon"><strong>@KroMignon</strong></a>
+</li>
+<li>SignalConst: Allowed markers to become visible by setting their shape without requiring users to define a non-zero size (<a href="https://github.com/ScottPlot/ScottPlot/issues/4082">#4082</a>) <a href="https://github.com/KroMignon"><strong>@KroMignon</strong></a>
+</li>
+<li>Grid: Improved performance by reducing unnecessary allocations for ticks of invisible axes (<a href="https://github.com/ScottPlot/ScottPlot/issues/4087">#4087</a>) <a href="https://github.com/kebox7"><strong>@kebox7</strong></a>
+</li>
+<li>Ticks: Improved behavior of the numeric fixed interval tick generator to ensure the correct lowest tick is always rendered (<a href="https://github.com/ScottPlot/ScottPlot/issues/4089">#4089</a>) <a href="https://github.com/epegeot"><strong>@epegeot</strong></a>
+</li>
+<li>Ticks: Allow the numeric fixed interval tick generator interval to be defined as a <code>double</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/4090">#4090</a>) <a href="https://github.com/epegeot"><strong>@epegeot</strong></a>
+</li>
+<li>Ticks: Add a custom tick label formatter property to the numeric fixed interval tick generator (<a href="https://github.com/ScottPlot/ScottPlot/issues/4090">#4090</a>) <a href="https://github.com/epegeot"><strong>@epegeot</strong></a>
+</li>
+<li>Ticks: Improved behavior of <code>NumericalFixedInterval</code> to ensure the correct lowest tick is always rendered (<a href="https://github.com/ScottPlot/ScottPlot/issues/4089">#4089</a>) <a href="https://github.com/epegeot"><strong>@epegeot</strong></a>
+</li>
+<li>DataStreamer: Improved support for rotated plots (<a href="https://github.com/ScottPlot/ScottPlot/issues/4093">#4093</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4085">#4085</a>) <a href="https://github.com/drolevar"><strong>@drolevar</strong></a> <a href="https://github.com/KroMignon"><strong>@KroMignon</strong></a> <a href="https://github.com/Jofstera"><strong>@Jofstera</strong></a>
+</li>
+<li>Security: Removed outdated reference to <code>System.Text.Json</code> which contained CVE-2024-30105 (<a href="https://github.com/ScottPlot/ScottPlot/issues/4095">#4095</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4063">#4063</a>) <a href="https://github.com/SerTetora"><strong>@SerTetora</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/ByteSore'>@ByteSore</a>, <a href='https://github.com/kebox7'>@kebox7</a>, <a href='https://github.com/idotta'>@idotta</a>, <a href='https://github.com/lasooch'>@lasooch</a>, <a href='https://github.com/karlipl'>@karlipl</a>, <a href='https://github.com/zxy874175242'>@zxy874175242</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/ByteSore'>@ByteSore</a>, <a href='https://github.com/kebox7'>@kebox7</a>, <a href='https://github.com/idotta'>@idotta</a>, <a href='https://github.com/lasooch'>@lasooch</a>, <a href='https://github.com/karlipl'>@karlipl</a>, <a href='https://github.com/zxy874175242'>@zxy874175242</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/KroMignon'>@KroMignon</a>, <a href='https://github.com/andresod'>@andresod</a>, <a href='https://github.com/fanshuxian'>@fanshuxian</a>, <a href='https://github.com/epegeot'>@epegeot</a>, <a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/Jofstera'>@Jofstera</a>, <a href='https://github.com/SerTetora'>@SerTetora</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -51,6 +73,13 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/karlipl'><img src='https://scottplot.net/images/contributors/karlipl.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/zxy874175242'><img src='https://scottplot.net/images/contributors/zxy874175242.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/CoderPM2011'><img src='https://scottplot.net/images/contributors/coderpm2011.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/KroMignon'><img src='https://scottplot.net/images/contributors/kromignon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/andresod'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/fanshuxian'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/epegeot'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/drolevar'><img src='https://scottplot.net/images/contributors/drolevar.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Jofstera'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/SerTetora'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
