@@ -58,11 +58,13 @@ Release notes for every version of ScottPlot
 </li>
 <li>Security: Removed outdated reference to <code>System.Text.Json</code> which contained CVE-2024-30105 (<a href="https://github.com/ScottPlot/ScottPlot/issues/4095">#4095</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4063">#4063</a>) <a href="https://github.com/SerTetora"><strong>@SerTetora</strong></a>
 </li>
+<li>Phaser: New plot type for displaying arrows to points in polar space (<a href="https://github.com/ScottPlot/ScottPlot/issues/4096">#4096</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3939">#3939</a>) <a href="https://github.com/CoderPM2011"><strong>@CoderPM2011</strong></a> <a href="https://github.com/nilsakesson"><strong>@nilsakesson</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/ByteSore'>@ByteSore</a>, <a href='https://github.com/kebox7'>@kebox7</a>, <a href='https://github.com/idotta'>@idotta</a>, <a href='https://github.com/lasooch'>@lasooch</a>, <a href='https://github.com/karlipl'>@karlipl</a>, <a href='https://github.com/zxy874175242'>@zxy874175242</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/KroMignon'>@KroMignon</a>, <a href='https://github.com/andresod'>@andresod</a>, <a href='https://github.com/fanshuxian'>@fanshuxian</a>, <a href='https://github.com/epegeot'>@epegeot</a>, <a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/Jofstera'>@Jofstera</a>, <a href='https://github.com/SerTetora'>@SerTetora</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/ByteSore'>@ByteSore</a>, <a href='https://github.com/kebox7'>@kebox7</a>, <a href='https://github.com/idotta'>@idotta</a>, <a href='https://github.com/lasooch'>@lasooch</a>, <a href='https://github.com/karlipl'>@karlipl</a>, <a href='https://github.com/zxy874175242'>@zxy874175242</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/KroMignon'>@KroMignon</a>, <a href='https://github.com/andresod'>@andresod</a>, <a href='https://github.com/fanshuxian'>@fanshuxian</a>, <a href='https://github.com/epegeot'>@epegeot</a>, <a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/Jofstera'>@Jofstera</a>, <a href='https://github.com/SerTetora'>@SerTetora</a>, <a href='https://github.com/nilsakesson'>@nilsakesson</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -74,12 +76,13 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/zxy874175242'><img src='https://scottplot.net/images/contributors/zxy874175242.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/CoderPM2011'><img src='https://scottplot.net/images/contributors/coderpm2011.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/KroMignon'><img src='https://scottplot.net/images/contributors/kromignon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/andresod'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/fanshuxian'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/epegeot'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/andresod'><img src='https://scottplot.net/images/contributors/andresod.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/fanshuxian'><img src='https://scottplot.net/images/contributors/fanshuxian.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/epegeot'><img src='https://scottplot.net/images/contributors/epegeot.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/drolevar'><img src='https://scottplot.net/images/contributors/drolevar.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/Jofstera'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/SerTetora'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Jofstera'><img src='https://scottplot.net/images/contributors/jofstera.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/SerTetora'><img src='https://scottplot.net/images/contributors/sertetora.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/nilsakesson'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
