@@ -62,11 +62,15 @@ Release notes for every version of ScottPlot
 </li>
 <li>PlottableAdder: Exposed <code>Plot</code> so users can create methods that extend <code>Plot.Add</code> which have access to the <code>Plot</code> itself (<a href="https://github.com/ScottPlot/ScottPlot/issues/4109">#4109</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4107">#4107</a>) <a href="https://github.com/DDiggs91"><strong>@DDiggs91</strong></a>
 </li>
+<li>AxisManager: Improve <code>AutoScale()</code> support for inverted axes (<a href="https://github.com/ScottPlot/ScottPlot/issues/4110">#4110</a>) <a href="https://github.com/BrianAtZetica"><strong>@BrianAtZetica</strong></a>
+</li>
+<li>Scatter: Added <code>ColorPositions</code> to allow placement of colors at specific X positions when using filled scatter plots (<a href="https://github.com/ScottPlot/ScottPlot/issues/4111">#4111</a>) <a href="https://github.com/CoderPM2011"><strong>@CoderPM2011</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/ByteSore'>@ByteSore</a>, <a href='https://github.com/kebox7'>@kebox7</a>, <a href='https://github.com/idotta'>@idotta</a>, <a href='https://github.com/lasooch'>@lasooch</a>, <a href='https://github.com/karlipl'>@karlipl</a>, <a href='https://github.com/zxy874175242'>@zxy874175242</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/KroMignon'>@KroMignon</a>, <a href='https://github.com/andresod'>@andresod</a>, <a href='https://github.com/fanshuxian'>@fanshuxian</a>, <a href='https://github.com/epegeot'>@epegeot</a>, <a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/Jofstera'>@Jofstera</a>, <a href='https://github.com/SerTetora'>@SerTetora</a>, <a href='https://github.com/nilsakesson'>@nilsakesson</a>, <a href='https://github.com/DDiggs91'>@DDiggs91</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/ByteSore'>@ByteSore</a>, <a href='https://github.com/kebox7'>@kebox7</a>, <a href='https://github.com/idotta'>@idotta</a>, <a href='https://github.com/lasooch'>@lasooch</a>, <a href='https://github.com/karlipl'>@karlipl</a>, <a href='https://github.com/zxy874175242'>@zxy874175242</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/KroMignon'>@KroMignon</a>, <a href='https://github.com/andresod'>@andresod</a>, <a href='https://github.com/fanshuxian'>@fanshuxian</a>, <a href='https://github.com/epegeot'>@epegeot</a>, <a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/Jofstera'>@Jofstera</a>, <a href='https://github.com/SerTetora'>@SerTetora</a>, <a href='https://github.com/nilsakesson'>@nilsakesson</a>, <a href='https://github.com/DDiggs91'>@DDiggs91</a>, <a href='https://github.com/BrianAtZetica'>@BrianAtZetica</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -85,7 +89,8 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/Jofstera'><img src='https://scottplot.net/images/contributors/jofstera.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/SerTetora'><img src='https://scottplot.net/images/contributors/sertetora.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/nilsakesson'><img src='https://scottplot.net/images/contributors/nilsakesson.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/DDiggs91'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/DDiggs91'><img src='https://scottplot.net/images/contributors/ddiggs91.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/BrianAtZetica'><img src='https://scottplot.net/images/contributors/brianatzetica.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
