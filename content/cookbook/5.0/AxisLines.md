@@ -4,9 +4,9 @@ Description: Axis lines indicate a position on an axis.
 URL: /cookbook/5.0/AxisLines/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Axis Lines"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AxisLines"]
-Date: 2024-06-29
-Version: ScottPlot 5.0.36
-Version: ScottPlot 5.0.36
+Date: 2024-07-30
+Version: ScottPlot 5.0.37
+Version: ScottPlot 5.0.37
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,7 +18,7 @@ ShowEditLink: false
 
 Axis lines are vertical or horizontal lines that span an entire axis.
 
-[![](/cookbook/5.0/images/AxisLineQuickstart.png?240629072232)](/cookbook/5.0/images/AxisLineQuickstart.png?240629072232)
+[![](/cookbook/5.0/images/AxisLineQuickstart.png?240729212327)](/cookbook/5.0/images/AxisLineQuickstart.png?240729212327)
 
 {{< code-sp5 >}}
 
@@ -44,7 +44,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Axis lines have labels that can be used to display arbitrary text on the axes they are attached to.
 
-[![](/cookbook/5.0/images/AxisLineLabel.png?240629072232)](/cookbook/5.0/images/AxisLineLabel.png?240629072232)
+[![](/cookbook/5.0/images/AxisLineLabel.png?240729212327)](/cookbook/5.0/images/AxisLineLabel.png?240729212327)
 
 {{< code-sp5 >}}
 
@@ -89,7 +89,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Axis line labels can have custom positioning, including rotation and alignment.
 
-[![](/cookbook/5.0/images/AxisLineLabelPositioning.png?240629072232)](/cookbook/5.0/images/AxisLineLabelPositioning.png?240629072232)
+[![](/cookbook/5.0/images/AxisLineLabelPositioning.png?240729212327)](/cookbook/5.0/images/AxisLineLabelPositioning.png?240729212327)
 
 {{< code-sp5 >}}
 
@@ -131,7 +131,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Axis lines have extensive customization options.
 
-[![](/cookbook/5.0/images/AxisLineStyle.png?240629072232)](/cookbook/5.0/images/AxisLineStyle.png?240629072232)
+[![](/cookbook/5.0/images/AxisLineStyle.png?240729212327)](/cookbook/5.0/images/AxisLineStyle.png?240729212327)
 
 {{< code-sp5 >}}
 
@@ -172,7 +172,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Axis lines will be added to the legend if their Text property is set unless their ExcludeFromLegend property is true.
 
-[![](/cookbook/5.0/images/AxisLineInLegend.png?240629072232)](/cookbook/5.0/images/AxisLineInLegend.png?240629072232)
+[![](/cookbook/5.0/images/AxisLineInLegend.png?240729212327)](/cookbook/5.0/images/AxisLineInLegend.png?240729212327)
 
 {{< code-sp5 >}}
 
@@ -199,6 +199,37 @@ axLine5.Text = "Line 5";
 axLine5.ExcludeFromLegend = true;
 
 myPlot.ShowLegend();
+
+myPlot.SavePng("demo.png", 400, 300);
+
+```
+
+{{< /code-sp5 >}}
+
+<hr class='my-5 invisible'>
+
+
+<h2><a href='/cookbook/5.0/AxisLines/AxisLineIgnoreLimits'>Ignore When Autoscaling</a></h2>
+
+Calling Plot.Axes.AutoScale() or middle-clicking the plot will set the axis limits to fit the data. By default the position of axis lines and spans are included in automatic axis limit calculations, but a flag can be set to ignore certain plottables when automatically scaling the plot.
+
+[![](/cookbook/5.0/images/AxisLineIgnoreLimits.png?240729212327)](/cookbook/5.0/images/AxisLineIgnoreLimits.png?240729212327)
+
+{{< code-sp5 >}}
+
+```cs
+ScottPlot.Plot myPlot = new();
+
+myPlot.Add.Signal(Generate.Sin(51));
+myPlot.Add.Signal(Generate.Cos(51));
+
+var hline = myPlot.Add.HorizontalLine(0.23);
+hline.IsDraggable = true;
+hline.EnableAutoscale = false;
+
+var hSpan = myPlot.Add.HorizontalSpan(-10, 20);
+hSpan.IsDraggable = true;
+hSpan.EnableAutoscale = false;
 
 myPlot.SavePng("demo.png", 400, 300);
 

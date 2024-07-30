@@ -4,9 +4,9 @@ Description: Make ticks render at fixed intervals. Optionally make the ticks ren
 URL: /cookbook/5.0/DateTimeAxes/DateTimeAxisFixedIntervalTicks/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "DateTime Axes", "DateTime Axis Fixed Interval Ticks"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/DateTimeAxes", "/cookbook/5.0/DateTimeAxes/DateTimeAxisFixedIntervalTicks"]
-Date: 2024-06-29
-Version: ScottPlot 5.0.36
-Version: ScottPlot 5.0.36
+Date: 2024-07-30
+Version: ScottPlot 5.0.37
+Version: ScottPlot 5.0.37
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Make ticks render at fixed intervals. Optionally make the ticks render from a custom start date, rather than using the start date of the plot (e.g. to draw ticks on the hour every hour, or on the first of every month, etc).
 
-[![](/cookbook/5.0/images/DateTimeAxisFixedIntervalTicks.png?240629072232)](/cookbook/5.0/images/DateTimeAxisFixedIntervalTicks.png?240629072232)
+[![](/cookbook/5.0/images/DateTimeAxisFixedIntervalTicks.png?240729212327)](/cookbook/5.0/images/DateTimeAxisFixedIntervalTicks.png?240729212327)
 
 {{< code-sp5 >}}
 

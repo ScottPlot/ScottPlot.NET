@@ -4,9 +4,9 @@ Description: Plot data values on a DataTime axes
 URL: /cookbook/5.0/DateTimeAxes/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "DateTime Axes"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/DateTimeAxes"]
-Date: 2024-06-29
-Version: ScottPlot 5.0.36
-Version: ScottPlot 5.0.36
+Date: 2024-07-30
+Version: ScottPlot 5.0.37
+Version: ScottPlot 5.0.37
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,7 +18,7 @@ ShowEditLink: false
 
 Axis tick labels can be displayed using a time format.
 
-[![](/cookbook/5.0/images/DateTimeAxisQuickstart.png?240629072232)](/cookbook/5.0/images/DateTimeAxisQuickstart.png?240629072232)
+[![](/cookbook/5.0/images/DateTimeAxisQuickstart.png?240729212327)](/cookbook/5.0/images/DateTimeAxisQuickstart.png?240729212327)
 
 {{< code-sp5 >}}
 
@@ -46,7 +46,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 DateTime axes are achieved using Microsoft's DateTime.ToOADate() and DateTime.FromOADate() methods to convert between dates and numeric values. Advanced users who wish to display data on DateTime axes may prefer to work with collections of doubles rather than collections of DateTimes.
 
-[![](/cookbook/5.0/images/DateTimeAxisMixed.png?240629072232)](/cookbook/5.0/images/DateTimeAxisMixed.png?240629072232)
+[![](/cookbook/5.0/images/DateTimeAxisMixed.png?240729212327)](/cookbook/5.0/images/DateTimeAxisMixed.png?240729212327)
 
 {{< code-sp5 >}}
 
@@ -93,7 +93,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Users can provide their own logic for customizing DateTime tick labels
 
-[![](/cookbook/5.0/images/DateTimeAxisCustomFormatter.png?240629072232)](/cookbook/5.0/images/DateTimeAxisCustomFormatter.png?240629072232)
+[![](/cookbook/5.0/images/DateTimeAxisCustomFormatter.png?240729212327)](/cookbook/5.0/images/DateTimeAxisCustomFormatter.png?240729212327)
 
 {{< code-sp5 >}}
 
@@ -131,7 +131,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Make ticks render at fixed intervals. Optionally make the ticks render from a custom start date, rather than using the start date of the plot (e.g. to draw ticks on the hour every hour, or on the first of every month, etc).
 
-[![](/cookbook/5.0/images/DateTimeAxisFixedIntervalTicks.png?240629072232)](/cookbook/5.0/images/DateTimeAxisFixedIntervalTicks.png?240629072232)
+[![](/cookbook/5.0/images/DateTimeAxisFixedIntervalTicks.png?240729212327)](/cookbook/5.0/images/DateTimeAxisFixedIntervalTicks.png?240729212327)
 
 {{< code-sp5 >}}
 

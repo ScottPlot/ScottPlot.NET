@@ -4,9 +4,9 @@ Description: Groups of populations can be achieved by customizing position, colo
 URL: /cookbook/5.0/Population/PopulationGroups/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Population Plot", "Population Groups"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Population", "/cookbook/5.0/Population/PopulationGroups"]
-Date: 2024-06-29
-Version: ScottPlot 5.0.36
-Version: ScottPlot 5.0.36
+Date: 2024-07-30
+Version: ScottPlot 5.0.37
+Version: ScottPlot 5.0.37
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Groups of populations can be achieved by customizing position, color, axis labels, and legend items.
 
-[![](/cookbook/5.0/images/PopulationGroups.png?240629072232)](/cookbook/5.0/images/PopulationGroups.png?240629072232)
+[![](/cookbook/5.0/images/PopulationGroups.png?240729212327)](/cookbook/5.0/images/PopulationGroups.png?240729212327)
 
 {{< code-sp5 >}}
 

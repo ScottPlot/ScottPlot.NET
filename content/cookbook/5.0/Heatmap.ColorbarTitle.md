@@ -4,9 +4,9 @@ Description: A colorbar displays a colormap on an edge of the plot, and it has a
 URL: /cookbook/5.0/Heatmap/ColorbarTitle/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Heatmap", "Colorbar Title"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Heatmap", "/cookbook/5.0/Heatmap/ColorbarTitle"]
-Date: 2024-06-29
-Version: ScottPlot 5.0.36
-Version: ScottPlot 5.0.36
+Date: 2024-07-30
+Version: ScottPlot 5.0.37
+Version: ScottPlot 5.0.37
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 A colorbar displays a colormap on an edge of the plot, and it has an optional label which can be customized to display a title.
 
-[![](/cookbook/5.0/images/ColorbarTitle.png?240629072232)](/cookbook/5.0/images/ColorbarTitle.png?240629072232)
+[![](/cookbook/5.0/images/ColorbarTitle.png?240729212327)](/cookbook/5.0/images/ColorbarTitle.png?240729212327)
 
 {{< code-sp5 >}}
 

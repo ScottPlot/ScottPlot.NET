@@ -4,9 +4,9 @@ Description: Functions that add things to plots return the plottables they creat
 URL: /cookbook/5.0/ScottPlotQuickstart/CustomizingPlottables/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Quickstart", "Customizing Plottables"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/ScottPlotQuickstart", "/cookbook/5.0/ScottPlotQuickstart/CustomizingPlottables"]
-Date: 2024-06-29
-Version: ScottPlot 5.0.36
-Version: ScottPlot 5.0.36
+Date: 2024-07-30
+Version: ScottPlot 5.0.37
+Version: ScottPlot 5.0.37
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Functions that add things to plots return the plottables they create. Interact with the properties of plottables to customize their styling and behavior.
 
-[![](/cookbook/5.0/images/CustomizingPlottables.png?240629072232)](/cookbook/5.0/images/CustomizingPlottables.png?240629072232)
+[![](/cookbook/5.0/images/CustomizingPlottables.png?240729212327)](/cookbook/5.0/images/CustomizingPlottables.png?240729212327)
 
 {{< code-sp5 >}}
 

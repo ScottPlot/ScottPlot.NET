@@ -4,9 +4,9 @@ Description: Markers can be placed on the plot in coordinate space.
 URL: /cookbook/5.0/Marker/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Marker"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Marker"]
-Date: 2024-06-29
-Version: ScottPlot 5.0.36
-Version: ScottPlot 5.0.36
+Date: 2024-07-30
+Version: ScottPlot 5.0.37
+Version: ScottPlot 5.0.37
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,7 +18,7 @@ ShowEditLink: false
 
 Markers are symbols placed at a location in coordinate space. Their shape, size, and color can be customized.
 
-[![](/cookbook/5.0/images/MarkerQuickstart.png?240629072232)](/cookbook/5.0/images/MarkerQuickstart.png?240629072232)
+[![](/cookbook/5.0/images/MarkerQuickstart.png?240729212327)](/cookbook/5.0/images/MarkerQuickstart.png?240729212327)
 
 {{< code-sp5 >}}
 
@@ -45,7 +45,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Standard marker shapes are provided, but advanced users are able to create their own as well.
 
-[![](/cookbook/5.0/images/MarkerShapes.png?240629072232)](/cookbook/5.0/images/MarkerShapes.png?240629072232)
+[![](/cookbook/5.0/images/MarkerShapes.png?240729212327)](/cookbook/5.0/images/MarkerShapes.png?240729212327)
 
 {{< code-sp5 >}}
 
@@ -95,7 +95,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Markers with labels appear in the legend.
 
-[![](/cookbook/5.0/images/MarkerLegend.png?240629072232)](/cookbook/5.0/images/MarkerLegend.png?240629072232)
+[![](/cookbook/5.0/images/MarkerLegend.png?240729212327)](/cookbook/5.0/images/MarkerLegend.png?240729212327)
 
 {{< code-sp5 >}}
 
@@ -125,7 +125,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Collections of markers that are all styled the same may be added to the plot
 
-[![](/cookbook/5.0/images/MarkersPlot.png?240629072232)](/cookbook/5.0/images/MarkersPlot.png?240629072232)
+[![](/cookbook/5.0/images/MarkersPlot.png?240729212327)](/cookbook/5.0/images/MarkersPlot.png?240729212327)
 
 {{< code-sp5 >}}
 
@@ -152,7 +152,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 An ImageMarker can be placed on the plot to display an image centered at a location in coordinate space.
 
-[![](/cookbook/5.0/images/ImageMarkerQuickstart.png?240629072232)](/cookbook/5.0/images/ImageMarkerQuickstart.png?240629072232)
+[![](/cookbook/5.0/images/ImageMarkerQuickstart.png?240729212327)](/cookbook/5.0/images/ImageMarkerQuickstart.png?240729212327)
 
 {{< code-sp5 >}}
 

@@ -4,9 +4,9 @@ Description: Radar charts (also called a spider charts or star charts) represent
 URL: /cookbook/5.0/Radar/RadarQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Radar Plot", "Radar Plot Quickstart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Radar", "/cookbook/5.0/Radar/RadarQuickstart"]
-Date: 2024-06-29
-Version: ScottPlot 5.0.36
-Version: ScottPlot 5.0.36
+Date: 2024-07-30
+Version: ScottPlot 5.0.37
+Version: ScottPlot 5.0.37
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Radar charts (also called a spider charts or star charts) represent multi-axis data as a 2D shape on axes arranged circularly around a center point.
 
-[![](/cookbook/5.0/images/RadarQuickstart.png?240629072232)](/cookbook/5.0/images/RadarQuickstart.png?240629072232)
+[![](/cookbook/5.0/images/RadarQuickstart.png?240729212327)](/cookbook/5.0/images/RadarQuickstart.png?240729212327)
 
 {{< code-sp5 >}}
 
@@ -35,7 +35,7 @@ var radar = myPlot.Add.Radar(radarSeries);
 
 // customize radar axis labels (5 axes because each RadarSeries has 5 values)
 radar.Labels = new string[] { "Axis 1", "Axis 2", "Axis 3", "Axis 4", "Axis 5" }
-    .Select(s => new Label() { Text = s, Alignment = Alignment.MiddleCenter })
+    .Select(s => new LabelStyle() { Text = s, Alignment = Alignment.MiddleCenter })
     .ToArray();
 
 myPlot.Axes.Frameless();

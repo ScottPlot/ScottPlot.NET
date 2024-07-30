@@ -4,9 +4,9 @@ Description: The values displayed by the box midline, body, and whisker can be c
 URL: /cookbook/5.0/Population/PopulationBoxValues/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Population Plot", "Population Box Values"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Population", "/cookbook/5.0/Population/PopulationBoxValues"]
-Date: 2024-06-29
-Version: ScottPlot 5.0.36
-Version: ScottPlot 5.0.36
+Date: 2024-07-30
+Version: ScottPlot 5.0.37
+Version: ScottPlot 5.0.37
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 The values displayed by the box midline, body, and whisker can be configured by assigning a static function to the box value configuration property.
 
-[![](/cookbook/5.0/images/PopulationBoxValues.png?240629072232)](/cookbook/5.0/images/PopulationBoxValues.png?240629072232)
+[![](/cookbook/5.0/images/PopulationBoxValues.png?240729212327)](/cookbook/5.0/images/PopulationBoxValues.png?240729212327)
 
 {{< code-sp5 >}}
 

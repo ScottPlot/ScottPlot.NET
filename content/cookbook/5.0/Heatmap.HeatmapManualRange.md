@@ -4,9 +4,9 @@ Description: The user can define the range of values to represent with colors in
 URL: /cookbook/5.0/Heatmap/HeatmapManualRange/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Heatmap", "Heatmap with Manual Color Range"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Heatmap", "/cookbook/5.0/Heatmap/HeatmapManualRange"]
-Date: 2024-06-29
-Version: ScottPlot 5.0.36
-Version: ScottPlot 5.0.36
+Date: 2024-07-30
+Version: ScottPlot 5.0.37
+Version: ScottPlot 5.0.37
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 The user can define the range of values to represent with colors in the colormap. Values outside that range will be clipped to the nearest color in the colormap.
 
-[![](/cookbook/5.0/images/HeatmapManualRange.png?240629072232)](/cookbook/5.0/images/HeatmapManualRange.png?240629072232)
+[![](/cookbook/5.0/images/HeatmapManualRange.png?240729212327)](/cookbook/5.0/images/HeatmapManualRange.png?240729212327)
 
 {{< code-sp5 >}}
 

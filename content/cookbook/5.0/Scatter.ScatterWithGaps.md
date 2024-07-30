@@ -4,9 +4,9 @@ Description: NaN values in a scatter plot's data will appear as gaps in the line
 URL: /cookbook/5.0/Scatter/ScatterWithGaps/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Scatter Plot", "Scatter with Gaps"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Scatter", "/cookbook/5.0/Scatter/ScatterWithGaps"]
-Date: 2024-06-29
-Version: ScottPlot 5.0.36
-Version: ScottPlot 5.0.36
+Date: 2024-07-30
+Version: ScottPlot 5.0.37
+Version: ScottPlot 5.0.37
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 NaN values in a scatter plot's data will appear as gaps in the line.
 
-[![](/cookbook/5.0/images/ScatterWithGaps.png?240629072232)](/cookbook/5.0/images/ScatterWithGaps.png?240629072232)
+[![](/cookbook/5.0/images/ScatterWithGaps.png?240729212327)](/cookbook/5.0/images/ScatterWithGaps.png?240729212327)
 
 {{< code-sp5 >}}
 

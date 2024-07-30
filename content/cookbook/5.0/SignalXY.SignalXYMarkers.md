@@ -4,9 +4,9 @@ Description: Users can enable a marker to be displayedat each data point. Howeve
 URL: /cookbook/5.0/SignalXY/SignalXYMarkers/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "SignalXY Plot", "SignalXY with Markers"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/SignalXY", "/cookbook/5.0/SignalXY/SignalXYMarkers"]
-Date: 2024-06-29
-Version: ScottPlot 5.0.36
-Version: ScottPlot 5.0.36
+Date: 2024-07-30
+Version: ScottPlot 5.0.37
+Version: ScottPlot 5.0.37
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Users can enable a marker to be displayedat each data point. However, this can reduce performance for extremely large datasets.
 
-[![](/cookbook/5.0/images/SignalXYMarkers.png?240629072232)](/cookbook/5.0/images/SignalXYMarkers.png?240629072232)
+[![](/cookbook/5.0/images/SignalXYMarkers.png?240729212327)](/cookbook/5.0/images/SignalXYMarkers.png?240729212327)
 
 {{< code-sp5 >}}
 

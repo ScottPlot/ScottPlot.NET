@@ -4,9 +4,9 @@ Description: Error size can be set for all dimensions.
 URL: /cookbook/5.0/ErrorBar/CustomErrors/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Error Bars", "ErrorBar Values"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/ErrorBar", "/cookbook/5.0/ErrorBar/CustomErrors"]
-Date: 2024-06-29
-Version: ScottPlot 5.0.36
-Version: ScottPlot 5.0.36
+Date: 2024-07-30
+Version: ScottPlot 5.0.37
+Version: ScottPlot 5.0.37
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Error size can be set for all dimensions.
 
-[![](/cookbook/5.0/images/CustomErrors.png?240629072232)](/cookbook/5.0/images/CustomErrors.png?240629072232)
+[![](/cookbook/5.0/images/CustomErrors.png?240729212327)](/cookbook/5.0/images/CustomErrors.png?240729212327)
 
 {{< code-sp5 >}}
 

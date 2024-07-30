@@ -4,9 +4,9 @@ Description: Population statistics can be displayed using box plots.
 URL: /cookbook/5.0/Population/PopulationBox/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Population Plot", "Population Box Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Population", "/cookbook/5.0/Population/PopulationBox"]
-Date: 2024-06-29
-Version: ScottPlot 5.0.36
-Version: ScottPlot 5.0.36
+Date: 2024-07-30
+Version: ScottPlot 5.0.37
+Version: ScottPlot 5.0.37
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Population statistics can be displayed using box plots.
 
-[![](/cookbook/5.0/images/PopulationBox.png?240629072232)](/cookbook/5.0/images/PopulationBox.png?240629072232)
+[![](/cookbook/5.0/images/PopulationBox.png?240729212327)](/cookbook/5.0/images/PopulationBox.png?240729212327)
 
 {{< code-sp5 >}}
 

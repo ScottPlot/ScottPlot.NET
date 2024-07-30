@@ -4,9 +4,9 @@ Description: FillY plots can be created from two scatter plots that share the sa
 URL: /cookbook/5.0/FillY/FillYFromScatters/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "FillY plot", "FillY From Scatter Plots"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/FillY", "/cookbook/5.0/FillY/FillYFromScatters"]
-Date: 2024-06-29
-Version: ScottPlot 5.0.36
-Version: ScottPlot 5.0.36
+Date: 2024-07-30
+Version: ScottPlot 5.0.37
+Version: ScottPlot 5.0.37
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 FillY plots can be created from two scatter plots that share the same X values.
 
-[![](/cookbook/5.0/images/FillYFromScatters.png?240629072232)](/cookbook/5.0/images/FillYFromScatters.png?240629072232)
+[![](/cookbook/5.0/images/FillYFromScatters.png?240729212327)](/cookbook/5.0/images/FillYFromScatters.png?240729212327)
 
 {{< code-sp5 >}}
 

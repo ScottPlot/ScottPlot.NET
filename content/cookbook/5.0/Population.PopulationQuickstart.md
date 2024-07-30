@@ -4,9 +4,9 @@ Description: A Population can be created from a collection of values, styled as 
 URL: /cookbook/5.0/Population/PopulationQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Population Plot", "Population Quickstart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Population", "/cookbook/5.0/Population/PopulationQuickstart"]
-Date: 2024-06-29
-Version: ScottPlot 5.0.36
-Version: ScottPlot 5.0.36
+Date: 2024-07-30
+Version: ScottPlot 5.0.37
+Version: ScottPlot 5.0.37
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 A Population can be created from a collection of values, styled as desired, and placed anywhere on the plot.
 
-[![](/cookbook/5.0/images/PopulationQuickstart.png?240629072232)](/cookbook/5.0/images/PopulationQuickstart.png?240629072232)
+[![](/cookbook/5.0/images/PopulationQuickstart.png?240729212327)](/cookbook/5.0/images/PopulationQuickstart.png?240729212327)
 
 {{< code-sp5 >}}
 

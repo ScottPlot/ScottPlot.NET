@@ -4,9 +4,9 @@ Description: DateTime axes are achieved using Microsoft's DateTime.ToOADate() an
 URL: /cookbook/5.0/DateTimeAxes/DateTimeAxisMixed/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "DateTime Axes", "DateTime Axis Values"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/DateTimeAxes", "/cookbook/5.0/DateTimeAxes/DateTimeAxisMixed"]
-Date: 2024-06-29
-Version: ScottPlot 5.0.36
-Version: ScottPlot 5.0.36
+Date: 2024-07-30
+Version: ScottPlot 5.0.37
+Version: ScottPlot 5.0.37
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 DateTime axes are achieved using Microsoft's DateTime.ToOADate() and DateTime.FromOADate() methods to convert between dates and numeric values. Advanced users who wish to display data on DateTime axes may prefer to work with collections of doubles rather than collections of DateTimes.
 
-[![](/cookbook/5.0/images/DateTimeAxisMixed.png?240629072232)](/cookbook/5.0/images/DateTimeAxisMixed.png?240629072232)
+[![](/cookbook/5.0/images/DateTimeAxisMixed.png?240729212327)](/cookbook/5.0/images/DateTimeAxisMixed.png?240729212327)
 
 {{< code-sp5 >}}
 

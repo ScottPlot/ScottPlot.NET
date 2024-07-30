@@ -4,9 +4,9 @@ Description: A legend displays plottables in a key along the edge of a plot. Mos
 URL: /cookbook/5.0/ScottPlotQuickstart/Legend/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Quickstart", "Legend"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/ScottPlotQuickstart", "/cookbook/5.0/ScottPlotQuickstart/Legend"]
-Date: 2024-06-29
-Version: ScottPlot 5.0.36
-Version: ScottPlot 5.0.36
+Date: 2024-07-30
+Version: ScottPlot 5.0.37
+Version: ScottPlot 5.0.37
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 A legend displays plottables in a key along the edge of a plot. Most plottables have a Label property which configures what text appears in the legend.
 
-[![](/cookbook/5.0/images/Legend.png?240629072232)](/cookbook/5.0/images/Legend.png?240629072232)
+[![](/cookbook/5.0/images/Legend.png?240729212327)](/cookbook/5.0/images/Legend.png?240729212327)
 
 {{< code-sp5 >}}
 

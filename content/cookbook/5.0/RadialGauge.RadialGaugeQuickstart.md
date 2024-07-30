@@ -4,9 +4,9 @@ Description: A radial gauge chart can be created from a few values.
 URL: /cookbook/5.0/RadialGauge/RadialGaugeQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Radial gauge", "Radial gauge from values"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/RadialGauge", "/cookbook/5.0/RadialGauge/RadialGaugeQuickstart"]
-Date: 2024-06-29
-Version: ScottPlot 5.0.36
-Version: ScottPlot 5.0.36
+Date: 2024-07-30
+Version: ScottPlot 5.0.37
+Version: ScottPlot 5.0.37
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 A radial gauge chart can be created from a few values.
 
-[![](/cookbook/5.0/images/RadialGaugeQuickstart.png?240629072232)](/cookbook/5.0/images/RadialGaugeQuickstart.png?240629072232)
+[![](/cookbook/5.0/images/RadialGaugeQuickstart.png?240729212327)](/cookbook/5.0/images/RadialGaugeQuickstart.png?240729212327)
 
 {{< code-sp5 >}}
 

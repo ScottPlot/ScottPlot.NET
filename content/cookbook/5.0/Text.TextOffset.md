@@ -4,9 +4,9 @@ Description: The offset properties can be used to fine-tune text position in pix
 URL: /cookbook/5.0/Text/TextOffset/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Text", "Text Offset"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Text", "/cookbook/5.0/Text/TextOffset"]
-Date: 2024-06-29
-Version: ScottPlot 5.0.36
-Version: ScottPlot 5.0.36
+Date: 2024-07-30
+Version: ScottPlot 5.0.37
+Version: ScottPlot 5.0.37
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 The offset properties can be used to fine-tune text position in pixel units
 
-[![](/cookbook/5.0/images/TextOffset.png?240629072232)](/cookbook/5.0/images/TextOffset.png?240629072232)
+[![](/cookbook/5.0/images/TextOffset.png?240729212327)](/cookbook/5.0/images/TextOffset.png?240729212327)
 
 {{< code-sp5 >}}
 
