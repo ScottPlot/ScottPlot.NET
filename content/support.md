@@ -16,7 +16,7 @@ Users with questions about ScottPlot are encouraged to investigate the following
 
 * [**Search GitHub Issues**](https://github.com/ScottPlot/ScottPlot/issues) - Thousands of questions have been asked and you may benefit from the discussions
 
-* [**Ask AI a Question**](/ai) - We have a special AI trained on ScottPlot's documentation, but many public LLMs are aware of ScottPlot and can provide helpful information.
+* [**Ask ChatGPT**](https://chatgpt.com/) - Use a prompt that includes the major version, like `How do I use ScottPlot version 5 to display a scatter plot?`
 
 ### Ask a Question
 
