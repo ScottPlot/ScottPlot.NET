@@ -9,7 +9,7 @@ Release notes for every version of ScottPlot
 
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 5.0.37</h1>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2024-07-29</i></div>
 <div class='mt-1'>
 <ul>
 <li>Controls: A new <code>IPlotControl.UserInputProcessor</code> has been created to replace <code>IPlotControl.Interaction</code> which will be deprecated in a future release. The new system supports arbitrary inputs (not limited to mouse actions and key presses), offers extended ability to inject highly customizable ordered plot manipulation logic that respond to streamed inputs, and has been designed to facilitate automated UI testing. Set <code>IPlotControl.UserInputProcessor.IsEnabled</code> to <code>true</code> to opt-in to this new event processor. (<a href="https://github.com/ScottPlot/ScottPlot/issues/4053">#4053</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3186">#3186</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3622">#3622</a>)
@@ -65,6 +65,8 @@ Release notes for every version of ScottPlot
 <li>AxisManager: Improve <code>AutoScale()</code> support for inverted axes (<a href="https://github.com/ScottPlot/ScottPlot/issues/4110">#4110</a>) <a href="https://github.com/BrianAtZetica"><strong>@BrianAtZetica</strong></a>
 </li>
 <li>Scatter: Added <code>ColorPositions</code> to allow placement of colors at specific X positions when using filled scatter plots (<a href="https://github.com/ScottPlot/ScottPlot/issues/4111">#4111</a>) <a href="https://github.com/CoderPM2011"><strong>@CoderPM2011</strong></a>
+</li>
+<li>SignalXY: Improved support for rotated plots and added support for <code>XScale</code> to compliment <code>YScale</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/4112">#4112</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4102">#4102</a>) <a href="https://github.com/BrianAtZetica"><strong>@BrianAtZetica</strong></a>
 </li>
 </ul>
 </div>
