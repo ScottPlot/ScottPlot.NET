@@ -8,6 +8,36 @@ Description: Release notes for every version of ScottPlot
 Release notes for every version of ScottPlot
 
 <section class='mb-5'>
+<h1 class='mb-0'>ScottPlot 5.0.38</h1>
+<div><i>NuGet packages published </i></div>
+<div class='mt-1'>
+<ul>
+<li>DataLogger: Merged in numerous additional features (optional circular buffer, X and Y offset, etc.) from the experimental DataLogger (<a href="https://github.com/ScottPlot/ScottPlot/issues/4085">#4085</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4114">#4114</a>) <a href="https://github.com/drolevar"><strong>@drolevar</strong></a>
+</li>
+<li>SVG: Improved correctness of exported SVG files to overcome a SkiaSharp bug that sometimes results in XML missing a closing tag (<a href="https://github.com/ScottPlot/ScottPlot/issues/4104">#4104</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4121">#4121</a>) <a href="https://github.com/KroMignon"><strong>@KroMignon</strong></a> <a href="https://github.com/aespitia"><strong>@aespitia</strong></a> <a href="https://github.com/bclehmann"><strong>@bclehmann</strong></a> <a href="https://github.com/DDiggs91"><strong>@DDiggs91</strong></a>
+</li>
+<li>Generate: Added <code>Range()</code> to create a sequence of values between two numbers (<a href="https://github.com/ScottPlot/ScottPlot/issues/4122">#4122</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4119">#4119</a>) <a href="https://github.com/KroMignon"><strong>@KroMignon</strong></a>
+</li>
+<li>Rendering: Improve behavior of plots using custom scale factors in situations of repeated renders (<a href="https://github.com/ScottPlot/ScottPlot/issues/4125">#4125</a>) <a href="https://github.com/BrianAtZetica"><strong>@BrianAtZetica</strong></a>
+</li>
+</ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/KroMignon'>@KroMignon</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/DDiggs91'>@DDiggs91</a>, <a href='https://github.com/BrianAtZetica'>@BrianAtZetica</a>, <a href='https://github.com/swharden'>@swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/drolevar'><img src='https://scottplot.net/images/contributors/drolevar.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/KroMignon'><img src='https://scottplot.net/images/contributors/kromignon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/aespitia'><img src='https://scottplot.net/images/contributors/aespitia.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/DDiggs91'><img src='https://scottplot.net/images/contributors/ddiggs91.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/BrianAtZetica'><img src='https://scottplot.net/images/contributors/brianatzetica.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
+
+</section>
+<section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 5.0.37</h1>
 <div><i>NuGet packages published 2024-07-29</i></div>
 <div class='mt-1'>
