@@ -42,7 +42,7 @@ date: 2023-12-13
 
 * **Improved Cross-Platform Support** - ScottPlot 4's cross-platform support was undercut when Microsoft [dropped cross-platform support for `System.Drawing.Common`](https://learn.microsoft.com/en-us/dotnet/core/compatibility/core-libraries/6.0/system-drawing-common-windows-only) in .NET 7, but ScottPlot 5 is supported on all platforms.
 
-* **Packages for Additional Platforms** - In addition to supporting Windows Forms, WPF, Avalonia, and Eto, ScottPlot 5 now supports WinUI, Android, and Blazor!
+* **Packages for Additional Platforms** - In addition to supporting Windows Forms, WPF, Avalonia, and Eto, ScottPlot 5 now supports WinUI, Android, Uno Platform and Blazor!
 
 * **Expanded support for various data types** - Previous versions of ScottPlot could only display data in `double` arrays, but many plot types in ScottPlot 5 support other data types like `float`, `int`, and `DateTime`, and can work with data in fixed-length arrays or variable-length lists.
 
