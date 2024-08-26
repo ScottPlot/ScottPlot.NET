@@ -24,11 +24,13 @@ Release notes for every version of ScottPlot
 </li>
 <li>Color: Added overload to allow constructing colors from hex strings (<a href="https://github.com/ScottPlot/ScottPlot/issues/4170">#4170</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4165">#4165</a>) <a href="https://github.com/aespitia"><strong>@aespitia</strong></a> <a href="https://github.com/KroMignon"><strong>@KroMignon</strong></a> <a href="https://github.com/kebox7"><strong>@kebox7</strong></a>
 </li>
+<li>WinUI: Improved support and documentation for applications built using Uno Platform (<a href="https://github.com/ScottPlot/ScottPlot/issues/4123">#4123</a>) <a href="https://github.com/agneszitte"><strong>@agneszitte</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/KroMignon'>@KroMignon</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/DDiggs91'>@DDiggs91</a>, <a href='https://github.com/BrianAtZetica'>@BrianAtZetica</a>, <a href='https://github.com/kebox7'>@kebox7</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/KroMignon'>@KroMignon</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/DDiggs91'>@DDiggs91</a>, <a href='https://github.com/BrianAtZetica'>@BrianAtZetica</a>, <a href='https://github.com/kebox7'>@kebox7</a>, <a href='https://github.com/agneszitte'>@agneszitte</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/drolevar'><img src='https://scottplot.net/images/contributors/drolevar.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -38,6 +40,7 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/DDiggs91'><img src='https://scottplot.net/images/contributors/ddiggs91.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/BrianAtZetica'><img src='https://scottplot.net/images/contributors/brianatzetica.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/kebox7'><img src='https://scottplot.net/images/contributors/kebox7.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/agneszitte'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
