@@ -1,6 +1,6 @@
 ---
 Title: Uno Platform Quickstart
-description: How to create an interactive plot using ScottPlot in a Uno Platform application
+description: How to create an interactive plot using ScottPlot in an Uno Platform application
 date: 2024-07-24
 ---
 
@@ -89,31 +89,31 @@ public sealed partial class MainPage : Page
 
 <div class="container">
     <div class="row">
-        <div class="col-md">
+        <div class="col-lg-6">
             <h3>Windows</h3>
             <a href="/images/quickstart/scottplot-winui-quickstart.png" target="_blank" alt="ScottPlot - Uno Platform Quickstart - Windows"><img src="/images/quickstart/scottplot-winui-quickstart.png"></a>
         </div>
-        <div class="col-md">
+        <div class="col-lg-6">
             <h3>WebAssembly</h3>
             <a href="/images/quickstart/unoplatform-quickstart-webassembly.png" target="_blank" alt="ScottPlot - Uno Platform Quickstart - Android"><img src="/images/quickstart/unoplatform-quickstart-webassembly.png"></a>
         </div>
-        <div class="col-md">
+        <div class="col-lg-6">
             <h3>Android</h3>
             <a href="/images/quickstart/unoplatform-quickstart-android.png" target="_blank" alt="ScottPlot - Uno Platform Quickstart - Android"><img src="/images/quickstart/unoplatform-quickstart-android.png"></a>
         </div>
-        <div class="col-md">
+        <div class="col-lg-6">
             <h3>iOS</h3>
             <a href="/images/quickstart/unoplatform-quickstart-iOS.png" target="_blank" alt="ScottPlot - Uno Platform Quickstart - iOS"><img src="/images/quickstart/unoplatform-quickstart-iOS.png"></a>
         </div>
-        <div class="col-md">
+        <div class="col-lg-6">
             <h3>Mac Catalyst</h3>
             <a href="/images/quickstart/unoplatform-quickstart-mac-catalyst.png" target="_blank" alt="ScottPlot - Uno Platform Quickstart - Mac Catalyst"><img src="/images/quickstart/unoplatform-quickstart-mac-catalyst.png"></a>
         </div>
-        <div class="col-md">
+        <div class="col-lg-6">
             <h3>Desktop</h3>
             <a href="/images/quickstart/unoplatform-quickstart-desktop.png" target="_blank" alt="ScottPlot - Uno Platform Quickstart - Desktop"><img src="/images/quickstart/unoplatform-quickstart-desktop.png"></a>
         </div>
-        <div class="col-md">
+        <div class="col-lg-6">
             <h3>Desktop WSL</h3>
             <a href="/images/quickstart/unoplatform-quickstart-desktop-wsl.png" target="_blank" alt="ScottPlot - Uno Platform Quickstart - WSL"><img src="/images/quickstart/unoplatform-quickstart-desktop-wsl.png"></a>
         </div>
@@ -135,5 +135,7 @@ The Uno Platform is an [Open-source platform](https://github.com/unoplatform/uno
 Visit their [website](https://platform.uno/) and [documentation](https://aka.platform.uno/uno-docs-intro) for more details.
 
 ## Uno Platform Support
-
-Make sure to visit Uno Platform [FAQ](https://aka.platform.uno/uno-faq), [create an issue](https://github.com/unoplatform/uno/issues), [open a GitHub Discussion](https://github.com/unoplatform/uno/discussions) or visit the [Uno Platform Discord Server](https://discord.com/invite/XjsmQHdKfq) - where their engineering team and community will be able to help you.
+If you have questions about the Uno Platform, they have an engineering team and community that can help!
+* Uno Platform website: [Frequently Asked Quetsions (FAQ)](https://aka.platform.uno/uno-faq)
+* Uno Platform on GitHub: [create an issue](https://github.com/unoplatform/uno/issues) or [start a discussion](https://github.com/unoplatform/uno/discussions) 
+* [Uno Platform Discord Server](https://discord.com/invite/XjsmQHdKfq) (all are welcome!)
