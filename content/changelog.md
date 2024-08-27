@@ -26,6 +26,12 @@ Release notes for every version of ScottPlot
 </li>
 <li>WinUI: Improved support and documentation for applications built using Uno Platform (<a href="https://github.com/ScottPlot/ScottPlot/issues/4123">#4123</a>) <a href="https://github.com/agneszitte"><strong>@agneszitte</strong></a>
 </li>
+<li>Color: Added Hue, Saturation, and Luminance properties
+</li>
+<li>Colormap: Added <code>Colormap.GetColormaps()</code> to allow iterating over all available colormaps
+</li>
+<li>Colormap: Added <code>Colormap.GetImage()</code> to generate a gradient image using a given colormap
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
@@ -40,7 +46,7 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/DDiggs91'><img src='https://scottplot.net/images/contributors/ddiggs91.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/BrianAtZetica'><img src='https://scottplot.net/images/contributors/brianatzetica.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/kebox7'><img src='https://scottplot.net/images/contributors/kebox7.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/agneszitte'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/agneszitte'><img src='https://scottplot.net/images/contributors/agneszitte.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
