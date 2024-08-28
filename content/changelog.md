@@ -32,11 +32,17 @@ Release notes for every version of ScottPlot
 </li>
 <li>Colormap: Added <code>Colormap.GetImage()</code> to generate a gradient image using a given colormap
 </li>
+<li>Coordinates: Added <code>Position</code> and <code>Coordinates</code> properties (<a href="https://github.com/ScottPlot/ScottPlot/issues/4185">#4185</a>) <a href="https://github.com/blouflashdb"><strong>@blouflashdb</strong></a>
+</li>
+<li>Signal: Added <code>AlwaysUseLowDensityMode</code> for improved anti-aliased rendering in static plots (<a href="https://github.com/ScottPlot/ScottPlot/issues/4153">#4153</a>)
+</li>
+<li>Plot: Improved default <code>ToString()</code> implementation for the object returned when saving image files (<a href="https://github.com/ScottPlot/ScottPlot/issues/4154">#4154</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/KroMignon'>@KroMignon</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/DDiggs91'>@DDiggs91</a>, <a href='https://github.com/BrianAtZetica'>@BrianAtZetica</a>, <a href='https://github.com/kebox7'>@kebox7</a>, <a href='https://github.com/agneszitte'>@agneszitte</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/KroMignon'>@KroMignon</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/DDiggs91'>@DDiggs91</a>, <a href='https://github.com/BrianAtZetica'>@BrianAtZetica</a>, <a href='https://github.com/kebox7'>@kebox7</a>, <a href='https://github.com/agneszitte'>@agneszitte</a>, <a href='https://github.com/blouflashdb'>@blouflashdb</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/drolevar'><img src='https://scottplot.net/images/contributors/drolevar.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -47,6 +53,7 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/BrianAtZetica'><img src='https://scottplot.net/images/contributors/brianatzetica.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/kebox7'><img src='https://scottplot.net/images/contributors/kebox7.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/agneszitte'><img src='https://scottplot.net/images/contributors/agneszitte.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/blouflashdb'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
