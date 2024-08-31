@@ -38,11 +38,17 @@ Release notes for every version of ScottPlot
 </li>
 <li>Plot: Improved default <code>ToString()</code> implementation for the object returned when saving image files (<a href="https://github.com/ScottPlot/ScottPlot/issues/4154">#4154</a>)
 </li>
+<li>Plot: Added <code>Save()</code> overload which detects file format from filename extension (<a href="https://github.com/ScottPlot/ScottPlot/issues/4164">#4164</a>)
+</li>
+<li>Coordinates: Added <code>Coordinates.Zip()</code> for creating a <code>Coordinates[]</code> from distinct <code>xs[]</code> and <code>ys[]</code> arrays.
+</li>
+<li>Lollipop: New plot type that displays values with a stem and a marker similar to a bar graph but with less visual clutter (<a href="https://github.com/ScottPlot/ScottPlot/issues/4193">#4193</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4183">#4183</a>) <a href="https://github.com/CoderPM2011"><strong>@CoderPM2011</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/KroMignon'>@KroMignon</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/DDiggs91'>@DDiggs91</a>, <a href='https://github.com/BrianAtZetica'>@BrianAtZetica</a>, <a href='https://github.com/kebox7'>@kebox7</a>, <a href='https://github.com/agneszitte'>@agneszitte</a>, <a href='https://github.com/blouflashdb'>@blouflashdb</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/KroMignon'>@KroMignon</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/DDiggs91'>@DDiggs91</a>, <a href='https://github.com/BrianAtZetica'>@BrianAtZetica</a>, <a href='https://github.com/kebox7'>@kebox7</a>, <a href='https://github.com/agneszitte'>@agneszitte</a>, <a href='https://github.com/blouflashdb'>@blouflashdb</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/drolevar'><img src='https://scottplot.net/images/contributors/drolevar.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -53,7 +59,8 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/BrianAtZetica'><img src='https://scottplot.net/images/contributors/brianatzetica.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/kebox7'><img src='https://scottplot.net/images/contributors/kebox7.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/agneszitte'><img src='https://scottplot.net/images/contributors/agneszitte.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/blouflashdb'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/blouflashdb'><img src='https://scottplot.net/images/contributors/blouflashdb.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/CoderPM2011'><img src='https://scottplot.net/images/contributors/coderpm2011.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
