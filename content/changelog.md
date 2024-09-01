@@ -16,7 +16,7 @@ Release notes for every version of ScottPlot
 </li>
 <li>SVG: Improved correctness of exported SVG files to overcome a SkiaSharp bug that sometimes results in XML missing a closing tag (<a href="https://github.com/ScottPlot/ScottPlot/issues/4104">#4104</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4121">#4121</a>) <a href="https://github.com/KroMignon"><strong>@KroMignon</strong></a> <a href="https://github.com/aespitia"><strong>@aespitia</strong></a> <a href="https://github.com/bclehmann"><strong>@bclehmann</strong></a> <a href="https://github.com/DDiggs91"><strong>@DDiggs91</strong></a>
 </li>
-<li>Generate: Added <code>Range()</code> to create a sequence of values between two numbers (<a href="https://github.com/ScottPlot/ScottPlot/issues/4122">#4122</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4119">#4119</a>) <a href="https://github.com/KroMignon"><strong>@KroMignon</strong></a>
+<li>Generate: Added <code>Range()</code> to create a sequence of values between two numbers (<a href="https://github.com/ScottPlot/ScottPlot/issues/4122">#4122</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4119">#4119</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4179">#4179</a>) <a href="https://github.com/KroMignon"><strong>@KroMignon</strong></a> <a href="https://github.com/StendProg"><strong>@StendProg</strong></a>
 </li>
 <li>Rendering: Improve behavior of plots using custom scale factors in situations of repeated renders (<a href="https://github.com/ScottPlot/ScottPlot/issues/4125">#4125</a>) <a href="https://github.com/BrianAtZetica"><strong>@BrianAtZetica</strong></a>
 </li>
@@ -50,11 +50,17 @@ Release notes for every version of ScottPlot
 </li>
 <li>Polar Axis: Added a <code>RegenerateSpokes()</code> overload that accepts <code>string[]</code> to create new spokes and set their label text automatically
 </li>
+<li>Grid: Added support for fill colors to highlight spans between pairs of major grid lines (<a href="https://github.com/ScottPlot/ScottPlot/issues/4201">#4201</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4022">#4022</a>) <a href="https://github.com/CoderPM2011"><strong>@CoderPM2011</strong></a> <a href="https://github.com/seeingistrue"><strong>@seeingistrue</strong></a>
+</li>
+<li>AxisSpan: Added <code>IsUnderMouse()</code> to improve API naming consistency with AxisLine (<a href="https://github.com/ScottPlot/ScottPlot/issues/4150">#4150</a>)
+</li>
+<li>AxisLimits: Added <code>Contains()</code> to allow quick checking whether a point is contained by the boundaries of the axis limits (<a href="https://github.com/ScottPlot/ScottPlot/issues/4161">#4161</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/KroMignon'>@KroMignon</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/DDiggs91'>@DDiggs91</a>, <a href='https://github.com/BrianAtZetica'>@BrianAtZetica</a>, <a href='https://github.com/kebox7'>@kebox7</a>, <a href='https://github.com/agneszitte'>@agneszitte</a>, <a href='https://github.com/blouflashdb'>@blouflashdb</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/KroMignon'>@KroMignon</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/DDiggs91'>@DDiggs91</a>, <a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/BrianAtZetica'>@BrianAtZetica</a>, <a href='https://github.com/kebox7'>@kebox7</a>, <a href='https://github.com/agneszitte'>@agneszitte</a>, <a href='https://github.com/blouflashdb'>@blouflashdb</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/seeingistrue'>@seeingistrue</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/drolevar'><img src='https://scottplot.net/images/contributors/drolevar.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -62,11 +68,13 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/aespitia'><img src='https://scottplot.net/images/contributors/aespitia.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/DDiggs91'><img src='https://scottplot.net/images/contributors/ddiggs91.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/BrianAtZetica'><img src='https://scottplot.net/images/contributors/brianatzetica.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/kebox7'><img src='https://scottplot.net/images/contributors/kebox7.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/agneszitte'><img src='https://scottplot.net/images/contributors/agneszitte.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/blouflashdb'><img src='https://scottplot.net/images/contributors/blouflashdb.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/CoderPM2011'><img src='https://scottplot.net/images/contributors/coderpm2011.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/seeingistrue'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
