@@ -44,6 +44,12 @@ Release notes for every version of ScottPlot
 </li>
 <li>Lollipop: New plot type that displays values with a stem and a marker similar to a bar graph but with less visual clutter (<a href="https://github.com/ScottPlot/ScottPlot/issues/4193">#4193</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4183">#4183</a>) <a href="https://github.com/CoderPM2011"><strong>@CoderPM2011</strong></a>
 </li>
+<li>Polar Axis: Added <code>Rotation</code> property to rotate the axis and coordinates it returns
+</li>
+<li>Polar Axis: Added the ability to customize spoke label text (<a href="https://github.com/ScottPlot/ScottPlot/issues/4188">#4188</a>)
+</li>
+<li>Polar Axis: Added a <code>RegenerateSpokes()</code> overload that accepts <code>string[]</code> to create new spokes and set their label text automatically
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
