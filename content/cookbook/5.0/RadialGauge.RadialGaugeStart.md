@@ -4,9 +4,9 @@ Description: The starting angle for gauges can be customized. 270 for North (def
 URL: /cookbook/5.0/RadialGauge/RadialGaugeStart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Radial gauge", "Gauge Starting Angle"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/RadialGauge", "/cookbook/5.0/RadialGauge/RadialGaugeStart"]
-Date: 2024-07-30
-Version: ScottPlot 5.0.37
-Version: ScottPlot 5.0.37
+Date: 2024-09-02
+Version: ScottPlot 5.0.38
+Version: ScottPlot 5.0.38
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 The starting angle for gauges can be customized. 270 for North (default value), 0 for East, 90 for South, 180 for West, etc.
 
-[![](/cookbook/5.0/images/RadialGaugeStart.png?240729212327)](/cookbook/5.0/images/RadialGaugeStart.png?240729212327)
+[![](/cookbook/5.0/images/RadialGaugeStart.png?240902145058)](/cookbook/5.0/images/RadialGaugeStart.png?240902145058)
 
 {{< code-sp5 >}}
 

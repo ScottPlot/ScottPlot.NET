@@ -4,9 +4,9 @@ Description: The direction of gauges can be customized. Clockwise is used by def
 URL: /cookbook/5.0/RadialGauge/RadialGaugeDirection/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Radial gauge", "Gauge Direction"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/RadialGauge", "/cookbook/5.0/RadialGauge/RadialGaugeDirection"]
-Date: 2024-07-30
-Version: ScottPlot 5.0.37
-Version: ScottPlot 5.0.37
+Date: 2024-09-02
+Version: ScottPlot 5.0.38
+Version: ScottPlot 5.0.38
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 The direction of gauges can be customized. Clockwise is used by default.
 
-[![](/cookbook/5.0/images/RadialGaugeDirection.png?240729212327)](/cookbook/5.0/images/RadialGaugeDirection.png?240729212327)
+[![](/cookbook/5.0/images/RadialGaugeDirection.png?240902145058)](/cookbook/5.0/images/RadialGaugeDirection.png?240902145058)
 
 {{< code-sp5 >}}
 

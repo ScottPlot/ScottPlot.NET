@@ -4,9 +4,9 @@ Description: Annotations are aligned with the data area.
 URL: /cookbook/5.0/Annotation/AnnotationPositions/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Annotation", "Annotation Positions"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Annotation", "/cookbook/5.0/Annotation/AnnotationPositions"]
-Date: 2024-07-30
-Version: ScottPlot 5.0.37
-Version: ScottPlot 5.0.37
+Date: 2024-09-02
+Version: ScottPlot 5.0.38
+Version: ScottPlot 5.0.38
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Annotations are aligned with the data area.
 
-[![](/cookbook/5.0/images/AnnotationPositions.png?240729212327)](/cookbook/5.0/images/AnnotationPositions.png?240729212327)
+[![](/cookbook/5.0/images/AnnotationPositions.png?240902145058)](/cookbook/5.0/images/AnnotationPositions.png?240902145058)
 
 {{< code-sp5 >}}
 

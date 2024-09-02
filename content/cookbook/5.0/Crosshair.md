@@ -4,9 +4,9 @@ Description: A Crosshair combines a horizontal axis line and vertical axis line 
 URL: /cookbook/5.0/Crosshair/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Crosshair"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Crosshair"]
-Date: 2024-07-30
-Version: ScottPlot 5.0.37
-Version: ScottPlot 5.0.37
+Date: 2024-09-02
+Version: ScottPlot 5.0.38
+Version: ScottPlot 5.0.38
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,7 +18,7 @@ ShowEditLink: false
 
 A Crosshair combines a horizontal axis line and vertical axis line to mark a location in coordinate space.
 
-[![](/cookbook/5.0/images/CrosshairQuickstart.png?240729212327)](/cookbook/5.0/images/CrosshairQuickstart.png?240729212327)
+[![](/cookbook/5.0/images/CrosshairQuickstart.png?240902145058)](/cookbook/5.0/images/CrosshairQuickstart.png?240902145058)
 
 {{< code-sp5 >}}
 
@@ -43,7 +43,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Crosshairs can be extensively customized.
 
-[![](/cookbook/5.0/images/CrosshairCustomization.png?240729212327)](/cookbook/5.0/images/CrosshairCustomization.png?240729212327)
+[![](/cookbook/5.0/images/CrosshairCustomization.png?240902145058)](/cookbook/5.0/images/CrosshairCustomization.png?240902145058)
 
 {{< code-sp5 >}}
 

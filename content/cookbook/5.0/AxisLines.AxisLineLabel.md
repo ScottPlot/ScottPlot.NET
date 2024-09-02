@@ -4,9 +4,9 @@ Description: Axis lines have labels that can be used to display arbitrary text o
 URL: /cookbook/5.0/AxisLines/AxisLineLabel/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Axis Lines", "Axis Line Label"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AxisLines", "/cookbook/5.0/AxisLines/AxisLineLabel"]
-Date: 2024-07-30
-Version: ScottPlot 5.0.37
-Version: ScottPlot 5.0.37
+Date: 2024-09-02
+Version: ScottPlot 5.0.38
+Version: ScottPlot 5.0.38
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Axis lines have labels that can be used to display arbitrary text on the axes they are attached to.
 
-[![](/cookbook/5.0/images/AxisLineLabel.png?240729212327)](/cookbook/5.0/images/AxisLineLabel.png?240729212327)
+[![](/cookbook/5.0/images/AxisLineLabel.png?240902145058)](/cookbook/5.0/images/AxisLineLabel.png?240902145058)
 
 {{< code-sp5 >}}
 

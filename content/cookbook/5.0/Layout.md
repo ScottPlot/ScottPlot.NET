@@ -4,9 +4,9 @@ Description: How to customize the layout of a plot
 URL: /cookbook/5.0/Layout/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Layout Options"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Layout"]
-Date: 2024-07-30
-Version: ScottPlot 5.0.37
-Version: ScottPlot 5.0.37
+Date: 2024-09-02
+Version: ScottPlot 5.0.38
+Version: ScottPlot 5.0.38
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,7 +18,7 @@ ShowEditLink: false
 
 How to create a plot containing only the data area and no axes.
 
-[![](/cookbook/5.0/images/Frameless.png?240729212327)](/cookbook/5.0/images/Frameless.png?240729212327)
+[![](/cookbook/5.0/images/Frameless.png?240902145058)](/cookbook/5.0/images/Frameless.png?240902145058)
 
 {{< code-sp5 >}}
 
@@ -47,7 +47,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 The plot can be arranged to achieve a fixed amount of padding on each side of the data area
 
-[![](/cookbook/5.0/images/FixedPadding.png?240729212327)](/cookbook/5.0/images/FixedPadding.png?240729212327)
+[![](/cookbook/5.0/images/FixedPadding.png?240902145058)](/cookbook/5.0/images/FixedPadding.png?240902145058)
 
 {{< code-sp5 >}}
 
@@ -79,7 +79,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 The plot can be arranged so the data is drawn inside a fixed rectangle defined in pixel units
 
-[![](/cookbook/5.0/images/FixedRectangle.png?240729212327)](/cookbook/5.0/images/FixedRectangle.png?240729212327)
+[![](/cookbook/5.0/images/FixedRectangle.png?240902145058)](/cookbook/5.0/images/FixedRectangle.png?240902145058)
 
 {{< code-sp5 >}}
 

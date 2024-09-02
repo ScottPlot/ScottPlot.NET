@@ -4,9 +4,9 @@ Description: The box symbol in population plots can be extensively styled.
 URL: /cookbook/5.0/Population/PopulationBoxStyle/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Population Plot", "Population Box Styling"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Population", "/cookbook/5.0/Population/PopulationBoxStyle"]
-Date: 2024-07-30
-Version: ScottPlot 5.0.37
-Version: ScottPlot 5.0.37
+Date: 2024-09-02
+Version: ScottPlot 5.0.38
+Version: ScottPlot 5.0.38
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 The box symbol in population plots can be extensively styled.
 
-[![](/cookbook/5.0/images/PopulationBoxStyle.png?240729212327)](/cookbook/5.0/images/PopulationBoxStyle.png?240729212327)
+[![](/cookbook/5.0/images/PopulationBoxStyle.png?240902145058)](/cookbook/5.0/images/PopulationBoxStyle.png?240902145058)
 
 {{< code-sp5 >}}
 

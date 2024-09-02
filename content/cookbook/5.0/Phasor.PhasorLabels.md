@@ -4,9 +4,9 @@ Description: Text labels may be applied to individual arrows of a phasor plot.
 URL: /cookbook/5.0/Phasor/PhasorLabels/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Phasor Plot", "Phasor Plot with Labels"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Phasor", "/cookbook/5.0/Phasor/PhasorLabels"]
-Date: 2024-07-30
-Version: ScottPlot 5.0.37
-Version: ScottPlot 5.0.37
+Date: 2024-09-02
+Version: ScottPlot 5.0.38
+Version: ScottPlot 5.0.38
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Text labels may be applied to individual arrows of a phasor plot.
 
-[![](/cookbook/5.0/images/PhasorLabels.png?240729212327)](/cookbook/5.0/images/PhasorLabels.png?240729212327)
+[![](/cookbook/5.0/images/PhasorLabels.png?240902145058)](/cookbook/5.0/images/PhasorLabels.png?240902145058)
 
 {{< code-sp5 >}}
 
@@ -25,7 +25,8 @@ ScottPlot.Plot myPlot = new();
 
 // setup the polar axis
 var polarAxis = myPlot.Add.PolarAxis(30);
-polarAxis.LinePattern = LinePattern.Dotted;
+polarAxis.Circles.ForEach(x => x.LinePattern = LinePattern.Dotted);
+polarAxis.Spokes.ForEach(x => x.LinePattern = LinePattern.Dotted);
 
 // create a phasor plot and points in coordinate space
 var phaser = myPlot.Add.Phasor();

@@ -4,9 +4,9 @@ Description: When the DateTimes stored in OHLC objects are used to determine the
 URL: /cookbook/5.0/Finance/FinancialPlotWithoutGapsOhlc/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Financial Plot", "OHLC Chart Without Gaps"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Finance", "/cookbook/5.0/Finance/FinancialPlotWithoutGapsOhlc"]
-Date: 2024-07-30
-Version: ScottPlot 5.0.37
-Version: ScottPlot 5.0.37
+Date: 2024-09-02
+Version: ScottPlot 5.0.38
+Version: ScottPlot 5.0.38
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 When the DateTimes stored in OHLC objects are used to determine the horizontal position, periods without data like weekends and holidays appear as gaps in the plot. Enabling sequential mode causes the plot to ignore the OHLC DateTimes and place OHLCs at integer positions starting from zero. Users can customize the tick generator to display dates instead of numbers on the horizontal axis if desired.
 
-[![](/cookbook/5.0/images/FinancialPlotWithoutGapsOhlc.png?240729212327)](/cookbook/5.0/images/FinancialPlotWithoutGapsOhlc.png?240729212327)
+[![](/cookbook/5.0/images/FinancialPlotWithoutGapsOhlc.png?240902145058)](/cookbook/5.0/images/FinancialPlotWithoutGapsOhlc.png?240902145058)
 
 {{< code-sp5 >}}
 

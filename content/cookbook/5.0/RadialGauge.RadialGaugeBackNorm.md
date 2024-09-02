@@ -4,9 +4,9 @@ Description: Gauge backgrounds are drawn as full circles by default. This behavi
 URL: /cookbook/5.0/RadialGauge/RadialGaugeBackNorm/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Radial gauge", "Background Gauges Normalization"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/RadialGauge", "/cookbook/5.0/RadialGauge/RadialGaugeBackNorm"]
-Date: 2024-07-30
-Version: ScottPlot 5.0.37
-Version: ScottPlot 5.0.37
+Date: 2024-09-02
+Version: ScottPlot 5.0.38
+Version: ScottPlot 5.0.38
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Gauge backgrounds are drawn as full circles by default. This behavior can be disabled to draw partial backgrounds for non-circular gauges.
 
-[![](/cookbook/5.0/images/RadialGaugeBackNorm.png?240729212327)](/cookbook/5.0/images/RadialGaugeBackNorm.png?240729212327)
+[![](/cookbook/5.0/images/RadialGaugeBackNorm.png?240902145058)](/cookbook/5.0/images/RadialGaugeBackNorm.png?240902145058)
 
 {{< code-sp5 >}}
 

@@ -4,9 +4,9 @@ Description: Phasor plots display vectors on a radial axis centered at the origi
 URL: /cookbook/5.0/Phasor/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Phasor Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Phasor"]
-Date: 2024-07-30
-Version: ScottPlot 5.0.37
-Version: ScottPlot 5.0.37
+Date: 2024-09-02
+Version: ScottPlot 5.0.38
+Version: ScottPlot 5.0.38
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,7 +18,7 @@ ShowEditLink: false
 
 A phasor line plot contains a collection of polar coordinates which are rendered as arrows.
 
-[![](/cookbook/5.0/images/PhasorQuickstart.png?240729212327)](/cookbook/5.0/images/PhasorQuickstart.png?240729212327)
+[![](/cookbook/5.0/images/PhasorQuickstart.png?240902145058)](/cookbook/5.0/images/PhasorQuickstart.png?240902145058)
 
 {{< code-sp5 >}}
 
@@ -27,7 +27,8 @@ ScottPlot.Plot myPlot = new();
 
 // Start by placing a polar axis system on the plot
 var polarAxis = myPlot.Add.PolarAxis(30);
-polarAxis.LinePattern = LinePattern.Dotted;
+polarAxis.Circles.ForEach(x => x.LinePattern = LinePattern.Dotted);
+polarAxis.Spokes.ForEach(x => x.LinePattern = LinePattern.Dotted);
 
 // A Phasor may be added with predefined points
 PolarCoordinates[] points1 = [
@@ -56,7 +57,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Text labels may be applied to individual arrows of a phasor plot.
 
-[![](/cookbook/5.0/images/PhasorLabels.png?240729212327)](/cookbook/5.0/images/PhasorLabels.png?240729212327)
+[![](/cookbook/5.0/images/PhasorLabels.png?240902145058)](/cookbook/5.0/images/PhasorLabels.png?240902145058)
 
 {{< code-sp5 >}}
 
@@ -65,7 +66,8 @@ ScottPlot.Plot myPlot = new();
 
 // setup the polar axis
 var polarAxis = myPlot.Add.PolarAxis(30);
-polarAxis.LinePattern = LinePattern.Dotted;
+polarAxis.Circles.ForEach(x => x.LinePattern = LinePattern.Dotted);
+polarAxis.Spokes.ForEach(x => x.LinePattern = LinePattern.Dotted);
 
 // create a phasor plot and points in coordinate space
 var phaser = myPlot.Add.Phasor();

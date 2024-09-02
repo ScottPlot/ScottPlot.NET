@@ -4,9 +4,9 @@ Description: The area beneath a scatter plot can be filled with a custom gradien
 URL: /cookbook/5.0/Scatter/ScatterFillGradient/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Scatter Plot", "Scatter Plot with Gradient Fill"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Scatter", "/cookbook/5.0/Scatter/ScatterFillGradient"]
-Date: 2024-07-30
-Version: ScottPlot 5.0.37
-Version: ScottPlot 5.0.37
+Date: 2024-09-02
+Version: ScottPlot 5.0.38
+Version: ScottPlot 5.0.38
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 The area beneath a scatter plot can be filled with a custom gradient of colors.
 
-[![](/cookbook/5.0/images/ScatterFillGradient.png?240729212327)](/cookbook/5.0/images/ScatterFillGradient.png?240729212327)
+[![](/cookbook/5.0/images/ScatterFillGradient.png?240902145058)](/cookbook/5.0/images/ScatterFillGradient.png?240902145058)
 
 {{< code-sp5 >}}
 

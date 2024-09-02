@@ -4,9 +4,9 @@ Description: A fixed offset can be applied to SignalXY plots.
 URL: /cookbook/5.0/SignalXY/SignalXYOffset/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "SignalXY Plot", "SignalXY Offset"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/SignalXY", "/cookbook/5.0/SignalXY/SignalXYOffset"]
-Date: 2024-07-30
-Version: ScottPlot 5.0.37
-Version: ScottPlot 5.0.37
+Date: 2024-09-02
+Version: ScottPlot 5.0.38
+Version: ScottPlot 5.0.38
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 A fixed offset can be applied to SignalXY plots.
 
-[![](/cookbook/5.0/images/SignalXYOffset.png?240729212327)](/cookbook/5.0/images/SignalXYOffset.png?240729212327)
+[![](/cookbook/5.0/images/SignalXYOffset.png?240902145058)](/cookbook/5.0/images/SignalXYOffset.png?240902145058)
 
 {{< code-sp5 >}}
 

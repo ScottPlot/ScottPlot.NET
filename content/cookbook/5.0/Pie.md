@@ -4,9 +4,9 @@ Description: Pie charts illustrate numerical proportions as slices of a circle.
 URL: /cookbook/5.0/Pie/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Pie"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Pie"]
-Date: 2024-07-30
-Version: ScottPlot 5.0.37
-Version: ScottPlot 5.0.37
+Date: 2024-09-02
+Version: ScottPlot 5.0.38
+Version: ScottPlot 5.0.38
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,7 +18,7 @@ ShowEditLink: false
 
 A pie chart can be created from a few values.
 
-[![](/cookbook/5.0/images/PieQuickstart.png?240729212327)](/cookbook/5.0/images/PieQuickstart.png?240729212327)
+[![](/cookbook/5.0/images/PieQuickstart.png?240902145058)](/cookbook/5.0/images/PieQuickstart.png?240902145058)
 
 {{< code-sp5 >}}
 
@@ -42,7 +42,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 A pie chart can be created from a collection of slices.
 
-[![](/cookbook/5.0/images/PieSlices.png?240729212327)](/cookbook/5.0/images/PieSlices.png?240729212327)
+[![](/cookbook/5.0/images/PieSlices.png?240902145058)](/cookbook/5.0/images/PieSlices.png?240902145058)
 
 {{< code-sp5 >}}
 
@@ -76,7 +76,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 A donut chart is a pie chart with an open center. Donut charts can be created from a collection of slices.
 
-[![](/cookbook/5.0/images/PieDonut.png?240729212327)](/cookbook/5.0/images/PieDonut.png?240729212327)
+[![](/cookbook/5.0/images/PieDonut.png?240902145058)](/cookbook/5.0/images/PieDonut.png?240902145058)
 
 {{< code-sp5 >}}
 
@@ -110,7 +110,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Slice labels can be displayed centered with the slice at a customizable distance from the center of the pie.
 
-[![](/cookbook/5.0/images/PieSliceLabels.png?240729212327)](/cookbook/5.0/images/PieSliceLabels.png?240729212327)
+[![](/cookbook/5.0/images/PieSliceLabels.png?240902145058)](/cookbook/5.0/images/PieSliceLabels.png?240902145058)
 
 {{< code-sp5 >}}
 

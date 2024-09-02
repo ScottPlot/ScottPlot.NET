@@ -4,9 +4,9 @@ Description: Signal plots can be scaled vertically according to a user-defined a
 URL: /cookbook/5.0/Signal/SignalScaleY/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Signal Plot", "Signal Scaling"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Signal", "/cookbook/5.0/Signal/SignalScaleY"]
-Date: 2024-07-30
-Version: ScottPlot 5.0.37
-Version: ScottPlot 5.0.37
+Date: 2024-09-02
+Version: ScottPlot 5.0.38
+Version: ScottPlot 5.0.38
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Signal plots can be scaled vertically according to a user-defined amount.
 
-[![](/cookbook/5.0/images/SignalScaleY.png?240729212327)](/cookbook/5.0/images/SignalScaleY.png?240729212327)
+[![](/cookbook/5.0/images/SignalScaleY.png?240902145058)](/cookbook/5.0/images/SignalScaleY.png?240902145058)
 
 {{< code-sp5 >}}
 
