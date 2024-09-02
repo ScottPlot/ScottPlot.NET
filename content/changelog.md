@@ -9,7 +9,7 @@ Release notes for every version of ScottPlot
 
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 5.0.38</h1>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2024-09-02</i></div>
 <div class='mt-1'>
 <ul>
 <li>DataLogger: Merged in numerous additional features (optional circular buffer, X and Y offset, etc.) from the experimental DataLogger (<a href="https://github.com/ScottPlot/ScottPlot/issues/4085">#4085</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4114">#4114</a>) <a href="https://github.com/drolevar"><strong>@drolevar</strong></a>
@@ -48,13 +48,19 @@ Release notes for every version of ScottPlot
 </li>
 <li>Polar Axis: Added the ability to customize spoke label text (<a href="https://github.com/ScottPlot/ScottPlot/issues/4188">#4188</a>)
 </li>
-<li>Polar Axis: Added a <code>RegenerateSpokes()</code> overload that accepts <code>string[]</code> to create new spokes and set their label text automatically
+<li>Polar Axis: Added a <code>SetSpokes()</code> overload that accepts <code>string[]</code> to create new spokes and set their label text automatically
+</li>
+<li>Polar Axis: Replaced <code>RegenerateSpokes()</code> and <code>RegenerateCircles()</code> with <code>SetSpokes()</code> and <code>SetCircles()</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/4207">#4207</a>)
 </li>
 <li>Grid: Added support for fill colors to highlight spans between pairs of major grid lines (<a href="https://github.com/ScottPlot/ScottPlot/issues/4201">#4201</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4022">#4022</a>) <a href="https://github.com/CoderPM2011"><strong>@CoderPM2011</strong></a> <a href="https://github.com/seeingistrue"><strong>@seeingistrue</strong></a>
 </li>
 <li>AxisSpan: Added <code>IsUnderMouse()</code> to improve API naming consistency with AxisLine (<a href="https://github.com/ScottPlot/ScottPlot/issues/4150">#4150</a>)
 </li>
 <li>AxisLimits: Added <code>Contains()</code> to allow quick checking whether a point is contained by the boundaries of the axis limits (<a href="https://github.com/ScottPlot/ScottPlot/issues/4161">#4161</a>)
+</li>
+<li>Radar: Refactored to use a <code>PolarAxis</code> to handle spoke and tick management and translation between polar and Cartesian space (<a href="https://github.com/ScottPlot/ScottPlot/issues/4207">#4207</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4187">#4187</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4186">#4186</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4055">#4055</a>)
+</li>
+<li>Controls: Made <code>IPlotControl.Menu</code> nullable so users creating their own controls are not required to create a menu system (<a href="https://github.com/ScottPlot/ScottPlot/issues/4203">#4203</a>) <a href="https://github.com/kebox7"><strong>@kebox7</strong></a>
 </li>
 </ul>
 </div>
@@ -74,7 +80,7 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/agneszitte'><img src='https://scottplot.net/images/contributors/agneszitte.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/blouflashdb'><img src='https://scottplot.net/images/contributors/blouflashdb.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/CoderPM2011'><img src='https://scottplot.net/images/contributors/coderpm2011.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/seeingistrue'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/seeingistrue'><img src='https://scottplot.net/images/contributors/seeingistrue.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
