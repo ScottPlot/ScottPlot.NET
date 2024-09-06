@@ -8,6 +8,39 @@ Description: Release notes for every version of ScottPlot
 Release notes for every version of ScottPlot
 
 <section class='mb-5'>
+<h1 class='mb-0'>ScottPlot 5.0.39</h1>
+<div><i>NuGet packages published </i></div>
+<div class='mt-1'>
+<ul>
+<li>Angle: Added support for common arithmetic operators
+</li>
+<li>PolarCoordinates: Added <code>FromCartesian()</code> and <code>FromCartesian()</code> overloads to facilitate conversion between polar and Cartesian space (<a href="https://github.com/ScottPlot/ScottPlot/issues/4211">#4211</a>) <a href="https://github.com/CoderPM2011"><strong>@CoderPM2011</strong></a>
+</li>
+<li>Pie: Added <code>Rotation</code> property (<a href="https://github.com/ScottPlot/ScottPlot/issues/4211">#4211</a>) <a href="https://github.com/CoderPM2011"><strong>@CoderPM2011</strong></a>
+</li>
+<li>Pie: Improved label alignment (<a href="https://github.com/ScottPlot/ScottPlot/issues/4211">#4211</a>) <a href="https://github.com/CoderPM2011"><strong>@CoderPM2011</strong></a>
+</li>
+<li>Pie: First slice now starts vertically (-90 degrees) instead of to the right (0 degrees) (<a href="https://github.com/ScottPlot/ScottPlot/issues/4211">#4211</a>) <a href="https://github.com/CoderPM2011"><strong>@CoderPM2011</strong></a>
+</li>
+<li>Generate: Random seed uses <code>System.Random.Shared</code> on .NET platforms where it is available (<a href="https://github.com/ScottPlot/ScottPlot/issues/4217">#4217</a>) <a href="https://github.com/LeaFrock"><strong>@LeaFrock</strong></a>
+</li>
+<li>Axes: Added <code>ClipLabel</code> option to prevent long labels from overlapping on very small plots (<a href="https://github.com/ScottPlot/ScottPlot/issues/4219">#4219</a>) <a href="https://github.com/drolevar"><strong>@drolevar</strong></a>
+</li>
+</ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/LeaFrock'>@LeaFrock</a>, <a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/swharden'>@swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/CoderPM2011'><img src='https://scottplot.net/images/contributors/coderpm2011.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/LeaFrock'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/drolevar'><img src='https://scottplot.net/images/contributors/drolevar.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
+
+</section>
+<section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 5.0.38</h1>
 <div><i>NuGet packages published 2024-09-02</i></div>
 <div class='mt-1'>
