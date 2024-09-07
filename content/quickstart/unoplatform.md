@@ -10,7 +10,7 @@ date: 2024-07-24
 
 **Step 2:** Create a new Blank Uno Platform project by choosing the 'Blank' preset while following these [instructions](https://aka.platform.uno/vs-create-an-app).
 
-**Step 2:** Upgrade the Windows SDK version, `Microsoft.Windows.SDK.NET.Ref` and `Microsoft.WindowsAppSDK` to the latest (non-prerelease) versions supported.
+**Step 3:** Upgrade the Windows SDK version, `Microsoft.Windows.SDK.NET.Ref` and `Microsoft.WindowsAppSDK` to the latest (non-prerelease) versions supported.
 
 To do that you will need to update the TargetFramework version for Windows and the `WindowsSdkPackageVersion`, `WinAppSdkVersion` properties in your project's `csproj` file.
 
@@ -26,15 +26,15 @@ For example in your `PROJECT_NAME.csproj`:
 ```xml
 <PropertyGroup>
     <WindowsSdkPackageVersion>10.0.22621.34</WindowsSdkPackageVersion>
-    <WinAppSdkVersion>1.5.240627000</WinAppSdkVersion>
+    <WinAppSdkVersion>1.5.240802000</WinAppSdkVersion>
 </PropertyGroup>
 ```
 
 For more detailed information, please see the [Windows SDK references](https://aka.platform.uno/adjusting-windows-sdk-references) and [implicit packages](https://aka.platform.uno/using-uno-sdk#implicit-packages) details.
 
-**Step 3:** Install the [ScottPlot.WinUI](https://www.nuget.org/packages/ScottPlot.WinUI/) NuGet package.
+**Step 4:** Install the [ScottPlot.WinUI](https://www.nuget.org/packages/ScottPlot.WinUI/) NuGet package.
 
-To do that you can use the Nuget Package Manager in Visual Studio or manually:
+To do that you can use the NuGet Package Manager in Visual Studio or manually:
 
 1. Edit your project file `PROJECT_NAME.csproj` and add the reference:
 
@@ -48,7 +48,7 @@ To do that you can use the Nuget Package Manager in Visual Studio or manually:
 
     ```xml
     <ItemGroup>
-        <PackageVersion Include="ScottPlot.WinUI" Version="5.0.36" />
+        <PackageVersion Include="ScottPlot.WinUI" Version="5.0.38" />
     </ItemGroup>
     ```
 
@@ -120,22 +120,30 @@ public sealed partial class MainPage : Page
     </div>
 </div>
 
+## Samples
+
+For hands-on learning, two sample applications are available in the [Uno Platform samples repository](https://aka.platform.uno/scottplot-quickstart-sample) that demonstrate ScottPlot integration: 
+
+- A basic sample following the ScottPlot Uno Platform Quickstart guide here.
+
+- A different sample displaying a signal plot with 5 million random points, also based on the Quickstart guide but with modified code behind.
+
 ## What is the Uno Platform?
 
-The Uno Platform is an [Open-source platform](https://github.com/unoplatform/uno) for building single codebase native mobile, web, desktop and embedded apps quickly.
+The Uno Platform is an [Open-source platform](https://github.com/unoplatform/uno) for building single codebase native mobile, web, desktop, and embedded apps quickly.
 
-- Flexible: Your choice of OS (Windows, macOS, Linux), IDE (Visual Studio, VS Code, JetBrains Rider, Codespaces/Gitpod), state management, design systems. Use only what works for you.
+- Flexible: Your choice of OS (Windows, macOS, Linux), IDE (Visual Studio, VS Code, JetBrains Rider, Codespaces/Gitpod), state management, and design systems. Use only what works for you.
 
 - Productive: Visual Studio, VS Code, JetBrains Rider XAML & C# Hot Reload built-in. One-click Figma design exports.
 
 - Rich: Reuse 100’s of .NET UI components or 1st party native controls for beautiful apps.
 
-- Beautiful: Pixel-perfect, Material, Fluent or Cupertino-themed apps on all platforms.
+- Beautiful: Pixel-perfect, Material, Fluent, or Cupertino-themed apps on all platforms.
 
 Visit their [website](https://platform.uno/) and [documentation](https://aka.platform.uno/uno-docs-intro) for more details.
 
 ## Uno Platform Support
 If you have questions about the Uno Platform, they have an engineering team and community that can help!
-* Uno Platform website: [Frequently Asked Quetsions (FAQ)](https://aka.platform.uno/uno-faq)
+* Uno Platform website: [Frequently Asked Questions (FAQ)](https://aka.platform.uno/uno-faq)
 * Uno Platform on GitHub: [create an issue](https://github.com/unoplatform/uno/issues) or [start a discussion](https://github.com/unoplatform/uno/discussions) 
-* [Uno Platform Discord Server](https://discord.com/invite/XjsmQHdKfq) (all are welcome!)
+* [Uno Platform Discord Server](https://discord.com/invite/XjsmQHdKfq) (All are welcome!)
