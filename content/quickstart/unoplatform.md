@@ -120,6 +120,14 @@ public sealed partial class MainPage : Page
     </div>
 </div>
 
+## Samples
+
+For hands-on learning, two sample applications are available in the [Uno Platform samples repository](https://aka.platform.uno/scottplot-quickstart-sample) that demonstrate ScottPlot integration: 
+
+- A basic sample following the ScottPlot Uno Platform Quickstart guide here.
+
+- A different sample displaying a signal plot with 5 million random points, also based on the Quickstart guide but with modified code behind.
+
 ## What is the Uno Platform?
 
 The Uno Platform is an [Open-source platform](https://github.com/unoplatform/uno) for building single codebase native mobile, web, desktop, and embedded apps quickly.
