@@ -28,6 +28,10 @@ Release notes for every version of ScottPlot
 </li>
 <li>Plot: Improved performance when adding new plot objects by reducing complexity of color palette sampling (<a href="https://github.com/ScottPlot/ScottPlot/issues/4218">#4218</a>) <a href="https://github.com/0xfded"><strong>@0xfded</strong></a> <a href="https://github.com/StendProg"><strong>@StendProg</strong></a>
 </li>
+<li>Colormap: Added <code>GetColor()</code> overload to get color of an item in a collection with an option to sample from a range of the colormap
+</li>
+<li>Markers: Added optional <code>Colormap</code> so marker colors can be sampled from a colormap instead of assigned manually (<a href="https://github.com/ScottPlot/ScottPlot/issues/4143">#4143</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
