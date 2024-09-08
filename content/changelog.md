@@ -26,16 +26,20 @@ Release notes for every version of ScottPlot
 </li>
 <li>Axes: Added <code>ClipLabel</code> option to prevent long labels from overlapping on very small plots (<a href="https://github.com/ScottPlot/ScottPlot/issues/4219">#4219</a>) <a href="https://github.com/drolevar"><strong>@drolevar</strong></a>
 </li>
+<li>Plot: Improved performance when adding new plot objects by reducing complexity of color palette sampling (<a href="https://github.com/ScottPlot/ScottPlot/issues/4218">#4218</a>) <a href="https://github.com/0xfded"><strong>@0xfded</strong></a> <a href="https://github.com/StendProg"><strong>@StendProg</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/LeaFrock'>@LeaFrock</a>, <a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/LeaFrock'>@LeaFrock</a>, <a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/0xfded'>@0xfded</a>, <a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/CoderPM2011'><img src='https://scottplot.net/images/contributors/coderpm2011.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/LeaFrock'><img src='https://scottplot.net/images/contributors/leafrock.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/drolevar'><img src='https://scottplot.net/images/contributors/drolevar.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/0xfded'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
