@@ -4,9 +4,9 @@ Description: Arrows can be placed on plots to point to a location in coordinate 
 URL: /cookbook/5.0/ArrowCoordinated/ArrowQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Arrow", "Arrow Quickstart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/ArrowCoordinated", "/cookbook/5.0/ArrowCoordinated/ArrowQuickstart"]
-Date: 2024-09-02
-Version: ScottPlot 5.0.38
-Version: ScottPlot 5.0.38
+Date: 2024-09-09
+Version: ScottPlot 5.0.39
+Version: ScottPlot 5.0.39
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Arrows can be placed on plots to point to a location in coordinate space and extensively customized.
 
-[![](/cookbook/5.0/images/ArrowQuickstart.png?240902145058)](/cookbook/5.0/images/ArrowQuickstart.png?240902145058)
+[![](/cookbook/5.0/images/ArrowQuickstart.png?240908210824)](/cookbook/5.0/images/ArrowQuickstart.png?240908210824)
 
 {{< code-sp5 >}}
 

@@ -4,9 +4,9 @@ Description: Finance plots display price data binned into time ranges
 URL: /cookbook/5.0/Finance/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Financial Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Finance"]
-Date: 2024-09-02
-Version: ScottPlot 5.0.38
-Version: ScottPlot 5.0.38
+Date: 2024-09-09
+Version: ScottPlot 5.0.39
+Version: ScottPlot 5.0.39
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,7 +18,7 @@ ShowEditLink: false
 
 Candlestick charts use symbols to display price data. The rectangle indicates open and close prices, and the center line indicates minimum and maximum price for the given time period. Color indicates whether the price increased or decreased between open and close.
 
-[![](/cookbook/5.0/images/Candlestick.png?240902145058)](/cookbook/5.0/images/Candlestick.png?240902145058)
+[![](/cookbook/5.0/images/Candlestick.png?240908210824)](/cookbook/5.0/images/Candlestick.png?240908210824)
 
 {{< code-sp5 >}}
 
@@ -42,7 +42,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 OHLC charts use symbols to display price data (open, high, low, and close) for specific time ranges.
 
-[![](/cookbook/5.0/images/OhlcChart.png?240902145058)](/cookbook/5.0/images/OhlcChart.png?240902145058)
+[![](/cookbook/5.0/images/OhlcChart.png?240908210824)](/cookbook/5.0/images/OhlcChart.png?240908210824)
 
 {{< code-sp5 >}}
 
@@ -66,7 +66,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Finance charts can display price range information over arbitrary time scales.
 
-[![](/cookbook/5.0/images/FinanceChartBins.png?240902145058)](/cookbook/5.0/images/FinanceChartBins.png?240902145058)
+[![](/cookbook/5.0/images/FinanceChartBins.png?240908210824)](/cookbook/5.0/images/FinanceChartBins.png?240908210824)
 
 {{< code-sp5 >}}
 
@@ -103,7 +103,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Finance charts can be created which display price information on the right axis.
 
-[![](/cookbook/5.0/images/FinanceRightAxis.png?240902145058)](/cookbook/5.0/images/FinanceRightAxis.png?240902145058)
+[![](/cookbook/5.0/images/FinanceRightAxis.png?240908210824)](/cookbook/5.0/images/FinanceRightAxis.png?240908210824)
 
 {{< code-sp5 >}}
 
@@ -134,7 +134,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Tools exist for creating simple moving average (SMA) curves and displaying them next to finanial data.
 
-[![](/cookbook/5.0/images/FinanceSma.png?240902145058)](/cookbook/5.0/images/FinanceSma.png?240902145058)
+[![](/cookbook/5.0/images/FinanceSma.png?240908210824)](/cookbook/5.0/images/FinanceSma.png?240908210824)
 
 {{< code-sp5 >}}
 
@@ -173,7 +173,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Tools exist for creating Bollinger Bands which display weighted moving mean and variance for time series financial data.
 
-[![](/cookbook/5.0/images/FinanceBollinger.png?240902145058)](/cookbook/5.0/images/FinanceBollinger.png?240902145058)
+[![](/cookbook/5.0/images/FinanceBollinger.png?240908210824)](/cookbook/5.0/images/FinanceBollinger.png?240908210824)
 
 {{< code-sp5 >}}
 
@@ -218,7 +218,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 When the DateTimes stored in OHLC objects are used to determine the horizontal position of candlesticks, periods without data like weekends and holidays appear as gaps in the plot. Enabling sequential mode causes the plot to ignore the OHLC DateTimes and display candles at integer positions starting from zero. Users can customize the tick generator to display dates instead of numbers on the horizontal axis if desired.
 
-[![](/cookbook/5.0/images/FinancialPlotWithoutGaps.png?240902145058)](/cookbook/5.0/images/FinancialPlotWithoutGaps.png?240902145058)
+[![](/cookbook/5.0/images/FinancialPlotWithoutGaps.png?240908210824)](/cookbook/5.0/images/FinancialPlotWithoutGaps.png?240908210824)
 
 {{< code-sp5 >}}
 
@@ -260,7 +260,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 When the DateTimes stored in OHLC objects are used to determine the horizontal position, periods without data like weekends and holidays appear as gaps in the plot. Enabling sequential mode causes the plot to ignore the OHLC DateTimes and place OHLCs at integer positions starting from zero. Users can customize the tick generator to display dates instead of numbers on the horizontal axis if desired.
 
-[![](/cookbook/5.0/images/FinancialPlotWithoutGapsOhlc.png?240902145058)](/cookbook/5.0/images/FinancialPlotWithoutGapsOhlc.png?240902145058)
+[![](/cookbook/5.0/images/FinancialPlotWithoutGapsOhlc.png?240908210824)](/cookbook/5.0/images/FinancialPlotWithoutGapsOhlc.png?240908210824)
 
 {{< code-sp5 >}}
 

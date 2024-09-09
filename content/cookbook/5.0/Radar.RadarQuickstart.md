@@ -4,9 +4,9 @@ Description: A radar chart can be created from a single array of values.
 URL: /cookbook/5.0/Radar/RadarQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Radar Plot", "Radar Plot Quickstart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Radar", "/cookbook/5.0/Radar/RadarQuickstart"]
-Date: 2024-09-02
-Version: ScottPlot 5.0.38
-Version: ScottPlot 5.0.38
+Date: 2024-09-09
+Version: ScottPlot 5.0.39
+Version: ScottPlot 5.0.39
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 A radar chart can be created from a single array of values.
 
-[![](/cookbook/5.0/images/RadarQuickstart.png?240902145058)](/cookbook/5.0/images/RadarQuickstart.png?240902145058)
+[![](/cookbook/5.0/images/RadarQuickstart.png?240908210824)](/cookbook/5.0/images/RadarQuickstart.png?240908210824)
 
 {{< code-sp5 >}}
 

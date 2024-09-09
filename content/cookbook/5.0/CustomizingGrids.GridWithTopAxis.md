@@ -4,9 +4,9 @@ Description: Grid lines use the bottom and left axes by default, but this behavi
 URL: /cookbook/5.0/CustomizingGrids/GridWithTopAxis/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Customizing Grids", "Grid with Top Axis"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/CustomizingGrids", "/cookbook/5.0/CustomizingGrids/GridWithTopAxis"]
-Date: 2024-09-02
-Version: ScottPlot 5.0.38
-Version: ScottPlot 5.0.38
+Date: 2024-09-09
+Version: ScottPlot 5.0.39
+Version: ScottPlot 5.0.39
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Grid lines use the bottom and left axes by default, but this behavior can be customized for plots which use other axes.
 
-[![](/cookbook/5.0/images/GridWithTopAxis.png?240902145058)](/cookbook/5.0/images/GridWithTopAxis.png?240902145058)
+[![](/cookbook/5.0/images/GridWithTopAxis.png?240908210824)](/cookbook/5.0/images/GridWithTopAxis.png?240908210824)
 
 {{< code-sp5 >}}
 

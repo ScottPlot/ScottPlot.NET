@@ -4,9 +4,9 @@ Description: The position of each lollipop may be defined.
 URL: /cookbook/5.0/Lollipop/LollipopPositions/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Lollipop Plot", "Lollipop Positions"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Lollipop", "/cookbook/5.0/Lollipop/LollipopPositions"]
-Date: 2024-09-02
-Version: ScottPlot 5.0.38
-Version: ScottPlot 5.0.38
+Date: 2024-09-09
+Version: ScottPlot 5.0.39
+Version: ScottPlot 5.0.39
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 The position of each lollipop may be defined.
 
-[![](/cookbook/5.0/images/LollipopPositions.png?240902145058)](/cookbook/5.0/images/LollipopPositions.png?240902145058)
+[![](/cookbook/5.0/images/LollipopPositions.png?240908210824)](/cookbook/5.0/images/LollipopPositions.png?240908210824)
 
 {{< code-sp5 >}}
 

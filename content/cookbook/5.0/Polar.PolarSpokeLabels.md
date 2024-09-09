@@ -4,9 +4,9 @@ Description: Polar axis spokes may be individually labeled.
 URL: /cookbook/5.0/Polar/PolarSpokeLabels/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Polar Axis", "Polar Axis Spoke Labels"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Polar", "/cookbook/5.0/Polar/PolarSpokeLabels"]
-Date: 2024-09-02
-Version: ScottPlot 5.0.38
-Version: ScottPlot 5.0.38
+Date: 2024-09-09
+Version: ScottPlot 5.0.39
+Version: ScottPlot 5.0.39
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Polar axis spokes may be individually labeled.
 
-[![](/cookbook/5.0/images/PolarSpokeLabels.png?240902145058)](/cookbook/5.0/images/PolarSpokeLabels.png?240902145058)
+[![](/cookbook/5.0/images/PolarSpokeLabels.png?240908210824)](/cookbook/5.0/images/PolarSpokeLabels.png?240908210824)
 
 {{< code-sp5 >}}
 

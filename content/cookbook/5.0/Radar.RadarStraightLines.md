@@ -4,9 +4,9 @@ Description: Radial ticks may be rendered using straight lines instead of circle
 URL: /cookbook/5.0/Radar/RadarStraightLines/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Radar Plot", "Radar with Straight Lines"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Radar", "/cookbook/5.0/Radar/RadarStraightLines"]
-Date: 2024-09-02
-Version: ScottPlot 5.0.38
-Version: ScottPlot 5.0.38
+Date: 2024-09-09
+Version: ScottPlot 5.0.39
+Version: ScottPlot 5.0.39
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Radial ticks may be rendered using straight lines instead of circles
 
-[![](/cookbook/5.0/images/RadarStraightLines.png?240902145058)](/cookbook/5.0/images/RadarStraightLines.png?240902145058)
+[![](/cookbook/5.0/images/RadarStraightLines.png?240908210824)](/cookbook/5.0/images/RadarStraightLines.png?240908210824)
 
 {{< code-sp5 >}}
 

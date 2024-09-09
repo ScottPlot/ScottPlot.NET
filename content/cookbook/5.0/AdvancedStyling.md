@@ -4,9 +4,9 @@ Description: Features for users seeking extensive customization options.
 URL: /cookbook/5.0/AdvancedStyling/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Advanced Styling"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AdvancedStyling"]
-Date: 2024-09-02
-Version: ScottPlot 5.0.38
-Version: ScottPlot 5.0.38
+Date: 2024-09-09
+Version: ScottPlot 5.0.39
+Version: ScottPlot 5.0.39
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,7 +18,7 @@ ShowEditLink: false
 
 An image can be used for the background of the data area.
 
-[![](/cookbook/5.0/images/AdvancedStylingDataBackground.png?240902145058)](/cookbook/5.0/images/AdvancedStylingDataBackground.png?240902145058)
+[![](/cookbook/5.0/images/AdvancedStylingDataBackground.png?240908210824)](/cookbook/5.0/images/AdvancedStylingDataBackground.png?240908210824)
 
 {{< code-sp5 >}}
 
@@ -51,7 +51,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 An image can be used for the background of a figure.
 
-[![](/cookbook/5.0/images/AdvancedStylingFigureBackground.png?240902145058)](/cookbook/5.0/images/AdvancedStylingFigureBackground.png?240902145058)
+[![](/cookbook/5.0/images/AdvancedStylingFigureBackground.png?240908210824)](/cookbook/5.0/images/AdvancedStylingFigureBackground.png?240908210824)
 
 {{< code-sp5 >}}
 
@@ -92,7 +92,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Colors can be mixed to createa range of colors. This strategy uses linear RGB interpolation.
 
-[![](/cookbook/5.0/images/ColorInterpolation.png?240902145058)](/cookbook/5.0/images/ColorInterpolation.png?240902145058)
+[![](/cookbook/5.0/images/ColorInterpolation.png?240908210824)](/cookbook/5.0/images/ColorInterpolation.png?240908210824)
 
 {{< code-sp5 >}}
 
@@ -108,6 +108,64 @@ for (int i = 0; i <= 10; i++)
     circle.FillColor = Colors.Blue.MixedWith(Colors.Green, fraction);
     circle.LineColor = Colors.Black.WithAlpha(.5);
 }
+
+myPlot.SavePng("demo.png", 400, 300);
+
+```
+
+{{< /code-sp5 >}}
+
+<hr class='my-5 invisible'>
+
+
+<h2><a href='/cookbook/5.0/AdvancedStyling/CustomFontFiles'>Custom Font Files</a></h2>
+
+Users can apply custom typefaces by loaded from font files.
+
+[![](/cookbook/5.0/images/CustomFontFiles.png?240908210824)](/cookbook/5.0/images/CustomFontFiles.png?240908210824)
+
+{{< code-sp5 >}}
+
+```cs
+ScottPlot.Plot myPlot = new();
+
+// Add a font file to use its typeface for fonts with a given name
+Fonts.AddFontFile(
+    name: "Alumni Sans",
+    path: Path.Combine(Paths.FontFolder, @"AlumniSans/AlumniSans-Regular.ttf"));
+
+// plot sample data
+var sig1 = myPlot.Add.Signal(Generate.Sin(51));
+sig1.LegendText = "Sin";
+var sig2 = myPlot.Add.Signal(Generate.Cos(51));
+sig2.LegendText = "Cos";
+
+// custom fonts may be used in legends
+myPlot.Legend.FontName = "Alumni Sans";
+myPlot.Legend.FontSize = 24;
+
+// custom fonts may be used in plottables that contain text
+var text = myPlot.Add.Text("Hello", 25, 0.5);
+text.LabelStyle.FontName = "Alumni Sans";
+text.LabelStyle.FontSize = 24;
+
+// Custom fonts may be used for axis labels.
+// Note that bold is disabled because support for
+// bold would require loading an additional font file.
+myPlot.Title("Custom Font Demo");
+myPlot.Axes.Title.Label.FontName = "Alumni Sans";
+myPlot.Axes.Title.Label.FontSize = 36;
+myPlot.Axes.Title.Label.Bold = false;
+
+myPlot.XLabel("Horizontal Axis");
+myPlot.Axes.Bottom.Label.FontName = "Alumni Sans";
+myPlot.Axes.Bottom.Label.FontSize = 24;
+myPlot.Axes.Bottom.Label.Bold = false;
+
+myPlot.YLabel("Vertical Axis");
+myPlot.Axes.Left.Label.FontName = "Alumni Sans";
+myPlot.Axes.Left.Label.FontSize = 24;
+myPlot.Axes.Left.Label.Bold = false;
 
 myPlot.SavePng("demo.png", 400, 300);
 

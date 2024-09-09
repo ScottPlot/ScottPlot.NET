@@ -4,9 +4,9 @@ Description: A frameless heatmap can be achieved by disabling axis labels and ti
 URL: /cookbook/5.0/Heatmap/FramelessHeatmap/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Heatmap", "Frameless Heatmap"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Heatmap", "/cookbook/5.0/Heatmap/FramelessHeatmap"]
-Date: 2024-09-02
-Version: ScottPlot 5.0.38
-Version: ScottPlot 5.0.38
+Date: 2024-09-09
+Version: ScottPlot 5.0.39
+Version: ScottPlot 5.0.39
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 A frameless heatmap can be achieved by disabling axis labels and ticks, then setting the margins to 0 so the data area tightly fits the data.
 
-[![](/cookbook/5.0/images/FramelessHeatmap.png?240902145058)](/cookbook/5.0/images/FramelessHeatmap.png?240902145058)
+[![](/cookbook/5.0/images/FramelessHeatmap.png?240908210824)](/cookbook/5.0/images/FramelessHeatmap.png?240908210824)
 
 {{< code-sp5 >}}
 

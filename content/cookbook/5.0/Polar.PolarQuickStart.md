@@ -4,9 +4,9 @@ Description: A polar axis can be added to the plot, then other plot types (marke
 URL: /cookbook/5.0/Polar/PolarQuickStart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Polar Axis", "Polar Axis"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Polar", "/cookbook/5.0/Polar/PolarQuickStart"]
-Date: 2024-09-02
-Version: ScottPlot 5.0.38
-Version: ScottPlot 5.0.38
+Date: 2024-09-09
+Version: ScottPlot 5.0.39
+Version: ScottPlot 5.0.39
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 A polar axis can be added to the plot, then other plot types (marker, line, scatter, etc.) can be placed on top of it using ints helper methods to translate polar coordinates to Cartesian units.
 
-[![](/cookbook/5.0/images/PolarQuickStart.png?240902145058)](/cookbook/5.0/images/PolarQuickStart.png?240902145058)
+[![](/cookbook/5.0/images/PolarQuickStart.png?240908210824)](/cookbook/5.0/images/PolarQuickStart.png?240908210824)
 
 {{< code-sp5 >}}
 

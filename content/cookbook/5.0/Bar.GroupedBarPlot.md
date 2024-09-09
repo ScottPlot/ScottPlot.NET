@@ -4,9 +4,9 @@ Description: Bars can be grouped by position and color.
 URL: /cookbook/5.0/Bar/GroupedBarPlot/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Bar Plot", "Grouped Bar Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Bar", "/cookbook/5.0/Bar/GroupedBarPlot"]
-Date: 2024-09-02
-Version: ScottPlot 5.0.38
-Version: ScottPlot 5.0.38
+Date: 2024-09-09
+Version: ScottPlot 5.0.39
+Version: ScottPlot 5.0.39
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Bars can be grouped by position and color.
 
-[![](/cookbook/5.0/images/GroupedBarPlot.png?240902145058)](/cookbook/5.0/images/GroupedBarPlot.png?240902145058)
+[![](/cookbook/5.0/images/GroupedBarPlot.png?240908210824)](/cookbook/5.0/images/GroupedBarPlot.png?240908210824)
 
 {{< code-sp5 >}}
 

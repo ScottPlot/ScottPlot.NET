@@ -4,9 +4,9 @@ Description: A rectangle can be added to the plot and styled as desired.
 URL: /cookbook/5.0/Shapes/RectangleQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Shapes", "Rectangle"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Shapes", "/cookbook/5.0/Shapes/RectangleQuickstart"]
-Date: 2024-09-02
-Version: ScottPlot 5.0.38
-Version: ScottPlot 5.0.38
+Date: 2024-09-09
+Version: ScottPlot 5.0.39
+Version: ScottPlot 5.0.39
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 A rectangle can be added to the plot and styled as desired.
 
-[![](/cookbook/5.0/images/RectangleQuickstart.png?240902145058)](/cookbook/5.0/images/RectangleQuickstart.png?240902145058)
+[![](/cookbook/5.0/images/RectangleQuickstart.png?240908210824)](/cookbook/5.0/images/RectangleQuickstart.png?240908210824)
 
 {{< code-sp5 >}}
 

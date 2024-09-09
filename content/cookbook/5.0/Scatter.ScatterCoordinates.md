@@ -4,9 +4,9 @@ Description: Scatter plots can be created from a collection of Coordinates.
 URL: /cookbook/5.0/Scatter/ScatterCoordinates/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Scatter Plot", "Scatter Plot Coordinates"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Scatter", "/cookbook/5.0/Scatter/ScatterCoordinates"]
-Date: 2024-09-02
-Version: ScottPlot 5.0.38
-Version: ScottPlot 5.0.38
+Date: 2024-09-09
+Version: ScottPlot 5.0.39
+Version: ScottPlot 5.0.39
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Scatter plots can be created from a collection of Coordinates.
 
-[![](/cookbook/5.0/images/ScatterCoordinates.png?240902145058)](/cookbook/5.0/images/ScatterCoordinates.png?240902145058)
+[![](/cookbook/5.0/images/ScatterCoordinates.png?240908210824)](/cookbook/5.0/images/ScatterCoordinates.png?240908210824)
 
 {{< code-sp5 >}}
 

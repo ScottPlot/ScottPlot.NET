@@ -4,9 +4,9 @@ Description: A single radar chart can be used to display values from multiple se
 URL: /cookbook/5.0/Radar/RadarMultipleQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Radar Plot", "Radar Plot with Multiple Series"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Radar", "/cookbook/5.0/Radar/RadarMultipleQuickstart"]
-Date: 2024-09-02
-Version: ScottPlot 5.0.38
-Version: ScottPlot 5.0.38
+Date: 2024-09-09
+Version: ScottPlot 5.0.39
+Version: ScottPlot 5.0.39
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 A single radar chart can be used to display values from multiple series using a 2D array
 
-[![](/cookbook/5.0/images/RadarMultipleQuickstart.png?240902145058)](/cookbook/5.0/images/RadarMultipleQuickstart.png?240902145058)
+[![](/cookbook/5.0/images/RadarMultipleQuickstart.png?240908210824)](/cookbook/5.0/images/RadarMultipleQuickstart.png?240908210824)
 
 {{< code-sp5 >}}
 

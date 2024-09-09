@@ -4,9 +4,9 @@ Description: Use custom fonts from TTF files in the legend.
 URL: /cookbook/5.0/Legend/LegendCustomFontAutomaticItems/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Configuring Legends", "Automatic Legend Items Custom Font"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Legend", "/cookbook/5.0/Legend/LegendCustomFontAutomaticItems"]
-Date: 2024-09-02
-Version: ScottPlot 5.0.38
-Version: ScottPlot 5.0.38
+Date: 2024-09-09
+Version: ScottPlot 5.0.39
+Version: ScottPlot 5.0.39
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Use custom fonts from TTF files in the legend.
 
-[![](/cookbook/5.0/images/LegendCustomFontAutomaticItems.png?240902145058)](/cookbook/5.0/images/LegendCustomFontAutomaticItems.png?240902145058)
+[![](/cookbook/5.0/images/LegendCustomFontAutomaticItems.png?240908210824)](/cookbook/5.0/images/LegendCustomFontAutomaticItems.png?240908210824)
 
 {{< code-sp5 >}}
 

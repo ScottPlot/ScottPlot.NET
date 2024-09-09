@@ -4,9 +4,9 @@ Description: SignalXY plots are a high performance plot type for X/Y data where 
 URL: /cookbook/5.0/SignalXY/SignalXYQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "SignalXY Plot", "SignalXY Quickstart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/SignalXY", "/cookbook/5.0/SignalXY/SignalXYQuickstart"]
-Date: 2024-09-02
-Version: ScottPlot 5.0.38
-Version: ScottPlot 5.0.38
+Date: 2024-09-09
+Version: ScottPlot 5.0.39
+Version: ScottPlot 5.0.39
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 SignalXY plots are a high performance plot type for X/Y data where the X values are always ascending.
 
-[![](/cookbook/5.0/images/SignalXYQuickstart.png?240902145058)](/cookbook/5.0/images/SignalXYQuickstart.png?240902145058)
+[![](/cookbook/5.0/images/SignalXYQuickstart.png?240908210824)](/cookbook/5.0/images/SignalXYQuickstart.png?240908210824)
 
 {{< code-sp5 >}}
 

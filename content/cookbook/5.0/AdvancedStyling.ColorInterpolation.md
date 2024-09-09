@@ -4,9 +4,9 @@ Description: Colors can be mixed to createa range of colors. This strategy uses 
 URL: /cookbook/5.0/AdvancedStyling/ColorInterpolation/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Advanced Styling", "Color Interpolation"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AdvancedStyling", "/cookbook/5.0/AdvancedStyling/ColorInterpolation"]
-Date: 2024-09-02
-Version: ScottPlot 5.0.38
-Version: ScottPlot 5.0.38
+Date: 2024-09-09
+Version: ScottPlot 5.0.39
+Version: ScottPlot 5.0.39
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Colors can be mixed to createa range of colors. This strategy uses linear RGB interpolation.
 
-[![](/cookbook/5.0/images/ColorInterpolation.png?240902145058)](/cookbook/5.0/images/ColorInterpolation.png?240902145058)
+[![](/cookbook/5.0/images/ColorInterpolation.png?240908210824)](/cookbook/5.0/images/ColorInterpolation.png?240908210824)
 
 {{< code-sp5 >}}
 

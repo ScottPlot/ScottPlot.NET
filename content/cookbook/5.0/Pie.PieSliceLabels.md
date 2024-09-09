@@ -4,9 +4,9 @@ Description: Slice labels can be displayed centered with the slice at a customiz
 URL: /cookbook/5.0/Pie/PieSliceLabels/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Pie", "Pie Slice Labels"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Pie", "/cookbook/5.0/Pie/PieSliceLabels"]
-Date: 2024-09-02
-Version: ScottPlot 5.0.38
-Version: ScottPlot 5.0.38
+Date: 2024-09-09
+Version: ScottPlot 5.0.39
+Version: ScottPlot 5.0.39
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,18 +16,19 @@ ShowEditLink: false
 
 Slice labels can be displayed centered with the slice at a customizable distance from the center of the pie.
 
-[![](/cookbook/5.0/images/PieSliceLabels.png?240902145058)](/cookbook/5.0/images/PieSliceLabels.png?240902145058)
+[![](/cookbook/5.0/images/PieSliceLabels.png?240908210824)](/cookbook/5.0/images/PieSliceLabels.png?240908210824)
 
 {{< code-sp5 >}}
 
 ```cs
 ScottPlot.Plot myPlot = new();
 
-PieSlice slice1 = new() { Value = 5, FillColor = Colors.Red, Label = "Red" };
-PieSlice slice2 = new() { Value = 2, FillColor = Colors.Orange, Label = "Orange" };
-PieSlice slice3 = new() { Value = 8, FillColor = Colors.Gold, Label = "Yellow" };
-PieSlice slice4 = new() { Value = 4, FillColor = Colors.Green, Label = "Green" };
-PieSlice slice5 = new() { Value = 8, FillColor = Colors.Blue, Label = "Blue" };
+PieSlice slice1 = new() { Value = 5, FillColor = Colors.Red, Label = "alpha" };
+PieSlice slice2 = new() { Value = 2, FillColor = Colors.Orange, Label = "beta" };
+PieSlice slice3 = new() { Value = 8, FillColor = Colors.Gold, Label = "gamma" };
+PieSlice slice4 = new() { Value = 4, FillColor = Colors.Green, Label = "delta" };
+PieSlice slice5 = new() { Value = 8, FillColor = Colors.Blue, Label = "epsilon" };
+
 List<PieSlice> slices = new() { slice1, slice2, slice3, slice4, slice5 };
 
 // setup the pie to display slice labels
@@ -36,10 +37,13 @@ pie.ExplodeFraction = .1;
 pie.ShowSliceLabels = true;
 pie.SliceLabelDistance = 1.3;
 
+// color each label's text to match the slice
+slices.ForEach(x => x.LabelFontColor = x.FillColor);
+
 // styling can be customized for individual slices
 slice5.LabelStyle.FontSize = 22;
-slice5.LabelStyle.ForeColor = Colors.Magenta;
 slice5.LabelStyle.Bold = true;
+slice5.LabelStyle.Italic = true;
 
 myPlot.SavePng("demo.png", 400, 300);
 

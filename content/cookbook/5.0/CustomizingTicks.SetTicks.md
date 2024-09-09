@@ -4,9 +4,9 @@ Description: The default axes have a SetTicks() helper method which replaces the
 URL: /cookbook/5.0/CustomizingTicks/SetTicks/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Customizing Ticks", "SetTicks Shortcut"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/CustomizingTicks", "/cookbook/5.0/CustomizingTicks/SetTicks"]
-Date: 2024-09-02
-Version: ScottPlot 5.0.38
-Version: ScottPlot 5.0.38
+Date: 2024-09-09
+Version: ScottPlot 5.0.39
+Version: ScottPlot 5.0.39
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 The default axes have a SetTicks() helper method which replaces the default tick generator with a manual tick generator pre-loaded with the provided ticks.
 
-[![](/cookbook/5.0/images/SetTicks.png?240902145058)](/cookbook/5.0/images/SetTicks.png?240902145058)
+[![](/cookbook/5.0/images/SetTicks.png?240908210824)](/cookbook/5.0/images/SetTicks.png?240908210824)
 
 {{< code-sp5 >}}
 

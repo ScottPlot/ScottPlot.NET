@@ -4,9 +4,9 @@ Description: How to customize appearance of plots
 URL: /cookbook/5.0/Styling/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Styling Plots"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Styling"]
-Date: 2024-09-02
-Version: ScottPlot 5.0.38
-Version: ScottPlot 5.0.38
+Date: 2024-09-09
+Version: ScottPlot 5.0.39
+Version: ScottPlot 5.0.39
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,7 +18,7 @@ ShowEditLink: false
 
 Plots contain many objects which can be customized individually by assigning to their public properties, but helper methods exist in the Plot's Style object that make it easier to customize many items at once using a simpler API.
 
-[![](/cookbook/5.0/images/StyleClass.png?240902145058)](/cookbook/5.0/images/StyleClass.png?240902145058)
+[![](/cookbook/5.0/images/StyleClass.png?240908210824)](/cookbook/5.0/images/StyleClass.png?240908210824)
 
 {{< code-sp5 >}}
 
@@ -54,7 +54,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Axis labels, tick marks, and frame can all be customized.
 
-[![](/cookbook/5.0/images/AxisCustom.png?240902145058)](/cookbook/5.0/images/AxisCustom.png?240902145058)
+[![](/cookbook/5.0/images/AxisCustom.png?240908210824)](/cookbook/5.0/images/AxisCustom.png?240908210824)
 
 {{< code-sp5 >}}
 
@@ -103,7 +103,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 A palette is a set of colors, and the Plot's palette defines the default colors to use when adding new plottables. ScottPlot comes with many standard palettes, but users may also create their own.
 
-[![](/cookbook/5.0/images/Palette.png?240902145058)](/cookbook/5.0/images/Palette.png?240902145058)
+[![](/cookbook/5.0/images/Palette.png?240908210824)](/cookbook/5.0/images/Palette.png?240908210824)
 
 {{< code-sp5 >}}
 
@@ -133,7 +133,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Many standard arrow shapes are available
 
-[![](/cookbook/5.0/images/ArrowShapeNames.png?240902145058)](/cookbook/5.0/images/ArrowShapeNames.png?240902145058)
+[![](/cookbook/5.0/images/ArrowShapeNames.png?240908210824)](/cookbook/5.0/images/ArrowShapeNames.png?240908210824)
 
 {{< code-sp5 >}}
 
@@ -172,7 +172,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Many plot types have a LineStyle which can be customized.
 
-[![](/cookbook/5.0/images/LineStyles.png?240902145058)](/cookbook/5.0/images/LineStyles.png?240902145058)
+[![](/cookbook/5.0/images/LineStyles.png?240908210824)](/cookbook/5.0/images/LineStyles.png?240908210824)
 
 {{< code-sp5 >}}
 
@@ -216,7 +216,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 All components of an image can be scaled up or down in size by adjusting the ScaleFactor property. This is very useful for creating images that look nice on high DPI displays with display scaling enabled.
 
-[![](/cookbook/5.0/images/Scaling.png?240902145058)](/cookbook/5.0/images/Scaling.png?240902145058)
+[![](/cookbook/5.0/images/Scaling.png?240908210824)](/cookbook/5.0/images/Scaling.png?240908210824)
 
 {{< code-sp5 >}}
 
@@ -240,7 +240,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Hairline mode allows axis frames, tick marks, and grid lines to always be rendered a single pixel wide regardless of scale factor. Enable hairline mode to allow interactive plots to feel smoother when a large scale factor is in use.
 
-[![](/cookbook/5.0/images/Hairline.png?240902145058)](/cookbook/5.0/images/Hairline.png?240902145058)
+[![](/cookbook/5.0/images/Hairline.png?240908210824)](/cookbook/5.0/images/Hairline.png?240908210824)
 
 {{< code-sp5 >}}
 
@@ -266,7 +266,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Plots can be created using dark mode by setting the colors of major plot components to ones consistent with a dark theme.
 
-[![](/cookbook/5.0/images/DarkMode.png?240902145058)](/cookbook/5.0/images/DarkMode.png?240902145058)
+[![](/cookbook/5.0/images/DarkMode.png?240908210824)](/cookbook/5.0/images/DarkMode.png?240908210824)
 
 {{< code-sp5 >}}
 
@@ -314,7 +314,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Colormaps can be used to generate a collection of discrete colors that can be applied to plottable objects.
 
-[![](/cookbook/5.0/images/ColormapColorSteps.png?240902145058)](/cookbook/5.0/images/ColormapColorSteps.png?240902145058)
+[![](/cookbook/5.0/images/ColormapColorSteps.png?240908210824)](/cookbook/5.0/images/ColormapColorSteps.png?240908210824)
 
 {{< code-sp5 >}}
 
