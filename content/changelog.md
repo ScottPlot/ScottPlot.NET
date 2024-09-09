@@ -9,7 +9,7 @@ Release notes for every version of ScottPlot
 
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 5.0.39</h1>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2024-08-02</i></div>
 <div class='mt-1'>
 <ul>
 <li>Angle: Added support for common arithmetic operators
