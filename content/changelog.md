@@ -32,6 +32,12 @@ Release notes for every version of ScottPlot
 </li>
 <li>Markers: Added optional <code>Colormap</code> so marker colors can be sampled from a colormap instead of assigned manually (<a href="https://github.com/ScottPlot/ScottPlot/issues/4143">#4143</a>)
 </li>
+<li>Angle: Added <code>FromFraction()</code> to produce angles represented by a fraction around the unit circle (<a href="https://github.com/ScottPlot/ScottPlot/issues/4208">#4208</a>)
+</li>
+<li>Color: Added constructor overloads to create colors from <code>SKColor</code> and <code>System.Drawing.Color</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/4209">#4209</a>)
+</li>
+<li>Axes: Added <code>SetSpanX()</code> and <code>SetSpanY()</code> for defining axis range size without changing the center position (<a href="https://github.com/ScottPlot/ScottPlot/issues/4221">#4221</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
