@@ -24,6 +24,10 @@ Release notes for every version of ScottPlot
 </li>
 <li>LinePlot: Added <code>CoordinateLine</code> property (<a href="https://github.com/ScottPlot/ScottPlot/issues/4277">#4277</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4274">#4274</a>) <a href="https://github.com/aespitia"><strong>@aespitia</strong></a>
 </li>
+<li>Pie: Improved respect for <code>LineStyle</code> customizations (<a href="https://github.com/ScottPlot/ScottPlot/issues/7278">#7278</a>)
+</li>
+<li>Pie: Improved automatic axis limit behavior for pie charts with internal slice labels (<a href="https://github.com/ScottPlot/ScottPlot/issues/7278">#7278</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
