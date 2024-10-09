@@ -18,11 +18,13 @@ Release notes for every version of ScottPlot
 </li>
 <li>Generate: Improved <code>RandomNumbers()</code> to include lower boundary as described in XML docs (<a href="https://github.com/ScottPlot/ScottPlot/issues/4251">#4251</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4252">#4252</a>) <a href="https://github.com/aespitia"><strong>@aespitia</strong></a> <a href="https://github.com/LeaFrock"><strong>@LeaFrock</strong></a> <a href="https://github.com/ArchieCoder"><strong>@ArchieCoder</strong></a>
 </li>
+<li>LinePattern: Added <code>Name</code> property and added support for custom patterns (<a href="https://github.com/ScottPlot/ScottPlot/issues/4275">#4275</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4289">#4289</a>) <a href="https://github.com/CoderPM2011"><strong>@CoderPM2011</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/jpgarza93'>@jpgarza93</a>, <a href='https://github.com/kebox7'>@kebox7</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/LeaFrock'>@LeaFrock</a>, <a href='https://github.com/ArchieCoder'>@ArchieCoder</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/jpgarza93'>@jpgarza93</a>, <a href='https://github.com/kebox7'>@kebox7</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/LeaFrock'>@LeaFrock</a>, <a href='https://github.com/ArchieCoder'>@ArchieCoder</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/drolevar'><img src='https://scottplot.net/images/contributors/drolevar.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -30,7 +32,8 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/kebox7'><img src='https://scottplot.net/images/contributors/kebox7.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/aespitia'><img src='https://scottplot.net/images/contributors/aespitia.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/LeaFrock'><img src='https://scottplot.net/images/contributors/leafrock.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/ArchieCoder'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/ArchieCoder'><img src='https://scottplot.net/images/contributors/archiecoder.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/CoderPM2011'><img src='https://scottplot.net/images/contributors/coderpm2011.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
