@@ -14,15 +14,23 @@ Release notes for every version of ScottPlot
 <ul>
 <li>DataLogger: Added <code>Add()</code> overloads to be consistent the original DataLogger API (<a href="https://github.com/ScottPlot/ScottPlot/issues/4243">#4243</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4114">#4114</a>) <a href="https://github.com/drolevar"><strong>@drolevar</strong></a> <a href="https://github.com/jpgarza93"><strong>@jpgarza93</strong></a>
 </li>
+<li>Fonts: Improve typeface caching to significantly improve Avalonia performance on Linux (<a href="https://github.com/ScottPlot/ScottPlot/issues/3439">#3439</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4250">#4250</a>) <a href="https://github.com/kebox7"><strong>@kebox7</strong></a>
+</li>
+<li>Generate: Improved <code>RandomNumbers()</code> to include lower boundary as described in XML docs (<a href="https://github.com/ScottPlot/ScottPlot/issues/4251">#4251</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4252">#4252</a>) <a href="https://github.com/aespitia"><strong>@aespitia</strong></a> <a href="https://github.com/LeaFrock"><strong>@LeaFrock</strong></a> <a href="https://github.com/ArchieCoder"><strong>@ArchieCoder</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/jpgarza93'>@jpgarza93</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/jpgarza93'>@jpgarza93</a>, <a href='https://github.com/kebox7'>@kebox7</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/LeaFrock'>@LeaFrock</a>, <a href='https://github.com/ArchieCoder'>@ArchieCoder</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/drolevar'><img src='https://scottplot.net/images/contributors/drolevar.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/jpgarza93'><img src='https://scottplot.net/images/contributors/jpgarza93.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/kebox7'><img src='https://scottplot.net/images/contributors/kebox7.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/aespitia'><img src='https://scottplot.net/images/contributors/aespitia.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/LeaFrock'><img src='https://scottplot.net/images/contributors/leafrock.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/ArchieCoder'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
