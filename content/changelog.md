@@ -28,11 +28,13 @@ Release notes for every version of ScottPlot
 </li>
 <li>Pie: Improved automatic axis limit behavior for pie charts with internal slice labels (<a href="https://github.com/ScottPlot/ScottPlot/issues/7278">#7278</a>)
 </li>
+<li>Pie: Slices now have distinct <code>Label</code> and <code>LegendText</code> properties (<a href="https://github.com/ScottPlot/ScottPlot/issues/3295">#3295</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4280">#4280</a>) <a href="https://github.com/LeaFrock"><strong>@LeaFrock</strong></a> <a href="https://github.com/sterenas"><strong>@sterenas</strong></a> <a href="https://github.com/Martin12350"><strong>@Martin12350</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/jpgarza93'>@jpgarza93</a>, <a href='https://github.com/kebox7'>@kebox7</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/LeaFrock'>@LeaFrock</a>, <a href='https://github.com/ArchieCoder'>@ArchieCoder</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/RFBomb'>@RFBomb</a>, <a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/jpgarza93'>@jpgarza93</a>, <a href='https://github.com/kebox7'>@kebox7</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/LeaFrock'>@LeaFrock</a>, <a href='https://github.com/ArchieCoder'>@ArchieCoder</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/RFBomb'>@RFBomb</a>, <a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/sterenas'>@sterenas</a>, <a href='https://github.com/Martin12350'>@Martin12350</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/drolevar'><img src='https://scottplot.net/images/contributors/drolevar.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -44,6 +46,8 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/CoderPM2011'><img src='https://scottplot.net/images/contributors/coderpm2011.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/RFBomb'><img src='https://scottplot.net/images/contributors/rfbomb.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/sterenas'><img src='https://scottplot.net/images/contributors/sterenas.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Martin12350'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
