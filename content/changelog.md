@@ -32,6 +32,8 @@ Release notes for every version of ScottPlot
 </li>
 <li>SignalXY: Fixed bug introduced in the last version that caused off-screen data to throw an ascending value exception (<a href="https://github.com/ScottPlot/ScottPlot/issues/4261">#4261</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4286">#4286</a>) <a href="https://github.com/RFBomb"><strong>@RFBomb</strong></a> <a href="https://github.com/StendProg"><strong>@StendProg</strong></a>
 </li>
+<li>Controls: Added strong naming by signing assemblies for the WPF, Maui, and Eto controls (<a href="https://github.com/ScottPlot/ScottPlot/issues/4295">#4295</a>) <a href="https://github.com/RFBomb"><strong>@RFBomb</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
