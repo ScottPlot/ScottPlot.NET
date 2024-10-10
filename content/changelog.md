@@ -34,6 +34,10 @@ Release notes for every version of ScottPlot
 </li>
 <li>Controls: Added strong naming by signing assemblies for the WPF, Maui, and Eto controls (<a href="https://github.com/ScottPlot/ScottPlot/issues/4295">#4295</a>) <a href="https://github.com/RFBomb"><strong>@RFBomb</strong></a>
 </li>
+<li>OpenGL: Improve behavior of plots when grid lines are rendered beneath plottables (<a href="https://github.com/ScottPlot/ScottPlot/issues/4298">#4298</a>) <a href="https://github.com/StendProg"><strong>@StendProg</strong></a>
+</li>
+<li>OpenGL: Improve support for OpenGL controls on modern .NET using platform-specific OpenTK versions (<a href="https://github.com/ScottPlot/ScottPlot/issues/4301">#4301</a>) <a href="https://github.com/StendProg"><strong>@StendProg</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
