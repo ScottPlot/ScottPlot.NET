@@ -44,6 +44,8 @@ Release notes for every version of ScottPlot
 </li>
 <li>SignalXY: Fixed bug causing plots with inverted horizontal axes to crash under specific conditions (<a href="https://github.com/ScottPlot/ScottPlot/issues/4313">#4313</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4315">#4315</a>) <a href="https://github.com/StendProg"><strong>@StendProg</strong></a> <a href="https://github.com/lguelat"><strong>@lguelat</strong></a>
 </li>
+<li>CoordinateRange: Refactored to improve support for inverted ranges (<a href="https://github.com/ScottPlot/ScottPlot/issues/4316">#4316</a>) <a href="https://github.com/CoderPM2011"><strong>@CoderPM2011</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
@@ -63,8 +65,8 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/sterenas'><img src='https://scottplot.net/images/contributors/sterenas.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Martin12350'><img src='https://scottplot.net/images/contributors/martin12350.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/johndoh'><img src='https://scottplot.net/images/contributors/johndoh.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/bradcb212'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/lguelat'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/bradcb212'><img src='https://scottplot.net/images/contributors/bradcb212.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/lguelat'><img src='https://scottplot.net/images/contributors/lguelat.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
