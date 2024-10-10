@@ -38,11 +38,17 @@ Release notes for every version of ScottPlot
 </li>
 <li>OpenGL: Improve support for OpenGL controls on modern .NET using platform-specific OpenTK versions (<a href="https://github.com/ScottPlot/ScottPlot/issues/4301">#4301</a>) <a href="https://github.com/StendProg"><strong>@StendProg</strong></a>
 </li>
+<li>Coxcomb: Improved first slice orientation consistency (<a href="https://github.com/ScottPlot/ScottPlot/issues/4304">#4304</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4305">#4305</a>) <a href="https://github.com/johndoh"><strong>@johndoh</strong></a>
+</li>
+<li>Grid: Improved alternating fill grid appearance for live and interactive graphs (<a href="https://github.com/ScottPlot/ScottPlot/issues/4302">#4302</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4307">#4307</a>) <a href="https://github.com/StendProg"><strong>@StendProg</strong></a> <a href="https://github.com/bradcb212"><strong>@bradcb212</strong></a>
+</li>
+<li>SignalXY: Fixed bug causing plots with inverted horizontal axes to crash under specific conditions (<a href="https://github.com/ScottPlot/ScottPlot/issues/4313">#4313</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4315">#4315</a>) <a href="https://github.com/StendProg"><strong>@StendProg</strong></a> <a href="https://github.com/lguelat"><strong>@lguelat</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/jpgarza93'>@jpgarza93</a>, <a href='https://github.com/kebox7'>@kebox7</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/LeaFrock'>@LeaFrock</a>, <a href='https://github.com/ArchieCoder'>@ArchieCoder</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/RFBomb'>@RFBomb</a>, <a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/sterenas'>@sterenas</a>, <a href='https://github.com/Martin12350'>@Martin12350</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/jpgarza93'>@jpgarza93</a>, <a href='https://github.com/kebox7'>@kebox7</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/LeaFrock'>@LeaFrock</a>, <a href='https://github.com/ArchieCoder'>@ArchieCoder</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/RFBomb'>@RFBomb</a>, <a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/sterenas'>@sterenas</a>, <a href='https://github.com/Martin12350'>@Martin12350</a>, <a href='https://github.com/johndoh'>@johndoh</a>, <a href='https://github.com/bradcb212'>@bradcb212</a>, <a href='https://github.com/lguelat'>@lguelat</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/drolevar'><img src='https://scottplot.net/images/contributors/drolevar.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -56,6 +62,9 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/sterenas'><img src='https://scottplot.net/images/contributors/sterenas.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Martin12350'><img src='https://scottplot.net/images/contributors/martin12350.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/johndoh'><img src='https://scottplot.net/images/contributors/johndoh.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/bradcb212'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/lguelat'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
