@@ -58,7 +58,9 @@ Release notes for every version of ScottPlot
 </li>
 <li>Colormap: Added <code>Colormap.FromColors()</code> to generate colormaps using interpolated gradients between a user defined collection of colors (<a href="https://github.com/ScottPlot/ScottPlot/issues/4247">#4247</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4324">#4324</a>)
 </li>
-<li>Colormaps: added <code>MellowRainbow</code> similar to Jet and Turbo but with mellow tones to improve appearance of thin lines on a white background (<a href="https://github.com/ScottPlot/ScottPlot/issues/4325">#4325</a>)
+<li>Colormap: added <code>MellowRainbow</code> similar to Jet and Turbo but with mellow tones to improve appearance of thin lines on a white background (<a href="https://github.com/ScottPlot/ScottPlot/issues/4325">#4325</a>)
+</li>
+<li>ScaleBar: New plot type for communicating scale as a concise alternative to the axis frame (<a href="https://github.com/ScottPlot/ScottPlot/issues/4319">#4319</a>)
 </li>
 </ul>
 </div>
