@@ -52,11 +52,13 @@ Release notes for every version of ScottPlot
 </li>
 <li>Maui: Improved the .NET MAUI ScottPlot control and added quickstart documentation to the website (<a href="https://github.com/ScottPlot/ScottPlot/issues/4320">#4320</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4023">#4023</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4013">#4013</a>) <a href="https://github.com/KosmosWerner"><strong>@KosmosWerner</strong></a> <a href="https://github.com/ByteSore"><strong>@ByteSore</strong></a>
 </li>
+<li>Radar: Improved rotational direction of labels (<a href="https://github.com/ScottPlot/ScottPlot/issues/4321">#4321</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4310">#4310</a>) <a href="https://github.com/CoderPM2011"><strong>@CoderPM2011</strong></a> <a href="https://github.com/bry-decelles"><strong>@bry-decelles</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/jpgarza93'>@jpgarza93</a>, <a href='https://github.com/kebox7'>@kebox7</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/LeaFrock'>@LeaFrock</a>, <a href='https://github.com/ArchieCoder'>@ArchieCoder</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/RFBomb'>@RFBomb</a>, <a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/sterenas'>@sterenas</a>, <a href='https://github.com/Martin12350'>@Martin12350</a>, <a href='https://github.com/johndoh'>@johndoh</a>, <a href='https://github.com/bradcb212'>@bradcb212</a>, <a href='https://github.com/lguelat'>@lguelat</a>, <a href='https://github.com/jon-rizzo'>@jon-rizzo</a>, <a href='https://github.com/KosmosWerner'>@KosmosWerner</a>, <a href='https://github.com/ByteSore'>@ByteSore</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/jpgarza93'>@jpgarza93</a>, <a href='https://github.com/kebox7'>@kebox7</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/LeaFrock'>@LeaFrock</a>, <a href='https://github.com/ArchieCoder'>@ArchieCoder</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/RFBomb'>@RFBomb</a>, <a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/sterenas'>@sterenas</a>, <a href='https://github.com/Martin12350'>@Martin12350</a>, <a href='https://github.com/johndoh'>@johndoh</a>, <a href='https://github.com/bradcb212'>@bradcb212</a>, <a href='https://github.com/lguelat'>@lguelat</a>, <a href='https://github.com/jon-rizzo'>@jon-rizzo</a>, <a href='https://github.com/KosmosWerner'>@KosmosWerner</a>, <a href='https://github.com/ByteSore'>@ByteSore</a>, <a href='https://github.com/bry-decelles'>@bry-decelles</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/drolevar'><img src='https://scottplot.net/images/contributors/drolevar.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -74,8 +76,9 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/bradcb212'><img src='https://scottplot.net/images/contributors/bradcb212.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/lguelat'><img src='https://scottplot.net/images/contributors/lguelat.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/jon-rizzo'><img src='https://scottplot.net/images/contributors/jon-rizzo.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/KosmosWerner'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/KosmosWerner'><img src='https://scottplot.net/images/contributors/kosmoswerner.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/ByteSore'><img src='https://scottplot.net/images/contributors/bytesore.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/bry-decelles'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
