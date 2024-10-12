@@ -54,6 +54,12 @@ Release notes for every version of ScottPlot
 </li>
 <li>Radar: Improved rotational direction of labels (<a href="https://github.com/ScottPlot/ScottPlot/issues/4321">#4321</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4310">#4310</a>) <a href="https://github.com/CoderPM2011"><strong>@CoderPM2011</strong></a> <a href="https://github.com/bry-decelles"><strong>@bry-decelles</strong></a>
 </li>
+<li>Axes: Added <code>Plot.Axes.MarginsX()</code> and <code>Plot.Axes.MarginsY()</code> for changing margins in a single axis without changing the other (<a href="https://github.com/ScottPlot/ScottPlot/issues/4246">#4246</a>)
+</li>
+<li>Colormap: Added <code>Colormap.FromColors()</code> to generate colormaps using interpolated gradients between a user defined collection of colors (<a href="https://github.com/ScottPlot/ScottPlot/issues/4247">#4247</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4324">#4324</a>)
+</li>
+<li>Colormaps: added <code>MellowRainbow</code> similar to Jet and Turbo but with mellow tones to improve appearance of thin lines on a white background (<a href="https://github.com/ScottPlot/ScottPlot/issues/4325">#4325</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
@@ -78,7 +84,7 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/jon-rizzo'><img src='https://scottplot.net/images/contributors/jon-rizzo.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/KosmosWerner'><img src='https://scottplot.net/images/contributors/kosmoswerner.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/ByteSore'><img src='https://scottplot.net/images/contributors/bytesore.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/bry-decelles'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/bry-decelles'><img src='https://scottplot.net/images/contributors/bry-decelles.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
