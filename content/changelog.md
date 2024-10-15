@@ -48,7 +48,7 @@ Release notes for every version of ScottPlot
 </li>
 <li>Axes: Added a <code>Plot.Axes.TightMargins()</code> shortcut for setting autoscale margins to tightly fit the data
 </li>
-<li>ContourLines: New plot type for displaying lines that mark points of equal elevation given a collection of 3D points (<a href="https://github.com/ScottPlot/ScottPlot/issues/4296">#4296</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2330">#2330</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3795">#3795</a>) <a href="https://github.com/jon-rizzo"><strong>@jon-rizzo</strong></a> <a href="https://github.com/StendProg"><strong>@StendProg</strong></a>
+<li>ContourLines: New plot type for displaying lines that mark points of equal elevation given a collection of 3D points (<a href="https://github.com/ScottPlot/ScottPlot/issues/4296">#4296</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2330">#2330</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3795">#3795</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4326">#4326</a>) <a href="https://github.com/jon-rizzo"><strong>@jon-rizzo</strong></a> <a href="https://github.com/StendProg"><strong>@StendProg</strong></a>
 </li>
 <li>Maui: Improved the .NET MAUI ScottPlot control and added quickstart documentation to the website (<a href="https://github.com/ScottPlot/ScottPlot/issues/4320">#4320</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4023">#4023</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4013">#4013</a>) <a href="https://github.com/KosmosWerner"><strong>@KosmosWerner</strong></a> <a href="https://github.com/ByteSore"><strong>@ByteSore</strong></a>
 </li>
