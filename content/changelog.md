@@ -9,7 +9,7 @@ Release notes for every version of ScottPlot
 
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 5.0.40</h1>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2024-10-16</i></div>
 <div class='mt-1'>
 <ul>
 <li>DataLogger: Added <code>Add()</code> overloads to be consistent the original DataLogger API (<a href="https://github.com/ScottPlot/ScottPlot/issues/4243">#4243</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4114">#4114</a>) <a href="https://github.com/drolevar"><strong>@drolevar</strong></a> <a href="https://github.com/jpgarza93"><strong>@jpgarza93</strong></a>
@@ -48,15 +48,31 @@ Release notes for every version of ScottPlot
 </li>
 <li>Axes: Added a <code>Plot.Axes.TightMargins()</code> shortcut for setting autoscale margins to tightly fit the data
 </li>
-<li>ContourLines: New plot type for displaying lines that mark points of equal elevation given a collection of 3D points (<a href="https://github.com/ScottPlot/ScottPlot/issues/4296">#4296</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2330">#2330</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3795">#3795</a>) <a href="https://github.com/jon-rizzo"><strong>@jon-rizzo</strong></a> <a href="https://github.com/StendProg"><strong>@StendProg</strong></a>
+<li>ContourLines: New plot type for displaying lines that mark points of equal elevation given a collection of 3D points (<a href="https://github.com/ScottPlot/ScottPlot/issues/4296">#4296</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2330">#2330</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3795">#3795</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4326">#4326</a>) <a href="https://github.com/jon-rizzo"><strong>@jon-rizzo</strong></a> <a href="https://github.com/StendProg"><strong>@StendProg</strong></a>
 </li>
-<li>Maui: Improved the .NET MAUI ScottPlot control and added quickstart documentation to the website (<a href="https://github.com/ScottPlot/ScottPlot/issues/4320">#4320</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4023">#4023</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4013">#4013</a>) <a href="https://github.com/KosmosWerner"><strong>@KosmosWerner</strong></a> <a href="https://github.com/ByteSore"><strong>@ByteSore</strong></a>
+<li>Maui: Improved the .NET MAUI ScottPlot control and added quickstart documentation to the website (<a href="https://github.com/ScottPlot/ScottPlot/issues/4320">#4320</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4023">#4023</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4013">#4013</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4342">#4342</a>) <a href="https://github.com/KosmosWerner"><strong>@KosmosWerner</strong></a> <a href="https://github.com/ByteSore"><strong>@ByteSore</strong></a>
+</li>
+<li>Radar: Improved rotational direction of labels (<a href="https://github.com/ScottPlot/ScottPlot/issues/4321">#4321</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4310">#4310</a>) <a href="https://github.com/CoderPM2011"><strong>@CoderPM2011</strong></a> <a href="https://github.com/bry-decelles"><strong>@bry-decelles</strong></a>
+</li>
+<li>Axes: Added <code>Plot.Axes.MarginsX()</code> and <code>Plot.Axes.MarginsY()</code> for changing margins in a single axis without changing the other (<a href="https://github.com/ScottPlot/ScottPlot/issues/4246">#4246</a>)
+</li>
+<li>Colormap: Added <code>Colormap.FromColors()</code> to generate colormaps using interpolated gradients between a user defined collection of colors (<a href="https://github.com/ScottPlot/ScottPlot/issues/4247">#4247</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4324">#4324</a>)
+</li>
+<li>Colormap: added <code>MellowRainbow</code> similar to Jet and Turbo but with mellow tones to improve appearance of thin lines on a white background (<a href="https://github.com/ScottPlot/ScottPlot/issues/4325">#4325</a>)
+</li>
+<li>ScaleBar: New plot type for communicating scale as a concise alternative to the axis frame (<a href="https://github.com/ScottPlot/ScottPlot/issues/4319">#4319</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4337">#4337</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4329">#4329</a>) <a href="https://github.com/CoderPM2011"><strong>@CoderPM2011</strong></a>
+</li>
+<li>PixelLine: Added <code>Center</code> property (<a href="https://github.com/ScottPlot/ScottPlot/issues/4335">#4335</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4318">#4318</a>) <a href="https://github.com/brokoli777"><strong>@brokoli777</strong></a>
+</li>
+<li>MultiPlot: New class for creating composite figures containing multiple distinct <code>Plot</code> figures (<a href="https://github.com/ScottPlot/ScottPlot/issues/3948">#3948</a>)
+</li>
+<li>Plot: Deprecated <code>GetImageHtml()</code> in favor of <code>GetPngHtml()</code> and <code>GetSvgHtml()</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/4347">#4347</a>)
 </li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/jpgarza93'>@jpgarza93</a>, <a href='https://github.com/kebox7'>@kebox7</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/LeaFrock'>@LeaFrock</a>, <a href='https://github.com/ArchieCoder'>@ArchieCoder</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/RFBomb'>@RFBomb</a>, <a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/sterenas'>@sterenas</a>, <a href='https://github.com/Martin12350'>@Martin12350</a>, <a href='https://github.com/johndoh'>@johndoh</a>, <a href='https://github.com/bradcb212'>@bradcb212</a>, <a href='https://github.com/lguelat'>@lguelat</a>, <a href='https://github.com/jon-rizzo'>@jon-rizzo</a>, <a href='https://github.com/KosmosWerner'>@KosmosWerner</a>, <a href='https://github.com/ByteSore'>@ByteSore</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/drolevar'>@drolevar</a>, <a href='https://github.com/jpgarza93'>@jpgarza93</a>, <a href='https://github.com/kebox7'>@kebox7</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/LeaFrock'>@LeaFrock</a>, <a href='https://github.com/ArchieCoder'>@ArchieCoder</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/RFBomb'>@RFBomb</a>, <a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/sterenas'>@sterenas</a>, <a href='https://github.com/Martin12350'>@Martin12350</a>, <a href='https://github.com/johndoh'>@johndoh</a>, <a href='https://github.com/bradcb212'>@bradcb212</a>, <a href='https://github.com/lguelat'>@lguelat</a>, <a href='https://github.com/jon-rizzo'>@jon-rizzo</a>, <a href='https://github.com/KosmosWerner'>@KosmosWerner</a>, <a href='https://github.com/ByteSore'>@ByteSore</a>, <a href='https://github.com/bry-decelles'>@bry-decelles</a>, <a href='https://github.com/brokoli777'>@brokoli777</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/drolevar'><img src='https://scottplot.net/images/contributors/drolevar.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -74,8 +90,10 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/bradcb212'><img src='https://scottplot.net/images/contributors/bradcb212.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/lguelat'><img src='https://scottplot.net/images/contributors/lguelat.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/jon-rizzo'><img src='https://scottplot.net/images/contributors/jon-rizzo.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/KosmosWerner'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/KosmosWerner'><img src='https://scottplot.net/images/contributors/kosmoswerner.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/ByteSore'><img src='https://scottplot.net/images/contributors/bytesore.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/bry-decelles'><img src='https://scottplot.net/images/contributors/bry-decelles.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/brokoli777'><img src='https://scottplot.net/images/contributors/brokoli777.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
