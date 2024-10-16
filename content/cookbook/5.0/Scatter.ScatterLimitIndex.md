@@ -4,9 +4,9 @@ Description: Although a scatter plot may contain a very large amount of data, mu
 URL: /cookbook/5.0/Scatter/ScatterLimitIndex/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Scatter Plot", "Limiting Display with Render Indexes"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Scatter", "/cookbook/5.0/Scatter/ScatterLimitIndex"]
-Date: 2024-09-09
-Version: ScottPlot 5.0.39
-Version: ScottPlot 5.0.39
+Date: 2024-10-16
+Version: ScottPlot 5.0.40
+Version: ScottPlot 5.0.40
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Although a scatter plot may contain a very large amount of data, much of it may be unpopulated. The user can define min and max render indexes, and only values within that range will be displayed when the scatter plot is rendered.
 
-[![](/cookbook/5.0/images/ScatterLimitIndex.png?240908210824)](/cookbook/5.0/images/ScatterLimitIndex.png?240908210824)
+[![](/cookbook/5.0/images/ScatterLimitIndex.png?241016194708)](/cookbook/5.0/images/ScatterLimitIndex.png?241016194708)
 
 {{< code-sp5 >}}
 

@@ -4,9 +4,9 @@ Description: Radar plots have a collection of RadarSeries objects which each des
 URL: /cookbook/5.0/Radar/RadarSeriesCustomization/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Radar Plot", "Radar Series Customization"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Radar", "/cookbook/5.0/Radar/RadarSeriesCustomization"]
-Date: 2024-09-09
-Version: ScottPlot 5.0.39
-Version: ScottPlot 5.0.39
+Date: 2024-10-16
+Version: ScottPlot 5.0.40
+Version: ScottPlot 5.0.40
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Radar plots have a collection of RadarSeries objects which each describe a set of values and the styling information used to display it as a shape on the radar plot. Users may change properties of radar series objects to achieve a high level of customization over each shape.
 
-[![](/cookbook/5.0/images/RadarSeriesCustomization.png?240908210824)](/cookbook/5.0/images/RadarSeriesCustomization.png?240908210824)
+[![](/cookbook/5.0/images/RadarSeriesCustomization.png?241016194708)](/cookbook/5.0/images/RadarSeriesCustomization.png?241016194708)
 
 {{< code-sp5 >}}
 

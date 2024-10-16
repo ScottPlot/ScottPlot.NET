@@ -4,9 +4,9 @@ Description: Labels can be assigned to spokes to label values around the circumf
 URL: /cookbook/5.0/Radar/RadarSpokeLabels/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Radar Plot", "Radar Spoke Labels"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Radar", "/cookbook/5.0/Radar/RadarSpokeLabels"]
-Date: 2024-09-09
-Version: ScottPlot 5.0.39
-Version: ScottPlot 5.0.39
+Date: 2024-10-16
+Version: ScottPlot 5.0.40
+Version: ScottPlot 5.0.40
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Labels can be assigned to spokes to label values around the circumference of the radar plot
 
-[![](/cookbook/5.0/images/RadarSpokeLabels.png?240908210824)](/cookbook/5.0/images/RadarSpokeLabels.png?240908210824)
+[![](/cookbook/5.0/images/RadarSpokeLabels.png?241016194708)](/cookbook/5.0/images/RadarSpokeLabels.png?241016194708)
 
 {{< code-sp5 >}}
 

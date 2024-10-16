@@ -4,9 +4,9 @@ Description: Pie charts may be rotated to control where the first slice begins.
 URL: /cookbook/5.0/Pie/PieRotation/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Pie", "Pie Chart Rotation"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Pie", "/cookbook/5.0/Pie/PieRotation"]
-Date: 2024-09-09
-Version: ScottPlot 5.0.39
-Version: ScottPlot 5.0.39
+Date: 2024-10-16
+Version: ScottPlot 5.0.40
+Version: ScottPlot 5.0.40
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Pie charts may be rotated to control where the first slice begins.
 
-[![](/cookbook/5.0/images/PieRotation.png?240908210824)](/cookbook/5.0/images/PieRotation.png?240908210824)
+[![](/cookbook/5.0/images/PieRotation.png?241016194708)](/cookbook/5.0/images/PieRotation.png?241016194708)
 
 {{< code-sp5 >}}
 
@@ -27,6 +27,10 @@ double[] values = { 5, 2, 8, 4, 8 };
 var pie = myPlot.Add.Pie(values);
 pie.ExplodeFraction = .1;
 pie.Rotation = Angle.FromDegrees(90);
+
+// hide unnecessary plot components
+myPlot.Axes.Frameless();
+myPlot.HideGrid();
 
 myPlot.SavePng("demo.png", 400, 300);
 

@@ -4,9 +4,9 @@ Description: Text formatting can be extensively customized.
 URL: /cookbook/5.0/Text/Formatting/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Text", "Text Formatting"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Text", "/cookbook/5.0/Text/Formatting"]
-Date: 2024-09-09
-Version: ScottPlot 5.0.39
-Version: ScottPlot 5.0.39
+Date: 2024-10-16
+Version: ScottPlot 5.0.40
+Version: ScottPlot 5.0.40
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Text formatting can be extensively customized.
 
-[![](/cookbook/5.0/images/Formatting.png?240908210824)](/cookbook/5.0/images/Formatting.png?240908210824)
+[![](/cookbook/5.0/images/Formatting.png?241016194708)](/cookbook/5.0/images/Formatting.png?241016194708)
 
 {{< code-sp5 >}}
 

@@ -4,9 +4,9 @@ Description: Use the ShowLegend() overload that accepts an Edge to display the l
 URL: /cookbook/5.0/Legend/LegendOutside/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Configuring Legends", "Legend Outside the Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Legend", "/cookbook/5.0/Legend/LegendOutside"]
-Date: 2024-09-09
-Version: ScottPlot 5.0.39
-Version: ScottPlot 5.0.39
+Date: 2024-10-16
+Version: ScottPlot 5.0.40
+Version: ScottPlot 5.0.40
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Use the ShowLegend() overload that accepts an Edge to display the legend outside the data area.
 
-[![](/cookbook/5.0/images/LegendOutside.png?240908210824)](/cookbook/5.0/images/LegendOutside.png?240908210824)
+[![](/cookbook/5.0/images/LegendOutside.png?241016194708)](/cookbook/5.0/images/LegendOutside.png?241016194708)
 
 {{< code-sp5 >}}
 

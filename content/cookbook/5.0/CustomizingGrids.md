@@ -4,9 +4,9 @@ Description: Advanced customization of grid lines
 URL: /cookbook/5.0/CustomizingGrids/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Customizing Grids"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/CustomizingGrids"]
-Date: 2024-09-09
-Version: ScottPlot 5.0.39
-Version: ScottPlot 5.0.39
+Date: 2024-10-16
+Version: ScottPlot 5.0.40
+Version: ScottPlot 5.0.40
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,7 +18,7 @@ ShowEditLink: false
 
 Grid lines can be hidden.
 
-[![](/cookbook/5.0/images/HideGrid.png?240908210824)](/cookbook/5.0/images/HideGrid.png?240908210824)
+[![](/cookbook/5.0/images/HideGrid.png?241016194708)](/cookbook/5.0/images/HideGrid.png?241016194708)
 
 {{< code-sp5 >}}
 
@@ -43,7 +43,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Grid lines can be customized. Custom grid systems can be created to give developers full control of grid rendering, but the default grid can be interacted with to customize its appearance.
 
-[![](/cookbook/5.0/images/GridCustom.png?240908210824)](/cookbook/5.0/images/GridCustom.png?240908210824)
+[![](/cookbook/5.0/images/GridCustom.png?241016194708)](/cookbook/5.0/images/GridCustom.png?241016194708)
 
 {{< code-sp5 >}}
 
@@ -72,7 +72,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Axis-specific styling properties are available for extensive axis-specific customization of grid line styling.
 
-[![](/cookbook/5.0/images/GridCustomAxis.png?240908210824)](/cookbook/5.0/images/GridCustomAxis.png?240908210824)
+[![](/cookbook/5.0/images/GridCustomAxis.png?241016194708)](/cookbook/5.0/images/GridCustomAxis.png?241016194708)
 
 {{< code-sp5 >}}
 
@@ -101,7 +101,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Grid lines are typically drawn beneath data, but grids can be configured to render on top of plottables too.
 
-[![](/cookbook/5.0/images/GridAbove.png?240908210824)](/cookbook/5.0/images/GridAbove.png?240908210824)
+[![](/cookbook/5.0/images/GridAbove.png?241016194708)](/cookbook/5.0/images/GridAbove.png?241016194708)
 
 {{< code-sp5 >}}
 
@@ -128,7 +128,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Grid lines use the bottom and left axes by default, but this behavior can be customized for plots which use other axes.
 
-[![](/cookbook/5.0/images/GridWithTopAxis.png?240908210824)](/cookbook/5.0/images/GridWithTopAxis.png?240908210824)
+[![](/cookbook/5.0/images/GridWithTopAxis.png?241016194708)](/cookbook/5.0/images/GridWithTopAxis.png?241016194708)
 
 {{< code-sp5 >}}
 
@@ -152,7 +152,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Regions between alternating pairs of major grid lines may be filled with a color specified by the user
 
-[![](/cookbook/5.0/images/GridAlternatingColors.png?240908210824)](/cookbook/5.0/images/GridAlternatingColors.png?240908210824)
+[![](/cookbook/5.0/images/GridAlternatingColors.png?241016194708)](/cookbook/5.0/images/GridAlternatingColors.png?241016194708)
 
 {{< code-sp5 >}}
 
@@ -185,7 +185,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Grid and plot styling can be customize to achieve a pleasing effect in dark mode
 
-[![](/cookbook/5.0/images/GridAlternatingDarkMode.png?240908210824)](/cookbook/5.0/images/GridAlternatingDarkMode.png?240908210824)
+[![](/cookbook/5.0/images/GridAlternatingDarkMode.png?241016194708)](/cookbook/5.0/images/GridAlternatingDarkMode.png?241016194708)
 
 {{< code-sp5 >}}
 

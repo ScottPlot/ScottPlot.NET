@@ -4,9 +4,9 @@ Description: Minor tick marks are automatically generated at intervals between m
 URL: /cookbook/5.0/CustomizingTicks/StandardMinorTickDistribution/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Customizing Ticks", "Minor Tick Density"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/CustomizingTicks", "/cookbook/5.0/CustomizingTicks/StandardMinorTickDistribution"]
-Date: 2024-09-09
-Version: ScottPlot 5.0.39
-Version: ScottPlot 5.0.39
+Date: 2024-10-16
+Version: ScottPlot 5.0.40
+Version: ScottPlot 5.0.40
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Minor tick marks are automatically generated at intervals between major tick marks. By default they are evenly spaced, but their density may be customized.
 
-[![](/cookbook/5.0/images/StandardMinorTickDistribution.png?240908210824)](/cookbook/5.0/images/StandardMinorTickDistribution.png?240908210824)
+[![](/cookbook/5.0/images/StandardMinorTickDistribution.png?241016194708)](/cookbook/5.0/images/StandardMinorTickDistribution.png?241016194708)
 
 {{< code-sp5 >}}
 

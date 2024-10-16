@@ -4,9 +4,9 @@ Description: A Coxcomb chart is a pie graph where the angle of slices is constan
 URL: /cookbook/5.0/Coxcomb/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Coxcomb Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Coxcomb"]
-Date: 2024-09-09
-Version: ScottPlot 5.0.39
-Version: ScottPlot 5.0.39
+Date: 2024-10-16
+Version: ScottPlot 5.0.40
+Version: ScottPlot 5.0.40
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,7 +18,7 @@ ShowEditLink: false
 
 A Coxcomb chart is a pie graph where the angle of slices is constant but the radii are not.
 
-[![](/cookbook/5.0/images/CoxcombQuickstart.png?240908210824)](/cookbook/5.0/images/CoxcombQuickstart.png?240908210824)
+[![](/cookbook/5.0/images/CoxcombQuickstart.png?241016194708)](/cookbook/5.0/images/CoxcombQuickstart.png?241016194708)
 
 {{< code-sp5 >}}
 
@@ -34,7 +34,8 @@ List<PieSlice> slices = new()
     new() { Value = 8, Label = "Blue",  FillColor = Colors.Blue.WithOpacity(0.5) },
 };
 
-myPlot.Add.Coxcomb(slices);
+var cox = myPlot.Add.Coxcomb(slices);
+cox.SliceLabelDistance = 1.5;
 
 myPlot.Axes.Frameless();
 myPlot.ShowLegend();

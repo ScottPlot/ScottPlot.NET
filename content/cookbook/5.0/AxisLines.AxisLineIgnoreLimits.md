@@ -4,9 +4,9 @@ Description: Calling Plot.Axes.AutoScale() or middle-clicking the plot will set 
 URL: /cookbook/5.0/AxisLines/AxisLineIgnoreLimits/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Axis Lines", "Ignore When Autoscaling"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AxisLines", "/cookbook/5.0/AxisLines/AxisLineIgnoreLimits"]
-Date: 2024-09-09
-Version: ScottPlot 5.0.39
-Version: ScottPlot 5.0.39
+Date: 2024-10-16
+Version: ScottPlot 5.0.40
+Version: ScottPlot 5.0.40
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Calling Plot.Axes.AutoScale() or middle-clicking the plot will set the axis limits to fit the data. By default the position of axis lines and spans are included in automatic axis limit calculations, but a flag can be set to ignore certain plottables when automatically scaling the plot.
 
-[![](/cookbook/5.0/images/AxisLineIgnoreLimits.png?240908210824)](/cookbook/5.0/images/AxisLineIgnoreLimits.png?240908210824)
+[![](/cookbook/5.0/images/AxisLineIgnoreLimits.png?241016194708)](/cookbook/5.0/images/AxisLineIgnoreLimits.png?241016194708)
 
 {{< code-sp5 >}}
 

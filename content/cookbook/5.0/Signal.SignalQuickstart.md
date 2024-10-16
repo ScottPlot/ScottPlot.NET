@@ -4,9 +4,9 @@ Description: Signal plots are best for extremely large datasets. They use render
 URL: /cookbook/5.0/Signal/SignalQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Signal Plot", "Signal Plot Quickstart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Signal", "/cookbook/5.0/Signal/SignalQuickstart"]
-Date: 2024-09-09
-Version: ScottPlot 5.0.39
-Version: ScottPlot 5.0.39
+Date: 2024-10-16
+Version: ScottPlot 5.0.40
+Version: ScottPlot 5.0.40
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Signal plots are best for extremely large datasets. They use render using special optimizations that allow highspeed interactivity with plots containing millions of data points.
 
-[![](/cookbook/5.0/images/SignalQuickstart.png?240908210824)](/cookbook/5.0/images/SignalQuickstart.png?240908210824)
+[![](/cookbook/5.0/images/SignalQuickstart.png?241016194708)](/cookbook/5.0/images/SignalQuickstart.png?241016194708)
 
 {{< code-sp5 >}}
 

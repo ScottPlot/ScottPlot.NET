@@ -4,9 +4,9 @@ Description: Crosshairs can be extensively customized.
 URL: /cookbook/5.0/Crosshair/CrosshairCustomization/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Crosshair", "Crosshair Customization"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Crosshair", "/cookbook/5.0/Crosshair/CrosshairCustomization"]
-Date: 2024-09-09
-Version: ScottPlot 5.0.39
-Version: ScottPlot 5.0.39
+Date: 2024-10-16
+Version: ScottPlot 5.0.40
+Version: ScottPlot 5.0.40
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Crosshairs can be extensively customized.
 
-[![](/cookbook/5.0/images/CrosshairCustomization.png?240908210824)](/cookbook/5.0/images/CrosshairCustomization.png?240908210824)
+[![](/cookbook/5.0/images/CrosshairCustomization.png?241016194708)](/cookbook/5.0/images/CrosshairCustomization.png?241016194708)
 
 {{< code-sp5 >}}
 

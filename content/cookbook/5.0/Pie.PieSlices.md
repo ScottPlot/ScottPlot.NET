@@ -4,9 +4,9 @@ Description: A pie chart can be created from a collection of slices.
 URL: /cookbook/5.0/Pie/PieSlices/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Pie", "Pie Chart from Slices"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Pie", "/cookbook/5.0/Pie/PieSlices"]
-Date: 2024-09-09
-Version: ScottPlot 5.0.39
-Version: ScottPlot 5.0.39
+Date: 2024-10-16
+Version: ScottPlot 5.0.40
+Version: ScottPlot 5.0.40
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,26 +16,31 @@ ShowEditLink: false
 
 A pie chart can be created from a collection of slices.
 
-[![](/cookbook/5.0/images/PieSlices.png?240908210824)](/cookbook/5.0/images/PieSlices.png?240908210824)
+[![](/cookbook/5.0/images/PieSlices.png?241016194708)](/cookbook/5.0/images/PieSlices.png?241016194708)
 
 {{< code-sp5 >}}
 
 ```cs
 ScottPlot.Plot myPlot = new();
 
-List<PieSlice> slices = new()
-{
-    new PieSlice() { Value = 5, FillColor = Colors.Red, Label = "Red" },
+List<PieSlice> slices =
+[
+    new PieSlice() { Value = 5, FillColor = Colors.Red, Label = "Red", LegendText = "R" },
     new PieSlice() { Value = 2, FillColor = Colors.Orange, Label = "Orange" },
     new PieSlice() { Value = 8, FillColor = Colors.Gold, Label = "Yellow" },
-    new PieSlice() { Value = 4, FillColor = Colors.Green, Label = "Green" },
-    new PieSlice() { Value = 8, FillColor = Colors.Blue, Label = "Blue" },
-};
+    new PieSlice() { Value = 4, FillColor = Colors.Green, Label = "Green", LegendText = "G" },
+    new PieSlice() { Value = 8, FillColor = Colors.Blue, Label = "Blue", LegendText = "B" },
+];
 
 var pie = myPlot.Add.Pie(slices);
 pie.ExplodeFraction = .1;
+pie.SliceLabelDistance = 1.4;
 
 myPlot.ShowLegend();
+
+// hide unnecessary plot components
+myPlot.Axes.Frameless();
+myPlot.HideGrid();
 
 myPlot.SavePng("demo.png", 400, 300);
 

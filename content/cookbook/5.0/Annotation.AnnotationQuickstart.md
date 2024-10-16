@@ -4,9 +4,9 @@ Description: Annotations are labels you can place on the data area of a plot. Un
 URL: /cookbook/5.0/Annotation/AnnotationQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Annotation", "Annotation Quickstart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Annotation", "/cookbook/5.0/Annotation/AnnotationQuickstart"]
-Date: 2024-09-09
-Version: ScottPlot 5.0.39
-Version: ScottPlot 5.0.39
+Date: 2024-10-16
+Version: ScottPlot 5.0.40
+Version: ScottPlot 5.0.40
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Annotations are labels you can place on the data area of a plot. Unlike Text added to the plot (which is placed in coordinate units on the axes), Annotations are positioned relative to the data area (in pixel units) and do not move as the plot is panned and zoomed.
 
-[![](/cookbook/5.0/images/AnnotationQuickstart.png?240908210824)](/cookbook/5.0/images/AnnotationQuickstart.png?240908210824)
+[![](/cookbook/5.0/images/AnnotationQuickstart.png?241016194708)](/cookbook/5.0/images/AnnotationQuickstart.png?241016194708)
 
 {{< code-sp5 >}}
 

@@ -4,9 +4,9 @@ Description: Standard marker shapes are provided, but advanced users are able to
 URL: /cookbook/5.0/Marker/MarkerShapes/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Marker", "Marker Shapes"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Marker", "/cookbook/5.0/Marker/MarkerShapes"]
-Date: 2024-09-09
-Version: ScottPlot 5.0.39
-Version: ScottPlot 5.0.39
+Date: 2024-10-16
+Version: ScottPlot 5.0.40
+Version: ScottPlot 5.0.40
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Standard marker shapes are provided, but advanced users are able to create their own as well.
 
-[![](/cookbook/5.0/images/MarkerShapes.png?240908210824)](/cookbook/5.0/images/MarkerShapes.png?240908210824)
+[![](/cookbook/5.0/images/MarkerShapes.png?241016194708)](/cookbook/5.0/images/MarkerShapes.png?241016194708)
 
 {{< code-sp5 >}}
 

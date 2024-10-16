@@ -4,9 +4,9 @@ Description: A polar axis may be rotated to define the angle of the 0 degree spo
 URL: /cookbook/5.0/Polar/PolarRotation/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Polar Axis", "Polar Axis Rotation"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Polar", "/cookbook/5.0/Polar/PolarRotation"]
-Date: 2024-09-09
-Version: ScottPlot 5.0.39
-Version: ScottPlot 5.0.39
+Date: 2024-10-16
+Version: ScottPlot 5.0.40
+Version: ScottPlot 5.0.40
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 A polar axis may be rotated to define the angle of the 0 degree spoke.
 
-[![](/cookbook/5.0/images/PolarRotation.png?240908210824)](/cookbook/5.0/images/PolarRotation.png?240908210824)
+[![](/cookbook/5.0/images/PolarRotation.png?241016194708)](/cookbook/5.0/images/PolarRotation.png?241016194708)
 
 {{< code-sp5 >}}
 
@@ -24,7 +24,7 @@ A polar axis may be rotated to define the angle of the 0 degree spoke.
 ScottPlot.Plot myPlot = new();
 
 var polarAxis = myPlot.Add.PolarAxis(radius: 100);
-polarAxis.RotationDegrees = -90;
+polarAxis.Rotation = Angle.FromDegrees(-90);
 
 IColormap colormap = new ScottPlot.Colormaps.Turbo();
 foreach (double fraction in ScottPlot.Generate.Range(0, 1, 0.02))

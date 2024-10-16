@@ -4,9 +4,9 @@ Description: Colorbars have an optional custom tick formatter that allows users 
 URL: /cookbook/5.0/Heatmap/ColorbarTickFormatter/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Heatmap", "Colorbar Tick Formatter"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Heatmap", "/cookbook/5.0/Heatmap/ColorbarTickFormatter"]
-Date: 2024-09-09
-Version: ScottPlot 5.0.39
-Version: ScottPlot 5.0.39
+Date: 2024-10-16
+Version: ScottPlot 5.0.40
+Version: ScottPlot 5.0.40
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Colorbars have an optional custom tick formatter that allows users to control the string format of tick labels.
 
-[![](/cookbook/5.0/images/ColorbarTickFormatter.png?240908210824)](/cookbook/5.0/images/ColorbarTickFormatter.png?240908210824)
+[![](/cookbook/5.0/images/ColorbarTickFormatter.png?241016194708)](/cookbook/5.0/images/ColorbarTickFormatter.png?241016194708)
 
 {{< code-sp5 >}}
 

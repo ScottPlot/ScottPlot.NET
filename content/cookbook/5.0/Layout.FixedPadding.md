@@ -4,9 +4,9 @@ Description: The plot can be arranged to achieve a fixed amount of padding on ea
 URL: /cookbook/5.0/Layout/FixedPadding/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Layout Options", "Fixed Padding"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Layout", "/cookbook/5.0/Layout/FixedPadding"]
-Date: 2024-09-09
-Version: ScottPlot 5.0.39
-Version: ScottPlot 5.0.39
+Date: 2024-10-16
+Version: ScottPlot 5.0.40
+Version: ScottPlot 5.0.40
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 The plot can be arranged to achieve a fixed amount of padding on each side of the data area
 
-[![](/cookbook/5.0/images/FixedPadding.png?240908210824)](/cookbook/5.0/images/FixedPadding.png?240908210824)
+[![](/cookbook/5.0/images/FixedPadding.png?241016194708)](/cookbook/5.0/images/FixedPadding.png?241016194708)
 
 {{< code-sp5 >}}
 

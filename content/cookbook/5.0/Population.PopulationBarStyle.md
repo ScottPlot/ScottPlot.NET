@@ -4,9 +4,9 @@ Description: The bar symbol in population plots can be extensively styled.
 URL: /cookbook/5.0/Population/PopulationBarStyle/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Population Plot", "Population Bar Styling"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Population", "/cookbook/5.0/Population/PopulationBarStyle"]
-Date: 2024-09-09
-Version: ScottPlot 5.0.39
-Version: ScottPlot 5.0.39
+Date: 2024-10-16
+Version: ScottPlot 5.0.40
+Version: ScottPlot 5.0.40
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 The bar symbol in population plots can be extensively styled.
 
-[![](/cookbook/5.0/images/PopulationBarStyle.png?240908210824)](/cookbook/5.0/images/PopulationBarStyle.png?240908210824)
+[![](/cookbook/5.0/images/PopulationBarStyle.png?241016194708)](/cookbook/5.0/images/PopulationBarStyle.png?241016194708)
 
 {{< code-sp5 >}}
 

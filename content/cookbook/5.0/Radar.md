@@ -4,9 +4,9 @@ Description: Radar charts (also called a spider charts or star charts) represent
 URL: /cookbook/5.0/Radar/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Radar Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Radar"]
-Date: 2024-09-09
-Version: ScottPlot 5.0.39
-Version: ScottPlot 5.0.39
+Date: 2024-10-16
+Version: ScottPlot 5.0.40
+Version: ScottPlot 5.0.40
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,7 +18,7 @@ ShowEditLink: false
 
 A radar chart can be created from a single array of values.
 
-[![](/cookbook/5.0/images/RadarQuickstart.png?240908210824)](/cookbook/5.0/images/RadarQuickstart.png?240908210824)
+[![](/cookbook/5.0/images/RadarQuickstart.png?241016194708)](/cookbook/5.0/images/RadarQuickstart.png?241016194708)
 
 {{< code-sp5 >}}
 
@@ -41,7 +41,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 A single radar chart can be used to display values from multiple series using a 2D array
 
-[![](/cookbook/5.0/images/RadarMultipleQuickstart.png?240908210824)](/cookbook/5.0/images/RadarMultipleQuickstart.png?240908210824)
+[![](/cookbook/5.0/images/RadarMultipleQuickstart.png?241016194708)](/cookbook/5.0/images/RadarMultipleQuickstart.png?241016194708)
 
 {{< code-sp5 >}}
 
@@ -68,7 +68,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Collections of radar values (radar series) can be labeled so they appear in the legend
 
-[![](/cookbook/5.0/images/RadarLegend.png?240908210824)](/cookbook/5.0/images/RadarLegend.png?240908210824)
+[![](/cookbook/5.0/images/RadarLegend.png?241016194708)](/cookbook/5.0/images/RadarLegend.png?241016194708)
 
 {{< code-sp5 >}}
 
@@ -97,7 +97,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Radar plots have a collection of RadarSeries objects which each describe a set of values and the styling information used to display it as a shape on the radar plot. Users may change properties of radar series objects to achieve a high level of customization over each shape.
 
-[![](/cookbook/5.0/images/RadarSeriesCustomization.png?240908210824)](/cookbook/5.0/images/RadarSeriesCustomization.png?240908210824)
+[![](/cookbook/5.0/images/RadarSeriesCustomization.png?241016194708)](/cookbook/5.0/images/RadarSeriesCustomization.png?241016194708)
 
 {{< code-sp5 >}}
 
@@ -133,7 +133,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Labels can be assigned to spokes to label values around the circumference of the radar plot
 
-[![](/cookbook/5.0/images/RadarSpokeLabels.png?240908210824)](/cookbook/5.0/images/RadarSpokeLabels.png?240908210824)
+[![](/cookbook/5.0/images/RadarSpokeLabels.png?241016194708)](/cookbook/5.0/images/RadarSpokeLabels.png?241016194708)
 
 {{< code-sp5 >}}
 
@@ -163,7 +163,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Radar radial tick positions and labels may be defined by the user
 
-[![](/cookbook/5.0/images/RadarRadialTicks.png?240908210824)](/cookbook/5.0/images/RadarRadialTicks.png?240908210824)
+[![](/cookbook/5.0/images/RadarRadialTicks.png?241016194708)](/cookbook/5.0/images/RadarRadialTicks.png?241016194708)
 
 {{< code-sp5 >}}
 
@@ -194,7 +194,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Radial ticks may be rendered using straight lines instead of circles
 
-[![](/cookbook/5.0/images/RadarStraightLines.png?240908210824)](/cookbook/5.0/images/RadarStraightLines.png?240908210824)
+[![](/cookbook/5.0/images/RadarStraightLines.png?241016194708)](/cookbook/5.0/images/RadarStraightLines.png?241016194708)
 
 {{< code-sp5 >}}
 

@@ -4,9 +4,9 @@ Description: FillY plots can be created from X, Y1, and Y2 arrays.
 URL: /cookbook/5.0/FillY/FillYFromArrays/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "FillY plot", "FillY From Array Data"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/FillY", "/cookbook/5.0/FillY/FillYFromArrays"]
-Date: 2024-09-09
-Version: ScottPlot 5.0.39
-Version: ScottPlot 5.0.39
+Date: 2024-10-16
+Version: ScottPlot 5.0.40
+Version: ScottPlot 5.0.40
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 FillY plots can be created from X, Y1, and Y2 arrays.
 
-[![](/cookbook/5.0/images/FillYFromArrays.png?240908210824)](/cookbook/5.0/images/FillYFromArrays.png?240908210824)
+[![](/cookbook/5.0/images/FillYFromArrays.png?241016194708)](/cookbook/5.0/images/FillYFromArrays.png?241016194708)
 
 {{< code-sp5 >}}
 

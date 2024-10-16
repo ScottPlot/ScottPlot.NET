@@ -4,9 +4,9 @@ Description: Lollipop plots can be created from a sequence of values
 URL: /cookbook/5.0/Lollipop/LollipopQuickStart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Lollipop Plot", "Lollipop Plot Quickstart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Lollipop", "/cookbook/5.0/Lollipop/LollipopQuickStart"]
-Date: 2024-09-09
-Version: ScottPlot 5.0.39
-Version: ScottPlot 5.0.39
+Date: 2024-10-16
+Version: ScottPlot 5.0.40
+Version: ScottPlot 5.0.40
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Lollipop plots can be created from a sequence of values
 
-[![](/cookbook/5.0/images/LollipopQuickStart.png?240908210824)](/cookbook/5.0/images/LollipopQuickStart.png?240908210824)
+[![](/cookbook/5.0/images/LollipopQuickStart.png?241016194708)](/cookbook/5.0/images/LollipopQuickStart.png?241016194708)
 
 {{< code-sp5 >}}
 

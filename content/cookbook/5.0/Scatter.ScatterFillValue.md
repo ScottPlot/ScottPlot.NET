@@ -4,9 +4,9 @@ Description: The base of the fill can be defined.
 URL: /cookbook/5.0/Scatter/ScatterFillValue/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Scatter Plot", "Scatter Plot Filled to a Value"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Scatter", "/cookbook/5.0/Scatter/ScatterFillValue"]
-Date: 2024-09-09
-Version: ScottPlot 5.0.39
-Version: ScottPlot 5.0.39
+Date: 2024-10-16
+Version: ScottPlot 5.0.40
+Version: ScottPlot 5.0.40
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 The base of the fill can be defined.
 
-[![](/cookbook/5.0/images/ScatterFillValue.png?240908210824)](/cookbook/5.0/images/ScatterFillValue.png?240908210824)
+[![](/cookbook/5.0/images/ScatterFillValue.png?241016194708)](/cookbook/5.0/images/ScatterFillValue.png?241016194708)
 
 {{< code-sp5 >}}
 

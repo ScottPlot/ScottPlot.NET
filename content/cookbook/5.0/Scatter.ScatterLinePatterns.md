@@ -4,9 +4,9 @@ Description: Several line patterns are available
 URL: /cookbook/5.0/Scatter/ScatterLinePatterns/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Scatter Plot", "Scatter Line Patterns"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Scatter", "/cookbook/5.0/Scatter/ScatterLinePatterns"]
-Date: 2024-09-09
-Version: ScottPlot 5.0.39
-Version: ScottPlot 5.0.39
+Date: 2024-10-16
+Version: ScottPlot 5.0.40
+Version: ScottPlot 5.0.40
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,19 +16,22 @@ ShowEditLink: false
 
 Several line patterns are available
 
-[![](/cookbook/5.0/images/ScatterLinePatterns.png?240908210824)](/cookbook/5.0/images/ScatterLinePatterns.png?240908210824)
+[![](/cookbook/5.0/images/ScatterLinePatterns.png?241016194708)](/cookbook/5.0/images/ScatterLinePatterns.png?241016194708)
 
 {{< code-sp5 >}}
 
 ```cs
 ScottPlot.Plot myPlot = new();
 
-LinePattern[] patterns = Enum.GetValues<LinePattern>();
+List<LinePattern> patterns = [];
+patterns.AddRange(LinePattern.GetAllPatterns());
+patterns.Add(new([2, 2, 5, 10], 0, "Custom"));
+
 ScottPlot.Palettes.ColorblindFriendly palette = new();
 
-for (int i = 0; i < patterns.Length; i++)
+for (int i = 0; i < patterns.Count; i++)
 {
-    double yOffset = patterns.Length - i;
+    double yOffset = patterns.Count - i;
     double[] xs = Generate.Consecutive(51);
     double[] ys = Generate.Sin(51, offset: yOffset);
 
@@ -38,7 +41,7 @@ for (int i = 0; i < patterns.Length; i++)
     sp.LinePattern = patterns[i];
     sp.Color = palette.GetColor(i);
 
-    var txt = myPlot.Add.Text(patterns[i].ToString(), 51, yOffset);
+    var txt = myPlot.Add.Text(patterns[i].Name, 51, yOffset);
     txt.LabelFontColor = sp.Color;
     txt.LabelFontSize = 22;
     txt.LabelBold = true;

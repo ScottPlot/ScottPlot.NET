@@ -4,9 +4,9 @@ Description: Polar axis ticks are marked by circles which may be individually la
 URL: /cookbook/5.0/Polar/PolarTickLabels/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Polar Axis", "Polar Axis Tick Labels"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Polar", "/cookbook/5.0/Polar/PolarTickLabels"]
-Date: 2024-09-09
-Version: ScottPlot 5.0.39
-Version: ScottPlot 5.0.39
+Date: 2024-10-16
+Version: ScottPlot 5.0.40
+Version: ScottPlot 5.0.40
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Polar axis ticks are marked by circles which may be individually labeled.
 
-[![](/cookbook/5.0/images/PolarTickLabels.png?240908210824)](/cookbook/5.0/images/PolarTickLabels.png?240908210824)
+[![](/cookbook/5.0/images/PolarTickLabels.png?241016194708)](/cookbook/5.0/images/PolarTickLabels.png?241016194708)
 
 {{< code-sp5 >}}
 
@@ -24,7 +24,7 @@ Polar axis ticks are marked by circles which may be individually labeled.
 ScottPlot.Plot myPlot = new();
 
 var polarAxis = myPlot.Add.PolarAxis();
-polarAxis.RotationDegrees = -90;
+polarAxis.Rotation = Angle.FromDegrees(-90);
 
 double[] ticksPositions = { 5, 10, 15, 20 };
 string[] tickLabels = { "A", "B", "C", "D" };

@@ -4,9 +4,9 @@ Description: Features for users seeking extensive customization options.
 URL: /cookbook/5.0/AdvancedStyling/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Advanced Styling"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AdvancedStyling"]
-Date: 2024-09-09
-Version: ScottPlot 5.0.39
-Version: ScottPlot 5.0.39
+Date: 2024-10-16
+Version: ScottPlot 5.0.40
+Version: ScottPlot 5.0.40
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,7 +18,7 @@ ShowEditLink: false
 
 An image can be used for the background of the data area.
 
-[![](/cookbook/5.0/images/AdvancedStylingDataBackground.png?240908210824)](/cookbook/5.0/images/AdvancedStylingDataBackground.png?240908210824)
+[![](/cookbook/5.0/images/AdvancedStylingDataBackground.png?241016194708)](/cookbook/5.0/images/AdvancedStylingDataBackground.png?241016194708)
 
 {{< code-sp5 >}}
 
@@ -51,7 +51,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 An image can be used for the background of a figure.
 
-[![](/cookbook/5.0/images/AdvancedStylingFigureBackground.png?240908210824)](/cookbook/5.0/images/AdvancedStylingFigureBackground.png?240908210824)
+[![](/cookbook/5.0/images/AdvancedStylingFigureBackground.png?241016194708)](/cookbook/5.0/images/AdvancedStylingFigureBackground.png?241016194708)
 
 {{< code-sp5 >}}
 
@@ -92,7 +92,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Colors can be mixed to createa range of colors. This strategy uses linear RGB interpolation.
 
-[![](/cookbook/5.0/images/ColorInterpolation.png?240908210824)](/cookbook/5.0/images/ColorInterpolation.png?240908210824)
+[![](/cookbook/5.0/images/ColorInterpolation.png?241016194708)](/cookbook/5.0/images/ColorInterpolation.png?241016194708)
 
 {{< code-sp5 >}}
 
@@ -122,7 +122,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Users can apply custom typefaces by loaded from font files.
 
-[![](/cookbook/5.0/images/CustomFontFiles.png?240908210824)](/cookbook/5.0/images/CustomFontFiles.png?240908210824)
+[![](/cookbook/5.0/images/CustomFontFiles.png?241016194708)](/cookbook/5.0/images/CustomFontFiles.png?241016194708)
 
 {{< code-sp5 >}}
 

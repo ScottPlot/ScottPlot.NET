@@ -4,9 +4,9 @@ Description: A donut chart is a pie chart with an open center. Donut charts can 
 URL: /cookbook/5.0/Pie/PieDonut/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Pie", "Donut from Slices"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Pie", "/cookbook/5.0/Pie/PieDonut"]
-Date: 2024-09-09
-Version: ScottPlot 5.0.39
-Version: ScottPlot 5.0.39
+Date: 2024-10-16
+Version: ScottPlot 5.0.40
+Version: ScottPlot 5.0.40
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 A donut chart is a pie chart with an open center. Donut charts can be created from a collection of slices.
 
-[![](/cookbook/5.0/images/PieDonut.png?240908210824)](/cookbook/5.0/images/PieDonut.png?240908210824)
+[![](/cookbook/5.0/images/PieDonut.png?241016194708)](/cookbook/5.0/images/PieDonut.png?241016194708)
 
 {{< code-sp5 >}}
 
@@ -36,6 +36,10 @@ var pie = myPlot.Add.Pie(slices);
 pie.DonutFraction = .5;
 
 myPlot.ShowLegend();
+
+// hide unnecessary plot components
+myPlot.Axes.Frameless();
+myPlot.HideGrid();
 
 myPlot.SavePng("demo.png", 400, 300);
 

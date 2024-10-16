@@ -5,7 +5,7 @@ url: /cookbook/5.0/colormaps/
 type: single
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Colormaps"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/colormaps/"]
-date: 2024-09-09
+date: 2024-10-16
 jsFiles: ["https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js", "/js/cookbook-search-5.0.js"]
 ---
 
@@ -189,6 +189,15 @@ IColormap colormap = new ScottPlot.Colormaps.Matter();
 ```
 
 <img src='../images/Colormap_Matter.png' class='w-100' height=100>
+
+
+### Mellow Rainbow
+
+```cs
+IColormap colormap = new ScottPlot.Colormaps.MellowRainbow();
+```
+
+<img src='../images/Colormap_MellowRainbow.png' class='w-100' height=100>
 
 
 ### Oxy

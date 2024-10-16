@@ -4,9 +4,9 @@ Description: An image can be drawn inside a rectangle defined in coordinate unit
 URL: /cookbook/5.0/Images/ImageRectQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Images", "Image Rectangle"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Images", "/cookbook/5.0/Images/ImageRectQuickstart"]
-Date: 2024-09-09
-Version: ScottPlot 5.0.39
-Version: ScottPlot 5.0.39
+Date: 2024-10-16
+Version: ScottPlot 5.0.40
+Version: ScottPlot 5.0.40
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 An image can be drawn inside a rectangle defined in coordinate units.
 
-[![](/cookbook/5.0/images/ImageRectQuickstart.png?240908210824)](/cookbook/5.0/images/ImageRectQuickstart.png?240908210824)
+[![](/cookbook/5.0/images/ImageRectQuickstart.png?241016194708)](/cookbook/5.0/images/ImageRectQuickstart.png?241016194708)
 
 {{< code-sp5 >}}
 

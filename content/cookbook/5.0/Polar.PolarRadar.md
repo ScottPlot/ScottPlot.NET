@@ -4,9 +4,9 @@ Description: Combining a polar axis with polygons is an alternative strategy for
 URL: /cookbook/5.0/Polar/PolarRadar/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Polar Axis", "Polar Radar Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Polar", "/cookbook/5.0/Polar/PolarRadar"]
-Date: 2024-09-09
-Version: ScottPlot 5.0.39
-Version: ScottPlot 5.0.39
+Date: 2024-10-16
+Version: ScottPlot 5.0.40
+Version: ScottPlot 5.0.40
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Combining a polar axis with polygons is an alternative strategy for building radar plots.
 
-[![](/cookbook/5.0/images/PolarRadar.png?240908210824)](/cookbook/5.0/images/PolarRadar.png?240908210824)
+[![](/cookbook/5.0/images/PolarRadar.png?241016194708)](/cookbook/5.0/images/PolarRadar.png?241016194708)
 
 {{< code-sp5 >}}
 
@@ -24,7 +24,7 @@ Combining a polar axis with polygons is an alternative strategy for building rad
 ScottPlot.Plot myPlot = new();
 
 var polarAxis = myPlot.Add.PolarAxis();
-polarAxis.RotationDegrees = -90;
+polarAxis.Rotation = Angle.FromDegrees(-90);
 
 // add labeled spokes
 string[] labels = { "Alpha", "Beta", "Gamma", "Delta", "Epsilon" };

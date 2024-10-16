@@ -4,9 +4,9 @@ Description: Collections of radar values (radar series) can be labeled so they a
 URL: /cookbook/5.0/Radar/RadarLegend/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Radar Plot", "Radar Legend"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Radar", "/cookbook/5.0/Radar/RadarLegend"]
-Date: 2024-09-09
-Version: ScottPlot 5.0.39
-Version: ScottPlot 5.0.39
+Date: 2024-10-16
+Version: ScottPlot 5.0.40
+Version: ScottPlot 5.0.40
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Collections of radar values (radar series) can be labeled so they appear in the legend
 
-[![](/cookbook/5.0/images/RadarLegend.png?240908210824)](/cookbook/5.0/images/RadarLegend.png?240908210824)
+[![](/cookbook/5.0/images/RadarLegend.png?241016194708)](/cookbook/5.0/images/RadarLegend.png?241016194708)
 
 {{< code-sp5 >}}
 

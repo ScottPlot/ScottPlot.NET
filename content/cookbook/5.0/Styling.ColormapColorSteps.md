@@ -4,9 +4,9 @@ Description: Colormaps can be used to generate a collection of discrete colors t
 URL: /cookbook/5.0/Styling/ColormapColorSteps/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Styling Plots", "Colormap Steps"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Styling", "/cookbook/5.0/Styling/ColormapColorSteps"]
-Date: 2024-09-09
-Version: ScottPlot 5.0.39
-Version: ScottPlot 5.0.39
+Date: 2024-10-16
+Version: ScottPlot 5.0.40
+Version: ScottPlot 5.0.40
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Colormaps can be used to generate a collection of discrete colors that can be applied to plottable objects.
 
-[![](/cookbook/5.0/images/ColormapColorSteps.png?240908210824)](/cookbook/5.0/images/ColormapColorSteps.png?240908210824)
+[![](/cookbook/5.0/images/ColormapColorSteps.png?241016194708)](/cookbook/5.0/images/ColormapColorSteps.png?241016194708)
 
 {{< code-sp5 >}}
 

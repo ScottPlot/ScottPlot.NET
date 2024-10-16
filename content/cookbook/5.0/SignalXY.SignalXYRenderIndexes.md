@@ -4,9 +4,9 @@ Description: Even if a SignalXY plot references a large array of data, rendering
 URL: /cookbook/5.0/SignalXY/SignalXYRenderIndexes/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "SignalXY Plot", "Partial SignalXY Rendering"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/SignalXY", "/cookbook/5.0/SignalXY/SignalXYRenderIndexes"]
-Date: 2024-09-09
-Version: ScottPlot 5.0.39
-Version: ScottPlot 5.0.39
+Date: 2024-10-16
+Version: ScottPlot 5.0.40
+Version: ScottPlot 5.0.40
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Even if a SignalXY plot references a large array of data, rendering can be limited to a range of values. If set,only the range of data between the minimum and maximum render indexes will be displayed.
 
-[![](/cookbook/5.0/images/SignalXYRenderIndexes.png?240908210824)](/cookbook/5.0/images/SignalXYRenderIndexes.png?240908210824)
+[![](/cookbook/5.0/images/SignalXYRenderIndexes.png?241016194708)](/cookbook/5.0/images/SignalXYRenderIndexes.png?241016194708)
 
 {{< code-sp5 >}}
 

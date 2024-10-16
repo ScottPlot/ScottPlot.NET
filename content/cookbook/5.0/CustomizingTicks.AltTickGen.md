@@ -4,9 +4,9 @@ Description: Tick generators determine where ticks are to be placed and also con
 URL: /cookbook/5.0/CustomizingTicks/AltTickGen/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Customizing Ticks", "Custom Tick Generators"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/CustomizingTicks", "/cookbook/5.0/CustomizingTicks/AltTickGen"]
-Date: 2024-09-09
-Version: ScottPlot 5.0.39
-Version: ScottPlot 5.0.39
+Date: 2024-10-16
+Version: ScottPlot 5.0.40
+Version: ScottPlot 5.0.40
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Tick generators determine where ticks are to be placed and also contain logic for generating tick labels from tick positions. Alternative tick generators can be created and assigned to axes. Some common tick generators are provided with ScottPlot, and users also have the option create their own.
 
-[![](/cookbook/5.0/images/AltTickGen.png?240908210824)](/cookbook/5.0/images/AltTickGen.png?240908210824)
+[![](/cookbook/5.0/images/AltTickGen.png?241016194708)](/cookbook/5.0/images/AltTickGen.png?241016194708)
 
 {{< code-sp5 >}}
 

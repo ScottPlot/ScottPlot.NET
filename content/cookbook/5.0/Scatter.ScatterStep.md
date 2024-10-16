@@ -4,9 +4,9 @@ Description: Scatter plots can be created using a step plot display where points
 URL: /cookbook/5.0/Scatter/ScatterStep/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Scatter Plot", "Step Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Scatter", "/cookbook/5.0/Scatter/ScatterStep"]
-Date: 2024-09-09
-Version: ScottPlot 5.0.39
-Version: ScottPlot 5.0.39
+Date: 2024-10-16
+Version: ScottPlot 5.0.40
+Version: ScottPlot 5.0.40
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Scatter plots can be created using a step plot display where points are connected with right angles instead of diagnal lines. The direction of the steps can be customized.
 
-[![](/cookbook/5.0/images/ScatterStep.png?240908210824)](/cookbook/5.0/images/ScatterStep.png?240908210824)
+[![](/cookbook/5.0/images/ScatterStep.png?241016194708)](/cookbook/5.0/images/ScatterStep.png?241016194708)
 
 {{< code-sp5 >}}
 

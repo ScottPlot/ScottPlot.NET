@@ -4,9 +4,9 @@ Description: Demonstrates how to hide axis ticks and turn frame lines on and off
 URL: /cookbook/5.0/AdvancedAxis/HideAxis/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Advanced Axis Features", "Hide Axis and Turn frame lines on/off"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AdvancedAxis", "/cookbook/5.0/AdvancedAxis/HideAxis"]
-Date: 2024-09-09
-Version: ScottPlot 5.0.39
-Version: ScottPlot 5.0.39
+Date: 2024-10-16
+Version: ScottPlot 5.0.40
+Version: ScottPlot 5.0.40
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Demonstrates how to hide axis ticks and turn frame lines on and off.
 
-[![](/cookbook/5.0/images/HideAxis.png?240908210824)](/cookbook/5.0/images/HideAxis.png?240908210824)
+[![](/cookbook/5.0/images/HideAxis.png?241016194708)](/cookbook/5.0/images/HideAxis.png?241016194708)
 
 {{< code-sp5 >}}
 

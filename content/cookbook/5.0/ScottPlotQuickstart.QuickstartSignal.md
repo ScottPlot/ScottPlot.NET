@@ -4,9 +4,9 @@ Description: Signal plots are optimized for displaying evenly spaced data.
 URL: /cookbook/5.0/ScottPlotQuickstart/QuickstartSignal/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Quickstart", "Signal Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/ScottPlotQuickstart", "/cookbook/5.0/ScottPlotQuickstart/QuickstartSignal"]
-Date: 2024-09-09
-Version: ScottPlot 5.0.39
-Version: ScottPlot 5.0.39
+Date: 2024-10-16
+Version: ScottPlot 5.0.40
+Version: ScottPlot 5.0.40
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Signal plots are optimized for displaying evenly spaced data.
 
-[![](/cookbook/5.0/images/QuickstartSignal.png?240908210824)](/cookbook/5.0/images/QuickstartSignal.png?240908210824)
+[![](/cookbook/5.0/images/QuickstartSignal.png?241016194708)](/cookbook/5.0/images/QuickstartSignal.png?241016194708)
 
 {{< code-sp5 >}}
 

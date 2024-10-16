@@ -4,9 +4,9 @@ Description: Grid and plot styling can be customize to achieve a pleasing effect
 URL: /cookbook/5.0/CustomizingGrids/GridAlternatingDarkMode/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Customizing Grids", "Grid Fill Color in Dark Mode"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/CustomizingGrids", "/cookbook/5.0/CustomizingGrids/GridAlternatingDarkMode"]
-Date: 2024-09-09
-Version: ScottPlot 5.0.39
-Version: ScottPlot 5.0.39
+Date: 2024-10-16
+Version: ScottPlot 5.0.40
+Version: ScottPlot 5.0.40
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Grid and plot styling can be customize to achieve a pleasing effect in dark mode
 
-[![](/cookbook/5.0/images/GridAlternatingDarkMode.png?240908210824)](/cookbook/5.0/images/GridAlternatingDarkMode.png?240908210824)
+[![](/cookbook/5.0/images/GridAlternatingDarkMode.png?241016194708)](/cookbook/5.0/images/GridAlternatingDarkMode.png?241016194708)
 
 {{< code-sp5 >}}
 

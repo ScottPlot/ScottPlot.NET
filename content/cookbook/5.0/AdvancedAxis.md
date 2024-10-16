@@ -4,9 +4,9 @@ Description: How to further customize axes
 URL: /cookbook/5.0/AdvancedAxis/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Advanced Axis Features"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AdvancedAxis"]
-Date: 2024-09-09
-Version: ScottPlot 5.0.39
-Version: ScottPlot 5.0.39
+Date: 2024-10-16
+Version: ScottPlot 5.0.40
+Version: ScottPlot 5.0.40
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,7 +18,7 @@ ShowEditLink: false
 
 Users can display data on an inverted axis by setting axis limits setting the lower edge to a value more positive than the upper edge.
 
-[![](/cookbook/5.0/images/InvertedAxis.png?240908210824)](/cookbook/5.0/images/InvertedAxis.png?240908210824)
+[![](/cookbook/5.0/images/InvertedAxis.png?241016194708)](/cookbook/5.0/images/InvertedAxis.png?241016194708)
 
 {{< code-sp5 >}}
 
@@ -43,7 +43,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Customize the logic for the automatic axis scaler to ensure that axis limits for a particular axis are always inverted when autoscaled.
 
-[![](/cookbook/5.0/images/InvertedAutoAxis.png?240908210824)](/cookbook/5.0/images/InvertedAutoAxis.png?240908210824)
+[![](/cookbook/5.0/images/InvertedAutoAxis.png?241016194708)](/cookbook/5.0/images/InvertedAutoAxis.png?241016194708)
 
 {{< code-sp5 >}}
 
@@ -68,7 +68,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Axis rules can be put in place which force the vertical scale (units per pixel) to match the horizontal scale so circles always appear as circles and not stretched ellipses.
 
-[![](/cookbook/5.0/images/SquareAxisUnits.png?240908210824)](/cookbook/5.0/images/SquareAxisUnits.png?240908210824)
+[![](/cookbook/5.0/images/SquareAxisUnits.png?241016194708)](/cookbook/5.0/images/SquareAxisUnits.png?241016194708)
 
 {{< code-sp5 >}}
 
@@ -96,7 +96,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Users can create their own fully custom axes to replace the default ones (as demonstrated in the demo app). Some experimental axes are available for users who may be interested in alternative axis display styles.
 
-[![](/cookbook/5.0/images/ExperimentalAxisWithSubtitle.png?240908210824)](/cookbook/5.0/images/ExperimentalAxisWithSubtitle.png?240908210824)
+[![](/cookbook/5.0/images/ExperimentalAxisWithSubtitle.png?241016194708)](/cookbook/5.0/images/ExperimentalAxisWithSubtitle.png?241016194708)
 
 {{< code-sp5 >}}
 
@@ -131,7 +131,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 To improve crispness of straight vertical and horizontal lines, Anti-aliasing is disabled by default for axis frames, tick marks, and grid lines. Anti-aliasing can be enabled for all these objects by calling the AntiAlias helper method.
 
-[![](/cookbook/5.0/images/AxisAntiAliasing.png?240908210824)](/cookbook/5.0/images/AxisAntiAliasing.png?240908210824)
+[![](/cookbook/5.0/images/AxisAntiAliasing.png?241016194708)](/cookbook/5.0/images/AxisAntiAliasing.png?241016194708)
 
 {{< code-sp5 >}}
 
@@ -157,7 +157,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Demonstrates how to hide axis ticks and turn frame lines on and off.
 
-[![](/cookbook/5.0/images/HideAxis.png?240908210824)](/cookbook/5.0/images/HideAxis.png?240908210824)
+[![](/cookbook/5.0/images/HideAxis.png?241016194708)](/cookbook/5.0/images/HideAxis.png?241016194708)
 
 {{< code-sp5 >}}
 

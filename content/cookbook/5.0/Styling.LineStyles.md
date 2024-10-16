@@ -4,9 +4,9 @@ Description: Many plot types have a LineStyle which can be customized.
 URL: /cookbook/5.0/Styling/LineStyles/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Styling Plots", "Line Styles"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Styling", "/cookbook/5.0/Styling/LineStyles"]
-Date: 2024-09-09
-Version: ScottPlot 5.0.39
-Version: ScottPlot 5.0.39
+Date: 2024-10-16
+Version: ScottPlot 5.0.40
+Version: ScottPlot 5.0.40
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,25 +16,27 @@ ShowEditLink: false
 
 Many plot types have a LineStyle which can be customized.
 
-[![](/cookbook/5.0/images/LineStyles.png?240908210824)](/cookbook/5.0/images/LineStyles.png?240908210824)
+[![](/cookbook/5.0/images/LineStyles.png?241016194708)](/cookbook/5.0/images/LineStyles.png?241016194708)
 
 {{< code-sp5 >}}
 
 ```cs
 ScottPlot.Plot myPlot = new();
 
-LinePattern[] linePatterns = Enum.GetValues<LinePattern>().ToArray();
+List<LinePattern> patterns = [];
+patterns.AddRange(LinePattern.GetAllPatterns());
+patterns.Add(new([2, 2, 5, 10], 0, "Custom"));
 
-for (int i = 0; i < linePatterns.Length; i++)
+for (int i = 0; i < patterns.Count; i++)
 {
-    LinePattern pattern = linePatterns[i];
+    LinePattern pattern = patterns[i];
 
     var line = myPlot.Add.Line(0, -i, 1, -i);
     line.LinePattern = pattern;
     line.LineWidth = 2;
     line.Color = Colors.Black;
 
-    var txt = myPlot.Add.Text(pattern.ToString(), 1.1, -i);
+    var txt = myPlot.Add.Text(patterns[i].Name, 1.1, -i);
     txt.LabelFontSize = 18;
     txt.LabelBold = true;
     txt.LabelFontColor = Colors.Black;

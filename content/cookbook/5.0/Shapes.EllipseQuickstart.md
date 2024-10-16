@@ -4,9 +4,9 @@ Description: An ellipse can be placed on the plot and styled as desired.
 URL: /cookbook/5.0/Shapes/EllipseQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Shapes", "Ellipse"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Shapes", "/cookbook/5.0/Shapes/EllipseQuickstart"]
-Date: 2024-09-09
-Version: ScottPlot 5.0.39
-Version: ScottPlot 5.0.39
+Date: 2024-10-16
+Version: ScottPlot 5.0.40
+Version: ScottPlot 5.0.40
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 An ellipse can be placed on the plot and styled as desired.
 
-[![](/cookbook/5.0/images/EllipseQuickstart.png?240908210824)](/cookbook/5.0/images/EllipseQuickstart.png?240908210824)
+[![](/cookbook/5.0/images/EllipseQuickstart.png?241016194708)](/cookbook/5.0/images/EllipseQuickstart.png?241016194708)
 
 {{< code-sp5 >}}
 

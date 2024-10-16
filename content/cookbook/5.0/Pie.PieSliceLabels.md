@@ -4,9 +4,9 @@ Description: Slice labels can be displayed centered with the slice at a customiz
 URL: /cookbook/5.0/Pie/PieSliceLabels/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Pie", "Pie Slice Labels"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Pie", "/cookbook/5.0/Pie/PieSliceLabels"]
-Date: 2024-09-09
-Version: ScottPlot 5.0.39
-Version: ScottPlot 5.0.39
+Date: 2024-10-16
+Version: ScottPlot 5.0.40
+Version: ScottPlot 5.0.40
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Slice labels can be displayed centered with the slice at a customizable distance from the center of the pie.
 
-[![](/cookbook/5.0/images/PieSliceLabels.png?240908210824)](/cookbook/5.0/images/PieSliceLabels.png?240908210824)
+[![](/cookbook/5.0/images/PieSliceLabels.png?241016194708)](/cookbook/5.0/images/PieSliceLabels.png?241016194708)
 
 {{< code-sp5 >}}
 
@@ -34,16 +34,19 @@ List<PieSlice> slices = new() { slice1, slice2, slice3, slice4, slice5 };
 // setup the pie to display slice labels
 var pie = myPlot.Add.Pie(slices);
 pie.ExplodeFraction = .1;
-pie.ShowSliceLabels = true;
 pie.SliceLabelDistance = 1.3;
 
 // color each label's text to match the slice
-slices.ForEach(x => x.LabelFontColor = x.FillColor);
+slices.ForEach(x => x.LabelFontColor = x.FillColor.Darken(.5));
 
 // styling can be customized for individual slices
-slice5.LabelStyle.FontSize = 22;
-slice5.LabelStyle.Bold = true;
-slice5.LabelStyle.Italic = true;
+slice2.LabelStyle.FontSize = 18;
+slice2.LabelStyle.Bold = true;
+slice2.LabelStyle.Italic = true;
+
+// hide unnecessary plot components
+myPlot.Axes.Frameless();
+myPlot.HideGrid();
 
 myPlot.SavePng("demo.png", 400, 300);
 

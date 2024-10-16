@@ -4,9 +4,9 @@ Description: Sequential gauge mode indicates that the base of each gauge starts 
 URL: /cookbook/5.0/RadialGauge/RadialGaugeSequential/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Radial gauge", "Sequential Gauge Mode"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/RadialGauge", "/cookbook/5.0/RadialGauge/RadialGaugeSequential"]
-Date: 2024-09-09
-Version: ScottPlot 5.0.39
-Version: ScottPlot 5.0.39
+Date: 2024-10-16
+Version: ScottPlot 5.0.40
+Version: ScottPlot 5.0.40
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Sequential gauge mode indicates that the base of each gauge starts at the tip of the previous gauge.
 
-[![](/cookbook/5.0/images/RadialGaugeSequential.png?240908210824)](/cookbook/5.0/images/RadialGaugeSequential.png?240908210824)
+[![](/cookbook/5.0/images/RadialGaugeSequential.png?241016194708)](/cookbook/5.0/images/RadialGaugeSequential.png?241016194708)
 
 {{< code-sp5 >}}
 

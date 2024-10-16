@@ -4,9 +4,9 @@ Description: Many standard arrow shapes are available
 URL: /cookbook/5.0/Styling/ArrowShapeNames/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Styling Plots", "Arrow Shapes"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Styling", "/cookbook/5.0/Styling/ArrowShapeNames"]
-Date: 2024-09-09
-Version: ScottPlot 5.0.39
-Version: ScottPlot 5.0.39
+Date: 2024-10-16
+Version: ScottPlot 5.0.40
+Version: ScottPlot 5.0.40
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,7 +16,7 @@ ShowEditLink: false
 
 Many standard arrow shapes are available
 
-[![](/cookbook/5.0/images/ArrowShapeNames.png?240908210824)](/cookbook/5.0/images/ArrowShapeNames.png?240908210824)
+[![](/cookbook/5.0/images/ArrowShapeNames.png?241016194708)](/cookbook/5.0/images/ArrowShapeNames.png?241016194708)
 
 {{< code-sp5 >}}
 
