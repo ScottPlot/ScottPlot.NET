@@ -9,7 +9,7 @@ Release notes for every version of ScottPlot
 
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 5.0.40</h1>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2024-10-16</i></div>
 <div class='mt-1'>
 <ul>
 <li>DataLogger: Added <code>Add()</code> overloads to be consistent the original DataLogger API (<a href="https://github.com/ScottPlot/ScottPlot/issues/4243">#4243</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4114">#4114</a>) <a href="https://github.com/drolevar"><strong>@drolevar</strong></a> <a href="https://github.com/jpgarza93"><strong>@jpgarza93</strong></a>
@@ -65,6 +65,8 @@ Release notes for every version of ScottPlot
 <li>PixelLine: Added <code>Center</code> property (<a href="https://github.com/ScottPlot/ScottPlot/issues/4335">#4335</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4318">#4318</a>) <a href="https://github.com/brokoli777"><strong>@brokoli777</strong></a>
 </li>
 <li>MultiPlot: New class for creating composite figures containing multiple distinct <code>Plot</code> figures (<a href="https://github.com/ScottPlot/ScottPlot/issues/3948">#3948</a>)
+</li>
+<li>Plot: Deprecated <code>GetImageHtml()</code> in favor of <code>GetPngHtml()</code> and <code>GetSvgHtml()</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/4347">#4347</a>)
 </li>
 </ul>
 </div>
