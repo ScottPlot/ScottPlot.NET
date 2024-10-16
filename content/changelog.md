@@ -64,6 +64,8 @@ Release notes for every version of ScottPlot
 </li>
 <li>PixelLine: Added <code>Center</code> property (<a href="https://github.com/ScottPlot/ScottPlot/issues/4335">#4335</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4318">#4318</a>) <a href="https://github.com/brokoli777"><strong>@brokoli777</strong></a>
 </li>
+<li>MultiPlot: New class for creating composite figures containing multiple distinct <code>Plot</code> figures (<a href="https://github.com/ScottPlot/ScottPlot/issues/3948">#3948</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
@@ -89,7 +91,7 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/KosmosWerner'><img src='https://scottplot.net/images/contributors/kosmoswerner.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/ByteSore'><img src='https://scottplot.net/images/contributors/bytesore.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/bry-decelles'><img src='https://scottplot.net/images/contributors/bry-decelles.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/brokoli777'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/brokoli777'><img src='https://scottplot.net/images/contributors/brokoli777.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
