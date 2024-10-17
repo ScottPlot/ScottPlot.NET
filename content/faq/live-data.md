@@ -10,7 +10,7 @@ date: 2023-12-13
 
 The DataLogger plot type is a like a scatter plot but it has features for recording and displaying growing datasets.
 
-See the demo and source code on the [ScottPlot Demo](http://localhost:1313/demo/5.0/#plot-growing-data) page
+See the demo and source code on the [ScottPlot Demo](/demo/5.0/#plot-growing-data) page
 
 <img src='/images/faq/live-data/datalogger.gif' class='d-block mx-auto border shadow my-5'>
 
@@ -18,7 +18,7 @@ See the demo and source code on the [ScottPlot Demo](http://localhost:1313/demo/
 
 The DataStreamer plot type is a like a signal plot but it has features for displaying the latest N values of a streaming dataset.
 
-See the demo and source code on the [ScottPlot Demo](http://localhost:1313/demo/5.0/#plot-streaming-data) page
+See the demo and source code on the [ScottPlot Demo](/demo/5.0/#plot-streaming-data) page
 
 <img src='/images/faq/live-data/datastreamer.gif' class='d-block mx-auto border shadow my-5'>
 
