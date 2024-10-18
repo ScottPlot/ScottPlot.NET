@@ -16,6 +16,12 @@ Release notes for every version of ScottPlot
 </li>
 <li>CoordinateRange: Added a <code>Center</code> property to return the value halfway between the range boundary values (<a href="https://github.com/ScottPlot/ScottPlot/issues/4316">#4316</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4357">#4357</a>) <a href="https://github.com/idotta"><strong>@idotta</strong></a>
 </li>
+<li>Multiplot: Improve support for advanced layouts and add examples to cookbook (<a href="https://github.com/ScottPlot/ScottPlot/issues/4345">#4345</a>)
+</li>
+<li>Colormap: Added <code>Default</code> property to provide quick access to a customizable standard colormap (defaults to <code>MellowRainbow</code>)
+</li>
+<li>Palette: Added <code>Default</code> property to provide quick access to a customizable standard Palette (defaults to <code>Category10</code>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
@@ -24,7 +30,7 @@ Release notes for every version of ScottPlot
 </div>
 <div class='text-center'>
 <a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/Cassar17'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Cassar17'><img src='https://scottplot.net/images/contributors/cassar17.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/idotta'><img src='https://scottplot.net/images/contributors/idotta.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
