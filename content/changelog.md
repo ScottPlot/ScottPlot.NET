@@ -8,6 +8,29 @@ Description: Release notes for every version of ScottPlot
 Release notes for every version of ScottPlot
 
 <section class='mb-5'>
+<h1 class='mb-0'>ScottPlot 5.0.41</h1>
+<div><i>NuGet packages published </i></div>
+<div class='mt-1'>
+<ul>
+<li>Ticks: Improved automatic tick generation for axes of extremely small plots (<a href="https://github.com/ScottPlot/ScottPlot/issues/4353">#4353</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4354">#4354</a>) <a href="https://github.com/StendProg"><strong>@StendProg</strong></a> <a href="https://github.com/Cassar17"><strong>@Cassar17</strong></a>
+</li>
+<li>CoordinateRange: Added a <code>Center</code> property to return the value halfway between the range boundary values (<a href="https://github.com/ScottPlot/ScottPlot/issues/4316">#4316</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4357">#4357</a>) <a href="https://github.com/idotta"><strong>@idotta</strong></a>
+</li>
+</ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/Cassar17'>@Cassar17</a>, <a href='https://github.com/idotta'>@idotta</a>, <a href='https://github.com/swharden'>@swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Cassar17'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/idotta'><img src='https://scottplot.net/images/contributors/idotta.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
+
+</section>
+<section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 5.0.40</h1>
 <div><i>NuGet packages published 2024-10-16</i></div>
 <div class='mt-1'>
