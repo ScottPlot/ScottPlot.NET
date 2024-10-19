@@ -12,6 +12,8 @@ Release notes for every version of ScottPlot
 <div><i>NuGet packages published </i></div>
 <div class='mt-1'>
 <ul>
+<li>Controls: marked <code>Interaction</code> as <code>Obsolete</code> to encourage use of the newer <code>UserInputProcessor</code> documented in all the demo apps. Users may still activate the old system by calling <code>myPlotControl.Interaction.Enable()</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/4322">#4322</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4224">#4224</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3186">#3186</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4053">#4053</a>)
+</li>
 <li>Ticks: Improved automatic tick generation for axes of extremely small plots (<a href="https://github.com/ScottPlot/ScottPlot/issues/4353">#4353</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4354">#4354</a>) <a href="https://github.com/StendProg"><strong>@StendProg</strong></a> <a href="https://github.com/Cassar17"><strong>@Cassar17</strong></a>
 </li>
 <li>CoordinateRange: Added a <code>Center</code> property to return the value halfway between the range boundary values (<a href="https://github.com/ScottPlot/ScottPlot/issues/4316">#4316</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4357">#4357</a>) <a href="https://github.com/idotta"><strong>@idotta</strong></a>
