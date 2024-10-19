@@ -22,6 +22,7 @@ date: 2023-12-13
 * [Add ScottPlot control programmatically (WinForms)](add-winforms-programmatically)
 * [Locking in multi-threaded/async environments](/faq/async/)
 * [How to display live, changing data in a ScottPlot control](live-data)
+* [Animated GIF plots](gif)
 * [ScottPlot's Dependencies](dependencies)
 * [How to build ScottPlot from source](environment)
 * [How to create reproducible code examples](repro)
