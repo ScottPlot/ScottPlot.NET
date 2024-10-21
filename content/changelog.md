@@ -24,6 +24,10 @@ Release notes for every version of ScottPlot
 </li>
 <li>Palette: Added <code>Default</code> property to provide quick access to a customizable standard Palette (defaults to <code>Category10</code>)
 </li>
+<li>Bar: Use <code>LineStyle</code> and <code>FillStyle</code> similar to other plottables and deprecate old property names
+</li>
+<li>Histogram: Refactored to simplify creation of creating probability curves and cumulative probability histograms (<a href="https://github.com/ScottPlot/ScottPlot/issues/4287">#4287</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4367">#4367</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
