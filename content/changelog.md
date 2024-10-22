@@ -30,16 +30,19 @@ Release notes for every version of ScottPlot
 </li>
 <li>Colormap: Refactor all <code>ScottPlot.Colormaps</code> to favor composition over inheritance and add extension methods to <code>IColormap</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/4248">#4248</a>)
 </li>
+<li>WinUI: Improve support for .NET 8 platform targets (<a href="https://github.com/ScottPlot/ScottPlot/issues/4288">#4288</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4374">#4374</a>) <a href="https://github.com/vilgotf"><strong>@vilgotf</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/Cassar17'>@Cassar17</a>, <a href='https://github.com/idotta'>@idotta</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/Cassar17'>@Cassar17</a>, <a href='https://github.com/idotta'>@idotta</a>, <a href='https://github.com/vilgotf'>@vilgotf</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Cassar17'><img src='https://scottplot.net/images/contributors/cassar17.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/idotta'><img src='https://scottplot.net/images/contributors/idotta.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/vilgotf'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
