@@ -28,6 +28,8 @@ Release notes for every version of ScottPlot
 </li>
 <li>Histogram: Refactored to simplify creation of creating probability curves and cumulative probability histograms (<a href="https://github.com/ScottPlot/ScottPlot/issues/4287">#4287</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4367">#4367</a>)
 </li>
+<li>Colormap: Refactor all <code>ScottPlot.Colormaps</code> to favor composition over inheritance and add extension methods to <code>IColormap</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/4248">#4248</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
