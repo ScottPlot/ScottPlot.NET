@@ -32,6 +32,8 @@ Release notes for every version of ScottPlot
 </li>
 <li>WinUI: Improve support for .NET 8 platform targets (<a href="https://github.com/ScottPlot/ScottPlot/issues/4288">#4288</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4374">#4374</a>) <a href="https://github.com/vilgotf"><strong>@vilgotf</strong></a>
 </li>
+<li>Scatter: Made all default strategies <code>public</code> to facilitate connecting line customization (<a href="https://github.com/ScottPlot/ScottPlot/issues/4346">#4346</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
@@ -42,7 +44,7 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Cassar17'><img src='https://scottplot.net/images/contributors/cassar17.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/idotta'><img src='https://scottplot.net/images/contributors/idotta.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/vilgotf'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/vilgotf'><img src='https://scottplot.net/images/contributors/vilgotf.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
