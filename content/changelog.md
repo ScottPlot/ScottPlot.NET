@@ -34,6 +34,8 @@ Release notes for every version of ScottPlot
 </li>
 <li>Scatter: Made all default strategies <code>public</code> to facilitate connecting line customization (<a href="https://github.com/ScottPlot/ScottPlot/issues/4346">#4346</a>)
 </li>
+<li>Interaction: Added <code>DoubleLeftClickBenchmark()</code>, <code>LeftClickDragPan()</code>, and <code>RightClickDragZoom()</code> helper methods for toggling default behavior (<a href="https://github.com/ScottPlot/ScottPlot/issues/4379">#4379</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
