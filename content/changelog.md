@@ -38,18 +38,25 @@ Release notes for every version of ScottPlot
 </li>
 <li>Finance: Added <code>Add.BackgroundText()</code> methods to simplify the process of adding stock symbol information (<a href="https://github.com/ScottPlot/ScottPlot/issues/4396">#4396</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4395">#4395</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4385">#4385</a>) <a href="https://github.com/quantfreedom"><strong>@quantfreedom</strong></a>
 </li>
+<li>Finance: Improve support for <code>List&lt;OHLC&gt;</code> and <code>OHLC[]</code> data types (<a href="https://github.com/ScottPlot/ScottPlot/issues/4397">#4397</a>)
+</li>
+<li>Generate: Added <code>Generate.Financial.OHLCsByMinute()</code> to simplify creation of random financial data (<a href="https://github.com/ScottPlot/ScottPlot/issues/4397">#4397</a>)
+</li>
+<li>DataLogger: Add <code>Clear()</code> to the data logging plottable ands its corresponding data source (<a href="https://github.com/ScottPlot/ScottPlot/issues/4377">#4377</a>) <a href="https://github.com/h135558"><strong>@h135558</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/Cassar17'>@Cassar17</a>, <a href='https://github.com/idotta'>@idotta</a>, <a href='https://github.com/vilgotf'>@vilgotf</a>, <a href='https://github.com/quantfreedom'>@quantfreedom</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/Cassar17'>@Cassar17</a>, <a href='https://github.com/idotta'>@idotta</a>, <a href='https://github.com/vilgotf'>@vilgotf</a>, <a href='https://github.com/quantfreedom'>@quantfreedom</a>, <a href='https://github.com/h135558'>@h135558</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Cassar17'><img src='https://scottplot.net/images/contributors/cassar17.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/idotta'><img src='https://scottplot.net/images/contributors/idotta.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/vilgotf'><img src='https://scottplot.net/images/contributors/vilgotf.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/quantfreedom'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/quantfreedom'><img src='https://scottplot.net/images/contributors/quantfreedom.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/h135558'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
