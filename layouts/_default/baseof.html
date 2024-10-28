@@ -40,6 +40,10 @@
     <link rel="stylesheet" href="/css/page.css?20231209">
     <link rel="stylesheet" href="/css/github.css?20240321">
 
+    <link rel="stylesheet" href="/css/highlightjs/dracula.css">
+    <script src="/js/highlight.min.js"></script>
+    <link rel="stylesheet" href="/css/recipe.css?20241027">
+
 </head>
 
 <body onload="scrollToUrlAnchor()">
@@ -62,6 +66,8 @@
     {{ range $index, $val := $.Params.jsFiles }}
     <script src="{{ index $.Params.jsFiles $index }}"></script>
     {{ end }}
+
+    <script src="/js/recipe.js"></script>
 
 </body>
 

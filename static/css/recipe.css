@@ -1,0 +1,47 @@
+.circle {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #3498db;
+    margin: 0 2px;
+    vertical-align: middle;
+}
+
+.circle-red {
+    background-color: #ff5f57;
+}
+
+.circle-yellow {
+    background-color: #ffbd2e;
+}
+
+.circle-green {
+    background-color: #28c840;
+}
+
+.circle-gray {
+    background-color: #747579;
+}
+
+.switch-language-bar button {
+    background-color: inherit;
+    border: 0px;
+    padding: .3rem .5rem;
+    border-radius: 7px 7px 0 0;
+}
+
+.switch-language-bar .active {
+    background-color: #282a37;
+    color: #FFFFFF;
+}
+
+.switch-language-bar .inactive {
+    background-color: inherit;
+    color: #FFFFFF99;
+}
+
+.switch-language-bar .inactive:hover {
+    background-color: #282a3799;
+    color: white;
+}

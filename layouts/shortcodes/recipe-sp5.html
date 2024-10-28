@@ -1,0 +1,31 @@
+<div class="p-2">
+    <div class="text-light rounded"
+        style="background-color: #181921; border: 2px solid #181921; box-shadow: 10px 10px 20px #00000066;">
+
+        <div class="d-inline-block mx-2 mb-2">
+            <span class="circle circle-red"></span>
+            <span class="circle circle-yellow"></span>
+            <span class="circle circle-green"></span>
+        </div>
+
+        <div class="switch-language-bar d-flex">
+            <div class="mx-2" style="opacity: .5;">
+                <img src="https://scottplot.net/images/brand/favicon.svg" width="20" height="20">
+            </div>
+            <button type="button" class="active" onclick="recipe_button_console(this)">Console</button>
+            <button type="button" class="inactive" onclick="recipe_button_winforms(this)">WinForms</button>
+            <button type="button" class="inactive" onclick="recipe_button_wpf(this)">WPF</button>
+            <button type="button" class="inactive" onclick="recipe_button_other(this)">Other</button>
+        </div>
+        <div class="p-2 recipe-code-container" style="background-color: #282a37;">
+            <pre class="m-0"><code class="language-cs">{{ .Inner }}</code></pre>
+            <pre class="m-0 language-cs p-0 border-0 rounded rounded-0"><code class="language-cs"></code></pre>
+        </div>
+        <div class="text-end">
+            <a href="https://github.com/ScottPlot/ScottPlot/tree/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes"
+                style="font-size: 0.8em; opacity: .5;" class="text-light px-2" target="_blank">
+                Edit on GitHub
+            </a>
+        </div>
+    </div>
+</div>
