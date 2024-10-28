@@ -4,9 +4,9 @@ Description: Line plots can be placed on the plot in coordinate space using a St
 URL: /cookbook/5.0/LinePlot/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Line Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/LinePlot"]
-Date: 2024-10-16
-Version: ScottPlot 5.0.40
-Version: ScottPlot 5.0.40
+Date: 2024-10-28
+Version: ScottPlot 5.0.41
+Version: ScottPlot 5.0.41
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Line plots are placed with a start and end location in coordinate space. Their styles can be customized.
 
-[![](/cookbook/5.0/images/LineQuickStart.png?241016194708)](/cookbook/5.0/images/LineQuickStart.png?241016194708)
+[![](/cookbook/5.0/images/LineQuickStart.png?241027220842)](/cookbook/5.0/images/LineQuickStart.png?241027220842)
 
-{{< code-sp5 >}}
+{{< recipe-sp5 >}}
 
 ```cs
 ScottPlot.Plot myPlot = new();
@@ -33,7 +33,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 ```
 
-{{< /code-sp5 >}}
+{{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -42,9 +42,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Line plots can be styled using a LineStyle.
 
-[![](/cookbook/5.0/images/LinePlotStyles.png?241016194708)](/cookbook/5.0/images/LinePlotStyles.png?241016194708)
+[![](/cookbook/5.0/images/LinePlotStyles.png?241027220842)](/cookbook/5.0/images/LinePlotStyles.png?241027220842)
 
-{{< code-sp5 >}}
+{{< recipe-sp5 >}}
 
 ```cs
 ScottPlot.Plot myPlot = new();
@@ -73,7 +73,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 ```
 
-{{< /code-sp5 >}}
+{{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -82,9 +82,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Line plots with labels appear in the legend.
 
-[![](/cookbook/5.0/images/LinePlotLegendQWER.png?241016194708)](/cookbook/5.0/images/LinePlotLegendQWER.png?241016194708)
+[![](/cookbook/5.0/images/LinePlotLegendQWER.png?241027220842)](/cookbook/5.0/images/LinePlotLegendQWER.png?241027220842)
 
-{{< code-sp5 >}}
+{{< recipe-sp5 >}}
 
 ```cs
 ScottPlot.Plot myPlot = new();
@@ -106,7 +106,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 ```
 
-{{< /code-sp5 >}}
+{{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
 

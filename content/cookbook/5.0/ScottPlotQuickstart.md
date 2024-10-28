@@ -4,9 +4,9 @@ Description: A survey of basic functionality in ScottPlot 5
 URL: /cookbook/5.0/ScottPlotQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Quickstart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/ScottPlotQuickstart"]
-Date: 2024-10-16
-Version: ScottPlot 5.0.40
-Version: ScottPlot 5.0.40
+Date: 2024-10-28
+Version: ScottPlot 5.0.41
+Version: ScottPlot 5.0.41
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -16,118 +16,133 @@ ShowEditLink: false
 
 <h2><a href='/cookbook/5.0/ScottPlotQuickstart/QuickstartScatter'>Scatter Plot</a></h2>
 
-Display paired X/Y data as a scatter plot.
+A scatter plot can be used to display X/Y data points.
 
-[![](/cookbook/5.0/images/QuickstartScatter.png?241016194708)](/cookbook/5.0/images/QuickstartScatter.png?241016194708)
+[![](/cookbook/5.0/images/QuickstartScatter.png?241027220842)](/cookbook/5.0/images/QuickstartScatter.png?241027220842)
 
-{{< code-sp5 >}}
+{{< recipe-sp5 >}}
 
 ```cs
 ScottPlot.Plot myPlot = new();
 
+// create sample data
 double[] dataX = { 1, 2, 3, 4, 5 };
 double[] dataY = { 1, 4, 9, 16, 25 };
+
+// add a scatter plot to the plot
 myPlot.Add.Scatter(dataX, dataY);
 
 myPlot.SavePng("demo.png", 400, 300);
 
 ```
 
-{{< /code-sp5 >}}
+{{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
 
 
 <h2><a href='/cookbook/5.0/ScottPlotQuickstart/CustomizingPlottables'>Customizing Plottables</a></h2>
 
-Functions that add things to plots return the plottables they create. Interact with the properties of plottables to customize their styling and behavior.
+Most methods which add items to plots return the item the was added. Save the object that is returned and set its properties to customize it.
 
-[![](/cookbook/5.0/images/CustomizingPlottables.png?241016194708)](/cookbook/5.0/images/CustomizingPlottables.png?241016194708)
+[![](/cookbook/5.0/images/CustomizingPlottables.png?241027220842)](/cookbook/5.0/images/CustomizingPlottables.png?241027220842)
 
-{{< code-sp5 >}}
+{{< recipe-sp5 >}}
 
 ```cs
 ScottPlot.Plot myPlot = new();
 
+// create sample data
 double[] dataX = { 1, 2, 3, 4, 5 };
 double[] dataY = { 1, 4, 9, 16, 25 };
+
+// add a scatter plot to the plot (and save what is returned)
 var myScatter = myPlot.Add.Scatter(dataX, dataY);
-myScatter.Color = Colors.Green.WithOpacity(.2);
+
+// customize the scatter plot
+myScatter.Color = Colors.Green;
 myScatter.LineWidth = 5;
 myScatter.MarkerSize = 15;
+myScatter.MarkerShape = MarkerShape.FilledDiamond;
+myScatter.LinePattern = LinePattern.DenselyDashed;
 
 myPlot.SavePng("demo.png", 400, 300);
 
 ```
 
-{{< /code-sp5 >}}
+{{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
 
 
 <h2><a href='/cookbook/5.0/ScottPlotQuickstart/QuickstartSignal'>Signal Plot</a></h2>
 
-Signal plots are optimized for displaying evenly spaced data.
+Signal plots display Y values at evenly spaced X positions. Signal plots should be used instead of Scatter plots whenever possible.
 
-[![](/cookbook/5.0/images/QuickstartSignal.png?241016194708)](/cookbook/5.0/images/QuickstartSignal.png?241016194708)
+[![](/cookbook/5.0/images/QuickstartSignal.png?241027220842)](/cookbook/5.0/images/QuickstartSignal.png?241027220842)
 
-{{< code-sp5 >}}
+{{< recipe-sp5 >}}
 
 ```cs
 ScottPlot.Plot myPlot = new();
 
+// create sample data
 double[] sin = Generate.Sin(51);
-double[] cos = Generate.Cos(51);
+
+// add a signal plot to the plot
 myPlot.Add.Signal(sin);
-myPlot.Add.Signal(cos);
 
 myPlot.SavePng("demo.png", 400, 300);
 
 ```
 
-{{< /code-sp5 >}}
+{{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
 
 
 <h2><a href='/cookbook/5.0/ScottPlotQuickstart/SignalPerformance'>Signal Plot Performance</a></h2>
 
-Signal plots can interactively display millions of data points in real time. Double-click the plot to display performance benchmarks.
+Signal plots are so performant that they can interactively display millions of data points in real time.
 
-[![](/cookbook/5.0/images/SignalPerformance.png?241016194708)](/cookbook/5.0/images/SignalPerformance.png?241016194708)
+[![](/cookbook/5.0/images/SignalPerformance.png?241027220842)](/cookbook/5.0/images/SignalPerformance.png?241027220842)
 
-{{< code-sp5 >}}
+{{< recipe-sp5 >}}
 
 ```cs
 ScottPlot.Plot myPlot = new();
 
+// create sample data with one million points
 double[] data = Generate.RandomWalk(1_000_000);
+
+// add a signal plot to the plot
 myPlot.Add.Signal(data);
-myPlot.Title("Signal plot with one million points");
 
 myPlot.SavePng("demo.png", 400, 300);
 
 ```
 
-{{< /code-sp5 >}}
+{{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
 
 
 <h2><a href='/cookbook/5.0/ScottPlotQuickstart/QuickstartAxisLabels'>Axis Labels</a></h2>
 
-Axis labels can be extensively customized.
+Plots have helper methods for quickly setting axis labels. Refer to other cookbook pages for additional axis customization options.
 
-[![](/cookbook/5.0/images/QuickstartAxisLabels.png?241016194708)](/cookbook/5.0/images/QuickstartAxisLabels.png?241016194708)
+[![](/cookbook/5.0/images/QuickstartAxisLabels.png?241027220842)](/cookbook/5.0/images/QuickstartAxisLabels.png?241027220842)
 
-{{< code-sp5 >}}
+{{< recipe-sp5 >}}
 
 ```cs
 ScottPlot.Plot myPlot = new();
 
+// plot sample data
 myPlot.Add.Signal(Generate.Sin(51));
 myPlot.Add.Signal(Generate.Cos(51));
 
+// customize axis labels
 myPlot.XLabel("Horizonal Axis");
 myPlot.YLabel("Vertical Axis");
 myPlot.Title("Plot Title");
@@ -136,67 +151,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 ```
 
-{{< /code-sp5 >}}
-
-<hr class='my-5 invisible'>
-
-
-<h2><a href='/cookbook/5.0/ScottPlotQuickstart/Legend'>Legend</a></h2>
-
-A legend displays plottables in a key along the edge of a plot. Most plottables have a Label property which configures what text appears in the legend.
-
-[![](/cookbook/5.0/images/Legend.png?241016194708)](/cookbook/5.0/images/Legend.png?241016194708)
-
-{{< code-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
-
-var sig1 = myPlot.Add.Signal(Generate.Sin(51));
-sig1.LegendText = "Sin";
-
-var sig2 = myPlot.Add.Signal(Generate.Cos(51));
-sig2.LegendText = "Cos";
-
-myPlot.ShowLegend();
-
-myPlot.SavePng("demo.png", 400, 300);
-
-```
-
-{{< /code-sp5 >}}
-
-<hr class='my-5 invisible'>
-
-
-<h2><a href='/cookbook/5.0/ScottPlotQuickstart/AddPlottablesManually'>Add Plottables Manually</a></h2>
-
-Although the Plot.Add class has many helpful methods for creating plottable objects and adding them to the plot, users can instantiate plottable objects themselves and use Add.Plottable() to place it on the plot. This stategy allows users to create their own plottables (implementing IPlottable) with custom appearance or behavior.
-
-[![](/cookbook/5.0/images/AddPlottablesManually.png?241016194708)](/cookbook/5.0/images/AddPlottablesManually.png?241016194708)
-
-{{< code-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
-
-// create a plottable and modify it as desired
-ScottPlot.Plottables.Arrow arrow = new()
-{
-    Base = new Coordinates(1, 2),
-    Tip = new Coordinates(3, 4),
-};
-
-// add the custom plottable to the plot
-myPlot.Add.Plottable(arrow);
-
-myPlot.ShowLegend();
-
-myPlot.SavePng("demo.png", 400, 300);
-
-```
-
-{{< /code-sp5 >}}
+{{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
 

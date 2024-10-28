@@ -4,9 +4,9 @@ Description: Images can be placed on plots in a variety of ways
 URL: /cookbook/5.0/Images/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Images"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Images"]
-Date: 2024-10-16
-Version: ScottPlot 5.0.40
-Version: ScottPlot 5.0.40
+Date: 2024-10-28
+Version: ScottPlot 5.0.41
+Version: ScottPlot 5.0.41
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 An image can be drawn inside a rectangle defined in coordinate units.
 
-[![](/cookbook/5.0/images/ImageRectQuickstart.png?241016194708)](/cookbook/5.0/images/ImageRectQuickstart.png?241016194708)
+[![](/cookbook/5.0/images/ImageRectQuickstart.png?241027220842)](/cookbook/5.0/images/ImageRectQuickstart.png?241027220842)
 
-{{< code-sp5 >}}
+{{< recipe-sp5 >}}
 
 ```cs
 ScottPlot.Plot myPlot = new();
@@ -36,7 +36,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 ```
 
-{{< /code-sp5 >}}
+{{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
 

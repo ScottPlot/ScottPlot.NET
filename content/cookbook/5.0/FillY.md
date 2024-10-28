@@ -4,9 +4,9 @@ Description: FillY plots display the vertical range between two Y values at defi
 URL: /cookbook/5.0/FillY/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "FillY plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/FillY"]
-Date: 2024-10-16
-Version: ScottPlot 5.0.40
-Version: ScottPlot 5.0.40
+Date: 2024-10-28
+Version: ScottPlot 5.0.41
+Version: ScottPlot 5.0.41
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 FillY plots can be created from X, Y1, and Y2 arrays.
 
-[![](/cookbook/5.0/images/FillYFromArrays.png?241016194708)](/cookbook/5.0/images/FillYFromArrays.png?241016194708)
+[![](/cookbook/5.0/images/FillYFromArrays.png?241027220842)](/cookbook/5.0/images/FillYFromArrays.png?241027220842)
 
-{{< code-sp5 >}}
+{{< recipe-sp5 >}}
 
 ```cs
 ScottPlot.Plot myPlot = new();
@@ -42,7 +42,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 ```
 
-{{< /code-sp5 >}}
+{{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -51,9 +51,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 FillY plots can be created from two scatter plots that share the same X values.
 
-[![](/cookbook/5.0/images/FillYFromScatters.png?241016194708)](/cookbook/5.0/images/FillYFromScatters.png?241016194708)
+[![](/cookbook/5.0/images/FillYFromScatters.png?241027220842)](/cookbook/5.0/images/FillYFromScatters.png?241027220842)
 
-{{< code-sp5 >}}
+{{< recipe-sp5 >}}
 
 ```cs
 ScottPlot.Plot myPlot = new();
@@ -79,7 +79,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 ```
 
-{{< /code-sp5 >}}
+{{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -88,9 +88,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 FillY plots can be created from data of any type if a conversion function is supplied.
 
-[![](/cookbook/5.0/images/Function.png?241016194708)](/cookbook/5.0/images/Function.png?241016194708)
+[![](/cookbook/5.0/images/Function.png?241027220842)](/cookbook/5.0/images/Function.png?241027220842)
 
-{{< code-sp5 >}}
+{{< recipe-sp5 >}}
 
 ```cs
 ScottPlot.Plot myPlot = new();
@@ -118,7 +118,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 ```
 
-{{< /code-sp5 >}}
+{{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -127,9 +127,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 FillY plots can be customized using public properties.
 
-[![](/cookbook/5.0/images/Styling.png?241016194708)](/cookbook/5.0/images/Styling.png?241016194708)
+[![](/cookbook/5.0/images/Styling.png?241027220842)](/cookbook/5.0/images/Styling.png?241027220842)
 
-{{< code-sp5 >}}
+{{< recipe-sp5 >}}
 
 ```cs
 ScottPlot.Plot myPlot = new();
@@ -159,7 +159,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 ```
 
-{{< /code-sp5 >}}
+{{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
 

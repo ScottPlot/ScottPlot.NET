@@ -4,9 +4,9 @@ Description: Scalebars display a horizontal and/or vertical range using a line s
 URL: /cookbook/5.0/ScaleBar/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Scale Bar"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/ScaleBar"]
-Date: 2024-10-16
-Version: ScottPlot 5.0.40
-Version: ScottPlot 5.0.40
+Date: 2024-10-28
+Version: ScottPlot 5.0.41
+Version: ScottPlot 5.0.41
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 A ScaleBar can be added to a plot to convey scale information allowing axis frames, ticks, and labels to be hidden.
 
-[![](/cookbook/5.0/images/ScaleBarQuickstart.png?241016194708)](/cookbook/5.0/images/ScaleBarQuickstart.png?241016194708)
+[![](/cookbook/5.0/images/ScaleBarQuickstart.png?241027220842)](/cookbook/5.0/images/ScaleBarQuickstart.png?241027220842)
 
-{{< code-sp5 >}}
+{{< recipe-sp5 >}}
 
 ```cs
 ScottPlot.Plot myPlot = new();
@@ -40,7 +40,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 ```
 
-{{< /code-sp5 >}}
+{{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -49,9 +49,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Text may be added to each dimension of an L shaped scalebar
 
-[![](/cookbook/5.0/images/ScaleBarLabels.png?241016194708)](/cookbook/5.0/images/ScaleBarLabels.png?241016194708)
+[![](/cookbook/5.0/images/ScaleBarLabels.png?241027220842)](/cookbook/5.0/images/ScaleBarLabels.png?241027220842)
 
-{{< code-sp5 >}}
+{{< recipe-sp5 >}}
 
 ```cs
 ScottPlot.Plot myPlot = new();
@@ -73,7 +73,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 ```
 
-{{< /code-sp5 >}}
+{{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -82,9 +82,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 The ScaleBar has many properties which may be customized 
 
-[![](/cookbook/5.0/images/ScaleBarStyling.png?241016194708)](/cookbook/5.0/images/ScaleBarStyling.png?241016194708)
+[![](/cookbook/5.0/images/ScaleBarStyling.png?241027220842)](/cookbook/5.0/images/ScaleBarStyling.png?241027220842)
 
-{{< code-sp5 >}}
+{{< recipe-sp5 >}}
 
 ```cs
 ScottPlot.Plot myPlot = new();
@@ -106,7 +106,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 ```
 
-{{< /code-sp5 >}}
+{{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -115,9 +115,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Set Width or Height to 0 to cause the ScaleBar to use a single axis only
 
-[![](/cookbook/5.0/images/ScaleBarSingleDimension.png?241016194708)](/cookbook/5.0/images/ScaleBarSingleDimension.png?241016194708)
+[![](/cookbook/5.0/images/ScaleBarSingleDimension.png?241027220842)](/cookbook/5.0/images/ScaleBarSingleDimension.png?241027220842)
 
-{{< code-sp5 >}}
+{{< recipe-sp5 >}}
 
 ```cs
 ScottPlot.Plot myPlot = new();
@@ -141,7 +141,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 ```
 
-{{< /code-sp5 >}}
+{{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
 

@@ -4,9 +4,9 @@ Description: A lollipop chart is a variation of a bar chart that uses a line (st
 URL: /cookbook/5.0/Lollipop/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Lollipop Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Lollipop"]
-Date: 2024-10-16
-Version: ScottPlot 5.0.40
-Version: ScottPlot 5.0.40
+Date: 2024-10-28
+Version: ScottPlot 5.0.41
+Version: ScottPlot 5.0.41
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Lollipop plots can be created from a sequence of values
 
-[![](/cookbook/5.0/images/LollipopQuickStart.png?241016194708)](/cookbook/5.0/images/LollipopQuickStart.png?241016194708)
+[![](/cookbook/5.0/images/LollipopQuickStart.png?241027220842)](/cookbook/5.0/images/LollipopQuickStart.png?241027220842)
 
-{{< code-sp5 >}}
+{{< recipe-sp5 >}}
 
 ```cs
 ScottPlot.Plot myPlot = new();
@@ -32,7 +32,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 ```
 
-{{< /code-sp5 >}}
+{{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -41,9 +41,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 The position of each lollipop may be defined.
 
-[![](/cookbook/5.0/images/LollipopPositions.png?241016194708)](/cookbook/5.0/images/LollipopPositions.png?241016194708)
+[![](/cookbook/5.0/images/LollipopPositions.png?241027220842)](/cookbook/5.0/images/LollipopPositions.png?241027220842)
 
-{{< code-sp5 >}}
+{{< recipe-sp5 >}}
 
 ```cs
 ScottPlot.Plot myPlot = new();
@@ -56,7 +56,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 ```
 
-{{< /code-sp5 >}}
+{{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -65,9 +65,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 The stem line and head marker can be extensively customized.
 
-[![](/cookbook/5.0/images/BarLollipopCustom.png?241016194708)](/cookbook/5.0/images/BarLollipopCustom.png?241016194708)
+[![](/cookbook/5.0/images/BarLollipopCustom.png?241027220842)](/cookbook/5.0/images/BarLollipopCustom.png?241027220842)
 
-{{< code-sp5 >}}
+{{< recipe-sp5 >}}
 
 ```cs
 ScottPlot.Plot myPlot = new();
@@ -87,7 +87,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 ```
 
-{{< /code-sp5 >}}
+{{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -96,9 +96,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Change the lollipop plot's Orientation to Horizontal to cause stems to be drawn horizontally instead of vertically.
 
-[![](/cookbook/5.0/images/LollipopHorizontal.png?241016194708)](/cookbook/5.0/images/LollipopHorizontal.png?241016194708)
+[![](/cookbook/5.0/images/LollipopHorizontal.png?241027220842)](/cookbook/5.0/images/LollipopHorizontal.png?241027220842)
 
-{{< code-sp5 >}}
+{{< recipe-sp5 >}}
 
 ```cs
 ScottPlot.Plot myPlot = new();
@@ -114,7 +114,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 ```
 
-{{< /code-sp5 >}}
+{{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
 

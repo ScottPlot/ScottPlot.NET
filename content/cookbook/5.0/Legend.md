@@ -1,26 +1,26 @@
 ---
-Title: Configuring Legends - ScottPlot 5.0 Cookbook
+Title: Legends - ScottPlot 5.0 Cookbook
 Description: A legend is a key typically displayed in the corner of a plot
 URL: /cookbook/5.0/Legend/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Configuring Legends"]
+BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Legends"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Legend"]
-Date: 2024-10-16
-Version: ScottPlot 5.0.40
-Version: ScottPlot 5.0.40
+Date: 2024-10-28
+Version: ScottPlot 5.0.41
+Version: ScottPlot 5.0.41
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
 
-# Configuring Legends
+# Legends
 
 
 <h2><a href='/cookbook/5.0/Legend/LegendQuickstart'>Legend Quickstart</a></h2>
 
 Many plottables have a Label property that can be set so they appear in the legend.
 
-[![](/cookbook/5.0/images/LegendQuickstart.png?241016194708)](/cookbook/5.0/images/LegendQuickstart.png?241016194708)
+[![](/cookbook/5.0/images/LegendQuickstart.png?241027220842)](/cookbook/5.0/images/LegendQuickstart.png?241027220842)
 
-{{< code-sp5 >}}
+{{< recipe-sp5 >}}
 
 ```cs
 ScottPlot.Plot myPlot = new();
@@ -37,7 +37,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 ```
 
-{{< /code-sp5 >}}
+{{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -46,9 +46,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Legends may be constructed manually.
 
-[![](/cookbook/5.0/images/ManualLegend.png?241016194708)](/cookbook/5.0/images/ManualLegend.png?241016194708)
+[![](/cookbook/5.0/images/ManualLegend.png?241027220842)](/cookbook/5.0/images/ManualLegend.png?241027220842)
 
-{{< code-sp5 >}}
+{{< recipe-sp5 >}}
 
 ```cs
 ScottPlot.Plot myPlot = new();
@@ -82,7 +82,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 ```
 
-{{< /code-sp5 >}}
+{{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -91,9 +91,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Access the Legend object directly for advanced customization options.
 
-[![](/cookbook/5.0/images/LegendStyle.png?241016194708)](/cookbook/5.0/images/LegendStyle.png?241016194708)
+[![](/cookbook/5.0/images/LegendStyle.png?241027220842)](/cookbook/5.0/images/LegendStyle.png?241027220842)
 
-{{< code-sp5 >}}
+{{< recipe-sp5 >}}
 
 ```cs
 ScottPlot.Plot myPlot = new();
@@ -121,7 +121,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 ```
 
-{{< /code-sp5 >}}
+{{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -130,9 +130,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Legend items may be arranged horizontally instead of vertically
 
-[![](/cookbook/5.0/images/LegendOrientation.png?241016194708)](/cookbook/5.0/images/LegendOrientation.png?241016194708)
+[![](/cookbook/5.0/images/LegendOrientation.png?241027220842)](/cookbook/5.0/images/LegendOrientation.png?241027220842)
 
-{{< code-sp5 >}}
+{{< recipe-sp5 >}}
 
 ```cs
 ScottPlot.Plot myPlot = new();
@@ -151,7 +151,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 ```
 
-{{< /code-sp5 >}}
+{{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -160,9 +160,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Legend items may wrap to improve display for a large number of items
 
-[![](/cookbook/5.0/images/LegendWrapping.png?241016194708)](/cookbook/5.0/images/LegendWrapping.png?241016194708)
+[![](/cookbook/5.0/images/LegendWrapping.png?241027220842)](/cookbook/5.0/images/LegendWrapping.png?241027220842)
 
-{{< code-sp5 >}}
+{{< recipe-sp5 >}}
 
 ```cs
 ScottPlot.Plot myPlot = new();
@@ -181,7 +181,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 ```
 
-{{< /code-sp5 >}}
+{{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -190,9 +190,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Multiple legends may be added to a plot
 
-[![](/cookbook/5.0/images/LegendMultiple.png?241016194708)](/cookbook/5.0/images/LegendMultiple.png?241016194708)
+[![](/cookbook/5.0/images/LegendMultiple.png?241027220842)](/cookbook/5.0/images/LegendMultiple.png?241027220842)
 
-{{< code-sp5 >}}
+{{< recipe-sp5 >}}
 
 ```cs
 ScottPlot.Plot myPlot = new();
@@ -219,7 +219,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 ```
 
-{{< /code-sp5 >}}
+{{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -228,9 +228,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Use the ShowLegend() overload that accepts an Edge to display the legend outside the data area.
 
-[![](/cookbook/5.0/images/LegendOutside.png?241016194708)](/cookbook/5.0/images/LegendOutside.png?241016194708)
+[![](/cookbook/5.0/images/LegendOutside.png?241027220842)](/cookbook/5.0/images/LegendOutside.png?241027220842)
 
-{{< code-sp5 >}}
+{{< recipe-sp5 >}}
 
 ```cs
 ScottPlot.Plot myPlot = new();
@@ -247,7 +247,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 ```
 
-{{< /code-sp5 >}}
+{{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -256,9 +256,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Use custom fonts from TTF files in the legend.
 
-[![](/cookbook/5.0/images/LegendCustomFontAutomaticItems.png?241016194708)](/cookbook/5.0/images/LegendCustomFontAutomaticItems.png?241016194708)
+[![](/cookbook/5.0/images/LegendCustomFontAutomaticItems.png?241027220842)](/cookbook/5.0/images/LegendCustomFontAutomaticItems.png?241027220842)
 
-{{< code-sp5 >}}
+{{< recipe-sp5 >}}
 
 ```cs
 ScottPlot.Plot myPlot = new();
@@ -281,7 +281,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 ```
 
-{{< /code-sp5 >}}
+{{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -290,9 +290,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Use custom fonts from TTF files in the legend (manual legend items).
 
-[![](/cookbook/5.0/images/LegendCustomFontManualItems.png?241016194708)](/cookbook/5.0/images/LegendCustomFontManualItems.png?241016194708)
+[![](/cookbook/5.0/images/LegendCustomFontManualItems.png?241027220842)](/cookbook/5.0/images/LegendCustomFontManualItems.png?241027220842)
 
-{{< code-sp5 >}}
+{{< recipe-sp5 >}}
 
 ```cs
 ScottPlot.Plot myPlot = new();
@@ -323,7 +323,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 ```
 
-{{< /code-sp5 >}}
+{{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
 

@@ -4,9 +4,9 @@ Description: A Crosshair combines a horizontal axis line and vertical axis line 
 URL: /cookbook/5.0/Crosshair/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Crosshair"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Crosshair"]
-Date: 2024-10-16
-Version: ScottPlot 5.0.40
-Version: ScottPlot 5.0.40
+Date: 2024-10-28
+Version: ScottPlot 5.0.41
+Version: ScottPlot 5.0.41
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 A Crosshair combines a horizontal axis line and vertical axis line to mark a location in coordinate space.
 
-[![](/cookbook/5.0/images/CrosshairQuickstart.png?241016194708)](/cookbook/5.0/images/CrosshairQuickstart.png?241016194708)
+[![](/cookbook/5.0/images/CrosshairQuickstart.png?241027220842)](/cookbook/5.0/images/CrosshairQuickstart.png?241027220842)
 
-{{< code-sp5 >}}
+{{< recipe-sp5 >}}
 
 ```cs
 ScottPlot.Plot myPlot = new();
@@ -34,7 +34,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 ```
 
-{{< /code-sp5 >}}
+{{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
 
@@ -43,9 +43,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Crosshairs can be extensively customized.
 
-[![](/cookbook/5.0/images/CrosshairCustomization.png?241016194708)](/cookbook/5.0/images/CrosshairCustomization.png?241016194708)
+[![](/cookbook/5.0/images/CrosshairCustomization.png?241027220842)](/cookbook/5.0/images/CrosshairCustomization.png?241027220842)
 
-{{< code-sp5 >}}
+{{< recipe-sp5 >}}
 
 ```cs
 ScottPlot.Plot myPlot = new();
@@ -66,7 +66,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 ```
 
-{{< /code-sp5 >}}
+{{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
 
