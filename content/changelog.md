@@ -9,7 +9,7 @@ Release notes for every version of ScottPlot
 
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 5.0.41</h1>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2024-10-27</i></div>
 <div class='mt-1'>
 <ul>
 <li>Controls: marked <code>Interaction</code> as <code>Obsolete</code> to encourage use of the newer <code>UserInputProcessor</code> documented in all the demo apps. Users may still activate the old system by calling <code>myPlotControl.Interaction.Enable()</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/4322">#4322</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4224">#4224</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3186">#3186</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4053">#4053</a>)
@@ -44,6 +44,8 @@ Release notes for every version of ScottPlot
 </li>
 <li>DataLogger: Add <code>Clear()</code> to the data logging plottable ands its corresponding data source (<a href="https://github.com/ScottPlot/ScottPlot/issues/4377">#4377</a>) <a href="https://github.com/h135558"><strong>@h135558</strong></a>
 </li>
+<li>Cookbook: Improved recipes, reorganized chapters, and added platform switching to the website (<a href="https://github.com/ScottPlot/ScottPlot/issues/4392">#4392</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
@@ -56,7 +58,7 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/idotta'><img src='https://scottplot.net/images/contributors/idotta.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/vilgotf'><img src='https://scottplot.net/images/contributors/vilgotf.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/quantfreedom'><img src='https://scottplot.net/images/contributors/quantfreedom.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/h135558'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/h135558'><img src='https://scottplot.net/images/contributors/h135558.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
