@@ -16,12 +16,9 @@ ShowEditLink: false
 
 The user may customize where data is drawn relative to the bar or box. Centering everything can be used to achieve an effect where data points are drawn over the bar or box.
 
-[![](/cookbook/5.0/images/PopulationArrangement.png?241027220842)](/cookbook/5.0/images/PopulationArrangement.png?241027220842)
+[![](/cookbook/5.0/images/PopulationArrangement.png?241027221943)](/cookbook/5.0/images/PopulationArrangement.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 for (int i = 0; i < 5; i++)
 {
@@ -42,9 +39,6 @@ myPlot.Axes.Margins(bottom: 0);
 myPlot.HideGrid();
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <a href='https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Population.cs'><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="mb-1 bi bi-github" viewBox="0 0 16 16">

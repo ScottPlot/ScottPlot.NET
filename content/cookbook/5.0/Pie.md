@@ -18,12 +18,9 @@ ShowEditLink: false
 
 A pie chart can be created from a few values.
 
-[![](/cookbook/5.0/images/PieQuickstart.png?241027220842)](/cookbook/5.0/images/PieQuickstart.png?241027220842)
+[![](/cookbook/5.0/images/PieQuickstart.png?241027221943)](/cookbook/5.0/images/PieQuickstart.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 double[] values = { 5, 2, 8, 4, 8 };
 var pie = myPlot.Add.Pie(values);
@@ -34,9 +31,6 @@ myPlot.Axes.Frameless();
 myPlot.HideGrid();
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -46,12 +40,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 A pie chart can be created from a collection of slices.
 
-[![](/cookbook/5.0/images/PieSlices.png?241027220842)](/cookbook/5.0/images/PieSlices.png?241027220842)
+[![](/cookbook/5.0/images/PieSlices.png?241027221943)](/cookbook/5.0/images/PieSlices.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 List<PieSlice> slices =
 [
@@ -73,9 +64,6 @@ myPlot.Axes.Frameless();
 myPlot.HideGrid();
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -85,12 +73,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 A donut chart is a pie chart with an open center. Donut charts can be created from a collection of slices.
 
-[![](/cookbook/5.0/images/PieDonut.png?241027220842)](/cookbook/5.0/images/PieDonut.png?241027220842)
+[![](/cookbook/5.0/images/PieDonut.png?241027221943)](/cookbook/5.0/images/PieDonut.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 List<PieSlice> slices = new()
 {
@@ -111,9 +96,6 @@ myPlot.Axes.Frameless();
 myPlot.HideGrid();
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -123,12 +105,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Pie charts may be rotated to control where the first slice begins.
 
-[![](/cookbook/5.0/images/PieRotation.png?241027220842)](/cookbook/5.0/images/PieRotation.png?241027220842)
+[![](/cookbook/5.0/images/PieRotation.png?241027221943)](/cookbook/5.0/images/PieRotation.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 double[] values = { 5, 2, 8, 4, 8 };
 var pie = myPlot.Add.Pie(values);
@@ -140,9 +119,6 @@ myPlot.Axes.Frameless();
 myPlot.HideGrid();
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -152,12 +128,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Slice labels can be displayed centered with the slice at a customizable distance from the center of the pie.
 
-[![](/cookbook/5.0/images/PieSliceLabels.png?241027220842)](/cookbook/5.0/images/PieSliceLabels.png?241027220842)
+[![](/cookbook/5.0/images/PieSliceLabels.png?241027221943)](/cookbook/5.0/images/PieSliceLabels.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 PieSlice slice1 = new() { Value = 5, FillColor = Colors.Red, Label = "alpha" };
 PieSlice slice2 = new() { Value = 2, FillColor = Colors.Orange, Label = "beta" };
@@ -185,9 +158,6 @@ myPlot.Axes.Frameless();
 myPlot.HideGrid();
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -197,12 +167,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Slice labels may be adapted to display any text (including numerical values) centered over each slice.
 
-[![](/cookbook/5.0/images/PieSliceLabelsPercent.png?241027220842)](/cookbook/5.0/images/PieSliceLabelsPercent.png?241027220842)
+[![](/cookbook/5.0/images/PieSliceLabelsPercent.png?241027221943)](/cookbook/5.0/images/PieSliceLabelsPercent.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 // create a pie chart
 double[] values = [6, 8, 10];
@@ -228,9 +195,6 @@ myPlot.Axes.Frameless();
 myPlot.HideGrid();
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -240,12 +204,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Pie slices may have labels independent from those displayed in the legend.
 
-[![](/cookbook/5.0/images/PieSliceLabelsAndLegend.png?241027220842)](/cookbook/5.0/images/PieSliceLabelsAndLegend.png?241027220842)
+[![](/cookbook/5.0/images/PieSliceLabelsAndLegend.png?241027221943)](/cookbook/5.0/images/PieSliceLabelsAndLegend.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 // create a pie chart
 double[] values = [6, 8, 10];
@@ -268,9 +229,6 @@ myPlot.Axes.Frameless();
 myPlot.HideGrid();
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>

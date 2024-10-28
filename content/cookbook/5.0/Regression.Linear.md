@@ -16,12 +16,9 @@ ShowEditLink: false
 
 Fit a line to a collection of X/Y data points.
 
-[![](/cookbook/5.0/images/Linear.png?241027220842)](/cookbook/5.0/images/Linear.png?241027220842)
+[![](/cookbook/5.0/images/Linear.png?241027221943)](/cookbook/5.0/images/Linear.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 double[] xs = new double[] { 1, 2, 3, 4, 5, 6, 7 };
 double[] ys = new double[] { 2, 2, 3, 3, 3.8, 4.2, 4 };
@@ -46,9 +43,6 @@ line.LinePattern = LinePattern.Dashed;
 myPlot.Title(reg.FormulaWithRSquared);
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <a href='https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Miscellaneous/Regression.cs'><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="mb-1 bi bi-github" viewBox="0 0 16 16">

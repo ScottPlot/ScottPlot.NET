@@ -18,20 +18,14 @@ ShowEditLink: false
 
 Heatmaps can be created from 2D arrays
 
-[![](/cookbook/5.0/images/HeatmapQuickstart.png?241027220842)](/cookbook/5.0/images/HeatmapQuickstart.png?241027220842)
+[![](/cookbook/5.0/images/HeatmapQuickstart.png?241027221943)](/cookbook/5.0/images/HeatmapQuickstart.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 double[,] data = SampleData.MonaLisa();
 myPlot.Add.Heatmap(data);
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -41,12 +35,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Heatmaps can be inverted by reversing the order of colors in the colormap
 
-[![](/cookbook/5.0/images/HeatmapInverted.png?241027220842)](/cookbook/5.0/images/HeatmapInverted.png?241027220842)
+[![](/cookbook/5.0/images/HeatmapInverted.png?241027221943)](/cookbook/5.0/images/HeatmapInverted.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 double[,] data = SampleData.MonaLisa();
 
@@ -59,9 +50,6 @@ hm2.Colormap = new ScottPlot.Colormaps.Viridis().Reversed();
 hm2.Position = new(100, 165, 0, 100);
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -71,12 +59,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 A heatmap's Colormap is the logic used to convert from cell value to cell color and they can set by the user. ScottPlot comes with many common colormaps, but users may implement IColormap and apply their own. A colorbar can be added to indicate which colors map to which values.
 
-[![](/cookbook/5.0/images/HeatmapColormap.png?241027220842)](/cookbook/5.0/images/HeatmapColormap.png?241027220842)
+[![](/cookbook/5.0/images/HeatmapColormap.png?241027221943)](/cookbook/5.0/images/HeatmapColormap.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 double[,] data = SampleData.MonaLisa();
 
@@ -86,9 +71,6 @@ hm1.Colormap = new ScottPlot.Colormaps.Turbo();
 myPlot.Add.ColorBar(hm1);
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -98,12 +80,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Multiple colorbars may be added to plots.
 
-[![](/cookbook/5.0/images/HeatmapMultipleColorbar.png?241027220842)](/cookbook/5.0/images/HeatmapMultipleColorbar.png?241027220842)
+[![](/cookbook/5.0/images/HeatmapMultipleColorbar.png?241027221943)](/cookbook/5.0/images/HeatmapMultipleColorbar.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 double[,] data = SampleData.MonaLisa();
 
@@ -118,9 +97,6 @@ hm2.Colormap = new ScottPlot.Colormaps.Viridis();
 myPlot.Add.ColorBar(hm2);
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -130,12 +106,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 A colorbar displays a colormap on an edge of the plot, and it has an optional label which can be customized to display a title.
 
-[![](/cookbook/5.0/images/ColorbarTitle.png?241027220842)](/cookbook/5.0/images/ColorbarTitle.png?241027220842)
+[![](/cookbook/5.0/images/ColorbarTitle.png?241027221943)](/cookbook/5.0/images/ColorbarTitle.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 double[,] data = SampleData.MonaLisa();
 
@@ -147,9 +120,6 @@ cb.Label = "Intensity";
 cb.LabelStyle.FontSize = 24;
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -159,12 +129,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Colorbars have an optional custom tick formatter that allows users to control the string format of tick labels.
 
-[![](/cookbook/5.0/images/ColorbarTickFormatter.png?241027220842)](/cookbook/5.0/images/ColorbarTickFormatter.png?241027220842)
+[![](/cookbook/5.0/images/ColorbarTickFormatter.png?241027221943)](/cookbook/5.0/images/ColorbarTickFormatter.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 double[,] data = SampleData.MonaLisa();
 
@@ -187,9 +154,6 @@ ScottPlot.TickGenerators.NumericAutomatic myTickGenerator = new()
 cb.Axis.TickGenerator = myTickGenerator;
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -199,12 +163,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Heatmaps can be flipped horizontally and/or vertically
 
-[![](/cookbook/5.0/images/HeatmapFlip.png?241027220842)](/cookbook/5.0/images/HeatmapFlip.png?241027220842)
+[![](/cookbook/5.0/images/HeatmapFlip.png?241027221943)](/cookbook/5.0/images/HeatmapFlip.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 double[,] data = SampleData.MonaLisa();
 
@@ -231,9 +192,6 @@ hm4.FlipVertically = true;
 myPlot.Axes.SetLimits(-.5, 7.5, -1, 2);
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -243,12 +201,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Enable the `Smooth` property for anti-aliased rendering
 
-[![](/cookbook/5.0/images/HeatmapSmooth.png?241027220842)](/cookbook/5.0/images/HeatmapSmooth.png?241027220842)
+[![](/cookbook/5.0/images/HeatmapSmooth.png?241027221943)](/cookbook/5.0/images/HeatmapSmooth.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 double[,] data = SampleData.MonaLisa();
 
@@ -262,9 +217,6 @@ hm2.Position = new CoordinateRect(1.1, 2.1, 0, 1);
 hm2.Smooth = true;
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -274,12 +226,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Assign double.NaN to a heatmap cell to make it transparent.
 
-[![](/cookbook/5.0/images/HeatmapTransparentCells.png?241027220842)](/cookbook/5.0/images/HeatmapTransparentCells.png?241027220842)
+[![](/cookbook/5.0/images/HeatmapTransparentCells.png?241027221943)](/cookbook/5.0/images/HeatmapTransparentCells.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 // start with 2D data and set some cells to NaN
 double[,] data = SampleData.MonaLisa();
@@ -305,9 +254,6 @@ hm2.Position = new(40, 55, -.5, .75);
 hm2.NaNCellColor = Colors.Magenta.WithAlpha(.4);
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -317,12 +263,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 The transparency of the entire heatmap can be adjusted.
 
-[![](/cookbook/5.0/images/HeatmapGlobalTransparency.png?241027220842)](/cookbook/5.0/images/HeatmapGlobalTransparency.png?241027220842)
+[![](/cookbook/5.0/images/HeatmapGlobalTransparency.png?241027221943)](/cookbook/5.0/images/HeatmapGlobalTransparency.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 double[,] data = SampleData.MonaLisa();
 
@@ -336,9 +279,6 @@ hm.Position = new(10, 35, -1.5, .5);
 hm.Opacity = 0.5;
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -348,12 +288,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 An alpha map (a 2d array of byte values) can be used to apply custom transparency to each cell of a heatmap.
 
-[![](/cookbook/5.0/images/HeatmapAlphaMap.png?241027220842)](/cookbook/5.0/images/HeatmapAlphaMap.png?241027220842)
+[![](/cookbook/5.0/images/HeatmapAlphaMap.png?241027221943)](/cookbook/5.0/images/HeatmapAlphaMap.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 // data values are translated to color based on the heatmap's colormap
 double[,] data = SampleData.MonaLisa();
@@ -381,9 +318,6 @@ hm.Position = new(10, 35, -1.5, .5);
 hm.AlphaMap = alphaMap;
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -393,12 +327,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 A frameless heatmap can be achieved by disabling axis labels and ticks, then setting the margins to 0 so the data area tightly fits the data.
 
-[![](/cookbook/5.0/images/FramelessHeatmap.png?241027220842)](/cookbook/5.0/images/FramelessHeatmap.png?241027220842)
+[![](/cookbook/5.0/images/FramelessHeatmap.png?241027221943)](/cookbook/5.0/images/FramelessHeatmap.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 double[,] data = {
     { 1, 2, 3 },
@@ -416,9 +347,6 @@ myPlot.Layout.Frameless();
 myPlot.Axes.Margins(0, 0);
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -428,12 +356,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Heatmap cells are aligned in their centers by default. This means that the bottom left cell will be centered at (0, 0), and its lower left corner will be to the lower left of the origin. Setting sell alignment to lower left causes the lower left of the heatmap to be exactly at (0, 0).
 
-[![](/cookbook/5.0/images/HeatmapCellAlignment.png?241027220842)](/cookbook/5.0/images/HeatmapCellAlignment.png?241027220842)
+[![](/cookbook/5.0/images/HeatmapCellAlignment.png?241027221943)](/cookbook/5.0/images/HeatmapCellAlignment.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 double[,] data = {
     { 1, 2, 3 },
@@ -445,9 +370,6 @@ var hm = myPlot.Add.Heatmap(data);
 hm.CellAlignment = Alignment.LowerLeft;
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -457,12 +379,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Dimensions of a heatmap may be set by specifying how large a cell should be in pixel units.
 
-[![](/cookbook/5.0/images/HeatmapCellSize.png?241027220842)](/cookbook/5.0/images/HeatmapCellSize.png?241027220842)
+[![](/cookbook/5.0/images/HeatmapCellSize.png?241027221943)](/cookbook/5.0/images/HeatmapCellSize.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 double[,] data = {
     { 1, 2, 3 },
@@ -476,9 +395,6 @@ hm.CellWidth = 100;
 hm.CellHeight = 10;
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -488,12 +404,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 The user can define the range of values to represent with colors in the colormap. Values outside that range will be clipped to the nearest color in the colormap.
 
-[![](/cookbook/5.0/images/HeatmapManualRange.png?241027220842)](/cookbook/5.0/images/HeatmapManualRange.png?241027220842)
+[![](/cookbook/5.0/images/HeatmapManualRange.png?241027221943)](/cookbook/5.0/images/HeatmapManualRange.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 // sample data values range from 0-255
 double[,] data = SampleData.MonaLisa();
@@ -507,9 +420,6 @@ myPlot.Add.ColorBar(hm);
 hm.ManualRange = new(50, 150);
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>

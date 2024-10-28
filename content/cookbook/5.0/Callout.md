@@ -18,12 +18,9 @@ ShowEditLink: false
 
 Callouts display a label and are connected with an arrow that marks a point on the plot.
 
-[![](/cookbook/5.0/images/CalloutQuickstart.png?241027220842)](/cookbook/5.0/images/CalloutQuickstart.png?241027220842)
+[![](/cookbook/5.0/images/CalloutQuickstart.png?241027221943)](/cookbook/5.0/images/CalloutQuickstart.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 double[] xs = Generate.Consecutive(15);
 double[] ys = Generate.Sin(15);
@@ -38,9 +35,6 @@ myPlot.Add.Callout("World",
     tipLocation: new(xs[13], ys[13]));
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>

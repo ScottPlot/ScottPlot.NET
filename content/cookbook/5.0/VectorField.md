@@ -18,12 +18,9 @@ ShowEditLink: false
 
 Vectors (representing a magnitude and direction) can be placed at specific points in coordinate space to display as a vector field.
 
-[![](/cookbook/5.0/images/VectorFieldQuickstart.png?241027220842)](/cookbook/5.0/images/VectorFieldQuickstart.png?241027220842)
+[![](/cookbook/5.0/images/VectorFieldQuickstart.png?241027221943)](/cookbook/5.0/images/VectorFieldQuickstart.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 // generate a grid of positions
 double[] xs = Generate.Consecutive(10);
@@ -53,9 +50,6 @@ for (int i = 0; i < xs.Length; i++)
 myPlot.Add.VectorField(vectors);
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -65,21 +59,15 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Vector field arrows can be colored according to their magnitude.
 
-[![](/cookbook/5.0/images/VectorFieldColormap.png?241027220842)](/cookbook/5.0/images/VectorFieldColormap.png?241027220842)
+[![](/cookbook/5.0/images/VectorFieldColormap.png?241027221943)](/cookbook/5.0/images/VectorFieldColormap.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 RootedCoordinateVector[] vectors = Generate.SampleVectors();
 var vf = myPlot.Add.VectorField(vectors);
 vf.Colormap = new ScottPlot.Colormaps.Turbo();
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>

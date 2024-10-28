@@ -18,12 +18,9 @@ ShowEditLink: false
 
 An image can be used for the background of the data area.
 
-[![](/cookbook/5.0/images/DataBackgroundImage.png?241027220842)](/cookbook/5.0/images/DataBackgroundImage.png?241027220842)
+[![](/cookbook/5.0/images/DataBackgroundImage.png?241027221943)](/cookbook/5.0/images/DataBackgroundImage.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 // plot sample data
 var sig1 = myPlot.Add.Signal(Generate.Sin());
@@ -39,9 +36,6 @@ Image bgImage = SampleImages.ScottPlotLogo();
 myPlot.DataBackground.Image = bgImage;
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -51,12 +45,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 An image can be used for the background of a figure.
 
-[![](/cookbook/5.0/images/FigureBackgroundImage.png?241027220842)](/cookbook/5.0/images/FigureBackgroundImage.png?241027220842)
+[![](/cookbook/5.0/images/FigureBackgroundImage.png?241027221943)](/cookbook/5.0/images/FigureBackgroundImage.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 // plot sample data
 var sig1 = myPlot.Add.Signal(Generate.Sin());
@@ -80,9 +71,6 @@ sig2.LineWidth = 3;
 myPlot.DataBackground.Color = Colors.Black.WithAlpha(.5);
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -92,12 +80,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Colors can be mixed to createa range of colors. This strategy uses linear RGB interpolation.
 
-[![](/cookbook/5.0/images/ColorInterpolation.png?241027220842)](/cookbook/5.0/images/ColorInterpolation.png?241027220842)
+[![](/cookbook/5.0/images/ColorInterpolation.png?241027221943)](/cookbook/5.0/images/ColorInterpolation.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 for (int i = 0; i <= 10; i++)
 {
@@ -110,9 +95,6 @@ for (int i = 0; i <= 10; i++)
 }
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -122,12 +104,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Users can apply custom typefaces by loaded from font files.
 
-[![](/cookbook/5.0/images/CustomFontFiles.png?241027220842)](/cookbook/5.0/images/CustomFontFiles.png?241027220842)
+[![](/cookbook/5.0/images/CustomFontFiles.png?241027221943)](/cookbook/5.0/images/CustomFontFiles.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 // Add a font file to use its typeface for fonts with a given name
 Fonts.AddFontFile(
@@ -168,9 +147,6 @@ myPlot.Axes.Left.Label.FontSize = 24;
 myPlot.Axes.Left.Label.Bold = false;
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>

@@ -18,12 +18,9 @@ ShowEditLink: false
 
 Error Bars go well with scatter plots.
 
-[![](/cookbook/5.0/images/ErrorBarQuickstart.png?241027220842)](/cookbook/5.0/images/ErrorBarQuickstart.png?241027220842)
+[![](/cookbook/5.0/images/ErrorBarQuickstart.png?241027221943)](/cookbook/5.0/images/ErrorBarQuickstart.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 int points = 30;
 
@@ -36,9 +33,6 @@ var errorbars = myPlot.Add.ErrorBar(xs, ys, err);
 errorbars.Color = scatter.Color;
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -48,12 +42,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Error size can be set for all dimensions.
 
-[![](/cookbook/5.0/images/CustomErrors.png?241027220842)](/cookbook/5.0/images/CustomErrors.png?241027220842)
+[![](/cookbook/5.0/images/CustomErrors.png?241027221943)](/cookbook/5.0/images/CustomErrors.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 int points = 10;
 
@@ -75,9 +66,6 @@ eb.Color = scatter.Color;
 myPlot.Add.Plottable(eb);
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>

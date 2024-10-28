@@ -16,12 +16,9 @@ ShowEditLink: false
 
 Radial gauge labels will appear in the legend if they are assigned. 
 
-[![](/cookbook/5.0/images/RadialGaugeLegend.png?241027220842)](/cookbook/5.0/images/RadialGaugeLegend.png?241027220842)
+[![](/cookbook/5.0/images/RadialGaugeLegend.png?241027221943)](/cookbook/5.0/images/RadialGaugeLegend.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Palette = new ScottPlot.Palettes.Nord();
 double[] values = { 100, 80, 65, 45, 20 };
@@ -31,9 +28,6 @@ radialGaugePlot.Labels = new string[] { "alpha", "beta", "gamma", "delta", "epsi
 myPlot.ShowLegend();
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <a href='https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/RadialGauge.cs'><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="mb-1 bi bi-github" viewBox="0 0 16 16">

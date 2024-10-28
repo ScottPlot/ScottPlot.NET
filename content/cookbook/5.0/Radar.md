@@ -18,20 +18,14 @@ ShowEditLink: false
 
 A radar chart can be created from a single array of values.
 
-[![](/cookbook/5.0/images/RadarQuickstart.png?241027220842)](/cookbook/5.0/images/RadarQuickstart.png?241027220842)
+[![](/cookbook/5.0/images/RadarQuickstart.png?241027221943)](/cookbook/5.0/images/RadarQuickstart.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 double[] values = { 78, 83, 84, 76, 43 };
 myPlot.Add.Radar(values);
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -41,12 +35,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 A single radar chart can be used to display values from multiple series using a 2D array
 
-[![](/cookbook/5.0/images/RadarMultipleQuickstart.png?241027220842)](/cookbook/5.0/images/RadarMultipleQuickstart.png?241027220842)
+[![](/cookbook/5.0/images/RadarMultipleQuickstart.png?241027221943)](/cookbook/5.0/images/RadarMultipleQuickstart.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 double[,] values = {
     { 78,  83, 84, 76, 43 },
@@ -56,9 +47,6 @@ double[,] values = {
 myPlot.Add.Radar(values);
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -68,12 +56,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Collections of radar values (radar series) can be labeled so they appear in the legend
 
-[![](/cookbook/5.0/images/RadarLegend.png?241027220842)](/cookbook/5.0/images/RadarLegend.png?241027220842)
+[![](/cookbook/5.0/images/RadarLegend.png?241027221943)](/cookbook/5.0/images/RadarLegend.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 double[,] values = {
     { 78,  83, 84, 76, 43 },
@@ -85,9 +70,6 @@ radar.Series[0].LegendText = "Sebastian";
 radar.Series[1].LegendText = "Fernando";
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -97,12 +79,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Radar plots have a collection of RadarSeries objects which each describe a set of values and the styling information used to display it as a shape on the radar plot. Users may change properties of radar series objects to achieve a high level of customization over each shape.
 
-[![](/cookbook/5.0/images/RadarSeriesCustomization.png?241027220842)](/cookbook/5.0/images/RadarSeriesCustomization.png?241027220842)
+[![](/cookbook/5.0/images/RadarSeriesCustomization.png?241027221943)](/cookbook/5.0/images/RadarSeriesCustomization.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 double[,] values = {
     { 78,  83, 84, 76, 43 },
@@ -121,9 +100,6 @@ radar.Series[1].LineColor = Colors.Green;
 radar.Series[1].LineWidth = 2;
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -133,12 +109,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Labels can be assigned to spokes to label values around the circumference of the radar plot
 
-[![](/cookbook/5.0/images/RadarSpokeLabels.png?241027220842)](/cookbook/5.0/images/RadarSpokeLabels.png?241027220842)
+[![](/cookbook/5.0/images/RadarSpokeLabels.png?241027221943)](/cookbook/5.0/images/RadarSpokeLabels.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 double[,] values = {
     { 78,  83, 84, 76, 43 },
@@ -151,9 +124,6 @@ string[] spokeLabels = { "Wins", "Poles", "Podiums", "Points", "DNFs" };
 radar.PolarAxis.SetSpokes(spokeLabels, length: 110);
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -163,12 +133,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Radar radial tick positions and labels may be defined by the user
 
-[![](/cookbook/5.0/images/RadarRadialTicks.png?241027220842)](/cookbook/5.0/images/RadarRadialTicks.png?241027220842)
+[![](/cookbook/5.0/images/RadarRadialTicks.png?241027221943)](/cookbook/5.0/images/RadarRadialTicks.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 double[,] values = {
     { 78,  83, 84, 76, 43 },
@@ -182,9 +149,6 @@ string[] tickLabels = tickPositions.Select(x => x.ToString()).ToArray();
 radar.PolarAxis.SetCircles(tickPositions, tickLabels);
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -194,21 +158,15 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Radial ticks may be rendered using straight lines instead of circles
 
-[![](/cookbook/5.0/images/RadarStraightLines.png?241027220842)](/cookbook/5.0/images/RadarStraightLines.png?241027220842)
+[![](/cookbook/5.0/images/RadarStraightLines.png?241027221943)](/cookbook/5.0/images/RadarStraightLines.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 double[] values = { 78, 83, 100, 76, 43 };
 var radar = myPlot.Add.Radar(values);
 radar.PolarAxis.StraightLines = true;
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>

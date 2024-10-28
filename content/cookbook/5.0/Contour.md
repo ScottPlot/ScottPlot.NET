@@ -18,12 +18,9 @@ ShowEditLink: false
 
 A rectangular contour plot with evenly spaced points can be created from a 2D array of 3D points.
 
-[![](/cookbook/5.0/images/ContourGrid.png?241027220842)](/cookbook/5.0/images/ContourGrid.png?241027220842)
+[![](/cookbook/5.0/images/ContourGrid.png?241027221943)](/cookbook/5.0/images/ContourGrid.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 Coordinates3d[,] cs = new Coordinates3d[50, 50];
 for (int y = 0; y < cs.GetLength(0); y++)
@@ -43,9 +40,6 @@ myPlot.Axes.TightMargins();
 myPlot.HideGrid();
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -55,12 +49,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 A contour plot can be created from a collection of 3D data points placed arbitrarily in X/Y plane.
 
-[![](/cookbook/5.0/images/IrregularContour.png?241027220842)](/cookbook/5.0/images/IrregularContour.png?241027220842)
+[![](/cookbook/5.0/images/IrregularContour.png?241027221943)](/cookbook/5.0/images/IrregularContour.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 // generate irregularly spaced X/Y/Z data points
 Coordinates3d[] cs = new Coordinates3d[1000];
@@ -93,9 +84,6 @@ myPlot.Axes.TightMargins();
 myPlot.HideGrid();
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -105,12 +93,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Contour lines may be placed on top of heatmaps.
 
-[![](/cookbook/5.0/images/ContourHeatmap.png?241027220842)](/cookbook/5.0/images/ContourHeatmap.png?241027220842)
+[![](/cookbook/5.0/images/ContourHeatmap.png?241027221943)](/cookbook/5.0/images/ContourHeatmap.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 Coordinates3d[,] cs = new Coordinates3d[50, 50];
 for (int y = 0; y < cs.GetLength(0); y++)
@@ -135,9 +120,6 @@ myPlot.Axes.TightMargins();
 myPlot.HideGrid();
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -147,12 +129,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 If a colormap is provided it will be used to color each line in the colormap according to its value.
 
-[![](/cookbook/5.0/images/ContourColormap.png?241027220842)](/cookbook/5.0/images/ContourColormap.png?241027220842)
+[![](/cookbook/5.0/images/ContourColormap.png?241027221943)](/cookbook/5.0/images/ContourColormap.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 Coordinates3d[,] cs = new Coordinates3d[50, 50];
 for (int y = 0; y < cs.GetLength(0); y++)
@@ -173,9 +152,6 @@ myPlot.Axes.TightMargins();
 myPlot.HideGrid();
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>

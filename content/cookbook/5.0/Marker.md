@@ -18,12 +18,9 @@ ShowEditLink: false
 
 Markers are symbols placed at a location in coordinate space. Their shape, size, and color can be customized.
 
-[![](/cookbook/5.0/images/MarkerQuickstart.png?241027220842)](/cookbook/5.0/images/MarkerQuickstart.png?241027220842)
+[![](/cookbook/5.0/images/MarkerQuickstart.png?241027221943)](/cookbook/5.0/images/MarkerQuickstart.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin());
 myPlot.Add.Signal(Generate.Cos());
@@ -33,9 +30,6 @@ myPlot.Add.Marker(35, .6);
 myPlot.Add.Marker(45, .7);
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -45,12 +39,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Standard marker shapes are provided, but advanced users are able to create their own as well.
 
-[![](/cookbook/5.0/images/MarkerShapes.png?241027220842)](/cookbook/5.0/images/MarkerShapes.png?241027220842)
+[![](/cookbook/5.0/images/MarkerShapes.png?241027221943)](/cookbook/5.0/images/MarkerShapes.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 MarkerShape[] markerShapes = Enum.GetValues<MarkerShape>().ToArray();
 ScottPlot.Palettes.Category20 palette = new();
@@ -83,9 +74,6 @@ myPlot.Axes.SetLimits(-1, markerShapes.Length, -1, 4);
 myPlot.HideGrid();
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -95,12 +83,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Markers with labels appear in the legend.
 
-[![](/cookbook/5.0/images/MarkerLegend.png?241027220842)](/cookbook/5.0/images/MarkerLegend.png?241027220842)
+[![](/cookbook/5.0/images/MarkerLegend.png?241027221943)](/cookbook/5.0/images/MarkerLegend.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 var sin = myPlot.Add.Signal(Generate.Sin());
 sin.LegendText = "Sine";
@@ -113,9 +98,6 @@ marker.LegendText = "Marker";
 myPlot.ShowLegend();
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -125,12 +107,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Collections of markers that are all styled the same may be added to the plot
 
-[![](/cookbook/5.0/images/MarkersPlot.png?241027220842)](/cookbook/5.0/images/MarkersPlot.png?241027220842)
+[![](/cookbook/5.0/images/MarkersPlot.png?241027221943)](/cookbook/5.0/images/MarkersPlot.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 double[] xs = Generate.Consecutive(51);
 double[] sin = Generate.Sin(51);
@@ -140,9 +119,6 @@ myPlot.Add.Markers(xs, sin, MarkerShape.OpenCircle, 15, Colors.Green);
 myPlot.Add.Markers(xs, cos, MarkerShape.FilledDiamond, 10, Colors.Magenta);
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -152,12 +128,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 A colormap may be used to style a collection of markers
 
-[![](/cookbook/5.0/images/MarkersColormap.png?241027220842)](/cookbook/5.0/images/MarkersColormap.png?241027220842)
+[![](/cookbook/5.0/images/MarkersColormap.png?241027221943)](/cookbook/5.0/images/MarkersColormap.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 double[] xs = Generate.Consecutive(51);
 double[] ys = Generate.Sin(51);
@@ -166,9 +139,6 @@ var markers = myPlot.Add.Markers(xs, ys);
 markers.Colormap = new ScottPlot.Colormaps.MellowRainbow();
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -178,12 +148,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 An ImageMarker can be placed on the plot to display an image centered at a location in coordinate space.
 
-[![](/cookbook/5.0/images/ImageMarkerQuickstart.png?241027220842)](/cookbook/5.0/images/ImageMarkerQuickstart.png?241027220842)
+[![](/cookbook/5.0/images/ImageMarkerQuickstart.png?241027221943)](/cookbook/5.0/images/ImageMarkerQuickstart.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin());
 myPlot.Add.Signal(Generate.Cos());
@@ -203,9 +170,6 @@ m1.Color = Colors.Orange;
 m2.Color = Colors.Orange;
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>

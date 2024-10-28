@@ -18,12 +18,9 @@ ShowEditLink: false
 
 Ellipses can be added to plots
 
-[![](/cookbook/5.0/images/PlotEllipseQuickstart.png?241027220842)](/cookbook/5.0/images/PlotEllipseQuickstart.png?241027220842)
+[![](/cookbook/5.0/images/PlotEllipseQuickstart.png?241027221943)](/cookbook/5.0/images/PlotEllipseQuickstart.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 Random rand = new(0);
 for (int i = 0; i < 5; i++)
@@ -36,9 +33,6 @@ for (int i = 0; i < 5; i++)
 }
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -48,12 +42,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Circles can be added to plots. Circles are really Ellipses with the same X and Y radius. Note that circles appear as ellipses unless the plot has a square coordinate system.
 
-[![](/cookbook/5.0/images/PlotCircleQuickstart.png?241027220842)](/cookbook/5.0/images/PlotCircleQuickstart.png?241027220842)
+[![](/cookbook/5.0/images/PlotCircleQuickstart.png?241027221943)](/cookbook/5.0/images/PlotCircleQuickstart.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 Random rand = new(0);
 for (int i = 0; i < 5; i++)
@@ -65,9 +56,6 @@ for (int i = 0; i < 5; i++)
 }
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -77,12 +65,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 For circles to always appear circular, the coordinate system must be forced to always display square-shaped pixels. This can be achieved by enabling the axis scale lock.
 
-[![](/cookbook/5.0/images/CircleWithLockedScale.png?241027220842)](/cookbook/5.0/images/CircleWithLockedScale.png?241027220842)
+[![](/cookbook/5.0/images/CircleWithLockedScale.png?241027221943)](/cookbook/5.0/images/CircleWithLockedScale.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 Random rand = new(0);
 for (int i = 0; i < 5; i++)
@@ -97,9 +82,6 @@ for (int i = 0; i < 5; i++)
 myPlot.Axes.SquareUnits();
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -109,12 +91,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Ellipses styles can be extensively customized
 
-[![](/cookbook/5.0/images/EllipseStyling.png?241027220842)](/cookbook/5.0/images/EllipseStyling.png?241027220842)
+[![](/cookbook/5.0/images/EllipseStyling.png?241027221943)](/cookbook/5.0/images/EllipseStyling.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 var circle = myPlot.Add.Circle(center: Coordinates.Origin, radius: 5);
 circle.LineStyle.Width = 5;
@@ -127,9 +106,6 @@ circle.FillStyle.Hatch = new ScottPlot.Hatches.Striped();
 myPlot.Axes.SetLimits(-10, 10, -10, 10);
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -139,12 +115,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Ellipses can also be rotated
 
-[![](/cookbook/5.0/images/EllipseRotation.png?241027220842)](/cookbook/5.0/images/EllipseRotation.png?241027220842)
+[![](/cookbook/5.0/images/EllipseRotation.png?241027221943)](/cookbook/5.0/images/EllipseRotation.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 int count = 5;
 for (int i = 0; i < count; i++)
@@ -162,9 +135,6 @@ ScottPlot.AxisRules.SquareZoomOut rule = new(myPlot.Axes.Bottom, myPlot.Axes.Lef
 myPlot.Axes.Rules.Add(rule);
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>

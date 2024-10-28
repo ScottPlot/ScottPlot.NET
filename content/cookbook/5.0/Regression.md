@@ -18,12 +18,9 @@ ShowEditLink: false
 
 Fit a line to a collection of X/Y data points.
 
-[![](/cookbook/5.0/images/Linear.png?241027220842)](/cookbook/5.0/images/Linear.png?241027220842)
+[![](/cookbook/5.0/images/Linear.png?241027221943)](/cookbook/5.0/images/Linear.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 double[] xs = new double[] { 1, 2, 3, 4, 5, 6, 7 };
 double[] ys = new double[] { 2, 2, 3, 3, 3.8, 4.2, 4 };
@@ -48,9 +45,6 @@ line.LinePattern = LinePattern.Dashed;
 myPlot.Title(reg.FormulaWithRSquared);
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>

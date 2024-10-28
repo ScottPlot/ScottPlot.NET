@@ -16,12 +16,9 @@ ShowEditLink: false
 
 Tick generators determine where ticks are to be placed and also contain logic for generating tick labels from tick positions. Alternative tick generators can be created and assigned to axes. Some common tick generators are provided with ScottPlot, and users also have the option create their own.
 
-[![](/cookbook/5.0/images/AltTickGen.png?241027220842)](/cookbook/5.0/images/AltTickGen.png?241027220842)
+[![](/cookbook/5.0/images/AltTickGen.png?241027221943)](/cookbook/5.0/images/AltTickGen.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin(51));
 myPlot.Add.Signal(Generate.Cos(51));
@@ -29,9 +26,6 @@ myPlot.Add.Signal(Generate.Cos(51));
 myPlot.Axes.Bottom.TickGenerator = new ScottPlot.TickGenerators.NumericFixedInterval(11);
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <a href='https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs'><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="mb-1 bi bi-github" viewBox="0 0 16 16">

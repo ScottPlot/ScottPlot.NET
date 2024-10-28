@@ -16,21 +16,15 @@ ShowEditLink: false
 
 Line plots are placed with a start and end location in coordinate space. Their styles can be customized.
 
-[![](/cookbook/5.0/images/LineQuickStart.png?241027220842)](/cookbook/5.0/images/LineQuickStart.png?241027220842)
+[![](/cookbook/5.0/images/LineQuickStart.png?241027221943)](/cookbook/5.0/images/LineQuickStart.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Line(1, 12, 12, 0);
 myPlot.Add.Line(7, 9, 42, 9);
 myPlot.Add.Line(30, 17, 30, 1);
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <a href='https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Line.cs'><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="mb-1 bi bi-github" viewBox="0 0 16 16">

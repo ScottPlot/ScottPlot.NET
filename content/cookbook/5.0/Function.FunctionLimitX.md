@@ -16,12 +16,9 @@ ShowEditLink: false
 
 A function can be limited to a range of X values.
 
-[![](/cookbook/5.0/images/FunctionLimitX.png?241027220842)](/cookbook/5.0/images/FunctionLimitX.png?241027220842)
+[![](/cookbook/5.0/images/FunctionLimitX.png?241027221943)](/cookbook/5.0/images/FunctionLimitX.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 var func = new Func<double, double>((x) => Math.Sin(x) * Math.Sin(x / 2));
 
@@ -32,9 +29,6 @@ f.MaxX = 3;
 myPlot.Axes.SetLimits(-5, 5, -.2, 1.0);
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <a href='https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Function.cs'><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="mb-1 bi bi-github" viewBox="0 0 16 16">

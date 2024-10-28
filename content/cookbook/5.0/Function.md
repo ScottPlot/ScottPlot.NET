@@ -18,12 +18,9 @@ ShowEditLink: false
 
 Create a function plot from a formula.
 
-[![](/cookbook/5.0/images/FunctionQuickstart.png?241027220842)](/cookbook/5.0/images/FunctionQuickstart.png?241027220842)
+[![](/cookbook/5.0/images/FunctionQuickstart.png?241027221943)](/cookbook/5.0/images/FunctionQuickstart.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 // Functions are defined as delegates with an input and output
 static double func1(double x) => (Math.Sin(x) * Math.Sin(x / 2));
@@ -39,9 +36,6 @@ myPlot.Add.Function(func3);
 myPlot.Axes.SetLimits(-10, 10, -1.5, 1.5);
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -51,12 +45,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 A function can be limited to a range of X values.
 
-[![](/cookbook/5.0/images/FunctionLimitX.png?241027220842)](/cookbook/5.0/images/FunctionLimitX.png?241027220842)
+[![](/cookbook/5.0/images/FunctionLimitX.png?241027221943)](/cookbook/5.0/images/FunctionLimitX.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 var func = new Func<double, double>((x) => Math.Sin(x) * Math.Sin(x / 2));
 
@@ -67,9 +58,6 @@ f.MaxX = 3;
 myPlot.Axes.SetLimits(-5, 5, -.2, 1.0);
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>

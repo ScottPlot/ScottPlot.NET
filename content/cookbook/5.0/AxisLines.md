@@ -18,12 +18,9 @@ ShowEditLink: false
 
 Axis lines are vertical or horizontal lines that span an entire axis.
 
-[![](/cookbook/5.0/images/AxisLineQuickstart.png?241027220842)](/cookbook/5.0/images/AxisLineQuickstart.png?241027220842)
+[![](/cookbook/5.0/images/AxisLineQuickstart.png?241027221943)](/cookbook/5.0/images/AxisLineQuickstart.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin());
 myPlot.Add.Signal(Generate.Cos());
@@ -32,9 +29,6 @@ myPlot.Add.VerticalLine(24);
 myPlot.Add.HorizontalLine(0.73);
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -44,12 +38,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Axis lines have labels that can be used to display arbitrary text on the axes they are attached to.
 
-[![](/cookbook/5.0/images/AxisLineLabel.png?241027220842)](/cookbook/5.0/images/AxisLineLabel.png?241027220842)
+[![](/cookbook/5.0/images/AxisLineLabel.png?241027221943)](/cookbook/5.0/images/AxisLineLabel.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin());
 myPlot.Add.Signal(Generate.Cos());
@@ -77,9 +68,6 @@ myPlot.Axes.Right.MinimumSize = 30;
 myPlot.Axes.Top.MinimumSize = 30;
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -89,12 +77,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Axis line labels can have custom positioning, including rotation and alignment.
 
-[![](/cookbook/5.0/images/AxisLineLabelPositioning.png?241027220842)](/cookbook/5.0/images/AxisLineLabelPositioning.png?241027220842)
+[![](/cookbook/5.0/images/AxisLineLabelPositioning.png?241027221943)](/cookbook/5.0/images/AxisLineLabelPositioning.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin());
 myPlot.Add.Signal(Generate.Cos());
@@ -119,9 +104,6 @@ myPlot.Axes.Bottom.MinimumSize = 60;
 myPlot.Axes.Left.MinimumSize = 60;
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -131,12 +113,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Axis lines have extensive customization options.
 
-[![](/cookbook/5.0/images/AxisLineStyle.png?241027220842)](/cookbook/5.0/images/AxisLineStyle.png?241027220842)
+[![](/cookbook/5.0/images/AxisLineStyle.png?241027221943)](/cookbook/5.0/images/AxisLineStyle.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin());
 myPlot.Add.Signal(Generate.Cos());
@@ -160,9 +139,6 @@ hl2.LabelFontColor = Colors.Yellow;
 hl2.LinePattern = LinePattern.DenselyDashed;
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -172,12 +148,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Axis lines will be added to the legend if their Text property is set unless their ExcludeFromLegend property is true.
 
-[![](/cookbook/5.0/images/AxisLineInLegend.png?241027220842)](/cookbook/5.0/images/AxisLineInLegend.png?241027220842)
+[![](/cookbook/5.0/images/AxisLineInLegend.png?241027221943)](/cookbook/5.0/images/AxisLineInLegend.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin());
 myPlot.Add.Signal(Generate.Cos());
@@ -201,9 +174,6 @@ axLine5.ExcludeFromLegend = true;
 myPlot.ShowLegend();
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -213,12 +183,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Calling Plot.Axes.AutoScale() or middle-clicking the plot will set the axis limits to fit the data. By default the position of axis lines and spans are included in automatic axis limit calculations, but a flag can be set to ignore certain plottables when automatically scaling the plot.
 
-[![](/cookbook/5.0/images/AxisLineIgnoreLimits.png?241027220842)](/cookbook/5.0/images/AxisLineIgnoreLimits.png?241027220842)
+[![](/cookbook/5.0/images/AxisLineIgnoreLimits.png?241027221943)](/cookbook/5.0/images/AxisLineIgnoreLimits.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin(51));
 myPlot.Add.Signal(Generate.Cos(51));
@@ -232,9 +199,6 @@ hSpan.IsDraggable = true;
 hSpan.EnableAutoscale = false;
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>

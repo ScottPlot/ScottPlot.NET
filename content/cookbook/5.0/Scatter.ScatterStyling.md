@@ -16,12 +16,9 @@ ShowEditLink: false
 
 Scatter plots can be extensively styled by interacting with the object that is returned after a scatter plot is added. Assign text to a scatter plot's Label property to allow it to appear in the legend.
 
-[![](/cookbook/5.0/images/ScatterStyling.png?241027220842)](/cookbook/5.0/images/ScatterStyling.png?241027220842)
+[![](/cookbook/5.0/images/ScatterStyling.png?241027221943)](/cookbook/5.0/images/ScatterStyling.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 double[] xs = Generate.Consecutive(51);
 double[] ys1 = Generate.Sin(51);
@@ -42,9 +39,6 @@ sp2.MarkerSize = 10;
 myPlot.ShowLegend();
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <a href='https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Scatter.cs'><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="mb-1 bi bi-github" viewBox="0 0 16 16">

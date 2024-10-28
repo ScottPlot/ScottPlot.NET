@@ -18,20 +18,14 @@ ShowEditLink: false
 
 SignalConst can display data with millions of points at high framerates, ideal for interactive manipulation of large datasets.
 
-[![](/cookbook/5.0/images/SignalConstQuickstart.png?241027220842)](/cookbook/5.0/images/SignalConstQuickstart.png?241027220842)
+[![](/cookbook/5.0/images/SignalConstQuickstart.png?241027221943)](/cookbook/5.0/images/SignalConstQuickstart.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 double[] data = Generate.RandomWalk(1_000_000);
 myPlot.Add.SignalConst(data);
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>

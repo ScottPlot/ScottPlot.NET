@@ -18,12 +18,9 @@ ShowEditLink: false
 
 ScottPlot comes with font detection methods which help identify the best installed font for displaying text which may contain international characters.
 
-[![](/cookbook/5.0/images/FontDetection.png?241027220842)](/cookbook/5.0/images/FontDetection.png?241027220842)
+[![](/cookbook/5.0/images/FontDetection.png?241027221943)](/cookbook/5.0/images/FontDetection.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 string chinese = "测试";
 myPlot.Axes.Title.Label.Text = chinese;
@@ -38,9 +35,6 @@ myPlot.Axes.Bottom.Label.Text = korean;
 myPlot.Axes.Bottom.Label.FontName = Fonts.Detect(korean);
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -50,12 +44,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 The Plot's Style class contains a method which automatically sets the fonts of common plot objects to the font most likely able to display the characters they contain.
 
-[![](/cookbook/5.0/images/AutomaticFontDetection.png?241027220842)](/cookbook/5.0/images/AutomaticFontDetection.png?241027220842)
+[![](/cookbook/5.0/images/AutomaticFontDetection.png?241027221943)](/cookbook/5.0/images/AutomaticFontDetection.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 var sig1 = myPlot.Add.Signal(Generate.Sin(phase: .1));
 var sig2 = myPlot.Add.Signal(Generate.Sin(phase: .2));
@@ -73,9 +64,6 @@ myPlot.XLabel("테스트"); // Korean
 myPlot.Font.Automatic(); // set font for each item based on its content
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>

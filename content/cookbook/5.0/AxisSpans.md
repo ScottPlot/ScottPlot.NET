@@ -18,12 +18,9 @@ ShowEditLink: false
 
 Axis spans label a range of an axis. Vertical spans shade the full width of a vertical range, and horizontal spans shade the full height of a horizontal range.
 
-[![](/cookbook/5.0/images/AxisSpanQuickstart.png?241027220842)](/cookbook/5.0/images/AxisSpanQuickstart.png?241027220842)
+[![](/cookbook/5.0/images/AxisSpanQuickstart.png?241027221943)](/cookbook/5.0/images/AxisSpanQuickstart.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin());
 myPlot.Add.Signal(Generate.Cos());
@@ -36,9 +33,6 @@ vSpan.LegendText = "Vertical Span";
 myPlot.ShowLegend();
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -48,12 +42,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Axis spans can be extensively customized.
 
-[![](/cookbook/5.0/images/AxisSpanStyling.png?241027220842)](/cookbook/5.0/images/AxisSpanStyling.png?241027220842)
+[![](/cookbook/5.0/images/AxisSpanStyling.png?241027221943)](/cookbook/5.0/images/AxisSpanStyling.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin());
 myPlot.Add.Signal(Generate.Cos());
@@ -66,9 +57,6 @@ hs.LineStyle.Pattern = LinePattern.Dashed;
 hs.FillStyle.Color = Colors.Magenta.WithAlpha(.2);
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>

@@ -18,12 +18,9 @@ ShowEditLink: false
 
 New plots have one axis on every side. Axes on the right and top are invisible by default. To use the right axis, make it visible, then tell a plottable to use it. 
 
-[![](/cookbook/5.0/images/RightAxis.png?241027220842)](/cookbook/5.0/images/RightAxis.png?241027220842)
+[![](/cookbook/5.0/images/RightAxis.png?241027221943)](/cookbook/5.0/images/RightAxis.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 // plot data with very different scales
 var sig1 = myPlot.Add.Signal(Generate.Sin(mult: 0.01));
@@ -40,9 +37,6 @@ myPlot.Axes.Left.Label.ForeColor = sig1.Color;
 myPlot.Axes.Right.Label.ForeColor = sig2.Color;
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -52,12 +46,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Additional axes may be added to plots. Plottables are displayed using the coordinate system of the primary axes by default, but any plottable can be displayed using any X and Y axis.
 
-[![](/cookbook/5.0/images/MultiAxisQuickstart.png?241027220842)](/cookbook/5.0/images/MultiAxisQuickstart.png?241027220842)
+[![](/cookbook/5.0/images/MultiAxisQuickstart.png?241027221943)](/cookbook/5.0/images/MultiAxisQuickstart.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 // plottables use the standard X and Y axes by default
 var sig1 = myPlot.Add.Signal(ScottPlot.Generate.Sin(51, mult: 0.01));
@@ -75,9 +66,6 @@ sig2.Axes.YAxis = yAxis2; // custom Y axis
 yAxis2.LabelText = "Secondary Y Axis";
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>

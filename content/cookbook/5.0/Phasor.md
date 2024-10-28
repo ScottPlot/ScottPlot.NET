@@ -18,12 +18,9 @@ ShowEditLink: false
 
 A phasor line plot contains a collection of polar coordinates which are rendered as arrows.
 
-[![](/cookbook/5.0/images/PhasorQuickstart.png?241027220842)](/cookbook/5.0/images/PhasorQuickstart.png?241027220842)
+[![](/cookbook/5.0/images/PhasorQuickstart.png?241027221943)](/cookbook/5.0/images/PhasorQuickstart.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 // Start by placing a polar axis system on the plot
 var polarAxis = myPlot.Add.PolarAxis(30);
@@ -45,9 +42,6 @@ phaser2.Points.Add(new PolarCoordinates(25, Angle.FromDegrees(140)));
 phaser2.Points.Add(new PolarCoordinates(20, Angle.FromDegrees(260)));
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -57,12 +51,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Text labels may be applied to individual arrows of a phasor plot.
 
-[![](/cookbook/5.0/images/PhasorLabels.png?241027220842)](/cookbook/5.0/images/PhasorLabels.png?241027220842)
+[![](/cookbook/5.0/images/PhasorLabels.png?241027221943)](/cookbook/5.0/images/PhasorLabels.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 // setup the polar axis
 var polarAxis = myPlot.Add.PolarAxis(30);
@@ -87,9 +78,6 @@ phaser.LabelStyle.FontName = Fonts.Monospace;
 phaser.LabelStyle.Bold = true;
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>

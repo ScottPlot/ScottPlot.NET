@@ -16,12 +16,9 @@ ShowEditLink: false
 
 When the DateTimes stored in OHLC objects are used to determine the horizontal position, periods without data like weekends and holidays appear as gaps in the plot. Enabling sequential mode causes the plot to ignore the OHLC DateTimes and place OHLCs at integer positions starting from zero. Users can customize the tick generator to display dates instead of numbers on the horizontal axis if desired.
 
-[![](/cookbook/5.0/images/FinancialPlotWithoutGapsOhlc.png?241027220842)](/cookbook/5.0/images/FinancialPlotWithoutGapsOhlc.png?241027220842)
+[![](/cookbook/5.0/images/FinancialPlotWithoutGapsOhlc.png?241027221943)](/cookbook/5.0/images/FinancialPlotWithoutGapsOhlc.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 // create a OHLC plot
 var prices = Generate.RandomOHLCs(31);
@@ -46,9 +43,6 @@ ScottPlot.TickGenerators.NumericManual tickGen = new(tickPositions, tickLabels);
 myPlot.Axes.Bottom.TickGenerator = tickGen;
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <a href='https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Finance.cs'><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="mb-1 bi bi-github" viewBox="0 0 16 16">

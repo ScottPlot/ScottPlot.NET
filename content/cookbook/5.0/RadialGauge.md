@@ -18,20 +18,14 @@ ShowEditLink: false
 
 A radial gauge chart can be created from a few values.
 
-[![](/cookbook/5.0/images/RadialGaugeQuickstart.png?241027220842)](/cookbook/5.0/images/RadialGaugeQuickstart.png?241027220842)
+[![](/cookbook/5.0/images/RadialGaugeQuickstart.png?241027221943)](/cookbook/5.0/images/RadialGaugeQuickstart.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 double[] values = { 100, 80, 65, 45, 20 };
 myPlot.Add.RadialGaugePlot(values);
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -41,21 +35,15 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Gauge colors can be customized by changing the default palette.
 
-[![](/cookbook/5.0/images/RadialGaugeColormap.png?241027220842)](/cookbook/5.0/images/RadialGaugeColormap.png?241027220842)
+[![](/cookbook/5.0/images/RadialGaugeColormap.png?241027221943)](/cookbook/5.0/images/RadialGaugeColormap.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Palette = new ScottPlot.Palettes.Nord();
 double[] values = { 100, 80, 65, 45, 20 };
 myPlot.Add.RadialGaugePlot(values);
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -65,21 +53,15 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Radial gauge plots support positive and negative values.
 
-[![](/cookbook/5.0/images/RadialGaugeNegative.png?241027220842)](/cookbook/5.0/images/RadialGaugeNegative.png?241027220842)
+[![](/cookbook/5.0/images/RadialGaugeNegative.png?241027221943)](/cookbook/5.0/images/RadialGaugeNegative.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Palette = new ScottPlot.Palettes.Nord();
 double[] values = { 100, 80, -65, 45, -20 };
 myPlot.Add.RadialGaugePlot(values);
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -89,12 +71,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Sequential gauge mode indicates that the base of each gauge starts at the tip of the previous gauge.
 
-[![](/cookbook/5.0/images/RadialGaugeSequential.png?241027220842)](/cookbook/5.0/images/RadialGaugeSequential.png?241027220842)
+[![](/cookbook/5.0/images/RadialGaugeSequential.png?241027221943)](/cookbook/5.0/images/RadialGaugeSequential.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Palette = new ScottPlot.Palettes.Nord();
 double[] values = { 100, 80, 65, 45, 50 };
@@ -102,9 +81,6 @@ var radialGaugePlot = myPlot.Add.RadialGaugePlot(values);
 radialGaugePlot.GaugeMode = ScottPlot.RadialGaugeMode.Sequential;
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -114,12 +90,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Gauges are displayed from the center outward by default but the order can be customized.
 
-[![](/cookbook/5.0/images/RadialGaugeReverse.png?241027220842)](/cookbook/5.0/images/RadialGaugeReverse.png?241027220842)
+[![](/cookbook/5.0/images/RadialGaugeReverse.png?241027221943)](/cookbook/5.0/images/RadialGaugeReverse.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Palette = new ScottPlot.Palettes.Nord();
 double[] values = { 100, 80, 65, 45, 50 };
@@ -128,9 +101,6 @@ radialGaugePlot.GaugeMode = ScottPlot.RadialGaugeMode.Sequential;
 radialGaugePlot.OrderInsideOut = false;
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -140,12 +110,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 The SingleGauge mode draws all gauges stacked together as a single gauge. This is useful for showing a progress gauges composed of many individual smaller gauges.
 
-[![](/cookbook/5.0/images/RadialGaugeModeSingle.png?241027220842)](/cookbook/5.0/images/RadialGaugeModeSingle.png?241027220842)
+[![](/cookbook/5.0/images/RadialGaugeModeSingle.png?241027221943)](/cookbook/5.0/images/RadialGaugeModeSingle.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Palette = new ScottPlot.Palettes.Nord();
 double[] values = { 100, 80, 65, 45 };
@@ -156,9 +123,6 @@ radialGaugePlot.MaximumAngle = 180;
 radialGaugePlot.StartingAngle = 180;
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -168,12 +132,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 The direction of gauges can be customized. Clockwise is used by default.
 
-[![](/cookbook/5.0/images/RadialGaugeDirection.png?241027220842)](/cookbook/5.0/images/RadialGaugeDirection.png?241027220842)
+[![](/cookbook/5.0/images/RadialGaugeDirection.png?241027221943)](/cookbook/5.0/images/RadialGaugeDirection.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Palette = new ScottPlot.Palettes.Nord();
 double[] values = { 100, 80, 65, 45, 20 };
@@ -182,9 +143,6 @@ var radialGaugePlot = myPlot.Add.RadialGaugePlot(values);
 radialGaugePlot.Clockwise = false;
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -194,12 +152,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 The empty space between gauges can be adjusted as a fraction of their width. 
 
-[![](/cookbook/5.0/images/RadialGaugeSize.png?241027220842)](/cookbook/5.0/images/RadialGaugeSize.png?241027220842)
+[![](/cookbook/5.0/images/RadialGaugeSize.png?241027221943)](/cookbook/5.0/images/RadialGaugeSize.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Palette = new ScottPlot.Palettes.Nord();
 double[] values = { 100, 80, 65, 45, 20 };
@@ -207,9 +162,6 @@ var radialGaugePlot = myPlot.Add.RadialGaugePlot(values);
 radialGaugePlot.SpaceFraction = .05;
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -219,12 +171,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 The starting angle for gauges can be customized. 270 for North (default value), 0 for East, 90 for South, 180 for West, etc.
 
-[![](/cookbook/5.0/images/RadialGaugeStart.png?241027220842)](/cookbook/5.0/images/RadialGaugeStart.png?241027220842)
+[![](/cookbook/5.0/images/RadialGaugeStart.png?241027221943)](/cookbook/5.0/images/RadialGaugeStart.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Palette = new ScottPlot.Palettes.Nord();
 double[] values = { 100, 80, 65, 45, 20 };
@@ -233,9 +182,6 @@ var radialGaugePlot = myPlot.Add.RadialGaugePlot(values);
 radialGaugePlot.StartingAngle = 180;
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -245,12 +191,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 By default gauges are full circles (360 degrees) but smaller gauges can be created by customizing the gauge size.
 
-[![](/cookbook/5.0/images/RadialGaugeRange.png?241027220842)](/cookbook/5.0/images/RadialGaugeRange.png?241027220842)
+[![](/cookbook/5.0/images/RadialGaugeRange.png?241027221943)](/cookbook/5.0/images/RadialGaugeRange.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Palette = new ScottPlot.Palettes.Nord();
 double[] values = { 100, 80, 65, 45, 20 };
@@ -259,9 +202,6 @@ var radialGaugePlot = myPlot.Add.RadialGaugePlot(values);
 radialGaugePlot.MaximumAngle = 180;
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -271,12 +211,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 The value of each gauge is displayed as text by default but this behavior can be overridden. Note that this is different than the labels fiels which is what appears in the legened.
 
-[![](/cookbook/5.0/images/RadialGaugeLabels.png?241027220842)](/cookbook/5.0/images/RadialGaugeLabels.png?241027220842)
+[![](/cookbook/5.0/images/RadialGaugeLabels.png?241027221943)](/cookbook/5.0/images/RadialGaugeLabels.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Palette = new ScottPlot.Palettes.Nord();
 double[] values = { 100, 80, 65, 45, 20 };
@@ -285,9 +222,6 @@ var radialGaugePlot = myPlot.Add.RadialGaugePlot(values);
 radialGaugePlot.ShowLevels = false;
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -297,12 +231,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Gauge level text is positioned at the tip of each gauge by default, but this position can be adjusted by the user.
 
-[![](/cookbook/5.0/images/RadialGaugeLabelPos.png?241027220842)](/cookbook/5.0/images/RadialGaugeLabelPos.png?241027220842)
+[![](/cookbook/5.0/images/RadialGaugeLabelPos.png?241027221943)](/cookbook/5.0/images/RadialGaugeLabelPos.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Palette = new ScottPlot.Palettes.Nord();
 double[] values = { 100, 80, 65, 45, 20 };
@@ -311,9 +242,6 @@ var radialGaugePlot = myPlot.Add.RadialGaugePlot(values);
 radialGaugePlot.LabelPositionFraction = 0.5;
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -323,12 +251,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Size of the gauge level text as a fraction of the gauge width.
 
-[![](/cookbook/5.0/images/RadialGaugeLabelFontPct.png?241027220842)](/cookbook/5.0/images/RadialGaugeLabelFontPct.png?241027220842)
+[![](/cookbook/5.0/images/RadialGaugeLabelFontPct.png?241027221943)](/cookbook/5.0/images/RadialGaugeLabelFontPct.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Palette = new ScottPlot.Palettes.Nord();
 double[] values = { 100, 80, 65, 45, 20 };
@@ -337,9 +262,6 @@ var radialGaugePlot = myPlot.Add.RadialGaugePlot(values);
 radialGaugePlot.FontSizeFraction = .4;
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -349,12 +271,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Level text fonts may be customized.
 
-[![](/cookbook/5.0/images/RadialGaugeLabelColor.png?241027220842)](/cookbook/5.0/images/RadialGaugeLabelColor.png?241027220842)
+[![](/cookbook/5.0/images/RadialGaugeLabelColor.png?241027221943)](/cookbook/5.0/images/RadialGaugeLabelColor.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Palette = new ScottPlot.Palettes.Nord();
 double[] values = { 100, 80, 65, 45, 20 };
@@ -363,9 +282,6 @@ var radialGaugePlot = myPlot.Add.RadialGaugePlot(values);
 radialGaugePlot.Font.Color = Colors.Black;
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -375,12 +291,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Radial gauge labels will appear in the legend if they are assigned. 
 
-[![](/cookbook/5.0/images/RadialGaugeLegend.png?241027220842)](/cookbook/5.0/images/RadialGaugeLegend.png?241027220842)
+[![](/cookbook/5.0/images/RadialGaugeLegend.png?241027221943)](/cookbook/5.0/images/RadialGaugeLegend.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Palette = new ScottPlot.Palettes.Nord();
 double[] values = { 100, 80, 65, 45, 20 };
@@ -390,9 +303,6 @@ radialGaugePlot.Labels = new string[] { "alpha", "beta", "gamma", "delta", "epsi
 myPlot.ShowLegend();
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -402,12 +312,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 By default the full range of each gauge is drawn as a semitransparent ring. The amount of transparency can be adjusted as desired.
 
-[![](/cookbook/5.0/images/RadialGaugeBackDim.png?241027220842)](/cookbook/5.0/images/RadialGaugeBackDim.png?241027220842)
+[![](/cookbook/5.0/images/RadialGaugeBackDim.png?241027221943)](/cookbook/5.0/images/RadialGaugeBackDim.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Palette = new ScottPlot.Palettes.Nord();
 double[] values = { 100, 80, 65, 45, 20 };
@@ -416,9 +323,6 @@ var radialGaugePlot = myPlot.Add.RadialGaugePlot(values);
 radialGaugePlot.BackgroundTransparencyFraction = .5;
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -428,12 +332,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Gauge backgrounds are drawn as full circles by default. This behavior can be disabled to draw partial backgrounds for non-circular gauges.
 
-[![](/cookbook/5.0/images/RadialGaugeBackNorm.png?241027220842)](/cookbook/5.0/images/RadialGaugeBackNorm.png?241027220842)
+[![](/cookbook/5.0/images/RadialGaugeBackNorm.png?241027221943)](/cookbook/5.0/images/RadialGaugeBackNorm.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Palette = new ScottPlot.Palettes.Nord();
 double[] values = { 100, 80, 65, 45, 20 };
@@ -444,9 +345,6 @@ radialGaugePlot.MaximumAngle = 180;
 radialGaugePlot.StartingAngle = 180;
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>

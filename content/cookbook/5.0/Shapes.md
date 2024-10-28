@@ -18,12 +18,9 @@ ShowEditLink: false
 
 A rectangle can be added to the plot and styled as desired.
 
-[![](/cookbook/5.0/images/RectangleQuickstart.png?241027220842)](/cookbook/5.0/images/RectangleQuickstart.png?241027220842)
+[![](/cookbook/5.0/images/RectangleQuickstart.png?241027221943)](/cookbook/5.0/images/RectangleQuickstart.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 // add a rectangle by specifying points
 myPlot.Add.Rectangle(0, 1, 0, 1);
@@ -42,9 +39,6 @@ rp.LineStyle.Width = 3;
 rp.LineStyle.Pattern = LinePattern.Dashed;
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -54,12 +48,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 A circle can be placed on the plot and styled as desired.
 
-[![](/cookbook/5.0/images/CircleQuickstart.png?241027220842)](/cookbook/5.0/images/CircleQuickstart.png?241027220842)
+[![](/cookbook/5.0/images/CircleQuickstart.png?241027221943)](/cookbook/5.0/images/CircleQuickstart.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 var c1 = myPlot.Add.Circle(1, 0, .5);
 var c2 = myPlot.Add.Circle(2, 0, .5);
@@ -78,9 +69,6 @@ ScottPlot.AxisRules.SquareZoomOut squareRule = new(myPlot.Axes.Bottom, myPlot.Ax
 myPlot.Axes.Rules.Add(squareRule);
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -90,12 +78,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 An ellipse can be placed on the plot and styled as desired.
 
-[![](/cookbook/5.0/images/EllipseQuickstart.png?241027220842)](/cookbook/5.0/images/EllipseQuickstart.png?241027220842)
+[![](/cookbook/5.0/images/EllipseQuickstart.png?241027221943)](/cookbook/5.0/images/EllipseQuickstart.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 for (int i = 0; i < 10; i++)
 {
@@ -109,9 +94,6 @@ ScottPlot.AxisRules.SquareZoomOut squareRule = new(myPlot.Axes.Bottom, myPlot.Ax
 myPlot.Axes.Rules.Add(squareRule);
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -121,12 +103,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Polygon plots can be added from a series of vertices, and must be in clockwise order.
 
-[![](/cookbook/5.0/images/PolygonQuickstart.png?241027220842)](/cookbook/5.0/images/PolygonQuickstart.png?241027220842)
+[![](/cookbook/5.0/images/PolygonQuickstart.png?241027221943)](/cookbook/5.0/images/PolygonQuickstart.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 Coordinates[] points =
 {
@@ -140,9 +119,6 @@ Coordinates[] points =
 myPlot.Add.Polygon(points);
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -152,12 +128,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Polygon plots can be fully customized.
 
-[![](/cookbook/5.0/images/PolygonStyling.png?241027220842)](/cookbook/5.0/images/PolygonStyling.png?241027220842)
+[![](/cookbook/5.0/images/PolygonStyling.png?241027221943)](/cookbook/5.0/images/PolygonStyling.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 Coordinates[] points =
 {
@@ -188,9 +161,6 @@ poly.MarkerFillColor = Colors.Gold;
 poly.MarkerLineColor = Colors.Brown;
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>

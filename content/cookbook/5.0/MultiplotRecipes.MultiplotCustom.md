@@ -16,12 +16,9 @@ ShowEditLink: false
 
 The Multiplot's Layout property may be configured to achieve a fully custom layout.
 
-[![](/cookbook/5.0/images/MultiplotCustom.png?241027220842)](/cookbook/5.0/images/MultiplotCustom.png?241027220842)
+[![](/cookbook/5.0/images/MultiplotCustom.png?241027221943)](/cookbook/5.0/images/MultiplotCustom.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Multiplot multiplot = new();
+{{< recipe-sp5 >}}ScottPlot.Multiplot multiplot = new();
 
 // create 3 plots
 for (int i = 0; i < 3; i++)
@@ -42,9 +39,6 @@ FractionRect[] rectangles = [
 multiplot.Layout = new ScottPlot.MultiplotLayouts.Custom(rectangles);
 
 multiplot.SavePng("demo.png", 400, 400);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <a href='https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/MultiplotRecipes.cs'><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="mb-1 bi bi-github" viewBox="0 0 16 16">

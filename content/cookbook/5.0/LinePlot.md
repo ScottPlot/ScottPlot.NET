@@ -18,21 +18,15 @@ ShowEditLink: false
 
 Line plots are placed with a start and end location in coordinate space. Their styles can be customized.
 
-[![](/cookbook/5.0/images/LineQuickStart.png?241027220842)](/cookbook/5.0/images/LineQuickStart.png?241027220842)
+[![](/cookbook/5.0/images/LineQuickStart.png?241027221943)](/cookbook/5.0/images/LineQuickStart.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Line(1, 12, 12, 0);
 myPlot.Add.Line(7, 9, 42, 9);
 myPlot.Add.Line(30, 17, 30, 1);
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -42,12 +36,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Line plots can be styled using a LineStyle.
 
-[![](/cookbook/5.0/images/LinePlotStyles.png?241027220842)](/cookbook/5.0/images/LinePlotStyles.png?241027220842)
+[![](/cookbook/5.0/images/LinePlotStyles.png?241027221943)](/cookbook/5.0/images/LinePlotStyles.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 ScottPlot.Colormaps.Viridis colormap = new();
 
@@ -70,9 +61,6 @@ for (int i = 0; i < 10; i++)
 }
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -82,12 +70,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Line plots with labels appear in the legend.
 
-[![](/cookbook/5.0/images/LinePlotLegendQWER.png?241027220842)](/cookbook/5.0/images/LinePlotLegendQWER.png?241027220842)
+[![](/cookbook/5.0/images/LinePlotLegendQWER.png?241027221943)](/cookbook/5.0/images/LinePlotLegendQWER.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 var sin = myPlot.Add.Signal(Generate.Sin());
 sin.LegendText = "Sine";
@@ -103,9 +88,6 @@ line.LegendText = "Line Plot";
 myPlot.ShowLegend(Alignment.UpperRight);
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>

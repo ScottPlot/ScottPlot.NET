@@ -18,21 +18,15 @@ ShowEditLink: false
 
 Text can be placed anywhere in coordinate space.
 
-[![](/cookbook/5.0/images/TextQuickstart.png?241027220842)](/cookbook/5.0/images/TextQuickstart.png?241027220842)
+[![](/cookbook/5.0/images/TextQuickstart.png?241027221943)](/cookbook/5.0/images/TextQuickstart.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin());
 myPlot.Add.Signal(Generate.Cos());
 myPlot.Add.Text("Hello, World", 25, 0.5);
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -42,12 +36,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Text formatting can be extensively customized.
 
-[![](/cookbook/5.0/images/Formatting.png?241027220842)](/cookbook/5.0/images/Formatting.png?241027220842)
+[![](/cookbook/5.0/images/Formatting.png?241027221943)](/cookbook/5.0/images/Formatting.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 var text = myPlot.Add.Text("Hello, World", 42, 69);
 text.LabelFontSize = 26;
@@ -61,9 +52,6 @@ text.LabelPadding = 10;
 text.LabelAlignment = Alignment.MiddleCenter;
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -73,12 +61,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Multiline labels have a default line height estimated from the typeface and font size, however line height may be manually defined by the user.
 
-[![](/cookbook/5.0/images/LabelLineHeight.png?241027220842)](/cookbook/5.0/images/LabelLineHeight.png?241027220842)
+[![](/cookbook/5.0/images/LabelLineHeight.png?241027221943)](/cookbook/5.0/images/LabelLineHeight.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 var label1 = myPlot.Add.Text($"line\nheight", 0, 0);
 label1.LabelLineSpacing = 0;
@@ -104,9 +89,6 @@ myPlot.HideGrid();
 myPlot.Axes.SetLimitsX(-.5, 4);
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -116,12 +98,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 The offset properties can be used to fine-tune text position in pixel units
 
-[![](/cookbook/5.0/images/TextOffset.png?241027220842)](/cookbook/5.0/images/TextOffset.png?241027220842)
+[![](/cookbook/5.0/images/TextOffset.png?241027221943)](/cookbook/5.0/images/TextOffset.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 for (int i = 0; i < 25; i += 5)
 {
@@ -145,9 +124,6 @@ for (int i = 0; i < 25; i += 5)
 myPlot.Axes.SetLimitsX(-5, 30);
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>

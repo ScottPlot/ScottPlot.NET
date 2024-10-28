@@ -16,12 +16,9 @@ ShowEditLink: false
 
 Set the `Label` property of bars to have text displayed beside (left or right) of each bar.
 
-[![](/cookbook/5.0/images/BarValuesHorizontal.png?241027220842)](/cookbook/5.0/images/BarValuesHorizontal.png?241027220842)
+[![](/cookbook/5.0/images/BarValuesHorizontal.png?241027221943)](/cookbook/5.0/images/BarValuesHorizontal.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 double[] values = { -20, 10, 7, 13 };
 
@@ -42,9 +39,6 @@ myPlot.Axes.SetLimitsX(-45, 35);
 myPlot.Add.VerticalLine(0, 1, Colors.Black);
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <a href='https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs'><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="mb-1 bi bi-github" viewBox="0 0 16 16">

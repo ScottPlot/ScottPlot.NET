@@ -18,12 +18,9 @@ ShowEditLink: false
 
 Arrows can be placed on plots to point to a location in coordinate space and extensively customized.
 
-[![](/cookbook/5.0/images/ArrowQuickstart.png?241027220842)](/cookbook/5.0/images/ArrowQuickstart.png?241027220842)
+[![](/cookbook/5.0/images/ArrowQuickstart.png?241027221943)](/cookbook/5.0/images/ArrowQuickstart.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 // create a line
 Coordinates arrowTip = new(0, 0);
@@ -65,9 +62,6 @@ arrow4.ArrowOffset = 15;
 myPlot.Axes.SetLimits(-1, 6, -1, 2);
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>

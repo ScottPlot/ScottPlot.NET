@@ -18,12 +18,9 @@ ShowEditLink: false
 
 Use the Multiplot class to create figures with multiple subplots.
 
-[![](/cookbook/5.0/images/MultiplotQuickstart.png?241027220842)](/cookbook/5.0/images/MultiplotQuickstart.png?241027220842)
+[![](/cookbook/5.0/images/MultiplotQuickstart.png?241027221943)](/cookbook/5.0/images/MultiplotQuickstart.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Multiplot multiplot = new();
+{{< recipe-sp5 >}}ScottPlot.Multiplot multiplot = new();
 
 ScottPlot.Plot plot1 = new();
 plot1.Add.Signal(Generate.Sin());
@@ -35,9 +32,6 @@ multiplot.AddPlot(plot1);
 multiplot.AddPlot(plot2);
 
 multiplot.SavePng("demo.png", 400, 400);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -47,12 +41,9 @@ multiplot.SavePng("demo.png", 400, 400);
 
 The Multiplot's Layout property may be customized to achieve a column layout.
 
-[![](/cookbook/5.0/images/MultiplotColumns.png?241027220842)](/cookbook/5.0/images/MultiplotColumns.png?241027220842)
+[![](/cookbook/5.0/images/MultiplotColumns.png?241027221943)](/cookbook/5.0/images/MultiplotColumns.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Multiplot multiplot = new();
+{{< recipe-sp5 >}}ScottPlot.Multiplot multiplot = new();
 
 ScottPlot.Plot plot1 = new();
 plot1.Add.Signal(Generate.Sin());
@@ -65,9 +56,6 @@ multiplot.AddPlot(plot2);
 multiplot.Layout = new ScottPlot.MultiplotLayouts.Columns();
 
 multiplot.SavePng("demo.png", 400, 400);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -77,12 +65,9 @@ multiplot.SavePng("demo.png", 400, 400);
 
 The Multiplot's Layout property may be customized to achieve a grid layout.
 
-[![](/cookbook/5.0/images/MultiplotGrid.png?241027220842)](/cookbook/5.0/images/MultiplotGrid.png?241027220842)
+[![](/cookbook/5.0/images/MultiplotGrid.png?241027221943)](/cookbook/5.0/images/MultiplotGrid.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Multiplot multiplot = new();
+{{< recipe-sp5 >}}ScottPlot.Multiplot multiplot = new();
 
 for (int i = 0; i < 6; i++)
 {
@@ -95,9 +80,6 @@ for (int i = 0; i < 6; i++)
 multiplot.Layout = new ScottPlot.MultiplotLayouts.Grid(2);
 
 multiplot.SavePng("demo.png", 400, 400);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -107,12 +89,9 @@ multiplot.SavePng("demo.png", 400, 400);
 
 The Multiplot's Layout property may be configured to achieve a fully custom layout.
 
-[![](/cookbook/5.0/images/MultiplotCustom.png?241027220842)](/cookbook/5.0/images/MultiplotCustom.png?241027220842)
+[![](/cookbook/5.0/images/MultiplotCustom.png?241027221943)](/cookbook/5.0/images/MultiplotCustom.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Multiplot multiplot = new();
+{{< recipe-sp5 >}}ScottPlot.Multiplot multiplot = new();
 
 // create 3 plots
 for (int i = 0; i < 3; i++)
@@ -133,9 +112,6 @@ FractionRect[] rectangles = [
 multiplot.Layout = new ScottPlot.MultiplotLayouts.Custom(rectangles);
 
 multiplot.SavePng("demo.png", 400, 400);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>

@@ -18,12 +18,9 @@ ShowEditLink: false
 
 A Crosshair combines a horizontal axis line and vertical axis line to mark a location in coordinate space.
 
-[![](/cookbook/5.0/images/CrosshairQuickstart.png?241027220842)](/cookbook/5.0/images/CrosshairQuickstart.png?241027220842)
+[![](/cookbook/5.0/images/CrosshairQuickstart.png?241027221943)](/cookbook/5.0/images/CrosshairQuickstart.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin());
 myPlot.Add.Signal(Generate.Cos());
@@ -31,9 +28,6 @@ myPlot.Add.Signal(Generate.Cos());
 myPlot.Add.Crosshair(13, .25);
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -43,12 +37,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Crosshairs can be extensively customized.
 
-[![](/cookbook/5.0/images/CrosshairCustomization.png?241027220842)](/cookbook/5.0/images/CrosshairCustomization.png?241027220842)
+[![](/cookbook/5.0/images/CrosshairCustomization.png?241027221943)](/cookbook/5.0/images/CrosshairCustomization.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin());
 myPlot.Add.Signal(Generate.Cos());
@@ -63,9 +54,6 @@ cross.LineColor = Colors.Magenta;
 cross.HorizontalLine.LinePattern = LinePattern.Dotted;
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>

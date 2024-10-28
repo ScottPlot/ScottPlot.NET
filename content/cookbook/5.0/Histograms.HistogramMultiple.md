@@ -16,12 +16,9 @@ ShowEditLink: false
 
 Demonstrates how to use semitransparent bars to display histograms from overlapping datasets
 
-[![](/cookbook/5.0/images/HistogramMultiple.png?241027220842)](/cookbook/5.0/images/HistogramMultiple.png?241027220842)
+[![](/cookbook/5.0/images/HistogramMultiple.png?241027221943)](/cookbook/5.0/images/HistogramMultiple.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 // Create a histogram from a collection of values
 double[][] heightsByGroup = { SampleData.MaleHeights(), SampleData.FemaleHeights() };
@@ -66,9 +63,6 @@ myPlot.XLabel("Height (cm)");
 myPlot.HideGrid();
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <a href='https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Miscellaneous/Histograms.cs'><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="mb-1 bi bi-github" viewBox="0 0 16 16">

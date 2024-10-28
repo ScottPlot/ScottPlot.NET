@@ -16,12 +16,9 @@ ShowEditLink: false
 
 The axis limits can be automatically adjusted to fit the data. Optional arguments allow users to define the amount of whitespace around the edges of the data.In older versions of ScottPlot this functionality was achieved by a method named AxisAuto().
 
-[![](/cookbook/5.0/images/AutoScale.png?241027220842)](/cookbook/5.0/images/AutoScale.png?241027220842)
+[![](/cookbook/5.0/images/AutoScale.png?241027221943)](/cookbook/5.0/images/AutoScale.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin(51));
 myPlot.Add.Signal(Generate.Cos(51));
@@ -33,9 +30,6 @@ myPlot.Axes.SetLimits(-100, 150, -5, 5);
 myPlot.Axes.AutoScale();
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <a href='https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs'><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="mb-1 bi bi-github" viewBox="0 0 16 16">

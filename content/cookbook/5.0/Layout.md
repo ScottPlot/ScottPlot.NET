@@ -18,12 +18,9 @@ ShowEditLink: false
 
 How to create a plot containing only the data area and no axes.
 
-[![](/cookbook/5.0/images/Frameless.png?241027220842)](/cookbook/5.0/images/Frameless.png?241027220842)
+[![](/cookbook/5.0/images/Frameless.png?241027221943)](/cookbook/5.0/images/Frameless.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin(51));
 myPlot.Add.Signal(Generate.Cos(51));
@@ -35,9 +32,6 @@ myPlot.Layout.Frameless();
 myPlot.DataBackground.Color = Colors.WhiteSmoke;
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -47,12 +41,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 The plot can be arranged to achieve a fixed amount of padding on each side of the data area
 
-[![](/cookbook/5.0/images/FixedPadding.png?241027220842)](/cookbook/5.0/images/FixedPadding.png?241027220842)
+[![](/cookbook/5.0/images/FixedPadding.png?241027221943)](/cookbook/5.0/images/FixedPadding.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 // add sample data to the plot
 myPlot.Add.Signal(Generate.Sin(51));
@@ -67,9 +58,6 @@ myPlot.FigureBackground.Color = Colors.LightBlue;
 myPlot.DataBackground.Color = Colors.White;
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -79,12 +67,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 The plot can be arranged so the data is drawn inside a fixed rectangle defined in pixel units
 
-[![](/cookbook/5.0/images/FixedRectangle.png?241027220842)](/cookbook/5.0/images/FixedRectangle.png?241027220842)
+[![](/cookbook/5.0/images/FixedRectangle.png?241027221943)](/cookbook/5.0/images/FixedRectangle.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 // add sample data to the plot
 myPlot.Add.Signal(Generate.Sin(51));
@@ -101,9 +86,6 @@ myPlot.FigureBackground.Color = Colors.LightBlue;
 myPlot.DataBackground.Color = Colors.White;
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>

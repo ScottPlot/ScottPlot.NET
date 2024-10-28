@@ -16,12 +16,9 @@ ShowEditLink: false
 
 A frameless heatmap can be achieved by disabling axis labels and ticks, then setting the margins to 0 so the data area tightly fits the data.
 
-[![](/cookbook/5.0/images/FramelessHeatmap.png?241027220842)](/cookbook/5.0/images/FramelessHeatmap.png?241027220842)
+[![](/cookbook/5.0/images/FramelessHeatmap.png?241027221943)](/cookbook/5.0/images/FramelessHeatmap.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 double[,] data = {
     { 1, 2, 3 },
@@ -39,9 +36,6 @@ myPlot.Layout.Frameless();
 myPlot.Axes.Margins(0, 0);
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <a href='https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Heatmap.cs'><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="mb-1 bi bi-github" viewBox="0 0 16 16">

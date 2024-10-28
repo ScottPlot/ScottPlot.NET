@@ -16,12 +16,9 @@ ShowEditLink: false
 
 Plots can be created using dark mode by setting the colors of major plot components to ones consistent with a dark theme.
 
-[![](/cookbook/5.0/images/DarkMode.png?241027220842)](/cookbook/5.0/images/DarkMode.png?241027220842)
+[![](/cookbook/5.0/images/DarkMode.png?241027221943)](/cookbook/5.0/images/DarkMode.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 // set the color palette used when coloring new items added to the plot
 myPlot.Add.Palette = new ScottPlot.Palettes.Penumbra();
@@ -52,9 +49,6 @@ myPlot.Legend.FontColor = Color.FromHex("#d7d7d7");
 myPlot.Legend.OutlineColor = Color.FromHex("#d7d7d7");
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <a href='https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs'><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="mb-1 bi bi-github" viewBox="0 0 16 16">

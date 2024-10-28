@@ -16,12 +16,9 @@ ShowEditLink: false
 
 Although a scatter plot may contain a very large amount of data, much of it may be unpopulated. The user can define min and max render indexes, and only values within that range will be displayed when the scatter plot is rendered.
 
-[![](/cookbook/5.0/images/ScatterLimitIndex.png?241027220842)](/cookbook/5.0/images/ScatterLimitIndex.png?241027220842)
+[![](/cookbook/5.0/images/ScatterLimitIndex.png?241027221943)](/cookbook/5.0/images/ScatterLimitIndex.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 double[] xs = Generate.Consecutive(51);
 double[] ys = Generate.Sin(51);
@@ -31,9 +28,6 @@ sp.MinRenderIndex = 10;
 sp.MaxRenderIndex = 40;
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <a href='https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Scatter.cs'><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="mb-1 bi bi-github" viewBox="0 0 16 16">

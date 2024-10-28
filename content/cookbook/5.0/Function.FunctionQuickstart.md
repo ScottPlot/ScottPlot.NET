@@ -16,12 +16,9 @@ ShowEditLink: false
 
 Create a function plot from a formula.
 
-[![](/cookbook/5.0/images/FunctionQuickstart.png?241027220842)](/cookbook/5.0/images/FunctionQuickstart.png?241027220842)
+[![](/cookbook/5.0/images/FunctionQuickstart.png?241027221943)](/cookbook/5.0/images/FunctionQuickstart.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 // Functions are defined as delegates with an input and output
 static double func1(double x) => (Math.Sin(x) * Math.Sin(x / 2));
@@ -37,9 +34,6 @@ myPlot.Add.Function(func3);
 myPlot.Axes.SetLimits(-10, 10, -1.5, 1.5);
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <a href='https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Function.cs'><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="mb-1 bi bi-github" viewBox="0 0 16 16">

@@ -16,12 +16,9 @@ ShowEditLink: false
 
 A contour plot can be created from a collection of 3D data points placed arbitrarily in X/Y plane.
 
-[![](/cookbook/5.0/images/IrregularContour.png?241027220842)](/cookbook/5.0/images/IrregularContour.png?241027220842)
+[![](/cookbook/5.0/images/IrregularContour.png?241027221943)](/cookbook/5.0/images/IrregularContour.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 // generate irregularly spaced X/Y/Z data points
 Coordinates3d[] cs = new Coordinates3d[1000];
@@ -54,9 +51,6 @@ myPlot.Axes.TightMargins();
 myPlot.HideGrid();
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <a href='https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Contour.cs'><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="mb-1 bi bi-github" viewBox="0 0 16 16">

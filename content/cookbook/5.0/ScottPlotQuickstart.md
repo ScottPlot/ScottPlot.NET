@@ -18,12 +18,9 @@ ShowEditLink: false
 
 A scatter plot can be used to display X/Y data points.
 
-[![](/cookbook/5.0/images/QuickstartScatter.png?241027220842)](/cookbook/5.0/images/QuickstartScatter.png?241027220842)
+[![](/cookbook/5.0/images/QuickstartScatter.png?241027221943)](/cookbook/5.0/images/QuickstartScatter.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 // create sample data
 double[] dataX = { 1, 2, 3, 4, 5 };
@@ -33,9 +30,6 @@ double[] dataY = { 1, 4, 9, 16, 25 };
 myPlot.Add.Scatter(dataX, dataY);
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -45,12 +39,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Most methods which add items to plots return the item the was added. Save the object that is returned and set its properties to customize it.
 
-[![](/cookbook/5.0/images/CustomizingPlottables.png?241027220842)](/cookbook/5.0/images/CustomizingPlottables.png?241027220842)
+[![](/cookbook/5.0/images/CustomizingPlottables.png?241027221943)](/cookbook/5.0/images/CustomizingPlottables.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 // create sample data
 double[] dataX = { 1, 2, 3, 4, 5 };
@@ -67,9 +58,6 @@ myScatter.MarkerShape = MarkerShape.FilledDiamond;
 myScatter.LinePattern = LinePattern.DenselyDashed;
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -79,12 +67,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Signal plots display Y values at evenly spaced X positions. Signal plots should be used instead of Scatter plots whenever possible.
 
-[![](/cookbook/5.0/images/QuickstartSignal.png?241027220842)](/cookbook/5.0/images/QuickstartSignal.png?241027220842)
+[![](/cookbook/5.0/images/QuickstartSignal.png?241027221943)](/cookbook/5.0/images/QuickstartSignal.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 // create sample data
 double[] sin = Generate.Sin(51);
@@ -93,9 +78,6 @@ double[] sin = Generate.Sin(51);
 myPlot.Add.Signal(sin);
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -105,12 +87,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Signal plots are so performant that they can interactively display millions of data points in real time.
 
-[![](/cookbook/5.0/images/SignalPerformance.png?241027220842)](/cookbook/5.0/images/SignalPerformance.png?241027220842)
+[![](/cookbook/5.0/images/SignalPerformance.png?241027221943)](/cookbook/5.0/images/SignalPerformance.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 // create sample data with one million points
 double[] data = Generate.RandomWalk(1_000_000);
@@ -119,9 +98,6 @@ double[] data = Generate.RandomWalk(1_000_000);
 myPlot.Add.Signal(data);
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -131,12 +107,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Plots have helper methods for quickly setting axis labels. Refer to other cookbook pages for additional axis customization options.
 
-[![](/cookbook/5.0/images/QuickstartAxisLabels.png?241027220842)](/cookbook/5.0/images/QuickstartAxisLabels.png?241027220842)
+[![](/cookbook/5.0/images/QuickstartAxisLabels.png?241027221943)](/cookbook/5.0/images/QuickstartAxisLabels.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 // plot sample data
 myPlot.Add.Signal(Generate.Sin(51));
@@ -148,9 +121,6 @@ myPlot.YLabel("Vertical Axis");
 myPlot.Title("Plot Title");
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>

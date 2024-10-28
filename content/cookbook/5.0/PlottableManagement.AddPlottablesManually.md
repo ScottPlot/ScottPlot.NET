@@ -16,12 +16,9 @@ ShowEditLink: false
 
 Although the Plot.Add class has many helpful methods for creating plottable objects and adding them to the plot, users can instantiate plottable objects themselves and use Add.Plottable() to place it on the plot. This strategy allows users to create their own plottables (implementing IPlottable) with custom appearance or behavior.
 
-[![](/cookbook/5.0/images/AddPlottablesManually.png?241027220842)](/cookbook/5.0/images/AddPlottablesManually.png?241027220842)
+[![](/cookbook/5.0/images/AddPlottablesManually.png?241027221943)](/cookbook/5.0/images/AddPlottablesManually.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 // create a plottable and modify it as desired
 ScottPlot.Plottables.LinePlot line = new()
@@ -34,9 +31,6 @@ ScottPlot.Plottables.LinePlot line = new()
 myPlot.Add.Plottable(line);
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <a href='https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/PlottableManagement.cs'><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="mb-1 bi bi-github" viewBox="0 0 16 16">

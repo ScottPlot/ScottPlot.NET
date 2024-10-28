@@ -16,12 +16,9 @@ ShowEditLink: false
 
 Finance charts can display price range information over arbitrary time scales.
 
-[![](/cookbook/5.0/images/FinanceChartBins.png?241027220842)](/cookbook/5.0/images/FinanceChartBins.png?241027220842)
+[![](/cookbook/5.0/images/FinanceChartBins.png?241027221943)](/cookbook/5.0/images/FinanceChartBins.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 DateTime timeOpen = new(1985, 09, 24, 9, 30, 0); // 9:30 AM
 DateTime timeClose = new(1985, 09, 24, 16, 0, 0); // 4:00 PM
@@ -41,9 +38,6 @@ myPlot.Add.Candlestick(prices);
 myPlot.Axes.DateTimeTicksBottom();
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <a href='https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Finance.cs'><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="mb-1 bi bi-github" viewBox="0 0 16 16">

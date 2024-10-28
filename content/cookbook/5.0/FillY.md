@@ -18,12 +18,9 @@ ShowEditLink: false
 
 FillY plots can be created from X, Y1, and Y2 arrays.
 
-[![](/cookbook/5.0/images/FillYFromArrays.png?241027220842)](/cookbook/5.0/images/FillYFromArrays.png?241027220842)
+[![](/cookbook/5.0/images/FillYFromArrays.png?241027221943)](/cookbook/5.0/images/FillYFromArrays.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 RandomDataGenerator dataGen = new(0);
 
@@ -39,9 +36,6 @@ fill.MarkerColor = Colors.Blue;
 fill.LineWidth = 2;
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -51,12 +45,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 FillY plots can be created from two scatter plots that share the same X values.
 
-[![](/cookbook/5.0/images/FillYFromScatters.png?241027220842)](/cookbook/5.0/images/FillYFromScatters.png?241027220842)
+[![](/cookbook/5.0/images/FillYFromScatters.png?241027221943)](/cookbook/5.0/images/FillYFromScatters.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 RandomDataGenerator dataGen = new(0);
 
@@ -76,9 +67,6 @@ fill.LineWidth = 0;
 myPlot.MoveToBack(fill);
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -88,12 +76,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 FillY plots can be created from data of any type if a conversion function is supplied.
 
-[![](/cookbook/5.0/images/Function.png?241027220842)](/cookbook/5.0/images/Function.png?241027220842)
+[![](/cookbook/5.0/images/Function.png?241027221943)](/cookbook/5.0/images/Function.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 // create source data in a nonstandard data type
 List<(int, int, int)> data = new();
@@ -115,9 +100,6 @@ fill.FillColor = Colors.Blue.WithAlpha(.2);
 fill.LineColor = Colors.Blue;
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -127,12 +109,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 FillY plots can be customized using public properties.
 
-[![](/cookbook/5.0/images/Styling.png?241027220842)](/cookbook/5.0/images/Styling.png?241027220842)
+[![](/cookbook/5.0/images/Styling.png?241027221943)](/cookbook/5.0/images/Styling.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 RandomDataGenerator dataGen = new(0);
 
@@ -156,9 +135,6 @@ fill.LegendText = "Filled Area";
 myPlot.ShowLegend();
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>

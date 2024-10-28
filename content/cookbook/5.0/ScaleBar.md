@@ -18,12 +18,9 @@ ShowEditLink: false
 
 A ScaleBar can be added to a plot to convey scale information allowing axis frames, ticks, and labels to be hidden.
 
-[![](/cookbook/5.0/images/ScaleBarQuickstart.png?241027220842)](/cookbook/5.0/images/ScaleBarQuickstart.png?241027220842)
+[![](/cookbook/5.0/images/ScaleBarQuickstart.png?241027221943)](/cookbook/5.0/images/ScaleBarQuickstart.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 // plot sample data
 myPlot.Add.Signal(Generate.Sin());
@@ -37,9 +34,6 @@ myPlot.HideGrid();
 myPlot.Axes.Frameless();
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -49,12 +43,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Text may be added to each dimension of an L shaped scalebar
 
-[![](/cookbook/5.0/images/ScaleBarLabels.png?241027220842)](/cookbook/5.0/images/ScaleBarLabels.png?241027220842)
+[![](/cookbook/5.0/images/ScaleBarLabels.png?241027221943)](/cookbook/5.0/images/ScaleBarLabels.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 // plot sample data
 myPlot.Add.Signal(Generate.Sin());
@@ -70,9 +61,6 @@ myPlot.HideGrid();
 myPlot.Axes.Frameless();
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -82,12 +70,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 The ScaleBar has many properties which may be customized 
 
-[![](/cookbook/5.0/images/ScaleBarStyling.png?241027220842)](/cookbook/5.0/images/ScaleBarStyling.png?241027220842)
+[![](/cookbook/5.0/images/ScaleBarStyling.png?241027221943)](/cookbook/5.0/images/ScaleBarStyling.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 // plot sample data
 myPlot.Add.Signal(Generate.Sin());
@@ -103,9 +88,6 @@ myPlot.HideGrid();
 myPlot.Axes.Frameless();
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
@@ -115,12 +97,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Set Width or Height to 0 to cause the ScaleBar to use a single axis only
 
-[![](/cookbook/5.0/images/ScaleBarSingleDimension.png?241027220842)](/cookbook/5.0/images/ScaleBarSingleDimension.png?241027220842)
+[![](/cookbook/5.0/images/ScaleBarSingleDimension.png?241027221943)](/cookbook/5.0/images/ScaleBarSingleDimension.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 // plot sample data
 myPlot.Add.Signal(Generate.Sin());
@@ -138,9 +117,6 @@ myPlot.HideGrid();
 myPlot.Axes.Frameless();
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>

@@ -16,12 +16,9 @@ ShowEditLink: false
 
 A target number of ticks can be provided and the automatic tick generator will attempt to place that number of ticks. This strategy allows tick density to decrease as the image size increases.
 
-[![](/cookbook/5.0/images/TickCount.png?241027220842)](/cookbook/5.0/images/TickCount.png?241027220842)
+[![](/cookbook/5.0/images/TickCount.png?241027221943)](/cookbook/5.0/images/TickCount.png?241027221943)
 
-{{< recipe-sp5 >}}
-
-```cs
-ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin(51));
 myPlot.Add.Signal(Generate.Cos(51));
@@ -35,9 +32,6 @@ tickGenY.TargetTickCount = 3;
 myPlot.Axes.Left.TickGenerator = tickGenY;
 
 myPlot.SavePng("demo.png", 400, 300);
-
-```
-
 {{< /recipe-sp5 >}}
 
 <a href='https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs'><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="mb-1 bi bi-github" viewBox="0 0 16 16">
