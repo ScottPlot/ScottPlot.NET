@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <style>
+
+    </style>
+
+    <link rel="stylesheet" href="https://scottplot.net/css/highlightjs/dracula.css">
+    <script src="https://scottplot.net/js/highlight.min.js"></script>
+
+    <style>
+        a {
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .circle {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: #3498db;
+            margin: 0 2px;
+            vertical-align: middle;
+        }
+
+        .circle-red {
+            background-color: #ff5f57;
+        }
+
+        .circle-yellow {
+            background-color: #ffbd2e;
+        }
+
+        .circle-green {
+            background-color: #28c840;
+        }
+
+        .circle-gray {
+            background-color: #747579;
+        }
+
+        .switch-language-bar button {
+            background-color: inherit;
+            border: 0px;
+            padding: .3rem .5rem;
+            border-radius: 7px 7px 0 0;
+        }
+
+        .switch-language-bar .active {
+            background-color: #282a37;
+            color: #FFFFFF;
+        }
+
+        .switch-language-bar .inactive {
+            background-color: inherit;
+            color: #FFFFFF99;
+        }
+
+        .switch-language-bar .inactive:hover {
+            background-color: #282a3799;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="max-width: 800px; margin:auto;">
+
+        <section class="my-5">
+            <div class="p-2">
+                <h1>Inverted Auto-Axis</h1>
+                <div class="d-flex mb-2">
+                    <a class="btn btn-sm btn-primary me-1" href="#">Recipe Permalink</a>
+                    <a class="btn btn-sm btn-success me-1" href="#">Category: Advanced Axis</a>
+                </div>
+                <p>Customize the logic for the automatic axis scaler to ensure that axis limits for a particular axis
+                    are
+                    always inverted when autoscaled.</p>
+                <img src="https://scottplot.net/cookbook/5.0/images/AltTickGen.png">
+            </div>
+
+            <div class="p-2">
+                <div class="text-light rounded"
+                    style="background-color: #181921; border: 2px solid #181921; box-shadow: 10px 10px 20px #00000066;">
+
+                    <div class="d-inline-block mx-2 mb-2">
+                        <span class="circle circle-red"></span>
+                        <span class="circle circle-yellow"></span>
+                        <span class="circle circle-green"></span>
+                    </div>
+
+                    <div class="switch-language-bar d-flex">
+                        <div class="mx-2" style="opacity: .5;">
+                            <img src="https://scottplot.net/images/brand/favicon.svg" width="20" height="20">
+                        </div>
+                        <button type="button" class="active" onclick="recipe_button_console(this)">Console</button>
+                        <button type="button" class="inactive" onclick="recipe_button_winforms(this)">WinForms</button>
+                        <button type="button" class="inactive" onclick="recipe_button_wpf(this)">WPF</button>
+                        <button type="button" class="inactive" onclick="recipe_button_other(this)">Other</button>
+                    </div>
+                    <div class="p-2 recipe-code-container" style="background-color: #282a37;">
+                        <pre class="m-0"><code class="language-cs">ScottPlot.Plot myPlot = new();
+double[] dataX = { 1, 2, 3, 4, 5 };
+double[] dataY = { 1, 4, 9, 16, 25 };
+myPlot.Add.Scatter(dataX, dataY);
+myPlot.SavePng("demo.png", 400, 300);</code></pre>
+                        <pre class="m-0 language-cs"><code class="language-cs"></code></pre>
+                    </div>
+                    <div class="text-end">
+                        <a href="#" style="font-size: 0.8em; opacity: .5;" class="text-light px-2">Edit on
+                            GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        function recipe_reset(recipe_code_container) {
+            const preElements = recipe_code_container.querySelectorAll("pre");
+            const pre_original = preElements[0];
+            pre_original.classList.add("collapse");
+            const code_dynamic = preElements[1].firstElementChild;
+            code_dynamic.innerHTML = pre_original.innerHTML;
+            return code_dynamic;
+        }
+
+        function highlight(pre) {
+            hljs.configure({ ignoreUnescapedHTML: true });
+            delete pre.dataset.highlighted;
+            hljs.highlightElement(pre);
+        }
+
+        function getControlCode(original_code, control_name) {
+            const lines = original_code.split('\n')
+                .filter(line => !line.includes("myPlot.SavePng("))
+                .filter(line => !line.includes("ScottPlot.Plot myPlot = new()"));
+            lines.push(`${control_name}.Refresh();`);
+            return lines.join("\n").replaceAll("myPlot.", `${control_name}.Plot.`);
+        }
+
+        function select_single_button(button) {
+            const buttons = button.parentElement.querySelectorAll("button");
+            buttons.forEach(x => x.classList.remove("active"));
+            buttons.forEach(x => x.classList.add("inactive"));
+            button.classList.add("active");
+            button.classList.remove("inactive");
+        }
+
+        function recipe_button_console(button) {
+            select_single_button(button);
+            pre = recipe_reset(button.parentElement.parentElement);
+            highlight(pre);
+        }
+
+        function recipe_button_winforms(button) {
+            select_single_button(button);
+            pre = recipe_reset(button.parentElement.parentElement);
+            pre.innerHTML = getControlCode(pre.innerHTML, 'formsPlot1');
+            highlight(pre);
+        }
+
+        function recipe_button_wpf(button) {
+            select_single_button(button);
+            pre = recipe_reset(button.parentElement.parentElement);
+            pre.innerHTML = getControlCode(pre.innerHTML, 'WpfPlot1');
+            highlight(pre);
+        }
+
+        function recipe_button_other(button) {
+            select_single_button(button);
+            pre = recipe_reset(button.parentElement.parentElement);
+            pre.innerHTML = getControlCode(pre.innerHTML, 'MyPlotControl');
+            highlight(pre);
+        }
+
+    </script>
+
+    <script>
+        /* startup using the console highlighting as if the console button were clicked */
+        document.querySelectorAll(".recipe-code-container").forEach(el => { pre = recipe_reset(el); highlight(pre); });
+    </script>
+</body>
+
+</html>
