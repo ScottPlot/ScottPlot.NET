@@ -6,16 +6,21 @@ date: 2024-10-12
 
 # .NET Maui Quickstart
 
+**Step 0:** Create a new .NET MAUI App
 
 **Step 1**: Install the [`ScottPlot.Maui`](https://www.nuget.org/packages/ScottPlot.Maui) NuGet package. Linux & MacOS users must follow these [additional steps](https://scottplot.net/faq/dependencies/).
 
 **Step 2**: Add the following to your `MauiProgram.cs` file:
 
+```cs
+using SkiaSharp.Views.Maui.Controls.Hosting;
+```
+
 ```csharp
 var builder = MauiApp.CreateBuilder();
 builder
     .UseMauiApp<App>()
-    .UseScottPlot()
+    .UseSkiaSharp()
         ...
 ```
 
