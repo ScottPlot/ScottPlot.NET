@@ -16,6 +16,10 @@ Members of the open-source community who contributed to ScottPlot
 <div class='display-3 my-5 text-center'>💖🚀✨</div>
 <div class='d-flex justify-content-center flex-wrap'>
 <div class='bg-light border rounded text-center mx-3 my-2'>
+<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/or8e4m4n.jpg' height='125' width='125'/></a></div>
+<div><a href='https://github.com/Or8e4m4n'>@Or8e4m4n</a></div>
+</div>
+<div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/stendprog.png' height='125' width='125'/></a></div>
 <div><a href='https://github.com/StendProg'>@StendProg</a></div>
 </div>
@@ -334,10 +338,6 @@ Members of the open-source community who contributed to ScottPlot
 <div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/cardroid.png' height='125' width='125'/></a></div>
 <div><a href='https://github.com/Cardroid'>@Cardroid</a></div>
-</div>
-<div class='bg-light border rounded text-center mx-3 my-2'>
-<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/or8e4m4n.jpg' height='125' width='125'/></a></div>
-<div><a href='https://github.com/Or8e4m4n'>@Or8e4m4n</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/limula-pma.png' height='125' width='125'/></a></div>

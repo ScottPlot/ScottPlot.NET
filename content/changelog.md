@@ -8,6 +8,25 @@ Description: Release notes for every version of ScottPlot
 Release notes for every version of ScottPlot
 
 <section class='mb-5'>
+<h1 class='mb-0'>ScottPlot 5.0.42</h1>
+<div><i>NuGet packages published 2024-10-29</i></div>
+<div class='mt-1'>
+<ul>
+<li>Controls: Refactor to allow the user input processor to function as <code>IPlotControl.Reset()</code> changes the underlying <code>Plot</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/4404">#4404</a>) <a href="https://github.com/Or8e4m4n"><strong>@Or8e4m4n</strong></a>
+</li>
+</ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/Or8e4m4n'>@Or8e4m4n</a>, <a href='https://github.com/swharden'>@swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/Or8e4m4n'><img src='https://scottplot.net/images/contributors/or8e4m4n.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
+
+</section>
+<section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 5.0.41</h1>
 <div><i>NuGet packages published 2024-10-27</i></div>
 <div class='mt-1'>
