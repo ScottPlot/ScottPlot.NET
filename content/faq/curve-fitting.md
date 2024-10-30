@@ -76,12 +76,12 @@ sp.LineWidth = 0;
 sp.MarkerSize = 10;
 
 // calculate the regression line
-(double a, double r) = MathNet.Numerics.Fit.Linear(xs, ys);
+(double a, double b) = MathNet.Numerics.Fit.Line(xs, ys);
 
 // curve fitting equation
 double f(double x)
 {
-    return a * Math.Exp(r * x);
+    return a + b * x;
 }
 
 double[] fx = xs.Select(f).ToArray();
@@ -94,7 +94,7 @@ line.LinePattern = LinePattern.Dashed;
 
 // note the formula at the top of the plot
 double r2 = MathNet.Numerics.GoodnessOfFit.RSquared(ys, fx);
-string formulaWithRSquared = $"y = {a:F3}e^{r:F3}x (r²={r2:F3})";
+string formulaWithRSquared = $"y = {b:F3}x + {a:F3} (r²={r2:F3})";
 myPlot.Title(formulaWithRSquared);
 
 myPlot.SavePng("demo.png", 400, 300);
@@ -124,12 +124,12 @@ sp.LineWidth = 0;
 sp.MarkerSize = 10;
 
 // calculate the regression line
-(double a, double r) = MathNet.Numerics.Fit.Logarithmic(xs, ys);
+(double a, double b) = MathNet.Numerics.Fit.Logarithm(xs, ys);
 
 // curve fitting equation
 double f(double x)
 {
-    return a * Math.Exp(r * x);
+    return a + b * Math.Log(x);
 }
 
 double[] fx = xs.Select(f).ToArray();
@@ -142,7 +142,7 @@ line.LinePattern = LinePattern.Dashed;
 
 // note the formula at the top of the plot
 double r2 = MathNet.Numerics.GoodnessOfFit.RSquared(ys, fx);
-string formulaWithRSquared = $"y = {a:F3}e^{r:F3}x (r²={r2:F3})";
+string formulaWithRSquared = $"y = {b:F3}ln(x) + {a:F3} (r²={r2:F3})";
 myPlot.Title(formulaWithRSquared);
 
 myPlot.SavePng("demo.png", 400, 300);
