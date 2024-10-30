@@ -4,21 +4,26 @@ Description: Pie charts illustrate numerical proportions as slices of a circle.
 URL: /cookbook/5.0/Pie/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Pie"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Pie"]
-Date: 2024-10-28
-Version: ScottPlot 5.0.41
-Version: ScottPlot 5.0.41
+Date: 2024-10-30
+Version: ScottPlot 5.0.42
+Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
 
-# Pie
+<h1>Pie</h1>
 
 
-<h2><a href='/cookbook/5.0/Pie/PieQuickstart'>Pie Chart from Values</a></h2>
+<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Pie/PieQuickstart'>Pie Chart from Values</a></h2>
+
+<div class="d-flex mb-2">
+<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Pie/PieQuickstart">Recipe Permalink</a>
+<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Pie">Category: Pie</a>
+</div>
 
 A pie chart can be created from a few values.
 
-[![](/cookbook/5.0/images/PieQuickstart.png?241027221943)](/cookbook/5.0/images/PieQuickstart.png?241027221943)
+[![](/cookbook/5.0/images/PieQuickstart.png?241029205813)](/cookbook/5.0/images/PieQuickstart.png?241029205813)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -36,11 +41,17 @@ myPlot.SavePng("demo.png", 400, 300);
 <hr class='my-5 invisible'>
 
 
-<h2><a href='/cookbook/5.0/Pie/PieSlices'>Pie Chart from Slices</a></h2>
+
+<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Pie/PieSlices'>Pie Chart from Slices</a></h2>
+
+<div class="d-flex mb-2">
+<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Pie/PieSlices">Recipe Permalink</a>
+<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Pie">Category: Pie</a>
+</div>
 
 A pie chart can be created from a collection of slices.
 
-[![](/cookbook/5.0/images/PieSlices.png?241027221943)](/cookbook/5.0/images/PieSlices.png?241027221943)
+[![](/cookbook/5.0/images/PieSlices.png?241029205813)](/cookbook/5.0/images/PieSlices.png?241029205813)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -69,11 +80,17 @@ myPlot.SavePng("demo.png", 400, 300);
 <hr class='my-5 invisible'>
 
 
-<h2><a href='/cookbook/5.0/Pie/PieDonut'>Donut from Slices</a></h2>
+
+<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Pie/PieDonut'>Donut from Slices</a></h2>
+
+<div class="d-flex mb-2">
+<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Pie/PieDonut">Recipe Permalink</a>
+<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Pie">Category: Pie</a>
+</div>
 
 A donut chart is a pie chart with an open center. Donut charts can be created from a collection of slices.
 
-[![](/cookbook/5.0/images/PieDonut.png?241027221943)](/cookbook/5.0/images/PieDonut.png?241027221943)
+[![](/cookbook/5.0/images/PieDonut.png?241029205813)](/cookbook/5.0/images/PieDonut.png?241029205813)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -101,11 +118,17 @@ myPlot.SavePng("demo.png", 400, 300);
 <hr class='my-5 invisible'>
 
 
-<h2><a href='/cookbook/5.0/Pie/PieRotation'>Pie Chart Rotation</a></h2>
+
+<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Pie/PieRotation'>Pie Chart Rotation</a></h2>
+
+<div class="d-flex mb-2">
+<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Pie/PieRotation">Recipe Permalink</a>
+<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Pie">Category: Pie</a>
+</div>
 
 Pie charts may be rotated to control where the first slice begins.
 
-[![](/cookbook/5.0/images/PieRotation.png?241027221943)](/cookbook/5.0/images/PieRotation.png?241027221943)
+[![](/cookbook/5.0/images/PieRotation.png?241029205813)](/cookbook/5.0/images/PieRotation.png?241029205813)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -124,11 +147,17 @@ myPlot.SavePng("demo.png", 400, 300);
 <hr class='my-5 invisible'>
 
 
-<h2><a href='/cookbook/5.0/Pie/PieSliceLabels'>Pie Slice Labels</a></h2>
+
+<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Pie/PieSliceLabels'>Pie Slice Labels</a></h2>
+
+<div class="d-flex mb-2">
+<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Pie/PieSliceLabels">Recipe Permalink</a>
+<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Pie">Category: Pie</a>
+</div>
 
 Slice labels can be displayed centered with the slice at a customizable distance from the center of the pie.
 
-[![](/cookbook/5.0/images/PieSliceLabels.png?241027221943)](/cookbook/5.0/images/PieSliceLabels.png?241027221943)
+[![](/cookbook/5.0/images/PieSliceLabels.png?241029205813)](/cookbook/5.0/images/PieSliceLabels.png?241029205813)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -163,11 +192,17 @@ myPlot.SavePng("demo.png", 400, 300);
 <hr class='my-5 invisible'>
 
 
-<h2><a href='/cookbook/5.0/Pie/PieSliceLabelsPercent'>Pie with Percent Labels</a></h2>
+
+<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Pie/PieSliceLabelsPercent'>Pie with Percent Labels</a></h2>
+
+<div class="d-flex mb-2">
+<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Pie/PieSliceLabelsPercent">Recipe Permalink</a>
+<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Pie">Category: Pie</a>
+</div>
 
 Slice labels may be adapted to display any text (including numerical values) centered over each slice.
 
-[![](/cookbook/5.0/images/PieSliceLabelsPercent.png?241027221943)](/cookbook/5.0/images/PieSliceLabelsPercent.png?241027221943)
+[![](/cookbook/5.0/images/PieSliceLabelsPercent.png?241029205813)](/cookbook/5.0/images/PieSliceLabelsPercent.png?241029205813)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -200,11 +235,17 @@ myPlot.SavePng("demo.png", 400, 300);
 <hr class='my-5 invisible'>
 
 
-<h2><a href='/cookbook/5.0/Pie/PieSliceLabelsAndLegend'>Pie with Different Labels</a></h2>
+
+<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Pie/PieSliceLabelsAndLegend'>Pie with Different Labels</a></h2>
+
+<div class="d-flex mb-2">
+<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Pie/PieSliceLabelsAndLegend">Recipe Permalink</a>
+<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Pie">Category: Pie</a>
+</div>
 
 Pie slices may have labels independent from those displayed in the legend.
 
-[![](/cookbook/5.0/images/PieSliceLabelsAndLegend.png?241027221943)](/cookbook/5.0/images/PieSliceLabelsAndLegend.png?241027221943)
+[![](/cookbook/5.0/images/PieSliceLabelsAndLegend.png?241029205813)](/cookbook/5.0/images/PieSliceLabelsAndLegend.png?241029205813)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -232,4 +273,5 @@ myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
+
 

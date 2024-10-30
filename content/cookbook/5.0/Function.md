@@ -4,21 +4,26 @@ Description: Function plots are a type of line plot where Y positions are define
 URL: /cookbook/5.0/Function/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Function"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Function"]
-Date: 2024-10-28
-Version: ScottPlot 5.0.41
-Version: ScottPlot 5.0.41
+Date: 2024-10-30
+Version: ScottPlot 5.0.42
+Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
 
-# Function
+<h1>Function</h1>
 
 
-<h2><a href='/cookbook/5.0/Function/FunctionQuickstart'>Function Quickstart</a></h2>
+<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Function/FunctionQuickstart'>Function Quickstart</a></h2>
+
+<div class="d-flex mb-2">
+<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Function/FunctionQuickstart">Recipe Permalink</a>
+<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Function">Category: Function</a>
+</div>
 
 Create a function plot from a formula.
 
-[![](/cookbook/5.0/images/FunctionQuickstart.png?241027221943)](/cookbook/5.0/images/FunctionQuickstart.png?241027221943)
+[![](/cookbook/5.0/images/FunctionQuickstart.png?241029205813)](/cookbook/5.0/images/FunctionQuickstart.png?241029205813)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -41,11 +46,17 @@ myPlot.SavePng("demo.png", 400, 300);
 <hr class='my-5 invisible'>
 
 
-<h2><a href='/cookbook/5.0/Function/FunctionLimitX'>Function Limit X</a></h2>
+
+<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Function/FunctionLimitX'>Function Limit X</a></h2>
+
+<div class="d-flex mb-2">
+<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Function/FunctionLimitX">Recipe Permalink</a>
+<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Function">Category: Function</a>
+</div>
 
 A function can be limited to a range of X values.
 
-[![](/cookbook/5.0/images/FunctionLimitX.png?241027221943)](/cookbook/5.0/images/FunctionLimitX.png?241027221943)
+[![](/cookbook/5.0/images/FunctionLimitX.png?241029205813)](/cookbook/5.0/images/FunctionLimitX.png?241029205813)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -61,4 +72,5 @@ myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
+
 

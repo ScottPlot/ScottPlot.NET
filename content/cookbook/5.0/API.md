@@ -2,13 +2,13 @@
 Title: ScottPlot 5.0 API
 Description: All classes, fields, properties, and methods provided by the ScottPlot package
 URL: /api/5.0/
-Date: 2024-10-27
+Date: 2024-10-29
 ShowEditLink: false
 ---
 
-# ScottPlot 5.0.41 API
+# ScottPlot 5.0.42 API
 
-_Generated 10/27/2024 10:19:43 PM_
+_Generated 10/29/2024 8:58:13 PM_
 
 <div class='my-5'>&nbsp;</div>
 
@@ -5656,7 +5656,7 @@ a:hover {text-decoration: underline;}
 <div><span class='otherType'>bool</span> <span class='name'>IsEnabled</span> <span class='docs'>Controls whether new events are processed.
             Enabling this disables the older &lt;see cref="P:ScottPlot.IPlotControl.Interaction" /&gt; system.</span></div>
 <div><a class='scottPlotType' href='#ScottPlot.Interactivity.KeyboardState'>ScottPlot.Interactivity.KeyboardState</a> <span class='name'>KeyState</span> <span class='docs'>Tracks which keys are currently pressed</span></div>
-<div><a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>Plot</span> <span class='docs'>The plot this input processor will act on</span></div>
+<div><a class='scottPlotType' href='#ScottPlot.IPlotControl'>ScottPlot.IPlotControl</a> <span class='name'>PlotControl</span> <span class='docs'>The plot this input processor will act on</span></div>
 <div><span class='otherType'>List&lt;ScottPlot.Interactivity.IUserActionResponse&gt;</span> <span class='name'>UserActionResponses</span> <span class='docs'>A list of user input responses that processes all incoming events in order.
             Users may manipulate this list to change the default behavior and
             add custom behaviors.</span></div>
@@ -8603,7 +8603,7 @@ a:hover {text-decoration: underline;}
 <div class='docs'></div>
 </div>
 <div><a class='scottPlotType' href='#ScottPlot.Interactivity.UserInputProcessor'>ScottPlot.Interactivity.UserInputProcessor</a> <span class='name'><>9</span> <span class='docs'></span></div>
-<div><span class='otherType'>System.Predicate&lt;ScottPlot.Interactivity.IUserActionResponse&gt;</span> <span class='name'><>9__13_0</span> <span class='docs'></span></div>
+<div><span class='otherType'>System.Predicate&lt;ScottPlot.Interactivity.IUserActionResponse&gt;</span> <span class='name'><>9__12_0</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.Interactivity.UserActionResponses.DoubleClickBenchmark'><a style='color: black;' href='#ScottPlot.Interactivity.UserActionResponses.DoubleClickBenchmark'>ScottPlot.Interactivity.UserActionResponses.DoubleClickBenchmark</a></div>
 <div class='docs'></div>

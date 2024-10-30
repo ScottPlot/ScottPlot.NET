@@ -4,21 +4,26 @@ Description: Ellipses are curves with a defined center and distinct X and Y radi
 URL: /cookbook/5.0/Ellipse/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Ellipse"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Ellipse"]
-Date: 2024-10-28
-Version: ScottPlot 5.0.41
-Version: ScottPlot 5.0.41
+Date: 2024-10-30
+Version: ScottPlot 5.0.42
+Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
 
-# Ellipse
+<h1>Ellipse</h1>
 
 
-<h2><a href='/cookbook/5.0/Ellipse/PlotEllipseQuickstart'>Ellipse Quickstart</a></h2>
+<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Ellipse/PlotEllipseQuickstart'>Ellipse Quickstart</a></h2>
+
+<div class="d-flex mb-2">
+<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Ellipse/PlotEllipseQuickstart">Recipe Permalink</a>
+<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Ellipse">Category: Ellipse</a>
+</div>
 
 Ellipses can be added to plots
 
-[![](/cookbook/5.0/images/PlotEllipseQuickstart.png?241027221943)](/cookbook/5.0/images/PlotEllipseQuickstart.png?241027221943)
+[![](/cookbook/5.0/images/PlotEllipseQuickstart.png?241029205813)](/cookbook/5.0/images/PlotEllipseQuickstart.png?241029205813)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -38,11 +43,17 @@ myPlot.SavePng("demo.png", 400, 300);
 <hr class='my-5 invisible'>
 
 
-<h2><a href='/cookbook/5.0/Ellipse/PlotCircleQuickstart'>Circle Quickstart</a></h2>
+
+<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Ellipse/PlotCircleQuickstart'>Circle Quickstart</a></h2>
+
+<div class="d-flex mb-2">
+<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Ellipse/PlotCircleQuickstart">Recipe Permalink</a>
+<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Ellipse">Category: Ellipse</a>
+</div>
 
 Circles can be added to plots. Circles are really Ellipses with the same X and Y radius. Note that circles appear as ellipses unless the plot has a square coordinate system.
 
-[![](/cookbook/5.0/images/PlotCircleQuickstart.png?241027221943)](/cookbook/5.0/images/PlotCircleQuickstart.png?241027221943)
+[![](/cookbook/5.0/images/PlotCircleQuickstart.png?241029205813)](/cookbook/5.0/images/PlotCircleQuickstart.png?241029205813)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -61,11 +72,17 @@ myPlot.SavePng("demo.png", 400, 300);
 <hr class='my-5 invisible'>
 
 
-<h2><a href='/cookbook/5.0/Ellipse/CircleWithLockedScale'>Circle with Locked Scale</a></h2>
+
+<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Ellipse/CircleWithLockedScale'>Circle with Locked Scale</a></h2>
+
+<div class="d-flex mb-2">
+<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Ellipse/CircleWithLockedScale">Recipe Permalink</a>
+<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Ellipse">Category: Ellipse</a>
+</div>
 
 For circles to always appear circular, the coordinate system must be forced to always display square-shaped pixels. This can be achieved by enabling the axis scale lock.
 
-[![](/cookbook/5.0/images/CircleWithLockedScale.png?241027221943)](/cookbook/5.0/images/CircleWithLockedScale.png?241027221943)
+[![](/cookbook/5.0/images/CircleWithLockedScale.png?241029205813)](/cookbook/5.0/images/CircleWithLockedScale.png?241029205813)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -87,11 +104,17 @@ myPlot.SavePng("demo.png", 400, 300);
 <hr class='my-5 invisible'>
 
 
-<h2><a href='/cookbook/5.0/Ellipse/EllipseStyling'>Ellipse Styling</a></h2>
+
+<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Ellipse/EllipseStyling'>Ellipse Styling</a></h2>
+
+<div class="d-flex mb-2">
+<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Ellipse/EllipseStyling">Recipe Permalink</a>
+<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Ellipse">Category: Ellipse</a>
+</div>
 
 Ellipses styles can be extensively customized
 
-[![](/cookbook/5.0/images/EllipseStyling.png?241027221943)](/cookbook/5.0/images/EllipseStyling.png?241027221943)
+[![](/cookbook/5.0/images/EllipseStyling.png?241029205813)](/cookbook/5.0/images/EllipseStyling.png?241029205813)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -111,11 +134,17 @@ myPlot.SavePng("demo.png", 400, 300);
 <hr class='my-5 invisible'>
 
 
-<h2><a href='/cookbook/5.0/Ellipse/EllipseRotation'>Ellipse Rotation</a></h2>
+
+<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Ellipse/EllipseRotation'>Ellipse Rotation</a></h2>
+
+<div class="d-flex mb-2">
+<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Ellipse/EllipseRotation">Recipe Permalink</a>
+<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Ellipse">Category: Ellipse</a>
+</div>
 
 Ellipses can also be rotated
 
-[![](/cookbook/5.0/images/EllipseRotation.png?241027221943)](/cookbook/5.0/images/EllipseRotation.png?241027221943)
+[![](/cookbook/5.0/images/EllipseRotation.png?241029205813)](/cookbook/5.0/images/EllipseRotation.png?241029205813)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -138,4 +167,5 @@ myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
+
 

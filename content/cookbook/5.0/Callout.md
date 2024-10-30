@@ -4,21 +4,26 @@ Description: Callouts display a label and are connected with an arrow that marks
 URL: /cookbook/5.0/Callout/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Callout"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Callout"]
-Date: 2024-10-28
-Version: ScottPlot 5.0.41
-Version: ScottPlot 5.0.41
+Date: 2024-10-30
+Version: ScottPlot 5.0.42
+Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
 
-# Callout
+<h1>Callout</h1>
 
 
-<h2><a href='/cookbook/5.0/Callout/CalloutQuickstart'>Callout Quickstart</a></h2>
+<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Callout/CalloutQuickstart'>Callout Quickstart</a></h2>
+
+<div class="d-flex mb-2">
+<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Callout/CalloutQuickstart">Recipe Permalink</a>
+<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Callout">Category: Callout</a>
+</div>
 
 Callouts display a label and are connected with an arrow that marks a point on the plot.
 
-[![](/cookbook/5.0/images/CalloutQuickstart.png?241027221943)](/cookbook/5.0/images/CalloutQuickstart.png?241027221943)
+[![](/cookbook/5.0/images/CalloutQuickstart.png?241029205813)](/cookbook/5.0/images/CalloutQuickstart.png?241029205813)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -38,4 +43,5 @@ myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
+
 

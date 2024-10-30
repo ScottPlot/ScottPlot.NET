@@ -4,21 +4,26 @@ Description: Phasor plots display vectors on a radial axis centered at the origi
 URL: /cookbook/5.0/Phasor/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Phasor Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Phasor"]
-Date: 2024-10-28
-Version: ScottPlot 5.0.41
-Version: ScottPlot 5.0.41
+Date: 2024-10-30
+Version: ScottPlot 5.0.42
+Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
 
-# Phasor Plot
+<h1>Phasor Plot</h1>
 
 
-<h2><a href='/cookbook/5.0/Phasor/PhasorQuickstart'>Phasor Line Plot</a></h2>
+<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Phasor/PhasorQuickstart'>Phasor Line Plot</a></h2>
+
+<div class="d-flex mb-2">
+<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Phasor/PhasorQuickstart">Recipe Permalink</a>
+<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Phasor">Category: Phasor Plot</a>
+</div>
 
 A phasor line plot contains a collection of polar coordinates which are rendered as arrows.
 
-[![](/cookbook/5.0/images/PhasorQuickstart.png?241027221943)](/cookbook/5.0/images/PhasorQuickstart.png?241027221943)
+[![](/cookbook/5.0/images/PhasorQuickstart.png?241029205813)](/cookbook/5.0/images/PhasorQuickstart.png?241029205813)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -47,11 +52,17 @@ myPlot.SavePng("demo.png", 400, 300);
 <hr class='my-5 invisible'>
 
 
-<h2><a href='/cookbook/5.0/Phasor/PhasorLabels'>Phasor Plot with Labels</a></h2>
+
+<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Phasor/PhasorLabels'>Phasor Plot with Labels</a></h2>
+
+<div class="d-flex mb-2">
+<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Phasor/PhasorLabels">Recipe Permalink</a>
+<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Phasor">Category: Phasor Plot</a>
+</div>
 
 Text labels may be applied to individual arrows of a phasor plot.
 
-[![](/cookbook/5.0/images/PhasorLabels.png?241027221943)](/cookbook/5.0/images/PhasorLabels.png?241027221943)
+[![](/cookbook/5.0/images/PhasorLabels.png?241029205813)](/cookbook/5.0/images/PhasorLabels.png?241029205813)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -81,4 +92,5 @@ myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
+
 

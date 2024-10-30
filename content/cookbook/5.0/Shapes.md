@@ -4,21 +4,26 @@ Description: Basic shapes that can be added to plots
 URL: /cookbook/5.0/Shapes/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Shapes"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Shapes"]
-Date: 2024-10-28
-Version: ScottPlot 5.0.41
-Version: ScottPlot 5.0.41
+Date: 2024-10-30
+Version: ScottPlot 5.0.42
+Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
 
-# Shapes
+<h1>Shapes</h1>
 
 
-<h2><a href='/cookbook/5.0/Shapes/RectangleQuickstart'>Rectangle</a></h2>
+<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Shapes/RectangleQuickstart'>Rectangle</a></h2>
+
+<div class="d-flex mb-2">
+<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Shapes/RectangleQuickstart">Recipe Permalink</a>
+<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Shapes">Category: Shapes</a>
+</div>
 
 A rectangle can be added to the plot and styled as desired.
 
-[![](/cookbook/5.0/images/RectangleQuickstart.png?241027221943)](/cookbook/5.0/images/RectangleQuickstart.png?241027221943)
+[![](/cookbook/5.0/images/RectangleQuickstart.png?241029205813)](/cookbook/5.0/images/RectangleQuickstart.png?241029205813)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -44,11 +49,17 @@ myPlot.SavePng("demo.png", 400, 300);
 <hr class='my-5 invisible'>
 
 
-<h2><a href='/cookbook/5.0/Shapes/CircleQuickstart'>Circle</a></h2>
+
+<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Shapes/CircleQuickstart'>Circle</a></h2>
+
+<div class="d-flex mb-2">
+<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Shapes/CircleQuickstart">Recipe Permalink</a>
+<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Shapes">Category: Shapes</a>
+</div>
 
 A circle can be placed on the plot and styled as desired.
 
-[![](/cookbook/5.0/images/CircleQuickstart.png?241027221943)](/cookbook/5.0/images/CircleQuickstart.png?241027221943)
+[![](/cookbook/5.0/images/CircleQuickstart.png?241029205813)](/cookbook/5.0/images/CircleQuickstart.png?241029205813)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -74,11 +85,17 @@ myPlot.SavePng("demo.png", 400, 300);
 <hr class='my-5 invisible'>
 
 
-<h2><a href='/cookbook/5.0/Shapes/EllipseQuickstart'>Ellipse</a></h2>
+
+<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Shapes/EllipseQuickstart'>Ellipse</a></h2>
+
+<div class="d-flex mb-2">
+<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Shapes/EllipseQuickstart">Recipe Permalink</a>
+<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Shapes">Category: Shapes</a>
+</div>
 
 An ellipse can be placed on the plot and styled as desired.
 
-[![](/cookbook/5.0/images/EllipseQuickstart.png?241027221943)](/cookbook/5.0/images/EllipseQuickstart.png?241027221943)
+[![](/cookbook/5.0/images/EllipseQuickstart.png?241029205813)](/cookbook/5.0/images/EllipseQuickstart.png?241029205813)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -99,11 +116,17 @@ myPlot.SavePng("demo.png", 400, 300);
 <hr class='my-5 invisible'>
 
 
-<h2><a href='/cookbook/5.0/Shapes/PolygonQuickstart'>Polygon Plot Quickstart</a></h2>
+
+<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Shapes/PolygonQuickstart'>Polygon Plot Quickstart</a></h2>
+
+<div class="d-flex mb-2">
+<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Shapes/PolygonQuickstart">Recipe Permalink</a>
+<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Shapes">Category: Shapes</a>
+</div>
 
 Polygon plots can be added from a series of vertices, and must be in clockwise order.
 
-[![](/cookbook/5.0/images/PolygonQuickstart.png?241027221943)](/cookbook/5.0/images/PolygonQuickstart.png?241027221943)
+[![](/cookbook/5.0/images/PolygonQuickstart.png?241029205813)](/cookbook/5.0/images/PolygonQuickstart.png?241029205813)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -124,11 +147,17 @@ myPlot.SavePng("demo.png", 400, 300);
 <hr class='my-5 invisible'>
 
 
-<h2><a href='/cookbook/5.0/Shapes/PolygonStyling'>Polygon Plot Styling</a></h2>
+
+<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Shapes/PolygonStyling'>Polygon Plot Styling</a></h2>
+
+<div class="d-flex mb-2">
+<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Shapes/PolygonStyling">Recipe Permalink</a>
+<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Shapes">Category: Shapes</a>
+</div>
 
 Polygon plots can be fully customized.
 
-[![](/cookbook/5.0/images/PolygonStyling.png?241027221943)](/cookbook/5.0/images/PolygonStyling.png?241027221943)
+[![](/cookbook/5.0/images/PolygonStyling.png?241029205813)](/cookbook/5.0/images/PolygonStyling.png?241029205813)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -164,4 +193,5 @@ myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
+
 

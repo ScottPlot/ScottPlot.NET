@@ -4,21 +4,26 @@ Description: Error Bars communicate the range of possible values for a measureme
 URL: /cookbook/5.0/ErrorBar/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Error Bars"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/ErrorBar"]
-Date: 2024-10-28
-Version: ScottPlot 5.0.41
-Version: ScottPlot 5.0.41
+Date: 2024-10-30
+Version: ScottPlot 5.0.42
+Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
 
-# Error Bars
+<h1>Error Bars</h1>
 
 
-<h2><a href='/cookbook/5.0/ErrorBar/ErrorBarQuickstart'>Error Bar Quickstart</a></h2>
+<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/ErrorBar/ErrorBarQuickstart'>Error Bar Quickstart</a></h2>
+
+<div class="d-flex mb-2">
+<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/ErrorBar/ErrorBarQuickstart">Recipe Permalink</a>
+<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/ErrorBar">Category: Error Bars</a>
+</div>
 
 Error Bars go well with scatter plots.
 
-[![](/cookbook/5.0/images/ErrorBarQuickstart.png?241027221943)](/cookbook/5.0/images/ErrorBarQuickstart.png?241027221943)
+[![](/cookbook/5.0/images/ErrorBarQuickstart.png?241029205813)](/cookbook/5.0/images/ErrorBarQuickstart.png?241029205813)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -38,11 +43,17 @@ myPlot.SavePng("demo.png", 400, 300);
 <hr class='my-5 invisible'>
 
 
-<h2><a href='/cookbook/5.0/ErrorBar/CustomErrors'>ErrorBar Values</a></h2>
+
+<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/ErrorBar/CustomErrors'>ErrorBar Values</a></h2>
+
+<div class="d-flex mb-2">
+<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/ErrorBar/CustomErrors">Recipe Permalink</a>
+<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/ErrorBar">Category: Error Bars</a>
+</div>
 
 Error size can be set for all dimensions.
 
-[![](/cookbook/5.0/images/CustomErrors.png?241027221943)](/cookbook/5.0/images/CustomErrors.png?241027221943)
+[![](/cookbook/5.0/images/CustomErrors.png?241029205813)](/cookbook/5.0/images/CustomErrors.png?241029205813)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -69,4 +80,5 @@ myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
+
 

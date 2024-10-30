@@ -4,21 +4,26 @@ Description: Use Multiplot to create figures with multiple subplots
 URL: /cookbook/5.0/MultiplotRecipes/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Multiplot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/MultiplotRecipes"]
-Date: 2024-10-28
-Version: ScottPlot 5.0.41
-Version: ScottPlot 5.0.41
+Date: 2024-10-30
+Version: ScottPlot 5.0.42
+Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
 
-# Multiplot
+<h1>Multiplot</h1>
 
 
-<h2><a href='/cookbook/5.0/MultiplotRecipes/MultiplotQuickstart'>Multiplot Quickstart</a></h2>
+<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/MultiplotRecipes/MultiplotQuickstart'>Multiplot Quickstart</a></h2>
+
+<div class="d-flex mb-2">
+<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/MultiplotRecipes/MultiplotQuickstart">Recipe Permalink</a>
+<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/MultiplotRecipes">Category: Multiplot</a>
+</div>
 
 Use the Multiplot class to create figures with multiple subplots.
 
-[![](/cookbook/5.0/images/MultiplotQuickstart.png?241027221943)](/cookbook/5.0/images/MultiplotQuickstart.png?241027221943)
+[![](/cookbook/5.0/images/MultiplotQuickstart.png?241029205813)](/cookbook/5.0/images/MultiplotQuickstart.png?241029205813)
 
 {{< recipe-sp5 >}}ScottPlot.Multiplot multiplot = new();
 
@@ -37,11 +42,17 @@ multiplot.SavePng("demo.png", 400, 400);
 <hr class='my-5 invisible'>
 
 
-<h2><a href='/cookbook/5.0/MultiplotRecipes/MultiplotColumns'>Multiplot Columns</a></h2>
+
+<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/MultiplotRecipes/MultiplotColumns'>Multiplot Columns</a></h2>
+
+<div class="d-flex mb-2">
+<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/MultiplotRecipes/MultiplotColumns">Recipe Permalink</a>
+<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/MultiplotRecipes">Category: Multiplot</a>
+</div>
 
 The Multiplot's Layout property may be customized to achieve a column layout.
 
-[![](/cookbook/5.0/images/MultiplotColumns.png?241027221943)](/cookbook/5.0/images/MultiplotColumns.png?241027221943)
+[![](/cookbook/5.0/images/MultiplotColumns.png?241029205813)](/cookbook/5.0/images/MultiplotColumns.png?241029205813)
 
 {{< recipe-sp5 >}}ScottPlot.Multiplot multiplot = new();
 
@@ -61,11 +72,17 @@ multiplot.SavePng("demo.png", 400, 400);
 <hr class='my-5 invisible'>
 
 
-<h2><a href='/cookbook/5.0/MultiplotRecipes/MultiplotGrid'>Multiplot Grid</a></h2>
+
+<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/MultiplotRecipes/MultiplotGrid'>Multiplot Grid</a></h2>
+
+<div class="d-flex mb-2">
+<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/MultiplotRecipes/MultiplotGrid">Recipe Permalink</a>
+<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/MultiplotRecipes">Category: Multiplot</a>
+</div>
 
 The Multiplot's Layout property may be customized to achieve a grid layout.
 
-[![](/cookbook/5.0/images/MultiplotGrid.png?241027221943)](/cookbook/5.0/images/MultiplotGrid.png?241027221943)
+[![](/cookbook/5.0/images/MultiplotGrid.png?241029205813)](/cookbook/5.0/images/MultiplotGrid.png?241029205813)
 
 {{< recipe-sp5 >}}ScottPlot.Multiplot multiplot = new();
 
@@ -85,11 +102,17 @@ multiplot.SavePng("demo.png", 400, 400);
 <hr class='my-5 invisible'>
 
 
-<h2><a href='/cookbook/5.0/MultiplotRecipes/MultiplotCustom'>Multiplot Custom Layout</a></h2>
+
+<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/MultiplotRecipes/MultiplotCustom'>Multiplot Custom Layout</a></h2>
+
+<div class="d-flex mb-2">
+<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/MultiplotRecipes/MultiplotCustom">Recipe Permalink</a>
+<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/MultiplotRecipes">Category: Multiplot</a>
+</div>
 
 The Multiplot's Layout property may be configured to achieve a fully custom layout.
 
-[![](/cookbook/5.0/images/MultiplotCustom.png?241027221943)](/cookbook/5.0/images/MultiplotCustom.png?241027221943)
+[![](/cookbook/5.0/images/MultiplotCustom.png?241029205813)](/cookbook/5.0/images/MultiplotCustom.png?241029205813)
 
 {{< recipe-sp5 >}}ScottPlot.Multiplot multiplot = new();
 
@@ -115,4 +138,5 @@ multiplot.SavePng("demo.png", 400, 400);
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
+
 

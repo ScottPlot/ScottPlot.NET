@@ -4,21 +4,26 @@ Description: SignalXY are a high performance plot type optimized for X/Y pairs w
 URL: /cookbook/5.0/SignalXY/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "SignalXY Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/SignalXY"]
-Date: 2024-10-28
-Version: ScottPlot 5.0.41
-Version: ScottPlot 5.0.41
+Date: 2024-10-30
+Version: ScottPlot 5.0.42
+Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
 
-# SignalXY Plot
+<h1>SignalXY Plot</h1>
 
 
-<h2><a href='/cookbook/5.0/SignalXY/SignalXYQuickstart'>SignalXY Quickstart</a></h2>
+<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/SignalXY/SignalXYQuickstart'>SignalXY Quickstart</a></h2>
+
+<div class="d-flex mb-2">
+<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/SignalXY/SignalXYQuickstart">Recipe Permalink</a>
+<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/SignalXY">Category: SignalXY Plot</a>
+</div>
 
 SignalXY plots are a high performance plot type for X/Y data where the X values are always ascending.
 
-[![](/cookbook/5.0/images/SignalXYQuickstart.png?241027221943)](/cookbook/5.0/images/SignalXYQuickstart.png?241027221943)
+[![](/cookbook/5.0/images/SignalXYQuickstart.png?241029205813)](/cookbook/5.0/images/SignalXYQuickstart.png?241029205813)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -42,11 +47,17 @@ myPlot.SavePng("demo.png", 400, 300);
 <hr class='my-5 invisible'>
 
 
-<h2><a href='/cookbook/5.0/SignalXY/SignalXYGeneric'>SignalXY Generic</a></h2>
+
+<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/SignalXY/SignalXYGeneric'>SignalXY Generic</a></h2>
+
+<div class="d-flex mb-2">
+<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/SignalXY/SignalXYGeneric">Recipe Permalink</a>
+<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/SignalXY">Category: SignalXY Plot</a>
+</div>
 
 SignalXY plots support generic data types, although double is typically the most performant.
 
-[![](/cookbook/5.0/images/SignalXYGeneric.png?241027221943)](/cookbook/5.0/images/SignalXYGeneric.png?241027221943)
+[![](/cookbook/5.0/images/SignalXYGeneric.png?241029205813)](/cookbook/5.0/images/SignalXYGeneric.png?241029205813)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -70,11 +81,17 @@ myPlot.SavePng("demo.png", 400, 300);
 <hr class='my-5 invisible'>
 
 
-<h2><a href='/cookbook/5.0/SignalXY/SignalXYDateTime'>SignalXY DateTime Axis</a></h2>
+
+<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/SignalXY/SignalXYDateTime'>SignalXY DateTime Axis</a></h2>
+
+<div class="d-flex mb-2">
+<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/SignalXY/SignalXYDateTime">Recipe Permalink</a>
+<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/SignalXY">Category: SignalXY Plot</a>
+</div>
 
 SignalXY plots can display unevenly spaced time series data using a DateTime horizontal axis.
 
-[![](/cookbook/5.0/images/SignalXYDateTime.png?241027221943)](/cookbook/5.0/images/SignalXYDateTime.png?241027221943)
+[![](/cookbook/5.0/images/SignalXYDateTime.png?241029205813)](/cookbook/5.0/images/SignalXYDateTime.png?241029205813)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -92,11 +109,17 @@ myPlot.SavePng("demo.png", 400, 300);
 <hr class='my-5 invisible'>
 
 
-<h2><a href='/cookbook/5.0/SignalXY/SignalXYRenderIndexes'>Partial SignalXY Rendering</a></h2>
+
+<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/SignalXY/SignalXYRenderIndexes'>Partial SignalXY Rendering</a></h2>
+
+<div class="d-flex mb-2">
+<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/SignalXY/SignalXYRenderIndexes">Recipe Permalink</a>
+<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/SignalXY">Category: SignalXY Plot</a>
+</div>
 
 Even if a SignalXY plot references a large array of data, rendering can be limited to a range of values. If set,only the range of data between the minimum and maximum render indexes will be displayed.
 
-[![](/cookbook/5.0/images/SignalXYRenderIndexes.png?241027221943)](/cookbook/5.0/images/SignalXYRenderIndexes.png?241027221943)
+[![](/cookbook/5.0/images/SignalXYRenderIndexes.png?241029205813)](/cookbook/5.0/images/SignalXYRenderIndexes.png?241029205813)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -132,11 +155,17 @@ myPlot.SavePng("demo.png", 400, 300);
 <hr class='my-5 invisible'>
 
 
-<h2><a href='/cookbook/5.0/SignalXY/SignalXYOffset'>SignalXY Offset</a></h2>
+
+<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/SignalXY/SignalXYOffset'>SignalXY Offset</a></h2>
+
+<div class="d-flex mb-2">
+<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/SignalXY/SignalXYOffset">Recipe Permalink</a>
+<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/SignalXY">Category: SignalXY Plot</a>
+</div>
 
 A fixed offset can be applied to SignalXY plots.
 
-[![](/cookbook/5.0/images/SignalXYOffset.png?241027221943)](/cookbook/5.0/images/SignalXYOffset.png?241027221943)
+[![](/cookbook/5.0/images/SignalXYOffset.png?241029205813)](/cookbook/5.0/images/SignalXYOffset.png?241029205813)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -155,11 +184,17 @@ myPlot.SavePng("demo.png", 400, 300);
 <hr class='my-5 invisible'>
 
 
-<h2><a href='/cookbook/5.0/SignalXY/SignalXYOffsetScaleY'>SignalXY Scaling</a></h2>
+
+<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/SignalXY/SignalXYOffsetScaleY'>SignalXY Scaling</a></h2>
+
+<div class="d-flex mb-2">
+<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/SignalXY/SignalXYOffsetScaleY">Recipe Permalink</a>
+<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/SignalXY">Category: SignalXY Plot</a>
+</div>
 
 SignalXY plots can be scaled vertically according to a user-defined amount.
 
-[![](/cookbook/5.0/images/SignalXYOffsetScaleY.png?241027221943)](/cookbook/5.0/images/SignalXYOffsetScaleY.png?241027221943)
+[![](/cookbook/5.0/images/SignalXYOffsetScaleY.png?241029205813)](/cookbook/5.0/images/SignalXYOffsetScaleY.png?241029205813)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -177,11 +212,17 @@ myPlot.SavePng("demo.png", 400, 300);
 <hr class='my-5 invisible'>
 
 
-<h2><a href='/cookbook/5.0/SignalXY/VerticalSignalXY'>Vertical SignalXY</a></h2>
+
+<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/SignalXY/VerticalSignalXY'>Vertical SignalXY</a></h2>
+
+<div class="d-flex mb-2">
+<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/SignalXY/VerticalSignalXY">Recipe Permalink</a>
+<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/SignalXY">Category: SignalXY Plot</a>
+</div>
 
 Although SignalXY plots typically display data left-to-right, it is possible to use this plot type to display data bottom-to-top.
 
-[![](/cookbook/5.0/images/VerticalSignalXY.png?241027221943)](/cookbook/5.0/images/VerticalSignalXY.png?241027221943)
+[![](/cookbook/5.0/images/VerticalSignalXY.png?241029205813)](/cookbook/5.0/images/VerticalSignalXY.png?241029205813)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -197,11 +238,17 @@ myPlot.SavePng("demo.png", 400, 300);
 <hr class='my-5 invisible'>
 
 
-<h2><a href='/cookbook/5.0/SignalXY/SignalXYVerticalInvertedX'>Vertical SignalXY with Inverted X Axis</a></h2>
+
+<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/SignalXY/SignalXYVerticalInvertedX'>Vertical SignalXY with Inverted X Axis</a></h2>
+
+<div class="d-flex mb-2">
+<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/SignalXY/SignalXYVerticalInvertedX">Recipe Permalink</a>
+<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/SignalXY">Category: SignalXY Plot</a>
+</div>
 
 Demonstrates how to display a rotated SignalXY plot (so it goes from bottom to top) which is also displayed on an inverted horizontal axis (where positive values are on the left).
 
-[![](/cookbook/5.0/images/SignalXYVerticalInvertedX.png?241027221943)](/cookbook/5.0/images/SignalXYVerticalInvertedX.png?241027221943)
+[![](/cookbook/5.0/images/SignalXYVerticalInvertedX.png?241029205813)](/cookbook/5.0/images/SignalXYVerticalInvertedX.png?241029205813)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -222,11 +269,17 @@ myPlot.SavePng("demo.png", 400, 300);
 <hr class='my-5 invisible'>
 
 
-<h2><a href='/cookbook/5.0/SignalXY/SignalXYVerticalInvertedY'>Vertical SignalXY with Inverted Y Axis</a></h2>
+
+<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/SignalXY/SignalXYVerticalInvertedY'>Vertical SignalXY with Inverted Y Axis</a></h2>
+
+<div class="d-flex mb-2">
+<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/SignalXY/SignalXYVerticalInvertedY">Recipe Permalink</a>
+<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/SignalXY">Category: SignalXY Plot</a>
+</div>
 
 Demonstrates how to display a rotated SignalXY plot on an inverted vertical axis so data goes from top to bottom.
 
-[![](/cookbook/5.0/images/SignalXYVerticalInvertedY.png?241027221943)](/cookbook/5.0/images/SignalXYVerticalInvertedY.png?241027221943)
+[![](/cookbook/5.0/images/SignalXYVerticalInvertedY.png?241029205813)](/cookbook/5.0/images/SignalXYVerticalInvertedY.png?241029205813)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -247,11 +300,17 @@ myPlot.SavePng("demo.png", 400, 300);
 <hr class='my-5 invisible'>
 
 
-<h2><a href='/cookbook/5.0/SignalXY/SignalXYMarkers'>SignalXY with Markers</a></h2>
+
+<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/SignalXY/SignalXYMarkers'>SignalXY with Markers</a></h2>
+
+<div class="d-flex mb-2">
+<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/SignalXY/SignalXYMarkers">Recipe Permalink</a>
+<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/SignalXY">Category: SignalXY Plot</a>
+</div>
 
 Users can enable a marker to be displayedat each data point. However, this can reduce performance for extremely large datasets.
 
-[![](/cookbook/5.0/images/SignalXYMarkers.png?241027221943)](/cookbook/5.0/images/SignalXYMarkers.png?241027221943)
+[![](/cookbook/5.0/images/SignalXYMarkers.png?241029205813)](/cookbook/5.0/images/SignalXYMarkers.png?241029205813)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -266,4 +325,5 @@ myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
+
 

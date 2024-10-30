@@ -4,21 +4,26 @@ Description: Box plots show a distribution at a glance
 URL: /cookbook/5.0/Box/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Box Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Box"]
-Date: 2024-10-28
-Version: ScottPlot 5.0.41
-Version: ScottPlot 5.0.41
+Date: 2024-10-30
+Version: ScottPlot 5.0.42
+Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
 
-# Box Plot
+<h1>Box Plot</h1>
 
 
-<h2><a href='/cookbook/5.0/Box/BoxPlotQuickstart'>Box Plot Quickstart</a></h2>
+<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Box/BoxPlotQuickstart'>Box Plot Quickstart</a></h2>
+
+<div class="d-flex mb-2">
+<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Box/BoxPlotQuickstart">Recipe Permalink</a>
+<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Box">Category: Box Plot</a>
+</div>
 
 Box plots can be created individually and added to the plot.
 
-[![](/cookbook/5.0/images/BoxPlotQuickstart.png?241027221943)](/cookbook/5.0/images/BoxPlotQuickstart.png?241027221943)
+[![](/cookbook/5.0/images/BoxPlotQuickstart.png?241029205813)](/cookbook/5.0/images/BoxPlotQuickstart.png?241029205813)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -42,11 +47,17 @@ myPlot.SavePng("demo.png", 400, 300);
 <hr class='my-5 invisible'>
 
 
-<h2><a href='/cookbook/5.0/Box/BoxPlotGroups'>Box Plot Groups</a></h2>
+
+<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Box/BoxPlotGroups'>Box Plot Groups</a></h2>
+
+<div class="d-flex mb-2">
+<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Box/BoxPlotGroups">Recipe Permalink</a>
+<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Box">Category: Box Plot</a>
+</div>
 
 Each collection of boxes added to the plot gets styled the same and appears as a single item in the legend. Add multiple bar series plots with defined X positions to give the appearance of grouped data.
 
-[![](/cookbook/5.0/images/BoxPlotGroups.png?241027221943)](/cookbook/5.0/images/BoxPlotGroups.png?241027221943)
+[![](/cookbook/5.0/images/BoxPlotGroups.png?241029205813)](/cookbook/5.0/images/BoxPlotGroups.png?241029205813)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -74,4 +85,5 @@ myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
+
 

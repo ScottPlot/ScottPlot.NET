@@ -4,21 +4,26 @@ Description: Miscellaneous features and customization options
 URL: /cookbook/5.0/Miscellaneous/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Miscellaneous"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Miscellaneous"]
-Date: 2024-10-28
-Version: ScottPlot 5.0.41
-Version: ScottPlot 5.0.41
+Date: 2024-10-30
+Version: ScottPlot 5.0.42
+Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
 
-# Miscellaneous
+<h1>Miscellaneous</h1>
 
 
-<h2><a href='/cookbook/5.0/Miscellaneous/DataBackgroundImage'>Data Area Background Image</a></h2>
+<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Miscellaneous/DataBackgroundImage'>Data Area Background Image</a></h2>
+
+<div class="d-flex mb-2">
+<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Miscellaneous/DataBackgroundImage">Recipe Permalink</a>
+<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Miscellaneous">Category: Miscellaneous</a>
+</div>
 
 An image can be used for the background of the data area.
 
-[![](/cookbook/5.0/images/DataBackgroundImage.png?241027221943)](/cookbook/5.0/images/DataBackgroundImage.png?241027221943)
+[![](/cookbook/5.0/images/DataBackgroundImage.png?241029205813)](/cookbook/5.0/images/DataBackgroundImage.png?241029205813)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -41,11 +46,17 @@ myPlot.SavePng("demo.png", 400, 300);
 <hr class='my-5 invisible'>
 
 
-<h2><a href='/cookbook/5.0/Miscellaneous/FigureBackgroundImage'>Figure Background Image</a></h2>
+
+<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Miscellaneous/FigureBackgroundImage'>Figure Background Image</a></h2>
+
+<div class="d-flex mb-2">
+<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Miscellaneous/FigureBackgroundImage">Recipe Permalink</a>
+<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Miscellaneous">Category: Miscellaneous</a>
+</div>
 
 An image can be used for the background of a figure.
 
-[![](/cookbook/5.0/images/FigureBackgroundImage.png?241027221943)](/cookbook/5.0/images/FigureBackgroundImage.png?241027221943)
+[![](/cookbook/5.0/images/FigureBackgroundImage.png?241029205813)](/cookbook/5.0/images/FigureBackgroundImage.png?241029205813)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -76,11 +87,17 @@ myPlot.SavePng("demo.png", 400, 300);
 <hr class='my-5 invisible'>
 
 
-<h2><a href='/cookbook/5.0/Miscellaneous/ColorInterpolation'>Color Interpolation</a></h2>
+
+<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Miscellaneous/ColorInterpolation'>Color Interpolation</a></h2>
+
+<div class="d-flex mb-2">
+<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Miscellaneous/ColorInterpolation">Recipe Permalink</a>
+<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Miscellaneous">Category: Miscellaneous</a>
+</div>
 
 Colors can be mixed to createa range of colors. This strategy uses linear RGB interpolation.
 
-[![](/cookbook/5.0/images/ColorInterpolation.png?241027221943)](/cookbook/5.0/images/ColorInterpolation.png?241027221943)
+[![](/cookbook/5.0/images/ColorInterpolation.png?241029205813)](/cookbook/5.0/images/ColorInterpolation.png?241029205813)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -100,11 +117,17 @@ myPlot.SavePng("demo.png", 400, 300);
 <hr class='my-5 invisible'>
 
 
-<h2><a href='/cookbook/5.0/Miscellaneous/CustomFontFiles'>Custom Font Files</a></h2>
+
+<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Miscellaneous/CustomFontFiles'>Custom Font Files</a></h2>
+
+<div class="d-flex mb-2">
+<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Miscellaneous/CustomFontFiles">Recipe Permalink</a>
+<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Miscellaneous">Category: Miscellaneous</a>
+</div>
 
 Users can apply custom typefaces by loaded from font files.
 
-[![](/cookbook/5.0/images/CustomFontFiles.png?241027221943)](/cookbook/5.0/images/CustomFontFiles.png?241027221943)
+[![](/cookbook/5.0/images/CustomFontFiles.png?241029205813)](/cookbook/5.0/images/CustomFontFiles.png?241029205813)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -150,4 +173,5 @@ myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
+
 

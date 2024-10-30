@@ -4,21 +4,26 @@ Description: Heatmaps display values from 2D data as an image with cells of diff
 URL: /cookbook/5.0/Heatmap/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Heatmap"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Heatmap"]
-Date: 2024-10-28
-Version: ScottPlot 5.0.41
-Version: ScottPlot 5.0.41
+Date: 2024-10-30
+Version: ScottPlot 5.0.42
+Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
 
-# Heatmap
+<h1>Heatmap</h1>
 
 
-<h2><a href='/cookbook/5.0/Heatmap/HeatmapQuickstart'>Heatmap Quickstart</a></h2>
+<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Heatmap/HeatmapQuickstart'>Heatmap Quickstart</a></h2>
+
+<div class="d-flex mb-2">
+<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Heatmap/HeatmapQuickstart">Recipe Permalink</a>
+<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Heatmap">Category: Heatmap</a>
+</div>
 
 Heatmaps can be created from 2D arrays
 
-[![](/cookbook/5.0/images/HeatmapQuickstart.png?241027221943)](/cookbook/5.0/images/HeatmapQuickstart.png?241027221943)
+[![](/cookbook/5.0/images/HeatmapQuickstart.png?241029205813)](/cookbook/5.0/images/HeatmapQuickstart.png?241029205813)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -31,11 +36,17 @@ myPlot.SavePng("demo.png", 400, 300);
 <hr class='my-5 invisible'>
 
 
-<h2><a href='/cookbook/5.0/Heatmap/HeatmapInverted'>Inverted Heatmap</a></h2>
+
+<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Heatmap/HeatmapInverted'>Inverted Heatmap</a></h2>
+
+<div class="d-flex mb-2">
+<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Heatmap/HeatmapInverted">Recipe Permalink</a>
+<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Heatmap">Category: Heatmap</a>
+</div>
 
 Heatmaps can be inverted by reversing the order of colors in the colormap
 
-[![](/cookbook/5.0/images/HeatmapInverted.png?241027221943)](/cookbook/5.0/images/HeatmapInverted.png?241027221943)
+[![](/cookbook/5.0/images/HeatmapInverted.png?241029205813)](/cookbook/5.0/images/HeatmapInverted.png?241029205813)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -55,11 +66,17 @@ myPlot.SavePng("demo.png", 400, 300);
 <hr class='my-5 invisible'>
 
 
-<h2><a href='/cookbook/5.0/Heatmap/HeatmapColormap'>Heatmap with custom Colormap</a></h2>
+
+<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Heatmap/HeatmapColormap'>Heatmap with custom Colormap</a></h2>
+
+<div class="d-flex mb-2">
+<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Heatmap/HeatmapColormap">Recipe Permalink</a>
+<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Heatmap">Category: Heatmap</a>
+</div>
 
 A heatmap's Colormap is the logic used to convert from cell value to cell color and they can set by the user. ScottPlot comes with many common colormaps, but users may implement IColormap and apply their own. A colorbar can be added to indicate which colors map to which values.
 
-[![](/cookbook/5.0/images/HeatmapColormap.png?241027221943)](/cookbook/5.0/images/HeatmapColormap.png?241027221943)
+[![](/cookbook/5.0/images/HeatmapColormap.png?241029205813)](/cookbook/5.0/images/HeatmapColormap.png?241029205813)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -76,11 +93,17 @@ myPlot.SavePng("demo.png", 400, 300);
 <hr class='my-5 invisible'>
 
 
-<h2><a href='/cookbook/5.0/Heatmap/HeatmapMultipleColorbar'>Multiple Colorbars</a></h2>
+
+<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Heatmap/HeatmapMultipleColorbar'>Multiple Colorbars</a></h2>
+
+<div class="d-flex mb-2">
+<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Heatmap/HeatmapMultipleColorbar">Recipe Permalink</a>
+<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Heatmap">Category: Heatmap</a>
+</div>
 
 Multiple colorbars may be added to plots.
 
-[![](/cookbook/5.0/images/HeatmapMultipleColorbar.png?241027221943)](/cookbook/5.0/images/HeatmapMultipleColorbar.png?241027221943)
+[![](/cookbook/5.0/images/HeatmapMultipleColorbar.png?241029205813)](/cookbook/5.0/images/HeatmapMultipleColorbar.png?241029205813)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -102,11 +125,17 @@ myPlot.SavePng("demo.png", 400, 300);
 <hr class='my-5 invisible'>
 
 
-<h2><a href='/cookbook/5.0/Heatmap/ColorbarTitle'>Colorbar Title</a></h2>
+
+<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Heatmap/ColorbarTitle'>Colorbar Title</a></h2>
+
+<div class="d-flex mb-2">
+<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Heatmap/ColorbarTitle">Recipe Permalink</a>
+<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Heatmap">Category: Heatmap</a>
+</div>
 
 A colorbar displays a colormap on an edge of the plot, and it has an optional label which can be customized to display a title.
 
-[![](/cookbook/5.0/images/ColorbarTitle.png?241027221943)](/cookbook/5.0/images/ColorbarTitle.png?241027221943)
+[![](/cookbook/5.0/images/ColorbarTitle.png?241029205813)](/cookbook/5.0/images/ColorbarTitle.png?241029205813)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -125,11 +154,17 @@ myPlot.SavePng("demo.png", 400, 300);
 <hr class='my-5 invisible'>
 
 
-<h2><a href='/cookbook/5.0/Heatmap/ColorbarTickFormatter'>Colorbar Tick Formatter</a></h2>
+
+<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Heatmap/ColorbarTickFormatter'>Colorbar Tick Formatter</a></h2>
+
+<div class="d-flex mb-2">
+<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Heatmap/ColorbarTickFormatter">Recipe Permalink</a>
+<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Heatmap">Category: Heatmap</a>
+</div>
 
 Colorbars have an optional custom tick formatter that allows users to control the string format of tick labels.
 
-[![](/cookbook/5.0/images/ColorbarTickFormatter.png?241027221943)](/cookbook/5.0/images/ColorbarTickFormatter.png?241027221943)
+[![](/cookbook/5.0/images/ColorbarTickFormatter.png?241029205813)](/cookbook/5.0/images/ColorbarTickFormatter.png?241029205813)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -159,11 +194,17 @@ myPlot.SavePng("demo.png", 400, 300);
 <hr class='my-5 invisible'>
 
 
-<h2><a href='/cookbook/5.0/Heatmap/HeatmapFlip'>Flipped Heatmap</a></h2>
+
+<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Heatmap/HeatmapFlip'>Flipped Heatmap</a></h2>
+
+<div class="d-flex mb-2">
+<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Heatmap/HeatmapFlip">Recipe Permalink</a>
+<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Heatmap">Category: Heatmap</a>
+</div>
 
 Heatmaps can be flipped horizontally and/or vertically
 
-[![](/cookbook/5.0/images/HeatmapFlip.png?241027221943)](/cookbook/5.0/images/HeatmapFlip.png?241027221943)
+[![](/cookbook/5.0/images/HeatmapFlip.png?241029205813)](/cookbook/5.0/images/HeatmapFlip.png?241029205813)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -197,11 +238,17 @@ myPlot.SavePng("demo.png", 400, 300);
 <hr class='my-5 invisible'>
 
 
-<h2><a href='/cookbook/5.0/Heatmap/HeatmapSmooth'>Smooth Heatmap</a></h2>
+
+<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Heatmap/HeatmapSmooth'>Smooth Heatmap</a></h2>
+
+<div class="d-flex mb-2">
+<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Heatmap/HeatmapSmooth">Recipe Permalink</a>
+<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Heatmap">Category: Heatmap</a>
+</div>
 
 Enable the `Smooth` property for anti-aliased rendering
 
-[![](/cookbook/5.0/images/HeatmapSmooth.png?241027221943)](/cookbook/5.0/images/HeatmapSmooth.png?241027221943)
+[![](/cookbook/5.0/images/HeatmapSmooth.png?241029205813)](/cookbook/5.0/images/HeatmapSmooth.png?241029205813)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -222,11 +269,17 @@ myPlot.SavePng("demo.png", 400, 300);
 <hr class='my-5 invisible'>
 
 
-<h2><a href='/cookbook/5.0/Heatmap/HeatmapTransparentCells'>Transparent Cells</a></h2>
+
+<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Heatmap/HeatmapTransparentCells'>Transparent Cells</a></h2>
+
+<div class="d-flex mb-2">
+<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Heatmap/HeatmapTransparentCells">Recipe Permalink</a>
+<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Heatmap">Category: Heatmap</a>
+</div>
 
 Assign double.NaN to a heatmap cell to make it transparent.
 
-[![](/cookbook/5.0/images/HeatmapTransparentCells.png?241027221943)](/cookbook/5.0/images/HeatmapTransparentCells.png?241027221943)
+[![](/cookbook/5.0/images/HeatmapTransparentCells.png?241029205813)](/cookbook/5.0/images/HeatmapTransparentCells.png?241029205813)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -259,11 +312,17 @@ myPlot.SavePng("demo.png", 400, 300);
 <hr class='my-5 invisible'>
 
 
-<h2><a href='/cookbook/5.0/Heatmap/HeatmapGlobalTransparency'>Global Transparency</a></h2>
+
+<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Heatmap/HeatmapGlobalTransparency'>Global Transparency</a></h2>
+
+<div class="d-flex mb-2">
+<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Heatmap/HeatmapGlobalTransparency">Recipe Permalink</a>
+<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Heatmap">Category: Heatmap</a>
+</div>
 
 The transparency of the entire heatmap can be adjusted.
 
-[![](/cookbook/5.0/images/HeatmapGlobalTransparency.png?241027221943)](/cookbook/5.0/images/HeatmapGlobalTransparency.png?241027221943)
+[![](/cookbook/5.0/images/HeatmapGlobalTransparency.png?241029205813)](/cookbook/5.0/images/HeatmapGlobalTransparency.png?241029205813)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -284,11 +343,17 @@ myPlot.SavePng("demo.png", 400, 300);
 <hr class='my-5 invisible'>
 
 
-<h2><a href='/cookbook/5.0/Heatmap/HeatmapAlphaMap'>Alpha Map</a></h2>
+
+<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Heatmap/HeatmapAlphaMap'>Alpha Map</a></h2>
+
+<div class="d-flex mb-2">
+<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Heatmap/HeatmapAlphaMap">Recipe Permalink</a>
+<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Heatmap">Category: Heatmap</a>
+</div>
 
 An alpha map (a 2d array of byte values) can be used to apply custom transparency to each cell of a heatmap.
 
-[![](/cookbook/5.0/images/HeatmapAlphaMap.png?241027221943)](/cookbook/5.0/images/HeatmapAlphaMap.png?241027221943)
+[![](/cookbook/5.0/images/HeatmapAlphaMap.png?241029205813)](/cookbook/5.0/images/HeatmapAlphaMap.png?241029205813)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -323,11 +388,17 @@ myPlot.SavePng("demo.png", 400, 300);
 <hr class='my-5 invisible'>
 
 
-<h2><a href='/cookbook/5.0/Heatmap/FramelessHeatmap'>Frameless Heatmap</a></h2>
+
+<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Heatmap/FramelessHeatmap'>Frameless Heatmap</a></h2>
+
+<div class="d-flex mb-2">
+<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Heatmap/FramelessHeatmap">Recipe Permalink</a>
+<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Heatmap">Category: Heatmap</a>
+</div>
 
 A frameless heatmap can be achieved by disabling axis labels and ticks, then setting the margins to 0 so the data area tightly fits the data.
 
-[![](/cookbook/5.0/images/FramelessHeatmap.png?241027221943)](/cookbook/5.0/images/FramelessHeatmap.png?241027221943)
+[![](/cookbook/5.0/images/FramelessHeatmap.png?241029205813)](/cookbook/5.0/images/FramelessHeatmap.png?241029205813)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -352,11 +423,17 @@ myPlot.SavePng("demo.png", 400, 300);
 <hr class='my-5 invisible'>
 
 
-<h2><a href='/cookbook/5.0/Heatmap/HeatmapCellAlignment'>HeatmapCellAlignment</a></h2>
+
+<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Heatmap/HeatmapCellAlignment'>HeatmapCellAlignment</a></h2>
+
+<div class="d-flex mb-2">
+<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Heatmap/HeatmapCellAlignment">Recipe Permalink</a>
+<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Heatmap">Category: Heatmap</a>
+</div>
 
 Heatmap cells are aligned in their centers by default. This means that the bottom left cell will be centered at (0, 0), and its lower left corner will be to the lower left of the origin. Setting sell alignment to lower left causes the lower left of the heatmap to be exactly at (0, 0).
 
-[![](/cookbook/5.0/images/HeatmapCellAlignment.png?241027221943)](/cookbook/5.0/images/HeatmapCellAlignment.png?241027221943)
+[![](/cookbook/5.0/images/HeatmapCellAlignment.png?241029205813)](/cookbook/5.0/images/HeatmapCellAlignment.png?241029205813)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -375,11 +452,17 @@ myPlot.SavePng("demo.png", 400, 300);
 <hr class='my-5 invisible'>
 
 
-<h2><a href='/cookbook/5.0/Heatmap/HeatmapCellSize'>Heatmap Cell Size</a></h2>
+
+<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Heatmap/HeatmapCellSize'>Heatmap Cell Size</a></h2>
+
+<div class="d-flex mb-2">
+<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Heatmap/HeatmapCellSize">Recipe Permalink</a>
+<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Heatmap">Category: Heatmap</a>
+</div>
 
 Dimensions of a heatmap may be set by specifying how large a cell should be in pixel units.
 
-[![](/cookbook/5.0/images/HeatmapCellSize.png?241027221943)](/cookbook/5.0/images/HeatmapCellSize.png?241027221943)
+[![](/cookbook/5.0/images/HeatmapCellSize.png?241029205813)](/cookbook/5.0/images/HeatmapCellSize.png?241029205813)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -400,11 +483,17 @@ myPlot.SavePng("demo.png", 400, 300);
 <hr class='my-5 invisible'>
 
 
-<h2><a href='/cookbook/5.0/Heatmap/HeatmapManualRange'>Heatmap with Manual Color Range</a></h2>
+
+<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Heatmap/HeatmapManualRange'>Heatmap with Manual Color Range</a></h2>
+
+<div class="d-flex mb-2">
+<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Heatmap/HeatmapManualRange">Recipe Permalink</a>
+<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Heatmap">Category: Heatmap</a>
+</div>
 
 The user can define the range of values to represent with colors in the colormap. Values outside that range will be clipped to the nearest color in the colormap.
 
-[![](/cookbook/5.0/images/HeatmapManualRange.png?241027221943)](/cookbook/5.0/images/HeatmapManualRange.png?241027221943)
+[![](/cookbook/5.0/images/HeatmapManualRange.png?241029205813)](/cookbook/5.0/images/HeatmapManualRange.png?241029205813)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -423,4 +512,5 @@ myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
 <hr class='my-5 invisible'>
+
 
