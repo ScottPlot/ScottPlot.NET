@@ -24,11 +24,12 @@ builder
         ...
 ```
 
-**Step 3**: Edit your `.csproj` file to define a SDK version explicitly:
+**Step 3**: Edit your `.csproj` file to define a SDK version explicitly if developing for Windows:
 ```xml
 <Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <WindowsSdkPackageVersion>10.0.19041.34</WindowsSdkPackageVersion>
+		<TargetFrameworks>net8.0-windows10.0.19041.0</TargetFrameworks>
             ...
 ```
 
