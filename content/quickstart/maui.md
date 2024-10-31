@@ -19,7 +19,7 @@ date: 2024-10-12
                 ...
 ```
 
-**Step 3**: Add the following to your `MauiProgram.cs` file:
+**Step 4**: Add the following to your `MauiProgram.cs` file:
 
 ```cs
 using ScottPlot.Maui; // ADD THIS LINE
