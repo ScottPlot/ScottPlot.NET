@@ -8,6 +8,29 @@ Description: Release notes for every version of ScottPlot
 Release notes for every version of ScottPlot
 
 <section class='mb-5'>
+<h1 class='mb-0'>ScottPlot 5.0.43</h1>
+<div><i>NuGet packages published </i></div>
+<div class='mt-1'>
+<ul>
+<li>UserInputProcessor: Simplified how axis locking is achieved by adding <code>horizontal</code> and <code>vertical</code> arguments to <code>LeftClickDragPan()</code> and <code>RightClickDragZoom()</code>
+</li>
+<li>Maui: Improved deployment pipeline so the latest <code>ScottPlot.Maui</code> package is always available on NuGet (<a href="https://github.com/ScottPlot/ScottPlot/issues/1391">#1391</a>) <a href="https://github.com/KosmosWerner"><strong>@KosmosWerner</strong></a> <a href="https://github.com/King-Taz"><strong>@King-Taz</strong></a> <a href="https://github.com/cosmicDustOfLightLength"><strong>@cosmicDustOfLightLength</strong></a>
+</li>
+</ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/KosmosWerner'>@KosmosWerner</a>, <a href='https://github.com/King-Taz'>@King-Taz</a>, <a href='https://github.com/cosmicDustOfLightLength'>@cosmicDustOfLightLength</a>, <a href='https://github.com/swharden'>@swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/KosmosWerner'><img src='https://scottplot.net/images/contributors/kosmoswerner.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/King-Taz'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/cosmicDustOfLightLength'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
+
+</section>
+<section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 5.0.42</h1>
 <div><i>NuGet packages published 2024-10-29</i></div>
 <div class='mt-1'>
