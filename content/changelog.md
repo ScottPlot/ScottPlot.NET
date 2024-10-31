@@ -16,16 +16,19 @@ Release notes for every version of ScottPlot
 </li>
 <li>Maui: Improved deployment pipeline so the latest <code>ScottPlot.Maui</code> package is always available on NuGet (<a href="https://github.com/ScottPlot/ScottPlot/issues/1391">#1391</a>) <a href="https://github.com/KosmosWerner"><strong>@KosmosWerner</strong></a> <a href="https://github.com/King-Taz"><strong>@King-Taz</strong></a> <a href="https://github.com/cosmicDustOfLightLength"><strong>@cosmicDustOfLightLength</strong></a>
 </li>
+<li>Candlestick Plot: Exposed <code>Data</code> for easier access to underlying <code>OHLC</code> candle data (<a href="https://github.com/ScottPlot/ScottPlot/issues/4385">#4385</a>) <a href="https://github.com/quantfreedom"><strong>@quantfreedom</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/KosmosWerner'>@KosmosWerner</a>, <a href='https://github.com/King-Taz'>@King-Taz</a>, <a href='https://github.com/cosmicDustOfLightLength'>@cosmicDustOfLightLength</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/KosmosWerner'>@KosmosWerner</a>, <a href='https://github.com/King-Taz'>@King-Taz</a>, <a href='https://github.com/cosmicDustOfLightLength'>@cosmicDustOfLightLength</a>, <a href='https://github.com/quantfreedom'>@quantfreedom</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/KosmosWerner'><img src='https://scottplot.net/images/contributors/kosmoswerner.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/King-Taz'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/cosmicDustOfLightLength'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/King-Taz'><img src='https://scottplot.net/images/contributors/king-taz.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/cosmicDustOfLightLength'><img src='https://scottplot.net/images/contributors/cosmicdustoflightlength.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/quantfreedom'><img src='https://scottplot.net/images/contributors/quantfreedom.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
