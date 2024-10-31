@@ -13,14 +13,14 @@ date: 2024-10-12
 **Step 3**: Add the following to your `MauiProgram.cs` file:
 
 ```cs
-using SkiaSharp.Views.Maui.Controls.Hosting;
+using ScottPlot.Maui; // ADD THIS LINE
 ```
 
 ```csharp
 var builder = MauiApp.CreateBuilder();
 builder
     .UseMauiApp<App>()
-    .UseSkiaSharp()
+    .UseScottPlot() // ADD THIS LINE
         ...
 ```
 
