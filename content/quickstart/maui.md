@@ -19,7 +19,7 @@ builder
         ...
 ```
 
-**Step 4**: Edit `MainPage.xaml` to look add a `MauiPlot` control:
+**Step 4**: Edit `MainPage.xaml` to include `xmlns:ScottPlot` and add a `MauiPlot` control:
 
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>
