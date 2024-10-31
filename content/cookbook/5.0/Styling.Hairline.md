@@ -4,7 +4,7 @@ Description: Hairline mode allows axis frames, tick marks, and grid lines to alw
 URL: /cookbook/5.0/Styling/Hairline/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Styling Plots", "Hairline Mode"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Styling", "/cookbook/5.0/Styling/Hairline"]
-Date: 2024-10-30
+Date: 2024-10-31
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -21,7 +21,7 @@ ShowEditLink: false
 
 Hairline mode allows axis frames, tick marks, and grid lines to always be rendered a single pixel wide regardless of scale factor. Enable hairline mode to allow interactive plots to feel smoother when a large scale factor is in use.
 
-[![](/cookbook/5.0/images/Hairline.png?241029205813)](/cookbook/5.0/images/Hairline.png?241029205813)
+[![](/cookbook/5.0/images/Hairline.png?241031194635)](/cookbook/5.0/images/Hairline.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 

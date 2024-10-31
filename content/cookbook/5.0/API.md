@@ -2,13 +2,13 @@
 Title: ScottPlot 5.0 API
 Description: All classes, fields, properties, and methods provided by the ScottPlot package
 URL: /api/5.0/
-Date: 2024-10-29
+Date: 2024-10-31
 ShowEditLink: false
 ---
 
 # ScottPlot 5.0.42 API
 
-_Generated 10/29/2024 8:58:13 PM_
+_Generated 10/31/2024 7:46:34 PM_
 
 <div class='my-5'>&nbsp;</div>
 
@@ -3933,6 +3933,7 @@ a:hover {text-decoration: underline;}
 <div class='docs'></div>
 </div>
 <div><a class='scottPlotType' href='#ScottPlot.IAxes'>ScottPlot.IAxes</a> <span class='name'>Axes</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.IOHLCSource'>ScottPlot.IOHLCSource</a> <span class='name'>Data</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.Color'>ScottPlot.Color</a> <span class='name'>FallingColor</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.FillStyle'>ScottPlot.FillStyle</a> <span class='name'>FallingFillStyle</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.LineStyle'>ScottPlot.LineStyle</a> <span class='name'>FallingLineStyle</span> <span class='docs'></span></div>
@@ -5597,6 +5598,7 @@ a:hover {text-decoration: underline;}
 <div><span class='otherType'>void</span> <span class='name'>Add(<a class='scottPlotType' href='#ScottPlot.Interactivity.Key'>ScottPlot.Interactivity.Key</a> <span class='name'>key</span>)</span> <span class='docs'></span></div>
 <div><span class='otherType'>void</span> <span class='name'>Remove(<a class='scottPlotType' href='#ScottPlot.Interactivity.Key'>ScottPlot.Interactivity.Key</a> <span class='name'>key</span>)</span> <span class='docs'></span></div>
 <div><span class='otherType'>bool</span> <span class='name'>IsPressed(<a class='scottPlotType' href='#ScottPlot.Interactivity.Key'>ScottPlot.Interactivity.Key</a> <span class='name'>key</span>)</span> <span class='docs'></span></div>
+<div><span class='otherType'>bool</span> <span class='name'>IsPressed(<span class='otherType'>IEnumerable&lt;ScottPlot.Interactivity.Key&gt;</span> <span class='name'>keys</span>)</span> <span class='docs'></span></div>
 <div><span class='otherType'>bool</span> <span class='name'>IsPressed(<span class='otherType'>string</span> <span class='name'>keyName</span>)</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.Interactivity.MouseAxisManipulation'><a style='color: black;' href='#ScottPlot.Interactivity.MouseAxisManipulation'>ScottPlot.Interactivity.MouseAxisManipulation</a></div>
@@ -5667,8 +5669,8 @@ a:hover {text-decoration: underline;}
             default interactivity settings</span></div>
 <div><span class='otherType'>List&lt;ScottPlot.Interactivity.IUserActionResponse&gt;</span> <span class='name'>DefaultUserResponses()</span> <span class='docs'>Default user actions that are in place when the event processor is constructed or reset.</span></div>
 <div><span class='otherType'>void</span> <span class='name'>DoubleLeftClickBenchmark(<span class='otherType'>bool</span> <span class='name'>enable</span>)</span> <span class='docs'></span></div>
-<div><span class='otherType'>void</span> <span class='name'>LeftClickDragPan(<span class='otherType'>bool</span> <span class='name'>enable</span>)</span> <span class='docs'></span></div>
-<div><span class='otherType'>void</span> <span class='name'>RightClickDragZoom(<span class='otherType'>bool</span> <span class='name'>enable</span>)</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>LeftClickDragPan(<span class='otherType'>bool</span> <span class='name'>enable</span>, <span class='otherType'>bool</span> <span class='name'>horizontal</span>, <span class='otherType'>bool</span> <span class='name'>vertical</span>)</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>RightClickDragZoom(<span class='otherType'>bool</span> <span class='name'>enable</span>, <span class='otherType'>bool</span> <span class='name'>horizontal</span>, <span class='otherType'>bool</span> <span class='name'>vertical</span>)</span> <span class='docs'></span></div>
 <div><span class='otherType'>void</span> <span class='name'>Process(<a class='scottPlotType' href='#ScottPlot.Interactivity.IUserAction'>ScottPlot.Interactivity.IUserAction</a> <span class='name'>userAction</span>)</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.Interactivity.UserActions.KeyDown'><a style='color: black;' href='#ScottPlot.Interactivity.UserActions.KeyDown'>ScottPlot.Interactivity.UserActions.KeyDown</a></div>
@@ -5836,12 +5838,20 @@ a:hover {text-decoration: underline;}
 <div class='title' id='ScottPlot.Interactivity.UserActionResponses.MouseDragPan'><a style='color: black;' href='#ScottPlot.Interactivity.UserActionResponses.MouseDragPan'>ScottPlot.Interactivity.UserActionResponses.MouseDragPan</a></div>
 <div class='docs'></div>
 </div>
+<div><span class='otherType'>List&lt;ScottPlot.Interactivity.Key&gt;</span> <span class='name'>KeysThatLockX</span> <span class='docs'>Horizontal panning is disabled if any of these keys are pressed</span></div>
+<div><span class='otherType'>List&lt;ScottPlot.Interactivity.Key&gt;</span> <span class='name'>KeysThatLockY</span> <span class='docs'>Vertical panning is disabled if any of these keys are pressed</span></div>
+<div><span class='otherType'>bool</span> <span class='name'>LockX</span> <span class='docs'>Horizontal panning is disabled when this is set</span></div>
+<div><span class='otherType'>bool</span> <span class='name'>LockY</span> <span class='docs'>Vertical panning is disabled when this is set</span></div>
 <div><a class='scottPlotType' href='#ScottPlot.Interactivity.MouseButton'>ScottPlot.Interactivity.MouseButton</a> <span class='name'>MouseButton</span> <span class='docs'>Which mouse button to watch for click-drag events</span></div>
 <div><a class='scottPlotType' href='#ScottPlot.Interactivity.ResponseInfo'>ScottPlot.Interactivity.ResponseInfo</a> <span class='name'>Execute(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>plot</span>, <a class='scottPlotType' href='#ScottPlot.Interactivity.IUserAction'>ScottPlot.Interactivity.IUserAction</a> <span class='name'>userInput</span>, <a class='scottPlotType' href='#ScottPlot.Interactivity.KeyboardState'>ScottPlot.Interactivity.KeyboardState</a> <span class='name'>keys</span>)</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.Interactivity.UserActionResponses.MouseDragZoom'><a style='color: black;' href='#ScottPlot.Interactivity.UserActionResponses.MouseDragZoom'>ScottPlot.Interactivity.UserActionResponses.MouseDragZoom</a></div>
 <div class='docs'></div>
 </div>
+<div><span class='otherType'>List&lt;ScottPlot.Interactivity.Key&gt;</span> <span class='name'>KeysThatLockX</span> <span class='docs'>Horizontal panning is disabled if any of these keys are pressed</span></div>
+<div><span class='otherType'>List&lt;ScottPlot.Interactivity.Key&gt;</span> <span class='name'>KeysThatLockY</span> <span class='docs'>Vertical panning is disabled if any of these keys are pressed</span></div>
+<div><span class='otherType'>bool</span> <span class='name'>LockX</span> <span class='docs'>Horizontal panning is disabled when this is set</span></div>
+<div><span class='otherType'>bool</span> <span class='name'>LockY</span> <span class='docs'>Vertical panning is disabled when this is set</span></div>
 <div><a class='scottPlotType' href='#ScottPlot.Interactivity.ResponseInfo'>ScottPlot.Interactivity.ResponseInfo</a> <span class='name'>Execute(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>plot</span>, <a class='scottPlotType' href='#ScottPlot.Interactivity.IUserAction'>ScottPlot.Interactivity.IUserAction</a> <span class='name'>userInput</span>, <a class='scottPlotType' href='#ScottPlot.Interactivity.KeyboardState'>ScottPlot.Interactivity.KeyboardState</a> <span class='name'>keys</span>)</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.Interactivity.UserActionResponses.MouseDragZoomRectangle'><a style='color: black;' href='#ScottPlot.Interactivity.UserActionResponses.MouseDragZoomRectangle'>ScottPlot.Interactivity.UserActionResponses.MouseDragZoomRectangle</a></div>
@@ -8568,7 +8578,7 @@ a:hover {text-decoration: underline;}
 <div class='docs'></div>
 </div>
 <div><a class='scottPlotType' href='#ScottPlot.Interactivity.KeyboardState'>ScottPlot.Interactivity.KeyboardState</a> <span class='name'><>9</span> <span class='docs'></span></div>
-<div><span class='otherType'>Func&lt;T1, T2&gt;</span> <span class='name'><>9__10_0</span> <span class='docs'></span></div>
+<div><span class='otherType'>Func&lt;T1, T2&gt;</span> <span class='name'><>9__11_0</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.Interactivity.MouseAxisManipulation'><a style='color: black;' href='#ScottPlot.Interactivity.MouseAxisManipulation'>ScottPlot.Interactivity.MouseAxisManipulation</a></div>
 <div class='docs'></div>

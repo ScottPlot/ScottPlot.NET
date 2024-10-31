@@ -4,7 +4,7 @@ Description: Using ScottPlot across cultures with different text and numeric req
 URL: /cookbook/5.0/Internationalization/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Internationalization"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Internationalization"]
-Date: 2024-10-30
+Date: 2024-10-31
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -23,7 +23,7 @@ ShowEditLink: false
 
 ScottPlot comes with font detection methods which help identify the best installed font for displaying text which may contain international characters.
 
-[![](/cookbook/5.0/images/FontDetection.png?241029205813)](/cookbook/5.0/images/FontDetection.png?241029205813)
+[![](/cookbook/5.0/images/FontDetection.png?241031194635)](/cookbook/5.0/images/FontDetection.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -55,7 +55,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 The Plot's Style class contains a method which automatically sets the fonts of common plot objects to the font most likely able to display the characters they contain.
 
-[![](/cookbook/5.0/images/AutomaticFontDetection.png?241029205813)](/cookbook/5.0/images/AutomaticFontDetection.png?241029205813)
+[![](/cookbook/5.0/images/AutomaticFontDetection.png?241031194635)](/cookbook/5.0/images/AutomaticFontDetection.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 

@@ -4,7 +4,7 @@ Description: Pie slices may have labels independent from those displayed in the 
 URL: /cookbook/5.0/Pie/PieSliceLabelsAndLegend/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Pie", "Pie with Different Labels"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Pie", "/cookbook/5.0/Pie/PieSliceLabelsAndLegend"]
-Date: 2024-10-30
+Date: 2024-10-31
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -21,7 +21,7 @@ ShowEditLink: false
 
 Pie slices may have labels independent from those displayed in the legend.
 
-[![](/cookbook/5.0/images/PieSliceLabelsAndLegend.png?241029205813)](/cookbook/5.0/images/PieSliceLabelsAndLegend.png?241029205813)
+[![](/cookbook/5.0/images/PieSliceLabelsAndLegend.png?241031194635)](/cookbook/5.0/images/PieSliceLabelsAndLegend.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 

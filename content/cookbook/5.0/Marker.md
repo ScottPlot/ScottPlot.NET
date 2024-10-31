@@ -4,7 +4,7 @@ Description: Markers can be placed on the plot in coordinate space.
 URL: /cookbook/5.0/Marker/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Marker"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Marker"]
-Date: 2024-10-30
+Date: 2024-10-31
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -23,7 +23,7 @@ ShowEditLink: false
 
 Markers are symbols placed at a location in coordinate space. Their shape, size, and color can be customized.
 
-[![](/cookbook/5.0/images/MarkerQuickstart.png?241029205813)](/cookbook/5.0/images/MarkerQuickstart.png?241029205813)
+[![](/cookbook/5.0/images/MarkerQuickstart.png?241031194635)](/cookbook/5.0/images/MarkerQuickstart.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -50,7 +50,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Standard marker shapes are provided, but advanced users are able to create their own as well.
 
-[![](/cookbook/5.0/images/MarkerShapes.png?241029205813)](/cookbook/5.0/images/MarkerShapes.png?241029205813)
+[![](/cookbook/5.0/images/MarkerShapes.png?241031194635)](/cookbook/5.0/images/MarkerShapes.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -100,7 +100,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Markers with labels appear in the legend.
 
-[![](/cookbook/5.0/images/MarkerLegend.png?241029205813)](/cookbook/5.0/images/MarkerLegend.png?241029205813)
+[![](/cookbook/5.0/images/MarkerLegend.png?241031194635)](/cookbook/5.0/images/MarkerLegend.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -130,7 +130,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Collections of markers that are all styled the same may be added to the plot
 
-[![](/cookbook/5.0/images/MarkersPlot.png?241029205813)](/cookbook/5.0/images/MarkersPlot.png?241029205813)
+[![](/cookbook/5.0/images/MarkersPlot.png?241031194635)](/cookbook/5.0/images/MarkersPlot.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -157,7 +157,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 A colormap may be used to style a collection of markers
 
-[![](/cookbook/5.0/images/MarkersColormap.png?241029205813)](/cookbook/5.0/images/MarkersColormap.png?241029205813)
+[![](/cookbook/5.0/images/MarkersColormap.png?241031194635)](/cookbook/5.0/images/MarkersColormap.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -183,7 +183,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 An ImageMarker can be placed on the plot to display an image centered at a location in coordinate space.
 
-[![](/cookbook/5.0/images/ImageMarkerQuickstart.png?241029205813)](/cookbook/5.0/images/ImageMarkerQuickstart.png?241029205813)
+[![](/cookbook/5.0/images/ImageMarkerQuickstart.png?241031194635)](/cookbook/5.0/images/ImageMarkerQuickstart.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 

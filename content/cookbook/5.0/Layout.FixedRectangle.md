@@ -4,7 +4,7 @@ Description: The plot can be arranged so the data is drawn inside a fixed rectan
 URL: /cookbook/5.0/Layout/FixedRectangle/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Layout", "Fixed Rectangle"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Layout", "/cookbook/5.0/Layout/FixedRectangle"]
-Date: 2024-10-30
+Date: 2024-10-31
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -21,7 +21,7 @@ ShowEditLink: false
 
 The plot can be arranged so the data is drawn inside a fixed rectangle defined in pixel units
 
-[![](/cookbook/5.0/images/FixedRectangle.png?241029205813)](/cookbook/5.0/images/FixedRectangle.png?241029205813)
+[![](/cookbook/5.0/images/FixedRectangle.png?241031194635)](/cookbook/5.0/images/FixedRectangle.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 

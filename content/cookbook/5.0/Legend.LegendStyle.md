@@ -4,7 +4,7 @@ Description: Access the Legend object directly for advanced customization option
 URL: /cookbook/5.0/Legend/LegendStyle/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Legends", "Legend Customization"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Legend", "/cookbook/5.0/Legend/LegendStyle"]
-Date: 2024-10-30
+Date: 2024-10-31
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -21,7 +21,7 @@ ShowEditLink: false
 
 Access the Legend object directly for advanced customization options.
 
-[![](/cookbook/5.0/images/LegendStyle.png?241029205813)](/cookbook/5.0/images/LegendStyle.png?241029205813)
+[![](/cookbook/5.0/images/LegendStyle.png?241031194635)](/cookbook/5.0/images/LegendStyle.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 

@@ -4,7 +4,7 @@ Description: Text labels may be applied to individual arrows of a phasor plot.
 URL: /cookbook/5.0/Phasor/PhasorLabels/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Phasor Plot", "Phasor Plot with Labels"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Phasor", "/cookbook/5.0/Phasor/PhasorLabels"]
-Date: 2024-10-30
+Date: 2024-10-31
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -21,7 +21,7 @@ ShowEditLink: false
 
 Text labels may be applied to individual arrows of a phasor plot.
 
-[![](/cookbook/5.0/images/PhasorLabels.png?241029205813)](/cookbook/5.0/images/PhasorLabels.png?241029205813)
+[![](/cookbook/5.0/images/PhasorLabels.png?241031194635)](/cookbook/5.0/images/PhasorLabels.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 

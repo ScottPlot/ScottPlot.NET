@@ -4,7 +4,7 @@ Description: Signal plots display evenly-spaced data
 URL: /cookbook/5.0/Signal/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Signal Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Signal"]
-Date: 2024-10-30
+Date: 2024-10-31
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -23,7 +23,7 @@ ShowEditLink: false
 
 Signal plots are best for extremely large datasets. They use render using special optimizations that allow highspeed interactivity with plots containing millions of data points.
 
-[![](/cookbook/5.0/images/SignalQuickstart.png?241029205813)](/cookbook/5.0/images/SignalQuickstart.png?241029205813)
+[![](/cookbook/5.0/images/SignalQuickstart.png?241031194635)](/cookbook/5.0/images/SignalQuickstart.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -49,7 +49,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Signal plots can be styled in a variety of ways.
 
-[![](/cookbook/5.0/images/SignalStyling.png?241029205813)](/cookbook/5.0/images/SignalStyling.png?241029205813)
+[![](/cookbook/5.0/images/SignalStyling.png?241031194635)](/cookbook/5.0/images/SignalStyling.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -81,7 +81,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Signal plots can be offset by a given X and Y value.
 
-[![](/cookbook/5.0/images/SignalOffset.png?241029205813)](/cookbook/5.0/images/SignalOffset.png?241029205813)
+[![](/cookbook/5.0/images/SignalOffset.png?241031194635)](/cookbook/5.0/images/SignalOffset.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -113,7 +113,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Signal plots can be scaled vertically according to a user-defined amount.
 
-[![](/cookbook/5.0/images/SignalScaleY.png?241029205813)](/cookbook/5.0/images/SignalScaleY.png?241029205813)
+[![](/cookbook/5.0/images/SignalScaleY.png?241031194635)](/cookbook/5.0/images/SignalScaleY.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -140,7 +140,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Signal plots can have markers displayed at each point which are only visible when the plot is zoomed in.
 
-[![](/cookbook/5.0/images/SignalMarkerSize.png?241029205813)](/cookbook/5.0/images/SignalMarkerSize.png?241029205813)
+[![](/cookbook/5.0/images/SignalMarkerSize.png?241031194635)](/cookbook/5.0/images/SignalMarkerSize.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -176,7 +176,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Even if a signal plot references a large array of data, rendering can be limited to a range of values. If set,only the range of data between the minimum and maximum render indexes will be displayed.
 
-[![](/cookbook/5.0/images/SignalRenderIndexes.png?241029205813)](/cookbook/5.0/images/SignalRenderIndexes.png?241029205813)
+[![](/cookbook/5.0/images/SignalRenderIndexes.png?241031194635)](/cookbook/5.0/images/SignalRenderIndexes.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -221,7 +221,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Signal plots support generic data types, although double is typically the most performant.
 
-[![](/cookbook/5.0/images/SignalGeneric.png?241029205813)](/cookbook/5.0/images/SignalGeneric.png?241029205813)
+[![](/cookbook/5.0/images/SignalGeneric.png?241031194635)](/cookbook/5.0/images/SignalGeneric.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -245,7 +245,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 A signal plot may use DateTime units but be sure to setup the respective axis to display using DateTime format.
 
-[![](/cookbook/5.0/images/SignalDateTime.png?241029205813)](/cookbook/5.0/images/SignalDateTime.png?241029205813)
+[![](/cookbook/5.0/images/SignalDateTime.png?241031194635)](/cookbook/5.0/images/SignalDateTime.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 

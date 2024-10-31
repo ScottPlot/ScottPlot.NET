@@ -4,7 +4,7 @@ Description: Pie charts illustrate numerical proportions as slices of a circle.
 URL: /cookbook/5.0/Pie/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Pie"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Pie"]
-Date: 2024-10-30
+Date: 2024-10-31
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -23,7 +23,7 @@ ShowEditLink: false
 
 A pie chart can be created from a few values.
 
-[![](/cookbook/5.0/images/PieQuickstart.png?241029205813)](/cookbook/5.0/images/PieQuickstart.png?241029205813)
+[![](/cookbook/5.0/images/PieQuickstart.png?241031194635)](/cookbook/5.0/images/PieQuickstart.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -51,7 +51,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 A pie chart can be created from a collection of slices.
 
-[![](/cookbook/5.0/images/PieSlices.png?241029205813)](/cookbook/5.0/images/PieSlices.png?241029205813)
+[![](/cookbook/5.0/images/PieSlices.png?241031194635)](/cookbook/5.0/images/PieSlices.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -90,7 +90,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 A donut chart is a pie chart with an open center. Donut charts can be created from a collection of slices.
 
-[![](/cookbook/5.0/images/PieDonut.png?241029205813)](/cookbook/5.0/images/PieDonut.png?241029205813)
+[![](/cookbook/5.0/images/PieDonut.png?241031194635)](/cookbook/5.0/images/PieDonut.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -128,7 +128,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Pie charts may be rotated to control where the first slice begins.
 
-[![](/cookbook/5.0/images/PieRotation.png?241029205813)](/cookbook/5.0/images/PieRotation.png?241029205813)
+[![](/cookbook/5.0/images/PieRotation.png?241031194635)](/cookbook/5.0/images/PieRotation.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -157,7 +157,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Slice labels can be displayed centered with the slice at a customizable distance from the center of the pie.
 
-[![](/cookbook/5.0/images/PieSliceLabels.png?241029205813)](/cookbook/5.0/images/PieSliceLabels.png?241029205813)
+[![](/cookbook/5.0/images/PieSliceLabels.png?241031194635)](/cookbook/5.0/images/PieSliceLabels.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -202,7 +202,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Slice labels may be adapted to display any text (including numerical values) centered over each slice.
 
-[![](/cookbook/5.0/images/PieSliceLabelsPercent.png?241029205813)](/cookbook/5.0/images/PieSliceLabelsPercent.png?241029205813)
+[![](/cookbook/5.0/images/PieSliceLabelsPercent.png?241031194635)](/cookbook/5.0/images/PieSliceLabelsPercent.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -245,7 +245,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Pie slices may have labels independent from those displayed in the legend.
 
-[![](/cookbook/5.0/images/PieSliceLabelsAndLegend.png?241029205813)](/cookbook/5.0/images/PieSliceLabelsAndLegend.png?241029205813)
+[![](/cookbook/5.0/images/PieSliceLabelsAndLegend.png?241031194635)](/cookbook/5.0/images/PieSliceLabelsAndLegend.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 

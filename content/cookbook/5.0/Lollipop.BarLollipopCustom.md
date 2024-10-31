@@ -4,7 +4,7 @@ Description: The stem line and head marker can be extensively customized.
 URL: /cookbook/5.0/Lollipop/BarLollipopCustom/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Lollipop Plot", "Lollipop Plot Customizations"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Lollipop", "/cookbook/5.0/Lollipop/BarLollipopCustom"]
-Date: 2024-10-30
+Date: 2024-10-31
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -21,7 +21,7 @@ ShowEditLink: false
 
 The stem line and head marker can be extensively customized.
 
-[![](/cookbook/5.0/images/BarLollipopCustom.png?241029205813)](/cookbook/5.0/images/BarLollipopCustom.png?241029205813)
+[![](/cookbook/5.0/images/BarLollipopCustom.png?241031194635)](/cookbook/5.0/images/BarLollipopCustom.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 

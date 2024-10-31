@@ -4,7 +4,7 @@ Description: SignalXY plots can be scaled vertically according to a user-defined
 URL: /cookbook/5.0/SignalXY/SignalXYOffsetScaleY/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "SignalXY Plot", "SignalXY Scaling"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/SignalXY", "/cookbook/5.0/SignalXY/SignalXYOffsetScaleY"]
-Date: 2024-10-30
+Date: 2024-10-31
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -21,7 +21,7 @@ ShowEditLink: false
 
 SignalXY plots can be scaled vertically according to a user-defined amount.
 
-[![](/cookbook/5.0/images/SignalXYOffsetScaleY.png?241029205813)](/cookbook/5.0/images/SignalXYOffsetScaleY.png?241029205813)
+[![](/cookbook/5.0/images/SignalXYOffsetScaleY.png?241031194635)](/cookbook/5.0/images/SignalXYOffsetScaleY.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 

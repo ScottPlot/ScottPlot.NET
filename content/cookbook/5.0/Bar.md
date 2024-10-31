@@ -4,7 +4,7 @@ Description: Bar plots represent values as horizontal or vertical rectangles
 URL: /cookbook/5.0/Bar/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Bar Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Bar"]
-Date: 2024-10-30
+Date: 2024-10-31
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -23,7 +23,7 @@ ShowEditLink: false
 
 Bar plots can be added from a series of values.
 
-[![](/cookbook/5.0/images/Quickstart.png?241029205813)](/cookbook/5.0/images/Quickstart.png?241029205813)
+[![](/cookbook/5.0/images/Quickstart.png?241031194635)](/cookbook/5.0/images/Quickstart.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -50,7 +50,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 A collection of bars can appear in the legend as a single item.
 
-[![](/cookbook/5.0/images/BarLegend.png?241029205813)](/cookbook/5.0/images/BarLegend.png?241029205813)
+[![](/cookbook/5.0/images/BarLegend.png?241031194635)](/cookbook/5.0/images/BarLegend.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -83,7 +83,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Set the `Label` property of bars to have text displayed above each bar.
 
-[![](/cookbook/5.0/images/BarValues.png?241029205813)](/cookbook/5.0/images/BarValues.png?241029205813)
+[![](/cookbook/5.0/images/BarValues.png?241031194635)](/cookbook/5.0/images/BarValues.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -118,7 +118,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Set the `Label` property of bars to have text displayed beside (left or right) of each bar.
 
-[![](/cookbook/5.0/images/BarValuesHorizontal.png?241029205813)](/cookbook/5.0/images/BarValuesHorizontal.png?241029205813)
+[![](/cookbook/5.0/images/BarValuesHorizontal.png?241031194635)](/cookbook/5.0/images/BarValuesHorizontal.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -156,7 +156,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 The exact position and size of each bar may be customized.
 
-[![](/cookbook/5.0/images/BarPosition.png?241029205813)](/cookbook/5.0/images/BarPosition.png?241029205813)
+[![](/cookbook/5.0/images/BarPosition.png?241031194635)](/cookbook/5.0/images/BarPosition.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -185,7 +185,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Bars can have errorbars.
 
-[![](/cookbook/5.0/images/BarWithError.png?241029205813)](/cookbook/5.0/images/BarWithError.png?241029205813)
+[![](/cookbook/5.0/images/BarWithError.png?241031194635)](/cookbook/5.0/images/BarWithError.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -218,7 +218,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Bars can be labeled by manually specifying axis tick mark positions and labels.
 
-[![](/cookbook/5.0/images/BarTickLabels.png?241029205813)](/cookbook/5.0/images/BarTickLabels.png?241029205813)
+[![](/cookbook/5.0/images/BarTickLabels.png?241031194635)](/cookbook/5.0/images/BarTickLabels.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -258,7 +258,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Bars can be positioned on top of each other.
 
-[![](/cookbook/5.0/images/BarStackVertically.png?241029205813)](/cookbook/5.0/images/BarStackVertically.png?241029205813)
+[![](/cookbook/5.0/images/BarStackVertically.png?241031194635)](/cookbook/5.0/images/BarStackVertically.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -308,7 +308,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Bars can be grouped by position and color.
 
-[![](/cookbook/5.0/images/GroupedBarPlot.png?241029205813)](/cookbook/5.0/images/GroupedBarPlot.png?241029205813)
+[![](/cookbook/5.0/images/GroupedBarPlot.png?241031194635)](/cookbook/5.0/images/GroupedBarPlot.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -371,7 +371,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Bar plots can be displayed horizontally.
 
-[![](/cookbook/5.0/images/HorizontalBar.png?241029205813)](/cookbook/5.0/images/HorizontalBar.png?241029205813)
+[![](/cookbook/5.0/images/HorizontalBar.png?241031194635)](/cookbook/5.0/images/HorizontalBar.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -404,7 +404,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Bars can be stacked to present data in groups.
 
-[![](/cookbook/5.0/images/StackedBars.png?241029205813)](/cookbook/5.0/images/StackedBars.png?241029205813)
+[![](/cookbook/5.0/images/StackedBars.png?241031194635)](/cookbook/5.0/images/StackedBars.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 

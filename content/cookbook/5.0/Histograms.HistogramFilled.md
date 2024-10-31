@@ -4,7 +4,7 @@ Description: A filled histogram (one with no visible gaps between bars) can be a
 URL: /cookbook/5.0/Histograms/HistogramFilled/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Histogram", "Filled Histogram"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Histograms", "/cookbook/5.0/Histograms/HistogramFilled"]
-Date: 2024-10-30
+Date: 2024-10-31
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -21,7 +21,7 @@ ShowEditLink: false
 
 A filled histogram (one with no visible gaps between bars) can be achieved by setting the bar width to the bin size. However, anti-aliasing artifacts may cause white lines to appear between bars. Disable anti-aliasing for each bar to improve appearance of such plots.
 
-[![](/cookbook/5.0/images/HistogramFilled.png?241029205813)](/cookbook/5.0/images/HistogramFilled.png?241029205813)
+[![](/cookbook/5.0/images/HistogramFilled.png?241031194635)](/cookbook/5.0/images/HistogramFilled.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 

@@ -4,7 +4,7 @@ Description: A contour plot is a graphical representation that shows the three-d
 URL: /cookbook/5.0/Contour/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Contour Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Contour"]
-Date: 2024-10-30
+Date: 2024-10-31
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -23,7 +23,7 @@ ShowEditLink: false
 
 A rectangular contour plot with evenly spaced points can be created from a 2D array of 3D points.
 
-[![](/cookbook/5.0/images/ContourGrid.png?241029205813)](/cookbook/5.0/images/ContourGrid.png?241029205813)
+[![](/cookbook/5.0/images/ContourGrid.png?241031194635)](/cookbook/5.0/images/ContourGrid.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -60,7 +60,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 A contour plot can be created from a collection of 3D data points placed arbitrarily in X/Y plane.
 
-[![](/cookbook/5.0/images/IrregularContour.png?241029205813)](/cookbook/5.0/images/IrregularContour.png?241029205813)
+[![](/cookbook/5.0/images/IrregularContour.png?241031194635)](/cookbook/5.0/images/IrregularContour.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -110,7 +110,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Contour lines may be placed on top of heatmaps.
 
-[![](/cookbook/5.0/images/ContourHeatmap.png?241029205813)](/cookbook/5.0/images/ContourHeatmap.png?241029205813)
+[![](/cookbook/5.0/images/ContourHeatmap.png?241031194635)](/cookbook/5.0/images/ContourHeatmap.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -152,7 +152,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 If a colormap is provided it will be used to color each line in the colormap according to its value.
 
-[![](/cookbook/5.0/images/ContourColormap.png?241029205813)](/cookbook/5.0/images/ContourColormap.png?241029205813)
+[![](/cookbook/5.0/images/ContourColormap.png?241031194635)](/cookbook/5.0/images/ContourColormap.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 

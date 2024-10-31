@@ -4,7 +4,7 @@ Description: Legends may be constructed manually.
 URL: /cookbook/5.0/Legend/ManualLegend/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Legends", "Manual Legend Items"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Legend", "/cookbook/5.0/Legend/ManualLegend"]
-Date: 2024-10-30
+Date: 2024-10-31
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -21,7 +21,7 @@ ShowEditLink: false
 
 Legends may be constructed manually.
 
-[![](/cookbook/5.0/images/ManualLegend.png?241029205813)](/cookbook/5.0/images/ManualLegend.png?241029205813)
+[![](/cookbook/5.0/images/ManualLegend.png?241031194635)](/cookbook/5.0/images/ManualLegend.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 

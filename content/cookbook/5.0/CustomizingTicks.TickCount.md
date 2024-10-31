@@ -4,7 +4,7 @@ Description: A target number of ticks can be provided and the automatic tick gen
 URL: /cookbook/5.0/CustomizingTicks/TickCount/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Customizing Ticks", "Tick Count"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/CustomizingTicks", "/cookbook/5.0/CustomizingTicks/TickCount"]
-Date: 2024-10-30
+Date: 2024-10-31
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -21,7 +21,7 @@ ShowEditLink: false
 
 A target number of ticks can be provided and the automatic tick generator will attempt to place that number of ticks. This strategy allows tick density to decrease as the image size increases.
 
-[![](/cookbook/5.0/images/TickCount.png?241029205813)](/cookbook/5.0/images/TickCount.png?241029205813)
+[![](/cookbook/5.0/images/TickCount.png?241031194635)](/cookbook/5.0/images/TickCount.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 

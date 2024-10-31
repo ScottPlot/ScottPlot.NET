@@ -4,7 +4,7 @@ Description: Axis rules can be put in place which force the vertical scale (unit
 URL: /cookbook/5.0/AxisAndTicks/SquareAxisUnits/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Axis and Ticks", "Square Axis Units"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AxisAndTicks", "/cookbook/5.0/AxisAndTicks/SquareAxisUnits"]
-Date: 2024-10-30
+Date: 2024-10-31
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -21,7 +21,7 @@ ShowEditLink: false
 
 Axis rules can be put in place which force the vertical scale (units per pixel) to match the horizontal scale so circles always appear as circles and not stretched ellipses.
 
-[![](/cookbook/5.0/images/SquareAxisUnits.png?241029205813)](/cookbook/5.0/images/SquareAxisUnits.png?241029205813)
+[![](/cookbook/5.0/images/SquareAxisUnits.png?241031194635)](/cookbook/5.0/images/SquareAxisUnits.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 

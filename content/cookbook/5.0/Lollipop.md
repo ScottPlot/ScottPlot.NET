@@ -4,7 +4,7 @@ Description: A lollipop chart is a variation of a bar chart that uses a line (st
 URL: /cookbook/5.0/Lollipop/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Lollipop Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Lollipop"]
-Date: 2024-10-30
+Date: 2024-10-31
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -23,7 +23,7 @@ ShowEditLink: false
 
 Lollipop plots can be created from a sequence of values
 
-[![](/cookbook/5.0/images/LollipopQuickStart.png?241029205813)](/cookbook/5.0/images/LollipopQuickStart.png?241029205813)
+[![](/cookbook/5.0/images/LollipopQuickStart.png?241031194635)](/cookbook/5.0/images/LollipopQuickStart.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -46,7 +46,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 The position of each lollipop may be defined.
 
-[![](/cookbook/5.0/images/LollipopPositions.png?241029205813)](/cookbook/5.0/images/LollipopPositions.png?241029205813)
+[![](/cookbook/5.0/images/LollipopPositions.png?241031194635)](/cookbook/5.0/images/LollipopPositions.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -70,7 +70,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 The stem line and head marker can be extensively customized.
 
-[![](/cookbook/5.0/images/BarLollipopCustom.png?241029205813)](/cookbook/5.0/images/BarLollipopCustom.png?241029205813)
+[![](/cookbook/5.0/images/BarLollipopCustom.png?241031194635)](/cookbook/5.0/images/BarLollipopCustom.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -101,7 +101,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Change the lollipop plot's Orientation to Horizontal to cause stems to be drawn horizontally instead of vertically.
 
-[![](/cookbook/5.0/images/LollipopHorizontal.png?241029205813)](/cookbook/5.0/images/LollipopHorizontal.png?241029205813)
+[![](/cookbook/5.0/images/LollipopHorizontal.png?241031194635)](/cookbook/5.0/images/LollipopHorizontal.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 

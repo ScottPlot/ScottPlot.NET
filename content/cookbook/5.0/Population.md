@@ -4,7 +4,7 @@ Description: Population plots display collections of individual values.
 URL: /cookbook/5.0/Population/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Population Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Population"]
-Date: 2024-10-30
+Date: 2024-10-31
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -23,7 +23,7 @@ ShowEditLink: false
 
 A Population can be created from a collection of values, styled as desired, and placed anywhere on the plot.
 
-[![](/cookbook/5.0/images/PopulationQuickstart.png?241029205813)](/cookbook/5.0/images/PopulationQuickstart.png?241029205813)
+[![](/cookbook/5.0/images/PopulationQuickstart.png?241031194635)](/cookbook/5.0/images/PopulationQuickstart.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -62,7 +62,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Population statistics can be displayed using box plots.
 
-[![](/cookbook/5.0/images/PopulationBox.png?241029205813)](/cookbook/5.0/images/PopulationBox.png?241029205813)
+[![](/cookbook/5.0/images/PopulationBox.png?241031194635)](/cookbook/5.0/images/PopulationBox.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -97,7 +97,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 The values displayed by the box midline, body, and whisker can be configured by assigning a static function to the box value configuration property.
 
-[![](/cookbook/5.0/images/PopulationBoxValues.png?241029205813)](/cookbook/5.0/images/PopulationBoxValues.png?241029205813)
+[![](/cookbook/5.0/images/PopulationBoxValues.png?241031194635)](/cookbook/5.0/images/PopulationBoxValues.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -130,7 +130,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 The bar symbol in population plots can be extensively styled.
 
-[![](/cookbook/5.0/images/PopulationBarStyle.png?241029205813)](/cookbook/5.0/images/PopulationBarStyle.png?241029205813)
+[![](/cookbook/5.0/images/PopulationBarStyle.png?241031194635)](/cookbook/5.0/images/PopulationBarStyle.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -164,7 +164,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 The box symbol in population plots can be extensively styled.
 
-[![](/cookbook/5.0/images/PopulationBoxStyle.png?241029205813)](/cookbook/5.0/images/PopulationBoxStyle.png?241029205813)
+[![](/cookbook/5.0/images/PopulationBoxStyle.png?241031194635)](/cookbook/5.0/images/PopulationBoxStyle.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -197,7 +197,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 The data markers in population plots can be extensively styled.
 
-[![](/cookbook/5.0/images/PopulationMarkerStyle.png?241029205813)](/cookbook/5.0/images/PopulationMarkerStyle.png?241029205813)
+[![](/cookbook/5.0/images/PopulationMarkerStyle.png?241031194635)](/cookbook/5.0/images/PopulationMarkerStyle.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -231,7 +231,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 The user may customize where data is drawn relative to the bar or box. Centering everything can be used to achieve an effect where data points are drawn over the bar or box.
 
-[![](/cookbook/5.0/images/PopulationArrangement.png?241029205813)](/cookbook/5.0/images/PopulationArrangement.png?241029205813)
+[![](/cookbook/5.0/images/PopulationArrangement.png?241031194635)](/cookbook/5.0/images/PopulationArrangement.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -269,7 +269,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Groups of populations can be achieved by customizing position, color, axis labels, and legend items.
 
-[![](/cookbook/5.0/images/PopulationGroups.png?241029205813)](/cookbook/5.0/images/PopulationGroups.png?241029205813)
+[![](/cookbook/5.0/images/PopulationGroups.png?241031194635)](/cookbook/5.0/images/PopulationGroups.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 

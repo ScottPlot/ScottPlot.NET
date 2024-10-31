@@ -4,7 +4,7 @@ Description: Axis lines will be added to the legend if their Text property is se
 URL: /cookbook/5.0/AxisLines/AxisLineInLegend/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Axis Lines", "Axis Line In Legend"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AxisLines", "/cookbook/5.0/AxisLines/AxisLineInLegend"]
-Date: 2024-10-30
+Date: 2024-10-31
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -21,7 +21,7 @@ ShowEditLink: false
 
 Axis lines will be added to the legend if their Text property is set unless their ExcludeFromLegend property is true.
 
-[![](/cookbook/5.0/images/AxisLineInLegend.png?241029205813)](/cookbook/5.0/images/AxisLineInLegend.png?241029205813)
+[![](/cookbook/5.0/images/AxisLineInLegend.png?241031194635)](/cookbook/5.0/images/AxisLineInLegend.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 

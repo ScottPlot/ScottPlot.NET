@@ -4,7 +4,7 @@ Description: A signal plot may use DateTime units but be sure to setup the respe
 URL: /cookbook/5.0/Signal/SignalDateTime/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Signal Plot", "Signal DateTime"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Signal", "/cookbook/5.0/Signal/SignalDateTime"]
-Date: 2024-10-30
+Date: 2024-10-31
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -21,7 +21,7 @@ ShowEditLink: false
 
 A signal plot may use DateTime units but be sure to setup the respective axis to display using DateTime format.
 
-[![](/cookbook/5.0/images/SignalDateTime.png?241029205813)](/cookbook/5.0/images/SignalDateTime.png?241029205813)
+[![](/cookbook/5.0/images/SignalDateTime.png?241031194635)](/cookbook/5.0/images/SignalDateTime.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 

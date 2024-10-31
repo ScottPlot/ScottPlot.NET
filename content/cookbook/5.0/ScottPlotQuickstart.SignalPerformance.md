@@ -4,7 +4,7 @@ Description: Signal plots are so performant that they can interactively display 
 URL: /cookbook/5.0/ScottPlotQuickstart/SignalPerformance/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Quickstart", "Signal Plot Performance"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/ScottPlotQuickstart", "/cookbook/5.0/ScottPlotQuickstart/SignalPerformance"]
-Date: 2024-10-30
+Date: 2024-10-31
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -21,7 +21,7 @@ ShowEditLink: false
 
 Signal plots are so performant that they can interactively display millions of data points in real time.
 
-[![](/cookbook/5.0/images/SignalPerformance.png?241029205813)](/cookbook/5.0/images/SignalPerformance.png?241029205813)
+[![](/cookbook/5.0/images/SignalPerformance.png?241031194635)](/cookbook/5.0/images/SignalPerformance.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 

@@ -4,7 +4,7 @@ Description: Regions between alternating pairs of major grid lines may be filled
 URL: /cookbook/5.0/CustomizingGrids/GridAlternatingColors/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Customizing Grids", "Grid Fill Colors"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/CustomizingGrids", "/cookbook/5.0/CustomizingGrids/GridAlternatingColors"]
-Date: 2024-10-30
+Date: 2024-10-31
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -21,7 +21,7 @@ ShowEditLink: false
 
 Regions between alternating pairs of major grid lines may be filled with a color specified by the user
 
-[![](/cookbook/5.0/images/GridAlternatingColors.png?241029205813)](/cookbook/5.0/images/GridAlternatingColors.png?241029205813)
+[![](/cookbook/5.0/images/GridAlternatingColors.png?241031194635)](/cookbook/5.0/images/GridAlternatingColors.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 

@@ -4,7 +4,7 @@ Description: The angle and length of spokes and position of circles can be manua
 URL: /cookbook/5.0/Polar/PolarAxisLineCustomizations/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Polar Axis", "Polar Axis Line Customization"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Polar", "/cookbook/5.0/Polar/PolarAxisLineCustomizations"]
-Date: 2024-10-30
+Date: 2024-10-31
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -21,7 +21,7 @@ ShowEditLink: false
 
 The angle and length of spokes and position of circles can be manually defined. Each spoke and circle may also be individually styled.
 
-[![](/cookbook/5.0/images/PolarAxisLineCustomizations.png?241029205813)](/cookbook/5.0/images/PolarAxisLineCustomizations.png?241029205813)
+[![](/cookbook/5.0/images/PolarAxisLineCustomizations.png?241031194635)](/cookbook/5.0/images/PolarAxisLineCustomizations.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 

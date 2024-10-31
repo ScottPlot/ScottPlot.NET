@@ -4,7 +4,7 @@ Description: To improve crispness of straight vertical and horizontal lines, Ant
 URL: /cookbook/5.0/AxisAndTicks/AxisAntiAliasing/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Axis and Ticks", "Axis AntiAliasing"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AxisAndTicks", "/cookbook/5.0/AxisAndTicks/AxisAntiAliasing"]
-Date: 2024-10-30
+Date: 2024-10-31
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -21,7 +21,7 @@ ShowEditLink: false
 
 To improve crispness of straight vertical and horizontal lines, Anti-aliasing is disabled by default for axis frames, tick marks, and grid lines. Anti-aliasing can be enabled for all these objects by calling the AntiAlias helper method.
 
-[![](/cookbook/5.0/images/AxisAntiAliasing.png?241029205813)](/cookbook/5.0/images/AxisAntiAliasing.png?241029205813)
+[![](/cookbook/5.0/images/AxisAntiAliasing.png?241031194635)](/cookbook/5.0/images/AxisAntiAliasing.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 

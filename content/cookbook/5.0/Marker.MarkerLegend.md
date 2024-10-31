@@ -4,7 +4,7 @@ Description: Markers with labels appear in the legend.
 URL: /cookbook/5.0/Marker/MarkerLegend/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Marker", "Marker Legend"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Marker", "/cookbook/5.0/Marker/MarkerLegend"]
-Date: 2024-10-30
+Date: 2024-10-31
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -21,7 +21,7 @@ ShowEditLink: false
 
 Markers with labels appear in the legend.
 
-[![](/cookbook/5.0/images/MarkerLegend.png?241029205813)](/cookbook/5.0/images/MarkerLegend.png?241029205813)
+[![](/cookbook/5.0/images/MarkerLegend.png?241031194635)](/cookbook/5.0/images/MarkerLegend.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 

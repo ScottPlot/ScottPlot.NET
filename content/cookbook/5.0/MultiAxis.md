@@ -4,7 +4,7 @@ Description: Tick mark customization and creation of multi-Axis plots
 URL: /cookbook/5.0/MultiAxis/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Multiple Axes"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/MultiAxis"]
-Date: 2024-10-30
+Date: 2024-10-31
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -23,7 +23,7 @@ ShowEditLink: false
 
 New plots have one axis on every side. Axes on the right and top are invisible by default. To use the right axis, make it visible, then tell a plottable to use it. 
 
-[![](/cookbook/5.0/images/RightAxis.png?241029205813)](/cookbook/5.0/images/RightAxis.png?241029205813)
+[![](/cookbook/5.0/images/RightAxis.png?241031194635)](/cookbook/5.0/images/RightAxis.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -57,7 +57,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Additional axes may be added to plots. Plottables are displayed using the coordinate system of the primary axes by default, but any plottable can be displayed using any X and Y axis.
 
-[![](/cookbook/5.0/images/MultiAxisQuickstart.png?241029205813)](/cookbook/5.0/images/MultiAxisQuickstart.png?241029205813)
+[![](/cookbook/5.0/images/MultiAxisQuickstart.png?241031194635)](/cookbook/5.0/images/MultiAxisQuickstart.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 

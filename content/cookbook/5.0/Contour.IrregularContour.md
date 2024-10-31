@@ -4,7 +4,7 @@ Description: A contour plot can be created from a collection of 3D data points p
 URL: /cookbook/5.0/Contour/IrregularContour/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Contour Plot", "Irregular Contour Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Contour", "/cookbook/5.0/Contour/IrregularContour"]
-Date: 2024-10-30
+Date: 2024-10-31
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -21,7 +21,7 @@ ShowEditLink: false
 
 A contour plot can be created from a collection of 3D data points placed arbitrarily in X/Y plane.
 
-[![](/cookbook/5.0/images/IrregularContour.png?241029205813)](/cookbook/5.0/images/IrregularContour.png?241029205813)
+[![](/cookbook/5.0/images/IrregularContour.png?241031194635)](/cookbook/5.0/images/IrregularContour.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 

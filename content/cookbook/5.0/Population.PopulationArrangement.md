@@ -4,7 +4,7 @@ Description: The user may customize where data is drawn relative to the bar or b
 URL: /cookbook/5.0/Population/PopulationArrangement/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Population Plot", "Population Arrangement"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Population", "/cookbook/5.0/Population/PopulationArrangement"]
-Date: 2024-10-30
+Date: 2024-10-31
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -21,7 +21,7 @@ ShowEditLink: false
 
 The user may customize where data is drawn relative to the bar or box. Centering everything can be used to achieve an effect where data points are drawn over the bar or box.
 
-[![](/cookbook/5.0/images/PopulationArrangement.png?241029205813)](/cookbook/5.0/images/PopulationArrangement.png?241029205813)
+[![](/cookbook/5.0/images/PopulationArrangement.png?241031194635)](/cookbook/5.0/images/PopulationArrangement.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 

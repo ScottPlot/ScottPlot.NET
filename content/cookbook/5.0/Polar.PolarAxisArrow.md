@@ -4,7 +4,7 @@ Description: Arrows can be placed on a polar coordinate system with their base a
 URL: /cookbook/5.0/Polar/PolarAxisArrow/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Polar Axis", "Polar Axis with Arrows"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Polar", "/cookbook/5.0/Polar/PolarAxisArrow"]
-Date: 2024-10-30
+Date: 2024-10-31
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -21,7 +21,7 @@ ShowEditLink: false
 
 Arrows can be placed on a polar coordinate system with their base at the center and their tips used to indicate points in polar space. The Phaser plot type uses this strategy to display collections of similarly styled arrows.
 
-[![](/cookbook/5.0/images/PolarAxisArrow.png?241029205813)](/cookbook/5.0/images/PolarAxisArrow.png?241029205813)
+[![](/cookbook/5.0/images/PolarAxisArrow.png?241031194635)](/cookbook/5.0/images/PolarAxisArrow.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 

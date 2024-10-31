@@ -4,7 +4,7 @@ Description: A probability curve may be placed on a secondary axis to allow coun
 URL: /cookbook/5.0/Histograms/HistogramProbabilityCurveSecondAxis/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Histogram", "Histogram with Second Axis Probability"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Histograms", "/cookbook/5.0/Histograms/HistogramProbabilityCurveSecondAxis"]
-Date: 2024-10-30
+Date: 2024-10-31
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -21,7 +21,7 @@ ShowEditLink: false
 
 A probability curve may be placed on a secondary axis to allow counts to be displayed alongside probabilities with percent units
 
-[![](/cookbook/5.0/images/HistogramProbabilityCurveSecondAxis.png?241029205813)](/cookbook/5.0/images/HistogramProbabilityCurveSecondAxis.png?241029205813)
+[![](/cookbook/5.0/images/HistogramProbabilityCurveSecondAxis.png?241031194635)](/cookbook/5.0/images/HistogramProbabilityCurveSecondAxis.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 

@@ -4,7 +4,7 @@ Description: Users can display data on an inverted axis by setting axis limits s
 URL: /cookbook/5.0/AxisAndTicks/InvertedAxis/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Axis and Ticks", "Inverted Axis"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AxisAndTicks", "/cookbook/5.0/AxisAndTicks/InvertedAxis"]
-Date: 2024-10-30
+Date: 2024-10-31
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -21,7 +21,7 @@ ShowEditLink: false
 
 Users can display data on an inverted axis by setting axis limits setting the lower edge to a value more positive than the upper edge.
 
-[![](/cookbook/5.0/images/InvertedAxis.png?241029205813)](/cookbook/5.0/images/InvertedAxis.png?241029205813)
+[![](/cookbook/5.0/images/InvertedAxis.png?241031194635)](/cookbook/5.0/images/InvertedAxis.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 

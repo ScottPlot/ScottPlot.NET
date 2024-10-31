@@ -4,7 +4,7 @@ Description: Phasor plots display vectors on a radial axis centered at the origi
 URL: /cookbook/5.0/Phasor/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Phasor Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Phasor"]
-Date: 2024-10-30
+Date: 2024-10-31
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -23,7 +23,7 @@ ShowEditLink: false
 
 A phasor line plot contains a collection of polar coordinates which are rendered as arrows.
 
-[![](/cookbook/5.0/images/PhasorQuickstart.png?241029205813)](/cookbook/5.0/images/PhasorQuickstart.png?241029205813)
+[![](/cookbook/5.0/images/PhasorQuickstart.png?241031194635)](/cookbook/5.0/images/PhasorQuickstart.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -62,7 +62,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Text labels may be applied to individual arrows of a phasor plot.
 
-[![](/cookbook/5.0/images/PhasorLabels.png?241029205813)](/cookbook/5.0/images/PhasorLabels.png?241029205813)
+[![](/cookbook/5.0/images/PhasorLabels.png?241031194635)](/cookbook/5.0/images/PhasorLabels.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 

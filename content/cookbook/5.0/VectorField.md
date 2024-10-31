@@ -4,7 +4,7 @@ Description: Vector fields display a collection of vectors rooted at points in c
 URL: /cookbook/5.0/VectorField/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Vector Field"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/VectorField"]
-Date: 2024-10-30
+Date: 2024-10-31
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -23,7 +23,7 @@ ShowEditLink: false
 
 Vectors (representing a magnitude and direction) can be placed at specific points in coordinate space to display as a vector field.
 
-[![](/cookbook/5.0/images/VectorFieldQuickstart.png?241029205813)](/cookbook/5.0/images/VectorFieldQuickstart.png?241029205813)
+[![](/cookbook/5.0/images/VectorFieldQuickstart.png?241031194635)](/cookbook/5.0/images/VectorFieldQuickstart.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -70,7 +70,7 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Vector field arrows can be colored according to their magnitude.
 
-[![](/cookbook/5.0/images/VectorFieldColormap.png?241029205813)](/cookbook/5.0/images/VectorFieldColormap.png?241029205813)
+[![](/cookbook/5.0/images/VectorFieldColormap.png?241031194635)](/cookbook/5.0/images/VectorFieldColormap.png?241031194635)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
