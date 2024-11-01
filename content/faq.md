@@ -20,6 +20,7 @@ date: 2023-12-13
 * [Get the Mouse Position](mouse-position)
 * [Change what left, right, or middle buttons do](buttons)
 * [Add ScottPlot control programmatically (WinForms)](add-winforms-programmatically)
+* [Create plot windows in MDI containers (WinForms)](mdi)
 * [Locking in multi-threaded/async environments](/faq/async/)
 * [How to display live, changing data in a ScottPlot control](live-data)
 * [Animated GIF plots](gif)
