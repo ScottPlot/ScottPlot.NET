@@ -70,6 +70,14 @@
             background-color: #282a3799;
             color: white;
         }
+
+        .new-window-icon {
+            opacity: 0.2;
+        }
+
+        .new-window-icon:hover {
+            opacity: 1;
+        }
     </style>
 </head>
 
@@ -78,10 +86,11 @@
 
         <section class="my-5">
             <div class="p-2">
-                <h1>Inverted Auto-Axis</h1>
-                <div class="d-flex mb-2">
-                    <a class="btn btn-sm btn-primary me-1" href="#">Recipe Permalink</a>
-                    <a class="btn btn-sm btn-success me-1" href="#">Category: Advanced Axis</a>
+                <div class="d-flex align-items-center">
+                    <h1 class="me-2">Inverted Auto-Axis</h1>
+                    <a href="#" target="_blank">
+                        <img src="/images/icons/new-window.svg" style="height: 2rem;" class="new-window-icon">
+                    </a>
                 </div>
                 <p>Customize the logic for the automatic axis scaler to ensure that axis limits for a particular axis
                     are
