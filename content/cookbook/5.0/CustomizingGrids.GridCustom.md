@@ -4,7 +4,7 @@ Description: Grid lines can be customized. Custom grid systems can be created to
 URL: /cookbook/5.0/CustomizingGrids/GridCustom/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Customizing Grids", "Grid Customization"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/CustomizingGrids", "/cookbook/5.0/CustomizingGrids/GridCustom"]
-Date: 2024-10-31
+Date: 2024-11-01
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -12,16 +12,13 @@ ShowEditLink: false
 ---
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/CustomizingGrids/GridCustom'>Grid Customization</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/CustomizingGrids/GridCustom">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/CustomizingGrids">Category: Customizing Grids</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Grid Customization</h1>
 </div>
 
 Grid lines can be customized. Custom grid systems can be created to give developers full control of grid rendering, but the default grid can be interacted with to customize its appearance.
 
-[![](/cookbook/5.0/images/GridCustom.png?241031194635)](/cookbook/5.0/images/GridCustom.png?241031194635)
+[![](/cookbook/5.0/images/GridCustom.png?241101192719)](/cookbook/5.0/images/GridCustom.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -37,6 +34,6 @@ myPlot.Grid.MinorLineWidth = 1;
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
-<hr class='my-5 invisible'>
+<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5.0/CustomizingGrids'>Customizing Grids</a> category</div>
 
 

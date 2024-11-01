@@ -4,7 +4,7 @@ Description: A Population can be created from a collection of values, styled as 
 URL: /cookbook/5.0/Population/PopulationQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Population Plot", "Population Quickstart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Population", "/cookbook/5.0/Population/PopulationQuickstart"]
-Date: 2024-10-31
+Date: 2024-11-01
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -12,16 +12,13 @@ ShowEditLink: false
 ---
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Population/PopulationQuickstart'>Population Quickstart</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Population/PopulationQuickstart">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Population">Category: Population Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Population Quickstart</h1>
 </div>
 
 A Population can be created from a collection of values, styled as desired, and placed anywhere on the plot.
 
-[![](/cookbook/5.0/images/PopulationQuickstart.png?241031194635)](/cookbook/5.0/images/PopulationQuickstart.png?241031194635)
+[![](/cookbook/5.0/images/PopulationQuickstart.png?241101192719)](/cookbook/5.0/images/PopulationQuickstart.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -47,6 +44,6 @@ myPlot.HideGrid();
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
-<hr class='my-5 invisible'>
+<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5.0/Population'>Population Plot</a> category</div>
 
 

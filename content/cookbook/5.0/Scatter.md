@@ -4,7 +4,7 @@ Description: Scatter plots display points at X/Y locations in coordinate space.
 URL: /cookbook/5.0/Scatter/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Scatter Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Scatter"]
-Date: 2024-10-31
+Date: 2024-11-01
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -14,16 +14,16 @@ ShowEditLink: false
 <h1>Scatter Plot</h1>
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Scatter/ScatterQuickstart'>Scatter Plot Quickstart</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Scatter/ScatterQuickstart">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Scatter">Category: Scatter Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Scatter Plot Quickstart</h1>
+<a href='/cookbook/5.0/Scatter/ScatterQuickstart' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Scatter plots can be created from two arrays containing X and Y values.
 
-[![](/cookbook/5.0/images/ScatterQuickstart.png?241031194635)](/cookbook/5.0/images/ScatterQuickstart.png?241031194635)
+[![](/cookbook/5.0/images/ScatterQuickstart.png?241101192719)](/cookbook/5.0/images/ScatterQuickstart.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -39,16 +39,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Scatter/ScatterCoordinates'>Scatter Plot Coordinates</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Scatter/ScatterCoordinates">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Scatter">Category: Scatter Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Scatter Plot Coordinates</h1>
+<a href='/cookbook/5.0/Scatter/ScatterCoordinates' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Scatter plots can be created from a collection of Coordinates.
 
-[![](/cookbook/5.0/images/ScatterCoordinates.png?241031194635)](/cookbook/5.0/images/ScatterCoordinates.png?241031194635)
+[![](/cookbook/5.0/images/ScatterCoordinates.png?241101192719)](/cookbook/5.0/images/ScatterCoordinates.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -70,16 +70,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Scatter/ScatterDataType'>Scatter Plot Data Type</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Scatter/ScatterDataType">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Scatter">Category: Scatter Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Scatter Plot Data Type</h1>
+<a href='/cookbook/5.0/Scatter/ScatterDataType' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Scatter plots can be created from any numeric data type, not just double.
 
-[![](/cookbook/5.0/images/ScatterDataType.png?241031194635)](/cookbook/5.0/images/ScatterDataType.png?241031194635)
+[![](/cookbook/5.0/images/ScatterDataType.png?241101192719)](/cookbook/5.0/images/ScatterDataType.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -95,16 +95,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Scatter/ScatterList'>Scatter Plot of List Data</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Scatter/ScatterList">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Scatter">Category: Scatter Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Scatter Plot of List Data</h1>
+<a href='/cookbook/5.0/Scatter/ScatterList' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Scatter plots can be created from Lists, but be very cafeful not to add or remove items while a render is occurring or you may throw an index exception. See documentation about the Render Lock system for details.
 
-[![](/cookbook/5.0/images/ScatterList.png?241031194635)](/cookbook/5.0/images/ScatterList.png?241031194635)
+[![](/cookbook/5.0/images/ScatterList.png?241101192719)](/cookbook/5.0/images/ScatterList.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -120,16 +120,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Scatter/ScatterLine'>Scatter Plot with Lines Only</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Scatter/ScatterLine">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Scatter">Category: Scatter Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Scatter Plot with Lines Only</h1>
+<a href='/cookbook/5.0/Scatter/ScatterLine' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 The `ScatterLine()` method can be used to create a scatter plot with a line only (marker size is set to 0).
 
-[![](/cookbook/5.0/images/ScatterLine.png?241031194635)](/cookbook/5.0/images/ScatterLine.png?241031194635)
+[![](/cookbook/5.0/images/ScatterLine.png?241101192719)](/cookbook/5.0/images/ScatterLine.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -147,16 +147,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Scatter/ScatterPoints'>Scatter Plot with Points Only</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Scatter/ScatterPoints">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Scatter">Category: Scatter Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Scatter Plot with Points Only</h1>
+<a href='/cookbook/5.0/Scatter/ScatterPoints' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 The `ScatterPoints()` method can be used to create a scatter plot with markers only (line width is set to 0).
 
-[![](/cookbook/5.0/images/ScatterPoints.png?241031194635)](/cookbook/5.0/images/ScatterPoints.png?241031194635)
+[![](/cookbook/5.0/images/ScatterPoints.png?241101192719)](/cookbook/5.0/images/ScatterPoints.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -174,16 +174,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Scatter/ScatterStyling'>Scatter Plot Styling</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Scatter/ScatterStyling">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Scatter">Category: Scatter Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Scatter Plot Styling</h1>
+<a href='/cookbook/5.0/Scatter/ScatterStyling' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Scatter plots can be extensively styled by interacting with the object that is returned after a scatter plot is added. Assign text to a scatter plot's Label property to allow it to appear in the legend.
 
-[![](/cookbook/5.0/images/ScatterStyling.png?241031194635)](/cookbook/5.0/images/ScatterStyling.png?241031194635)
+[![](/cookbook/5.0/images/ScatterStyling.png?241101192719)](/cookbook/5.0/images/ScatterStyling.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -212,16 +212,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Scatter/ScatterLinePatterns'>Scatter Line Patterns</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Scatter/ScatterLinePatterns">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Scatter">Category: Scatter Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Scatter Line Patterns</h1>
+<a href='/cookbook/5.0/Scatter/ScatterLinePatterns' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Several line patterns are available
 
-[![](/cookbook/5.0/images/ScatterLinePatterns.png?241031194635)](/cookbook/5.0/images/ScatterLinePatterns.png?241031194635)
+[![](/cookbook/5.0/images/ScatterLinePatterns.png?241101192719)](/cookbook/5.0/images/ScatterLinePatterns.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -259,16 +259,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Scatter/ScatterGeneric'>Scatter Generic</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Scatter/ScatterGeneric">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Scatter">Category: Scatter Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Scatter Generic</h1>
+<a href='/cookbook/5.0/Scatter/ScatterGeneric' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Scatter plots support generic data types, although double is typically the most performant.
 
-[![](/cookbook/5.0/images/ScatterGeneric.png?241031194635)](/cookbook/5.0/images/ScatterGeneric.png?241031194635)
+[![](/cookbook/5.0/images/ScatterGeneric.png?241101192719)](/cookbook/5.0/images/ScatterGeneric.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -284,16 +284,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Scatter/ScatterDateTime'>Scatter DateTime</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Scatter/ScatterDateTime">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Scatter">Category: Scatter Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Scatter DateTime</h1>
+<a href='/cookbook/5.0/Scatter/ScatterDateTime' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 A scatter plot may use DateTime units but be sure to setup the respective axis to display using DateTime format.
 
-[![](/cookbook/5.0/images/ScatterDateTime.png?241031194635)](/cookbook/5.0/images/ScatterDateTime.png?241031194635)
+[![](/cookbook/5.0/images/ScatterDateTime.png?241101192719)](/cookbook/5.0/images/ScatterDateTime.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -310,16 +310,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Scatter/ScatterStep'>Step Plot</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Scatter/ScatterStep">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Scatter">Category: Scatter Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Step Plot</h1>
+<a href='/cookbook/5.0/Scatter/ScatterStep' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Scatter plots can be created using a step plot display where points are connected with right angles instead of diagnal lines. The direction of the steps can be customized.
 
-[![](/cookbook/5.0/images/ScatterStep.png?241031194635)](/cookbook/5.0/images/ScatterStep.png?241031194635)
+[![](/cookbook/5.0/images/ScatterStep.png?241101192719)](/cookbook/5.0/images/ScatterStep.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -349,16 +349,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Scatter/ScatterWithGaps'>Scatter with Gaps</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Scatter/ScatterWithGaps">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Scatter">Category: Scatter Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Scatter with Gaps</h1>
+<a href='/cookbook/5.0/Scatter/ScatterWithGaps' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 NaN values in a scatter plot's data will appear as gaps in the line.
 
-[![](/cookbook/5.0/images/ScatterWithGaps.png?241031194635)](/cookbook/5.0/images/ScatterWithGaps.png?241031194635)
+[![](/cookbook/5.0/images/ScatterWithGaps.png?241101192719)](/cookbook/5.0/images/ScatterWithGaps.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -387,16 +387,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Scatter/ScatterSmooth'>Scatter Plot with Smooth Lines</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Scatter/ScatterSmooth">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Scatter">Category: Scatter Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Scatter Plot with Smooth Lines</h1>
+<a href='/cookbook/5.0/Scatter/ScatterSmooth' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Scatter plots draw straight lines between points by default, but setting the Smooth property allows the scatter plot to connect points with smooth lines. Lines are smoothed using cubic spline interpolation.
 
-[![](/cookbook/5.0/images/ScatterSmooth.png?241031194635)](/cookbook/5.0/images/ScatterSmooth.png?241031194635)
+[![](/cookbook/5.0/images/ScatterSmooth.png?241101192719)](/cookbook/5.0/images/ScatterSmooth.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -416,16 +416,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Scatter/ScatterSmoothTension'>Smooth Line Tension</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Scatter/ScatterSmoothTension">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Scatter">Category: Scatter Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Smooth Line Tension</h1>
+<a href='/cookbook/5.0/Scatter/ScatterSmoothTension' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Tension of smooth lines can be adjusted for some smoothing strategies. Low tensions lead to 'overshoot' and high tensions produce curveswhich appear more like straight lines.
 
-[![](/cookbook/5.0/images/ScatterSmoothTension.png?241031194635)](/cookbook/5.0/images/ScatterSmoothTension.png?241031194635)
+[![](/cookbook/5.0/images/ScatterSmoothTension.png?241101192719)](/cookbook/5.0/images/ScatterSmoothTension.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -456,16 +456,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Scatter/ScatterQuad'>Smooth Scatter without Overshoot</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Scatter/ScatterQuad">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Scatter">Category: Scatter Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Smooth Scatter without Overshoot</h1>
+<a href='/cookbook/5.0/Scatter/ScatterQuad' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 The quadratic half point path strategy allows scatter plots to be displayed with smooth lines connecting points, but lines are eased in and out of points so they never 'overshoot' the values vertically.
 
-[![](/cookbook/5.0/images/ScatterQuad.png?241031194635)](/cookbook/5.0/images/ScatterQuad.png?241031194635)
+[![](/cookbook/5.0/images/ScatterQuad.png?241101192719)](/cookbook/5.0/images/ScatterQuad.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -485,16 +485,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Scatter/ScatterLimitIndex'>Limiting Display with Render Indexes</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Scatter/ScatterLimitIndex">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Scatter">Category: Scatter Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Limiting Display with Render Indexes</h1>
+<a href='/cookbook/5.0/Scatter/ScatterLimitIndex' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Although a scatter plot may contain a very large amount of data, much of it may be unpopulated. The user can define min and max render indexes, and only values within that range will be displayed when the scatter plot is rendered.
 
-[![](/cookbook/5.0/images/ScatterLimitIndex.png?241031194635)](/cookbook/5.0/images/ScatterLimitIndex.png?241031194635)
+[![](/cookbook/5.0/images/ScatterLimitIndex.png?241101192719)](/cookbook/5.0/images/ScatterLimitIndex.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -512,16 +512,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Scatter/ScatterFill'>Scatter Plot with Fill</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Scatter/ScatterFill">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Scatter">Category: Scatter Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Scatter Plot with Fill</h1>
+<a href='/cookbook/5.0/Scatter/ScatterFill' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 The area beneath a scatter plot can be filled.
 
-[![](/cookbook/5.0/images/ScatterFill.png?241031194635)](/cookbook/5.0/images/ScatterFill.png?241031194635)
+[![](/cookbook/5.0/images/ScatterFill.png?241101192719)](/cookbook/5.0/images/ScatterFill.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -539,16 +539,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Scatter/ScatterFillValue'>Scatter Plot Filled to a Value</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Scatter/ScatterFillValue">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Scatter">Category: Scatter Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Scatter Plot Filled to a Value</h1>
+<a href='/cookbook/5.0/Scatter/ScatterFillValue' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 The base of the fill can be defined.
 
-[![](/cookbook/5.0/images/ScatterFillValue.png?241031194635)](/cookbook/5.0/images/ScatterFillValue.png?241031194635)
+[![](/cookbook/5.0/images/ScatterFillValue.png?241101192719)](/cookbook/5.0/images/ScatterFillValue.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -567,16 +567,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Scatter/ScatterFillAboveBelow'>Scatter Plot Filled Above and Below</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Scatter/ScatterFillAboveBelow">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Scatter">Category: Scatter Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Scatter Plot Filled Above and Below</h1>
+<a href='/cookbook/5.0/Scatter/ScatterFillAboveBelow' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Filled areas above and below the FillY value can be individually customized
 
-[![](/cookbook/5.0/images/ScatterFillAboveBelow.png?241031194635)](/cookbook/5.0/images/ScatterFillAboveBelow.png?241031194635)
+[![](/cookbook/5.0/images/ScatterFillAboveBelow.png?241101192719)](/cookbook/5.0/images/ScatterFillAboveBelow.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -596,16 +596,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Scatter/ScatterFillGradient'>Scatter Plot with Gradient Fill</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Scatter/ScatterFillGradient">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Scatter">Category: Scatter Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Scatter Plot with Gradient Fill</h1>
+<a href='/cookbook/5.0/Scatter/ScatterFillGradient' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 The area beneath a scatter plot can be filled with a custom gradient of colors.
 
-[![](/cookbook/5.0/images/ScatterFillGradient.png?241031194635)](/cookbook/5.0/images/ScatterFillGradient.png?241031194635)
+[![](/cookbook/5.0/images/ScatterFillGradient.png?241101192719)](/cookbook/5.0/images/ScatterFillGradient.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -629,16 +629,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Scatter/ScatterScaleAndOffset'>Scatter Scale and Offset</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Scatter/ScatterScaleAndOffset">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Scatter">Category: Scatter Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Scatter Scale and Offset</h1>
+<a href='/cookbook/5.0/Scatter/ScatterScaleAndOffset' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Scatter plot points can be multiplied by custom X and Y scale factors, or shifted horizontally or vertically using X and Y offset values.
 
-[![](/cookbook/5.0/images/ScatterScaleAndOffset.png?241031194635)](/cookbook/5.0/images/ScatterScaleAndOffset.png?241031194635)
+[![](/cookbook/5.0/images/ScatterScaleAndOffset.png?241101192719)](/cookbook/5.0/images/ScatterScaleAndOffset.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -657,16 +657,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Scatter/StackedFilledLinePlot'>Stacked Filled Line Plot</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Scatter/StackedFilledLinePlot">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Scatter">Category: Scatter Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Stacked Filled Line Plot</h1>
+<a href='/cookbook/5.0/Scatter/StackedFilledLinePlot' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 A stacked filled line plot effect can be achieved by overlapping ScatterLines that fill area.
 
-[![](/cookbook/5.0/images/StackedFilledLinePlot.png?241031194635)](/cookbook/5.0/images/StackedFilledLinePlot.png?241031194635)
+[![](/cookbook/5.0/images/StackedFilledLinePlot.png?241101192719)](/cookbook/5.0/images/StackedFilledLinePlot.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 

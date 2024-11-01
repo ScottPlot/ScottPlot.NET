@@ -4,7 +4,7 @@ Description: A Crosshair combines a horizontal axis line and vertical axis line 
 URL: /cookbook/5.0/Crosshair/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Crosshair"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Crosshair"]
-Date: 2024-10-31
+Date: 2024-11-01
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -14,16 +14,16 @@ ShowEditLink: false
 <h1>Crosshair</h1>
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Crosshair/CrosshairQuickstart'>Crosshair Quickstart</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Crosshair/CrosshairQuickstart">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Crosshair">Category: Crosshair</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Crosshair Quickstart</h1>
+<a href='/cookbook/5.0/Crosshair/CrosshairQuickstart' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 A Crosshair combines a horizontal axis line and vertical axis line to mark a location in coordinate space.
 
-[![](/cookbook/5.0/images/CrosshairQuickstart.png?241031194635)](/cookbook/5.0/images/CrosshairQuickstart.png?241031194635)
+[![](/cookbook/5.0/images/CrosshairQuickstart.png?241101192719)](/cookbook/5.0/images/CrosshairQuickstart.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -39,16 +39,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Crosshair/CrosshairCustomization'>Crosshair Customization</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Crosshair/CrosshairCustomization">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Crosshair">Category: Crosshair</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Crosshair Customization</h1>
+<a href='/cookbook/5.0/Crosshair/CrosshairCustomization' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Crosshairs can be extensively customized.
 
-[![](/cookbook/5.0/images/CrosshairCustomization.png?241031194635)](/cookbook/5.0/images/CrosshairCustomization.png?241031194635)
+[![](/cookbook/5.0/images/CrosshairCustomization.png?241101192719)](/cookbook/5.0/images/CrosshairCustomization.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 

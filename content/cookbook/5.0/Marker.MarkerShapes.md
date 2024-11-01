@@ -4,7 +4,7 @@ Description: Standard marker shapes are provided, but advanced users are able to
 URL: /cookbook/5.0/Marker/MarkerShapes/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Marker", "Marker Shapes"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Marker", "/cookbook/5.0/Marker/MarkerShapes"]
-Date: 2024-10-31
+Date: 2024-11-01
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -12,16 +12,13 @@ ShowEditLink: false
 ---
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Marker/MarkerShapes'>Marker Shapes</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Marker/MarkerShapes">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Marker">Category: Marker</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Marker Shapes</h1>
 </div>
 
 Standard marker shapes are provided, but advanced users are able to create their own as well.
 
-[![](/cookbook/5.0/images/MarkerShapes.png?241031194635)](/cookbook/5.0/images/MarkerShapes.png?241031194635)
+[![](/cookbook/5.0/images/MarkerShapes.png?241101192719)](/cookbook/5.0/images/MarkerShapes.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -58,6 +55,6 @@ myPlot.HideGrid();
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
-<hr class='my-5 invisible'>
+<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5.0/Marker'>Marker</a> category</div>
 
 

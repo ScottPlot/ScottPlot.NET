@@ -4,7 +4,7 @@ Description: New plots have one axis on every side. Axes on the right and top ar
 URL: /cookbook/5.0/MultiAxis/RightAxis/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Multiple Axes", "Right Axis"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/MultiAxis", "/cookbook/5.0/MultiAxis/RightAxis"]
-Date: 2024-10-31
+Date: 2024-11-01
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -12,16 +12,13 @@ ShowEditLink: false
 ---
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/MultiAxis/RightAxis'>Right Axis</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/MultiAxis/RightAxis">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/MultiAxis">Category: Multiple Axes</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Right Axis</h1>
 </div>
 
 New plots have one axis on every side. Axes on the right and top are invisible by default. To use the right axis, make it visible, then tell a plottable to use it. 
 
-[![](/cookbook/5.0/images/RightAxis.png?241031194635)](/cookbook/5.0/images/RightAxis.png?241031194635)
+[![](/cookbook/5.0/images/RightAxis.png?241101192719)](/cookbook/5.0/images/RightAxis.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -42,6 +39,6 @@ myPlot.Axes.Right.Label.ForeColor = sig2.Color;
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
-<hr class='my-5 invisible'>
+<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5.0/MultiAxis'>Multiple Axes</a> category</div>
 
 

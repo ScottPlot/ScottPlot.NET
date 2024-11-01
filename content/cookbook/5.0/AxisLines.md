@@ -4,7 +4,7 @@ Description: Axis lines indicate a position on an axis.
 URL: /cookbook/5.0/AxisLines/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Axis Lines"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AxisLines"]
-Date: 2024-10-31
+Date: 2024-11-01
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -14,16 +14,16 @@ ShowEditLink: false
 <h1>Axis Lines</h1>
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/AxisLines/AxisLineQuickstart'>Axis Lines</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/AxisLines/AxisLineQuickstart">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/AxisLines">Category: Axis Lines</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Axis Lines</h1>
+<a href='/cookbook/5.0/AxisLines/AxisLineQuickstart' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Axis lines are vertical or horizontal lines that span an entire axis.
 
-[![](/cookbook/5.0/images/AxisLineQuickstart.png?241031194635)](/cookbook/5.0/images/AxisLineQuickstart.png?241031194635)
+[![](/cookbook/5.0/images/AxisLineQuickstart.png?241101192719)](/cookbook/5.0/images/AxisLineQuickstart.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -40,16 +40,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/AxisLines/AxisLineLabel'>Axis Line Label</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/AxisLines/AxisLineLabel">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/AxisLines">Category: Axis Lines</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Axis Line Label</h1>
+<a href='/cookbook/5.0/AxisLines/AxisLineLabel' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Axis lines have labels that can be used to display arbitrary text on the axes they are attached to.
 
-[![](/cookbook/5.0/images/AxisLineLabel.png?241031194635)](/cookbook/5.0/images/AxisLineLabel.png?241031194635)
+[![](/cookbook/5.0/images/AxisLineLabel.png?241101192719)](/cookbook/5.0/images/AxisLineLabel.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -85,16 +85,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/AxisLines/AxisLineLabelPositioning'>Axis Line Label Positioning</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/AxisLines/AxisLineLabelPositioning">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/AxisLines">Category: Axis Lines</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Axis Line Label Positioning</h1>
+<a href='/cookbook/5.0/AxisLines/AxisLineLabelPositioning' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Axis line labels can have custom positioning, including rotation and alignment.
 
-[![](/cookbook/5.0/images/AxisLineLabelPositioning.png?241031194635)](/cookbook/5.0/images/AxisLineLabelPositioning.png?241031194635)
+[![](/cookbook/5.0/images/AxisLineLabelPositioning.png?241101192719)](/cookbook/5.0/images/AxisLineLabelPositioning.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -127,16 +127,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/AxisLines/AxisLineStyle'>Axis Line Style</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/AxisLines/AxisLineStyle">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/AxisLines">Category: Axis Lines</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Axis Line Style</h1>
+<a href='/cookbook/5.0/AxisLines/AxisLineStyle' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Axis lines have extensive customization options.
 
-[![](/cookbook/5.0/images/AxisLineStyle.png?241031194635)](/cookbook/5.0/images/AxisLineStyle.png?241031194635)
+[![](/cookbook/5.0/images/AxisLineStyle.png?241101192719)](/cookbook/5.0/images/AxisLineStyle.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -168,16 +168,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/AxisLines/AxisLineInLegend'>Axis Line In Legend</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/AxisLines/AxisLineInLegend">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/AxisLines">Category: Axis Lines</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Axis Line In Legend</h1>
+<a href='/cookbook/5.0/AxisLines/AxisLineInLegend' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Axis lines will be added to the legend if their Text property is set unless their ExcludeFromLegend property is true.
 
-[![](/cookbook/5.0/images/AxisLineInLegend.png?241031194635)](/cookbook/5.0/images/AxisLineInLegend.png?241031194635)
+[![](/cookbook/5.0/images/AxisLineInLegend.png?241101192719)](/cookbook/5.0/images/AxisLineInLegend.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -209,16 +209,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/AxisLines/AxisLineIgnoreLimits'>Ignore When Autoscaling</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/AxisLines/AxisLineIgnoreLimits">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/AxisLines">Category: Axis Lines</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Ignore When Autoscaling</h1>
+<a href='/cookbook/5.0/AxisLines/AxisLineIgnoreLimits' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Calling Plot.Axes.AutoScale() or middle-clicking the plot will set the axis limits to fit the data. By default the position of axis lines and spans are included in automatic axis limit calculations, but a flag can be set to ignore certain plottables when automatically scaling the plot.
 
-[![](/cookbook/5.0/images/AxisLineIgnoreLimits.png?241031194635)](/cookbook/5.0/images/AxisLineIgnoreLimits.png?241031194635)
+[![](/cookbook/5.0/images/AxisLineIgnoreLimits.png?241101192719)](/cookbook/5.0/images/AxisLineIgnoreLimits.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 

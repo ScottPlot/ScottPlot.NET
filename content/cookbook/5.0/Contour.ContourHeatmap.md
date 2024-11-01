@@ -4,7 +4,7 @@ Description: Contour lines may be placed on top of heatmaps.
 URL: /cookbook/5.0/Contour/ContourHeatmap/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Contour Plot", "Contour Lines with Heatmap"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Contour", "/cookbook/5.0/Contour/ContourHeatmap"]
-Date: 2024-10-31
+Date: 2024-11-01
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -12,16 +12,13 @@ ShowEditLink: false
 ---
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Contour/ContourHeatmap'>Contour Lines with Heatmap</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Contour/ContourHeatmap">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Contour">Category: Contour Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Contour Lines with Heatmap</h1>
 </div>
 
 Contour lines may be placed on top of heatmaps.
 
-[![](/cookbook/5.0/images/ContourHeatmap.png?241031194635)](/cookbook/5.0/images/ContourHeatmap.png?241031194635)
+[![](/cookbook/5.0/images/ContourHeatmap.png?241101192719)](/cookbook/5.0/images/ContourHeatmap.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -50,6 +47,6 @@ myPlot.HideGrid();
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
-<hr class='my-5 invisible'>
+<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5.0/Contour'>Contour Plot</a> category</div>
 
 

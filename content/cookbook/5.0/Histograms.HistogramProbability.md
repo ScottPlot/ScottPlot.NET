@@ -4,7 +4,7 @@ Description: Histograms may be displayed as the probability for each value falli
 URL: /cookbook/5.0/Histograms/HistogramProbability/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Histogram", "Histogram of Probabilities"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Histograms", "/cookbook/5.0/Histograms/HistogramProbability"]
-Date: 2024-10-31
+Date: 2024-11-01
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -12,16 +12,13 @@ ShowEditLink: false
 ---
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Histograms/HistogramProbability'>Histogram of Probabilities</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Histograms/HistogramProbability">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Histograms">Category: Histogram</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Histogram of Probabilities</h1>
 </div>
 
 Histograms may be displayed as the probability for each value falling inside a bin
 
-[![](/cookbook/5.0/images/HistogramProbability.png?241031194635)](/cookbook/5.0/images/HistogramProbability.png?241031194635)
+[![](/cookbook/5.0/images/HistogramProbability.png?241101192719)](/cookbook/5.0/images/HistogramProbability.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -46,6 +43,6 @@ myPlot.XLabel("Height (cm)");
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
-<hr class='my-5 invisible'>
+<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5.0/Histograms'>Histogram</a> category</div>
 
 

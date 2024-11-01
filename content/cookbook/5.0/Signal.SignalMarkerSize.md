@@ -4,7 +4,7 @@ Description: Signal plots can have markers displayed at each point which are onl
 URL: /cookbook/5.0/Signal/SignalMarkerSize/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Signal Plot", "Signal Marker Size"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Signal", "/cookbook/5.0/Signal/SignalMarkerSize"]
-Date: 2024-10-31
+Date: 2024-11-01
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -12,16 +12,13 @@ ShowEditLink: false
 ---
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Signal/SignalMarkerSize'>Signal Marker Size</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Signal/SignalMarkerSize">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Signal">Category: Signal Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Signal Marker Size</h1>
 </div>
 
 Signal plots can have markers displayed at each point which are only visible when the plot is zoomed in.
 
-[![](/cookbook/5.0/images/SignalMarkerSize.png?241031194635)](/cookbook/5.0/images/SignalMarkerSize.png?241031194635)
+[![](/cookbook/5.0/images/SignalMarkerSize.png?241101192719)](/cookbook/5.0/images/SignalMarkerSize.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -44,6 +41,6 @@ myPlot.Legend.IsVisible = true;
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
-<hr class='my-5 invisible'>
+<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5.0/Signal'>Signal Plot</a> category</div>
 
 

@@ -4,7 +4,7 @@ Description: Use Multiplot to create figures with multiple subplots
 URL: /cookbook/5.0/MultiplotRecipes/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Multiplot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/MultiplotRecipes"]
-Date: 2024-10-31
+Date: 2024-11-01
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -14,16 +14,16 @@ ShowEditLink: false
 <h1>Multiplot</h1>
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/MultiplotRecipes/MultiplotQuickstart'>Multiplot Quickstart</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/MultiplotRecipes/MultiplotQuickstart">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/MultiplotRecipes">Category: Multiplot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Multiplot Quickstart</h1>
+<a href='/cookbook/5.0/MultiplotRecipes/MultiplotQuickstart' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Use the Multiplot class to create figures with multiple subplots.
 
-[![](/cookbook/5.0/images/MultiplotQuickstart.png?241031194635)](/cookbook/5.0/images/MultiplotQuickstart.png?241031194635)
+[![](/cookbook/5.0/images/MultiplotQuickstart.png?241101192719)](/cookbook/5.0/images/MultiplotQuickstart.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Multiplot multiplot = new();
 
@@ -43,16 +43,16 @@ multiplot.SavePng("demo.png", 400, 400);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/MultiplotRecipes/MultiplotColumns'>Multiplot Columns</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/MultiplotRecipes/MultiplotColumns">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/MultiplotRecipes">Category: Multiplot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Multiplot Columns</h1>
+<a href='/cookbook/5.0/MultiplotRecipes/MultiplotColumns' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 The Multiplot's Layout property may be customized to achieve a column layout.
 
-[![](/cookbook/5.0/images/MultiplotColumns.png?241031194635)](/cookbook/5.0/images/MultiplotColumns.png?241031194635)
+[![](/cookbook/5.0/images/MultiplotColumns.png?241101192719)](/cookbook/5.0/images/MultiplotColumns.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Multiplot multiplot = new();
 
@@ -73,16 +73,16 @@ multiplot.SavePng("demo.png", 400, 400);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/MultiplotRecipes/MultiplotGrid'>Multiplot Grid</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/MultiplotRecipes/MultiplotGrid">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/MultiplotRecipes">Category: Multiplot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Multiplot Grid</h1>
+<a href='/cookbook/5.0/MultiplotRecipes/MultiplotGrid' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 The Multiplot's Layout property may be customized to achieve a grid layout.
 
-[![](/cookbook/5.0/images/MultiplotGrid.png?241031194635)](/cookbook/5.0/images/MultiplotGrid.png?241031194635)
+[![](/cookbook/5.0/images/MultiplotGrid.png?241101192719)](/cookbook/5.0/images/MultiplotGrid.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Multiplot multiplot = new();
 
@@ -103,16 +103,16 @@ multiplot.SavePng("demo.png", 400, 400);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/MultiplotRecipes/MultiplotCustom'>Multiplot Custom Layout</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/MultiplotRecipes/MultiplotCustom">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/MultiplotRecipes">Category: Multiplot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Multiplot Custom Layout</h1>
+<a href='/cookbook/5.0/MultiplotRecipes/MultiplotCustom' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 The Multiplot's Layout property may be configured to achieve a fully custom layout.
 
-[![](/cookbook/5.0/images/MultiplotCustom.png?241031194635)](/cookbook/5.0/images/MultiplotCustom.png?241031194635)
+[![](/cookbook/5.0/images/MultiplotCustom.png?241101192719)](/cookbook/5.0/images/MultiplotCustom.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Multiplot multiplot = new();
 

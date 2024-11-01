@@ -4,7 +4,7 @@ Description: A legend is a key typically displayed in the corner of a plot
 URL: /cookbook/5.0/Legend/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Legends"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Legend"]
-Date: 2024-10-31
+Date: 2024-11-01
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -14,16 +14,16 @@ ShowEditLink: false
 <h1>Legends</h1>
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Legend/LegendQuickstart'>Legend Quickstart</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Legend/LegendQuickstart">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Legend">Category: Legends</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Legend Quickstart</h1>
+<a href='/cookbook/5.0/Legend/LegendQuickstart' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Many plottables have a Label property that can be set so they appear in the legend.
 
-[![](/cookbook/5.0/images/LegendQuickstart.png?241031194635)](/cookbook/5.0/images/LegendQuickstart.png?241031194635)
+[![](/cookbook/5.0/images/LegendQuickstart.png?241101192719)](/cookbook/5.0/images/LegendQuickstart.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -42,16 +42,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Legend/ManualLegend'>Manual Legend Items</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Legend/ManualLegend">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Legend">Category: Legends</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Manual Legend Items</h1>
+<a href='/cookbook/5.0/Legend/ManualLegend' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Legends may be constructed manually.
 
-[![](/cookbook/5.0/images/ManualLegend.png?241031194635)](/cookbook/5.0/images/ManualLegend.png?241031194635)
+[![](/cookbook/5.0/images/ManualLegend.png?241101192719)](/cookbook/5.0/images/ManualLegend.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -87,16 +87,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Legend/LegendStyle'>Legend Customization</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Legend/LegendStyle">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Legend">Category: Legends</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Legend Customization</h1>
+<a href='/cookbook/5.0/Legend/LegendStyle' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Access the Legend object directly for advanced customization options.
 
-[![](/cookbook/5.0/images/LegendStyle.png?241031194635)](/cookbook/5.0/images/LegendStyle.png?241031194635)
+[![](/cookbook/5.0/images/LegendStyle.png?241101192719)](/cookbook/5.0/images/LegendStyle.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -126,16 +126,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Legend/LegendOrientation'>Legend Orientation</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Legend/LegendOrientation">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Legend">Category: Legends</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Legend Orientation</h1>
+<a href='/cookbook/5.0/Legend/LegendOrientation' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Legend items may be arranged horizontally instead of vertically
 
-[![](/cookbook/5.0/images/LegendOrientation.png?241031194635)](/cookbook/5.0/images/LegendOrientation.png?241031194635)
+[![](/cookbook/5.0/images/LegendOrientation.png?241101192719)](/cookbook/5.0/images/LegendOrientation.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -156,16 +156,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Legend/LegendWrapping'>Legend Wrapping</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Legend/LegendWrapping">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Legend">Category: Legends</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Legend Wrapping</h1>
+<a href='/cookbook/5.0/Legend/LegendWrapping' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Legend items may wrap to improve display for a large number of items
 
-[![](/cookbook/5.0/images/LegendWrapping.png?241031194635)](/cookbook/5.0/images/LegendWrapping.png?241031194635)
+[![](/cookbook/5.0/images/LegendWrapping.png?241101192719)](/cookbook/5.0/images/LegendWrapping.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -186,16 +186,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Legend/LegendMultiple'>Multiple Legends</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Legend/LegendMultiple">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Legend">Category: Legends</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Multiple Legends</h1>
+<a href='/cookbook/5.0/Legend/LegendMultiple' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Multiple legends may be added to a plot
 
-[![](/cookbook/5.0/images/LegendMultiple.png?241031194635)](/cookbook/5.0/images/LegendMultiple.png?241031194635)
+[![](/cookbook/5.0/images/LegendMultiple.png?241101192719)](/cookbook/5.0/images/LegendMultiple.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -224,16 +224,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Legend/LegendOutside'>Legend Outside the Plot</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Legend/LegendOutside">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Legend">Category: Legends</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Legend Outside the Plot</h1>
+<a href='/cookbook/5.0/Legend/LegendOutside' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Use the ShowLegend() overload that accepts an Edge to display the legend outside the data area.
 
-[![](/cookbook/5.0/images/LegendOutside.png?241031194635)](/cookbook/5.0/images/LegendOutside.png?241031194635)
+[![](/cookbook/5.0/images/LegendOutside.png?241101192719)](/cookbook/5.0/images/LegendOutside.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -252,16 +252,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Legend/LegendCustomFontAutomaticItems'>Automatic Legend Items Custom Font</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Legend/LegendCustomFontAutomaticItems">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Legend">Category: Legends</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Automatic Legend Items Custom Font</h1>
+<a href='/cookbook/5.0/Legend/LegendCustomFontAutomaticItems' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Use custom fonts from TTF files in the legend.
 
-[![](/cookbook/5.0/images/LegendCustomFontAutomaticItems.png?241031194635)](/cookbook/5.0/images/LegendCustomFontAutomaticItems.png?241031194635)
+[![](/cookbook/5.0/images/LegendCustomFontAutomaticItems.png?241101192719)](/cookbook/5.0/images/LegendCustomFontAutomaticItems.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -286,16 +286,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Legend/LegendCustomFontManualItems'>Manual Legend Items Custom Font</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Legend/LegendCustomFontManualItems">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Legend">Category: Legends</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Manual Legend Items Custom Font</h1>
+<a href='/cookbook/5.0/Legend/LegendCustomFontManualItems' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Use custom fonts from TTF files in the legend (manual legend items).
 
-[![](/cookbook/5.0/images/LegendCustomFontManualItems.png?241031194635)](/cookbook/5.0/images/LegendCustomFontManualItems.png?241031194635)
+[![](/cookbook/5.0/images/LegendCustomFontManualItems.png?241101192719)](/cookbook/5.0/images/LegendCustomFontManualItems.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 

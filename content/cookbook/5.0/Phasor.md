@@ -4,7 +4,7 @@ Description: Phasor plots display vectors on a radial axis centered at the origi
 URL: /cookbook/5.0/Phasor/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Phasor Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Phasor"]
-Date: 2024-10-31
+Date: 2024-11-01
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -14,16 +14,16 @@ ShowEditLink: false
 <h1>Phasor Plot</h1>
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Phasor/PhasorQuickstart'>Phasor Line Plot</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Phasor/PhasorQuickstart">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Phasor">Category: Phasor Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Phasor Line Plot</h1>
+<a href='/cookbook/5.0/Phasor/PhasorQuickstart' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 A phasor line plot contains a collection of polar coordinates which are rendered as arrows.
 
-[![](/cookbook/5.0/images/PhasorQuickstart.png?241031194635)](/cookbook/5.0/images/PhasorQuickstart.png?241031194635)
+[![](/cookbook/5.0/images/PhasorQuickstart.png?241101192719)](/cookbook/5.0/images/PhasorQuickstart.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -53,16 +53,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Phasor/PhasorLabels'>Phasor Plot with Labels</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Phasor/PhasorLabels">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Phasor">Category: Phasor Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Phasor Plot with Labels</h1>
+<a href='/cookbook/5.0/Phasor/PhasorLabels' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Text labels may be applied to individual arrows of a phasor plot.
 
-[![](/cookbook/5.0/images/PhasorLabels.png?241031194635)](/cookbook/5.0/images/PhasorLabels.png?241031194635)
+[![](/cookbook/5.0/images/PhasorLabels.png?241101192719)](/cookbook/5.0/images/PhasorLabels.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 

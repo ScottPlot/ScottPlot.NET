@@ -4,7 +4,7 @@ Description: How to customize data area size and figure padding
 URL: /cookbook/5.0/Layout/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Layout"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Layout"]
-Date: 2024-10-31
+Date: 2024-11-01
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -14,16 +14,16 @@ ShowEditLink: false
 <h1>Layout</h1>
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Layout/Frameless'>Frameless Plot</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Layout/Frameless">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Layout">Category: Layout</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Frameless Plot</h1>
+<a href='/cookbook/5.0/Layout/Frameless' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 How to create a plot containing only the data area and no axes.
 
-[![](/cookbook/5.0/images/Frameless.png?241031194635)](/cookbook/5.0/images/Frameless.png?241031194635)
+[![](/cookbook/5.0/images/Frameless.png?241101192719)](/cookbook/5.0/images/Frameless.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -43,16 +43,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Layout/FixedPadding'>Fixed Padding</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Layout/FixedPadding">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Layout">Category: Layout</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Fixed Padding</h1>
+<a href='/cookbook/5.0/Layout/FixedPadding' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 The plot can be arranged to achieve a fixed amount of padding on each side of the data area
 
-[![](/cookbook/5.0/images/FixedPadding.png?241031194635)](/cookbook/5.0/images/FixedPadding.png?241031194635)
+[![](/cookbook/5.0/images/FixedPadding.png?241101192719)](/cookbook/5.0/images/FixedPadding.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -75,16 +75,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Layout/FixedRectangle'>Fixed Rectangle</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Layout/FixedRectangle">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Layout">Category: Layout</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Fixed Rectangle</h1>
+<a href='/cookbook/5.0/Layout/FixedRectangle' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 The plot can be arranged so the data is drawn inside a fixed rectangle defined in pixel units
 
-[![](/cookbook/5.0/images/FixedRectangle.png?241031194635)](/cookbook/5.0/images/FixedRectangle.png?241031194635)
+[![](/cookbook/5.0/images/FixedRectangle.png?241101192719)](/cookbook/5.0/images/FixedRectangle.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 

@@ -4,7 +4,7 @@ Description: Examples of common customizations for axis labels and ticks
 URL: /cookbook/5.0/AxisAndTicks/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Axis and Ticks"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AxisAndTicks"]
-Date: 2024-10-31
+Date: 2024-11-01
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -14,16 +14,16 @@ ShowEditLink: false
 <h1>Axis and Ticks</h1>
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/AxisAndTicks/SetAxisLimits'>Set Axis Limits</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/AxisAndTicks/SetAxisLimits">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/AxisAndTicks">Category: Axis and Ticks</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Set Axis Limits</h1>
+<a href='/cookbook/5.0/AxisAndTicks/SetAxisLimits' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Axis Limits can be set by the user.
 
-[![](/cookbook/5.0/images/SetAxisLimits.png?241031194635)](/cookbook/5.0/images/SetAxisLimits.png?241031194635)
+[![](/cookbook/5.0/images/SetAxisLimits.png?241101192719)](/cookbook/5.0/images/SetAxisLimits.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -39,16 +39,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/AxisAndTicks/GetAxisLimits'>Read Axis Limits</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/AxisAndTicks/GetAxisLimits">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/AxisAndTicks">Category: Axis and Ticks</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Read Axis Limits</h1>
+<a href='/cookbook/5.0/AxisAndTicks/GetAxisLimits' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Use GetLimits() to obtain the current axis limits.
 
-[![](/cookbook/5.0/images/GetAxisLimits.png?241031194635)](/cookbook/5.0/images/GetAxisLimits.png?241031194635)
+[![](/cookbook/5.0/images/GetAxisLimits.png?241101192719)](/cookbook/5.0/images/GetAxisLimits.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -68,16 +68,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/AxisAndTicks/AutoScale'>AutoScale Axis Limits to Fit Data</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/AxisAndTicks/AutoScale">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/AxisAndTicks">Category: Axis and Ticks</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>AutoScale Axis Limits to Fit Data</h1>
+<a href='/cookbook/5.0/AxisAndTicks/AutoScale' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 The axis limits can be automatically adjusted to fit the data. Optional arguments allow users to define the amount of whitespace around the edges of the data.In older versions of ScottPlot this functionality was achieved by a method named AxisAuto().
 
-[![](/cookbook/5.0/images/AutoScale.png?241031194635)](/cookbook/5.0/images/AutoScale.png?241031194635)
+[![](/cookbook/5.0/images/AutoScale.png?241101192719)](/cookbook/5.0/images/AutoScale.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -97,16 +97,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/AxisAndTicks/InvertedAxis'>Inverted Axis</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/AxisAndTicks/InvertedAxis">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/AxisAndTicks">Category: Axis and Ticks</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Inverted Axis</h1>
+<a href='/cookbook/5.0/AxisAndTicks/InvertedAxis' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Users can display data on an inverted axis by setting axis limits setting the lower edge to a value more positive than the upper edge.
 
-[![](/cookbook/5.0/images/InvertedAxis.png?241031194635)](/cookbook/5.0/images/InvertedAxis.png?241031194635)
+[![](/cookbook/5.0/images/InvertedAxis.png?241101192719)](/cookbook/5.0/images/InvertedAxis.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -122,16 +122,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/AxisAndTicks/InvertedAutoAxis'>Inverted Auto-Axis</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/AxisAndTicks/InvertedAutoAxis">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/AxisAndTicks">Category: Axis and Ticks</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Inverted Auto-Axis</h1>
+<a href='/cookbook/5.0/AxisAndTicks/InvertedAutoAxis' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Customize the logic for the automatic axis scaler to ensure that axis limits for a particular axis are always inverted when autoscaled.
 
-[![](/cookbook/5.0/images/InvertedAutoAxis.png?241031194635)](/cookbook/5.0/images/InvertedAutoAxis.png?241031194635)
+[![](/cookbook/5.0/images/InvertedAutoAxis.png?241101192719)](/cookbook/5.0/images/InvertedAutoAxis.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -147,16 +147,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/AxisAndTicks/SquareAxisUnits'>Square Axis Units</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/AxisAndTicks/SquareAxisUnits">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/AxisAndTicks">Category: Axis and Ticks</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Square Axis Units</h1>
+<a href='/cookbook/5.0/AxisAndTicks/SquareAxisUnits' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Axis rules can be put in place which force the vertical scale (units per pixel) to match the horizontal scale so circles always appear as circles and not stretched ellipses.
 
-[![](/cookbook/5.0/images/SquareAxisUnits.png?241031194635)](/cookbook/5.0/images/SquareAxisUnits.png?241031194635)
+[![](/cookbook/5.0/images/SquareAxisUnits.png?241101192719)](/cookbook/5.0/images/SquareAxisUnits.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -175,16 +175,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/AxisAndTicks/ExperimentalAxisWithSubtitle'>Axis with Subtitle</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/AxisAndTicks/ExperimentalAxisWithSubtitle">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/AxisAndTicks">Category: Axis and Ticks</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Axis with Subtitle</h1>
+<a href='/cookbook/5.0/AxisAndTicks/ExperimentalAxisWithSubtitle' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Users can create their own fully custom axes to replace the default ones (as demonstrated in the demo app). Some experimental axes are available for users who may be interested in alternative axis display styles.
 
-[![](/cookbook/5.0/images/ExperimentalAxisWithSubtitle.png?241031194635)](/cookbook/5.0/images/ExperimentalAxisWithSubtitle.png?241031194635)
+[![](/cookbook/5.0/images/ExperimentalAxisWithSubtitle.png?241101192719)](/cookbook/5.0/images/ExperimentalAxisWithSubtitle.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -210,16 +210,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/AxisAndTicks/AxisAntiAliasing'>Axis AntiAliasing</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/AxisAndTicks/AxisAntiAliasing">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/AxisAndTicks">Category: Axis and Ticks</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Axis AntiAliasing</h1>
+<a href='/cookbook/5.0/AxisAndTicks/AxisAntiAliasing' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 To improve crispness of straight vertical and horizontal lines, Anti-aliasing is disabled by default for axis frames, tick marks, and grid lines. Anti-aliasing can be enabled for all these objects by calling the AntiAlias helper method.
 
-[![](/cookbook/5.0/images/AxisAntiAliasing.png?241031194635)](/cookbook/5.0/images/AxisAntiAliasing.png?241031194635)
+[![](/cookbook/5.0/images/AxisAntiAliasing.png?241101192719)](/cookbook/5.0/images/AxisAntiAliasing.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -236,16 +236,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/AxisAndTicks/HideAxis'>Hide Axis and Turn frame lines on/off</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/AxisAndTicks/HideAxis">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/AxisAndTicks">Category: Axis and Ticks</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Hide Axis and Turn frame lines on/off</h1>
+<a href='/cookbook/5.0/AxisAndTicks/HideAxis' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Demonstrates how to hide axis ticks and turn frame lines on and off.
 
-[![](/cookbook/5.0/images/HideAxis.png?241031194635)](/cookbook/5.0/images/HideAxis.png?241031194635)
+[![](/cookbook/5.0/images/HideAxis.png?241101192719)](/cookbook/5.0/images/HideAxis.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -269,16 +269,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/AxisAndTicks/DateTimeAxisQuickstart'>DateTime Axis Quickstart</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/AxisAndTicks/DateTimeAxisQuickstart">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/AxisAndTicks">Category: Axis and Ticks</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>DateTime Axis Quickstart</h1>
+<a href='/cookbook/5.0/AxisAndTicks/DateTimeAxisQuickstart' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Axis tick labels can be displayed using a time format.
 
-[![](/cookbook/5.0/images/DateTimeAxisQuickstart.png?241031194635)](/cookbook/5.0/images/DateTimeAxisQuickstart.png?241031194635)
+[![](/cookbook/5.0/images/DateTimeAxisQuickstart.png?241101192719)](/cookbook/5.0/images/DateTimeAxisQuickstart.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -297,16 +297,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/AxisAndTicks/DateTimeAxisMixed'>DateTime Axis Values</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/AxisAndTicks/DateTimeAxisMixed">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/AxisAndTicks">Category: Axis and Ticks</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>DateTime Axis Values</h1>
+<a href='/cookbook/5.0/AxisAndTicks/DateTimeAxisMixed' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 DateTime axes are achieved using Microsoft's DateTime.ToOADate() and DateTime.FromOADate() methods to convert between dates and numeric values. Advanced users who wish to display data on DateTime axes may prefer to work with collections of doubles rather than collections of DateTimes.
 
-[![](/cookbook/5.0/images/DateTimeAxisMixed.png?241031194635)](/cookbook/5.0/images/DateTimeAxisMixed.png?241031194635)
+[![](/cookbook/5.0/images/DateTimeAxisMixed.png?241101192719)](/cookbook/5.0/images/DateTimeAxisMixed.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -344,16 +344,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/AxisAndTicks/DateTimeAxisCustomFormatter'>Custom DateTime Label Format</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/AxisAndTicks/DateTimeAxisCustomFormatter">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/AxisAndTicks">Category: Axis and Ticks</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Custom DateTime Label Format</h1>
+<a href='/cookbook/5.0/AxisAndTicks/DateTimeAxisCustomFormatter' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Users can provide their own logic for customizing DateTime tick labels
 
-[![](/cookbook/5.0/images/DateTimeAxisCustomFormatter.png?241031194635)](/cookbook/5.0/images/DateTimeAxisCustomFormatter.png?241031194635)
+[![](/cookbook/5.0/images/DateTimeAxisCustomFormatter.png?241101192719)](/cookbook/5.0/images/DateTimeAxisCustomFormatter.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -382,16 +382,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/AxisAndTicks/DateTimeAxisFixedIntervalTicks'>DateTime Axis Fixed Interval Ticks</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/AxisAndTicks/DateTimeAxisFixedIntervalTicks">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/AxisAndTicks">Category: Axis and Ticks</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>DateTime Axis Fixed Interval Ticks</h1>
+<a href='/cookbook/5.0/AxisAndTicks/DateTimeAxisFixedIntervalTicks' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Make ticks render at fixed intervals. Optionally make the ticks render from a custom start date, rather than using the start date of the plot (e.g. to draw ticks on the hour every hour, or on the first of every month, etc).
 
-[![](/cookbook/5.0/images/DateTimeAxisFixedIntervalTicks.png?241031194635)](/cookbook/5.0/images/DateTimeAxisFixedIntervalTicks.png?241031194635)
+[![](/cookbook/5.0/images/DateTimeAxisFixedIntervalTicks.png?241101192719)](/cookbook/5.0/images/DateTimeAxisFixedIntervalTicks.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 

@@ -4,7 +4,7 @@ Description: Even if a signal plot references a large array of data, rendering c
 URL: /cookbook/5.0/Signal/SignalRenderIndexes/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Signal Plot", "Partial Signal Rendering"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Signal", "/cookbook/5.0/Signal/SignalRenderIndexes"]
-Date: 2024-10-31
+Date: 2024-11-01
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -12,16 +12,13 @@ ShowEditLink: false
 ---
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Signal/SignalRenderIndexes'>Partial Signal Rendering</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Signal/SignalRenderIndexes">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Signal">Category: Signal Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Partial Signal Rendering</h1>
 </div>
 
 Even if a signal plot references a large array of data, rendering can be limited to a range of values. If set,only the range of data between the minimum and maximum render indexes will be displayed.
 
-[![](/cookbook/5.0/images/SignalRenderIndexes.png?241031194635)](/cookbook/5.0/images/SignalRenderIndexes.png?241031194635)
+[![](/cookbook/5.0/images/SignalRenderIndexes.png?241101192719)](/cookbook/5.0/images/SignalRenderIndexes.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -53,6 +50,6 @@ myPlot.Axes.Margins(top: .5);
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
-<hr class='my-5 invisible'>
+<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5.0/Signal'>Signal Plot</a> category</div>
 
 

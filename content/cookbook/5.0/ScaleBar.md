@@ -4,7 +4,7 @@ Description: Scalebars display a horizontal and/or vertical range using a line s
 URL: /cookbook/5.0/ScaleBar/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Scale Bar"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/ScaleBar"]
-Date: 2024-10-31
+Date: 2024-11-01
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -14,16 +14,16 @@ ShowEditLink: false
 <h1>Scale Bar</h1>
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/ScaleBar/ScaleBarQuickstart'>ScaleBar Quickstart</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/ScaleBar/ScaleBarQuickstart">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/ScaleBar">Category: Scale Bar</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>ScaleBar Quickstart</h1>
+<a href='/cookbook/5.0/ScaleBar/ScaleBarQuickstart' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 A ScaleBar can be added to a plot to convey scale information allowing axis frames, ticks, and labels to be hidden.
 
-[![](/cookbook/5.0/images/ScaleBarQuickstart.png?241031194635)](/cookbook/5.0/images/ScaleBarQuickstart.png?241031194635)
+[![](/cookbook/5.0/images/ScaleBarQuickstart.png?241101192719)](/cookbook/5.0/images/ScaleBarQuickstart.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -45,16 +45,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/ScaleBar/ScaleBarLabels'>ScaleBar Labels</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/ScaleBar/ScaleBarLabels">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/ScaleBar">Category: Scale Bar</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>ScaleBar Labels</h1>
+<a href='/cookbook/5.0/ScaleBar/ScaleBarLabels' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Text may be added to each dimension of an L shaped scalebar
 
-[![](/cookbook/5.0/images/ScaleBarLabels.png?241031194635)](/cookbook/5.0/images/ScaleBarLabels.png?241031194635)
+[![](/cookbook/5.0/images/ScaleBarLabels.png?241101192719)](/cookbook/5.0/images/ScaleBarLabels.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -78,16 +78,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/ScaleBar/ScaleBarStyling'>ScaleBar Styling</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/ScaleBar/ScaleBarStyling">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/ScaleBar">Category: Scale Bar</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>ScaleBar Styling</h1>
+<a href='/cookbook/5.0/ScaleBar/ScaleBarStyling' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 The ScaleBar has many properties which may be customized 
 
-[![](/cookbook/5.0/images/ScaleBarStyling.png?241031194635)](/cookbook/5.0/images/ScaleBarStyling.png?241031194635)
+[![](/cookbook/5.0/images/ScaleBarStyling.png?241101192719)](/cookbook/5.0/images/ScaleBarStyling.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -111,16 +111,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/ScaleBar/ScaleBarSingleDimension'>ScaleBar Single Dimension</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/ScaleBar/ScaleBarSingleDimension">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/ScaleBar">Category: Scale Bar</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>ScaleBar Single Dimension</h1>
+<a href='/cookbook/5.0/ScaleBar/ScaleBarSingleDimension' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Set Width or Height to 0 to cause the ScaleBar to use a single axis only
 
-[![](/cookbook/5.0/images/ScaleBarSingleDimension.png?241031194635)](/cookbook/5.0/images/ScaleBarSingleDimension.png?241031194635)
+[![](/cookbook/5.0/images/ScaleBarSingleDimension.png?241101192719)](/cookbook/5.0/images/ScaleBarSingleDimension.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 

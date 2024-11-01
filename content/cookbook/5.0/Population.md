@@ -4,7 +4,7 @@ Description: Population plots display collections of individual values.
 URL: /cookbook/5.0/Population/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Population Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Population"]
-Date: 2024-10-31
+Date: 2024-11-01
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -14,16 +14,16 @@ ShowEditLink: false
 <h1>Population Plot</h1>
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Population/PopulationQuickstart'>Population Quickstart</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Population/PopulationQuickstart">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Population">Category: Population Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Population Quickstart</h1>
+<a href='/cookbook/5.0/Population/PopulationQuickstart' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 A Population can be created from a collection of values, styled as desired, and placed anywhere on the plot.
 
-[![](/cookbook/5.0/images/PopulationQuickstart.png?241031194635)](/cookbook/5.0/images/PopulationQuickstart.png?241031194635)
+[![](/cookbook/5.0/images/PopulationQuickstart.png?241101192719)](/cookbook/5.0/images/PopulationQuickstart.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -53,16 +53,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Population/PopulationBox'>Population Box Plot</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Population/PopulationBox">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Population">Category: Population Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Population Box Plot</h1>
+<a href='/cookbook/5.0/Population/PopulationBox' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Population statistics can be displayed using box plots.
 
-[![](/cookbook/5.0/images/PopulationBox.png?241031194635)](/cookbook/5.0/images/PopulationBox.png?241031194635)
+[![](/cookbook/5.0/images/PopulationBox.png?241101192719)](/cookbook/5.0/images/PopulationBox.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -88,16 +88,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Population/PopulationBoxValues'>Population Box Values</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Population/PopulationBoxValues">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Population">Category: Population Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Population Box Values</h1>
+<a href='/cookbook/5.0/Population/PopulationBoxValues' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 The values displayed by the box midline, body, and whisker can be configured by assigning a static function to the box value configuration property.
 
-[![](/cookbook/5.0/images/PopulationBoxValues.png?241031194635)](/cookbook/5.0/images/PopulationBoxValues.png?241031194635)
+[![](/cookbook/5.0/images/PopulationBoxValues.png?241101192719)](/cookbook/5.0/images/PopulationBoxValues.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -121,16 +121,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Population/PopulationBarStyle'>Population Bar Styling</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Population/PopulationBarStyle">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Population">Category: Population Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Population Bar Styling</h1>
+<a href='/cookbook/5.0/Population/PopulationBarStyle' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 The bar symbol in population plots can be extensively styled.
 
-[![](/cookbook/5.0/images/PopulationBarStyle.png?241031194635)](/cookbook/5.0/images/PopulationBarStyle.png?241031194635)
+[![](/cookbook/5.0/images/PopulationBarStyle.png?241101192719)](/cookbook/5.0/images/PopulationBarStyle.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -155,16 +155,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Population/PopulationBoxStyle'>Population Box Styling</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Population/PopulationBoxStyle">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Population">Category: Population Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Population Box Styling</h1>
+<a href='/cookbook/5.0/Population/PopulationBoxStyle' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 The box symbol in population plots can be extensively styled.
 
-[![](/cookbook/5.0/images/PopulationBoxStyle.png?241031194635)](/cookbook/5.0/images/PopulationBoxStyle.png?241031194635)
+[![](/cookbook/5.0/images/PopulationBoxStyle.png?241101192719)](/cookbook/5.0/images/PopulationBoxStyle.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -188,16 +188,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Population/PopulationMarkerStyle'>Population Marker Styling</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Population/PopulationMarkerStyle">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Population">Category: Population Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Population Marker Styling</h1>
+<a href='/cookbook/5.0/Population/PopulationMarkerStyle' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 The data markers in population plots can be extensively styled.
 
-[![](/cookbook/5.0/images/PopulationMarkerStyle.png?241031194635)](/cookbook/5.0/images/PopulationMarkerStyle.png?241031194635)
+[![](/cookbook/5.0/images/PopulationMarkerStyle.png?241101192719)](/cookbook/5.0/images/PopulationMarkerStyle.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -222,16 +222,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Population/PopulationArrangement'>Population Arrangement</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Population/PopulationArrangement">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Population">Category: Population Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Population Arrangement</h1>
+<a href='/cookbook/5.0/Population/PopulationArrangement' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 The user may customize where data is drawn relative to the bar or box. Centering everything can be used to achieve an effect where data points are drawn over the bar or box.
 
-[![](/cookbook/5.0/images/PopulationArrangement.png?241031194635)](/cookbook/5.0/images/PopulationArrangement.png?241031194635)
+[![](/cookbook/5.0/images/PopulationArrangement.png?241101192719)](/cookbook/5.0/images/PopulationArrangement.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -260,16 +260,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Population/PopulationGroups'>Population Groups</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Population/PopulationGroups">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Population">Category: Population Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Population Groups</h1>
+<a href='/cookbook/5.0/Population/PopulationGroups' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Groups of populations can be achieved by customizing position, color, axis labels, and legend items.
 
-[![](/cookbook/5.0/images/PopulationGroups.png?241031194635)](/cookbook/5.0/images/PopulationGroups.png?241031194635)
+[![](/cookbook/5.0/images/PopulationGroups.png?241101192719)](/cookbook/5.0/images/PopulationGroups.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 

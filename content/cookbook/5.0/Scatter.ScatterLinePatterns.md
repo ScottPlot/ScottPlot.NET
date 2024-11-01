@@ -4,7 +4,7 @@ Description: Several line patterns are available
 URL: /cookbook/5.0/Scatter/ScatterLinePatterns/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Scatter Plot", "Scatter Line Patterns"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Scatter", "/cookbook/5.0/Scatter/ScatterLinePatterns"]
-Date: 2024-10-31
+Date: 2024-11-01
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -12,16 +12,13 @@ ShowEditLink: false
 ---
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Scatter/ScatterLinePatterns'>Scatter Line Patterns</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Scatter/ScatterLinePatterns">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Scatter">Category: Scatter Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Scatter Line Patterns</h1>
 </div>
 
 Several line patterns are available
 
-[![](/cookbook/5.0/images/ScatterLinePatterns.png?241031194635)](/cookbook/5.0/images/ScatterLinePatterns.png?241031194635)
+[![](/cookbook/5.0/images/ScatterLinePatterns.png?241101192719)](/cookbook/5.0/images/ScatterLinePatterns.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -55,6 +52,6 @@ myPlot.Axes.Margins(.05, .5, .05, .05);
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
-<hr class='my-5 invisible'>
+<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5.0/Scatter'>Scatter Plot</a> category</div>
 
 

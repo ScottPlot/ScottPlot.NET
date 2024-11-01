@@ -4,7 +4,7 @@ Description: Line plots can be placed on the plot in coordinate space using a St
 URL: /cookbook/5.0/LinePlot/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Line Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/LinePlot"]
-Date: 2024-10-31
+Date: 2024-11-01
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -14,16 +14,16 @@ ShowEditLink: false
 <h1>Line Plot</h1>
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/LinePlot/LineQuickStart'>Line Plot Quickstart</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/LinePlot/LineQuickStart">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/LinePlot">Category: Line Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Line Plot Quickstart</h1>
+<a href='/cookbook/5.0/LinePlot/LineQuickStart' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Line plots are placed with a start and end location in coordinate space. Their styles can be customized.
 
-[![](/cookbook/5.0/images/LineQuickStart.png?241031194635)](/cookbook/5.0/images/LineQuickStart.png?241031194635)
+[![](/cookbook/5.0/images/LineQuickStart.png?241101192719)](/cookbook/5.0/images/LineQuickStart.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -38,16 +38,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/LinePlot/LinePlotStyles'>Line Plot Shapes</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/LinePlot/LinePlotStyles">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/LinePlot">Category: Line Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Line Plot Shapes</h1>
+<a href='/cookbook/5.0/LinePlot/LinePlotStyles' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Line plots can be styled using a LineStyle.
 
-[![](/cookbook/5.0/images/LinePlotStyles.png?241031194635)](/cookbook/5.0/images/LinePlotStyles.png?241031194635)
+[![](/cookbook/5.0/images/LinePlotStyles.png?241101192719)](/cookbook/5.0/images/LinePlotStyles.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -78,16 +78,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/LinePlot/LinePlotLegendQWER'>Line Plot Legend</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/LinePlot/LinePlotLegendQWER">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/LinePlot">Category: Line Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Line Plot Legend</h1>
+<a href='/cookbook/5.0/LinePlot/LinePlotLegendQWER' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Line plots with labels appear in the legend.
 
-[![](/cookbook/5.0/images/LinePlotLegendQWER.png?241031194635)](/cookbook/5.0/images/LinePlotLegendQWER.png?241031194635)
+[![](/cookbook/5.0/images/LinePlotLegendQWER.png?241101192719)](/cookbook/5.0/images/LinePlotLegendQWER.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 

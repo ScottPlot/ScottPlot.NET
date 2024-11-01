@@ -4,7 +4,7 @@ Description: Markers can be placed on the plot in coordinate space.
 URL: /cookbook/5.0/Marker/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Marker"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Marker"]
-Date: 2024-10-31
+Date: 2024-11-01
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -14,16 +14,16 @@ ShowEditLink: false
 <h1>Marker</h1>
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Marker/MarkerQuickstart'>Marker Quickstart</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Marker/MarkerQuickstart">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Marker">Category: Marker</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Marker Quickstart</h1>
+<a href='/cookbook/5.0/Marker/MarkerQuickstart' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Markers are symbols placed at a location in coordinate space. Their shape, size, and color can be customized.
 
-[![](/cookbook/5.0/images/MarkerQuickstart.png?241031194635)](/cookbook/5.0/images/MarkerQuickstart.png?241031194635)
+[![](/cookbook/5.0/images/MarkerQuickstart.png?241101192719)](/cookbook/5.0/images/MarkerQuickstart.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -41,16 +41,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Marker/MarkerShapes'>Marker Shapes</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Marker/MarkerShapes">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Marker">Category: Marker</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Marker Shapes</h1>
+<a href='/cookbook/5.0/Marker/MarkerShapes' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Standard marker shapes are provided, but advanced users are able to create their own as well.
 
-[![](/cookbook/5.0/images/MarkerShapes.png?241031194635)](/cookbook/5.0/images/MarkerShapes.png?241031194635)
+[![](/cookbook/5.0/images/MarkerShapes.png?241101192719)](/cookbook/5.0/images/MarkerShapes.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -91,16 +91,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Marker/MarkerLegend'>Marker Legend</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Marker/MarkerLegend">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Marker">Category: Marker</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Marker Legend</h1>
+<a href='/cookbook/5.0/Marker/MarkerLegend' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Markers with labels appear in the legend.
 
-[![](/cookbook/5.0/images/MarkerLegend.png?241031194635)](/cookbook/5.0/images/MarkerLegend.png?241031194635)
+[![](/cookbook/5.0/images/MarkerLegend.png?241101192719)](/cookbook/5.0/images/MarkerLegend.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -121,16 +121,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Marker/MarkersPlot'>Many Markers</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Marker/MarkersPlot">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Marker">Category: Marker</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Many Markers</h1>
+<a href='/cookbook/5.0/Marker/MarkersPlot' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Collections of markers that are all styled the same may be added to the plot
 
-[![](/cookbook/5.0/images/MarkersPlot.png?241031194635)](/cookbook/5.0/images/MarkersPlot.png?241031194635)
+[![](/cookbook/5.0/images/MarkersPlot.png?241101192719)](/cookbook/5.0/images/MarkersPlot.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -148,16 +148,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Marker/MarkersColormap'>Marker with Colormap</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Marker/MarkersColormap">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Marker">Category: Marker</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Marker with Colormap</h1>
+<a href='/cookbook/5.0/Marker/MarkersColormap' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 A colormap may be used to style a collection of markers
 
-[![](/cookbook/5.0/images/MarkersColormap.png?241031194635)](/cookbook/5.0/images/MarkersColormap.png?241031194635)
+[![](/cookbook/5.0/images/MarkersColormap.png?241101192719)](/cookbook/5.0/images/MarkersColormap.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -174,16 +174,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Marker/ImageMarkerQuickstart'>Image Marker</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Marker/ImageMarkerQuickstart">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Marker">Category: Marker</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Image Marker</h1>
+<a href='/cookbook/5.0/Marker/ImageMarkerQuickstart' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 An ImageMarker can be placed on the plot to display an image centered at a location in coordinate space.
 
-[![](/cookbook/5.0/images/ImageMarkerQuickstart.png?241031194635)](/cookbook/5.0/images/ImageMarkerQuickstart.png?241031194635)
+[![](/cookbook/5.0/images/ImageMarkerQuickstart.png?241101192719)](/cookbook/5.0/images/ImageMarkerQuickstart.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 

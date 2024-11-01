@@ -4,7 +4,7 @@ Description: A contour plot is a graphical representation that shows the three-d
 URL: /cookbook/5.0/Contour/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Contour Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Contour"]
-Date: 2024-10-31
+Date: 2024-11-01
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -14,16 +14,16 @@ ShowEditLink: false
 <h1>Contour Plot</h1>
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Contour/ContourGrid'>Rectangular Contour Plot</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Contour/ContourGrid">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Contour">Category: Contour Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Rectangular Contour Plot</h1>
+<a href='/cookbook/5.0/Contour/ContourGrid' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 A rectangular contour plot with evenly spaced points can be created from a 2D array of 3D points.
 
-[![](/cookbook/5.0/images/ContourGrid.png?241031194635)](/cookbook/5.0/images/ContourGrid.png?241031194635)
+[![](/cookbook/5.0/images/ContourGrid.png?241101192719)](/cookbook/5.0/images/ContourGrid.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -51,16 +51,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Contour/IrregularContour'>Irregular Contour Plot</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Contour/IrregularContour">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Contour">Category: Contour Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Irregular Contour Plot</h1>
+<a href='/cookbook/5.0/Contour/IrregularContour' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 A contour plot can be created from a collection of 3D data points placed arbitrarily in X/Y plane.
 
-[![](/cookbook/5.0/images/IrregularContour.png?241031194635)](/cookbook/5.0/images/IrregularContour.png?241031194635)
+[![](/cookbook/5.0/images/IrregularContour.png?241101192719)](/cookbook/5.0/images/IrregularContour.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -101,16 +101,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Contour/ContourHeatmap'>Contour Lines with Heatmap</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Contour/ContourHeatmap">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Contour">Category: Contour Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Contour Lines with Heatmap</h1>
+<a href='/cookbook/5.0/Contour/ContourHeatmap' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Contour lines may be placed on top of heatmaps.
 
-[![](/cookbook/5.0/images/ContourHeatmap.png?241031194635)](/cookbook/5.0/images/ContourHeatmap.png?241031194635)
+[![](/cookbook/5.0/images/ContourHeatmap.png?241101192719)](/cookbook/5.0/images/ContourHeatmap.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -143,16 +143,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Contour/ContourColormap'>Contour Lines with Colormap</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Contour/ContourColormap">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Contour">Category: Contour Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Contour Lines with Colormap</h1>
+<a href='/cookbook/5.0/Contour/ContourColormap' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 If a colormap is provided it will be used to color each line in the colormap according to its value.
 
-[![](/cookbook/5.0/images/ContourColormap.png?241031194635)](/cookbook/5.0/images/ContourColormap.png?241031194635)
+[![](/cookbook/5.0/images/ContourColormap.png?241101192719)](/cookbook/5.0/images/ContourColormap.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 

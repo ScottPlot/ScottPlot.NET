@@ -4,7 +4,7 @@ Description: Collections of radar values (radar series) can be labeled so they a
 URL: /cookbook/5.0/Radar/RadarLegend/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Radar Plot", "Radar Legend"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Radar", "/cookbook/5.0/Radar/RadarLegend"]
-Date: 2024-10-31
+Date: 2024-11-01
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -12,16 +12,13 @@ ShowEditLink: false
 ---
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Radar/RadarLegend'>Radar Legend</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Radar/RadarLegend">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Radar">Category: Radar Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Radar Legend</h1>
 </div>
 
 Collections of radar values (radar series) can be labeled so they appear in the legend
 
-[![](/cookbook/5.0/images/RadarLegend.png?241031194635)](/cookbook/5.0/images/RadarLegend.png?241031194635)
+[![](/cookbook/5.0/images/RadarLegend.png?241101192719)](/cookbook/5.0/images/RadarLegend.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -37,6 +34,6 @@ radar.Series[1].LegendText = "Fernando";
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
-<hr class='my-5 invisible'>
+<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5.0/Radar'>Radar Plot</a> category</div>
 
 

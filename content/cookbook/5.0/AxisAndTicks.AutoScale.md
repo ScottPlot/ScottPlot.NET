@@ -4,7 +4,7 @@ Description: The axis limits can be automatically adjusted to fit the data. Opti
 URL: /cookbook/5.0/AxisAndTicks/AutoScale/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Axis and Ticks", "AutoScale Axis Limits to Fit Data"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AxisAndTicks", "/cookbook/5.0/AxisAndTicks/AutoScale"]
-Date: 2024-10-31
+Date: 2024-11-01
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -12,16 +12,13 @@ ShowEditLink: false
 ---
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/AxisAndTicks/AutoScale'>AutoScale Axis Limits to Fit Data</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/AxisAndTicks/AutoScale">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/AxisAndTicks">Category: Axis and Ticks</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>AutoScale Axis Limits to Fit Data</h1>
 </div>
 
 The axis limits can be automatically adjusted to fit the data. Optional arguments allow users to define the amount of whitespace around the edges of the data.In older versions of ScottPlot this functionality was achieved by a method named AxisAuto().
 
-[![](/cookbook/5.0/images/AutoScale.png?241031194635)](/cookbook/5.0/images/AutoScale.png?241031194635)
+[![](/cookbook/5.0/images/AutoScale.png?241101192719)](/cookbook/5.0/images/AutoScale.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -37,6 +34,6 @@ myPlot.Axes.AutoScale();
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
-<hr class='my-5 invisible'>
+<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5.0/AxisAndTicks'>Axis and Ticks</a> category</div>
 
 

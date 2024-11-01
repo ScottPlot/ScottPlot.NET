@@ -4,7 +4,7 @@ Description: A lollipop chart is a variation of a bar chart that uses a line (st
 URL: /cookbook/5.0/Lollipop/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Lollipop Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Lollipop"]
-Date: 2024-10-31
+Date: 2024-11-01
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -14,16 +14,16 @@ ShowEditLink: false
 <h1>Lollipop Plot</h1>
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Lollipop/LollipopQuickStart'>Lollipop Plot Quickstart</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Lollipop/LollipopQuickStart">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Lollipop">Category: Lollipop Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Lollipop Plot Quickstart</h1>
+<a href='/cookbook/5.0/Lollipop/LollipopQuickStart' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Lollipop plots can be created from a sequence of values
 
-[![](/cookbook/5.0/images/LollipopQuickStart.png?241031194635)](/cookbook/5.0/images/LollipopQuickStart.png?241031194635)
+[![](/cookbook/5.0/images/LollipopQuickStart.png?241101192719)](/cookbook/5.0/images/LollipopQuickStart.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -37,16 +37,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Lollipop/LollipopPositions'>Lollipop Positions</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Lollipop/LollipopPositions">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Lollipop">Category: Lollipop Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Lollipop Positions</h1>
+<a href='/cookbook/5.0/Lollipop/LollipopPositions' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 The position of each lollipop may be defined.
 
-[![](/cookbook/5.0/images/LollipopPositions.png?241031194635)](/cookbook/5.0/images/LollipopPositions.png?241031194635)
+[![](/cookbook/5.0/images/LollipopPositions.png?241101192719)](/cookbook/5.0/images/LollipopPositions.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -61,16 +61,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Lollipop/BarLollipopCustom'>Lollipop Plot Customizations</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Lollipop/BarLollipopCustom">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Lollipop">Category: Lollipop Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Lollipop Plot Customizations</h1>
+<a href='/cookbook/5.0/Lollipop/BarLollipopCustom' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 The stem line and head marker can be extensively customized.
 
-[![](/cookbook/5.0/images/BarLollipopCustom.png?241031194635)](/cookbook/5.0/images/BarLollipopCustom.png?241031194635)
+[![](/cookbook/5.0/images/BarLollipopCustom.png?241101192719)](/cookbook/5.0/images/BarLollipopCustom.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -92,16 +92,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Lollipop/LollipopHorizontal'>Horizontal Lollipop Plot</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Lollipop/LollipopHorizontal">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Lollipop">Category: Lollipop Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Horizontal Lollipop Plot</h1>
+<a href='/cookbook/5.0/Lollipop/LollipopHorizontal' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Change the lollipop plot's Orientation to Horizontal to cause stems to be drawn horizontally instead of vertically.
 
-[![](/cookbook/5.0/images/LollipopHorizontal.png?241031194635)](/cookbook/5.0/images/LollipopHorizontal.png?241031194635)
+[![](/cookbook/5.0/images/LollipopHorizontal.png?241101192719)](/cookbook/5.0/images/LollipopHorizontal.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 

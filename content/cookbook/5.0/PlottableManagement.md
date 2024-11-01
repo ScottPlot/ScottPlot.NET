@@ -4,7 +4,7 @@ Description: How to add, remove, and reorder items in plots
 URL: /cookbook/5.0/PlottableManagement/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Plottable Management"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/PlottableManagement"]
-Date: 2024-10-31
+Date: 2024-11-01
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -14,16 +14,16 @@ ShowEditLink: false
 <h1>Plottable Management</h1>
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/PlottableManagement/AddPlottablesManually'>Add Plottables Manually</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/PlottableManagement/AddPlottablesManually">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/PlottableManagement">Category: Plottable Management</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Add Plottables Manually</h1>
+<a href='/cookbook/5.0/PlottableManagement/AddPlottablesManually' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Although the Plot.Add class has many helpful methods for creating plottable objects and adding them to the plot, users can instantiate plottable objects themselves and use Add.Plottable() to place it on the plot. This strategy allows users to create their own plottables (implementing IPlottable) with custom appearance or behavior.
 
-[![](/cookbook/5.0/images/AddPlottablesManually.png?241031194635)](/cookbook/5.0/images/AddPlottablesManually.png?241031194635)
+[![](/cookbook/5.0/images/AddPlottablesManually.png?241101192719)](/cookbook/5.0/images/AddPlottablesManually.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -44,16 +44,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/PlottableManagement/Clear'>Clearing Plots</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/PlottableManagement/Clear">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/PlottableManagement">Category: Plottable Management</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Clearing Plots</h1>
+<a href='/cookbook/5.0/PlottableManagement/Clear' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Use Clear() to remove all plottables.
 
-[![](/cookbook/5.0/images/Clear.png?241031194635)](/cookbook/5.0/images/Clear.png?241031194635)
+[![](/cookbook/5.0/images/Clear.png?241101192719)](/cookbook/5.0/images/Clear.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -71,16 +71,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/PlottableManagement/Remove'>Removing a Plottable</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/PlottableManagement/Remove">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/PlottableManagement">Category: Plottable Management</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Removing a Plottable</h1>
+<a href='/cookbook/5.0/PlottableManagement/Remove' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Individual items may be removed from the plot.
 
-[![](/cookbook/5.0/images/Remove.png?241031194635)](/cookbook/5.0/images/Remove.png?241031194635)
+[![](/cookbook/5.0/images/Remove.png?241101192719)](/cookbook/5.0/images/Remove.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -98,16 +98,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/PlottableManagement/RemoveAll'>Removing all Plottables of a Type</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/PlottableManagement/RemoveAll">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/PlottableManagement">Category: Plottable Management</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Removing all Plottables of a Type</h1>
+<a href='/cookbook/5.0/PlottableManagement/RemoveAll' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 All plottables of a given type may be removed from a plot with a single command.
 
-[![](/cookbook/5.0/images/RemoveAll.png?241031194635)](/cookbook/5.0/images/RemoveAll.png?241031194635)
+[![](/cookbook/5.0/images/RemoveAll.png?241101192719)](/cookbook/5.0/images/RemoveAll.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -125,16 +125,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/PlottableManagement/ChangeOrder'>Moving plottables</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/PlottableManagement/ChangeOrder">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/PlottableManagement">Category: Plottable Management</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Moving plottables</h1>
+<a href='/cookbook/5.0/PlottableManagement/ChangeOrder' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 The plottable list contains all plottables which will be rendered in order. Helper methods are available to move plottables to the front.
 
-[![](/cookbook/5.0/images/ChangeOrder.png?241031194635)](/cookbook/5.0/images/ChangeOrder.png?241031194635)
+[![](/cookbook/5.0/images/ChangeOrder.png?241101192719)](/cookbook/5.0/images/ChangeOrder.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 

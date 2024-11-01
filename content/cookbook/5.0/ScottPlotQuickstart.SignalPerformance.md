@@ -4,7 +4,7 @@ Description: Signal plots are so performant that they can interactively display 
 URL: /cookbook/5.0/ScottPlotQuickstart/SignalPerformance/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Quickstart", "Signal Plot Performance"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/ScottPlotQuickstart", "/cookbook/5.0/ScottPlotQuickstart/SignalPerformance"]
-Date: 2024-10-31
+Date: 2024-11-01
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -12,16 +12,13 @@ ShowEditLink: false
 ---
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/ScottPlotQuickstart/SignalPerformance'>Signal Plot Performance</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/ScottPlotQuickstart/SignalPerformance">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/ScottPlotQuickstart">Category: Quickstart</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Signal Plot Performance</h1>
 </div>
 
 Signal plots are so performant that they can interactively display millions of data points in real time.
 
-[![](/cookbook/5.0/images/SignalPerformance.png?241031194635)](/cookbook/5.0/images/SignalPerformance.png?241031194635)
+[![](/cookbook/5.0/images/SignalPerformance.png?241101192719)](/cookbook/5.0/images/SignalPerformance.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -34,6 +31,6 @@ myPlot.Add.Signal(data);
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
-<hr class='my-5 invisible'>
+<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5.0/ScottPlotQuickstart'>Quickstart</a> category</div>
 
 

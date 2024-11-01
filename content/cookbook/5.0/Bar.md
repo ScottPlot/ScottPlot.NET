@@ -4,7 +4,7 @@ Description: Bar plots represent values as horizontal or vertical rectangles
 URL: /cookbook/5.0/Bar/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Bar Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Bar"]
-Date: 2024-10-31
+Date: 2024-11-01
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -14,16 +14,16 @@ ShowEditLink: false
 <h1>Bar Plot</h1>
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Bar/Quickstart'>Bar Plot Quickstart</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Bar/Quickstart">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Bar">Category: Bar Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Bar Plot Quickstart</h1>
+<a href='/cookbook/5.0/Bar/Quickstart' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Bar plots can be added from a series of values.
 
-[![](/cookbook/5.0/images/Quickstart.png?241031194635)](/cookbook/5.0/images/Quickstart.png?241031194635)
+[![](/cookbook/5.0/images/Quickstart.png?241101192719)](/cookbook/5.0/images/Quickstart.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -41,16 +41,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Bar/BarLegend'>Bar Plot Legend</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Bar/BarLegend">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Bar">Category: Bar Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Bar Plot Legend</h1>
+<a href='/cookbook/5.0/Bar/BarLegend' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 A collection of bars can appear in the legend as a single item.
 
-[![](/cookbook/5.0/images/BarLegend.png?241031194635)](/cookbook/5.0/images/BarLegend.png?241031194635)
+[![](/cookbook/5.0/images/BarLegend.png?241101192719)](/cookbook/5.0/images/BarLegend.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -74,16 +74,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Bar/BarValues'>Bar with Value Labels</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Bar/BarValues">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Bar">Category: Bar Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Bar with Value Labels</h1>
+<a href='/cookbook/5.0/Bar/BarValues' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Set the `Label` property of bars to have text displayed above each bar.
 
-[![](/cookbook/5.0/images/BarValues.png?241031194635)](/cookbook/5.0/images/BarValues.png?241031194635)
+[![](/cookbook/5.0/images/BarValues.png?241101192719)](/cookbook/5.0/images/BarValues.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -109,16 +109,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Bar/BarValuesHorizontal'>Bar with Value Labels (horizontal)</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Bar/BarValuesHorizontal">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Bar">Category: Bar Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Bar with Value Labels (horizontal)</h1>
+<a href='/cookbook/5.0/Bar/BarValuesHorizontal' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Set the `Label` property of bars to have text displayed beside (left or right) of each bar.
 
-[![](/cookbook/5.0/images/BarValuesHorizontal.png?241031194635)](/cookbook/5.0/images/BarValuesHorizontal.png?241031194635)
+[![](/cookbook/5.0/images/BarValuesHorizontal.png?241101192719)](/cookbook/5.0/images/BarValuesHorizontal.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -147,16 +147,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Bar/BarPosition'>Bar Positioning</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Bar/BarPosition">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Bar">Category: Bar Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Bar Positioning</h1>
+<a href='/cookbook/5.0/Bar/BarPosition' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 The exact position and size of each bar may be customized.
 
-[![](/cookbook/5.0/images/BarPosition.png?241031194635)](/cookbook/5.0/images/BarPosition.png?241031194635)
+[![](/cookbook/5.0/images/BarPosition.png?241101192719)](/cookbook/5.0/images/BarPosition.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -176,16 +176,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Bar/BarWithError'>Bars with Error</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Bar/BarWithError">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Bar">Category: Bar Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Bars with Error</h1>
+<a href='/cookbook/5.0/Bar/BarWithError' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Bars can have errorbars.
 
-[![](/cookbook/5.0/images/BarWithError.png?241031194635)](/cookbook/5.0/images/BarWithError.png?241031194635)
+[![](/cookbook/5.0/images/BarWithError.png?241101192719)](/cookbook/5.0/images/BarWithError.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -209,16 +209,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Bar/BarTickLabels'>Bars with Labeled Ticks</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Bar/BarTickLabels">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Bar">Category: Bar Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Bars with Labeled Ticks</h1>
+<a href='/cookbook/5.0/Bar/BarTickLabels' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Bars can be labeled by manually specifying axis tick mark positions and labels.
 
-[![](/cookbook/5.0/images/BarTickLabels.png?241031194635)](/cookbook/5.0/images/BarTickLabels.png?241031194635)
+[![](/cookbook/5.0/images/BarTickLabels.png?241101192719)](/cookbook/5.0/images/BarTickLabels.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -249,16 +249,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Bar/BarStackVertically'>Stacked Bar Plot</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Bar/BarStackVertically">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Bar">Category: Bar Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Stacked Bar Plot</h1>
+<a href='/cookbook/5.0/Bar/BarStackVertically' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Bars can be positioned on top of each other.
 
-[![](/cookbook/5.0/images/BarStackVertically.png?241031194635)](/cookbook/5.0/images/BarStackVertically.png?241031194635)
+[![](/cookbook/5.0/images/BarStackVertically.png?241101192719)](/cookbook/5.0/images/BarStackVertically.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -299,16 +299,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Bar/GroupedBarPlot'>Grouped Bar Plot</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Bar/GroupedBarPlot">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Bar">Category: Bar Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Grouped Bar Plot</h1>
+<a href='/cookbook/5.0/Bar/GroupedBarPlot' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Bars can be grouped by position and color.
 
-[![](/cookbook/5.0/images/GroupedBarPlot.png?241031194635)](/cookbook/5.0/images/GroupedBarPlot.png?241031194635)
+[![](/cookbook/5.0/images/GroupedBarPlot.png?241101192719)](/cookbook/5.0/images/GroupedBarPlot.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -362,16 +362,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Bar/HorizontalBar'>Horizontal Bar Plot</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Bar/HorizontalBar">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Bar">Category: Bar Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Horizontal Bar Plot</h1>
+<a href='/cookbook/5.0/Bar/HorizontalBar' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Bar plots can be displayed horizontally.
 
-[![](/cookbook/5.0/images/HorizontalBar.png?241031194635)](/cookbook/5.0/images/HorizontalBar.png?241031194635)
+[![](/cookbook/5.0/images/HorizontalBar.png?241101192719)](/cookbook/5.0/images/HorizontalBar.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -395,16 +395,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Bar/StackedBars'>Stacked Bar Chart</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Bar/StackedBars">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Bar">Category: Bar Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Stacked Bar Chart</h1>
+<a href='/cookbook/5.0/Bar/StackedBars' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Bars can be stacked to present data in groups.
 
-[![](/cookbook/5.0/images/StackedBars.png?241031194635)](/cookbook/5.0/images/StackedBars.png?241031194635)
+[![](/cookbook/5.0/images/StackedBars.png?241101192719)](/cookbook/5.0/images/StackedBars.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 

@@ -4,7 +4,7 @@ Description: Vector fields display a collection of vectors rooted at points in c
 URL: /cookbook/5.0/VectorField/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Vector Field"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/VectorField"]
-Date: 2024-10-31
+Date: 2024-11-01
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -14,16 +14,16 @@ ShowEditLink: false
 <h1>Vector Field</h1>
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/VectorField/VectorFieldQuickstart'>Vector Field Quickstart</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/VectorField/VectorFieldQuickstart">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/VectorField">Category: Vector Field</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Vector Field Quickstart</h1>
+<a href='/cookbook/5.0/VectorField/VectorFieldQuickstart' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Vectors (representing a magnitude and direction) can be placed at specific points in coordinate space to display as a vector field.
 
-[![](/cookbook/5.0/images/VectorFieldQuickstart.png?241031194635)](/cookbook/5.0/images/VectorFieldQuickstart.png?241031194635)
+[![](/cookbook/5.0/images/VectorFieldQuickstart.png?241101192719)](/cookbook/5.0/images/VectorFieldQuickstart.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -61,16 +61,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/VectorField/VectorFieldColormap'>Vector Field Colormap</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/VectorField/VectorFieldColormap">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/VectorField">Category: Vector Field</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Vector Field Colormap</h1>
+<a href='/cookbook/5.0/VectorField/VectorFieldColormap' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Vector field arrows can be colored according to their magnitude.
 
-[![](/cookbook/5.0/images/VectorFieldColormap.png?241031194635)](/cookbook/5.0/images/VectorFieldColormap.png?241031194635)
+[![](/cookbook/5.0/images/VectorFieldColormap.png?241101192719)](/cookbook/5.0/images/VectorFieldColormap.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 

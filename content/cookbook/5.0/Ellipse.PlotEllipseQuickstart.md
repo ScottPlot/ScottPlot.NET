@@ -4,7 +4,7 @@ Description: Ellipses can be added to plots
 URL: /cookbook/5.0/Ellipse/PlotEllipseQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Ellipse", "Ellipse Quickstart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Ellipse", "/cookbook/5.0/Ellipse/PlotEllipseQuickstart"]
-Date: 2024-10-31
+Date: 2024-11-01
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -12,16 +12,13 @@ ShowEditLink: false
 ---
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Ellipse/PlotEllipseQuickstart'>Ellipse Quickstart</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Ellipse/PlotEllipseQuickstart">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Ellipse">Category: Ellipse</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Ellipse Quickstart</h1>
 </div>
 
 Ellipses can be added to plots
 
-[![](/cookbook/5.0/images/PlotEllipseQuickstart.png?241031194635)](/cookbook/5.0/images/PlotEllipseQuickstart.png?241031194635)
+[![](/cookbook/5.0/images/PlotEllipseQuickstart.png?241101192719)](/cookbook/5.0/images/PlotEllipseQuickstart.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -38,6 +35,6 @@ for (int i = 0; i < 5; i++)
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
-<hr class='my-5 invisible'>
+<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5.0/Ellipse'>Ellipse</a> category</div>
 
 

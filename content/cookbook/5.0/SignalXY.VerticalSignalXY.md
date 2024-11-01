@@ -4,7 +4,7 @@ Description: Although SignalXY plots typically display data left-to-right, it is
 URL: /cookbook/5.0/SignalXY/VerticalSignalXY/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "SignalXY Plot", "Vertical SignalXY"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/SignalXY", "/cookbook/5.0/SignalXY/VerticalSignalXY"]
-Date: 2024-10-31
+Date: 2024-11-01
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -12,16 +12,13 @@ ShowEditLink: false
 ---
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/SignalXY/VerticalSignalXY'>Vertical SignalXY</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/SignalXY/VerticalSignalXY">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/SignalXY">Category: SignalXY Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Vertical SignalXY</h1>
 </div>
 
 Although SignalXY plots typically display data left-to-right, it is possible to use this plot type to display data bottom-to-top.
 
-[![](/cookbook/5.0/images/VerticalSignalXY.png?241031194635)](/cookbook/5.0/images/VerticalSignalXY.png?241031194635)
+[![](/cookbook/5.0/images/VerticalSignalXY.png?241101192719)](/cookbook/5.0/images/VerticalSignalXY.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -34,6 +31,6 @@ sig1.Data.Rotated = true;
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
-<hr class='my-5 invisible'>
+<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5.0/SignalXY'>SignalXY Plot</a> category</div>
 
 

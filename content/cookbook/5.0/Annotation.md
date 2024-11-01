@@ -4,7 +4,7 @@ Description: Annotations are always-visible text labels positioned over the data
 URL: /cookbook/5.0/Annotation/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Annotation"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Annotation"]
-Date: 2024-10-31
+Date: 2024-11-01
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -14,16 +14,16 @@ ShowEditLink: false
 <h1>Annotation</h1>
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Annotation/AnnotationQuickstart'>Annotation Quickstart</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Annotation/AnnotationQuickstart">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Annotation">Category: Annotation</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Annotation Quickstart</h1>
+<a href='/cookbook/5.0/Annotation/AnnotationQuickstart' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Annotations are labels you can place on the data area of a plot. Unlike Text added to the plot (which is placed in coordinate units on the axes), Annotations are positioned relative to the data area (in pixel units) and do not move as the plot is panned and zoomed.
 
-[![](/cookbook/5.0/images/AnnotationQuickstart.png?241031194635)](/cookbook/5.0/images/AnnotationQuickstart.png?241031194635)
+[![](/cookbook/5.0/images/AnnotationQuickstart.png?241101192719)](/cookbook/5.0/images/AnnotationQuickstart.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -39,16 +39,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Annotation/AnnotationCustomize'>Annotation Customization</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Annotation/AnnotationCustomize">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Annotation">Category: Annotation</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Annotation Customization</h1>
+<a href='/cookbook/5.0/Annotation/AnnotationCustomize' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Annotations can be extensively customized.
 
-[![](/cookbook/5.0/images/AnnotationCustomize.png?241031194635)](/cookbook/5.0/images/AnnotationCustomize.png?241031194635)
+[![](/cookbook/5.0/images/AnnotationCustomize.png?241101192719)](/cookbook/5.0/images/AnnotationCustomize.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -73,16 +73,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Annotation/AnnotationPositions'>Annotation Positions</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Annotation/AnnotationPositions">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Annotation">Category: Annotation</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Annotation Positions</h1>
+<a href='/cookbook/5.0/Annotation/AnnotationPositions' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Annotations are aligned with the data area.
 
-[![](/cookbook/5.0/images/AnnotationPositions.png?241031194635)](/cookbook/5.0/images/AnnotationPositions.png?241031194635)
+[![](/cookbook/5.0/images/AnnotationPositions.png?241101192719)](/cookbook/5.0/images/AnnotationPositions.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 

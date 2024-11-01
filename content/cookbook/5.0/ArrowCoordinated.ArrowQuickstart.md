@@ -4,7 +4,7 @@ Description: Arrows can be placed on plots to point to a location in coordinate 
 URL: /cookbook/5.0/ArrowCoordinated/ArrowQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Arrow", "Arrow Quickstart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/ArrowCoordinated", "/cookbook/5.0/ArrowCoordinated/ArrowQuickstart"]
-Date: 2024-10-31
+Date: 2024-11-01
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -12,16 +12,13 @@ ShowEditLink: false
 ---
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/ArrowCoordinated/ArrowQuickstart'>Arrow Quickstart</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/ArrowCoordinated/ArrowQuickstart">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/ArrowCoordinated">Category: Arrow</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Arrow Quickstart</h1>
 </div>
 
 Arrows can be placed on plots to point to a location in coordinate space and extensively customized.
 
-[![](/cookbook/5.0/images/ArrowQuickstart.png?241031194635)](/cookbook/5.0/images/ArrowQuickstart.png?241031194635)
+[![](/cookbook/5.0/images/ArrowQuickstart.png?241101192719)](/cookbook/5.0/images/ArrowQuickstart.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -67,6 +64,6 @@ myPlot.Axes.SetLimits(-1, 6, -1, 2);
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
-<hr class='my-5 invisible'>
+<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5.0/ArrowCoordinated'>Arrow</a> category</div>
 
 

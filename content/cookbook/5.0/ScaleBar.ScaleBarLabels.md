@@ -4,7 +4,7 @@ Description: Text may be added to each dimension of an L shaped scalebar
 URL: /cookbook/5.0/ScaleBar/ScaleBarLabels/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Scale Bar", "ScaleBar Labels"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/ScaleBar", "/cookbook/5.0/ScaleBar/ScaleBarLabels"]
-Date: 2024-10-31
+Date: 2024-11-01
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -12,16 +12,13 @@ ShowEditLink: false
 ---
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/ScaleBar/ScaleBarLabels'>ScaleBar Labels</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/ScaleBar/ScaleBarLabels">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/ScaleBar">Category: Scale Bar</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>ScaleBar Labels</h1>
 </div>
 
 Text may be added to each dimension of an L shaped scalebar
 
-[![](/cookbook/5.0/images/ScaleBarLabels.png?241031194635)](/cookbook/5.0/images/ScaleBarLabels.png?241031194635)
+[![](/cookbook/5.0/images/ScaleBarLabels.png?241101192719)](/cookbook/5.0/images/ScaleBarLabels.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -41,6 +38,6 @@ myPlot.Axes.Frameless();
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
-<hr class='my-5 invisible'>
+<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5.0/ScaleBar'>Scale Bar</a> category</div>
 
 

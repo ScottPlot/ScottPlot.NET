@@ -4,7 +4,7 @@ Description: Signal plots display evenly-spaced data
 URL: /cookbook/5.0/Signal/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Signal Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Signal"]
-Date: 2024-10-31
+Date: 2024-11-01
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -14,16 +14,16 @@ ShowEditLink: false
 <h1>Signal Plot</h1>
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Signal/SignalQuickstart'>Signal Plot Quickstart</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Signal/SignalQuickstart">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Signal">Category: Signal Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Signal Plot Quickstart</h1>
+<a href='/cookbook/5.0/Signal/SignalQuickstart' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Signal plots are best for extremely large datasets. They use render using special optimizations that allow highspeed interactivity with plots containing millions of data points.
 
-[![](/cookbook/5.0/images/SignalQuickstart.png?241031194635)](/cookbook/5.0/images/SignalQuickstart.png?241031194635)
+[![](/cookbook/5.0/images/SignalQuickstart.png?241101192719)](/cookbook/5.0/images/SignalQuickstart.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -40,16 +40,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Signal/SignalStyling'>Signal Plot Styling</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Signal/SignalStyling">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Signal">Category: Signal Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Signal Plot Styling</h1>
+<a href='/cookbook/5.0/Signal/SignalStyling' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Signal plots can be styled in a variety of ways.
 
-[![](/cookbook/5.0/images/SignalStyling.png?241031194635)](/cookbook/5.0/images/SignalStyling.png?241031194635)
+[![](/cookbook/5.0/images/SignalStyling.png?241101192719)](/cookbook/5.0/images/SignalStyling.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -72,16 +72,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Signal/SignalOffset'>Signal Offset</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Signal/SignalOffset">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Signal">Category: Signal Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Signal Offset</h1>
+<a href='/cookbook/5.0/Signal/SignalOffset' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Signal plots can be offset by a given X and Y value.
 
-[![](/cookbook/5.0/images/SignalOffset.png?241031194635)](/cookbook/5.0/images/SignalOffset.png?241031194635)
+[![](/cookbook/5.0/images/SignalOffset.png?241101192719)](/cookbook/5.0/images/SignalOffset.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -104,16 +104,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Signal/SignalScaleY'>Signal Scaling</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Signal/SignalScaleY">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Signal">Category: Signal Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Signal Scaling</h1>
+<a href='/cookbook/5.0/Signal/SignalScaleY' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Signal plots can be scaled vertically according to a user-defined amount.
 
-[![](/cookbook/5.0/images/SignalScaleY.png?241031194635)](/cookbook/5.0/images/SignalScaleY.png?241031194635)
+[![](/cookbook/5.0/images/SignalScaleY.png?241101192719)](/cookbook/5.0/images/SignalScaleY.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -131,16 +131,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Signal/SignalMarkerSize'>Signal Marker Size</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Signal/SignalMarkerSize">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Signal">Category: Signal Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Signal Marker Size</h1>
+<a href='/cookbook/5.0/Signal/SignalMarkerSize' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Signal plots can have markers displayed at each point which are only visible when the plot is zoomed in.
 
-[![](/cookbook/5.0/images/SignalMarkerSize.png?241031194635)](/cookbook/5.0/images/SignalMarkerSize.png?241031194635)
+[![](/cookbook/5.0/images/SignalMarkerSize.png?241101192719)](/cookbook/5.0/images/SignalMarkerSize.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -167,16 +167,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Signal/SignalRenderIndexes'>Partial Signal Rendering</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Signal/SignalRenderIndexes">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Signal">Category: Signal Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Partial Signal Rendering</h1>
+<a href='/cookbook/5.0/Signal/SignalRenderIndexes' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Even if a signal plot references a large array of data, rendering can be limited to a range of values. If set,only the range of data between the minimum and maximum render indexes will be displayed.
 
-[![](/cookbook/5.0/images/SignalRenderIndexes.png?241031194635)](/cookbook/5.0/images/SignalRenderIndexes.png?241031194635)
+[![](/cookbook/5.0/images/SignalRenderIndexes.png?241101192719)](/cookbook/5.0/images/SignalRenderIndexes.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -212,16 +212,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Signal/SignalGeneric'>Signal Generic</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Signal/SignalGeneric">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Signal">Category: Signal Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Signal Generic</h1>
+<a href='/cookbook/5.0/Signal/SignalGeneric' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Signal plots support generic data types, although double is typically the most performant.
 
-[![](/cookbook/5.0/images/SignalGeneric.png?241031194635)](/cookbook/5.0/images/SignalGeneric.png?241031194635)
+[![](/cookbook/5.0/images/SignalGeneric.png?241101192719)](/cookbook/5.0/images/SignalGeneric.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -236,16 +236,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Signal/SignalDateTime'>Signal DateTime</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Signal/SignalDateTime">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Signal">Category: Signal Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Signal DateTime</h1>
+<a href='/cookbook/5.0/Signal/SignalDateTime' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 A signal plot may use DateTime units but be sure to setup the respective axis to display using DateTime format.
 
-[![](/cookbook/5.0/images/SignalDateTime.png?241031194635)](/cookbook/5.0/images/SignalDateTime.png?241031194635)
+[![](/cookbook/5.0/images/SignalDateTime.png?241101192719)](/cookbook/5.0/images/SignalDateTime.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 

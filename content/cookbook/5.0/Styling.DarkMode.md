@@ -4,7 +4,7 @@ Description: Plots can be created using dark mode by setting the colors of major
 URL: /cookbook/5.0/Styling/DarkMode/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Styling Plots", "Dark Mode"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Styling", "/cookbook/5.0/Styling/DarkMode"]
-Date: 2024-10-31
+Date: 2024-11-01
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -12,16 +12,13 @@ ShowEditLink: false
 ---
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Styling/DarkMode'>Dark Mode</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Styling/DarkMode">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Styling">Category: Styling Plots</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Dark Mode</h1>
 </div>
 
 Plots can be created using dark mode by setting the colors of major plot components to ones consistent with a dark theme.
 
-[![](/cookbook/5.0/images/DarkMode.png?241031194635)](/cookbook/5.0/images/DarkMode.png?241031194635)
+[![](/cookbook/5.0/images/DarkMode.png?241101192719)](/cookbook/5.0/images/DarkMode.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -56,6 +53,6 @@ myPlot.Legend.OutlineColor = Color.FromHex("#d7d7d7");
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
-<hr class='my-5 invisible'>
+<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5.0/Styling'>Styling Plots</a> category</div>
 
 

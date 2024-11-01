@@ -4,7 +4,7 @@ Description: A heatmap's Colormap is the logic used to convert from cell value t
 URL: /cookbook/5.0/Heatmap/HeatmapColormap/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Heatmap", "Heatmap with custom Colormap"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Heatmap", "/cookbook/5.0/Heatmap/HeatmapColormap"]
-Date: 2024-10-31
+Date: 2024-11-01
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -12,16 +12,13 @@ ShowEditLink: false
 ---
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Heatmap/HeatmapColormap'>Heatmap with custom Colormap</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Heatmap/HeatmapColormap">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Heatmap">Category: Heatmap</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Heatmap with custom Colormap</h1>
 </div>
 
 A heatmap's Colormap is the logic used to convert from cell value to cell color and they can set by the user. ScottPlot comes with many common colormaps, but users may implement IColormap and apply their own. A colorbar can be added to indicate which colors map to which values.
 
-[![](/cookbook/5.0/images/HeatmapColormap.png?241031194635)](/cookbook/5.0/images/HeatmapColormap.png?241031194635)
+[![](/cookbook/5.0/images/HeatmapColormap.png?241101192719)](/cookbook/5.0/images/HeatmapColormap.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -35,6 +32,6 @@ myPlot.Add.ColorBar(hm1);
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
-<hr class='my-5 invisible'>
+<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5.0/Heatmap'>Heatmap</a> category</div>
 
 

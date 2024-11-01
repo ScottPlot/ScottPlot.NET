@@ -2,13 +2,13 @@
 Title: ScottPlot 5.0 API
 Description: All classes, fields, properties, and methods provided by the ScottPlot package
 URL: /api/5.0/
-Date: 2024-10-31
+Date: 2024-11-01
 ShowEditLink: false
 ---
 
 # ScottPlot 5.0.42 API
 
-_Generated 10/31/2024 7:46:34 PM_
+_Generated 11/1/2024 7:27:18 PM_
 
 <div class='my-5'>&nbsp;</div>
 
@@ -442,6 +442,11 @@ a:hover {text-decoration: underline;}
 <div><span class='otherType'>double</span> <span class='name'>GetY(<span class='otherType'>int</span> <span class='name'>index</span>)</span> <span class='docs'></span></div>
 <div><span class='otherType'>double</span> <span class='name'>GetYScaled(<span class='otherType'>int</span> <span class='name'>index</span>)</span> <span class='docs'></span></div>
 <div><span class='otherType'>bool</span> <span class='name'>IsSorted()</span> <span class='docs'>When the collection is sorted, this will enable much quicker execution by allowing usage of BinarySearch methods ( GetNearest should call GetXClosestIndex when this is true )</span></div>
+<div style='margin-top: 2em'>
+<div class='title' id='ScottPlot.IFinancialTickGenerator'><a style='color: black;' href='#ScottPlot.IFinancialTickGenerator'>ScottPlot.IFinancialTickGenerator</a></div>
+<div class='docs'></div>
+</div>
+<div><span class='otherType'>List&lt;ValueTuple&lt;T1, T2&gt;&gt;</span> <span class='name'>GetTicks(<span class='otherType'>DateTime[]</span> <span class='name'>DateTimes</span>, <span class='otherType'>int</span> <span class='name'>minIndexInView</span>, <span class='otherType'>int</span> <span class='name'>maxIndexInView</span>)</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.IFontResolver'><a style='color: black;' href='#ScottPlot.IFontResolver'>ScottPlot.IFontResolver</a></div>
 <div class='docs'>Provides functionality that converts a requested typeface into a physical font</div>
@@ -2438,11 +2443,6 @@ a:hover {text-decoration: underline;}
 <div><a class='scottPlotType' href='#ScottPlot.OHLC'>ScottPlot.OHLC</a> <span class='name'>ShiftedBy(<span class='otherType'>TimeSpan</span> <span class='name'>timeSpan</span>)</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.OHLC'>ScottPlot.OHLC</a> <span class='name'>ShiftedBy(<span class='otherType'>double</span> <span class='name'>delta</span>)</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
-<div class='title' id='ScottPlot.OhlcExtensions'><a style='color: black;' href='#ScottPlot.OhlcExtensions'>ScottPlot.OhlcExtensions</a></div>
-<div class='docs'></div>
-</div>
-<div><a class='scottPlotType' href='#ScottPlot.CoordinateRange'>ScottPlot.CoordinateRange</a> <span class='name'>GetPriceRange(<a class='scottPlotType' href='#ScottPlot.OHLC'>ScottPlot.OHLC</a> <span class='name'>ohlc</span>)</span> <span class='docs'></span></div>
-<div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.Orientation'><a style='color: black;' href='#ScottPlot.Orientation'>ScottPlot.Orientation</a></div>
 <div class='docs'></div>
 </div>
@@ -3161,6 +3161,14 @@ a:hover {text-decoration: underline;}
 <div><span class='otherType'>double</span> <span class='name'>MinorTicksPerMajorTick</span> <span class='docs'></span></div>
 <div><span class='otherType'>IEnumerable&lt;double&gt;</span> <span class='name'>GetMinorTicks(<span class='otherType'>double[]</span> <span class='name'>majorTicks</span>, <a class='scottPlotType' href='#ScottPlot.CoordinateRange'>ScottPlot.CoordinateRange</a> <span class='name'>visibleRange</span>)</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
+<div class='title' id='ScottPlot.TickGenerators.FinancialTickGenerator'><a style='color: black;' href='#ScottPlot.TickGenerators.FinancialTickGenerator'>ScottPlot.TickGenerators.FinancialTickGenerator</a></div>
+<div class='docs'>Experimental tick generator designed for displaying financial time series data
+            where values are evenly spaced visually despite having DateTimes which may contain gaps.</div>
+</div>
+<div><span class='otherType'>int</span> <span class='name'>MaxTickCount</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Tick[]'>ScottPlot.Tick[]</a> <span class='name'>Ticks</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>Regenerate(<a class='scottPlotType' href='#ScottPlot.CoordinateRange'>ScottPlot.CoordinateRange</a> <span class='name'>range</span>, <a class='scottPlotType' href='#ScottPlot.Edge'>ScottPlot.Edge</a> <span class='name'>edge</span>, <a class='scottPlotType' href='#ScottPlot.PixelLength'>ScottPlot.PixelLength</a> <span class='name'>size</span>, <span class='otherType'>SkiaSharp.SKPaint</span> <span class='name'>paint</span>, <a class='scottPlotType' href='#ScottPlot.LabelStyle'>ScottPlot.LabelStyle</a> <span class='name'>labelStyle</span>)</span> <span class='docs'></span></div>
+<div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.TickGenerators.IDateTimeTickGenerator'><a style='color: black;' href='#ScottPlot.TickGenerators.IDateTimeTickGenerator'>ScottPlot.TickGenerators.IDateTimeTickGenerator</a></div>
 <div class='docs'></div>
 </div>
@@ -3312,6 +3320,26 @@ a:hover {text-decoration: underline;}
 <div><span class='otherType'>DateTime</span> <span class='name'>Snap(<span class='otherType'>DateTime</span> <span class='name'>dt</span>)</span> <span class='docs'></span></div>
 <div><span class='otherType'>string</span> <span class='name'>GetDateTimeFormatString()</span> <span class='docs'></span></div>
 <div><span class='otherType'>DateTime</span> <span class='name'>Next(<span class='otherType'>DateTime</span> <span class='name'>dateTime</span>, <span class='otherType'>int</span> <span class='name'>increment</span>)</span> <span class='docs'></span></div>
+<div style='margin-top: 2em'>
+<div class='title' id='ScottPlot.TickGenerators.Financial.Months'><a style='color: black;' href='#ScottPlot.TickGenerators.Financial.Months'>ScottPlot.TickGenerators.Financial.Months</a></div>
+<div class='docs'></div>
+</div>
+<div><span class='otherType'>List&lt;ValueTuple&lt;T1, T2&gt;&gt;</span> <span class='name'>GetTicks(<span class='otherType'>DateTime[]</span> <span class='name'>DateTimes</span>, <span class='otherType'>int</span> <span class='name'>minIndexInView</span>, <span class='otherType'>int</span> <span class='name'>maxIndexInView</span>)</span> <span class='docs'></span></div>
+<div style='margin-top: 2em'>
+<div class='title' id='ScottPlot.TickGenerators.Financial.MonthsAndMondays'><a style='color: black;' href='#ScottPlot.TickGenerators.Financial.MonthsAndMondays'>ScottPlot.TickGenerators.Financial.MonthsAndMondays</a></div>
+<div class='docs'></div>
+</div>
+<div><span class='otherType'>List&lt;ValueTuple&lt;T1, T2&gt;&gt;</span> <span class='name'>GetTicks(<span class='otherType'>DateTime[]</span> <span class='name'>DateTimes</span>, <span class='otherType'>int</span> <span class='name'>minIndexInView</span>, <span class='otherType'>int</span> <span class='name'>maxIndexInView</span>)</span> <span class='docs'></span></div>
+<div style='margin-top: 2em'>
+<div class='title' id='ScottPlot.TickGenerators.Financial.None'><a style='color: black;' href='#ScottPlot.TickGenerators.Financial.None'>ScottPlot.TickGenerators.Financial.None</a></div>
+<div class='docs'></div>
+</div>
+<div><span class='otherType'>List&lt;ValueTuple&lt;T1, T2&gt;&gt;</span> <span class='name'>GetTicks(<span class='otherType'>DateTime[]</span> <span class='name'>DateTimes</span>, <span class='otherType'>int</span> <span class='name'>minIndexInView</span>, <span class='otherType'>int</span> <span class='name'>maxIndexInView</span>)</span> <span class='docs'></span></div>
+<div style='margin-top: 2em'>
+<div class='title' id='ScottPlot.TickGenerators.Financial.Years'><a style='color: black;' href='#ScottPlot.TickGenerators.Financial.Years'>ScottPlot.TickGenerators.Financial.Years</a></div>
+<div class='docs'></div>
+</div>
+<div><span class='otherType'>List&lt;ValueTuple&lt;T1, T2&gt;&gt;</span> <span class='name'>GetTicks(<span class='otherType'>DateTime[]</span> <span class='name'>DateTimes</span>, <span class='otherType'>int</span> <span class='name'>minIndexInView</span>, <span class='otherType'>int</span> <span class='name'>maxIndexInView</span>)</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.Testing.DuplicateIdentifier&lt;T&gt;'><a style='color: black;' href='#ScottPlot.Testing.DuplicateIdentifier&lt;T&gt;'>ScottPlot.Testing.DuplicateIdentifier&lt;T&gt;</a></div>
 <div class='docs'>Helper class to detect for duplicate items in complex collections
@@ -4173,6 +4201,19 @@ a:hover {text-decoration: underline;}
 <div><a class='scottPlotType' href='#ScottPlot.MarkerStyle'>ScottPlot.MarkerStyle</a> <span class='name'>MarkerStyle</span> <span class='docs'></span></div>
 <div><span class='otherType'>void</span> <span class='name'>SetDataSource(<span class='otherType'>ICollection&lt;ValueTuple&lt;T1, T2, T3&gt;&gt;</span> <span class='name'>items</span>)</span> <span class='docs'></span></div>
 <div><span class='otherType'>void</span> <span class='name'>SetDataSource(<span class='otherType'>ICollection&lt;T&gt;</span> <span class='name'>items</span>, <span class='otherType'>Func&lt;T1, T2&gt;</span> <span class='name'>coordinateSolver</span>)</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.AxisLimits'>ScottPlot.AxisLimits</a> <span class='name'>GetAxisLimits()</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>Render(<a class='scottPlotType' href='#ScottPlot.RenderPack'>ScottPlot.RenderPack</a> <span class='name'>rp</span>)</span> <span class='docs'></span></div>
+<div style='margin-top: 2em'>
+<div class='title' id='ScottPlot.Plottables.FinancialTimeAxis'><a style='color: black;' href='#ScottPlot.Plottables.FinancialTimeAxis'>ScottPlot.Plottables.FinancialTimeAxis</a></div>
+<div class='docs'>This plottable renders date tick labels for financial charts where
+            data is displayed sequentially along the horizontal axis despite
+            DateTimes not being evenly spaced (e.g., data may include gaps)</div>
+</div>
+<div><a class='scottPlotType' href='#ScottPlot.IAxes'>ScottPlot.IAxes</a> <span class='name'>Axes</span> <span class='docs'></span></div>
+<div><span class='otherType'>DateTime[]</span> <span class='name'>DateTimes</span> <span class='docs'></span></div>
+<div><span class='otherType'>bool</span> <span class='name'>IsVisible</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.LabelStyle'>ScottPlot.LabelStyle</a> <span class='name'>LabelStyle</span> <span class='docs'></span></div>
+<div><span class='otherType'>IEnumerable&lt;ScottPlot.LegendItem&gt;</span> <span class='name'>LegendItems</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.AxisLimits'>ScottPlot.AxisLimits</a> <span class='name'>GetAxisLimits()</span> <span class='docs'></span></div>
 <div><span class='otherType'>void</span> <span class='name'>Render(<a class='scottPlotType' href='#ScottPlot.RenderPack'>ScottPlot.RenderPack</a> <span class='name'>rp</span>)</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>

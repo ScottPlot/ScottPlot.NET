@@ -4,7 +4,7 @@ Description: The user may customize where data is drawn relative to the bar or b
 URL: /cookbook/5.0/Population/PopulationArrangement/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Population Plot", "Population Arrangement"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Population", "/cookbook/5.0/Population/PopulationArrangement"]
-Date: 2024-10-31
+Date: 2024-11-01
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -12,16 +12,13 @@ ShowEditLink: false
 ---
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Population/PopulationArrangement'>Population Arrangement</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Population/PopulationArrangement">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Population">Category: Population Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Population Arrangement</h1>
 </div>
 
 The user may customize where data is drawn relative to the bar or box. Centering everything can be used to achieve an effect where data points are drawn over the bar or box.
 
-[![](/cookbook/5.0/images/PopulationArrangement.png?241031194635)](/cookbook/5.0/images/PopulationArrangement.png?241031194635)
+[![](/cookbook/5.0/images/PopulationArrangement.png?241101192719)](/cookbook/5.0/images/PopulationArrangement.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -46,6 +43,6 @@ myPlot.HideGrid();
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
-<hr class='my-5 invisible'>
+<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5.0/Population'>Population Plot</a> category</div>
 
 

@@ -4,7 +4,7 @@ Description: Grid and plot styling can be customize to achieve a pleasing effect
 URL: /cookbook/5.0/CustomizingGrids/GridAlternatingDarkMode/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Customizing Grids", "Grid Fill Color in Dark Mode"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/CustomizingGrids", "/cookbook/5.0/CustomizingGrids/GridAlternatingDarkMode"]
-Date: 2024-10-31
+Date: 2024-11-01
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -12,16 +12,13 @@ ShowEditLink: false
 ---
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/CustomizingGrids/GridAlternatingDarkMode'>Grid Fill Color in Dark Mode</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/CustomizingGrids/GridAlternatingDarkMode">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/CustomizingGrids">Category: Customizing Grids</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Grid Fill Color in Dark Mode</h1>
 </div>
 
 Grid and plot styling can be customize to achieve a pleasing effect in dark mode
 
-[![](/cookbook/5.0/images/GridAlternatingDarkMode.png?241031194635)](/cookbook/5.0/images/GridAlternatingDarkMode.png?241031194635)
+[![](/cookbook/5.0/images/GridAlternatingDarkMode.png?241101192719)](/cookbook/5.0/images/GridAlternatingDarkMode.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -52,6 +49,6 @@ myPlot.Grid.YAxisStyle.MinorLineStyle.Width = 1;
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
-<hr class='my-5 invisible'>
+<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5.0/CustomizingGrids'>Customizing Grids</a> category</div>
 
 

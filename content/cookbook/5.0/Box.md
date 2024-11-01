@@ -4,7 +4,7 @@ Description: Box plots show a distribution at a glance
 URL: /cookbook/5.0/Box/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Box Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Box"]
-Date: 2024-10-31
+Date: 2024-11-01
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -14,16 +14,16 @@ ShowEditLink: false
 <h1>Box Plot</h1>
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Box/BoxPlotQuickstart'>Box Plot Quickstart</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Box/BoxPlotQuickstart">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Box">Category: Box Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Box Plot Quickstart</h1>
+<a href='/cookbook/5.0/Box/BoxPlotQuickstart' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Box plots can be created individually and added to the plot.
 
-[![](/cookbook/5.0/images/BoxPlotQuickstart.png?241031194635)](/cookbook/5.0/images/BoxPlotQuickstart.png?241031194635)
+[![](/cookbook/5.0/images/BoxPlotQuickstart.png?241101192719)](/cookbook/5.0/images/BoxPlotQuickstart.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
@@ -48,16 +48,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 
-<h2 style='border-bottom: 0;'><a href='/cookbook/5.0/Box/BoxPlotGroups'>Box Plot Groups</a></h2>
-
-<div class="d-flex mb-2">
-<a class="btn btn-sm btn-primary me-1" href="/cookbook/5.0/Box/BoxPlotGroups">Recipe Permalink</a>
-<a class="btn btn-sm btn-success me-1" href="/cookbook/5.0/Box">Category: Box Plot</a>
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Box Plot Groups</h1>
+<a href='/cookbook/5.0/Box/BoxPlotGroups' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
 </div>
 
 Each collection of boxes added to the plot gets styled the same and appears as a single item in the legend. Add multiple bar series plots with defined X positions to give the appearance of grouped data.
 
-[![](/cookbook/5.0/images/BoxPlotGroups.png?241031194635)](/cookbook/5.0/images/BoxPlotGroups.png?241031194635)
+[![](/cookbook/5.0/images/BoxPlotGroups.png?241101192719)](/cookbook/5.0/images/BoxPlotGroups.png?241101192719)
 
 {{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
 
