@@ -18,6 +18,8 @@ Release notes for every version of ScottPlot
 </li>
 <li>Candlestick Plot: Exposed <code>Data</code> for easier access to underlying <code>OHLC</code> candle data (<a href="https://github.com/ScottPlot/ScottPlot/issues/4385">#4385</a>) <a href="https://github.com/quantfreedom"><strong>@quantfreedom</strong></a>
 </li>
+<li>Maui: Improved cursor-driven pan and zoom on Desktop platform targets (<a href="https://github.com/ScottPlot/ScottPlot/issues/4417">#4417</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4416">#4416</a>) <a href="https://github.com/KosmosWerner"><strong>@KosmosWerner</strong></a> <a href="https://github.com/King-Taz"><strong>@King-Taz</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
