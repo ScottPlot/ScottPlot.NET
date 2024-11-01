@@ -45,3 +45,11 @@
     background-color: #282a3799;
     color: white;
 }
+
+.new-window-icon {
+    opacity: 0.2;
+}
+
+.new-window-icon:hover {
+    opacity: 1;
+}
