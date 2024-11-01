@@ -28,12 +28,13 @@
     background-color: inherit;
     border: 0px;
     padding: .3rem .5rem;
-    border-radius: 7px 7px 0 0;
+    border-top: 2px solid transparent;
 }
 
 .switch-language-bar .active {
-    background-color: #282a37;
+    background-color: #272727;
     color: #FFFFFF;
+    border-top: 2px solid #0078d4;
 }
 
 .switch-language-bar .inactive {
@@ -42,8 +43,8 @@
 }
 
 .switch-language-bar .inactive:hover {
-    background-color: #282a3799;
-    color: white;
+    background-color: #27272799;
+    color: #FFFFFFCC;
 }
 
 .new-window-icon {

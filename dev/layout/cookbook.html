@@ -11,7 +11,7 @@
 
     </style>
 
-    <link rel="stylesheet" href="https://scottplot.net/css/highlightjs/dracula.css">
+    <link rel="stylesheet" href="vs2015.css">
     <script src="https://scottplot.net/js/highlight.min.js"></script>
 
     <style>
@@ -53,12 +53,13 @@
             background-color: inherit;
             border: 0px;
             padding: .3rem .5rem;
-            border-radius: 7px 7px 0 0;
+            border-top: 2px solid transparent;
         }
 
         .switch-language-bar .active {
-            background-color: #282a37;
+            background-color: #272727;
             color: #FFFFFF;
+            border-top: 2px solid #0078d4;
         }
 
         .switch-language-bar .inactive {
@@ -67,7 +68,7 @@
         }
 
         .switch-language-bar .inactive:hover {
-            background-color: #282a3799;
+            background-color: #27272799;
             color: white;
         }
 
@@ -89,7 +90,7 @@
                 <div class="d-flex align-items-center">
                     <h1 class="me-2 text-dark">Inverted Auto-Axis</h1>
                     <a href="#" target="_blank">
-                        
+
                     </a>
                 </div>
 
@@ -101,7 +102,7 @@
 
             <div class="p-2">
                 <div class="text-light rounded"
-                    style="background-color: #181921; border: 2px solid #181921; box-shadow: 10px 10px 20px #00000066;">
+                    style="background-color: #181818; border: 2px solid #181818; box-shadow: 10px 10px 20px #00000066;">
 
                     <div class="d-inline-block mx-2 mb-2">
                         <span class="circle circle-red"></span>
@@ -118,8 +119,8 @@
                         <button type="button" class="inactive" onclick="recipe_button_wpf(this)">WPF</button>
                         <button type="button" class="inactive" onclick="recipe_button_other(this)">Other</button>
                     </div>
-                    <div class="p-2 recipe-code-container" style="background-color: #282a37;">
-                        <pre class="m-0"><code class="language-cs">ScottPlot.Plot myPlot = new();
+                    <div class="p-2 recipe-code-container" style="background-color: #272727;">
+                        <pre class="m-0"><code class="language-cs">ScottPlot.Plot myPlot = new(); // just kidding
 double[] dataX = { 1, 2, 3, 4, 5 };
 double[] dataY = { 1, 4, 9, 16, 25 };
 myPlot.Add.Scatter(dataX, dataY);
@@ -133,6 +134,11 @@ myPlot.SavePng("demo.png", 400, 300);</code></pre>
                 </div>
             </div>
         </section>
+
+        <div class="my-5 text-center">
+            This recipe is one of many in the <a href="">Advanced Axis</a> category
+        </div>
+
     </div>
 
     <script>
