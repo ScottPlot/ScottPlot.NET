@@ -22,6 +22,8 @@ Release notes for every version of ScottPlot
 </li>
 <li>Candlestick Plot: Improved visibility of candles with zero price movement (<a href="https://github.com/ScottPlot/ScottPlot/issues/3337">#3337</a>) <a href="https://github.com/Lyakabynka"><strong>@Lyakabynka</strong></a> <a href="https://github.com/bukowa"><strong>@bukowa</strong></a>
 </li>
+<li>Ticks: Added an experimental <code>FinancialTickGenerator</code> for generating DateTime ticks from unevenly-spaced time data (<a href="https://github.com/ScottPlot/ScottPlot/issues/4385">#4385</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
@@ -33,8 +35,8 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/King-Taz'><img src='https://scottplot.net/images/contributors/king-taz.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/cosmicDustOfLightLength'><img src='https://scottplot.net/images/contributors/cosmicdustoflightlength.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/quantfreedom'><img src='https://scottplot.net/images/contributors/quantfreedom.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/Lyakabynka'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/bukowa'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Lyakabynka'><img src='https://scottplot.net/images/contributors/lyakabynka.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/bukowa'><img src='https://scottplot.net/images/contributors/bukowa.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
