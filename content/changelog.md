@@ -26,7 +26,7 @@ Release notes for every version of ScottPlot
 </li>
 <li>Financial Charting: Added experimental <code>FinancialTimeAxis</code> plottable as an alternative to using custom axes or tick generators (<a href="https://github.com/ScottPlot/ScottPlot/issues/4385">#4385</a>) <a href="https://github.com/quantfreedom"><strong>@quantfreedom</strong></a> <a href="https://github.com/vladislavpweetsoft"><strong>@vladislavpweetsoft</strong></a>
 </li>
-<li>Triangular Axis: Users may now <code>Add.TriangularAxis()</code> and use its methods to get Cartesian coordinates from points in triangular space (<a href="https://github.com/ScottPlot/ScottPlot/issues/4421">#4421</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4413">#4413</a>) <a href="https://github.com/manaruto"><strong>@manaruto</strong></a>
+<li>Triangular Axis: Users may now <code>Add.TriangularAxis()</code> and use its methods to get Cartesian coordinates from points in triangular space (<a href="https://github.com/ScottPlot/ScottPlot/issues/4421">#4421</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4413">#4413</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4424">#4424</a>) <a href="https://github.com/manaruto"><strong>@manaruto</strong></a>
 </li>
 <li>Bar: Exposed <code>Rect</code>, <code>ErrorLines</code>, and <code>AxisLimits</code> properties (<a href="https://github.com/ScottPlot/ScottPlot/issues/4423">#4423</a>) <a href="https://github.com/tiger2014"><strong>@tiger2014</strong></a>
 </li>
