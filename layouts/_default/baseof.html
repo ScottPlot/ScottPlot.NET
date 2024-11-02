@@ -34,6 +34,7 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
     <script src="/js/anchor.js"></script>
+    <script src="/js/recipe.js?20241101b"></script>
 
     <link rel="stylesheet" href="/css/accordian.css?20231209">
     <link rel="stylesheet" href="/css/stats.css?20231209">
@@ -67,7 +68,10 @@
     <script src="{{ index $.Params.jsFiles $index }}"></script>
     {{ end }}
 
-    <script src="/js/recipe.js"></script>
+    <script>
+        // TODO: recall preference from local storage
+        set_language("Console");
+    </script>
 
 </body>
 

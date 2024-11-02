@@ -70,5 +70,3 @@ function set_language(name) {
 function set_language_button_clicked(button) {
     set_language(button.innerText);
 }
-
-set_language("Console"); // use console formatting at startup
