@@ -28,11 +28,13 @@ Release notes for every version of ScottPlot
 </li>
 <li>Triangular Axis: Users may now <code>Add.TriangularAxis()</code> and use its methods to get Cartesian coordinates from points in triangular space (<a href="https://github.com/ScottPlot/ScottPlot/issues/4421">#4421</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4413">#4413</a>) <a href="https://github.com/manaruto"><strong>@manaruto</strong></a>
 </li>
+<li>Bar: Exposed <code>Rect</code>, <code>ErrorLines</code>, and <code>AxisLimits</code> properties (<a href="https://github.com/ScottPlot/ScottPlot/issues/4423">#4423</a>) <a href="https://github.com/tiger2014"><strong>@tiger2014</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/KosmosWerner'>@KosmosWerner</a>, <a href='https://github.com/King-Taz'>@King-Taz</a>, <a href='https://github.com/cosmicDustOfLightLength'>@cosmicDustOfLightLength</a>, <a href='https://github.com/quantfreedom'>@quantfreedom</a>, <a href='https://github.com/Lyakabynka'>@Lyakabynka</a>, <a href='https://github.com/bukowa'>@bukowa</a>, <a href='https://github.com/vladislavpweetsoft'>@vladislavpweetsoft</a>, <a href='https://github.com/manaruto'>@manaruto</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/KosmosWerner'>@KosmosWerner</a>, <a href='https://github.com/King-Taz'>@King-Taz</a>, <a href='https://github.com/cosmicDustOfLightLength'>@cosmicDustOfLightLength</a>, <a href='https://github.com/quantfreedom'>@quantfreedom</a>, <a href='https://github.com/Lyakabynka'>@Lyakabynka</a>, <a href='https://github.com/bukowa'>@bukowa</a>, <a href='https://github.com/vladislavpweetsoft'>@vladislavpweetsoft</a>, <a href='https://github.com/manaruto'>@manaruto</a>, <a href='https://github.com/tiger2014'>@tiger2014</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/KosmosWerner'><img src='https://scottplot.net/images/contributors/kosmoswerner.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -43,6 +45,7 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/bukowa'><img src='https://scottplot.net/images/contributors/bukowa.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/vladislavpweetsoft'><img src='https://scottplot.net/images/contributors/vladislavpweetsoft.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/manaruto'><img src='https://scottplot.net/images/contributors/manaruto.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/tiger2014'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
