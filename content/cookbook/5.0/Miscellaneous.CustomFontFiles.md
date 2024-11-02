@@ -4,7 +4,7 @@ Description: Users can apply custom typefaces by loaded from font files.
 URL: /cookbook/5.0/Miscellaneous/CustomFontFiles/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Miscellaneous", "Custom Font Files"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Miscellaneous", "/cookbook/5.0/Miscellaneous/CustomFontFiles"]
-Date: 2024-11-01
+Date: 2024-11-02
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Users can apply custom typefaces by loaded from font files.
 
-[![](/cookbook/5.0/images/CustomFontFiles.png?241101192719)](/cookbook/5.0/images/CustomFontFiles.png?241101192719)
+[![](/cookbook/5.0/images/CustomFontFiles.png?241102170938)](/cookbook/5.0/images/CustomFontFiles.png?241102170938)
 
-{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Miscellaneous.cs" imageUrl="/cookbook/5.0/images/CustomFontFiles.png?241102170938" >}}ScottPlot.Plot myPlot = new();
 
 // Add a font file to use its typeface for fonts with a given name
 Fonts.AddFontFile(

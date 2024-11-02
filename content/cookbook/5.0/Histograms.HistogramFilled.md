@@ -4,7 +4,7 @@ Description: A filled histogram (one with no visible gaps between bars) can be a
 URL: /cookbook/5.0/Histograms/HistogramFilled/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Histogram", "Filled Histogram"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Histograms", "/cookbook/5.0/Histograms/HistogramFilled"]
-Date: 2024-11-01
+Date: 2024-11-02
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 A filled histogram (one with no visible gaps between bars) can be achieved by setting the bar width to the bin size. However, anti-aliasing artifacts may cause white lines to appear between bars. Disable anti-aliasing for each bar to improve appearance of such plots.
 
-[![](/cookbook/5.0/images/HistogramFilled.png?241101192719)](/cookbook/5.0/images/HistogramFilled.png?241101192719)
+[![](/cookbook/5.0/images/HistogramFilled.png?241102170938)](/cookbook/5.0/images/HistogramFilled.png?241102170938)
 
-{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Miscellaneous/Histograms.cs" imageUrl="/cookbook/5.0/images/HistogramFilled.png?241102170938" >}}ScottPlot.Plot myPlot = new();
 
 // Create a histogram from a collection of values
 double[] heights = SampleData.MaleHeights();

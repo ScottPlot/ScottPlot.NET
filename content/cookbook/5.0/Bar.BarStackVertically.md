@@ -4,7 +4,7 @@ Description: Bars can be positioned on top of each other.
 URL: /cookbook/5.0/Bar/BarStackVertically/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Bar Plot", "Stacked Bar Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Bar", "/cookbook/5.0/Bar/BarStackVertically"]
-Date: 2024-11-01
+Date: 2024-11-02
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Bars can be positioned on top of each other.
 
-[![](/cookbook/5.0/images/BarStackVertically.png?241101192719)](/cookbook/5.0/images/BarStackVertically.png?241101192719)
+[![](/cookbook/5.0/images/BarStackVertically.png?241102170938)](/cookbook/5.0/images/BarStackVertically.png?241102170938)
 
-{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs" imageUrl="/cookbook/5.0/images/BarStackVertically.png?241102170938" >}}ScottPlot.Plot myPlot = new();
 
 ScottPlot.Palettes.Category10 palette = new();
 

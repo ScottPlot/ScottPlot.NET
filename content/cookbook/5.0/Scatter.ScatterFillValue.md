@@ -4,7 +4,7 @@ Description: The base of the fill can be defined.
 URL: /cookbook/5.0/Scatter/ScatterFillValue/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Scatter Plot", "Scatter Plot Filled to a Value"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Scatter", "/cookbook/5.0/Scatter/ScatterFillValue"]
-Date: 2024-11-01
+Date: 2024-11-02
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 The base of the fill can be defined.
 
-[![](/cookbook/5.0/images/ScatterFillValue.png?241101192719)](/cookbook/5.0/images/ScatterFillValue.png?241101192719)
+[![](/cookbook/5.0/images/ScatterFillValue.png?241102170938)](/cookbook/5.0/images/ScatterFillValue.png?241102170938)
 
-{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Scatter.cs" imageUrl="/cookbook/5.0/images/ScatterFillValue.png?241102170938" >}}ScottPlot.Plot myPlot = new();
 
 double[] xs = Generate.Consecutive(51);
 double[] ys = Generate.Sin(51);

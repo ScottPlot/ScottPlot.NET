@@ -4,7 +4,7 @@ Description: A ScaleBar can be added to a plot to convey scale information allow
 URL: /cookbook/5.0/ScaleBar/ScaleBarQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Scale Bar", "ScaleBar Quickstart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/ScaleBar", "/cookbook/5.0/ScaleBar/ScaleBarQuickstart"]
-Date: 2024-11-01
+Date: 2024-11-02
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 A ScaleBar can be added to a plot to convey scale information allowing axis frames, ticks, and labels to be hidden.
 
-[![](/cookbook/5.0/images/ScaleBarQuickstart.png?241101192719)](/cookbook/5.0/images/ScaleBarQuickstart.png?241101192719)
+[![](/cookbook/5.0/images/ScaleBarQuickstart.png?241102170938)](/cookbook/5.0/images/ScaleBarQuickstart.png?241102170938)
 
-{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/ScaleBar.cs" imageUrl="/cookbook/5.0/images/ScaleBarQuickstart.png?241102170938" >}}ScottPlot.Plot myPlot = new();
 
 // plot sample data
 myPlot.Add.Signal(Generate.Sin());

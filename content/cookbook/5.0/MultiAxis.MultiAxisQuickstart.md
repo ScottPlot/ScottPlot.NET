@@ -4,7 +4,7 @@ Description: Additional axes may be added to plots. Plottables are displayed usi
 URL: /cookbook/5.0/MultiAxis/MultiAxisQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Multiple Axes", "Multi-Axis"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/MultiAxis", "/cookbook/5.0/MultiAxis/MultiAxisQuickstart"]
-Date: 2024-11-01
+Date: 2024-11-02
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Additional axes may be added to plots. Plottables are displayed using the coordinate system of the primary axes by default, but any plottable can be displayed using any X and Y axis.
 
-[![](/cookbook/5.0/images/MultiAxisQuickstart.png?241101192719)](/cookbook/5.0/images/MultiAxisQuickstart.png?241101192719)
+[![](/cookbook/5.0/images/MultiAxisQuickstart.png?241102170938)](/cookbook/5.0/images/MultiAxisQuickstart.png?241102170938)
 
-{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/MultiAxis.cs" imageUrl="/cookbook/5.0/images/MultiAxisQuickstart.png?241102170938" >}}ScottPlot.Plot myPlot = new();
 
 // plottables use the standard X and Y axes by default
 var sig1 = myPlot.Add.Signal(ScottPlot.Generate.Sin(51, mult: 0.01));

@@ -4,7 +4,7 @@ Description: Assign double.NaN to a heatmap cell to make it transparent.
 URL: /cookbook/5.0/Heatmap/HeatmapTransparentCells/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Heatmap", "Transparent Cells"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Heatmap", "/cookbook/5.0/Heatmap/HeatmapTransparentCells"]
-Date: 2024-11-01
+Date: 2024-11-02
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Assign double.NaN to a heatmap cell to make it transparent.
 
-[![](/cookbook/5.0/images/HeatmapTransparentCells.png?241101192719)](/cookbook/5.0/images/HeatmapTransparentCells.png?241101192719)
+[![](/cookbook/5.0/images/HeatmapTransparentCells.png?241102170938)](/cookbook/5.0/images/HeatmapTransparentCells.png?241102170938)
 
-{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Heatmap.cs" imageUrl="/cookbook/5.0/images/HeatmapTransparentCells.png?241102170938" >}}ScottPlot.Plot myPlot = new();
 
 // start with 2D data and set some cells to NaN
 double[,] data = SampleData.MonaLisa();

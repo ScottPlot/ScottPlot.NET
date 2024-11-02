@@ -4,7 +4,7 @@ Description: Line plots can be placed on the plot in coordinate space using a St
 URL: /cookbook/5.0/LinePlot/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Line Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/LinePlot"]
-Date: 2024-11-01
+Date: 2024-11-02
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -23,9 +23,9 @@ ShowEditLink: false
 
 Line plots are placed with a start and end location in coordinate space. Their styles can be customized.
 
-[![](/cookbook/5.0/images/LineQuickStart.png?241101192719)](/cookbook/5.0/images/LineQuickStart.png?241101192719)
+[![](/cookbook/5.0/images/LineQuickStart.png?241102170938)](/cookbook/5.0/images/LineQuickStart.png?241102170938)
 
-{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Line.cs" imageUrl="/cookbook/5.0/images/LineQuickStart.png?241102170938" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Line(1, 12, 12, 0);
 myPlot.Add.Line(7, 9, 42, 9);
@@ -47,9 +47,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Line plots can be styled using a LineStyle.
 
-[![](/cookbook/5.0/images/LinePlotStyles.png?241101192719)](/cookbook/5.0/images/LinePlotStyles.png?241101192719)
+[![](/cookbook/5.0/images/LinePlotStyles.png?241102170938)](/cookbook/5.0/images/LinePlotStyles.png?241102170938)
 
-{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Line.cs" imageUrl="/cookbook/5.0/images/LinePlotStyles.png?241102170938" >}}ScottPlot.Plot myPlot = new();
 
 ScottPlot.Colormaps.Viridis colormap = new();
 
@@ -87,9 +87,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Line plots with labels appear in the legend.
 
-[![](/cookbook/5.0/images/LinePlotLegendQWER.png?241101192719)](/cookbook/5.0/images/LinePlotLegendQWER.png?241101192719)
+[![](/cookbook/5.0/images/LinePlotLegendQWER.png?241102170938)](/cookbook/5.0/images/LinePlotLegendQWER.png?241102170938)
 
-{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Line.cs" imageUrl="/cookbook/5.0/images/LinePlotLegendQWER.png?241102170938" >}}ScottPlot.Plot myPlot = new();
 
 var sin = myPlot.Add.Signal(Generate.Sin());
 sin.LegendText = "Sine";

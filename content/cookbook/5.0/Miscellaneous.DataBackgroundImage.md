@@ -4,7 +4,7 @@ Description: An image can be used for the background of the data area.
 URL: /cookbook/5.0/Miscellaneous/DataBackgroundImage/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Miscellaneous", "Data Area Background Image"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Miscellaneous", "/cookbook/5.0/Miscellaneous/DataBackgroundImage"]
-Date: 2024-11-01
+Date: 2024-11-02
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 An image can be used for the background of the data area.
 
-[![](/cookbook/5.0/images/DataBackgroundImage.png?241101192719)](/cookbook/5.0/images/DataBackgroundImage.png?241101192719)
+[![](/cookbook/5.0/images/DataBackgroundImage.png?241102170938)](/cookbook/5.0/images/DataBackgroundImage.png?241102170938)
 
-{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Miscellaneous.cs" imageUrl="/cookbook/5.0/images/DataBackgroundImage.png?241102170938" >}}ScottPlot.Plot myPlot = new();
 
 // plot sample data
 var sig1 = myPlot.Add.Signal(Generate.Sin());

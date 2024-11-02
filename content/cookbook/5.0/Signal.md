@@ -4,7 +4,7 @@ Description: Signal plots display evenly-spaced data
 URL: /cookbook/5.0/Signal/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Signal Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Signal"]
-Date: 2024-11-01
+Date: 2024-11-02
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -23,9 +23,9 @@ ShowEditLink: false
 
 Signal plots are best for extremely large datasets. They use render using special optimizations that allow highspeed interactivity with plots containing millions of data points.
 
-[![](/cookbook/5.0/images/SignalQuickstart.png?241101192719)](/cookbook/5.0/images/SignalQuickstart.png?241101192719)
+[![](/cookbook/5.0/images/SignalQuickstart.png?241102170938)](/cookbook/5.0/images/SignalQuickstart.png?241102170938)
 
-{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Signal.cs" imageUrl="/cookbook/5.0/images/SignalQuickstart.png?241102170938" >}}ScottPlot.Plot myPlot = new();
 
 double[] values = Generate.RandomWalk(1_000_000);
 
@@ -49,9 +49,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Signal plots can be styled in a variety of ways.
 
-[![](/cookbook/5.0/images/SignalStyling.png?241101192719)](/cookbook/5.0/images/SignalStyling.png?241101192719)
+[![](/cookbook/5.0/images/SignalStyling.png?241102170938)](/cookbook/5.0/images/SignalStyling.png?241102170938)
 
-{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Signal.cs" imageUrl="/cookbook/5.0/images/SignalStyling.png?241102170938" >}}ScottPlot.Plot myPlot = new();
 
 var sig1 = myPlot.Add.Signal(Generate.Sin());
 sig1.Color = Colors.Magenta;
@@ -81,9 +81,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Signal plots can be offset by a given X and Y value.
 
-[![](/cookbook/5.0/images/SignalOffset.png?241101192719)](/cookbook/5.0/images/SignalOffset.png?241101192719)
+[![](/cookbook/5.0/images/SignalOffset.png?241102170938)](/cookbook/5.0/images/SignalOffset.png?241102170938)
 
-{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Signal.cs" imageUrl="/cookbook/5.0/images/SignalOffset.png?241102170938" >}}ScottPlot.Plot myPlot = new();
 
 double[] values = ScottPlot.Generate.Sin(51);
 
@@ -113,9 +113,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Signal plots can be scaled vertically according to a user-defined amount.
 
-[![](/cookbook/5.0/images/SignalScaleY.png?241101192719)](/cookbook/5.0/images/SignalScaleY.png?241101192719)
+[![](/cookbook/5.0/images/SignalScaleY.png?241102170938)](/cookbook/5.0/images/SignalScaleY.png?241102170938)
 
-{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Signal.cs" imageUrl="/cookbook/5.0/images/SignalScaleY.png?241102170938" >}}ScottPlot.Plot myPlot = new();
 
 // plot values between -1 and 1
 double[] values = ScottPlot.Generate.Sin(51);
@@ -140,9 +140,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Signal plots can have markers displayed at each point which are only visible when the plot is zoomed in.
 
-[![](/cookbook/5.0/images/SignalMarkerSize.png?241101192719)](/cookbook/5.0/images/SignalMarkerSize.png?241101192719)
+[![](/cookbook/5.0/images/SignalMarkerSize.png?241102170938)](/cookbook/5.0/images/SignalMarkerSize.png?241102170938)
 
-{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Signal.cs" imageUrl="/cookbook/5.0/images/SignalMarkerSize.png?241102170938" >}}ScottPlot.Plot myPlot = new();
 
 var sig1 = myPlot.Add.Signal(Generate.Cos());
 sig1.LegendText = "Default";
@@ -176,9 +176,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Even if a signal plot references a large array of data, rendering can be limited to a range of values. If set,only the range of data between the minimum and maximum render indexes will be displayed.
 
-[![](/cookbook/5.0/images/SignalRenderIndexes.png?241101192719)](/cookbook/5.0/images/SignalRenderIndexes.png?241101192719)
+[![](/cookbook/5.0/images/SignalRenderIndexes.png?241102170938)](/cookbook/5.0/images/SignalRenderIndexes.png?241102170938)
 
-{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Signal.cs" imageUrl="/cookbook/5.0/images/SignalRenderIndexes.png?241102170938" >}}ScottPlot.Plot myPlot = new();
 
 double[] values = Generate.RandomWalk(1000);
 
@@ -221,9 +221,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Signal plots support generic data types, although double is typically the most performant.
 
-[![](/cookbook/5.0/images/SignalGeneric.png?241101192719)](/cookbook/5.0/images/SignalGeneric.png?241101192719)
+[![](/cookbook/5.0/images/SignalGeneric.png?241102170938)](/cookbook/5.0/images/SignalGeneric.png?241102170938)
 
-{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Signal.cs" imageUrl="/cookbook/5.0/images/SignalGeneric.png?241102170938" >}}ScottPlot.Plot myPlot = new();
 
 int[] values = Generate.RandomIntegers(1000, -100, 100);
 
@@ -245,9 +245,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 A signal plot may use DateTime units but be sure to setup the respective axis to display using DateTime format.
 
-[![](/cookbook/5.0/images/SignalDateTime.png?241101192719)](/cookbook/5.0/images/SignalDateTime.png?241101192719)
+[![](/cookbook/5.0/images/SignalDateTime.png?241102170938)](/cookbook/5.0/images/SignalDateTime.png?241102170938)
 
-{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Signal.cs" imageUrl="/cookbook/5.0/images/SignalDateTime.png?241102170938" >}}ScottPlot.Plot myPlot = new();
 
 DateTime start = new(2024, 1, 1);
 double[] ys = Generate.RandomWalk(200);

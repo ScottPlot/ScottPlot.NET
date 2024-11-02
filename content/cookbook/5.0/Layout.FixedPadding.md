@@ -4,7 +4,7 @@ Description: The plot can be arranged to achieve a fixed amount of padding on ea
 URL: /cookbook/5.0/Layout/FixedPadding/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Layout", "Fixed Padding"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Layout", "/cookbook/5.0/Layout/FixedPadding"]
-Date: 2024-11-01
+Date: 2024-11-02
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 The plot can be arranged to achieve a fixed amount of padding on each side of the data area
 
-[![](/cookbook/5.0/images/FixedPadding.png?241101192719)](/cookbook/5.0/images/FixedPadding.png?241101192719)
+[![](/cookbook/5.0/images/FixedPadding.png?241102170938)](/cookbook/5.0/images/FixedPadding.png?241102170938)
 
-{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/LayoutRecipes.cs" imageUrl="/cookbook/5.0/images/FixedPadding.png?241102170938" >}}ScottPlot.Plot myPlot = new();
 
 // add sample data to the plot
 myPlot.Add.Signal(Generate.Sin(51));

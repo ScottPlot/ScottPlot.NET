@@ -1,10 +1,10 @@
 ---
 Title: Polar Axis Line Customization - ScottPlot 5.0 Cookbook
 Description: The angle and length of spokes and position of circles can be manually defined. Each spoke and circle may also be individually styled.
-URL: /cookbook/5.0/Polar/PolarAxisLineCustomizations/
+URL: /cookbook/5.0/PolarAxis/PolarAxisLineCustomizations/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Polar Axis", "Polar Axis Line Customization"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Polar", "/cookbook/5.0/Polar/PolarAxisLineCustomizations"]
-Date: 2024-11-01
+BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/PolarAxis", "/cookbook/5.0/PolarAxis/PolarAxisLineCustomizations"]
+Date: 2024-11-02
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 The angle and length of spokes and position of circles can be manually defined. Each spoke and circle may also be individually styled.
 
-[![](/cookbook/5.0/images/PolarAxisLineCustomizations.png?241101192719)](/cookbook/5.0/images/PolarAxisLineCustomizations.png?241101192719)
+[![](/cookbook/5.0/images/PolarAxisLineCustomizations.png?241102170938)](/cookbook/5.0/images/PolarAxisLineCustomizations.png?241102170938)
 
-{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/PolarAxis.cs" imageUrl="/cookbook/5.0/images/PolarAxisLineCustomizations.png?241102170938" >}}ScottPlot.Plot myPlot = new();
 
 var polarAxis = myPlot.Add.PolarAxis();
 
@@ -50,6 +50,6 @@ for (int i = 0; i < 3; i++)
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
-<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5.0/Polar'>Polar Axis</a> category</div>
+<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5.0/PolarAxis'>Polar Axis</a> category</div>
 
 

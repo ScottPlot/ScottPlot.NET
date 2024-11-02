@@ -4,7 +4,7 @@ Description: Ellipses styles can be extensively customized
 URL: /cookbook/5.0/Ellipse/EllipseStyling/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Ellipse", "Ellipse Styling"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Ellipse", "/cookbook/5.0/Ellipse/EllipseStyling"]
-Date: 2024-11-01
+Date: 2024-11-02
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Ellipses styles can be extensively customized
 
-[![](/cookbook/5.0/images/EllipseStyling.png?241101192719)](/cookbook/5.0/images/EllipseStyling.png?241101192719)
+[![](/cookbook/5.0/images/EllipseStyling.png?241102170938)](/cookbook/5.0/images/EllipseStyling.png?241102170938)
 
-{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Ellipse.cs" imageUrl="/cookbook/5.0/images/EllipseStyling.png?241102170938" >}}ScottPlot.Plot myPlot = new();
 
 var circle = myPlot.Add.Circle(center: Coordinates.Origin, radius: 5);
 circle.LineStyle.Width = 5;

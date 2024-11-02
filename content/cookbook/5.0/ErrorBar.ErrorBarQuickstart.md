@@ -4,7 +4,7 @@ Description: Error Bars go well with scatter plots.
 URL: /cookbook/5.0/ErrorBar/ErrorBarQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Error Bars", "Error Bar Quickstart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/ErrorBar", "/cookbook/5.0/ErrorBar/ErrorBarQuickstart"]
-Date: 2024-11-01
+Date: 2024-11-02
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Error Bars go well with scatter plots.
 
-[![](/cookbook/5.0/images/ErrorBarQuickstart.png?241101192719)](/cookbook/5.0/images/ErrorBarQuickstart.png?241101192719)
+[![](/cookbook/5.0/images/ErrorBarQuickstart.png?241102170938)](/cookbook/5.0/images/ErrorBarQuickstart.png?241102170938)
 
-{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/ErrorBar.cs" imageUrl="/cookbook/5.0/images/ErrorBarQuickstart.png?241102170938" >}}ScottPlot.Plot myPlot = new();
 
 int points = 30;
 

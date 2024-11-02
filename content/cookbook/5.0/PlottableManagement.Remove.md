@@ -4,7 +4,7 @@ Description: Individual items may be removed from the plot.
 URL: /cookbook/5.0/PlottableManagement/Remove/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Plottable Management", "Removing a Plottable"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/PlottableManagement", "/cookbook/5.0/PlottableManagement/Remove"]
-Date: 2024-11-01
+Date: 2024-11-02
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Individual items may be removed from the plot.
 
-[![](/cookbook/5.0/images/Remove.png?241101192719)](/cookbook/5.0/images/Remove.png?241101192719)
+[![](/cookbook/5.0/images/Remove.png?241102170938)](/cookbook/5.0/images/Remove.png?241102170938)
 
-{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/PlottableManagement.cs" imageUrl="/cookbook/5.0/images/Remove.png?241102170938" >}}ScottPlot.Plot myPlot = new();
 
 // add plottables
 var sig1 = myPlot.Add.Signal(Generate.Sin());

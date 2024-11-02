@@ -4,7 +4,7 @@ Description: Use custom fonts from TTF files in the legend.
 URL: /cookbook/5.0/Legend/LegendCustomFontAutomaticItems/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Legends", "Automatic Legend Items Custom Font"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Legend", "/cookbook/5.0/Legend/LegendCustomFontAutomaticItems"]
-Date: 2024-11-01
+Date: 2024-11-02
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Use custom fonts from TTF files in the legend.
 
-[![](/cookbook/5.0/images/LegendCustomFontAutomaticItems.png?241101192719)](/cookbook/5.0/images/LegendCustomFontAutomaticItems.png?241101192719)
+[![](/cookbook/5.0/images/LegendCustomFontAutomaticItems.png?241102170938)](/cookbook/5.0/images/LegendCustomFontAutomaticItems.png?241102170938)
 
-{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Legend.cs" imageUrl="/cookbook/5.0/images/LegendCustomFontAutomaticItems.png?241102170938" >}}ScottPlot.Plot myPlot = new();
 
 Fonts.AddFontFile("Alumni Sans", Path.Combine(GetFontsBasePath(), @"AlumniSans/AlumniSans-Regular.ttf"), bold: false, italic: false);
 

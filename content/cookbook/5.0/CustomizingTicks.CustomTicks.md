@@ -4,7 +4,7 @@ Description: Users desiring more control over major and minor tick positions and
 URL: /cookbook/5.0/CustomizingTicks/CustomTicks/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Customizing Ticks", "Custom Tick Positions"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/CustomizingTicks", "/cookbook/5.0/CustomizingTicks/CustomTicks"]
-Date: 2024-11-01
+Date: 2024-11-02
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Users desiring more control over major and minor tick positions and labels can instantiate a manual tick generator, set it up as desired, then assign it to the axis being customized
 
-[![](/cookbook/5.0/images/CustomTicks.png?241101192719)](/cookbook/5.0/images/CustomTicks.png?241101192719)
+[![](/cookbook/5.0/images/CustomTicks.png?241102170938)](/cookbook/5.0/images/CustomTicks.png?241102170938)
 
-{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs" imageUrl="/cookbook/5.0/images/CustomTicks.png?241102170938" >}}ScottPlot.Plot myPlot = new();
 
 // display sample data
 myPlot.Add.Signal(Generate.Sin());

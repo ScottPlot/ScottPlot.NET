@@ -4,7 +4,7 @@ Description: Access the Legend object directly for advanced customization option
 URL: /cookbook/5.0/Legend/LegendStyle/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Legends", "Legend Customization"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Legend", "/cookbook/5.0/Legend/LegendStyle"]
-Date: 2024-11-01
+Date: 2024-11-02
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Access the Legend object directly for advanced customization options.
 
-[![](/cookbook/5.0/images/LegendStyle.png?241101192719)](/cookbook/5.0/images/LegendStyle.png?241101192719)
+[![](/cookbook/5.0/images/LegendStyle.png?241102170938)](/cookbook/5.0/images/LegendStyle.png?241102170938)
 
-{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Legend.cs" imageUrl="/cookbook/5.0/images/LegendStyle.png?241102170938" >}}ScottPlot.Plot myPlot = new();
 
 var sig1 = myPlot.Add.Signal(Generate.Sin(51));
 sig1.LegendText = "Sin";

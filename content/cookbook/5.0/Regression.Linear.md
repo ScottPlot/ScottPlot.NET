@@ -4,7 +4,7 @@ Description: Fit a line to a collection of X/Y data points.
 URL: /cookbook/5.0/Regression/Linear/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Regression", "Linear Regression"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Regression", "/cookbook/5.0/Regression/Linear"]
-Date: 2024-11-01
+Date: 2024-11-02
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Fit a line to a collection of X/Y data points.
 
-[![](/cookbook/5.0/images/Linear.png?241101192719)](/cookbook/5.0/images/Linear.png?241101192719)
+[![](/cookbook/5.0/images/Linear.png?241102170938)](/cookbook/5.0/images/Linear.png?241102170938)
 
-{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Miscellaneous/Regression.cs" imageUrl="/cookbook/5.0/images/Linear.png?241102170938" >}}ScottPlot.Plot myPlot = new();
 
 double[] xs = new double[] { 1, 2, 3, 4, 5, 6, 7 };
 double[] ys = new double[] { 2, 2, 3, 3, 3.8, 4.2, 4 };

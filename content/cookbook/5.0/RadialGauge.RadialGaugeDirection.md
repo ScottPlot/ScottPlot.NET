@@ -4,7 +4,7 @@ Description: The direction of gauges can be customized. Clockwise is used by def
 URL: /cookbook/5.0/RadialGauge/RadialGaugeDirection/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Radial gauge", "Gauge Direction"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/RadialGauge", "/cookbook/5.0/RadialGauge/RadialGaugeDirection"]
-Date: 2024-11-01
+Date: 2024-11-02
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 The direction of gauges can be customized. Clockwise is used by default.
 
-[![](/cookbook/5.0/images/RadialGaugeDirection.png?241101192719)](/cookbook/5.0/images/RadialGaugeDirection.png?241101192719)
+[![](/cookbook/5.0/images/RadialGaugeDirection.png?241102170938)](/cookbook/5.0/images/RadialGaugeDirection.png?241102170938)
 
-{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/RadialGauge.cs" imageUrl="/cookbook/5.0/images/RadialGaugeDirection.png?241102170938" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Palette = new ScottPlot.Palettes.Nord();
 double[] values = { 100, 80, 65, 45, 20 };

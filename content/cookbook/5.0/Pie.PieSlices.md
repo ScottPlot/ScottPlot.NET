@@ -4,7 +4,7 @@ Description: A pie chart can be created from a collection of slices.
 URL: /cookbook/5.0/Pie/PieSlices/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Pie", "Pie Chart from Slices"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Pie", "/cookbook/5.0/Pie/PieSlices"]
-Date: 2024-11-01
+Date: 2024-11-02
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 A pie chart can be created from a collection of slices.
 
-[![](/cookbook/5.0/images/PieSlices.png?241101192719)](/cookbook/5.0/images/PieSlices.png?241101192719)
+[![](/cookbook/5.0/images/PieSlices.png?241102170938)](/cookbook/5.0/images/PieSlices.png?241102170938)
 
-{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Pie.cs" imageUrl="/cookbook/5.0/images/PieSlices.png?241102170938" >}}ScottPlot.Plot myPlot = new();
 
 List<PieSlice> slices =
 [

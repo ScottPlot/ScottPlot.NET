@@ -4,7 +4,7 @@ Description: Collections of markers that are all styled the same may be added to
 URL: /cookbook/5.0/Marker/MarkersPlot/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Marker", "Many Markers"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Marker", "/cookbook/5.0/Marker/MarkersPlot"]
-Date: 2024-11-01
+Date: 2024-11-02
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Collections of markers that are all styled the same may be added to the plot
 
-[![](/cookbook/5.0/images/MarkersPlot.png?241101192719)](/cookbook/5.0/images/MarkersPlot.png?241101192719)
+[![](/cookbook/5.0/images/MarkersPlot.png?241102170938)](/cookbook/5.0/images/MarkersPlot.png?241102170938)
 
-{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Marker.cs" imageUrl="/cookbook/5.0/images/MarkersPlot.png?241102170938" >}}ScottPlot.Plot myPlot = new();
 
 double[] xs = Generate.Consecutive(51);
 double[] sin = Generate.Sin(51);

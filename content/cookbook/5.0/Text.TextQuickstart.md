@@ -4,7 +4,7 @@ Description: Text can be placed anywhere in coordinate space.
 URL: /cookbook/5.0/Text/TextQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Text", "Text Quickstart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Text", "/cookbook/5.0/Text/TextQuickstart"]
-Date: 2024-11-01
+Date: 2024-11-02
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Text can be placed anywhere in coordinate space.
 
-[![](/cookbook/5.0/images/TextQuickstart.png?241101192719)](/cookbook/5.0/images/TextQuickstart.png?241101192719)
+[![](/cookbook/5.0/images/TextQuickstart.png?241102170938)](/cookbook/5.0/images/TextQuickstart.png?241102170938)
 
-{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Text.cs" imageUrl="/cookbook/5.0/images/TextQuickstart.png?241102170938" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin());
 myPlot.Add.Signal(Generate.Cos());

@@ -4,7 +4,7 @@ Description: A histogram can be created from a collection of values.
 URL: /cookbook/5.0/Histograms/HistogramQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Histogram", "Histogram Quickstart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Histograms", "/cookbook/5.0/Histograms/HistogramQuickstart"]
-Date: 2024-11-01
+Date: 2024-11-02
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 A histogram can be created from a collection of values.
 
-[![](/cookbook/5.0/images/HistogramQuickstart.png?241101192719)](/cookbook/5.0/images/HistogramQuickstart.png?241101192719)
+[![](/cookbook/5.0/images/HistogramQuickstart.png?241102170938)](/cookbook/5.0/images/HistogramQuickstart.png?241102170938)
 
-{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Miscellaneous/Histograms.cs" imageUrl="/cookbook/5.0/images/HistogramQuickstart.png?241102170938" >}}ScottPlot.Plot myPlot = new();
 
 // Create a histogram from a collection of values
 double[] heights = SampleData.MaleHeights();

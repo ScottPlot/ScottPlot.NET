@@ -4,7 +4,7 @@ Description: A circle can be placed on the plot and styled as desired.
 URL: /cookbook/5.0/Shapes/CircleQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Shapes", "Circle"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Shapes", "/cookbook/5.0/Shapes/CircleQuickstart"]
-Date: 2024-11-01
+Date: 2024-11-02
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 A circle can be placed on the plot and styled as desired.
 
-[![](/cookbook/5.0/images/CircleQuickstart.png?241101192719)](/cookbook/5.0/images/CircleQuickstart.png?241101192719)
+[![](/cookbook/5.0/images/CircleQuickstart.png?241102170938)](/cookbook/5.0/images/CircleQuickstart.png?241102170938)
 
-{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Shapes.cs" imageUrl="/cookbook/5.0/images/CircleQuickstart.png?241102170938" >}}ScottPlot.Plot myPlot = new();
 
 var c1 = myPlot.Add.Circle(1, 0, .5);
 var c2 = myPlot.Add.Circle(2, 0, .5);

@@ -4,7 +4,7 @@ Description: Plots contain many objects which can be customized individually by 
 URL: /cookbook/5.0/Styling/StyleClass/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Styling Plots", "Style Helper Functions"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Styling", "/cookbook/5.0/Styling/StyleClass"]
-Date: 2024-11-01
+Date: 2024-11-02
 Version: ScottPlot 5.0.42
 Version: ScottPlot 5.0.42
 SearchUrl: "/cookbook/5.0/search/"
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Plots contain many objects which can be customized individually by assigning to their public properties, but helper methods exist in the Plot's Style object that make it easier to customize many items at once using a simpler API.
 
-[![](/cookbook/5.0/images/StyleClass.png?241101192719)](/cookbook/5.0/images/StyleClass.png?241101192719)
+[![](/cookbook/5.0/images/StyleClass.png?241102170938)](/cookbook/5.0/images/StyleClass.png?241102170938)
 
-{{< recipe-sp5 >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs" imageUrl="/cookbook/5.0/images/StyleClass.png?241102170938" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin(51));
 myPlot.Add.Signal(Generate.Cos(51));
