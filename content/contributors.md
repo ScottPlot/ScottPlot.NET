@@ -44,6 +44,10 @@ Members of the open-source community who contributed to ScottPlot
 <div><a href='https://github.com/vladislavpweetsoft'>@vladislavpweetsoft</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
+<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/manaruto.jpg' height='125' width='125'/></a></div>
+<div><a href='https://github.com/manaruto'>@manaruto</a></div>
+</div>
+<div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/or8e4m4n.jpg' height='125' width='125'/></a></div>
 <div><a href='https://github.com/Or8e4m4n'>@Or8e4m4n</a></div>
 </div>
@@ -718,10 +722,6 @@ Members of the open-source community who contributed to ScottPlot
 <div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/fujiangang.png' height='125' width='125'/></a></div>
 <div><a href='https://github.com/fujiangang'>@fujiangang</a></div>
-</div>
-<div class='bg-light border rounded text-center mx-3 my-2'>
-<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/manaruto.jpg' height='125' width='125'/></a></div>
-<div><a href='https://github.com/manaruto'>@manaruto</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/marekjur.png' height='125' width='125'/></a></div>
