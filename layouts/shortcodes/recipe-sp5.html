@@ -1,11 +1,30 @@
+{{ $sourceUrl := .Get "sourceUrl" }}
+{{ $fileName := path.Base $sourceUrl }}
+{{ $imageUrl := .Get "imageUrl" }}
+{{ $classFileName := path.Base $imageUrl }}
+{{ $className := index (split $classFileName ".") 0 }}
+
 <div class="p-2">
     <div class="text-light rounded"
         style="background-color: #181818; border: 2px solid #181818; box-shadow: 10px 10px 20px #00000066;">
 
-        <div class="d-inline-block mx-2 mb-2">
-            <span class="circle circle-red"></span>
-            <span class="circle circle-yellow"></span>
-            <span class="circle circle-green"></span>
+        <div class="mx-2 mb-2 d-flex">
+            <div>
+                <span class="circle circle-red"></span>
+                <span class="circle circle-yellow"></span>
+                <span class="circle circle-green"></span>
+            </div>
+            <div class="px-1 text-center flex-grow-1">
+                <a class="font-monospace fw-light text-light" style="font-size: 0.9em; opacity: .5;"
+                    href='{{ $sourceUrl }}'>
+                    {{ $fileName }}
+                </a>
+            </div>
+            <div>
+                <span class="circle invisible"></span>
+                <span class="circle invisible"></span>
+                <span class="circle invisible"></span>
+            </div>
         </div>
 
         <div class="switch-language-bar d-flex">
@@ -19,11 +38,11 @@
         </div>
         <div class="p-2 recipe-code-container" style="background-color: #272727">
             <pre class="m-0"><code class="language-cs">{{ .Inner }}</code></pre>
-            <pre class="m-0 language-cs p-0 border-0 rounded rounded-0" style="background-color: inherit !important;"><code class="language-cs"></code></pre>
+            <pre class="m-0 language-cs p-0 border-0 rounded rounded-0"
+                style="background-color: inherit !important;"><code class="language-cs"></code></pre>
         </div>
         <div class="text-end">
-            <a href="https://github.com/ScottPlot/ScottPlot/tree/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes"
-                style="font-size: 0.8em; opacity: .5;" class="text-light px-2" target="_blank">
+            <a href='{{ $sourceUrl }}' style="font-size: 0.8em; opacity: .5;" class="text-light px-2" target="_blank">
                 Edit on GitHub
             </a>
         </div>
