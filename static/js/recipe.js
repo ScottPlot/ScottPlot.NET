@@ -48,6 +48,7 @@ function highlight_language_tab(recipe_container, name) {
 }
 
 function set_language(name) {
+    localStorage.setItem("startupLanguage", name);
     document.querySelectorAll(".recipe-code-container")
         .forEach(el => {
             pre = recipe_reset(el);
