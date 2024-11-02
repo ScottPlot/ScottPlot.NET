@@ -35,40 +35,40 @@ function getControlCode(original_code, control_name) {
     return lines.join("\n").replaceAll("myPlot.", `${control_name}.Plot.`);
 }
 
-function select_single_button(button) {
-    const buttons = button.parentElement.querySelectorAll("button");
-    buttons.forEach(x => x.classList.remove("active"));
-    buttons.forEach(x => x.classList.add("inactive"));
-    button.classList.add("active");
-    button.classList.remove("inactive");
+function highlight_language_tab(recipe_container, name) {
+    recipe_container.parentElement.querySelectorAll("button").forEach(button => {
+        if (button.innerText == name) {
+            button.classList.add("active");
+            button.classList.remove("inactive");
+        } else {
+            button.classList.remove("active");
+            button.classList.add("inactive");
+        }
+    })
 }
 
-function recipe_button_console(button) {
-    select_single_button(button);
-    pre = recipe_reset(button.parentElement.parentElement);
-    highlight(pre);
+function set_language(name) {
+    document.querySelectorAll(".recipe-code-container")
+        .forEach(el => {
+            pre = recipe_reset(el);
+            highlight_language_tab(el, name);
+            if (name == "Console") {
+                // do nothing
+            } else if (name == "WinForms") {
+                pre.innerHTML = getControlCode(pre.innerHTML, 'formsPlot1');
+            } else if (name == "WPF") {
+                pre.innerHTML = getControlCode(pre.innerHTML, 'WpfPlot1');
+            } else if (name == "Other") {
+                pre.innerHTML = getControlCode(pre.innerHTML, 'MyPlotControl');
+            } else {
+                console.error("unknown language: " + name)
+            }
+            highlight(pre);
+        });
 }
 
-function recipe_button_winforms(button) {
-    select_single_button(button);
-    pre = recipe_reset(button.parentElement.parentElement);
-    pre.innerHTML = getControlCode(pre.innerHTML, 'formsPlot1');
-    highlight(pre);
+function set_language_button_clicked(button) {
+    set_language(button.innerText);
 }
 
-function recipe_button_wpf(button) {
-    select_single_button(button);
-    pre = recipe_reset(button.parentElement.parentElement);
-    pre.innerHTML = getControlCode(pre.innerHTML, 'WpfPlot1');
-    highlight(pre);
-}
-
-function recipe_button_other(button) {
-    select_single_button(button);
-    pre = recipe_reset(button.parentElement.parentElement);
-    pre.innerHTML = getControlCode(pre.innerHTML, 'MyPlotControl');
-    highlight(pre);
-}
-
-/* startup using the console highlighting as if the console button were clicked */
-document.querySelectorAll(".recipe-code-container").forEach(el => { pre = recipe_reset(el); highlight(pre); });
+set_language("Console"); // use console formatting at startup
