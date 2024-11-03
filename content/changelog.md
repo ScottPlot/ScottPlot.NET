@@ -14,6 +14,8 @@ Release notes for every version of ScottPlot
 <ul>
 <li>Rendering: Prevent inversion of data area for extremely small plots (<a href="https://github.com/ScottPlot/ScottPlot/issues/3607">#3607</a>)
 </li>
+<li>Generate: Created <code>AddSin()</code> and <code>AddSinInPlace()</code> methods to facilitate test data generation (<a href="https://github.com/ScottPlot/ScottPlot/issues/3682">#3682</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
