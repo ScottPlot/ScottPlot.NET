@@ -32,6 +32,8 @@ Release notes for every version of ScottPlot
 </li>
 <li>Axes: <code>SquareUnits()</code> now uses <code>SquareZoomOut</code> for console apps and <code>SquarePreserveX</code> for interactive apps (<a href="https://github.com/ScottPlot/ScottPlot/issues/4422">#4422</a>) <a href="https://github.com/King-Taz"><strong>@King-Taz</strong></a> <a href="https://github.com/KosmosWerner"><strong>@KosmosWerner</strong></a>
 </li>
+<li>Bar: Improved support for bat plots with custom hatch patterns (<a href="https://github.com/ScottPlot/ScottPlot/issues/3386">#3386</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
