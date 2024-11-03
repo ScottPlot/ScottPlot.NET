@@ -34,11 +34,13 @@ Release notes for every version of ScottPlot
 </li>
 <li>Bar: Improved support for bat plots with custom hatch patterns (<a href="https://github.com/ScottPlot/ScottPlot/issues/3386">#3386</a>)
 </li>
+<li>Floating Axis: New plot type for displaying axes anywhere inside the data area (<a href="https://github.com/ScottPlot/ScottPlot/issues/3377">#3377</a>) <a href="https://github.com/ZTaiIT1025"><strong>@ZTaiIT1025</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/KosmosWerner'>@KosmosWerner</a>, <a href='https://github.com/King-Taz'>@King-Taz</a>, <a href='https://github.com/cosmicDustOfLightLength'>@cosmicDustOfLightLength</a>, <a href='https://github.com/quantfreedom'>@quantfreedom</a>, <a href='https://github.com/Lyakabynka'>@Lyakabynka</a>, <a href='https://github.com/bukowa'>@bukowa</a>, <a href='https://github.com/vladislavpweetsoft'>@vladislavpweetsoft</a>, <a href='https://github.com/manaruto'>@manaruto</a>, <a href='https://github.com/tiger2014'>@tiger2014</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/KosmosWerner'>@KosmosWerner</a>, <a href='https://github.com/King-Taz'>@King-Taz</a>, <a href='https://github.com/cosmicDustOfLightLength'>@cosmicDustOfLightLength</a>, <a href='https://github.com/quantfreedom'>@quantfreedom</a>, <a href='https://github.com/Lyakabynka'>@Lyakabynka</a>, <a href='https://github.com/bukowa'>@bukowa</a>, <a href='https://github.com/vladislavpweetsoft'>@vladislavpweetsoft</a>, <a href='https://github.com/manaruto'>@manaruto</a>, <a href='https://github.com/tiger2014'>@tiger2014</a>, <a href='https://github.com/ZTaiIT1025'>@ZTaiIT1025</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/KosmosWerner'><img src='https://scottplot.net/images/contributors/kosmoswerner.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -50,6 +52,7 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/vladislavpweetsoft'><img src='https://scottplot.net/images/contributors/vladislavpweetsoft.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/manaruto'><img src='https://scottplot.net/images/contributors/manaruto.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/tiger2014'><img src='https://scottplot.net/images/contributors/tiger2014.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/ZTaiIT1025'><img src='https://scottplot.net/images/contributors/ztaiit1025.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
