@@ -4,9 +4,9 @@ Description: DateTime axes are achieved using Microsoft's DateTime.ToOADate() an
 URL: /cookbook/5.0/AxisAndTicks/DateTimeAxisMixed/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Axis and Ticks", "DateTime Axis Values"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AxisAndTicks", "/cookbook/5.0/AxisAndTicks/DateTimeAxisMixed"]
-Date: 2024-11-02
-Version: ScottPlot 5.0.42
-Version: ScottPlot 5.0.42
+Date: 2024-11-03
+Version: ScottPlot 5.0.43
+Version: ScottPlot 5.0.43
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 DateTime axes are achieved using Microsoft's DateTime.ToOADate() and DateTime.FromOADate() methods to convert between dates and numeric values. Advanced users who wish to display data on DateTime axes may prefer to work with collections of doubles rather than collections of DateTimes.
 
-[![](/cookbook/5.0/images/DateTimeAxisMixed.png?241102170938)](/cookbook/5.0/images/DateTimeAxisMixed.png?241102170938)
+[![](/cookbook/5.0/images/DateTimeAxisMixed.png?241103171511)](/cookbook/5.0/images/DateTimeAxisMixed.png?241103171511)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs" imageUrl="/cookbook/5.0/images/DateTimeAxisMixed.png?241102170938" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs" imageUrl="/cookbook/5.0/images/DateTimeAxisMixed.png?241103171511" >}}ScottPlot.Plot myPlot = new();
 
 // create an array of DateTimes one hour apart
 int numberOfHours = 24;

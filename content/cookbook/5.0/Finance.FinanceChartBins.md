@@ -4,9 +4,9 @@ Description: Finance charts can display price range information over arbitrary t
 URL: /cookbook/5.0/Finance/FinanceChartBins/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Financial Plot", "Finance Chart with Custom Time Bins"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Finance", "/cookbook/5.0/Finance/FinanceChartBins"]
-Date: 2024-11-02
-Version: ScottPlot 5.0.42
-Version: ScottPlot 5.0.42
+Date: 2024-11-03
+Version: ScottPlot 5.0.43
+Version: ScottPlot 5.0.43
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Finance charts can display price range information over arbitrary time scales.
 
-[![](/cookbook/5.0/images/FinanceChartBins.png?241102170938)](/cookbook/5.0/images/FinanceChartBins.png?241102170938)
+[![](/cookbook/5.0/images/FinanceChartBins.png?241103171511)](/cookbook/5.0/images/FinanceChartBins.png?241103171511)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Finance.cs" imageUrl="/cookbook/5.0/images/FinanceChartBins.png?241102170938" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Finance.cs" imageUrl="/cookbook/5.0/images/FinanceChartBins.png?241103171511" >}}ScottPlot.Plot myPlot = new();
 
 DateTime timeOpen = new(1985, 09, 24, 9, 30, 0); // 9:30 AM
 DateTime timeClose = new(1985, 09, 24, 16, 0, 0); // 4:00 PM

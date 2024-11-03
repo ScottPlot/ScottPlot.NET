@@ -4,9 +4,9 @@ Description: Grid lines use the bottom and left axes by default, but this behavi
 URL: /cookbook/5.0/CustomizingGrids/GridWithTopAxis/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Customizing Grids", "Grid with Top Axis"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/CustomizingGrids", "/cookbook/5.0/CustomizingGrids/GridWithTopAxis"]
-Date: 2024-11-02
-Version: ScottPlot 5.0.42
-Version: ScottPlot 5.0.42
+Date: 2024-11-03
+Version: ScottPlot 5.0.43
+Version: ScottPlot 5.0.43
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Grid lines use the bottom and left axes by default, but this behavior can be customized for plots which use other axes.
 
-[![](/cookbook/5.0/images/GridWithTopAxis.png?241102170938)](/cookbook/5.0/images/GridWithTopAxis.png?241102170938)
+[![](/cookbook/5.0/images/GridWithTopAxis.png?241103171511)](/cookbook/5.0/images/GridWithTopAxis.png?241103171511)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/GridRecipes.cs" imageUrl="/cookbook/5.0/images/GridWithTopAxis.png?241102170938" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/GridRecipes.cs" imageUrl="/cookbook/5.0/images/GridWithTopAxis.png?241103171511" >}}ScottPlot.Plot myPlot = new();
 
 var sig = myPlot.Add.Signal(ScottPlot.Generate.Sin());
 sig.Axes.XAxis = myPlot.Axes.Top;

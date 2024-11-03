@@ -4,9 +4,9 @@ Description: Colors can be mixed to createa range of colors. This strategy uses 
 URL: /cookbook/5.0/Miscellaneous/ColorInterpolation/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Miscellaneous", "Color Interpolation"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Miscellaneous", "/cookbook/5.0/Miscellaneous/ColorInterpolation"]
-Date: 2024-11-02
-Version: ScottPlot 5.0.42
-Version: ScottPlot 5.0.42
+Date: 2024-11-03
+Version: ScottPlot 5.0.43
+Version: ScottPlot 5.0.43
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Colors can be mixed to createa range of colors. This strategy uses linear RGB interpolation.
 
-[![](/cookbook/5.0/images/ColorInterpolation.png?241102170938)](/cookbook/5.0/images/ColorInterpolation.png?241102170938)
+[![](/cookbook/5.0/images/ColorInterpolation.png?241103171511)](/cookbook/5.0/images/ColorInterpolation.png?241103171511)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Miscellaneous.cs" imageUrl="/cookbook/5.0/images/ColorInterpolation.png?241102170938" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Miscellaneous.cs" imageUrl="/cookbook/5.0/images/ColorInterpolation.png?241103171511" >}}ScottPlot.Plot myPlot = new();
 
 for (int i = 0; i <= 10; i++)
 {

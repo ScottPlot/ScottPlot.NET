@@ -4,9 +4,9 @@ Description: A pie chart can be created from a few values.
 URL: /cookbook/5.0/Pie/PieQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Pie", "Pie Chart from Values"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Pie", "/cookbook/5.0/Pie/PieQuickstart"]
-Date: 2024-11-02
-Version: ScottPlot 5.0.42
-Version: ScottPlot 5.0.42
+Date: 2024-11-03
+Version: ScottPlot 5.0.43
+Version: ScottPlot 5.0.43
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 A pie chart can be created from a few values.
 
-[![](/cookbook/5.0/images/PieQuickstart.png?241102170938)](/cookbook/5.0/images/PieQuickstart.png?241102170938)
+[![](/cookbook/5.0/images/PieQuickstart.png?241103171511)](/cookbook/5.0/images/PieQuickstart.png?241103171511)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Pie.cs" imageUrl="/cookbook/5.0/images/PieQuickstart.png?241102170938" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Pie.cs" imageUrl="/cookbook/5.0/images/PieQuickstart.png?241103171511" >}}ScottPlot.Plot myPlot = new();
 
 double[] values = { 5, 2, 8, 4, 8 };
 var pie = myPlot.Add.Pie(values);

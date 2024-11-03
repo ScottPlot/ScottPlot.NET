@@ -4,9 +4,9 @@ Description: Use Multiplot to create figures with multiple subplots
 URL: /cookbook/5.0/MultiplotRecipes/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Multiplot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/MultiplotRecipes"]
-Date: 2024-11-02
-Version: ScottPlot 5.0.42
-Version: ScottPlot 5.0.42
+Date: 2024-11-03
+Version: ScottPlot 5.0.43
+Version: ScottPlot 5.0.43
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -23,9 +23,9 @@ ShowEditLink: false
 
 Use the Multiplot class to create figures with multiple subplots.
 
-[![](/cookbook/5.0/images/MultiplotQuickstart.png?241102170938)](/cookbook/5.0/images/MultiplotQuickstart.png?241102170938)
+[![](/cookbook/5.0/images/MultiplotQuickstart.png?241103171511)](/cookbook/5.0/images/MultiplotQuickstart.png?241103171511)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/MultiplotRecipes.cs" imageUrl="/cookbook/5.0/images/MultiplotQuickstart.png?241102170938" >}}ScottPlot.Multiplot multiplot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/MultiplotRecipes.cs" imageUrl="/cookbook/5.0/images/MultiplotQuickstart.png?241103171511" >}}ScottPlot.Multiplot multiplot = new();
 
 ScottPlot.Plot plot1 = new();
 plot1.Add.Signal(Generate.Sin());
@@ -52,9 +52,9 @@ multiplot.SavePng("demo.png", 400, 400);
 
 The Multiplot's Layout property may be customized to achieve a column layout.
 
-[![](/cookbook/5.0/images/MultiplotColumns.png?241102170938)](/cookbook/5.0/images/MultiplotColumns.png?241102170938)
+[![](/cookbook/5.0/images/MultiplotColumns.png?241103171511)](/cookbook/5.0/images/MultiplotColumns.png?241103171511)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/MultiplotRecipes.cs" imageUrl="/cookbook/5.0/images/MultiplotColumns.png?241102170938" >}}ScottPlot.Multiplot multiplot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/MultiplotRecipes.cs" imageUrl="/cookbook/5.0/images/MultiplotColumns.png?241103171511" >}}ScottPlot.Multiplot multiplot = new();
 
 ScottPlot.Plot plot1 = new();
 plot1.Add.Signal(Generate.Sin());
@@ -82,9 +82,9 @@ multiplot.SavePng("demo.png", 400, 400);
 
 The Multiplot's Layout property may be customized to achieve a grid layout.
 
-[![](/cookbook/5.0/images/MultiplotGrid.png?241102170938)](/cookbook/5.0/images/MultiplotGrid.png?241102170938)
+[![](/cookbook/5.0/images/MultiplotGrid.png?241103171511)](/cookbook/5.0/images/MultiplotGrid.png?241103171511)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/MultiplotRecipes.cs" imageUrl="/cookbook/5.0/images/MultiplotGrid.png?241102170938" >}}ScottPlot.Multiplot multiplot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/MultiplotRecipes.cs" imageUrl="/cookbook/5.0/images/MultiplotGrid.png?241103171511" >}}ScottPlot.Multiplot multiplot = new();
 
 for (int i = 0; i < 6; i++)
 {
@@ -112,9 +112,9 @@ multiplot.SavePng("demo.png", 400, 400);
 
 The Multiplot's Layout property may be configured to achieve a fully custom layout.
 
-[![](/cookbook/5.0/images/MultiplotCustom.png?241102170938)](/cookbook/5.0/images/MultiplotCustom.png?241102170938)
+[![](/cookbook/5.0/images/MultiplotCustom.png?241103171511)](/cookbook/5.0/images/MultiplotCustom.png?241103171511)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/MultiplotRecipes.cs" imageUrl="/cookbook/5.0/images/MultiplotCustom.png?241102170938" >}}ScottPlot.Multiplot multiplot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/MultiplotRecipes.cs" imageUrl="/cookbook/5.0/images/MultiplotCustom.png?241103171511" >}}ScottPlot.Multiplot multiplot = new();
 
 // create 3 plots
 for (int i = 0; i < 3; i++)

@@ -4,9 +4,9 @@ Description: Phasor plots display vectors on a radial axis centered at the origi
 URL: /cookbook/5.0/Phasor/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Phasor Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Phasor"]
-Date: 2024-11-02
-Version: ScottPlot 5.0.42
-Version: ScottPlot 5.0.42
+Date: 2024-11-03
+Version: ScottPlot 5.0.43
+Version: ScottPlot 5.0.43
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -23,9 +23,9 @@ ShowEditLink: false
 
 A phasor line plot contains a collection of polar coordinates which are rendered as arrows.
 
-[![](/cookbook/5.0/images/PhasorQuickstart.png?241102170938)](/cookbook/5.0/images/PhasorQuickstart.png?241102170938)
+[![](/cookbook/5.0/images/PhasorQuickstart.png?241103171511)](/cookbook/5.0/images/PhasorQuickstart.png?241103171511)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Phasor.cs" imageUrl="/cookbook/5.0/images/PhasorQuickstart.png?241102170938" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Phasor.cs" imageUrl="/cookbook/5.0/images/PhasorQuickstart.png?241103171511" >}}ScottPlot.Plot myPlot = new();
 
 // Start by placing a polar axis system on the plot
 var polarAxis = myPlot.Add.PolarAxis(30);
@@ -62,9 +62,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Text labels may be applied to individual arrows of a phasor plot.
 
-[![](/cookbook/5.0/images/PhasorLabels.png?241102170938)](/cookbook/5.0/images/PhasorLabels.png?241102170938)
+[![](/cookbook/5.0/images/PhasorLabels.png?241103171511)](/cookbook/5.0/images/PhasorLabels.png?241103171511)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Phasor.cs" imageUrl="/cookbook/5.0/images/PhasorLabels.png?241102170938" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Phasor.cs" imageUrl="/cookbook/5.0/images/PhasorLabels.png?241103171511" >}}ScottPlot.Plot myPlot = new();
 
 // setup the polar axis
 var polarAxis = myPlot.Add.PolarAxis(30);

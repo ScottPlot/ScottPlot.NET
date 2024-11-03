@@ -4,9 +4,9 @@ Description: Stock symbol information can be displayed beneath the plot using th
 URL: /cookbook/5.0/Finance/StockSymbolBackgroundTextMultiline/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Financial Plot", "Stock Symbol Multiline"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Finance", "/cookbook/5.0/Finance/StockSymbolBackgroundTextMultiline"]
-Date: 2024-11-02
-Version: ScottPlot 5.0.42
-Version: ScottPlot 5.0.42
+Date: 2024-11-03
+Version: ScottPlot 5.0.43
+Version: ScottPlot 5.0.43
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Stock symbol information can be displayed beneath the plot using the multiline background text feature.
 
-[![](/cookbook/5.0/images/StockSymbolBackgroundTextMultiline.png?241102170938)](/cookbook/5.0/images/StockSymbolBackgroundTextMultiline.png?241102170938)
+[![](/cookbook/5.0/images/StockSymbolBackgroundTextMultiline.png?241103171511)](/cookbook/5.0/images/StockSymbolBackgroundTextMultiline.png?241103171511)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Finance.cs" imageUrl="/cookbook/5.0/images/StockSymbolBackgroundTextMultiline.png?241102170938" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Finance.cs" imageUrl="/cookbook/5.0/images/StockSymbolBackgroundTextMultiline.png?241103171511" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Candlestick(Generate.RandomOHLCs(30));
 myPlot.Axes.DateTimeTicksBottom();

@@ -4,9 +4,9 @@ Description: Text labels can be placed on the plot in coordinate space
 URL: /cookbook/5.0/Text/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Text"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Text"]
-Date: 2024-11-02
-Version: ScottPlot 5.0.42
-Version: ScottPlot 5.0.42
+Date: 2024-11-03
+Version: ScottPlot 5.0.43
+Version: ScottPlot 5.0.43
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -23,9 +23,9 @@ ShowEditLink: false
 
 Text can be placed anywhere in coordinate space.
 
-[![](/cookbook/5.0/images/TextQuickstart.png?241102170938)](/cookbook/5.0/images/TextQuickstart.png?241102170938)
+[![](/cookbook/5.0/images/TextQuickstart.png?241103171511)](/cookbook/5.0/images/TextQuickstart.png?241103171511)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Text.cs" imageUrl="/cookbook/5.0/images/TextQuickstart.png?241102170938" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Text.cs" imageUrl="/cookbook/5.0/images/TextQuickstart.png?241103171511" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin());
 myPlot.Add.Signal(Generate.Cos());
@@ -47,9 +47,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Text formatting can be extensively customized.
 
-[![](/cookbook/5.0/images/Formatting.png?241102170938)](/cookbook/5.0/images/Formatting.png?241102170938)
+[![](/cookbook/5.0/images/Formatting.png?241103171511)](/cookbook/5.0/images/Formatting.png?241103171511)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Text.cs" imageUrl="/cookbook/5.0/images/Formatting.png?241102170938" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Text.cs" imageUrl="/cookbook/5.0/images/Formatting.png?241103171511" >}}ScottPlot.Plot myPlot = new();
 
 var text = myPlot.Add.Text("Hello, World", 42, 69);
 text.LabelFontSize = 26;
@@ -78,9 +78,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Multiline labels have a default line height estimated from the typeface and font size, however line height may be manually defined by the user.
 
-[![](/cookbook/5.0/images/LabelLineHeight.png?241102170938)](/cookbook/5.0/images/LabelLineHeight.png?241102170938)
+[![](/cookbook/5.0/images/LabelLineHeight.png?241103171511)](/cookbook/5.0/images/LabelLineHeight.png?241103171511)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Text.cs" imageUrl="/cookbook/5.0/images/LabelLineHeight.png?241102170938" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Text.cs" imageUrl="/cookbook/5.0/images/LabelLineHeight.png?241103171511" >}}ScottPlot.Plot myPlot = new();
 
 var label1 = myPlot.Add.Text($"line\nheight", 0, 0);
 label1.LabelLineSpacing = 0;
@@ -121,9 +121,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 The offset properties can be used to fine-tune text position in pixel units
 
-[![](/cookbook/5.0/images/TextOffset.png?241102170938)](/cookbook/5.0/images/TextOffset.png?241102170938)
+[![](/cookbook/5.0/images/TextOffset.png?241103171511)](/cookbook/5.0/images/TextOffset.png?241103171511)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Text.cs" imageUrl="/cookbook/5.0/images/TextOffset.png?241102170938" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Text.cs" imageUrl="/cookbook/5.0/images/TextOffset.png?241103171511" >}}ScottPlot.Plot myPlot = new();
 
 for (int i = 0; i < 25; i += 5)
 {

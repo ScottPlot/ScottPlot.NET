@@ -4,9 +4,9 @@ Description: A Coxcomb chart is a pie graph where the angle of slices is constan
 URL: /cookbook/5.0/Coxcomb/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Coxcomb Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Coxcomb"]
-Date: 2024-11-02
-Version: ScottPlot 5.0.42
-Version: ScottPlot 5.0.42
+Date: 2024-11-03
+Version: ScottPlot 5.0.43
+Version: ScottPlot 5.0.43
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -23,9 +23,9 @@ ShowEditLink: false
 
 A Coxcomb chart is a pie graph where the angle of slices is constant but the radii are not.
 
-[![](/cookbook/5.0/images/CoxcombQuickstart.png?241102170938)](/cookbook/5.0/images/CoxcombQuickstart.png?241102170938)
+[![](/cookbook/5.0/images/CoxcombQuickstart.png?241103171511)](/cookbook/5.0/images/CoxcombQuickstart.png?241103171511)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Coxcomb.cs" imageUrl="/cookbook/5.0/images/CoxcombQuickstart.png?241102170938" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Coxcomb.cs" imageUrl="/cookbook/5.0/images/CoxcombQuickstart.png?241103171511" >}}ScottPlot.Plot myPlot = new();
 
 List<PieSlice> slices = new()
 {

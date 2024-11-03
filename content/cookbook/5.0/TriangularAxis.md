@@ -4,9 +4,9 @@ Description: Create a triangular axis and add it to the plot to display data on 
 URL: /cookbook/5.0/TriangularAxis/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Triangular Axis"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/TriangularAxis"]
-Date: 2024-11-02
-Version: ScottPlot 5.0.42
-Version: ScottPlot 5.0.42
+Date: 2024-11-03
+Version: ScottPlot 5.0.43
+Version: ScottPlot 5.0.43
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -23,19 +23,51 @@ ShowEditLink: false
 
 Create a triangular axis and add it to the plot to display data on a triangular grid, and interact with it to convert triangular units into Cartesian coordinates that can be used for placing any plot type on top.
 
-[![](/cookbook/5.0/images/TriangularAxisQuickStart.png?241102170938)](/cookbook/5.0/images/TriangularAxisQuickStart.png?241102170938)
+[![](/cookbook/5.0/images/TriangularAxisQuickStart.png?241103171511)](/cookbook/5.0/images/TriangularAxisQuickStart.png?241103171511)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/TriangularAxis.cs" imageUrl="/cookbook/5.0/images/TriangularAxisQuickStart.png?241102170938" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/TriangularAxis.cs" imageUrl="/cookbook/5.0/images/TriangularAxisQuickStart.png?241103171511" >}}ScottPlot.Plot myPlot = new();
 
 // Add a triangular axis to the plot
 var ta = myPlot.Add.TriangularAxis();
 
 // Get points from various locations in triangular space
 Coordinates[] points = [
-    ta.GetCoordinates(0.50, 0.80, 0.20),
-    ta.GetCoordinates(0.50, 0.60, 0.40),
-    ta.GetCoordinates(0.65, 0.70, 0.30),
-    ta.GetCoordinates(0.80, 0.80, 0.20),
+    ta.GetCoordinates(0.50, 0.40),
+    ta.GetCoordinates(0.60, 0.40),
+    ta.GetCoordinates(0.65, 0.50),
+];
+
+// Any plot type may be added on top of the triangular axis
+myPlot.Add.Markers(points, MarkerShape.FilledCircle, 10, Colors.Red);
+
+myPlot.SavePng("demo.png", 400, 300);
+{{< /recipe-sp5 >}}
+
+<hr class='my-5 invisible'>
+
+
+
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Triangular Axis Reverse</h1>
+<a href='/cookbook/5.0/TriangularAxis/TriangularAxisReversed' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
+</div>
+
+Triangular axes typically ascend in a clockwise direction for general applications, but triangular plots with counterclockwise labeling are sometimes used for geological applications.
+
+[![](/cookbook/5.0/images/TriangularAxisReversed.png?241103171511)](/cookbook/5.0/images/TriangularAxisReversed.png?241103171511)
+
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/TriangularAxis.cs" imageUrl="/cookbook/5.0/images/TriangularAxisReversed.png?241103171511" >}}ScottPlot.Plot myPlot = new();
+
+// Add a COUNTER-CLOCKWISE triangular axis to the plot
+var ta = myPlot.Add.TriangularAxis(clockwise: false);
+
+// Get points from various locations in triangular space
+Coordinates[] points = [
+    ta.GetCoordinates(0.50, 0.40),
+    ta.GetCoordinates(0.60, 0.40),
+    ta.GetCoordinates(0.65, 0.50),
 ];
 
 // Any plot type may be added on top of the triangular axis
@@ -57,9 +89,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Triangular axis background and grid lines may be customized.
 
-[![](/cookbook/5.0/images/TriangularAxisStyling.png?241102170938)](/cookbook/5.0/images/TriangularAxisStyling.png?241102170938)
+[![](/cookbook/5.0/images/TriangularAxisStyling.png?241103171511)](/cookbook/5.0/images/TriangularAxisStyling.png?241103171511)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/TriangularAxis.cs" imageUrl="/cookbook/5.0/images/TriangularAxisStyling.png?241102170938" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/TriangularAxis.cs" imageUrl="/cookbook/5.0/images/TriangularAxisStyling.png?241103171511" >}}ScottPlot.Plot myPlot = new();
 
 var ta = myPlot.Add.TriangularAxis();
 
@@ -72,10 +104,9 @@ ta.GridLineStyle.Pattern = LinePattern.Dotted;
 
 // Add sample data
 Coordinates[] points = [
-    ta.GetCoordinates(0.50, 0.80, 0.20),
-    ta.GetCoordinates(0.50, 0.60, 0.40),
-    ta.GetCoordinates(0.65, 0.70, 0.30),
-    ta.GetCoordinates(0.80, 0.80, 0.20),
+    ta.GetCoordinates(0.50, 0.40),
+    ta.GetCoordinates(0.60, 0.40),
+    ta.GetCoordinates(0.65, 0.50),
 ];
 myPlot.Add.Markers(points, MarkerShape.FilledCircle, 10, Colors.Red);
 
@@ -95,9 +126,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Styling options for edge lines, tick marks, tick labels, and title text may be customized individually for each axis.
 
-[![](/cookbook/5.0/images/TriangularAxisEdgeStyling.png?241102170938)](/cookbook/5.0/images/TriangularAxisEdgeStyling.png?241102170938)
+[![](/cookbook/5.0/images/TriangularAxisEdgeStyling.png?241103171511)](/cookbook/5.0/images/TriangularAxisEdgeStyling.png?241103171511)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/TriangularAxis.cs" imageUrl="/cookbook/5.0/images/TriangularAxisEdgeStyling.png?241102170938" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/TriangularAxis.cs" imageUrl="/cookbook/5.0/images/TriangularAxisEdgeStyling.png?241103171511" >}}ScottPlot.Plot myPlot = new();
 
 var ta = myPlot.Add.TriangularAxis();
 
@@ -122,10 +153,9 @@ ta.Left.LabelStyle.OffsetX = -20;
 
 // Add sample data
 Coordinates[] points = [
-    ta.GetCoordinates(0.50, 0.80, 0.20),
-    ta.GetCoordinates(0.50, 0.60, 0.40),
-    ta.GetCoordinates(0.65, 0.70, 0.30),
-    ta.GetCoordinates(0.80, 0.80, 0.20),
+    ta.GetCoordinates(0.50, 0.40),
+    ta.GetCoordinates(0.60, 0.40),
+    ta.GetCoordinates(0.65, 0.50),
 ];
 myPlot.Add.Markers(points, MarkerShape.FilledCircle, 10, Colors.Red);
 
@@ -145,9 +175,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Triangular axis edges have a helper method to easily add a title and color all the edge components similarly.
 
-[![](/cookbook/5.0/images/TriangularEdgeTitle.png?241102170938)](/cookbook/5.0/images/TriangularEdgeTitle.png?241102170938)
+[![](/cookbook/5.0/images/TriangularEdgeTitle.png?241103171511)](/cookbook/5.0/images/TriangularEdgeTitle.png?241103171511)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/TriangularAxis.cs" imageUrl="/cookbook/5.0/images/TriangularEdgeTitle.png?241102170938" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/TriangularAxis.cs" imageUrl="/cookbook/5.0/images/TriangularEdgeTitle.png?241103171511" >}}ScottPlot.Plot myPlot = new();
 
 var ta = myPlot.Add.TriangularAxis();
 
@@ -158,10 +188,9 @@ ta.Right.Title("Oxygen", Colors.Blue);
 
 // Add sample data
 Coordinates[] points = [
-    ta.GetCoordinates(0.50, 0.80, 0.20),
-    ta.GetCoordinates(0.50, 0.60, 0.40),
-    ta.GetCoordinates(0.65, 0.70, 0.30),
-    ta.GetCoordinates(0.80, 0.80, 0.20),
+    ta.GetCoordinates(0.50, 0.40),
+    ta.GetCoordinates(0.60, 0.40),
+    ta.GetCoordinates(0.65, 0.50),
 ];
 myPlot.Add.Markers(points, MarkerShape.FilledCircle, 10, Colors.Red);
 
