@@ -34,7 +34,10 @@ apt-get install -y fontconfig
 
 ## Using ScottPlot in Docker
 
-Docker users can find additional information in [#2366](https://github.com/ScottPlot/ScottPlot/issues/2366) and [#1677](https://github.com/ScottPlot/ScottPlot/issues/1677)
+ScottPlot can be used in Docker images. For additional information see:
+* [#3504](https://github.com/ScottPlot/ScottPlot/issues/3504) (ScottPlot 5.0, 2025)
+* [#2366](https://github.com/ScottPlot/ScottPlot/issues/2366) (ScottPlot 5.0, 2023)
+* [#1677](https://github.com/ScottPlot/ScottPlot/issues/1677) (ScottPlot 4.1, 2023)
 
 ## ScottPlot 4 Warning	CA1416
 
