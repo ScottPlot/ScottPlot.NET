@@ -9,7 +9,7 @@ Release notes for every version of ScottPlot
 
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 5.0.43</h1>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2024-11-03</i></div>
 <div class='mt-1'>
 <ul>
 <li>UserInputProcessor: Simplified how axis locking is achieved by adding <code>horizontal</code> and <code>vertical</code> arguments to <code>LeftClickDragPan()</code> and <code>RightClickDragZoom()</code>
@@ -38,6 +38,8 @@ Release notes for every version of ScottPlot
 </li>
 <li>Bar: Improved behavior of horizontal bar plots with the <code>CenterLabel</code> flag enabled (<a href="https://github.com/ScottPlot/ScottPlot/issues/3533">#3533</a>) <a href="https://github.com/TheFizz"><strong>@TheFizz</strong></a>
 </li>
+<li>Generate: added <code>Sigmoidal()</code> method for creating sample data with a sigmoidal shape
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
@@ -55,7 +57,7 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/manaruto'><img src='https://scottplot.net/images/contributors/manaruto.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/tiger2014'><img src='https://scottplot.net/images/contributors/tiger2014.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/ZTaiIT1025'><img src='https://scottplot.net/images/contributors/ztaiit1025.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/TheFizz'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/TheFizz'><img src='https://scottplot.net/images/contributors/thefizz.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
