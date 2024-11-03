@@ -30,6 +30,8 @@ Release notes for every version of ScottPlot
 </li>
 <li>Bar: Exposed <code>Rect</code>, <code>ErrorLines</code>, and <code>AxisLimits</code> properties (<a href="https://github.com/ScottPlot/ScottPlot/issues/4423">#4423</a>) <a href="https://github.com/tiger2014"><strong>@tiger2014</strong></a>
 </li>
+<li>Axes: <code>SquareUnits()</code> now uses <code>SquareZoomOut</code> for console apps and <code>SquarePreserveX</code> for interactive apps (<a href="https://github.com/ScottPlot/ScottPlot/issues/4422">#4422</a>) <a href="https://github.com/King-Taz"><strong>@King-Taz</strong></a> <a href="https://github.com/KosmosWerner"><strong>@KosmosWerner</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
