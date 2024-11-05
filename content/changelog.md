@@ -22,15 +22,21 @@ Release notes for every version of ScottPlot
 </li>
 <li>SVG: Significantly reduced the size of exported XML by preventing duplicate renders (<a href="https://github.com/ScottPlot/ScottPlot/issues/4441">#4441</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4436">#4436</a>) <a href="https://github.com/sunefred"><strong>@sunefred</strong></a>
 </li>
+<li>LineStyle: Added a <code>HandDrawn</code> flag with customizable <code>HandDrawnJitter</code> and <code>HandDrawnSegmentLength</code> to create XKCD-style plots (<a href="https://github.com/ScottPlot/ScottPlot/issues/4435">#4435</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3239">#3239</a>) <a href="https://github.com/sdpenner"><strong>@sdpenner</strong></a>
+</li>
+<li>SignalConst: Exposed <code>Data</code> so users may access offset configuration settings (<a href="https://github.com/ScottPlot/ScottPlot/issues/4440">#4440</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4253">#4253</a>) <a href="https://github.com/matej-mnoucek"><strong>@matej-mnoucek</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/sunefred'>@sunefred</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/sunefred'>@sunefred</a>, <a href='https://github.com/sdpenner'>@sdpenner</a>, <a href='https://github.com/matej-mnoucek'>@matej-mnoucek</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/CoderPM2011'><img src='https://scottplot.net/images/contributors/coderpm2011.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/sunefred'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/sunefred'><img src='https://scottplot.net/images/contributors/sunefred.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/sdpenner'><img src='https://scottplot.net/images/contributors/sdpenner.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/matej-mnoucek'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
