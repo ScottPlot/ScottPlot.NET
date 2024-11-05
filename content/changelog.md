@@ -16,13 +16,21 @@ Release notes for every version of ScottPlot
 </li>
 <li>Generate: Created <code>AddSin()</code> and <code>AddSinInPlace()</code> methods to facilitate test data generation (<a href="https://github.com/ScottPlot/ScottPlot/issues/3682">#3682</a>)
 </li>
+<li>FormsPlot: Improved the Visual Studio design time experience for users working on .NET Framework projects (<a href="https://github.com/ScottPlot/ScottPlot/issues/4425">#4425</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4362">#4362</a>) <a href="https://github.com/CoderPM2011"><strong>@CoderPM2011</strong></a>
+</li>
+<li>CoordinateRange: Improve equality checking for infinite spans with reversed limits (<a href="https://github.com/ScottPlot/ScottPlot/issues/4441">#4441</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4436">#4436</a>) <a href="https://github.com/sunefred"><strong>@sunefred</strong></a>
+</li>
+<li>SVG: Significantly reduced the size of exported XML by preventing duplicate renders (<a href="https://github.com/ScottPlot/ScottPlot/issues/4441">#4441</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4436">#4436</a>) <a href="https://github.com/sunefred"><strong>@sunefred</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/sunefred'>@sunefred</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
+<a href='https://github.com/CoderPM2011'><img src='https://scottplot.net/images/contributors/coderpm2011.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/sunefred'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
