@@ -16,6 +16,7 @@ date: 2023-12-13
 * [How to tag plotted objects with custom objects](tag)
 * [Launching interactive plot windows from console applications](/faq/launch-console/)
 * [Multiple Plots with a Shared Axis](shared-axes)
+* [Custom Dynamic Styling with the RenderStarting event](/faq/render-starting)
 * [Custom Right-Click Menu](right-click-menu)
 * [Get the Mouse Position](mouse-position)
 * [Change what left, right, or middle buttons do](buttons)
