@@ -4,7 +4,7 @@ Description: A contour plot can be created from a collection of 3D data points p
 URL: /cookbook/5.0/Contour/IrregularContour/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Contour Plot", "Irregular Contour Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Contour", "/cookbook/5.0/Contour/IrregularContour"]
-Date: 2024-11-03
+Date: 2024-11-06
 Version: ScottPlot 5.0.43
 Version: ScottPlot 5.0.43
 SearchUrl: "/cookbook/5.0/search/"
@@ -18,13 +18,13 @@ ShowEditLink: false
 
 A contour plot can be created from a collection of 3D data points placed arbitrarily in X/Y plane.
 
-[![](/cookbook/5.0/images/IrregularContour.png?241103171511)](/cookbook/5.0/images/IrregularContour.png?241103171511)
+[![](/cookbook/5.0/images/IrregularContour.png?241105214550)](/cookbook/5.0/images/IrregularContour.png?241105214550)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Contour.cs" imageUrl="/cookbook/5.0/images/IrregularContour.png?241103171511" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Contour.cs" imageUrl="/cookbook/5.0/images/IrregularContour.png?241105214550" >}}ScottPlot.Plot myPlot = new();
 
 // generate irregularly spaced X/Y/Z data points
 Coordinates3d[] cs = new Coordinates3d[1000];
-for (int i = 0; i < cs.Length; i++)
+for (int i = 0; i &lt; cs.Length; i++)
 {
     double x = Generate.RandomNumber(0, Math.PI * 2);
     double y = Generate.RandomNumber(0, Math.PI * 2);
@@ -33,11 +33,11 @@ for (int i = 0; i < cs.Length; i++)
 }
 
 // place markers at each data point
-double minZ = cs.Select(x => x.Z).Min();
-double maxZ = cs.Select(x => x.Z).Max();
+double minZ = cs.Select(x =&gt; x.Z).Min();
+double maxZ = cs.Select(x =&gt; x.Z).Max();
 double spanZ = maxZ - minZ;
 IColormap cmap = new ScottPlot.Colormaps.MellowRainbow();
-for (int i = 0; i < cs.Length; i++)
+for (int i = 0; i &lt; cs.Length; i++)
 {
     double fraction = (cs[i].Z - minZ) / (spanZ);
     var marker = myPlot.Add.Marker(cs[i].X, cs[i].Y);

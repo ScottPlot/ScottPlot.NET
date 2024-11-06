@@ -4,7 +4,7 @@ Description: Enable the `Smooth` property for anti-aliased rendering
 URL: /cookbook/5.0/Heatmap/HeatmapSmooth/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Heatmap", "Smooth Heatmap"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Heatmap", "/cookbook/5.0/Heatmap/HeatmapSmooth"]
-Date: 2024-11-03
+Date: 2024-11-06
 Version: ScottPlot 5.0.43
 Version: ScottPlot 5.0.43
 SearchUrl: "/cookbook/5.0/search/"
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Enable the `Smooth` property for anti-aliased rendering
 
-[![](/cookbook/5.0/images/HeatmapSmooth.png?241103171511)](/cookbook/5.0/images/HeatmapSmooth.png?241103171511)
+[![](/cookbook/5.0/images/HeatmapSmooth.png?241105214550)](/cookbook/5.0/images/HeatmapSmooth.png?241105214550)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Heatmap.cs" imageUrl="/cookbook/5.0/images/HeatmapSmooth.png?241103171511" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Heatmap.cs" imageUrl="/cookbook/5.0/images/HeatmapSmooth.png?241105214550" >}}ScottPlot.Plot myPlot = new();
 
 double[,] data = SampleData.MonaLisa();
 

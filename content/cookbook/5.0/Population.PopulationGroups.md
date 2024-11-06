@@ -4,7 +4,7 @@ Description: Groups of populations can be achieved by customizing position, colo
 URL: /cookbook/5.0/Population/PopulationGroups/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Population Plot", "Population Groups"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Population", "/cookbook/5.0/Population/PopulationGroups"]
-Date: 2024-11-03
+Date: 2024-11-06
 Version: ScottPlot 5.0.43
 Version: ScottPlot 5.0.43
 SearchUrl: "/cookbook/5.0/search/"
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Groups of populations can be achieved by customizing position, color, axis labels, and legend items.
 
-[![](/cookbook/5.0/images/PopulationGroups.png?241103171511)](/cookbook/5.0/images/PopulationGroups.png?241103171511)
+[![](/cookbook/5.0/images/PopulationGroups.png?241105214550)](/cookbook/5.0/images/PopulationGroups.png?241105214550)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Population.cs" imageUrl="/cookbook/5.0/images/PopulationGroups.png?241103171511" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Population.cs" imageUrl="/cookbook/5.0/images/PopulationGroups.png?241105214550" >}}ScottPlot.Plot myPlot = new();
 
 // define the groups
 string[] groupNames = { "Gen X", "Gen Y", "Gen Z" };
@@ -28,9 +28,9 @@ string[] categoryNames = { "Python", "C#", "Rust" };
 Color[] categoryColors = { Colors.C0, Colors.C1, Colors.C2 };
 
 // add random data to the plot
-for (int groupIndex = 0; groupIndex < groupNames.Length; groupIndex++)
+for (int groupIndex = 0; groupIndex &lt; groupNames.Length; groupIndex++)
 {
-    for (int categoryIndex = 0; categoryIndex < categoryNames.Length; categoryIndex++)
+    for (int categoryIndex = 0; categoryIndex &lt; categoryNames.Length; categoryIndex++)
     {
         double[] values = Generate.RandomNormal(10, mean: 2 + groupIndex * 2);
         double x = groupIndex * (categoryNames.Length + 1) + categoryIndex;
@@ -45,13 +45,13 @@ for (int groupIndex = 0; groupIndex < groupNames.Length; groupIndex++)
 // apply group names to horizontal tick labels
 double tickDelta = categoryNames.Length + 1;
 double[] tickPositions = Enumerable.Range(0, groupNames.Length)
-    .Select(x => x * tickDelta + tickDelta / 2 - 1)
+    .Select(x =&gt; x * tickDelta + tickDelta / 2 - 1)
     .ToArray();
 myPlot.Axes.Bottom.SetTicks(tickPositions, groupNames);
 myPlot.Axes.Bottom.MajorTickStyle.Length = 0;
 
 // show category colors in the legend
-for (int i = 0; i < categoryNames.Length; i++)
+for (int i = 0; i &lt; categoryNames.Length; i++)
 {
     LegendItem item = new()
     {

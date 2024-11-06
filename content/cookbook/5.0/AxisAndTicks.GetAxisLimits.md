@@ -4,7 +4,7 @@ Description: Use GetLimits() to obtain the current axis limits.
 URL: /cookbook/5.0/AxisAndTicks/GetAxisLimits/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Axis and Ticks", "Read Axis Limits"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AxisAndTicks", "/cookbook/5.0/AxisAndTicks/GetAxisLimits"]
-Date: 2024-11-03
+Date: 2024-11-06
 Version: ScottPlot 5.0.43
 Version: ScottPlot 5.0.43
 SearchUrl: "/cookbook/5.0/search/"
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Use GetLimits() to obtain the current axis limits.
 
-[![](/cookbook/5.0/images/GetAxisLimits.png?241103171511)](/cookbook/5.0/images/GetAxisLimits.png?241103171511)
+[![](/cookbook/5.0/images/GetAxisLimits.png?241105214550)](/cookbook/5.0/images/GetAxisLimits.png?241105214550)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs" imageUrl="/cookbook/5.0/images/GetAxisLimits.png?241103171511" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs" imageUrl="/cookbook/5.0/images/GetAxisLimits.png?241105214550" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin(51));
 myPlot.Add.Signal(Generate.Cos(51));

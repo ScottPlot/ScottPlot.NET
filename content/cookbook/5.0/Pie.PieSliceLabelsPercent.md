@@ -4,7 +4,7 @@ Description: Slice labels may be adapted to display any text (including numerica
 URL: /cookbook/5.0/Pie/PieSliceLabelsPercent/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Pie", "Pie with Percent Labels"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Pie", "/cookbook/5.0/Pie/PieSliceLabelsPercent"]
-Date: 2024-11-03
+Date: 2024-11-06
 Version: ScottPlot 5.0.43
 Version: ScottPlot 5.0.43
 SearchUrl: "/cookbook/5.0/search/"
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Slice labels may be adapted to display any text (including numerical values) centered over each slice.
 
-[![](/cookbook/5.0/images/PieSliceLabelsPercent.png?241103171511)](/cookbook/5.0/images/PieSliceLabelsPercent.png?241103171511)
+[![](/cookbook/5.0/images/PieSliceLabelsPercent.png?241105214550)](/cookbook/5.0/images/PieSliceLabelsPercent.png?241105214550)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Pie.cs" imageUrl="/cookbook/5.0/images/PieSliceLabelsPercent.png?241103171511" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Pie.cs" imageUrl="/cookbook/5.0/images/PieSliceLabelsPercent.png?241105214550" >}}ScottPlot.Plot myPlot = new();
 
 // create a pie chart
 double[] values = [6, 8, 10];
@@ -29,11 +29,11 @@ pie.ExplodeFraction = .1;
 pie.SliceLabelDistance = 0.5;
 
 // determine percentages for each slice
-double total = pie.Slices.Select(x => x.Value).Sum();
-double[] percentages = pie.Slices.Select(x => x.Value / total * 100).ToArray();
+double total = pie.Slices.Select(x =&gt; x.Value).Sum();
+double[] percentages = pie.Slices.Select(x =&gt; x.Value / total * 100).ToArray();
 
 // set each slice label to its percentage
-for (int i = 0; i < pie.Slices.Count; i++)
+for (int i = 0; i &lt; pie.Slices.Count; i++)
 {
     pie.Slices[i].Label = $"{percentages[i]:0.0}%";
     pie.Slices[i].LabelFontSize = 20;

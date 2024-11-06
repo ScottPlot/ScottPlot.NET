@@ -2,13 +2,13 @@
 Title: ScottPlot 5.0 API
 Description: All classes, fields, properties, and methods provided by the ScottPlot package
 URL: /api/5.0/
-Date: 2024-11-03
+Date: 2024-11-05
 ShowEditLink: false
 ---
 
 # ScottPlot 5.0.43 API
 
-_Generated 11/3/2024 5:15:10 PM_
+_Generated 11/5/2024 9:45:49 PM_
 
 <div class='my-5'>&nbsp;</div>
 
@@ -147,6 +147,7 @@ a:hover {text-decoration: underline;}
 <div><span class='otherType'>double[,]</span> <span class='name'>ReplaceNullWithNaN(<span class='otherType'>T?</span> <span class='name'>values</span>)</span> <span class='docs'></span></div>
 <div><span class='otherType'>T?</span> <span class='name'>ReplaceNaNWithNull(<span class='otherType'>double[,]</span> <span class='name'>values</span>)</span> <span class='docs'></span></div>
 <div><span class='otherType'>void</span> <span class='name'>Multiply2D(<span class='otherType'>double[,]</span> <span class='name'>values</span>, <span class='otherType'>double</span> <span class='name'>mult</span>)</span> <span class='docs'></span></div>
+<div><span class='otherType'>double[]</span> <span class='name'>SumVertically(<span class='otherType'>IEnumerable&lt;double[]&gt;</span> <span class='name'>arrays</span>)</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.MinMaxCache'><a style='color: black;' href='#ScottPlot.MinMaxCache'>ScottPlot.MinMaxCache</a></div>
 <div class='docs'></div>
@@ -311,6 +312,8 @@ a:hover {text-decoration: underline;}
 <div><span class='otherType'>double[]</span> <span class='name'>RandomNumbers(<span class='otherType'>int</span> <span class='name'>count</span>, <span class='otherType'>double</span> <span class='name'>min</span>, <span class='otherType'>double</span> <span class='name'>max</span>)</span> <span class='docs'></span></div>
 <div><span class='otherType'>double[]</span> <span class='name'>AddNoise(<span class='otherType'>double[]</span> <span class='name'>input</span>, <span class='otherType'>double</span> <span class='name'>magnitude</span>)</span> <span class='docs'></span></div>
 <div><span class='otherType'>void</span> <span class='name'>AddNoiseInPlace(<span class='otherType'>double[]</span> <span class='name'>values</span>, <span class='otherType'>double</span> <span class='name'>magnitude</span>)</span> <span class='docs'></span></div>
+<div><span class='otherType'>double[]</span> <span class='name'>AddSinInPlace(<span class='otherType'>double[]</span> <span class='name'>values</span>, <span class='otherType'>double</span> <span class='name'>mult</span>, <span class='otherType'>double</span> <span class='name'>offset</span>, <span class='otherType'>double</span> <span class='name'>oscillations</span>, <span class='otherType'>double</span> <span class='name'>phase</span>)</span> <span class='docs'></span></div>
+<div><span class='otherType'>double[]</span> <span class='name'>AddSin(<span class='otherType'>double[]</span> <span class='name'>values</span>, <span class='otherType'>double</span> <span class='name'>mult</span>, <span class='otherType'>double</span> <span class='name'>offset</span>, <span class='otherType'>double</span> <span class='name'>oscillations</span>, <span class='otherType'>double</span> <span class='name'>phase</span>)</span> <span class='docs'></span></div>
 <div><span class='otherType'>char</span> <span class='name'>RandomChar()</span> <span class='docs'></span></div>
 <div><span class='otherType'>string</span> <span class='name'>RandomString(<span class='otherType'>int</span> <span class='name'>length</span>)</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.Coordinates'>ScottPlot.Coordinates</a> <span class='name'>RandomCoordinates(<span class='otherType'>double</span> <span class='name'>xMult</span>, <span class='otherType'>double</span> <span class='name'>yMult</span>, <span class='otherType'>double</span> <span class='name'>xOffset</span>, <span class='otherType'>double</span> <span class='name'>yOffset</span>)</span> <span class='docs'></span></div>
@@ -1748,6 +1751,7 @@ a:hover {text-decoration: underline;}
 <div><a class='scottPlotType' href='#ScottPlot.Coordinates'>ScottPlot.Coordinates</a> <span class='name'>Rotated</span> <span class='docs'>The inverse of the present coordinate. E.g., the point (X, Y) becomes (Y, X).</span></div>
 <div><span class='otherType'>double</span> <span class='name'>X</span> <span class='docs'></span></div>
 <div><span class='otherType'>double</span> <span class='name'>Y</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Coordinates'>ScottPlot.Coordinates</a> <span class='name'>Zero</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.Coordinates[]'>ScottPlot.Coordinates[]</a> <span class='name'>Zip(<span class='otherType'>double[]</span> <span class='name'>xs</span>, <span class='otherType'>double[]</span> <span class='name'>ys</span>)</span> <span class='docs'></span></div>
 <div><span class='otherType'>double</span> <span class='name'>DistanceSquared(<a class='scottPlotType' href='#ScottPlot.Coordinates'>ScottPlot.Coordinates</a> <span class='name'>pt</span>)</span> <span class='docs'></span></div>
 <div><span class='otherType'>double</span> <span class='name'>Distance(<a class='scottPlotType' href='#ScottPlot.Coordinates'>ScottPlot.Coordinates</a> <span class='name'>pt</span>)</span> <span class='docs'></span></div>
@@ -2312,6 +2316,9 @@ a:hover {text-decoration: underline;}
 <div><span class='otherType'>bool</span> <span class='name'>CanBeRendered</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.Color'>ScottPlot.Color</a> <span class='name'>Color</span> <span class='docs'></span></div>
 <div><span class='otherType'>bool</span> <span class='name'>Hairline</span> <span class='docs'>If enabled, &lt;see cref="P:ScottPlot.LineStyle.Width" /&gt; is ignored and lines are rendered as a single pixel (regardless of scale factor)</span></div>
+<div><span class='otherType'>bool</span> <span class='name'>HandDrawn</span> <span class='docs'>If enabled will make this line appear hand drawn.</span></div>
+<div><span class='otherType'>double</span> <span class='name'>HandDrawnJitter</span> <span class='docs'></span></div>
+<div><span class='otherType'>double</span> <span class='name'>HandDrawnSegmentLength</span> <span class='docs'></span></div>
 <div><span class='otherType'>bool</span> <span class='name'>IsVisible</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.LineStyle'>ScottPlot.LineStyle</a> <span class='name'>None</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.LinePattern'>ScottPlot.LinePattern</a> <span class='name'>Pattern</span> <span class='docs'></span></div>
@@ -4945,6 +4952,7 @@ a:hover {text-decoration: underline;}
             and is not recommended for interactive environments.</span></div>
 <div><a class='scottPlotType' href='#ScottPlot.IAxes'>ScottPlot.IAxes</a> <span class='name'>Axes</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.Color'>ScottPlot.Color</a> <span class='name'>Color</span> <span class='docs'></span></div>
+<div><span class='otherType'>SignalConstSource&lt;T&gt;</span> <span class='name'>Data</span> <span class='docs'></span></div>
 <div><span class='otherType'>bool</span> <span class='name'>IsVisible</span> <span class='docs'></span></div>
 <div><span class='otherType'>string</span> <span class='name'>Label</span> <span class='docs'></span></div>
 <div><span class='otherType'>IEnumerable&lt;ScottPlot.LegendItem&gt;</span> <span class='name'>LegendItems</span> <span class='docs'></span></div>
@@ -5102,6 +5110,7 @@ a:hover {text-decoration: underline;}
 <div><span class='otherType'>string</span> <span class='name'>Label</span> <span class='docs'></span></div>
 <div><span class='otherType'>IEnumerable&lt;ScottPlot.LegendItem&gt;</span> <span class='name'>LegendItems</span> <span class='docs'></span></div>
 <div><span class='otherType'>string</span> <span class='name'>LegendText</span> <span class='docs'></span></div>
+<div><span class='otherType'>single</span> <span class='name'>MaximumArrowLength</span> <span class='docs'>Length (in pixels) of the longest arrow</span></div>
 <div><a class='scottPlotType' href='#ScottPlot.AxisLimits'>ScottPlot.AxisLimits</a> <span class='name'>GetAxisLimits()</span> <span class='docs'></span></div>
 <div><span class='otherType'>void</span> <span class='name'>Render(<a class='scottPlotType' href='#ScottPlot.RenderPack'>ScottPlot.RenderPack</a> <span class='name'>rp</span>)</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
@@ -7834,7 +7843,7 @@ a:hover {text-decoration: underline;}
 <div class='docs'></div>
 </div>
 <div><a class='scottPlotType' href='#ScottPlot.Generate'>ScottPlot.Generate</a> <span class='name'><>9</span> <span class='docs'></span></div>
-<div><span class='otherType'>Func&lt;T1, T2&gt;</span> <span class='name'><>9__47_0</span> <span class='docs'></span></div>
+<div><span class='otherType'>Func&lt;T1, T2&gt;</span> <span class='name'><>9__49_0</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.Generate'><a style='color: black;' href='#ScottPlot.Generate'>ScottPlot.Generate</a></div>
 <div class='docs'></div>
@@ -8601,8 +8610,8 @@ a:hover {text-decoration: underline;}
 <div class='docs'></div>
 </div>
 <div><a class='scottPlotType' href='#ScottPlot.Plottables.VectorField'>ScottPlot.Plottables.VectorField</a> <span class='name'><>9</span> <span class='docs'></span></div>
-<div><span class='otherType'>Func&lt;T1, T2&gt;</span> <span class='name'><>9__64_1</span> <span class='docs'></span></div>
-<div><span class='otherType'>Func&lt;T1, T2&gt;</span> <span class='name'><>9__64_2</span> <span class='docs'></span></div>
+<div><span class='otherType'>Func&lt;T1, T2&gt;</span> <span class='name'><>9__68_1</span> <span class='docs'></span></div>
+<div><span class='otherType'>Func&lt;T1, T2&gt;</span> <span class='name'><>9__68_2</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.Plottables.VectorField'><a style='color: black;' href='#ScottPlot.Plottables.VectorField'>ScottPlot.Plottables.VectorField</a></div>
 <div class='docs'></div>

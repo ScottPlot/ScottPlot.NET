@@ -4,7 +4,7 @@ Description: Users can customize the logic used to create tick labels from tick 
 URL: /cookbook/5.0/CustomizingTicks/CustomTickFormatter/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Customizing Ticks", "Custom Tick Formatters"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/CustomizingTicks", "/cookbook/5.0/CustomizingTicks/CustomTickFormatter"]
-Date: 2024-11-03
+Date: 2024-11-06
 Version: ScottPlot 5.0.43
 Version: ScottPlot 5.0.43
 SearchUrl: "/cookbook/5.0/search/"
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Users can customize the logic used to create tick labels from tick positions. Old versions of ScottPlot achieved this using a ManualTickPositions method.
 
-[![](/cookbook/5.0/images/CustomTickFormatter.png?241103171511)](/cookbook/5.0/images/CustomTickFormatter.png?241103171511)
+[![](/cookbook/5.0/images/CustomTickFormatter.png?241105214550)](/cookbook/5.0/images/CustomTickFormatter.png?241105214550)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs" imageUrl="/cookbook/5.0/images/CustomTickFormatter.png?241103171511" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs" imageUrl="/cookbook/5.0/images/CustomTickFormatter.png?241105214550" >}}ScottPlot.Plot myPlot = new();
 
 double[] xs = Generate.Consecutive(100, 1, -50);
 myPlot.Add.Scatter(xs, Generate.Sin(100));
@@ -31,7 +31,7 @@ static string CustomFormatter(double position)
 {
     if (position == 0)
         return "0";
-    else if (position > 0)
+    else if (position &gt; 0)
         return $"+{position}";
     else
         return $"({-position})";

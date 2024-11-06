@@ -4,7 +4,7 @@ Description: SignalXY plots support generic data types, although double is typic
 URL: /cookbook/5.0/SignalXY/SignalXYGeneric/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "SignalXY Plot", "SignalXY Generic"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/SignalXY", "/cookbook/5.0/SignalXY/SignalXYGeneric"]
-Date: 2024-11-03
+Date: 2024-11-06
 Version: ScottPlot 5.0.43
 Version: ScottPlot 5.0.43
 SearchUrl: "/cookbook/5.0/search/"
@@ -18,17 +18,17 @@ ShowEditLink: false
 
 SignalXY plots support generic data types, although double is typically the most performant.
 
-[![](/cookbook/5.0/images/SignalXYGeneric.png?241103171511)](/cookbook/5.0/images/SignalXYGeneric.png?241103171511)
+[![](/cookbook/5.0/images/SignalXYGeneric.png?241105214550)](/cookbook/5.0/images/SignalXYGeneric.png?241105214550)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SignalXY.cs" imageUrl="/cookbook/5.0/images/SignalXYGeneric.png?241103171511" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SignalXY.cs" imageUrl="/cookbook/5.0/images/SignalXYGeneric.png?241105214550" >}}ScottPlot.Plot myPlot = new();
 
 // generate sample data with gaps
-List<int> xList = new();
-List<float> yList = new();
-for (int i = 0; i < 5; i++)
+List&lt;int&gt; xList = new();
+List&lt;float&gt; yList = new();
+for (int i = 0; i &lt; 5; i++)
 {
-    xList.AddRange(Generate.Consecutive(1000, first: 2000 * i).Select(x => (int)x));
-    yList.AddRange(Generate.RandomSample(1000).Select(x => (float)x));
+    xList.AddRange(Generate.Consecutive(1000, first: 2000 * i).Select(x =&gt; (int)x));
+    yList.AddRange(Generate.RandomSample(1000).Select(x =&gt; (float)x));
 }
 int[] xs = xList.ToArray();
 float[] ys = yList.ToArray();

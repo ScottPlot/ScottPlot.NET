@@ -4,7 +4,7 @@ Description: Make ticks render at fixed intervals. Optionally make the ticks ren
 URL: /cookbook/5.0/AxisAndTicks/DateTimeAxisFixedIntervalTicks/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Axis and Ticks", "DateTime Axis Fixed Interval Ticks"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AxisAndTicks", "/cookbook/5.0/AxisAndTicks/DateTimeAxisFixedIntervalTicks"]
-Date: 2024-11-03
+Date: 2024-11-06
 Version: ScottPlot 5.0.43
 Version: ScottPlot 5.0.43
 SearchUrl: "/cookbook/5.0/search/"
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Make ticks render at fixed intervals. Optionally make the ticks render from a custom start date, rather than using the start date of the plot (e.g. to draw ticks on the hour every hour, or on the first of every month, etc).
 
-[![](/cookbook/5.0/images/DateTimeAxisFixedIntervalTicks.png?241103171511)](/cookbook/5.0/images/DateTimeAxisFixedIntervalTicks.png?241103171511)
+[![](/cookbook/5.0/images/DateTimeAxisFixedIntervalTicks.png?241105214550)](/cookbook/5.0/images/DateTimeAxisFixedIntervalTicks.png?241105214550)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs" imageUrl="/cookbook/5.0/images/DateTimeAxisFixedIntervalTicks.png?241103171511" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs" imageUrl="/cookbook/5.0/images/DateTimeAxisFixedIntervalTicks.png?241105214550" >}}ScottPlot.Plot myPlot = new();
 
 // Plot 24 hours sample DateTime data (1 point every minute)
 DateTime[] dates = Generate.ConsecutiveMinutes(24 * 60, new DateTime(2000, 1, 1, 2, 12, 0));
@@ -37,7 +37,7 @@ dtAx.TickGenerator = new ScottPlot.TickGenerators.DateTimeFixedInterval(
     // If you do not provide this delegate, the ticks will start at whatever the Min on the x-axis is.
     // The major ticks might end up as 1:30am, 7:30am, etc, and the tick positions will be fixed on the plot
     // when it is panned around.
-    dt => new DateTime(dt.Year, dt.Month, dt.Day));
+    dt =&gt; new DateTime(dt.Year, dt.Month, dt.Day));
 
 // Customise gridlines to make the ticks easier to see
 myPlot.Grid.XAxisStyle.MajorLineStyle.Color = Colors.Black.WithOpacity();
@@ -48,10 +48,10 @@ myPlot.Grid.XAxisStyle.MinorLineStyle.Width = 1;
 myPlot.Grid.XAxisStyle.MinorLineStyle.Pattern = LinePattern.DenselyDashed;
 
 // Remove labels on minor ticks, otherwise there is a lot of tick label overlap
-myPlot.RenderManager.RenderStarting += (s, e) =>
+myPlot.RenderManager.RenderStarting += (s, e) =&gt;
 {
     Tick[] ticks = myPlot.Axes.Bottom.TickGenerator.Ticks;
-    for (int i = 0; i < ticks.Length; i++)
+    for (int i = 0; i &lt; ticks.Length; i++)
     {
         if (ticks[i].IsMajor)
         {

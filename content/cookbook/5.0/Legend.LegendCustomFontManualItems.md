@@ -4,7 +4,7 @@ Description: Use custom fonts from TTF files in the legend (manual legend items)
 URL: /cookbook/5.0/Legend/LegendCustomFontManualItems/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Legends", "Manual Legend Items Custom Font"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Legend", "/cookbook/5.0/Legend/LegendCustomFontManualItems"]
-Date: 2024-11-03
+Date: 2024-11-06
 Version: ScottPlot 5.0.43
 Version: ScottPlot 5.0.43
 SearchUrl: "/cookbook/5.0/search/"
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Use custom fonts from TTF files in the legend (manual legend items).
 
-[![](/cookbook/5.0/images/LegendCustomFontManualItems.png?241103171511)](/cookbook/5.0/images/LegendCustomFontManualItems.png?241103171511)
+[![](/cookbook/5.0/images/LegendCustomFontManualItems.png?241105214550)](/cookbook/5.0/images/LegendCustomFontManualItems.png?241105214550)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Legend.cs" imageUrl="/cookbook/5.0/images/LegendCustomFontManualItems.png?241103171511" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Legend.cs" imageUrl="/cookbook/5.0/images/LegendCustomFontManualItems.png?241105214550" >}}ScottPlot.Plot myPlot = new();
 
 // Add a font file to use its typeface for fonts with a given name
 Fonts.AddFontFile(

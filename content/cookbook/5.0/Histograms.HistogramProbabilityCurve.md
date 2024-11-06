@@ -4,7 +4,7 @@ Description: A probability curve may be generated for a Gaussian distributed sam
 URL: /cookbook/5.0/Histograms/HistogramProbabilityCurve/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Histogram", "Histogram with Probability Curve"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Histograms", "/cookbook/5.0/Histograms/HistogramProbabilityCurve"]
-Date: 2024-11-03
+Date: 2024-11-06
 Version: ScottPlot 5.0.43
 Version: ScottPlot 5.0.43
 SearchUrl: "/cookbook/5.0/search/"
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 A probability curve may be generated for a Gaussian distributed sample.
 
-[![](/cookbook/5.0/images/HistogramProbabilityCurve.png?241103171511)](/cookbook/5.0/images/HistogramProbabilityCurve.png?241103171511)
+[![](/cookbook/5.0/images/HistogramProbabilityCurve.png?241105214550)](/cookbook/5.0/images/HistogramProbabilityCurve.png?241105214550)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Miscellaneous/Histograms.cs" imageUrl="/cookbook/5.0/images/HistogramProbabilityCurve.png?241103171511" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Miscellaneous/Histograms.cs" imageUrl="/cookbook/5.0/images/HistogramProbabilityCurve.png?241105214550" >}}ScottPlot.Plot myPlot = new();
 
 // Create a histogram from a collection of values
 double[] heights = SampleData.MaleHeights();
@@ -41,7 +41,7 @@ foreach (var bar in barPlot.Bars)
 // Plot the probability curve on top the histogram
 ScottPlot.Statistics.ProbabilityDensity pd = new(heights);
 double[] xs = Generate.Range(heights.Min(), heights.Max(), 1);
-double sumBins = hist.Bins.Select(x => pd.GetY(x)).Sum();
+double sumBins = hist.Bins.Select(x =&gt; pd.GetY(x)).Sum();
 double[] ys = pd.GetYs(xs, 1.0 / sumBins);
 
 var curve = myPlot.Add.ScatterLine(xs, ys);

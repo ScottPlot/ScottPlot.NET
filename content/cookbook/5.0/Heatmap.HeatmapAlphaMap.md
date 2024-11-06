@@ -4,7 +4,7 @@ Description: An alpha map (a 2d array of byte values) can be used to apply custo
 URL: /cookbook/5.0/Heatmap/HeatmapAlphaMap/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Heatmap", "Alpha Map"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Heatmap", "/cookbook/5.0/Heatmap/HeatmapAlphaMap"]
-Date: 2024-11-03
+Date: 2024-11-06
 Version: ScottPlot 5.0.43
 Version: ScottPlot 5.0.43
 SearchUrl: "/cookbook/5.0/search/"
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 An alpha map (a 2d array of byte values) can be used to apply custom transparency to each cell of a heatmap.
 
-[![](/cookbook/5.0/images/HeatmapAlphaMap.png?241103171511)](/cookbook/5.0/images/HeatmapAlphaMap.png?241103171511)
+[![](/cookbook/5.0/images/HeatmapAlphaMap.png?241105214550)](/cookbook/5.0/images/HeatmapAlphaMap.png?241105214550)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Heatmap.cs" imageUrl="/cookbook/5.0/images/HeatmapAlphaMap.png?241103171511" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Heatmap.cs" imageUrl="/cookbook/5.0/images/HeatmapAlphaMap.png?241105214550" >}}ScottPlot.Plot myPlot = new();
 
 // data values are translated to color based on the heatmap's colormap
 double[,] data = SampleData.MonaLisa();
@@ -29,9 +29,9 @@ double[,] data = SampleData.MonaLisa();
 byte[,] alphaMap = new byte[data.GetLength(0), data.GetLength(1)];
 
 // fill the alpha map with values from 0 (transparent) to 255 (opaque)
-for (int y = 0; y < alphaMap.GetLength(0); y++)
+for (int y = 0; y &lt; alphaMap.GetLength(0); y++)
 {
-    for (int x = 0; x < alphaMap.GetLength(1); x++)
+    for (int x = 0; x &lt; alphaMap.GetLength(1); x++)
     {
         double fractionAcross = (double)x / alphaMap.GetLength(1);
         alphaMap[y, x] = (byte)(fractionAcross * 255);

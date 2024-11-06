@@ -4,7 +4,7 @@ Description: NaN values in a scatter plot's data will appear as gaps in the line
 URL: /cookbook/5.0/Scatter/ScatterWithGaps/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Scatter Plot", "Scatter with Gaps"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Scatter", "/cookbook/5.0/Scatter/ScatterWithGaps"]
-Date: 2024-11-03
+Date: 2024-11-06
 Version: ScottPlot 5.0.43
 Version: ScottPlot 5.0.43
 SearchUrl: "/cookbook/5.0/search/"
@@ -18,24 +18,24 @@ ShowEditLink: false
 
 NaN values in a scatter plot's data will appear as gaps in the line.
 
-[![](/cookbook/5.0/images/ScatterWithGaps.png?241103171511)](/cookbook/5.0/images/ScatterWithGaps.png?241103171511)
+[![](/cookbook/5.0/images/ScatterWithGaps.png?241105214550)](/cookbook/5.0/images/ScatterWithGaps.png?241105214550)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Scatter.cs" imageUrl="/cookbook/5.0/images/ScatterWithGaps.png?241103171511" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Scatter.cs" imageUrl="/cookbook/5.0/images/ScatterWithGaps.png?241105214550" >}}ScottPlot.Plot myPlot = new();
 
 double[] xs = Generate.Consecutive(51);
 double[] ys = Generate.Sin(51);
 
 // long stretch of empty data
-for (int i = 10; i < 20; i++)
+for (int i = 10; i &lt; 20; i++)
     ys[i] = double.NaN;
 
 // single missing data point
 ys[30] = double.NaN;
 
 // single floating data point
-for (int i = 35; i < 40; i++)
+for (int i = 35; i &lt; 40; i++)
     ys[i] = double.NaN;
-for (int i = 40; i < 45; i++)
+for (int i = 40; i &lt; 45; i++)
     ys[i] = double.NaN;
 
 myPlot.Add.Scatter(xs, ys);

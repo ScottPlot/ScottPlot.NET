@@ -4,7 +4,7 @@ Description: Circles can be added to plots. Circles are really Ellipses with the
 URL: /cookbook/5.0/Ellipse/PlotCircleQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Ellipse", "Circle Quickstart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Ellipse", "/cookbook/5.0/Ellipse/PlotCircleQuickstart"]
-Date: 2024-11-03
+Date: 2024-11-06
 Version: ScottPlot 5.0.43
 Version: ScottPlot 5.0.43
 SearchUrl: "/cookbook/5.0/search/"
@@ -18,12 +18,12 @@ ShowEditLink: false
 
 Circles can be added to plots. Circles are really Ellipses with the same X and Y radius. Note that circles appear as ellipses unless the plot has a square coordinate system.
 
-[![](/cookbook/5.0/images/PlotCircleQuickstart.png?241103171511)](/cookbook/5.0/images/PlotCircleQuickstart.png?241103171511)
+[![](/cookbook/5.0/images/PlotCircleQuickstart.png?241105214550)](/cookbook/5.0/images/PlotCircleQuickstart.png?241105214550)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Ellipse.cs" imageUrl="/cookbook/5.0/images/PlotCircleQuickstart.png?241103171511" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Ellipse.cs" imageUrl="/cookbook/5.0/images/PlotCircleQuickstart.png?241105214550" >}}ScottPlot.Plot myPlot = new();
 
 Random rand = new(0);
-for (int i = 0; i < 5; i++)
+for (int i = 0; i &lt; 5; i++)
 {
     myPlot.Add.Circle(
         xCenter: rand.Next(-10, 10),

@@ -4,7 +4,7 @@ Description: DateTime axes are achieved using Microsoft's DateTime.ToOADate() an
 URL: /cookbook/5.0/AxisAndTicks/DateTimeAxisMixed/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Axis and Ticks", "DateTime Axis Values"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AxisAndTicks", "/cookbook/5.0/AxisAndTicks/DateTimeAxisMixed"]
-Date: 2024-11-03
+Date: 2024-11-06
 Version: ScottPlot 5.0.43
 Version: ScottPlot 5.0.43
 SearchUrl: "/cookbook/5.0/search/"
@@ -18,16 +18,16 @@ ShowEditLink: false
 
 DateTime axes are achieved using Microsoft's DateTime.ToOADate() and DateTime.FromOADate() methods to convert between dates and numeric values. Advanced users who wish to display data on DateTime axes may prefer to work with collections of doubles rather than collections of DateTimes.
 
-[![](/cookbook/5.0/images/DateTimeAxisMixed.png?241103171511)](/cookbook/5.0/images/DateTimeAxisMixed.png?241103171511)
+[![](/cookbook/5.0/images/DateTimeAxisMixed.png?241105214550)](/cookbook/5.0/images/DateTimeAxisMixed.png?241105214550)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs" imageUrl="/cookbook/5.0/images/DateTimeAxisMixed.png?241103171511" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs" imageUrl="/cookbook/5.0/images/DateTimeAxisMixed.png?241105214550" >}}ScottPlot.Plot myPlot = new();
 
 // create an array of DateTimes one hour apart
 int numberOfHours = 24;
 DateTime[] dateTimes = new DateTime[numberOfHours];
 DateTime startDateTime = new(2024, 1, 1);
 TimeSpan deltaTimeSpan = TimeSpan.FromHours(1);
-for (int i = 0; i < numberOfHours; i++)
+for (int i = 0; i &lt; numberOfHours; i++)
 {
     dateTimes[i] = startDateTime + i * deltaTimeSpan;
 }
@@ -36,7 +36,7 @@ for (int i = 0; i < numberOfHours; i++)
 double[] dateDoubles = new double[numberOfHours];
 double startDouble = startDateTime.ToOADate(); // days since 1900
 double deltaDouble = 1.0 / 24.0; // an hour is 1/24 of a day
-for (int i = 0; i < numberOfHours; i++)
+for (int i = 0; i &lt; numberOfHours; i++)
 {
     dateDoubles[i] = startDouble + i * deltaDouble;
 }

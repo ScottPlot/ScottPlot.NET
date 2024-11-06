@@ -4,7 +4,7 @@ Description: The appearance of logarithmic scaling can be achieved by log-scalin
 URL: /cookbook/5.0/CustomizingTicks/LogScaleTicks/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Customizing Ticks", "Log Scale Tick Marks"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/CustomizingTicks", "/cookbook/5.0/CustomizingTicks/LogScaleTicks"]
-Date: 2024-11-03
+Date: 2024-11-06
 Version: ScottPlot 5.0.43
 Version: ScottPlot 5.0.43
 SearchUrl: "/cookbook/5.0/search/"
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 The appearance of logarithmic scaling can be achieved by log-scaling the data to be displayed then customizing the minor ticks and grid.
 
-[![](/cookbook/5.0/images/LogScaleTicks.png?241103171511)](/cookbook/5.0/images/LogScaleTicks.png?241103171511)
+[![](/cookbook/5.0/images/LogScaleTicks.png?241105214550)](/cookbook/5.0/images/LogScaleTicks.png?241105214550)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs" imageUrl="/cookbook/5.0/images/LogScaleTicks.png?241103171511" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs" imageUrl="/cookbook/5.0/images/LogScaleTicks.png?241105214550" >}}ScottPlot.Plot myPlot = new();
 
 // start with original data
 double[] xs = Generate.Consecutive(100);
@@ -41,7 +41,7 @@ ScottPlot.TickGenerators.NumericAutomatic tickGen = new();
 tickGen.MinorTickGenerator = minorTickGen;
 
 // create a custom tick formatter to set the label text for each tick
-static string LogTickLabelFormatter(double y) => $"{Math.Pow(10, y):N0}";
+static string LogTickLabelFormatter(double y) =&gt; $"{Math.Pow(10, y):N0}";
 
 // tell our major tick generator to only show major ticks that are whole integers
 tickGen.IntegerTicksOnly = true;

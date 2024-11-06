@@ -4,7 +4,7 @@ Description: Text labels may be applied to individual arrows of a phasor plot.
 URL: /cookbook/5.0/Phasor/PhasorLabels/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Phasor Plot", "Phasor Plot with Labels"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Phasor", "/cookbook/5.0/Phasor/PhasorLabels"]
-Date: 2024-11-03
+Date: 2024-11-06
 Version: ScottPlot 5.0.43
 Version: ScottPlot 5.0.43
 SearchUrl: "/cookbook/5.0/search/"
@@ -18,14 +18,14 @@ ShowEditLink: false
 
 Text labels may be applied to individual arrows of a phasor plot.
 
-[![](/cookbook/5.0/images/PhasorLabels.png?241103171511)](/cookbook/5.0/images/PhasorLabels.png?241103171511)
+[![](/cookbook/5.0/images/PhasorLabels.png?241105214550)](/cookbook/5.0/images/PhasorLabels.png?241105214550)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Phasor.cs" imageUrl="/cookbook/5.0/images/PhasorLabels.png?241103171511" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Phasor.cs" imageUrl="/cookbook/5.0/images/PhasorLabels.png?241105214550" >}}ScottPlot.Plot myPlot = new();
 
 // setup the polar axis
 var polarAxis = myPlot.Add.PolarAxis(30);
-polarAxis.Circles.ForEach(x => x.LinePattern = LinePattern.Dotted);
-polarAxis.Spokes.ForEach(x => x.LinePattern = LinePattern.Dotted);
+polarAxis.Circles.ForEach(x =&gt; x.LinePattern = LinePattern.Dotted);
+polarAxis.Spokes.ForEach(x =&gt; x.LinePattern = LinePattern.Dotted);
 
 // create a phasor plot and points in coordinate space
 var phaser = myPlot.Add.Phasor();

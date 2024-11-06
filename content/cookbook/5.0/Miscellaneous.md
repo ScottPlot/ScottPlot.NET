@@ -4,7 +4,7 @@ Description: Miscellaneous features and customization options
 URL: /cookbook/5.0/Miscellaneous/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Miscellaneous"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Miscellaneous"]
-Date: 2024-11-03
+Date: 2024-11-06
 Version: ScottPlot 5.0.43
 Version: ScottPlot 5.0.43
 SearchUrl: "/cookbook/5.0/search/"
@@ -23,9 +23,9 @@ ShowEditLink: false
 
 An image can be used for the background of the data area.
 
-[![](/cookbook/5.0/images/DataBackgroundImage.png?241103171511)](/cookbook/5.0/images/DataBackgroundImage.png?241103171511)
+[![](/cookbook/5.0/images/DataBackgroundImage.png?241105214550)](/cookbook/5.0/images/DataBackgroundImage.png?241105214550)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Miscellaneous.cs" imageUrl="/cookbook/5.0/images/DataBackgroundImage.png?241103171511" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Miscellaneous.cs" imageUrl="/cookbook/5.0/images/DataBackgroundImage.png?241105214550" >}}ScottPlot.Plot myPlot = new();
 
 // plot sample data
 var sig1 = myPlot.Add.Signal(Generate.Sin());
@@ -56,9 +56,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 An image can be used for the background of a figure.
 
-[![](/cookbook/5.0/images/FigureBackgroundImage.png?241103171511)](/cookbook/5.0/images/FigureBackgroundImage.png?241103171511)
+[![](/cookbook/5.0/images/FigureBackgroundImage.png?241105214550)](/cookbook/5.0/images/FigureBackgroundImage.png?241105214550)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Miscellaneous.cs" imageUrl="/cookbook/5.0/images/FigureBackgroundImage.png?241103171511" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Miscellaneous.cs" imageUrl="/cookbook/5.0/images/FigureBackgroundImage.png?241105214550" >}}ScottPlot.Plot myPlot = new();
 
 // plot sample data
 var sig1 = myPlot.Add.Signal(Generate.Sin());
@@ -97,11 +97,11 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Colors can be mixed to createa range of colors. This strategy uses linear RGB interpolation.
 
-[![](/cookbook/5.0/images/ColorInterpolation.png?241103171511)](/cookbook/5.0/images/ColorInterpolation.png?241103171511)
+[![](/cookbook/5.0/images/ColorInterpolation.png?241105214550)](/cookbook/5.0/images/ColorInterpolation.png?241105214550)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Miscellaneous.cs" imageUrl="/cookbook/5.0/images/ColorInterpolation.png?241103171511" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Miscellaneous.cs" imageUrl="/cookbook/5.0/images/ColorInterpolation.png?241105214550" >}}ScottPlot.Plot myPlot = new();
 
-for (int i = 0; i <= 10; i++)
+for (int i = 0; i &lt;= 10; i++)
 {
     double fraction = (double)i / 10;
     double x = i;
@@ -127,9 +127,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Users can apply custom typefaces by loaded from font files.
 
-[![](/cookbook/5.0/images/CustomFontFiles.png?241103171511)](/cookbook/5.0/images/CustomFontFiles.png?241103171511)
+[![](/cookbook/5.0/images/CustomFontFiles.png?241105214550)](/cookbook/5.0/images/CustomFontFiles.png?241105214550)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Miscellaneous.cs" imageUrl="/cookbook/5.0/images/CustomFontFiles.png?241103171511" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Miscellaneous.cs" imageUrl="/cookbook/5.0/images/CustomFontFiles.png?241105214550" >}}ScottPlot.Plot myPlot = new();
 
 // Add a font file to use its typeface for fonts with a given name
 Fonts.AddFontFile(

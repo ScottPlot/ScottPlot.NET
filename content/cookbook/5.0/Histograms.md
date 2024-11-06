@@ -4,7 +4,7 @@ Description: Histograms graphically represent the distribution of numerical data
 URL: /cookbook/5.0/Histograms/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Histogram"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Histograms"]
-Date: 2024-11-03
+Date: 2024-11-06
 Version: ScottPlot 5.0.43
 Version: ScottPlot 5.0.43
 SearchUrl: "/cookbook/5.0/search/"
@@ -23,9 +23,9 @@ ShowEditLink: false
 
 A histogram can be created from a collection of values.
 
-[![](/cookbook/5.0/images/HistogramQuickstart.png?241103171511)](/cookbook/5.0/images/HistogramQuickstart.png?241103171511)
+[![](/cookbook/5.0/images/HistogramQuickstart.png?241105214550)](/cookbook/5.0/images/HistogramQuickstart.png?241105214550)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Miscellaneous/Histograms.cs" imageUrl="/cookbook/5.0/images/HistogramQuickstart.png?241103171511" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Miscellaneous/Histograms.cs" imageUrl="/cookbook/5.0/images/HistogramQuickstart.png?241105214550" >}}ScottPlot.Plot myPlot = new();
 
 // Create a histogram from a collection of values
 double[] heights = SampleData.MaleHeights();
@@ -61,9 +61,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 A histogram can be created using manually defined bin sizes.
 
-[![](/cookbook/5.0/images/HistogramFixedSizeBins.png?241103171511)](/cookbook/5.0/images/HistogramFixedSizeBins.png?241103171511)
+[![](/cookbook/5.0/images/HistogramFixedSizeBins.png?241105214550)](/cookbook/5.0/images/HistogramFixedSizeBins.png?241105214550)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Miscellaneous/Histograms.cs" imageUrl="/cookbook/5.0/images/HistogramFixedSizeBins.png?241103171511" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Miscellaneous/Histograms.cs" imageUrl="/cookbook/5.0/images/HistogramFixedSizeBins.png?241105214550" >}}ScottPlot.Plot myPlot = new();
 
 // Create a histogram from a collection of values
 double[] heights = SampleData.MaleHeights();
@@ -99,9 +99,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 A filled histogram (one with no visible gaps between bars) can be achieved by setting the bar width to the bin size. However, anti-aliasing artifacts may cause white lines to appear between bars. Disable anti-aliasing for each bar to improve appearance of such plots.
 
-[![](/cookbook/5.0/images/HistogramFilled.png?241103171511)](/cookbook/5.0/images/HistogramFilled.png?241103171511)
+[![](/cookbook/5.0/images/HistogramFilled.png?241105214550)](/cookbook/5.0/images/HistogramFilled.png?241105214550)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Miscellaneous/Histograms.cs" imageUrl="/cookbook/5.0/images/HistogramFilled.png?241103171511" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Miscellaneous/Histograms.cs" imageUrl="/cookbook/5.0/images/HistogramFilled.png?241105214550" >}}ScottPlot.Plot myPlot = new();
 
 // Create a histogram from a collection of values
 double[] heights = SampleData.MaleHeights();
@@ -139,9 +139,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Histograms may be displayed as the probability for each value falling inside a bin
 
-[![](/cookbook/5.0/images/HistogramProbability.png?241103171511)](/cookbook/5.0/images/HistogramProbability.png?241103171511)
+[![](/cookbook/5.0/images/HistogramProbability.png?241105214550)](/cookbook/5.0/images/HistogramProbability.png?241105214550)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Miscellaneous/Histograms.cs" imageUrl="/cookbook/5.0/images/HistogramProbability.png?241103171511" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Miscellaneous/Histograms.cs" imageUrl="/cookbook/5.0/images/HistogramProbability.png?241105214550" >}}ScottPlot.Plot myPlot = new();
 
 // Create a histogram from a collection of values
 double[] heights = SampleData.MaleHeights();
@@ -177,9 +177,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 A probability curve may be generated for a Gaussian distributed sample.
 
-[![](/cookbook/5.0/images/HistogramProbabilityCurve.png?241103171511)](/cookbook/5.0/images/HistogramProbabilityCurve.png?241103171511)
+[![](/cookbook/5.0/images/HistogramProbabilityCurve.png?241105214550)](/cookbook/5.0/images/HistogramProbabilityCurve.png?241105214550)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Miscellaneous/Histograms.cs" imageUrl="/cookbook/5.0/images/HistogramProbabilityCurve.png?241103171511" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Miscellaneous/Histograms.cs" imageUrl="/cookbook/5.0/images/HistogramProbabilityCurve.png?241105214550" >}}ScottPlot.Plot myPlot = new();
 
 // Create a histogram from a collection of values
 double[] heights = SampleData.MaleHeights();
@@ -200,7 +200,7 @@ foreach (var bar in barPlot.Bars)
 // Plot the probability curve on top the histogram
 ScottPlot.Statistics.ProbabilityDensity pd = new(heights);
 double[] xs = Generate.Range(heights.Min(), heights.Max(), 1);
-double sumBins = hist.Bins.Select(x => pd.GetY(x)).Sum();
+double sumBins = hist.Bins.Select(x =&gt; pd.GetY(x)).Sum();
 double[] ys = pd.GetYs(xs, 1.0 / sumBins);
 
 var curve = myPlot.Add.ScatterLine(xs, ys);
@@ -229,9 +229,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 A probability curve may be placed on a secondary axis to allow counts to be displayed alongside probabilities with percent units
 
-[![](/cookbook/5.0/images/HistogramProbabilityCurveSecondAxis.png?241103171511)](/cookbook/5.0/images/HistogramProbabilityCurveSecondAxis.png?241103171511)
+[![](/cookbook/5.0/images/HistogramProbabilityCurveSecondAxis.png?241105214550)](/cookbook/5.0/images/HistogramProbabilityCurveSecondAxis.png?241105214550)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Miscellaneous/Histograms.cs" imageUrl="/cookbook/5.0/images/HistogramProbabilityCurveSecondAxis.png?241103171511" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Miscellaneous/Histograms.cs" imageUrl="/cookbook/5.0/images/HistogramProbabilityCurveSecondAxis.png?241105214550" >}}ScottPlot.Plot myPlot = new();
 
 // Create a histogram from a collection of values
 double[] heights = SampleData.MaleHeights();
@@ -281,16 +281,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Demonstrates how to use semitransparent bars to display histograms from overlapping datasets
 
-[![](/cookbook/5.0/images/HistogramMultiple.png?241103171511)](/cookbook/5.0/images/HistogramMultiple.png?241103171511)
+[![](/cookbook/5.0/images/HistogramMultiple.png?241105214550)](/cookbook/5.0/images/HistogramMultiple.png?241105214550)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Miscellaneous/Histograms.cs" imageUrl="/cookbook/5.0/images/HistogramMultiple.png?241103171511" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Miscellaneous/Histograms.cs" imageUrl="/cookbook/5.0/images/HistogramMultiple.png?241105214550" >}}ScottPlot.Plot myPlot = new();
 
 // Create a histogram from a collection of values
 double[][] heightsByGroup = { SampleData.MaleHeights(), SampleData.FemaleHeights() };
 string[] groupNames = { "Male", "Female" };
 Color[] groupColors = { Colors.Blue, Colors.Red };
 
-for (int i = 0; i < 2; i++)
+for (int i = 0; i &lt; 2; i++)
 {
     double[] heights = heightsByGroup[i];
     var hist = ScottPlot.Statistics.Histogram.WithBinSize(1, heights);
@@ -310,7 +310,7 @@ for (int i = 0; i < 2; i++)
     // Plot the probability curve on top the histogram
     ScottPlot.Statistics.ProbabilityDensity pd = new(heights);
     double[] xs = Generate.Range(heights.Min(), heights.Max(), 1);
-    double scale = 1.0 / hist.Bins.Select(x => pd.GetY(x)).Sum();
+    double scale = 1.0 / hist.Bins.Select(x =&gt; pd.GetY(x)).Sum();
     double[] ys = pd.GetYs(xs, scale);
 
     var curve = myPlot.Add.ScatterLine(xs, ys);
@@ -343,16 +343,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 A cumulative probability histogram represents the cumulative sum of probabilities or relative frequencies up to each bin, providing a running total of the probability distribution. It is especially useful for evaluating and comparing the distribution of multiple populations.
 
-[![](/cookbook/5.0/images/HistogramCPH.png?241103171511)](/cookbook/5.0/images/HistogramCPH.png?241103171511)
+[![](/cookbook/5.0/images/HistogramCPH.png?241105214550)](/cookbook/5.0/images/HistogramCPH.png?241105214550)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Miscellaneous/Histograms.cs" imageUrl="/cookbook/5.0/images/HistogramCPH.png?241103171511" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Miscellaneous/Histograms.cs" imageUrl="/cookbook/5.0/images/HistogramCPH.png?241105214550" >}}ScottPlot.Plot myPlot = new();
 
 // Create a histogram from a collection of values
 double[][] heightsByGroup = { SampleData.MaleHeights(100), SampleData.FemaleHeights(100) };
 string[] groupNames = { "Male", "Female" };
 Color[] groupColors = { Colors.Blue, Colors.Red };
 
-for (int i = 0; i < 2; i++)
+for (int i = 0; i &lt; 2; i++)
 {
     var hist = ScottPlot.Statistics.Histogram.WithBinSize(1, firstBin: 140, lastBin: 200);
     hist.AddRange(heightsByGroup[i]);

@@ -4,7 +4,7 @@ Description: Demonstrates how to combine filled scatter plots with vertical and 
 URL: /cookbook/5.0/Scatter/ScatterStackedShading/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Scatter Plot", "Stacked Scatter with Shading"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Scatter", "/cookbook/5.0/Scatter/ScatterStackedShading"]
-Date: 2024-11-03
+Date: 2024-11-06
 Version: ScottPlot 5.0.43
 Version: ScottPlot 5.0.43
 SearchUrl: "/cookbook/5.0/search/"
@@ -18,18 +18,18 @@ ShowEditLink: false
 
 Demonstrates how to combine filled scatter plots with vertical and horizontal offsets to achieve an interesting visual effect.
 
-[![](/cookbook/5.0/images/ScatterStackedShading.png?241103171511)](/cookbook/5.0/images/ScatterStackedShading.png?241103171511)
+[![](/cookbook/5.0/images/ScatterStackedShading.png?241105214550)](/cookbook/5.0/images/ScatterStackedShading.png?241105214550)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Scatter.cs" imageUrl="/cookbook/5.0/images/ScatterStackedShading.png?241103171511" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Scatter.cs" imageUrl="/cookbook/5.0/images/ScatterStackedShading.png?241105214550" >}}ScottPlot.Plot myPlot = new();
 
 double[] xs = ScottPlot.Generate.Consecutive(100);
 ScottPlot.Colormaps.MellowRainbow cmap = new();
 
-for (int i = 0; i < 10; i++)
+for (int i = 0; i &lt; 10; i++)
 {
     double yOffset = 9 - i * 0.5;
     double[] ys = Generate.Sigmoidal(xs.Length)
-        .Select(y => y + yOffset)
+        .Select(y =&gt; y + yOffset)
         .ToArray();
 
     Generate.AddNoiseInPlace(ys, 0.1);

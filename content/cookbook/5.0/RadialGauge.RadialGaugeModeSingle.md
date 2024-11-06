@@ -4,7 +4,7 @@ Description: The SingleGauge mode draws all gauges stacked together as a single 
 URL: /cookbook/5.0/RadialGauge/RadialGaugeModeSingle/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Radial gauge", "Single Gauge Mode"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/RadialGauge", "/cookbook/5.0/RadialGauge/RadialGaugeModeSingle"]
-Date: 2024-11-03
+Date: 2024-11-06
 Version: ScottPlot 5.0.43
 Version: ScottPlot 5.0.43
 SearchUrl: "/cookbook/5.0/search/"
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 The SingleGauge mode draws all gauges stacked together as a single gauge. This is useful for showing a progress gauges composed of many individual smaller gauges.
 
-[![](/cookbook/5.0/images/RadialGaugeModeSingle.png?241103171511)](/cookbook/5.0/images/RadialGaugeModeSingle.png?241103171511)
+[![](/cookbook/5.0/images/RadialGaugeModeSingle.png?241105214550)](/cookbook/5.0/images/RadialGaugeModeSingle.png?241105214550)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/RadialGauge.cs" imageUrl="/cookbook/5.0/images/RadialGaugeModeSingle.png?241103171511" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/RadialGauge.cs" imageUrl="/cookbook/5.0/images/RadialGaugeModeSingle.png?241105214550" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Palette = new ScottPlot.Palettes.Nord();
 double[] values = { 100, 80, 65, 45 };

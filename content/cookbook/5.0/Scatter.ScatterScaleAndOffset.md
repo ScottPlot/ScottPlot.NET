@@ -4,7 +4,7 @@ Description: Scatter plot points can be multiplied by custom X and Y scale facto
 URL: /cookbook/5.0/Scatter/ScatterScaleAndOffset/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Scatter Plot", "Scatter Scale and Offset"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Scatter", "/cookbook/5.0/Scatter/ScatterScaleAndOffset"]
-Date: 2024-11-03
+Date: 2024-11-06
 Version: ScottPlot 5.0.43
 Version: ScottPlot 5.0.43
 SearchUrl: "/cookbook/5.0/search/"
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Scatter plot points can be multiplied by custom X and Y scale factors, or shifted horizontally or vertically using X and Y offset values.
 
-[![](/cookbook/5.0/images/ScatterScaleAndOffset.png?241103171511)](/cookbook/5.0/images/ScatterScaleAndOffset.png?241103171511)
+[![](/cookbook/5.0/images/ScatterScaleAndOffset.png?241105214550)](/cookbook/5.0/images/ScatterScaleAndOffset.png?241105214550)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Scatter.cs" imageUrl="/cookbook/5.0/images/ScatterScaleAndOffset.png?241103171511" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Scatter.cs" imageUrl="/cookbook/5.0/images/ScatterScaleAndOffset.png?241105214550" >}}ScottPlot.Plot myPlot = new();
 
 double[] xs = Generate.Consecutive(51);
 double[] ys = Generate.Sin(51);

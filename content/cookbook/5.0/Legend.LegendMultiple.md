@@ -4,7 +4,7 @@ Description: Multiple legends may be added to a plot
 URL: /cookbook/5.0/Legend/LegendMultiple/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Legends", "Multiple Legends"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Legend", "/cookbook/5.0/Legend/LegendMultiple"]
-Date: 2024-11-03
+Date: 2024-11-06
 Version: ScottPlot 5.0.43
 Version: ScottPlot 5.0.43
 SearchUrl: "/cookbook/5.0/search/"
@@ -18,11 +18,11 @@ ShowEditLink: false
 
 Multiple legends may be added to a plot
 
-[![](/cookbook/5.0/images/LegendMultiple.png?241103171511)](/cookbook/5.0/images/LegendMultiple.png?241103171511)
+[![](/cookbook/5.0/images/LegendMultiple.png?241105214550)](/cookbook/5.0/images/LegendMultiple.png?241105214550)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Legend.cs" imageUrl="/cookbook/5.0/images/LegendMultiple.png?241103171511" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Legend.cs" imageUrl="/cookbook/5.0/images/LegendMultiple.png?241105214550" >}}ScottPlot.Plot myPlot = new();
 
-for (int i = 1; i <= 5; i++)
+for (int i = 1; i &lt;= 5; i++)
 {
     double[] data = Generate.Sin(51, phase: .02 * i);
     var sig = myPlot.Add.Signal(data);

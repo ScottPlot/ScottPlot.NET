@@ -4,7 +4,7 @@ Description: Colormaps can be used to generate a collection of discrete colors t
 URL: /cookbook/5.0/Styling/ColormapColorSteps/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Styling Plots", "Colormap Steps"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Styling", "/cookbook/5.0/Styling/ColormapColorSteps"]
-Date: 2024-11-03
+Date: 2024-11-06
 Version: ScottPlot 5.0.43
 Version: ScottPlot 5.0.43
 SearchUrl: "/cookbook/5.0/search/"
@@ -18,19 +18,19 @@ ShowEditLink: false
 
 Colormaps can be used to generate a collection of discrete colors that can be applied to plottable objects.
 
-[![](/cookbook/5.0/images/ColormapColorSteps.png?241103171511)](/cookbook/5.0/images/ColormapColorSteps.png?241103171511)
+[![](/cookbook/5.0/images/ColormapColorSteps.png?241105214550)](/cookbook/5.0/images/ColormapColorSteps.png?241105214550)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs" imageUrl="/cookbook/5.0/images/ColormapColorSteps.png?241103171511" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs" imageUrl="/cookbook/5.0/images/ColormapColorSteps.png?241105214550" >}}ScottPlot.Plot myPlot = new();
 
 IColormap colormap = new ScottPlot.Colormaps.Turbo();
 
-for (int count = 1; count < 10; count++)
+for (int count = 1; count &lt; 10; count++)
 {
     double[] xs = Generate.Consecutive(count);
     double[] ys = Generate.Repeating(count, count);
     Color[] colors = colormap.GetColors(count);
 
-    for (int i = 0; i < count; i++)
+    for (int i = 0; i &lt; count; i++)
     {
         var circle = myPlot.Add.Circle(xs[i], ys[i], 0.45);
         circle.FillColor = colors[i];

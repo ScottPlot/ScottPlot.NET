@@ -4,7 +4,7 @@ Description: Population plots display collections of individual values.
 URL: /cookbook/5.0/Population/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Population Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Population"]
-Date: 2024-11-03
+Date: 2024-11-06
 Version: ScottPlot 5.0.43
 Version: ScottPlot 5.0.43
 SearchUrl: "/cookbook/5.0/search/"
@@ -23,11 +23,11 @@ ShowEditLink: false
 
 A Population can be created from a collection of values, styled as desired, and placed anywhere on the plot.
 
-[![](/cookbook/5.0/images/PopulationQuickstart.png?241103171511)](/cookbook/5.0/images/PopulationQuickstart.png?241103171511)
+[![](/cookbook/5.0/images/PopulationQuickstart.png?241105214550)](/cookbook/5.0/images/PopulationQuickstart.png?241105214550)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Population.cs" imageUrl="/cookbook/5.0/images/PopulationQuickstart.png?241103171511" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Population.cs" imageUrl="/cookbook/5.0/images/PopulationQuickstart.png?241105214550" >}}ScottPlot.Plot myPlot = new();
 
-for (int i = 0; i < 5; i++)
+for (int i = 0; i &lt; 5; i++)
 {
     double[] values = Generate.RandomNormal(10, mean: 3 + i);
     myPlot.Add.Population(values, x: i);
@@ -38,7 +38,7 @@ myPlot.Axes.Margins(bottom: 0);
 
 // replace the default numeric ticks with custom ones
 double[] tickPositions = Generate.Consecutive(5);
-string[] tickLabels = Enumerable.Range(1, 5).Select(x => $"Group {x}").ToArray();
+string[] tickLabels = Enumerable.Range(1, 5).Select(x =&gt; $"Group {x}").ToArray();
 myPlot.Axes.Bottom.SetTicks(tickPositions, tickLabels);
 
 // refine appearance of the plot
@@ -62,11 +62,11 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Population statistics can be displayed using box plots.
 
-[![](/cookbook/5.0/images/PopulationBox.png?241103171511)](/cookbook/5.0/images/PopulationBox.png?241103171511)
+[![](/cookbook/5.0/images/PopulationBox.png?241105214550)](/cookbook/5.0/images/PopulationBox.png?241105214550)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Population.cs" imageUrl="/cookbook/5.0/images/PopulationBox.png?241103171511" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Population.cs" imageUrl="/cookbook/5.0/images/PopulationBox.png?241105214550" >}}ScottPlot.Plot myPlot = new();
 
-for (int i = 0; i < 5; i++)
+for (int i = 0; i &lt; 5; i++)
 {
     double[] values = Generate.RandomNormal(10, mean: 3 + i);
     var pop = myPlot.Add.Population(values, x: i);
@@ -97,11 +97,11 @@ myPlot.SavePng("demo.png", 400, 300);
 
 The values displayed by the box midline, body, and whisker can be configured by assigning a static function to the box value configuration property.
 
-[![](/cookbook/5.0/images/PopulationBoxValues.png?241103171511)](/cookbook/5.0/images/PopulationBoxValues.png?241103171511)
+[![](/cookbook/5.0/images/PopulationBoxValues.png?241105214550)](/cookbook/5.0/images/PopulationBoxValues.png?241105214550)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Population.cs" imageUrl="/cookbook/5.0/images/PopulationBoxValues.png?241103171511" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Population.cs" imageUrl="/cookbook/5.0/images/PopulationBoxValues.png?241105214550" >}}ScottPlot.Plot myPlot = new();
 
-for (int i = 0; i < 5; i++)
+for (int i = 0; i &lt; 5; i++)
 {
     double[] values = Generate.RandomNormal(10, mean: 3 + i);
     var pop = myPlot.Add.Population(values, x: i);
@@ -130,11 +130,11 @@ myPlot.SavePng("demo.png", 400, 300);
 
 The bar symbol in population plots can be extensively styled.
 
-[![](/cookbook/5.0/images/PopulationBarStyle.png?241103171511)](/cookbook/5.0/images/PopulationBarStyle.png?241103171511)
+[![](/cookbook/5.0/images/PopulationBarStyle.png?241105214550)](/cookbook/5.0/images/PopulationBarStyle.png?241105214550)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Population.cs" imageUrl="/cookbook/5.0/images/PopulationBarStyle.png?241103171511" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Population.cs" imageUrl="/cookbook/5.0/images/PopulationBarStyle.png?241105214550" >}}ScottPlot.Plot myPlot = new();
 
-for (int i = 0; i < 5; i++)
+for (int i = 0; i &lt; 5; i++)
 {
     double[] values = Generate.RandomNormal(10, mean: 3 + i);
     var pop = myPlot.Add.Population(values, x: i);
@@ -164,11 +164,11 @@ myPlot.SavePng("demo.png", 400, 300);
 
 The box symbol in population plots can be extensively styled.
 
-[![](/cookbook/5.0/images/PopulationBoxStyle.png?241103171511)](/cookbook/5.0/images/PopulationBoxStyle.png?241103171511)
+[![](/cookbook/5.0/images/PopulationBoxStyle.png?241105214550)](/cookbook/5.0/images/PopulationBoxStyle.png?241105214550)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Population.cs" imageUrl="/cookbook/5.0/images/PopulationBoxStyle.png?241103171511" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Population.cs" imageUrl="/cookbook/5.0/images/PopulationBoxStyle.png?241105214550" >}}ScottPlot.Plot myPlot = new();
 
-for (int i = 0; i < 5; i++)
+for (int i = 0; i &lt; 5; i++)
 {
     double[] values = Generate.RandomNormal(10, mean: 3 + i);
     var pop = myPlot.Add.Population(values, x: i);
@@ -197,11 +197,11 @@ myPlot.SavePng("demo.png", 400, 300);
 
 The data markers in population plots can be extensively styled.
 
-[![](/cookbook/5.0/images/PopulationMarkerStyle.png?241103171511)](/cookbook/5.0/images/PopulationMarkerStyle.png?241103171511)
+[![](/cookbook/5.0/images/PopulationMarkerStyle.png?241105214550)](/cookbook/5.0/images/PopulationMarkerStyle.png?241105214550)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Population.cs" imageUrl="/cookbook/5.0/images/PopulationMarkerStyle.png?241103171511" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Population.cs" imageUrl="/cookbook/5.0/images/PopulationMarkerStyle.png?241105214550" >}}ScottPlot.Plot myPlot = new();
 
-for (int i = 0; i < 5; i++)
+for (int i = 0; i &lt; 5; i++)
 {
     double[] values = Generate.RandomNormal(10, mean: 3 + i);
     var pop = myPlot.Add.Population(values, x: i);
@@ -231,11 +231,11 @@ myPlot.SavePng("demo.png", 400, 300);
 
 The user may customize where data is drawn relative to the bar or box. Centering everything can be used to achieve an effect where data points are drawn over the bar or box.
 
-[![](/cookbook/5.0/images/PopulationArrangement.png?241103171511)](/cookbook/5.0/images/PopulationArrangement.png?241103171511)
+[![](/cookbook/5.0/images/PopulationArrangement.png?241105214550)](/cookbook/5.0/images/PopulationArrangement.png?241105214550)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Population.cs" imageUrl="/cookbook/5.0/images/PopulationArrangement.png?241103171511" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Population.cs" imageUrl="/cookbook/5.0/images/PopulationArrangement.png?241105214550" >}}ScottPlot.Plot myPlot = new();
 
-for (int i = 0; i < 5; i++)
+for (int i = 0; i &lt; 5; i++)
 {
     double[] values = Generate.RandomNormal(10, mean: 3 + i);
     var pop = myPlot.Add.Population(values, x: i);
@@ -269,9 +269,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Groups of populations can be achieved by customizing position, color, axis labels, and legend items.
 
-[![](/cookbook/5.0/images/PopulationGroups.png?241103171511)](/cookbook/5.0/images/PopulationGroups.png?241103171511)
+[![](/cookbook/5.0/images/PopulationGroups.png?241105214550)](/cookbook/5.0/images/PopulationGroups.png?241105214550)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Population.cs" imageUrl="/cookbook/5.0/images/PopulationGroups.png?241103171511" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Population.cs" imageUrl="/cookbook/5.0/images/PopulationGroups.png?241105214550" >}}ScottPlot.Plot myPlot = new();
 
 // define the groups
 string[] groupNames = { "Gen X", "Gen Y", "Gen Z" };
@@ -279,9 +279,9 @@ string[] categoryNames = { "Python", "C#", "Rust" };
 Color[] categoryColors = { Colors.C0, Colors.C1, Colors.C2 };
 
 // add random data to the plot
-for (int groupIndex = 0; groupIndex < groupNames.Length; groupIndex++)
+for (int groupIndex = 0; groupIndex &lt; groupNames.Length; groupIndex++)
 {
-    for (int categoryIndex = 0; categoryIndex < categoryNames.Length; categoryIndex++)
+    for (int categoryIndex = 0; categoryIndex &lt; categoryNames.Length; categoryIndex++)
     {
         double[] values = Generate.RandomNormal(10, mean: 2 + groupIndex * 2);
         double x = groupIndex * (categoryNames.Length + 1) + categoryIndex;
@@ -296,13 +296,13 @@ for (int groupIndex = 0; groupIndex < groupNames.Length; groupIndex++)
 // apply group names to horizontal tick labels
 double tickDelta = categoryNames.Length + 1;
 double[] tickPositions = Enumerable.Range(0, groupNames.Length)
-    .Select(x => x * tickDelta + tickDelta / 2 - 1)
+    .Select(x =&gt; x * tickDelta + tickDelta / 2 - 1)
     .ToArray();
 myPlot.Axes.Bottom.SetTicks(tickPositions, groupNames);
 myPlot.Axes.Bottom.MajorTickStyle.Length = 0;
 
 // show category colors in the legend
-for (int i = 0; i < categoryNames.Length; i++)
+for (int i = 0; i &lt; categoryNames.Length; i++)
 {
     LegendItem item = new()
     {

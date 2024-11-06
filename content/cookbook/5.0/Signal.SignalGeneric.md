@@ -4,7 +4,7 @@ Description: Signal plots support generic data types, although double is typical
 URL: /cookbook/5.0/Signal/SignalGeneric/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Signal Plot", "Signal Generic"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Signal", "/cookbook/5.0/Signal/SignalGeneric"]
-Date: 2024-11-03
+Date: 2024-11-06
 Version: ScottPlot 5.0.43
 Version: ScottPlot 5.0.43
 SearchUrl: "/cookbook/5.0/search/"
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Signal plots support generic data types, although double is typically the most performant.
 
-[![](/cookbook/5.0/images/SignalGeneric.png?241103171511)](/cookbook/5.0/images/SignalGeneric.png?241103171511)
+[![](/cookbook/5.0/images/SignalGeneric.png?241105214550)](/cookbook/5.0/images/SignalGeneric.png?241105214550)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Signal.cs" imageUrl="/cookbook/5.0/images/SignalGeneric.png?241103171511" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Signal.cs" imageUrl="/cookbook/5.0/images/SignalGeneric.png?241105214550" >}}ScottPlot.Plot myPlot = new();
 
 int[] values = Generate.RandomIntegers(1000, -100, 100);
 

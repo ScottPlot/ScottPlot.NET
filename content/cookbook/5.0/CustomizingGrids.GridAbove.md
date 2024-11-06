@@ -4,7 +4,7 @@ Description: Grid lines are typically drawn beneath data, but grids can be confi
 URL: /cookbook/5.0/CustomizingGrids/GridAbove/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Customizing Grids", "Grid Above Data"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/CustomizingGrids", "/cookbook/5.0/CustomizingGrids/GridAbove"]
-Date: 2024-11-03
+Date: 2024-11-06
 Version: ScottPlot 5.0.43
 Version: ScottPlot 5.0.43
 SearchUrl: "/cookbook/5.0/search/"
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Grid lines are typically drawn beneath data, but grids can be configured to render on top of plottables too.
 
-[![](/cookbook/5.0/images/GridAbove.png?241103171511)](/cookbook/5.0/images/GridAbove.png?241103171511)
+[![](/cookbook/5.0/images/GridAbove.png?241105214550)](/cookbook/5.0/images/GridAbove.png?241105214550)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/GridRecipes.cs" imageUrl="/cookbook/5.0/images/GridAbove.png?241103171511" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/GridRecipes.cs" imageUrl="/cookbook/5.0/images/GridAbove.png?241105214550" >}}ScottPlot.Plot myPlot = new();
 
 var sig = myPlot.Add.Signal(ScottPlot.Generate.Sin());
 sig.LineWidth = 10;

@@ -4,7 +4,7 @@ Description: The angle and length of spokes and position of circles can be manua
 URL: /cookbook/5.0/PolarAxis/PolarAxisLineCustomizations/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Polar Axis", "Polar Axis Line Customization"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/PolarAxis", "/cookbook/5.0/PolarAxis/PolarAxisLineCustomizations"]
-Date: 2024-11-03
+Date: 2024-11-06
 Version: ScottPlot 5.0.43
 Version: ScottPlot 5.0.43
 SearchUrl: "/cookbook/5.0/search/"
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 The angle and length of spokes and position of circles can be manually defined. Each spoke and circle may also be individually styled.
 
-[![](/cookbook/5.0/images/PolarAxisLineCustomizations.png?241103171511)](/cookbook/5.0/images/PolarAxisLineCustomizations.png?241103171511)
+[![](/cookbook/5.0/images/PolarAxisLineCustomizations.png?241105214550)](/cookbook/5.0/images/PolarAxisLineCustomizations.png?241105214550)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/PolarAxis.cs" imageUrl="/cookbook/5.0/images/PolarAxisLineCustomizations.png?241103171511" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/PolarAxis.cs" imageUrl="/cookbook/5.0/images/PolarAxisLineCustomizations.png?241105214550" >}}ScottPlot.Plot myPlot = new();
 
 var polarAxis = myPlot.Add.PolarAxis();
 
@@ -38,7 +38,7 @@ polarAxis.Circles.Add(new(1.0));
 
 // style individual spokes and circles
 ScottPlot.Palettes.Category10 pal = new();
-for (int i = 0; i < 3; i++)
+for (int i = 0; i &lt; 3; i++)
 {
     polarAxis.Circles[i].LineColor = pal.GetColor(i).WithAlpha(.5);
     polarAxis.Spokes[i].LineColor = pal.GetColor(i).WithAlpha(.5);

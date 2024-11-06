@@ -4,7 +4,7 @@ Description: A donut chart is a pie chart with an open center. Donut charts can 
 URL: /cookbook/5.0/Pie/PieDonut/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Pie", "Donut from Slices"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Pie", "/cookbook/5.0/Pie/PieDonut"]
-Date: 2024-11-03
+Date: 2024-11-06
 Version: ScottPlot 5.0.43
 Version: ScottPlot 5.0.43
 SearchUrl: "/cookbook/5.0/search/"
@@ -18,11 +18,11 @@ ShowEditLink: false
 
 A donut chart is a pie chart with an open center. Donut charts can be created from a collection of slices.
 
-[![](/cookbook/5.0/images/PieDonut.png?241103171511)](/cookbook/5.0/images/PieDonut.png?241103171511)
+[![](/cookbook/5.0/images/PieDonut.png?241105214550)](/cookbook/5.0/images/PieDonut.png?241105214550)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Pie.cs" imageUrl="/cookbook/5.0/images/PieDonut.png?241103171511" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Pie.cs" imageUrl="/cookbook/5.0/images/PieDonut.png?241105214550" >}}ScottPlot.Plot myPlot = new();
 
-List<PieSlice> slices = new()
+List&lt;PieSlice&gt; slices = new()
 {
     new PieSlice() { Value = 5, FillColor = Colors.Red, Label = "Red" },
     new PieSlice() { Value = 2, FillColor = Colors.Orange, Label = "Orange" },

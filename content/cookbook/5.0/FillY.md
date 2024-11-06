@@ -4,7 +4,7 @@ Description: FillY plots display the vertical range between two Y values at defi
 URL: /cookbook/5.0/FillY/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "FillY plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/FillY"]
-Date: 2024-11-03
+Date: 2024-11-06
 Version: ScottPlot 5.0.43
 Version: ScottPlot 5.0.43
 SearchUrl: "/cookbook/5.0/search/"
@@ -23,9 +23,9 @@ ShowEditLink: false
 
 FillY plots can be created from X, Y1, and Y2 arrays.
 
-[![](/cookbook/5.0/images/FillYFromArrays.png?241103171511)](/cookbook/5.0/images/FillYFromArrays.png?241103171511)
+[![](/cookbook/5.0/images/FillYFromArrays.png?241105214550)](/cookbook/5.0/images/FillYFromArrays.png?241105214550)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/FillY.cs" imageUrl="/cookbook/5.0/images/FillYFromArrays.png?241103171511" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/FillY.cs" imageUrl="/cookbook/5.0/images/FillYFromArrays.png?241105214550" >}}ScottPlot.Plot myPlot = new();
 
 RandomDataGenerator dataGen = new(0);
 
@@ -56,9 +56,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 FillY plots can be created from two scatter plots that share the same X values.
 
-[![](/cookbook/5.0/images/FillYFromScatters.png?241103171511)](/cookbook/5.0/images/FillYFromScatters.png?241103171511)
+[![](/cookbook/5.0/images/FillYFromScatters.png?241105214550)](/cookbook/5.0/images/FillYFromScatters.png?241105214550)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/FillY.cs" imageUrl="/cookbook/5.0/images/FillYFromScatters.png?241103171511" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/FillY.cs" imageUrl="/cookbook/5.0/images/FillYFromScatters.png?241105214550" >}}ScottPlot.Plot myPlot = new();
 
 RandomDataGenerator dataGen = new(0);
 
@@ -93,14 +93,14 @@ myPlot.SavePng("demo.png", 400, 300);
 
 FillY plots can be created from data of any type if a conversion function is supplied.
 
-[![](/cookbook/5.0/images/Function.png?241103171511)](/cookbook/5.0/images/Function.png?241103171511)
+[![](/cookbook/5.0/images/Function.png?241105214550)](/cookbook/5.0/images/Function.png?241105214550)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/FillY.cs" imageUrl="/cookbook/5.0/images/Function.png?241103171511" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/FillY.cs" imageUrl="/cookbook/5.0/images/Function.png?241105214550" >}}ScottPlot.Plot myPlot = new();
 
 // create source data in a nonstandard data type
-List<(int, int, int)> data = new();
+List&lt;(int, int, int)&gt; data = new();
 Random rand = new(0);
-for (int i = 0; i < 10; i++)
+for (int i = 0; i &lt; 10; i++)
 {
     int x = i;
     int y1 = rand.Next(0, 10);
@@ -109,7 +109,7 @@ for (int i = 0; i < 10; i++)
 }
 
 // create a custom converter for the source data type
-static (double, double, double) MyConverter((int, int, int) s) => (s.Item1, s.Item2, s.Item3);
+static (double, double, double) MyConverter((int, int, int) s) =&gt; (s.Item1, s.Item2, s.Item3);
 
 // create a filled plot from source data using the custom converter
 var fill = myPlot.Add.FillY(data, MyConverter);
@@ -132,9 +132,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 FillY plots can be customized using public properties.
 
-[![](/cookbook/5.0/images/Styling.png?241103171511)](/cookbook/5.0/images/Styling.png?241103171511)
+[![](/cookbook/5.0/images/Styling.png?241105214550)](/cookbook/5.0/images/Styling.png?241105214550)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/FillY.cs" imageUrl="/cookbook/5.0/images/Styling.png?241103171511" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/FillY.cs" imageUrl="/cookbook/5.0/images/Styling.png?241105214550" >}}ScottPlot.Plot myPlot = new();
 
 RandomDataGenerator dataGen = new(0);
 

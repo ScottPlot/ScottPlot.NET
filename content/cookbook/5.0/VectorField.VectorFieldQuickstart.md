@@ -4,7 +4,7 @@ Description: Vectors (representing a magnitude and direction) can be placed at s
 URL: /cookbook/5.0/VectorField/VectorFieldQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Vector Field", "Vector Field Quickstart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/VectorField", "/cookbook/5.0/VectorField/VectorFieldQuickstart"]
-Date: 2024-11-03
+Date: 2024-11-06
 Version: ScottPlot 5.0.43
 Version: ScottPlot 5.0.43
 SearchUrl: "/cookbook/5.0/search/"
@@ -18,24 +18,24 @@ ShowEditLink: false
 
 Vectors (representing a magnitude and direction) can be placed at specific points in coordinate space to display as a vector field.
 
-[![](/cookbook/5.0/images/VectorFieldQuickstart.png?241103171511)](/cookbook/5.0/images/VectorFieldQuickstart.png?241103171511)
+[![](/cookbook/5.0/images/VectorFieldQuickstart.png?241105214550)](/cookbook/5.0/images/VectorFieldQuickstart.png?241105214550)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/VectorField.cs" imageUrl="/cookbook/5.0/images/VectorFieldQuickstart.png?241103171511" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/VectorField.cs" imageUrl="/cookbook/5.0/images/VectorFieldQuickstart.png?241105214550" >}}ScottPlot.Plot myPlot = new();
 
 // generate a grid of positions
 double[] xs = Generate.Consecutive(10);
 double[] ys = Generate.Consecutive(10);
 
 // create a collection of vectors
-List<RootedCoordinateVector> vectors = new();
-for (int i = 0; i < xs.Length; i++)
+List&lt;RootedCoordinateVector&gt; vectors = new();
+for (int i = 0; i &lt; xs.Length; i++)
 {
-    for (int j = 0; j < ys.Length; j++)
+    for (int j = 0; j &lt; ys.Length; j++)
     {
         // point on the grid
         Coordinates pt = new(xs[i], ys[j]);
 
-        // direction & magnitude
+        // direction &amp; magnitude
         float dX = (float)ys[j];
         float dY = -9.81f / 0.5f * (float)Math.Sin(xs[i]);
         System.Numerics.Vector2 v = new(dX, dY);

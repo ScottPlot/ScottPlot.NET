@@ -4,7 +4,7 @@ Description: Slice labels can be displayed centered with the slice at a customiz
 URL: /cookbook/5.0/Pie/PieSliceLabels/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Pie", "Pie Slice Labels"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Pie", "/cookbook/5.0/Pie/PieSliceLabels"]
-Date: 2024-11-03
+Date: 2024-11-06
 Version: ScottPlot 5.0.43
 Version: ScottPlot 5.0.43
 SearchUrl: "/cookbook/5.0/search/"
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Slice labels can be displayed centered with the slice at a customizable distance from the center of the pie.
 
-[![](/cookbook/5.0/images/PieSliceLabels.png?241103171511)](/cookbook/5.0/images/PieSliceLabels.png?241103171511)
+[![](/cookbook/5.0/images/PieSliceLabels.png?241105214550)](/cookbook/5.0/images/PieSliceLabels.png?241105214550)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Pie.cs" imageUrl="/cookbook/5.0/images/PieSliceLabels.png?241103171511" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Pie.cs" imageUrl="/cookbook/5.0/images/PieSliceLabels.png?241105214550" >}}ScottPlot.Plot myPlot = new();
 
 PieSlice slice1 = new() { Value = 5, FillColor = Colors.Red, Label = "alpha" };
 PieSlice slice2 = new() { Value = 2, FillColor = Colors.Orange, Label = "beta" };
@@ -28,7 +28,7 @@ PieSlice slice3 = new() { Value = 8, FillColor = Colors.Gold, Label = "gamma" };
 PieSlice slice4 = new() { Value = 4, FillColor = Colors.Green, Label = "delta" };
 PieSlice slice5 = new() { Value = 8, FillColor = Colors.Blue, Label = "epsilon" };
 
-List<PieSlice> slices = new() { slice1, slice2, slice3, slice4, slice5 };
+List&lt;PieSlice&gt; slices = new() { slice1, slice2, slice3, slice4, slice5 };
 
 // setup the pie to display slice labels
 var pie = myPlot.Add.Pie(slices);
@@ -36,7 +36,7 @@ pie.ExplodeFraction = .1;
 pie.SliceLabelDistance = 1.3;
 
 // color each label's text to match the slice
-slices.ForEach(x => x.LabelFontColor = x.FillColor.Darken(.5));
+slices.ForEach(x =&gt; x.LabelFontColor = x.FillColor.Darken(.5));
 
 // styling can be customized for individual slices
 slice2.LabelStyle.FontSize = 18;

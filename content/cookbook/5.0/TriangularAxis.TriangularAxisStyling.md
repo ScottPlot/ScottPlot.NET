@@ -4,7 +4,7 @@ Description: Triangular axis background and grid lines may be customized.
 URL: /cookbook/5.0/TriangularAxis/TriangularAxisStyling/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Triangular Axis", "Triangular Axis Styling"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/TriangularAxis", "/cookbook/5.0/TriangularAxis/TriangularAxisStyling"]
-Date: 2024-11-03
+Date: 2024-11-06
 Version: ScottPlot 5.0.43
 Version: ScottPlot 5.0.43
 SearchUrl: "/cookbook/5.0/search/"
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Triangular axis background and grid lines may be customized.
 
-[![](/cookbook/5.0/images/TriangularAxisStyling.png?241103171511)](/cookbook/5.0/images/TriangularAxisStyling.png?241103171511)
+[![](/cookbook/5.0/images/TriangularAxisStyling.png?241105214550)](/cookbook/5.0/images/TriangularAxisStyling.png?241105214550)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/TriangularAxis.cs" imageUrl="/cookbook/5.0/images/TriangularAxisStyling.png?241103171511" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/TriangularAxis.cs" imageUrl="/cookbook/5.0/images/TriangularAxisStyling.png?241105214550" >}}ScottPlot.Plot myPlot = new();
 
 var ta = myPlot.Add.TriangularAxis();
 

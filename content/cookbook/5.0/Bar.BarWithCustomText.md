@@ -4,7 +4,7 @@ Description: Full control over bar labels may be achieved by placing fully custo
 URL: /cookbook/5.0/Bar/BarWithCustomText/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Bar Plot", "Bar with Custom Text"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Bar", "/cookbook/5.0/Bar/BarWithCustomText"]
-Date: 2024-11-03
+Date: 2024-11-06
 Version: ScottPlot 5.0.43
 Version: ScottPlot 5.0.43
 SearchUrl: "/cookbook/5.0/search/"
@@ -18,19 +18,19 @@ ShowEditLink: false
 
 Full control over bar labels may be achieved by placing fully customizable text objects on top of bars according to their dimensions.
 
-[![](/cookbook/5.0/images/BarWithCustomText.png?241103171511)](/cookbook/5.0/images/BarWithCustomText.png?241103171511)
+[![](/cookbook/5.0/images/BarWithCustomText.png?241105214550)](/cookbook/5.0/images/BarWithCustomText.png?241105214550)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs" imageUrl="/cookbook/5.0/images/BarWithCustomText.png?241103171511" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs" imageUrl="/cookbook/5.0/images/BarWithCustomText.png?241105214550" >}}ScottPlot.Plot myPlot = new();
 
 ScottPlot.Palettes.Category10 palette = new();
 
 // create 5 groups of stacked bars
-for (int i = 0; i < 5; i++)
+for (int i = 0; i &lt; 5; i++)
 {
     // create 3 individual bars with stacking
-    List<ScottPlot.Bar> bars = [];
+    List&lt;ScottPlot.Bar&gt; bars = [];
     double valueBase = 0;
-    for (int j = 0; j < 3; j++)
+    for (int j = 0; j &lt; 3; j++)
     {
         double barSize = Generate.RandomInteger(10, 20);
         ScottPlot.Bar bar1 = new()
@@ -57,7 +57,7 @@ myPlot.Axes.Margins(left: 0);
 
 // add custom group labels
 double[] tickPositions = Generate.Consecutive(5);
-string[] tickLabels = Enumerable.Range(1, 5).Select(x => $"Worker #{x}").ToArray();
+string[] tickLabels = Enumerable.Range(1, 5).Select(x =&gt; $"Worker #{x}").ToArray();
 myPlot.Axes.Left.SetTicks(tickPositions, tickLabels);
 
 myPlot.SavePng("demo.png", 400, 300);

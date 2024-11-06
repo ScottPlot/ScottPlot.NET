@@ -4,7 +4,7 @@ Description: Callouts display a label and are connected with an arrow that marks
 URL: /cookbook/5.0/Callout/CalloutQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Callout", "Callout Quickstart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Callout", "/cookbook/5.0/Callout/CalloutQuickstart"]
-Date: 2024-11-03
+Date: 2024-11-06
 Version: ScottPlot 5.0.43
 Version: ScottPlot 5.0.43
 SearchUrl: "/cookbook/5.0/search/"
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Callouts display a label and are connected with an arrow that marks a point on the plot.
 
-[![](/cookbook/5.0/images/CalloutQuickstart.png?241103171511)](/cookbook/5.0/images/CalloutQuickstart.png?241103171511)
+[![](/cookbook/5.0/images/CalloutQuickstart.png?241105214550)](/cookbook/5.0/images/CalloutQuickstart.png?241105214550)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Callout.cs" imageUrl="/cookbook/5.0/images/CalloutQuickstart.png?241103171511" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Callout.cs" imageUrl="/cookbook/5.0/images/CalloutQuickstart.png?241105214550" >}}ScottPlot.Plot myPlot = new();
 
 double[] xs = Generate.Consecutive(15);
 double[] ys = Generate.Sin(15);
