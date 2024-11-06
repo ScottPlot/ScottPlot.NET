@@ -30,6 +30,8 @@ Release notes for every version of ScottPlot
 </li>
 <li>Signal: Reduced render artifacts for high density overlapping data by reducing pixel overlap (<a href="https://github.com/ScottPlot/ScottPlot/issues/4050">#4050</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3665">#3665</a>) <a href="https://github.com/StendProg"><strong>@StendProg</strong></a>
 </li>
+<li>Label: Added border radius properties to customize corner curvature of labels and plottables with label styles (<a href="https://github.com/ScottPlot/ScottPlot/issues/4099">#4099</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
