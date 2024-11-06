@@ -6,7 +6,7 @@ date: 2025-11-06
 
 # The RenderStarting Event
 
-The `RenderStarting` event is called after a plot's layout has been determined and its ticks generated, but before it is actually rendered to the canvas. Hooking into this event lets users dynamically modify the plot using information about its layout that is not available before render time.
+The `RenderStarting` event is called after a plot's layout has been determined and its ticks generated, but before it is actually rendered to the canvas. Hooking into this event lets users dynamically modify the plot using information about its axis limits, ticks, and layout which may not is not available when the plot is first constructed.
 
 ## Dynamic Styling
 
