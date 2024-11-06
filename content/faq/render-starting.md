@@ -1,7 +1,7 @@
 ---
 title: RenderStarting Event - ScottPlot FAQ
 description: How to use the RenderStarting event to style plots dynamically
-date: 2025-11-06
+date: 2024-11-06
 ---
 
 # The RenderStarting Event
