@@ -28,11 +28,13 @@ Release notes for every version of ScottPlot
 </li>
 <li>VectorField: Added <code>MaximumArrowLength</code> property to allow arrow lengths to be customized (<a href="https://github.com/ScottPlot/ScottPlot/issues/3763">#3763</a>) <a href="https://github.com/hnMel"><strong>@hnMel</strong></a>
 </li>
+<li>Signal: Reduced render artifacts for high density overlapping data by reducing pixel overlap (<a href="https://github.com/ScottPlot/ScottPlot/issues/4050">#4050</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3665">#3665</a>) <a href="https://github.com/StendProg"><strong>@StendProg</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/sunefred'>@sunefred</a>, <a href='https://github.com/sdpenner'>@sdpenner</a>, <a href='https://github.com/matej-mnoucek'>@matej-mnoucek</a>, <a href='https://github.com/hnMel'>@hnMel</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/sunefred'>@sunefred</a>, <a href='https://github.com/sdpenner'>@sdpenner</a>, <a href='https://github.com/matej-mnoucek'>@matej-mnoucek</a>, <a href='https://github.com/hnMel'>@hnMel</a>, <a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/CoderPM2011'><img src='https://scottplot.net/images/contributors/coderpm2011.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -40,6 +42,7 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/sdpenner'><img src='https://scottplot.net/images/contributors/sdpenner.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/matej-mnoucek'><img src='https://scottplot.net/images/contributors/matej-mnoucek.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/hnMel'><img src='https://scottplot.net/images/contributors/hnmel.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
