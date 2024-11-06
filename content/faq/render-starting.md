@@ -1,14 +1,12 @@
 ---
 title: RenderStarting Event - ScottPlot FAQ
 description: How to use the RenderStarting event to style plots dynamically
-date: 2024-11-06
+date: 2025-11-06
 ---
 
 # The RenderStarting Event
 
 The `RenderStarting` event is called after a plot's layout has been determined and its ticks generated, but before it is actually rendered to the canvas. Hooking into this event lets users dynamically modify the plot using information about its layout that is not available before render time.
-
-![](/images/faq/renderstarting/first-tick.png)
 
 ## Dynamic Styling
 
@@ -45,3 +43,5 @@ formsPlot1.Plot.RenderManager.RenderStarting += (object? sender, RenderPack rp) 
     ticks[1] = Tick.Major(ticks[1].Position, "HELLO");
 };
 ```
+
+![](/images/faq/renderstarting/first-tick.png)
