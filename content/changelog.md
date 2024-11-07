@@ -32,11 +32,13 @@ Release notes for every version of ScottPlot
 </li>
 <li>Label: Added border radius properties to customize corner curvature of labels and plottables with label styles (<a href="https://github.com/ScottPlot/ScottPlot/issues/4099">#4099</a>)
 </li>
+<li>Controls: Added <code>LostFocusAction</code> to abort mouse drags if they are interrupted by Alt+Tab or other events that lose window focus (<a href="https://github.com/ScottPlot/ScottPlot/issues/4103">#4103</a>) <a href="https://github.com/Max-i-m"><strong>@Max-i-m</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/sunefred'>@sunefred</a>, <a href='https://github.com/sdpenner'>@sdpenner</a>, <a href='https://github.com/matej-mnoucek'>@matej-mnoucek</a>, <a href='https://github.com/hnMel'>@hnMel</a>, <a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/sunefred'>@sunefred</a>, <a href='https://github.com/sdpenner'>@sdpenner</a>, <a href='https://github.com/matej-mnoucek'>@matej-mnoucek</a>, <a href='https://github.com/hnMel'>@hnMel</a>, <a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/Max-i-m'>@Max-i-m</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/CoderPM2011'><img src='https://scottplot.net/images/contributors/coderpm2011.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -45,6 +47,7 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/matej-mnoucek'><img src='https://scottplot.net/images/contributors/matej-mnoucek.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/hnMel'><img src='https://scottplot.net/images/contributors/hnmel.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Max-i-m'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
