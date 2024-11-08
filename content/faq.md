@@ -26,6 +26,7 @@ date: 2023-12-13
 * [How to display live, changing data in a ScottPlot control](live-data)
 * [Animated GIF plots](gif)
 * [How to create curve fitting plots](curve-fitting)
+* [Using ScottPlot in Docker containers](/faq/dependencies/#using-scottplot-in-docker)
 * [ScottPlot's Dependencies](dependencies)
 * [How to build ScottPlot from source](environment)
 * [How to create reproducible code examples](repro)
