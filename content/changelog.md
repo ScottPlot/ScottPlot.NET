@@ -36,11 +36,15 @@ Release notes for every version of ScottPlot
 </li>
 <li>Polygon: Improved performance and reduced anti-alias artifacts by preventing multiple overlapping drawings of identical lines (<a href="https://github.com/ScottPlot/ScottPlot/issues/4141">#4141</a>) <a href="https://github.com/HandsomeGoldenKnight"><strong>@HandsomeGoldenKnight</strong></a>
 </li>
+<li>Title: Added <code>FullFigureCenter</code> flag to allow titles to be centered in the figure instead of over the data area (<a href="https://github.com/ScottPlot/ScottPlot/issues/4455">#4455</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/364">#364</a>) <a href="https://github.com/jaguarxii"><strong>@jaguarxii</strong></a>
+</li>
+<li>OHLC: Added check in initializer to force valid high/low range state (<a href="https://github.com/ScottPlot/ScottPlot/issues/4454">#4454</a>) <a href="https://github.com/CBrauer"><strong>@CBrauer</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/sunefred'>@sunefred</a>, <a href='https://github.com/sdpenner'>@sdpenner</a>, <a href='https://github.com/matej-mnoucek'>@matej-mnoucek</a>, <a href='https://github.com/hnMel'>@hnMel</a>, <a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/Max-i-m'>@Max-i-m</a>, <a href='https://github.com/HandsomeGoldenKnight'>@HandsomeGoldenKnight</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/sunefred'>@sunefred</a>, <a href='https://github.com/sdpenner'>@sdpenner</a>, <a href='https://github.com/matej-mnoucek'>@matej-mnoucek</a>, <a href='https://github.com/hnMel'>@hnMel</a>, <a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/Max-i-m'>@Max-i-m</a>, <a href='https://github.com/HandsomeGoldenKnight'>@HandsomeGoldenKnight</a>, <a href='https://github.com/jaguarxii'>@jaguarxii</a>, <a href='https://github.com/CBrauer'>@CBrauer</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/CoderPM2011'><img src='https://scottplot.net/images/contributors/coderpm2011.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -51,6 +55,8 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Max-i-m'><img src='https://scottplot.net/images/contributors/max-i-m.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/HandsomeGoldenKnight'><img src='https://scottplot.net/images/contributors/handsomegoldenknight.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/jaguarxii'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/CBrauer'><img src='https://scottplot.net/images/contributors/cbrauer.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
