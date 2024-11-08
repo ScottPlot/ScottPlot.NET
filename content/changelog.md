@@ -40,11 +40,13 @@ Release notes for every version of ScottPlot
 </li>
 <li>OHLC: Added check in initializer to force valid high/low range state (<a href="https://github.com/ScottPlot/ScottPlot/issues/4454">#4454</a>) <a href="https://github.com/CBrauer"><strong>@CBrauer</strong></a>
 </li>
+<li>WpfPlot: Re-implemented <code>GetPlotPixelPosition()</code> and <code>GetCurrentPlotPixelPosition()</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/4214">#4214</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3622">#3622</a>) <a href="https://github.com/wellsw"><strong>@wellsw</strong></a> <a href="https://github.com/KroMignon"><strong>@KroMignon</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/sunefred'>@sunefred</a>, <a href='https://github.com/sdpenner'>@sdpenner</a>, <a href='https://github.com/matej-mnoucek'>@matej-mnoucek</a>, <a href='https://github.com/hnMel'>@hnMel</a>, <a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/Max-i-m'>@Max-i-m</a>, <a href='https://github.com/HandsomeGoldenKnight'>@HandsomeGoldenKnight</a>, <a href='https://github.com/jaguarxii'>@jaguarxii</a>, <a href='https://github.com/CBrauer'>@CBrauer</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/sunefred'>@sunefred</a>, <a href='https://github.com/sdpenner'>@sdpenner</a>, <a href='https://github.com/matej-mnoucek'>@matej-mnoucek</a>, <a href='https://github.com/hnMel'>@hnMel</a>, <a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/Max-i-m'>@Max-i-m</a>, <a href='https://github.com/HandsomeGoldenKnight'>@HandsomeGoldenKnight</a>, <a href='https://github.com/jaguarxii'>@jaguarxii</a>, <a href='https://github.com/CBrauer'>@CBrauer</a>, <a href='https://github.com/wellsw'>@wellsw</a>, <a href='https://github.com/KroMignon'>@KroMignon</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/CoderPM2011'><img src='https://scottplot.net/images/contributors/coderpm2011.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -55,8 +57,10 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Max-i-m'><img src='https://scottplot.net/images/contributors/max-i-m.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/HandsomeGoldenKnight'><img src='https://scottplot.net/images/contributors/handsomegoldenknight.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/jaguarxii'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/jaguarxii'><img src='https://scottplot.net/images/contributors/jaguarxii.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/CBrauer'><img src='https://scottplot.net/images/contributors/cbrauer.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/wellsw'><img src='https://scottplot.net/images/contributors/wellsw.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/KroMignon'><img src='https://scottplot.net/images/contributors/kromignon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
