@@ -71,10 +71,10 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/King-Taz'><img src='https://scottplot.net/images/contributors/king-taz.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/KosmosWerner'><img src='https://scottplot.net/images/contributors/kosmoswerner.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/ArchieCoder'><img src='https://scottplot.net/images/contributors/archiecoder.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/ProgrammerGuy76'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/ProgrammerGuy76'><img src='https://scottplot.net/images/contributors/programmerguy76.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/agneszitte'><img src='https://scottplot.net/images/contributors/agneszitte.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/AzureGulf'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/Treppon'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/AzureGulf'><img src='https://scottplot.net/images/contributors/azuregulf.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Treppon'><img src='https://scottplot.net/images/contributors/treppon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
