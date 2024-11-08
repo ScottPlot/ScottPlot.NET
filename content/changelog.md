@@ -42,11 +42,15 @@ Release notes for every version of ScottPlot
 </li>
 <li>WpfPlot: Re-implemented <code>GetPlotPixelPosition()</code> and <code>GetCurrentPlotPixelPosition()</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/4214">#4214</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3622">#3622</a>) <a href="https://github.com/wellsw"><strong>@wellsw</strong></a> <a href="https://github.com/KroMignon"><strong>@KroMignon</strong></a>
 </li>
+<li>DataLogger: Narrowed the underlying data type from <code>IList&lt;Coordinates&gt;</code> to <code>List&lt;Coordinates&gt;</code> to allow <code>RemoveRange()</code> as seen in the cookbook (<a href="https://github.com/ScottPlot/ScottPlot/issues/4460">#4460</a>) <a href="https://github.com/Fruchtzwerg94"><strong>@Fruchtzwerg94</strong></a>
+</li>
+<li>Maui: Improve visual appearance of plots during panning (<a href="https://github.com/ScottPlot/ScottPlot/issues/4416">#4416</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4417">#4417</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4447">#4447</a>) <a href="https://github.com/King-Taz"><strong>@King-Taz</strong></a> <a href="https://github.com/KosmosWerner"><strong>@KosmosWerner</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/sunefred'>@sunefred</a>, <a href='https://github.com/sdpenner'>@sdpenner</a>, <a href='https://github.com/matej-mnoucek'>@matej-mnoucek</a>, <a href='https://github.com/hnMel'>@hnMel</a>, <a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/Max-i-m'>@Max-i-m</a>, <a href='https://github.com/HandsomeGoldenKnight'>@HandsomeGoldenKnight</a>, <a href='https://github.com/jaguarxii'>@jaguarxii</a>, <a href='https://github.com/CBrauer'>@CBrauer</a>, <a href='https://github.com/wellsw'>@wellsw</a>, <a href='https://github.com/KroMignon'>@KroMignon</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/sunefred'>@sunefred</a>, <a href='https://github.com/sdpenner'>@sdpenner</a>, <a href='https://github.com/matej-mnoucek'>@matej-mnoucek</a>, <a href='https://github.com/hnMel'>@hnMel</a>, <a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/Max-i-m'>@Max-i-m</a>, <a href='https://github.com/HandsomeGoldenKnight'>@HandsomeGoldenKnight</a>, <a href='https://github.com/jaguarxii'>@jaguarxii</a>, <a href='https://github.com/CBrauer'>@CBrauer</a>, <a href='https://github.com/wellsw'>@wellsw</a>, <a href='https://github.com/KroMignon'>@KroMignon</a>, <a href='https://github.com/Fruchtzwerg94'>@Fruchtzwerg94</a>, <a href='https://github.com/King-Taz'>@King-Taz</a>, <a href='https://github.com/KosmosWerner'>@KosmosWerner</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/CoderPM2011'><img src='https://scottplot.net/images/contributors/coderpm2011.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -61,6 +65,9 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/CBrauer'><img src='https://scottplot.net/images/contributors/cbrauer.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/wellsw'><img src='https://scottplot.net/images/contributors/wellsw.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/KroMignon'><img src='https://scottplot.net/images/contributors/kromignon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Fruchtzwerg94'><img src='https://scottplot.net/images/contributors/fruchtzwerg94.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/King-Taz'><img src='https://scottplot.net/images/contributors/king-taz.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/KosmosWerner'><img src='https://scottplot.net/images/contributors/kosmoswerner.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
