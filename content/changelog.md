@@ -46,11 +46,13 @@ Release notes for every version of ScottPlot
 </li>
 <li>Maui: Improve visual appearance of plots during panning (<a href="https://github.com/ScottPlot/ScottPlot/issues/4416">#4416</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4417">#4417</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4447">#4447</a>) <a href="https://github.com/King-Taz"><strong>@King-Taz</strong></a> <a href="https://github.com/KosmosWerner"><strong>@KosmosWerner</strong></a>
 </li>
+<li>WinUI: Improved support for Windows platforms by upgrading to the latest SkiaSharp dependency and building for <code>windows10.0.19041</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/4258">#4258</a>) <a href="https://github.com/ArchieCoder"><strong>@ArchieCoder</strong></a> <a href="https://github.com/ProgrammerGuy76"><strong>@ProgrammerGuy76</strong></a> <a href="https://github.com/agneszitte"><strong>@agneszitte</strong></a> <a href="https://github.com/AzureGulf"><strong>@AzureGulf</strong></a> <a href="https://github.com/Treppon"><strong>@Treppon</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/sunefred'>@sunefred</a>, <a href='https://github.com/sdpenner'>@sdpenner</a>, <a href='https://github.com/matej-mnoucek'>@matej-mnoucek</a>, <a href='https://github.com/hnMel'>@hnMel</a>, <a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/Max-i-m'>@Max-i-m</a>, <a href='https://github.com/HandsomeGoldenKnight'>@HandsomeGoldenKnight</a>, <a href='https://github.com/jaguarxii'>@jaguarxii</a>, <a href='https://github.com/CBrauer'>@CBrauer</a>, <a href='https://github.com/wellsw'>@wellsw</a>, <a href='https://github.com/KroMignon'>@KroMignon</a>, <a href='https://github.com/Fruchtzwerg94'>@Fruchtzwerg94</a>, <a href='https://github.com/King-Taz'>@King-Taz</a>, <a href='https://github.com/KosmosWerner'>@KosmosWerner</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/sunefred'>@sunefred</a>, <a href='https://github.com/sdpenner'>@sdpenner</a>, <a href='https://github.com/matej-mnoucek'>@matej-mnoucek</a>, <a href='https://github.com/hnMel'>@hnMel</a>, <a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/Max-i-m'>@Max-i-m</a>, <a href='https://github.com/HandsomeGoldenKnight'>@HandsomeGoldenKnight</a>, <a href='https://github.com/jaguarxii'>@jaguarxii</a>, <a href='https://github.com/CBrauer'>@CBrauer</a>, <a href='https://github.com/wellsw'>@wellsw</a>, <a href='https://github.com/KroMignon'>@KroMignon</a>, <a href='https://github.com/Fruchtzwerg94'>@Fruchtzwerg94</a>, <a href='https://github.com/King-Taz'>@King-Taz</a>, <a href='https://github.com/KosmosWerner'>@KosmosWerner</a>, <a href='https://github.com/ArchieCoder'>@ArchieCoder</a>, <a href='https://github.com/ProgrammerGuy76'>@ProgrammerGuy76</a>, <a href='https://github.com/agneszitte'>@agneszitte</a>, <a href='https://github.com/AzureGulf'>@AzureGulf</a>, <a href='https://github.com/Treppon'>@Treppon</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/CoderPM2011'><img src='https://scottplot.net/images/contributors/coderpm2011.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -68,6 +70,11 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/Fruchtzwerg94'><img src='https://scottplot.net/images/contributors/fruchtzwerg94.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/King-Taz'><img src='https://scottplot.net/images/contributors/king-taz.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/KosmosWerner'><img src='https://scottplot.net/images/contributors/kosmoswerner.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/ArchieCoder'><img src='https://scottplot.net/images/contributors/archiecoder.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/ProgrammerGuy76'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/agneszitte'><img src='https://scottplot.net/images/contributors/agneszitte.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/AzureGulf'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Treppon'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
