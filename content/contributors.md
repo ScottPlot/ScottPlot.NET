@@ -101,7 +101,15 @@ Members of the open-source community who contributed to ScottPlot
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/brand/favicon.png' height='125' width='125'/></a></div>
+<div><a href='https://github.com/cvdevol'>@cvdevol</a></div>
+</div>
+<div class='bg-light border rounded text-center mx-3 my-2'>
+<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/nroger-env.png' height='125' width='125'/></a></div>
 <div><a href='https://github.com/nRoger-Env'>@nRoger-Env</a></div>
+</div>
+<div class='bg-light border rounded text-center mx-3 my-2'>
+<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/cassar17.png' height='125' width='125'/></a></div>
+<div><a href='https://github.com/Cassar17'>@Cassar17</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/cosmicdustoflightlength.jpg' height='125' width='125'/></a></div>
@@ -142,10 +150,6 @@ Members of the open-source community who contributed to ScottPlot
 <div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/or8e4m4n.jpg' height='125' width='125'/></a></div>
 <div><a href='https://github.com/Or8e4m4n'>@Or8e4m4n</a></div>
-</div>
-<div class='bg-light border rounded text-center mx-3 my-2'>
-<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/cassar17.png' height='125' width='125'/></a></div>
-<div><a href='https://github.com/Cassar17'>@Cassar17</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/idotta.jpg' height='125' width='125'/></a></div>
