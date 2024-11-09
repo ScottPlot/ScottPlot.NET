@@ -58,6 +58,10 @@ Release notes for every version of ScottPlot
 </li>
 <li>Colormap: Added <code>GetImage()</code> to return a <code>ScottPlot.Image</code> of custom dimensions which may be returned as a byte array or saved to disk (<a href="https://github.com/ScottPlot/ScottPlot/issues/4371">#4371</a>)
 </li>
+<li>Tick Generator: Added <code>DateTimeManual</code> for placing ticks manually on <code>DateTime</code> axes without having to use <code>ToOADate()</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/4383">#4383</a>)
+</li>
+<li>Grid: Added <code>Color</code>, <code>LineWidth</code>, and <code>LinePattern</code> properties for quickly setting major line styles of primary X and Y axes grid lines (<a href="https://github.com/ScottPlot/ScottPlot/issues/4384">#4384</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
@@ -86,7 +90,7 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/AzureGulf'><img src='https://scottplot.net/images/contributors/azuregulf.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Treppon'><img src='https://scottplot.net/images/contributors/treppon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/endeffects'><img src='https://scottplot.net/images/contributors/endeffects.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/cvdevol'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/cvdevol'><img src='https://scottplot.net/images/contributors/cvdevol.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/nRoger-Env'><img src='https://scottplot.net/images/contributors/nroger-env.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Cassar17'><img src='https://scottplot.net/images/contributors/cassar17.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
