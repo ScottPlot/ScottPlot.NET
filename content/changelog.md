@@ -9,7 +9,7 @@ Release notes for every version of ScottPlot
 
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 5.0.44</h1>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2024-11-09</i></div>
 <div class='mt-1'>
 <ul>
 <li>Rendering: Prevent inversion of data area for extremely small plots (<a href="https://github.com/ScottPlot/ScottPlot/issues/3607">#3607</a>)
@@ -74,6 +74,8 @@ Release notes for every version of ScottPlot
 </li>
 <li>Controls: Improved mouse interactivity behavior for plots with inverted axes (<a href="https://github.com/ScottPlot/ScottPlot/issues/4471">#4471</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4110">#4110</a>) <a href="https://github.com/wi-fr"><strong>@wi-fr</strong></a>
 </li>
+<li>Population: Use deterministic randomness for horizontal spread of makers to support pixel perfect reproducibility (<a href="https://github.com/ScottPlot/ScottPlot/issues/4477">#4477</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
@@ -105,7 +107,7 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/cvdevol'><img src='https://scottplot.net/images/contributors/cvdevol.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/nRoger-Env'><img src='https://scottplot.net/images/contributors/nroger-env.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Cassar17'><img src='https://scottplot.net/images/contributors/cassar17.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/wi-fr'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/wi-fr'><img src='https://scottplot.net/images/contributors/wi-fr.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
