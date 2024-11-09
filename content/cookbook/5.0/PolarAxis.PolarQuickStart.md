@@ -4,9 +4,9 @@ Description: A polar axis can be added to the plot, then other plot types (marke
 URL: /cookbook/5.0/PolarAxis/PolarQuickStart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Polar Axis", "Polar Axis"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/PolarAxis", "/cookbook/5.0/PolarAxis/PolarQuickStart"]
-Date: 2024-11-06
-Version: ScottPlot 5.0.43
-Version: ScottPlot 5.0.43
+Date: 2024-11-09
+Version: ScottPlot 5.0.44
+Version: ScottPlot 5.0.44
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 A polar axis can be added to the plot, then other plot types (marker, line, scatter, etc.) can be placed on top of it using its helper methods to translate polar coordinates to Cartesian units.
 
-[![](/cookbook/5.0/images/PolarQuickStart.png?241105214550)](/cookbook/5.0/images/PolarQuickStart.png?241105214550)
+[![](/cookbook/5.0/images/PolarQuickStart.png?241109132219)](/cookbook/5.0/images/PolarQuickStart.png?241109132219)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/PolarAxis.cs" imageUrl="/cookbook/5.0/images/PolarQuickStart.png?241105214550" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/PolarAxis.cs" imageUrl="/cookbook/5.0/images/PolarQuickStart.png?241109132219" >}}ScottPlot.Plot myPlot = new();
 
 // add a polar axis to the plot
 var polarAxis = myPlot.Add.PolarAxis(radius: 100);

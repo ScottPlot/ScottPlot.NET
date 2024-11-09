@@ -4,9 +4,9 @@ Description: All plottables of a given type may be removed from a plot with a si
 URL: /cookbook/5.0/PlottableManagement/RemoveAll/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Plottable Management", "Removing all Plottables of a Type"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/PlottableManagement", "/cookbook/5.0/PlottableManagement/RemoveAll"]
-Date: 2024-11-06
-Version: ScottPlot 5.0.43
-Version: ScottPlot 5.0.43
+Date: 2024-11-09
+Version: ScottPlot 5.0.44
+Version: ScottPlot 5.0.44
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 All plottables of a given type may be removed from a plot with a single command.
 
-[![](/cookbook/5.0/images/RemoveAll.png?241105214550)](/cookbook/5.0/images/RemoveAll.png?241105214550)
+[![](/cookbook/5.0/images/RemoveAll.png?241109132219)](/cookbook/5.0/images/RemoveAll.png?241109132219)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/PlottableManagement.cs" imageUrl="/cookbook/5.0/images/RemoveAll.png?241105214550" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/PlottableManagement.cs" imageUrl="/cookbook/5.0/images/RemoveAll.png?241109132219" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Scatter(Generate.Consecutive(51), Generate.Sin(51));
 myPlot.Add.Signal(Generate.Cos());

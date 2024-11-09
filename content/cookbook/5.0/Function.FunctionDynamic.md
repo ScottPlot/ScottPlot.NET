@@ -4,9 +4,9 @@ Description: When a function cannot be represented as a static method (e.g., one
 URL: /cookbook/5.0/Function/FunctionDynamic/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Function", "Dynamically Generated Functions"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Function", "/cookbook/5.0/Function/FunctionDynamic"]
-Date: 2024-11-06
-Version: ScottPlot 5.0.43
-Version: ScottPlot 5.0.43
+Date: 2024-11-09
+Version: ScottPlot 5.0.44
+Version: ScottPlot 5.0.44
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 When a function cannot be represented as a static method (e.g., one that requires custom parameters) it can be represented as variable of type Func<double, double> and plotted accordingly.
 
-[![](/cookbook/5.0/images/FunctionDynamic.png?241105214550)](/cookbook/5.0/images/FunctionDynamic.png?241105214550)
+[![](/cookbook/5.0/images/FunctionDynamic.png?241109132219)](/cookbook/5.0/images/FunctionDynamic.png?241109132219)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Function.cs" imageUrl="/cookbook/5.0/images/FunctionDynamic.png?241105214550" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Function.cs" imageUrl="/cookbook/5.0/images/FunctionDynamic.png?241109132219" >}}ScottPlot.Plot myPlot = new();
 
 static double LogNormalDist(double x, double a, double b)
 {

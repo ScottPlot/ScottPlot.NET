@@ -4,9 +4,9 @@ Description: Population statistics can be displayed using box plots.
 URL: /cookbook/5.0/Population/PopulationBox/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Population Plot", "Population Box Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Population", "/cookbook/5.0/Population/PopulationBox"]
-Date: 2024-11-06
-Version: ScottPlot 5.0.43
-Version: ScottPlot 5.0.43
+Date: 2024-11-09
+Version: ScottPlot 5.0.44
+Version: ScottPlot 5.0.44
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Population statistics can be displayed using box plots.
 
-[![](/cookbook/5.0/images/PopulationBox.png?241105214550)](/cookbook/5.0/images/PopulationBox.png?241105214550)
+[![](/cookbook/5.0/images/PopulationBox.png?241109132219)](/cookbook/5.0/images/PopulationBox.png?241109132219)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Population.cs" imageUrl="/cookbook/5.0/images/PopulationBox.png?241105214550" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Population.cs" imageUrl="/cookbook/5.0/images/PopulationBox.png?241109132219" >}}ScottPlot.Plot myPlot = new();
 
 for (int i = 0; i &lt; 5; i++)
 {

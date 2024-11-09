@@ -4,9 +4,9 @@ Description: A contour plot can be created from a collection of 3D data points p
 URL: /cookbook/5.0/Contour/IrregularContour/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Contour Plot", "Irregular Contour Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Contour", "/cookbook/5.0/Contour/IrregularContour"]
-Date: 2024-11-06
-Version: ScottPlot 5.0.43
-Version: ScottPlot 5.0.43
+Date: 2024-11-09
+Version: ScottPlot 5.0.44
+Version: ScottPlot 5.0.44
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 A contour plot can be created from a collection of 3D data points placed arbitrarily in X/Y plane.
 
-[![](/cookbook/5.0/images/IrregularContour.png?241105214550)](/cookbook/5.0/images/IrregularContour.png?241105214550)
+[![](/cookbook/5.0/images/IrregularContour.png?241109132219)](/cookbook/5.0/images/IrregularContour.png?241109132219)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Contour.cs" imageUrl="/cookbook/5.0/images/IrregularContour.png?241105214550" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Contour.cs" imageUrl="/cookbook/5.0/images/IrregularContour.png?241109132219" >}}ScottPlot.Plot myPlot = new();
 
 // generate irregularly spaced X/Y/Z data points
 Coordinates3d[] cs = new Coordinates3d[1000];

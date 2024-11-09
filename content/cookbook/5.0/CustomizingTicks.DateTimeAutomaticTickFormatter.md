@@ -4,9 +4,9 @@ Description: Users can customize the logic used to create datetime tick labels f
 URL: /cookbook/5.0/CustomizingTicks/DateTimeAutomaticTickFormatter/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Customizing Ticks", "DateTimeAutomatic Tick Formatters"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/CustomizingTicks", "/cookbook/5.0/CustomizingTicks/DateTimeAutomaticTickFormatter"]
-Date: 2024-11-06
-Version: ScottPlot 5.0.43
-Version: ScottPlot 5.0.43
+Date: 2024-11-09
+Version: ScottPlot 5.0.44
+Version: ScottPlot 5.0.44
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Users can customize the logic used to create datetime tick labels from tick positions. 
 
-[![](/cookbook/5.0/images/DateTimeAutomaticTickFormatter.png?241105214550)](/cookbook/5.0/images/DateTimeAutomaticTickFormatter.png?241105214550)
+[![](/cookbook/5.0/images/DateTimeAutomaticTickFormatter.png?241109132219)](/cookbook/5.0/images/DateTimeAutomaticTickFormatter.png?241109132219)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs" imageUrl="/cookbook/5.0/images/DateTimeAutomaticTickFormatter.png?241105214550" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs" imageUrl="/cookbook/5.0/images/DateTimeAutomaticTickFormatter.png?241109132219" >}}ScottPlot.Plot myPlot = new();
 
 // plot data using DateTime values on the horizontal axis
 DateTime[] xs = Generate.ConsecutiveHours(100);
@@ -41,7 +41,7 @@ static string CustomFormatter(DateTime dt)
 }
 
 // apply our custom tick formatter
-DateTimeAutomatic tickGen = (DateTimeAutomatic)axis.TickGenerator;
+var tickGen = (ScottPlot.TickGenerators.DateTimeAutomatic)axis.TickGenerator;
 tickGen.LabelFormatter = CustomFormatter;
 
 myPlot.SavePng("demo.png", 400, 300);

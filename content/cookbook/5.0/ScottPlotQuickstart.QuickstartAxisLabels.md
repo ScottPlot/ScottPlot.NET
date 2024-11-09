@@ -4,9 +4,9 @@ Description: Plots have helper methods for quickly setting axis labels. Refer to
 URL: /cookbook/5.0/ScottPlotQuickstart/QuickstartAxisLabels/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Quickstart", "Axis Labels"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/ScottPlotQuickstart", "/cookbook/5.0/ScottPlotQuickstart/QuickstartAxisLabels"]
-Date: 2024-11-06
-Version: ScottPlot 5.0.43
-Version: ScottPlot 5.0.43
+Date: 2024-11-09
+Version: ScottPlot 5.0.44
+Version: ScottPlot 5.0.44
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Plots have helper methods for quickly setting axis labels. Refer to other cookbook pages for additional axis customization options.
 
-[![](/cookbook/5.0/images/QuickstartAxisLabels.png?241105214550)](/cookbook/5.0/images/QuickstartAxisLabels.png?241105214550)
+[![](/cookbook/5.0/images/QuickstartAxisLabels.png?241109132219)](/cookbook/5.0/images/QuickstartAxisLabels.png?241109132219)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Quickstart.cs" imageUrl="/cookbook/5.0/images/QuickstartAxisLabels.png?241105214550" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Quickstart.cs" imageUrl="/cookbook/5.0/images/QuickstartAxisLabels.png?241109132219" >}}ScottPlot.Plot myPlot = new();
 
 // plot sample data
 myPlot.Add.Signal(Generate.Sin(51));

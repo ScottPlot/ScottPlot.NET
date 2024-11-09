@@ -4,9 +4,9 @@ Description: Many standard arrow shapes are available
 URL: /cookbook/5.0/Styling/ArrowShapeNames/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Styling Plots", "Arrow Shapes"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Styling", "/cookbook/5.0/Styling/ArrowShapeNames"]
-Date: 2024-11-06
-Version: ScottPlot 5.0.43
-Version: ScottPlot 5.0.43
+Date: 2024-11-09
+Version: ScottPlot 5.0.44
+Version: ScottPlot 5.0.44
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Many standard arrow shapes are available
 
-[![](/cookbook/5.0/images/ArrowShapeNames.png?241105214550)](/cookbook/5.0/images/ArrowShapeNames.png?241105214550)
+[![](/cookbook/5.0/images/ArrowShapeNames.png?241109132219)](/cookbook/5.0/images/ArrowShapeNames.png?241109132219)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs" imageUrl="/cookbook/5.0/images/ArrowShapeNames.png?241105214550" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs" imageUrl="/cookbook/5.0/images/ArrowShapeNames.png?241109132219" >}}ScottPlot.Plot myPlot = new();
 
 ArrowShape[] arrowShapes = Enum.GetValues&lt;ArrowShape&gt;().ToArray();
 

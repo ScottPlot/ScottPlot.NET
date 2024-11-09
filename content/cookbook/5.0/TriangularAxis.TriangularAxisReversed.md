@@ -4,9 +4,9 @@ Description: Triangular axes typically ascend in a clockwise direction for gener
 URL: /cookbook/5.0/TriangularAxis/TriangularAxisReversed/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Triangular Axis", "Triangular Axis Reverse"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/TriangularAxis", "/cookbook/5.0/TriangularAxis/TriangularAxisReversed"]
-Date: 2024-11-06
-Version: ScottPlot 5.0.43
-Version: ScottPlot 5.0.43
+Date: 2024-11-09
+Version: ScottPlot 5.0.44
+Version: ScottPlot 5.0.44
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Triangular axes typically ascend in a clockwise direction for general applications, but triangular plots with counterclockwise labeling are sometimes used for geological applications.
 
-[![](/cookbook/5.0/images/TriangularAxisReversed.png?241105214550)](/cookbook/5.0/images/TriangularAxisReversed.png?241105214550)
+[![](/cookbook/5.0/images/TriangularAxisReversed.png?241109132219)](/cookbook/5.0/images/TriangularAxisReversed.png?241109132219)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/TriangularAxis.cs" imageUrl="/cookbook/5.0/images/TriangularAxisReversed.png?241105214550" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/TriangularAxis.cs" imageUrl="/cookbook/5.0/images/TriangularAxisReversed.png?241109132219" >}}ScottPlot.Plot myPlot = new();
 
 // Add a COUNTER-CLOCKWISE triangular axis to the plot
 var ta = myPlot.Add.TriangularAxis(clockwise: false);

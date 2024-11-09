@@ -4,9 +4,9 @@ Description: Annotations can be extensively customized.
 URL: /cookbook/5.0/Annotation/AnnotationCustomize/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Annotation", "Annotation Customization"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Annotation", "/cookbook/5.0/Annotation/AnnotationCustomize"]
-Date: 2024-11-06
-Version: ScottPlot 5.0.43
-Version: ScottPlot 5.0.43
+Date: 2024-11-09
+Version: ScottPlot 5.0.44
+Version: ScottPlot 5.0.44
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Annotations can be extensively customized.
 
-[![](/cookbook/5.0/images/AnnotationCustomize.png?241105214550)](/cookbook/5.0/images/AnnotationCustomize.png?241105214550)
+[![](/cookbook/5.0/images/AnnotationCustomize.png?241109132219)](/cookbook/5.0/images/AnnotationCustomize.png?241109132219)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Annotation.cs" imageUrl="/cookbook/5.0/images/AnnotationCustomize.png?241105214550" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Annotation.cs" imageUrl="/cookbook/5.0/images/AnnotationCustomize.png?241109132219" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin());
 myPlot.Add.Signal(Generate.Cos());

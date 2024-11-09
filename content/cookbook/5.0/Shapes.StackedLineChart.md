@@ -4,9 +4,9 @@ Description: A stacked line chart may be achieved by combining primitive shapes 
 URL: /cookbook/5.0/Shapes/StackedLineChart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Shapes", "Stacked Line Chart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Shapes", "/cookbook/5.0/Shapes/StackedLineChart"]
-Date: 2024-11-06
-Version: ScottPlot 5.0.43
-Version: ScottPlot 5.0.43
+Date: 2024-11-09
+Version: ScottPlot 5.0.44
+Version: ScottPlot 5.0.44
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 A stacked line chart may be achieved by combining primitive shapes onto a plot.
 
-[![](/cookbook/5.0/images/StackedLineChart.png?241105214550)](/cookbook/5.0/images/StackedLineChart.png?241105214550)
+[![](/cookbook/5.0/images/StackedLineChart.png?241109132219)](/cookbook/5.0/images/StackedLineChart.png?241109132219)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Shapes.cs" imageUrl="/cookbook/5.0/images/StackedLineChart.png?241105214550" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Shapes.cs" imageUrl="/cookbook/5.0/images/StackedLineChart.png?241109132219" >}}ScottPlot.Plot myPlot = new();
 
 // prepare values for each line
 double[] values1 = [8.4, 6.9, 6.5, 4.4];

@@ -4,9 +4,9 @@ Description: Signal plots display Y values at evenly spaced X positions. Signal 
 URL: /cookbook/5.0/ScottPlotQuickstart/QuickstartSignal/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Quickstart", "Signal Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/ScottPlotQuickstart", "/cookbook/5.0/ScottPlotQuickstart/QuickstartSignal"]
-Date: 2024-11-06
-Version: ScottPlot 5.0.43
-Version: ScottPlot 5.0.43
+Date: 2024-11-09
+Version: ScottPlot 5.0.44
+Version: ScottPlot 5.0.44
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Signal plots display Y values at evenly spaced X positions. Signal plots should be used instead of Scatter plots whenever possible.
 
-[![](/cookbook/5.0/images/QuickstartSignal.png?241105214550)](/cookbook/5.0/images/QuickstartSignal.png?241105214550)
+[![](/cookbook/5.0/images/QuickstartSignal.png?241109132219)](/cookbook/5.0/images/QuickstartSignal.png?241109132219)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Quickstart.cs" imageUrl="/cookbook/5.0/images/QuickstartSignal.png?241105214550" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Quickstart.cs" imageUrl="/cookbook/5.0/images/QuickstartSignal.png?241109132219" >}}ScottPlot.Plot myPlot = new();
 
 // create sample data
 double[] sin = Generate.Sin(51);

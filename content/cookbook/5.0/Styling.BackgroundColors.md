@@ -4,9 +4,9 @@ Description: Background color for the entire figure or just the data area may be
 URL: /cookbook/5.0/Styling/BackgroundColors/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Styling Plots", "Background Colors"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Styling", "/cookbook/5.0/Styling/BackgroundColors"]
-Date: 2024-11-06
-Version: ScottPlot 5.0.43
-Version: ScottPlot 5.0.43
+Date: 2024-11-09
+Version: ScottPlot 5.0.44
+Version: ScottPlot 5.0.44
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Background color for the entire figure or just the data area may be individually controlled. When using dark figure backgrounds it may be necessary to configure axes to use light colors
 
-[![](/cookbook/5.0/images/BackgroundColors.png?241105214550)](/cookbook/5.0/images/BackgroundColors.png?241105214550)
+[![](/cookbook/5.0/images/BackgroundColors.png?241109132219)](/cookbook/5.0/images/BackgroundColors.png?241109132219)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs" imageUrl="/cookbook/5.0/images/BackgroundColors.png?241105214550" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs" imageUrl="/cookbook/5.0/images/BackgroundColors.png?241109132219" >}}ScottPlot.Plot myPlot = new();
 
 // setup a plot with sample data
 myPlot.Add.Signal(Generate.Sin(51));

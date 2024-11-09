@@ -4,9 +4,9 @@ Description: A floating or centered axis may be realized by hiding the default a
 URL: /cookbook/5.0/AxisAndTicks/FloatingAxis/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Axis and Ticks", "Floating Axis"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AxisAndTicks", "/cookbook/5.0/AxisAndTicks/FloatingAxis"]
-Date: 2024-11-06
-Version: ScottPlot 5.0.43
-Version: ScottPlot 5.0.43
+Date: 2024-11-09
+Version: ScottPlot 5.0.44
+Version: ScottPlot 5.0.44
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 A floating or centered axis may be realized by hiding the default axes which appear at the edges of the plot and creating a new floating axis and adding it to the plot.
 
-[![](/cookbook/5.0/images/FloatingAxis.png?241105214550)](/cookbook/5.0/images/FloatingAxis.png?241105214550)
+[![](/cookbook/5.0/images/FloatingAxis.png?241109132219)](/cookbook/5.0/images/FloatingAxis.png?241109132219)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs" imageUrl="/cookbook/5.0/images/FloatingAxis.png?241105214550" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs" imageUrl="/cookbook/5.0/images/FloatingAxis.png?241109132219" >}}ScottPlot.Plot myPlot = new();
 
 // create floating X and Y axes using one of the existing axes for reference
 ScottPlot.Plottables.FloatingAxis floatingX = new(myPlot.Axes.Bottom);

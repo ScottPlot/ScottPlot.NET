@@ -4,9 +4,9 @@ Description: Groups of populations can be achieved by customizing position, colo
 URL: /cookbook/5.0/Population/PopulationGroups/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Population Plot", "Population Groups"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Population", "/cookbook/5.0/Population/PopulationGroups"]
-Date: 2024-11-06
-Version: ScottPlot 5.0.43
-Version: ScottPlot 5.0.43
+Date: 2024-11-09
+Version: ScottPlot 5.0.44
+Version: ScottPlot 5.0.44
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Groups of populations can be achieved by customizing position, color, axis labels, and legend items.
 
-[![](/cookbook/5.0/images/PopulationGroups.png?241105214550)](/cookbook/5.0/images/PopulationGroups.png?241105214550)
+[![](/cookbook/5.0/images/PopulationGroups.png?241109132219)](/cookbook/5.0/images/PopulationGroups.png?241109132219)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Population.cs" imageUrl="/cookbook/5.0/images/PopulationGroups.png?241105214550" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Population.cs" imageUrl="/cookbook/5.0/images/PopulationGroups.png?241109132219" >}}ScottPlot.Plot myPlot = new();
 
 // define the groups
 string[] groupNames = { "Gen X", "Gen Y", "Gen Z" };
