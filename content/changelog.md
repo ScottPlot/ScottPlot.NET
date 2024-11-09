@@ -62,6 +62,8 @@ Release notes for every version of ScottPlot
 </li>
 <li>Grid: Added <code>Color</code>, <code>LineWidth</code>, and <code>LinePattern</code> properties for quickly setting major line styles of primary X and Y axes grid lines (<a href="https://github.com/ScottPlot/ScottPlot/issues/4384">#4384</a>)
 </li>
+<li>DataLogger: Exposed <code>HasNewData</code> to allow signaling that new renders are required after manually editing logger data (<a href="https://github.com/ScottPlot/ScottPlot/issues/4470">#4470</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4460">#4460</a>) <a href="https://github.com/Fruchtzwerg94"><strong>@Fruchtzwerg94</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
