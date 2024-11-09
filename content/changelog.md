@@ -64,6 +64,14 @@ Release notes for every version of ScottPlot
 </li>
 <li>DataLogger: Exposed <code>HasNewData</code> to allow signaling that new renders are required after manually editing logger data (<a href="https://github.com/ScottPlot/ScottPlot/issues/4470">#4470</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4460">#4460</a>) <a href="https://github.com/Fruchtzwerg94"><strong>@Fruchtzwerg94</strong></a>
 </li>
+<li>Marker: Improved support for filled markers with opt-in outlines (<a href="https://github.com/ScottPlot/ScottPlot/issues/4387">#4387</a>)
+</li>
+<li>Generate: Added <code>RangeWithStep()</code> and <code>RangeWithCount()</code> as more explicit alternatives to the ambiguously named <code>Range()</code> method
+</li>
+<li>Scatter: Filled areas previously only respected <code>OffsetX</code> but now respect <code>OffsetY</code> too (<a href="https://github.com/ScottPlot/ScottPlot/issues/4433">#4433</a>)
+</li>
+<li>Controls: Modified <code>MouseDragZoom</code> to expose sensitivity properties to improve click-drag experiments for different platforms (<a href="https://github.com/ScottPlot/ScottPlot/issues/4443">#4443</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4416">#4416</a>) <a href="https://github.com/King-Taz"><strong>@King-Taz</strong></a> <a href="https://github.com/KosmosWerner"><strong>@KosmosWerner</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
