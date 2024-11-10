@@ -16,6 +16,14 @@ Members of the open-source community who contributed to ScottPlot
 <div class='display-3 my-5 text-center'>💖🚀✨</div>
 <div class='d-flex justify-content-center flex-wrap'>
 <div class='bg-light border rounded text-center mx-3 my-2'>
+<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/quantfreedom.jpg' height='125' width='125'/></a></div>
+<div><a href='https://github.com/quantfreedom'>@quantfreedom</a></div>
+</div>
+<div class='bg-light border rounded text-center mx-3 my-2'>
+<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/brand/favicon.png' height='125' width='125'/></a></div>
+<div><a href='https://github.com/VladislavPustovarov'>@VladislavPustovarov</a></div>
+</div>
+<div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/coderpm2011.jpg' height='125' width='125'/></a></div>
 <div><a href='https://github.com/CoderPM2011'>@CoderPM2011</a></div>
 </div>
@@ -120,20 +128,12 @@ Members of the open-source community who contributed to ScottPlot
 <div><a href='https://github.com/cosmicDustOfLightLength'>@cosmicDustOfLightLength</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
-<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/quantfreedom.jpg' height='125' width='125'/></a></div>
-<div><a href='https://github.com/quantfreedom'>@quantfreedom</a></div>
-</div>
-<div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/lyakabynka.png' height='125' width='125'/></a></div>
 <div><a href='https://github.com/Lyakabynka'>@Lyakabynka</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/bukowa.png' height='125' width='125'/></a></div>
 <div><a href='https://github.com/bukowa'>@bukowa</a></div>
-</div>
-<div class='bg-light border rounded text-center mx-3 my-2'>
-<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/vladislavpweetsoft.png' height='125' width='125'/></a></div>
-<div><a href='https://github.com/vladislavpweetsoft'>@vladislavpweetsoft</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/manaruto.jpg' height='125' width='125'/></a></div>

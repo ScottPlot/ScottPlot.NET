@@ -8,6 +8,26 @@ Description: Release notes for every version of ScottPlot
 Release notes for every version of ScottPlot
 
 <section class='mb-5'>
+<h1 class='mb-0'>ScottPlot 5.0.45</h1>
+<div><i>NuGet packages published </i></div>
+<div class='mt-1'>
+<ul>
+<li>Candlestick: Improved performance for plots with large numbers of candles less than one pixel wide (<a href="https://github.com/ScottPlot/ScottPlot/issues/4483">#4483</a>) <a href="https://github.com/quantfreedom"><strong>@quantfreedom</strong></a> <a href="https://github.com/VladislavPustovarov"><strong>@VladislavPustovarov</strong></a>
+</li>
+</ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/quantfreedom'>@quantfreedom</a>, <a href='https://github.com/VladislavPustovarov'>@VladislavPustovarov</a>, <a href='https://github.com/swharden'>@swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/quantfreedom'><img src='https://scottplot.net/images/contributors/quantfreedom.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/VladislavPustovarov'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
+
+</section>
+<section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 5.0.44</h1>
 <div><i>NuGet packages published 2024-11-09</i></div>
 <div class='mt-1'>
@@ -129,7 +149,7 @@ Release notes for every version of ScottPlot
 </li>
 <li>Ticks: Added an experimental <code>FinancialTickGenerator</code> for generating DateTime ticks from unevenly-spaced time data (<a href="https://github.com/ScottPlot/ScottPlot/issues/4385">#4385</a>)
 </li>
-<li>Financial Charting: Added experimental <code>FinancialTimeAxis</code> plottable as an alternative to using custom axes or tick generators (<a href="https://github.com/ScottPlot/ScottPlot/issues/4385">#4385</a>) <a href="https://github.com/quantfreedom"><strong>@quantfreedom</strong></a> <a href="https://github.com/vladislavpweetsoft"><strong>@vladislavpweetsoft</strong></a>
+<li>Financial Charting: Added experimental <code>FinancialTimeAxis</code> plottable as an alternative to using custom axes or tick generators (<a href="https://github.com/ScottPlot/ScottPlot/issues/4385">#4385</a>) <a href="https://github.com/quantfreedom"><strong>@quantfreedom</strong></a> <a href="https://github.com/VladislavPustovarov"><strong>@VladislavPustovarov</strong></a>
 </li>
 <li>Triangular Axis: Users may now <code>Add.TriangularAxis()</code> and use its methods to get Cartesian coordinates from points in triangular space (<a href="https://github.com/ScottPlot/ScottPlot/issues/4421">#4421</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4413">#4413</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4424">#4424</a>) <a href="https://github.com/manaruto"><strong>@manaruto</strong></a>
 </li>
@@ -149,7 +169,7 @@ Release notes for every version of ScottPlot
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/KosmosWerner'>@KosmosWerner</a>, <a href='https://github.com/King-Taz'>@King-Taz</a>, <a href='https://github.com/cosmicDustOfLightLength'>@cosmicDustOfLightLength</a>, <a href='https://github.com/quantfreedom'>@quantfreedom</a>, <a href='https://github.com/Lyakabynka'>@Lyakabynka</a>, <a href='https://github.com/bukowa'>@bukowa</a>, <a href='https://github.com/vladislavpweetsoft'>@vladislavpweetsoft</a>, <a href='https://github.com/manaruto'>@manaruto</a>, <a href='https://github.com/tiger2014'>@tiger2014</a>, <a href='https://github.com/ZTaiIT1025'>@ZTaiIT1025</a>, <a href='https://github.com/TheFizz'>@TheFizz</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/KosmosWerner'>@KosmosWerner</a>, <a href='https://github.com/King-Taz'>@King-Taz</a>, <a href='https://github.com/cosmicDustOfLightLength'>@cosmicDustOfLightLength</a>, <a href='https://github.com/quantfreedom'>@quantfreedom</a>, <a href='https://github.com/Lyakabynka'>@Lyakabynka</a>, <a href='https://github.com/bukowa'>@bukowa</a>, <a href='https://github.com/VladislavPustovarov'>@VladislavPustovarov</a>, <a href='https://github.com/manaruto'>@manaruto</a>, <a href='https://github.com/tiger2014'>@tiger2014</a>, <a href='https://github.com/ZTaiIT1025'>@ZTaiIT1025</a>, <a href='https://github.com/TheFizz'>@TheFizz</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/KosmosWerner'><img src='https://scottplot.net/images/contributors/kosmoswerner.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -158,7 +178,7 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/quantfreedom'><img src='https://scottplot.net/images/contributors/quantfreedom.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Lyakabynka'><img src='https://scottplot.net/images/contributors/lyakabynka.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/bukowa'><img src='https://scottplot.net/images/contributors/bukowa.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/vladislavpweetsoft'><img src='https://scottplot.net/images/contributors/vladislavpweetsoft.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/VladislavPustovarov'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/manaruto'><img src='https://scottplot.net/images/contributors/manaruto.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/tiger2014'><img src='https://scottplot.net/images/contributors/tiger2014.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/ZTaiIT1025'><img src='https://scottplot.net/images/contributors/ztaiit1025.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
