@@ -18,17 +18,20 @@ Release notes for every version of ScottPlot
 </li>
 <li>SignalConst: Improve automatic axis limit detection when X and Y data offsets are used (<a href="https://github.com/ScottPlot/ScottPlot/issues/4485">#4485</a>) <a href="https://github.com/matej-mnoucek"><strong>@matej-mnoucek</strong></a>
 </li>
+<li>Controls: Improve interactivity behavior by resetting drag events when interactivity is disabled (<a href="https://github.com/ScottPlot/ScottPlot/issues/4481">#4481</a>) <a href="https://github.com/hljlishen"><strong>@hljlishen</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/quantfreedom'>@quantfreedom</a>, <a href='https://github.com/VladislavPustovarov'>@VladislavPustovarov</a>, <a href='https://github.com/Saklut'>@Saklut</a>, <a href='https://github.com/matej-mnoucek'>@matej-mnoucek</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/quantfreedom'>@quantfreedom</a>, <a href='https://github.com/VladislavPustovarov'>@VladislavPustovarov</a>, <a href='https://github.com/Saklut'>@Saklut</a>, <a href='https://github.com/matej-mnoucek'>@matej-mnoucek</a>, <a href='https://github.com/hljlishen'>@hljlishen</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/quantfreedom'><img src='https://scottplot.net/images/contributors/quantfreedom.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/VladislavPustovarov'><img src='https://scottplot.net/images/contributors/vladislavpustovarov.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Saklut'><img src='https://scottplot.net/images/contributors/saklut.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/matej-mnoucek'><img src='https://scottplot.net/images/contributors/matej-mnoucek.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/hljlishen'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
