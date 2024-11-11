@@ -14,15 +14,18 @@ Release notes for every version of ScottPlot
 <ul>
 <li>Candlestick: Improved performance for plots with large numbers of candles less than one pixel wide (<a href="https://github.com/ScottPlot/ScottPlot/issues/4483">#4483</a>) <a href="https://github.com/quantfreedom"><strong>@quantfreedom</strong></a> <a href="https://github.com/VladislavPustovarov"><strong>@VladislavPustovarov</strong></a>
 </li>
+<li>Blazor: Added UI event handlers with names consistent with those of other controls (<a href="https://github.com/ScottPlot/ScottPlot/issues/4480">#4480</a>) <a href="https://github.com/Saklut"><strong>@Saklut</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/quantfreedom'>@quantfreedom</a>, <a href='https://github.com/VladislavPustovarov'>@VladislavPustovarov</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/quantfreedom'>@quantfreedom</a>, <a href='https://github.com/VladislavPustovarov'>@VladislavPustovarov</a>, <a href='https://github.com/Saklut'>@Saklut</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/quantfreedom'><img src='https://scottplot.net/images/contributors/quantfreedom.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/VladislavPustovarov'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/VladislavPustovarov'><img src='https://scottplot.net/images/contributors/vladislavpustovarov.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Saklut'><img src='https://scottplot.net/images/contributors/saklut.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
@@ -178,7 +181,7 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/quantfreedom'><img src='https://scottplot.net/images/contributors/quantfreedom.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Lyakabynka'><img src='https://scottplot.net/images/contributors/lyakabynka.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/bukowa'><img src='https://scottplot.net/images/contributors/bukowa.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/VladislavPustovarov'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/VladislavPustovarov'><img src='https://scottplot.net/images/contributors/vladislavpustovarov.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/manaruto'><img src='https://scottplot.net/images/contributors/manaruto.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/tiger2014'><img src='https://scottplot.net/images/contributors/tiger2014.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/ZTaiIT1025'><img src='https://scottplot.net/images/contributors/ztaiit1025.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
