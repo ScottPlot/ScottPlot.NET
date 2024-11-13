@@ -16,23 +16,25 @@ date: 2023-12-13
 * Select _Polyglot Notebook: Create Default Notebook_
 * Choose the `.ipynb` extension and select the C# language
 
-### Setup ScottPlot
+### Add the ScottPlot Package
 
-Add this to the top of your notebook to use the ScottPlot NuGet package and make it easy to display plots inline:
+Add this to the top of your notebook:
 
 ```cs
-// Install the ScottPlot NuGet package
 #r "nuget:ScottPlot, 5.0.*"
+```
 
-// Setup a custom formatter to display plots as images
+Linux users may require an additional package:
+
+```cs
+#r "nuget:SkiaSharp.NativeAssets.Linux.NoDependencies"
+```
+
+### Prepare a Plot Viewer
+```cs
 using Microsoft.DotNet.Interactive.Formatting;
 Formatter.Register(typeof(ScottPlot.Plot), (p, w) => 
     w.Write(((ScottPlot.Plot)p).GetImageHtml(400, 300)), HtmlFormatter.MimeType);
-```
-
-Linux users require an additional package as well
-```cs
-#r "nuget:SkiaSharp.NativeAssets.Linux.NoDependencies"
 ```
 
 ### Plot Data
@@ -50,4 +52,4 @@ plt.Add.Scatter(dataX, dataY);
 plt
 ```
 
-![](/images/quickstart/scottplot-quickstart-console.png)
+![](/images/quickstart/notebook.png)
