@@ -34,7 +34,7 @@ Linux users may require an additional package:
 ```cs
 using Microsoft.DotNet.Interactive.Formatting;
 Formatter.Register(typeof(ScottPlot.Plot), (p, w) => 
-    w.Write(((ScottPlot.Plot)p).GetImageHtml(400, 300)), HtmlFormatter.MimeType);
+    w.Write(((ScottPlot.Plot)p).GetPngHtml(400, 300)), HtmlFormatter.MimeType);
 ```
 
 ### Plot Data
