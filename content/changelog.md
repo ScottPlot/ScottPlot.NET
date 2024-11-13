@@ -9,7 +9,7 @@ Release notes for every version of ScottPlot
 
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 5.0.45</h1>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2024-11-12</i></div>
 <div class='mt-1'>
 <ul>
 <li>Candlestick: Improved performance for plots with large numbers of candles less than one pixel wide (<a href="https://github.com/ScottPlot/ScottPlot/issues/4483">#4483</a>) <a href="https://github.com/quantfreedom"><strong>@quantfreedom</strong></a> <a href="https://github.com/VladislavPustovarov"><strong>@VladislavPustovarov</strong></a>
@@ -39,7 +39,7 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/matej-mnoucek'><img src='https://scottplot.net/images/contributors/matej-mnoucek.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/hljlishen'><img src='https://scottplot.net/images/contributors/hljlishen.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/moranmono'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/moranmono'><img src='https://scottplot.net/images/contributors/moranmono.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
