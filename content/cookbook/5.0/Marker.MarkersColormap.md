@@ -4,9 +4,9 @@ Description: A colormap may be used to style a collection of markers
 URL: /cookbook/5.0/Marker/MarkersColormap/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Marker", "Marker with Colormap"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Marker", "/cookbook/5.0/Marker/MarkersColormap"]
-Date: 2024-11-09
-Version: ScottPlot 5.0.44
-Version: ScottPlot 5.0.44
+Date: 2024-11-13
+Version: ScottPlot 5.0.45
+Version: ScottPlot 5.0.45
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 A colormap may be used to style a collection of markers
 
-[![](/cookbook/5.0/images/MarkersColormap.png?241109132219)](/cookbook/5.0/images/MarkersColormap.png?241109132219)
+[![](/cookbook/5.0/images/MarkersColormap.png?241112193154)](/cookbook/5.0/images/MarkersColormap.png?241112193154)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Marker.cs" imageUrl="/cookbook/5.0/images/MarkersColormap.png?241109132219" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Marker.cs" imageUrl="/cookbook/5.0/images/MarkersColormap.png?241112193154" >}}ScottPlot.Plot myPlot = new();
 
 double[] xs = Generate.Consecutive(51);
 double[] ys = Generate.Sin(51);

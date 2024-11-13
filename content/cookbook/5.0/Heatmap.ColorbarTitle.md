@@ -4,9 +4,9 @@ Description: A colorbar displays a colormap on an edge of the plot, and it has a
 URL: /cookbook/5.0/Heatmap/ColorbarTitle/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Heatmap", "Colorbar Title"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Heatmap", "/cookbook/5.0/Heatmap/ColorbarTitle"]
-Date: 2024-11-09
-Version: ScottPlot 5.0.44
-Version: ScottPlot 5.0.44
+Date: 2024-11-13
+Version: ScottPlot 5.0.45
+Version: ScottPlot 5.0.45
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 A colorbar displays a colormap on an edge of the plot, and it has an optional label which can be customized to display a title.
 
-[![](/cookbook/5.0/images/ColorbarTitle.png?241109132219)](/cookbook/5.0/images/ColorbarTitle.png?241109132219)
+[![](/cookbook/5.0/images/ColorbarTitle.png?241112193154)](/cookbook/5.0/images/ColorbarTitle.png?241112193154)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Heatmap.cs" imageUrl="/cookbook/5.0/images/ColorbarTitle.png?241109132219" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Heatmap.cs" imageUrl="/cookbook/5.0/images/ColorbarTitle.png?241112193154" >}}ScottPlot.Plot myPlot = new();
 
 double[,] data = SampleData.MonaLisa();
 

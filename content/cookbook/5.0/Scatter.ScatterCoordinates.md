@@ -4,9 +4,9 @@ Description: Scatter plots can be created from a collection of Coordinates.
 URL: /cookbook/5.0/Scatter/ScatterCoordinates/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Scatter Plot", "Scatter Plot Coordinates"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Scatter", "/cookbook/5.0/Scatter/ScatterCoordinates"]
-Date: 2024-11-09
-Version: ScottPlot 5.0.44
-Version: ScottPlot 5.0.44
+Date: 2024-11-13
+Version: ScottPlot 5.0.45
+Version: ScottPlot 5.0.45
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Scatter plots can be created from a collection of Coordinates.
 
-[![](/cookbook/5.0/images/ScatterCoordinates.png?241109132219)](/cookbook/5.0/images/ScatterCoordinates.png?241109132219)
+[![](/cookbook/5.0/images/ScatterCoordinates.png?241112193154)](/cookbook/5.0/images/ScatterCoordinates.png?241112193154)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Scatter.cs" imageUrl="/cookbook/5.0/images/ScatterCoordinates.png?241109132219" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Scatter.cs" imageUrl="/cookbook/5.0/images/ScatterCoordinates.png?241112193154" >}}ScottPlot.Plot myPlot = new();
 
 Coordinates[] coordinates =
 {

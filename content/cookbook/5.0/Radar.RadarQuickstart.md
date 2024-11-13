@@ -4,9 +4,9 @@ Description: A radar chart can be created from a single array of values.
 URL: /cookbook/5.0/Radar/RadarQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Radar Plot", "Radar Plot Quickstart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Radar", "/cookbook/5.0/Radar/RadarQuickstart"]
-Date: 2024-11-09
-Version: ScottPlot 5.0.44
-Version: ScottPlot 5.0.44
+Date: 2024-11-13
+Version: ScottPlot 5.0.45
+Version: ScottPlot 5.0.45
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 A radar chart can be created from a single array of values.
 
-[![](/cookbook/5.0/images/RadarQuickstart.png?241109132219)](/cookbook/5.0/images/RadarQuickstart.png?241109132219)
+[![](/cookbook/5.0/images/RadarQuickstart.png?241112193154)](/cookbook/5.0/images/RadarQuickstart.png?241112193154)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Radar.cs" imageUrl="/cookbook/5.0/images/RadarQuickstart.png?241109132219" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Radar.cs" imageUrl="/cookbook/5.0/images/RadarQuickstart.png?241112193154" >}}ScottPlot.Plot myPlot = new();
 
 double[] values = { 78, 83, 84, 76, 43 };
 myPlot.Add.Radar(values);

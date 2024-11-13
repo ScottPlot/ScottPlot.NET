@@ -5,7 +5,7 @@ url: /cookbook/5.0/palettes/
 type: single
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Palettes"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/palettes/"]
-date: 2024-11-09
+date: 2024-11-13
 jsFiles: ["https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js", "/js/cookbook-search-5.0.js"]
 ---
 

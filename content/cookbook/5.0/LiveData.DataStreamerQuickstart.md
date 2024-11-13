@@ -4,9 +4,9 @@ Description: Use a DataStreamer to display streaming data using a fixed-length d
 URL: /cookbook/5.0/LiveData/DataStreamerQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Live Data", "DataStreamer Quickstart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/LiveData", "/cookbook/5.0/LiveData/DataStreamerQuickstart"]
-Date: 2024-11-09
-Version: ScottPlot 5.0.44
-Version: ScottPlot 5.0.44
+Date: 2024-11-13
+Version: ScottPlot 5.0.45
+Version: ScottPlot 5.0.45
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Use a DataStreamer to display streaming data using a fixed-length display with a fixed horizontal distance between points. This type of plot is ideal for signals like ECG (heart monitor) waveforms. This plot type has advanced customizations for controlling how new data replaces old data (e.g., slide the old data to the left as new data appears on the right or place new data values from left to right, then wrap around to the start and wipe away the oldest data values by replacing them from left to right again). See the ScottPlot Demo for a live example of this plot type.
 
-[![](/cookbook/5.0/images/DataStreamerQuickstart.png?241109132219)](/cookbook/5.0/images/DataStreamerQuickstart.png?241109132219)
+[![](/cookbook/5.0/images/DataStreamerQuickstart.png?241112193154)](/cookbook/5.0/images/DataStreamerQuickstart.png?241112193154)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/LiveData.cs" imageUrl="/cookbook/5.0/images/DataStreamerQuickstart.png?241109132219" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/LiveData.cs" imageUrl="/cookbook/5.0/images/DataStreamerQuickstart.png?241112193154" >}}ScottPlot.Plot myPlot = new();
 
 // setup a streamer that shows the latest 100 points
 var streamer = myPlot.Add.DataStreamer(100);

@@ -4,9 +4,9 @@ Description: Heatmap cells are aligned in their centers by default. This means t
 URL: /cookbook/5.0/Heatmap/HeatmapCellAlignment/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Heatmap", "HeatmapCellAlignment"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Heatmap", "/cookbook/5.0/Heatmap/HeatmapCellAlignment"]
-Date: 2024-11-09
-Version: ScottPlot 5.0.44
-Version: ScottPlot 5.0.44
+Date: 2024-11-13
+Version: ScottPlot 5.0.45
+Version: ScottPlot 5.0.45
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Heatmap cells are aligned in their centers by default. This means that the bottom left cell will be centered at (0, 0), and its lower left corner will be to the lower left of the origin. Setting sell alignment to lower left causes the lower left of the heatmap to be exactly at (0, 0).
 
-[![](/cookbook/5.0/images/HeatmapCellAlignment.png?241109132219)](/cookbook/5.0/images/HeatmapCellAlignment.png?241109132219)
+[![](/cookbook/5.0/images/HeatmapCellAlignment.png?241112193154)](/cookbook/5.0/images/HeatmapCellAlignment.png?241112193154)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Heatmap.cs" imageUrl="/cookbook/5.0/images/HeatmapCellAlignment.png?241109132219" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Heatmap.cs" imageUrl="/cookbook/5.0/images/HeatmapCellAlignment.png?241112193154" >}}ScottPlot.Plot myPlot = new();
 
 double[,] data = {
     { 1, 2, 3 },

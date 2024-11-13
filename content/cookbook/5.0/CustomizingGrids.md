@@ -4,9 +4,9 @@ Description: Advanced customization of grid lines
 URL: /cookbook/5.0/CustomizingGrids/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Customizing Grids"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/CustomizingGrids"]
-Date: 2024-11-09
-Version: ScottPlot 5.0.44
-Version: ScottPlot 5.0.44
+Date: 2024-11-13
+Version: ScottPlot 5.0.45
+Version: ScottPlot 5.0.45
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -23,9 +23,9 @@ ShowEditLink: false
 
 Grid lines can be hidden.
 
-[![](/cookbook/5.0/images/HideGrid.png?241109132219)](/cookbook/5.0/images/HideGrid.png?241109132219)
+[![](/cookbook/5.0/images/HideGrid.png?241112193154)](/cookbook/5.0/images/HideGrid.png?241112193154)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/GridRecipes.cs" imageUrl="/cookbook/5.0/images/HideGrid.png?241109132219" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/GridRecipes.cs" imageUrl="/cookbook/5.0/images/HideGrid.png?241112193154" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin(51));
 myPlot.Add.Signal(Generate.Cos(51));
@@ -48,9 +48,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Grid lines can be customized. Custom grid systems can be created to give developers full control of grid rendering, but the default grid can be interacted with to customize its appearance.
 
-[![](/cookbook/5.0/images/GridCustom.png?241109132219)](/cookbook/5.0/images/GridCustom.png?241109132219)
+[![](/cookbook/5.0/images/GridCustom.png?241112193154)](/cookbook/5.0/images/GridCustom.png?241112193154)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/GridRecipes.cs" imageUrl="/cookbook/5.0/images/GridCustom.png?241109132219" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/GridRecipes.cs" imageUrl="/cookbook/5.0/images/GridCustom.png?241112193154" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin(51));
 myPlot.Add.Signal(Generate.Cos(51));
@@ -77,9 +77,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Axis-specific styling properties are available for extensive axis-specific customization of grid line styling.
 
-[![](/cookbook/5.0/images/GridCustomAxis.png?241109132219)](/cookbook/5.0/images/GridCustomAxis.png?241109132219)
+[![](/cookbook/5.0/images/GridCustomAxis.png?241112193154)](/cookbook/5.0/images/GridCustomAxis.png?241112193154)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/GridRecipes.cs" imageUrl="/cookbook/5.0/images/GridCustomAxis.png?241109132219" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/GridRecipes.cs" imageUrl="/cookbook/5.0/images/GridCustomAxis.png?241112193154" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin(51));
 myPlot.Add.Signal(Generate.Cos(51));
@@ -106,9 +106,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Grid lines are typically drawn beneath data, but grids can be configured to render on top of plottables too.
 
-[![](/cookbook/5.0/images/GridAbove.png?241109132219)](/cookbook/5.0/images/GridAbove.png?241109132219)
+[![](/cookbook/5.0/images/GridAbove.png?241112193154)](/cookbook/5.0/images/GridAbove.png?241112193154)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/GridRecipes.cs" imageUrl="/cookbook/5.0/images/GridAbove.png?241109132219" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/GridRecipes.cs" imageUrl="/cookbook/5.0/images/GridAbove.png?241112193154" >}}ScottPlot.Plot myPlot = new();
 
 var sig = myPlot.Add.Signal(ScottPlot.Generate.Sin());
 sig.LineWidth = 10;
@@ -133,9 +133,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Grid lines use the bottom and left axes by default, but this behavior can be customized for plots which use other axes.
 
-[![](/cookbook/5.0/images/GridWithTopAxis.png?241109132219)](/cookbook/5.0/images/GridWithTopAxis.png?241109132219)
+[![](/cookbook/5.0/images/GridWithTopAxis.png?241112193154)](/cookbook/5.0/images/GridWithTopAxis.png?241112193154)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/GridRecipes.cs" imageUrl="/cookbook/5.0/images/GridWithTopAxis.png?241109132219" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/GridRecipes.cs" imageUrl="/cookbook/5.0/images/GridWithTopAxis.png?241112193154" >}}ScottPlot.Plot myPlot = new();
 
 var sig = myPlot.Add.Signal(ScottPlot.Generate.Sin());
 sig.Axes.XAxis = myPlot.Axes.Top;
@@ -157,9 +157,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Regions between alternating pairs of major grid lines may be filled with a color specified by the user
 
-[![](/cookbook/5.0/images/GridAlternatingColors.png?241109132219)](/cookbook/5.0/images/GridAlternatingColors.png?241109132219)
+[![](/cookbook/5.0/images/GridAlternatingColors.png?241112193154)](/cookbook/5.0/images/GridAlternatingColors.png?241112193154)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/GridRecipes.cs" imageUrl="/cookbook/5.0/images/GridAlternatingColors.png?241109132219" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/GridRecipes.cs" imageUrl="/cookbook/5.0/images/GridAlternatingColors.png?241112193154" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin());
 myPlot.Add.Signal(Generate.Cos());
@@ -190,9 +190,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Grid and plot styling can be customize to achieve a pleasing effect in dark mode
 
-[![](/cookbook/5.0/images/GridAlternatingDarkMode.png?241109132219)](/cookbook/5.0/images/GridAlternatingDarkMode.png?241109132219)
+[![](/cookbook/5.0/images/GridAlternatingDarkMode.png?241112193154)](/cookbook/5.0/images/GridAlternatingDarkMode.png?241112193154)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/GridRecipes.cs" imageUrl="/cookbook/5.0/images/GridAlternatingDarkMode.png?241109132219" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/GridRecipes.cs" imageUrl="/cookbook/5.0/images/GridAlternatingDarkMode.png?241112193154" >}}ScottPlot.Plot myPlot = new();
 
 // add a green data line
 var sig = myPlot.Add.Signal(Generate.SquareWaveFromSines());

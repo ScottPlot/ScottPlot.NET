@@ -4,9 +4,9 @@ Description: A legend is a key typically displayed in the corner of a plot
 URL: /cookbook/5.0/Legend/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Legends"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Legend"]
-Date: 2024-11-09
-Version: ScottPlot 5.0.44
-Version: ScottPlot 5.0.44
+Date: 2024-11-13
+Version: ScottPlot 5.0.45
+Version: ScottPlot 5.0.45
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -23,15 +23,45 @@ ShowEditLink: false
 
 Many plottables have a Label property that can be set so they appear in the legend.
 
-[![](/cookbook/5.0/images/LegendQuickstart.png?241109132219)](/cookbook/5.0/images/LegendQuickstart.png?241109132219)
+[![](/cookbook/5.0/images/LegendQuickstart.png?241112193154)](/cookbook/5.0/images/LegendQuickstart.png?241112193154)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Legend.cs" imageUrl="/cookbook/5.0/images/LegendQuickstart.png?241109132219" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Legend.cs" imageUrl="/cookbook/5.0/images/LegendQuickstart.png?241112193154" >}}ScottPlot.Plot myPlot = new();
 
 var sig1 = myPlot.Add.Signal(Generate.Sin(51));
 sig1.LegendText = "Sin";
 
 var sig2 = myPlot.Add.Signal(Generate.Cos(51));
 sig2.LegendText = "Cos";
+
+myPlot.ShowLegend();
+
+myPlot.SavePng("demo.png", 400, 300);
+{{< /recipe-sp5 >}}
+
+<hr class='my-5 invisible'>
+
+
+
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Right To Left (RTL) text support</h1>
+<a href='/cookbook/5.0/Legend/LegendWithRTLText' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
+</div>
+
+Enabling Right To Left (RTL) support correctly renders text in RTL languages.
+
+[![](/cookbook/5.0/images/LegendWithRTLText.png?241112193154)](/cookbook/5.0/images/LegendWithRTLText.png?241112193154)
+
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Legend.cs" imageUrl="/cookbook/5.0/images/LegendWithRTLText.png?241112193154" >}}ScottPlot.Plot myPlot = new();
+
+LabelStyle.RTLSupport = true; // enable right-to-left text support
+
+var sig1 = myPlot.Add.Signal(Generate.Sin(51));
+sig1.LegendText = "אמת"; // example right-to-left text
+
+var sig2 = myPlot.Add.Signal(Generate.Cos(51));
+sig2.LegendText = "English"; // example left-to-right text
 
 myPlot.ShowLegend();
 
@@ -51,9 +81,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Legends may be constructed manually.
 
-[![](/cookbook/5.0/images/ManualLegend.png?241109132219)](/cookbook/5.0/images/ManualLegend.png?241109132219)
+[![](/cookbook/5.0/images/ManualLegend.png?241112193154)](/cookbook/5.0/images/ManualLegend.png?241112193154)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Legend.cs" imageUrl="/cookbook/5.0/images/ManualLegend.png?241109132219" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Legend.cs" imageUrl="/cookbook/5.0/images/ManualLegend.png?241112193154" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin(51));
 myPlot.Add.Signal(Generate.Cos(51));
@@ -96,9 +126,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Access the Legend object directly for advanced customization options.
 
-[![](/cookbook/5.0/images/LegendStyle.png?241109132219)](/cookbook/5.0/images/LegendStyle.png?241109132219)
+[![](/cookbook/5.0/images/LegendStyle.png?241112193154)](/cookbook/5.0/images/LegendStyle.png?241112193154)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Legend.cs" imageUrl="/cookbook/5.0/images/LegendStyle.png?241109132219" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Legend.cs" imageUrl="/cookbook/5.0/images/LegendStyle.png?241112193154" >}}ScottPlot.Plot myPlot = new();
 
 var sig1 = myPlot.Add.Signal(Generate.Sin(51));
 sig1.LegendText = "Sin";
@@ -135,9 +165,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Legend items may be arranged horizontally instead of vertically
 
-[![](/cookbook/5.0/images/LegendOrientation.png?241109132219)](/cookbook/5.0/images/LegendOrientation.png?241109132219)
+[![](/cookbook/5.0/images/LegendOrientation.png?241112193154)](/cookbook/5.0/images/LegendOrientation.png?241112193154)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Legend.cs" imageUrl="/cookbook/5.0/images/LegendOrientation.png?241109132219" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Legend.cs" imageUrl="/cookbook/5.0/images/LegendOrientation.png?241112193154" >}}ScottPlot.Plot myPlot = new();
 
 var sig1 = myPlot.Add.Signal(Generate.Sin(51, phase: .2));
 var sig2 = myPlot.Add.Signal(Generate.Sin(51, phase: .4));
@@ -165,9 +195,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Legend items may wrap to improve display for a large number of items
 
-[![](/cookbook/5.0/images/LegendWrapping.png?241109132219)](/cookbook/5.0/images/LegendWrapping.png?241109132219)
+[![](/cookbook/5.0/images/LegendWrapping.png?241112193154)](/cookbook/5.0/images/LegendWrapping.png?241112193154)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Legend.cs" imageUrl="/cookbook/5.0/images/LegendWrapping.png?241109132219" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Legend.cs" imageUrl="/cookbook/5.0/images/LegendWrapping.png?241112193154" >}}ScottPlot.Plot myPlot = new();
 
 for (int i = 1; i &lt;= 10; i++)
 {
@@ -195,9 +225,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Multiple legends may be added to a plot
 
-[![](/cookbook/5.0/images/LegendMultiple.png?241109132219)](/cookbook/5.0/images/LegendMultiple.png?241109132219)
+[![](/cookbook/5.0/images/LegendMultiple.png?241112193154)](/cookbook/5.0/images/LegendMultiple.png?241112193154)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Legend.cs" imageUrl="/cookbook/5.0/images/LegendMultiple.png?241109132219" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Legend.cs" imageUrl="/cookbook/5.0/images/LegendMultiple.png?241112193154" >}}ScottPlot.Plot myPlot = new();
 
 for (int i = 1; i &lt;= 5; i++)
 {
@@ -233,9 +263,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Use the ShowLegend() overload that accepts an Edge to display the legend outside the data area.
 
-[![](/cookbook/5.0/images/LegendOutside.png?241109132219)](/cookbook/5.0/images/LegendOutside.png?241109132219)
+[![](/cookbook/5.0/images/LegendOutside.png?241112193154)](/cookbook/5.0/images/LegendOutside.png?241112193154)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Legend.cs" imageUrl="/cookbook/5.0/images/LegendOutside.png?241109132219" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Legend.cs" imageUrl="/cookbook/5.0/images/LegendOutside.png?241112193154" >}}ScottPlot.Plot myPlot = new();
 
 var sig1 = myPlot.Add.Signal(Generate.Sin());
 var sig2 = myPlot.Add.Signal(Generate.Cos());
@@ -261,9 +291,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Use custom fonts from TTF files in the legend.
 
-[![](/cookbook/5.0/images/LegendCustomFontAutomaticItems.png?241109132219)](/cookbook/5.0/images/LegendCustomFontAutomaticItems.png?241109132219)
+[![](/cookbook/5.0/images/LegendCustomFontAutomaticItems.png?241112193154)](/cookbook/5.0/images/LegendCustomFontAutomaticItems.png?241112193154)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Legend.cs" imageUrl="/cookbook/5.0/images/LegendCustomFontAutomaticItems.png?241109132219" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Legend.cs" imageUrl="/cookbook/5.0/images/LegendCustomFontAutomaticItems.png?241112193154" >}}ScottPlot.Plot myPlot = new();
 
 Fonts.AddFontFile("Alumni Sans", Path.Combine(GetFontsBasePath(), @"AlumniSans/AlumniSans-Regular.ttf"), bold: false, italic: false);
 
@@ -295,9 +325,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Use custom fonts from TTF files in the legend (manual legend items).
 
-[![](/cookbook/5.0/images/LegendCustomFontManualItems.png?241109132219)](/cookbook/5.0/images/LegendCustomFontManualItems.png?241109132219)
+[![](/cookbook/5.0/images/LegendCustomFontManualItems.png?241112193154)](/cookbook/5.0/images/LegendCustomFontManualItems.png?241112193154)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Legend.cs" imageUrl="/cookbook/5.0/images/LegendCustomFontManualItems.png?241109132219" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Legend.cs" imageUrl="/cookbook/5.0/images/LegendCustomFontManualItems.png?241112193154" >}}ScottPlot.Plot myPlot = new();
 
 // Add a font file to use its typeface for fonts with a given name
 Fonts.AddFontFile(

@@ -4,9 +4,9 @@ Description: A dark mode finance plot can be achieved by customizing color optio
 URL: /cookbook/5.0/Finance/FinanceDarkMode/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Financial Plot", "Finance Chart Dark Mode"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Finance", "/cookbook/5.0/Finance/FinanceDarkMode"]
-Date: 2024-11-09
-Version: ScottPlot 5.0.44
-Version: ScottPlot 5.0.44
+Date: 2024-11-13
+Version: ScottPlot 5.0.45
+Version: ScottPlot 5.0.45
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 A dark mode finance plot can be achieved by customizing color options of the candles and figure.
 
-[![](/cookbook/5.0/images/FinanceDarkMode.png?241109132219)](/cookbook/5.0/images/FinanceDarkMode.png?241109132219)
+[![](/cookbook/5.0/images/FinanceDarkMode.png?241112193154)](/cookbook/5.0/images/FinanceDarkMode.png?241112193154)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Finance.cs" imageUrl="/cookbook/5.0/images/FinanceDarkMode.png?241109132219" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Finance.cs" imageUrl="/cookbook/5.0/images/FinanceDarkMode.png?241112193154" >}}ScottPlot.Plot myPlot = new();
 
 // add sample financial data
 OHLC[] prices = Generate.Financial.OHLCsByMinute(60);
