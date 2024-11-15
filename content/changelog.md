@@ -16,17 +16,20 @@ Release notes for every version of ScottPlot
 </li>
 <li>DataStreamerXY: A new type of plottable for displaying streaming Y with unevenly spaced, user-defined X values (<a href="https://github.com/ScottPlot/ScottPlot/issues/4507">#4507</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4460">#4460</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4518">#4518</a>) <a href="https://github.com/dlampa"><strong>@dlampa</strong></a>
 </li>
+<li>DataLogger: Added <code>InvertX</code> and <code>InvertY</code> flags to control automatic axis limit management behavior (<a href="https://github.com/ScottPlot/ScottPlot/issues/4513">#4513</a>) <a href="https://github.com/Jofstera"><strong>@Jofstera</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/Liwr9537'>@Liwr9537</a>, <a href='https://github.com/CBrauer'>@CBrauer</a>, <a href='https://github.com/DaveMartel'>@DaveMartel</a>, <a href='https://github.com/dlampa'>@dlampa</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/Liwr9537'>@Liwr9537</a>, <a href='https://github.com/CBrauer'>@CBrauer</a>, <a href='https://github.com/DaveMartel'>@DaveMartel</a>, <a href='https://github.com/dlampa'>@dlampa</a>, <a href='https://github.com/Jofstera'>@Jofstera</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/Liwr9537'><img src='https://scottplot.net/images/contributors/liwr9537.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/CBrauer'><img src='https://scottplot.net/images/contributors/cbrauer.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/DaveMartel'><img src='https://scottplot.net/images/contributors/davemartel.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/dlampa'><img src='https://scottplot.net/images/contributors/dlampa.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Jofstera'><img src='https://scottplot.net/images/contributors/jofstera.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
