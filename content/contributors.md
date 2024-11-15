@@ -16,6 +16,18 @@ Members of the open-source community who contributed to ScottPlot
 <div class='display-3 my-5 text-center'>💖🚀✨</div>
 <div class='d-flex justify-content-center flex-wrap'>
 <div class='bg-light border rounded text-center mx-3 my-2'>
+<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/brand/favicon.png' height='125' width='125'/></a></div>
+<div><a href='https://github.com/Liwr9537'>@Liwr9537</a></div>
+</div>
+<div class='bg-light border rounded text-center mx-3 my-2'>
+<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/cbrauer.png' height='125' width='125'/></a></div>
+<div><a href='https://github.com/CBrauer'>@CBrauer</a></div>
+</div>
+<div class='bg-light border rounded text-center mx-3 my-2'>
+<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/davemartel.png' height='125' width='125'/></a></div>
+<div><a href='https://github.com/DaveMartel'>@DaveMartel</a></div>
+</div>
+<div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/quantfreedom.jpg' height='125' width='125'/></a></div>
 <div><a href='https://github.com/quantfreedom'>@quantfreedom</a></div>
 </div>
@@ -70,10 +82,6 @@ Members of the open-source community who contributed to ScottPlot
 <div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/jaguarxii.png' height='125' width='125'/></a></div>
 <div><a href='https://github.com/jaguarxii'>@jaguarxii</a></div>
-</div>
-<div class='bg-light border rounded text-center mx-3 my-2'>
-<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/cbrauer.png' height='125' width='125'/></a></div>
-<div><a href='https://github.com/CBrauer'>@CBrauer</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/wellsw.png' height='125' width='125'/></a></div>
@@ -934,10 +942,6 @@ Members of the open-source community who contributed to ScottPlot
 <div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/developer-alexander.png' height='125' width='125'/></a></div>
 <div><a href='https://github.com/Developer-Alexander'>@Developer-Alexander</a></div>
-</div>
-<div class='bg-light border rounded text-center mx-3 my-2'>
-<div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/davemartel.png' height='125' width='125'/></a></div>
-<div><a href='https://github.com/DaveMartel'>@DaveMartel</a></div>
 </div>
 <div class='bg-light border rounded text-center mx-3 my-2'>
 <div><a href=''><img class='img-fluid rounded m-1' src='https://scottplot.net/images/contributors/dhgigisoave.png' height='125' width='125'/></a></div>
