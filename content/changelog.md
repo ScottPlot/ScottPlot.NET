@@ -20,11 +20,15 @@ Release notes for every version of ScottPlot
 </li>
 <li>Controls: Updated mouse wheel scroll fractions so zoom-out wheel events more accurately reverse zoom-in wheel events (<a href="https://github.com/ScottPlot/ScottPlot/issues/4516">#4516</a>) <a href="https://github.com/quantfreedom"><strong>@quantfreedom</strong></a>
 </li>
+<li>Candlestick: Updated <code>FallingColor</code> property to change both the fill and line colors with one assignment (<a href="https://github.com/ScottPlot/ScottPlot/issues/4521">#4521</a>) <a href="https://github.com/czastack"><strong>@czastack</strong></a>
+</li>
+<li>Interactivity: Mouse click times in double-click events no longer resets after losing focus, improving double-click behavior in WPF controls (<a href="https://github.com/ScottPlot/ScottPlot/issues/4524">#4524</a>) <a href="https://github.com/onur-akaydin"><strong>@onur-akaydin</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/Liwr9537'>@Liwr9537</a>, <a href='https://github.com/CBrauer'>@CBrauer</a>, <a href='https://github.com/DaveMartel'>@DaveMartel</a>, <a href='https://github.com/dlampa'>@dlampa</a>, <a href='https://github.com/Jofstera'>@Jofstera</a>, <a href='https://github.com/quantfreedom'>@quantfreedom</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/Liwr9537'>@Liwr9537</a>, <a href='https://github.com/CBrauer'>@CBrauer</a>, <a href='https://github.com/DaveMartel'>@DaveMartel</a>, <a href='https://github.com/dlampa'>@dlampa</a>, <a href='https://github.com/Jofstera'>@Jofstera</a>, <a href='https://github.com/quantfreedom'>@quantfreedom</a>, <a href='https://github.com/czastack'>@czastack</a>, <a href='https://github.com/onur-akaydin'>@onur-akaydin</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/Liwr9537'><img src='https://scottplot.net/images/contributors/liwr9537.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -33,6 +37,8 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/dlampa'><img src='https://scottplot.net/images/contributors/dlampa.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Jofstera'><img src='https://scottplot.net/images/contributors/jofstera.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/quantfreedom'><img src='https://scottplot.net/images/contributors/quantfreedom.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/czastack'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/onur-akaydin'><img src='https://scottplot.net/images/contributors/onur-akaydin.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
