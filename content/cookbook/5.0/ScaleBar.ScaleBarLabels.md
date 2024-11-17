@@ -4,9 +4,9 @@ Description: Text may be added to each dimension of an L shaped scalebar
 URL: /cookbook/5.0/ScaleBar/ScaleBarLabels/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Scale Bar", "ScaleBar Labels"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/ScaleBar", "/cookbook/5.0/ScaleBar/ScaleBarLabels"]
-Date: 2024-11-13
-Version: ScottPlot 5.0.45
-Version: ScottPlot 5.0.45
+Date: 2024-11-17
+Version: ScottPlot 5.0.46
+Version: ScottPlot 5.0.46
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Text may be added to each dimension of an L shaped scalebar
 
-[![](/cookbook/5.0/images/ScaleBarLabels.png?241112193154)](/cookbook/5.0/images/ScaleBarLabels.png?241112193154)
+[![](/cookbook/5.0/images/ScaleBarLabels.png?241117162641)](/cookbook/5.0/images/ScaleBarLabels.png?241117162641)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/ScaleBar.cs" imageUrl="/cookbook/5.0/images/ScaleBarLabels.png?241112193154" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/ScaleBar.cs" imageUrl="/cookbook/5.0/images/ScaleBarLabels.png?241117162641" >}}ScottPlot.Plot myPlot = new();
 
 // plot sample data
 myPlot.Add.Signal(Generate.Sin());

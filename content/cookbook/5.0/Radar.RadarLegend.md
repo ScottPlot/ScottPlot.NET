@@ -4,9 +4,9 @@ Description: Collections of radar values (radar series) can be labeled so they a
 URL: /cookbook/5.0/Radar/RadarLegend/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Radar Plot", "Radar Legend"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Radar", "/cookbook/5.0/Radar/RadarLegend"]
-Date: 2024-11-13
-Version: ScottPlot 5.0.45
-Version: ScottPlot 5.0.45
+Date: 2024-11-17
+Version: ScottPlot 5.0.46
+Version: ScottPlot 5.0.46
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Collections of radar values (radar series) can be labeled so they appear in the legend
 
-[![](/cookbook/5.0/images/RadarLegend.png?241112193154)](/cookbook/5.0/images/RadarLegend.png?241112193154)
+[![](/cookbook/5.0/images/RadarLegend.png?241117162641)](/cookbook/5.0/images/RadarLegend.png?241117162641)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Radar.cs" imageUrl="/cookbook/5.0/images/RadarLegend.png?241112193154" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Radar.cs" imageUrl="/cookbook/5.0/images/RadarLegend.png?241117162641" >}}ScottPlot.Plot myPlot = new();
 
 double[,] values = {
     { 78,  83, 84, 76, 43 },

@@ -4,9 +4,9 @@ Description: Pie charts illustrate numerical proportions as slices of a circle.
 URL: /cookbook/5.0/Pie/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Pie"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Pie"]
-Date: 2024-11-13
-Version: ScottPlot 5.0.45
-Version: ScottPlot 5.0.45
+Date: 2024-11-17
+Version: ScottPlot 5.0.46
+Version: ScottPlot 5.0.46
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -23,9 +23,9 @@ ShowEditLink: false
 
 A pie chart can be created from a few values.
 
-[![](/cookbook/5.0/images/PieQuickstart.png?241112193154)](/cookbook/5.0/images/PieQuickstart.png?241112193154)
+[![](/cookbook/5.0/images/PieQuickstart.png?241117162641)](/cookbook/5.0/images/PieQuickstart.png?241117162641)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Pie.cs" imageUrl="/cookbook/5.0/images/PieQuickstart.png?241112193154" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Pie.cs" imageUrl="/cookbook/5.0/images/PieQuickstart.png?241117162641" >}}ScottPlot.Plot myPlot = new();
 
 double[] values = { 5, 2, 8, 4, 8 };
 var pie = myPlot.Add.Pie(values);
@@ -51,9 +51,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 A pie chart can be created from a collection of slices.
 
-[![](/cookbook/5.0/images/PieSlices.png?241112193154)](/cookbook/5.0/images/PieSlices.png?241112193154)
+[![](/cookbook/5.0/images/PieSlices.png?241117162641)](/cookbook/5.0/images/PieSlices.png?241117162641)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Pie.cs" imageUrl="/cookbook/5.0/images/PieSlices.png?241112193154" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Pie.cs" imageUrl="/cookbook/5.0/images/PieSlices.png?241117162641" >}}ScottPlot.Plot myPlot = new();
 
 List&lt;PieSlice&gt; slices =
 [
@@ -90,9 +90,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 A donut chart is a pie chart with an open center. Donut charts can be created from a collection of slices.
 
-[![](/cookbook/5.0/images/PieDonut.png?241112193154)](/cookbook/5.0/images/PieDonut.png?241112193154)
+[![](/cookbook/5.0/images/PieDonut.png?241117162641)](/cookbook/5.0/images/PieDonut.png?241117162641)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Pie.cs" imageUrl="/cookbook/5.0/images/PieDonut.png?241112193154" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Pie.cs" imageUrl="/cookbook/5.0/images/PieDonut.png?241117162641" >}}ScottPlot.Plot myPlot = new();
 
 List&lt;PieSlice&gt; slices = new()
 {
@@ -128,9 +128,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Individual slices may be given a custom hatch style
 
-[![](/cookbook/5.0/images/PieSliceHatch.png?241112193154)](/cookbook/5.0/images/PieSliceHatch.png?241112193154)
+[![](/cookbook/5.0/images/PieSliceHatch.png?241117162641)](/cookbook/5.0/images/PieSliceHatch.png?241117162641)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Pie.cs" imageUrl="/cookbook/5.0/images/PieSliceHatch.png?241112193154" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Pie.cs" imageUrl="/cookbook/5.0/images/PieSliceHatch.png?241117162641" >}}ScottPlot.Plot myPlot = new();
 
 var pie = myPlot.Add.Pie([5, 4, 6]);
 
@@ -158,9 +158,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Pie charts may be rotated to control where the first slice begins.
 
-[![](/cookbook/5.0/images/PieRotation.png?241112193154)](/cookbook/5.0/images/PieRotation.png?241112193154)
+[![](/cookbook/5.0/images/PieRotation.png?241117162641)](/cookbook/5.0/images/PieRotation.png?241117162641)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Pie.cs" imageUrl="/cookbook/5.0/images/PieRotation.png?241112193154" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Pie.cs" imageUrl="/cookbook/5.0/images/PieRotation.png?241117162641" >}}ScottPlot.Plot myPlot = new();
 
 double[] values = { 5, 2, 8, 4, 8 };
 var pie = myPlot.Add.Pie(values);
@@ -187,9 +187,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Slice labels can be displayed centered with the slice at a customizable distance from the center of the pie.
 
-[![](/cookbook/5.0/images/PieSliceLabels.png?241112193154)](/cookbook/5.0/images/PieSliceLabels.png?241112193154)
+[![](/cookbook/5.0/images/PieSliceLabels.png?241117162641)](/cookbook/5.0/images/PieSliceLabels.png?241117162641)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Pie.cs" imageUrl="/cookbook/5.0/images/PieSliceLabels.png?241112193154" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Pie.cs" imageUrl="/cookbook/5.0/images/PieSliceLabels.png?241117162641" >}}ScottPlot.Plot myPlot = new();
 
 PieSlice slice1 = new() { Value = 5, FillColor = Colors.Red, Label = "alpha" };
 PieSlice slice2 = new() { Value = 2, FillColor = Colors.Orange, Label = "beta" };
@@ -232,9 +232,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Slice labels may be adapted to display any text (including numerical values) centered over each slice.
 
-[![](/cookbook/5.0/images/PieSliceLabelsPercent.png?241112193154)](/cookbook/5.0/images/PieSliceLabelsPercent.png?241112193154)
+[![](/cookbook/5.0/images/PieSliceLabelsPercent.png?241117162641)](/cookbook/5.0/images/PieSliceLabelsPercent.png?241117162641)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Pie.cs" imageUrl="/cookbook/5.0/images/PieSliceLabelsPercent.png?241112193154" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Pie.cs" imageUrl="/cookbook/5.0/images/PieSliceLabelsPercent.png?241117162641" >}}ScottPlot.Plot myPlot = new();
 
 // create a pie chart
 double[] values = [6, 8, 10];
@@ -275,9 +275,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Pie slices may have labels independent from those displayed in the legend.
 
-[![](/cookbook/5.0/images/PieSliceLabelsAndLegend.png?241112193154)](/cookbook/5.0/images/PieSliceLabelsAndLegend.png?241112193154)
+[![](/cookbook/5.0/images/PieSliceLabelsAndLegend.png?241117162641)](/cookbook/5.0/images/PieSliceLabelsAndLegend.png?241117162641)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Pie.cs" imageUrl="/cookbook/5.0/images/PieSliceLabelsAndLegend.png?241112193154" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Pie.cs" imageUrl="/cookbook/5.0/images/PieSliceLabelsAndLegend.png?241117162641" >}}ScottPlot.Plot myPlot = new();
 
 // create a pie chart
 double[] values = [6, 8, 10];

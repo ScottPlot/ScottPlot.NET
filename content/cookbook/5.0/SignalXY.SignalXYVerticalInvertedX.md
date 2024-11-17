@@ -4,9 +4,9 @@ Description: Demonstrates how to display a rotated SignalXY plot (so it goes fro
 URL: /cookbook/5.0/SignalXY/SignalXYVerticalInvertedX/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "SignalXY Plot", "Vertical SignalXY with Inverted X Axis"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/SignalXY", "/cookbook/5.0/SignalXY/SignalXYVerticalInvertedX"]
-Date: 2024-11-13
-Version: ScottPlot 5.0.45
-Version: ScottPlot 5.0.45
+Date: 2024-11-17
+Version: ScottPlot 5.0.46
+Version: ScottPlot 5.0.46
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Demonstrates how to display a rotated SignalXY plot (so it goes from bottom to top) which is also displayed on an inverted horizontal axis (where positive values are on the left).
 
-[![](/cookbook/5.0/images/SignalXYVerticalInvertedX.png?241112193154)](/cookbook/5.0/images/SignalXYVerticalInvertedX.png?241112193154)
+[![](/cookbook/5.0/images/SignalXYVerticalInvertedX.png?241117162641)](/cookbook/5.0/images/SignalXYVerticalInvertedX.png?241117162641)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SignalXY.cs" imageUrl="/cookbook/5.0/images/SignalXYVerticalInvertedX.png?241112193154" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SignalXY.cs" imageUrl="/cookbook/5.0/images/SignalXYVerticalInvertedX.png?241117162641" >}}ScottPlot.Plot myPlot = new();
 
 // add a signal plot
 double[] xs = Generate.Consecutive(5_000);

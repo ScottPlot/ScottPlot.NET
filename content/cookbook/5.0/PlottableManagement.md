@@ -4,9 +4,9 @@ Description: How to add, remove, and reorder items in plots
 URL: /cookbook/5.0/PlottableManagement/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Plottable Management"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/PlottableManagement"]
-Date: 2024-11-13
-Version: ScottPlot 5.0.45
-Version: ScottPlot 5.0.45
+Date: 2024-11-17
+Version: ScottPlot 5.0.46
+Version: ScottPlot 5.0.46
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -23,9 +23,9 @@ ShowEditLink: false
 
 Although the Plot.Add class has many helpful methods for creating plottable objects and adding them to the plot, users can instantiate plottable objects themselves and use Add.Plottable() to place it on the plot. This strategy allows users to create their own plottables (implementing IPlottable) with custom appearance or behavior.
 
-[![](/cookbook/5.0/images/AddPlottablesManually.png?241112193154)](/cookbook/5.0/images/AddPlottablesManually.png?241112193154)
+[![](/cookbook/5.0/images/AddPlottablesManually.png?241117162641)](/cookbook/5.0/images/AddPlottablesManually.png?241117162641)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/PlottableManagement.cs" imageUrl="/cookbook/5.0/images/AddPlottablesManually.png?241112193154" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/PlottableManagement.cs" imageUrl="/cookbook/5.0/images/AddPlottablesManually.png?241117162641" >}}ScottPlot.Plot myPlot = new();
 
 // create a plottable and modify it as desired
 ScottPlot.Plottables.LinePlot line = new()
@@ -53,9 +53,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Use Clear() to remove all plottables.
 
-[![](/cookbook/5.0/images/Clear.png?241112193154)](/cookbook/5.0/images/Clear.png?241112193154)
+[![](/cookbook/5.0/images/Clear.png?241117162641)](/cookbook/5.0/images/Clear.png?241117162641)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/PlottableManagement.cs" imageUrl="/cookbook/5.0/images/Clear.png?241112193154" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/PlottableManagement.cs" imageUrl="/cookbook/5.0/images/Clear.png?241117162641" >}}ScottPlot.Plot myPlot = new();
 
 // add plottables
 myPlot.Add.Signal(Generate.Sin());
@@ -80,9 +80,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Individual items may be removed from the plot.
 
-[![](/cookbook/5.0/images/Remove.png?241112193154)](/cookbook/5.0/images/Remove.png?241112193154)
+[![](/cookbook/5.0/images/Remove.png?241117162641)](/cookbook/5.0/images/Remove.png?241117162641)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/PlottableManagement.cs" imageUrl="/cookbook/5.0/images/Remove.png?241112193154" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/PlottableManagement.cs" imageUrl="/cookbook/5.0/images/Remove.png?241117162641" >}}ScottPlot.Plot myPlot = new();
 
 // add plottables
 var sig1 = myPlot.Add.Signal(Generate.Sin());
@@ -107,9 +107,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 All plottables of a given type may be removed from a plot with a single command.
 
-[![](/cookbook/5.0/images/RemoveAll.png?241112193154)](/cookbook/5.0/images/RemoveAll.png?241112193154)
+[![](/cookbook/5.0/images/RemoveAll.png?241117162641)](/cookbook/5.0/images/RemoveAll.png?241117162641)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/PlottableManagement.cs" imageUrl="/cookbook/5.0/images/RemoveAll.png?241112193154" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/PlottableManagement.cs" imageUrl="/cookbook/5.0/images/RemoveAll.png?241117162641" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Scatter(Generate.Consecutive(51), Generate.Sin(51));
 myPlot.Add.Signal(Generate.Cos());
@@ -134,9 +134,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 The plottable list contains all plottables which will be rendered in order. Helper methods are available to move plottables to the front.
 
-[![](/cookbook/5.0/images/ChangeOrder.png?241112193154)](/cookbook/5.0/images/ChangeOrder.png?241112193154)
+[![](/cookbook/5.0/images/ChangeOrder.png?241117162641)](/cookbook/5.0/images/ChangeOrder.png?241117162641)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/PlottableManagement.cs" imageUrl="/cookbook/5.0/images/ChangeOrder.png?241112193154" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/PlottableManagement.cs" imageUrl="/cookbook/5.0/images/ChangeOrder.png?241117162641" >}}ScottPlot.Plot myPlot = new();
 
 CoordinateRect wideRect = new(-2, 2, -1, 1);
 CoordinateRect tallRect = new(-1, 1, -2, 2);
