@@ -31,6 +31,7 @@ apt-get install -y libfontconfig1
 apt-get install -y fontconfig
 ```
 
+If no characters render at all, it may be because the default font was incorrectly detected. Users may correct this issue by [specifying the name of an installed font](https://scottplot.net/cookbook/5.0/Styling/AxisCustom/) or by [using a font contained in a .ttf file](https://scottplot.net/cookbook/5.0/Miscellaneous/CustomFontFiles/), as demonstrated in the ScottPlot 5 Cookbook.
 
 ## Using ScottPlot in Docker
 

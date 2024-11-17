@@ -37,22 +37,27 @@ public MainPage()
 {
     InitializeComponent();
 
-    // create a scatter plot with sample data
     double[] dataX = { 1, 2, 3, 4, 5 };
     double[] dataY = { 1, 4, 9, 16, 25 };
     MauiPlot1.Plot.Add.Scatter(dataX, dataY);
 
-    // increase scale factor for high resolution displays
-    MauiPlot1.Plot.ScaleFactor = 3; 
     MauiPlot1.Refresh();
 }
 ```
 
 ![](/images/quickstart/android.png)
 
+## Notes for Mobile
+
+High resolution displays may benefit from increasing the scale factor:
+
+```cs
+MauiPlot1.Plot.ScaleFactor = 3;
+```
+
 ## Notes for Windows Desktop
 
-Builds targeting Windows Desktop may require `WindowsSdkPackageVersion` to be defined ([read more](https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/stable-channel#c-project-changes-1))
+Builds targeting Windows Desktop on .NET 8 may require `WindowsSdkPackageVersion` to be defined ([read more](https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/stable-channel#c-project-changes-1))
 
 ```xml
 <Project Sdk="Microsoft.NET.Sdk">
