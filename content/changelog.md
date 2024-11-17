@@ -9,7 +9,7 @@ Release notes for every version of ScottPlot
 
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 5.0.46</h1>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2024-11-17</i></div>
 <div class='mt-1'>
 <ul>
 <li>Axes: Added support for displaying bitmaps as axis labels allowing rich text to be rendered using a third party package and displayed in any plot (<a href="https://github.com/ScottPlot/ScottPlot/issues/4503">#4503</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3222">#3222</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2905">#2905</a>) <a href="https://github.com/Liwr9537"><strong>@Liwr9537</strong></a> <a href="https://github.com/CBrauer"><strong>@CBrauer</strong></a> <a href="https://github.com/DaveMartel"><strong>@DaveMartel</strong></a>
@@ -24,11 +24,15 @@ Release notes for every version of ScottPlot
 </li>
 <li>Interactivity: Mouse click times in double-click events no longer resets after losing focus, improving double-click behavior in WPF controls (<a href="https://github.com/ScottPlot/ScottPlot/issues/4524">#4524</a>) <a href="https://github.com/onur-akaydin"><strong>@onur-akaydin</strong></a>
 </li>
+<li>OpenGL: Updated GLSL version number formatting to improve rendering on some platforms (<a href="https://github.com/ScottPlot/ScottPlot/issues/4519">#4519</a>) <a href="https://github.com/onur-akaydin"><strong>@onur-akaydin</strong></a> <a href="https://github.com/StendProg"><strong>@StendProg</strong></a>
+</li>
+<li>Legend: Gave <code>LegendItem</code> a <code>Plottable</code> property to enable creating interactive legends which control plottable properties (<a href="https://github.com/ScottPlot/ScottPlot/issues/4523">#4523</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3842">#3842</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4147">#4147</a>) <a href="https://github.com/BambOoxX"><strong>@BambOoxX</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/Liwr9537'>@Liwr9537</a>, <a href='https://github.com/CBrauer'>@CBrauer</a>, <a href='https://github.com/DaveMartel'>@DaveMartel</a>, <a href='https://github.com/dlampa'>@dlampa</a>, <a href='https://github.com/Jofstera'>@Jofstera</a>, <a href='https://github.com/quantfreedom'>@quantfreedom</a>, <a href='https://github.com/czastack'>@czastack</a>, <a href='https://github.com/onur-akaydin'>@onur-akaydin</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/Liwr9537'>@Liwr9537</a>, <a href='https://github.com/CBrauer'>@CBrauer</a>, <a href='https://github.com/DaveMartel'>@DaveMartel</a>, <a href='https://github.com/dlampa'>@dlampa</a>, <a href='https://github.com/Jofstera'>@Jofstera</a>, <a href='https://github.com/quantfreedom'>@quantfreedom</a>, <a href='https://github.com/czastack'>@czastack</a>, <a href='https://github.com/onur-akaydin'>@onur-akaydin</a>, <a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/BambOoxX'>@BambOoxX</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/Liwr9537'><img src='https://scottplot.net/images/contributors/liwr9537.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -37,8 +41,10 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/dlampa'><img src='https://scottplot.net/images/contributors/dlampa.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Jofstera'><img src='https://scottplot.net/images/contributors/jofstera.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/quantfreedom'><img src='https://scottplot.net/images/contributors/quantfreedom.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/czastack'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/czastack'><img src='https://scottplot.net/images/contributors/czastack.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/onur-akaydin'><img src='https://scottplot.net/images/contributors/onur-akaydin.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/BambOoxX'><img src='https://scottplot.net/images/contributors/bambooxx.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
