@@ -14,14 +14,17 @@ Release notes for every version of ScottPlot
 <ul>
 <li>Controls: Fix issue preventing the context menu from appearing after it was used to open a new window (<a href="https://github.com/ScottPlot/ScottPlot/issues/4529">#4529</a>) <a href="https://github.com/david3951445"><strong>@david3951445</strong></a>
 </li>
+<li>Interactivity: Created <code>HitablePlottableDecorator</code> and <code>DragablePlottableDecorator</code> classes that wrap any <code>IPlottable</code> to add pixel-based mouse collision detection and drag capability to any plot type (<a href="https://github.com/ScottPlot/ScottPlot/issues/4531">#4531</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4496">#4496</a>) <a href="https://github.com/StendProg"><strong>@StendProg</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/david3951445'>@david3951445</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/david3951445'>@david3951445</a>, <a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
-<a href='https://github.com/david3951445'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/david3951445'><img src='https://scottplot.net/images/contributors/david3951445.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
