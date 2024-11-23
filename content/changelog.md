@@ -20,17 +20,20 @@ Release notes for every version of ScottPlot
 </li>
 <li>Axes: Improve layout support for axes with multi-line axis labels (<a href="https://github.com/ScottPlot/ScottPlot/issues/4535">#4535</a>) <a href="https://github.com/CBrauer"><strong>@CBrauer</strong></a>
 </li>
+<li>Heatmap: Added <code>Rectangle</code> property to simplify rendering a heatmap within the edges of a user-defined rectangle in coordinate space (<a href="https://github.com/ScottPlot/ScottPlot/issues/4552">#4552</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4550">#4550</a>) <a href="https://github.com/ecrocombe"><strong>@ecrocombe</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/david3951445'>@david3951445</a>, <a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/Paraplegia'>@Paraplegia</a>, <a href='https://github.com/CBrauer'>@CBrauer</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/david3951445'>@david3951445</a>, <a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/Paraplegia'>@Paraplegia</a>, <a href='https://github.com/CBrauer'>@CBrauer</a>, <a href='https://github.com/ecrocombe'>@ecrocombe</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/david3951445'><img src='https://scottplot.net/images/contributors/david3951445.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Paraplegia'><img src='https://scottplot.net/images/contributors/paraplegia.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/CBrauer'><img src='https://scottplot.net/images/contributors/cbrauer.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/ecrocombe'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
