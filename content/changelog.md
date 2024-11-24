@@ -30,11 +30,15 @@ Release notes for every version of ScottPlot
 </li>
 <li>Financial Charting: Improved <code>FinancialTimeAxis</code> tick generation behavior (<a href="https://github.com/ScottPlot/ScottPlot/issues/4483">#4483</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4551">#4551</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4385">#4385</a>) <a href="https://github.com/VladislavPustovarov"><strong>@VladislavPustovarov</strong></a> <a href="https://github.com/quantfreedom"><strong>@quantfreedom</strong></a>
 </li>
+<li>Histogram: Created <code>Add.Histogram()</code> which accepts a <code>Histogram</code> and returns a <code>HistogramBars</code> plottable designed for displaying continuously updated histogram counts (<a href="https://github.com/ScottPlot/ScottPlot/issues/4557">#4557</a>) <a href="https://github.com/jpgarza93"><strong>@jpgarza93</strong></a>
+</li>
+<li>Legend: Added support for paring each <code>LegendItem</code> with its parent <code>IPlottable</code> to facilitate mouse interaction (<a href="https://github.com/ScottPlot/ScottPlot/issues/4533">#4533</a>) <a href="https://github.com/BambOoxX"><strong>@BambOoxX</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/david3951445'>@david3951445</a>, <a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/Paraplegia'>@Paraplegia</a>, <a href='https://github.com/CBrauer'>@CBrauer</a>, <a href='https://github.com/ecrocombe'>@ecrocombe</a>, <a href='https://github.com/quantfreedom'>@quantfreedom</a>, <a href='https://github.com/wellcaffeinated'>@wellcaffeinated</a>, <a href='https://github.com/FULL69'>@FULL69</a>, <a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/VladislavPustovarov'>@VladislavPustovarov</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/david3951445'>@david3951445</a>, <a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/Paraplegia'>@Paraplegia</a>, <a href='https://github.com/CBrauer'>@CBrauer</a>, <a href='https://github.com/ecrocombe'>@ecrocombe</a>, <a href='https://github.com/quantfreedom'>@quantfreedom</a>, <a href='https://github.com/wellcaffeinated'>@wellcaffeinated</a>, <a href='https://github.com/FULL69'>@FULL69</a>, <a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/VladislavPustovarov'>@VladislavPustovarov</a>, <a href='https://github.com/jpgarza93'>@jpgarza93</a>, <a href='https://github.com/BambOoxX'>@BambOoxX</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/david3951445'><img src='https://scottplot.net/images/contributors/david3951445.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -47,6 +51,8 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/FULL69'><img src='https://scottplot.net/images/contributors/full69.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/VladislavPustovarov'><img src='https://scottplot.net/images/contributors/vladislavpustovarov.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/jpgarza93'><img src='https://scottplot.net/images/contributors/jpgarza93.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/BambOoxX'><img src='https://scottplot.net/images/contributors/bambooxx.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
