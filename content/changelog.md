@@ -26,11 +26,13 @@ Release notes for every version of ScottPlot
 </li>
 <li>Bar: Created <code>Add.Ranges()</code> and <code>Add.StackedRanges()</code> to simplify creation of stacked range charts (<a href="https://github.com/ScottPlot/ScottPlot/issues/4548">#4548</a>) <a href="https://github.com/quantfreedom"><strong>@quantfreedom</strong></a> <a href="https://github.com/wellcaffeinated"><strong>@wellcaffeinated</strong></a>
 </li>
+<li>Bracket: New plot type for annotating ranges of linear lines in coordinate space (<a href="https://github.com/ScottPlot/ScottPlot/issues/4547">#4547</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/1863">#1863</a>) <a href="https://github.com/FULL69"><strong>@FULL69</strong></a> <a href="https://github.com/bclehmann"><strong>@bclehmann</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/david3951445'>@david3951445</a>, <a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/Paraplegia'>@Paraplegia</a>, <a href='https://github.com/CBrauer'>@CBrauer</a>, <a href='https://github.com/ecrocombe'>@ecrocombe</a>, <a href='https://github.com/quantfreedom'>@quantfreedom</a>, <a href='https://github.com/wellcaffeinated'>@wellcaffeinated</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/david3951445'>@david3951445</a>, <a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/Paraplegia'>@Paraplegia</a>, <a href='https://github.com/CBrauer'>@CBrauer</a>, <a href='https://github.com/ecrocombe'>@ecrocombe</a>, <a href='https://github.com/quantfreedom'>@quantfreedom</a>, <a href='https://github.com/wellcaffeinated'>@wellcaffeinated</a>, <a href='https://github.com/FULL69'>@FULL69</a>, <a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/david3951445'><img src='https://scottplot.net/images/contributors/david3951445.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -39,7 +41,9 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/CBrauer'><img src='https://scottplot.net/images/contributors/cbrauer.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/ecrocombe'><img src='https://scottplot.net/images/contributors/ecrocombe.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/quantfreedom'><img src='https://scottplot.net/images/contributors/quantfreedom.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/wellcaffeinated'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/wellcaffeinated'><img src='https://scottplot.net/images/contributors/wellcaffeinated.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/FULL69'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
