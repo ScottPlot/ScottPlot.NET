@@ -9,7 +9,7 @@ Release notes for every version of ScottPlot
 
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 5.0.47</h1>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2024-11-24</i></div>
 <div class='mt-1'>
 <ul>
 <li>Controls: Fix issue preventing the context menu from appearing after it was used to open a new window (<a href="https://github.com/ScottPlot/ScottPlot/issues/4529">#4529</a>) <a href="https://github.com/david3951445"><strong>@david3951445</strong></a>
@@ -33,6 +33,10 @@ Release notes for every version of ScottPlot
 <li>Histogram: Created <code>Add.Histogram()</code> which accepts a <code>Histogram</code> and returns a <code>HistogramBars</code> plottable designed for displaying continuously updated histogram counts (<a href="https://github.com/ScottPlot/ScottPlot/issues/4557">#4557</a>) <a href="https://github.com/jpgarza93"><strong>@jpgarza93</strong></a>
 </li>
 <li>Legend: Added support for paring each <code>LegendItem</code> with its parent <code>IPlottable</code> to facilitate mouse interaction (<a href="https://github.com/ScottPlot/ScottPlot/issues/4533">#4533</a>) <a href="https://github.com/BambOoxX"><strong>@BambOoxX</strong></a>
+</li>
+<li>Plot: Modified <code>GetPngHtml()</code> to add optional <code>classContent</code> and <code>styleContent</code> arguments to allow CSS style injection
+</li>
+<li>Reporting: New <code>ScottPlot.Reporting</code> classes support creating multi-figure reports which may be viewed interactively or exported as HTML documents (<a href="https://github.com/ScottPlot/ScottPlot/issues/4526">#4526</a>)
 </li>
 </ul>
 </div>
