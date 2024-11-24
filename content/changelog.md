@@ -22,18 +22,24 @@ Release notes for every version of ScottPlot
 </li>
 <li>Heatmap: Added <code>Rectangle</code> property to simplify rendering a heatmap within the edges of a user-defined rectangle in coordinate space (<a href="https://github.com/ScottPlot/ScottPlot/issues/4552">#4552</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4550">#4550</a>) <a href="https://github.com/ecrocombe"><strong>@ecrocombe</strong></a>
 </li>
+<li>Palette: Exposed <code>ScottPlot.Palettes.Custom</code> as an alternative to <code>ScottPlot.Palette.FromColors()</code> for creating palettes with user-defined collections of colors
+</li>
+<li>Bar: Created <code>Add.Ranges()</code> and <code>Add.StackedRanges()</code> to simplify creation of stacked range charts (<a href="https://github.com/ScottPlot/ScottPlot/issues/4548">#4548</a>) <a href="https://github.com/quantfreedom"><strong>@quantfreedom</strong></a> <a href="https://github.com/wellcaffeinated"><strong>@wellcaffeinated</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/david3951445'>@david3951445</a>, <a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/Paraplegia'>@Paraplegia</a>, <a href='https://github.com/CBrauer'>@CBrauer</a>, <a href='https://github.com/ecrocombe'>@ecrocombe</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/david3951445'>@david3951445</a>, <a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/Paraplegia'>@Paraplegia</a>, <a href='https://github.com/CBrauer'>@CBrauer</a>, <a href='https://github.com/ecrocombe'>@ecrocombe</a>, <a href='https://github.com/quantfreedom'>@quantfreedom</a>, <a href='https://github.com/wellcaffeinated'>@wellcaffeinated</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/david3951445'><img src='https://scottplot.net/images/contributors/david3951445.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Paraplegia'><img src='https://scottplot.net/images/contributors/paraplegia.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/CBrauer'><img src='https://scottplot.net/images/contributors/cbrauer.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/ecrocombe'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/ecrocombe'><img src='https://scottplot.net/images/contributors/ecrocombe.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/quantfreedom'><img src='https://scottplot.net/images/contributors/quantfreedom.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/wellcaffeinated'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
