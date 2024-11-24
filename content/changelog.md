@@ -8,8 +8,58 @@ Description: Release notes for every version of ScottPlot
 Release notes for every version of ScottPlot
 
 <section class='mb-5'>
-<h1 class='mb-0'>ScottPlot 5.0.46</h1>
+<h1 class='mb-0'>ScottPlot 5.0.47</h1>
 <div><i>NuGet packages published </i></div>
+<div class='mt-1'>
+<ul>
+<li>Controls: Fix issue preventing the context menu from appearing after it was used to open a new window (<a href="https://github.com/ScottPlot/ScottPlot/issues/4529">#4529</a>) <a href="https://github.com/david3951445"><strong>@david3951445</strong></a>
+</li>
+<li>Interactivity: Created <code>HitablePlottableDecorator</code> and <code>DragablePlottableDecorator</code> classes that wrap any <code>IPlottable</code> to add pixel-based mouse collision detection and drag capability to any plot type (<a href="https://github.com/ScottPlot/ScottPlot/issues/4531">#4531</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4496">#4496</a>) <a href="https://github.com/StendProg"><strong>@StendProg</strong></a>
+</li>
+<li>Ticks: Created a plottable for displaying multiplier notation and added the <code>Plot.Axes.SetupMultiplierNotation()</code> helper method for rapidly enabling it with typical options (<a href="https://github.com/ScottPlot/ScottPlot/issues/4530">#4530</a>) <a href="https://github.com/Paraplegia"><strong>@Paraplegia</strong></a>
+</li>
+<li>Axes: Improve layout support for axes with multi-line axis labels (<a href="https://github.com/ScottPlot/ScottPlot/issues/4535">#4535</a>) <a href="https://github.com/CBrauer"><strong>@CBrauer</strong></a>
+</li>
+<li>Heatmap: Added <code>Rectangle</code> property to simplify rendering a heatmap within the edges of a user-defined rectangle in coordinate space (<a href="https://github.com/ScottPlot/ScottPlot/issues/4552">#4552</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4550">#4550</a>) <a href="https://github.com/ecrocombe"><strong>@ecrocombe</strong></a>
+</li>
+<li>Palette: Exposed <code>ScottPlot.Palettes.Custom</code> as an alternative to <code>ScottPlot.Palette.FromColors()</code> for creating palettes with user-defined collections of colors
+</li>
+<li>Bar: Created <code>Add.Ranges()</code> and <code>Add.StackedRanges()</code> to simplify creation of stacked range charts (<a href="https://github.com/ScottPlot/ScottPlot/issues/4548">#4548</a>) <a href="https://github.com/quantfreedom"><strong>@quantfreedom</strong></a> <a href="https://github.com/wellcaffeinated"><strong>@wellcaffeinated</strong></a>
+</li>
+<li>Bracket: New plot type for annotating ranges of linear lines in coordinate space (<a href="https://github.com/ScottPlot/ScottPlot/issues/4547">#4547</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/1863">#1863</a>) <a href="https://github.com/FULL69"><strong>@FULL69</strong></a> <a href="https://github.com/bclehmann"><strong>@bclehmann</strong></a>
+</li>
+<li>Financial Charting: Improved <code>FinancialTimeAxis</code> tick generation behavior (<a href="https://github.com/ScottPlot/ScottPlot/issues/4483">#4483</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4551">#4551</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4385">#4385</a>) <a href="https://github.com/VladislavPustovarov"><strong>@VladislavPustovarov</strong></a> <a href="https://github.com/quantfreedom"><strong>@quantfreedom</strong></a>
+</li>
+<li>Histogram: Created <code>Add.Histogram()</code> which accepts a <code>Histogram</code> and returns a <code>HistogramBars</code> plottable designed for displaying continuously updated histogram counts (<a href="https://github.com/ScottPlot/ScottPlot/issues/4557">#4557</a>) <a href="https://github.com/jpgarza93"><strong>@jpgarza93</strong></a>
+</li>
+<li>Legend: Added support for paring each <code>LegendItem</code> with its parent <code>IPlottable</code> to facilitate mouse interaction (<a href="https://github.com/ScottPlot/ScottPlot/issues/4533">#4533</a>) <a href="https://github.com/BambOoxX"><strong>@BambOoxX</strong></a>
+</li>
+</ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/david3951445'>@david3951445</a>, <a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/Paraplegia'>@Paraplegia</a>, <a href='https://github.com/CBrauer'>@CBrauer</a>, <a href='https://github.com/ecrocombe'>@ecrocombe</a>, <a href='https://github.com/quantfreedom'>@quantfreedom</a>, <a href='https://github.com/wellcaffeinated'>@wellcaffeinated</a>, <a href='https://github.com/FULL69'>@FULL69</a>, <a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/VladislavPustovarov'>@VladislavPustovarov</a>, <a href='https://github.com/jpgarza93'>@jpgarza93</a>, <a href='https://github.com/BambOoxX'>@BambOoxX</a>, <a href='https://github.com/swharden'>@swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/david3951445'><img src='https://scottplot.net/images/contributors/david3951445.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Paraplegia'><img src='https://scottplot.net/images/contributors/paraplegia.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/CBrauer'><img src='https://scottplot.net/images/contributors/cbrauer.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/ecrocombe'><img src='https://scottplot.net/images/contributors/ecrocombe.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/quantfreedom'><img src='https://scottplot.net/images/contributors/quantfreedom.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/wellcaffeinated'><img src='https://scottplot.net/images/contributors/wellcaffeinated.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/FULL69'><img src='https://scottplot.net/images/contributors/full69.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/VladislavPustovarov'><img src='https://scottplot.net/images/contributors/vladislavpustovarov.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/jpgarza93'><img src='https://scottplot.net/images/contributors/jpgarza93.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/BambOoxX'><img src='https://scottplot.net/images/contributors/bambooxx.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
+
+</section>
+<section class='mb-5'>
+<h1 class='mb-0'>ScottPlot 5.0.46</h1>
+<div><i>NuGet packages published 2024-11-17</i></div>
 <div class='mt-1'>
 <ul>
 <li>Axes: Added support for displaying bitmaps as axis labels allowing rich text to be rendered using a third party package and displayed in any plot (<a href="https://github.com/ScottPlot/ScottPlot/issues/4503">#4503</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3222">#3222</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/2905">#2905</a>) <a href="https://github.com/Liwr9537"><strong>@Liwr9537</strong></a> <a href="https://github.com/CBrauer"><strong>@CBrauer</strong></a> <a href="https://github.com/DaveMartel"><strong>@DaveMartel</strong></a>
@@ -24,11 +74,15 @@ Release notes for every version of ScottPlot
 </li>
 <li>Interactivity: Mouse click times in double-click events no longer resets after losing focus, improving double-click behavior in WPF controls (<a href="https://github.com/ScottPlot/ScottPlot/issues/4524">#4524</a>) <a href="https://github.com/onur-akaydin"><strong>@onur-akaydin</strong></a>
 </li>
+<li>OpenGL: Updated GLSL version number formatting to improve rendering on some platforms (<a href="https://github.com/ScottPlot/ScottPlot/issues/4519">#4519</a>) <a href="https://github.com/onur-akaydin"><strong>@onur-akaydin</strong></a> <a href="https://github.com/StendProg"><strong>@StendProg</strong></a>
+</li>
+<li>Legend: Gave <code>LegendItem</code> a <code>Plottable</code> property to enable creating interactive legends which control plottable properties (<a href="https://github.com/ScottPlot/ScottPlot/issues/4523">#4523</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/3842">#3842</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4147">#4147</a>) <a href="https://github.com/BambOoxX"><strong>@BambOoxX</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/Liwr9537'>@Liwr9537</a>, <a href='https://github.com/CBrauer'>@CBrauer</a>, <a href='https://github.com/DaveMartel'>@DaveMartel</a>, <a href='https://github.com/dlampa'>@dlampa</a>, <a href='https://github.com/Jofstera'>@Jofstera</a>, <a href='https://github.com/quantfreedom'>@quantfreedom</a>, <a href='https://github.com/czastack'>@czastack</a>, <a href='https://github.com/onur-akaydin'>@onur-akaydin</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/Liwr9537'>@Liwr9537</a>, <a href='https://github.com/CBrauer'>@CBrauer</a>, <a href='https://github.com/DaveMartel'>@DaveMartel</a>, <a href='https://github.com/dlampa'>@dlampa</a>, <a href='https://github.com/Jofstera'>@Jofstera</a>, <a href='https://github.com/quantfreedom'>@quantfreedom</a>, <a href='https://github.com/czastack'>@czastack</a>, <a href='https://github.com/onur-akaydin'>@onur-akaydin</a>, <a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/BambOoxX'>@BambOoxX</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/Liwr9537'><img src='https://scottplot.net/images/contributors/liwr9537.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -37,8 +91,10 @@ Release notes for every version of ScottPlot
 <a href='https://github.com/dlampa'><img src='https://scottplot.net/images/contributors/dlampa.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Jofstera'><img src='https://scottplot.net/images/contributors/jofstera.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/quantfreedom'><img src='https://scottplot.net/images/contributors/quantfreedom.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/czastack'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/czastack'><img src='https://scottplot.net/images/contributors/czastack.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/onur-akaydin'><img src='https://scottplot.net/images/contributors/onur-akaydin.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/BambOoxX'><img src='https://scottplot.net/images/contributors/bambooxx.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
