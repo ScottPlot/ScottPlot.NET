@@ -4,9 +4,9 @@ Description: Bars can be stacked to present data in groups.
 URL: /cookbook/5.0/Bar/StackedBars/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Bar Plot", "Stacked Bar Chart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Bar", "/cookbook/5.0/Bar/StackedBars"]
-Date: 2024-11-17
-Version: ScottPlot 5.0.46
-Version: ScottPlot 5.0.46
+Date: 2024-11-24
+Version: ScottPlot 5.0.47
+Version: ScottPlot 5.0.47
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Bars can be stacked to present data in groups.
 
-[![](/cookbook/5.0/images/StackedBars.png?241117162641)](/cookbook/5.0/images/StackedBars.png?241117162641)
+[![](/cookbook/5.0/images/StackedBars.png?241124170640)](/cookbook/5.0/images/StackedBars.png?241124170640)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs" imageUrl="/cookbook/5.0/images/StackedBars.png?241117162641" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs" imageUrl="/cookbook/5.0/images/StackedBars.png?241124170640" >}}ScottPlot.Plot myPlot = new();
 
 string[] categoryNames = { "Phones", "Computers", "Tablets" };
 Color[] categoryColors = { Colors.C0, Colors.C1, Colors.C2 };

@@ -1,8 +1,8 @@
 {
-  "version": "5.0.46",
-  "dateUtc": "2024-11-17T21:26:45",
-  "recipeCount": 303,
-  "jsonSizeKb": 405,
+  "version": "5.0.47",
+  "dateUtc": "2024-11-24T22:06:44",
+  "recipeCount": 313,
+  "jsonSizeKb": 420,
   "chapters": [
     "General",
     "Plot Types"
@@ -49,6 +49,12 @@
       "name": "Box Plot",
       "description": "Box plots show a distribution at a glance",
       "url": "/cookbook/5.0/Box"
+    },
+    {
+      "chapter": "Plot Types",
+      "name": "Bracket",
+      "description": "Brackets annotate a range along a line in coordinate space",
+      "url": "/cookbook/5.0/Bracket"
     },
     {
       "chapter": "Plot Types",
@@ -327,7 +333,7 @@
       "anchorUrl": "/cookbook/5.0/AxisAndTicks#SetAxisLimits",
       "categoryUrl": "/cookbook/5.0/AxisAndTicks",
       "recipeUrl": "/cookbook/5.0/AxisAndTicks/SetAxisLimits",
-      "imageUrl": "/cookbook/5.0/images/SetAxisLimits.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/SetAxisLimits.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs"
     },
     {
@@ -341,7 +347,7 @@
       "anchorUrl": "/cookbook/5.0/AxisAndTicks#GetAxisLimits",
       "categoryUrl": "/cookbook/5.0/AxisAndTicks",
       "recipeUrl": "/cookbook/5.0/AxisAndTicks/GetAxisLimits",
-      "imageUrl": "/cookbook/5.0/images/GetAxisLimits.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/GetAxisLimits.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs"
     },
     {
@@ -355,7 +361,7 @@
       "anchorUrl": "/cookbook/5.0/AxisAndTicks#AutoScale",
       "categoryUrl": "/cookbook/5.0/AxisAndTicks",
       "recipeUrl": "/cookbook/5.0/AxisAndTicks/AutoScale",
-      "imageUrl": "/cookbook/5.0/images/AutoScale.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/AutoScale.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs"
     },
     {
@@ -369,7 +375,7 @@
       "anchorUrl": "/cookbook/5.0/AxisAndTicks#InvertedAxis",
       "categoryUrl": "/cookbook/5.0/AxisAndTicks",
       "recipeUrl": "/cookbook/5.0/AxisAndTicks/InvertedAxis",
-      "imageUrl": "/cookbook/5.0/images/InvertedAxis.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/InvertedAxis.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs"
     },
     {
@@ -383,7 +389,7 @@
       "anchorUrl": "/cookbook/5.0/AxisAndTicks#InvertedAutoAxis",
       "categoryUrl": "/cookbook/5.0/AxisAndTicks",
       "recipeUrl": "/cookbook/5.0/AxisAndTicks/InvertedAutoAxis",
-      "imageUrl": "/cookbook/5.0/images/InvertedAutoAxis.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/InvertedAutoAxis.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs"
     },
     {
@@ -397,7 +403,7 @@
       "anchorUrl": "/cookbook/5.0/AxisAndTicks#SquareAxisUnits",
       "categoryUrl": "/cookbook/5.0/AxisAndTicks",
       "recipeUrl": "/cookbook/5.0/AxisAndTicks/SquareAxisUnits",
-      "imageUrl": "/cookbook/5.0/images/SquareAxisUnits.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/SquareAxisUnits.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs"
     },
     {
@@ -411,7 +417,7 @@
       "anchorUrl": "/cookbook/5.0/AxisAndTicks#ExperimentalAxisWithSubtitle",
       "categoryUrl": "/cookbook/5.0/AxisAndTicks",
       "recipeUrl": "/cookbook/5.0/AxisAndTicks/ExperimentalAxisWithSubtitle",
-      "imageUrl": "/cookbook/5.0/images/ExperimentalAxisWithSubtitle.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/ExperimentalAxisWithSubtitle.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs"
     },
     {
@@ -425,7 +431,7 @@
       "anchorUrl": "/cookbook/5.0/AxisAndTicks#AxisAntiAliasing",
       "categoryUrl": "/cookbook/5.0/AxisAndTicks",
       "recipeUrl": "/cookbook/5.0/AxisAndTicks/AxisAntiAliasing",
-      "imageUrl": "/cookbook/5.0/images/AxisAntiAliasing.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/AxisAntiAliasing.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs"
     },
     {
@@ -439,7 +445,7 @@
       "anchorUrl": "/cookbook/5.0/AxisAndTicks#HideAxis",
       "categoryUrl": "/cookbook/5.0/AxisAndTicks",
       "recipeUrl": "/cookbook/5.0/AxisAndTicks/HideAxis",
-      "imageUrl": "/cookbook/5.0/images/HideAxis.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/HideAxis.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs"
     },
     {
@@ -453,7 +459,7 @@
       "anchorUrl": "/cookbook/5.0/AxisAndTicks#DateTimeAxisQuickstart",
       "categoryUrl": "/cookbook/5.0/AxisAndTicks",
       "recipeUrl": "/cookbook/5.0/AxisAndTicks/DateTimeAxisQuickstart",
-      "imageUrl": "/cookbook/5.0/images/DateTimeAxisQuickstart.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/DateTimeAxisQuickstart.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs"
     },
     {
@@ -467,7 +473,7 @@
       "anchorUrl": "/cookbook/5.0/AxisAndTicks#DateTimeAxisMixed",
       "categoryUrl": "/cookbook/5.0/AxisAndTicks",
       "recipeUrl": "/cookbook/5.0/AxisAndTicks/DateTimeAxisMixed",
-      "imageUrl": "/cookbook/5.0/images/DateTimeAxisMixed.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/DateTimeAxisMixed.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs"
     },
     {
@@ -481,7 +487,7 @@
       "anchorUrl": "/cookbook/5.0/AxisAndTicks#DateTimeAxisCustomFormatter",
       "categoryUrl": "/cookbook/5.0/AxisAndTicks",
       "recipeUrl": "/cookbook/5.0/AxisAndTicks/DateTimeAxisCustomFormatter",
-      "imageUrl": "/cookbook/5.0/images/DateTimeAxisCustomFormatter.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/DateTimeAxisCustomFormatter.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs"
     },
     {
@@ -495,7 +501,7 @@
       "anchorUrl": "/cookbook/5.0/AxisAndTicks#DateTimeAxisFixedIntervalTicks",
       "categoryUrl": "/cookbook/5.0/AxisAndTicks",
       "recipeUrl": "/cookbook/5.0/AxisAndTicks/DateTimeAxisFixedIntervalTicks",
-      "imageUrl": "/cookbook/5.0/images/DateTimeAxisFixedIntervalTicks.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/DateTimeAxisFixedIntervalTicks.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs"
     },
     {
@@ -509,7 +515,7 @@
       "anchorUrl": "/cookbook/5.0/AxisAndTicks#FloatingAxis",
       "categoryUrl": "/cookbook/5.0/AxisAndTicks",
       "recipeUrl": "/cookbook/5.0/AxisAndTicks/FloatingAxis",
-      "imageUrl": "/cookbook/5.0/images/FloatingAxis.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/FloatingAxis.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs"
     },
     {
@@ -523,7 +529,7 @@
       "anchorUrl": "/cookbook/5.0/AxisAndTicks#CustomGridLineStyle",
       "categoryUrl": "/cookbook/5.0/AxisAndTicks",
       "recipeUrl": "/cookbook/5.0/AxisAndTicks/CustomGridLineStyle",
-      "imageUrl": "/cookbook/5.0/images/CustomGridLineStyle.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/CustomGridLineStyle.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs"
     },
     {
@@ -537,7 +543,21 @@
       "anchorUrl": "/cookbook/5.0/AxisAndTicks#ImageAxisLabel",
       "categoryUrl": "/cookbook/5.0/AxisAndTicks",
       "recipeUrl": "/cookbook/5.0/AxisAndTicks/ImageAxisLabel",
-      "imageUrl": "/cookbook/5.0/images/ImageAxisLabel.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/ImageAxisLabel.png?241124170640",
+      "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs"
+    },
+    {
+      "chapter": "Chapter.General;",
+      "category": "Axis and Ticks",
+      "name": "Multiplier Notation",
+      "description": "Numeric tick labels may be displayed using multiplier notation (where tick labels are displayed using scientific notation with the eponent displayed in the corner of the plot). A helper method is available to set-up multiplier notation with a single statement, but users can interact with the object this method returns (not shown here) or inspect the code inside of that method to learn how to achieve enhanced customization abilities.",
+      "source": "ScottPlot.Plot myPlot = new();\n\n// plot sample data with extremely large values\ndouble[] xs = Generate.RandomSample(50, -1e10, 1e10);\ndouble[] ys = Generate.RandomSample(50, -1e20, 1e20);\nmyPlot.Add.Scatter(xs, ys);\n\n// enable multiplier notation on both primary axes\nmyPlot.Axes.SetupMultiplierNotation(myPlot.Axes.Left);\nmyPlot.Axes.SetupMultiplierNotation(myPlot.Axes.Bottom);\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "categoryClassName": "AxisAndTicks",
+      "recipeClassName": "MultiplierNotation",
+      "anchorUrl": "/cookbook/5.0/AxisAndTicks#MultiplierNotation",
+      "categoryUrl": "/cookbook/5.0/AxisAndTicks",
+      "recipeUrl": "/cookbook/5.0/AxisAndTicks/MultiplierNotation",
+      "imageUrl": "/cookbook/5.0/images/MultiplierNotation.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs"
     },
     {
@@ -551,7 +571,7 @@
       "anchorUrl": "/cookbook/5.0/CustomizingGrids#HideGrid",
       "categoryUrl": "/cookbook/5.0/CustomizingGrids",
       "recipeUrl": "/cookbook/5.0/CustomizingGrids/HideGrid",
-      "imageUrl": "/cookbook/5.0/images/HideGrid.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/HideGrid.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/GridRecipes.cs"
     },
     {
@@ -565,7 +585,7 @@
       "anchorUrl": "/cookbook/5.0/CustomizingGrids#GridCustom",
       "categoryUrl": "/cookbook/5.0/CustomizingGrids",
       "recipeUrl": "/cookbook/5.0/CustomizingGrids/GridCustom",
-      "imageUrl": "/cookbook/5.0/images/GridCustom.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/GridCustom.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/GridRecipes.cs"
     },
     {
@@ -579,7 +599,7 @@
       "anchorUrl": "/cookbook/5.0/CustomizingGrids#GridCustomAxis",
       "categoryUrl": "/cookbook/5.0/CustomizingGrids",
       "recipeUrl": "/cookbook/5.0/CustomizingGrids/GridCustomAxis",
-      "imageUrl": "/cookbook/5.0/images/GridCustomAxis.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/GridCustomAxis.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/GridRecipes.cs"
     },
     {
@@ -593,7 +613,7 @@
       "anchorUrl": "/cookbook/5.0/CustomizingGrids#GridAbove",
       "categoryUrl": "/cookbook/5.0/CustomizingGrids",
       "recipeUrl": "/cookbook/5.0/CustomizingGrids/GridAbove",
-      "imageUrl": "/cookbook/5.0/images/GridAbove.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/GridAbove.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/GridRecipes.cs"
     },
     {
@@ -607,7 +627,7 @@
       "anchorUrl": "/cookbook/5.0/CustomizingGrids#GridWithTopAxis",
       "categoryUrl": "/cookbook/5.0/CustomizingGrids",
       "recipeUrl": "/cookbook/5.0/CustomizingGrids/GridWithTopAxis",
-      "imageUrl": "/cookbook/5.0/images/GridWithTopAxis.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/GridWithTopAxis.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/GridRecipes.cs"
     },
     {
@@ -621,7 +641,7 @@
       "anchorUrl": "/cookbook/5.0/CustomizingGrids#GridAlternatingColors",
       "categoryUrl": "/cookbook/5.0/CustomizingGrids",
       "recipeUrl": "/cookbook/5.0/CustomizingGrids/GridAlternatingColors",
-      "imageUrl": "/cookbook/5.0/images/GridAlternatingColors.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/GridAlternatingColors.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/GridRecipes.cs"
     },
     {
@@ -635,7 +655,7 @@
       "anchorUrl": "/cookbook/5.0/CustomizingGrids#GridAlternatingDarkMode",
       "categoryUrl": "/cookbook/5.0/CustomizingGrids",
       "recipeUrl": "/cookbook/5.0/CustomizingGrids/GridAlternatingDarkMode",
-      "imageUrl": "/cookbook/5.0/images/GridAlternatingDarkMode.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/GridAlternatingDarkMode.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/GridRecipes.cs"
     },
     {
@@ -649,7 +669,7 @@
       "anchorUrl": "/cookbook/5.0/Layout#Frameless",
       "categoryUrl": "/cookbook/5.0/Layout",
       "recipeUrl": "/cookbook/5.0/Layout/Frameless",
-      "imageUrl": "/cookbook/5.0/images/Frameless.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/Frameless.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/LayoutRecipes.cs"
     },
     {
@@ -663,7 +683,7 @@
       "anchorUrl": "/cookbook/5.0/Layout#FixedPadding",
       "categoryUrl": "/cookbook/5.0/Layout",
       "recipeUrl": "/cookbook/5.0/Layout/FixedPadding",
-      "imageUrl": "/cookbook/5.0/images/FixedPadding.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/FixedPadding.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/LayoutRecipes.cs"
     },
     {
@@ -677,7 +697,7 @@
       "anchorUrl": "/cookbook/5.0/Layout#FixedRectangle",
       "categoryUrl": "/cookbook/5.0/Layout",
       "recipeUrl": "/cookbook/5.0/Layout/FixedRectangle",
-      "imageUrl": "/cookbook/5.0/images/FixedRectangle.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/FixedRectangle.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/LayoutRecipes.cs"
     },
     {
@@ -691,7 +711,7 @@
       "anchorUrl": "/cookbook/5.0/Legend#LegendQuickstart",
       "categoryUrl": "/cookbook/5.0/Legend",
       "recipeUrl": "/cookbook/5.0/Legend/LegendQuickstart",
-      "imageUrl": "/cookbook/5.0/images/LegendQuickstart.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/LegendQuickstart.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Legend.cs"
     },
     {
@@ -705,7 +725,7 @@
       "anchorUrl": "/cookbook/5.0/Legend#LegendWithRTLText",
       "categoryUrl": "/cookbook/5.0/Legend",
       "recipeUrl": "/cookbook/5.0/Legend/LegendWithRTLText",
-      "imageUrl": "/cookbook/5.0/images/LegendWithRTLText.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/LegendWithRTLText.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Legend.cs"
     },
     {
@@ -719,7 +739,7 @@
       "anchorUrl": "/cookbook/5.0/Legend#ManualLegend",
       "categoryUrl": "/cookbook/5.0/Legend",
       "recipeUrl": "/cookbook/5.0/Legend/ManualLegend",
-      "imageUrl": "/cookbook/5.0/images/ManualLegend.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/ManualLegend.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Legend.cs"
     },
     {
@@ -733,7 +753,7 @@
       "anchorUrl": "/cookbook/5.0/Legend#LegendStyle",
       "categoryUrl": "/cookbook/5.0/Legend",
       "recipeUrl": "/cookbook/5.0/Legend/LegendStyle",
-      "imageUrl": "/cookbook/5.0/images/LegendStyle.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/LegendStyle.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Legend.cs"
     },
     {
@@ -747,7 +767,7 @@
       "anchorUrl": "/cookbook/5.0/Legend#LegendOrientation",
       "categoryUrl": "/cookbook/5.0/Legend",
       "recipeUrl": "/cookbook/5.0/Legend/LegendOrientation",
-      "imageUrl": "/cookbook/5.0/images/LegendOrientation.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/LegendOrientation.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Legend.cs"
     },
     {
@@ -761,7 +781,7 @@
       "anchorUrl": "/cookbook/5.0/Legend#LegendWrapping",
       "categoryUrl": "/cookbook/5.0/Legend",
       "recipeUrl": "/cookbook/5.0/Legend/LegendWrapping",
-      "imageUrl": "/cookbook/5.0/images/LegendWrapping.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/LegendWrapping.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Legend.cs"
     },
     {
@@ -775,7 +795,7 @@
       "anchorUrl": "/cookbook/5.0/Legend#LegendMultiple",
       "categoryUrl": "/cookbook/5.0/Legend",
       "recipeUrl": "/cookbook/5.0/Legend/LegendMultiple",
-      "imageUrl": "/cookbook/5.0/images/LegendMultiple.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/LegendMultiple.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Legend.cs"
     },
     {
@@ -789,7 +809,7 @@
       "anchorUrl": "/cookbook/5.0/Legend#LegendOutside",
       "categoryUrl": "/cookbook/5.0/Legend",
       "recipeUrl": "/cookbook/5.0/Legend/LegendOutside",
-      "imageUrl": "/cookbook/5.0/images/LegendOutside.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/LegendOutside.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Legend.cs"
     },
     {
@@ -803,7 +823,7 @@
       "anchorUrl": "/cookbook/5.0/Legend#LegendCustomFontAutomaticItems",
       "categoryUrl": "/cookbook/5.0/Legend",
       "recipeUrl": "/cookbook/5.0/Legend/LegendCustomFontAutomaticItems",
-      "imageUrl": "/cookbook/5.0/images/LegendCustomFontAutomaticItems.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/LegendCustomFontAutomaticItems.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Legend.cs"
     },
     {
@@ -817,7 +837,7 @@
       "anchorUrl": "/cookbook/5.0/Legend#LegendCustomFontManualItems",
       "categoryUrl": "/cookbook/5.0/Legend",
       "recipeUrl": "/cookbook/5.0/Legend/LegendCustomFontManualItems",
-      "imageUrl": "/cookbook/5.0/images/LegendCustomFontManualItems.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/LegendCustomFontManualItems.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Legend.cs"
     },
     {
@@ -831,7 +851,7 @@
       "anchorUrl": "/cookbook/5.0/Miscellaneous#DataBackgroundImage",
       "categoryUrl": "/cookbook/5.0/Miscellaneous",
       "recipeUrl": "/cookbook/5.0/Miscellaneous/DataBackgroundImage",
-      "imageUrl": "/cookbook/5.0/images/DataBackgroundImage.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/DataBackgroundImage.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Miscellaneous.cs"
     },
     {
@@ -845,7 +865,7 @@
       "anchorUrl": "/cookbook/5.0/Miscellaneous#FigureBackgroundImage",
       "categoryUrl": "/cookbook/5.0/Miscellaneous",
       "recipeUrl": "/cookbook/5.0/Miscellaneous/FigureBackgroundImage",
-      "imageUrl": "/cookbook/5.0/images/FigureBackgroundImage.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/FigureBackgroundImage.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Miscellaneous.cs"
     },
     {
@@ -859,7 +879,7 @@
       "anchorUrl": "/cookbook/5.0/Miscellaneous#ColorInterpolation",
       "categoryUrl": "/cookbook/5.0/Miscellaneous",
       "recipeUrl": "/cookbook/5.0/Miscellaneous/ColorInterpolation",
-      "imageUrl": "/cookbook/5.0/images/ColorInterpolation.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/ColorInterpolation.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Miscellaneous.cs"
     },
     {
@@ -873,7 +893,7 @@
       "anchorUrl": "/cookbook/5.0/Miscellaneous#CustomFontFiles",
       "categoryUrl": "/cookbook/5.0/Miscellaneous",
       "recipeUrl": "/cookbook/5.0/Miscellaneous/CustomFontFiles",
-      "imageUrl": "/cookbook/5.0/images/CustomFontFiles.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/CustomFontFiles.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Miscellaneous.cs"
     },
     {
@@ -887,7 +907,7 @@
       "anchorUrl": "/cookbook/5.0/MultiAxis#RightAxis",
       "categoryUrl": "/cookbook/5.0/MultiAxis",
       "recipeUrl": "/cookbook/5.0/MultiAxis/RightAxis",
-      "imageUrl": "/cookbook/5.0/images/RightAxis.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/RightAxis.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/MultiAxis.cs"
     },
     {
@@ -901,7 +921,7 @@
       "anchorUrl": "/cookbook/5.0/MultiAxis#MultiAxisQuickstart",
       "categoryUrl": "/cookbook/5.0/MultiAxis",
       "recipeUrl": "/cookbook/5.0/MultiAxis/MultiAxisQuickstart",
-      "imageUrl": "/cookbook/5.0/images/MultiAxisQuickstart.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/MultiAxisQuickstart.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/MultiAxis.cs"
     },
     {
@@ -915,7 +935,7 @@
       "anchorUrl": "/cookbook/5.0/MultiplotRecipes#MultiplotQuickstart",
       "categoryUrl": "/cookbook/5.0/MultiplotRecipes",
       "recipeUrl": "/cookbook/5.0/MultiplotRecipes/MultiplotQuickstart",
-      "imageUrl": "/cookbook/5.0/images/MultiplotQuickstart.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/MultiplotQuickstart.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/MultiplotRecipes.cs"
     },
     {
@@ -929,7 +949,7 @@
       "anchorUrl": "/cookbook/5.0/MultiplotRecipes#MultiplotColumns",
       "categoryUrl": "/cookbook/5.0/MultiplotRecipes",
       "recipeUrl": "/cookbook/5.0/MultiplotRecipes/MultiplotColumns",
-      "imageUrl": "/cookbook/5.0/images/MultiplotColumns.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/MultiplotColumns.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/MultiplotRecipes.cs"
     },
     {
@@ -943,7 +963,7 @@
       "anchorUrl": "/cookbook/5.0/MultiplotRecipes#MultiplotGrid",
       "categoryUrl": "/cookbook/5.0/MultiplotRecipes",
       "recipeUrl": "/cookbook/5.0/MultiplotRecipes/MultiplotGrid",
-      "imageUrl": "/cookbook/5.0/images/MultiplotGrid.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/MultiplotGrid.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/MultiplotRecipes.cs"
     },
     {
@@ -957,7 +977,7 @@
       "anchorUrl": "/cookbook/5.0/MultiplotRecipes#MultiplotCustom",
       "categoryUrl": "/cookbook/5.0/MultiplotRecipes",
       "recipeUrl": "/cookbook/5.0/MultiplotRecipes/MultiplotCustom",
-      "imageUrl": "/cookbook/5.0/images/MultiplotCustom.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/MultiplotCustom.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/MultiplotRecipes.cs"
     },
     {
@@ -971,7 +991,7 @@
       "anchorUrl": "/cookbook/5.0/PlottableManagement#AddPlottablesManually",
       "categoryUrl": "/cookbook/5.0/PlottableManagement",
       "recipeUrl": "/cookbook/5.0/PlottableManagement/AddPlottablesManually",
-      "imageUrl": "/cookbook/5.0/images/AddPlottablesManually.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/AddPlottablesManually.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/PlottableManagement.cs"
     },
     {
@@ -985,7 +1005,7 @@
       "anchorUrl": "/cookbook/5.0/PlottableManagement#Clear",
       "categoryUrl": "/cookbook/5.0/PlottableManagement",
       "recipeUrl": "/cookbook/5.0/PlottableManagement/Clear",
-      "imageUrl": "/cookbook/5.0/images/Clear.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/Clear.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/PlottableManagement.cs"
     },
     {
@@ -999,7 +1019,7 @@
       "anchorUrl": "/cookbook/5.0/PlottableManagement#Remove",
       "categoryUrl": "/cookbook/5.0/PlottableManagement",
       "recipeUrl": "/cookbook/5.0/PlottableManagement/Remove",
-      "imageUrl": "/cookbook/5.0/images/Remove.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/Remove.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/PlottableManagement.cs"
     },
     {
@@ -1013,7 +1033,7 @@
       "anchorUrl": "/cookbook/5.0/PlottableManagement#RemoveAll",
       "categoryUrl": "/cookbook/5.0/PlottableManagement",
       "recipeUrl": "/cookbook/5.0/PlottableManagement/RemoveAll",
-      "imageUrl": "/cookbook/5.0/images/RemoveAll.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/RemoveAll.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/PlottableManagement.cs"
     },
     {
@@ -1027,7 +1047,7 @@
       "anchorUrl": "/cookbook/5.0/PlottableManagement#ChangeOrder",
       "categoryUrl": "/cookbook/5.0/PlottableManagement",
       "recipeUrl": "/cookbook/5.0/PlottableManagement/ChangeOrder",
-      "imageUrl": "/cookbook/5.0/images/ChangeOrder.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/ChangeOrder.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/PlottableManagement.cs"
     },
     {
@@ -1041,7 +1061,7 @@
       "anchorUrl": "/cookbook/5.0/ScottPlotQuickstart#QuickstartScatter",
       "categoryUrl": "/cookbook/5.0/ScottPlotQuickstart",
       "recipeUrl": "/cookbook/5.0/ScottPlotQuickstart/QuickstartScatter",
-      "imageUrl": "/cookbook/5.0/images/QuickstartScatter.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/QuickstartScatter.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Quickstart.cs"
     },
     {
@@ -1055,7 +1075,7 @@
       "anchorUrl": "/cookbook/5.0/ScottPlotQuickstart#CustomizingPlottables",
       "categoryUrl": "/cookbook/5.0/ScottPlotQuickstart",
       "recipeUrl": "/cookbook/5.0/ScottPlotQuickstart/CustomizingPlottables",
-      "imageUrl": "/cookbook/5.0/images/CustomizingPlottables.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/CustomizingPlottables.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Quickstart.cs"
     },
     {
@@ -1069,7 +1089,7 @@
       "anchorUrl": "/cookbook/5.0/ScottPlotQuickstart#QuickstartSignal",
       "categoryUrl": "/cookbook/5.0/ScottPlotQuickstart",
       "recipeUrl": "/cookbook/5.0/ScottPlotQuickstart/QuickstartSignal",
-      "imageUrl": "/cookbook/5.0/images/QuickstartSignal.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/QuickstartSignal.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Quickstart.cs"
     },
     {
@@ -1083,7 +1103,7 @@
       "anchorUrl": "/cookbook/5.0/ScottPlotQuickstart#SignalPerformance",
       "categoryUrl": "/cookbook/5.0/ScottPlotQuickstart",
       "recipeUrl": "/cookbook/5.0/ScottPlotQuickstart/SignalPerformance",
-      "imageUrl": "/cookbook/5.0/images/SignalPerformance.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/SignalPerformance.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Quickstart.cs"
     },
     {
@@ -1097,7 +1117,7 @@
       "anchorUrl": "/cookbook/5.0/ScottPlotQuickstart#QuickstartAxisLabels",
       "categoryUrl": "/cookbook/5.0/ScottPlotQuickstart",
       "recipeUrl": "/cookbook/5.0/ScottPlotQuickstart/QuickstartAxisLabels",
-      "imageUrl": "/cookbook/5.0/images/QuickstartAxisLabels.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/QuickstartAxisLabels.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Quickstart.cs"
     },
     {
@@ -1111,7 +1131,7 @@
       "anchorUrl": "/cookbook/5.0/Styling#BackgroundColors",
       "categoryUrl": "/cookbook/5.0/Styling",
       "recipeUrl": "/cookbook/5.0/Styling/BackgroundColors",
-      "imageUrl": "/cookbook/5.0/images/BackgroundColors.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/BackgroundColors.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs"
     },
     {
@@ -1125,7 +1145,7 @@
       "anchorUrl": "/cookbook/5.0/Styling#AxisCustom",
       "categoryUrl": "/cookbook/5.0/Styling",
       "recipeUrl": "/cookbook/5.0/Styling/AxisCustom",
-      "imageUrl": "/cookbook/5.0/images/AxisCustom.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/AxisCustom.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs"
     },
     {
@@ -1139,7 +1159,7 @@
       "anchorUrl": "/cookbook/5.0/Styling#Palette",
       "categoryUrl": "/cookbook/5.0/Styling",
       "recipeUrl": "/cookbook/5.0/Styling/Palette",
-      "imageUrl": "/cookbook/5.0/images/Palette.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/Palette.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs"
     },
     {
@@ -1153,7 +1173,7 @@
       "anchorUrl": "/cookbook/5.0/Styling#ArrowShapeNames",
       "categoryUrl": "/cookbook/5.0/Styling",
       "recipeUrl": "/cookbook/5.0/Styling/ArrowShapeNames",
-      "imageUrl": "/cookbook/5.0/images/ArrowShapeNames.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/ArrowShapeNames.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs"
     },
     {
@@ -1167,7 +1187,7 @@
       "anchorUrl": "/cookbook/5.0/Styling#LineStyles",
       "categoryUrl": "/cookbook/5.0/Styling",
       "recipeUrl": "/cookbook/5.0/Styling/LineStyles",
-      "imageUrl": "/cookbook/5.0/images/LineStyles.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/LineStyles.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs"
     },
     {
@@ -1181,7 +1201,7 @@
       "anchorUrl": "/cookbook/5.0/Styling#Scaling",
       "categoryUrl": "/cookbook/5.0/Styling",
       "recipeUrl": "/cookbook/5.0/Styling/Scaling",
-      "imageUrl": "/cookbook/5.0/images/Scaling.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/Scaling.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs"
     },
     {
@@ -1195,7 +1215,7 @@
       "anchorUrl": "/cookbook/5.0/Styling#Hairline",
       "categoryUrl": "/cookbook/5.0/Styling",
       "recipeUrl": "/cookbook/5.0/Styling/Hairline",
-      "imageUrl": "/cookbook/5.0/images/Hairline.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/Hairline.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs"
     },
     {
@@ -1209,7 +1229,7 @@
       "anchorUrl": "/cookbook/5.0/Styling#DarkMode",
       "categoryUrl": "/cookbook/5.0/Styling",
       "recipeUrl": "/cookbook/5.0/Styling/DarkMode",
-      "imageUrl": "/cookbook/5.0/images/DarkMode.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/DarkMode.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs"
     },
     {
@@ -1223,7 +1243,7 @@
       "anchorUrl": "/cookbook/5.0/Styling#ColormapColorSteps",
       "categoryUrl": "/cookbook/5.0/Styling",
       "recipeUrl": "/cookbook/5.0/Styling/ColormapColorSteps",
-      "imageUrl": "/cookbook/5.0/images/ColormapColorSteps.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/ColormapColorSteps.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs"
     },
     {
@@ -1237,7 +1257,7 @@
       "anchorUrl": "/cookbook/5.0/Styling#ColormapFromColors",
       "categoryUrl": "/cookbook/5.0/Styling",
       "recipeUrl": "/cookbook/5.0/Styling/ColormapFromColors",
-      "imageUrl": "/cookbook/5.0/images/ColormapFromColors.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/ColormapFromColors.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs"
     },
     {
@@ -1251,7 +1271,7 @@
       "anchorUrl": "/cookbook/5.0/Styling#HandDrawn",
       "categoryUrl": "/cookbook/5.0/Styling",
       "recipeUrl": "/cookbook/5.0/Styling/HandDrawn",
-      "imageUrl": "/cookbook/5.0/images/HandDrawn.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/HandDrawn.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs"
     },
     {
@@ -1265,7 +1285,7 @@
       "anchorUrl": "/cookbook/5.0/Styling#TitleAlignment",
       "categoryUrl": "/cookbook/5.0/Styling",
       "recipeUrl": "/cookbook/5.0/Styling/TitleAlignment",
-      "imageUrl": "/cookbook/5.0/images/TitleAlignment.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/TitleAlignment.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs"
     },
     {
@@ -1279,7 +1299,7 @@
       "anchorUrl": "/cookbook/5.0/CustomizingTicks#CustomTickFormatter",
       "categoryUrl": "/cookbook/5.0/CustomizingTicks",
       "recipeUrl": "/cookbook/5.0/CustomizingTicks/CustomTickFormatter",
-      "imageUrl": "/cookbook/5.0/images/CustomTickFormatter.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/CustomTickFormatter.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs"
     },
     {
@@ -1293,7 +1313,7 @@
       "anchorUrl": "/cookbook/5.0/CustomizingTicks#DateTimeAutomaticTickFormatter",
       "categoryUrl": "/cookbook/5.0/CustomizingTicks",
       "recipeUrl": "/cookbook/5.0/CustomizingTicks/DateTimeAutomaticTickFormatter",
-      "imageUrl": "/cookbook/5.0/images/DateTimeAutomaticTickFormatter.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/DateTimeAutomaticTickFormatter.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs"
     },
     {
@@ -1307,7 +1327,7 @@
       "anchorUrl": "/cookbook/5.0/CustomizingTicks#AltTickGen",
       "categoryUrl": "/cookbook/5.0/CustomizingTicks",
       "recipeUrl": "/cookbook/5.0/CustomizingTicks/AltTickGen",
-      "imageUrl": "/cookbook/5.0/images/AltTickGen.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/AltTickGen.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs"
     },
     {
@@ -1321,7 +1341,7 @@
       "anchorUrl": "/cookbook/5.0/CustomizingTicks#SetTicks",
       "categoryUrl": "/cookbook/5.0/CustomizingTicks",
       "recipeUrl": "/cookbook/5.0/CustomizingTicks/SetTicks",
-      "imageUrl": "/cookbook/5.0/images/SetTicks.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/SetTicks.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs"
     },
     {
@@ -1335,7 +1355,7 @@
       "anchorUrl": "/cookbook/5.0/CustomizingTicks#CustomTicks",
       "categoryUrl": "/cookbook/5.0/CustomizingTicks",
       "recipeUrl": "/cookbook/5.0/CustomizingTicks/CustomTicks",
-      "imageUrl": "/cookbook/5.0/images/CustomTicks.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/CustomTicks.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs"
     },
     {
@@ -1349,7 +1369,7 @@
       "anchorUrl": "/cookbook/5.0/CustomizingTicks#CustomTicksDateTime",
       "categoryUrl": "/cookbook/5.0/CustomizingTicks",
       "recipeUrl": "/cookbook/5.0/CustomizingTicks/CustomTicksDateTime",
-      "imageUrl": "/cookbook/5.0/images/CustomTicksDateTime.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/CustomTicksDateTime.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs"
     },
     {
@@ -1363,7 +1383,7 @@
       "anchorUrl": "/cookbook/5.0/CustomizingTicks#RotatedTicks",
       "categoryUrl": "/cookbook/5.0/CustomizingTicks",
       "recipeUrl": "/cookbook/5.0/CustomizingTicks/RotatedTicks",
-      "imageUrl": "/cookbook/5.0/images/RotatedTicks.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/RotatedTicks.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs"
     },
     {
@@ -1377,7 +1397,7 @@
       "anchorUrl": "/cookbook/5.0/CustomizingTicks#RotatedTicksLongLabels",
       "categoryUrl": "/cookbook/5.0/CustomizingTicks",
       "recipeUrl": "/cookbook/5.0/CustomizingTicks/RotatedTicksLongLabels",
-      "imageUrl": "/cookbook/5.0/images/RotatedTicksLongLabels.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/RotatedTicksLongLabels.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs"
     },
     {
@@ -1391,7 +1411,7 @@
       "anchorUrl": "/cookbook/5.0/CustomizingTicks#DisableGridLines",
       "categoryUrl": "/cookbook/5.0/CustomizingTicks",
       "recipeUrl": "/cookbook/5.0/CustomizingTicks/DisableGridLines",
-      "imageUrl": "/cookbook/5.0/images/DisableGridLines.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/DisableGridLines.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs"
     },
     {
@@ -1405,7 +1425,7 @@
       "anchorUrl": "/cookbook/5.0/CustomizingTicks#MinimumTickSpacing",
       "categoryUrl": "/cookbook/5.0/CustomizingTicks",
       "recipeUrl": "/cookbook/5.0/CustomizingTicks/MinimumTickSpacing",
-      "imageUrl": "/cookbook/5.0/images/MinimumTickSpacing.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/MinimumTickSpacing.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs"
     },
     {
@@ -1419,7 +1439,7 @@
       "anchorUrl": "/cookbook/5.0/CustomizingTicks#TickDensity",
       "categoryUrl": "/cookbook/5.0/CustomizingTicks",
       "recipeUrl": "/cookbook/5.0/CustomizingTicks/TickDensity",
-      "imageUrl": "/cookbook/5.0/images/TickDensity.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/TickDensity.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs"
     },
     {
@@ -1433,7 +1453,7 @@
       "anchorUrl": "/cookbook/5.0/CustomizingTicks#TickCount",
       "categoryUrl": "/cookbook/5.0/CustomizingTicks",
       "recipeUrl": "/cookbook/5.0/CustomizingTicks/TickCount",
-      "imageUrl": "/cookbook/5.0/images/TickCount.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/TickCount.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs"
     },
     {
@@ -1447,7 +1467,7 @@
       "anchorUrl": "/cookbook/5.0/CustomizingTicks#StandardMinorTickDistribution",
       "categoryUrl": "/cookbook/5.0/CustomizingTicks",
       "recipeUrl": "/cookbook/5.0/CustomizingTicks/StandardMinorTickDistribution",
-      "imageUrl": "/cookbook/5.0/images/StandardMinorTickDistribution.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/StandardMinorTickDistribution.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs"
     },
     {
@@ -1461,7 +1481,7 @@
       "anchorUrl": "/cookbook/5.0/CustomizingTicks#LogScaleTicks",
       "categoryUrl": "/cookbook/5.0/CustomizingTicks",
       "recipeUrl": "/cookbook/5.0/CustomizingTicks/LogScaleTicks",
-      "imageUrl": "/cookbook/5.0/images/LogScaleTicks.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/LogScaleTicks.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs"
     },
     {
@@ -1475,7 +1495,7 @@
       "anchorUrl": "/cookbook/5.0/DataGen#MultipleSineWaves",
       "categoryUrl": "/cookbook/5.0/DataGen",
       "recipeUrl": "/cookbook/5.0/DataGen/MultipleSineWaves",
-      "imageUrl": "/cookbook/5.0/images/MultipleSineWaves.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/MultipleSineWaves.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Miscellaneous/DataGen.cs"
     },
     {
@@ -1489,7 +1509,7 @@
       "anchorUrl": "/cookbook/5.0/Histograms#HistogramQuickstart",
       "categoryUrl": "/cookbook/5.0/Histograms",
       "recipeUrl": "/cookbook/5.0/Histograms/HistogramQuickstart",
-      "imageUrl": "/cookbook/5.0/images/HistogramQuickstart.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/HistogramQuickstart.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Miscellaneous/Histograms.cs"
     },
     {
@@ -1503,7 +1523,7 @@
       "anchorUrl": "/cookbook/5.0/Histograms#HistogramFixedSizeBins",
       "categoryUrl": "/cookbook/5.0/Histograms",
       "recipeUrl": "/cookbook/5.0/Histograms/HistogramFixedSizeBins",
-      "imageUrl": "/cookbook/5.0/images/HistogramFixedSizeBins.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/HistogramFixedSizeBins.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Miscellaneous/Histograms.cs"
     },
     {
@@ -1517,7 +1537,21 @@
       "anchorUrl": "/cookbook/5.0/Histograms#HistogramFilled",
       "categoryUrl": "/cookbook/5.0/Histograms",
       "recipeUrl": "/cookbook/5.0/Histograms/HistogramFilled",
-      "imageUrl": "/cookbook/5.0/images/HistogramFilled.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/HistogramFilled.png?241124170640",
+      "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Miscellaneous/Histograms.cs"
+    },
+    {
+      "chapter": "Chapter.General;",
+      "category": "Histogram",
+      "name": "Histogram Bars",
+      "description": "A helper method and plot type has been created to simplify creating a bar plot that displays histogram counts. Note that updates the histogram may appear in real time and the plot will automatically update to display the latest data.",
+      "source": "ScottPlot.Plot myPlot = new();\n\n// create an empty histogram and display it as a bar plot\nvar hist = ScottPlot.Statistics.Histogram.WithBinCount(count: 20, minValue: 140, maxValue: 220);\nvar histPlot = myPlot.Add.Histogram(hist);\nhistPlot.BarWidthFraction = 0.8;\n\n// histogram counts are updated automatically as new data is added\ndouble[] newData = SampleData.MaleHeights();\nhist.AddRange(newData);\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "categoryClassName": "Histograms",
+      "recipeClassName": "HistogramBars",
+      "anchorUrl": "/cookbook/5.0/Histograms#HistogramBars",
+      "categoryUrl": "/cookbook/5.0/Histograms",
+      "recipeUrl": "/cookbook/5.0/Histograms/HistogramBars",
+      "imageUrl": "/cookbook/5.0/images/HistogramBars.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Miscellaneous/Histograms.cs"
     },
     {
@@ -1531,7 +1565,7 @@
       "anchorUrl": "/cookbook/5.0/Histograms#HistogramProbability",
       "categoryUrl": "/cookbook/5.0/Histograms",
       "recipeUrl": "/cookbook/5.0/Histograms/HistogramProbability",
-      "imageUrl": "/cookbook/5.0/images/HistogramProbability.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/HistogramProbability.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Miscellaneous/Histograms.cs"
     },
     {
@@ -1545,7 +1579,7 @@
       "anchorUrl": "/cookbook/5.0/Histograms#HistogramProbabilityCurve",
       "categoryUrl": "/cookbook/5.0/Histograms",
       "recipeUrl": "/cookbook/5.0/Histograms/HistogramProbabilityCurve",
-      "imageUrl": "/cookbook/5.0/images/HistogramProbabilityCurve.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/HistogramProbabilityCurve.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Miscellaneous/Histograms.cs"
     },
     {
@@ -1559,7 +1593,7 @@
       "anchorUrl": "/cookbook/5.0/Histograms#HistogramProbabilityCurveSecondAxis",
       "categoryUrl": "/cookbook/5.0/Histograms",
       "recipeUrl": "/cookbook/5.0/Histograms/HistogramProbabilityCurveSecondAxis",
-      "imageUrl": "/cookbook/5.0/images/HistogramProbabilityCurveSecondAxis.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/HistogramProbabilityCurveSecondAxis.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Miscellaneous/Histograms.cs"
     },
     {
@@ -1573,7 +1607,7 @@
       "anchorUrl": "/cookbook/5.0/Histograms#HistogramMultiple",
       "categoryUrl": "/cookbook/5.0/Histograms",
       "recipeUrl": "/cookbook/5.0/Histograms/HistogramMultiple",
-      "imageUrl": "/cookbook/5.0/images/HistogramMultiple.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/HistogramMultiple.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Miscellaneous/Histograms.cs"
     },
     {
@@ -1587,7 +1621,7 @@
       "anchorUrl": "/cookbook/5.0/Histograms#HistogramCPH",
       "categoryUrl": "/cookbook/5.0/Histograms",
       "recipeUrl": "/cookbook/5.0/Histograms/HistogramCPH",
-      "imageUrl": "/cookbook/5.0/images/HistogramCPH.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/HistogramCPH.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Miscellaneous/Histograms.cs"
     },
     {
@@ -1601,7 +1635,7 @@
       "anchorUrl": "/cookbook/5.0/Internationalization#FontDetection",
       "categoryUrl": "/cookbook/5.0/Internationalization",
       "recipeUrl": "/cookbook/5.0/Internationalization/FontDetection",
-      "imageUrl": "/cookbook/5.0/images/FontDetection.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/FontDetection.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Miscellaneous/Internationalization.cs"
     },
     {
@@ -1615,7 +1649,7 @@
       "anchorUrl": "/cookbook/5.0/Internationalization#AutomaticFontDetection",
       "categoryUrl": "/cookbook/5.0/Internationalization",
       "recipeUrl": "/cookbook/5.0/Internationalization/AutomaticFontDetection",
-      "imageUrl": "/cookbook/5.0/images/AutomaticFontDetection.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/AutomaticFontDetection.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Miscellaneous/Internationalization.cs"
     },
     {
@@ -1629,7 +1663,7 @@
       "anchorUrl": "/cookbook/5.0/Regression#Linear",
       "categoryUrl": "/cookbook/5.0/Regression",
       "recipeUrl": "/cookbook/5.0/Regression/Linear",
-      "imageUrl": "/cookbook/5.0/images/Linear.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/Linear.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Miscellaneous/Regression.cs"
     },
     {
@@ -1643,7 +1677,7 @@
       "anchorUrl": "/cookbook/5.0/Annotation#AnnotationQuickstart",
       "categoryUrl": "/cookbook/5.0/Annotation",
       "recipeUrl": "/cookbook/5.0/Annotation/AnnotationQuickstart",
-      "imageUrl": "/cookbook/5.0/images/AnnotationQuickstart.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/AnnotationQuickstart.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Annotation.cs"
     },
     {
@@ -1657,7 +1691,7 @@
       "anchorUrl": "/cookbook/5.0/Annotation#AnnotationCustomize",
       "categoryUrl": "/cookbook/5.0/Annotation",
       "recipeUrl": "/cookbook/5.0/Annotation/AnnotationCustomize",
-      "imageUrl": "/cookbook/5.0/images/AnnotationCustomize.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/AnnotationCustomize.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Annotation.cs"
     },
     {
@@ -1671,7 +1705,7 @@
       "anchorUrl": "/cookbook/5.0/Annotation#AnnotationPositions",
       "categoryUrl": "/cookbook/5.0/Annotation",
       "recipeUrl": "/cookbook/5.0/Annotation/AnnotationPositions",
-      "imageUrl": "/cookbook/5.0/images/AnnotationPositions.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/AnnotationPositions.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Annotation.cs"
     },
     {
@@ -1685,7 +1719,7 @@
       "anchorUrl": "/cookbook/5.0/ArrowCoordinated#ArrowQuickstart",
       "categoryUrl": "/cookbook/5.0/ArrowCoordinated",
       "recipeUrl": "/cookbook/5.0/ArrowCoordinated/ArrowQuickstart",
-      "imageUrl": "/cookbook/5.0/images/ArrowQuickstart.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/ArrowQuickstart.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Arrow.cs"
     },
     {
@@ -1699,7 +1733,7 @@
       "anchorUrl": "/cookbook/5.0/AxisLines#AxisLineQuickstart",
       "categoryUrl": "/cookbook/5.0/AxisLines",
       "recipeUrl": "/cookbook/5.0/AxisLines/AxisLineQuickstart",
-      "imageUrl": "/cookbook/5.0/images/AxisLineQuickstart.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/AxisLineQuickstart.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/AxisLines.cs"
     },
     {
@@ -1713,7 +1747,7 @@
       "anchorUrl": "/cookbook/5.0/AxisLines#AxisLineLabel",
       "categoryUrl": "/cookbook/5.0/AxisLines",
       "recipeUrl": "/cookbook/5.0/AxisLines/AxisLineLabel",
-      "imageUrl": "/cookbook/5.0/images/AxisLineLabel.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/AxisLineLabel.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/AxisLines.cs"
     },
     {
@@ -1727,7 +1761,7 @@
       "anchorUrl": "/cookbook/5.0/AxisLines#AxisLineLabelPositioning",
       "categoryUrl": "/cookbook/5.0/AxisLines",
       "recipeUrl": "/cookbook/5.0/AxisLines/AxisLineLabelPositioning",
-      "imageUrl": "/cookbook/5.0/images/AxisLineLabelPositioning.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/AxisLineLabelPositioning.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/AxisLines.cs"
     },
     {
@@ -1741,7 +1775,7 @@
       "anchorUrl": "/cookbook/5.0/AxisLines#AxisLineStyle",
       "categoryUrl": "/cookbook/5.0/AxisLines",
       "recipeUrl": "/cookbook/5.0/AxisLines/AxisLineStyle",
-      "imageUrl": "/cookbook/5.0/images/AxisLineStyle.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/AxisLineStyle.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/AxisLines.cs"
     },
     {
@@ -1755,7 +1789,7 @@
       "anchorUrl": "/cookbook/5.0/AxisLines#AxisLineInLegend",
       "categoryUrl": "/cookbook/5.0/AxisLines",
       "recipeUrl": "/cookbook/5.0/AxisLines/AxisLineInLegend",
-      "imageUrl": "/cookbook/5.0/images/AxisLineInLegend.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/AxisLineInLegend.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/AxisLines.cs"
     },
     {
@@ -1769,7 +1803,7 @@
       "anchorUrl": "/cookbook/5.0/AxisLines#AxisLineIgnoreLimits",
       "categoryUrl": "/cookbook/5.0/AxisLines",
       "recipeUrl": "/cookbook/5.0/AxisLines/AxisLineIgnoreLimits",
-      "imageUrl": "/cookbook/5.0/images/AxisLineIgnoreLimits.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/AxisLineIgnoreLimits.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/AxisLines.cs"
     },
     {
@@ -1783,7 +1817,7 @@
       "anchorUrl": "/cookbook/5.0/AxisLines#AxisLineLimits",
       "categoryUrl": "/cookbook/5.0/AxisLines",
       "recipeUrl": "/cookbook/5.0/AxisLines/AxisLineLimits",
-      "imageUrl": "/cookbook/5.0/images/AxisLineLimits.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/AxisLineLimits.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/AxisLines.cs"
     },
     {
@@ -1797,7 +1831,7 @@
       "anchorUrl": "/cookbook/5.0/AxisSpans#AxisSpanQuickstart",
       "categoryUrl": "/cookbook/5.0/AxisSpans",
       "recipeUrl": "/cookbook/5.0/AxisSpans/AxisSpanQuickstart",
-      "imageUrl": "/cookbook/5.0/images/AxisSpanQuickstart.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/AxisSpanQuickstart.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/AxisSpans.cs"
     },
     {
@@ -1811,7 +1845,7 @@
       "anchorUrl": "/cookbook/5.0/AxisSpans#AxisSpanStyling",
       "categoryUrl": "/cookbook/5.0/AxisSpans",
       "recipeUrl": "/cookbook/5.0/AxisSpans/AxisSpanStyling",
-      "imageUrl": "/cookbook/5.0/images/AxisSpanStyling.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/AxisSpanStyling.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/AxisSpans.cs"
     },
     {
@@ -1825,7 +1859,7 @@
       "anchorUrl": "/cookbook/5.0/Bar#Quickstart",
       "categoryUrl": "/cookbook/5.0/Bar",
       "recipeUrl": "/cookbook/5.0/Bar/Quickstart",
-      "imageUrl": "/cookbook/5.0/images/Quickstart.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/Quickstart.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs"
     },
     {
@@ -1839,7 +1873,7 @@
       "anchorUrl": "/cookbook/5.0/Bar#BarLegend",
       "categoryUrl": "/cookbook/5.0/Bar",
       "recipeUrl": "/cookbook/5.0/Bar/BarLegend",
-      "imageUrl": "/cookbook/5.0/images/BarLegend.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/BarLegend.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs"
     },
     {
@@ -1853,7 +1887,7 @@
       "anchorUrl": "/cookbook/5.0/Bar#BarValues",
       "categoryUrl": "/cookbook/5.0/Bar",
       "recipeUrl": "/cookbook/5.0/Bar/BarValues",
-      "imageUrl": "/cookbook/5.0/images/BarValues.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/BarValues.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs"
     },
     {
@@ -1867,7 +1901,7 @@
       "anchorUrl": "/cookbook/5.0/Bar#BarValuesHorizontal",
       "categoryUrl": "/cookbook/5.0/Bar",
       "recipeUrl": "/cookbook/5.0/Bar/BarValuesHorizontal",
-      "imageUrl": "/cookbook/5.0/images/BarValuesHorizontal.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/BarValuesHorizontal.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs"
     },
     {
@@ -1881,7 +1915,7 @@
       "anchorUrl": "/cookbook/5.0/Bar#BarPosition",
       "categoryUrl": "/cookbook/5.0/Bar",
       "recipeUrl": "/cookbook/5.0/Bar/BarPosition",
-      "imageUrl": "/cookbook/5.0/images/BarPosition.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/BarPosition.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs"
     },
     {
@@ -1895,7 +1929,7 @@
       "anchorUrl": "/cookbook/5.0/Bar#BarWithError",
       "categoryUrl": "/cookbook/5.0/Bar",
       "recipeUrl": "/cookbook/5.0/Bar/BarWithError",
-      "imageUrl": "/cookbook/5.0/images/BarWithError.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/BarWithError.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs"
     },
     {
@@ -1909,7 +1943,7 @@
       "anchorUrl": "/cookbook/5.0/Bar#BarTickLabels",
       "categoryUrl": "/cookbook/5.0/Bar",
       "recipeUrl": "/cookbook/5.0/Bar/BarTickLabels",
-      "imageUrl": "/cookbook/5.0/images/BarTickLabels.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/BarTickLabels.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs"
     },
     {
@@ -1923,7 +1957,7 @@
       "anchorUrl": "/cookbook/5.0/Bar#BarFillStyle",
       "categoryUrl": "/cookbook/5.0/Bar",
       "recipeUrl": "/cookbook/5.0/Bar/BarFillStyle",
-      "imageUrl": "/cookbook/5.0/images/BarFillStyle.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/BarFillStyle.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs"
     },
     {
@@ -1937,7 +1971,7 @@
       "anchorUrl": "/cookbook/5.0/Bar#BarCustomSingle",
       "categoryUrl": "/cookbook/5.0/Bar",
       "recipeUrl": "/cookbook/5.0/Bar/BarCustomSingle",
-      "imageUrl": "/cookbook/5.0/images/BarCustomSingle.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/BarCustomSingle.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs"
     },
     {
@@ -1951,7 +1985,7 @@
       "anchorUrl": "/cookbook/5.0/Bar#BarStackVertically",
       "categoryUrl": "/cookbook/5.0/Bar",
       "recipeUrl": "/cookbook/5.0/Bar/BarStackVertically",
-      "imageUrl": "/cookbook/5.0/images/BarStackVertically.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/BarStackVertically.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs"
     },
     {
@@ -1965,7 +1999,7 @@
       "anchorUrl": "/cookbook/5.0/Bar#GroupedBarPlot",
       "categoryUrl": "/cookbook/5.0/Bar",
       "recipeUrl": "/cookbook/5.0/Bar/GroupedBarPlot",
-      "imageUrl": "/cookbook/5.0/images/GroupedBarPlot.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/GroupedBarPlot.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs"
     },
     {
@@ -1979,7 +2013,7 @@
       "anchorUrl": "/cookbook/5.0/Bar#HorizontalBar",
       "categoryUrl": "/cookbook/5.0/Bar",
       "recipeUrl": "/cookbook/5.0/Bar/HorizontalBar",
-      "imageUrl": "/cookbook/5.0/images/HorizontalBar.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/HorizontalBar.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs"
     },
     {
@@ -1993,7 +2027,7 @@
       "anchorUrl": "/cookbook/5.0/Bar#StackedBars",
       "categoryUrl": "/cookbook/5.0/Bar",
       "recipeUrl": "/cookbook/5.0/Bar/StackedBars",
-      "imageUrl": "/cookbook/5.0/images/StackedBars.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/StackedBars.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs"
     },
     {
@@ -2007,7 +2041,63 @@
       "anchorUrl": "/cookbook/5.0/Bar#BarWithCustomText",
       "categoryUrl": "/cookbook/5.0/Bar",
       "recipeUrl": "/cookbook/5.0/Bar/BarWithCustomText",
-      "imageUrl": "/cookbook/5.0/images/BarWithCustomText.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/BarWithCustomText.png?241124170640",
+      "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs"
+    },
+    {
+      "chapter": "Chapter.PlotTypes;",
+      "category": "Bar Plot",
+      "name": "Range Chart",
+      "description": "A range chart displays a discrete set of named value ranges",
+      "source": "ScottPlot.Plot myPlot = new();\n\nList\u003C(string name, CoordinateRange range)\u003E ranges =\n[\n    (\u0022Africa\u0022, new(-35, 37)),\n    (\u0022Antarctica\u0022, new(-90, -60)),\n    (\u0022Asia\u0022, new(-11, 81)),\n    (\u0022Europe\u0022, new(-36, 71)),\n    (\u0022North America\u0022, new(-7, 83)),\n    (\u0022South America\u0022, new(-56, 13)),\n    (\u0022Australia\u0022, new(-47, -28)),\n];\nmyPlot.Add.Ranges(ranges);\n\n// style the axes\nmyPlot.Title(\u0022Latitude Range of the Continents\u0022);\nmyPlot.Axes.Bottom.TickLabelStyle.Rotation = -45;\nmyPlot.Axes.Bottom.TickLabelStyle.Alignment = Alignment.MiddleRight;\nmyPlot.Axes.Bottom.MinimumSize = 100;\n\n// use tick labels with a degree symbol\nScottPlot.TickGenerators.NumericAutomatic tickGen = new();\nmyPlot.Axes.Left.TickGenerator = tickGen;\ntickGen.LabelFormatter = (x) =\u003E $\u0022{x}\u00BA\u0022;\n\n// add a horizontal line at zero and push it beneath the range plot\nvar hl = myPlot.Add.HorizontalLine(0, 1, Colors.Black, LinePattern.DenselyDashed);\nmyPlot.MoveToBack(hl);\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "categoryClassName": "Bar",
+      "recipeClassName": "RangeChart",
+      "anchorUrl": "/cookbook/5.0/Bar#RangeChart",
+      "categoryUrl": "/cookbook/5.0/Bar",
+      "recipeUrl": "/cookbook/5.0/Bar/RangeChart",
+      "imageUrl": "/cookbook/5.0/images/RangeChart.png?241124170640",
+      "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs"
+    },
+    {
+      "chapter": "Chapter.PlotTypes;",
+      "category": "Bar Plot",
+      "name": "Horizontal Range Chart",
+      "description": "Range charts may be created using horizontally oriented bars",
+      "source": "ScottPlot.Plot myPlot = new();\n\nList\u003C(string name, CoordinateRange range)\u003E ranges =\n[\n    (\u0022Ontario\u0022, new(-9, 51)),\n    (\u0022England\u0022, new(0, 63)),\n    (\u0022Kentucky\u0022, new(-4, 72)),\n];\n\nmyPlot.Add.Ranges(ranges, horizontal: true);\n\nmyPlot.XLabel(\u0022Temperature (\u00BAF)\u0022);\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "categoryClassName": "Bar",
+      "recipeClassName": "RangeChartHozontal",
+      "anchorUrl": "/cookbook/5.0/Bar#RangeChartHozontal",
+      "categoryUrl": "/cookbook/5.0/Bar",
+      "recipeUrl": "/cookbook/5.0/Bar/RangeChartHozontal",
+      "imageUrl": "/cookbook/5.0/images/RangeChartHozontal.png?241124170640",
+      "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs"
+    },
+    {
+      "chapter": "Chapter.PlotTypes;",
+      "category": "Bar Plot",
+      "name": "Stacked Range Chart",
+      "description": "Stacked range charts depict multiple ranges for a discrete set of items",
+      "source": "ScottPlot.Plot myPlot = new();\n\n// prepare a custom color palette\nstring[] colorCodes = [\u0022#3369cc\u0022, \u0022#95bce3\u0022, \u0022#f4a861\u0022, \u0022#fd8d00\u0022];\nScottPlot.Palettes.Custom palette = new(colorCodes);\n\n// create a stacked bar chart with a collection of named ranges\nstring[] rangeNames = [\u0022Yearly Low\u0022, \u0022Mean Daily Low\u0022, \u0022Mean Daily High\u0022, \u0022Yearly High\u0022];\nList\u003C(string name, double[] edges)\u003E ranges =\n[\n    (\u0022Ontario\u0022, [-9, 3, 7, 13, 27]),\n    (\u0022England\u0022, [4, 7, 12, 16, 24]),\n    (\u0022Kentucky\u0022, [-4, 7, 13, 20, 30]),\n];\nmyPlot.Add.StackedRanges(ranges, palette);\n\n// use tick labels with a degree symbol\nScottPlot.TickGenerators.NumericAutomatic tickGen = new();\nmyPlot.Axes.Left.TickGenerator = tickGen;\ntickGen.LabelFormatter = (x) =\u003E $\u0022{x}\u00BA\u0022;\n\n// display the legend outside the data area\nmyPlot.ShowLegend(Edge.Right);\n\n// add items to the legend manually\nfor (int i = 0; i \u003C rangeNames.Length; i\u002B\u002B)\n{\n    LegendItem item = new()\n    {\n        LabelText = rangeNames[i],\n        FillColor = palette.GetColor(i),\n    };\n    myPlot.Legend.ManualItems.Add(item);\n}\nmyPlot.Legend.ManualItems.Reverse();\n\n// improve styling and alignment\nmyPlot.Legend.OutlineStyle.IsVisible = false;\nmyPlot.Legend.ShadowColor = Colors.Transparent;\nmyPlot.Legend.Padding = new(0);\nmyPlot.Axes.Right.MaximumSize = 0;\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "categoryClassName": "Bar",
+      "recipeClassName": "StackedRangeChart",
+      "anchorUrl": "/cookbook/5.0/Bar#StackedRangeChart",
+      "categoryUrl": "/cookbook/5.0/Bar",
+      "recipeUrl": "/cookbook/5.0/Bar/StackedRangeChart",
+      "imageUrl": "/cookbook/5.0/images/StackedRangeChart.png?241124170640",
+      "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs"
+    },
+    {
+      "chapter": "Chapter.PlotTypes;",
+      "category": "Bar Plot",
+      "name": "Stacked Horizontal Range Chart",
+      "description": "Horizontally oriented stacked range charts may be created",
+      "source": "ScottPlot.Plot myPlot = new();\n\nList\u003C(string name, double[] edges)\u003E ranges =\n[\n    (\u0022Ontario\u0022, [-9, 3, 7, 13, 27]),\n    (\u0022England\u0022, [4, 7, 12, 16, 24]),\n    (\u0022Kentucky\u0022, [-4, 7, 13, 20, 30]),\n];\n\nmyPlot.Add.StackedRanges(ranges, horizontal: true);\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "categoryClassName": "Bar",
+      "recipeClassName": "StackedRangeHorizontal",
+      "anchorUrl": "/cookbook/5.0/Bar#StackedRangeHorizontal",
+      "categoryUrl": "/cookbook/5.0/Bar",
+      "recipeUrl": "/cookbook/5.0/Bar/StackedRangeHorizontal",
+      "imageUrl": "/cookbook/5.0/images/StackedRangeHorizontal.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs"
     },
     {
@@ -2021,7 +2111,7 @@
       "anchorUrl": "/cookbook/5.0/Box#BoxPlotQuickstart",
       "categoryUrl": "/cookbook/5.0/Box",
       "recipeUrl": "/cookbook/5.0/Box/BoxPlotQuickstart",
-      "imageUrl": "/cookbook/5.0/images/BoxPlotQuickstart.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/BoxPlotQuickstart.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Box.cs"
     },
     {
@@ -2035,8 +2125,22 @@
       "anchorUrl": "/cookbook/5.0/Box#BoxPlotGroups",
       "categoryUrl": "/cookbook/5.0/Box",
       "recipeUrl": "/cookbook/5.0/Box/BoxPlotGroups",
-      "imageUrl": "/cookbook/5.0/images/BoxPlotGroups.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/BoxPlotGroups.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Box.cs"
+    },
+    {
+      "chapter": "Chapter.PlotTypes;",
+      "category": "Bracket",
+      "name": "Bracket",
+      "description": "Brackets are useful for annotating linear ranges of data.",
+      "source": "ScottPlot.Plot myPlot = new();\n\nmyPlot.Add.Signal(Generate.Sin());\nmyPlot.Add.Signal(Generate.Cos());\n\nmyPlot.Add.Bracket(0, 1, 0, 0, \u0022Bracket A\u0022);\nmyPlot.Add.Bracket(25, -1, 38, -1, \u0022Bracket B\u0022);\nmyPlot.Add.Bracket(20, .55, 27, -.3, \u0022Bracket C\u0022);\n\nmyPlot.Axes.Margins(0.3, 0.4); // extra room for labels\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "categoryClassName": "Bracket",
+      "recipeClassName": "BracketQuickstart",
+      "anchorUrl": "/cookbook/5.0/Bracket#BracketQuickstart",
+      "categoryUrl": "/cookbook/5.0/Bracket",
+      "recipeUrl": "/cookbook/5.0/Bracket/BracketQuickstart",
+      "imageUrl": "/cookbook/5.0/images/BracketQuickstart.png?241124170640",
+      "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bracket.cs"
     },
     {
       "chapter": "Chapter.PlotTypes;",
@@ -2049,7 +2153,7 @@
       "anchorUrl": "/cookbook/5.0/Callout#CalloutQuickstart",
       "categoryUrl": "/cookbook/5.0/Callout",
       "recipeUrl": "/cookbook/5.0/Callout/CalloutQuickstart",
-      "imageUrl": "/cookbook/5.0/images/CalloutQuickstart.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/CalloutQuickstart.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Callout.cs"
     },
     {
@@ -2063,7 +2167,7 @@
       "anchorUrl": "/cookbook/5.0/Contour#ContourGrid",
       "categoryUrl": "/cookbook/5.0/Contour",
       "recipeUrl": "/cookbook/5.0/Contour/ContourGrid",
-      "imageUrl": "/cookbook/5.0/images/ContourGrid.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/ContourGrid.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Contour.cs"
     },
     {
@@ -2077,7 +2181,7 @@
       "anchorUrl": "/cookbook/5.0/Contour#IrregularContour",
       "categoryUrl": "/cookbook/5.0/Contour",
       "recipeUrl": "/cookbook/5.0/Contour/IrregularContour",
-      "imageUrl": "/cookbook/5.0/images/IrregularContour.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/IrregularContour.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Contour.cs"
     },
     {
@@ -2091,7 +2195,7 @@
       "anchorUrl": "/cookbook/5.0/Contour#ContourHeatmap",
       "categoryUrl": "/cookbook/5.0/Contour",
       "recipeUrl": "/cookbook/5.0/Contour/ContourHeatmap",
-      "imageUrl": "/cookbook/5.0/images/ContourHeatmap.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/ContourHeatmap.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Contour.cs"
     },
     {
@@ -2105,7 +2209,7 @@
       "anchorUrl": "/cookbook/5.0/Contour#ContourColormap",
       "categoryUrl": "/cookbook/5.0/Contour",
       "recipeUrl": "/cookbook/5.0/Contour/ContourColormap",
-      "imageUrl": "/cookbook/5.0/images/ContourColormap.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/ContourColormap.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Contour.cs"
     },
     {
@@ -2119,7 +2223,7 @@
       "anchorUrl": "/cookbook/5.0/Coxcomb#CoxcombQuickstart",
       "categoryUrl": "/cookbook/5.0/Coxcomb",
       "recipeUrl": "/cookbook/5.0/Coxcomb/CoxcombQuickstart",
-      "imageUrl": "/cookbook/5.0/images/CoxcombQuickstart.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/CoxcombQuickstart.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Coxcomb.cs"
     },
     {
@@ -2133,7 +2237,7 @@
       "anchorUrl": "/cookbook/5.0/Crosshair#CrosshairQuickstart",
       "categoryUrl": "/cookbook/5.0/Crosshair",
       "recipeUrl": "/cookbook/5.0/Crosshair/CrosshairQuickstart",
-      "imageUrl": "/cookbook/5.0/images/CrosshairQuickstart.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/CrosshairQuickstart.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Crosshair.cs"
     },
     {
@@ -2147,7 +2251,7 @@
       "anchorUrl": "/cookbook/5.0/Crosshair#CrosshairCustomization",
       "categoryUrl": "/cookbook/5.0/Crosshair",
       "recipeUrl": "/cookbook/5.0/Crosshair/CrosshairCustomization",
-      "imageUrl": "/cookbook/5.0/images/CrosshairCustomization.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/CrosshairCustomization.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Crosshair.cs"
     },
     {
@@ -2161,7 +2265,7 @@
       "anchorUrl": "/cookbook/5.0/Ellipse#PlotEllipseQuickstart",
       "categoryUrl": "/cookbook/5.0/Ellipse",
       "recipeUrl": "/cookbook/5.0/Ellipse/PlotEllipseQuickstart",
-      "imageUrl": "/cookbook/5.0/images/PlotEllipseQuickstart.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/PlotEllipseQuickstart.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Ellipse.cs"
     },
     {
@@ -2175,7 +2279,7 @@
       "anchorUrl": "/cookbook/5.0/Ellipse#PlotCircleQuickstart",
       "categoryUrl": "/cookbook/5.0/Ellipse",
       "recipeUrl": "/cookbook/5.0/Ellipse/PlotCircleQuickstart",
-      "imageUrl": "/cookbook/5.0/images/PlotCircleQuickstart.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/PlotCircleQuickstart.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Ellipse.cs"
     },
     {
@@ -2189,7 +2293,7 @@
       "anchorUrl": "/cookbook/5.0/Ellipse#CircleWithLockedScale",
       "categoryUrl": "/cookbook/5.0/Ellipse",
       "recipeUrl": "/cookbook/5.0/Ellipse/CircleWithLockedScale",
-      "imageUrl": "/cookbook/5.0/images/CircleWithLockedScale.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/CircleWithLockedScale.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Ellipse.cs"
     },
     {
@@ -2203,7 +2307,7 @@
       "anchorUrl": "/cookbook/5.0/Ellipse#EllipseStyling",
       "categoryUrl": "/cookbook/5.0/Ellipse",
       "recipeUrl": "/cookbook/5.0/Ellipse/EllipseStyling",
-      "imageUrl": "/cookbook/5.0/images/EllipseStyling.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/EllipseStyling.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Ellipse.cs"
     },
     {
@@ -2217,7 +2321,7 @@
       "anchorUrl": "/cookbook/5.0/Ellipse#EllipseRotation",
       "categoryUrl": "/cookbook/5.0/Ellipse",
       "recipeUrl": "/cookbook/5.0/Ellipse/EllipseRotation",
-      "imageUrl": "/cookbook/5.0/images/EllipseRotation.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/EllipseRotation.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Ellipse.cs"
     },
     {
@@ -2231,7 +2335,7 @@
       "anchorUrl": "/cookbook/5.0/ErrorBar#ErrorBarQuickstart",
       "categoryUrl": "/cookbook/5.0/ErrorBar",
       "recipeUrl": "/cookbook/5.0/ErrorBar/ErrorBarQuickstart",
-      "imageUrl": "/cookbook/5.0/images/ErrorBarQuickstart.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/ErrorBarQuickstart.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/ErrorBar.cs"
     },
     {
@@ -2245,7 +2349,7 @@
       "anchorUrl": "/cookbook/5.0/ErrorBar#CustomErrors",
       "categoryUrl": "/cookbook/5.0/ErrorBar",
       "recipeUrl": "/cookbook/5.0/ErrorBar/CustomErrors",
-      "imageUrl": "/cookbook/5.0/images/CustomErrors.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/CustomErrors.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/ErrorBar.cs"
     },
     {
@@ -2259,7 +2363,7 @@
       "anchorUrl": "/cookbook/5.0/FillY#FillYFromArrays",
       "categoryUrl": "/cookbook/5.0/FillY",
       "recipeUrl": "/cookbook/5.0/FillY/FillYFromArrays",
-      "imageUrl": "/cookbook/5.0/images/FillYFromArrays.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/FillYFromArrays.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/FillY.cs"
     },
     {
@@ -2273,7 +2377,7 @@
       "anchorUrl": "/cookbook/5.0/FillY#FillYFromScatters",
       "categoryUrl": "/cookbook/5.0/FillY",
       "recipeUrl": "/cookbook/5.0/FillY/FillYFromScatters",
-      "imageUrl": "/cookbook/5.0/images/FillYFromScatters.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/FillYFromScatters.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/FillY.cs"
     },
     {
@@ -2287,7 +2391,7 @@
       "anchorUrl": "/cookbook/5.0/FillY#Function",
       "categoryUrl": "/cookbook/5.0/FillY",
       "recipeUrl": "/cookbook/5.0/FillY/Function",
-      "imageUrl": "/cookbook/5.0/images/Function.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/Function.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/FillY.cs"
     },
     {
@@ -2295,13 +2399,27 @@
       "category": "FillY plot",
       "name": "FillY Plot Styling",
       "description": "FillY plots can be customized using public properties.",
-      "source": "ScottPlot.Plot myPlot = new();\n\nRandomDataGenerator dataGen = new(0);\n\nint count = 20;\ndouble[] xs = Generate.Consecutive(count);\ndouble[] ys1 = dataGen.RandomWalk(count, offset: -5);\ndouble[] ys2 = dataGen.RandomWalk(count, offset: 5);\n\nvar fill = myPlot.Add.FillY(xs, ys1, ys2);\nfill.MarkerShape = MarkerShape.FilledDiamond;\nfill.MarkerSize = 15;\nfill.MarkerColor = Colors.Blue;\nfill.LineColor = Colors.Blue;\nfill.LinePattern = LinePattern.Dotted;\nfill.LineWidth = 2;\nfill.FillColor = Colors.Blue.WithAlpha(.2);\nfill.FillHatch = new ScottPlot.Hatches.Striped(ScottPlot.Hatches.StripeDirection.DiagonalUp);\nfill.FillHatchColor = Colors.Blue.WithAlpha(.4);\nfill.LegendText = \u0022Filled Area\u0022;\n\nmyPlot.ShowLegend();\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "source": "ScottPlot.Plot myPlot = new();\n\nint count = 20;\ndouble[] xs = Generate.Consecutive(count);\ndouble[] ys1 = Generate.RandomWalk(count, offset: -5);\ndouble[] ys2 = Generate.RandomWalk(count, offset: 5);\n\nvar fill = myPlot.Add.FillY(xs, ys1, ys2);\nfill.MarkerShape = MarkerShape.FilledDiamond;\nfill.MarkerSize = 15;\nfill.MarkerColor = Colors.Blue;\nfill.LineColor = Colors.Blue;\nfill.LinePattern = LinePattern.Dotted;\nfill.LineWidth = 2;\nfill.FillColor = Colors.Blue.WithAlpha(.2);\nfill.FillHatch = new ScottPlot.Hatches.Striped(ScottPlot.Hatches.StripeDirection.DiagonalUp);\nfill.FillHatchColor = Colors.Blue.WithAlpha(.4);\nfill.LegendText = \u0022Filled Area\u0022;\n\nmyPlot.ShowLegend();\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
       "categoryClassName": "FillY",
       "recipeClassName": "Styling",
       "anchorUrl": "/cookbook/5.0/FillY#Styling",
       "categoryUrl": "/cookbook/5.0/FillY",
       "recipeUrl": "/cookbook/5.0/FillY/Styling",
-      "imageUrl": "/cookbook/5.0/images/Styling.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/Styling.png?241124170640",
+      "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/FillY.cs"
+    },
+    {
+      "chapter": "Chapter.PlotTypes;",
+      "category": "FillY plot",
+      "name": "Filled Error",
+      "description": "A line plot with shaded error range may be achieved by layering a FillY beneath a ScatterLine.",
+      "source": "ScottPlot.Plot myPlot = new();\n\n// create sample Y values\ndouble[] xs = Generate.Range(0, Math.PI, 0.05);\ndouble[] ys = xs.Select(x =\u003E Math.Sin(x) \u002B Generate.RandomNumber(0.1)).ToArray();\n\n// create sample error data\ndouble[] yErr = ys.Select(x =\u003E x * Generate.RandomNumber(0.5) \u002B 0.05).ToArray();\n\n// calculate Y \u00B1 error\ndouble[] yErrNeg = Enumerable.Range(0, ys.Length).Select(x =\u003E ys[x] - yErr[x]).ToArray();\ndouble[] yErrPos = Enumerable.Range(0, ys.Length).Select(x =\u003E ys[x] \u002B yErr[x]).ToArray();\n\n// add a shaded area between the error limits\nvar errFill = myPlot.Add.FillY(xs, yErrNeg, yErrPos);\nerrFill.LineWidth = 0;\nerrFill.FillColor = Colors.Blue.WithAlpha(0.2);\nerrFill.LegendText = \u0022Error\u0022;\n\n// add the Y values as a line plot\nvar meanLine = myPlot.Add.ScatterLine(xs, ys);\nmeanLine.LineColor = Colors.Blue;\nmeanLine.LineWidth = 2;\nmeanLine.LegendText = \u0022Mean\u0022;\n\n// configure the location of the legend\nmyPlot.Legend.Alignment = Alignment.UpperRight;\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "categoryClassName": "FillY",
+      "recipeClassName": "FilledError",
+      "anchorUrl": "/cookbook/5.0/FillY#FilledError",
+      "categoryUrl": "/cookbook/5.0/FillY",
+      "recipeUrl": "/cookbook/5.0/FillY/FilledError",
+      "imageUrl": "/cookbook/5.0/images/FilledError.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/FillY.cs"
     },
     {
@@ -2315,7 +2433,7 @@
       "anchorUrl": "/cookbook/5.0/Finance#Candlestick",
       "categoryUrl": "/cookbook/5.0/Finance",
       "recipeUrl": "/cookbook/5.0/Finance/Candlestick",
-      "imageUrl": "/cookbook/5.0/images/Candlestick.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/Candlestick.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Finance.cs"
     },
     {
@@ -2329,7 +2447,7 @@
       "anchorUrl": "/cookbook/5.0/Finance#OhlcChart",
       "categoryUrl": "/cookbook/5.0/Finance",
       "recipeUrl": "/cookbook/5.0/Finance/OhlcChart",
-      "imageUrl": "/cookbook/5.0/images/OhlcChart.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/OhlcChart.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Finance.cs"
     },
     {
@@ -2343,7 +2461,7 @@
       "anchorUrl": "/cookbook/5.0/Finance#FinanceChartBins",
       "categoryUrl": "/cookbook/5.0/Finance",
       "recipeUrl": "/cookbook/5.0/Finance/FinanceChartBins",
-      "imageUrl": "/cookbook/5.0/images/FinanceChartBins.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/FinanceChartBins.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Finance.cs"
     },
     {
@@ -2357,7 +2475,7 @@
       "anchorUrl": "/cookbook/5.0/Finance#FinanceRightAxis",
       "categoryUrl": "/cookbook/5.0/Finance",
       "recipeUrl": "/cookbook/5.0/Finance/FinanceRightAxis",
-      "imageUrl": "/cookbook/5.0/images/FinanceRightAxis.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/FinanceRightAxis.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Finance.cs"
     },
     {
@@ -2371,7 +2489,7 @@
       "anchorUrl": "/cookbook/5.0/Finance#FinanceSma",
       "categoryUrl": "/cookbook/5.0/Finance",
       "recipeUrl": "/cookbook/5.0/Finance/FinanceSma",
-      "imageUrl": "/cookbook/5.0/images/FinanceSma.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/FinanceSma.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Finance.cs"
     },
     {
@@ -2385,7 +2503,7 @@
       "anchorUrl": "/cookbook/5.0/Finance#FinanceBollinger",
       "categoryUrl": "/cookbook/5.0/Finance",
       "recipeUrl": "/cookbook/5.0/Finance/FinanceBollinger",
-      "imageUrl": "/cookbook/5.0/images/FinanceBollinger.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/FinanceBollinger.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Finance.cs"
     },
     {
@@ -2399,7 +2517,7 @@
       "anchorUrl": "/cookbook/5.0/Finance#FinancialPlotWithoutGaps",
       "categoryUrl": "/cookbook/5.0/Finance",
       "recipeUrl": "/cookbook/5.0/Finance/FinancialPlotWithoutGaps",
-      "imageUrl": "/cookbook/5.0/images/FinancialPlotWithoutGaps.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/FinancialPlotWithoutGaps.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Finance.cs"
     },
     {
@@ -2413,7 +2531,7 @@
       "anchorUrl": "/cookbook/5.0/Finance#FinancialPlotWithoutGapsOhlc",
       "categoryUrl": "/cookbook/5.0/Finance",
       "recipeUrl": "/cookbook/5.0/Finance/FinancialPlotWithoutGapsOhlc",
-      "imageUrl": "/cookbook/5.0/images/FinancialPlotWithoutGapsOhlc.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/FinancialPlotWithoutGapsOhlc.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Finance.cs"
     },
     {
@@ -2427,7 +2545,7 @@
       "anchorUrl": "/cookbook/5.0/Finance#StockSymbolBackgroundText",
       "categoryUrl": "/cookbook/5.0/Finance",
       "recipeUrl": "/cookbook/5.0/Finance/StockSymbolBackgroundText",
-      "imageUrl": "/cookbook/5.0/images/StockSymbolBackgroundText.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/StockSymbolBackgroundText.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Finance.cs"
     },
     {
@@ -2441,7 +2559,7 @@
       "anchorUrl": "/cookbook/5.0/Finance#StockSymbolBackgroundTextMultiline",
       "categoryUrl": "/cookbook/5.0/Finance",
       "recipeUrl": "/cookbook/5.0/Finance/StockSymbolBackgroundTextMultiline",
-      "imageUrl": "/cookbook/5.0/images/StockSymbolBackgroundTextMultiline.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/StockSymbolBackgroundTextMultiline.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Finance.cs"
     },
     {
@@ -2455,7 +2573,21 @@
       "anchorUrl": "/cookbook/5.0/Finance#FinanceDarkMode",
       "categoryUrl": "/cookbook/5.0/Finance",
       "recipeUrl": "/cookbook/5.0/Finance/FinanceDarkMode",
-      "imageUrl": "/cookbook/5.0/images/FinanceDarkMode.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/FinanceDarkMode.png?241124170640",
+      "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Finance.cs"
+    },
+    {
+      "chapter": "Chapter.PlotTypes;",
+      "category": "Financial Plot",
+      "name": "Financial DateTime Axis",
+      "description": "A special axis system has been created for financial charts. Unlike standard DateTime axes which assume the horizontal scale is linearly spaced time, the financial DateTime system allows for dates to be skipped. This is ideal for financial charts where date ranges are skipped such as after-hours trading or non-trading days.",
+      "source": "ScottPlot.Plot myPlot = new();\n\n// generate sample data using a collection of dates and price ranges\nDateTime[] dates = Generate.ConsecutiveHours(100);\nList\u003COHLC\u003E candles = Generate.RandomOHLCs(30);\nvar candlestickPlot = myPlot.Add.Candlestick(candles);\n\n// enable sequential mode so candles are placed 1 unit apart (0, 1, 2, etc.)\ncandlestickPlot.Sequential = true;\n\n// disable the default tick generator (and grid) and make space for the new one\nmyPlot.Axes.Bottom.TickGenerator = new ScottPlot.TickGenerators.EmptyTickGenerator();\nmyPlot.Axes.Bottom.MinimumSize = 30;\n\n// add the financial DateTime tick generator\nScottPlot.Plottables.FinancialTimeAxis financeAxis = new(dates);\nmyPlot.Add.Plottable(financeAxis);\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "categoryClassName": "Finance",
+      "recipeClassName": "FinancialDateTimeAxis",
+      "anchorUrl": "/cookbook/5.0/Finance#FinancialDateTimeAxis",
+      "categoryUrl": "/cookbook/5.0/Finance",
+      "recipeUrl": "/cookbook/5.0/Finance/FinancialDateTimeAxis",
+      "imageUrl": "/cookbook/5.0/images/FinancialDateTimeAxis.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Finance.cs"
     },
     {
@@ -2469,7 +2601,7 @@
       "anchorUrl": "/cookbook/5.0/Function#FunctionQuickstart",
       "categoryUrl": "/cookbook/5.0/Function",
       "recipeUrl": "/cookbook/5.0/Function/FunctionQuickstart",
-      "imageUrl": "/cookbook/5.0/images/FunctionQuickstart.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/FunctionQuickstart.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Function.cs"
     },
     {
@@ -2483,7 +2615,7 @@
       "anchorUrl": "/cookbook/5.0/Function#FunctionLimitX",
       "categoryUrl": "/cookbook/5.0/Function",
       "recipeUrl": "/cookbook/5.0/Function/FunctionLimitX",
-      "imageUrl": "/cookbook/5.0/images/FunctionLimitX.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/FunctionLimitX.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Function.cs"
     },
     {
@@ -2497,7 +2629,7 @@
       "anchorUrl": "/cookbook/5.0/Function#FunctionDynamic",
       "categoryUrl": "/cookbook/5.0/Function",
       "recipeUrl": "/cookbook/5.0/Function/FunctionDynamic",
-      "imageUrl": "/cookbook/5.0/images/FunctionDynamic.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/FunctionDynamic.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Function.cs"
     },
     {
@@ -2511,7 +2643,7 @@
       "anchorUrl": "/cookbook/5.0/Heatmap#HeatmapQuickstart",
       "categoryUrl": "/cookbook/5.0/Heatmap",
       "recipeUrl": "/cookbook/5.0/Heatmap/HeatmapQuickstart",
-      "imageUrl": "/cookbook/5.0/images/HeatmapQuickstart.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/HeatmapQuickstart.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Heatmap.cs"
     },
     {
@@ -2525,7 +2657,7 @@
       "anchorUrl": "/cookbook/5.0/Heatmap#HeatmapInverted",
       "categoryUrl": "/cookbook/5.0/Heatmap",
       "recipeUrl": "/cookbook/5.0/Heatmap/HeatmapInverted",
-      "imageUrl": "/cookbook/5.0/images/HeatmapInverted.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/HeatmapInverted.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Heatmap.cs"
     },
     {
@@ -2539,7 +2671,7 @@
       "anchorUrl": "/cookbook/5.0/Heatmap#HeatmapColormap",
       "categoryUrl": "/cookbook/5.0/Heatmap",
       "recipeUrl": "/cookbook/5.0/Heatmap/HeatmapColormap",
-      "imageUrl": "/cookbook/5.0/images/HeatmapColormap.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/HeatmapColormap.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Heatmap.cs"
     },
     {
@@ -2547,13 +2679,13 @@
       "category": "Heatmap",
       "name": "Multiple Colorbars",
       "description": "Multiple colorbars may be added to plots.",
-      "source": "ScottPlot.Plot myPlot = new();\n\ndouble[,] data = SampleData.MonaLisa();\n\nvar hm1 = myPlot.Add.Heatmap(data);\nhm1.Extent = new(0, 1, 0, 1);\nhm1.Colormap = new ScottPlot.Colormaps.Turbo();\nmyPlot.Add.ColorBar(hm1);\n\nvar hm2 = myPlot.Add.Heatmap(data);\nhm2.Extent = new(1.5, 2.5, 0, 1);\nhm2.Colormap = new ScottPlot.Colormaps.Viridis();\nmyPlot.Add.ColorBar(hm2);\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "source": "ScottPlot.Plot myPlot = new();\n\ndouble[,] data = SampleData.MonaLisa();\n\nvar hm1 = myPlot.Add.Heatmap(data);\nhm1.Rectangle = new(0, 1, 0, 1);\nhm1.Colormap = new ScottPlot.Colormaps.Turbo();\nmyPlot.Add.ColorBar(hm1);\n\nvar hm2 = myPlot.Add.Heatmap(data);\nhm2.Rectangle = new(1.5, 2.5, 0, 1);\nhm2.Colormap = new ScottPlot.Colormaps.Viridis();\nmyPlot.Add.ColorBar(hm2);\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
       "categoryClassName": "Heatmap",
       "recipeClassName": "HeatmapMultipleColorbar",
       "anchorUrl": "/cookbook/5.0/Heatmap#HeatmapMultipleColorbar",
       "categoryUrl": "/cookbook/5.0/Heatmap",
       "recipeUrl": "/cookbook/5.0/Heatmap/HeatmapMultipleColorbar",
-      "imageUrl": "/cookbook/5.0/images/HeatmapMultipleColorbar.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/HeatmapMultipleColorbar.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Heatmap.cs"
     },
     {
@@ -2567,7 +2699,7 @@
       "anchorUrl": "/cookbook/5.0/Heatmap#ColorbarTitle",
       "categoryUrl": "/cookbook/5.0/Heatmap",
       "recipeUrl": "/cookbook/5.0/Heatmap/ColorbarTitle",
-      "imageUrl": "/cookbook/5.0/images/ColorbarTitle.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/ColorbarTitle.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Heatmap.cs"
     },
     {
@@ -2581,7 +2713,7 @@
       "anchorUrl": "/cookbook/5.0/Heatmap#ColorbarTickFormatter",
       "categoryUrl": "/cookbook/5.0/Heatmap",
       "recipeUrl": "/cookbook/5.0/Heatmap/ColorbarTickFormatter",
-      "imageUrl": "/cookbook/5.0/images/ColorbarTickFormatter.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/ColorbarTickFormatter.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Heatmap.cs"
     },
     {
@@ -2595,7 +2727,7 @@
       "anchorUrl": "/cookbook/5.0/Heatmap#HeatmapFlip",
       "categoryUrl": "/cookbook/5.0/Heatmap",
       "recipeUrl": "/cookbook/5.0/Heatmap/HeatmapFlip",
-      "imageUrl": "/cookbook/5.0/images/HeatmapFlip.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/HeatmapFlip.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Heatmap.cs"
     },
     {
@@ -2609,7 +2741,7 @@
       "anchorUrl": "/cookbook/5.0/Heatmap#HeatmapSmooth",
       "categoryUrl": "/cookbook/5.0/Heatmap",
       "recipeUrl": "/cookbook/5.0/Heatmap/HeatmapSmooth",
-      "imageUrl": "/cookbook/5.0/images/HeatmapSmooth.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/HeatmapSmooth.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Heatmap.cs"
     },
     {
@@ -2623,7 +2755,7 @@
       "anchorUrl": "/cookbook/5.0/Heatmap#HeatmapTransparentCells",
       "categoryUrl": "/cookbook/5.0/Heatmap",
       "recipeUrl": "/cookbook/5.0/Heatmap/HeatmapTransparentCells",
-      "imageUrl": "/cookbook/5.0/images/HeatmapTransparentCells.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/HeatmapTransparentCells.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Heatmap.cs"
     },
     {
@@ -2637,7 +2769,7 @@
       "anchorUrl": "/cookbook/5.0/Heatmap#HeatmapGlobalTransparency",
       "categoryUrl": "/cookbook/5.0/Heatmap",
       "recipeUrl": "/cookbook/5.0/Heatmap/HeatmapGlobalTransparency",
-      "imageUrl": "/cookbook/5.0/images/HeatmapGlobalTransparency.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/HeatmapGlobalTransparency.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Heatmap.cs"
     },
     {
@@ -2651,7 +2783,7 @@
       "anchorUrl": "/cookbook/5.0/Heatmap#HeatmapAlphaMap",
       "categoryUrl": "/cookbook/5.0/Heatmap",
       "recipeUrl": "/cookbook/5.0/Heatmap/HeatmapAlphaMap",
-      "imageUrl": "/cookbook/5.0/images/HeatmapAlphaMap.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/HeatmapAlphaMap.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Heatmap.cs"
     },
     {
@@ -2665,7 +2797,7 @@
       "anchorUrl": "/cookbook/5.0/Heatmap#FramelessHeatmap",
       "categoryUrl": "/cookbook/5.0/Heatmap",
       "recipeUrl": "/cookbook/5.0/Heatmap/FramelessHeatmap",
-      "imageUrl": "/cookbook/5.0/images/FramelessHeatmap.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/FramelessHeatmap.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Heatmap.cs"
     },
     {
@@ -2679,7 +2811,7 @@
       "anchorUrl": "/cookbook/5.0/Heatmap#HeatmapCellAlignment",
       "categoryUrl": "/cookbook/5.0/Heatmap",
       "recipeUrl": "/cookbook/5.0/Heatmap/HeatmapCellAlignment",
-      "imageUrl": "/cookbook/5.0/images/HeatmapCellAlignment.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/HeatmapCellAlignment.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Heatmap.cs"
     },
     {
@@ -2693,7 +2825,21 @@
       "anchorUrl": "/cookbook/5.0/Heatmap#HeatmapCellSize",
       "categoryUrl": "/cookbook/5.0/Heatmap",
       "recipeUrl": "/cookbook/5.0/Heatmap/HeatmapCellSize",
-      "imageUrl": "/cookbook/5.0/images/HeatmapCellSize.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/HeatmapCellSize.png?241124170640",
+      "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Heatmap.cs"
+    },
+    {
+      "chapter": "Chapter.PlotTypes;",
+      "category": "Heatmap",
+      "name": "Heatmap Rectangle",
+      "description": "Dimensions of a heatmap may be set by defining a rectangle that the heatmap will be rendered inside.",
+      "source": "ScottPlot.Plot myPlot = new();\n\n// create a heatmap of any size\ndouble[,] data = {\n    { 1, 2, 3 },\n    { 4, 5, 6 },\n    { 7, 8, 9 },\n};\n\n// add the heatmap to the plot\nvar hm = myPlot.Add.Heatmap(data);\n\n// place the heatmap in a rectangle defined in coordinate space\nhm.Rectangle = new CoordinateRect(-5, 5, -5, 5);\n\nmyPlot.SavePng(\u0022demo.png\u0022, 400, 300);\n",
+      "categoryClassName": "Heatmap",
+      "recipeClassName": "HeatmapRectangle",
+      "anchorUrl": "/cookbook/5.0/Heatmap#HeatmapRectangle",
+      "categoryUrl": "/cookbook/5.0/Heatmap",
+      "recipeUrl": "/cookbook/5.0/Heatmap/HeatmapRectangle",
+      "imageUrl": "/cookbook/5.0/images/HeatmapRectangle.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Heatmap.cs"
     },
     {
@@ -2707,7 +2853,7 @@
       "anchorUrl": "/cookbook/5.0/Heatmap#HeatmapManualRange",
       "categoryUrl": "/cookbook/5.0/Heatmap",
       "recipeUrl": "/cookbook/5.0/Heatmap/HeatmapManualRange",
-      "imageUrl": "/cookbook/5.0/images/HeatmapManualRange.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/HeatmapManualRange.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Heatmap.cs"
     },
     {
@@ -2721,7 +2867,7 @@
       "anchorUrl": "/cookbook/5.0/Heatmap#HeatmapCellLabels",
       "categoryUrl": "/cookbook/5.0/Heatmap",
       "recipeUrl": "/cookbook/5.0/Heatmap/HeatmapCellLabels",
-      "imageUrl": "/cookbook/5.0/images/HeatmapCellLabels.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/HeatmapCellLabels.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Heatmap.cs"
     },
     {
@@ -2735,7 +2881,7 @@
       "anchorUrl": "/cookbook/5.0/Images#ImageRectQuickstart",
       "categoryUrl": "/cookbook/5.0/Images",
       "recipeUrl": "/cookbook/5.0/Images/ImageRectQuickstart",
-      "imageUrl": "/cookbook/5.0/images/ImageRectQuickstart.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/ImageRectQuickstart.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Images.cs"
     },
     {
@@ -2749,7 +2895,7 @@
       "anchorUrl": "/cookbook/5.0/LinePlot#LineQuickStart",
       "categoryUrl": "/cookbook/5.0/LinePlot",
       "recipeUrl": "/cookbook/5.0/LinePlot/LineQuickStart",
-      "imageUrl": "/cookbook/5.0/images/LineQuickStart.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/LineQuickStart.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Line.cs"
     },
     {
@@ -2763,7 +2909,7 @@
       "anchorUrl": "/cookbook/5.0/LinePlot#LinePlotStyles",
       "categoryUrl": "/cookbook/5.0/LinePlot",
       "recipeUrl": "/cookbook/5.0/LinePlot/LinePlotStyles",
-      "imageUrl": "/cookbook/5.0/images/LinePlotStyles.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/LinePlotStyles.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Line.cs"
     },
     {
@@ -2777,7 +2923,7 @@
       "anchorUrl": "/cookbook/5.0/LinePlot#LinePlotLegendQWER",
       "categoryUrl": "/cookbook/5.0/LinePlot",
       "recipeUrl": "/cookbook/5.0/LinePlot/LinePlotLegendQWER",
-      "imageUrl": "/cookbook/5.0/images/LinePlotLegendQWER.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/LinePlotLegendQWER.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Line.cs"
     },
     {
@@ -2791,7 +2937,7 @@
       "anchorUrl": "/cookbook/5.0/LiveData#DataLoggerQuickstart",
       "categoryUrl": "/cookbook/5.0/LiveData",
       "recipeUrl": "/cookbook/5.0/LiveData/DataLoggerQuickstart",
-      "imageUrl": "/cookbook/5.0/images/DataLoggerQuickstart.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/DataLoggerQuickstart.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/LiveData.cs"
     },
     {
@@ -2805,7 +2951,7 @@
       "anchorUrl": "/cookbook/5.0/LiveData#DataStreamerQuickstart",
       "categoryUrl": "/cookbook/5.0/LiveData",
       "recipeUrl": "/cookbook/5.0/LiveData/DataStreamerQuickstart",
-      "imageUrl": "/cookbook/5.0/images/DataStreamerQuickstart.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/DataStreamerQuickstart.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/LiveData.cs"
     },
     {
@@ -2819,7 +2965,7 @@
       "anchorUrl": "/cookbook/5.0/LiveData#DataLoggerEditing",
       "categoryUrl": "/cookbook/5.0/LiveData",
       "recipeUrl": "/cookbook/5.0/LiveData/DataLoggerEditing",
-      "imageUrl": "/cookbook/5.0/images/DataLoggerEditing.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/DataLoggerEditing.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/LiveData.cs"
     },
     {
@@ -2833,7 +2979,7 @@
       "anchorUrl": "/cookbook/5.0/Lollipop#LollipopQuickStart",
       "categoryUrl": "/cookbook/5.0/Lollipop",
       "recipeUrl": "/cookbook/5.0/Lollipop/LollipopQuickStart",
-      "imageUrl": "/cookbook/5.0/images/LollipopQuickStart.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/LollipopQuickStart.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Lollipop.cs"
     },
     {
@@ -2847,7 +2993,7 @@
       "anchorUrl": "/cookbook/5.0/Lollipop#LollipopPositions",
       "categoryUrl": "/cookbook/5.0/Lollipop",
       "recipeUrl": "/cookbook/5.0/Lollipop/LollipopPositions",
-      "imageUrl": "/cookbook/5.0/images/LollipopPositions.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/LollipopPositions.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Lollipop.cs"
     },
     {
@@ -2861,7 +3007,7 @@
       "anchorUrl": "/cookbook/5.0/Lollipop#BarLollipopCustom",
       "categoryUrl": "/cookbook/5.0/Lollipop",
       "recipeUrl": "/cookbook/5.0/Lollipop/BarLollipopCustom",
-      "imageUrl": "/cookbook/5.0/images/BarLollipopCustom.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/BarLollipopCustom.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Lollipop.cs"
     },
     {
@@ -2875,7 +3021,7 @@
       "anchorUrl": "/cookbook/5.0/Lollipop#LollipopHorizontal",
       "categoryUrl": "/cookbook/5.0/Lollipop",
       "recipeUrl": "/cookbook/5.0/Lollipop/LollipopHorizontal",
-      "imageUrl": "/cookbook/5.0/images/LollipopHorizontal.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/LollipopHorizontal.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Lollipop.cs"
     },
     {
@@ -2889,7 +3035,7 @@
       "anchorUrl": "/cookbook/5.0/Marker#MarkerQuickstart",
       "categoryUrl": "/cookbook/5.0/Marker",
       "recipeUrl": "/cookbook/5.0/Marker/MarkerQuickstart",
-      "imageUrl": "/cookbook/5.0/images/MarkerQuickstart.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/MarkerQuickstart.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Marker.cs"
     },
     {
@@ -2903,7 +3049,7 @@
       "anchorUrl": "/cookbook/5.0/Marker#MarkerShapes",
       "categoryUrl": "/cookbook/5.0/Marker",
       "recipeUrl": "/cookbook/5.0/Marker/MarkerShapes",
-      "imageUrl": "/cookbook/5.0/images/MarkerShapes.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/MarkerShapes.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Marker.cs"
     },
     {
@@ -2917,7 +3063,7 @@
       "anchorUrl": "/cookbook/5.0/Marker#MarkerLegend",
       "categoryUrl": "/cookbook/5.0/Marker",
       "recipeUrl": "/cookbook/5.0/Marker/MarkerLegend",
-      "imageUrl": "/cookbook/5.0/images/MarkerLegend.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/MarkerLegend.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Marker.cs"
     },
     {
@@ -2931,7 +3077,7 @@
       "anchorUrl": "/cookbook/5.0/Marker#MarkersPlot",
       "categoryUrl": "/cookbook/5.0/Marker",
       "recipeUrl": "/cookbook/5.0/Marker/MarkersPlot",
-      "imageUrl": "/cookbook/5.0/images/MarkersPlot.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/MarkersPlot.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Marker.cs"
     },
     {
@@ -2945,7 +3091,7 @@
       "anchorUrl": "/cookbook/5.0/Marker#MarkersColormap",
       "categoryUrl": "/cookbook/5.0/Marker",
       "recipeUrl": "/cookbook/5.0/Marker/MarkersColormap",
-      "imageUrl": "/cookbook/5.0/images/MarkersColormap.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/MarkersColormap.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Marker.cs"
     },
     {
@@ -2959,7 +3105,7 @@
       "anchorUrl": "/cookbook/5.0/Marker#ImageMarkerQuickstart",
       "categoryUrl": "/cookbook/5.0/Marker",
       "recipeUrl": "/cookbook/5.0/Marker/ImageMarkerQuickstart",
-      "imageUrl": "/cookbook/5.0/images/ImageMarkerQuickstart.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/ImageMarkerQuickstart.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Marker.cs"
     },
     {
@@ -2973,7 +3119,7 @@
       "anchorUrl": "/cookbook/5.0/Phasor#PhasorQuickstart",
       "categoryUrl": "/cookbook/5.0/Phasor",
       "recipeUrl": "/cookbook/5.0/Phasor/PhasorQuickstart",
-      "imageUrl": "/cookbook/5.0/images/PhasorQuickstart.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/PhasorQuickstart.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Phasor.cs"
     },
     {
@@ -2987,7 +3133,7 @@
       "anchorUrl": "/cookbook/5.0/Phasor#PhasorLabels",
       "categoryUrl": "/cookbook/5.0/Phasor",
       "recipeUrl": "/cookbook/5.0/Phasor/PhasorLabels",
-      "imageUrl": "/cookbook/5.0/images/PhasorLabels.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/PhasorLabels.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Phasor.cs"
     },
     {
@@ -3001,7 +3147,7 @@
       "anchorUrl": "/cookbook/5.0/Pie#PieQuickstart",
       "categoryUrl": "/cookbook/5.0/Pie",
       "recipeUrl": "/cookbook/5.0/Pie/PieQuickstart",
-      "imageUrl": "/cookbook/5.0/images/PieQuickstart.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/PieQuickstart.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Pie.cs"
     },
     {
@@ -3015,7 +3161,7 @@
       "anchorUrl": "/cookbook/5.0/Pie#PieSlices",
       "categoryUrl": "/cookbook/5.0/Pie",
       "recipeUrl": "/cookbook/5.0/Pie/PieSlices",
-      "imageUrl": "/cookbook/5.0/images/PieSlices.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/PieSlices.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Pie.cs"
     },
     {
@@ -3029,7 +3175,7 @@
       "anchorUrl": "/cookbook/5.0/Pie#PieDonut",
       "categoryUrl": "/cookbook/5.0/Pie",
       "recipeUrl": "/cookbook/5.0/Pie/PieDonut",
-      "imageUrl": "/cookbook/5.0/images/PieDonut.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/PieDonut.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Pie.cs"
     },
     {
@@ -3043,7 +3189,7 @@
       "anchorUrl": "/cookbook/5.0/Pie#PieSliceHatch",
       "categoryUrl": "/cookbook/5.0/Pie",
       "recipeUrl": "/cookbook/5.0/Pie/PieSliceHatch",
-      "imageUrl": "/cookbook/5.0/images/PieSliceHatch.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/PieSliceHatch.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Pie.cs"
     },
     {
@@ -3057,7 +3203,7 @@
       "anchorUrl": "/cookbook/5.0/Pie#PieRotation",
       "categoryUrl": "/cookbook/5.0/Pie",
       "recipeUrl": "/cookbook/5.0/Pie/PieRotation",
-      "imageUrl": "/cookbook/5.0/images/PieRotation.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/PieRotation.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Pie.cs"
     },
     {
@@ -3071,7 +3217,7 @@
       "anchorUrl": "/cookbook/5.0/Pie#PieSliceLabels",
       "categoryUrl": "/cookbook/5.0/Pie",
       "recipeUrl": "/cookbook/5.0/Pie/PieSliceLabels",
-      "imageUrl": "/cookbook/5.0/images/PieSliceLabels.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/PieSliceLabels.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Pie.cs"
     },
     {
@@ -3085,7 +3231,7 @@
       "anchorUrl": "/cookbook/5.0/Pie#PieSliceLabelsPercent",
       "categoryUrl": "/cookbook/5.0/Pie",
       "recipeUrl": "/cookbook/5.0/Pie/PieSliceLabelsPercent",
-      "imageUrl": "/cookbook/5.0/images/PieSliceLabelsPercent.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/PieSliceLabelsPercent.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Pie.cs"
     },
     {
@@ -3099,7 +3245,7 @@
       "anchorUrl": "/cookbook/5.0/Pie#PieSliceLabelsAndLegend",
       "categoryUrl": "/cookbook/5.0/Pie",
       "recipeUrl": "/cookbook/5.0/Pie/PieSliceLabelsAndLegend",
-      "imageUrl": "/cookbook/5.0/images/PieSliceLabelsAndLegend.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/PieSliceLabelsAndLegend.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Pie.cs"
     },
     {
@@ -3113,7 +3259,7 @@
       "anchorUrl": "/cookbook/5.0/PolarAxis#PolarQuickStart",
       "categoryUrl": "/cookbook/5.0/PolarAxis",
       "recipeUrl": "/cookbook/5.0/PolarAxis/PolarQuickStart",
-      "imageUrl": "/cookbook/5.0/images/PolarQuickStart.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/PolarQuickStart.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/PolarAxis.cs"
     },
     {
@@ -3127,7 +3273,7 @@
       "anchorUrl": "/cookbook/5.0/PolarAxis#PolarRotation",
       "categoryUrl": "/cookbook/5.0/PolarAxis",
       "recipeUrl": "/cookbook/5.0/PolarAxis/PolarRotation",
-      "imageUrl": "/cookbook/5.0/images/PolarRotation.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/PolarRotation.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/PolarAxis.cs"
     },
     {
@@ -3141,7 +3287,7 @@
       "anchorUrl": "/cookbook/5.0/PolarAxis#PolarAxisArrow",
       "categoryUrl": "/cookbook/5.0/PolarAxis",
       "recipeUrl": "/cookbook/5.0/PolarAxis/PolarAxisArrow",
-      "imageUrl": "/cookbook/5.0/images/PolarAxisArrow.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/PolarAxisArrow.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/PolarAxis.cs"
     },
     {
@@ -3155,7 +3301,7 @@
       "anchorUrl": "/cookbook/5.0/PolarAxis#PolarAxisStyling",
       "categoryUrl": "/cookbook/5.0/PolarAxis",
       "recipeUrl": "/cookbook/5.0/PolarAxis/PolarAxisStyling",
-      "imageUrl": "/cookbook/5.0/images/PolarAxisStyling.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/PolarAxisStyling.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/PolarAxis.cs"
     },
     {
@@ -3169,7 +3315,7 @@
       "anchorUrl": "/cookbook/5.0/PolarAxis#PolarSpokeLabels",
       "categoryUrl": "/cookbook/5.0/PolarAxis",
       "recipeUrl": "/cookbook/5.0/PolarAxis/PolarSpokeLabels",
-      "imageUrl": "/cookbook/5.0/images/PolarSpokeLabels.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/PolarSpokeLabels.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/PolarAxis.cs"
     },
     {
@@ -3183,7 +3329,7 @@
       "anchorUrl": "/cookbook/5.0/PolarAxis#PolarTickLabels",
       "categoryUrl": "/cookbook/5.0/PolarAxis",
       "recipeUrl": "/cookbook/5.0/PolarAxis/PolarTickLabels",
-      "imageUrl": "/cookbook/5.0/images/PolarTickLabels.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/PolarTickLabels.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/PolarAxis.cs"
     },
     {
@@ -3197,7 +3343,7 @@
       "anchorUrl": "/cookbook/5.0/PolarAxis#PolarAxisLineCustomizations",
       "categoryUrl": "/cookbook/5.0/PolarAxis",
       "recipeUrl": "/cookbook/5.0/PolarAxis/PolarAxisLineCustomizations",
-      "imageUrl": "/cookbook/5.0/images/PolarAxisLineCustomizations.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/PolarAxisLineCustomizations.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/PolarAxis.cs"
     },
     {
@@ -3211,7 +3357,7 @@
       "anchorUrl": "/cookbook/5.0/PolarAxis#PolarRadar",
       "categoryUrl": "/cookbook/5.0/PolarAxis",
       "recipeUrl": "/cookbook/5.0/PolarAxis/PolarRadar",
-      "imageUrl": "/cookbook/5.0/images/PolarRadar.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/PolarRadar.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/PolarAxis.cs"
     },
     {
@@ -3225,7 +3371,7 @@
       "anchorUrl": "/cookbook/5.0/Population#PopulationQuickstart",
       "categoryUrl": "/cookbook/5.0/Population",
       "recipeUrl": "/cookbook/5.0/Population/PopulationQuickstart",
-      "imageUrl": "/cookbook/5.0/images/PopulationQuickstart.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/PopulationQuickstart.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Population.cs"
     },
     {
@@ -3239,7 +3385,7 @@
       "anchorUrl": "/cookbook/5.0/Population#PopulationBox",
       "categoryUrl": "/cookbook/5.0/Population",
       "recipeUrl": "/cookbook/5.0/Population/PopulationBox",
-      "imageUrl": "/cookbook/5.0/images/PopulationBox.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/PopulationBox.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Population.cs"
     },
     {
@@ -3253,7 +3399,7 @@
       "anchorUrl": "/cookbook/5.0/Population#PopulationBoxValues",
       "categoryUrl": "/cookbook/5.0/Population",
       "recipeUrl": "/cookbook/5.0/Population/PopulationBoxValues",
-      "imageUrl": "/cookbook/5.0/images/PopulationBoxValues.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/PopulationBoxValues.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Population.cs"
     },
     {
@@ -3267,7 +3413,7 @@
       "anchorUrl": "/cookbook/5.0/Population#PopulationBarStyle",
       "categoryUrl": "/cookbook/5.0/Population",
       "recipeUrl": "/cookbook/5.0/Population/PopulationBarStyle",
-      "imageUrl": "/cookbook/5.0/images/PopulationBarStyle.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/PopulationBarStyle.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Population.cs"
     },
     {
@@ -3281,7 +3427,7 @@
       "anchorUrl": "/cookbook/5.0/Population#PopulationBoxStyle",
       "categoryUrl": "/cookbook/5.0/Population",
       "recipeUrl": "/cookbook/5.0/Population/PopulationBoxStyle",
-      "imageUrl": "/cookbook/5.0/images/PopulationBoxStyle.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/PopulationBoxStyle.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Population.cs"
     },
     {
@@ -3295,7 +3441,7 @@
       "anchorUrl": "/cookbook/5.0/Population#PopulationMarkerStyle",
       "categoryUrl": "/cookbook/5.0/Population",
       "recipeUrl": "/cookbook/5.0/Population/PopulationMarkerStyle",
-      "imageUrl": "/cookbook/5.0/images/PopulationMarkerStyle.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/PopulationMarkerStyle.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Population.cs"
     },
     {
@@ -3309,7 +3455,7 @@
       "anchorUrl": "/cookbook/5.0/Population#PopulationArrangement",
       "categoryUrl": "/cookbook/5.0/Population",
       "recipeUrl": "/cookbook/5.0/Population/PopulationArrangement",
-      "imageUrl": "/cookbook/5.0/images/PopulationArrangement.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/PopulationArrangement.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Population.cs"
     },
     {
@@ -3323,7 +3469,7 @@
       "anchorUrl": "/cookbook/5.0/Population#PopulationGroups",
       "categoryUrl": "/cookbook/5.0/Population",
       "recipeUrl": "/cookbook/5.0/Population/PopulationGroups",
-      "imageUrl": "/cookbook/5.0/images/PopulationGroups.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/PopulationGroups.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Population.cs"
     },
     {
@@ -3337,7 +3483,7 @@
       "anchorUrl": "/cookbook/5.0/Radar#RadarQuickstart",
       "categoryUrl": "/cookbook/5.0/Radar",
       "recipeUrl": "/cookbook/5.0/Radar/RadarQuickstart",
-      "imageUrl": "/cookbook/5.0/images/RadarQuickstart.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/RadarQuickstart.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Radar.cs"
     },
     {
@@ -3351,7 +3497,7 @@
       "anchorUrl": "/cookbook/5.0/Radar#RadarMultipleQuickstart",
       "categoryUrl": "/cookbook/5.0/Radar",
       "recipeUrl": "/cookbook/5.0/Radar/RadarMultipleQuickstart",
-      "imageUrl": "/cookbook/5.0/images/RadarMultipleQuickstart.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/RadarMultipleQuickstart.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Radar.cs"
     },
     {
@@ -3365,7 +3511,7 @@
       "anchorUrl": "/cookbook/5.0/Radar#RadarLegend",
       "categoryUrl": "/cookbook/5.0/Radar",
       "recipeUrl": "/cookbook/5.0/Radar/RadarLegend",
-      "imageUrl": "/cookbook/5.0/images/RadarLegend.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/RadarLegend.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Radar.cs"
     },
     {
@@ -3379,7 +3525,7 @@
       "anchorUrl": "/cookbook/5.0/Radar#RadarSeriesCustomization",
       "categoryUrl": "/cookbook/5.0/Radar",
       "recipeUrl": "/cookbook/5.0/Radar/RadarSeriesCustomization",
-      "imageUrl": "/cookbook/5.0/images/RadarSeriesCustomization.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/RadarSeriesCustomization.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Radar.cs"
     },
     {
@@ -3393,7 +3539,7 @@
       "anchorUrl": "/cookbook/5.0/Radar#RadarSpokeLabels",
       "categoryUrl": "/cookbook/5.0/Radar",
       "recipeUrl": "/cookbook/5.0/Radar/RadarSpokeLabels",
-      "imageUrl": "/cookbook/5.0/images/RadarSpokeLabels.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/RadarSpokeLabels.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Radar.cs"
     },
     {
@@ -3407,7 +3553,7 @@
       "anchorUrl": "/cookbook/5.0/Radar#RadarRadialTicks",
       "categoryUrl": "/cookbook/5.0/Radar",
       "recipeUrl": "/cookbook/5.0/Radar/RadarRadialTicks",
-      "imageUrl": "/cookbook/5.0/images/RadarRadialTicks.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/RadarRadialTicks.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Radar.cs"
     },
     {
@@ -3421,7 +3567,7 @@
       "anchorUrl": "/cookbook/5.0/Radar#RadarStraightLines",
       "categoryUrl": "/cookbook/5.0/Radar",
       "recipeUrl": "/cookbook/5.0/Radar/RadarStraightLines",
-      "imageUrl": "/cookbook/5.0/images/RadarStraightLines.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/RadarStraightLines.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Radar.cs"
     },
     {
@@ -3435,7 +3581,7 @@
       "anchorUrl": "/cookbook/5.0/RadialGauge#RadialGaugeQuickstart",
       "categoryUrl": "/cookbook/5.0/RadialGauge",
       "recipeUrl": "/cookbook/5.0/RadialGauge/RadialGaugeQuickstart",
-      "imageUrl": "/cookbook/5.0/images/RadialGaugeQuickstart.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/RadialGaugeQuickstart.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/RadialGauge.cs"
     },
     {
@@ -3449,7 +3595,7 @@
       "anchorUrl": "/cookbook/5.0/RadialGauge#RadialGaugeColormap",
       "categoryUrl": "/cookbook/5.0/RadialGauge",
       "recipeUrl": "/cookbook/5.0/RadialGauge/RadialGaugeColormap",
-      "imageUrl": "/cookbook/5.0/images/RadialGaugeColormap.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/RadialGaugeColormap.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/RadialGauge.cs"
     },
     {
@@ -3463,7 +3609,7 @@
       "anchorUrl": "/cookbook/5.0/RadialGauge#RadialGaugeNegative",
       "categoryUrl": "/cookbook/5.0/RadialGauge",
       "recipeUrl": "/cookbook/5.0/RadialGauge/RadialGaugeNegative",
-      "imageUrl": "/cookbook/5.0/images/RadialGaugeNegative.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/RadialGaugeNegative.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/RadialGauge.cs"
     },
     {
@@ -3477,7 +3623,7 @@
       "anchorUrl": "/cookbook/5.0/RadialGauge#RadialGaugeSequential",
       "categoryUrl": "/cookbook/5.0/RadialGauge",
       "recipeUrl": "/cookbook/5.0/RadialGauge/RadialGaugeSequential",
-      "imageUrl": "/cookbook/5.0/images/RadialGaugeSequential.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/RadialGaugeSequential.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/RadialGauge.cs"
     },
     {
@@ -3491,7 +3637,7 @@
       "anchorUrl": "/cookbook/5.0/RadialGauge#RadialGaugeReverse",
       "categoryUrl": "/cookbook/5.0/RadialGauge",
       "recipeUrl": "/cookbook/5.0/RadialGauge/RadialGaugeReverse",
-      "imageUrl": "/cookbook/5.0/images/RadialGaugeReverse.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/RadialGaugeReverse.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/RadialGauge.cs"
     },
     {
@@ -3505,7 +3651,7 @@
       "anchorUrl": "/cookbook/5.0/RadialGauge#RadialGaugeModeSingle",
       "categoryUrl": "/cookbook/5.0/RadialGauge",
       "recipeUrl": "/cookbook/5.0/RadialGauge/RadialGaugeModeSingle",
-      "imageUrl": "/cookbook/5.0/images/RadialGaugeModeSingle.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/RadialGaugeModeSingle.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/RadialGauge.cs"
     },
     {
@@ -3519,7 +3665,7 @@
       "anchorUrl": "/cookbook/5.0/RadialGauge#RadialGaugeDirection",
       "categoryUrl": "/cookbook/5.0/RadialGauge",
       "recipeUrl": "/cookbook/5.0/RadialGauge/RadialGaugeDirection",
-      "imageUrl": "/cookbook/5.0/images/RadialGaugeDirection.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/RadialGaugeDirection.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/RadialGauge.cs"
     },
     {
@@ -3533,7 +3679,7 @@
       "anchorUrl": "/cookbook/5.0/RadialGauge#RadialGaugeSize",
       "categoryUrl": "/cookbook/5.0/RadialGauge",
       "recipeUrl": "/cookbook/5.0/RadialGauge/RadialGaugeSize",
-      "imageUrl": "/cookbook/5.0/images/RadialGaugeSize.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/RadialGaugeSize.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/RadialGauge.cs"
     },
     {
@@ -3547,7 +3693,7 @@
       "anchorUrl": "/cookbook/5.0/RadialGauge#RadialGaugeStart",
       "categoryUrl": "/cookbook/5.0/RadialGauge",
       "recipeUrl": "/cookbook/5.0/RadialGauge/RadialGaugeStart",
-      "imageUrl": "/cookbook/5.0/images/RadialGaugeStart.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/RadialGaugeStart.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/RadialGauge.cs"
     },
     {
@@ -3561,7 +3707,7 @@
       "anchorUrl": "/cookbook/5.0/RadialGauge#RadialGaugeRange",
       "categoryUrl": "/cookbook/5.0/RadialGauge",
       "recipeUrl": "/cookbook/5.0/RadialGauge/RadialGaugeRange",
-      "imageUrl": "/cookbook/5.0/images/RadialGaugeRange.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/RadialGaugeRange.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/RadialGauge.cs"
     },
     {
@@ -3575,7 +3721,7 @@
       "anchorUrl": "/cookbook/5.0/RadialGauge#RadialGaugeLabels",
       "categoryUrl": "/cookbook/5.0/RadialGauge",
       "recipeUrl": "/cookbook/5.0/RadialGauge/RadialGaugeLabels",
-      "imageUrl": "/cookbook/5.0/images/RadialGaugeLabels.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/RadialGaugeLabels.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/RadialGauge.cs"
     },
     {
@@ -3589,7 +3735,7 @@
       "anchorUrl": "/cookbook/5.0/RadialGauge#RadialGaugeLabelPos",
       "categoryUrl": "/cookbook/5.0/RadialGauge",
       "recipeUrl": "/cookbook/5.0/RadialGauge/RadialGaugeLabelPos",
-      "imageUrl": "/cookbook/5.0/images/RadialGaugeLabelPos.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/RadialGaugeLabelPos.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/RadialGauge.cs"
     },
     {
@@ -3603,7 +3749,7 @@
       "anchorUrl": "/cookbook/5.0/RadialGauge#RadialGaugeLabelFontPct",
       "categoryUrl": "/cookbook/5.0/RadialGauge",
       "recipeUrl": "/cookbook/5.0/RadialGauge/RadialGaugeLabelFontPct",
-      "imageUrl": "/cookbook/5.0/images/RadialGaugeLabelFontPct.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/RadialGaugeLabelFontPct.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/RadialGauge.cs"
     },
     {
@@ -3617,7 +3763,7 @@
       "anchorUrl": "/cookbook/5.0/RadialGauge#RadialGaugeLabelColor",
       "categoryUrl": "/cookbook/5.0/RadialGauge",
       "recipeUrl": "/cookbook/5.0/RadialGauge/RadialGaugeLabelColor",
-      "imageUrl": "/cookbook/5.0/images/RadialGaugeLabelColor.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/RadialGaugeLabelColor.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/RadialGauge.cs"
     },
     {
@@ -3631,7 +3777,7 @@
       "anchorUrl": "/cookbook/5.0/RadialGauge#RadialGaugeLegend",
       "categoryUrl": "/cookbook/5.0/RadialGauge",
       "recipeUrl": "/cookbook/5.0/RadialGauge/RadialGaugeLegend",
-      "imageUrl": "/cookbook/5.0/images/RadialGaugeLegend.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/RadialGaugeLegend.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/RadialGauge.cs"
     },
     {
@@ -3645,7 +3791,7 @@
       "anchorUrl": "/cookbook/5.0/RadialGauge#RadialGaugeBackDim",
       "categoryUrl": "/cookbook/5.0/RadialGauge",
       "recipeUrl": "/cookbook/5.0/RadialGauge/RadialGaugeBackDim",
-      "imageUrl": "/cookbook/5.0/images/RadialGaugeBackDim.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/RadialGaugeBackDim.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/RadialGauge.cs"
     },
     {
@@ -3659,7 +3805,7 @@
       "anchorUrl": "/cookbook/5.0/RadialGauge#RadialGaugeBackNorm",
       "categoryUrl": "/cookbook/5.0/RadialGauge",
       "recipeUrl": "/cookbook/5.0/RadialGauge/RadialGaugeBackNorm",
-      "imageUrl": "/cookbook/5.0/images/RadialGaugeBackNorm.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/RadialGaugeBackNorm.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/RadialGauge.cs"
     },
     {
@@ -3673,7 +3819,7 @@
       "anchorUrl": "/cookbook/5.0/ScaleBar#ScaleBarQuickstart",
       "categoryUrl": "/cookbook/5.0/ScaleBar",
       "recipeUrl": "/cookbook/5.0/ScaleBar/ScaleBarQuickstart",
-      "imageUrl": "/cookbook/5.0/images/ScaleBarQuickstart.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/ScaleBarQuickstart.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/ScaleBar.cs"
     },
     {
@@ -3687,7 +3833,7 @@
       "anchorUrl": "/cookbook/5.0/ScaleBar#ScaleBarLabels",
       "categoryUrl": "/cookbook/5.0/ScaleBar",
       "recipeUrl": "/cookbook/5.0/ScaleBar/ScaleBarLabels",
-      "imageUrl": "/cookbook/5.0/images/ScaleBarLabels.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/ScaleBarLabels.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/ScaleBar.cs"
     },
     {
@@ -3701,7 +3847,7 @@
       "anchorUrl": "/cookbook/5.0/ScaleBar#ScaleBarStyling",
       "categoryUrl": "/cookbook/5.0/ScaleBar",
       "recipeUrl": "/cookbook/5.0/ScaleBar/ScaleBarStyling",
-      "imageUrl": "/cookbook/5.0/images/ScaleBarStyling.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/ScaleBarStyling.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/ScaleBar.cs"
     },
     {
@@ -3715,7 +3861,7 @@
       "anchorUrl": "/cookbook/5.0/ScaleBar#ScaleBarSingleDimension",
       "categoryUrl": "/cookbook/5.0/ScaleBar",
       "recipeUrl": "/cookbook/5.0/ScaleBar/ScaleBarSingleDimension",
-      "imageUrl": "/cookbook/5.0/images/ScaleBarSingleDimension.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/ScaleBarSingleDimension.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/ScaleBar.cs"
     },
     {
@@ -3729,7 +3875,7 @@
       "anchorUrl": "/cookbook/5.0/Scatter#ScatterQuickstart",
       "categoryUrl": "/cookbook/5.0/Scatter",
       "recipeUrl": "/cookbook/5.0/Scatter/ScatterQuickstart",
-      "imageUrl": "/cookbook/5.0/images/ScatterQuickstart.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/ScatterQuickstart.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Scatter.cs"
     },
     {
@@ -3743,7 +3889,7 @@
       "anchorUrl": "/cookbook/5.0/Scatter#ScatterCoordinates",
       "categoryUrl": "/cookbook/5.0/Scatter",
       "recipeUrl": "/cookbook/5.0/Scatter/ScatterCoordinates",
-      "imageUrl": "/cookbook/5.0/images/ScatterCoordinates.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/ScatterCoordinates.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Scatter.cs"
     },
     {
@@ -3757,7 +3903,7 @@
       "anchorUrl": "/cookbook/5.0/Scatter#ScatterDataType",
       "categoryUrl": "/cookbook/5.0/Scatter",
       "recipeUrl": "/cookbook/5.0/Scatter/ScatterDataType",
-      "imageUrl": "/cookbook/5.0/images/ScatterDataType.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/ScatterDataType.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Scatter.cs"
     },
     {
@@ -3771,7 +3917,7 @@
       "anchorUrl": "/cookbook/5.0/Scatter#ScatterList",
       "categoryUrl": "/cookbook/5.0/Scatter",
       "recipeUrl": "/cookbook/5.0/Scatter/ScatterList",
-      "imageUrl": "/cookbook/5.0/images/ScatterList.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/ScatterList.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Scatter.cs"
     },
     {
@@ -3785,7 +3931,7 @@
       "anchorUrl": "/cookbook/5.0/Scatter#ScatterLine",
       "categoryUrl": "/cookbook/5.0/Scatter",
       "recipeUrl": "/cookbook/5.0/Scatter/ScatterLine",
-      "imageUrl": "/cookbook/5.0/images/ScatterLine.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/ScatterLine.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Scatter.cs"
     },
     {
@@ -3799,7 +3945,7 @@
       "anchorUrl": "/cookbook/5.0/Scatter#ScatterPoints",
       "categoryUrl": "/cookbook/5.0/Scatter",
       "recipeUrl": "/cookbook/5.0/Scatter/ScatterPoints",
-      "imageUrl": "/cookbook/5.0/images/ScatterPoints.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/ScatterPoints.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Scatter.cs"
     },
     {
@@ -3813,7 +3959,7 @@
       "anchorUrl": "/cookbook/5.0/Scatter#ScatterStyling",
       "categoryUrl": "/cookbook/5.0/Scatter",
       "recipeUrl": "/cookbook/5.0/Scatter/ScatterStyling",
-      "imageUrl": "/cookbook/5.0/images/ScatterStyling.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/ScatterStyling.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Scatter.cs"
     },
     {
@@ -3827,7 +3973,7 @@
       "anchorUrl": "/cookbook/5.0/Scatter#ScatterLinePatterns",
       "categoryUrl": "/cookbook/5.0/Scatter",
       "recipeUrl": "/cookbook/5.0/Scatter/ScatterLinePatterns",
-      "imageUrl": "/cookbook/5.0/images/ScatterLinePatterns.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/ScatterLinePatterns.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Scatter.cs"
     },
     {
@@ -3841,7 +3987,7 @@
       "anchorUrl": "/cookbook/5.0/Scatter#ScatterGeneric",
       "categoryUrl": "/cookbook/5.0/Scatter",
       "recipeUrl": "/cookbook/5.0/Scatter/ScatterGeneric",
-      "imageUrl": "/cookbook/5.0/images/ScatterGeneric.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/ScatterGeneric.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Scatter.cs"
     },
     {
@@ -3855,7 +4001,7 @@
       "anchorUrl": "/cookbook/5.0/Scatter#ScatterDateTime",
       "categoryUrl": "/cookbook/5.0/Scatter",
       "recipeUrl": "/cookbook/5.0/Scatter/ScatterDateTime",
-      "imageUrl": "/cookbook/5.0/images/ScatterDateTime.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/ScatterDateTime.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Scatter.cs"
     },
     {
@@ -3869,7 +4015,7 @@
       "anchorUrl": "/cookbook/5.0/Scatter#ScatterStep",
       "categoryUrl": "/cookbook/5.0/Scatter",
       "recipeUrl": "/cookbook/5.0/Scatter/ScatterStep",
-      "imageUrl": "/cookbook/5.0/images/ScatterStep.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/ScatterStep.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Scatter.cs"
     },
     {
@@ -3883,7 +4029,7 @@
       "anchorUrl": "/cookbook/5.0/Scatter#ScatterWithGaps",
       "categoryUrl": "/cookbook/5.0/Scatter",
       "recipeUrl": "/cookbook/5.0/Scatter/ScatterWithGaps",
-      "imageUrl": "/cookbook/5.0/images/ScatterWithGaps.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/ScatterWithGaps.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Scatter.cs"
     },
     {
@@ -3897,7 +4043,7 @@
       "anchorUrl": "/cookbook/5.0/Scatter#ScatterSmooth",
       "categoryUrl": "/cookbook/5.0/Scatter",
       "recipeUrl": "/cookbook/5.0/Scatter/ScatterSmooth",
-      "imageUrl": "/cookbook/5.0/images/ScatterSmooth.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/ScatterSmooth.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Scatter.cs"
     },
     {
@@ -3911,7 +4057,7 @@
       "anchorUrl": "/cookbook/5.0/Scatter#ScatterSmoothTension",
       "categoryUrl": "/cookbook/5.0/Scatter",
       "recipeUrl": "/cookbook/5.0/Scatter/ScatterSmoothTension",
-      "imageUrl": "/cookbook/5.0/images/ScatterSmoothTension.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/ScatterSmoothTension.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Scatter.cs"
     },
     {
@@ -3925,7 +4071,7 @@
       "anchorUrl": "/cookbook/5.0/Scatter#ScatterQuad",
       "categoryUrl": "/cookbook/5.0/Scatter",
       "recipeUrl": "/cookbook/5.0/Scatter/ScatterQuad",
-      "imageUrl": "/cookbook/5.0/images/ScatterQuad.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/ScatterQuad.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Scatter.cs"
     },
     {
@@ -3939,7 +4085,7 @@
       "anchorUrl": "/cookbook/5.0/Scatter#ScatterLimitIndex",
       "categoryUrl": "/cookbook/5.0/Scatter",
       "recipeUrl": "/cookbook/5.0/Scatter/ScatterLimitIndex",
-      "imageUrl": "/cookbook/5.0/images/ScatterLimitIndex.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/ScatterLimitIndex.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Scatter.cs"
     },
     {
@@ -3953,7 +4099,7 @@
       "anchorUrl": "/cookbook/5.0/Scatter#ScatterFill",
       "categoryUrl": "/cookbook/5.0/Scatter",
       "recipeUrl": "/cookbook/5.0/Scatter/ScatterFill",
-      "imageUrl": "/cookbook/5.0/images/ScatterFill.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/ScatterFill.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Scatter.cs"
     },
     {
@@ -3967,7 +4113,7 @@
       "anchorUrl": "/cookbook/5.0/Scatter#ScatterFillValue",
       "categoryUrl": "/cookbook/5.0/Scatter",
       "recipeUrl": "/cookbook/5.0/Scatter/ScatterFillValue",
-      "imageUrl": "/cookbook/5.0/images/ScatterFillValue.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/ScatterFillValue.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Scatter.cs"
     },
     {
@@ -3981,7 +4127,7 @@
       "anchorUrl": "/cookbook/5.0/Scatter#ScatterFillAboveBelow",
       "categoryUrl": "/cookbook/5.0/Scatter",
       "recipeUrl": "/cookbook/5.0/Scatter/ScatterFillAboveBelow",
-      "imageUrl": "/cookbook/5.0/images/ScatterFillAboveBelow.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/ScatterFillAboveBelow.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Scatter.cs"
     },
     {
@@ -3995,7 +4141,7 @@
       "anchorUrl": "/cookbook/5.0/Scatter#ScatterFillGradient",
       "categoryUrl": "/cookbook/5.0/Scatter",
       "recipeUrl": "/cookbook/5.0/Scatter/ScatterFillGradient",
-      "imageUrl": "/cookbook/5.0/images/ScatterFillGradient.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/ScatterFillGradient.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Scatter.cs"
     },
     {
@@ -4009,7 +4155,7 @@
       "anchorUrl": "/cookbook/5.0/Scatter#ScatterScaleAndOffset",
       "categoryUrl": "/cookbook/5.0/Scatter",
       "recipeUrl": "/cookbook/5.0/Scatter/ScatterScaleAndOffset",
-      "imageUrl": "/cookbook/5.0/images/ScatterScaleAndOffset.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/ScatterScaleAndOffset.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Scatter.cs"
     },
     {
@@ -4023,7 +4169,7 @@
       "anchorUrl": "/cookbook/5.0/Scatter#StackedFilledLinePlot",
       "categoryUrl": "/cookbook/5.0/Scatter",
       "recipeUrl": "/cookbook/5.0/Scatter/StackedFilledLinePlot",
-      "imageUrl": "/cookbook/5.0/images/StackedFilledLinePlot.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/StackedFilledLinePlot.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Scatter.cs"
     },
     {
@@ -4037,7 +4183,7 @@
       "anchorUrl": "/cookbook/5.0/Scatter#ScatterStackedShading",
       "categoryUrl": "/cookbook/5.0/Scatter",
       "recipeUrl": "/cookbook/5.0/Scatter/ScatterStackedShading",
-      "imageUrl": "/cookbook/5.0/images/ScatterStackedShading.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/ScatterStackedShading.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Scatter.cs"
     },
     {
@@ -4051,7 +4197,7 @@
       "anchorUrl": "/cookbook/5.0/Shapes#RectangleQuickstart",
       "categoryUrl": "/cookbook/5.0/Shapes",
       "recipeUrl": "/cookbook/5.0/Shapes/RectangleQuickstart",
-      "imageUrl": "/cookbook/5.0/images/RectangleQuickstart.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/RectangleQuickstart.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Shapes.cs"
     },
     {
@@ -4065,7 +4211,7 @@
       "anchorUrl": "/cookbook/5.0/Shapes#CircleQuickstart",
       "categoryUrl": "/cookbook/5.0/Shapes",
       "recipeUrl": "/cookbook/5.0/Shapes/CircleQuickstart",
-      "imageUrl": "/cookbook/5.0/images/CircleQuickstart.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/CircleQuickstart.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Shapes.cs"
     },
     {
@@ -4079,7 +4225,7 @@
       "anchorUrl": "/cookbook/5.0/Shapes#EllipseQuickstart",
       "categoryUrl": "/cookbook/5.0/Shapes",
       "recipeUrl": "/cookbook/5.0/Shapes/EllipseQuickstart",
-      "imageUrl": "/cookbook/5.0/images/EllipseQuickstart.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/EllipseQuickstart.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Shapes.cs"
     },
     {
@@ -4093,7 +4239,7 @@
       "anchorUrl": "/cookbook/5.0/Shapes#PolygonQuickstart",
       "categoryUrl": "/cookbook/5.0/Shapes",
       "recipeUrl": "/cookbook/5.0/Shapes/PolygonQuickstart",
-      "imageUrl": "/cookbook/5.0/images/PolygonQuickstart.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/PolygonQuickstart.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Shapes.cs"
     },
     {
@@ -4107,7 +4253,7 @@
       "anchorUrl": "/cookbook/5.0/Shapes#PolygonStyling",
       "categoryUrl": "/cookbook/5.0/Shapes",
       "recipeUrl": "/cookbook/5.0/Shapes/PolygonStyling",
-      "imageUrl": "/cookbook/5.0/images/PolygonStyling.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/PolygonStyling.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Shapes.cs"
     },
     {
@@ -4121,7 +4267,7 @@
       "anchorUrl": "/cookbook/5.0/Shapes#StackedLineChart",
       "categoryUrl": "/cookbook/5.0/Shapes",
       "recipeUrl": "/cookbook/5.0/Shapes/StackedLineChart",
-      "imageUrl": "/cookbook/5.0/images/StackedLineChart.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/StackedLineChart.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Shapes.cs"
     },
     {
@@ -4135,7 +4281,7 @@
       "anchorUrl": "/cookbook/5.0/Signal#SignalQuickstart",
       "categoryUrl": "/cookbook/5.0/Signal",
       "recipeUrl": "/cookbook/5.0/Signal/SignalQuickstart",
-      "imageUrl": "/cookbook/5.0/images/SignalQuickstart.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/SignalQuickstart.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Signal.cs"
     },
     {
@@ -4149,7 +4295,7 @@
       "anchorUrl": "/cookbook/5.0/Signal#SignalStyling",
       "categoryUrl": "/cookbook/5.0/Signal",
       "recipeUrl": "/cookbook/5.0/Signal/SignalStyling",
-      "imageUrl": "/cookbook/5.0/images/SignalStyling.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/SignalStyling.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Signal.cs"
     },
     {
@@ -4163,7 +4309,7 @@
       "anchorUrl": "/cookbook/5.0/Signal#SignalOffset",
       "categoryUrl": "/cookbook/5.0/Signal",
       "recipeUrl": "/cookbook/5.0/Signal/SignalOffset",
-      "imageUrl": "/cookbook/5.0/images/SignalOffset.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/SignalOffset.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Signal.cs"
     },
     {
@@ -4177,7 +4323,7 @@
       "anchorUrl": "/cookbook/5.0/Signal#SignalScaleY",
       "categoryUrl": "/cookbook/5.0/Signal",
       "recipeUrl": "/cookbook/5.0/Signal/SignalScaleY",
-      "imageUrl": "/cookbook/5.0/images/SignalScaleY.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/SignalScaleY.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Signal.cs"
     },
     {
@@ -4191,7 +4337,7 @@
       "anchorUrl": "/cookbook/5.0/Signal#SignalMarkerSize",
       "categoryUrl": "/cookbook/5.0/Signal",
       "recipeUrl": "/cookbook/5.0/Signal/SignalMarkerSize",
-      "imageUrl": "/cookbook/5.0/images/SignalMarkerSize.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/SignalMarkerSize.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Signal.cs"
     },
     {
@@ -4205,7 +4351,7 @@
       "anchorUrl": "/cookbook/5.0/Signal#SignalRenderIndexes",
       "categoryUrl": "/cookbook/5.0/Signal",
       "recipeUrl": "/cookbook/5.0/Signal/SignalRenderIndexes",
-      "imageUrl": "/cookbook/5.0/images/SignalRenderIndexes.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/SignalRenderIndexes.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Signal.cs"
     },
     {
@@ -4219,7 +4365,7 @@
       "anchorUrl": "/cookbook/5.0/Signal#SignalGeneric",
       "categoryUrl": "/cookbook/5.0/Signal",
       "recipeUrl": "/cookbook/5.0/Signal/SignalGeneric",
-      "imageUrl": "/cookbook/5.0/images/SignalGeneric.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/SignalGeneric.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Signal.cs"
     },
     {
@@ -4233,7 +4379,7 @@
       "anchorUrl": "/cookbook/5.0/Signal#SignalDateTime",
       "categoryUrl": "/cookbook/5.0/Signal",
       "recipeUrl": "/cookbook/5.0/Signal/SignalDateTime",
-      "imageUrl": "/cookbook/5.0/images/SignalDateTime.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/SignalDateTime.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Signal.cs"
     },
     {
@@ -4247,7 +4393,7 @@
       "anchorUrl": "/cookbook/5.0/SignalConst#SignalConstQuickstart",
       "categoryUrl": "/cookbook/5.0/SignalConst",
       "recipeUrl": "/cookbook/5.0/SignalConst/SignalConstQuickstart",
-      "imageUrl": "/cookbook/5.0/images/SignalConstQuickstart.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/SignalConstQuickstart.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SignalConst.cs"
     },
     {
@@ -4261,7 +4407,7 @@
       "anchorUrl": "/cookbook/5.0/SignalXY#SignalXYQuickstart",
       "categoryUrl": "/cookbook/5.0/SignalXY",
       "recipeUrl": "/cookbook/5.0/SignalXY/SignalXYQuickstart",
-      "imageUrl": "/cookbook/5.0/images/SignalXYQuickstart.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/SignalXYQuickstart.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SignalXY.cs"
     },
     {
@@ -4275,7 +4421,7 @@
       "anchorUrl": "/cookbook/5.0/SignalXY#SignalXYGeneric",
       "categoryUrl": "/cookbook/5.0/SignalXY",
       "recipeUrl": "/cookbook/5.0/SignalXY/SignalXYGeneric",
-      "imageUrl": "/cookbook/5.0/images/SignalXYGeneric.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/SignalXYGeneric.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SignalXY.cs"
     },
     {
@@ -4289,7 +4435,7 @@
       "anchorUrl": "/cookbook/5.0/SignalXY#SignalXYDateTime",
       "categoryUrl": "/cookbook/5.0/SignalXY",
       "recipeUrl": "/cookbook/5.0/SignalXY/SignalXYDateTime",
-      "imageUrl": "/cookbook/5.0/images/SignalXYDateTime.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/SignalXYDateTime.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SignalXY.cs"
     },
     {
@@ -4303,7 +4449,7 @@
       "anchorUrl": "/cookbook/5.0/SignalXY#SignalXYRenderIndexes",
       "categoryUrl": "/cookbook/5.0/SignalXY",
       "recipeUrl": "/cookbook/5.0/SignalXY/SignalXYRenderIndexes",
-      "imageUrl": "/cookbook/5.0/images/SignalXYRenderIndexes.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/SignalXYRenderIndexes.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SignalXY.cs"
     },
     {
@@ -4317,7 +4463,7 @@
       "anchorUrl": "/cookbook/5.0/SignalXY#SignalXYOffset",
       "categoryUrl": "/cookbook/5.0/SignalXY",
       "recipeUrl": "/cookbook/5.0/SignalXY/SignalXYOffset",
-      "imageUrl": "/cookbook/5.0/images/SignalXYOffset.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/SignalXYOffset.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SignalXY.cs"
     },
     {
@@ -4331,7 +4477,7 @@
       "anchorUrl": "/cookbook/5.0/SignalXY#SignalXYOffsetScaleY",
       "categoryUrl": "/cookbook/5.0/SignalXY",
       "recipeUrl": "/cookbook/5.0/SignalXY/SignalXYOffsetScaleY",
-      "imageUrl": "/cookbook/5.0/images/SignalXYOffsetScaleY.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/SignalXYOffsetScaleY.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SignalXY.cs"
     },
     {
@@ -4345,7 +4491,7 @@
       "anchorUrl": "/cookbook/5.0/SignalXY#VerticalSignalXY",
       "categoryUrl": "/cookbook/5.0/SignalXY",
       "recipeUrl": "/cookbook/5.0/SignalXY/VerticalSignalXY",
-      "imageUrl": "/cookbook/5.0/images/VerticalSignalXY.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/VerticalSignalXY.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SignalXY.cs"
     },
     {
@@ -4359,7 +4505,7 @@
       "anchorUrl": "/cookbook/5.0/SignalXY#SignalXYVerticalInvertedX",
       "categoryUrl": "/cookbook/5.0/SignalXY",
       "recipeUrl": "/cookbook/5.0/SignalXY/SignalXYVerticalInvertedX",
-      "imageUrl": "/cookbook/5.0/images/SignalXYVerticalInvertedX.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/SignalXYVerticalInvertedX.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SignalXY.cs"
     },
     {
@@ -4373,7 +4519,7 @@
       "anchorUrl": "/cookbook/5.0/SignalXY#SignalXYVerticalInvertedY",
       "categoryUrl": "/cookbook/5.0/SignalXY",
       "recipeUrl": "/cookbook/5.0/SignalXY/SignalXYVerticalInvertedY",
-      "imageUrl": "/cookbook/5.0/images/SignalXYVerticalInvertedY.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/SignalXYVerticalInvertedY.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SignalXY.cs"
     },
     {
@@ -4387,7 +4533,7 @@
       "anchorUrl": "/cookbook/5.0/SignalXY#SignalXYMarkers",
       "categoryUrl": "/cookbook/5.0/SignalXY",
       "recipeUrl": "/cookbook/5.0/SignalXY/SignalXYMarkers",
-      "imageUrl": "/cookbook/5.0/images/SignalXYMarkers.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/SignalXYMarkers.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SignalXY.cs"
     },
     {
@@ -4401,7 +4547,7 @@
       "anchorUrl": "/cookbook/5.0/Text#TextQuickstart",
       "categoryUrl": "/cookbook/5.0/Text",
       "recipeUrl": "/cookbook/5.0/Text/TextQuickstart",
-      "imageUrl": "/cookbook/5.0/images/TextQuickstart.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/TextQuickstart.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Text.cs"
     },
     {
@@ -4415,7 +4561,7 @@
       "anchorUrl": "/cookbook/5.0/Text#Formatting",
       "categoryUrl": "/cookbook/5.0/Text",
       "recipeUrl": "/cookbook/5.0/Text/Formatting",
-      "imageUrl": "/cookbook/5.0/images/Formatting.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/Formatting.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Text.cs"
     },
     {
@@ -4429,7 +4575,7 @@
       "anchorUrl": "/cookbook/5.0/Text#LabelLineHeight",
       "categoryUrl": "/cookbook/5.0/Text",
       "recipeUrl": "/cookbook/5.0/Text/LabelLineHeight",
-      "imageUrl": "/cookbook/5.0/images/LabelLineHeight.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/LabelLineHeight.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Text.cs"
     },
     {
@@ -4443,7 +4589,7 @@
       "anchorUrl": "/cookbook/5.0/Text#TextOffset",
       "categoryUrl": "/cookbook/5.0/Text",
       "recipeUrl": "/cookbook/5.0/Text/TextOffset",
-      "imageUrl": "/cookbook/5.0/images/TextOffset.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/TextOffset.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Text.cs"
     },
     {
@@ -4457,7 +4603,7 @@
       "anchorUrl": "/cookbook/5.0/TriangularAxis#TriangularAxisQuickStart",
       "categoryUrl": "/cookbook/5.0/TriangularAxis",
       "recipeUrl": "/cookbook/5.0/TriangularAxis/TriangularAxisQuickStart",
-      "imageUrl": "/cookbook/5.0/images/TriangularAxisQuickStart.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/TriangularAxisQuickStart.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/TriangularAxis.cs"
     },
     {
@@ -4471,7 +4617,7 @@
       "anchorUrl": "/cookbook/5.0/TriangularAxis#TriangularAxisReversed",
       "categoryUrl": "/cookbook/5.0/TriangularAxis",
       "recipeUrl": "/cookbook/5.0/TriangularAxis/TriangularAxisReversed",
-      "imageUrl": "/cookbook/5.0/images/TriangularAxisReversed.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/TriangularAxisReversed.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/TriangularAxis.cs"
     },
     {
@@ -4485,7 +4631,7 @@
       "anchorUrl": "/cookbook/5.0/TriangularAxis#TriangularAxisStyling",
       "categoryUrl": "/cookbook/5.0/TriangularAxis",
       "recipeUrl": "/cookbook/5.0/TriangularAxis/TriangularAxisStyling",
-      "imageUrl": "/cookbook/5.0/images/TriangularAxisStyling.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/TriangularAxisStyling.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/TriangularAxis.cs"
     },
     {
@@ -4499,7 +4645,7 @@
       "anchorUrl": "/cookbook/5.0/TriangularAxis#TriangularAxisEdgeStyling",
       "categoryUrl": "/cookbook/5.0/TriangularAxis",
       "recipeUrl": "/cookbook/5.0/TriangularAxis/TriangularAxisEdgeStyling",
-      "imageUrl": "/cookbook/5.0/images/TriangularAxisEdgeStyling.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/TriangularAxisEdgeStyling.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/TriangularAxis.cs"
     },
     {
@@ -4513,7 +4659,7 @@
       "anchorUrl": "/cookbook/5.0/TriangularAxis#TriangularEdgeTitle",
       "categoryUrl": "/cookbook/5.0/TriangularAxis",
       "recipeUrl": "/cookbook/5.0/TriangularAxis/TriangularEdgeTitle",
-      "imageUrl": "/cookbook/5.0/images/TriangularEdgeTitle.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/TriangularEdgeTitle.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/TriangularAxis.cs"
     },
     {
@@ -4527,7 +4673,7 @@
       "anchorUrl": "/cookbook/5.0/VectorField#VectorFieldQuickstart",
       "categoryUrl": "/cookbook/5.0/VectorField",
       "recipeUrl": "/cookbook/5.0/VectorField/VectorFieldQuickstart",
-      "imageUrl": "/cookbook/5.0/images/VectorFieldQuickstart.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/VectorFieldQuickstart.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/VectorField.cs"
     },
     {
@@ -4541,7 +4687,7 @@
       "anchorUrl": "/cookbook/5.0/VectorField#VectorFieldColormap",
       "categoryUrl": "/cookbook/5.0/VectorField",
       "recipeUrl": "/cookbook/5.0/VectorField/VectorFieldColormap",
-      "imageUrl": "/cookbook/5.0/images/VectorFieldColormap.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/VectorFieldColormap.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/VectorField.cs"
     },
     {
@@ -4555,7 +4701,7 @@
       "anchorUrl": "/cookbook/5.0/VectorField#VectorFieldArrowLength",
       "categoryUrl": "/cookbook/5.0/VectorField",
       "recipeUrl": "/cookbook/5.0/VectorField/VectorFieldArrowLength",
-      "imageUrl": "/cookbook/5.0/images/VectorFieldArrowLength.png?241117162641",
+      "imageUrl": "/cookbook/5.0/images/VectorFieldArrowLength.png?241124170640",
       "sourceUrl": "https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/VectorField.cs"
     }
   ]

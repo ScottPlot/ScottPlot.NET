@@ -4,9 +4,9 @@ Description: A single radar chart can be used to display values from multiple se
 URL: /cookbook/5.0/Radar/RadarMultipleQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Radar Plot", "Radar Plot with Multiple Series"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Radar", "/cookbook/5.0/Radar/RadarMultipleQuickstart"]
-Date: 2024-11-17
-Version: ScottPlot 5.0.46
-Version: ScottPlot 5.0.46
+Date: 2024-11-24
+Version: ScottPlot 5.0.47
+Version: ScottPlot 5.0.47
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 A single radar chart can be used to display values from multiple series using a 2D array
 
-[![](/cookbook/5.0/images/RadarMultipleQuickstart.png?241117162641)](/cookbook/5.0/images/RadarMultipleQuickstart.png?241117162641)
+[![](/cookbook/5.0/images/RadarMultipleQuickstart.png?241124170640)](/cookbook/5.0/images/RadarMultipleQuickstart.png?241124170640)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Radar.cs" imageUrl="/cookbook/5.0/images/RadarMultipleQuickstart.png?241117162641" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Radar.cs" imageUrl="/cookbook/5.0/images/RadarMultipleQuickstart.png?241124170640" >}}ScottPlot.Plot myPlot = new();
 
 double[,] values = {
     { 78,  83, 84, 76, 43 },

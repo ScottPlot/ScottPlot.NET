@@ -4,9 +4,9 @@ Description: The plottable list contains all plottables which will be rendered i
 URL: /cookbook/5.0/PlottableManagement/ChangeOrder/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Plottable Management", "Moving plottables"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/PlottableManagement", "/cookbook/5.0/PlottableManagement/ChangeOrder"]
-Date: 2024-11-17
-Version: ScottPlot 5.0.46
-Version: ScottPlot 5.0.46
+Date: 2024-11-24
+Version: ScottPlot 5.0.47
+Version: ScottPlot 5.0.47
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 The plottable list contains all plottables which will be rendered in order. Helper methods are available to move plottables to the front.
 
-[![](/cookbook/5.0/images/ChangeOrder.png?241117162641)](/cookbook/5.0/images/ChangeOrder.png?241117162641)
+[![](/cookbook/5.0/images/ChangeOrder.png?241124170640)](/cookbook/5.0/images/ChangeOrder.png?241124170640)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/PlottableManagement.cs" imageUrl="/cookbook/5.0/images/ChangeOrder.png?241117162641" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/PlottableManagement.cs" imageUrl="/cookbook/5.0/images/ChangeOrder.png?241124170640" >}}ScottPlot.Plot myPlot = new();
 
 CoordinateRect wideRect = new(-2, 2, -1, 1);
 CoordinateRect tallRect = new(-1, 1, -2, 2);

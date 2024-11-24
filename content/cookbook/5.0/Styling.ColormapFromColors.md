@@ -4,9 +4,9 @@ Description: Colormaps can be created as a gradient between a collection of colo
 URL: /cookbook/5.0/Styling/ColormapFromColors/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Styling Plots", "Colormap Gradient from Colors"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Styling", "/cookbook/5.0/Styling/ColormapFromColors"]
-Date: 2024-11-17
-Version: ScottPlot 5.0.46
-Version: ScottPlot 5.0.46
+Date: 2024-11-24
+Version: ScottPlot 5.0.47
+Version: ScottPlot 5.0.47
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Colormaps can be created as a gradient between a collection of colors.
 
-[![](/cookbook/5.0/images/ColormapFromColors.png?241117162641)](/cookbook/5.0/images/ColormapFromColors.png?241117162641)
+[![](/cookbook/5.0/images/ColormapFromColors.png?241124170640)](/cookbook/5.0/images/ColormapFromColors.png?241124170640)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs" imageUrl="/cookbook/5.0/images/ColormapFromColors.png?241117162641" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs" imageUrl="/cookbook/5.0/images/ColormapFromColors.png?241124170640" >}}ScottPlot.Plot myPlot = new();
 
 Color[] colors = [Colors.Red, Colors.Magenta, Colors.DarkGreen];
 IColormap myColormap = Colormap.FromColors(colors);

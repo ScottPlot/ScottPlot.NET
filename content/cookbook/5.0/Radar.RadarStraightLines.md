@@ -4,9 +4,9 @@ Description: Radial ticks may be rendered using straight lines instead of circle
 URL: /cookbook/5.0/Radar/RadarStraightLines/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Radar Plot", "Radar with Straight Lines"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Radar", "/cookbook/5.0/Radar/RadarStraightLines"]
-Date: 2024-11-17
-Version: ScottPlot 5.0.46
-Version: ScottPlot 5.0.46
+Date: 2024-11-24
+Version: ScottPlot 5.0.47
+Version: ScottPlot 5.0.47
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Radial ticks may be rendered using straight lines instead of circles
 
-[![](/cookbook/5.0/images/RadarStraightLines.png?241117162641)](/cookbook/5.0/images/RadarStraightLines.png?241117162641)
+[![](/cookbook/5.0/images/RadarStraightLines.png?241124170640)](/cookbook/5.0/images/RadarStraightLines.png?241124170640)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Radar.cs" imageUrl="/cookbook/5.0/images/RadarStraightLines.png?241117162641" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Radar.cs" imageUrl="/cookbook/5.0/images/RadarStraightLines.png?241124170640" >}}ScottPlot.Plot myPlot = new();
 
 double[] values = { 78, 83, 100, 76, 43 };
 var radar = myPlot.Add.Radar(values);

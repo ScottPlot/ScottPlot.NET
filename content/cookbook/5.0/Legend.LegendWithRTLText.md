@@ -4,9 +4,9 @@ Description: Enabling Right To Left (RTL) support correctly renders text in RTL 
 URL: /cookbook/5.0/Legend/LegendWithRTLText/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Legends", "Right To Left (RTL) text support"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Legend", "/cookbook/5.0/Legend/LegendWithRTLText"]
-Date: 2024-11-17
-Version: ScottPlot 5.0.46
-Version: ScottPlot 5.0.46
+Date: 2024-11-24
+Version: ScottPlot 5.0.47
+Version: ScottPlot 5.0.47
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Enabling Right To Left (RTL) support correctly renders text in RTL languages.
 
-[![](/cookbook/5.0/images/LegendWithRTLText.png?241117162641)](/cookbook/5.0/images/LegendWithRTLText.png?241117162641)
+[![](/cookbook/5.0/images/LegendWithRTLText.png?241124170640)](/cookbook/5.0/images/LegendWithRTLText.png?241124170640)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Legend.cs" imageUrl="/cookbook/5.0/images/LegendWithRTLText.png?241117162641" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Legend.cs" imageUrl="/cookbook/5.0/images/LegendWithRTLText.png?241124170640" >}}ScottPlot.Plot myPlot = new();
 
 LabelStyle.RTLSupport = true; // enable right-to-left text support
 

@@ -2,13 +2,13 @@
 Title: ScottPlot 5.0 API
 Description: All classes, fields, properties, and methods provided by the ScottPlot package
 URL: /api/5.0/
-Date: 2024-11-17
+Date: 2024-11-24
 ShowEditLink: false
 ---
 
-# ScottPlot 5.0.46 API
+# ScottPlot 5.0.47 API
 
-_Generated 11/17/2024 4:26:41 PM_
+_Generated 11/24/2024 5:06:40 PM_
 
 <div class='my-5'>&nbsp;</div>
 
@@ -47,6 +47,7 @@ a:hover {text-decoration: underline;}
 <div><span class='otherType'>List&lt;ScottPlot.IAxisRule&gt;</span> <span class='name'>Rules</span> <span class='docs'>Rules that are applied before each render</span></div>
 <div><a class='scottPlotType' href='#ScottPlot.Panels.TitlePanel'>ScottPlot.Panels.TitlePanel</a> <span class='name'>Title</span> <span class='docs'>A special panel</span></div>
 <div><a class='scottPlotType' href='#ScottPlot.IXAxis'>ScottPlot.IXAxis</a> <span class='name'>Top</span> <span class='docs'>The primary horizontal axis above the plot</span></div>
+<div><span class='otherType'>void</span> <span class='name'>AutoScaleY(<a class='scottPlotType' href='#ScottPlot.IYAxis'>ScottPlot.IYAxis</a> <span class='name'>yAxis</span>)</span> <span class='docs'>Autoscale the left vertical axis limits to fit the data of all plotted objects</span></div>
 <div><span class='otherType'>void</span> <span class='name'>AutoScale(<span class='otherType'>IEnumerable&lt;ScottPlot.IPlottable&gt;</span> <span class='name'>plottables</span>)</span> <span class='docs'></span></div>
 <div><span class='otherType'>void</span> <span class='name'>AutoScaleX(<span class='otherType'>IEnumerable&lt;ScottPlot.IPlottable&gt;</span> <span class='name'>plottables</span>)</span> <span class='docs'>Autoscale the bottom horizontal axis limits to fit the data of all plotted objects</span></div>
 <div><span class='otherType'>void</span> <span class='name'>AutoScaleY(<span class='otherType'>IEnumerable&lt;ScottPlot.IPlottable&gt;</span> <span class='name'>plottables</span>)</span> <span class='docs'>Autoscale the left vertical axis limits to fit the data of all plotted objects</span></div>
@@ -94,6 +95,7 @@ a:hover {text-decoration: underline;}
 <div><span class='otherType'>void</span> <span class='name'>AddPanel(<a class='scottPlotType' href='#ScottPlot.IPanel'>ScottPlot.IPanel</a> <span class='name'>panel</span>)</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.AxisPanels.DateTimeXAxis'>ScottPlot.AxisPanels.DateTimeXAxis</a> <span class='name'>DateTimeTicksBottom()</span> <span class='docs'>Remove all bottom axes, create a DateTime bottom axis, add it to the plot, and return it.</span></div>
 <div><a class='scottPlotType' href='#ScottPlot.AxisPanels.BottomAxis'>ScottPlot.AxisPanels.BottomAxis</a> <span class='name'>NumericTicksBottom()</span> <span class='docs'>Remove all bottom axes, create a numeric bottom axis, add it to the plot, and return it.</span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Plottables.TickModifierLabel'>ScottPlot.Plottables.TickModifierLabel</a> <span class='name'>SetupMultiplierNotation(<a class='scottPlotType' href='#ScottPlot.IAxis'>ScottPlot.IAxis</a> <span class='name'>axis</span>)</span> <span class='docs'></span></div>
 <div><span class='otherType'>void</span> <span class='name'>AddYAxis(<a class='scottPlotType' href='#ScottPlot.IYAxis'>ScottPlot.IYAxis</a> <span class='name'>axis</span>)</span> <span class='docs'></span></div>
 <div><span class='otherType'>void</span> <span class='name'>AddXAxis(<a class='scottPlotType' href='#ScottPlot.IXAxis'>ScottPlot.IXAxis</a> <span class='name'>axis</span>)</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.AxisPanels.LeftAxis'>ScottPlot.AxisPanels.LeftAxis</a> <span class='name'>AddLeftAxis()</span> <span class='docs'>Crete a new axis, add it to the plot, and return it</span></div>
@@ -141,7 +143,6 @@ a:hover {text-decoration: underline;}
 <div><span class='otherType'>void</span> <span class='name'>AutoScaleX()</span> <span class='docs'>Autoscale the bottom horizontal axis limits to fit the data of all plotted objects</span></div>
 <div><span class='otherType'>void</span> <span class='name'>AutoScaleY()</span> <span class='docs'>Autoscale the left vertical axis limits to fit the data of all plotted objects</span></div>
 <div><span class='otherType'>void</span> <span class='name'>AutoScaleX(<a class='scottPlotType' href='#ScottPlot.IXAxis'>ScottPlot.IXAxis</a> <span class='name'>xAxis</span>)</span> <span class='docs'>Autoscale the bottom horizontal axis limits to fit the data of all plotted objects</span></div>
-<div><span class='otherType'>void</span> <span class='name'>AutoScaleY(<a class='scottPlotType' href='#ScottPlot.IYAxis'>ScottPlot.IYAxis</a> <span class='name'>yAxis</span>)</span> <span class='docs'>Autoscale the left vertical axis limits to fit the data of all plotted objects</span></div>
 <div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.BinarySearchComparer'><a style='color: black;' href='#ScottPlot.BinarySearchComparer'>ScottPlot.BinarySearchComparer</a></div>
 <div class='docs'>&lt;see cref="T:System.Collections.Generic.IComparer`1" /&gt; for various types provided by ScottPlot</div>
@@ -355,7 +356,7 @@ a:hover {text-decoration: underline;}
 <div class='title' id='ScottPlot.ImageOperations'><a style='color: black;' href='#ScottPlot.ImageOperations'>ScottPlot.ImageOperations</a></div>
 <div class='docs'></div>
 </div>
-<div><span class='otherType'>string</span> <span class='name'>GetImageHtml(<span class='otherType'>byte[]</span> <span class='name'>bytes</span>, <span class='otherType'>string</span> <span class='name'>imageType</span>)</span> <span class='docs'></span></div>
+<div><span class='otherType'>string</span> <span class='name'>GetImageHtml(<span class='otherType'>byte[]</span> <span class='name'>bytes</span>, <span class='otherType'>string</span> <span class='name'>imageType</span>, <span class='otherType'>string</span> <span class='name'>classContent</span>, <span class='otherType'>string</span> <span class='name'>styleContent</span>)</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.IArrowShape'><a style='color: black;' href='#ScottPlot.IArrowShape'>ScottPlot.IArrowShape</a></div>
 <div class='docs'>Contains settings and logic for how to draw an arrow
@@ -955,7 +956,7 @@ a:hover {text-decoration: underline;}
 <div><span class='otherType'>void</span> <span class='name'>Render(<span class='otherType'>SkiaSharp.SKSurface</span> <span class='name'>surface</span>)</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.Image'>ScottPlot.Image</a> <span class='name'>GetImage(<span class='otherType'>int</span> <span class='name'>width</span>, <span class='otherType'>int</span> <span class='name'>height</span>)</span> <span class='docs'></span></div>
 <div><span class='otherType'>string</span> <span class='name'>GetImageHtml(<span class='otherType'>int</span> <span class='name'>width</span>, <span class='otherType'>int</span> <span class='name'>height</span>)</span> <span class='docs'></span></div>
-<div><span class='otherType'>string</span> <span class='name'>GetPngHtml(<span class='otherType'>int</span> <span class='name'>width</span>, <span class='otherType'>int</span> <span class='name'>height</span>)</span> <span class='docs'></span></div>
+<div><span class='otherType'>string</span> <span class='name'>GetPngHtml(<span class='otherType'>int</span> <span class='name'>width</span>, <span class='otherType'>int</span> <span class='name'>height</span>, <span class='otherType'>string</span> <span class='name'>classContent</span>, <span class='otherType'>string</span> <span class='name'>styleContent</span>)</span> <span class='docs'></span></div>
 <div><span class='otherType'>string</span> <span class='name'>GetSvgHtml(<span class='otherType'>int</span> <span class='name'>width</span>, <span class='otherType'>int</span> <span class='name'>height</span>)</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.SavedImageInfo'>ScottPlot.SavedImageInfo</a> <span class='name'>SaveJpeg(<span class='otherType'>string</span> <span class='name'>filePath</span>, <span class='otherType'>int</span> <span class='name'>width</span>, <span class='otherType'>int</span> <span class='name'>height</span>, <span class='otherType'>int</span> <span class='name'>quality</span>)</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.SavedImageInfo'>ScottPlot.SavedImageInfo</a> <span class='name'>SavePng(<span class='otherType'>string</span> <span class='name'>filePath</span>, <span class='otherType'>int</span> <span class='name'>width</span>, <span class='otherType'>int</span> <span class='name'>height</span>)</span> <span class='docs'></span></div>
@@ -1004,6 +1005,11 @@ a:hover {text-decoration: underline;}
 </div>
 <div><a class='scottPlotType' href='#ScottPlot.IPalette'>ScottPlot.IPalette</a> <span class='name'>Palette</span> <span class='docs'>Color set used for adding new plottables</span></div>
 <div><a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>Plot</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Plottables.Radar'>ScottPlot.Plottables.Radar</a> <span class='name'>Radar(<span class='otherType'>IEnumerable&lt;IEnumerable&lt;T&gt;&gt;</span> <span class='name'>series</span>)</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Plottables.RadialGaugePlot'>ScottPlot.Plottables.RadialGaugePlot</a> <span class='name'>RadialGaugePlot(<span class='otherType'>IEnumerable&lt;double&gt;</span> <span class='name'>values</span>)</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Plottables.BarPlot'>ScottPlot.Plottables.BarPlot</a> <span class='name'>Ranges(<span class='otherType'>List&lt;ValueTuple&lt;T1, T2&gt;&gt;</span> <span class='name'>ranges</span>, <a class='scottPlotType' href='#ScottPlot.Color?'>ScottPlot.Color?</a> <span class='name'>color</span>, <span class='otherType'>bool</span> <span class='name'>horizontal</span>)</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Plottables.Rectangle'>ScottPlot.Plottables.Rectangle</a> <span class='name'>Rectangle(<a class='scottPlotType' href='#ScottPlot.CoordinateRect'>ScottPlot.CoordinateRect</a> <span class='name'>rect</span>)</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Plottables.Rectangle'>ScottPlot.Plottables.Rectangle</a> <span class='name'>Rectangle(<span class='otherType'>double</span> <span class='name'>left</span>, <span class='otherType'>double</span> <span class='name'>right</span>, <span class='otherType'>double</span> <span class='name'>bottom</span>, <span class='otherType'>double</span> <span class='name'>top</span>)</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.Plottables.ScaleBar'>ScottPlot.Plottables.ScaleBar</a> <span class='name'>ScaleBar(<span class='otherType'>double</span> <span class='name'>width</span>, <span class='otherType'>double</span> <span class='name'>height</span>)</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.Plottables.Scatter'>ScottPlot.Plottables.Scatter</a> <span class='name'>Scatter(<a class='scottPlotType' href='#ScottPlot.IScatterSource'>ScottPlot.IScatterSource</a> <span class='name'>source</span>, <a class='scottPlotType' href='#ScottPlot.Color?'>ScottPlot.Color?</a> <span class='name'>color</span>)</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.Plottables.Scatter'>ScottPlot.Plottables.Scatter</a> <span class='name'>Scatter(<span class='otherType'>double</span> <span class='name'>x</span>, <span class='otherType'>double</span> <span class='name'>y</span>, <a class='scottPlotType' href='#ScottPlot.Color?'>ScottPlot.Color?</a> <span class='name'>color</span>)</span> <span class='docs'></span></div>
@@ -1033,6 +1039,7 @@ a:hover {text-decoration: underline;}
 <div><a class='scottPlotType' href='#ScottPlot.Plottables.SignalXY'>ScottPlot.Plottables.SignalXY</a> <span class='name'>SignalXY(<a class='scottPlotType' href='#ScottPlot.ISignalXYSource'>ScottPlot.ISignalXYSource</a> <span class='name'>source</span>, <a class='scottPlotType' href='#ScottPlot.Color?'>ScottPlot.Color?</a> <span class='name'>color</span>)</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.Plottables.SignalXY'>ScottPlot.Plottables.SignalXY</a> <span class='name'>SignalXY(<span class='otherType'>double[]</span> <span class='name'>xs</span>, <span class='otherType'>double[]</span> <span class='name'>ys</span>, <a class='scottPlotType' href='#ScottPlot.Color?'>ScottPlot.Color?</a> <span class='name'>color</span>)</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.Plottables.SignalXY'>ScottPlot.Plottables.SignalXY</a> <span class='name'>SignalXY(<span class='otherType'>TX[]</span> <span class='name'>xs</span>, <span class='otherType'>TY[]</span> <span class='name'>ys</span>, <a class='scottPlotType' href='#ScottPlot.Color?'>ScottPlot.Color?</a> <span class='name'>color</span>)</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Plottables.BarPlot[]'>ScottPlot.Plottables.BarPlot[]</a> <span class='name'>StackedRanges(<span class='otherType'>List&lt;ValueTuple&lt;T1, T2&gt;&gt;</span> <span class='name'>ranges</span>, <a class='scottPlotType' href='#ScottPlot.IPalette'>ScottPlot.IPalette</a> <span class='name'>palette</span>, <span class='otherType'>bool</span> <span class='name'>horizontal</span>)</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.Plottables.Text'>ScottPlot.Plottables.Text</a> <span class='name'>Text(<span class='otherType'>string</span> <span class='name'>text</span>, <a class='scottPlotType' href='#ScottPlot.Coordinates'>ScottPlot.Coordinates</a> <span class='name'>location</span>)</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.Plottables.Text'>ScottPlot.Plottables.Text</a> <span class='name'>Text(<span class='otherType'>string</span> <span class='name'>text</span>, <span class='otherType'>double</span> <span class='name'>x</span>, <span class='otherType'>double</span> <span class='name'>y</span>)</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.Plottables.TriangularAxis'>ScottPlot.Plottables.TriangularAxis</a> <span class='name'>TriangularAxis(<span class='otherType'>bool</span> <span class='name'>clockwise</span>, <span class='otherType'>bool</span> <span class='name'>hideAxisAndGrid</span>, <span class='otherType'>bool</span> <span class='name'>useSquareAxisUnits</span>)</span> <span class='docs'></span></div>
@@ -1055,6 +1062,9 @@ a:hover {text-decoration: underline;}
 <div><a class='scottPlotType' href='#ScottPlot.Plottables.BarPlot'>ScottPlot.Plottables.BarPlot</a> <span class='name'>Bars(<span class='otherType'>IEnumerable&lt;double&gt;</span> <span class='name'>positions</span>, <span class='otherType'>IEnumerable&lt;double&gt;</span> <span class='name'>values</span>)</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.Plottables.BoxPlot'>ScottPlot.Plottables.BoxPlot</a> <span class='name'>Box(<a class='scottPlotType' href='#ScottPlot.Box'>ScottPlot.Box</a> <span class='name'>box</span>)</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.Plottables.BoxPlot'>ScottPlot.Plottables.BoxPlot</a> <span class='name'>Boxes(<span class='otherType'>IEnumerable&lt;ScottPlot.Box&gt;</span> <span class='name'>boxes</span>)</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Plottables.Bracket'>ScottPlot.Plottables.Bracket</a> <span class='name'>Bracket(<a class='scottPlotType' href='#ScottPlot.Coordinates'>ScottPlot.Coordinates</a> <span class='name'>point1</span>, <a class='scottPlotType' href='#ScottPlot.Coordinates'>ScottPlot.Coordinates</a> <span class='name'>point2</span>, <span class='otherType'>string</span> <span class='name'>label</span>)</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Plottables.Bracket'>ScottPlot.Plottables.Bracket</a> <span class='name'>Bracket(<span class='otherType'>double</span> <span class='name'>x1</span>, <span class='otherType'>double</span> <span class='name'>y1</span>, <span class='otherType'>double</span> <span class='name'>x2</span>, <span class='otherType'>double</span> <span class='name'>y2</span>, <span class='otherType'>string</span> <span class='name'>label</span>)</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Plottables.Bracket'>ScottPlot.Plottables.Bracket</a> <span class='name'>Bracket(<a class='scottPlotType' href='#ScottPlot.CoordinateLine'>ScottPlot.CoordinateLine</a> <span class='name'>line</span>, <span class='otherType'>string</span> <span class='name'>label</span>)</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.Plottables.Callout'>ScottPlot.Plottables.Callout</a> <span class='name'>Callout(<span class='otherType'>string</span> <span class='name'>text</span>, <span class='otherType'>double</span> <span class='name'>textX</span>, <span class='otherType'>double</span> <span class='name'>textY</span>, <span class='otherType'>double</span> <span class='name'>tipX</span>, <span class='otherType'>double</span> <span class='name'>tipY</span>)</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.Plottables.Callout'>ScottPlot.Plottables.Callout</a> <span class='name'>Callout(<span class='otherType'>string</span> <span class='name'>text</span>, <a class='scottPlotType' href='#ScottPlot.Coordinates'>ScottPlot.Coordinates</a> <span class='name'>textLocation</span>, <a class='scottPlotType' href='#ScottPlot.Coordinates'>ScottPlot.Coordinates</a> <span class='name'>tipLocation</span>)</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.Plottables.CandlestickPlot'>ScottPlot.Plottables.CandlestickPlot</a> <span class='name'>Candlestick(<a class='scottPlotType' href='#ScottPlot.OHLC[]'>ScottPlot.OHLC[]</a> <span class='name'>ohlcs</span>)</span> <span class='docs'></span></div>
@@ -1082,6 +1092,7 @@ a:hover {text-decoration: underline;}
 <div><a class='scottPlotType' href='#ScottPlot.Plottables.FunctionPlot'>ScottPlot.Plottables.FunctionPlot</a> <span class='name'>Function(<span class='otherType'>Func&lt;T1, T2&gt;</span> <span class='name'>func</span>)</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.Plottables.Heatmap'>ScottPlot.Plottables.Heatmap</a> <span class='name'>Heatmap(<span class='otherType'>double[,]</span> <span class='name'>intensities</span>)</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.Plottables.Heatmap'>ScottPlot.Plottables.Heatmap</a> <span class='name'>Heatmap(<a class='scottPlotType' href='#ScottPlot.Coordinates3d[,]'>ScottPlot.Coordinates3d[,]</a> <span class='name'>values</span>)</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Plottables.HistogramBars'>ScottPlot.Plottables.HistogramBars</a> <span class='name'>Histogram(<a class='scottPlotType' href='#ScottPlot.Statistics.Histogram'>ScottPlot.Statistics.Histogram</a> <span class='name'>histogram</span>, <a class='scottPlotType' href='#ScottPlot.Color?'>ScottPlot.Color?</a> <span class='name'>color</span>, <span class='otherType'>bool</span> <span class='name'>disableBottomPadding</span>)</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.Plottables.HorizontalLine'>ScottPlot.Plottables.HorizontalLine</a> <span class='name'>HorizontalLine(<span class='otherType'>double</span> <span class='name'>y</span>, <span class='otherType'>single</span> <span class='name'>width</span>, <a class='scottPlotType' href='#ScottPlot.Color?'>ScottPlot.Color?</a> <span class='name'>color</span>, <a class='scottPlotType' href='#ScottPlot.LinePattern'>ScottPlot.LinePattern</a> <span class='name'>pattern</span>)</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.Plottables.HorizontalSpan'>ScottPlot.Plottables.HorizontalSpan</a> <span class='name'>HorizontalSpan(<span class='otherType'>double</span> <span class='name'>x1</span>, <span class='otherType'>double</span> <span class='name'>x2</span>, <a class='scottPlotType' href='#ScottPlot.Color?'>ScottPlot.Color?</a> <span class='name'>color</span>)</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.Plottables.ImageMarker'>ScottPlot.Plottables.ImageMarker</a> <span class='name'>ImageMarker(<a class='scottPlotType' href='#ScottPlot.Coordinates'>ScottPlot.Coordinates</a> <span class='name'>location</span>, <a class='scottPlotType' href='#ScottPlot.Image'>ScottPlot.Image</a> <span class='name'>image</span>, <span class='otherType'>single</span> <span class='name'>scale</span>)</span> <span class='docs'></span></div>
@@ -1113,10 +1124,6 @@ a:hover {text-decoration: underline;}
 <div><a class='scottPlotType' href='#ScottPlot.Plottables.Radar'>ScottPlot.Plottables.Radar</a> <span class='name'>Radar()</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.Plottables.Radar'>ScottPlot.Plottables.Radar</a> <span class='name'>Radar(<span class='otherType'>double[]</span> <span class='name'>values</span>)</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.Plottables.Radar'>ScottPlot.Plottables.Radar</a> <span class='name'>Radar(<span class='otherType'>double[,]</span> <span class='name'>values</span>)</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.Plottables.Radar'>ScottPlot.Plottables.Radar</a> <span class='name'>Radar(<span class='otherType'>IEnumerable&lt;IEnumerable&lt;T&gt;&gt;</span> <span class='name'>series</span>)</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.Plottables.RadialGaugePlot'>ScottPlot.Plottables.RadialGaugePlot</a> <span class='name'>RadialGaugePlot(<span class='otherType'>IEnumerable&lt;double&gt;</span> <span class='name'>values</span>)</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.Plottables.Rectangle'>ScottPlot.Plottables.Rectangle</a> <span class='name'>Rectangle(<a class='scottPlotType' href='#ScottPlot.CoordinateRect'>ScottPlot.CoordinateRect</a> <span class='name'>rect</span>)</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.Plottables.Rectangle'>ScottPlot.Plottables.Rectangle</a> <span class='name'>Rectangle(<span class='otherType'>double</span> <span class='name'>left</span>, <span class='otherType'>double</span> <span class='name'>right</span>, <span class='otherType'>double</span> <span class='name'>bottom</span>, <span class='otherType'>double</span> <span class='name'>top</span>)</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.Alignment'><a style='color: black;' href='#ScottPlot.Alignment'>ScottPlot.Alignment</a></div>
 <div class='docs'>Represents the location of a point relative to a rectangle.
@@ -2192,6 +2199,8 @@ a:hover {text-decoration: underline;}
 <div><a class='scottPlotType' href='#ScottPlot.Color?'>ScottPlot.Color?</a> <span class='name'>FontColor</span> <span class='docs'>If set, this overrides the value in the LegendItem's FontStyle</span></div>
 <div><span class='otherType'>string</span> <span class='name'>FontName</span> <span class='docs'>If set, this overrides the value in the LegendItem's FontStyle</span></div>
 <div><span class='otherType'>single?</span> <span class='name'>FontSize</span> <span class='docs'>If set, this overrides the value in the LegendItem's FontStyle</span></div>
+<div><span class='otherType'>double</span> <span class='name'>HiddenItemOpacity</span> <span class='docs'>This property controls how visible legend items are when their parent control's visibility is disabled.
+            This property is only used when &lt;see cref="P:ScottPlot.Legend.ShowItemsFromHiddenPlottables" /&gt; is enabled.</span></div>
 <div><a class='scottPlotType' href='#ScottPlot.PixelPadding'>ScottPlot.PixelPadding</a> <span class='name'>InterItemPadding</span> <span class='docs'>Space separating legend items</span></div>
 <div><span class='otherType'>bool</span> <span class='name'>IsVisible</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.PixelSize'>ScottPlot.PixelSize</a> <span class='name'>LastRenderSize</span> <span class='docs'></span></div>
@@ -2215,18 +2224,21 @@ a:hover {text-decoration: underline;}
 <div><a class='scottPlotType' href='#ScottPlot.FillStyle'>ScottPlot.FillStyle</a> <span class='name'>ShadowFillStyle</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.PixelOffset'>ScottPlot.PixelOffset</a> <span class='name'>ShadowOffset</span> <span class='docs'></span></div>
 <div><span class='otherType'>bool</span> <span class='name'>ShowItemRectangles_DEBUG</span> <span class='docs'></span></div>
+<div><span class='otherType'>bool</span> <span class='name'>ShowItemsFromHiddenPlottables</span> <span class='docs'>If enabled, the legend will include items from hidden plottables.
+            They will be partially painted over using the background color to simulate semitransparency.</span></div>
 <div><span class='otherType'>single</span> <span class='name'>SymbolPadding</span> <span class='docs'>Padding between a symbol and label within a legend item</span></div>
 <div><span class='otherType'>single</span> <span class='name'>SymbolWidth</span> <span class='docs'>Width of the symbol in a legend item</span></div>
 <div><span class='otherType'>bool</span> <span class='name'>TightHorizontalWrapping</span> <span class='docs'>If enabled, items in horizontal oriented legends will not
             be aligned in columns but instead resized tightly to fit their contents</span></div>
 <div><a class='scottPlotType' href='#ScottPlot.AxisLimits'>ScottPlot.AxisLimits</a> <span class='name'>GetAxisLimits()</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.LegendItem[]'>ScottPlot.LegendItem[]</a> <span class='name'>GetItems()</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.LegendLayout'>ScottPlot.LegendLayout</a> <span class='name'>GetLayout(<a class='scottPlotType' href='#ScottPlot.PixelSize'>ScottPlot.PixelSize</a> <span class='name'>size</span>)</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.Image'>ScottPlot.Image</a> <span class='name'>GetImage()</span> <span class='docs'>Return an Image containing just the legend</span></div>
 <div><span class='otherType'>string</span> <span class='name'>GetSvgXml()</span> <span class='docs'>Return contents of a SVG image containing just the legend
             
             &lt;returns&gt;&lt;/returns&gt;</span></div>
 <div><span class='otherType'>void</span> <span class='name'>Render(<a class='scottPlotType' href='#ScottPlot.RenderPack'>ScottPlot.RenderPack</a> <span class='name'>rp</span>)</span> <span class='docs'></span></div>
-<div><span class='otherType'>void</span> <span class='name'>Render(<a class='scottPlotType' href='#ScottPlot.RenderPack'>ScottPlot.RenderPack</a> <span class='name'>rp</span>, <a class='scottPlotType' href='#ScottPlot.PixelRect'>ScottPlot.PixelRect</a> <span class='name'>rect</span>, <a class='scottPlotType' href='#ScottPlot.Alignment'>ScottPlot.Alignment</a> <span class='name'>alignment</span>)</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>Render(<span class='otherType'>SkiaSharp.SKCanvas</span> <span class='name'>canvs</span>, <a class='scottPlotType' href='#ScottPlot.PixelRect'>ScottPlot.PixelRect</a> <span class='name'>rect</span>, <a class='scottPlotType' href='#ScottPlot.Alignment'>ScottPlot.Alignment</a> <span class='name'>alignment</span>)</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.LegendItem'><a style='color: black;' href='#ScottPlot.LegendItem'>ScottPlot.LegendItem</a></div>
 <div class='docs'></div>
@@ -3040,10 +3052,6 @@ a:hover {text-decoration: underline;}
 <div><a class='scottPlotType' href='#ScottPlot.Image'>ScottPlot.Image</a> <span class='name'>NoiseGrayscale(<span class='otherType'>int</span> <span class='name'>width</span>, <span class='otherType'>int</span> <span class='name'>height</span>, <span class='otherType'>int</span> <span class='name'>seed</span>)</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.Image'>ScottPlot.Image</a> <span class='name'>NoisyText(<span class='otherType'>string</span> <span class='name'>text</span>, <span class='otherType'>int</span> <span class='name'>width</span>, <span class='otherType'>int</span> <span class='name'>height</span>)</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
-<div class='title' id='ScottPlot.TODO'><a style='color: black;' href='#ScottPlot.TODO'>ScottPlot.TODO</a></div>
-<div class='docs'></div>
-</div>
-<div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.Version'><a style='color: black;' href='#ScottPlot.Version'>ScottPlot.Version</a></div>
 <div class='docs'></div>
 </div>
@@ -3408,6 +3416,11 @@ a:hover {text-decoration: underline;}
 <div><span class='otherType'>string</span> <span class='name'>GetDateTimeFormatString()</span> <span class='docs'></span></div>
 <div><span class='otherType'>DateTime</span> <span class='name'>Next(<span class='otherType'>DateTime</span> <span class='name'>dateTime</span>, <span class='otherType'>int</span> <span class='name'>increment</span>)</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
+<div class='title' id='ScottPlot.TickGenerators.Financial.EveryNthUnit'><a style='color: black;' href='#ScottPlot.TickGenerators.Financial.EveryNthUnit'>ScottPlot.TickGenerators.Financial.EveryNthUnit</a></div>
+<div class='docs'></div>
+</div>
+<div><span class='otherType'>List&lt;ValueTuple&lt;T1, T2&gt;&gt;</span> <span class='name'>GetTicks(<span class='otherType'>DateTime[]</span> <span class='name'>DateTimes</span>, <span class='otherType'>int</span> <span class='name'>minIndexInView</span>, <span class='otherType'>int</span> <span class='name'>maxIndexInView</span>)</span> <span class='docs'></span></div>
+<div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.TickGenerators.Financial.Months'><a style='color: black;' href='#ScottPlot.TickGenerators.Financial.Months'>ScottPlot.TickGenerators.Financial.Months</a></div>
 <div class='docs'></div>
 </div>
@@ -3632,6 +3645,42 @@ a:hover {text-decoration: underline;}
 <div><a class='scottPlotType' href='#ScottPlot.LineStyle'>ScottPlot.LineStyle</a> <span class='name'>AxisStyle</span> <span class='docs'></span></div>
 <div><span class='otherType'>void</span> <span class='name'>Render(<a class='scottPlotType' href='#ScottPlot.RenderPack'>ScottPlot.RenderPack</a> <span class='name'>rp</span>, <a class='scottPlotType' href='#ScottPlot.IAxes'>ScottPlot.IAxes</a> <span class='name'>axes</span>, <span class='otherType'>double</span> <span class='name'>maxSpokeLength</span>, <span class='otherType'>int</span> <span class='name'>numSpokes</span>, <span class='otherType'>single</span> <span class='name'>rotationDegrees</span>)</span> <span class='docs'></span></div>
 <div><span class='otherType'>void</span> <span class='name'>RenderSpokes(<a class='scottPlotType' href='#ScottPlot.RenderPack'>ScottPlot.RenderPack</a> <span class='name'>rp</span>, <a class='scottPlotType' href='#ScottPlot.IAxes'>ScottPlot.IAxes</a> <span class='name'>axes</span>, <span class='otherType'>double</span> <span class='name'>spokeLength</span>, <span class='otherType'>int</span> <span class='name'>numSpokes</span>, <span class='otherType'>single</span> <span class='name'>rotationDegrees</span>)</span> <span class='docs'></span></div>
+<div style='margin-top: 2em'>
+<div class='title' id='ScottPlot.Reporting.HtmlReport'><a style='color: black;' href='#ScottPlot.Reporting.HtmlReport'>ScottPlot.Reporting.HtmlReport</a></div>
+<div class='docs'></div>
+</div>
+<div><span class='otherType'>int</span> <span class='name'>DefaultPlotHeight</span> <span class='docs'></span></div>
+<div><span class='otherType'>int</span> <span class='name'>DefaultPlotWidth</span> <span class='docs'></span></div>
+<div><span class='otherType'>string</span> <span class='name'>Description</span> <span class='docs'></span></div>
+<div><span class='otherType'>List&lt;ScottPlot.Reporting.PlotFigure&gt;</span> <span class='name'>Figures</span> <span class='docs'></span></div>
+<div><span class='otherType'>string</span> <span class='name'>Template</span> <span class='docs'></span></div>
+<div><span class='otherType'>string</span> <span class='name'>Title</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>Add(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>plot</span>, <span class='otherType'>string</span> <span class='name'>title</span>, <span class='otherType'>string</span> <span class='name'>description</span>)</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>AddHeading(<span class='otherType'>string</span> <span class='name'>text</span>, <span class='otherType'>int</span> <span class='name'>level</span>)</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>AddParagraph(<span class='otherType'>string</span> <span class='name'>text</span>)</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>AddHtml(<span class='otherType'>string</span> <span class='name'>html</span>)</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>AddPlotPng(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>plot</span>, <span class='otherType'>string</span> <span class='name'>title</span>, <span class='otherType'>string</span> <span class='name'>description</span>)</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>AddPlotPng(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>plot</span>, <span class='otherType'>string</span> <span class='name'>title</span>, <span class='otherType'>string</span> <span class='name'>description</span>, <span class='otherType'>int</span> <span class='name'>width</span>, <span class='otherType'>int</span> <span class='name'>height</span>)</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>AddPlotSvg(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>plot</span>, <span class='otherType'>string</span> <span class='name'>title</span>, <span class='otherType'>string</span> <span class='name'>description</span>)</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>AddPlotSvg(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>plot</span>, <span class='otherType'>string</span> <span class='name'>title</span>, <span class='otherType'>string</span> <span class='name'>description</span>, <span class='otherType'>int</span> <span class='name'>width</span>, <span class='otherType'>int</span> <span class='name'>height</span>)</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>AddPageBreak()</span> <span class='docs'></span></div>
+<div><span class='otherType'>string</span> <span class='name'>GetHtml()</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>SaveAs(<span class='otherType'>string</span> <span class='name'>filePath</span>)</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>Add(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>plot</span>, <span class='otherType'>string</span> <span class='name'>title</span>, <span class='otherType'>string</span> <span class='name'>description</span>)</span> <span class='docs'></span></div>
+<div style='margin-top: 2em'>
+<div class='title' id='ScottPlot.Reporting.PlotCollection'><a style='color: black;' href='#ScottPlot.Reporting.PlotCollection'>ScottPlot.Reporting.PlotCollection</a></div>
+<div class='docs'></div>
+</div>
+<div><span class='otherType'>List&lt;ScottPlot.Reporting.PlotFigure&gt;</span> <span class='name'>Figures</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>Add(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>plot</span>, <span class='otherType'>string</span> <span class='name'>title</span>, <span class='otherType'>string</span> <span class='name'>description</span>)</span> <span class='docs'></span></div>
+<div style='margin-top: 2em'>
+<div class='title' id='ScottPlot.Reporting.PlotFigure'><a style='color: black;' href='#ScottPlot.Reporting.PlotFigure'>ScottPlot.Reporting.PlotFigure</a></div>
+<div class='docs'></div>
+</div>
+<div><span class='otherType'>string</span> <span class='name'>Description</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>Plot</span> <span class='docs'></span></div>
+<div><span class='otherType'>string</span> <span class='name'>Title</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Reporting.PlotFigure'>ScottPlot.Reporting.PlotFigure</a> <span class='name'><Clone>$()</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.Rendering.RenderManager'><a style='color: black;' href='#ScottPlot.Rendering.RenderManager'>ScottPlot.Rendering.RenderManager</a></div>
 <div class='docs'></div>
@@ -3996,6 +4045,22 @@ a:hover {text-decoration: underline;}
 <div><a class='scottPlotType' href='#ScottPlot.AxisLimits'>ScottPlot.AxisLimits</a> <span class='name'>GetAxisLimits()</span> <span class='docs'></span></div>
 <div><span class='otherType'>void</span> <span class='name'>Render(<a class='scottPlotType' href='#ScottPlot.RenderPack'>ScottPlot.RenderPack</a> <span class='name'>rp</span>)</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
+<div class='title' id='ScottPlot.Plottables.Bracket'><a style='color: black;' href='#ScottPlot.Plottables.Bracket'>ScottPlot.Plottables.Bracket</a></div>
+<div class='docs'></div>
+</div>
+<div><a class='scottPlotType' href='#ScottPlot.IAxes'>ScottPlot.IAxes</a> <span class='name'>Axes</span> <span class='docs'></span></div>
+<div><span class='otherType'>single</span> <span class='name'>EdgeLength</span> <span class='docs'>Size of the small lines (in pixels) placed the edges of the bracket and between the center of the bracket and the label</span></div>
+<div><span class='otherType'>bool</span> <span class='name'>IsVisible</span> <span class='docs'></span></div>
+<div><span class='otherType'>bool</span> <span class='name'>LabelCounterClockwise</span> <span class='docs'>Controls whether the tip of the bracket is counter-clockwise from the line formed by the bracket base.</span></div>
+<div><a class='scottPlotType' href='#ScottPlot.LabelStyle'>ScottPlot.LabelStyle</a> <span class='name'>LabelStyle</span> <span class='docs'></span></div>
+<div><span class='otherType'>IEnumerable&lt;ScottPlot.LegendItem&gt;</span> <span class='name'>LegendItems</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.LineStyle'>ScottPlot.LineStyle</a> <span class='name'>LineStyle</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Coordinates'>ScottPlot.Coordinates</a> <span class='name'>Point1</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Coordinates'>ScottPlot.Coordinates</a> <span class='name'>Point2</span> <span class='docs'></span></div>
+<div><span class='otherType'>string</span> <span class='name'>Text</span> <span class='docs'>Text displayed near the center of the bracket</span></div>
+<div><a class='scottPlotType' href='#ScottPlot.AxisLimits'>ScottPlot.AxisLimits</a> <span class='name'>GetAxisLimits()</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>Render(<a class='scottPlotType' href='#ScottPlot.RenderPack'>ScottPlot.RenderPack</a> <span class='name'>rp</span>)</span> <span class='docs'></span></div>
+<div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.Plottables.Callout'><a style='color: black;' href='#ScottPlot.Plottables.Callout'>ScottPlot.Plottables.Callout</a></div>
 <div class='docs'></div>
 </div>
@@ -4267,6 +4332,20 @@ a:hover {text-decoration: underline;}
 <div><span class='otherType'>void</span> <span class='name'>Add(<a class='scottPlotType' href='#ScottPlot.Coordinates'>ScottPlot.Coordinates</a> <span class='name'>point</span>)</span> <span class='docs'></span></div>
 <div><span class='otherType'>void</span> <span class='name'>Render(<a class='scottPlotType' href='#ScottPlot.RenderPack'>ScottPlot.RenderPack</a> <span class='name'>rp</span>)</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
+<div class='title' id='ScottPlot.Plottables.DraggablePlottableDecorator'><a style='color: black;' href='#ScottPlot.Plottables.DraggablePlottableDecorator'>ScottPlot.Plottables.DraggablePlottableDecorator</a></div>
+<div class='docs'></div>
+</div>
+<div><a class='scottPlotType' href='#ScottPlot.IAxes'>ScottPlot.IAxes</a> <span class='name'>Axes</span> <span class='docs'></span></div>
+<div><span class='otherType'>bool</span> <span class='name'>IsVisible</span> <span class='docs'></span></div>
+<div><span class='otherType'>IEnumerable&lt;ScottPlot.LegendItem&gt;</span> <span class='name'>LegendItems</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.IPlottable'>ScottPlot.IPlottable</a> <span class='name'>Source</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>StartDrag(<a class='scottPlotType' href='#ScottPlot.Coordinates'>ScottPlot.Coordinates</a> <span class='name'>start</span>)</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>DragTo(<a class='scottPlotType' href='#ScottPlot.Coordinates'>ScottPlot.Coordinates</a> <span class='name'>to</span>)</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.AxisLimits'>ScottPlot.AxisLimits</a> <span class='name'>GetAxisLimits()</span> <span class='docs'></span></div>
+<div><span class='otherType'>bool</span> <span class='name'>IsHit(<a class='scottPlotType' href='#ScottPlot.Pixel'>ScottPlot.Pixel</a> <span class='name'>pixel</span>, <span class='otherType'>single</span> <span class='name'>radius</span>)</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>Render(<a class='scottPlotType' href='#ScottPlot.RenderPack'>ScottPlot.RenderPack</a> <span class='name'>rp</span>)</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>Dispose()</span> <span class='docs'></span></div>
+<div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.Plottables.Ellipse'><a style='color: black;' href='#ScottPlot.Plottables.Ellipse'>ScottPlot.Plottables.Ellipse</a></div>
 <div class='docs'></div>
 </div>
@@ -4411,6 +4490,7 @@ a:hover {text-decoration: underline;}
 <div><span class='otherType'>double</span> <span class='name'>Opacity</span> <span class='docs'>Controls the opacity of the entire heatmap from 0 (transparent) to 1 (opaque)</span></div>
 <div><a class='scottPlotType' href='#ScottPlot.CoordinateRect?'>ScottPlot.CoordinateRect?</a> <span class='name'>Position</span> <span class='docs'>If defined, the this rectangle sets the axis boundaries of heatmap data.
             Note that the actual heatmap area is 1 cell larger than this rectangle.</span></div>
+<div><a class='scottPlotType' href='#ScottPlot.CoordinateRect?'>ScottPlot.CoordinateRect?</a> <span class='name'>Rectangle</span> <span class='docs'>If defined, the heatmap will be rendered within the edges of this rectangle.</span></div>
 <div><span class='otherType'>bool</span> <span class='name'>Smooth</span> <span class='docs'></span></div>
 <div><span class='otherType'>void</span> <span class='name'>Update()</span> <span class='docs'>Regenerate the image using the present settings and data in &lt;see cref="P:ScottPlot.Plottables.Heatmap.Intensities" /&gt;</span></div>
 <div><a class='scottPlotType' href='#ScottPlot.AxisLimits'>ScottPlot.AxisLimits</a> <span class='name'>GetAxisLimits()</span> <span class='docs'></span></div>
@@ -4418,6 +4498,31 @@ a:hover {text-decoration: underline;}
 <div><span class='otherType'>double</span> <span class='name'>GetValue(<a class='scottPlotType' href='#ScottPlot.Coordinates'>ScottPlot.Coordinates</a> <span class='name'>coordinates</span>)</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.Range'>ScottPlot.Range</a> <span class='name'>GetRange()</span> <span class='docs'></span></div>
 <div><span class='otherType'>void</span> <span class='name'>Render(<a class='scottPlotType' href='#ScottPlot.RenderPack'>ScottPlot.RenderPack</a> <span class='name'>rp</span>)</span> <span class='docs'></span></div>
+<div style='margin-top: 2em'>
+<div class='title' id='ScottPlot.Plottables.HistogramBars'><a style='color: black;' href='#ScottPlot.Plottables.HistogramBars'>ScottPlot.Plottables.HistogramBars</a></div>
+<div class='docs'></div>
+</div>
+<div><a class='scottPlotType' href='#ScottPlot.IAxes'>ScottPlot.IAxes</a> <span class='name'>Axes</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Bar[]'>ScottPlot.Bar[]</a> <span class='name'>Bars</span> <span class='docs'></span></div>
+<div><span class='otherType'>double</span> <span class='name'>BarWidthFraction</span> <span class='docs'></span></div>
+<div><span class='otherType'>bool</span> <span class='name'>IsVisible</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.LabelStyle'>ScottPlot.LabelStyle</a> <span class='name'>LabelStyle</span> <span class='docs'></span></div>
+<div><span class='otherType'>IEnumerable&lt;ScottPlot.LegendItem&gt;</span> <span class='name'>LegendItems</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.AxisLimits'>ScottPlot.AxisLimits</a> <span class='name'>GetAxisLimits()</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>Render(<a class='scottPlotType' href='#ScottPlot.RenderPack'>ScottPlot.RenderPack</a> <span class='name'>rp</span>)</span> <span class='docs'></span></div>
+<div style='margin-top: 2em'>
+<div class='title' id='ScottPlot.Plottables.HittablePlottableDecorator'><a style='color: black;' href='#ScottPlot.Plottables.HittablePlottableDecorator'>ScottPlot.Plottables.HittablePlottableDecorator</a></div>
+<div class='docs'>This class wraps an &lt;see cref="T:ScottPlot.IPlottable" /&gt; to give it a 
+            pixel-based hit detection map that can be used for mouse interaction</div>
+</div>
+<div><a class='scottPlotType' href='#ScottPlot.IAxes'>ScottPlot.IAxes</a> <span class='name'>Axes</span> <span class='docs'></span></div>
+<div><span class='otherType'>bool</span> <span class='name'>IsVisible</span> <span class='docs'></span></div>
+<div><span class='otherType'>IEnumerable&lt;ScottPlot.LegendItem&gt;</span> <span class='name'>LegendItems</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.IPlottable'>ScottPlot.IPlottable</a> <span class='name'>Source</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.AxisLimits'>ScottPlot.AxisLimits</a> <span class='name'>GetAxisLimits()</span> <span class='docs'></span></div>
+<div><span class='otherType'>bool</span> <span class='name'>IsHit(<a class='scottPlotType' href='#ScottPlot.Pixel'>ScottPlot.Pixel</a> <span class='name'>pixel</span>, <span class='otherType'>single</span> <span class='name'>radius</span>)</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>Render(<a class='scottPlotType' href='#ScottPlot.RenderPack'>ScottPlot.RenderPack</a> <span class='name'>rp</span>)</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>Dispose()</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.Plottables.HorizontalLine'><a style='color: black;' href='#ScottPlot.Plottables.HorizontalLine'>ScottPlot.Plottables.HorizontalLine</a></div>
 <div class='docs'>A line at a defined Y position that spans the entire horizontal space of the data area</div>
@@ -5149,6 +5254,22 @@ a:hover {text-decoration: underline;}
 <div><span class='otherType'>single</span> <span class='name'>Rotation</span> <span class='docs'></span></div>
 <div><span class='otherType'>single</span> <span class='name'>Size</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.AxisLimits'>ScottPlot.AxisLimits</a> <span class='name'>GetAxisLimits()</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>Render(<a class='scottPlotType' href='#ScottPlot.RenderPack'>ScottPlot.RenderPack</a> <span class='name'>rp</span>)</span> <span class='docs'></span></div>
+<div style='margin-top: 2em'>
+<div class='title' id='ScottPlot.Plottables.TickModifierLabel'><a style='color: black;' href='#ScottPlot.Plottables.TickModifierLabel'>ScottPlot.Plottables.TickModifierLabel</a></div>
+<div class='docs'>This plottable contains logic to modify tick labels to display them
+            using scientific notation with a multiplier displaed as text 
+            placed just outside the corner of the data area.</div>
+</div>
+<div><a class='scottPlotType' href='#ScottPlot.IAxes'>ScottPlot.IAxes</a> <span class='name'>Axes</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.IAxis'>ScottPlot.IAxis</a> <span class='name'>Axis</span> <span class='docs'>The axis this tick modifier will modify tick labels for</span></div>
+<div><span class='otherType'>Func&lt;T1, T2&gt;</span> <span class='name'>GetTextPixel</span> <span class='docs'>This logic determines where the text will be placed relative to the data area</span></div>
+<div><span class='otherType'>bool</span> <span class='name'>IsVisible</span> <span class='docs'></span></div>
+<div><span class='otherType'>Func&lt;T1, T2&gt;</span> <span class='name'>LabelFormatter</span> <span class='docs'>This logic determines how to display the exponent as a string</span></div>
+<div><a class='scottPlotType' href='#ScottPlot.LabelStyle'>ScottPlot.LabelStyle</a> <span class='name'>LabelStyle</span> <span class='docs'></span></div>
+<div><span class='otherType'>IEnumerable&lt;ScottPlot.LegendItem&gt;</span> <span class='name'>LegendItems</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.AxisLimits'>ScottPlot.AxisLimits</a> <span class='name'>GetAxisLimits()</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>UpdateTickLabels()</span> <span class='docs'></span></div>
 <div><span class='otherType'>void</span> <span class='name'>Render(<a class='scottPlotType' href='#ScottPlot.RenderPack'>ScottPlot.RenderPack</a> <span class='name'>rp</span>)</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.Plottables.TINPlot'><a style='color: black;' href='#ScottPlot.Plottables.TINPlot'>ScottPlot.Plottables.TINPlot</a></div>
@@ -7911,12 +8032,13 @@ a:hover {text-decoration: underline;}
 <div class='docs'></div>
 </div>
 <div><a class='scottPlotType' href='#ScottPlot.AxisManager'>ScottPlot.AxisManager</a> <span class='name'><>9</span> <span class='docs'></span></div>
-<div><span class='otherType'>Action&lt;ScottPlot.IXAxis&gt;</span> <span class='name'><>9__134_0</span> <span class='docs'></span></div>
-<div><span class='otherType'>Action&lt;ScottPlot.IYAxis&gt;</span> <span class='name'><>9__134_1</span> <span class='docs'></span></div>
+<div><span class='otherType'>Action&lt;ScottPlot.IXAxis&gt;</span> <span class='name'><>9__135_0</span> <span class='docs'></span></div>
+<div><span class='otherType'>Action&lt;ScottPlot.IYAxis&gt;</span> <span class='name'><>9__135_1</span> <span class='docs'></span></div>
 <div><span class='otherType'>Func&lt;T1, T2&gt;</span> <span class='name'><>9__21_0</span> <span class='docs'></span></div>
 <div><span class='otherType'>Func&lt;T1, T2&gt;</span> <span class='name'><>9__23_0</span> <span class='docs'></span></div>
 <div><span class='otherType'>Func&lt;T1, T2&gt;</span> <span class='name'><>9__25_0</span> <span class='docs'></span></div>
 <div><span class='otherType'>Func&lt;T1, T2&gt;</span> <span class='name'><>9__27_0</span> <span class='docs'></span></div>
+<div><span class='otherType'>Func&lt;T1, T2&gt;</span> <span class='name'><>9__64_1</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.AxisManager'><a style='color: black;' href='#ScottPlot.AxisManager'>ScottPlot.AxisManager</a></div>
 <div class='docs'></div>
@@ -7975,6 +8097,12 @@ a:hover {text-decoration: underline;}
 <div class='docs'></div>
 </div>
 <div><a class='scottPlotType' href='#ScottPlot.IAxis'>ScottPlot.IAxis</a> <span class='name'>axis</span> <span class='docs'></span></div>
+<div style='margin-top: 2em'>
+<div class='title' id='ScottPlot.AxisManager'><a style='color: black;' href='#ScottPlot.AxisManager'>ScottPlot.AxisManager</a></div>
+<div class='docs'></div>
+</div>
+<div><a class='scottPlotType' href='#ScottPlot.IAxis'>ScottPlot.IAxis</a> <span class='name'>axis</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Plottables.TickModifierLabel'>ScottPlot.Plottables.TickModifierLabel</a> <span class='name'>tickModifier</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.MinMaxCache'><a style='color: black;' href='#ScottPlot.MinMaxCache'>ScottPlot.MinMaxCache</a></div>
 <div class='docs'></div>
@@ -8113,9 +8241,12 @@ a:hover {text-decoration: underline;}
 <div class='docs'></div>
 </div>
 <div><a class='scottPlotType' href='#ScottPlot.PlottableAdder'>ScottPlot.PlottableAdder</a> <span class='name'><>9</span> <span class='docs'></span></div>
+<div><span class='otherType'>Func&lt;T1, T2&gt;</span> <span class='name'><>9__121_0</span> <span class='docs'></span></div>
 <div><span class='otherType'>Func&lt;T1, T2&gt;</span> <span class='name'><>9__20_0</span> <span class='docs'></span></div>
 <div><span class='otherType'>Func&lt;T1, T2, T3&gt;</span> <span class='name'><>9__22_0</span> <span class='docs'></span></div>
-<div><span class='otherType'>Func&lt;T1, T2&gt;</span> <span class='name'><>9__83_0</span> <span class='docs'></span></div>
+<div><span class='otherType'>Func&lt;T1, T2&gt;</span> <span class='name'><>9__87_0</span> <span class='docs'></span></div>
+<div><span class='otherType'>Func&lt;T1, T2&gt;</span> <span class='name'><>9__89_0</span> <span class='docs'></span></div>
+<div><span class='otherType'>Func&lt;T1, T2&gt;</span> <span class='name'><>9__89_1</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.PlottableAdder'><a style='color: black;' href='#ScottPlot.PlottableAdder'>ScottPlot.PlottableAdder</a></div>
 <div class='docs'></div>
@@ -8199,10 +8330,9 @@ a:hover {text-decoration: underline;}
 <div class='docs'></div>
 </div>
 <div><a class='scottPlotType' href='#ScottPlot.Legend'>ScottPlot.Legend</a> <span class='name'><>9</span> <span class='docs'></span></div>
-<div><span class='otherType'>Func&lt;T1, T2&gt;</span> <span class='name'><>9__139_0</span> <span class='docs'></span></div>
-<div><span class='otherType'>Func&lt;T1, T2&gt;</span> <span class='name'><>9__139_1</span> <span class='docs'></span></div>
-<div><span class='otherType'>Func&lt;T1, T2&gt;</span> <span class='name'><>9__139_2</span> <span class='docs'></span></div>
-<div><span class='otherType'>Func&lt;T1, T2&gt;</span> <span class='name'><>9__139_3</span> <span class='docs'></span></div>
+<div><span class='otherType'>Func&lt;T1, T2&gt;</span> <span class='name'><>9__147_0</span> <span class='docs'></span></div>
+<div><span class='otherType'>Func&lt;T1, T2&gt;</span> <span class='name'><>9__147_2</span> <span class='docs'></span></div>
+<div><span class='otherType'>Func&lt;T1, T2&gt;</span> <span class='name'><>9__147_3</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.Legend'><a style='color: black;' href='#ScottPlot.Legend'>ScottPlot.Legend</a></div>
 <div class='docs'></div>
@@ -8669,6 +8799,12 @@ a:hover {text-decoration: underline;}
 <div><a class='scottPlotType' href='#ScottPlot.Plottables.DataStreamerXY'>ScottPlot.Plottables.DataStreamerXY</a> <span class='name'><>9</span> <span class='docs'></span></div>
 <div><span class='otherType'>Func&lt;T1, T2&gt;</span> <span class='name'><>9__65_0</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
+<div class='title' id='ScottPlot.Plottables.HittablePlottableDecorator'><a style='color: black;' href='#ScottPlot.Plottables.HittablePlottableDecorator'>ScottPlot.Plottables.HittablePlottableDecorator</a></div>
+<div class='docs'></div>
+</div>
+<div><a class='scottPlotType' href='#ScottPlot.Plottables.HittablePlottableDecorator'>ScottPlot.Plottables.HittablePlottableDecorator</a> <span class='name'><>4__this</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.RenderPack'>ScottPlot.RenderPack</a> <span class='name'>rp</span> <span class='docs'></span></div>
+<div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.Plottables.IsoLines'><a style='color: black;' href='#ScottPlot.Plottables.IsoLines'>ScottPlot.Plottables.IsoLines</a></div>
 <div class='docs'></div>
 </div>
@@ -8802,6 +8938,15 @@ a:hover {text-decoration: underline;}
 </div>
 <div><a class='scottPlotType' href='#ScottPlot.Plottables.Signal'>ScottPlot.Plottables.Signal</a> <span class='name'><>9</span> <span class='docs'></span></div>
 <div><span class='otherType'>Func&lt;T1, T2&gt;</span> <span class='name'><>9__79_1</span> <span class='docs'></span></div>
+<div style='margin-top: 2em'>
+<div class='title' id='ScottPlot.Plottables.TickModifierLabel'><a style='color: black;' href='#ScottPlot.Plottables.TickModifierLabel'>ScottPlot.Plottables.TickModifierLabel</a></div>
+<div class='docs'></div>
+</div>
+<div><a class='scottPlotType' href='#ScottPlot.Plottables.TickModifierLabel'>ScottPlot.Plottables.TickModifierLabel</a> <span class='name'><>9</span> <span class='docs'></span></div>
+<div><span class='otherType'>Func&lt;T1, T2&gt;</span> <span class='name'><>9__26_0</span> <span class='docs'></span></div>
+<div><span class='otherType'>Func&lt;T1, T2&gt;</span> <span class='name'><>9__26_1</span> <span class='docs'></span></div>
+<div><span class='otherType'>Func&lt;T1, T2&gt;</span> <span class='name'><>9__26_2</span> <span class='docs'></span></div>
+<div><span class='otherType'>Func&lt;T1, T2&gt;</span> <span class='name'><>9__27_0</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.Plottables.VectorField'><a style='color: black;' href='#ScottPlot.Plottables.VectorField'>ScottPlot.Plottables.VectorField</a></div>
 <div class='docs'></div>

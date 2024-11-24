@@ -4,9 +4,9 @@ Description: Plottables like DataLogger and DataStreamer are designed for displa
 URL: /cookbook/5.0/LiveData/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Live Data"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/LiveData"]
-Date: 2024-11-17
-Version: ScottPlot 5.0.46
-Version: ScottPlot 5.0.46
+Date: 2024-11-24
+Version: ScottPlot 5.0.47
+Version: ScottPlot 5.0.47
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -23,9 +23,9 @@ ShowEditLink: false
 
 Use a DataLogger to display growing datasets (such as sensor data). This plot type assumes that new data will always be added to the end of the existing data, so like SignalXY new data points must have an X value that is greater to or than or equal than the previous one. See the ScottPlot Demo for a live example of this plot type.
 
-[![](/cookbook/5.0/images/DataLoggerQuickstart.png?241117162641)](/cookbook/5.0/images/DataLoggerQuickstart.png?241117162641)
+[![](/cookbook/5.0/images/DataLoggerQuickstart.png?241124170640)](/cookbook/5.0/images/DataLoggerQuickstart.png?241124170640)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/LiveData.cs" imageUrl="/cookbook/5.0/images/DataLoggerQuickstart.png?241117162641" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/LiveData.cs" imageUrl="/cookbook/5.0/images/DataLoggerQuickstart.png?241124170640" >}}ScottPlot.Plot myPlot = new();
 
 // setup a logger that will grow as data is added
 var logger = myPlot.Add.DataLogger();
@@ -53,9 +53,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Use a DataStreamer to display streaming data using a fixed-length display with a fixed horizontal distance between points. This type of plot is ideal for signals like ECG (heart monitor) waveforms. This plot type has advanced customizations for controlling how new data replaces old data (e.g., slide the old data to the left as new data appears on the right or place new data values from left to right, then wrap around to the start and wipe away the oldest data values by replacing them from left to right again). See the ScottPlot Demo for a live example of this plot type.
 
-[![](/cookbook/5.0/images/DataStreamerQuickstart.png?241117162641)](/cookbook/5.0/images/DataStreamerQuickstart.png?241117162641)
+[![](/cookbook/5.0/images/DataStreamerQuickstart.png?241124170640)](/cookbook/5.0/images/DataStreamerQuickstart.png?241124170640)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/LiveData.cs" imageUrl="/cookbook/5.0/images/DataStreamerQuickstart.png?241117162641" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/LiveData.cs" imageUrl="/cookbook/5.0/images/DataStreamerQuickstart.png?241124170640" >}}ScottPlot.Plot myPlot = new();
 
 // setup a streamer that shows the latest 100 points
 var streamer = myPlot.Add.DataStreamer(100);
@@ -86,9 +86,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Values accumulated by a data logger may be edited after they are acquired.
 
-[![](/cookbook/5.0/images/DataLoggerEditing.png?241117162641)](/cookbook/5.0/images/DataLoggerEditing.png?241117162641)
+[![](/cookbook/5.0/images/DataLoggerEditing.png?241124170640)](/cookbook/5.0/images/DataLoggerEditing.png?241124170640)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/LiveData.cs" imageUrl="/cookbook/5.0/images/DataLoggerEditing.png?241117162641" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/LiveData.cs" imageUrl="/cookbook/5.0/images/DataLoggerEditing.png?241124170640" >}}ScottPlot.Plot myPlot = new();
 
 // setup a logger that will grow as data is added
 var logger = myPlot.Add.DataLogger();
