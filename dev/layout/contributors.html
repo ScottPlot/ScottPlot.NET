@@ -1,0 +1,105 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/vs.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <style>
+        .avatar-container {
+            display: flex;
+            flex-wrap: wrap;
+            position: relative;
+            justify-content: center;
+        }
+
+        .avatar-container img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+            position: relative;
+            transition: transform 0.1s ease, z-index 0.1s ease;
+        }
+
+        .avatar-container img:hover {
+            transform: scale(1.5);
+            z-index: 10;
+        }
+
+        .sparkle-highlight {
+            position: relative;
+            font-weight: bold;
+            background-color: #ffcc0066;
+            border-radius: 0.5em;
+            padding: 0px 5px;
+            display: inline-block;
+        }
+
+        @keyframes sparkle {
+            0% {
+                opacity: 0;
+                transform: translate(0, 0);
+            }
+
+            50% {
+                opacity: .5;
+                transform: translate(10px, -10px);
+            }
+
+            100% {
+                opacity: 0;
+                transform: translate(0, 0);
+            }
+        }
+
+        .sparkle-highlight::before,
+        .sparkle-highlight::after {
+            content: "★";
+            position: absolute;
+            top: -10px;
+            left: 0;
+            font-size: 1.5em;
+            animation: sparkle 1.5s infinite ease-in-out;
+            color: #ff69b4;
+        }
+
+        .sparkle-highlight::after {
+            top: 10px;
+            left: 15px;
+            animation: sparkle 2s infinite ease-in-out;
+            color: #00bfff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" style="max-width: 600px;">
+        <div class="mt-3 text-center fs-1 fw-semibold">ScottPlot Contributors</div>
+        <div class="fs-5 fw-lighter text-center mb-4">
+            Special thanks to the <span class="sparkle-highlight">123</span> GitHub users
+            who contributed to this project, making ScottPlot better for everyone!
+            💖🚀✨
+        </div>
+        <div class="avatar-container my-3" id="avatars">
+
+        </div>
+    </div>
+    <script>
+        const maxCount = 20;
+        const filenamesString = "0xfded.png, 3179.png, a1145681.png, aalgrou.png, ab-tools.png, abdul-muyeed.png, abenimatteo.png, able-j.jpg, ademkaya.jpg, adgriff2.png, aespitia.jpg, agneszitte.jpg, agorath.jpg, ahmad-qamar.png, albyoo.png, alexander-png.jpg, alexfsmn.png, alexisvrignaud.png, algoexecutor.png, allopatin.jpg, andreas.jpg, andresod.png, andreypalyutin.png, andxaf.png, anewton.png, angadjeet.jpg, angeld10.png, angelofb.jpg, angulion.png, aniketkumar7.jpg, anose001.png, anprevost.png, antracik.png, apaaris.png, apkrymov.png, archiecoder.jpg, arthurits.png, ashe27.png, at2software.png, atecoder.jpg, audun.jpg, azuregulf.png, b4shful.png, bambooxx.png, banncan.jpg, barnettben.jpg, bclehmann.png, bendrocks.png, benton-anderson.png, bernhardbreuss.png, bforlgreen.png, bftrock.png, bhairav-thakkar.png, bhandejiya.png, bjschwarz.jpg, blahetal.png, blouflashdb.png, boingo100p.jpg, bonzaiferroni.jpg, bradcb212.png, bradmartin333.png, breakwinz.png, brianatzetica.png, brokoli777.jpg, bry-decelles.jpg, bukkideme.jpg, bukowa.png, bwedding.jpg, bytesore.png, calderwhite.png, cardroid.png, carlotoso.png, cassar17.png, cataclism.png, cbrauer.png, ccopsey.jpg, cd-sailingperf.png, cdytoby.jpg, chaojian-zhang.png, charlescao460.jpg, charlesmauldin.png, chenxuuu.jpg, chhh.jpg, chjrom.png, chrisatvault.png, chriscc6.png, christianweigand.jpg, chrisxfire.jpg, ckovamees.jpg, codebehemoth.png, codecrafty.png, codedevam.png, coderpm2011.jpg, contributors.txt, cornford.jpg, cosmicdustoflightlength.jpg, cpa-level-it.jpg, crown0815.png, csbebetter.jpg, cstyx.png, cvdevol.jpg, cxjcqu.png, czastack.png, damiandixon.jpg, danieljfarrell.png, davemartel.png, david-a-blankenship.png, david3951445.png, davidbergstromswe.jpg, davidwhatagit.png, dayo05.png, ddiggs91.png, ddrrrr.png, deiruch.jpg, derekgooding.jpg, devbotas.png, developer-alexander.png, devjins.jpg, dhgigisoave.png, dibyanshuaman.png, diddlik.jpg, diluculo.png, dlampa.jpg, dmitrykotenev.png, dmitryzhelnin.jpg, dominicbeer.png, dongyi-cai-windsab.png, douglaswatt.png, dpieve.png, drolevar.jpg, drphobos.png, dusko23.png, ebarnard.png, ecrocombe.png, eduhza.jpg, edwwsw.png, eferu.jpg, el-aasi.jpg, elgot.png, em3a-c.png, endeffects.jpg, endreew.png, enumer.png, envine.jpg, epegeot.jpg, ericezam.jpg, erikjl.jpg, excustic.png, fadydev2.png, faguetan.png, fannyatgithub.png, fanshuxian.png, fdesordi.png, fe-c.png, feichti92.png, fengqingyangdad.png, fhannan-ti.png, fokatu.png, fruchtzwerg94.jpg, fujiangang.png, full69.png, fuxinsen.jpg, gauravagrwal.jpg, gberrante.jpg, gholamalih.jpg, gigios.png, githubkau.png, giviruk.jpg, gobikulandaisamy.jpg, graat.png, grabul.png, gray-lab.png, guillaume-deville.png, gwilson9.png, h135558.png, h25019871990.png, hamhub7.png, handsomegoldenknight.jpg, hawkwind250.png, hazenjaqdx3.png, heartacker.jpg, helitune-robmckay.png, hellfo.png, hexxone.png, hhubschle.png, hibus.png, hljlishen.png, hnmel.png, hockerschwan.png, howardwhile.jpg, hub3r.png, ichibot200.png, idotta.jpg, imka-code.png, inqb.png, ismdiego.png, itsmygam3.jpg, iu2kxv.png, ja1234567.png, jagdtalcyon.png, jaguarxii.png, jamaa.jpg, jankri.png, jasonc0x0d.png, jbmongithub.png, jbuckmccready.png, jcbeppler.png, jhm-ciberman.jpg, jinjiezhao.png, jl0pd.png, jofstera.jpg, johndoh.png, johnfoll.jpg, johnimiep.png, johnsmith20211124.png, jon-rizzo.png, jonathanio123.png, jordant190.png, jpgarza93.jpg, js-bgresearch.png, julianusiv.png, jurasskpark.jpg, jw-suh.png, kagerouttepaso.png, kamran.jpg, kanishkkhurana.jpg, kareem469.png, kareltje1980.png, karimshams.png, karlipl.png, katamaneni.jpg, kc7465128305.png, kebox7.png, kegesch.png, kennytk.jpg, king-taz.png, kirsan31.jpg, kivarsen.png, kkaiser41.png, kl7107.png, klaskskovby.png, konh.jpg, kosmoswerner.jpg, kritner.jpg, kromignon.png, kruno313.png, ktheijs.png, kurupt44.png, kv-gits.png, lapinfou.png, lasooch.png, lb767.png, leafrock.jpg, lerklin.png, levipara.png, lguelat.png, lichen95.jpg, limula-pma.png, lindpatr.png, liuhongran626.jpg, liwr9537.png, logdogg.png, logicman111.png, loyvsc.jpg, lucabat.png, lumaswell.png, luvnet-890.png, lyakabynka.png, m4se.png, machinefossil.jpg, magicfawkes.jpg, manaruto.jpg, maoyao233.jpg, marc-frank.jpg, marcelpel.png, marekjur.png, maremare.png, margulieuxd.png, markg008.png, marklam.jpg, martin-brajer.png, martin12350.png, martinkleppe.jpg, marvenix.png, matej-mnoucek.png, matkinpro.png, matthew-chidlow.png, matthias-c.jpg, mawbydp.jpg, max-i-m.png, maxfun.png, mcf.jpg, melhashash.png, mengfanmin123.png, michael99.png, michaelkuelshammer.jpg, mikekuester.jpg, milkitic.jpg, milyczekpolsl.png, minjjkang.png, minu476.png, misterredactus.png, mithrilman.png, mjazd.png, mjpz.png, mlessmann.jpg, mloppnow.png, mocakturk.png, moranmono.png, morningkyle.png, mroldowl.jpg, mrradd.jpg, msroest.jpg, mycheng-95.png, myzql.png, mzemljak.png, nanrod.png, nashilnik.png, nassaleh.png, nasser.png, nateebling.jpg, neilyoung2008.png, neopentane1.png, nextra.png, nexus452.png, nicolaslairnet.png, nightfog-git.png, nils-berghs.png, nilsakesson.png, niravk1997.png, noahsigl.png, noob765.png, nroger-env.png, nuelle16.png, nuliax7.jpg, obnews.png, ohru131.png, oktrue.png, oldteacup.png, onur-akaydin.png, or8e4m4n.jpg, orace.jpg, oszymczak.png, ozgur640.png, p4pravin.png, padanian.png, painstgithub.png, paraplegia.png, passionatedeveloper86.png, pavlexander.png, paxitis.jpg, peppermintking.jpg, petarpetrovt.png, peterdavidson.png, petersesztak.png, phil100vol.png, phoenixchenlu.jpg, pietcoussens.png, pjt33.png, pkstrsk.png, playcreatively.jpg, plumforest.png, premektill.png, prime167.png, programmerguy76.png, proplunger.png, prototipo-erick-santander.png, pzidlik.png, quantfreedom.jpg, r-j-s.png, r84r.png, raburton.png, rachamimyaakobov.png, rafntor.jpg, ralphlatgithub.jpg, ramsaygit.png, rayffer.jpg, redrabbit007.png, regenhardt.png, resonanz.png, rfbomb.png, rfisoft.jpg, rhys-wootton.jpg, ricecakebear.jpg, riquich.png, robbyls.png, robokamran.jpg, rosdyana.png, rotger.png, rubenslkirchner.jpg, rubensmigliore.png, rudde.png, rutkowskit.jpg, saklanmazozgur.png, saklut.png, saltytears.png, saroldhand.png, saskayde.png, schifazl.png, scr0nch.png, sdhongjun.png, sdpenner.jpg, sebastiandirks.png, seeingistrue.png, segeyros.png, seidchr.jpg, seishinkouki.png, senged.png, sergaent.jpg, serhiimahera.png, sertetora.jpg, sganard.png, sghctoma.jpg, shannonz.png, shengcancheng.png, shenxuanli.jpg, silent0wings.png, simmdan.jpg, sjdemoor.png, sjlai1993.png, skn41.png, slotinvo.png, smonze.png, sommerengineering.png, songping.png, sprenk.png, sproott.png, ssalsinha.png, stefanbertels.jpg, stendprog.png, sterenas.jpg, stratdev3.png, strontiumpku.png, sulivanganter.jpg, sunefred.jpg, sunshuaize.png, superberti.jpg, superdaveosbourne.png, swaitvor.png, swharden.jpg, syntaxrabbit.png, szescxz.png, tadmccorkle.jpg, taya92413.png, teejay-87.jpg, tenebrosfr.png, terebi42.png, theelderwand.png, thefizz.png, thopri.png, thunderstatic.png, tibormarchynzoom.jpg, ticool.png, tiger2014.png, tijin-abe-thomas.jpg, tilation.png, timothy343.png, tinuskotze.png, tomwimmenhove.jpg, tonpimenta.png, torgano.png, treppon.png, tyrbentsen.png, unsigned-ru.png, valeratychov.png, vibrationanalystcn.jpg, vietanhbui.jpg, viktoriussuwandi.png, vilgotf.png, vismotrix.png, vladislavpustovarov.png, vladislavpweetsoft.png, voteforpedro.png, vpksoft.jpg, vrdriver.jpg, vtozarks.png, wangyexiang.jpg, waynetheron.png, wbalbo.jpg, wellcaffeinated.jpg, wellsw.png, wfs1900.jpg, wi-fr.png, willemwever.png, wolfcomp.png, wsomegapoint.png, wtywtykk.png, xantiva.png, xenedia.png, xerxes004.jpg, xgfs.jpg, xhichn.png, xichaoqiang.png, xmln17.jpg, ykarpeev.png, yui1227.jpg, zachesposito.png, zeticabrian.png, zhhding.png, zpyin.jpg, zrolfs.png, zsymax.jpg, ztaiit1025.png, zxy874175242.png, zy1075984.png";
+        const filenames = filenamesString.split(", ").slice(0, maxCount);
+        const avatarsDiv = document.getElementById("avatars");
+        filenames.forEach(filename => {
+            const username = filename.split(".")[0];
+            avatarsDiv.innerHTML += `<a href='https://github.com/${username}'><img src='../../static/images/contributors/${filename}' class='avatar'></a>`;
+        });
+    </script>
+</body>
+
+</html>

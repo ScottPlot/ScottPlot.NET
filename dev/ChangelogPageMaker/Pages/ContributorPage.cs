@@ -14,45 +14,35 @@ internal class ContributorPage : HtmlPageBase
     {
         StringBuilder sb = new();
 
-        sb.AppendLine("""
-            <div class='display-3 text-center'>ScottPlot Contributors</div>
-            <div class='fs-3 fw-lighter text-center mx-5 px-5'>
-                Special thanks to these GitHub members who are 
-                recognized for their contributions
-                to discussions, issues, and pull requests!
+        sb.AppendLine($"""
+            <div class="mt-3 text-center fs-1 fw-semibold">ScottPlot Contributors</div>
+            <div class='fs-5 fw-lighter text-center mb-4'>
+                Special thanks to the <span class="sparkle-highlight">{Changelog.Contributors.Length}</span> GitHub users 
+                who contributed to this project, making ScottPlot better for everyone!
+                💖🚀✨
             </div>
-            <div class='display-3 my-5 text-center'>💖🚀✨</div>
             """);
 
-        sb.AppendLine("<div class='d-flex justify-content-center flex-wrap'>");
+        sb.AppendLine("<div class='avatar-container my-3'>");
         foreach (string id in Changelog.Contributors)
         {
-            string url = $"https://github.com/{id}";
-            sb.AppendLine("<div class='bg-light border rounded text-center mx-3 my-2'>");
-
-            sb.AppendLine("<div><a href=''><img class='img-fluid rounded m-1' " +
-                $"src='{Changelog.Avatars.GetImage(id)}' " +
-                "height='125' width='125'/></a></div>");
-
-            sb.AppendLine($"<div><a href='{url}'>@{id}</a></div>");
-
-            sb.AppendLine("</div>");
+            string githubUrl = $"https://github.com/{id}";
+            string imageUrl = Changelog.Avatars.GetImage(id);
+            sb.AppendLine($"<a href='{githubUrl}'><img src='{imageUrl}'></a>");
         }
         sb.AppendLine("</div>");
 
-        sb.AppendLine("<div class='mt-5 mb-3 text-muted'>");
-        sb.AppendLine("Contributors are listed in the same order they appear in the changelog, ");
-        sb.AppendLine("with those submitting contributions most recently at the top. ");
-        sb.AppendLine("Contributor avatars are downloaded the first time they appear in the changelog. ");
-        sb.AppendLine("</div>");
-
-        sb.AppendLine("<div class='mb-5 text-muted'>");
-        sb.AppendLine("If you changed your GitHub avatar and wish to update the image on this page, ");
-        sb.AppendLine("go to <a href='https://github.com/ScottPlot/ScottPlot.NET/tree/main/static/images/contributors'>");
-        sb.AppendLine("https://github.com/ScottPlot/ScottPlot.NET/tree/main/static/images/contributors</a> ");
-        sb.AppendLine("and create a pull request which deletes the file with your GitHub username. ");
-        sb.AppendLine("Your new avatar will be downloaded the next time the changelog is updated. ");
-        sb.AppendLine("</div>");
+        sb.AppendLine("""
+            <div class='mt-5 mb-3 text-muted'>
+            <p>This page is automatically generated.</p>
+            <p>Contributors are listed in the same order they appear in the changelog</p>
+            <p>Most recent contributors are listed at the top</p>
+            <p>Contributor avatars are downloaded the first time they appear in the changelog</p>
+            <p>To update your GitHub avatar, delete the image 
+            <a href='https://github.com/ScottPlot/ScottPlot.NET/tree/main/static/images/contributors'>here</a>
+            and it will be re-downloaded the next time the changelog is updated.</p>
+            </div>
+            """);
 
         return sb.ToString();
     }
