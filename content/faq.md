@@ -4,7 +4,11 @@ description: Frequently asked questions about the ScottPlot library, user contro
 date: 2023-12-13
 ---
 
-**The best way to learn how to use ScottPlot is to review the [**ScottPlot Demo**](/demo/) and [**ScottPlot Cookbook**](/demo/).** This page contains resources for topics which may not be fully covered elsewhere.
+## ScottPlot FAQ
+
+**The simplest way to learn how to use ScottPlot is to review the [ScottPlot Cookbook](/demo/) and [ScottPlot Demo](/demo/).**
+However, some advanced topics require additional documentation. 
+This page contains links for advanced topics and answers to commonly asked questions which may not be addressed elsewhere.
 
 * [How to create a custom plot type](custom-plot-type)
 * [Scatter Plot vs Signal Plot](scatter-vs-signal)
