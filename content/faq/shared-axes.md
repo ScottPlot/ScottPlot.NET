@@ -4,21 +4,18 @@ description: How to have two user controls with shared axes so when one pans, th
 date: 2023-12-13
 ---
 
-## Shared Axis
+## Shared Axis Limits
 
-Two plots can have their axes linked so that interacting with one automatically updates the other.
+Multiple plots can be configured so changes the axis limits of one plot are applied to other plots. The strategy used to achieve this behavior depends on how multiple plots have been added to the application:
 
-See the [**Shared Axis demo**](/demo/5.0/#shared-axes) for more information.
+* **Multiple Plot Controls:** The [**Shared Axis Demo**](/demo/5.0/#shared-axes) shows how to use `Plot.Axes.Link()` to automatically configure `AxisLimitsChanged` events to update all plots when axis limits of any plot are changed.
+
+* **Using `Multiplot` in a Single Plot Control:** When the `Multiplot` class is used to place multiple plots, they may be easily synchronized using the `ShareX()` and `ShareY()` helper methods as described on the [**Multiplot FAQ Page**](../multiplot)
 
 ![](/images/demo/5.0/linked-axes.gif)
 
 ## Shared Layout
 
-Even if axis limits are identical between two controls, differences in tick length, axis label, or other styling options may result in data areas of slightly different sizes and an appearance of misalignment. The best way to achieve identical alignment between controls is to use a fixed padding system.
+`Plot` layouts are dynamically sized to accommodate changing tick label sizes, but this can result in misalignment across plots with different axis limits. See the [**Shared Layout FAQ Page**](../shared-layout) to learn how to resolve this issue.
 
-```cs
-PixelPadding padding = new(100, 50, 100, 50);
-myPlot.Layout.Fixed(padding);
-```
-
-See the [**ScottPlot Cookbook**](/cookbook) for more information.
+![](/images/faq/multiplot/multiplot-alignment.png)
