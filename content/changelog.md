@@ -4,6 +4,36 @@ Description: Release notes for every version of ScottPlot
 ---
 
 <section class='mb-5'>
+<h1 class='mb-0'>ScottPlot 5.0.48</h1>
+<div><i>NuGet packages published </i></div>
+<div class='mt-1'>
+<ul>
+<li>Multiplot: Extend <code>Multiplot</code> to support rending onto an existing surface (<a href="https://github.com/ScottPlot/ScottPlot/issues/4628">#4628</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4600">#4600</a>)
+</li>
+<li>User Controls: Add <code>Multiplot</code> to <code>IPlotControl</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/4628">#4628</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4600">#4600</a>)
+</li>
+<li>User Controls: Remove deprecated <code>Interaction</code> system (<a href="https://github.com/ScottPlot/ScottPlot/issues/4630">#4630</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4600">#4600</a>)
+</li>
+<li>Plot: Remove the <code>PlotControl</code> property to encourage one-way flow of control (<a href="https://github.com/ScottPlot/ScottPlot/issues/4631">#4631</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4600">#4600</a>)
+</li>
+<li>Controls: Update all <code>UserInputProcessor</code> code to support <code>Multiplot</code> interactions (<a href="https://github.com/ScottPlot/ScottPlot/issues/4632">#4632</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4600">#4600</a>)
+</li>
+<li>Multiplot: Add advanced subplot positioning features (<a href="https://github.com/ScottPlot/ScottPlot/issues/4633">#4633</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4600">#4600</a>)
+</li>
+<li>Multiplot: Add shared axis helper methods to facilitate syncing axis limits across subplots (<a href="https://github.com/ScottPlot/ScottPlot/issues/4635">#4635</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4600">#4600</a>)
+</li>
+</ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/swharden'>@swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
+
+</section>
+<section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 5.0.47</h1>
 <div><i>NuGet packages published 2024-11-24</i></div>
 <div class='mt-1'>
