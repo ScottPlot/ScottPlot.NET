@@ -22,13 +22,22 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Multiplot: Add shared axis helper methods to facilitate syncing axis limits across subplots (<a href="https://github.com/ScottPlot/ScottPlot/issues/4635">#4635</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4600">#4600</a>)
 </li>
+<li>Generate:  Fixed causing <code>AddNoiseInPlace()</code> to offset the mean of the underlying signal (<a href="https://github.com/ScottPlot/ScottPlot/issues/4564">#4564</a>) <a href="https://github.com/nightroman"><strong>@nightroman</strong></a>
+</li>
+<li>Text: Fixed <code>DragTo()</code> to use the correct axis dimension (<a href="https://github.com/ScottPlot/ScottPlot/issues/4587">#4587</a>) <a href="https://github.com/claire0821"><strong>@claire0821</strong></a>
+</li>
+<li>Rendering: Improved handling of the <code>RenderPack</code> inside the render loop to avoid Skia exceptions (<a href="https://github.com/ScottPlot/ScottPlot/issues/4592">#4592</a>) <a href="https://github.com/vadimart92"><strong>@vadimart92</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/nightroman'>@nightroman</a>, <a href='https://github.com/claire0821'>@claire0821</a>, <a href='https://github.com/vadimart92'>@vadimart92</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
+<a href='https://github.com/nightroman'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/claire0821'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/vadimart92'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
