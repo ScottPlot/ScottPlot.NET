@@ -32,13 +32,15 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Axes: Improved axis rule behavior on plots using inverted axes (<a href="https://github.com/ScottPlot/ScottPlot/issues/3597">#3597</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4609">#4609</a>) <a href="https://github.com/CoderPM2011"><strong>@CoderPM2011</strong></a>
 </li>
-<li>Smith Chart: New plot type for displaying impedance of signals as resistance vs. reactance on a circular axis system (<a href="https://github.com/ScottPlot/ScottPlot/issues/4634">#4634</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4578">#4578</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/41">#41</a>) <a href="https://github.com/CoderPM2011"><strong>@CoderPM2011</strong></a>, <a href="https://github.com/louis1901"><strong>@louis1901</strong></a>, <a href="https://github.com/Padanian"><strong>@Padanian</strong></a>
+<li>Smith Chart: New plot type for displaying impedance of signals as resistance vs. reactance on a circular axis system (<a href="https://github.com/ScottPlot/ScottPlot/issues/4634">#4634</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4578">#4578</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/41">#41</a>) <a href="https://github.com/CoderPM2011"><strong>@CoderPM2011</strong></a> <a href="https://github.com/louis1901"><strong>@louis1901</strong></a> <a href="https://github.com/Padanian"><strong>@Padanian</strong></a>
+</li>
+<li>Rendering: Improve support for platforms where BGRA is not the default color model (<a href="https://github.com/ScottPlot/ScottPlot/issues/4648">#4648</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4647">#4647</a>) <a href="https://github.com/bclehmann"><strong>@bclehmann</strong></a> <a href="https://github.com/ssharks"><strong>@ssharks</strong></a>
 </li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/nightroman'>@nightroman</a>, <a href='https://github.com/claire0821'>@claire0821</a>, <a href='https://github.com/vadimart92'>@vadimart92</a>, <a href='https://github.com/SprinterDave'>@SprinterDave</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/louis1901'>@louis1901</a>, <a href='https://github.com/Padanian'>@Padanian</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/nightroman'>@nightroman</a>, <a href='https://github.com/claire0821'>@claire0821</a>, <a href='https://github.com/vadimart92'>@vadimart92</a>, <a href='https://github.com/SprinterDave'>@SprinterDave</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/louis1901'>@louis1901</a>, <a href='https://github.com/Padanian'>@Padanian</a>, <a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/ssharks'>@ssharks</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/nightroman'><img src='https://scottplot.net/images/contributors/nightroman.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -46,8 +48,10 @@ Description: Release notes for every version of ScottPlot
 <a href='https://github.com/vadimart92'><img src='https://scottplot.net/images/contributors/vadimart92.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/SprinterDave'><img src='https://scottplot.net/images/contributors/sprinterdave.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/CoderPM2011'><img src='https://scottplot.net/images/contributors/coderpm2011.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/louis1901'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/louis1901'><img src='https://scottplot.net/images/contributors/louis1901.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Padanian'><img src='https://scottplot.net/images/contributors/padanian.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/ssharks'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 

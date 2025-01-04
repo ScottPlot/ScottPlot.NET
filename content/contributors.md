@@ -5,7 +5,7 @@ Description: Members of the open-source community who contributed to ScottPlot
 
 <div class="mt-3 text-center fs-1 fw-semibold">ScottPlot Contributors</div>
 <div class='fs-5 fw-lighter text-center mb-4'>
-    Special thanks to the <span class="sparkle-highlight">502</span> GitHub users 
+    Special thanks to the <span class="sparkle-highlight">503</span> GitHub users 
     who contributed to this project, making ScottPlot better for everyone!
     💖🚀✨
 </div>
@@ -15,8 +15,10 @@ Description: Members of the open-source community who contributed to ScottPlot
 <a href='https://github.com/vadimart92'><img src='https://scottplot.net/images/contributors/vadimart92.jpg'></a>
 <a href='https://github.com/SprinterDave'><img src='https://scottplot.net/images/contributors/sprinterdave.jpg'></a>
 <a href='https://github.com/CoderPM2011'><img src='https://scottplot.net/images/contributors/coderpm2011.jpg'></a>
-<a href='https://github.com/louis1901'><img src='https://scottplot.net/images/brand/favicon.png'></a>
+<a href='https://github.com/louis1901'><img src='https://scottplot.net/images/contributors/louis1901.png'></a>
 <a href='https://github.com/Padanian'><img src='https://scottplot.net/images/contributors/padanian.png'></a>
+<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png'></a>
+<a href='https://github.com/ssharks'><img src='https://scottplot.net/images/brand/favicon.png'></a>
 <a href='https://github.com/david3951445'><img src='https://scottplot.net/images/contributors/david3951445.png'></a>
 <a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png'></a>
 <a href='https://github.com/Paraplegia'><img src='https://scottplot.net/images/contributors/paraplegia.png'></a>
@@ -25,7 +27,6 @@ Description: Members of the open-source community who contributed to ScottPlot
 <a href='https://github.com/quantfreedom'><img src='https://scottplot.net/images/contributors/quantfreedom.jpg'></a>
 <a href='https://github.com/wellcaffeinated'><img src='https://scottplot.net/images/contributors/wellcaffeinated.jpg'></a>
 <a href='https://github.com/FULL69'><img src='https://scottplot.net/images/contributors/full69.png'></a>
-<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png'></a>
 <a href='https://github.com/VladislavPustovarov'><img src='https://scottplot.net/images/contributors/vladislavpustovarov.png'></a>
 <a href='https://github.com/jpgarza93'><img src='https://scottplot.net/images/contributors/jpgarza93.jpg'></a>
 <a href='https://github.com/BambOoxX'><img src='https://scottplot.net/images/contributors/bambooxx.png'></a>
