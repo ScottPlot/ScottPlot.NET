@@ -28,16 +28,22 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Rendering: Improved handling of the <code>RenderPack</code> inside the render loop to avoid Skia exceptions (<a href="https://github.com/ScottPlot/ScottPlot/issues/4592">#4592</a>) <a href="https://github.com/vadimart92"><strong>@vadimart92</strong></a>
 </li>
+<li>Axes: Improved support for <code>CoordinateRect</code> hit detection on plots with inverted axes (<a href="https://github.com/ScottPlot/ScottPlot/issues/4596">#4596</a>) <a href="https://github.com/SprinterDave"><strong>@SprinterDave</strong></a>
+</li>
+<li>Axes: Improved axis rule behavior on plots using inverted axes (<a href="https://github.com/ScottPlot/ScottPlot/issues/3597">#3597</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4609">#4609</a>) <a href="https://github.com/CoderPM2011"><strong>@CoderPM2011</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/nightroman'>@nightroman</a>, <a href='https://github.com/claire0821'>@claire0821</a>, <a href='https://github.com/vadimart92'>@vadimart92</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/nightroman'>@nightroman</a>, <a href='https://github.com/claire0821'>@claire0821</a>, <a href='https://github.com/vadimart92'>@vadimart92</a>, <a href='https://github.com/SprinterDave'>@SprinterDave</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
-<a href='https://github.com/nightroman'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/claire0821'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/vadimart92'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/nightroman'><img src='https://scottplot.net/images/contributors/nightroman.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/claire0821'><img src='https://scottplot.net/images/contributors/claire0821.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/vadimart92'><img src='https://scottplot.net/images/contributors/vadimart92.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/SprinterDave'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/CoderPM2011'><img src='https://scottplot.net/images/contributors/coderpm2011.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
