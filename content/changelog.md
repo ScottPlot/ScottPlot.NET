@@ -22,13 +22,51 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Multiplot: Add shared axis helper methods to facilitate syncing axis limits across subplots (<a href="https://github.com/ScottPlot/ScottPlot/issues/4635">#4635</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4600">#4600</a>)
 </li>
+<li>Generate:  Fixed causing <code>AddNoiseInPlace()</code> to offset the mean of the underlying signal (<a href="https://github.com/ScottPlot/ScottPlot/issues/4564">#4564</a>) <a href="https://github.com/nightroman"><strong>@nightroman</strong></a>
+</li>
+<li>Text: Fixed <code>DragTo()</code> to use the correct axis dimension (<a href="https://github.com/ScottPlot/ScottPlot/issues/4587">#4587</a>) <a href="https://github.com/claire0821"><strong>@claire0821</strong></a>
+</li>
+<li>Rendering: Improved handling of the <code>RenderPack</code> inside the render loop to avoid Skia exceptions (<a href="https://github.com/ScottPlot/ScottPlot/issues/4592">#4592</a>) <a href="https://github.com/vadimart92"><strong>@vadimart92</strong></a>
+</li>
+<li>Axes: Improved support for <code>CoordinateRect</code> hit detection on plots with inverted axes (<a href="https://github.com/ScottPlot/ScottPlot/issues/4596">#4596</a>) <a href="https://github.com/SprinterDave"><strong>@SprinterDave</strong></a>
+</li>
+<li>Axes: Improved axis rule behavior on plots using inverted axes (<a href="https://github.com/ScottPlot/ScottPlot/issues/3597">#3597</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4609">#4609</a>) <a href="https://github.com/CoderPM2011"><strong>@CoderPM2011</strong></a>
+</li>
+<li>Smith Chart: New plot type for displaying impedance of signals as resistance vs. reactance on a circular axis system (<a href="https://github.com/ScottPlot/ScottPlot/issues/4634">#4634</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4578">#4578</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/41">#41</a>) <a href="https://github.com/CoderPM2011"><strong>@CoderPM2011</strong></a> <a href="https://github.com/louis1901"><strong>@louis1901</strong></a> <a href="https://github.com/Padanian"><strong>@Padanian</strong></a>
+</li>
+<li>Rendering: Improve support for platforms where BGRA is not the default color model (<a href="https://github.com/ScottPlot/ScottPlot/issues/4648">#4648</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4647">#4647</a>) <a href="https://github.com/bclehmann"><strong>@bclehmann</strong></a> <a href="https://github.com/ssharks"><strong>@ssharks</strong></a>
+</li>
+<li>Legend: Made <code>GetItems()</code> virtual to support custom ordering logic and made <code>Plot.Legend</code> settable (<a href="https://github.com/ScottPlot/ScottPlot/issues/4571">#4571</a>) <a href="https://github.com/onur-akaydin"><strong>@onur-akaydin</strong></a>
+</li>
+<li>Controls: Improved middle-click-drag zoom rectangle support for plots using inverted axis limits (<a href="https://github.com/ScottPlot/ScottPlot/issues/4573">#4573</a>) <a href="https://github.com/xichaoqiang"><strong>@xichaoqiang</strong></a>
+</li>
+<li>Ticks: Improved tick placement consistency for financial plots with DateTime axes (<a href="https://github.com/ScottPlot/ScottPlot/issues/4591">#4591</a>) <a href="https://github.com/VladislavPustovarov"><strong>@VladislavPustovarov</strong></a>
+</li>
+<li>Line: Added <code>LineOnTop</code> and <code>MarkersOnTop</code> flags to control which components appear in front (<a href="https://github.com/ScottPlot/ScottPlot/issues/4610">#4610</a>) <a href="https://github.com/nullsoftware"><strong>@nullsoftware</strong></a> <a href="https://github.com/quantfreedom"><strong>@quantfreedom</strong></a>
+</li>
+<li>Axes: Added a helper method allowing <code>Plot.Axes.Left.RemoveTickGenerator()</code> to quickly disable left axis tick generation (<a href="https://github.com/ScottPlot/ScottPlot/issues/2875">#2875</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4613">#4613</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4608">#4608</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4613">#4613</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/nightroman'>@nightroman</a>, <a href='https://github.com/claire0821'>@claire0821</a>, <a href='https://github.com/vadimart92'>@vadimart92</a>, <a href='https://github.com/SprinterDave'>@SprinterDave</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/louis1901'>@louis1901</a>, <a href='https://github.com/Padanian'>@Padanian</a>, <a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/ssharks'>@ssharks</a>, <a href='https://github.com/onur-akaydin'>@onur-akaydin</a>, <a href='https://github.com/xichaoqiang'>@xichaoqiang</a>, <a href='https://github.com/VladislavPustovarov'>@VladislavPustovarov</a>, <a href='https://github.com/nullsoftware'>@nullsoftware</a>, <a href='https://github.com/quantfreedom'>@quantfreedom</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
+<a href='https://github.com/nightroman'><img src='https://scottplot.net/images/contributors/nightroman.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/claire0821'><img src='https://scottplot.net/images/contributors/claire0821.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/vadimart92'><img src='https://scottplot.net/images/contributors/vadimart92.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/SprinterDave'><img src='https://scottplot.net/images/contributors/sprinterdave.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/CoderPM2011'><img src='https://scottplot.net/images/contributors/coderpm2011.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/louis1901'><img src='https://scottplot.net/images/contributors/louis1901.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Padanian'><img src='https://scottplot.net/images/contributors/padanian.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/ssharks'><img src='https://scottplot.net/images/contributors/ssharks.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/onur-akaydin'><img src='https://scottplot.net/images/contributors/onur-akaydin.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/xichaoqiang'><img src='https://scottplot.net/images/contributors/xichaoqiang.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/VladislavPustovarov'><img src='https://scottplot.net/images/contributors/vladislavpustovarov.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/nullsoftware'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/quantfreedom'><img src='https://scottplot.net/images/contributors/quantfreedom.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
