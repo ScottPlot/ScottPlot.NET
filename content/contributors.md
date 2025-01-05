@@ -22,7 +22,7 @@ Description: Members of the open-source community who contributed to ScottPlot
 <a href='https://github.com/onur-akaydin'><img src='https://scottplot.net/images/contributors/onur-akaydin.png'></a>
 <a href='https://github.com/xichaoqiang'><img src='https://scottplot.net/images/contributors/xichaoqiang.png'></a>
 <a href='https://github.com/VladislavPustovarov'><img src='https://scottplot.net/images/contributors/vladislavpustovarov.png'></a>
-<a href='https://github.com/nullsoftware'><img src='https://scottplot.net/images/brand/favicon.png'></a>
+<a href='https://github.com/nullsoftware'><img src='https://scottplot.net/images/contributors/nullsoftware.png'></a>
 <a href='https://github.com/quantfreedom'><img src='https://scottplot.net/images/contributors/quantfreedom.jpg'></a>
 <a href='https://github.com/david3951445'><img src='https://scottplot.net/images/contributors/david3951445.png'></a>
 <a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png'></a>

@@ -5,7 +5,7 @@ Description: Release notes for every version of ScottPlot
 
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 5.0.48</h1>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2025-01-05</i></div>
 <div class='mt-1'>
 <ul>
 <li>Multiplot: Extend <code>Multiplot</code> to support rending onto an existing surface (<a href="https://github.com/ScottPlot/ScottPlot/issues/4628">#4628</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4600">#4600</a>)
@@ -65,7 +65,7 @@ Description: Release notes for every version of ScottPlot
 <a href='https://github.com/onur-akaydin'><img src='https://scottplot.net/images/contributors/onur-akaydin.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/xichaoqiang'><img src='https://scottplot.net/images/contributors/xichaoqiang.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/VladislavPustovarov'><img src='https://scottplot.net/images/contributors/vladislavpustovarov.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/nullsoftware'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/nullsoftware'><img src='https://scottplot.net/images/contributors/nullsoftware.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/quantfreedom'><img src='https://scottplot.net/images/contributors/quantfreedom.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
