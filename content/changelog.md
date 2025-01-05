@@ -42,11 +42,15 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Ticks: Improved tick placement consistency for financial plots with DateTime axes (<a href="https://github.com/ScottPlot/ScottPlot/issues/4591">#4591</a>) <a href="https://github.com/VladislavPustovarov"><strong>@VladislavPustovarov</strong></a>
 </li>
+<li>Line: Added <code>LineOnTop</code> and <code>MarkersOnTop</code> flags to control which components appear in front (<a href="https://github.com/ScottPlot/ScottPlot/issues/4610">#4610</a>) <a href="https://github.com/nullsoftware"><strong>@nullsoftware</strong></a> <a href="https://github.com/quantfreedom"><strong>@quantfreedom</strong></a>
+</li>
+<li>Axes: Added a helper method allowing <code>Plot.Axes.Left.RemoveTickGenerator()</code> to quickly disable left axis tick generation (<a href="https://github.com/ScottPlot/ScottPlot/issues/2875">#2875</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4613">#4613</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4608">#4608</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4613">#4613</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/nightroman'>@nightroman</a>, <a href='https://github.com/claire0821'>@claire0821</a>, <a href='https://github.com/vadimart92'>@vadimart92</a>, <a href='https://github.com/SprinterDave'>@SprinterDave</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/louis1901'>@louis1901</a>, <a href='https://github.com/Padanian'>@Padanian</a>, <a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/ssharks'>@ssharks</a>, <a href='https://github.com/onur-akaydin'>@onur-akaydin</a>, <a href='https://github.com/xichaoqiang'>@xichaoqiang</a>, <a href='https://github.com/VladislavPustovarov'>@VladislavPustovarov</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/nightroman'>@nightroman</a>, <a href='https://github.com/claire0821'>@claire0821</a>, <a href='https://github.com/vadimart92'>@vadimart92</a>, <a href='https://github.com/SprinterDave'>@SprinterDave</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/louis1901'>@louis1901</a>, <a href='https://github.com/Padanian'>@Padanian</a>, <a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/ssharks'>@ssharks</a>, <a href='https://github.com/onur-akaydin'>@onur-akaydin</a>, <a href='https://github.com/xichaoqiang'>@xichaoqiang</a>, <a href='https://github.com/VladislavPustovarov'>@VladislavPustovarov</a>, <a href='https://github.com/nullsoftware'>@nullsoftware</a>, <a href='https://github.com/quantfreedom'>@quantfreedom</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/nightroman'><img src='https://scottplot.net/images/contributors/nightroman.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -61,6 +65,8 @@ Description: Release notes for every version of ScottPlot
 <a href='https://github.com/onur-akaydin'><img src='https://scottplot.net/images/contributors/onur-akaydin.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/xichaoqiang'><img src='https://scottplot.net/images/contributors/xichaoqiang.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/VladislavPustovarov'><img src='https://scottplot.net/images/contributors/vladislavpustovarov.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/nullsoftware'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/quantfreedom'><img src='https://scottplot.net/images/contributors/quantfreedom.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
