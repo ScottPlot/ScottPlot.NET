@@ -38,13 +38,15 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Legend: Made <code>GetItems()</code> virtual to support custom ordering logic and made <code>Plot.Legend</code> settable (<a href="https://github.com/ScottPlot/ScottPlot/issues/4571">#4571</a>) <a href="https://github.com/onur-akaydin"><strong>@onur-akaydin</strong></a>
 </li>
-<li>Controls: improved middle-click-drag zoom rectangle support for plots using inverted axis limits (<a href="https://github.com/ScottPlot/ScottPlot/issues/4573">#4573</a>) <a href="https://github.com/xichaoqiang"><strong>@xichaoqiang</strong></a>
+<li>Controls: Improved middle-click-drag zoom rectangle support for plots using inverted axis limits (<a href="https://github.com/ScottPlot/ScottPlot/issues/4573">#4573</a>) <a href="https://github.com/xichaoqiang"><strong>@xichaoqiang</strong></a>
+</li>
+<li>Ticks: Improved tick placement consistency for financial plots with DateTime axes (<a href="https://github.com/ScottPlot/ScottPlot/issues/4591">#4591</a>) <a href="https://github.com/VladislavPustovarov"><strong>@VladislavPustovarov</strong></a>
 </li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/nightroman'>@nightroman</a>, <a href='https://github.com/claire0821'>@claire0821</a>, <a href='https://github.com/vadimart92'>@vadimart92</a>, <a href='https://github.com/SprinterDave'>@SprinterDave</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/louis1901'>@louis1901</a>, <a href='https://github.com/Padanian'>@Padanian</a>, <a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/ssharks'>@ssharks</a>, <a href='https://github.com/onur-akaydin'>@onur-akaydin</a>, <a href='https://github.com/xichaoqiang'>@xichaoqiang</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/nightroman'>@nightroman</a>, <a href='https://github.com/claire0821'>@claire0821</a>, <a href='https://github.com/vadimart92'>@vadimart92</a>, <a href='https://github.com/SprinterDave'>@SprinterDave</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/louis1901'>@louis1901</a>, <a href='https://github.com/Padanian'>@Padanian</a>, <a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/ssharks'>@ssharks</a>, <a href='https://github.com/onur-akaydin'>@onur-akaydin</a>, <a href='https://github.com/xichaoqiang'>@xichaoqiang</a>, <a href='https://github.com/VladislavPustovarov'>@VladislavPustovarov</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/nightroman'><img src='https://scottplot.net/images/contributors/nightroman.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -58,6 +60,7 @@ Description: Release notes for every version of ScottPlot
 <a href='https://github.com/ssharks'><img src='https://scottplot.net/images/contributors/ssharks.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/onur-akaydin'><img src='https://scottplot.net/images/contributors/onur-akaydin.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/xichaoqiang'><img src='https://scottplot.net/images/contributors/xichaoqiang.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/VladislavPustovarov'><img src='https://scottplot.net/images/contributors/vladislavpustovarov.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 

@@ -21,6 +21,7 @@ Description: Members of the open-source community who contributed to ScottPlot
 <a href='https://github.com/ssharks'><img src='https://scottplot.net/images/contributors/ssharks.png'></a>
 <a href='https://github.com/onur-akaydin'><img src='https://scottplot.net/images/contributors/onur-akaydin.png'></a>
 <a href='https://github.com/xichaoqiang'><img src='https://scottplot.net/images/contributors/xichaoqiang.png'></a>
+<a href='https://github.com/VladislavPustovarov'><img src='https://scottplot.net/images/contributors/vladislavpustovarov.png'></a>
 <a href='https://github.com/david3951445'><img src='https://scottplot.net/images/contributors/david3951445.png'></a>
 <a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png'></a>
 <a href='https://github.com/Paraplegia'><img src='https://scottplot.net/images/contributors/paraplegia.png'></a>
@@ -29,7 +30,6 @@ Description: Members of the open-source community who contributed to ScottPlot
 <a href='https://github.com/quantfreedom'><img src='https://scottplot.net/images/contributors/quantfreedom.jpg'></a>
 <a href='https://github.com/wellcaffeinated'><img src='https://scottplot.net/images/contributors/wellcaffeinated.jpg'></a>
 <a href='https://github.com/FULL69'><img src='https://scottplot.net/images/contributors/full69.png'></a>
-<a href='https://github.com/VladislavPustovarov'><img src='https://scottplot.net/images/contributors/vladislavpustovarov.png'></a>
 <a href='https://github.com/jpgarza93'><img src='https://scottplot.net/images/contributors/jpgarza93.jpg'></a>
 <a href='https://github.com/BambOoxX'><img src='https://scottplot.net/images/contributors/bambooxx.png'></a>
 <a href='https://github.com/Liwr9537'><img src='https://scottplot.net/images/contributors/liwr9537.png'></a>
