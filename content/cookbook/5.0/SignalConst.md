@@ -4,9 +4,9 @@ Description: SignalConst is a type of signal plot which contains immutable data 
 URL: /cookbook/5.0/SignalConst/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "SignalConst"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/SignalConst"]
-Date: 2024-11-24
-Version: ScottPlot 5.0.47
-Version: ScottPlot 5.0.47
+Date: 2025-01-05
+Version: ScottPlot 5.0.48
+Version: ScottPlot 5.0.48
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -23,9 +23,9 @@ ShowEditLink: false
 
 SignalConst can display data with millions of points at high framerates, ideal for interactive manipulation of large datasets.
 
-[![](/cookbook/5.0/images/SignalConstQuickstart.png?241124170640)](/cookbook/5.0/images/SignalConstQuickstart.png?241124170640)
+[![](/cookbook/5.0/images/SignalConstQuickstart.png?250105183901)](/cookbook/5.0/images/SignalConstQuickstart.png?250105183901)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SignalConst.cs" imageUrl="/cookbook/5.0/images/SignalConstQuickstart.png?241124170640" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SignalConst.cs" imageUrl="/cookbook/5.0/images/SignalConstQuickstart.png?250105183901" >}}ScottPlot.Plot myPlot = new();
 
 double[] data = Generate.RandomWalk(1_000_000);
 myPlot.Add.SignalConst(data);

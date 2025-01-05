@@ -4,9 +4,9 @@ Description: Additional axes may be added to plots. Plottables are displayed usi
 URL: /cookbook/5.0/MultiAxis/MultiAxisQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Multiple Axes", "Multi-Axis"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/MultiAxis", "/cookbook/5.0/MultiAxis/MultiAxisQuickstart"]
-Date: 2024-11-24
-Version: ScottPlot 5.0.47
-Version: ScottPlot 5.0.47
+Date: 2025-01-05
+Version: ScottPlot 5.0.48
+Version: ScottPlot 5.0.48
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,12 +18,12 @@ ShowEditLink: false
 
 Additional axes may be added to plots. Plottables are displayed using the coordinate system of the primary axes by default, but any plottable can be displayed using any X and Y axis.
 
-[![](/cookbook/5.0/images/MultiAxisQuickstart.png?241124170640)](/cookbook/5.0/images/MultiAxisQuickstart.png?241124170640)
+[![](/cookbook/5.0/images/MultiAxisQuickstart.png?250105183901)](/cookbook/5.0/images/MultiAxisQuickstart.png?250105183901)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/MultiAxis.cs" imageUrl="/cookbook/5.0/images/MultiAxisQuickstart.png?241124170640" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/MultiAxis.cs" imageUrl="/cookbook/5.0/images/MultiAxisQuickstart.png?250105183901" >}}ScottPlot.Plot myPlot = new();
 
 // plottables use the standard X and Y axes by default
-var sig1 = myPlot.Add.Signal(ScottPlot.Generate.Sin(51, mult: 0.01));
+var sig1 = myPlot.Add.Signal(Generate.Sin(51, mult: 0.01));
 sig1.Axes.XAxis = myPlot.Axes.Bottom; // standard X axis
 sig1.Axes.YAxis = myPlot.Axes.Left; // standard Y axis
 myPlot.Axes.Left.Label.Text = "Primary Y Axis";
@@ -32,7 +32,7 @@ myPlot.Axes.Left.Label.Text = "Primary Y Axis";
 var yAxis2 = myPlot.Axes.AddLeftAxis();
 
 // add a new plottable and tell it to use the custom Y axis
-var sig2 = myPlot.Add.Signal(ScottPlot.Generate.Cos(51, mult: 100));
+var sig2 = myPlot.Add.Signal(Generate.Cos(51, mult: 100));
 sig2.Axes.XAxis = myPlot.Axes.Bottom; // standard X axis
 sig2.Axes.YAxis = yAxis2; // custom Y axis
 yAxis2.LabelText = "Secondary Y Axis";

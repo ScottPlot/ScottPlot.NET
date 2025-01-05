@@ -4,9 +4,9 @@ Description: A phasor line plot contains a collection of polar coordinates which
 URL: /cookbook/5.0/Phasor/PhasorQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Phasor Plot", "Phasor Line Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Phasor", "/cookbook/5.0/Phasor/PhasorQuickstart"]
-Date: 2024-11-24
-Version: ScottPlot 5.0.47
-Version: ScottPlot 5.0.47
+Date: 2025-01-05
+Version: ScottPlot 5.0.48
+Version: ScottPlot 5.0.48
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 A phasor line plot contains a collection of polar coordinates which are rendered as arrows.
 
-[![](/cookbook/5.0/images/PhasorQuickstart.png?241124170640)](/cookbook/5.0/images/PhasorQuickstart.png?241124170640)
+[![](/cookbook/5.0/images/PhasorQuickstart.png?250105183901)](/cookbook/5.0/images/PhasorQuickstart.png?250105183901)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Phasor.cs" imageUrl="/cookbook/5.0/images/PhasorQuickstart.png?241124170640" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Phasor.cs" imageUrl="/cookbook/5.0/images/PhasorQuickstart.png?250105183901" >}}ScottPlot.Plot myPlot = new();
 
 // Start by placing a polar axis system on the plot
 var polarAxis = myPlot.Add.PolarAxis(30);

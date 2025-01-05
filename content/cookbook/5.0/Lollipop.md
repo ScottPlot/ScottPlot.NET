@@ -4,9 +4,9 @@ Description: A lollipop chart is a variation of a bar chart that uses a line (st
 URL: /cookbook/5.0/Lollipop/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Lollipop Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Lollipop"]
-Date: 2024-11-24
-Version: ScottPlot 5.0.47
-Version: ScottPlot 5.0.47
+Date: 2025-01-05
+Version: ScottPlot 5.0.48
+Version: ScottPlot 5.0.48
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -23,9 +23,9 @@ ShowEditLink: false
 
 Lollipop plots can be created from a sequence of values
 
-[![](/cookbook/5.0/images/LollipopQuickStart.png?241124170640)](/cookbook/5.0/images/LollipopQuickStart.png?241124170640)
+[![](/cookbook/5.0/images/LollipopQuickStart.png?250105183901)](/cookbook/5.0/images/LollipopQuickStart.png?250105183901)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Lollipop.cs" imageUrl="/cookbook/5.0/images/LollipopQuickStart.png?241124170640" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Lollipop.cs" imageUrl="/cookbook/5.0/images/LollipopQuickStart.png?250105183901" >}}ScottPlot.Plot myPlot = new();
 
 double[] values = Generate.Sin(25);
 myPlot.Add.Lollipop(values);
@@ -46,9 +46,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 The position of each lollipop may be defined.
 
-[![](/cookbook/5.0/images/LollipopPositions.png?241124170640)](/cookbook/5.0/images/LollipopPositions.png?241124170640)
+[![](/cookbook/5.0/images/LollipopPositions.png?250105183901)](/cookbook/5.0/images/LollipopPositions.png?250105183901)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Lollipop.cs" imageUrl="/cookbook/5.0/images/LollipopPositions.png?241124170640" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Lollipop.cs" imageUrl="/cookbook/5.0/images/LollipopPositions.png?250105183901" >}}ScottPlot.Plot myPlot = new();
 
 double[] xs = Generate.Range(0, 6.28, 0.314);
 double[] ys = xs.Select(Math.Sin).ToArray();
@@ -70,9 +70,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 The stem line and head marker can be extensively customized.
 
-[![](/cookbook/5.0/images/BarLollipopCustom.png?241124170640)](/cookbook/5.0/images/BarLollipopCustom.png?241124170640)
+[![](/cookbook/5.0/images/BarLollipopCustom.png?250105183901)](/cookbook/5.0/images/BarLollipopCustom.png?250105183901)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Lollipop.cs" imageUrl="/cookbook/5.0/images/BarLollipopCustom.png?241124170640" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Lollipop.cs" imageUrl="/cookbook/5.0/images/BarLollipopCustom.png?250105183901" >}}ScottPlot.Plot myPlot = new();
 
 double[] values = Generate.Sin(21);
 var lollipop = myPlot.Add.Lollipop(values);
@@ -101,9 +101,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Change the lollipop plot's Orientation to Horizontal to cause stems to be drawn horizontally instead of vertically.
 
-[![](/cookbook/5.0/images/LollipopHorizontal.png?241124170640)](/cookbook/5.0/images/LollipopHorizontal.png?241124170640)
+[![](/cookbook/5.0/images/LollipopHorizontal.png?250105183901)](/cookbook/5.0/images/LollipopHorizontal.png?250105183901)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Lollipop.cs" imageUrl="/cookbook/5.0/images/LollipopHorizontal.png?241124170640" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Lollipop.cs" imageUrl="/cookbook/5.0/images/LollipopHorizontal.png?250105183901" >}}ScottPlot.Plot myPlot = new();
 
 double[] xs = Generate.Sin(21);
 double[] ys = Generate.Consecutive(21);

@@ -4,9 +4,9 @@ Description: Ultimate control of bar plot styling and positioning may be achieve
 URL: /cookbook/5.0/Bar/BarCustomSingle/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Bar Plot", "Customized Bar Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Bar", "/cookbook/5.0/Bar/BarCustomSingle"]
-Date: 2024-11-24
-Version: ScottPlot 5.0.47
-Version: ScottPlot 5.0.47
+Date: 2025-01-05
+Version: ScottPlot 5.0.48
+Version: ScottPlot 5.0.48
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Ultimate control of bar plot styling and positioning may be achieved by creating each bar individually, styling it as desired, and setting its exact size and location. This level of customization may be used to create extremely advanced stacked or grouped bar plots.
 
-[![](/cookbook/5.0/images/BarCustomSingle.png?241124170640)](/cookbook/5.0/images/BarCustomSingle.png?241124170640)
+[![](/cookbook/5.0/images/BarCustomSingle.png?250105183901)](/cookbook/5.0/images/BarCustomSingle.png?250105183901)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs" imageUrl="/cookbook/5.0/images/BarCustomSingle.png?241124170640" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs" imageUrl="/cookbook/5.0/images/BarCustomSingle.png?250105183901" >}}ScottPlot.Plot myPlot = new();
 
 ScottPlot.Bar bar1 = new()
 {

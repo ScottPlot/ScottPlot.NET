@@ -4,9 +4,9 @@ Description: Line plots can be placed on the plot in coordinate space using a St
 URL: /cookbook/5.0/LinePlot/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Line Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/LinePlot"]
-Date: 2024-11-24
-Version: ScottPlot 5.0.47
-Version: ScottPlot 5.0.47
+Date: 2025-01-05
+Version: ScottPlot 5.0.48
+Version: ScottPlot 5.0.48
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -23,9 +23,9 @@ ShowEditLink: false
 
 Line plots are placed with a start and end location in coordinate space. Their styles can be customized.
 
-[![](/cookbook/5.0/images/LineQuickStart.png?241124170640)](/cookbook/5.0/images/LineQuickStart.png?241124170640)
+[![](/cookbook/5.0/images/LineQuickStart.png?250105183901)](/cookbook/5.0/images/LineQuickStart.png?250105183901)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Line.cs" imageUrl="/cookbook/5.0/images/LineQuickStart.png?241124170640" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Line.cs" imageUrl="/cookbook/5.0/images/LineQuickStart.png?250105183901" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Line(1, 12, 12, 0);
 myPlot.Add.Line(7, 9, 42, 9);
@@ -47,9 +47,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Line plots can be styled using a LineStyle.
 
-[![](/cookbook/5.0/images/LinePlotStyles.png?241124170640)](/cookbook/5.0/images/LinePlotStyles.png?241124170640)
+[![](/cookbook/5.0/images/LinePlotStyles.png?250105183901)](/cookbook/5.0/images/LinePlotStyles.png?250105183901)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Line.cs" imageUrl="/cookbook/5.0/images/LinePlotStyles.png?241124170640" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Line.cs" imageUrl="/cookbook/5.0/images/LinePlotStyles.png?250105183901" >}}ScottPlot.Plot myPlot = new();
 
 ScottPlot.Colormaps.Viridis colormap = new();
 
@@ -87,9 +87,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Line plots with labels appear in the legend.
 
-[![](/cookbook/5.0/images/LinePlotLegendQWER.png?241124170640)](/cookbook/5.0/images/LinePlotLegendQWER.png?241124170640)
+[![](/cookbook/5.0/images/LinePlotLegendQWER.png?250105183901)](/cookbook/5.0/images/LinePlotLegendQWER.png?250105183901)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Line.cs" imageUrl="/cookbook/5.0/images/LinePlotLegendQWER.png?241124170640" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Line.cs" imageUrl="/cookbook/5.0/images/LinePlotLegendQWER.png?250105183901" >}}ScottPlot.Plot myPlot = new();
 
 var sin = myPlot.Add.Signal(Generate.Sin());
 sin.LegendText = "Sine";
@@ -103,6 +103,42 @@ line.MarkerSize = 10;
 line.LegendText = "Line Plot";
 
 myPlot.ShowLegend(Alignment.UpperRight);
+
+myPlot.SavePng("demo.png", 400, 300);
+{{< /recipe-sp5 >}}
+
+<hr class='my-5 invisible'>
+
+
+
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Line and Marker Order</h1>
+<a href='/cookbook/5.0/LinePlot/LinePlotMarkerOrder' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
+</div>
+
+Markers may be displayed at the ends of lines, and a flag controls whether the markers are drawn above or below the line.
+
+[![](/cookbook/5.0/images/LinePlotMarkerOrder.png?250105183901)](/cookbook/5.0/images/LinePlotMarkerOrder.png?250105183901)
+
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Line.cs" imageUrl="/cookbook/5.0/images/LinePlotMarkerOrder.png?250105183901" >}}ScottPlot.Plot myPlot = new();
+
+var line1 = myPlot.Add.Line(0, 0, 1, 1);
+line1.LineColor = Colors.Orange;
+line1.LineWidth = 5;
+line1.MarkerColor = Colors.Red;
+line1.MarkerSize = 20;
+line1.MarkerShape = MarkerShape.FilledCircle;
+line1.LineOnTop = true; // render order is controlled here
+
+var line2 = myPlot.Add.Line(1, 0, 2, 1);
+line2.LineColor = Colors.Orange;
+line2.LineWidth = 5;
+line2.MarkerColor = Colors.Red;
+line2.MarkerSize = 20;
+line2.MarkerShape = MarkerShape.FilledCircle;
+line2.MarkersOnTop = true; // render order is controlled here
 
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}

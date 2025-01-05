@@ -4,9 +4,9 @@ Description: Slice labels can be displayed centered with the slice at a customiz
 URL: /cookbook/5.0/Pie/PieSliceLabels/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Pie", "Pie Slice Labels"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Pie", "/cookbook/5.0/Pie/PieSliceLabels"]
-Date: 2024-11-24
-Version: ScottPlot 5.0.47
-Version: ScottPlot 5.0.47
+Date: 2025-01-05
+Version: ScottPlot 5.0.48
+Version: ScottPlot 5.0.48
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Slice labels can be displayed centered with the slice at a customizable distance from the center of the pie.
 
-[![](/cookbook/5.0/images/PieSliceLabels.png?241124170640)](/cookbook/5.0/images/PieSliceLabels.png?241124170640)
+[![](/cookbook/5.0/images/PieSliceLabels.png?250105183901)](/cookbook/5.0/images/PieSliceLabels.png?250105183901)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Pie.cs" imageUrl="/cookbook/5.0/images/PieSliceLabels.png?241124170640" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Pie.cs" imageUrl="/cookbook/5.0/images/PieSliceLabels.png?250105183901" >}}ScottPlot.Plot myPlot = new();
 
 PieSlice slice1 = new() { Value = 5, FillColor = Colors.Red, Label = "alpha" };
 PieSlice slice2 = new() { Value = 2, FillColor = Colors.Orange, Label = "beta" };

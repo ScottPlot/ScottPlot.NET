@@ -4,9 +4,9 @@ Description: Use Clear() to remove all plottables.
 URL: /cookbook/5.0/PlottableManagement/Clear/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Plottable Management", "Clearing Plots"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/PlottableManagement", "/cookbook/5.0/PlottableManagement/Clear"]
-Date: 2024-11-24
-Version: ScottPlot 5.0.47
-Version: ScottPlot 5.0.47
+Date: 2025-01-05
+Version: ScottPlot 5.0.48
+Version: ScottPlot 5.0.48
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Use Clear() to remove all plottables.
 
-[![](/cookbook/5.0/images/Clear.png?241124170640)](/cookbook/5.0/images/Clear.png?241124170640)
+[![](/cookbook/5.0/images/Clear.png?250105183901)](/cookbook/5.0/images/Clear.png?250105183901)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/PlottableManagement.cs" imageUrl="/cookbook/5.0/images/Clear.png?241124170640" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/PlottableManagement.cs" imageUrl="/cookbook/5.0/images/Clear.png?250105183901" >}}ScottPlot.Plot myPlot = new();
 
 // add plottables
 myPlot.Add.Signal(Generate.Sin());

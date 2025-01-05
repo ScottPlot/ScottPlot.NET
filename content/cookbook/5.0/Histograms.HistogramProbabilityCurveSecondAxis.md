@@ -4,9 +4,9 @@ Description: A probability curve may be placed on a secondary axis to allow coun
 URL: /cookbook/5.0/Histograms/HistogramProbabilityCurveSecondAxis/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Histogram", "Histogram with Second Axis Probability"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Histograms", "/cookbook/5.0/Histograms/HistogramProbabilityCurveSecondAxis"]
-Date: 2024-11-24
-Version: ScottPlot 5.0.47
-Version: ScottPlot 5.0.47
+Date: 2025-01-05
+Version: ScottPlot 5.0.48
+Version: ScottPlot 5.0.48
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 A probability curve may be placed on a secondary axis to allow counts to be displayed alongside probabilities with percent units
 
-[![](/cookbook/5.0/images/HistogramProbabilityCurveSecondAxis.png?241124170640)](/cookbook/5.0/images/HistogramProbabilityCurveSecondAxis.png?241124170640)
+[![](/cookbook/5.0/images/HistogramProbabilityCurveSecondAxis.png?250105183901)](/cookbook/5.0/images/HistogramProbabilityCurveSecondAxis.png?250105183901)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Miscellaneous/Histograms.cs" imageUrl="/cookbook/5.0/images/HistogramProbabilityCurveSecondAxis.png?241124170640" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Miscellaneous/Histograms.cs" imageUrl="/cookbook/5.0/images/HistogramProbabilityCurveSecondAxis.png?250105183901" >}}ScottPlot.Plot myPlot = new();
 
 // Create a histogram from a collection of values
 double[] heights = SampleData.MaleHeights();

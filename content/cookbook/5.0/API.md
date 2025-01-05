@@ -2,13 +2,13 @@
 Title: ScottPlot 5.0 API
 Description: All classes, fields, properties, and methods provided by the ScottPlot package
 URL: /api/5.0/
-Date: 2024-11-24
+Date: 2025-01-05
 ShowEditLink: false
 ---
 
-# ScottPlot 5.0.47 API
+# ScottPlot 5.0.48 API
 
-_Generated 11/24/2024 5:06:40 PM_
+_Generated 1/5/2025 6:39:00 PM_
 
 <div class='my-5'>&nbsp;</div>
 
@@ -229,6 +229,7 @@ a:hover {text-decoration: underline;}
 <div><span class='otherType'>void</span> <span class='name'>DrawCircle(<span class='otherType'>SkiaSharp.SKCanvas</span> <span class='name'>canvas</span>, <a class='scottPlotType' href='#ScottPlot.Pixel'>ScottPlot.Pixel</a> <span class='name'>center</span>, <span class='otherType'>single</span> <span class='name'>radius</span>, <a class='scottPlotType' href='#ScottPlot.FillStyle'>ScottPlot.FillStyle</a> <span class='name'>fillStyle</span>, <span class='otherType'>SkiaSharp.SKPaint</span> <span class='name'>paint</span>)</span> <span class='docs'></span></div>
 <div><span class='otherType'>void</span> <span class='name'>DrawOval(<span class='otherType'>SkiaSharp.SKCanvas</span> <span class='name'>canvas</span>, <span class='otherType'>SkiaSharp.SKPaint</span> <span class='name'>paint</span>, <a class='scottPlotType' href='#ScottPlot.LineStyle'>ScottPlot.LineStyle</a> <span class='name'>lineStyle</span>, <a class='scottPlotType' href='#ScottPlot.PixelRect'>ScottPlot.PixelRect</a> <span class='name'>rect</span>)</span> <span class='docs'></span></div>
 <div><span class='otherType'>void</span> <span class='name'>FillOval(<span class='otherType'>SkiaSharp.SKCanvas</span> <span class='name'>canvas</span>, <span class='otherType'>SkiaSharp.SKPaint</span> <span class='name'>paint</span>, <a class='scottPlotType' href='#ScottPlot.FillStyle'>ScottPlot.FillStyle</a> <span class='name'>fillStyle</span>, <a class='scottPlotType' href='#ScottPlot.PixelRect'>ScottPlot.PixelRect</a> <span class='name'>rect</span>)</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>DrawArc(<span class='otherType'>SkiaSharp.SKCanvas</span> <span class='name'>canvas</span>, <span class='otherType'>SkiaSharp.SKPaint</span> <span class='name'>paint</span>, <a class='scottPlotType' href='#ScottPlot.LineStyle'>ScottPlot.LineStyle</a> <span class='name'>lineStyle</span>, <a class='scottPlotType' href='#ScottPlot.PixelRect'>ScottPlot.PixelRect</a> <span class='name'>rect</span>, <span class='otherType'>single</span> <span class='name'>startAngle</span>, <span class='otherType'>single</span> <span class='name'>sweepAngle</span>)</span> <span class='docs'></span></div>
 <div><span class='otherType'>void</span> <span class='name'>DrawMarker(<span class='otherType'>SkiaSharp.SKCanvas</span> <span class='name'>canvas</span>, <span class='otherType'>SkiaSharp.SKPaint</span> <span class='name'>paint</span>, <a class='scottPlotType' href='#ScottPlot.Pixel'>ScottPlot.Pixel</a> <span class='name'>pixel</span>, <a class='scottPlotType' href='#ScottPlot.MarkerStyle'>ScottPlot.MarkerStyle</a> <span class='name'>style</span>)</span> <span class='docs'></span></div>
 <div><span class='otherType'>void</span> <span class='name'>DrawMarkers(<span class='otherType'>SkiaSharp.SKCanvas</span> <span class='name'>canvas</span>, <span class='otherType'>SkiaSharp.SKPaint</span> <span class='name'>paint</span>, <span class='otherType'>IEnumerable&lt;ScottPlot.Pixel&gt;</span> <span class='name'>pixels</span>, <a class='scottPlotType' href='#ScottPlot.MarkerStyle'>ScottPlot.MarkerStyle</a> <span class='name'>style</span>)</span> <span class='docs'></span></div>
 <div><span class='otherType'>void</span> <span class='name'>DrawMarkers(<span class='otherType'>SkiaSharp.SKCanvas</span> <span class='name'>canvas</span>, <span class='otherType'>SkiaSharp.SKPaint</span> <span class='name'>paint</span>, <span class='otherType'>IReadOnlyList&lt;ScottPlot.Pixel&gt;</span> <span class='name'>pixels</span>, <a class='scottPlotType' href='#ScottPlot.MarkerStyle'>ScottPlot.MarkerStyle</a> <span class='name'>style</span>, <a class='scottPlotType' href='#ScottPlot.IColormap'>ScottPlot.IColormap</a> <span class='name'>colormap</span>)</span> <span class='docs'></span></div>
@@ -417,6 +418,7 @@ a:hover {text-decoration: underline;}
 </div>
 <div><a class='scottPlotType' href='#ScottPlot.CoordinateRange'>ScottPlot.CoordinateRange</a> <span class='name'>GetRange(<a class='scottPlotType' href='#ScottPlot.IAxis'>ScottPlot.IAxis</a> <span class='name'>axis</span>)</span> <span class='docs'></span></div>
 <div><span class='otherType'>bool</span> <span class='name'>IsInverted(<a class='scottPlotType' href='#ScottPlot.IAxis'>ScottPlot.IAxis</a> <span class='name'>axis</span>)</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>RemoveTickGenerator(<a class='scottPlotType' href='#ScottPlot.IAxis'>ScottPlot.IAxis</a> <span class='name'>axis</span>)</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.IAxisRule'><a style='color: black;' href='#ScottPlot.IAxisRule'>ScottPlot.IAxisRule</a></div>
 <div class='docs'>These rules are applied just before each render</div>
@@ -629,7 +631,7 @@ a:hover {text-decoration: underline;}
 <div class='title' id='ScottPlot.IMultiplotLayout'><a style='color: black;' href='#ScottPlot.IMultiplotLayout'>ScottPlot.IMultiplotLayout</a></div>
 <div class='docs'></div>
 </div>
-<div><span class='otherType'>IEnumerable&lt;ValueTuple&lt;T1, T2&gt;&gt;</span> <span class='name'>GetLayout(<span class='otherType'>IReadOnlyList&lt;ScottPlot.Plot&gt;</span> <span class='name'>plots</span>)</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>ResetAllPositions(<a class='scottPlotType' href='#ScottPlot.Multiplot'>ScottPlot.Multiplot</a> <span class='name'>multiplot</span>)</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.IMultiThreadedPlotControl'><a style='color: black;' href='#ScottPlot.IMultiThreadedPlotControl'>ScottPlot.IMultiThreadedPlotControl</a></div>
 <div class='docs'></div>
@@ -692,12 +694,11 @@ a:hover {text-decoration: underline;}
 <div><span class='otherType'>single</span> <span class='name'>DisplayScale</span> <span class='docs'>The value of the present display scaling.
             Mouse positions are multiplied by this value for pixel/coordinate conversions.</span></div>
 <div><span class='otherType'>SkiaSharp.GRContext</span> <span class='name'>GRContext</span> <span class='docs'>Context for hardware-accelerated graphics (or null if not available)</span></div>
-<div><a class='scottPlotType' href='#ScottPlot.IPlotInteraction'>ScottPlot.IPlotInteraction</a> <span class='name'>Interaction</span> <span class='docs'>Legacy options for plot manipulation in response to user inputs.
-            This functionality has been replaced by &lt;see cref="P:ScottPlot.IPlotControl.UserInputProcessor" /&gt;.</span></div>
 <div><a class='scottPlotType' href='#ScottPlot.IPlotMenu'>ScottPlot.IPlotMenu</a> <span class='name'>Menu</span> <span class='docs'>Platform-specific logic for managing the context menu</span></div>
-<div><a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>Plot</span> <span class='docs'>The &lt;see cref="P:ScottPlot.IPlotControl.Plot" /&gt; displayed by this interactive control</span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Multiplot'>ScottPlot.Multiplot</a> <span class='name'>Multiplot</span> <span class='docs'>The multiplot managed by this interactive control</span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>Plot</span> <span class='docs'>The primary &lt;see cref="P:ScottPlot.IPlotControl.Plot" /&gt; displayed by this interactive control</span></div>
 <div><a class='scottPlotType' href='#ScottPlot.Interactivity.UserInputProcessor'>ScottPlot.Interactivity.UserInputProcessor</a> <span class='name'>UserInputProcessor</span> <span class='docs'>This object takes in UI events and contains logic for how to respond to them.
-            This is a newer alternative to the older &lt;see cref="P:ScottPlot.IPlotControl.Interaction" /&gt; system.</span></div>
+            This is a newer alternative to the older &lt;see cref="!:Interaction" /&gt; system.</span></div>
 <div><span class='otherType'>void</span> <span class='name'>Refresh()</span> <span class='docs'>Render the plot and update the image</span></div>
 <div><span class='otherType'>void</span> <span class='name'>ShowContextMenu(<a class='scottPlotType' href='#ScottPlot.Pixel'>ScottPlot.Pixel</a> <span class='name'>position</span>)</span> <span class='docs'></span></div>
 <div><span class='otherType'>single</span> <span class='name'>DetectDisplayScale()</span> <span class='docs'>Determine the DPI scaling ratio of the present display.
@@ -706,26 +707,10 @@ a:hover {text-decoration: underline;}
 <div><span class='otherType'>void</span> <span class='name'>Reset()</span> <span class='docs'>Disposes the current Plot and creates a new one for the control</span></div>
 <div><span class='otherType'>void</span> <span class='name'>Reset(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>plot</span>)</span> <span class='docs'>Disposes the current Plot and creates a new one for the control</span></div>
 <div style='margin-top: 2em'>
-<div class='title' id='ScottPlot.IPlotInteraction'><a style='color: black;' href='#ScottPlot.IPlotInteraction'>ScottPlot.IPlotInteraction</a></div>
+<div class='title' id='ScottPlot.IPlotControlExtensions'><a style='color: black;' href='#ScottPlot.IPlotControlExtensions'>ScottPlot.IPlotControlExtensions</a></div>
 <div class='docs'></div>
 </div>
-<div><span class='otherType'>bool</span> <span class='name'>ChangeOpposingAxesTogether</span> <span class='docs'>If enabled, mouse interactions over a single axis will be applied to
-            all axes with the same orientation.</span></div>
-<div><span class='otherType'>bool</span> <span class='name'>IsEnabled</span> <span class='docs'>Controls whether this event processor processes new events.
-            Enabling this disables the newer &lt;see cref="P:ScottPlot.IPlotControl.UserInputProcessor" /&gt;.</span></div>
-<div><a class='scottPlotType' href='#ScottPlot.IPlotControl'>ScottPlot.IPlotControl</a> <span class='name'>PlotControl</span> <span class='docs'></span></div>
-<div><span class='otherType'>void</span> <span class='name'>Disable()</span> <span class='docs'>Disable all mouse interactivity</span></div>
-<div><span class='otherType'>void</span> <span class='name'>Enable()</span> <span class='docs'>Enable mouse interactivity using the default mouse actions.
-            Enabling this disables the newer &lt;see cref="P:ScottPlot.IPlotControl.UserInputProcessor" /&gt;.</span></div>
-<div><span class='otherType'>void</span> <span class='name'>Enable(<a class='scottPlotType' href='#ScottPlot.Control.PlotActions'>ScottPlot.Control.PlotActions</a> <span class='name'>customActions</span>)</span> <span class='docs'>Enable mouse interactivity using the default mouse actions.
-            Enabling this disables the newer &lt;see cref="P:ScottPlot.IPlotControl.UserInputProcessor" /&gt;.</span></div>
-<div><span class='otherType'>void</span> <span class='name'>OnMouseMove(<a class='scottPlotType' href='#ScottPlot.Pixel'>ScottPlot.Pixel</a> <span class='name'>newPosition</span>)</span> <span class='docs'></span></div>
-<div><span class='otherType'>void</span> <span class='name'>KeyUp(<a class='scottPlotType' href='#ScottPlot.Control.Key'>ScottPlot.Control.Key</a> <span class='name'>key</span>)</span> <span class='docs'></span></div>
-<div><span class='otherType'>void</span> <span class='name'>KeyDown(<a class='scottPlotType' href='#ScottPlot.Control.Key'>ScottPlot.Control.Key</a> <span class='name'>key</span>)</span> <span class='docs'></span></div>
-<div><span class='otherType'>void</span> <span class='name'>MouseDown(<a class='scottPlotType' href='#ScottPlot.Pixel'>ScottPlot.Pixel</a> <span class='name'>position</span>, <a class='scottPlotType' href='#ScottPlot.Control.MouseButton'>ScottPlot.Control.MouseButton</a> <span class='name'>button</span>)</span> <span class='docs'></span></div>
-<div><span class='otherType'>void</span> <span class='name'>MouseUp(<a class='scottPlotType' href='#ScottPlot.Pixel'>ScottPlot.Pixel</a> <span class='name'>position</span>, <a class='scottPlotType' href='#ScottPlot.Control.MouseButton'>ScottPlot.Control.MouseButton</a> <span class='name'>button</span>)</span> <span class='docs'></span></div>
-<div><span class='otherType'>void</span> <span class='name'>DoubleClick()</span> <span class='docs'></span></div>
-<div><span class='otherType'>void</span> <span class='name'>MouseWheelVertical(<a class='scottPlotType' href='#ScottPlot.Pixel'>ScottPlot.Pixel</a> <span class='name'>pixel</span>, <span class='otherType'>single</span> <span class='name'>delta</span>)</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>GetPlotAtPixel(<a class='scottPlotType' href='#ScottPlot.IPlotControl'>ScottPlot.IPlotControl</a> <span class='name'>plotControl</span>, <a class='scottPlotType' href='#ScottPlot.Pixel'>ScottPlot.Pixel</a> <span class='name'>pixel</span>)</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.IPlotMenu'><a style='color: black;' href='#ScottPlot.IPlotMenu'>ScottPlot.IPlotMenu</a></div>
 <div class='docs'></div>
@@ -821,6 +806,11 @@ a:hover {text-decoration: underline;}
 <div><a class='scottPlotType' href='#ScottPlot.LineStyle'>ScottPlot.LineStyle</a> <span class='name'>AxisStyle</span> <span class='docs'></span></div>
 <div><span class='otherType'>void</span> <span class='name'>Render(<a class='scottPlotType' href='#ScottPlot.RenderPack'>ScottPlot.RenderPack</a> <span class='name'>rp</span>, <a class='scottPlotType' href='#ScottPlot.IAxes'>ScottPlot.IAxes</a> <span class='name'>axes</span>, <span class='otherType'>double</span> <span class='name'>maxSpokeLength</span>, <span class='otherType'>int</span> <span class='name'>numSpokes</span>, <span class='otherType'>single</span> <span class='name'>rotationDegrees</span>)</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
+<div class='title' id='ScottPlot.ISubplotPosition'><a style='color: black;' href='#ScottPlot.ISubplotPosition'>ScottPlot.ISubplotPosition</a></div>
+<div class='docs'></div>
+</div>
+<div><a class='scottPlotType' href='#ScottPlot.PixelRect'>ScottPlot.PixelRect</a> <span class='name'>GetRect(<a class='scottPlotType' href='#ScottPlot.PixelRect'>ScottPlot.PixelRect</a> <span class='name'>figureRect</span>)</span> <span class='docs'></span></div>
+<div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.ITickGenerator'><a style='color: black;' href='#ScottPlot.ITickGenerator'>ScottPlot.ITickGenerator</a></div>
 <div class='docs'></div>
 </div>
@@ -875,13 +865,24 @@ a:hover {text-decoration: underline;}
 <div class='title' id='ScottPlot.Multiplot'><a style='color: black;' href='#ScottPlot.Multiplot'>ScottPlot.Multiplot</a></div>
 <div class='docs'></div>
 </div>
-<div><a class='scottPlotType' href='#ScottPlot.IMultiplotLayout'>ScottPlot.IMultiplotLayout</a> <span class='name'>Layout</span> <span class='docs'></span></div>
-<div><span class='otherType'>List&lt;ScottPlot.Plot&gt;</span> <span class='name'>Plots</span> <span class='docs'></span></div>
-<div><span class='otherType'>void</span> <span class='name'>AddPlot(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>plot</span>)</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>AddPlot()</span> <span class='docs'></span></div>
-<div><span class='otherType'>void</span> <span class='name'>AddPlots(<span class='otherType'>IEnumerable&lt;ScottPlot.Plot&gt;</span> <span class='name'>plots</span>)</span> <span class='docs'></span></div>
+<div><span class='otherType'>int</span> <span class='name'>Count</span> <span class='docs'>Number of subplots in this multiplot</span></div>
+<div><a class='scottPlotType' href='#ScottPlot.IMultiplotLayout'>ScottPlot.IMultiplotLayout</a> <span class='name'>Layout</span> <span class='docs'>This logic is used to create the initial layout for subplots in the multiplot</span></div>
+<div><span class='otherType'>void</span> <span class='name'>Reset(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>plot</span>)</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>AddPlot()</span> <span class='docs'>Create a new plot, add it as a subplot, and return it</span></div>
+<div><span class='otherType'>void</span> <span class='name'>AddPlot(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>plot</span>)</span> <span class='docs'>Create a new plot, add it as a subplot, and return it</span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Plot[]'>ScottPlot.Plot[]</a> <span class='name'>AddPlots(<span class='otherType'>int</span> <span class='name'>total</span>)</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>GetPlot(<span class='otherType'>int</span> <span class='name'>index</span>)</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Plot[]'>ScottPlot.Plot[]</a> <span class='name'>GetPlots()</span> <span class='docs'>Return all plots in this multiplot</span></div>
+<div><span class='otherType'>void</span> <span class='name'>SetPosition(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>plot</span>, <a class='scottPlotType' href='#ScottPlot.ISubplotPosition'>ScottPlot.ISubplotPosition</a> <span class='name'>position</span>)</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>SetPosition(<span class='otherType'>int</span> <span class='name'>plotIndex</span>, <a class='scottPlotType' href='#ScottPlot.ISubplotPosition'>ScottPlot.ISubplotPosition</a> <span class='name'>position</span>)</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.PixelRect'>ScottPlot.PixelRect</a> <span class='name'>GetLastRenderRectangle(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>plot</span>)</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>Render(<span class='otherType'>SkiaSharp.SKSurface</span> <span class='name'>surface</span>)</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>Render(<span class='otherType'>SkiaSharp.SKCanvas</span> <span class='name'>canvas</span>, <a class='scottPlotType' href='#ScottPlot.PixelRect'>ScottPlot.PixelRect</a> <span class='name'>figureRect</span>)</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.Image'>ScottPlot.Image</a> <span class='name'>Render(<span class='otherType'>int</span> <span class='name'>width</span>, <span class='otherType'>int</span> <span class='name'>height</span>)</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.SavedImageInfo'>ScottPlot.SavedImageInfo</a> <span class='name'>SavePng(<span class='otherType'>string</span> <span class='name'>filename</span>, <span class='otherType'>int</span> <span class='name'>width</span>, <span class='otherType'>int</span> <span class='name'>height</span>)</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>GetPlotAtPixel(<a class='scottPlotType' href='#ScottPlot.Pixel'>ScottPlot.Pixel</a> <span class='name'>pixel</span>)</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>ShareX(<span class='otherType'>IEnumerable&lt;ScottPlot.Plot&gt;</span> <span class='name'>plots</span>)</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>ShareY(<span class='otherType'>IEnumerable&lt;ScottPlot.Plot&gt;</span> <span class='name'>plots</span>)</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.NumericConversion'><a style='color: black;' href='#ScottPlot.NumericConversion'>ScottPlot.NumericConversion</a></div>
 <div class='docs'>This class contains type-specific methods to convert between generic values and doubles
@@ -926,10 +927,11 @@ a:hover {text-decoration: underline;}
 <div><a class='scottPlotType' href='#ScottPlot.BackgroundStyle'>ScottPlot.BackgroundStyle</a> <span class='name'>FigureBackground</span> <span class='docs'>Style for the background of the entire figure</span></div>
 <div><a class='scottPlotType' href='#ScottPlot.Stylers.FontStyler'>ScottPlot.Stylers.FontStyler</a> <span class='name'>Font</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.Grids.DefaultGrid'>ScottPlot.Grids.DefaultGrid</a> <span class='name'>Grid</span> <span class='docs'></span></div>
+<div><span class='otherType'>bool</span> <span class='name'>HasParentControl</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.RenderDetails'>ScottPlot.RenderDetails</a> <span class='name'>LastRender</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.LayoutManager'>ScottPlot.LayoutManager</a> <span class='name'>Layout</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.Legend'>ScottPlot.Legend</a> <span class='name'>Legend</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.IPlotControl'>ScottPlot.IPlotControl</a> <span class='name'>PlotControl</span> <span class='docs'>The user control this plot belongs to</span></div>
+<div><a class='scottPlotType' href='#ScottPlot.IPlotControl'>ScottPlot.IPlotControl</a> <span class='name'>PlotControl</span> <span class='docs'>Wire this plot to be aware of the interactive control it is part of</span></div>
 <div><span class='otherType'>List&lt;ScottPlot.IPlottable&gt;</span> <span class='name'>PlottableList</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.Rendering.RenderManager'>ScottPlot.Rendering.RenderManager</a> <span class='name'>RenderManager</span> <span class='docs'></span></div>
 <div><span class='otherType'>double</span> <span class='name'>ScaleFactor</span> <span class='docs'></span></div>
@@ -938,6 +940,7 @@ a:hover {text-decoration: underline;}
             Logic that manipulates the plot (UI inputs or editing data)
             can lock this object to prevent rendering artifacts.</span></div>
 <div><a class='scottPlotType' href='#ScottPlot.IZoomRectangle'>ScottPlot.IZoomRectangle</a> <span class='name'>ZoomRectangle</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>SetStyle(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>otherPlot</span>)</span> <span class='docs'></span></div>
 <div><span class='otherType'>void</span> <span class='name'>Developer_ShowAxisDetails(<span class='otherType'>bool</span> <span class='name'>enable</span>)</span> <span class='docs'></span></div>
 <div><span class='otherType'>void</span> <span class='name'>Dispose()</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.Pixel'>ScottPlot.Pixel</a> <span class='name'>GetPixel(<a class='scottPlotType' href='#ScottPlot.Coordinates'>ScottPlot.Coordinates</a> <span class='name'>coordinates</span>)</span> <span class='docs'></span></div>
@@ -998,7 +1001,6 @@ a:hover {text-decoration: underline;}
 <div><a class='scottPlotType' href='#ScottPlot.Grids.DefaultGrid'>ScottPlot.Grids.DefaultGrid</a> <span class='name'>GetDefaultGrid()</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.PlotStyle'>ScottPlot.PlotStyle</a> <span class='name'>GetStyle()</span> <span class='docs'>Return the current style settings for this plot</span></div>
 <div><span class='otherType'>void</span> <span class='name'>SetStyle(<a class='scottPlotType' href='#ScottPlot.PlotStyle'>ScottPlot.PlotStyle</a> <span class='name'>style</span>)</span> <span class='docs'></span></div>
-<div><span class='otherType'>void</span> <span class='name'>SetStyle(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>otherPlot</span>)</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.PlottableAdder'><a style='color: black;' href='#ScottPlot.PlottableAdder'>ScottPlot.PlottableAdder</a></div>
 <div class='docs'>Helper methods to create plottable objects and add them to the plot</div>
@@ -1039,6 +1041,7 @@ a:hover {text-decoration: underline;}
 <div><a class='scottPlotType' href='#ScottPlot.Plottables.SignalXY'>ScottPlot.Plottables.SignalXY</a> <span class='name'>SignalXY(<a class='scottPlotType' href='#ScottPlot.ISignalXYSource'>ScottPlot.ISignalXYSource</a> <span class='name'>source</span>, <a class='scottPlotType' href='#ScottPlot.Color?'>ScottPlot.Color?</a> <span class='name'>color</span>)</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.Plottables.SignalXY'>ScottPlot.Plottables.SignalXY</a> <span class='name'>SignalXY(<span class='otherType'>double[]</span> <span class='name'>xs</span>, <span class='otherType'>double[]</span> <span class='name'>ys</span>, <a class='scottPlotType' href='#ScottPlot.Color?'>ScottPlot.Color?</a> <span class='name'>color</span>)</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.Plottables.SignalXY'>ScottPlot.Plottables.SignalXY</a> <span class='name'>SignalXY(<span class='otherType'>TX[]</span> <span class='name'>xs</span>, <span class='otherType'>TY[]</span> <span class='name'>ys</span>, <a class='scottPlotType' href='#ScottPlot.Color?'>ScottPlot.Color?</a> <span class='name'>color</span>)</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Plottables.SmithChartAxis'>ScottPlot.Plottables.SmithChartAxis</a> <span class='name'>SmithChartAxis()</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.Plottables.BarPlot[]'>ScottPlot.Plottables.BarPlot[]</a> <span class='name'>StackedRanges(<span class='otherType'>List&lt;ValueTuple&lt;T1, T2&gt;&gt;</span> <span class='name'>ranges</span>, <a class='scottPlotType' href='#ScottPlot.IPalette'>ScottPlot.IPalette</a> <span class='name'>palette</span>, <span class='otherType'>bool</span> <span class='name'>horizontal</span>)</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.Plottables.Text'>ScottPlot.Plottables.Text</a> <span class='name'>Text(<span class='otherType'>string</span> <span class='name'>text</span>, <a class='scottPlotType' href='#ScottPlot.Coordinates'>ScottPlot.Coordinates</a> <span class='name'>location</span>)</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.Plottables.Text'>ScottPlot.Plottables.Text</a> <span class='name'>Text(<span class='otherType'>string</span> <span class='name'>text</span>, <span class='otherType'>double</span> <span class='name'>x</span>, <span class='otherType'>double</span> <span class='name'>y</span>)</span> <span class='docs'></span></div>
@@ -1243,6 +1246,7 @@ a:hover {text-decoration: underline;}
 <div><a class='scottPlotType' href='#ScottPlot.AxisLimits'>ScottPlot.AxisLimits</a> <span class='name'>Default</span> <span class='docs'></span></div>
 <div><span class='otherType'>bool</span> <span class='name'>HasArea</span> <span class='docs'></span></div>
 <div><span class='otherType'>double</span> <span class='name'>HorizontalCenter</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.CoordinateRange'>ScottPlot.CoordinateRange</a> <span class='name'>HorizontalRange</span> <span class='docs'></span></div>
 <div><span class='otherType'>double</span> <span class='name'>HorizontalSpan</span> <span class='docs'></span></div>
 <div><span class='otherType'>bool</span> <span class='name'>IsReal</span> <span class='docs'></span></div>
 <div><span class='otherType'>bool</span> <span class='name'>IsRealX</span> <span class='docs'></span></div>
@@ -1254,6 +1258,7 @@ a:hover {text-decoration: underline;}
 <div><span class='otherType'>double</span> <span class='name'>Top</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.AxisLimits'>ScottPlot.AxisLimits</a> <span class='name'>Unset</span> <span class='docs'></span></div>
 <div><span class='otherType'>double</span> <span class='name'>VerticalCenter</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.CoordinateRange'>ScottPlot.CoordinateRange</a> <span class='name'>VerticalRange</span> <span class='docs'></span></div>
 <div><span class='otherType'>double</span> <span class='name'>VerticalSpan</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.CoordinateRange'>ScottPlot.CoordinateRange</a> <span class='name'>XRange</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.CoordinateRange'>ScottPlot.CoordinateRange</a> <span class='name'>YRange</span> <span class='docs'></span></div>
@@ -1633,6 +1638,13 @@ a:hover {text-decoration: underline;}
 <div><a class='scottPlotType' href='#ScottPlot.ConnectStyle'>ScottPlot.ConnectStyle</a> <span class='name'>StepVertical</span> <span class='docs'>Connect points with a line vertically, then horizontally</span></div>
 <div><a class='scottPlotType' href='#ScottPlot.ConnectStyle'>ScottPlot.ConnectStyle</a> <span class='name'>Straight</span> <span class='docs'>Connect points with straight lines</span></div>
 <div style='margin-top: 2em'>
+<div class='title' id='ScottPlot.ContextMenuItem'><a style='color: black;' href='#ScottPlot.ContextMenuItem'>ScottPlot.ContextMenuItem</a></div>
+<div class='docs'>Represents a single item in a right-click pop-up menu</div>
+</div>
+<div><span class='otherType'>bool</span> <span class='name'>IsSeparator</span> <span class='docs'></span></div>
+<div><span class='otherType'>string</span> <span class='name'>Label</span> <span class='docs'></span></div>
+<div><span class='otherType'>Action&lt;ScottPlot.IPlotControl&gt;</span> <span class='name'>OnInvoke</span> <span class='docs'></span></div>
+<div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.ContourLine'><a style='color: black;' href='#ScottPlot.ContourLine'>ScottPlot.ContourLine</a></div>
 <div class='docs'></div>
 </div>
@@ -1918,7 +1930,7 @@ a:hover {text-decoration: underline;}
 <div><span class='otherType'>double</span> <span class='name'>Right</span> <span class='docs'></span></div>
 <div><span class='otherType'>double</span> <span class='name'>Top</span> <span class='docs'></span></div>
 <div><span class='otherType'>double</span> <span class='name'>Width</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.PixelRect'>ScottPlot.PixelRect</a> <span class='name'>GetPixelRect(<span class='otherType'>int</span> <span class='name'>width</span>, <span class='otherType'>int</span> <span class='name'>height</span>)</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.PixelRect'>ScottPlot.PixelRect</a> <span class='name'>GetPixelRect(<span class='otherType'>single</span> <span class='name'>width</span>, <span class='otherType'>single</span> <span class='name'>height</span>)</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.FractionRect'>ScottPlot.FractionRect</a> <span class='name'>Column(<span class='otherType'>int</span> <span class='name'>columnIndex</span>, <span class='otherType'>int</span> <span class='name'>columnCount</span>)</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.FractionRect'>ScottPlot.FractionRect</a> <span class='name'>Row(<span class='otherType'>int</span> <span class='name'>rowIndex</span>, <span class='otherType'>int</span> <span class='name'>rowCount</span>)</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.FractionRect'>ScottPlot.FractionRect</a> <span class='name'>GridCell(<span class='otherType'>int</span> <span class='name'>columnIndex</span>, <span class='otherType'>int</span> <span class='name'>rowIndex</span>, <span class='otherType'>int</span> <span class='name'>columnCount</span>, <span class='otherType'>int</span> <span class='name'>rowCount</span>)</span> <span class='docs'></span></div>
@@ -2360,6 +2372,7 @@ a:hover {text-decoration: underline;}
 <div><span class='otherType'>SkiaSharp.SKStrokeJoin</span> <span class='name'>StrokeJoin</span> <span class='docs'></span></div>
 <div><span class='otherType'>single</span> <span class='name'>StrokeMiter</span> <span class='docs'></span></div>
 <div><span class='otherType'>single</span> <span class='name'>Width</span> <span class='docs'>Width of the line (in pixels)</span></div>
+<div><a class='scottPlotType' href='#ScottPlot.LineStyle'>ScottPlot.LineStyle</a> <span class='name'>Clone()</span> <span class='docs'></span></div>
 <div><span class='otherType'>void</span> <span class='name'>Render(<span class='otherType'>SkiaSharp.SKCanvas</span> <span class='name'>canvas</span>, <a class='scottPlotType' href='#ScottPlot.Pixel[]'>ScottPlot.Pixel[]</a> <span class='name'>starts</span>, <a class='scottPlotType' href='#ScottPlot.Pixel[]'>ScottPlot.Pixel[]</a> <span class='name'>ends</span>, <span class='otherType'>SkiaSharp.SKPaint</span> <span class='name'>paint</span>)</span> <span class='docs'></span></div>
 <div><span class='otherType'>void</span> <span class='name'>Render(<span class='otherType'>SkiaSharp.SKCanvas</span> <span class='name'>canvas</span>, <a class='scottPlotType' href='#ScottPlot.PixelLine[]'>ScottPlot.PixelLine[]</a> <span class='name'>lines</span>, <span class='otherType'>SkiaSharp.SKPaint</span> <span class='name'>paint</span>)</span> <span class='docs'></span></div>
 <div><span class='otherType'>void</span> <span class='name'>Render(<span class='otherType'>SkiaSharp.SKCanvas</span> <span class='name'>canvas</span>, <a class='scottPlotType' href='#ScottPlot.PixelLine'>ScottPlot.PixelLine</a> <span class='name'>line</span>, <span class='otherType'>SkiaSharp.SKPaint</span> <span class='name'>paint</span>)</span> <span class='docs'></span></div>
@@ -2473,6 +2486,7 @@ a:hover {text-decoration: underline;}
 <div class='docs'>Stores the &lt;see cref="T:ScottPlot.CoordinateRange" /&gt; for all axes on the plot
             and has methods that can be used to recall them at a future point in time.</div>
 </div>
+<div><a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>Plot</span> <span class='docs'></span></div>
 <div><span class='otherType'>void</span> <span class='name'>Recall()</span> <span class='docs'>Set all axis limits to their original ranges</span></div>
 <div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.OHLC'><a style='color: black;' href='#ScottPlot.OHLC'>ScottPlot.OHLC</a></div>
@@ -2774,7 +2788,10 @@ a:hover {text-decoration: underline;}
 <div><a class='scottPlotType' href='#ScottPlot.LinePattern'>ScottPlot.LinePattern</a> <span class='name'>LinePattern</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.LineStyle'>ScottPlot.LineStyle</a> <span class='name'>LineStyle</span> <span class='docs'></span></div>
 <div><span class='otherType'>single</span> <span class='name'>LineWidth</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Coordinates'>ScottPlot.Coordinates</a> <span class='name'>Origin</span> <span class='docs'></span></div>
 <div><span class='otherType'>double</span> <span class='name'>Radius</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Angle'>ScottPlot.Angle</a> <span class='name'>StartAngle</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Angle'>ScottPlot.Angle</a> <span class='name'>SweepAngle</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.PolarAxisSpoke'><a style='color: black;' href='#ScottPlot.PolarAxisSpoke'>ScottPlot.PolarAxisSpoke</a></div>
 <div class='docs'>A straight line extending outward from the origin</div>
@@ -3466,8 +3483,8 @@ a:hover {text-decoration: underline;}
 <div><span class='otherType'>single</span> <span class='name'>DisplayScale</span> <span class='docs'></span></div>
 <div><span class='otherType'>SkiaSharp.GRContext</span> <span class='name'>GRContext</span> <span class='docs'></span></div>
 <div><span class='otherType'>int</span> <span class='name'>Height</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.IPlotInteraction'>ScottPlot.IPlotInteraction</a> <span class='name'>Interaction</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.IPlotMenu'>ScottPlot.IPlotMenu</a> <span class='name'>Menu</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Multiplot'>ScottPlot.Multiplot</a> <span class='name'>Multiplot</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>Plot</span> <span class='docs'></span></div>
 <div><span class='otherType'>int</span> <span class='name'>RefreshCount</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.Interactivity.UserInputProcessor'>ScottPlot.Interactivity.UserInputProcessor</a> <span class='name'>UserInputProcessor</span> <span class='docs'></span></div>
@@ -3505,6 +3522,29 @@ a:hover {text-decoration: underline;}
 <div><span class='otherType'>void</span> <span class='name'>MiddleMouseUp(<a class='scottPlotType' href='#ScottPlot.Pixel'>ScottPlot.Pixel</a> <span class='name'>px</span>)</span> <span class='docs'></span></div>
 <div><span class='otherType'>void</span> <span class='name'>MiddleClick(<a class='scottPlotType' href='#ScottPlot.Pixel'>ScottPlot.Pixel</a> <span class='name'>px</span>)</span> <span class='docs'></span></div>
 <div><span class='otherType'>void</span> <span class='name'>MiddleClickDrag(<a class='scottPlotType' href='#ScottPlot.Pixel'>ScottPlot.Pixel</a> <span class='name'>px1</span>, <a class='scottPlotType' href='#ScottPlot.Pixel'>ScottPlot.Pixel</a> <span class='name'>px2</span>)</span> <span class='docs'></span></div>
+<div style='margin-top: 2em'>
+<div class='title' id='ScottPlot.SubplotPositions.Absolute'><a style='color: black;' href='#ScottPlot.SubplotPositions.Absolute'>ScottPlot.SubplotPositions.Absolute</a></div>
+<div class='docs'></div>
+</div>
+<div><a class='scottPlotType' href='#ScottPlot.PixelRect'>ScottPlot.PixelRect</a> <span class='name'>PixelRect</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.PixelRect'>ScottPlot.PixelRect</a> <span class='name'>GetRect(<a class='scottPlotType' href='#ScottPlot.PixelRect'>ScottPlot.PixelRect</a> <span class='name'>figureRect</span>)</span> <span class='docs'></span></div>
+<div style='margin-top: 2em'>
+<div class='title' id='ScottPlot.SubplotPositions.Fractional'><a style='color: black;' href='#ScottPlot.SubplotPositions.Fractional'>ScottPlot.SubplotPositions.Fractional</a></div>
+<div class='docs'></div>
+</div>
+<div><a class='scottPlotType' href='#ScottPlot.FractionRect'>ScottPlot.FractionRect</a> <span class='name'>FractionRect</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.PixelRect'>ScottPlot.PixelRect</a> <span class='name'>GetRect(<a class='scottPlotType' href='#ScottPlot.PixelRect'>ScottPlot.PixelRect</a> <span class='name'>figureRect</span>)</span> <span class='docs'></span></div>
+<div style='margin-top: 2em'>
+<div class='title' id='ScottPlot.SubplotPositions.Full'><a style='color: black;' href='#ScottPlot.SubplotPositions.Full'>ScottPlot.SubplotPositions.Full</a></div>
+<div class='docs'></div>
+</div>
+<div><a class='scottPlotType' href='#ScottPlot.PixelRect'>ScottPlot.PixelRect</a> <span class='name'>GetRect(<a class='scottPlotType' href='#ScottPlot.PixelRect'>ScottPlot.PixelRect</a> <span class='name'>figureRect</span>)</span> <span class='docs'></span></div>
+<div style='margin-top: 2em'>
+<div class='title' id='ScottPlot.SubplotPositions.GridCell'><a style='color: black;' href='#ScottPlot.SubplotPositions.GridCell'>ScottPlot.SubplotPositions.GridCell</a></div>
+<div class='docs'></div>
+</div>
+<div><a class='scottPlotType' href='#ScottPlot.FractionRect'>ScottPlot.FractionRect</a> <span class='name'>FractionRect</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.PixelRect'>ScottPlot.PixelRect</a> <span class='name'>GetRect(<a class='scottPlotType' href='#ScottPlot.PixelRect'>ScottPlot.PixelRect</a> <span class='name'>figureRect</span>)</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.Stylers.FontStyler'><a style='color: black;' href='#ScottPlot.Stylers.FontStyler'>ScottPlot.Stylers.FontStyler</a></div>
 <div class='docs'>Helper methods for setting fonts to all components of a plot</div>
@@ -4670,6 +4710,7 @@ a:hover {text-decoration: underline;}
 <div><span class='otherType'>string</span> <span class='name'>LegendText</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.CoordinateLine'>ScottPlot.CoordinateLine</a> <span class='name'>Line</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.Color'>ScottPlot.Color</a> <span class='name'>LineColor</span> <span class='docs'></span></div>
+<div><span class='otherType'>bool</span> <span class='name'>LineOnTop</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.LinePattern'>ScottPlot.LinePattern</a> <span class='name'>LinePattern</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.LineStyle'>ScottPlot.LineStyle</a> <span class='name'>LineStyle</span> <span class='docs'></span></div>
 <div><span class='otherType'>single</span> <span class='name'>LineWidth</span> <span class='docs'></span></div>
@@ -4679,6 +4720,7 @@ a:hover {text-decoration: underline;}
 <div><span class='otherType'>single</span> <span class='name'>MarkerLineWidth</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.MarkerShape'>ScottPlot.MarkerShape</a> <span class='name'>MarkerShape</span> <span class='docs'></span></div>
 <div><span class='otherType'>single</span> <span class='name'>MarkerSize</span> <span class='docs'></span></div>
+<div><span class='otherType'>bool</span> <span class='name'>MarkersOnTop</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.MarkerStyle'>ScottPlot.MarkerStyle</a> <span class='name'>MarkerStyle</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.Coordinates'>ScottPlot.Coordinates</a> <span class='name'>Start</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.AxisLimits'>ScottPlot.AxisLimits</a> <span class='name'>GetAxisLimits()</span> <span class='docs'></span></div>
@@ -5206,6 +5248,37 @@ a:hover {text-decoration: underline;}
 <div><a class='scottPlotType' href='#ScottPlot.DataPoint'>ScottPlot.DataPoint</a> <span class='name'>GetNearestX(<a class='scottPlotType' href='#ScottPlot.Coordinates'>ScottPlot.Coordinates</a> <span class='name'>location</span>, <a class='scottPlotType' href='#ScottPlot.RenderDetails'>ScottPlot.RenderDetails</a> <span class='name'>renderInfo</span>, <span class='otherType'>single</span> <span class='name'>maxDistance</span>)</span> <span class='docs'></span></div>
 <div><span class='otherType'>void</span> <span class='name'>Render(<a class='scottPlotType' href='#ScottPlot.RenderPack'>ScottPlot.RenderPack</a> <span class='name'>rp</span>)</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
+<div class='title' id='ScottPlot.Plottables.SmithChartAxis'><a style='color: black;' href='#ScottPlot.Plottables.SmithChartAxis'>ScottPlot.Plottables.SmithChartAxis</a></div>
+<div class='docs'>A polar axes uses spoke lines and circles to describe a polar coordinate system
+            where points are represented by a radius and angle. 
+            This class draws a polar axes and has options to customize spokes and circles.</div>
+</div>
+<div><a class='scottPlotType' href='#ScottPlot.IAxes'>ScottPlot.IAxes</a> <span class='name'>Axes</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.LineStyle'>ScottPlot.LineStyle</a> <span class='name'>Imaginary</span> <span class='docs'>Default style of the concentric circular axis lines</span></div>
+<div><span class='otherType'>List&lt;ScottPlot.Plottables.SmithChartAxis&gt;</span> <span class='name'>ImaginaryTicks</span> <span class='docs'>Curves extending from the right side of the outer circle to various points around its circumference</span></div>
+<div><span class='otherType'>bool</span> <span class='name'>IsVisible</span> <span class='docs'></span></div>
+<div><span class='otherType'>double</span> <span class='name'>LabelPaddingFraction</span> <span class='docs'>Distance to offset label text</span></div>
+<div><a class='scottPlotType' href='#ScottPlot.LabelStyle'>ScottPlot.LabelStyle</a> <span class='name'>LabelStyle</span> <span class='docs'></span></div>
+<div><span class='otherType'>string</span> <span class='name'>LabelText</span> <span class='docs'></span></div>
+<div><span class='otherType'>IEnumerable&lt;ScottPlot.LegendItem&gt;</span> <span class='name'>LegendItems</span> <span class='docs'></span></div>
+<div><span class='otherType'>bool</span> <span class='name'>ManageAxisLimits</span> <span class='docs'>Enable this to modify the axis limits at render time to achieve "square axes"
+            where the units/px values are equal for horizontal and vertical axes, allowing
+            circles to always appear as circles instead of ellipses.</span></div>
+<div><a class='scottPlotType' href='#ScottPlot.LineStyle'>ScottPlot.LineStyle</a> <span class='name'>RealLineStyle</span> <span class='docs'>Default style of the curved lines extending from the right edge 
+            to points around the circumference of the chart outline</span></div>
+<div><span class='otherType'>List&lt;ScottPlot.Plottables.SmithChartAxis&gt;</span> <span class='name'>RealTicks</span> <span class='docs'>Concentric circular tick lines</span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Angle'>ScottPlot.Angle</a> <span class='name'>Rotation</span> <span class='docs'>Rotates the axis clockwise from its default position (where 0 points right)</span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Coordinates'>ScottPlot.Coordinates</a> <span class='name'>CalculateGamma(<a class='scottPlotType' href='#ScottPlot.Coordinates'>ScottPlot.Coordinates</a> <span class='name'>normalizedImpedance</span>)</span> <span class='docs'></span></div>
+<div><span class='otherType'>IEnumerable&lt;ScottPlot.Coordinates&gt;</span> <span class='name'>FindIntersectionPoints(<a class='scottPlotType' href='#ScottPlot.Coordinates'>ScottPlot.Coordinates</a> <span class='name'>pt1</span>, <span class='otherType'>double</span> <span class='name'>r1</span>, <a class='scottPlotType' href='#ScottPlot.Coordinates'>ScottPlot.Coordinates</a> <span class='name'>pt2</span>, <span class='otherType'>double</span> <span class='name'>r2</span>)</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Plottables.SmithChartAxis'>ScottPlot.Plottables.SmithChartAxis</a> <span class='name'>AddRealTick(<span class='otherType'>double</span> <span class='name'>value</span>)</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Plottables.SmithChartAxis'>ScottPlot.Plottables.SmithChartAxis</a> <span class='name'>AddImaginaryTick(<span class='otherType'>double</span> <span class='name'>value</span>)</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Coordinates'>ScottPlot.Coordinates</a> <span class='name'>GetCoordinates(<span class='otherType'>double</span> <span class='name'>radius</span>, <a class='scottPlotType' href='#ScottPlot.Angle'>ScottPlot.Angle</a> <span class='name'>angle</span>)</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Coordinates'>ScottPlot.Coordinates</a> <span class='name'>GetCoordinates(<a class='scottPlotType' href='#ScottPlot.PolarCoordinates'>ScottPlot.PolarCoordinates</a> <span class='name'>point</span>)</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Coordinates'>ScottPlot.Coordinates</a> <span class='name'>GetCoordinates(<span class='otherType'>double</span> <span class='name'>resistance</span>, <span class='otherType'>double</span> <span class='name'>reactance</span>)</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.AxisLimits'>ScottPlot.AxisLimits</a> <span class='name'>GetAxisLimits()</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>UpdateAxisLimits(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>plot</span>)</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>Render(<a class='scottPlotType' href='#ScottPlot.RenderPack'>ScottPlot.RenderPack</a> <span class='name'>rp</span>)</span> <span class='docs'></span></div>
+<div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.Plottables.Text'><a style='color: black;' href='#ScottPlot.Plottables.Text'>ScottPlot.Plottables.Text</a></div>
 <div class='docs'></div>
 </div>
@@ -5422,6 +5495,21 @@ a:hover {text-decoration: underline;}
 <div><a class='scottPlotType' href='#ScottPlot.AxisSpanUnderMouse'>ScottPlot.AxisSpanUnderMouse</a> <span class='name'>UnderMouse(<a class='scottPlotType' href='#ScottPlot.CoordinateRect'>ScottPlot.CoordinateRect</a> <span class='name'>rect</span>)</span> <span class='docs'></span></div>
 <div><span class='otherType'>void</span> <span class='name'>DragTo(<a class='scottPlotType' href='#ScottPlot.AxisSpanUnderMouse'>ScottPlot.AxisSpanUnderMouse</a> <span class='name'>spanUnderMouse</span>, <a class='scottPlotType' href='#ScottPlot.Coordinates'>ScottPlot.Coordinates</a> <span class='name'>mouseNow</span>)</span> <span class='docs'></span></div>
 <div><span class='otherType'>bool</span> <span class='name'>IsUnderMouse(<a class='scottPlotType' href='#ScottPlot.CoordinateRect'>ScottPlot.CoordinateRect</a> <span class='name'>rect</span>)</span> <span class='docs'></span></div>
+<div style='margin-top: 2em'>
+<div class='title' id='ScottPlot.Plottables.ZoomRectangle'><a style='color: black;' href='#ScottPlot.Plottables.ZoomRectangle'>ScottPlot.Plottables.ZoomRectangle</a></div>
+<div class='docs'>The shaded region on the plot when the user middle-click-drags to zoom</div>
+</div>
+<div><a class='scottPlotType' href='#ScottPlot.Color'>ScottPlot.Color</a> <span class='name'>FillColor</span> <span class='docs'></span></div>
+<div><span class='otherType'>bool</span> <span class='name'>HorizontalSpan</span> <span class='docs'></span></div>
+<div><span class='otherType'>bool</span> <span class='name'>IsVisible</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.LineStyle'>ScottPlot.LineStyle</a> <span class='name'>LineStyle</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Pixel'>ScottPlot.Pixel</a> <span class='name'>MouseDown</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Pixel'>ScottPlot.Pixel</a> <span class='name'>MouseUp</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>Plot</span> <span class='docs'></span></div>
+<div><span class='otherType'>bool</span> <span class='name'>VerticalSpan</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>Apply(<a class='scottPlotType' href='#ScottPlot.IXAxis'>ScottPlot.IXAxis</a> <span class='name'>xAxis</span>)</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>Apply(<a class='scottPlotType' href='#ScottPlot.IYAxis'>ScottPlot.IYAxis</a> <span class='name'>yAxis</span>)</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>Render(<a class='scottPlotType' href='#ScottPlot.RenderPack'>ScottPlot.RenderPack</a> <span class='name'>rp</span>)</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.PlotStyles.Dark'><a style='color: black;' href='#ScottPlot.PlotStyles.Dark'>ScottPlot.PlotStyles.Dark</a></div>
 <div class='docs'></div>
@@ -5738,23 +5826,17 @@ a:hover {text-decoration: underline;}
 <div class='title' id='ScottPlot.MultiplotLayouts.Columns'><a style='color: black;' href='#ScottPlot.MultiplotLayouts.Columns'>ScottPlot.MultiplotLayouts.Columns</a></div>
 <div class='docs'></div>
 </div>
-<div><span class='otherType'>IEnumerable&lt;ValueTuple&lt;T1, T2&gt;&gt;</span> <span class='name'>GetLayout(<span class='otherType'>IReadOnlyList&lt;ScottPlot.Plot&gt;</span> <span class='name'>plots</span>)</span> <span class='docs'></span></div>
-<div style='margin-top: 2em'>
-<div class='title' id='ScottPlot.MultiplotLayouts.Custom'><a style='color: black;' href='#ScottPlot.MultiplotLayouts.Custom'>ScottPlot.MultiplotLayouts.Custom</a></div>
-<div class='docs'></div>
-</div>
-<div><span class='otherType'>IEnumerable&lt;ValueTuple&lt;T1, T2&gt;&gt;</span> <span class='name'>GetLayout(<span class='otherType'>IReadOnlyList&lt;ScottPlot.Plot&gt;</span> <span class='name'>plots</span>)</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>ResetAllPositions(<a class='scottPlotType' href='#ScottPlot.Multiplot'>ScottPlot.Multiplot</a> <span class='name'>multiplot</span>)</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.MultiplotLayouts.Grid'><a style='color: black;' href='#ScottPlot.MultiplotLayouts.Grid'>ScottPlot.MultiplotLayouts.Grid</a></div>
 <div class='docs'></div>
 </div>
-<div><span class='otherType'>int</span> <span class='name'>Columns</span> <span class='docs'></span></div>
-<div><span class='otherType'>IEnumerable&lt;ValueTuple&lt;T1, T2&gt;&gt;</span> <span class='name'>GetLayout(<span class='otherType'>IReadOnlyList&lt;ScottPlot.Plot&gt;</span> <span class='name'>plots</span>)</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>ResetAllPositions(<a class='scottPlotType' href='#ScottPlot.Multiplot'>ScottPlot.Multiplot</a> <span class='name'>multiplot</span>)</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.MultiplotLayouts.Rows'><a style='color: black;' href='#ScottPlot.MultiplotLayouts.Rows'>ScottPlot.MultiplotLayouts.Rows</a></div>
 <div class='docs'></div>
 </div>
-<div><span class='otherType'>IEnumerable&lt;ValueTuple&lt;T1, T2&gt;&gt;</span> <span class='name'>GetLayout(<span class='otherType'>IReadOnlyList&lt;ScottPlot.Plot&gt;</span> <span class='name'>plots</span>)</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>ResetAllPositions(<a class='scottPlotType' href='#ScottPlot.Multiplot'>ScottPlot.Multiplot</a> <span class='name'>multiplot</span>)</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.Markers.Asterisk'><a style='color: black;' href='#ScottPlot.Markers.Asterisk'>ScottPlot.Markers.Asterisk</a></div>
 <div class='docs'></div>
@@ -5931,8 +6013,8 @@ a:hover {text-decoration: underline;}
 <div class='title' id='ScottPlot.Interactivity.IUserActionResponse'><a style='color: black;' href='#ScottPlot.Interactivity.IUserActionResponse'>ScottPlot.Interactivity.IUserActionResponse</a></div>
 <div class='docs'>Describes a class that has logic to watch user actions and manipulate the plot accordingly.</div>
 </div>
-<div><a class='scottPlotType' href='#ScottPlot.Interactivity.ResponseInfo'>ScottPlot.Interactivity.ResponseInfo</a> <span class='name'>Execute(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>plot</span>, <a class='scottPlotType' href='#ScottPlot.Interactivity.IUserAction'>ScottPlot.Interactivity.IUserAction</a> <span class='name'>userActions</span>, <a class='scottPlotType' href='#ScottPlot.Interactivity.KeyboardState'>ScottPlot.Interactivity.KeyboardState</a> <span class='name'>keys</span>)</span> <span class='docs'></span></div>
-<div><span class='otherType'>void</span> <span class='name'>ResetState(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>plot</span>)</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Interactivity.ResponseInfo'>ScottPlot.Interactivity.ResponseInfo</a> <span class='name'>Execute(<a class='scottPlotType' href='#ScottPlot.IPlotControl'>ScottPlot.IPlotControl</a> <span class='name'>plotControl</span>, <a class='scottPlotType' href='#ScottPlot.Interactivity.IUserAction'>ScottPlot.Interactivity.IUserAction</a> <span class='name'>userActions</span>, <a class='scottPlotType' href='#ScottPlot.Interactivity.KeyboardState'>ScottPlot.Interactivity.KeyboardState</a> <span class='name'>keys</span>)</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>ResetState(<a class='scottPlotType' href='#ScottPlot.IPlotControl'>ScottPlot.IPlotControl</a> <span class='name'>plotControl</span>)</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.Interactivity.Key'><a style='color: black;' href='#ScottPlot.Interactivity.Key'>ScottPlot.Interactivity.Key</a></div>
 <div class='docs'>Represents a single key on a keyboard that may be pressed and held.
@@ -5958,8 +6040,8 @@ a:hover {text-decoration: underline;}
             Methods here are similar to those in &lt;see cref="P:ScottPlot.Plot.Axes" /&gt; except their inputs are all mouse events.</div>
 </div>
 <div><span class='otherType'>void</span> <span class='name'>MouseWheelZoom(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>plot</span>, <span class='otherType'>double</span> <span class='name'>fracX</span>, <span class='otherType'>double</span> <span class='name'>fracY</span>, <a class='scottPlotType' href='#ScottPlot.Pixel'>ScottPlot.Pixel</a> <span class='name'>pixel</span>, <span class='otherType'>bool</span> <span class='name'>ChangeOpposingAxesTogether</span>)</span> <span class='docs'></span></div>
-<div><span class='otherType'>void</span> <span class='name'>DragPan(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>plot</span>, <a class='scottPlotType' href='#ScottPlot.Pixel'>ScottPlot.Pixel</a> <span class='name'>mouseDown</span>, <a class='scottPlotType' href='#ScottPlot.Pixel'>ScottPlot.Pixel</a> <span class='name'>mouseNow</span>)</span> <span class='docs'></span></div>
-<div><span class='otherType'>void</span> <span class='name'>DragZoom(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>plot</span>, <a class='scottPlotType' href='#ScottPlot.Pixel'>ScottPlot.Pixel</a> <span class='name'>mouseDown</span>, <a class='scottPlotType' href='#ScottPlot.Pixel'>ScottPlot.Pixel</a> <span class='name'>mouseNow</span>)</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>DragPan(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>plot</span>, <a class='scottPlotType' href='#ScottPlot.Pixel'>ScottPlot.Pixel</a> <span class='name'>mouseDown</span>, <a class='scottPlotType' href='#ScottPlot.Pixel'>ScottPlot.Pixel</a> <span class='name'>mouseNow</span>, <span class='otherType'>bool</span> <span class='name'>changeOpposingAxesTogether</span>)</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>DragZoom(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>plot</span>, <a class='scottPlotType' href='#ScottPlot.Pixel'>ScottPlot.Pixel</a> <span class='name'>mouseDown</span>, <a class='scottPlotType' href='#ScottPlot.Pixel'>ScottPlot.Pixel</a> <span class='name'>mouseNow</span>, <span class='otherType'>bool</span> <span class='name'>changeOpposingAxesTogether</span>)</span> <span class='docs'></span></div>
 <div><span class='otherType'>void</span> <span class='name'>PlaceZoomRectangle(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>plot</span>, <a class='scottPlotType' href='#ScottPlot.Pixel'>ScottPlot.Pixel</a> <span class='name'>mouseDown</span>, <a class='scottPlotType' href='#ScottPlot.Pixel'>ScottPlot.Pixel</a> <span class='name'>mouseNow</span>)</span> <span class='docs'></span></div>
 <div><span class='otherType'>void</span> <span class='name'>AutoScale(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>plot</span>, <a class='scottPlotType' href='#ScottPlot.Pixel'>ScottPlot.Pixel</a> <span class='name'>pixel</span>, <span class='otherType'>bool</span> <span class='name'>allParallelAxes</span>)</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
@@ -6008,7 +6090,7 @@ a:hover {text-decoration: underline;}
             modified to achieve total control over interaction behavior.</div>
 </div>
 <div><span class='otherType'>bool</span> <span class='name'>IsEnabled</span> <span class='docs'>Controls whether new events are processed.
-            Enabling this disables the older &lt;see cref="P:ScottPlot.IPlotControl.Interaction" /&gt; system.</span></div>
+            Enabling this disables the older &lt;see cref="!:IPlotControl.Interaction" /&gt; system.</span></div>
 <div><a class='scottPlotType' href='#ScottPlot.Interactivity.KeyboardState'>ScottPlot.Interactivity.KeyboardState</a> <span class='name'>KeyState</span> <span class='docs'>Tracks which keys are currently pressed</span></div>
 <div><span class='otherType'>Action&lt;ScottPlot.IPlotControl&gt;</span> <span class='name'>LostFocusAction</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.IPlotControl'>ScottPlot.IPlotControl</a> <span class='name'>PlotControl</span> <span class='docs'>The plot this input processor will act on</span></div>
@@ -6149,9 +6231,9 @@ a:hover {text-decoration: underline;}
 <div><a class='scottPlotType' href='#ScottPlot.Interactivity.MouseButton'>ScottPlot.Interactivity.MouseButton</a> <span class='name'>MouseButton</span> <span class='docs'>Which mouse button to watch for double-clicks.</span></div>
 <div><span class='otherType'>Action&lt;T1, T2&gt;</span> <span class='name'>ResponseAction</span> <span class='docs'>This action is invoked when a double-click occurs.
             Replace this action with your own logic to customize double-click behavior.</span></div>
-<div><span class='otherType'>void</span> <span class='name'>ToggleBenchmarkVisibility(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>plot</span>, <a class='scottPlotType' href='#ScottPlot.Pixel'>ScottPlot.Pixel</a> <span class='name'>pixel</span>)</span> <span class='docs'></span></div>
-<div><span class='otherType'>void</span> <span class='name'>ResetState(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>plot</span>)</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.Interactivity.ResponseInfo'>ScottPlot.Interactivity.ResponseInfo</a> <span class='name'>Execute(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>plot</span>, <a class='scottPlotType' href='#ScottPlot.Interactivity.IUserAction'>ScottPlot.Interactivity.IUserAction</a> <span class='name'>userAction</span>, <a class='scottPlotType' href='#ScottPlot.Interactivity.KeyboardState'>ScottPlot.Interactivity.KeyboardState</a> <span class='name'>keys</span>)</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>ToggleBenchmarkVisibility(<a class='scottPlotType' href='#ScottPlot.IPlotControl'>ScottPlot.IPlotControl</a> <span class='name'>plotControl</span>, <a class='scottPlotType' href='#ScottPlot.Pixel'>ScottPlot.Pixel</a> <span class='name'>pixel</span>)</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>ResetState(<a class='scottPlotType' href='#ScottPlot.IPlotControl'>ScottPlot.IPlotControl</a> <span class='name'>plotControl</span>)</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Interactivity.ResponseInfo'>ScottPlot.Interactivity.ResponseInfo</a> <span class='name'>Execute(<a class='scottPlotType' href='#ScottPlot.IPlotControl'>ScottPlot.IPlotControl</a> <span class='name'>plotControl</span>, <a class='scottPlotType' href='#ScottPlot.Interactivity.IUserAction'>ScottPlot.Interactivity.IUserAction</a> <span class='name'>userAction</span>, <a class='scottPlotType' href='#ScottPlot.Interactivity.KeyboardState'>ScottPlot.Interactivity.KeyboardState</a> <span class='name'>keys</span>)</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.Interactivity.UserActionResponses.DoubleClickResponse'><a style='color: black;' href='#ScottPlot.Interactivity.UserActionResponses.DoubleClickResponse'>ScottPlot.Interactivity.UserActionResponses.DoubleClickResponse</a></div>
 <div class='docs'></div>
@@ -6161,15 +6243,15 @@ a:hover {text-decoration: underline;}
 <div><a class='scottPlotType' href='#ScottPlot.Interactivity.MouseButton'>ScottPlot.Interactivity.MouseButton</a> <span class='name'>MouseButton</span> <span class='docs'>Which mouse button to watch for double-clicks.</span></div>
 <div><span class='otherType'>Action&lt;T1, T2&gt;</span> <span class='name'>ResponseAction</span> <span class='docs'>This action is invoked when a double-click occurs.
             Replace this action with your own logic to customize double-click behavior.</span></div>
-<div><span class='otherType'>void</span> <span class='name'>ResetState(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>plot</span>)</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.Interactivity.ResponseInfo'>ScottPlot.Interactivity.ResponseInfo</a> <span class='name'>Execute(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>plot</span>, <a class='scottPlotType' href='#ScottPlot.Interactivity.IUserAction'>ScottPlot.Interactivity.IUserAction</a> <span class='name'>userAction</span>, <a class='scottPlotType' href='#ScottPlot.Interactivity.KeyboardState'>ScottPlot.Interactivity.KeyboardState</a> <span class='name'>keys</span>)</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>ResetState(<a class='scottPlotType' href='#ScottPlot.IPlotControl'>ScottPlot.IPlotControl</a> <span class='name'>plotControl</span>)</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Interactivity.ResponseInfo'>ScottPlot.Interactivity.ResponseInfo</a> <span class='name'>Execute(<a class='scottPlotType' href='#ScottPlot.IPlotControl'>ScottPlot.IPlotControl</a> <span class='name'>plotControl</span>, <a class='scottPlotType' href='#ScottPlot.Interactivity.IUserAction'>ScottPlot.Interactivity.IUserAction</a> <span class='name'>userAction</span>, <a class='scottPlotType' href='#ScottPlot.Interactivity.KeyboardState'>ScottPlot.Interactivity.KeyboardState</a> <span class='name'>keys</span>)</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.Interactivity.UserActionResponses.KeyboardAutoscale'><a style='color: black;' href='#ScottPlot.Interactivity.UserActionResponses.KeyboardAutoscale'>ScottPlot.Interactivity.UserActionResponses.KeyboardAutoscale</a></div>
 <div class='docs'></div>
 </div>
-<div><span class='otherType'>void</span> <span class='name'>AutoScale(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>plot</span>, <a class='scottPlotType' href='#ScottPlot.Pixel'>ScottPlot.Pixel</a> <span class='name'>pixel</span>)</span> <span class='docs'></span></div>
-<div><span class='otherType'>void</span> <span class='name'>ResetState(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>plot</span>)</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.Interactivity.ResponseInfo'>ScottPlot.Interactivity.ResponseInfo</a> <span class='name'>Execute(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>plot</span>, <a class='scottPlotType' href='#ScottPlot.Interactivity.IUserAction'>ScottPlot.Interactivity.IUserAction</a> <span class='name'>userAction</span>, <a class='scottPlotType' href='#ScottPlot.Interactivity.KeyboardState'>ScottPlot.Interactivity.KeyboardState</a> <span class='name'>keys</span>)</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>AutoScale(<a class='scottPlotType' href='#ScottPlot.IPlotControl'>ScottPlot.IPlotControl</a> <span class='name'>plotControl</span>, <a class='scottPlotType' href='#ScottPlot.Pixel'>ScottPlot.Pixel</a> <span class='name'>pixel</span>)</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>ResetState(<a class='scottPlotType' href='#ScottPlot.IPlotControl'>ScottPlot.IPlotControl</a> <span class='name'>plotControl</span>)</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Interactivity.ResponseInfo'>ScottPlot.Interactivity.ResponseInfo</a> <span class='name'>Execute(<a class='scottPlotType' href='#ScottPlot.IPlotControl'>ScottPlot.IPlotControl</a> <span class='name'>plotControl</span>, <a class='scottPlotType' href='#ScottPlot.Interactivity.IUserAction'>ScottPlot.Interactivity.IUserAction</a> <span class='name'>userAction</span>, <a class='scottPlotType' href='#ScottPlot.Interactivity.KeyboardState'>ScottPlot.Interactivity.KeyboardState</a> <span class='name'>keys</span>)</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.Interactivity.UserActionResponses.KeyboardPanAndZoom'><a style='color: black;' href='#ScottPlot.Interactivity.UserActionResponses.KeyboardPanAndZoom'>ScottPlot.Interactivity.UserActionResponses.KeyboardPanAndZoom</a></div>
 <div class='docs'></div>
@@ -6186,29 +6268,31 @@ a:hover {text-decoration: underline;}
 <div><a class='scottPlotType' href='#ScottPlot.Interactivity.Key'>ScottPlot.Interactivity.Key</a> <span class='name'>PanUpKey</span> <span class='docs'></span></div>
 <div><span class='otherType'>single</span> <span class='name'>StepDistance</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.Interactivity.Key'>ScottPlot.Interactivity.Key</a> <span class='name'>ZoomModifierKey</span> <span class='docs'>When this key is held, pan actions will zoom instead</span></div>
-<div><span class='otherType'>void</span> <span class='name'>ResetState(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>plot</span>)</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.Interactivity.ResponseInfo'>ScottPlot.Interactivity.ResponseInfo</a> <span class='name'>Execute(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>plot</span>, <a class='scottPlotType' href='#ScottPlot.Interactivity.IUserAction'>ScottPlot.Interactivity.IUserAction</a> <span class='name'>userInput</span>, <a class='scottPlotType' href='#ScottPlot.Interactivity.KeyboardState'>ScottPlot.Interactivity.KeyboardState</a> <span class='name'>keys</span>)</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>ResetState(<a class='scottPlotType' href='#ScottPlot.IPlotControl'>ScottPlot.IPlotControl</a> <span class='name'>plotControl</span>)</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Interactivity.ResponseInfo'>ScottPlot.Interactivity.ResponseInfo</a> <span class='name'>Execute(<a class='scottPlotType' href='#ScottPlot.IPlotControl'>ScottPlot.IPlotControl</a> <span class='name'>plotControl</span>, <a class='scottPlotType' href='#ScottPlot.Interactivity.IUserAction'>ScottPlot.Interactivity.IUserAction</a> <span class='name'>userInput</span>, <a class='scottPlotType' href='#ScottPlot.Interactivity.KeyboardState'>ScottPlot.Interactivity.KeyboardState</a> <span class='name'>keys</span>)</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.Interactivity.UserActionResponses.KeyPressResponse'><a style='color: black;' href='#ScottPlot.Interactivity.UserActionResponses.KeyPressResponse'>ScottPlot.Interactivity.UserActionResponses.KeyPressResponse</a></div>
 <div class='docs'></div>
 </div>
-<div><span class='otherType'>void</span> <span class='name'>ResetState(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>plot</span>)</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.Interactivity.ResponseInfo'>ScottPlot.Interactivity.ResponseInfo</a> <span class='name'>Execute(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>plot</span>, <a class='scottPlotType' href='#ScottPlot.Interactivity.IUserAction'>ScottPlot.Interactivity.IUserAction</a> <span class='name'>userAction</span>, <a class='scottPlotType' href='#ScottPlot.Interactivity.KeyboardState'>ScottPlot.Interactivity.KeyboardState</a> <span class='name'>keys</span>)</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>ResetState(<a class='scottPlotType' href='#ScottPlot.IPlotControl'>ScottPlot.IPlotControl</a> <span class='name'>plotControl</span>)</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Interactivity.ResponseInfo'>ScottPlot.Interactivity.ResponseInfo</a> <span class='name'>Execute(<a class='scottPlotType' href='#ScottPlot.IPlotControl'>ScottPlot.IPlotControl</a> <span class='name'>plotControl</span>, <a class='scottPlotType' href='#ScottPlot.Interactivity.IUserAction'>ScottPlot.Interactivity.IUserAction</a> <span class='name'>userAction</span>, <a class='scottPlotType' href='#ScottPlot.Interactivity.KeyboardState'>ScottPlot.Interactivity.KeyboardState</a> <span class='name'>keys</span>)</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.Interactivity.UserActionResponses.MouseDragPan'><a style='color: black;' href='#ScottPlot.Interactivity.UserActionResponses.MouseDragPan'>ScottPlot.Interactivity.UserActionResponses.MouseDragPan</a></div>
 <div class='docs'></div>
 </div>
+<div><span class='otherType'>bool</span> <span class='name'>ChangeOpposingAxesTogether</span> <span class='docs'>If enabled, mouse interactions over a single axis will be applied to all axes with the same orientation.</span></div>
 <div><span class='otherType'>List&lt;ScottPlot.Interactivity.Key&gt;</span> <span class='name'>KeysThatLockX</span> <span class='docs'>Horizontal panning is disabled if any of these keys are pressed</span></div>
 <div><span class='otherType'>List&lt;ScottPlot.Interactivity.Key&gt;</span> <span class='name'>KeysThatLockY</span> <span class='docs'>Vertical panning is disabled if any of these keys are pressed</span></div>
 <div><span class='otherType'>bool</span> <span class='name'>LockX</span> <span class='docs'>Horizontal panning is disabled when this is set</span></div>
 <div><span class='otherType'>bool</span> <span class='name'>LockY</span> <span class='docs'>Vertical panning is disabled when this is set</span></div>
 <div><a class='scottPlotType' href='#ScottPlot.Interactivity.MouseButton'>ScottPlot.Interactivity.MouseButton</a> <span class='name'>MouseButton</span> <span class='docs'>Which mouse button to watch for click-drag events</span></div>
-<div><span class='otherType'>void</span> <span class='name'>ResetState(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>plot</span>)</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.Interactivity.ResponseInfo'>ScottPlot.Interactivity.ResponseInfo</a> <span class='name'>Execute(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>plot</span>, <a class='scottPlotType' href='#ScottPlot.Interactivity.IUserAction'>ScottPlot.Interactivity.IUserAction</a> <span class='name'>userInput</span>, <a class='scottPlotType' href='#ScottPlot.Interactivity.KeyboardState'>ScottPlot.Interactivity.KeyboardState</a> <span class='name'>keys</span>)</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>ResetState(<a class='scottPlotType' href='#ScottPlot.IPlotControl'>ScottPlot.IPlotControl</a> <span class='name'>plotControl</span>)</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Interactivity.ResponseInfo'>ScottPlot.Interactivity.ResponseInfo</a> <span class='name'>Execute(<a class='scottPlotType' href='#ScottPlot.IPlotControl'>ScottPlot.IPlotControl</a> <span class='name'>plotControl</span>, <a class='scottPlotType' href='#ScottPlot.Interactivity.IUserAction'>ScottPlot.Interactivity.IUserAction</a> <span class='name'>userInput</span>, <a class='scottPlotType' href='#ScottPlot.Interactivity.KeyboardState'>ScottPlot.Interactivity.KeyboardState</a> <span class='name'>keys</span>)</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.Interactivity.UserActionResponses.MouseDragZoom'><a style='color: black;' href='#ScottPlot.Interactivity.UserActionResponses.MouseDragZoom'>ScottPlot.Interactivity.UserActionResponses.MouseDragZoom</a></div>
 <div class='docs'></div>
 </div>
+<div><span class='otherType'>bool</span> <span class='name'>ChangeOpposingAxesTogether</span> <span class='docs'>If enabled, mouse interactions over a single axis will be applied to all axes with the same orientation.</span></div>
 <div><span class='otherType'>List&lt;ScottPlot.Interactivity.Key&gt;</span> <span class='name'>KeysThatLockX</span> <span class='docs'>Horizontal panning is disabled if any of these keys are pressed</span></div>
 <div><span class='otherType'>List&lt;ScottPlot.Interactivity.Key&gt;</span> <span class='name'>KeysThatLockY</span> <span class='docs'>Vertical panning is disabled if any of these keys are pressed</span></div>
 <div><span class='otherType'>bool</span> <span class='name'>LockX</span> <span class='docs'>Horizontal panning is disabled when this is set</span></div>
@@ -6217,8 +6301,8 @@ a:hover {text-decoration: underline;}
             Larger numbers result in more zooming for the same drag distance.</span></div>
 <div><span class='otherType'>double</span> <span class='name'>SensitivityY</span> <span class='docs'>Scale the vertical mouse sensitivity by this value.
             Larger numbers result in more zooming for the same drag distance.</span></div>
-<div><span class='otherType'>void</span> <span class='name'>ResetState(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>plot</span>)</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.Interactivity.ResponseInfo'>ScottPlot.Interactivity.ResponseInfo</a> <span class='name'>Execute(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>plot</span>, <a class='scottPlotType' href='#ScottPlot.Interactivity.IUserAction'>ScottPlot.Interactivity.IUserAction</a> <span class='name'>userInput</span>, <a class='scottPlotType' href='#ScottPlot.Interactivity.KeyboardState'>ScottPlot.Interactivity.KeyboardState</a> <span class='name'>keys</span>)</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>ResetState(<a class='scottPlotType' href='#ScottPlot.IPlotControl'>ScottPlot.IPlotControl</a> <span class='name'>plotControl</span>)</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Interactivity.ResponseInfo'>ScottPlot.Interactivity.ResponseInfo</a> <span class='name'>Execute(<a class='scottPlotType' href='#ScottPlot.IPlotControl'>ScottPlot.IPlotControl</a> <span class='name'>plotControl</span>, <a class='scottPlotType' href='#ScottPlot.Interactivity.IUserAction'>ScottPlot.Interactivity.IUserAction</a> <span class='name'>userInput</span>, <a class='scottPlotType' href='#ScottPlot.Interactivity.KeyboardState'>ScottPlot.Interactivity.KeyboardState</a> <span class='name'>keys</span>)</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.Interactivity.UserActionResponses.MouseDragZoomRectangle'><a style='color: black;' href='#ScottPlot.Interactivity.UserActionResponses.MouseDragZoomRectangle'>ScottPlot.Interactivity.UserActionResponses.MouseDragZoomRectangle</a></div>
 <div class='docs'>Click-drag draws a rectangle over a plot which becomes the new field of view when released.</div>
@@ -6227,8 +6311,8 @@ a:hover {text-decoration: underline;}
 <div><a class='scottPlotType' href='#ScottPlot.Interactivity.Key'>ScottPlot.Interactivity.Key</a> <span class='name'>SecondaryKey</span> <span class='docs'>A zoom rectangle is started when &lt;see cref="P:ScottPlot.Interactivity.UserActionResponses.MouseDragZoomRectangle.SecondaryMouseButton" /&gt; is pressed and dragged with this key held down</span></div>
 <div><a class='scottPlotType' href='#ScottPlot.Interactivity.MouseButton'>ScottPlot.Interactivity.MouseButton</a> <span class='name'>SecondaryMouseButton</span> <span class='docs'>A zoom rectangle is started when this button is pressed and dragged with &lt;see cref="P:ScottPlot.Interactivity.UserActionResponses.MouseDragZoomRectangle.SecondaryKey" /&gt; held down</span></div>
 <div><a class='scottPlotType' href='#ScottPlot.Interactivity.Key'>ScottPlot.Interactivity.Key</a> <span class='name'>VerticalLockKey</span> <span class='docs'>When held, vertical axis limits will not be modified</span></div>
-<div><span class='otherType'>void</span> <span class='name'>ResetState(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>plot</span>)</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.Interactivity.ResponseInfo'>ScottPlot.Interactivity.ResponseInfo</a> <span class='name'>Execute(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>plot</span>, <a class='scottPlotType' href='#ScottPlot.Interactivity.IUserAction'>ScottPlot.Interactivity.IUserAction</a> <span class='name'>userAction</span>, <a class='scottPlotType' href='#ScottPlot.Interactivity.KeyboardState'>ScottPlot.Interactivity.KeyboardState</a> <span class='name'>keys</span>)</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>ResetState(<a class='scottPlotType' href='#ScottPlot.IPlotControl'>ScottPlot.IPlotControl</a> <span class='name'>plotControl</span>)</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Interactivity.ResponseInfo'>ScottPlot.Interactivity.ResponseInfo</a> <span class='name'>Execute(<a class='scottPlotType' href='#ScottPlot.IPlotControl'>ScottPlot.IPlotControl</a> <span class='name'>plotControl</span>, <a class='scottPlotType' href='#ScottPlot.Interactivity.IUserAction'>ScottPlot.Interactivity.IUserAction</a> <span class='name'>userAction</span>, <a class='scottPlotType' href='#ScottPlot.Interactivity.KeyboardState'>ScottPlot.Interactivity.KeyboardState</a> <span class='name'>keys</span>)</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.Interactivity.UserActionResponses.MouseWheelZoom'><a style='color: black;' href='#ScottPlot.Interactivity.UserActionResponses.MouseWheelZoom'>ScottPlot.Interactivity.UserActionResponses.MouseWheelZoom</a></div>
 <div class='docs'></div>
@@ -6236,34 +6320,34 @@ a:hover {text-decoration: underline;}
 <div><span class='otherType'>bool</span> <span class='name'>LockParallelAxes</span> <span class='docs'>If enabled with &lt;see cref="P:ScottPlot.Interactivity.UserActionResponses.MouseWheelZoom.ZoomAxisUnderMouse" /&gt;, all axes of the same direction will be changed together.</span></div>
 <div><span class='otherType'>bool</span> <span class='name'>ZoomAxisUnderMouse</span> <span class='docs'>If enabled, when the mouse zooms while hovered over an axis only that axis will be changed.</span></div>
 <div><span class='otherType'>double</span> <span class='name'>ZoomFraction</span> <span class='docs'>Fraction of the axis range to change when zooming in and out.</span></div>
-<div><span class='otherType'>void</span> <span class='name'>ResetState(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>plot</span>)</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.Interactivity.ResponseInfo'>ScottPlot.Interactivity.ResponseInfo</a> <span class='name'>Execute(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>plot</span>, <a class='scottPlotType' href='#ScottPlot.Interactivity.IUserAction'>ScottPlot.Interactivity.IUserAction</a> <span class='name'>userInput</span>, <a class='scottPlotType' href='#ScottPlot.Interactivity.KeyboardState'>ScottPlot.Interactivity.KeyboardState</a> <span class='name'>keys</span>)</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>ResetState(<a class='scottPlotType' href='#ScottPlot.IPlotControl'>ScottPlot.IPlotControl</a> <span class='name'>plotControl</span>)</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Interactivity.ResponseInfo'>ScottPlot.Interactivity.ResponseInfo</a> <span class='name'>Execute(<a class='scottPlotType' href='#ScottPlot.IPlotControl'>ScottPlot.IPlotControl</a> <span class='name'>plotControl</span>, <a class='scottPlotType' href='#ScottPlot.Interactivity.IUserAction'>ScottPlot.Interactivity.IUserAction</a> <span class='name'>userInput</span>, <a class='scottPlotType' href='#ScottPlot.Interactivity.KeyboardState'>ScottPlot.Interactivity.KeyboardState</a> <span class='name'>keys</span>)</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.Interactivity.UserActionResponses.SingleClickAutoscale'><a style='color: black;' href='#ScottPlot.Interactivity.UserActionResponses.SingleClickAutoscale'>ScottPlot.Interactivity.UserActionResponses.SingleClickAutoscale</a></div>
 <div class='docs'></div>
 </div>
 <div><a class='scottPlotType' href='#ScottPlot.Interactivity.MouseButton'>ScottPlot.Interactivity.MouseButton</a> <span class='name'>MouseButton</span> <span class='docs'>Which mouse button to watch for single-click events</span></div>
 <div><span class='otherType'>Action&lt;T1, T2&gt;</span> <span class='name'>ResponseAction</span> <span class='docs'>This action is invoked when a single-click occurs.</span></div>
-<div><span class='otherType'>void</span> <span class='name'>AutoScale(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>plot</span>, <a class='scottPlotType' href='#ScottPlot.Pixel'>ScottPlot.Pixel</a> <span class='name'>pixel</span>)</span> <span class='docs'></span></div>
-<div><span class='otherType'>void</span> <span class='name'>ResetState(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>plot</span>)</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.Interactivity.ResponseInfo'>ScottPlot.Interactivity.ResponseInfo</a> <span class='name'>Execute(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>plot</span>, <a class='scottPlotType' href='#ScottPlot.Interactivity.IUserAction'>ScottPlot.Interactivity.IUserAction</a> <span class='name'>userAction</span>, <a class='scottPlotType' href='#ScottPlot.Interactivity.KeyboardState'>ScottPlot.Interactivity.KeyboardState</a> <span class='name'>keys</span>)</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>AutoScale(<a class='scottPlotType' href='#ScottPlot.IPlotControl'>ScottPlot.IPlotControl</a> <span class='name'>plotControl</span>, <a class='scottPlotType' href='#ScottPlot.Pixel'>ScottPlot.Pixel</a> <span class='name'>pixel</span>)</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>ResetState(<a class='scottPlotType' href='#ScottPlot.IPlotControl'>ScottPlot.IPlotControl</a> <span class='name'>plotControl</span>)</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Interactivity.ResponseInfo'>ScottPlot.Interactivity.ResponseInfo</a> <span class='name'>Execute(<a class='scottPlotType' href='#ScottPlot.IPlotControl'>ScottPlot.IPlotControl</a> <span class='name'>plotControl</span>, <a class='scottPlotType' href='#ScottPlot.Interactivity.IUserAction'>ScottPlot.Interactivity.IUserAction</a> <span class='name'>userAction</span>, <a class='scottPlotType' href='#ScottPlot.Interactivity.KeyboardState'>ScottPlot.Interactivity.KeyboardState</a> <span class='name'>keys</span>)</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.Interactivity.UserActionResponses.SingleClickContextMenu'><a style='color: black;' href='#ScottPlot.Interactivity.UserActionResponses.SingleClickContextMenu'>ScottPlot.Interactivity.UserActionResponses.SingleClickContextMenu</a></div>
 <div class='docs'></div>
 </div>
 <div><a class='scottPlotType' href='#ScottPlot.Interactivity.MouseButton'>ScottPlot.Interactivity.MouseButton</a> <span class='name'>MouseButton</span> <span class='docs'>Which mouse button to watch for single-click events</span></div>
 <div><span class='otherType'>Action&lt;T1, T2&gt;</span> <span class='name'>ResponseAction</span> <span class='docs'>This action is invoked when a single-click occurs.</span></div>
-<div><span class='otherType'>void</span> <span class='name'>LaunchContextMenu(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>plot</span>, <a class='scottPlotType' href='#ScottPlot.Pixel'>ScottPlot.Pixel</a> <span class='name'>pixel</span>)</span> <span class='docs'></span></div>
-<div><span class='otherType'>void</span> <span class='name'>ResetState(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>plot</span>)</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.Interactivity.ResponseInfo'>ScottPlot.Interactivity.ResponseInfo</a> <span class='name'>Execute(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>plot</span>, <a class='scottPlotType' href='#ScottPlot.Interactivity.IUserAction'>ScottPlot.Interactivity.IUserAction</a> <span class='name'>userAction</span>, <a class='scottPlotType' href='#ScottPlot.Interactivity.KeyboardState'>ScottPlot.Interactivity.KeyboardState</a> <span class='name'>keys</span>)</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>LaunchContextMenu(<a class='scottPlotType' href='#ScottPlot.IPlotControl'>ScottPlot.IPlotControl</a> <span class='name'>plotControl</span>, <a class='scottPlotType' href='#ScottPlot.Pixel'>ScottPlot.Pixel</a> <span class='name'>pixel</span>)</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>ResetState(<a class='scottPlotType' href='#ScottPlot.IPlotControl'>ScottPlot.IPlotControl</a> <span class='name'>plotControl</span>)</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Interactivity.ResponseInfo'>ScottPlot.Interactivity.ResponseInfo</a> <span class='name'>Execute(<a class='scottPlotType' href='#ScottPlot.IPlotControl'>ScottPlot.IPlotControl</a> <span class='name'>plotControl</span>, <a class='scottPlotType' href='#ScottPlot.Interactivity.IUserAction'>ScottPlot.Interactivity.IUserAction</a> <span class='name'>userAction</span>, <a class='scottPlotType' href='#ScottPlot.Interactivity.KeyboardState'>ScottPlot.Interactivity.KeyboardState</a> <span class='name'>keys</span>)</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.Interactivity.UserActionResponses.SingleClickResponse'><a style='color: black;' href='#ScottPlot.Interactivity.UserActionResponses.SingleClickResponse'>ScottPlot.Interactivity.UserActionResponses.SingleClickResponse</a></div>
 <div class='docs'></div>
 </div>
 <div><a class='scottPlotType' href='#ScottPlot.Interactivity.MouseButton'>ScottPlot.Interactivity.MouseButton</a> <span class='name'>MouseButton</span> <span class='docs'>Which mouse button to watch for single-click events</span></div>
 <div><span class='otherType'>Action&lt;T1, T2&gt;</span> <span class='name'>ResponseAction</span> <span class='docs'>This action is invoked when a single-click occurs.</span></div>
-<div><span class='otherType'>void</span> <span class='name'>ResetState(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>plot</span>)</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.Interactivity.ResponseInfo'>ScottPlot.Interactivity.ResponseInfo</a> <span class='name'>Execute(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>plot</span>, <a class='scottPlotType' href='#ScottPlot.Interactivity.IUserAction'>ScottPlot.Interactivity.IUserAction</a> <span class='name'>userAction</span>, <a class='scottPlotType' href='#ScottPlot.Interactivity.KeyboardState'>ScottPlot.Interactivity.KeyboardState</a> <span class='name'>keys</span>)</span> <span class='docs'></span></div>
+<div><span class='otherType'>void</span> <span class='name'>ResetState(<a class='scottPlotType' href='#ScottPlot.IPlotControl'>ScottPlot.IPlotControl</a> <span class='name'>plotControl</span>)</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Interactivity.ResponseInfo'>ScottPlot.Interactivity.ResponseInfo</a> <span class='name'>Execute(<a class='scottPlotType' href='#ScottPlot.IPlotControl'>ScottPlot.IPlotControl</a> <span class='name'>plotControl</span>, <a class='scottPlotType' href='#ScottPlot.Interactivity.IUserAction'>ScottPlot.Interactivity.IUserAction</a> <span class='name'>userAction</span>, <a class='scottPlotType' href='#ScottPlot.Interactivity.KeyboardState'>ScottPlot.Interactivity.KeyboardState</a> <span class='name'>keys</span>)</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.Hatches.Checker'><a style='color: black;' href='#ScottPlot.Hatches.Checker'>ScottPlot.Hatches.Checker</a></div>
 <div class='docs'></div>
@@ -6784,186 +6868,6 @@ a:hover {text-decoration: underline;}
 </div>
 <div><a class='scottPlotType' href='#ScottPlot.Coordinates'>ScottPlot.Coordinates</a> <span class='name'>Next()</span> <span class='docs'></span></div>
 <div><span class='otherType'>IEnumerable&lt;ScottPlot.Coordinates&gt;</span> <span class='name'>Next(<span class='otherType'>int</span> <span class='name'>count</span>)</span> <span class='docs'></span></div>
-<div style='margin-top: 2em'>
-<div class='title' id='ScottPlot.Control.ContextMenuItem'><a style='color: black;' href='#ScottPlot.Control.ContextMenuItem'>ScottPlot.Control.ContextMenuItem</a></div>
-<div class='docs'>Represents a single item in a right-click pop-up menu</div>
-</div>
-<div><span class='otherType'>bool</span> <span class='name'>IsSeparator</span> <span class='docs'></span></div>
-<div><span class='otherType'>string</span> <span class='name'>Label</span> <span class='docs'></span></div>
-<div><span class='otherType'>Action&lt;ScottPlot.IPlotControl&gt;</span> <span class='name'>OnInvoke</span> <span class='docs'></span></div>
-<div style='margin-top: 2em'>
-<div class='title' id='ScottPlot.Control.InputBindings'><a style='color: black;' href='#ScottPlot.Control.InputBindings'>ScottPlot.Control.InputBindings</a></div>
-<div class='docs'>This class defines which buttons and keys perform which actions to manipulate the plot.</div>
-</div>
-<div><a class='scottPlotType' href='#ScottPlot.Control.MouseButton?'>ScottPlot.Control.MouseButton?</a> <span class='name'>ClickAutoAxisButton</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.Control.MouseButton?'>ScottPlot.Control.MouseButton?</a> <span class='name'>ClickContextMenuButton</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.Control.MouseButton?'>ScottPlot.Control.MouseButton?</a> <span class='name'>DoubleClickButton</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.Control.MouseButton?'>ScottPlot.Control.MouseButton?</a> <span class='name'>DragPanButton</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.Control.MouseButton?'>ScottPlot.Control.MouseButton?</a> <span class='name'>DragZoomButton</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.Control.MouseButton?'>ScottPlot.Control.MouseButton?</a> <span class='name'>DragZoomRectangleButton</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.Control.Key?'>ScottPlot.Control.Key?</a> <span class='name'>LockHorizontalAxisKey</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.Control.Key?'>ScottPlot.Control.Key?</a> <span class='name'>LockVerticalAxisKey</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.Control.MouseWheelDirection?'>ScottPlot.Control.MouseWheelDirection?</a> <span class='name'>PanDownWheelDirection</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.Control.MouseWheelDirection?'>ScottPlot.Control.MouseWheelDirection?</a> <span class='name'>PanLeftWheelDirection</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.Control.MouseWheelDirection?'>ScottPlot.Control.MouseWheelDirection?</a> <span class='name'>PanRightWheelDirection</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.Control.MouseWheelDirection?'>ScottPlot.Control.MouseWheelDirection?</a> <span class='name'>PanUpWheelDirection</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.Control.Key?'>ScottPlot.Control.Key?</a> <span class='name'>PanZoomRectangleKey</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.Control.MouseWheelDirection?'>ScottPlot.Control.MouseWheelDirection?</a> <span class='name'>ZoomInWheelDirection</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.Control.MouseWheelDirection?'>ScottPlot.Control.MouseWheelDirection?</a> <span class='name'>ZoomOutWheelDirection</span> <span class='docs'></span></div>
-<div><span class='otherType'>bool</span> <span class='name'>ShouldLockX(<span class='otherType'>IEnumerable&lt;ScottPlot.Control.Key&gt;</span> <span class='name'>keys</span>, <a class='scottPlotType' href='#ScottPlot.Control.MouseButton?'>ScottPlot.Control.MouseButton?</a> <span class='name'>button</span>)</span> <span class='docs'></span></div>
-<div><span class='otherType'>bool</span> <span class='name'>ShouldLockY(<span class='otherType'>IEnumerable&lt;ScottPlot.Control.Key&gt;</span> <span class='name'>keys</span>, <a class='scottPlotType' href='#ScottPlot.Control.MouseButton?'>ScottPlot.Control.MouseButton?</a> <span class='name'>button</span>)</span> <span class='docs'></span></div>
-<div><span class='otherType'>bool</span> <span class='name'>ShouldZoomRectangle(<a class='scottPlotType' href='#ScottPlot.Control.MouseButton'>ScottPlot.Control.MouseButton</a> <span class='name'>button</span>, <span class='otherType'>IEnumerable&lt;ScottPlot.Control.Key&gt;</span> <span class='name'>keys</span>)</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.Control.InputBindings'>ScottPlot.Control.InputBindings</a> <span class='name'>Standard()</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.Control.InputBindings'>ScottPlot.Control.InputBindings</a> <span class='name'>NonInteractive()</span> <span class='docs'></span></div>
-<div style='margin-top: 2em'>
-<div class='title' id='ScottPlot.Control.Interaction'><a style='color: black;' href='#ScottPlot.Control.Interaction'>ScottPlot.Control.Interaction</a></div>
-<div class='docs'>This class contains logic to perform plot manipulations in response to UI actions.
-            To customize how user inputs are interpreted, inherit and override functions in this class.
-            To customize behavior of actions, replace properties of &lt;see cref="F:ScottPlot.Control.Interaction.Actions" /&gt; with custom delegates.
-            To customize UI inputs, assign desired button and key properties of &lt;see cref="F:ScottPlot.Control.Interaction.Inputs" /&gt;.</div>
-</div>
-<div><a class='scottPlotType' href='#ScottPlot.Control.PlotActions'>ScottPlot.Control.PlotActions</a> <span class='name'>Actions</span> <span class='docs'>Delegates in this object can be overwritten with custom functions that manipulate the plot.
-            (e.g., changing the sensitivity of click-drag-zooming)</span></div>
-<div><span class='otherType'>bool</span> <span class='name'>ChangeOpposingAxesTogether</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.Control.InputBindings'>ScottPlot.Control.InputBindings</a> <span class='name'>Inputs</span> <span class='docs'>Buttons and keys in this object can be overwritten to customize actions for specific user input events.
-            (e.g., make left-click-drag zoom instead of pan)</span></div>
-<div><span class='otherType'>bool</span> <span class='name'>IsEnabled</span> <span class='docs'>Controls whether events will be processed by this class.
-            Setting this resets this event processor to use the default interactions.
-            Enabling this disables the newer &lt;see cref="P:ScottPlot.IPlotControl.UserInputProcessor" /&gt;.</span></div>
-<div><a class='scottPlotType' href='#ScottPlot.IPlotControl'>ScottPlot.IPlotControl</a> <span class='name'>PlotControl</span> <span class='docs'></span></div>
-<div><span class='otherType'>bool</span> <span class='name'>IsDraggingMouse(<a class='scottPlotType' href='#ScottPlot.Pixel'>ScottPlot.Pixel</a> <span class='name'>pos</span>)</span> <span class='docs'></span></div>
-<div><span class='otherType'>void</span> <span class='name'>Disable()</span> <span class='docs'>Disable all mouse interactivity</span></div>
-<div><span class='otherType'>void</span> <span class='name'>Enable()</span> <span class='docs'>Enable mouse interactivity using the default mouse actions</span></div>
-<div><span class='otherType'>void</span> <span class='name'>Enable(<a class='scottPlotType' href='#ScottPlot.Control.PlotActions'>ScottPlot.Control.PlotActions</a> <span class='name'>customActions</span>)</span> <span class='docs'>Enable mouse interactivity using the default mouse actions</span></div>
-<div><a class='scottPlotType' href='#ScottPlot.Coordinates'>ScottPlot.Coordinates</a> <span class='name'>GetMouseCoordinates(<a class='scottPlotType' href='#ScottPlot.IXAxis'>ScottPlot.IXAxis</a> <span class='name'>xAxis</span>, <a class='scottPlotType' href='#ScottPlot.IYAxis'>ScottPlot.IYAxis</a> <span class='name'>yAxis</span>)</span> <span class='docs'></span></div>
-<div><span class='otherType'>void</span> <span class='name'>OnMouseMove(<a class='scottPlotType' href='#ScottPlot.Pixel'>ScottPlot.Pixel</a> <span class='name'>newPosition</span>)</span> <span class='docs'></span></div>
-<div><span class='otherType'>void</span> <span class='name'>KeyUp(<a class='scottPlotType' href='#ScottPlot.Control.Key'>ScottPlot.Control.Key</a> <span class='name'>key</span>)</span> <span class='docs'></span></div>
-<div><span class='otherType'>void</span> <span class='name'>KeyDown(<a class='scottPlotType' href='#ScottPlot.Control.Key'>ScottPlot.Control.Key</a> <span class='name'>key</span>)</span> <span class='docs'></span></div>
-<div><span class='otherType'>void</span> <span class='name'>MouseDown(<a class='scottPlotType' href='#ScottPlot.Pixel'>ScottPlot.Pixel</a> <span class='name'>position</span>, <a class='scottPlotType' href='#ScottPlot.Control.MouseButton'>ScottPlot.Control.MouseButton</a> <span class='name'>button</span>)</span> <span class='docs'></span></div>
-<div><span class='otherType'>void</span> <span class='name'>MouseUp(<a class='scottPlotType' href='#ScottPlot.Pixel'>ScottPlot.Pixel</a> <span class='name'>position</span>, <a class='scottPlotType' href='#ScottPlot.Control.MouseButton'>ScottPlot.Control.MouseButton</a> <span class='name'>button</span>)</span> <span class='docs'></span></div>
-<div><span class='otherType'>void</span> <span class='name'>DoubleClick()</span> <span class='docs'></span></div>
-<div><span class='otherType'>void</span> <span class='name'>MouseWheelVertical(<a class='scottPlotType' href='#ScottPlot.Pixel'>ScottPlot.Pixel</a> <span class='name'>pixel</span>, <span class='otherType'>single</span> <span class='name'>delta</span>)</span> <span class='docs'></span></div>
-<div style='margin-top: 2em'>
-<div class='title' id='ScottPlot.Control.Key'><a style='color: black;' href='#ScottPlot.Control.Key'>ScottPlot.Control.Key</a></div>
-<div class='docs'></div>
-</div>
-<div><a class='scottPlotType' href='#ScottPlot.Control.Key'>ScottPlot.Control.Key</a> <span class='name'>Alt</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.Control.Key'>ScottPlot.Control.Key</a> <span class='name'>Ctrl</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.Control.Key'>ScottPlot.Control.Key</a> <span class='name'>Shift</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.Control.Key'>ScottPlot.Control.Key</a> <span class='name'>Unknown</span> <span class='docs'></span></div>
-<div style='margin-top: 2em'>
-<div class='title' id='ScottPlot.Control.KeyboardState'><a style='color: black;' href='#ScottPlot.Control.KeyboardState'>ScottPlot.Control.KeyboardState</a></div>
-<div class='docs'></div>
-</div>
-<div><span class='otherType'>IReadOnlyCollection&lt;ScottPlot.Control.Key&gt;</span> <span class='name'>PressedKeys</span> <span class='docs'></span></div>
-<div><span class='otherType'>void</span> <span class='name'>Down(<a class='scottPlotType' href='#ScottPlot.Control.Key'>ScottPlot.Control.Key</a> <span class='name'>key</span>)</span> <span class='docs'></span></div>
-<div><span class='otherType'>void</span> <span class='name'>Up(<a class='scottPlotType' href='#ScottPlot.Control.Key'>ScottPlot.Control.Key</a> <span class='name'>key</span>)</span> <span class='docs'></span></div>
-<div style='margin-top: 2em'>
-<div class='title' id='ScottPlot.Control.LockedAxes'><a style='color: black;' href='#ScottPlot.Control.LockedAxes'>ScottPlot.Control.LockedAxes</a></div>
-<div class='docs'></div>
-</div>
-<div><span class='otherType'>bool</span> <span class='name'>X</span> <span class='docs'></span></div>
-<div><span class='otherType'>bool</span> <span class='name'>Y</span> <span class='docs'></span></div>
-<div style='margin-top: 2em'>
-<div class='title' id='ScottPlot.Control.MouseButton'><a style='color: black;' href='#ScottPlot.Control.MouseButton'>ScottPlot.Control.MouseButton</a></div>
-<div class='docs'></div>
-</div>
-<div><a class='scottPlotType' href='#ScottPlot.Control.MouseButton'>ScottPlot.Control.MouseButton</a> <span class='name'>Left</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.Control.MouseButton'>ScottPlot.Control.MouseButton</a> <span class='name'>Middle</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.Control.MouseButton'>ScottPlot.Control.MouseButton</a> <span class='name'>Right</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.Control.MouseButton'>ScottPlot.Control.MouseButton</a> <span class='name'>Unknown</span> <span class='docs'></span></div>
-<div style='margin-top: 2em'>
-<div class='title' id='ScottPlot.Control.MouseDrag'><a style='color: black;' href='#ScottPlot.Control.MouseDrag'>ScottPlot.Control.MouseDrag</a></div>
-<div class='docs'></div>
-</div>
-<div><a class='scottPlotType' href='#ScottPlot.Pixel'>ScottPlot.Pixel</a> <span class='name'>From</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.Control.MultiAxisLimitManager'>ScottPlot.Control.MultiAxisLimitManager</a> <span class='name'>InitialLimits</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.Pixel'>ScottPlot.Pixel</a> <span class='name'>To</span> <span class='docs'></span></div>
-<div style='margin-top: 2em'>
-<div class='title' id='ScottPlot.Control.MouseState'><a style='color: black;' href='#ScottPlot.Control.MouseState'>ScottPlot.Control.MouseState</a></div>
-<div class='docs'></div>
-</div>
-<div><a class='scottPlotType' href='#ScottPlot.Pixel'>ScottPlot.Pixel</a> <span class='name'>LastPosition</span> <span class='docs'></span></div>
-<div><span class='otherType'>single</span> <span class='name'>MinimumDragDistance</span> <span class='docs'>A click-drag must exceed this number of pixels before it is considered a drag.</span></div>
-<div><a class='scottPlotType' href='#ScottPlot.Control.MultiAxisLimitManager'>ScottPlot.Control.MultiAxisLimitManager</a> <span class='name'>MouseDownAxisLimits</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.Pixel'>ScottPlot.Pixel</a> <span class='name'>MouseDownPosition</span> <span class='docs'></span></div>
-<div><span class='otherType'>IReadOnlyCollection&lt;ScottPlot.Control.MouseButton&gt;</span> <span class='name'>PressedButtons</span> <span class='docs'></span></div>
-<div><span class='otherType'>void</span> <span class='name'>Down(<a class='scottPlotType' href='#ScottPlot.Control.MouseButton'>ScottPlot.Control.MouseButton</a> <span class='name'>button</span>)</span> <span class='docs'></span></div>
-<div><span class='otherType'>bool</span> <span class='name'>IsDown(<a class='scottPlotType' href='#ScottPlot.Control.MouseButton'>ScottPlot.Control.MouseButton</a> <span class='name'>button</span>)</span> <span class='docs'></span></div>
-<div><span class='otherType'>void</span> <span class='name'>Up(<a class='scottPlotType' href='#ScottPlot.Control.MouseButton'>ScottPlot.Control.MouseButton</a> <span class='name'>button</span>)</span> <span class='docs'></span></div>
-<div><span class='otherType'>void</span> <span class='name'>Down(<a class='scottPlotType' href='#ScottPlot.Pixel'>ScottPlot.Pixel</a> <span class='name'>position</span>, <a class='scottPlotType' href='#ScottPlot.Control.MouseButton'>ScottPlot.Control.MouseButton</a> <span class='name'>button</span>, <a class='scottPlotType' href='#ScottPlot.Control.MultiAxisLimitManager'>ScottPlot.Control.MultiAxisLimitManager</a> <span class='name'>limits</span>)</span> <span class='docs'></span></div>
-<div><span class='otherType'>bool</span> <span class='name'>IsDragging(<a class='scottPlotType' href='#ScottPlot.Pixel'>ScottPlot.Pixel</a> <span class='name'>position</span>)</span> <span class='docs'></span></div>
-<div style='margin-top: 2em'>
-<div class='title' id='ScottPlot.Control.MouseWheelDirection'><a style='color: black;' href='#ScottPlot.Control.MouseWheelDirection'>ScottPlot.Control.MouseWheelDirection</a></div>
-<div class='docs'></div>
-</div>
-<div><a class='scottPlotType' href='#ScottPlot.Control.MouseWheelDirection'>ScottPlot.Control.MouseWheelDirection</a> <span class='name'>Down</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.Control.MouseWheelDirection'>ScottPlot.Control.MouseWheelDirection</a> <span class='name'>Left</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.Control.MouseWheelDirection'>ScottPlot.Control.MouseWheelDirection</a> <span class='name'>Right</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.Control.MouseWheelDirection'>ScottPlot.Control.MouseWheelDirection</a> <span class='name'>Unknown</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.Control.MouseWheelDirection'>ScottPlot.Control.MouseWheelDirection</a> <span class='name'>Up</span> <span class='docs'></span></div>
-<div style='margin-top: 2em'>
-<div class='title' id='ScottPlot.Control.MultiAxisLimitManager'><a style='color: black;' href='#ScottPlot.Control.MultiAxisLimitManager'>ScottPlot.Control.MultiAxisLimitManager</a></div>
-<div class='docs'>This object remembers limits of all axes so it can restore them later.
-            It is used for mouse interaction to translate pixel distances 
-            to coordinate distances based on previous renders.</div>
-</div>
-<div><span class='otherType'>void</span> <span class='name'>Remember(<a class='scottPlotType' href='#ScottPlot.Control.MultiAxisLimitManager'>ScottPlot.Control.MultiAxisLimitManager</a> <span class='name'>newMultiLimits</span>)</span> <span class='docs'></span></div>
-<div><span class='otherType'>void</span> <span class='name'>Apply(<a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>plot</span>)</span> <span class='docs'></span></div>
-<div style='margin-top: 2em'>
-<div class='title' id='ScottPlot.Control.PlotActions'><a style='color: black;' href='#ScottPlot.Control.PlotActions'>ScottPlot.Control.PlotActions</a></div>
-<div class='docs'>This object holds actions which manipulate the plot.
-            To customize plot manipulation behavior, replace these delegates with custom ones.</div>
-</div>
-<div><span class='otherType'>Action&lt;T1, T2&gt;</span> <span class='name'>AutoScale</span> <span class='docs'></span></div>
-<div><span class='otherType'>Action&lt;T1, T2, T3&gt;</span> <span class='name'>DragPan</span> <span class='docs'></span></div>
-<div><span class='otherType'>Action&lt;T1, T2, T3&gt;</span> <span class='name'>DragZoom</span> <span class='docs'></span></div>
-<div><span class='otherType'>Action&lt;T1, T2, T3&gt;</span> <span class='name'>DragZoomRectangle</span> <span class='docs'></span></div>
-<div><span class='otherType'>Action&lt;ScottPlot.IPlotControl&gt;</span> <span class='name'>PanDown</span> <span class='docs'></span></div>
-<div><span class='otherType'>Action&lt;ScottPlot.IPlotControl&gt;</span> <span class='name'>PanLeft</span> <span class='docs'></span></div>
-<div><span class='otherType'>Action&lt;ScottPlot.IPlotControl&gt;</span> <span class='name'>PanRight</span> <span class='docs'></span></div>
-<div><span class='otherType'>Action&lt;ScottPlot.IPlotControl&gt;</span> <span class='name'>PanUp</span> <span class='docs'></span></div>
-<div><span class='otherType'>Action&lt;T1, T2&gt;</span> <span class='name'>ShowContextMenu</span> <span class='docs'></span></div>
-<div><span class='otherType'>Action&lt;ScottPlot.IPlotControl&gt;</span> <span class='name'>ToggleBenchmark</span> <span class='docs'></span></div>
-<div><span class='otherType'>Action&lt;T1, T2, T3&gt;</span> <span class='name'>ZoomIn</span> <span class='docs'></span></div>
-<div><span class='otherType'>Action&lt;T1, T2, T3&gt;</span> <span class='name'>ZoomOut</span> <span class='docs'></span></div>
-<div><span class='otherType'>Action&lt;ScottPlot.IPlotControl&gt;</span> <span class='name'>ZoomRectangleApply</span> <span class='docs'></span></div>
-<div><span class='otherType'>Action&lt;ScottPlot.IPlotControl&gt;</span> <span class='name'>ZoomRectangleClear</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.Control.PlotActions'>ScottPlot.Control.PlotActions</a> <span class='name'>Standard()</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.Control.PlotActions'>ScottPlot.Control.PlotActions</a> <span class='name'>NonInteractive()</span> <span class='docs'></span></div>
-<div style='margin-top: 2em'>
-<div class='title' id='ScottPlot.Control.StandardActions'><a style='color: black;' href='#ScottPlot.Control.StandardActions'>ScottPlot.Control.StandardActions</a></div>
-<div class='docs'></div>
-</div>
-<div><span class='otherType'>void</span> <span class='name'>ZoomIn(<a class='scottPlotType' href='#ScottPlot.IPlotControl'>ScottPlot.IPlotControl</a> <span class='name'>control</span>, <a class='scottPlotType' href='#ScottPlot.Pixel'>ScottPlot.Pixel</a> <span class='name'>pixel</span>, <a class='scottPlotType' href='#ScottPlot.Control.LockedAxes'>ScottPlot.Control.LockedAxes</a> <span class='name'>locked</span>)</span> <span class='docs'></span></div>
-<div><span class='otherType'>void</span> <span class='name'>ZoomOut(<a class='scottPlotType' href='#ScottPlot.IPlotControl'>ScottPlot.IPlotControl</a> <span class='name'>control</span>, <a class='scottPlotType' href='#ScottPlot.Pixel'>ScottPlot.Pixel</a> <span class='name'>pixel</span>, <a class='scottPlotType' href='#ScottPlot.Control.LockedAxes'>ScottPlot.Control.LockedAxes</a> <span class='name'>locked</span>)</span> <span class='docs'></span></div>
-<div><span class='otherType'>void</span> <span class='name'>PanUp(<a class='scottPlotType' href='#ScottPlot.IPlotControl'>ScottPlot.IPlotControl</a> <span class='name'>control</span>)</span> <span class='docs'></span></div>
-<div><span class='otherType'>void</span> <span class='name'>PanDown(<a class='scottPlotType' href='#ScottPlot.IPlotControl'>ScottPlot.IPlotControl</a> <span class='name'>control</span>)</span> <span class='docs'></span></div>
-<div><span class='otherType'>void</span> <span class='name'>PanLeft(<a class='scottPlotType' href='#ScottPlot.IPlotControl'>ScottPlot.IPlotControl</a> <span class='name'>control</span>)</span> <span class='docs'></span></div>
-<div><span class='otherType'>void</span> <span class='name'>PanRight(<a class='scottPlotType' href='#ScottPlot.IPlotControl'>ScottPlot.IPlotControl</a> <span class='name'>control</span>)</span> <span class='docs'></span></div>
-<div><span class='otherType'>void</span> <span class='name'>DragPan(<a class='scottPlotType' href='#ScottPlot.IPlotControl'>ScottPlot.IPlotControl</a> <span class='name'>control</span>, <a class='scottPlotType' href='#ScottPlot.Control.MouseDrag'>ScottPlot.Control.MouseDrag</a> <span class='name'>drag</span>, <a class='scottPlotType' href='#ScottPlot.Control.LockedAxes'>ScottPlot.Control.LockedAxes</a> <span class='name'>locked</span>)</span> <span class='docs'></span></div>
-<div><span class='otherType'>void</span> <span class='name'>DragZoom(<a class='scottPlotType' href='#ScottPlot.IPlotControl'>ScottPlot.IPlotControl</a> <span class='name'>control</span>, <a class='scottPlotType' href='#ScottPlot.Control.MouseDrag'>ScottPlot.Control.MouseDrag</a> <span class='name'>drag</span>, <a class='scottPlotType' href='#ScottPlot.Control.LockedAxes'>ScottPlot.Control.LockedAxes</a> <span class='name'>locked</span>)</span> <span class='docs'></span></div>
-<div><span class='otherType'>void</span> <span class='name'>ZoomRectangleClear(<a class='scottPlotType' href='#ScottPlot.IPlotControl'>ScottPlot.IPlotControl</a> <span class='name'>control</span>)</span> <span class='docs'></span></div>
-<div><span class='otherType'>void</span> <span class='name'>ZoomRectangleApply(<a class='scottPlotType' href='#ScottPlot.IPlotControl'>ScottPlot.IPlotControl</a> <span class='name'>control</span>)</span> <span class='docs'></span></div>
-<div><span class='otherType'>void</span> <span class='name'>DragZoomRectangle(<a class='scottPlotType' href='#ScottPlot.IPlotControl'>ScottPlot.IPlotControl</a> <span class='name'>control</span>, <a class='scottPlotType' href='#ScottPlot.Control.MouseDrag'>ScottPlot.Control.MouseDrag</a> <span class='name'>drag</span>, <a class='scottPlotType' href='#ScottPlot.Control.LockedAxes'>ScottPlot.Control.LockedAxes</a> <span class='name'>locked</span>)</span> <span class='docs'></span></div>
-<div><span class='otherType'>void</span> <span class='name'>ToggleBenchmark(<a class='scottPlotType' href='#ScottPlot.IPlotControl'>ScottPlot.IPlotControl</a> <span class='name'>control</span>)</span> <span class='docs'></span></div>
-<div><span class='otherType'>void</span> <span class='name'>AutoScale(<a class='scottPlotType' href='#ScottPlot.IPlotControl'>ScottPlot.IPlotControl</a> <span class='name'>control</span>, <a class='scottPlotType' href='#ScottPlot.Pixel'>ScottPlot.Pixel</a> <span class='name'>pixel</span>)</span> <span class='docs'></span></div>
-<div><span class='otherType'>void</span> <span class='name'>ShowContextMenu(<a class='scottPlotType' href='#ScottPlot.IPlotControl'>ScottPlot.IPlotControl</a> <span class='name'>control</span>, <a class='scottPlotType' href='#ScottPlot.Pixel'>ScottPlot.Pixel</a> <span class='name'>position</span>)</span> <span class='docs'></span></div>
-<div style='margin-top: 2em'>
-<div class='title' id='ScottPlot.Control.StandardZoomRectangle'><a style='color: black;' href='#ScottPlot.Control.StandardZoomRectangle'>ScottPlot.Control.StandardZoomRectangle</a></div>
-<div class='docs'>Logic for drawing the shaded region on the plot when the user middle-click-drags to zoom</div>
-</div>
-<div><a class='scottPlotType' href='#ScottPlot.Color'>ScottPlot.Color</a> <span class='name'>FillColor</span> <span class='docs'></span></div>
-<div><span class='otherType'>bool</span> <span class='name'>HorizontalSpan</span> <span class='docs'></span></div>
-<div><span class='otherType'>bool</span> <span class='name'>IsVisible</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.LineStyle'>ScottPlot.LineStyle</a> <span class='name'>LineStyle</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.Pixel'>ScottPlot.Pixel</a> <span class='name'>MouseDown</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.Pixel'>ScottPlot.Pixel</a> <span class='name'>MouseUp</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>Plot</span> <span class='docs'></span></div>
-<div><span class='otherType'>bool</span> <span class='name'>VerticalSpan</span> <span class='docs'></span></div>
-<div><span class='otherType'>void</span> <span class='name'>Apply(<a class='scottPlotType' href='#ScottPlot.IXAxis'>ScottPlot.IXAxis</a> <span class='name'>xAxis</span>)</span> <span class='docs'></span></div>
-<div><span class='otherType'>void</span> <span class='name'>Apply(<a class='scottPlotType' href='#ScottPlot.IYAxis'>ScottPlot.IYAxis</a> <span class='name'>yAxis</span>)</span> <span class='docs'></span></div>
-<div><span class='otherType'>void</span> <span class='name'>Render(<a class='scottPlotType' href='#ScottPlot.RenderPack'>ScottPlot.RenderPack</a> <span class='name'>rp</span>)</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.Colormaps.Algae'><a style='color: black;' href='#ScottPlot.Colormaps.Algae'>ScottPlot.Colormaps.Algae</a></div>
 <div class='docs'></div>
@@ -8207,6 +8111,30 @@ a:hover {text-decoration: underline;}
 <div><span class='otherType'>double</span> <span class='name'>fractionStep</span> <span class='docs'></span></div>
 <div><span class='otherType'>double</span> <span class='name'>minFraction</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
+<div class='title' id='ScottPlot.Multiplot'><a style='color: black;' href='#ScottPlot.Multiplot'>ScottPlot.Multiplot</a></div>
+<div class='docs'></div>
+</div>
+<div><a class='scottPlotType' href='#ScottPlot.AxisLimits'>ScottPlot.AxisLimits</a> <span class='name'>LastRenderAxisLimits</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.PixelRect'>ScottPlot.PixelRect</a> <span class='name'>LastRenderRect</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'>Plot</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.ISubplotPosition'>ScottPlot.ISubplotPosition</a> <span class='name'>Position</span> <span class='docs'></span></div>
+<div style='margin-top: 2em'>
+<div class='title' id='ScottPlot.Multiplot'><a style='color: black;' href='#ScottPlot.Multiplot'>ScottPlot.Multiplot</a></div>
+<div class='docs'></div>
+</div>
+<div><a class='scottPlotType' href='#ScottPlot.Multiplot'>ScottPlot.Multiplot</a> <span class='name'><>9</span> <span class='docs'></span></div>
+<div><span class='otherType'>Func&lt;T1, T2&gt;</span> <span class='name'><>9__25_0</span> <span class='docs'></span></div>
+<div style='margin-top: 2em'>
+<div class='title' id='ScottPlot.Multiplot'><a style='color: black;' href='#ScottPlot.Multiplot'>ScottPlot.Multiplot</a></div>
+<div class='docs'></div>
+</div>
+<div><a class='scottPlotType' href='#ScottPlot.AxisLimits'>ScottPlot.AxisLimits</a> <span class='name'>parentLimits</span> <span class='docs'></span></div>
+<div style='margin-top: 2em'>
+<div class='title' id='ScottPlot.Multiplot'><a style='color: black;' href='#ScottPlot.Multiplot'>ScottPlot.Multiplot</a></div>
+<div class='docs'></div>
+</div>
+<div><a class='scottPlotType' href='#ScottPlot.AxisLimits'>ScottPlot.AxisLimits</a> <span class='name'>parentLimits</span> <span class='docs'></span></div>
+<div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.NumericConversion'><a style='color: black;' href='#ScottPlot.NumericConversion'>ScottPlot.NumericConversion</a></div>
 <div class='docs'></div>
 </div>
@@ -8223,14 +8151,14 @@ a:hover {text-decoration: underline;}
 <div class='docs'></div>
 </div>
 <div><a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'><>9</span> <span class='docs'></span></div>
-<div><span class='otherType'>Action&lt;ScottPlot.IGrid&gt;</span> <span class='name'><>9__97_0</span> <span class='docs'></span></div>
-<div><span class='otherType'>Action&lt;ScottPlot.IGrid&gt;</span> <span class='name'><>9__98_0</span> <span class='docs'></span></div>
+<div><span class='otherType'>Action&lt;ScottPlot.IGrid&gt;</span> <span class='name'><>9__100_0</span> <span class='docs'></span></div>
+<div><span class='otherType'>Action&lt;ScottPlot.IGrid&gt;</span> <span class='name'><>9__99_0</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.Plot'><a style='color: black;' href='#ScottPlot.Plot'>ScottPlot.Plot</a></div>
 <div class='docs'></div>
 </div>
 <div><a class='scottPlotType' href='#ScottPlot.Plot'>ScottPlot.Plot</a> <span class='name'><>9</span> <span class='docs'></span></div>
-<div><span class='otherType'>System.Predicate&lt;ScottPlot.IPlottable&gt;</span> <span class='name'><>9__90_0</span> <span class='docs'></span></div>
+<div><span class='otherType'>System.Predicate&lt;ScottPlot.IPlottable&gt;</span> <span class='name'><>9__92_0</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.Plot'><a style='color: black;' href='#ScottPlot.Plot'>ScottPlot.Plot</a></div>
 <div class='docs'></div>
@@ -8241,7 +8169,7 @@ a:hover {text-decoration: underline;}
 <div class='docs'></div>
 </div>
 <div><a class='scottPlotType' href='#ScottPlot.PlottableAdder'>ScottPlot.PlottableAdder</a> <span class='name'><>9</span> <span class='docs'></span></div>
-<div><span class='otherType'>Func&lt;T1, T2&gt;</span> <span class='name'><>9__121_0</span> <span class='docs'></span></div>
+<div><span class='otherType'>Func&lt;T1, T2&gt;</span> <span class='name'><>9__122_0</span> <span class='docs'></span></div>
 <div><span class='otherType'>Func&lt;T1, T2&gt;</span> <span class='name'><>9__20_0</span> <span class='docs'></span></div>
 <div><span class='otherType'>Func&lt;T1, T2, T3&gt;</span> <span class='name'><>9__22_0</span> <span class='docs'></span></div>
 <div><span class='otherType'>Func&lt;T1, T2&gt;</span> <span class='name'><>9__87_0</span> <span class='docs'></span></div>
@@ -8939,6 +8867,56 @@ a:hover {text-decoration: underline;}
 <div><a class='scottPlotType' href='#ScottPlot.Plottables.Signal'>ScottPlot.Plottables.Signal</a> <span class='name'><>9</span> <span class='docs'></span></div>
 <div><span class='otherType'>Func&lt;T1, T2&gt;</span> <span class='name'><>9__79_1</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
+<div class='title' id='ScottPlot.Plottables.SmithChartAxis'><a style='color: black;' href='#ScottPlot.Plottables.SmithChartAxis'>ScottPlot.Plottables.SmithChartAxis</a></div>
+<div class='docs'></div>
+</div>
+<div><a class='scottPlotType' href='#ScottPlot.Angle'>ScottPlot.Angle</a> <span class='name'>LabelAngle</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.LabelStyle'>ScottPlot.LabelStyle</a> <span class='name'>LabelStyle</span> <span class='docs'></span></div>
+<div><span class='otherType'>string</span> <span class='name'>LabelText</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Color'>ScottPlot.Color</a> <span class='name'>LineColor</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.LinePattern'>ScottPlot.LinePattern</a> <span class='name'>LinePattern</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.LineStyle'>ScottPlot.LineStyle</a> <span class='name'>LineStyle</span> <span class='docs'></span></div>
+<div><span class='otherType'>single</span> <span class='name'>LineWidth</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Coordinates'>ScottPlot.Coordinates</a> <span class='name'>Origin</span> <span class='docs'></span></div>
+<div><span class='otherType'>double</span> <span class='name'>Radius</span> <span class='docs'></span></div>
+<div><span class='otherType'>double</span> <span class='name'>Re</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Angle'>ScottPlot.Angle</a> <span class='name'>StartAngle</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Angle'>ScottPlot.Angle</a> <span class='name'>SweepAngle</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.AxisLimits'>ScottPlot.AxisLimits</a> <span class='name'>GetAxisLimits()</span> <span class='docs'></span></div>
+<div style='margin-top: 2em'>
+<div class='title' id='ScottPlot.Plottables.SmithChartAxis'><a style='color: black;' href='#ScottPlot.Plottables.SmithChartAxis'>ScottPlot.Plottables.SmithChartAxis</a></div>
+<div class='docs'></div>
+</div>
+<div><a class='scottPlotType' href='#ScottPlot.Angle'>ScottPlot.Angle</a> <span class='name'>LabelAngle</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.LabelStyle'>ScottPlot.LabelStyle</a> <span class='name'>LabelStyle</span> <span class='docs'></span></div>
+<div><span class='otherType'>string</span> <span class='name'>LabelText</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Color'>ScottPlot.Color</a> <span class='name'>LineColor</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.LinePattern'>ScottPlot.LinePattern</a> <span class='name'>LinePattern</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.LineStyle'>ScottPlot.LineStyle</a> <span class='name'>LineStyle</span> <span class='docs'></span></div>
+<div><span class='otherType'>single</span> <span class='name'>LineWidth</span> <span class='docs'></span></div>
+<div><span class='otherType'>double</span> <span class='name'>Lm</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Coordinates'>ScottPlot.Coordinates</a> <span class='name'>Origin</span> <span class='docs'></span></div>
+<div><span class='otherType'>IReadOnlyList&lt;ScottPlot.Coordinates&gt;</span> <span class='name'>Points</span> <span class='docs'></span></div>
+<div><span class='otherType'>double</span> <span class='name'>Radius</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Angle'>ScottPlot.Angle</a> <span class='name'>StartAngle</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Angle'>ScottPlot.Angle</a> <span class='name'>SweepAngle</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Angle'>ScottPlot.Angle</a> <span class='name'>GetAngle(<a class='scottPlotType' href='#ScottPlot.Coordinates'>ScottPlot.Coordinates</a> <span class='name'>point</span>, <a class='scottPlotType' href='#ScottPlot.Coordinates'>ScottPlot.Coordinates</a> <span class='name'>center</span>)</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Coordinates'>ScottPlot.Coordinates</a> <span class='name'>GetPointOnCircle(<a class='scottPlotType' href='#ScottPlot.Coordinates'>ScottPlot.Coordinates</a> <span class='name'>center</span>, <span class='otherType'>double</span> <span class='name'>radius</span>, <a class='scottPlotType' href='#ScottPlot.Angle'>ScottPlot.Angle</a> <span class='name'>angle</span>)</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.AxisLimits'>ScottPlot.AxisLimits</a> <span class='name'>GetAxisLimits()</span> <span class='docs'></span></div>
+<div style='margin-top: 2em'>
+<div class='title' id='ScottPlot.Plottables.SmithChartAxis'><a style='color: black;' href='#ScottPlot.Plottables.SmithChartAxis'>ScottPlot.Plottables.SmithChartAxis</a></div>
+<div class='docs'></div>
+</div>
+<div><a class='scottPlotType' href='#ScottPlot.AxisLimits'>ScottPlot.AxisLimits</a> <span class='name'>limits</span> <span class='docs'></span></div>
+<div style='margin-top: 2em'>
+<div class='title' id='ScottPlot.Plottables.SmithChartAxis'><a style='color: black;' href='#ScottPlot.Plottables.SmithChartAxis'>ScottPlot.Plottables.SmithChartAxis</a></div>
+<div class='docs'></div>
+</div>
+<div><a class='scottPlotType' href='#ScottPlot.Coordinates'>ScottPlot.Coordinates</a> <span class='name'><>3__pt1</span> <span class='docs'></span></div>
+<div><a class='scottPlotType' href='#ScottPlot.Coordinates'>ScottPlot.Coordinates</a> <span class='name'><>3__pt2</span> <span class='docs'></span></div>
+<div><span class='otherType'>double</span> <span class='name'><>3__r1</span> <span class='docs'></span></div>
+<div><span class='otherType'>double</span> <span class='name'><>3__r2</span> <span class='docs'></span></div>
+<div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.Plottables.TickModifierLabel'><a style='color: black;' href='#ScottPlot.Plottables.TickModifierLabel'>ScottPlot.Plottables.TickModifierLabel</a></div>
 <div class='docs'></div>
 </div>
@@ -8972,30 +8950,6 @@ a:hover {text-decoration: underline;}
 </div>
 <div><span class='otherType'>IEnumerable&lt;ScottPlot.Pixel&gt;</span> <span class='name'><>3__pixels</span> <span class='docs'></span></div>
 <div><a class='scottPlotType' href='#ScottPlot.PathStrategies.CubicSpline'>ScottPlot.PathStrategies.CubicSpline</a> <span class='name'><>4__this</span> <span class='docs'></span></div>
-<div style='margin-top: 2em'>
-<div class='title' id='ScottPlot.MultiplotLayouts.Columns'><a style='color: black;' href='#ScottPlot.MultiplotLayouts.Columns'>ScottPlot.MultiplotLayouts.Columns</a></div>
-<div class='docs'></div>
-</div>
-<div><span class='otherType'>IReadOnlyList&lt;ScottPlot.Plot&gt;</span> <span class='name'><>3__plots</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.MultiplotLayouts.Columns'>ScottPlot.MultiplotLayouts.Columns</a> <span class='name'><>4__this</span> <span class='docs'></span></div>
-<div style='margin-top: 2em'>
-<div class='title' id='ScottPlot.MultiplotLayouts.Custom'><a style='color: black;' href='#ScottPlot.MultiplotLayouts.Custom'>ScottPlot.MultiplotLayouts.Custom</a></div>
-<div class='docs'></div>
-</div>
-<div><span class='otherType'>IReadOnlyList&lt;ScottPlot.Plot&gt;</span> <span class='name'><>3__plots</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.MultiplotLayouts.Custom'>ScottPlot.MultiplotLayouts.Custom</a> <span class='name'><>4__this</span> <span class='docs'></span></div>
-<div style='margin-top: 2em'>
-<div class='title' id='ScottPlot.MultiplotLayouts.Grid'><a style='color: black;' href='#ScottPlot.MultiplotLayouts.Grid'>ScottPlot.MultiplotLayouts.Grid</a></div>
-<div class='docs'></div>
-</div>
-<div><span class='otherType'>IReadOnlyList&lt;ScottPlot.Plot&gt;</span> <span class='name'><>3__plots</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.MultiplotLayouts.Grid'>ScottPlot.MultiplotLayouts.Grid</a> <span class='name'><>4__this</span> <span class='docs'></span></div>
-<div style='margin-top: 2em'>
-<div class='title' id='ScottPlot.MultiplotLayouts.Rows'><a style='color: black;' href='#ScottPlot.MultiplotLayouts.Rows'>ScottPlot.MultiplotLayouts.Rows</a></div>
-<div class='docs'></div>
-</div>
-<div><span class='otherType'>IReadOnlyList&lt;ScottPlot.Plot&gt;</span> <span class='name'><>3__plots</span> <span class='docs'></span></div>
-<div><a class='scottPlotType' href='#ScottPlot.MultiplotLayouts.Rows'>ScottPlot.MultiplotLayouts.Rows</a> <span class='name'><>4__this</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.LegendLayouts.Wrapping'><a style='color: black;' href='#ScottPlot.LegendLayouts.Wrapping'>ScottPlot.LegendLayouts.Wrapping</a></div>
 <div class='docs'></div>
@@ -9309,57 +9263,6 @@ a:hover {text-decoration: underline;}
 </div>
 <div><a class='scottPlotType' href='#ScottPlot.DataSources.VectorFieldDataSourceCoordinatesList'>ScottPlot.DataSources.VectorFieldDataSourceCoordinatesList</a> <span class='name'><>9</span> <span class='docs'></span></div>
 <div><span class='otherType'>Func&lt;T1, T2&gt;</span> <span class='name'><>9__15_0</span> <span class='docs'></span></div>
-<div style='margin-top: 2em'>
-<div class='title' id='ScottPlot.Control.PlotActions'><a style='color: black;' href='#ScottPlot.Control.PlotActions'>ScottPlot.Control.PlotActions</a></div>
-<div class='docs'></div>
-</div>
-<div><span class='otherType'>Action&lt;T1, T2, T3&gt;</span> <span class='name'><0>__ZoomIn</span> <span class='docs'></span></div>
-<div><span class='otherType'>Action&lt;T1, T2, T3&gt;</span> <span class='name'><1>__ZoomOut</span> <span class='docs'></span></div>
-<div><span class='otherType'>Action&lt;ScottPlot.IPlotControl&gt;</span> <span class='name'><10>__ZoomRectangleApply</span> <span class='docs'></span></div>
-<div><span class='otherType'>Action&lt;ScottPlot.IPlotControl&gt;</span> <span class='name'><11>__ToggleBenchmark</span> <span class='docs'></span></div>
-<div><span class='otherType'>Action&lt;T1, T2&gt;</span> <span class='name'><12>__AutoScale</span> <span class='docs'></span></div>
-<div><span class='otherType'>Action&lt;T1, T2&gt;</span> <span class='name'><13>__ShowContextMenu</span> <span class='docs'></span></div>
-<div><span class='otherType'>Action&lt;ScottPlot.IPlotControl&gt;</span> <span class='name'><2>__PanUp</span> <span class='docs'></span></div>
-<div><span class='otherType'>Action&lt;ScottPlot.IPlotControl&gt;</span> <span class='name'><3>__PanDown</span> <span class='docs'></span></div>
-<div><span class='otherType'>Action&lt;ScottPlot.IPlotControl&gt;</span> <span class='name'><4>__PanLeft</span> <span class='docs'></span></div>
-<div><span class='otherType'>Action&lt;ScottPlot.IPlotControl&gt;</span> <span class='name'><5>__PanRight</span> <span class='docs'></span></div>
-<div><span class='otherType'>Action&lt;T1, T2, T3&gt;</span> <span class='name'><6>__DragPan</span> <span class='docs'></span></div>
-<div><span class='otherType'>Action&lt;T1, T2, T3&gt;</span> <span class='name'><7>__DragZoom</span> <span class='docs'></span></div>
-<div><span class='otherType'>Action&lt;T1, T2, T3&gt;</span> <span class='name'><8>__DragZoomRectangle</span> <span class='docs'></span></div>
-<div><span class='otherType'>Action&lt;ScottPlot.IPlotControl&gt;</span> <span class='name'><9>__ZoomRectangleClear</span> <span class='docs'></span></div>
-<div style='margin-top: 2em'>
-<div class='title' id='ScottPlot.Control.PlotActions'><a style='color: black;' href='#ScottPlot.Control.PlotActions'>ScottPlot.Control.PlotActions</a></div>
-<div class='docs'></div>
-</div>
-<div><a class='scottPlotType' href='#ScottPlot.Control.PlotActions'>ScottPlot.Control.PlotActions</a> <span class='name'><>9</span> <span class='docs'></span></div>
-<div><span class='otherType'>Action&lt;T1, T2, T3&gt;</span> <span class='name'><>9__15_0</span> <span class='docs'></span></div>
-<div><span class='otherType'>Action&lt;T1, T2, T3&gt;</span> <span class='name'><>9__15_1</span> <span class='docs'></span></div>
-<div><span class='otherType'>Action&lt;ScottPlot.IPlotControl&gt;</span> <span class='name'><>9__15_10</span> <span class='docs'></span></div>
-<div><span class='otherType'>Action&lt;ScottPlot.IPlotControl&gt;</span> <span class='name'><>9__15_11</span> <span class='docs'></span></div>
-<div><span class='otherType'>Action&lt;T1, T2&gt;</span> <span class='name'><>9__15_12</span> <span class='docs'></span></div>
-<div><span class='otherType'>Action&lt;T1, T2&gt;</span> <span class='name'><>9__15_13</span> <span class='docs'></span></div>
-<div><span class='otherType'>Action&lt;ScottPlot.IPlotControl&gt;</span> <span class='name'><>9__15_2</span> <span class='docs'></span></div>
-<div><span class='otherType'>Action&lt;ScottPlot.IPlotControl&gt;</span> <span class='name'><>9__15_3</span> <span class='docs'></span></div>
-<div><span class='otherType'>Action&lt;ScottPlot.IPlotControl&gt;</span> <span class='name'><>9__15_4</span> <span class='docs'></span></div>
-<div><span class='otherType'>Action&lt;ScottPlot.IPlotControl&gt;</span> <span class='name'><>9__15_5</span> <span class='docs'></span></div>
-<div><span class='otherType'>Action&lt;T1, T2, T3&gt;</span> <span class='name'><>9__15_6</span> <span class='docs'></span></div>
-<div><span class='otherType'>Action&lt;T1, T2, T3&gt;</span> <span class='name'><>9__15_7</span> <span class='docs'></span></div>
-<div><span class='otherType'>Action&lt;T1, T2, T3&gt;</span> <span class='name'><>9__15_8</span> <span class='docs'></span></div>
-<div><span class='otherType'>Action&lt;ScottPlot.IPlotControl&gt;</span> <span class='name'><>9__15_9</span> <span class='docs'></span></div>
-<div><span class='otherType'>Action&lt;T1, T2, T3&gt;</span> <span class='name'><>9__16_0</span> <span class='docs'></span></div>
-<div><span class='otherType'>Action&lt;T1, T2, T3&gt;</span> <span class='name'><>9__16_1</span> <span class='docs'></span></div>
-<div><span class='otherType'>Action&lt;ScottPlot.IPlotControl&gt;</span> <span class='name'><>9__16_10</span> <span class='docs'></span></div>
-<div><span class='otherType'>Action&lt;ScottPlot.IPlotControl&gt;</span> <span class='name'><>9__16_11</span> <span class='docs'></span></div>
-<div><span class='otherType'>Action&lt;T1, T2&gt;</span> <span class='name'><>9__16_12</span> <span class='docs'></span></div>
-<div><span class='otherType'>Action&lt;T1, T2&gt;</span> <span class='name'><>9__16_13</span> <span class='docs'></span></div>
-<div><span class='otherType'>Action&lt;ScottPlot.IPlotControl&gt;</span> <span class='name'><>9__16_2</span> <span class='docs'></span></div>
-<div><span class='otherType'>Action&lt;ScottPlot.IPlotControl&gt;</span> <span class='name'><>9__16_3</span> <span class='docs'></span></div>
-<div><span class='otherType'>Action&lt;ScottPlot.IPlotControl&gt;</span> <span class='name'><>9__16_4</span> <span class='docs'></span></div>
-<div><span class='otherType'>Action&lt;ScottPlot.IPlotControl&gt;</span> <span class='name'><>9__16_5</span> <span class='docs'></span></div>
-<div><span class='otherType'>Action&lt;T1, T2, T3&gt;</span> <span class='name'><>9__16_6</span> <span class='docs'></span></div>
-<div><span class='otherType'>Action&lt;T1, T2, T3&gt;</span> <span class='name'><>9__16_7</span> <span class='docs'></span></div>
-<div><span class='otherType'>Action&lt;T1, T2, T3&gt;</span> <span class='name'><>9__16_8</span> <span class='docs'></span></div>
-<div><span class='otherType'>Action&lt;ScottPlot.IPlotControl&gt;</span> <span class='name'><>9__16_9</span> <span class='docs'></span></div>
 <div style='margin-top: 2em'>
 <div class='title' id='ScottPlot.Colormaps.Blues'><a style='color: black;' href='#ScottPlot.Colormaps.Blues'>ScottPlot.Colormaps.Blues</a></div>
 <div class='docs'></div>

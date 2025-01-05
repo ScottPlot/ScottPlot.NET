@@ -4,9 +4,9 @@ Description: The Multiplot's Layout property may be configured to achieve a full
 URL: /cookbook/5.0/MultiplotRecipes/MultiplotCustom/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Multiplot", "Multiplot Custom Layout"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/MultiplotRecipes", "/cookbook/5.0/MultiplotRecipes/MultiplotCustom"]
-Date: 2024-11-24
-Version: ScottPlot 5.0.47
-Version: ScottPlot 5.0.47
+Date: 2025-01-05
+Version: ScottPlot 5.0.48
+Version: ScottPlot 5.0.48
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 The Multiplot's Layout property may be configured to achieve a fully custom layout.
 
-[![](/cookbook/5.0/images/MultiplotCustom.png?241124170640)](/cookbook/5.0/images/MultiplotCustom.png?241124170640)
+[![](/cookbook/5.0/images/MultiplotCustom.png?250105183901)](/cookbook/5.0/images/MultiplotCustom.png?250105183901)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/MultiplotRecipes.cs" imageUrl="/cookbook/5.0/images/MultiplotCustom.png?241124170640" >}}ScottPlot.Multiplot multiplot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/MultiplotRecipes.cs" imageUrl="/cookbook/5.0/images/MultiplotCustom.png?250105183901" >}}ScottPlot.Multiplot multiplot = new();
 
 // create 3 plots
 for (int i = 0; i &lt; 3; i++)
@@ -31,14 +31,10 @@ for (int i = 0; i &lt; 3; i++)
     multiplot.AddPlot(plot);
 }
 
-// create 3 rectangles (one per plot)
-FractionRect[] rectangles = [
-    FractionRect.GridCell(0, 0, 2, 2), // top left
-    FractionRect.GridCell(1, 0, 2, 2), // top right
-    FractionRect.GridCell(0, 1, 1, 2), // full bottom
-];
-
-multiplot.Layout = new ScottPlot.MultiplotLayouts.Custom(rectangles);
+// manually set the position for each plot
+multiplot.SetPosition(0, new ScottPlot.SubplotPositions.GridCell(0, 0, 2, 1));
+multiplot.SetPosition(1, new ScottPlot.SubplotPositions.GridCell(1, 0, 2, 2));
+multiplot.SetPosition(2, new ScottPlot.SubplotPositions.GridCell(1, 1, 2, 2));
 
 multiplot.SavePng("demo.png", 400, 400);
 {{< /recipe-sp5 >}}

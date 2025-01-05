@@ -4,9 +4,9 @@ Description: Length of arrows in a vector field may be customized by defining le
 URL: /cookbook/5.0/VectorField/VectorFieldArrowLength/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Vector Field", "Vector Field Arrow Length"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/VectorField", "/cookbook/5.0/VectorField/VectorFieldArrowLength"]
-Date: 2024-11-24
-Version: ScottPlot 5.0.47
-Version: ScottPlot 5.0.47
+Date: 2025-01-05
+Version: ScottPlot 5.0.48
+Version: ScottPlot 5.0.48
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Length of arrows in a vector field may be customized by defining length (in pixel units) to display the longest vector.
 
-[![](/cookbook/5.0/images/VectorFieldArrowLength.png?241124170640)](/cookbook/5.0/images/VectorFieldArrowLength.png?241124170640)
+[![](/cookbook/5.0/images/VectorFieldArrowLength.png?250105183901)](/cookbook/5.0/images/VectorFieldArrowLength.png?250105183901)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/VectorField.cs" imageUrl="/cookbook/5.0/images/VectorFieldArrowLength.png?241124170640" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/VectorField.cs" imageUrl="/cookbook/5.0/images/VectorFieldArrowLength.png?250105183901" >}}ScottPlot.Plot myPlot = new();
 
 RootedCoordinateVector[] vectors = Generate.SampleVectors();
 var vf = myPlot.Add.VectorField(vectors);

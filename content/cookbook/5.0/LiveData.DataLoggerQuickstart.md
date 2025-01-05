@@ -4,9 +4,9 @@ Description: Use a DataLogger to display growing datasets (such as sensor data).
 URL: /cookbook/5.0/LiveData/DataLoggerQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Live Data", "DataLogger Quickstart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/LiveData", "/cookbook/5.0/LiveData/DataLoggerQuickstart"]
-Date: 2024-11-24
-Version: ScottPlot 5.0.47
-Version: ScottPlot 5.0.47
+Date: 2025-01-05
+Version: ScottPlot 5.0.48
+Version: ScottPlot 5.0.48
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Use a DataLogger to display growing datasets (such as sensor data). This plot type assumes that new data will always be added to the end of the existing data, so like SignalXY new data points must have an X value that is greater to or than or equal than the previous one. See the ScottPlot Demo for a live example of this plot type.
 
-[![](/cookbook/5.0/images/DataLoggerQuickstart.png?241124170640)](/cookbook/5.0/images/DataLoggerQuickstart.png?241124170640)
+[![](/cookbook/5.0/images/DataLoggerQuickstart.png?250105183901)](/cookbook/5.0/images/DataLoggerQuickstart.png?250105183901)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/LiveData.cs" imageUrl="/cookbook/5.0/images/DataLoggerQuickstart.png?241124170640" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/LiveData.cs" imageUrl="/cookbook/5.0/images/DataLoggerQuickstart.png?250105183901" >}}ScottPlot.Plot myPlot = new();
 
 // setup a logger that will grow as data is added
 var logger = myPlot.Add.DataLogger();

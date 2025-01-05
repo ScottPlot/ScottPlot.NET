@@ -4,9 +4,9 @@ Description: Styling options for edge lines, tick marks, tick labels, and title 
 URL: /cookbook/5.0/TriangularAxis/TriangularAxisEdgeStyling/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Triangular Axis", "Triangular Axis Edge Styling"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/TriangularAxis", "/cookbook/5.0/TriangularAxis/TriangularAxisEdgeStyling"]
-Date: 2024-11-24
-Version: ScottPlot 5.0.47
-Version: ScottPlot 5.0.47
+Date: 2025-01-05
+Version: ScottPlot 5.0.48
+Version: ScottPlot 5.0.48
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Styling options for edge lines, tick marks, tick labels, and title text may be customized individually for each axis.
 
-[![](/cookbook/5.0/images/TriangularAxisEdgeStyling.png?241124170640)](/cookbook/5.0/images/TriangularAxisEdgeStyling.png?241124170640)
+[![](/cookbook/5.0/images/TriangularAxisEdgeStyling.png?250105183901)](/cookbook/5.0/images/TriangularAxisEdgeStyling.png?250105183901)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/TriangularAxis.cs" imageUrl="/cookbook/5.0/images/TriangularAxisEdgeStyling.png?241124170640" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/TriangularAxis.cs" imageUrl="/cookbook/5.0/images/TriangularAxisEdgeStyling.png?250105183901" >}}ScottPlot.Plot myPlot = new();
 
 var ta = myPlot.Add.TriangularAxis();
 

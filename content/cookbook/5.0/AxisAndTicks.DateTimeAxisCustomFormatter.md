@@ -4,9 +4,9 @@ Description: Users can provide their own logic for customizing DateTime tick lab
 URL: /cookbook/5.0/AxisAndTicks/DateTimeAxisCustomFormatter/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Axis and Ticks", "Custom DateTime Label Format"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AxisAndTicks", "/cookbook/5.0/AxisAndTicks/DateTimeAxisCustomFormatter"]
-Date: 2024-11-24
-Version: ScottPlot 5.0.47
-Version: ScottPlot 5.0.47
+Date: 2025-01-05
+Version: ScottPlot 5.0.48
+Version: ScottPlot 5.0.48
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Users can provide their own logic for customizing DateTime tick labels
 
-[![](/cookbook/5.0/images/DateTimeAxisCustomFormatter.png?241124170640)](/cookbook/5.0/images/DateTimeAxisCustomFormatter.png?241124170640)
+[![](/cookbook/5.0/images/DateTimeAxisCustomFormatter.png?250105183901)](/cookbook/5.0/images/DateTimeAxisCustomFormatter.png?250105183901)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs" imageUrl="/cookbook/5.0/images/DateTimeAxisCustomFormatter.png?241124170640" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs" imageUrl="/cookbook/5.0/images/DateTimeAxisCustomFormatter.png?250105183901" >}}ScottPlot.Plot myPlot = new();
 
 // plot sample DateTime data
 DateTime[] dates = Generate.ConsecutiveDays(100);

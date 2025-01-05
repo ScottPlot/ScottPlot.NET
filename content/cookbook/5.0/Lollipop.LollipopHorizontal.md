@@ -4,9 +4,9 @@ Description: Change the lollipop plot's Orientation to Horizontal to cause stems
 URL: /cookbook/5.0/Lollipop/LollipopHorizontal/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Lollipop Plot", "Horizontal Lollipop Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Lollipop", "/cookbook/5.0/Lollipop/LollipopHorizontal"]
-Date: 2024-11-24
-Version: ScottPlot 5.0.47
-Version: ScottPlot 5.0.47
+Date: 2025-01-05
+Version: ScottPlot 5.0.48
+Version: ScottPlot 5.0.48
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Change the lollipop plot's Orientation to Horizontal to cause stems to be drawn horizontally instead of vertically.
 
-[![](/cookbook/5.0/images/LollipopHorizontal.png?241124170640)](/cookbook/5.0/images/LollipopHorizontal.png?241124170640)
+[![](/cookbook/5.0/images/LollipopHorizontal.png?250105183901)](/cookbook/5.0/images/LollipopHorizontal.png?250105183901)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Lollipop.cs" imageUrl="/cookbook/5.0/images/LollipopHorizontal.png?241124170640" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Lollipop.cs" imageUrl="/cookbook/5.0/images/LollipopHorizontal.png?250105183901" >}}ScottPlot.Plot myPlot = new();
 
 double[] xs = Generate.Sin(21);
 double[] ys = Generate.Consecutive(21);

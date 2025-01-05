@@ -4,9 +4,9 @@ Description: SignalXY plots can display unevenly spaced time series data using a
 URL: /cookbook/5.0/SignalXY/SignalXYDateTime/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "SignalXY Plot", "SignalXY DateTime Axis"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/SignalXY", "/cookbook/5.0/SignalXY/SignalXYDateTime"]
-Date: 2024-11-24
-Version: ScottPlot 5.0.47
-Version: ScottPlot 5.0.47
+Date: 2025-01-05
+Version: ScottPlot 5.0.48
+Version: ScottPlot 5.0.48
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 SignalXY plots can display unevenly spaced time series data using a DateTime horizontal axis.
 
-[![](/cookbook/5.0/images/SignalXYDateTime.png?241124170640)](/cookbook/5.0/images/SignalXYDateTime.png?241124170640)
+[![](/cookbook/5.0/images/SignalXYDateTime.png?250105183901)](/cookbook/5.0/images/SignalXYDateTime.png?250105183901)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SignalXY.cs" imageUrl="/cookbook/5.0/images/SignalXYDateTime.png?241124170640" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SignalXY.cs" imageUrl="/cookbook/5.0/images/SignalXYDateTime.png?250105183901" >}}ScottPlot.Plot myPlot = new();
 
 DateTime start = new(2024, 01, 01);
 DateTime[] xs = Generate.ConsecutiveDays(100, start);
