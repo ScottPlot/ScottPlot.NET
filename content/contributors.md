@@ -10,7 +10,8 @@ Description: Members of the open-source community who contributed to ScottPlot
     💖🚀✨
 </div>
 <div class='avatar-container my-3'>
-<a href='https://github.com/zygfrydw'><img src='https://scottplot.net/images/brand/favicon.png'></a>
+<a href='https://github.com/zygfrydw'><img src='https://scottplot.net/images/contributors/zygfrydw.jpg'></a>
+<a href='https://github.com/VladislavPustovarov'><img src='https://scottplot.net/images/contributors/vladislavpustovarov.png'></a>
 <a href='https://github.com/nightroman'><img src='https://scottplot.net/images/contributors/nightroman.jpg'></a>
 <a href='https://github.com/claire0821'><img src='https://scottplot.net/images/contributors/claire0821.jpg'></a>
 <a href='https://github.com/vadimart92'><img src='https://scottplot.net/images/contributors/vadimart92.jpg'></a>
@@ -22,7 +23,6 @@ Description: Members of the open-source community who contributed to ScottPlot
 <a href='https://github.com/ssharks'><img src='https://scottplot.net/images/contributors/ssharks.png'></a>
 <a href='https://github.com/onur-akaydin'><img src='https://scottplot.net/images/contributors/onur-akaydin.png'></a>
 <a href='https://github.com/xichaoqiang'><img src='https://scottplot.net/images/contributors/xichaoqiang.png'></a>
-<a href='https://github.com/VladislavPustovarov'><img src='https://scottplot.net/images/contributors/vladislavpustovarov.png'></a>
 <a href='https://github.com/nullsoftware'><img src='https://scottplot.net/images/contributors/nullsoftware.png'></a>
 <a href='https://github.com/quantfreedom'><img src='https://scottplot.net/images/contributors/quantfreedom.jpg'></a>
 <a href='https://github.com/david3951445'><img src='https://scottplot.net/images/contributors/david3951445.png'></a>
