@@ -4,6 +4,25 @@ Description: Release notes for every version of ScottPlot
 ---
 
 <section class='mb-5'>
+<h1 class='mb-0'>ScottPlot 5.0.49</h1>
+<div><i>NuGet packages published 2025-01-06</i></div>
+<div class='mt-1'>
+<ul>
+<li>WPF: Updated the WPF control to pass render requests though the new Multiplot system (<a href="https://github.com/ScottPlot/ScottPlot/issues/4666">#4666</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4667">#4667</a>) <a href="https://github.com/zygfrydw"><strong>@zygfrydw</strong></a>
+</li>
+</ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/zygfrydw'>@zygfrydw</a>, <a href='https://github.com/swharden'>@swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/zygfrydw'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
+
+</section>
+<section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 5.0.48</h1>
 <div><i>NuGet packages published 2025-01-05</i></div>
 <div class='mt-1'>
