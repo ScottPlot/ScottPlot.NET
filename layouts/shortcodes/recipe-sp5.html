@@ -21,9 +21,7 @@
                 </a>
             </div>
             <div>
-                <span class="circle invisible"></span>
-                <span class="circle invisible"></span>
-                <span class="circle invisible"></span>
+                <button type="button" onclick="copy_button_clicked(this)">Copy</button>
             </div>
         </div>
 
@@ -39,7 +37,7 @@
         <div class="p-2 recipe-code-container" style="background-color: #272727">
             <pre class="m-0"><code class="language-cs">{{ .Inner }}</code></pre>
             <pre class="m-0 language-cs p-0 border-0 rounded rounded-0"
-                style="background-color: inherit !important;"><code class="language-cs"></code></pre>
+                 style="background-color: inherit !important;"><code class="language-cs"></code></pre>
         </div>
         <div class="text-end">
             <a href='{{ $sourceUrl }}' style="font-size: 0.8em; opacity: .5;" class="text-light px-2" target="_blank">
