@@ -10,6 +10,8 @@ Description: Members of the open-source community who contributed to ScottPlot
     💖🚀✨
 </div>
 <div class='avatar-container my-3'>
+<a href='https://github.com/wi-fr'><img src='https://scottplot.net/images/contributors/wi-fr.png'></a>
+<a href='https://github.com/david3951445'><img src='https://scottplot.net/images/contributors/david3951445.png'></a>
 <a href='https://github.com/zygfrydw'><img src='https://scottplot.net/images/contributors/zygfrydw.jpg'></a>
 <a href='https://github.com/VladislavPustovarov'><img src='https://scottplot.net/images/contributors/vladislavpustovarov.png'></a>
 <a href='https://github.com/nilsakesson'><img src='https://scottplot.net/images/contributors/nilsakesson.png'></a>
@@ -26,7 +28,6 @@ Description: Members of the open-source community who contributed to ScottPlot
 <a href='https://github.com/xichaoqiang'><img src='https://scottplot.net/images/contributors/xichaoqiang.png'></a>
 <a href='https://github.com/nullsoftware'><img src='https://scottplot.net/images/contributors/nullsoftware.png'></a>
 <a href='https://github.com/quantfreedom'><img src='https://scottplot.net/images/contributors/quantfreedom.jpg'></a>
-<a href='https://github.com/david3951445'><img src='https://scottplot.net/images/contributors/david3951445.png'></a>
 <a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png'></a>
 <a href='https://github.com/Paraplegia'><img src='https://scottplot.net/images/contributors/paraplegia.png'></a>
 <a href='https://github.com/CBrauer'><img src='https://scottplot.net/images/contributors/cbrauer.png'></a>
@@ -64,7 +65,6 @@ Description: Members of the open-source community who contributed to ScottPlot
 <a href='https://github.com/cvdevol'><img src='https://scottplot.net/images/contributors/cvdevol.jpg'></a>
 <a href='https://github.com/nRoger-Env'><img src='https://scottplot.net/images/contributors/nroger-env.png'></a>
 <a href='https://github.com/Cassar17'><img src='https://scottplot.net/images/contributors/cassar17.png'></a>
-<a href='https://github.com/wi-fr'><img src='https://scottplot.net/images/contributors/wi-fr.png'></a>
 <a href='https://github.com/cosmicDustOfLightLength'><img src='https://scottplot.net/images/contributors/cosmicdustoflightlength.jpg'></a>
 <a href='https://github.com/Lyakabynka'><img src='https://scottplot.net/images/contributors/lyakabynka.png'></a>
 <a href='https://github.com/bukowa'><img src='https://scottplot.net/images/contributors/bukowa.png'></a>
