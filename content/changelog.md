@@ -4,8 +4,8 @@ Description: Release notes for every version of ScottPlot
 ---
 
 <section class='mb-5'>
-<h1 class='mb-0'>ScottPlot 5.0.50</h1>
-<div><i>NuGet packages published 2025-01-06</i></div>
+<h1 class='mb-0'>ScottPlot 5.0.51</h1>
+<div><i>NuGet packages published 2025-01-07</i></div>
 <div class='mt-1'>
 <ul>
 <li>WPF: Updated the WPF control to pass render requests though the new Multiplot system (<a href="https://github.com/ScottPlot/ScottPlot/issues/4666">#4666</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4667">#4667</a>) <a href="https://github.com/zygfrydw"><strong>@zygfrydw</strong></a> <a href="https://github.com/VladislavPustovarov"><strong>@VladislavPustovarov</strong></a>
