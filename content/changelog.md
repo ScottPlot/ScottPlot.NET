@@ -10,15 +10,20 @@ Description: Release notes for every version of ScottPlot
 <ul>
 <li>WPF: Updated the WPF control to pass render requests though the new Multiplot system (<a href="https://github.com/ScottPlot/ScottPlot/issues/4666">#4666</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4667">#4667</a>) <a href="https://github.com/zygfrydw"><strong>@zygfrydw</strong></a> <a href="https://github.com/VladislavPustovarov"><strong>@VladislavPustovarov</strong></a>
 </li>
+<li>Multiplot: Improved right-click context menu support for multi-plot user controls (<a href="https://github.com/ScottPlot/ScottPlot/issues/4671">#4671</a>) <a href="https://github.com/nilsakesson"><strong>@nilsakesson</strong></a>
+</li>
+<li>Palette: Added <code>GetColors()</code> extension method for creating an array of colors from an existing palette
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/zygfrydw'>@zygfrydw</a>, <a href='https://github.com/VladislavPustovarov'>@VladislavPustovarov</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/zygfrydw'>@zygfrydw</a>, <a href='https://github.com/VladislavPustovarov'>@VladislavPustovarov</a>, <a href='https://github.com/nilsakesson'>@nilsakesson</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/zygfrydw'><img src='https://scottplot.net/images/contributors/zygfrydw.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/VladislavPustovarov'><img src='https://scottplot.net/images/contributors/vladislavpustovarov.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/nilsakesson'><img src='https://scottplot.net/images/contributors/nilsakesson.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
