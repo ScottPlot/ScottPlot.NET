@@ -10,15 +10,18 @@ Description: Release notes for every version of ScottPlot
 <ul>
 <li>Controls: Fix issue preventing the context menu from appearing after it was used to open a new window (<a href="https://github.com/ScottPlot/ScottPlot/issues/4529">#4529</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4671">#4671</a>) <a href="https://github.com/wi-fr"><strong>@wi-fr</strong></a> <a href="https://github.com/david3951445"><strong>@david3951445</strong></a>
 </li>
+<li>Eto: Improved implementation of the new multi-plot rendering system (<a href="https://github.com/ScottPlot/ScottPlot/issues/4675">#4675</a>) <a href="https://github.com/qaz7349134142024"><strong>@qaz7349134142024</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/wi-fr'>@wi-fr</a>, <a href='https://github.com/david3951445'>@david3951445</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/wi-fr'>@wi-fr</a>, <a href='https://github.com/david3951445'>@david3951445</a>, <a href='https://github.com/qaz7349134142024'>@qaz7349134142024</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/wi-fr'><img src='https://scottplot.net/images/contributors/wi-fr.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/david3951445'><img src='https://scottplot.net/images/contributors/david3951445.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/qaz7349134142024'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
