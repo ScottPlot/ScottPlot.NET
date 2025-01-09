@@ -12,7 +12,7 @@ Description: Members of the open-source community who contributed to ScottPlot
 <div class='avatar-container my-3'>
 <a href='https://github.com/wi-fr'><img src='https://scottplot.net/images/contributors/wi-fr.png'></a>
 <a href='https://github.com/david3951445'><img src='https://scottplot.net/images/contributors/david3951445.png'></a>
-<a href='https://github.com/qaz7349134142024'><img src='https://scottplot.net/images/brand/favicon.png'></a>
+<a href='https://github.com/qaz7349134142024'><img src='https://scottplot.net/images/contributors/qaz7349134142024.png'></a>
 <a href='https://github.com/zygfrydw'><img src='https://scottplot.net/images/contributors/zygfrydw.jpg'></a>
 <a href='https://github.com/VladislavPustovarov'><img src='https://scottplot.net/images/contributors/vladislavpustovarov.png'></a>
 <a href='https://github.com/nilsakesson'><img src='https://scottplot.net/images/contributors/nilsakesson.png'></a>
