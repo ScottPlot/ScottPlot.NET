@@ -30,7 +30,7 @@ date: 2023-12-13
     </h4>
     <ul class='my-0'>
         <li>ScottPlot 4 has many features, works well, has been extensively tested in production</li>
-        <li>ScottPlot 4 continues to be supported although development is no longer focused on adding new features</li>
+        <li>ScottPlot 4 is no longer supported</li>
         <li>Upgrading to ScottPlot 5 requires some code modification because the APIs are not identical</li>
         <li>If your app works well with ScottPlot 4 there is no need to upgrade</li>
     </ul>
