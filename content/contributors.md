@@ -10,6 +10,7 @@ Description: Members of the open-source community who contributed to ScottPlot
     💖🚀✨
 </div>
 <div class='avatar-container my-3'>
+<a href='https://github.com/kebox7'><img src='https://scottplot.net/images/contributors/kebox7.png'></a>
 <a href='https://github.com/wi-fr'><img src='https://scottplot.net/images/contributors/wi-fr.png'></a>
 <a href='https://github.com/david3951445'><img src='https://scottplot.net/images/contributors/david3951445.png'></a>
 <a href='https://github.com/qaz7349134142024'><img src='https://scottplot.net/images/contributors/qaz7349134142024.png'></a>
@@ -78,7 +79,6 @@ Description: Members of the open-source community who contributed to ScottPlot
 <a href='https://github.com/vilgotf'><img src='https://scottplot.net/images/contributors/vilgotf.png'></a>
 <a href='https://github.com/h135558'><img src='https://scottplot.net/images/contributors/h135558.png'></a>
 <a href='https://github.com/drolevar'><img src='https://scottplot.net/images/contributors/drolevar.jpg'></a>
-<a href='https://github.com/kebox7'><img src='https://scottplot.net/images/contributors/kebox7.png'></a>
 <a href='https://github.com/aespitia'><img src='https://scottplot.net/images/contributors/aespitia.jpg'></a>
 <a href='https://github.com/LeaFrock'><img src='https://scottplot.net/images/contributors/leafrock.jpg'></a>
 <a href='https://github.com/RFBomb'><img src='https://scottplot.net/images/contributors/rfbomb.png'></a>

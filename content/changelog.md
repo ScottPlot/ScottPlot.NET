@@ -4,6 +4,25 @@ Description: Release notes for every version of ScottPlot
 ---
 
 <section class='mb-5'>
+<h1 class='mb-0'>ScottPlot 5.0.53</h1>
+<div><i>NuGet packages published </i></div>
+<div class='mt-1'>
+<ul>
+<li>Axis Rules: Improved support for inner and boundaries on plots with inverted axis limits (<a href="https://github.com/ScottPlot/ScottPlot/issues/4686">#4686</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4609">#4609</a>) <a href="https://github.com/kebox7"><strong>@kebox7</strong></a>
+</li>
+</ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/kebox7'>@kebox7</a>, <a href='https://github.com/swharden'>@swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/kebox7'><img src='https://scottplot.net/images/contributors/kebox7.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
+
+</section>
+<section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 5.0.52</h1>
 <div><i>NuGet packages published 2025-01-08</i></div>
 <div class='mt-1'>
