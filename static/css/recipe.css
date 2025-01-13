@@ -54,3 +54,19 @@
 .new-window-icon:hover {
     opacity: 1;
 }
+
+.code-copy-button {
+    background-color: transparent !important;
+    border-radius: 0.5rem;
+    opacity: .5;
+}
+
+.code-copy-button:hover {
+    background-color: transparent !important;
+    opacity: 1;
+}
+
+.code-copy-button:active {
+    background-color: #FFFFFF11 !important;
+    opacity: 1;
+}
