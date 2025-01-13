@@ -4,9 +4,9 @@ Description: The Multiplot's Layout property may be customized to achieve a grid
 URL: /cookbook/5.0/MultiplotRecipes/MultiplotGrid/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Multiplot", "Multiplot Grid"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/MultiplotRecipes", "/cookbook/5.0/MultiplotRecipes/MultiplotGrid"]
-Date: 2025-01-05
-Version: ScottPlot 5.0.48
-Version: ScottPlot 5.0.48
+Date: 2025-01-13
+Version: ScottPlot 5.0.53
+Version: ScottPlot 5.0.53
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 The Multiplot's Layout property may be customized to achieve a grid layout.
 
-[![](/cookbook/5.0/images/MultiplotGrid.png?250105183901)](/cookbook/5.0/images/MultiplotGrid.png?250105183901)
+[![](/cookbook/5.0/images/MultiplotGrid.png?250112204022)](/cookbook/5.0/images/MultiplotGrid.png?250112204022)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/MultiplotRecipes.cs" imageUrl="/cookbook/5.0/images/MultiplotGrid.png?250105183901" >}}ScottPlot.Multiplot multiplot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/MultiplotRecipes.cs" imageUrl="/cookbook/5.0/images/MultiplotGrid.png?250112204022" >}}ScottPlot.Multiplot multiplot = new();
 
 for (int i = 0; i &lt; 6; i++)
 {

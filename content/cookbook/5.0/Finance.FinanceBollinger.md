@@ -4,9 +4,9 @@ Description: Tools exist for creating Bollinger Bands which display weighted mov
 URL: /cookbook/5.0/Finance/FinanceBollinger/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Financial Plot", "Bollinger Bands"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Finance", "/cookbook/5.0/Finance/FinanceBollinger"]
-Date: 2025-01-05
-Version: ScottPlot 5.0.48
-Version: ScottPlot 5.0.48
+Date: 2025-01-13
+Version: ScottPlot 5.0.53
+Version: ScottPlot 5.0.53
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Tools exist for creating Bollinger Bands which display weighted moving mean and variance for time series financial data.
 
-[![](/cookbook/5.0/images/FinanceBollinger.png?250105183901)](/cookbook/5.0/images/FinanceBollinger.png?250105183901)
+[![](/cookbook/5.0/images/FinanceBollinger.png?250112204022)](/cookbook/5.0/images/FinanceBollinger.png?250112204022)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Finance.cs" imageUrl="/cookbook/5.0/images/FinanceBollinger.png?250105183901" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Finance.cs" imageUrl="/cookbook/5.0/images/FinanceBollinger.png?250112204022" >}}ScottPlot.Plot myPlot = new();
 
 // generate and plot time series price data
 var prices = Generate.RandomOHLCs(100);

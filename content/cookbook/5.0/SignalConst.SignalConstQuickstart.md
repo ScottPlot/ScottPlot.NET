@@ -4,9 +4,9 @@ Description: SignalConst can display data with millions of points at high framer
 URL: /cookbook/5.0/SignalConst/SignalConstQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "SignalConst", "SignalConst Quickstart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/SignalConst", "/cookbook/5.0/SignalConst/SignalConstQuickstart"]
-Date: 2025-01-05
-Version: ScottPlot 5.0.48
-Version: ScottPlot 5.0.48
+Date: 2025-01-13
+Version: ScottPlot 5.0.53
+Version: ScottPlot 5.0.53
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 SignalConst can display data with millions of points at high framerates, ideal for interactive manipulation of large datasets.
 
-[![](/cookbook/5.0/images/SignalConstQuickstart.png?250105183901)](/cookbook/5.0/images/SignalConstQuickstart.png?250105183901)
+[![](/cookbook/5.0/images/SignalConstQuickstart.png?250112204022)](/cookbook/5.0/images/SignalConstQuickstart.png?250112204022)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SignalConst.cs" imageUrl="/cookbook/5.0/images/SignalConstQuickstart.png?250105183901" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SignalConst.cs" imageUrl="/cookbook/5.0/images/SignalConstQuickstart.png?250112204022" >}}ScottPlot.Plot myPlot = new();
 
 double[] data = Generate.RandomWalk(1_000_000);
 myPlot.Add.SignalConst(data);

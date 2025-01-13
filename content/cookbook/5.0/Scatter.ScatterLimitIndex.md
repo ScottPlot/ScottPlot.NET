@@ -4,9 +4,9 @@ Description: Although a scatter plot may contain a very large amount of data, mu
 URL: /cookbook/5.0/Scatter/ScatterLimitIndex/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Scatter Plot", "Limiting Display with Render Indexes"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Scatter", "/cookbook/5.0/Scatter/ScatterLimitIndex"]
-Date: 2025-01-05
-Version: ScottPlot 5.0.48
-Version: ScottPlot 5.0.48
+Date: 2025-01-13
+Version: ScottPlot 5.0.53
+Version: ScottPlot 5.0.53
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Although a scatter plot may contain a very large amount of data, much of it may be unpopulated. The user can define min and max render indexes, and only values within that range will be displayed when the scatter plot is rendered.
 
-[![](/cookbook/5.0/images/ScatterLimitIndex.png?250105183901)](/cookbook/5.0/images/ScatterLimitIndex.png?250105183901)
+[![](/cookbook/5.0/images/ScatterLimitIndex.png?250112204022)](/cookbook/5.0/images/ScatterLimitIndex.png?250112204022)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Scatter.cs" imageUrl="/cookbook/5.0/images/ScatterLimitIndex.png?250105183901" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Scatter.cs" imageUrl="/cookbook/5.0/images/ScatterLimitIndex.png?250112204022" >}}ScottPlot.Plot myPlot = new();
 
 double[] xs = Generate.Consecutive(51);
 double[] ys = Generate.Sin(51);

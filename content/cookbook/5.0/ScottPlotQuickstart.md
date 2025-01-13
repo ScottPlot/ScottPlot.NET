@@ -4,9 +4,9 @@ Description: A survey of basic functionality in ScottPlot 5
 URL: /cookbook/5.0/ScottPlotQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Quickstart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/ScottPlotQuickstart"]
-Date: 2025-01-05
-Version: ScottPlot 5.0.48
-Version: ScottPlot 5.0.48
+Date: 2025-01-13
+Version: ScottPlot 5.0.53
+Version: ScottPlot 5.0.53
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -23,9 +23,9 @@ ShowEditLink: false
 
 A scatter plot can be used to display X/Y data points.
 
-[![](/cookbook/5.0/images/QuickstartScatter.png?250105183901)](/cookbook/5.0/images/QuickstartScatter.png?250105183901)
+[![](/cookbook/5.0/images/QuickstartScatter.png?250112204022)](/cookbook/5.0/images/QuickstartScatter.png?250112204022)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Quickstart.cs" imageUrl="/cookbook/5.0/images/QuickstartScatter.png?250105183901" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Quickstart.cs" imageUrl="/cookbook/5.0/images/QuickstartScatter.png?250112204022" >}}ScottPlot.Plot myPlot = new();
 
 // create sample data
 double[] dataX = { 1, 2, 3, 4, 5 };
@@ -50,9 +50,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Most methods which add items to plots return the item the was added. Save the object that is returned and set its properties to customize it.
 
-[![](/cookbook/5.0/images/CustomizingPlottables.png?250105183901)](/cookbook/5.0/images/CustomizingPlottables.png?250105183901)
+[![](/cookbook/5.0/images/CustomizingPlottables.png?250112204022)](/cookbook/5.0/images/CustomizingPlottables.png?250112204022)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Quickstart.cs" imageUrl="/cookbook/5.0/images/CustomizingPlottables.png?250105183901" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Quickstart.cs" imageUrl="/cookbook/5.0/images/CustomizingPlottables.png?250112204022" >}}ScottPlot.Plot myPlot = new();
 
 // create sample data
 double[] dataX = { 1, 2, 3, 4, 5 };
@@ -84,9 +84,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Signal plots display Y values at evenly spaced X positions. Signal plots should be used instead of Scatter plots whenever possible.
 
-[![](/cookbook/5.0/images/QuickstartSignal.png?250105183901)](/cookbook/5.0/images/QuickstartSignal.png?250105183901)
+[![](/cookbook/5.0/images/QuickstartSignal.png?250112204022)](/cookbook/5.0/images/QuickstartSignal.png?250112204022)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Quickstart.cs" imageUrl="/cookbook/5.0/images/QuickstartSignal.png?250105183901" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Quickstart.cs" imageUrl="/cookbook/5.0/images/QuickstartSignal.png?250112204022" >}}ScottPlot.Plot myPlot = new();
 
 // create sample data
 double[] sin = Generate.Sin(51);
@@ -110,9 +110,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Signal plots are so performant that they can interactively display millions of data points in real time.
 
-[![](/cookbook/5.0/images/SignalPerformance.png?250105183901)](/cookbook/5.0/images/SignalPerformance.png?250105183901)
+[![](/cookbook/5.0/images/SignalPerformance.png?250112204022)](/cookbook/5.0/images/SignalPerformance.png?250112204022)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Quickstart.cs" imageUrl="/cookbook/5.0/images/SignalPerformance.png?250105183901" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Quickstart.cs" imageUrl="/cookbook/5.0/images/SignalPerformance.png?250112204022" >}}ScottPlot.Plot myPlot = new();
 
 // create sample data with one million points
 double[] data = Generate.RandomWalk(1_000_000);
@@ -136,9 +136,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Plots have helper methods for quickly setting axis labels. Refer to other cookbook pages for additional axis customization options.
 
-[![](/cookbook/5.0/images/QuickstartAxisLabels.png?250105183901)](/cookbook/5.0/images/QuickstartAxisLabels.png?250105183901)
+[![](/cookbook/5.0/images/QuickstartAxisLabels.png?250112204022)](/cookbook/5.0/images/QuickstartAxisLabels.png?250112204022)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Quickstart.cs" imageUrl="/cookbook/5.0/images/QuickstartAxisLabels.png?250105183901" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Quickstart.cs" imageUrl="/cookbook/5.0/images/QuickstartAxisLabels.png?250112204022" >}}ScottPlot.Plot myPlot = new();
 
 // plot sample data
 myPlot.Add.Signal(Generate.Sin(51));

@@ -4,9 +4,9 @@ Description: Gauges are displayed from the center outward by default but the ord
 URL: /cookbook/5.0/RadialGauge/RadialGaugeReverse/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Radial gauge", "Reverse Order"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/RadialGauge", "/cookbook/5.0/RadialGauge/RadialGaugeReverse"]
-Date: 2025-01-05
-Version: ScottPlot 5.0.48
-Version: ScottPlot 5.0.48
+Date: 2025-01-13
+Version: ScottPlot 5.0.53
+Version: ScottPlot 5.0.53
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Gauges are displayed from the center outward by default but the order can be customized.
 
-[![](/cookbook/5.0/images/RadialGaugeReverse.png?250105183901)](/cookbook/5.0/images/RadialGaugeReverse.png?250105183901)
+[![](/cookbook/5.0/images/RadialGaugeReverse.png?250112204022)](/cookbook/5.0/images/RadialGaugeReverse.png?250112204022)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/RadialGauge.cs" imageUrl="/cookbook/5.0/images/RadialGaugeReverse.png?250105183901" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/RadialGauge.cs" imageUrl="/cookbook/5.0/images/RadialGaugeReverse.png?250112204022" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Palette = new ScottPlot.Palettes.Nord();
 double[] values = { 100, 80, 65, 45, 50 };

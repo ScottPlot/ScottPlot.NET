@@ -4,9 +4,9 @@ Description: Error Bars communicate the range of possible values for a measureme
 URL: /cookbook/5.0/ErrorBar/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Error Bars"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/ErrorBar"]
-Date: 2025-01-05
-Version: ScottPlot 5.0.48
-Version: ScottPlot 5.0.48
+Date: 2025-01-13
+Version: ScottPlot 5.0.53
+Version: ScottPlot 5.0.53
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -23,9 +23,9 @@ ShowEditLink: false
 
 Error Bars go well with scatter plots.
 
-[![](/cookbook/5.0/images/ErrorBarQuickstart.png?250105183901)](/cookbook/5.0/images/ErrorBarQuickstart.png?250105183901)
+[![](/cookbook/5.0/images/ErrorBarQuickstart.png?250112204022)](/cookbook/5.0/images/ErrorBarQuickstart.png?250112204022)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/ErrorBar.cs" imageUrl="/cookbook/5.0/images/ErrorBarQuickstart.png?250105183901" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/ErrorBar.cs" imageUrl="/cookbook/5.0/images/ErrorBarQuickstart.png?250112204022" >}}ScottPlot.Plot myPlot = new();
 
 int points = 30;
 
@@ -53,9 +53,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Error size can be set for all dimensions.
 
-[![](/cookbook/5.0/images/CustomErrors.png?250105183901)](/cookbook/5.0/images/CustomErrors.png?250105183901)
+[![](/cookbook/5.0/images/CustomErrors.png?250112204022)](/cookbook/5.0/images/CustomErrors.png?250112204022)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/ErrorBar.cs" imageUrl="/cookbook/5.0/images/CustomErrors.png?250105183901" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/ErrorBar.cs" imageUrl="/cookbook/5.0/images/CustomErrors.png?250112204022" >}}ScottPlot.Plot myPlot = new();
 
 int points = 10;
 

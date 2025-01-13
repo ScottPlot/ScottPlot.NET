@@ -4,9 +4,9 @@ Description: Markers may be displayed at the ends of lines, and a flag controls 
 URL: /cookbook/5.0/LinePlot/LinePlotMarkerOrder/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Line Plot", "Line and Marker Order"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/LinePlot", "/cookbook/5.0/LinePlot/LinePlotMarkerOrder"]
-Date: 2025-01-05
-Version: ScottPlot 5.0.48
-Version: ScottPlot 5.0.48
+Date: 2025-01-13
+Version: ScottPlot 5.0.53
+Version: ScottPlot 5.0.53
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Markers may be displayed at the ends of lines, and a flag controls whether the markers are drawn above or below the line.
 
-[![](/cookbook/5.0/images/LinePlotMarkerOrder.png?250105183901)](/cookbook/5.0/images/LinePlotMarkerOrder.png?250105183901)
+[![](/cookbook/5.0/images/LinePlotMarkerOrder.png?250112204022)](/cookbook/5.0/images/LinePlotMarkerOrder.png?250112204022)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Line.cs" imageUrl="/cookbook/5.0/images/LinePlotMarkerOrder.png?250105183901" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Line.cs" imageUrl="/cookbook/5.0/images/LinePlotMarkerOrder.png?250112204022" >}}ScottPlot.Plot myPlot = new();
 
 var line1 = myPlot.Add.Line(0, 0, 1, 1);
 line1.LineColor = Colors.Orange;

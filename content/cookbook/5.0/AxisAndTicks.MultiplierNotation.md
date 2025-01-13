@@ -4,9 +4,9 @@ Description: Numeric tick labels may be displayed using multiplier notation (whe
 URL: /cookbook/5.0/AxisAndTicks/MultiplierNotation/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Axis and Ticks", "Multiplier Notation"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AxisAndTicks", "/cookbook/5.0/AxisAndTicks/MultiplierNotation"]
-Date: 2025-01-05
-Version: ScottPlot 5.0.48
-Version: ScottPlot 5.0.48
+Date: 2025-01-13
+Version: ScottPlot 5.0.53
+Version: ScottPlot 5.0.53
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Numeric tick labels may be displayed using multiplier notation (where tick labels are displayed using scientific notation with the eponent displayed in the corner of the plot). A helper method is available to set-up multiplier notation with a single statement, but users can interact with the object this method returns (not shown here) or inspect the code inside of that method to learn how to achieve enhanced customization abilities.
 
-[![](/cookbook/5.0/images/MultiplierNotation.png?250105183901)](/cookbook/5.0/images/MultiplierNotation.png?250105183901)
+[![](/cookbook/5.0/images/MultiplierNotation.png?250112204022)](/cookbook/5.0/images/MultiplierNotation.png?250112204022)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs" imageUrl="/cookbook/5.0/images/MultiplierNotation.png?250105183901" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs" imageUrl="/cookbook/5.0/images/MultiplierNotation.png?250112204022" >}}ScottPlot.Plot myPlot = new();
 
 // plot sample data with extremely large values
 double[] xs = Generate.RandomSample(50, -1e10, 1e10);

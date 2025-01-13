@@ -4,9 +4,9 @@ Description: Scalebars display a horizontal and/or vertical range using a line s
 URL: /cookbook/5.0/ScaleBar/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Scale Bar"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/ScaleBar"]
-Date: 2025-01-05
-Version: ScottPlot 5.0.48
-Version: ScottPlot 5.0.48
+Date: 2025-01-13
+Version: ScottPlot 5.0.53
+Version: ScottPlot 5.0.53
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -23,9 +23,9 @@ ShowEditLink: false
 
 A ScaleBar can be added to a plot to convey scale information allowing axis frames, ticks, and labels to be hidden.
 
-[![](/cookbook/5.0/images/ScaleBarQuickstart.png?250105183901)](/cookbook/5.0/images/ScaleBarQuickstart.png?250105183901)
+[![](/cookbook/5.0/images/ScaleBarQuickstart.png?250112204022)](/cookbook/5.0/images/ScaleBarQuickstart.png?250112204022)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/ScaleBar.cs" imageUrl="/cookbook/5.0/images/ScaleBarQuickstart.png?250105183901" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/ScaleBar.cs" imageUrl="/cookbook/5.0/images/ScaleBarQuickstart.png?250112204022" >}}ScottPlot.Plot myPlot = new();
 
 // plot sample data
 myPlot.Add.Signal(Generate.Sin());
@@ -54,9 +54,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Text may be added to each dimension of an L shaped scalebar
 
-[![](/cookbook/5.0/images/ScaleBarLabels.png?250105183901)](/cookbook/5.0/images/ScaleBarLabels.png?250105183901)
+[![](/cookbook/5.0/images/ScaleBarLabels.png?250112204022)](/cookbook/5.0/images/ScaleBarLabels.png?250112204022)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/ScaleBar.cs" imageUrl="/cookbook/5.0/images/ScaleBarLabels.png?250105183901" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/ScaleBar.cs" imageUrl="/cookbook/5.0/images/ScaleBarLabels.png?250112204022" >}}ScottPlot.Plot myPlot = new();
 
 // plot sample data
 myPlot.Add.Signal(Generate.Sin());
@@ -87,9 +87,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 The ScaleBar has many properties which may be customized 
 
-[![](/cookbook/5.0/images/ScaleBarStyling.png?250105183901)](/cookbook/5.0/images/ScaleBarStyling.png?250105183901)
+[![](/cookbook/5.0/images/ScaleBarStyling.png?250112204022)](/cookbook/5.0/images/ScaleBarStyling.png?250112204022)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/ScaleBar.cs" imageUrl="/cookbook/5.0/images/ScaleBarStyling.png?250105183901" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/ScaleBar.cs" imageUrl="/cookbook/5.0/images/ScaleBarStyling.png?250112204022" >}}ScottPlot.Plot myPlot = new();
 
 // plot sample data
 myPlot.Add.Signal(Generate.Sin());
@@ -120,9 +120,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Set Width or Height to 0 to cause the ScaleBar to use a single axis only
 
-[![](/cookbook/5.0/images/ScaleBarSingleDimension.png?250105183901)](/cookbook/5.0/images/ScaleBarSingleDimension.png?250105183901)
+[![](/cookbook/5.0/images/ScaleBarSingleDimension.png?250112204022)](/cookbook/5.0/images/ScaleBarSingleDimension.png?250112204022)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/ScaleBar.cs" imageUrl="/cookbook/5.0/images/ScaleBarSingleDimension.png?250105183901" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/ScaleBar.cs" imageUrl="/cookbook/5.0/images/ScaleBarSingleDimension.png?250112204022" >}}ScottPlot.Plot myPlot = new();
 
 // plot sample data
 myPlot.Add.Signal(Generate.Sin());

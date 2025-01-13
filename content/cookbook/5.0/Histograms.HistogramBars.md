@@ -4,9 +4,9 @@ Description: A helper method and plot type has been created to simplify creating
 URL: /cookbook/5.0/Histograms/HistogramBars/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Histogram", "Histogram Bars"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Histograms", "/cookbook/5.0/Histograms/HistogramBars"]
-Date: 2025-01-05
-Version: ScottPlot 5.0.48
-Version: ScottPlot 5.0.48
+Date: 2025-01-13
+Version: ScottPlot 5.0.53
+Version: ScottPlot 5.0.53
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 A helper method and plot type has been created to simplify creating a bar plot that displays histogram counts. Note that updates the histogram may appear in real time and the plot will automatically update to display the latest data.
 
-[![](/cookbook/5.0/images/HistogramBars.png?250105183901)](/cookbook/5.0/images/HistogramBars.png?250105183901)
+[![](/cookbook/5.0/images/HistogramBars.png?250112204022)](/cookbook/5.0/images/HistogramBars.png?250112204022)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Miscellaneous/Histograms.cs" imageUrl="/cookbook/5.0/images/HistogramBars.png?250105183901" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Miscellaneous/Histograms.cs" imageUrl="/cookbook/5.0/images/HistogramBars.png?250112204022" >}}ScottPlot.Plot myPlot = new();
 
 // create an empty histogram and display it as a bar plot
 var hist = ScottPlot.Statistics.Histogram.WithBinCount(count: 20, minValue: 140, maxValue: 220);

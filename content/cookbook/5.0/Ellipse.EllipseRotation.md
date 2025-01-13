@@ -4,9 +4,9 @@ Description: Ellipses can also be rotated
 URL: /cookbook/5.0/Ellipse/EllipseRotation/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Ellipse", "Ellipse Rotation"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Ellipse", "/cookbook/5.0/Ellipse/EllipseRotation"]
-Date: 2025-01-05
-Version: ScottPlot 5.0.48
-Version: ScottPlot 5.0.48
+Date: 2025-01-13
+Version: ScottPlot 5.0.53
+Version: ScottPlot 5.0.53
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Ellipses can also be rotated
 
-[![](/cookbook/5.0/images/EllipseRotation.png?250105183901)](/cookbook/5.0/images/EllipseRotation.png?250105183901)
+[![](/cookbook/5.0/images/EllipseRotation.png?250112204022)](/cookbook/5.0/images/EllipseRotation.png?250112204022)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Ellipse.cs" imageUrl="/cookbook/5.0/images/EllipseRotation.png?250105183901" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Ellipse.cs" imageUrl="/cookbook/5.0/images/EllipseRotation.png?250112204022" >}}ScottPlot.Plot myPlot = new();
 
 int count = 5;
 for (int i = 0; i &lt; count; i++)

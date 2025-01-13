@@ -4,9 +4,9 @@ Description: The Plot's Style class contains a method which automatically sets t
 URL: /cookbook/5.0/Internationalization/AutomaticFontDetection/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Internationalization", "Automatic Font Detection"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Internationalization", "/cookbook/5.0/Internationalization/AutomaticFontDetection"]
-Date: 2025-01-05
-Version: ScottPlot 5.0.48
-Version: ScottPlot 5.0.48
+Date: 2025-01-13
+Version: ScottPlot 5.0.53
+Version: ScottPlot 5.0.53
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 The Plot's Style class contains a method which automatically sets the fonts of common plot objects to the font most likely able to display the characters they contain.
 
-[![](/cookbook/5.0/images/AutomaticFontDetection.png?250105183901)](/cookbook/5.0/images/AutomaticFontDetection.png?250105183901)
+[![](/cookbook/5.0/images/AutomaticFontDetection.png?250112204022)](/cookbook/5.0/images/AutomaticFontDetection.png?250112204022)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Miscellaneous/Internationalization.cs" imageUrl="/cookbook/5.0/images/AutomaticFontDetection.png?250105183901" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Miscellaneous/Internationalization.cs" imageUrl="/cookbook/5.0/images/AutomaticFontDetection.png?250112204022" >}}ScottPlot.Plot myPlot = new();
 
 var sig1 = myPlot.Add.Signal(Generate.Sin(phase: .1));
 var sig2 = myPlot.Add.Signal(Generate.Sin(phase: .2));

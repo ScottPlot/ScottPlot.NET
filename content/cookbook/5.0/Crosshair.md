@@ -4,9 +4,9 @@ Description: A Crosshair combines a horizontal axis line and vertical axis line 
 URL: /cookbook/5.0/Crosshair/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Crosshair"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Crosshair"]
-Date: 2025-01-05
-Version: ScottPlot 5.0.48
-Version: ScottPlot 5.0.48
+Date: 2025-01-13
+Version: ScottPlot 5.0.53
+Version: ScottPlot 5.0.53
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -23,9 +23,9 @@ ShowEditLink: false
 
 A Crosshair combines a horizontal axis line and vertical axis line to mark a location in coordinate space.
 
-[![](/cookbook/5.0/images/CrosshairQuickstart.png?250105183901)](/cookbook/5.0/images/CrosshairQuickstart.png?250105183901)
+[![](/cookbook/5.0/images/CrosshairQuickstart.png?250112204022)](/cookbook/5.0/images/CrosshairQuickstart.png?250112204022)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Crosshair.cs" imageUrl="/cookbook/5.0/images/CrosshairQuickstart.png?250105183901" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Crosshair.cs" imageUrl="/cookbook/5.0/images/CrosshairQuickstart.png?250112204022" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin());
 myPlot.Add.Signal(Generate.Cos());
@@ -48,9 +48,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Crosshairs can be extensively customized.
 
-[![](/cookbook/5.0/images/CrosshairCustomization.png?250105183901)](/cookbook/5.0/images/CrosshairCustomization.png?250105183901)
+[![](/cookbook/5.0/images/CrosshairCustomization.png?250112204022)](/cookbook/5.0/images/CrosshairCustomization.png?250112204022)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Crosshair.cs" imageUrl="/cookbook/5.0/images/CrosshairCustomization.png?250105183901" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Crosshair.cs" imageUrl="/cookbook/5.0/images/CrosshairCustomization.png?250112204022" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin());
 myPlot.Add.Signal(Generate.Cos());

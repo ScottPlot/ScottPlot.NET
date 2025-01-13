@@ -4,9 +4,9 @@ Description: Create a Smith chart axis and add it to the plot to display impedan
 URL: /cookbook/5.0/SmithChart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Smith Chart"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/SmithChart"]
-Date: 2025-01-05
-Version: ScottPlot 5.0.48
-Version: ScottPlot 5.0.48
+Date: 2025-01-13
+Version: ScottPlot 5.0.53
+Version: ScottPlot 5.0.53
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -23,9 +23,9 @@ ShowEditLink: false
 
 Add a Smith chart to the plot and use its methods to translate impedance to Cartesian coordinates that can be used for placing other plot components.
 
-[![](/cookbook/5.0/images/SmithChartQuickstart.png?250105183901)](/cookbook/5.0/images/SmithChartQuickstart.png?250105183901)
+[![](/cookbook/5.0/images/SmithChartQuickstart.png?250112204022)](/cookbook/5.0/images/SmithChartQuickstart.png?250112204022)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SmithChart.cs" imageUrl="/cookbook/5.0/images/SmithChartQuickstart.png?250105183901" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SmithChart.cs" imageUrl="/cookbook/5.0/images/SmithChartQuickstart.png?250112204022" >}}ScottPlot.Plot myPlot = new();
 
 var smith = myPlot.Add.SmithChartAxis();
 

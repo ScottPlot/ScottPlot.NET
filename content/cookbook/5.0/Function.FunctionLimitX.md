@@ -4,9 +4,9 @@ Description: A function can be limited to a range of X values.
 URL: /cookbook/5.0/Function/FunctionLimitX/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Function", "Function Limit X"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Function", "/cookbook/5.0/Function/FunctionLimitX"]
-Date: 2025-01-05
-Version: ScottPlot 5.0.48
-Version: ScottPlot 5.0.48
+Date: 2025-01-13
+Version: ScottPlot 5.0.53
+Version: ScottPlot 5.0.53
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 A function can be limited to a range of X values.
 
-[![](/cookbook/5.0/images/FunctionLimitX.png?250105183901)](/cookbook/5.0/images/FunctionLimitX.png?250105183901)
+[![](/cookbook/5.0/images/FunctionLimitX.png?250112204022)](/cookbook/5.0/images/FunctionLimitX.png?250112204022)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Function.cs" imageUrl="/cookbook/5.0/images/FunctionLimitX.png?250105183901" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Function.cs" imageUrl="/cookbook/5.0/images/FunctionLimitX.png?250112204022" >}}ScottPlot.Plot myPlot = new();
 
 static double func1(double x) =&gt; (Math.Sin(x) * Math.Sin(x / 2));
 

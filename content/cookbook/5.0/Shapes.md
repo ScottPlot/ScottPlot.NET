@@ -4,9 +4,9 @@ Description: Basic shapes that can be added to plots
 URL: /cookbook/5.0/Shapes/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Shapes"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Shapes"]
-Date: 2025-01-05
-Version: ScottPlot 5.0.48
-Version: ScottPlot 5.0.48
+Date: 2025-01-13
+Version: ScottPlot 5.0.53
+Version: ScottPlot 5.0.53
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -23,9 +23,9 @@ ShowEditLink: false
 
 A rectangle can be added to the plot and styled as desired.
 
-[![](/cookbook/5.0/images/RectangleQuickstart.png?250105183901)](/cookbook/5.0/images/RectangleQuickstart.png?250105183901)
+[![](/cookbook/5.0/images/RectangleQuickstart.png?250112204022)](/cookbook/5.0/images/RectangleQuickstart.png?250112204022)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Shapes.cs" imageUrl="/cookbook/5.0/images/RectangleQuickstart.png?250105183901" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Shapes.cs" imageUrl="/cookbook/5.0/images/RectangleQuickstart.png?250112204022" >}}ScottPlot.Plot myPlot = new();
 
 // add a rectangle by specifying points
 myPlot.Add.Rectangle(0, 1, 0, 1);
@@ -59,9 +59,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 A circle can be placed on the plot and styled as desired.
 
-[![](/cookbook/5.0/images/CircleQuickstart.png?250105183901)](/cookbook/5.0/images/CircleQuickstart.png?250105183901)
+[![](/cookbook/5.0/images/CircleQuickstart.png?250112204022)](/cookbook/5.0/images/CircleQuickstart.png?250112204022)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Shapes.cs" imageUrl="/cookbook/5.0/images/CircleQuickstart.png?250105183901" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Shapes.cs" imageUrl="/cookbook/5.0/images/CircleQuickstart.png?250112204022" >}}ScottPlot.Plot myPlot = new();
 
 var c1 = myPlot.Add.Circle(1, 0, .5);
 var c2 = myPlot.Add.Circle(2, 0, .5);
@@ -95,9 +95,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 An ellipse can be placed on the plot and styled as desired.
 
-[![](/cookbook/5.0/images/EllipseQuickstart.png?250105183901)](/cookbook/5.0/images/EllipseQuickstart.png?250105183901)
+[![](/cookbook/5.0/images/EllipseQuickstart.png?250112204022)](/cookbook/5.0/images/EllipseQuickstart.png?250112204022)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Shapes.cs" imageUrl="/cookbook/5.0/images/EllipseQuickstart.png?250105183901" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Shapes.cs" imageUrl="/cookbook/5.0/images/EllipseQuickstart.png?250112204022" >}}ScottPlot.Plot myPlot = new();
 
 for (int i = 0; i &lt; 10; i++)
 {
@@ -126,9 +126,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Polygon plots can be added from a series of vertices, and must be in clockwise order.
 
-[![](/cookbook/5.0/images/PolygonQuickstart.png?250105183901)](/cookbook/5.0/images/PolygonQuickstart.png?250105183901)
+[![](/cookbook/5.0/images/PolygonQuickstart.png?250112204022)](/cookbook/5.0/images/PolygonQuickstart.png?250112204022)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Shapes.cs" imageUrl="/cookbook/5.0/images/PolygonQuickstart.png?250105183901" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Shapes.cs" imageUrl="/cookbook/5.0/images/PolygonQuickstart.png?250112204022" >}}ScottPlot.Plot myPlot = new();
 
 Coordinates[] points =
 {
@@ -157,9 +157,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Polygon plots can be fully customized.
 
-[![](/cookbook/5.0/images/PolygonStyling.png?250105183901)](/cookbook/5.0/images/PolygonStyling.png?250105183901)
+[![](/cookbook/5.0/images/PolygonStyling.png?250112204022)](/cookbook/5.0/images/PolygonStyling.png?250112204022)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Shapes.cs" imageUrl="/cookbook/5.0/images/PolygonStyling.png?250105183901" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Shapes.cs" imageUrl="/cookbook/5.0/images/PolygonStyling.png?250112204022" >}}ScottPlot.Plot myPlot = new();
 
 Coordinates[] points =
 {
@@ -205,9 +205,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 A stacked line chart may be achieved by combining primitive shapes onto a plot.
 
-[![](/cookbook/5.0/images/StackedLineChart.png?250105183901)](/cookbook/5.0/images/StackedLineChart.png?250105183901)
+[![](/cookbook/5.0/images/StackedLineChart.png?250112204022)](/cookbook/5.0/images/StackedLineChart.png?250112204022)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Shapes.cs" imageUrl="/cookbook/5.0/images/StackedLineChart.png?250105183901" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Shapes.cs" imageUrl="/cookbook/5.0/images/StackedLineChart.png?250112204022" >}}ScottPlot.Plot myPlot = new();
 
 // prepare values for each line
 double[] values1 = [8.4, 6.9, 6.5, 4.4];

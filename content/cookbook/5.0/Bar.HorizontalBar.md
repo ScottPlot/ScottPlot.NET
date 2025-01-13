@@ -4,9 +4,9 @@ Description: Bar plots can be displayed horizontally.
 URL: /cookbook/5.0/Bar/HorizontalBar/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Bar Plot", "Horizontal Bar Plot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Bar", "/cookbook/5.0/Bar/HorizontalBar"]
-Date: 2025-01-05
-Version: ScottPlot 5.0.48
-Version: ScottPlot 5.0.48
+Date: 2025-01-13
+Version: ScottPlot 5.0.53
+Version: ScottPlot 5.0.53
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Bar plots can be displayed horizontally.
 
-[![](/cookbook/5.0/images/HorizontalBar.png?250105183901)](/cookbook/5.0/images/HorizontalBar.png?250105183901)
+[![](/cookbook/5.0/images/HorizontalBar.png?250112204022)](/cookbook/5.0/images/HorizontalBar.png?250112204022)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs" imageUrl="/cookbook/5.0/images/HorizontalBar.png?250105183901" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs" imageUrl="/cookbook/5.0/images/HorizontalBar.png?250112204022" >}}ScottPlot.Plot myPlot = new();
 
 ScottPlot.Bar[] bars =
 {

@@ -4,9 +4,9 @@ Description: Examples of common customizations for axis labels and ticks
 URL: /cookbook/5.0/AxisAndTicks/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Axis and Ticks"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AxisAndTicks"]
-Date: 2025-01-05
-Version: ScottPlot 5.0.48
-Version: ScottPlot 5.0.48
+Date: 2025-01-13
+Version: ScottPlot 5.0.53
+Version: ScottPlot 5.0.53
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -23,9 +23,9 @@ ShowEditLink: false
 
 Axis Limits can be set by the user.
 
-[![](/cookbook/5.0/images/SetAxisLimits.png?250105183901)](/cookbook/5.0/images/SetAxisLimits.png?250105183901)
+[![](/cookbook/5.0/images/SetAxisLimits.png?250112204022)](/cookbook/5.0/images/SetAxisLimits.png?250112204022)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs" imageUrl="/cookbook/5.0/images/SetAxisLimits.png?250105183901" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs" imageUrl="/cookbook/5.0/images/SetAxisLimits.png?250112204022" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin(51));
 myPlot.Add.Signal(Generate.Cos(51));
@@ -48,9 +48,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Use GetLimits() to obtain the current axis limits.
 
-[![](/cookbook/5.0/images/GetAxisLimits.png?250105183901)](/cookbook/5.0/images/GetAxisLimits.png?250105183901)
+[![](/cookbook/5.0/images/GetAxisLimits.png?250112204022)](/cookbook/5.0/images/GetAxisLimits.png?250112204022)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs" imageUrl="/cookbook/5.0/images/GetAxisLimits.png?250105183901" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs" imageUrl="/cookbook/5.0/images/GetAxisLimits.png?250112204022" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin(51));
 myPlot.Add.Signal(Generate.Cos(51));
@@ -77,9 +77,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 The axis limits can be automatically adjusted to fit the data. Optional arguments allow users to define the amount of whitespace around the edges of the data.In older versions of ScottPlot this functionality was achieved by a method named AxisAuto().
 
-[![](/cookbook/5.0/images/AutoScale.png?250105183901)](/cookbook/5.0/images/AutoScale.png?250105183901)
+[![](/cookbook/5.0/images/AutoScale.png?250112204022)](/cookbook/5.0/images/AutoScale.png?250112204022)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs" imageUrl="/cookbook/5.0/images/AutoScale.png?250105183901" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs" imageUrl="/cookbook/5.0/images/AutoScale.png?250112204022" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin(51));
 myPlot.Add.Signal(Generate.Cos(51));
@@ -106,9 +106,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Users can display data on an inverted axis by setting axis limits setting the lower edge to a value more positive than the upper edge.
 
-[![](/cookbook/5.0/images/InvertedAxis.png?250105183901)](/cookbook/5.0/images/InvertedAxis.png?250105183901)
+[![](/cookbook/5.0/images/InvertedAxis.png?250112204022)](/cookbook/5.0/images/InvertedAxis.png?250112204022)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs" imageUrl="/cookbook/5.0/images/InvertedAxis.png?250105183901" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs" imageUrl="/cookbook/5.0/images/InvertedAxis.png?250112204022" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin());
 myPlot.Add.Signal(Generate.Cos());
@@ -131,9 +131,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Customize the logic for the automatic axis scaler to ensure that axis limits for a particular axis are always inverted when autoscaled.
 
-[![](/cookbook/5.0/images/InvertedAutoAxis.png?250105183901)](/cookbook/5.0/images/InvertedAutoAxis.png?250105183901)
+[![](/cookbook/5.0/images/InvertedAutoAxis.png?250112204022)](/cookbook/5.0/images/InvertedAutoAxis.png?250112204022)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs" imageUrl="/cookbook/5.0/images/InvertedAutoAxis.png?250105183901" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs" imageUrl="/cookbook/5.0/images/InvertedAutoAxis.png?250112204022" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin());
 myPlot.Add.Signal(Generate.Cos());
@@ -156,9 +156,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Axis rules can be put in place which force the vertical scale (units per pixel) to match the horizontal scale so circles always appear as circles and not stretched ellipses.
 
-[![](/cookbook/5.0/images/SquareAxisUnits.png?250105183901)](/cookbook/5.0/images/SquareAxisUnits.png?250105183901)
+[![](/cookbook/5.0/images/SquareAxisUnits.png?250112204022)](/cookbook/5.0/images/SquareAxisUnits.png?250112204022)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs" imageUrl="/cookbook/5.0/images/SquareAxisUnits.png?250105183901" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs" imageUrl="/cookbook/5.0/images/SquareAxisUnits.png?250112204022" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Circle(0, 0, 10);
 
@@ -184,9 +184,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Users can create their own fully custom axes to replace the default ones (as demonstrated in the demo app). Some experimental axes are available for users who may be interested in alternative axis display styles.
 
-[![](/cookbook/5.0/images/ExperimentalAxisWithSubtitle.png?250105183901)](/cookbook/5.0/images/ExperimentalAxisWithSubtitle.png?250105183901)
+[![](/cookbook/5.0/images/ExperimentalAxisWithSubtitle.png?250112204022)](/cookbook/5.0/images/ExperimentalAxisWithSubtitle.png?250112204022)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs" imageUrl="/cookbook/5.0/images/ExperimentalAxisWithSubtitle.png?250105183901" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs" imageUrl="/cookbook/5.0/images/ExperimentalAxisWithSubtitle.png?250112204022" >}}ScottPlot.Plot myPlot = new();
 
 // Plot some sample data
 myPlot.Add.Signal(Generate.Sin());
@@ -219,9 +219,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 To improve crispness of straight vertical and horizontal lines, Anti-aliasing is disabled by default for axis frames, tick marks, and grid lines. Anti-aliasing can be enabled for all these objects by calling the AntiAlias helper method.
 
-[![](/cookbook/5.0/images/AxisAntiAliasing.png?250105183901)](/cookbook/5.0/images/AxisAntiAliasing.png?250105183901)
+[![](/cookbook/5.0/images/AxisAntiAliasing.png?250112204022)](/cookbook/5.0/images/AxisAntiAliasing.png?250112204022)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs" imageUrl="/cookbook/5.0/images/AxisAntiAliasing.png?250105183901" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs" imageUrl="/cookbook/5.0/images/AxisAntiAliasing.png?250112204022" >}}ScottPlot.Plot myPlot = new();
 
 double[] dataX = { 1, 2, 3, 4, 5 };
 double[] dataY = { 1, 4, 9, 16, 25 };
@@ -245,9 +245,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Demonstrates how to hide axis ticks and turn frame lines on and off.
 
-[![](/cookbook/5.0/images/HideAxis.png?250105183901)](/cookbook/5.0/images/HideAxis.png?250105183901)
+[![](/cookbook/5.0/images/HideAxis.png?250112204022)](/cookbook/5.0/images/HideAxis.png?250112204022)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs" imageUrl="/cookbook/5.0/images/HideAxis.png?250105183901" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs" imageUrl="/cookbook/5.0/images/HideAxis.png?250112204022" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin());
 myPlot.Add.Signal(Generate.Cos());
@@ -278,9 +278,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Axis tick labels can be displayed using a time format.
 
-[![](/cookbook/5.0/images/DateTimeAxisQuickstart.png?250105183901)](/cookbook/5.0/images/DateTimeAxisQuickstart.png?250105183901)
+[![](/cookbook/5.0/images/DateTimeAxisQuickstart.png?250112204022)](/cookbook/5.0/images/DateTimeAxisQuickstart.png?250112204022)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs" imageUrl="/cookbook/5.0/images/DateTimeAxisQuickstart.png?250105183901" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs" imageUrl="/cookbook/5.0/images/DateTimeAxisQuickstart.png?250112204022" >}}ScottPlot.Plot myPlot = new();
 
 // plot data using DateTime units
 DateTime[] dates = Generate.ConsecutiveDays(100);
@@ -306,9 +306,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 DateTime axes are achieved using Microsoft's DateTime.ToOADate() and DateTime.FromOADate() methods to convert between dates and numeric values. Advanced users who wish to display data on DateTime axes may prefer to work with collections of doubles rather than collections of DateTimes.
 
-[![](/cookbook/5.0/images/DateTimeAxisMixed.png?250105183901)](/cookbook/5.0/images/DateTimeAxisMixed.png?250105183901)
+[![](/cookbook/5.0/images/DateTimeAxisMixed.png?250112204022)](/cookbook/5.0/images/DateTimeAxisMixed.png?250112204022)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs" imageUrl="/cookbook/5.0/images/DateTimeAxisMixed.png?250105183901" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs" imageUrl="/cookbook/5.0/images/DateTimeAxisMixed.png?250112204022" >}}ScottPlot.Plot myPlot = new();
 
 // create an array of DateTimes one hour apart
 int numberOfHours = 24;
@@ -353,9 +353,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Users can provide their own logic for customizing DateTime tick labels
 
-[![](/cookbook/5.0/images/DateTimeAxisCustomFormatter.png?250105183901)](/cookbook/5.0/images/DateTimeAxisCustomFormatter.png?250105183901)
+[![](/cookbook/5.0/images/DateTimeAxisCustomFormatter.png?250112204022)](/cookbook/5.0/images/DateTimeAxisCustomFormatter.png?250112204022)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs" imageUrl="/cookbook/5.0/images/DateTimeAxisCustomFormatter.png?250105183901" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs" imageUrl="/cookbook/5.0/images/DateTimeAxisCustomFormatter.png?250112204022" >}}ScottPlot.Plot myPlot = new();
 
 // plot sample DateTime data
 DateTime[] dates = Generate.ConsecutiveDays(100);
@@ -391,9 +391,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Make ticks render at fixed intervals. Optionally make the ticks render from a custom start date, rather than using the start date of the plot (e.g. to draw ticks on the hour every hour, or on the first of every month, etc).
 
-[![](/cookbook/5.0/images/DateTimeAxisFixedIntervalTicks.png?250105183901)](/cookbook/5.0/images/DateTimeAxisFixedIntervalTicks.png?250105183901)
+[![](/cookbook/5.0/images/DateTimeAxisFixedIntervalTicks.png?250112204022)](/cookbook/5.0/images/DateTimeAxisFixedIntervalTicks.png?250112204022)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs" imageUrl="/cookbook/5.0/images/DateTimeAxisFixedIntervalTicks.png?250105183901" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs" imageUrl="/cookbook/5.0/images/DateTimeAxisFixedIntervalTicks.png?250112204022" >}}ScottPlot.Plot myPlot = new();
 
 // Plot 24 hours sample DateTime data (1 point every minute)
 DateTime[] dates = Generate.ConsecutiveMinutes(24 * 60, new DateTime(2000, 1, 1, 2, 12, 0));
@@ -451,9 +451,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 A floating or centered axis may be realized by hiding the default axes which appear at the edges of the plot and creating a new floating axis and adding it to the plot.
 
-[![](/cookbook/5.0/images/FloatingAxis.png?250105183901)](/cookbook/5.0/images/FloatingAxis.png?250105183901)
+[![](/cookbook/5.0/images/FloatingAxis.png?250112204022)](/cookbook/5.0/images/FloatingAxis.png?250112204022)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs" imageUrl="/cookbook/5.0/images/FloatingAxis.png?250105183901" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs" imageUrl="/cookbook/5.0/images/FloatingAxis.png?250112204022" >}}ScottPlot.Plot myPlot = new();
 
 // create floating X and Y axes using one of the existing axes for reference
 ScottPlot.Plottables.FloatingAxis floatingX = new(myPlot.Axes.Bottom);
@@ -485,9 +485,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Grid lines have many options to allow extensive customization.
 
-[![](/cookbook/5.0/images/CustomGridLineStyle.png?250105183901)](/cookbook/5.0/images/CustomGridLineStyle.png?250105183901)
+[![](/cookbook/5.0/images/CustomGridLineStyle.png?250112204022)](/cookbook/5.0/images/CustomGridLineStyle.png?250112204022)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs" imageUrl="/cookbook/5.0/images/CustomGridLineStyle.png?250105183901" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs" imageUrl="/cookbook/5.0/images/CustomGridLineStyle.png?250112204022" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin(51));
 myPlot.Add.Signal(Generate.Cos(51));
@@ -511,9 +511,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 For cases where axis label font styling does not provide the desired level of customization, a bitmap image may be displayed as an axis label. This strategy allows rich text to be realized using any third party tool that can render that text as a bitmap. It also enables users to place icons or images in their axis labels.
 
-[![](/cookbook/5.0/images/ImageAxisLabel.png?250105183901)](/cookbook/5.0/images/ImageAxisLabel.png?250105183901)
+[![](/cookbook/5.0/images/ImageAxisLabel.png?250112204022)](/cookbook/5.0/images/ImageAxisLabel.png?250112204022)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs" imageUrl="/cookbook/5.0/images/ImageAxisLabel.png?250105183901" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs" imageUrl="/cookbook/5.0/images/ImageAxisLabel.png?250112204022" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin(51));
 myPlot.Add.Signal(Generate.Cos(51));
@@ -547,9 +547,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Numeric tick labels may be displayed using multiplier notation (where tick labels are displayed using scientific notation with the eponent displayed in the corner of the plot). A helper method is available to set-up multiplier notation with a single statement, but users can interact with the object this method returns (not shown here) or inspect the code inside of that method to learn how to achieve enhanced customization abilities.
 
-[![](/cookbook/5.0/images/MultiplierNotation.png?250105183901)](/cookbook/5.0/images/MultiplierNotation.png?250105183901)
+[![](/cookbook/5.0/images/MultiplierNotation.png?250112204022)](/cookbook/5.0/images/MultiplierNotation.png?250112204022)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs" imageUrl="/cookbook/5.0/images/MultiplierNotation.png?250105183901" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs" imageUrl="/cookbook/5.0/images/MultiplierNotation.png?250112204022" >}}ScottPlot.Plot myPlot = new();
 
 // plot sample data with extremely large values
 double[] xs = Generate.RandomSample(50, -1e10, 1e10);
