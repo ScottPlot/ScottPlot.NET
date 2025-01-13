@@ -5,7 +5,7 @@ Description: Release notes for every version of ScottPlot
 
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 5.0.53</h1>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2025-01-12</i></div>
 <div class='mt-1'>
 <ul>
 <li>Axis Rules: Improved support for inner and boundaries on plots with inverted axis limits (<a href="https://github.com/ScottPlot/ScottPlot/issues/4686">#4686</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4609">#4609</a>) <a href="https://github.com/kebox7"><strong>@kebox7</strong></a>
@@ -14,16 +14,21 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Multiplot: Improved interactive behavior in .NET Maui, Blazor, and WinUI controls (<a href="https://github.com/ScottPlot/ScottPlot/issues/4691">#4691</a>) <a href="https://github.com/King-Taz"><strong>@King-Taz</strong></a>
 </li>
+<li>IPlotControl: Refactor to support <code>IMultiplot</code> allowing users to inject their own multi-plot logic (<a href="https://github.com/ScottPlot/ScottPlot/issues/4687">#4687</a>)
+</li>
+<li>Cookbook: Added a colors page demonstrating all colors included with ScottPlot (<a href="https://github.com/ScottPlot/ScottPlot/issues/4681">#4681</a>) <a href="https://github.com/quantfreedom"><strong>@quantfreedom</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/kebox7'>@kebox7</a>, <a href='https://github.com/onur-akaydin'>@onur-akaydin</a>, <a href='https://github.com/King-Taz'>@King-Taz</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/kebox7'>@kebox7</a>, <a href='https://github.com/onur-akaydin'>@onur-akaydin</a>, <a href='https://github.com/King-Taz'>@King-Taz</a>, <a href='https://github.com/quantfreedom'>@quantfreedom</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/kebox7'><img src='https://scottplot.net/images/contributors/kebox7.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/onur-akaydin'><img src='https://scottplot.net/images/contributors/onur-akaydin.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/King-Taz'><img src='https://scottplot.net/images/contributors/king-taz.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/quantfreedom'><img src='https://scottplot.net/images/contributors/quantfreedom.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
@@ -4771,7 +4776,7 @@ Description: Release notes for every version of ScottPlot
 <a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/breakwinz'><img src='https://scottplot.net/images/contributors/breakwinz.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/ramsayamarin'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/ramsayamarin'><img src='https://scottplot.net/images/contributors/ramsayamarin.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Orace'><img src='https://scottplot.net/images/contributors/orace.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/kegesch'><img src='https://scottplot.net/images/contributors/kegesch.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Maoyao233'><img src='https://scottplot.net/images/contributors/maoyao233.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
