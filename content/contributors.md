@@ -12,6 +12,7 @@ Description: Members of the open-source community who contributed to ScottPlot
 <div class='avatar-container my-3'>
 <a href='https://github.com/kebox7'><img src='https://scottplot.net/images/contributors/kebox7.png'></a>
 <a href='https://github.com/onur-akaydin'><img src='https://scottplot.net/images/contributors/onur-akaydin.png'></a>
+<a href='https://github.com/King-Taz'><img src='https://scottplot.net/images/contributors/king-taz.png'></a>
 <a href='https://github.com/wi-fr'><img src='https://scottplot.net/images/contributors/wi-fr.png'></a>
 <a href='https://github.com/david3951445'><img src='https://scottplot.net/images/contributors/david3951445.png'></a>
 <a href='https://github.com/qaz7349134142024'><img src='https://scottplot.net/images/contributors/qaz7349134142024.png'></a>
@@ -56,7 +57,6 @@ Description: Members of the open-source community who contributed to ScottPlot
 <a href='https://github.com/wellsw'><img src='https://scottplot.net/images/contributors/wellsw.png'></a>
 <a href='https://github.com/KroMignon'><img src='https://scottplot.net/images/contributors/kromignon.png'></a>
 <a href='https://github.com/Fruchtzwerg94'><img src='https://scottplot.net/images/contributors/fruchtzwerg94.jpg'></a>
-<a href='https://github.com/King-Taz'><img src='https://scottplot.net/images/contributors/king-taz.png'></a>
 <a href='https://github.com/KosmosWerner'><img src='https://scottplot.net/images/contributors/kosmoswerner.jpg'></a>
 <a href='https://github.com/ArchieCoder'><img src='https://scottplot.net/images/contributors/archiecoder.jpg'></a>
 <a href='https://github.com/ProgrammerGuy76'><img src='https://scottplot.net/images/contributors/programmerguy76.png'></a>
@@ -429,7 +429,7 @@ Description: Members of the open-source community who contributed to ScottPlot
 <a href='https://github.com/ddrrrr'><img src='https://scottplot.net/images/contributors/ddrrrr.png'></a>
 <a href='https://github.com/rutkowskit'><img src='https://scottplot.net/images/contributors/rutkowskit.jpg'></a>
 <a href='https://github.com/breakwinz'><img src='https://scottplot.net/images/contributors/breakwinz.png'></a>
-<a href='https://github.com/RamsayGit'><img src='https://scottplot.net/images/contributors/ramsaygit.png'></a>
+<a href='https://github.com/ramsayamarin'><img src='https://scottplot.net/images/brand/favicon.png'></a>
 <a href='https://github.com/Orace'><img src='https://scottplot.net/images/contributors/orace.jpg'></a>
 <a href='https://github.com/kegesch'><img src='https://scottplot.net/images/contributors/kegesch.png'></a>
 <a href='https://github.com/Nextra'><img src='https://scottplot.net/images/contributors/nextra.png'></a>

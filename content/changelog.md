@@ -12,15 +12,18 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>OpenGL: Improved behavior for applications which have multiple OpenGL instances (<a href="https://github.com/ScottPlot/ScottPlot/issues/4693">#4693</a>) <a href="https://github.com/onur-akaydin"><strong>@onur-akaydin</strong></a>
 </li>
+<li>Multiplot: Improved interactive behavior in .NET Maui, Blazor, and WinUI controls (<a href="https://github.com/ScottPlot/ScottPlot/issues/4691">#4691</a>) <a href="https://github.com/King-Taz"><strong>@King-Taz</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/kebox7'>@kebox7</a>, <a href='https://github.com/onur-akaydin'>@onur-akaydin</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/kebox7'>@kebox7</a>, <a href='https://github.com/onur-akaydin'>@onur-akaydin</a>, <a href='https://github.com/King-Taz'>@King-Taz</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/kebox7'><img src='https://scottplot.net/images/contributors/kebox7.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/onur-akaydin'><img src='https://scottplot.net/images/contributors/onur-akaydin.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/King-Taz'><img src='https://scottplot.net/images/contributors/king-taz.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
@@ -4711,7 +4714,7 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Histogram: Marked <code>ScottPlot.Statistics.Histogram</code> obsolete in favor of static methods in <code>ScottPlot.Statistics.Common</code> designed to create histograms and probability function curves (<a href="https://github.com/ScottPlot/ScottPlot/issues/1051">#1051</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/1166">#1166</a>). See cookbook for usage examples. <a href="https://github.com/breakwinz"><strong>@breakwinz</strong></a> and <a href="https://github.com/bclehmann"><strong>@bclehmann</strong></a>
 </li>
-<li>WpfPlot: Improve memory management for dynamically created and destroyed WpfPlot controls by properly unloading the dispatcher timer (<a href="https://github.com/ScottPlot/ScottPlot/issues/1115">#1115</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/1117">#1117</a>) <a href="https://github.com/RamsayGit"><strong>@RamsayGit</strong></a>, <a href="https://github.com/bclehmann"><strong>@bclehmann</strong></a>, <a href="https://github.com/StendProg"><strong>@StendProg</strong></a>, and <a href="https://github.com/Orace"><strong>@Orace</strong></a>
+<li>WpfPlot: Improve memory management for dynamically created and destroyed WpfPlot controls by properly unloading the dispatcher timer (<a href="https://github.com/ScottPlot/ScottPlot/issues/1115">#1115</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/1117">#1117</a>) <a href="https://github.com/ramsayamarin"><strong>@ramsayamarin</strong></a>, <a href="https://github.com/bclehmann"><strong>@bclehmann</strong></a>, <a href="https://github.com/StendProg"><strong>@StendProg</strong></a>, and <a href="https://github.com/Orace"><strong>@Orace</strong></a>
 </li>
 <li>Mouse Processing: Improved bug that affected fast drag-dropping of draggable objects (<a href="https://github.com/ScottPlot/ScottPlot/issues/1076">#1076</a>)
 </li>
@@ -4759,7 +4762,7 @@ Description: Release notes for every version of ScottPlot
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/arthurits'>@arthurits</a>, <a href='https://github.com/rutkowskit'>@rutkowskit</a>, <a href='https://github.com/EFeru'>@EFeru</a>, <a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/breakwinz'>@breakwinz</a>, <a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/RamsayGit'>@RamsayGit</a>, <a href='https://github.com/Orace'>@Orace</a>, <a href='https://github.com/kegesch'>@kegesch</a>, <a href='https://github.com/Maoyao233'>@Maoyao233</a>, <a href='https://github.com/Nextra'>@Nextra</a>, <a href='https://github.com/petersesztak'>@petersesztak</a>, <a href='https://github.com/at2software'>@at2software</a>, <a href='https://github.com/kkaiser41'>@kkaiser41</a>, <a href='https://github.com/hhubschle'>@hhubschle</a>, <a href='https://github.com/gigios'>@gigios</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/arthurits'>@arthurits</a>, <a href='https://github.com/rutkowskit'>@rutkowskit</a>, <a href='https://github.com/EFeru'>@EFeru</a>, <a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/breakwinz'>@breakwinz</a>, <a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/ramsayamarin'>@ramsayamarin</a>, <a href='https://github.com/Orace'>@Orace</a>, <a href='https://github.com/kegesch'>@kegesch</a>, <a href='https://github.com/Maoyao233'>@Maoyao233</a>, <a href='https://github.com/Nextra'>@Nextra</a>, <a href='https://github.com/petersesztak'>@petersesztak</a>, <a href='https://github.com/at2software'>@at2software</a>, <a href='https://github.com/kkaiser41'>@kkaiser41</a>, <a href='https://github.com/hhubschle'>@hhubschle</a>, <a href='https://github.com/gigios'>@gigios</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/arthurits'><img src='https://scottplot.net/images/contributors/arthurits.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -4768,7 +4771,7 @@ Description: Release notes for every version of ScottPlot
 <a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/breakwinz'><img src='https://scottplot.net/images/contributors/breakwinz.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/RamsayGit'><img src='https://scottplot.net/images/contributors/ramsaygit.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/ramsayamarin'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Orace'><img src='https://scottplot.net/images/contributors/orace.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/kegesch'><img src='https://scottplot.net/images/contributors/kegesch.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Maoyao233'><img src='https://scottplot.net/images/contributors/maoyao233.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
