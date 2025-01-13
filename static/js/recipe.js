@@ -71,3 +71,32 @@ function set_language(name) {
 function set_language_button_clicked(button) {
     set_language(button.innerText);
 }
+
+function copy_button_clicked(button) {
+    const walker = document.createTreeWalker(
+        document.body,
+        NodeFilter.SHOW_ELEMENT,
+        {
+            acceptNode: node => node.tagName === 'CODE'
+                ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_SKIP
+        }
+    );
+    walker.currentNode = button;
+    const codeBlock = walker.nextNode();
+
+    const name = localStorage.getItem("startupLanguage");
+    code = "";
+    if (name == "Console") {
+        code = codeBlock.innerHTML;
+    } else if (name == "WinForms") {
+        code = getControlCode(codeBlock.innerHTML, 'formsPlot1');
+    } else if (name == "WPF") {
+        code = getControlCode(codeBlock.innerHTML, 'WpfPlot1');
+    } else if (name == "Other") {
+        code = getControlCode(codeBlock.innerHTML, 'MyPlotControl');
+    } else {
+        console.error("unknown language: " + name)
+    }
+
+    navigator.clipboard.writeText(code);
+}
