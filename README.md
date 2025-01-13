@@ -9,7 +9,7 @@
 This website uses [Hugo](https://gohugo.io/) to convert Markdown content into HTML files
 
 * Get the [latest Hugo release from GitHub](https://github.com/gohugoio/hugo/releases) and ensure it is in your `PATH`\
-  _Binaries are available for Windows, Linux, and MacOS_
+  _Use the same Hugo version defined in [cicd.yaml](.github/workflows/cicd.yaml)_
 
 * Run `hugo serve` and navigate to http://localhost:1313 to see the site locally
 
