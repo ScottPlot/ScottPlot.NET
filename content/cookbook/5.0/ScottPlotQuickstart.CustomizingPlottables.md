@@ -1,6 +1,6 @@
 ---
 Title: Customizing Plottables - ScottPlot 5.0 Cookbook
-Description: Most methods which add items to plots return the item the was added. Save the object that is returned and set its properties to customize it.
+Description: Most methods which add items to plots return the item that was added. Save the object that is returned and set its properties to customize it.
 URL: /cookbook/5.0/ScottPlotQuickstart/CustomizingPlottables/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Quickstart", "Customizing Plottables"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/ScottPlotQuickstart", "/cookbook/5.0/ScottPlotQuickstart/CustomizingPlottables"]
@@ -16,7 +16,7 @@ ShowEditLink: false
 <h1 class='me-2 text-dark my-0 border-0'>Customizing Plottables</h1>
 </div>
 
-Most methods which add items to plots return the item the was added. Save the object that is returned and set its properties to customize it.
+Most methods which add items to plots return the item that was added. Save the object that is returned and set its properties to customize it.
 
 [![](/cookbook/5.0/images/CustomizingPlottables.png?250112204022)](/cookbook/5.0/images/CustomizingPlottables.png?250112204022)
 
