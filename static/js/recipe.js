@@ -87,13 +87,13 @@ function copy_button_clicked(button) {
     const name = localStorage.getItem("startupLanguage");
     code = "";
     if (name == "Console") {
-        code = codeBlock.innerHTML;
+        code = codeBlock.textContent;
     } else if (name == "WinForms") {
-        code = getControlCode(codeBlock.innerHTML, 'formsPlot1');
+        code = getControlCode(codeBlock.textContent, 'formsPlot1');
     } else if (name == "WPF") {
-        code = getControlCode(codeBlock.innerHTML, 'WpfPlot1');
+        code = getControlCode(codeBlock.textContent, 'WpfPlot1');
     } else if (name == "Other") {
-        code = getControlCode(codeBlock.innerHTML, 'MyPlotControl');
+        code = getControlCode(codeBlock.textContent, 'MyPlotControl');
     } else {
         console.error("unknown language: " + name)
     }
