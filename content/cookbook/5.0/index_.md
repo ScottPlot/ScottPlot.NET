@@ -77,7 +77,7 @@ ShowEditLink: false
 <li><a href='/cookbook/5.0/VectorField'>Vector Field</a> - Vector fields display a collection of vectors rooted at points in coordinate space</li>
 </ul>
 <h1>General</h1>
-<h2 class=''><a href='/cookbook/5.0/ScottPlotQuickstart' class='text-dark'>Quickstart</a></h2>
+</details>  <details> <summary><h2 class=''><a href='/cookbook/5.0/ScottPlotQuickstart' class='text-dark'>Quickstart</a></h2></summary>
 <div>A survey of basic functionality in ScottPlot 5</div>
 <div class='row my-4'>
 <div class='col'>
@@ -124,7 +124,7 @@ ShowEditLink: false
 <div>Plots have helper methods for quickly setting axis labels. Refer to other cookbook pages for additional axis customization options.</div>
 </div>
 </div>
-<h2 class=''><a href='/cookbook/5.0/PlottableManagement' class='text-dark'>Plottable Management</a></h2>
+</details>  <details> <summary><h2 class=''><a href='/cookbook/5.0/PlottableManagement' class='text-dark'>Plottable Management</a></h2></summary>
 <div>How to add, remove, and reorder items in plots</div>
 <div class='row my-4'>
 <div class='col'>
@@ -171,7 +171,7 @@ ShowEditLink: false
 <div>The plottable list contains all plottables which will be rendered in order. Helper methods are available to move plottables to the front.</div>
 </div>
 </div>
-<h2 class=''><a href='/cookbook/5.0/Layout' class='text-dark'>Layout</a></h2>
+</details>  <details> <summary><h2 class=''><a href='/cookbook/5.0/Layout' class='text-dark'>Layout</a></h2></summary>
 <div>How to customize data area size and figure padding</div>
 <div class='row my-4'>
 <div class='col'>
@@ -200,7 +200,7 @@ ShowEditLink: false
 <div>The plot can be arranged so the data is drawn inside a fixed rectangle defined in pixel units</div>
 </div>
 </div>
-<h2 class=''><a href='/cookbook/5.0/MultiplotRecipes' class='text-dark'>Multiplot</a></h2>
+</details>  <details> <summary><h2 class=''><a href='/cookbook/5.0/MultiplotRecipes' class='text-dark'>Multiplot</a></h2></summary>
 <div>Use Multiplot to create figures with multiple subplots</div>
 <div class='row my-4'>
 <div class='col'>
@@ -238,7 +238,7 @@ ShowEditLink: false
 <div>The Multiplot's Layout property may be configured to achieve a fully custom layout.</div>
 </div>
 </div>
-<h2 class=''><a href='/cookbook/5.0/DataGen' class='text-dark'>Sample Data</a></h2>
+</details>  <details> <summary><h2 class=''><a href='/cookbook/5.0/DataGen' class='text-dark'>Sample Data</a></h2></summary>
 <div>ScottPlot has many built-in utilities for generating sample data.</div>
 <div class='row my-4'>
 <div class='col'>
@@ -249,7 +249,7 @@ ShowEditLink: false
 <div>This recipe demonstrates creation of a noisy waveform containing multiple sine waves with different frequencies.</div>
 </div>
 </div>
-<h2 class=''><a href='/cookbook/5.0/Histograms' class='text-dark'>Histogram</a></h2>
+</details>  <details> <summary><h2 class=''><a href='/cookbook/5.0/Histograms' class='text-dark'>Histogram</a></h2></summary>
 <div>Histograms graphically represent the distribution of numerical data by grouping values into ranges (bins) and displaying the frequency or count of points in each bin.</div>
 <div class='row my-4'>
 <div class='col'>
@@ -332,7 +332,7 @@ ShowEditLink: false
 <div>A cumulative probability histogram represents the cumulative sum of probabilities or relative frequencies up to each bin, providing a running total of the probability distribution. It is especially useful for evaluating and comparing the distribution of multiple populations.</div>
 </div>
 </div>
-<h2 class=''><a href='/cookbook/5.0/Internationalization' class='text-dark'>Internationalization</a></h2>
+</details>  <details> <summary><h2 class=''><a href='/cookbook/5.0/Internationalization' class='text-dark'>Internationalization</a></h2></summary>
 <div>Using ScottPlot across cultures with different text and numeric requirements.</div>
 <div class='row my-4'>
 <div class='col'>
@@ -352,7 +352,7 @@ ShowEditLink: false
 <div>The Plot's Style class contains a method which automatically sets the fonts of common plot objects to the font most likely able to display the characters they contain.</div>
 </div>
 </div>
-<h2 class=''><a href='/cookbook/5.0/Regression' class='text-dark'>Regression</a></h2>
+</details>  <details> <summary><h2 class=''><a href='/cookbook/5.0/Regression' class='text-dark'>Regression</a></h2></summary>
 <div>Statistical operations to fit lines to data</div>
 <div class='row my-4'>
 <div class='col'>
@@ -363,7 +363,7 @@ ShowEditLink: false
 <div>Fit a line to a collection of X/Y data points.</div>
 </div>
 </div>
-<h2 class=''><a href='/cookbook/5.0/CustomizingGrids' class='text-dark'>Customizing Grids</a></h2>
+</details>  <details> <summary><h2 class=''><a href='/cookbook/5.0/CustomizingGrids' class='text-dark'>Customizing Grids</a></h2></summary>
 <div>Advanced customization of grid lines</div>
 <div class='row my-4'>
 <div class='col'>
@@ -428,7 +428,7 @@ ShowEditLink: false
 <div>Grid and plot styling can be customize to achieve a pleasing effect in dark mode</div>
 </div>
 </div>
-<h2 class=''><a href='/cookbook/5.0/Miscellaneous' class='text-dark'>Miscellaneous</a></h2>
+</details>  <details> <summary><h2 class=''><a href='/cookbook/5.0/Miscellaneous' class='text-dark'>Miscellaneous</a></h2></summary>
 <div>Miscellaneous features and customization options</div>
 <div class='row my-4'>
 <div class='col'>
@@ -466,7 +466,7 @@ ShowEditLink: false
 <div>Users can apply custom typefaces by loaded from font files.</div>
 </div>
 </div>
-<h2 class=''><a href='/cookbook/5.0/MultiAxis' class='text-dark'>Multiple Axes</a></h2>
+</details>  <details> <summary><h2 class=''><a href='/cookbook/5.0/MultiAxis' class='text-dark'>Multiple Axes</a></h2></summary>
 <div>Tick mark customization and creation of multi-Axis plots</div>
 <div class='row my-4'>
 <div class='col'>
@@ -495,7 +495,7 @@ ShowEditLink: false
 <div>The default Y axis is the one on the left of the plot, but the right Y axis may be used instead.</div>
 </div>
 </div>
-<h2 class=''><a href='/cookbook/5.0/CustomizingTicks' class='text-dark'>Customizing Ticks</a></h2>
+</details>  <details> <summary><h2 class=''><a href='/cookbook/5.0/CustomizingTicks' class='text-dark'>Customizing Ticks</a></h2></summary>
 <div>Advanced customization of tick marks and tick labels</div>
 <div class='row my-4'>
 <div class='col'>
@@ -623,7 +623,7 @@ ShowEditLink: false
 <div>The appearance of logarithmic scaling can be achieved by log-scaling the data to be displayed then customizing the minor ticks and grid.</div>
 </div>
 </div>
-<h2 class=''><a href='/cookbook/5.0/AxisAndTicks' class='text-dark'>Axis and Ticks</a></h2>
+</details>  <details> <summary><h2 class=''><a href='/cookbook/5.0/AxisAndTicks' class='text-dark'>Axis and Ticks</a></h2></summary>
 <div>Examples of common customizations for axis labels and ticks</div>
 <div class='row my-4'>
 <div class='col'>
@@ -778,7 +778,7 @@ ShowEditLink: false
 <div>Numeric tick labels may be displayed using multiplier notation (where tick labels are displayed using scientific notation with the eponent displayed in the corner of the plot). A helper method is available to set-up multiplier notation with a single statement, but users can interact with the object this method returns (not shown here) or inspect the code inside of that method to learn how to achieve enhanced customization abilities.</div>
 </div>
 </div>
-<h2 class=''><a href='/cookbook/5.0/Legend' class='text-dark'>Legends</a></h2>
+</details>  <details> <summary><h2 class=''><a href='/cookbook/5.0/Legend' class='text-dark'>Legends</a></h2></summary>
 <div>A legend is a key typically displayed in the corner of a plot</div>
 <div class='row my-4'>
 <div class='col'>
@@ -870,7 +870,7 @@ ShowEditLink: false
 <div>Use custom fonts from TTF files in the legend (manual legend items).</div>
 </div>
 </div>
-<h2 class=''><a href='/cookbook/5.0/Styling' class='text-dark'>Styling Plots</a></h2>
+</details>  <details> <summary><h2 class=''><a href='/cookbook/5.0/Styling' class='text-dark'>Styling Plots</a></h2></summary>
 <div>How to customize appearance of plots</div>
 <div class='row my-4'>
 <div class='col'>
@@ -981,7 +981,7 @@ ShowEditLink: false
 </div>
 </div>
 <h1>Plot Types</h1>
-<h2 class=''><a href='/cookbook/5.0/Annotation' class='text-dark'>Annotation</a></h2>
+</details>  <details> <summary><h2 class=''><a href='/cookbook/5.0/Annotation' class='text-dark'>Annotation</a></h2></summary>
 <div>Annotations are always-visible text labels positioned over the data area.</div>
 <div class='row my-4'>
 <div class='col'>
@@ -1010,7 +1010,7 @@ ShowEditLink: false
 <div>Annotations are aligned with the data area.</div>
 </div>
 </div>
-<h2 class=''><a href='/cookbook/5.0/ArrowCoordinated' class='text-dark'>Arrow</a></h2>
+</details>  <details> <summary><h2 class=''><a href='/cookbook/5.0/ArrowCoordinated' class='text-dark'>Arrow</a></h2></summary>
 <div>Arrows point to a location in coordinate space.</div>
 <div class='row my-4'>
 <div class='col'>
@@ -1021,7 +1021,7 @@ ShowEditLink: false
 <div>Arrows can be placed on plots to point to a location in coordinate space and extensively customized.</div>
 </div>
 </div>
-<h2 class=''><a href='/cookbook/5.0/AxisLines' class='text-dark'>Axis Lines</a></h2>
+</details>  <details> <summary><h2 class=''><a href='/cookbook/5.0/AxisLines' class='text-dark'>Axis Lines</a></h2></summary>
 <div>Axis lines indicate a position on an axis.</div>
 <div class='row my-4'>
 <div class='col'>
@@ -1086,7 +1086,7 @@ ShowEditLink: false
 <div>Axis lines extend infinitely in both directions by default, but upper and lower limits may be specified to limit the dimensions of axis lines.</div>
 </div>
 </div>
-<h2 class=''><a href='/cookbook/5.0/AxisSpans' class='text-dark'>Axis Spans</a></h2>
+</details>  <details> <summary><h2 class=''><a href='/cookbook/5.0/AxisSpans' class='text-dark'>Axis Spans</a></h2></summary>
 <div>Axis spans indicate a range of an axis.</div>
 <div class='row my-4'>
 <div class='col'>
@@ -1106,7 +1106,7 @@ ShowEditLink: false
 <div>Axis spans can be extensively customized.</div>
 </div>
 </div>
-<h2 class=''><a href='/cookbook/5.0/Bar' class='text-dark'>Bar Plot</a></h2>
+</details>  <details> <summary><h2 class=''><a href='/cookbook/5.0/Bar' class='text-dark'>Bar Plot</a></h2></summary>
 <div>Bar plots represent values as horizontal or vertical rectangles</div>
 <div class='row my-4'>
 <div class='col'>
@@ -1270,7 +1270,7 @@ ShowEditLink: false
 <div>Horizontally oriented stacked range charts may be created</div>
 </div>
 </div>
-<h2 class=''><a href='/cookbook/5.0/Box' class='text-dark'>Box Plot</a></h2>
+</details>  <details> <summary><h2 class=''><a href='/cookbook/5.0/Box' class='text-dark'>Box Plot</a></h2></summary>
 <div>Box plots show a distribution at a glance</div>
 <div class='row my-4'>
 <div class='col'>
@@ -1290,7 +1290,7 @@ ShowEditLink: false
 <div>Each collection of boxes added to the plot gets styled the same and appears as a single item in the legend. Add multiple bar series plots with defined X positions to give the appearance of grouped data.</div>
 </div>
 </div>
-<h2 class=''><a href='/cookbook/5.0/Bracket' class='text-dark'>Bracket</a></h2>
+</details>  <details> <summary><h2 class=''><a href='/cookbook/5.0/Bracket' class='text-dark'>Bracket</a></h2></summary>
 <div>Brackets annotate a range along a line in coordinate space</div>
 <div class='row my-4'>
 <div class='col'>
@@ -1301,7 +1301,7 @@ ShowEditLink: false
 <div>Brackets are useful for annotating linear ranges of data.</div>
 </div>
 </div>
-<h2 class=''><a href='/cookbook/5.0/Callout' class='text-dark'>Callout</a></h2>
+</details>  <details> <summary><h2 class=''><a href='/cookbook/5.0/Callout' class='text-dark'>Callout</a></h2></summary>
 <div>Callouts display a label and are connected with an arrow that marks a point on the plot.</div>
 <div class='row my-4'>
 <div class='col'>
@@ -1312,7 +1312,7 @@ ShowEditLink: false
 <div>Callouts display a label and are connected with an arrow that marks a point on the plot.</div>
 </div>
 </div>
-<h2 class=''><a href='/cookbook/5.0/Contour' class='text-dark'>Contour Plot</a></h2>
+</details>  <details> <summary><h2 class=''><a href='/cookbook/5.0/Contour' class='text-dark'>Contour Plot</a></h2></summary>
 <div>A contour plot is a graphical representation that shows the three-dimensional surface of a function on a two-dimensional plane by connecting points of equal value with contour lines</div>
 <div class='row my-4'>
 <div class='col'>
@@ -1350,7 +1350,7 @@ ShowEditLink: false
 <div>If a colormap is provided it will be used to color each line in the colormap according to its value.</div>
 </div>
 </div>
-<h2 class=''><a href='/cookbook/5.0/Coxcomb' class='text-dark'>Coxcomb Plot</a></h2>
+</details>  <details> <summary><h2 class=''><a href='/cookbook/5.0/Coxcomb' class='text-dark'>Coxcomb Plot</a></h2></summary>
 <div>A Coxcomb chart is a pie graph where the angle of slices is constant but the radii are not.</div>
 <div class='row my-4'>
 <div class='col'>
@@ -1361,7 +1361,7 @@ ShowEditLink: false
 <div>A Coxcomb chart is a pie graph where the angle of slices is constant but the radii are not.</div>
 </div>
 </div>
-<h2 class=''><a href='/cookbook/5.0/Crosshair' class='text-dark'>Crosshair</a></h2>
+</details>  <details> <summary><h2 class=''><a href='/cookbook/5.0/Crosshair' class='text-dark'>Crosshair</a></h2></summary>
 <div>A Crosshair combines a horizontal axis line and vertical axis line to mark a location in coordinate space.</div>
 <div class='row my-4'>
 <div class='col'>
@@ -1381,7 +1381,7 @@ ShowEditLink: false
 <div>Crosshairs can be extensively customized.</div>
 </div>
 </div>
-<h2 class=''><a href='/cookbook/5.0/Ellipse' class='text-dark'>Ellipse</a></h2>
+</details>  <details> <summary><h2 class=''><a href='/cookbook/5.0/Ellipse' class='text-dark'>Ellipse</a></h2></summary>
 <div>Ellipses are curves with a defined center and distinct X and Y radii. A circle is an ellipse with an X radius equal to its Y radius.</div>
 <div class='row my-4'>
 <div class='col'>
@@ -1428,7 +1428,7 @@ ShowEditLink: false
 <div>Ellipses can also be rotated</div>
 </div>
 </div>
-<h2 class=''><a href='/cookbook/5.0/ErrorBar' class='text-dark'>Error Bars</a></h2>
+</details>  <details> <summary><h2 class=''><a href='/cookbook/5.0/ErrorBar' class='text-dark'>Error Bars</a></h2></summary>
 <div>Error Bars communicate the range of possible values for a measurement</div>
 <div class='row my-4'>
 <div class='col'>
@@ -1448,7 +1448,7 @@ ShowEditLink: false
 <div>Error size can be set for all dimensions.</div>
 </div>
 </div>
-<h2 class=''><a href='/cookbook/5.0/FillY' class='text-dark'>FillY plot</a></h2>
+</details>  <details> <summary><h2 class=''><a href='/cookbook/5.0/FillY' class='text-dark'>FillY plot</a></h2></summary>
 <div>FillY plots display the vertical range between two Y values at defined X positions</div>
 <div class='row my-4'>
 <div class='col'>
@@ -1495,7 +1495,7 @@ ShowEditLink: false
 <div>A line plot with shaded error range may be achieved by layering a FillY beneath a ScatterLine.</div>
 </div>
 </div>
-<h2 class=''><a href='/cookbook/5.0/Finance' class='text-dark'>Financial Plot</a></h2>
+</details>  <details> <summary><h2 class=''><a href='/cookbook/5.0/Finance' class='text-dark'>Financial Plot</a></h2></summary>
 <div>Finance plots display price data binned into time ranges</div>
 <div class='row my-4'>
 <div class='col'>
@@ -1605,7 +1605,7 @@ ShowEditLink: false
 <div>A special axis system has been created for financial charts. Unlike standard DateTime axes which assume the horizontal scale is linearly spaced time, the financial DateTime system allows for dates to be skipped. This is ideal for financial charts where date ranges are skipped such as after-hours trading or non-trading days.</div>
 </div>
 </div>
-<h2 class=''><a href='/cookbook/5.0/Function' class='text-dark'>Function</a></h2>
+</details>  <details> <summary><h2 class=''><a href='/cookbook/5.0/Function' class='text-dark'>Function</a></h2></summary>
 <div>Function plots are a type of line plot where Y positions are defined by a function that depends on X rather than a collection of discrete data points.</div>
 <div class='row my-4'>
 <div class='col'>
@@ -1634,7 +1634,7 @@ ShowEditLink: false
 <div>When a function cannot be represented as a static method (e.g., one that requires custom parameters) it can be represented as variable of type Func<double, double> and plotted accordingly.</div>
 </div>
 </div>
-<h2 class=''><a href='/cookbook/5.0/Heatmap' class='text-dark'>Heatmap</a></h2>
+</details>  <details> <summary><h2 class=''><a href='/cookbook/5.0/Heatmap' class='text-dark'>Heatmap</a></h2></summary>
 <div>Heatmaps display values from 2D data as an image with cells of different intensities</div>
 <div class='row my-4'>
 <div class='col'>
@@ -1798,7 +1798,7 @@ ShowEditLink: false
 <div>Heatmaps can be displayed on plots which use dates instead of numbers on the horizontal axis.</div>
 </div>
 </div>
-<h2 class=''><a href='/cookbook/5.0/Images' class='text-dark'>Images</a></h2>
+</details>  <details> <summary><h2 class=''><a href='/cookbook/5.0/Images' class='text-dark'>Images</a></h2></summary>
 <div>Images can be placed on plots in a variety of ways</div>
 <div class='row my-4'>
 <div class='col'>
@@ -1809,7 +1809,7 @@ ShowEditLink: false
 <div>An image can be drawn inside a rectangle defined in coordinate units.</div>
 </div>
 </div>
-<h2 class=''><a href='/cookbook/5.0/LinePlot' class='text-dark'>Line Plot</a></h2>
+</details>  <details> <summary><h2 class=''><a href='/cookbook/5.0/LinePlot' class='text-dark'>Line Plot</a></h2></summary>
 <div>Line plots can be placed on the plot in coordinate space using a Start, End, and an optional LineStyle.</div>
 <div class='row my-4'>
 <div class='col'>
@@ -1847,7 +1847,7 @@ ShowEditLink: false
 <div>Markers may be displayed at the ends of lines, and a flag controls whether the markers are drawn above or below the line.</div>
 </div>
 </div>
-<h2 class=''><a href='/cookbook/5.0/LiveData' class='text-dark'>Live Data</a></h2>
+</details>  <details> <summary><h2 class=''><a href='/cookbook/5.0/LiveData' class='text-dark'>Live Data</a></h2></summary>
 <div>Plottables like DataLogger and DataStreamer are designed for displaying datasets that change in real time. They have the ability to control axis limits to ensure the latest data is always in view. See the ScottPlot Demo for live example of these plot types.</div>
 <div class='row my-4'>
 <div class='col'>
@@ -1876,7 +1876,7 @@ ShowEditLink: false
 <div>Values accumulated by a data logger may be edited after they are acquired.</div>
 </div>
 </div>
-<h2 class=''><a href='/cookbook/5.0/Lollipop' class='text-dark'>Lollipop Plot</a></h2>
+</details>  <details> <summary><h2 class=''><a href='/cookbook/5.0/Lollipop' class='text-dark'>Lollipop Plot</a></h2></summary>
 <div>A lollipop chart is a variation of a bar chart that uses a line (stem) extending from a baseline to a marker (head) to represent data points. Lollipop highlight individual data points with less visual clutter than to traditional bar charts.</div>
 <div class='row my-4'>
 <div class='col'>
@@ -1914,7 +1914,7 @@ ShowEditLink: false
 <div>Change the lollipop plot's Orientation to Horizontal to cause stems to be drawn horizontally instead of vertically.</div>
 </div>
 </div>
-<h2 class=''><a href='/cookbook/5.0/Marker' class='text-dark'>Marker</a></h2>
+</details>  <details> <summary><h2 class=''><a href='/cookbook/5.0/Marker' class='text-dark'>Marker</a></h2></summary>
 <div>Markers can be placed on the plot in coordinate space.</div>
 <div class='row my-4'>
 <div class='col'>
@@ -1970,7 +1970,7 @@ ShowEditLink: false
 <div>An ImageMarker can be placed on the plot to display an image centered at a location in coordinate space.</div>
 </div>
 </div>
-<h2 class=''><a href='/cookbook/5.0/Phasor' class='text-dark'>Phasor Plot</a></h2>
+</details>  <details> <summary><h2 class=''><a href='/cookbook/5.0/Phasor' class='text-dark'>Phasor Plot</a></h2></summary>
 <div>Phasor plots display vectors on a radial axis centered at the origin</div>
 <div class='row my-4'>
 <div class='col'>
@@ -1990,7 +1990,7 @@ ShowEditLink: false
 <div>Text labels may be applied to individual arrows of a phasor plot.</div>
 </div>
 </div>
-<h2 class=''><a href='/cookbook/5.0/Pie' class='text-dark'>Pie</a></h2>
+</details>  <details> <summary><h2 class=''><a href='/cookbook/5.0/Pie' class='text-dark'>Pie</a></h2></summary>
 <div>Pie charts illustrate numerical proportions as slices of a circle.</div>
 <div class='row my-4'>
 <div class='col'>
@@ -2064,7 +2064,7 @@ ShowEditLink: false
 <div>Pie slices may have labels independent from those displayed in the legend.</div>
 </div>
 </div>
-<h2 class=''><a href='/cookbook/5.0/PolarAxis' class='text-dark'>Polar Axis</a></h2>
+</details>  <details> <summary><h2 class=''><a href='/cookbook/5.0/PolarAxis' class='text-dark'>Polar Axis</a></h2></summary>
 <div>Create a polar axis and add it to the plot to display data on a circular coordinate system.</div>
 <div class='row my-4'>
 <div class='col'>
@@ -2138,7 +2138,7 @@ ShowEditLink: false
 <div>Combining a polar axis with polygons is an alternative strategy for building radar plots.</div>
 </div>
 </div>
-<h2 class=''><a href='/cookbook/5.0/Population' class='text-dark'>Population Plot</a></h2>
+</details>  <details> <summary><h2 class=''><a href='/cookbook/5.0/Population' class='text-dark'>Population Plot</a></h2></summary>
 <div>Population plots display collections of individual values.</div>
 <div class='row my-4'>
 <div class='col'>
@@ -2212,7 +2212,7 @@ ShowEditLink: false
 <div>Groups of populations can be achieved by customizing position, color, axis labels, and legend items.</div>
 </div>
 </div>
-<h2 class=''><a href='/cookbook/5.0/Radar' class='text-dark'>Radar Plot</a></h2>
+</details>  <details> <summary><h2 class=''><a href='/cookbook/5.0/Radar' class='text-dark'>Radar Plot</a></h2></summary>
 <div>Radar charts (also called a spider charts or star charts) represent multi-axis data as a 2D shape on axes arranged circularly around a center point.</div>
 <div class='row my-4'>
 <div class='col'>
@@ -2277,7 +2277,7 @@ ShowEditLink: false
 <div>Radial ticks may be rendered using straight lines instead of circles</div>
 </div>
 </div>
-<h2 class=''><a href='/cookbook/5.0/RadialGauge' class='text-dark'>Radial gauge</a></h2>
+</details>  <details> <summary><h2 class=''><a href='/cookbook/5.0/RadialGauge' class='text-dark'>Radial gauge</a></h2></summary>
 <div>A radial gauge chart displays scalar data as circular gauges.</div>
 <div class='row my-4'>
 <div class='col'>
@@ -2432,7 +2432,7 @@ ShowEditLink: false
 <div>Gauge backgrounds are drawn as full circles by default. This behavior can be disabled to draw partial backgrounds for non-circular gauges.</div>
 </div>
 </div>
-<h2 class=''><a href='/cookbook/5.0/ScaleBar' class='text-dark'>Scale Bar</a></h2>
+</details>  <details> <summary><h2 class=''><a href='/cookbook/5.0/ScaleBar' class='text-dark'>Scale Bar</a></h2></summary>
 <div>Scalebars display a horizontal and/or vertical range using a line segment and may be used to convey axis scale as a minimal alternative to using axis frames, ticks, and tick labels.</div>
 <div class='row my-4'>
 <div class='col'>
@@ -2470,7 +2470,7 @@ ShowEditLink: false
 <div>Set Width or Height to 0 to cause the ScaleBar to use a single axis only</div>
 </div>
 </div>
-<h2 class=''><a href='/cookbook/5.0/Scatter' class='text-dark'>Scatter Plot</a></h2>
+</details>  <details> <summary><h2 class=''><a href='/cookbook/5.0/Scatter' class='text-dark'>Scatter Plot</a></h2></summary>
 <div>Scatter plots display points at X/Y locations in coordinate space.</div>
 <div class='row my-4'>
 <div class='col'>
@@ -2679,7 +2679,7 @@ ShowEditLink: false
 <div>Demonstrates how to combine filled scatter plots with vertical and horizontal offsets to achieve an interesting visual effect.</div>
 </div>
 </div>
-<h2 class=''><a href='/cookbook/5.0/Shapes' class='text-dark'>Shapes</a></h2>
+</details>  <details> <summary><h2 class=''><a href='/cookbook/5.0/Shapes' class='text-dark'>Shapes</a></h2></summary>
 <div>Basic shapes that can be added to plots</div>
 <div class='row my-4'>
 <div class='col'>
@@ -2735,7 +2735,7 @@ ShowEditLink: false
 <div>A stacked line chart may be achieved by combining primitive shapes onto a plot.</div>
 </div>
 </div>
-<h2 class=''><a href='/cookbook/5.0/Signal' class='text-dark'>Signal Plot</a></h2>
+</details>  <details> <summary><h2 class=''><a href='/cookbook/5.0/Signal' class='text-dark'>Signal Plot</a></h2></summary>
 <div>Signal plots display evenly-spaced data</div>
 <div class='row my-4'>
 <div class='col'>
@@ -2809,7 +2809,7 @@ ShowEditLink: false
 <div>A signal plot may use DateTime units but be sure to setup the respective axis to display using DateTime format.</div>
 </div>
 </div>
-<h2 class=''><a href='/cookbook/5.0/SignalConst' class='text-dark'>SignalConst</a></h2>
+</details>  <details> <summary><h2 class=''><a href='/cookbook/5.0/SignalConst' class='text-dark'>SignalConst</a></h2></summary>
 <div>SignalConst is a type of signal plot which contains immutable data points and occupies more memory but offers greater performance for extremely large datasets. It is rarely needed, but best use for plotting data containing millions of points.</div>
 <div class='row my-4'>
 <div class='col'>
@@ -2820,7 +2820,7 @@ ShowEditLink: false
 <div>SignalConst can display data with millions of points at high framerates, ideal for interactive manipulation of large datasets.</div>
 </div>
 </div>
-<h2 class=''><a href='/cookbook/5.0/SignalXY' class='text-dark'>SignalXY Plot</a></h2>
+</details>  <details> <summary><h2 class=''><a href='/cookbook/5.0/SignalXY' class='text-dark'>SignalXY Plot</a></h2></summary>
 <div>SignalXY are a high performance plot type optimized for X/Y pairs where the X values are always ascending. For large datasets SignalXY plots are much more performant than Scatter plots (which allow unordered X points) but not as performant as Signal plots (which require fixed spacing between X points).</div>
 <div class='row my-4'>
 <div class='col'>
@@ -2912,7 +2912,7 @@ ShowEditLink: false
 <div>Users can enable a marker to be displayedat each data point. However, this can reduce performance for extremely large datasets.</div>
 </div>
 </div>
-<h2 class=''><a href='/cookbook/5.0/SmithChart' class='text-dark'>Smith Chart</a></h2>
+</details>  <details> <summary><h2 class=''><a href='/cookbook/5.0/SmithChart' class='text-dark'>Smith Chart</a></h2></summary>
 <div>Create a Smith chart axis and add it to the plot to display impedance of RF signals using a horizontal axis indicating resistance and vertical axis indicating reactance.</div>
 <div class='row my-4'>
 <div class='col'>
@@ -2923,7 +2923,7 @@ ShowEditLink: false
 <div>Add a Smith chart to the plot and use its methods to translate impedance to Cartesian coordinates that can be used for placing other plot components.</div>
 </div>
 </div>
-<h2 class=''><a href='/cookbook/5.0/Text' class='text-dark'>Text</a></h2>
+</details>  <details> <summary><h2 class=''><a href='/cookbook/5.0/Text' class='text-dark'>Text</a></h2></summary>
 <div>Text labels can be placed on the plot in coordinate space</div>
 <div class='row my-4'>
 <div class='col'>
@@ -2961,7 +2961,7 @@ ShowEditLink: false
 <div>The offset properties can be used to fine-tune text position in pixel units</div>
 </div>
 </div>
-<h2 class=''><a href='/cookbook/5.0/TriangularAxis' class='text-dark'>Triangular Axis</a></h2>
+</details>  <details> <summary><h2 class=''><a href='/cookbook/5.0/TriangularAxis' class='text-dark'>Triangular Axis</a></h2></summary>
 <div>Create a triangular axis and add it to the plot to display data on a triangular coordinate system.</div>
 <div class='row my-4'>
 <div class='col'>
@@ -3008,7 +3008,7 @@ ShowEditLink: false
 <div>Triangular axis edges have a helper method to easily add a title and color all the edge components similarly.</div>
 </div>
 </div>
-<h2 class=''><a href='/cookbook/5.0/VectorField' class='text-dark'>Vector Field</a></h2>
+</details>  <details> <summary><h2 class=''><a href='/cookbook/5.0/VectorField' class='text-dark'>Vector Field</a></h2></summary>
 <div>Vector fields display a collection of vectors rooted at points in coordinate space</div>
 <div class='row my-4'>
 <div class='col'>
