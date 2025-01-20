@@ -51,11 +51,19 @@
             reportBannerState();
         }
 
-        const hideBannerAtStartup = JSON.parse(localStorage.getItem("bannerIsHidden")) == true;
-        if (hideBannerAtStartup) {
-            toggleBannerVisibility();
-        } else {
+        try {
+            const hideBannerAtStartup = JSON.parse(localStorage.getItem("bannerIsHidden")) == true;
+            if (hideBannerAtStartup) {
+                toggleBannerVisibility();
+            } else {
+                reportBannerState();
+            }
+        } catch (error) {
+            // fallback in case local storage access fails
+            console.error(error);
             reportBannerState();
         }
+
+
     </script>
 </div>
