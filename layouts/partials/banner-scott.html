@@ -54,13 +54,14 @@
         try {
             const hideBannerAtStartup = JSON.parse(localStorage.getItem("bannerIsHidden")) == true;
             if (hideBannerAtStartup) {
+                console.log("banner disabled at startup");
                 toggleBannerVisibility();
             } else {
+                console.log("banner visible at startup");
                 reportBannerState();
             }
         } catch (error) {
-            // fallback in case local storage access fails
-            console.error(error);
+            console.log("banner visible at startup (no access to local storage)");
             reportBannerState();
         }
 
