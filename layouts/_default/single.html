@@ -1,5 +1,13 @@
 {{ define "main" }}
 
+{{ $isCookbook := hasPrefix .RelPermalink "/cookbook/" }}
+{{ $isFaq := hasPrefix .RelPermalink "/faq/" }}
+{{ $showBannerScott := or $isCookbook $isFaq }}
+
+{{ if $showBannerScott}}
+{{ partial "banner-scott.html" . }}
+{{ end }}
+
 <article class="my-0">
     <div class="p-2">
         {{ .Content | replaceRE "(<h[1-9] id=\"([^\"]+)\".+)(</h[1-9]+>)"
