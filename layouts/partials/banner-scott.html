@@ -29,6 +29,7 @@
         function reportBannerState() {
             const isHidden = document.getElementById("banner-scott-icon").classList.contains("d-none");
             const url = isHidden ? "/pulse/log/?banner-hidden" : "/pulse/log/?banner-seen";
+            console.log("updating banner state");
             fetch(url, { cache: "no-store" });
         }
 
