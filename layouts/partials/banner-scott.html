@@ -26,11 +26,25 @@
 
     <script>
 
+        function randomString(length) {
+            let result = '';
+            const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+            const charactersLength = characters.length;
+            let counter = 0;
+            while (counter < length) {
+                result += characters.charAt(Math.floor(Math.random() * charactersLength));
+                counter += 1;
+            }
+            return result;
+        }
+
         function reportBannerState() {
             const isHidden = document.getElementById("banner-scott-icon").classList.contains("d-none");
             const url = isHidden ? "/pulse/log/?banner-hidden" : "/pulse/log/?banner-seen";
-            console.log("updating banner state");
-            fetch(url, { cache: "no-store" });
+            const requestId = randomString(7);
+            const urlUnique = `${url}-${requestId}`
+            console.log(`updating banner state ${requestId}`);
+            fetch(urlUnique);
         }
 
         function toggleBannerVisibility() {
