@@ -43,7 +43,6 @@
             const url = isHidden ? "/pulse/log/?banner-hidden" : "/pulse/log/?banner-seen";
             const requestId = randomString(7);
             const urlUnique = `${url}-${requestId}`
-            console.log(`updating banner state ${requestId}`);
             fetch(urlUnique);
         }
 
@@ -69,14 +68,11 @@
         try {
             const hideBannerAtStartup = JSON.parse(localStorage.getItem("bannerIsHidden")) == true;
             if (hideBannerAtStartup) {
-                console.log("banner disabled at startup");
                 toggleBannerVisibility();
             } else {
-                console.log("banner visible at startup");
                 reportBannerState();
             }
         } catch (error) {
-            console.log("banner visible at startup (no access to local storage)");
             reportBannerState();
         }
 
