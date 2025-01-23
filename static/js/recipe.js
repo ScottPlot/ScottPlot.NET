@@ -99,4 +99,7 @@ function copy_button_clicked(button) {
     }
 
     navigator.clipboard.writeText(code);
+
+    button.children[0].classList.remove("code-copied-button-hidden");
+    setTimeout(() => button.children[0].classList.add("code-copied-button-hidden"), 100);
 }
