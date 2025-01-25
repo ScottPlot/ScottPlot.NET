@@ -4,6 +4,40 @@ Description: Release notes for every version of ScottPlot
 ---
 
 <section class='mb-5'>
+<h1 class='mb-0'>ScottPlot 5.0.54</h1>
+<div><i>NuGet packages published </i></div>
+<div class='mt-1'>
+<ul>
+<li>Multiplot: Improved API for advanced layout customization. See cookbook and demo application for examples. (<a href="https://github.com/ScottPlot/ScottPlot/issues/4738">#4738</a>)
+</li>
+<li>Multiplot: Use new shared axis manager. <code>Multiplot.ShareY()</code> is now <code>Multiplot.SharedAxes.ShareY()</code> as seen in demo application. (<a href="https://github.com/ScottPlot/ScottPlot/issues/4738">#4738</a>)
+</li>
+<li>Multiplot: Moved state management and pixel lookup logic based on previous renders into the <code>IMultiplot.LastRender</code> property (<a href="https://github.com/ScottPlot/ScottPlot/issues/4738">#4738</a>)
+</li>
+<li>Multiplot: Added <code>Subplots</code> property for plot collection management and replaced <code>IMultiplot.Count</code> with <code>Multiplot.Count()</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/4738">#4738</a>)
+</li>
+<li>Axes: Added <code>IAxis.Collapse()</code> helper method to disable tick generation and set size to zero for a given axis (<a href="https://github.com/ScottPlot/ScottPlot/issues/4738">#4738</a>)
+</li>
+<li>Multiplot: Added <code>CollapseVertically()</code> to collapse space between vertically stacked plots (<a href="https://github.com/ScottPlot/ScottPlot/issues/4738">#4738</a>)
+</li>
+<li>Multiplot: Created <code>DraggableRows()</code> layout to simplify user-resizable multiplots as demonstrated in the demo application (<a href="https://github.com/ScottPlot/ScottPlot/issues/4738">#4738</a>) <a href="https://github.com/VladislavPustovarov"><strong>@VladislavPustovarov</strong></a> <a href="https://github.com/quantfreedom"><strong>@quantfreedom</strong></a>
+</li>
+<li>Axes: Added <code>LockSize()</code> helper method to quickly set <code>MinimumSize</code> and <code>MaximumSize</code> to the same value
+</li>
+</ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/VladislavPustovarov'>@VladislavPustovarov</a>, <a href='https://github.com/quantfreedom'>@quantfreedom</a>, <a href='https://github.com/swharden'>@swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/VladislavPustovarov'><img src='https://scottplot.net/images/contributors/vladislavpustovarov.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/quantfreedom'><img src='https://scottplot.net/images/contributors/quantfreedom.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
+
+</section>
+<section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 5.0.53</h1>
 <div><i>NuGet packages published 2025-01-12</i></div>
 <div class='mt-1'>
