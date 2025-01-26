@@ -34,11 +34,13 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Rendering: Improved detection of changed axis limits and improved behavior of legend item orientation (<a href="https://github.com/ScottPlot/ScottPlot/issues/4722">#4722</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4629">#4629</a>) <a href="https://github.com/aespitia"><strong>@aespitia</strong></a>
 </li>
+<li>Plottables: Added many new shapes like arcs, circle sectors, annular sectors, and more as seen in the cookbook (<a href="https://github.com/ScottPlot/ScottPlot/issues/4739">#4739</a>) <a href="https://github.com/CoderPM2011"><strong>@CoderPM2011</strong></a> <a href="https://github.com/heartacker"><strong>@heartacker</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/VladislavPustovarov'>@VladislavPustovarov</a>, <a href='https://github.com/quantfreedom'>@quantfreedom</a>, <a href='https://github.com/luo-ross'>@luo-ross</a>, <a href='https://github.com/onur-akaydin'>@onur-akaydin</a>, <a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/allrightsreserved'>@allrightsreserved</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/VladislavPustovarov'>@VladislavPustovarov</a>, <a href='https://github.com/quantfreedom'>@quantfreedom</a>, <a href='https://github.com/luo-ross'>@luo-ross</a>, <a href='https://github.com/onur-akaydin'>@onur-akaydin</a>, <a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/allrightsreserved'>@allrightsreserved</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/heartacker'>@heartacker</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/VladislavPustovarov'><img src='https://scottplot.net/images/contributors/vladislavpustovarov.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -48,6 +50,8 @@ Description: Release notes for every version of ScottPlot
 <a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/allrightsreserved'><img src='https://scottplot.net/images/contributors/allrightsreserved.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/aespitia'><img src='https://scottplot.net/images/contributors/aespitia.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/CoderPM2011'><img src='https://scottplot.net/images/contributors/coderpm2011.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/heartacker'><img src='https://scottplot.net/images/contributors/heartacker.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
