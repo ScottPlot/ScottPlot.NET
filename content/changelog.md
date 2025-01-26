@@ -5,7 +5,7 @@ Description: Release notes for every version of ScottPlot
 
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 5.0.54</h1>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2025-01-26</i></div>
 <div class='mt-1'>
 <ul>
 <li>Multiplot: Improved API for advanced layout customization. See cookbook and demo application for examples. (<a href="https://github.com/ScottPlot/ScottPlot/issues/4738">#4738</a>)
