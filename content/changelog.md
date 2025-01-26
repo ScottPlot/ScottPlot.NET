@@ -24,15 +24,27 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Axes: Added <code>LockSize()</code> helper method to quickly set <code>MinimumSize</code> and <code>MaximumSize</code> to the same value
 </li>
+<li>WinForms: improve <code>ScottPlot.Image.GetBitmap()</code> memory management and disposal
+</li>
+<li>Image: Added <code>Scaled()</code> and <code>Resized()</code> methods to help resize existing images in memory
+</li>
+<li>WinForms: Improve support for transparency for plots placed on Forms with background images (<a href="https://github.com/ScottPlot/ScottPlot/issues/4698">#4698</a>) <a href="https://github.com/luo-ross"><strong>@luo-ross</strong></a>
+</li>
+<li>OpenGL: Improved memory management for applications using scatter plots in OpenGL controls (<a href="https://github.com/ScottPlot/ScottPlot/issues/4702">#4702</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4693">#4693</a>) <a href="https://github.com/onur-akaydin"><strong>@onur-akaydin</strong></a> <a href="https://github.com/StendProg"><strong>@StendProg</strong></a> <a href="https://github.com/allrightsreserved"><strong>@allrightsreserved</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/VladislavPustovarov'>@VladislavPustovarov</a>, <a href='https://github.com/quantfreedom'>@quantfreedom</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/VladislavPustovarov'>@VladislavPustovarov</a>, <a href='https://github.com/quantfreedom'>@quantfreedom</a>, <a href='https://github.com/luo-ross'>@luo-ross</a>, <a href='https://github.com/onur-akaydin'>@onur-akaydin</a>, <a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/allrightsreserved'>@allrightsreserved</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/VladislavPustovarov'><img src='https://scottplot.net/images/contributors/vladislavpustovarov.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/quantfreedom'><img src='https://scottplot.net/images/contributors/quantfreedom.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/luo-ross'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/onur-akaydin'><img src='https://scottplot.net/images/contributors/onur-akaydin.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/allrightsreserved'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
