@@ -4,9 +4,9 @@ Description: Histograms may be displayed as the probability for each value falli
 URL: /cookbook/5.0/Histograms/HistogramProbability/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Histogram", "Histogram of Probabilities"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Histograms", "/cookbook/5.0/Histograms/HistogramProbability"]
-Date: 2025-01-13
-Version: ScottPlot 5.0.53
-Version: ScottPlot 5.0.53
+Date: 2025-01-26
+Version: ScottPlot 5.0.55
+Version: ScottPlot 5.0.55
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Histograms may be displayed as the probability for each value falling inside a bin
 
-[![](/cookbook/5.0/images/HistogramProbability.png?250112204022)](/cookbook/5.0/images/HistogramProbability.png?250112204022)
+[![](/cookbook/5.0/images/HistogramProbability.png?250126165944)](/cookbook/5.0/images/HistogramProbability.png?250126165944)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Miscellaneous/Histograms.cs" imageUrl="/cookbook/5.0/images/HistogramProbability.png?250112204022" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Miscellaneous/Histograms.cs" imageUrl="/cookbook/5.0/images/HistogramProbability.png?250126165944" >}}ScottPlot.Plot myPlot = new();
 
 // Create a histogram from a collection of values
 double[] heights = SampleData.MaleHeights();

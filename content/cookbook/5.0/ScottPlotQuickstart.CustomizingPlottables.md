@@ -4,9 +4,9 @@ Description: Most methods which add items to plots return the item the was added
 URL: /cookbook/5.0/ScottPlotQuickstart/CustomizingPlottables/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Quickstart", "Customizing Plottables"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/ScottPlotQuickstart", "/cookbook/5.0/ScottPlotQuickstart/CustomizingPlottables"]
-Date: 2025-01-13
-Version: ScottPlot 5.0.53
-Version: ScottPlot 5.0.53
+Date: 2025-01-26
+Version: ScottPlot 5.0.55
+Version: ScottPlot 5.0.55
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Most methods which add items to plots return the item the was added. Save the object that is returned and set its properties to customize it.
 
-[![](/cookbook/5.0/images/CustomizingPlottables.png?250112204022)](/cookbook/5.0/images/CustomizingPlottables.png?250112204022)
+[![](/cookbook/5.0/images/CustomizingPlottables.png?250126165944)](/cookbook/5.0/images/CustomizingPlottables.png?250126165944)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Quickstart.cs" imageUrl="/cookbook/5.0/images/CustomizingPlottables.png?250112204022" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Quickstart.cs" imageUrl="/cookbook/5.0/images/CustomizingPlottables.png?250126165944" >}}ScottPlot.Plot myPlot = new();
 
 // create sample data
 double[] dataX = { 1, 2, 3, 4, 5 };

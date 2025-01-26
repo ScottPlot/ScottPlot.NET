@@ -4,9 +4,9 @@ Description: The lines of polar axes may be extensively styled. Polar axes have 
 URL: /cookbook/5.0/PolarAxis/PolarAxisStyling/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Polar Axis", "Polar Axis Styling"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/PolarAxis", "/cookbook/5.0/PolarAxis/PolarAxisStyling"]
-Date: 2025-01-13
-Version: ScottPlot 5.0.53
-Version: ScottPlot 5.0.53
+Date: 2025-01-26
+Version: ScottPlot 5.0.55
+Version: ScottPlot 5.0.55
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 The lines of polar axes may be extensively styled. Polar axes have radial spokes (straight lines that extend from the origin to the maximum radius) and circular axis lines (concentric circles centered at the origin).
 
-[![](/cookbook/5.0/images/PolarAxisStyling.png?250112204022)](/cookbook/5.0/images/PolarAxisStyling.png?250112204022)
+[![](/cookbook/5.0/images/PolarAxisStyling.png?250126165944)](/cookbook/5.0/images/PolarAxisStyling.png?250126165944)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/PolarAxis.cs" imageUrl="/cookbook/5.0/images/PolarAxisStyling.png?250112204022" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/PolarAxis.cs" imageUrl="/cookbook/5.0/images/PolarAxisStyling.png?250126165944" >}}ScottPlot.Plot myPlot = new();
 
 var polarAxis = myPlot.Add.PolarAxis();
 

@@ -4,9 +4,9 @@ Description: Enabling hand-drawn line style allows creation of charts that mimic
 URL: /cookbook/5.0/Styling/HandDrawn/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Styling Plots", "Hand Drawn Line Style"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Styling", "/cookbook/5.0/Styling/HandDrawn"]
-Date: 2025-01-13
-Version: ScottPlot 5.0.53
-Version: ScottPlot 5.0.53
+Date: 2025-01-26
+Version: ScottPlot 5.0.55
+Version: ScottPlot 5.0.55
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Enabling hand-drawn line style allows creation of charts that mimic XKCD style graphs which use squiggly lines for comedic effect.
 
-[![](/cookbook/5.0/images/HandDrawn.png?250112204022)](/cookbook/5.0/images/HandDrawn.png?250112204022)
+[![](/cookbook/5.0/images/HandDrawn.png?250126165944)](/cookbook/5.0/images/HandDrawn.png?250126165944)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs" imageUrl="/cookbook/5.0/images/HandDrawn.png?250112204022" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs" imageUrl="/cookbook/5.0/images/HandDrawn.png?250126165944" >}}ScottPlot.Plot myPlot = new();
 
 double[] xs = Generate.Consecutive(100);
 double[] values1 = Generate.Sigmoidal(xs.Length, -1, 2);

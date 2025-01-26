@@ -4,9 +4,9 @@ Description: Use Multiplot to create figures with multiple subplots
 URL: /cookbook/5.0/MultiplotRecipes/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Multiplot"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/MultiplotRecipes"]
-Date: 2025-01-13
-Version: ScottPlot 5.0.53
-Version: ScottPlot 5.0.53
+Date: 2025-01-26
+Version: ScottPlot 5.0.55
+Version: ScottPlot 5.0.55
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -23,18 +23,18 @@ ShowEditLink: false
 
 Use the Multiplot class to create figures with multiple subplots.
 
-[![](/cookbook/5.0/images/MultiplotQuickstart.png?250112204022)](/cookbook/5.0/images/MultiplotQuickstart.png?250112204022)
+[![](/cookbook/5.0/images/MultiplotQuickstart.png?250126165944)](/cookbook/5.0/images/MultiplotQuickstart.png?250126165944)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/MultiplotRecipes.cs" imageUrl="/cookbook/5.0/images/MultiplotQuickstart.png?250112204022" >}}ScottPlot.Multiplot multiplot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/MultiplotRecipes.cs" imageUrl="/cookbook/5.0/images/MultiplotQuickstart.png?250126165944" >}}ScottPlot.Multiplot multiplot = new();
 
-ScottPlot.Plot plot1 = new();
+// configure the multiplot to use 2 subplots
+multiplot.AddPlots(2);
+Plot plot1 = multiplot.Subplots.GetPlot(0);
+Plot plot2 = multiplot.Subplots.GetPlot(1);
+
+// add sample data to each subplot
 plot1.Add.Signal(Generate.Sin());
-
-ScottPlot.Plot plot2 = new();
 plot2.Add.Signal(Generate.Cos());
-
-multiplot.AddPlot(plot1);
-multiplot.AddPlot(plot2);
 
 multiplot.SavePng("demo.png", 400, 400);
 {{< /recipe-sp5 >}}
@@ -52,18 +52,20 @@ multiplot.SavePng("demo.png", 400, 400);
 
 The Multiplot's Layout property may be customized to achieve a column layout.
 
-[![](/cookbook/5.0/images/MultiplotColumns.png?250112204022)](/cookbook/5.0/images/MultiplotColumns.png?250112204022)
+[![](/cookbook/5.0/images/MultiplotColumns.png?250126165944)](/cookbook/5.0/images/MultiplotColumns.png?250126165944)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/MultiplotRecipes.cs" imageUrl="/cookbook/5.0/images/MultiplotColumns.png?250112204022" >}}ScottPlot.Multiplot multiplot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/MultiplotRecipes.cs" imageUrl="/cookbook/5.0/images/MultiplotColumns.png?250126165944" >}}ScottPlot.Multiplot multiplot = new();
 
-ScottPlot.Plot plot1 = new();
+// configure the multiplot to use 2 subplots
+multiplot.AddPlots(2);
+Plot plot1 = multiplot.Subplots.GetPlot(0);
+Plot plot2 = multiplot.Subplots.GetPlot(1);
+
+// add sample data to each subplot
 plot1.Add.Signal(Generate.Sin());
-
-ScottPlot.Plot plot2 = new();
 plot2.Add.Signal(Generate.Cos());
 
-multiplot.AddPlot(plot1);
-multiplot.AddPlot(plot2);
+// apply a custom layout
 multiplot.Layout = new ScottPlot.MultiplotLayouts.Columns();
 
 multiplot.SavePng("demo.png", 400, 400);
@@ -82,18 +84,22 @@ multiplot.SavePng("demo.png", 400, 400);
 
 The Multiplot's Layout property may be customized to achieve a grid layout.
 
-[![](/cookbook/5.0/images/MultiplotGrid.png?250112204022)](/cookbook/5.0/images/MultiplotGrid.png?250112204022)
+[![](/cookbook/5.0/images/MultiplotGrid.png?250126165944)](/cookbook/5.0/images/MultiplotGrid.png?250126165944)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/MultiplotRecipes.cs" imageUrl="/cookbook/5.0/images/MultiplotGrid.png?250112204022" >}}ScottPlot.Multiplot multiplot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/MultiplotRecipes.cs" imageUrl="/cookbook/5.0/images/MultiplotGrid.png?250126165944" >}}ScottPlot.Multiplot multiplot = new();
 
-for (int i = 0; i &lt; 6; i++)
+// configure the multiplot to have 6 subplots
+multiplot.AddPlots(6);
+
+// add sample data to each subplot
+for (int i = 0; i &lt; multiplot.Subplots.Count; i++)
 {
-    ScottPlot.Plot plot = new();
+    Plot plot = multiplot.GetPlot(i);
     double[] ys = Generate.Sin(oscillations: i + 1);
     plot.Add.Signal(ys);
-    multiplot.AddPlot(plot);
 }
 
+// configure the multiplot to use a grid layout
 multiplot.Layout = new ScottPlot.MultiplotLayouts.Grid(rows: 2, columns: 3);
 
 multiplot.SavePng("demo.png", 400, 400);
@@ -112,23 +118,29 @@ multiplot.SavePng("demo.png", 400, 400);
 
 The Multiplot's Layout property may be configured to achieve a fully custom layout.
 
-[![](/cookbook/5.0/images/MultiplotCustom.png?250112204022)](/cookbook/5.0/images/MultiplotCustom.png?250112204022)
+[![](/cookbook/5.0/images/MultiplotCustom.png?250126165944)](/cookbook/5.0/images/MultiplotCustom.png?250126165944)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/MultiplotRecipes.cs" imageUrl="/cookbook/5.0/images/MultiplotCustom.png?250112204022" >}}ScottPlot.Multiplot multiplot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/MultiplotRecipes.cs" imageUrl="/cookbook/5.0/images/MultiplotCustom.png?250126165944" >}}ScottPlot.Multiplot multiplot = new();
 
-// create 3 plots
-for (int i = 0; i &lt; 3; i++)
+// configure the multiplot to have 3 subplots
+multiplot.AddPlots(3);
+
+// add sample data to each subplot
+for (int i = 0; i &lt; multiplot.Subplots.Count; i++)
 {
-    ScottPlot.Plot plot = new();
+    Plot plot = multiplot.GetPlot(i);
     double[] ys = Generate.Sin(oscillations: i + 1);
     plot.Add.Signal(ys);
-    multiplot.AddPlot(plot);
 }
 
-// manually set the position for each plot
-multiplot.SetPosition(0, new ScottPlot.SubplotPositions.GridCell(0, 0, 2, 1));
-multiplot.SetPosition(1, new ScottPlot.SubplotPositions.GridCell(1, 0, 2, 2));
-multiplot.SetPosition(2, new ScottPlot.SubplotPositions.GridCell(1, 1, 2, 2));
+// create a custom grid layout and define the position of each subplot
+ScottPlot.MultiplotLayouts.CustomGrid gridLayout = new();
+gridLayout.Set(multiplot.GetPlot(0), new GridCell(0, 0, 2, 1)); // double wide
+gridLayout.Set(multiplot.GetPlot(1), new GridCell(1, 0, 2, 2)); // bottom left
+gridLayout.Set(multiplot.GetPlot(2), new GridCell(1, 1, 2, 2)); // bottom right
+
+// user the custom layout in our multiplot
+multiplot.Layout = gridLayout;
 
 multiplot.SavePng("demo.png", 400, 400);
 {{< /recipe-sp5 >}}

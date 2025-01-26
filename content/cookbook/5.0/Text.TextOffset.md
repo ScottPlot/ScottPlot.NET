@@ -4,9 +4,9 @@ Description: The offset properties can be used to fine-tune text position in pix
 URL: /cookbook/5.0/Text/TextOffset/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Text", "Text Offset"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Text", "/cookbook/5.0/Text/TextOffset"]
-Date: 2025-01-13
-Version: ScottPlot 5.0.53
-Version: ScottPlot 5.0.53
+Date: 2025-01-26
+Version: ScottPlot 5.0.55
+Version: ScottPlot 5.0.55
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 The offset properties can be used to fine-tune text position in pixel units
 
-[![](/cookbook/5.0/images/TextOffset.png?250112204022)](/cookbook/5.0/images/TextOffset.png?250112204022)
+[![](/cookbook/5.0/images/TextOffset.png?250126165944)](/cookbook/5.0/images/TextOffset.png?250126165944)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Text.cs" imageUrl="/cookbook/5.0/images/TextOffset.png?250112204022" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Text.cs" imageUrl="/cookbook/5.0/images/TextOffset.png?250126165944" >}}ScottPlot.Plot myPlot = new();
 
 for (int i = 0; i &lt; 25; i += 5)
 {

@@ -4,9 +4,9 @@ Description: For circles to always appear circular, the coordinate system must b
 URL: /cookbook/5.0/Ellipse/CircleWithLockedScale/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Ellipse", "Circle with Locked Scale"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Ellipse", "/cookbook/5.0/Ellipse/CircleWithLockedScale"]
-Date: 2025-01-13
-Version: ScottPlot 5.0.53
-Version: ScottPlot 5.0.53
+Date: 2025-01-26
+Version: ScottPlot 5.0.55
+Version: ScottPlot 5.0.55
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 For circles to always appear circular, the coordinate system must be forced to always display square-shaped pixels. This can be achieved by enabling the axis scale lock.
 
-[![](/cookbook/5.0/images/CircleWithLockedScale.png?250112204022)](/cookbook/5.0/images/CircleWithLockedScale.png?250112204022)
+[![](/cookbook/5.0/images/CircleWithLockedScale.png?250126165944)](/cookbook/5.0/images/CircleWithLockedScale.png?250126165944)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Ellipse.cs" imageUrl="/cookbook/5.0/images/CircleWithLockedScale.png?250112204022" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Ellipse.cs" imageUrl="/cookbook/5.0/images/CircleWithLockedScale.png?250126165944" >}}ScottPlot.Plot myPlot = new();
 
 Random rand = new(0);
 for (int i = 0; i &lt; 5; i++)

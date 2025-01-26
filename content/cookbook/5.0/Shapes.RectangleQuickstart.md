@@ -4,9 +4,9 @@ Description: A rectangle can be added to the plot and styled as desired.
 URL: /cookbook/5.0/Shapes/RectangleQuickstart/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Shapes", "Rectangle"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Shapes", "/cookbook/5.0/Shapes/RectangleQuickstart"]
-Date: 2025-01-13
-Version: ScottPlot 5.0.53
-Version: ScottPlot 5.0.53
+Date: 2025-01-26
+Version: ScottPlot 5.0.55
+Version: ScottPlot 5.0.55
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 A rectangle can be added to the plot and styled as desired.
 
-[![](/cookbook/5.0/images/RectangleQuickstart.png?250112204022)](/cookbook/5.0/images/RectangleQuickstart.png?250112204022)
+[![](/cookbook/5.0/images/RectangleQuickstart.png?250126165944)](/cookbook/5.0/images/RectangleQuickstart.png?250126165944)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Shapes.cs" imageUrl="/cookbook/5.0/images/RectangleQuickstart.png?250112204022" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Shapes.cs" imageUrl="/cookbook/5.0/images/RectangleQuickstart.png?250126165944" >}}ScottPlot.Plot myPlot = new();
 
 // add a rectangle by specifying points
 myPlot.Add.Rectangle(0, 1, 0, 1);

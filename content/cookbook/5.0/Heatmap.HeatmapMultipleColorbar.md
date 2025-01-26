@@ -4,9 +4,9 @@ Description: Multiple colorbars may be added to plots.
 URL: /cookbook/5.0/Heatmap/HeatmapMultipleColorbar/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Heatmap", "Multiple Colorbars"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Heatmap", "/cookbook/5.0/Heatmap/HeatmapMultipleColorbar"]
-Date: 2025-01-13
-Version: ScottPlot 5.0.53
-Version: ScottPlot 5.0.53
+Date: 2025-01-26
+Version: ScottPlot 5.0.55
+Version: ScottPlot 5.0.55
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Multiple colorbars may be added to plots.
 
-[![](/cookbook/5.0/images/HeatmapMultipleColorbar.png?250112204022)](/cookbook/5.0/images/HeatmapMultipleColorbar.png?250112204022)
+[![](/cookbook/5.0/images/HeatmapMultipleColorbar.png?250126165944)](/cookbook/5.0/images/HeatmapMultipleColorbar.png?250126165944)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Heatmap.cs" imageUrl="/cookbook/5.0/images/HeatmapMultipleColorbar.png?250112204022" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Heatmap.cs" imageUrl="/cookbook/5.0/images/HeatmapMultipleColorbar.png?250126165944" >}}ScottPlot.Plot myPlot = new();
 
 double[,] data = SampleData.MonaLisa();
 

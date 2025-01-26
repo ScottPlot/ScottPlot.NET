@@ -4,9 +4,9 @@ Description: The Multiplot's Layout property may be customized to achieve a grid
 URL: /cookbook/5.0/MultiplotRecipes/MultiplotGrid/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Multiplot", "Multiplot Grid"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/MultiplotRecipes", "/cookbook/5.0/MultiplotRecipes/MultiplotGrid"]
-Date: 2025-01-13
-Version: ScottPlot 5.0.53
-Version: ScottPlot 5.0.53
+Date: 2025-01-26
+Version: ScottPlot 5.0.55
+Version: ScottPlot 5.0.55
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,18 +18,22 @@ ShowEditLink: false
 
 The Multiplot's Layout property may be customized to achieve a grid layout.
 
-[![](/cookbook/5.0/images/MultiplotGrid.png?250112204022)](/cookbook/5.0/images/MultiplotGrid.png?250112204022)
+[![](/cookbook/5.0/images/MultiplotGrid.png?250126165944)](/cookbook/5.0/images/MultiplotGrid.png?250126165944)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/MultiplotRecipes.cs" imageUrl="/cookbook/5.0/images/MultiplotGrid.png?250112204022" >}}ScottPlot.Multiplot multiplot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/MultiplotRecipes.cs" imageUrl="/cookbook/5.0/images/MultiplotGrid.png?250126165944" >}}ScottPlot.Multiplot multiplot = new();
 
-for (int i = 0; i &lt; 6; i++)
+// configure the multiplot to have 6 subplots
+multiplot.AddPlots(6);
+
+// add sample data to each subplot
+for (int i = 0; i &lt; multiplot.Subplots.Count; i++)
 {
-    ScottPlot.Plot plot = new();
+    Plot plot = multiplot.GetPlot(i);
     double[] ys = Generate.Sin(oscillations: i + 1);
     plot.Add.Signal(ys);
-    multiplot.AddPlot(plot);
 }
 
+// configure the multiplot to use a grid layout
 multiplot.Layout = new ScottPlot.MultiplotLayouts.Grid(rows: 2, columns: 3);
 
 multiplot.SavePng("demo.png", 400, 400);

@@ -4,9 +4,9 @@ Description: The title is centered over the data area by default, but a flag all
 URL: /cookbook/5.0/Styling/TitleAlignment/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Styling Plots", "Title Alignment"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Styling", "/cookbook/5.0/Styling/TitleAlignment"]
-Date: 2025-01-13
-Version: ScottPlot 5.0.53
-Version: ScottPlot 5.0.53
+Date: 2025-01-26
+Version: ScottPlot 5.0.55
+Version: ScottPlot 5.0.55
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 The title is centered over the data area by default, but a flag allows users to center it relative to the figure instead
 
-[![](/cookbook/5.0/images/TitleAlignment.png?250112204022)](/cookbook/5.0/images/TitleAlignment.png?250112204022)
+[![](/cookbook/5.0/images/TitleAlignment.png?250126165944)](/cookbook/5.0/images/TitleAlignment.png?250126165944)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs" imageUrl="/cookbook/5.0/images/TitleAlignment.png?250112204022" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs" imageUrl="/cookbook/5.0/images/TitleAlignment.png?250126165944" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin(51, mult: 1e9));
 myPlot.Title("This title is centered in the figure");

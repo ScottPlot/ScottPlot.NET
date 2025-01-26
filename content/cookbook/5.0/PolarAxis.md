@@ -4,9 +4,9 @@ Description: Create a polar axis and add it to the plot to display data on a cir
 URL: /cookbook/5.0/PolarAxis/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Polar Axis"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/PolarAxis"]
-Date: 2025-01-13
-Version: ScottPlot 5.0.53
-Version: ScottPlot 5.0.53
+Date: 2025-01-26
+Version: ScottPlot 5.0.55
+Version: ScottPlot 5.0.55
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -23,9 +23,9 @@ ShowEditLink: false
 
 A polar axis can be added to the plot, then other plot types (marker, line, scatter, etc.) can be placed on top of it using its helper methods to translate polar coordinates to Cartesian units.
 
-[![](/cookbook/5.0/images/PolarQuickStart.png?250112204022)](/cookbook/5.0/images/PolarQuickStart.png?250112204022)
+[![](/cookbook/5.0/images/PolarQuickStart.png?250126165944)](/cookbook/5.0/images/PolarQuickStart.png?250126165944)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/PolarAxis.cs" imageUrl="/cookbook/5.0/images/PolarQuickStart.png?250112204022" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/PolarAxis.cs" imageUrl="/cookbook/5.0/images/PolarQuickStart.png?250126165944" >}}ScottPlot.Plot myPlot = new();
 
 // add a polar axis to the plot
 var polarAxis = myPlot.Add.PolarAxis(radius: 100);
@@ -59,9 +59,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 A polar axis may be rotated to define the angle of the 0 degree spoke.
 
-[![](/cookbook/5.0/images/PolarRotation.png?250112204022)](/cookbook/5.0/images/PolarRotation.png?250112204022)
+[![](/cookbook/5.0/images/PolarRotation.png?250126165944)](/cookbook/5.0/images/PolarRotation.png?250126165944)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/PolarAxis.cs" imageUrl="/cookbook/5.0/images/PolarRotation.png?250112204022" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/PolarAxis.cs" imageUrl="/cookbook/5.0/images/PolarRotation.png?250126165944" >}}ScottPlot.Plot myPlot = new();
 
 var polarAxis = myPlot.Add.PolarAxis(radius: 100);
 polarAxis.Rotation = Angle.FromDegrees(-90);
@@ -92,9 +92,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Arrows can be placed on a polar coordinate system with their base at the center and their tips used to indicate points in polar space. The Phaser plot type uses this strategy to display collections of similarly styled arrows.
 
-[![](/cookbook/5.0/images/PolarAxisArrow.png?250112204022)](/cookbook/5.0/images/PolarAxisArrow.png?250112204022)
+[![](/cookbook/5.0/images/PolarAxisArrow.png?250126165944)](/cookbook/5.0/images/PolarAxisArrow.png?250126165944)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/PolarAxis.cs" imageUrl="/cookbook/5.0/images/PolarAxisArrow.png?250112204022" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/PolarAxis.cs" imageUrl="/cookbook/5.0/images/PolarAxisArrow.png?250126165944" >}}ScottPlot.Plot myPlot = new();
 
 PolarCoordinates[] points = [
     new(10, Angle.FromDegrees(15)),
@@ -132,9 +132,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 The lines of polar axes may be extensively styled. Polar axes have radial spokes (straight lines that extend from the origin to the maximum radius) and circular axis lines (concentric circles centered at the origin).
 
-[![](/cookbook/5.0/images/PolarAxisStyling.png?250112204022)](/cookbook/5.0/images/PolarAxisStyling.png?250112204022)
+[![](/cookbook/5.0/images/PolarAxisStyling.png?250126165944)](/cookbook/5.0/images/PolarAxisStyling.png?250126165944)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/PolarAxis.cs" imageUrl="/cookbook/5.0/images/PolarAxisStyling.png?250112204022" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/PolarAxis.cs" imageUrl="/cookbook/5.0/images/PolarAxisStyling.png?250126165944" >}}ScottPlot.Plot myPlot = new();
 
 var polarAxis = myPlot.Add.PolarAxis();
 
@@ -175,9 +175,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Polar axis spokes may be individually labeled.
 
-[![](/cookbook/5.0/images/PolarSpokeLabels.png?250112204022)](/cookbook/5.0/images/PolarSpokeLabels.png?250112204022)
+[![](/cookbook/5.0/images/PolarSpokeLabels.png?250126165944)](/cookbook/5.0/images/PolarSpokeLabels.png?250126165944)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/PolarAxis.cs" imageUrl="/cookbook/5.0/images/PolarSpokeLabels.png?250112204022" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/PolarAxis.cs" imageUrl="/cookbook/5.0/images/PolarSpokeLabels.png?250126165944" >}}ScottPlot.Plot myPlot = new();
 
 var polarAxis = myPlot.Add.PolarAxis();
 
@@ -200,9 +200,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Polar axis ticks are marked by circles which may be individually labeled.
 
-[![](/cookbook/5.0/images/PolarTickLabels.png?250112204022)](/cookbook/5.0/images/PolarTickLabels.png?250112204022)
+[![](/cookbook/5.0/images/PolarTickLabels.png?250126165944)](/cookbook/5.0/images/PolarTickLabels.png?250126165944)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/PolarAxis.cs" imageUrl="/cookbook/5.0/images/PolarTickLabels.png?250112204022" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/PolarAxis.cs" imageUrl="/cookbook/5.0/images/PolarTickLabels.png?250126165944" >}}ScottPlot.Plot myPlot = new();
 
 var polarAxis = myPlot.Add.PolarAxis();
 polarAxis.Rotation = Angle.FromDegrees(-90);
@@ -229,9 +229,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 The angle and length of spokes and position of circles can be manually defined. Each spoke and circle may also be individually styled.
 
-[![](/cookbook/5.0/images/PolarAxisLineCustomizations.png?250112204022)](/cookbook/5.0/images/PolarAxisLineCustomizations.png?250112204022)
+[![](/cookbook/5.0/images/PolarAxisLineCustomizations.png?250126165944)](/cookbook/5.0/images/PolarAxisLineCustomizations.png?250126165944)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/PolarAxis.cs" imageUrl="/cookbook/5.0/images/PolarAxisLineCustomizations.png?250112204022" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/PolarAxis.cs" imageUrl="/cookbook/5.0/images/PolarAxisLineCustomizations.png?250126165944" >}}ScottPlot.Plot myPlot = new();
 
 var polarAxis = myPlot.Add.PolarAxis();
 
@@ -274,9 +274,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Combining a polar axis with polygons is an alternative strategy for building radar plots.
 
-[![](/cookbook/5.0/images/PolarRadar.png?250112204022)](/cookbook/5.0/images/PolarRadar.png?250112204022)
+[![](/cookbook/5.0/images/PolarRadar.png?250126165944)](/cookbook/5.0/images/PolarRadar.png?250126165944)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/PolarAxis.cs" imageUrl="/cookbook/5.0/images/PolarRadar.png?250112204022" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/PolarAxis.cs" imageUrl="/cookbook/5.0/images/PolarRadar.png?250126165944" >}}ScottPlot.Plot myPlot = new();
 
 var polarAxis = myPlot.Add.PolarAxis();
 polarAxis.Rotation = Angle.FromDegrees(-90);
@@ -303,6 +303,37 @@ poly1.LineColor = Colors.Black;
 var poly2 = myPlot.Add.Polygon(cs2);
 poly2.FillColor = Colors.Blue.WithAlpha(.5);
 poly2.LineColor = Colors.Black;
+
+myPlot.SavePng("demo.png", 400, 300);
+{{< /recipe-sp5 >}}
+
+<hr class='my-5 invisible'>
+
+
+
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Polar Spoke Label Padding</h1>
+<a href='/cookbook/5.0/PolarAxis/PolarSpokeLabelPadding' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
+</div>
+
+Modifies the padding of labels on polar spokes.
+
+[![](/cookbook/5.0/images/PolarSpokeLabelPadding.png?250126165944)](/cookbook/5.0/images/PolarSpokeLabelPadding.png?250126165944)
+
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/PolarAxis.cs" imageUrl="/cookbook/5.0/images/PolarSpokeLabelPadding.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+
+var polarAxis = myPlot.Add.PolarAxis();
+polarAxis.SetSpokes(4, 1);
+
+for (int i = 0; i &lt; polarAxis.Spokes.Count; i++)
+{
+    polarAxis.Spokes[i].LineWidth = 4;
+    polarAxis.Spokes[i].LabelStyle.FontSize = 16;
+    polarAxis.Spokes[i].LabelPaddingFraction = 0.2 * i;
+    polarAxis.Spokes[i].LabelText = $"{polarAxis.Spokes[i].LabelLength}";
+}
 
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
