@@ -4,6 +4,25 @@ Description: Release notes for every version of ScottPlot
 ---
 
 <section class='mb-5'>
+<h1 class='mb-0'>ScottPlot 5.0.55</h1>
+<div><i>NuGet packages published </i></div>
+<div class='mt-1'>
+<ul>
+<li>WPF: Added autoscale option to the default right-click context menu (<a href="https://github.com/ScottPlot/ScottPlot/issues/4701">#4701</a>) <a href="https://github.com/hsfetterman"><strong>@hsfetterman</strong></a>
+</li>
+</ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/hsfetterman'>@hsfetterman</a>, <a href='https://github.com/swharden'>@swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/hsfetterman'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
+
+</section>
+<section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 5.0.54</h1>
 <div><i>NuGet packages published 2025-01-26</i></div>
 <div class='mt-1'>

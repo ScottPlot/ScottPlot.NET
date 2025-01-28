@@ -5,11 +5,12 @@ Description: Members of the open-source community who contributed to ScottPlot
 
 <div class="mt-3 text-center fs-1 fw-semibold">ScottPlot Contributors</div>
 <div class='fs-5 fw-lighter text-center mb-4'>
-    Special thanks to the <span class="sparkle-highlight">508</span> GitHub users 
+    Special thanks to the <span class="sparkle-highlight">509</span> GitHub users 
     who contributed to this project, making ScottPlot better for everyone!
     💖🚀✨
 </div>
 <div class='avatar-container my-3'>
+<a href='https://github.com/hsfetterman'><img src='https://scottplot.net/images/brand/favicon.png'></a>
 <a href='https://github.com/VladislavPustovarov'><img src='https://scottplot.net/images/contributors/vladislavpustovarov.png'></a>
 <a href='https://github.com/quantfreedom'><img src='https://scottplot.net/images/contributors/quantfreedom.jpg'></a>
 <a href='https://github.com/luo-ross'><img src='https://scottplot.net/images/contributors/luo-ross.jpg'></a>
