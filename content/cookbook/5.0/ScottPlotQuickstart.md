@@ -48,7 +48,7 @@ myPlot.SavePng("demo.png", 400, 300);
 </a>
 </div>
 
-Most methods which add items to plots return the item the was added. Save the object that is returned and set its properties to customize it.
+Most methods which add items to plots return the item that was added. Save the object that is returned and set its properties to customize it.
 
 [![](/cookbook/5.0/images/CustomizingPlottables.png?250126165944)](/cookbook/5.0/images/CustomizingPlottables.png?250126165944)
 

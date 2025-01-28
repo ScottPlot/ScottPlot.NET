@@ -47,7 +47,7 @@ class RainbowPlot : IPlottable
 }
 ```
 
-A custom plot typ can be instantiated and added to the plot:
+A custom plot type can be instantiated and added to the plot:
 
 ```cs
 // instantiate the custom plottable

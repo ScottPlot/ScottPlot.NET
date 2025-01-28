@@ -94,7 +94,7 @@ ShowEditLink: false
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/ScottPlotQuickstart/CustomizingPlottables'><b>Customizing Plottables</b></a></div>
-<div>Most methods which add items to plots return the item the was added. Save the object that is returned and set its properties to customize it.</div>
+<div>Most methods which add items to plots return the item that was added. Save the object that is returned and set its properties to customize it.</div>
 </div>
 </div>
 <div class='row my-4'>
