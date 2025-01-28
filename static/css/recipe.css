@@ -70,3 +70,8 @@
     background-color: #FFFFFF11 !important;
     opacity: 1;
 }
+
+.code-copied-button-hidden {
+    opacity: 0;
+    transition: opacity 1s;
+}

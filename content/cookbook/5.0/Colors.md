@@ -5,7 +5,7 @@ url: /cookbook/5.0/colors/
 type: single
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Colors"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/colors/"]
-date: 2025-01-13
+date: 2025-01-26
 jsFiles: ["https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js", "/js/cookbook-search-5.0.js"]
 ---
 

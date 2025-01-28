@@ -4,9 +4,9 @@ Description: A line plot with shaded error range may be achieved by layering a F
 URL: /cookbook/5.0/FillY/FilledError/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "FillY plot", "Filled Error"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/FillY", "/cookbook/5.0/FillY/FilledError"]
-Date: 2025-01-13
-Version: ScottPlot 5.0.53
-Version: ScottPlot 5.0.53
+Date: 2025-01-26
+Version: ScottPlot 5.0.55
+Version: ScottPlot 5.0.55
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 A line plot with shaded error range may be achieved by layering a FillY beneath a ScatterLine.
 
-[![](/cookbook/5.0/images/FilledError.png?250112204022)](/cookbook/5.0/images/FilledError.png?250112204022)
+[![](/cookbook/5.0/images/FilledError.png?250126165944)](/cookbook/5.0/images/FilledError.png?250126165944)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/FillY.cs" imageUrl="/cookbook/5.0/images/FilledError.png?250112204022" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/FillY.cs" imageUrl="/cookbook/5.0/images/FilledError.png?250126165944" >}}ScottPlot.Plot myPlot = new();
 
 // create sample Y values
 double[] xs = Generate.Range(0, Math.PI, 0.05);

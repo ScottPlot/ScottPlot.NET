@@ -5,33 +5,37 @@ Description: Members of the open-source community who contributed to ScottPlot
 
 <div class="mt-3 text-center fs-1 fw-semibold">ScottPlot Contributors</div>
 <div class='fs-5 fw-lighter text-center mb-4'>
-    Special thanks to the <span class="sparkle-highlight">506</span> GitHub users 
+    Special thanks to the <span class="sparkle-highlight">508</span> GitHub users 
     who contributed to this project, making ScottPlot better for everyone!
     💖🚀✨
 </div>
 <div class='avatar-container my-3'>
-<a href='https://github.com/kebox7'><img src='https://scottplot.net/images/contributors/kebox7.png'></a>
-<a href='https://github.com/onur-akaydin'><img src='https://scottplot.net/images/contributors/onur-akaydin.png'></a>
-<a href='https://github.com/King-Taz'><img src='https://scottplot.net/images/contributors/king-taz.png'></a>
+<a href='https://github.com/VladislavPustovarov'><img src='https://scottplot.net/images/contributors/vladislavpustovarov.png'></a>
 <a href='https://github.com/quantfreedom'><img src='https://scottplot.net/images/contributors/quantfreedom.jpg'></a>
+<a href='https://github.com/luo-ross'><img src='https://scottplot.net/images/contributors/luo-ross.jpg'></a>
+<a href='https://github.com/onur-akaydin'><img src='https://scottplot.net/images/contributors/onur-akaydin.png'></a>
+<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png'></a>
+<a href='https://github.com/allrightsreserved'><img src='https://scottplot.net/images/contributors/allrightsreserved.png'></a>
+<a href='https://github.com/aespitia'><img src='https://scottplot.net/images/contributors/aespitia.jpg'></a>
+<a href='https://github.com/CoderPM2011'><img src='https://scottplot.net/images/contributors/coderpm2011.jpg'></a>
+<a href='https://github.com/heartacker'><img src='https://scottplot.net/images/contributors/heartacker.jpg'></a>
+<a href='https://github.com/kebox7'><img src='https://scottplot.net/images/contributors/kebox7.png'></a>
+<a href='https://github.com/King-Taz'><img src='https://scottplot.net/images/contributors/king-taz.png'></a>
 <a href='https://github.com/wi-fr'><img src='https://scottplot.net/images/contributors/wi-fr.png'></a>
 <a href='https://github.com/david3951445'><img src='https://scottplot.net/images/contributors/david3951445.png'></a>
 <a href='https://github.com/qaz7349134142024'><img src='https://scottplot.net/images/contributors/qaz7349134142024.png'></a>
 <a href='https://github.com/zygfrydw'><img src='https://scottplot.net/images/contributors/zygfrydw.jpg'></a>
-<a href='https://github.com/VladislavPustovarov'><img src='https://scottplot.net/images/contributors/vladislavpustovarov.png'></a>
 <a href='https://github.com/nilsakesson'><img src='https://scottplot.net/images/contributors/nilsakesson.png'></a>
 <a href='https://github.com/nightroman'><img src='https://scottplot.net/images/contributors/nightroman.jpg'></a>
 <a href='https://github.com/claire0821'><img src='https://scottplot.net/images/contributors/claire0821.jpg'></a>
 <a href='https://github.com/vadimart92'><img src='https://scottplot.net/images/contributors/vadimart92.jpg'></a>
 <a href='https://github.com/SprinterDave'><img src='https://scottplot.net/images/contributors/sprinterdave.jpg'></a>
-<a href='https://github.com/CoderPM2011'><img src='https://scottplot.net/images/contributors/coderpm2011.jpg'></a>
 <a href='https://github.com/louis1901'><img src='https://scottplot.net/images/contributors/louis1901.png'></a>
 <a href='https://github.com/Padanian'><img src='https://scottplot.net/images/contributors/padanian.png'></a>
 <a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png'></a>
 <a href='https://github.com/ssharks'><img src='https://scottplot.net/images/contributors/ssharks.png'></a>
 <a href='https://github.com/xichaoqiang'><img src='https://scottplot.net/images/contributors/xichaoqiang.png'></a>
 <a href='https://github.com/nullsoftware'><img src='https://scottplot.net/images/contributors/nullsoftware.png'></a>
-<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png'></a>
 <a href='https://github.com/Paraplegia'><img src='https://scottplot.net/images/contributors/paraplegia.png'></a>
 <a href='https://github.com/CBrauer'><img src='https://scottplot.net/images/contributors/cbrauer.png'></a>
 <a href='https://github.com/ecrocombe'><img src='https://scottplot.net/images/contributors/ecrocombe.png'></a>
@@ -79,7 +83,6 @@ Description: Members of the open-source community who contributed to ScottPlot
 <a href='https://github.com/vilgotf'><img src='https://scottplot.net/images/contributors/vilgotf.png'></a>
 <a href='https://github.com/h135558'><img src='https://scottplot.net/images/contributors/h135558.png'></a>
 <a href='https://github.com/drolevar'><img src='https://scottplot.net/images/contributors/drolevar.jpg'></a>
-<a href='https://github.com/aespitia'><img src='https://scottplot.net/images/contributors/aespitia.jpg'></a>
 <a href='https://github.com/LeaFrock'><img src='https://scottplot.net/images/contributors/leafrock.jpg'></a>
 <a href='https://github.com/RFBomb'><img src='https://scottplot.net/images/contributors/rfbomb.png'></a>
 <a href='https://github.com/sterenas'><img src='https://scottplot.net/images/contributors/sterenas.jpg'></a>
@@ -166,7 +169,6 @@ Description: Members of the open-source community who contributed to ScottPlot
 <a href='https://github.com/sdhongjun'><img src='https://scottplot.net/images/contributors/sdhongjun.png'></a>
 <a href='https://github.com/Matthew-Chidlow'><img src='https://scottplot.net/images/contributors/matthew-chidlow.png'></a>
 <a href='https://github.com/Dibyanshuaman'><img src='https://scottplot.net/images/contributors/dibyanshuaman.png'></a>
-<a href='https://github.com/heartacker'><img src='https://scottplot.net/images/contributors/heartacker.jpg'></a>
 <a href='https://github.com/PZidlik'><img src='https://scottplot.net/images/contributors/pzidlik.png'></a>
 <a href='https://github.com/tibormarchynzoom'><img src='https://scottplot.net/images/contributors/tibormarchynzoom.jpg'></a>
 <a href='https://github.com/CodeBehemoth'><img src='https://scottplot.net/images/contributors/codebehemoth.png'></a>

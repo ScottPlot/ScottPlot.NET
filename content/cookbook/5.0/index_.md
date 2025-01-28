@@ -4,9 +4,9 @@ Description: Example plots shown next to the code used to create them
 URL: /cookbook/5.0/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook"]
 BreadcrumbUrls: ["/cookbook/5.0/"]
-Date: 2025-01-13
-Version: ScottPlot 5.0.53
-Version: ScottPlot 5.0.53
+Date: 2025-01-26
+Version: ScottPlot 5.0.55
+Version: ScottPlot 5.0.55
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -81,7 +81,7 @@ ShowEditLink: false
 <div>A survey of basic functionality in ScottPlot 5</div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/ScottPlotQuickstart/QuickstartScatter'><img class='img-fluid' src='/cookbook/5.0/images/QuickstartScatter.png?250112204022' /></a>
+<a href='/cookbook/5.0/ScottPlotQuickstart/QuickstartScatter'><img class='img-fluid' src='/cookbook/5.0/images/QuickstartScatter.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/ScottPlotQuickstart/QuickstartScatter'><b>Scatter Plot</b></a></div>
@@ -90,7 +90,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/ScottPlotQuickstart/CustomizingPlottables'><img class='img-fluid' src='/cookbook/5.0/images/CustomizingPlottables.png?250112204022' /></a>
+<a href='/cookbook/5.0/ScottPlotQuickstart/CustomizingPlottables'><img class='img-fluid' src='/cookbook/5.0/images/CustomizingPlottables.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/ScottPlotQuickstart/CustomizingPlottables'><b>Customizing Plottables</b></a></div>
@@ -99,7 +99,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/ScottPlotQuickstart/QuickstartSignal'><img class='img-fluid' src='/cookbook/5.0/images/QuickstartSignal.png?250112204022' /></a>
+<a href='/cookbook/5.0/ScottPlotQuickstart/QuickstartSignal'><img class='img-fluid' src='/cookbook/5.0/images/QuickstartSignal.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/ScottPlotQuickstart/QuickstartSignal'><b>Signal Plot</b></a></div>
@@ -108,7 +108,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/ScottPlotQuickstart/SignalPerformance'><img class='img-fluid' src='/cookbook/5.0/images/SignalPerformance.png?250112204022' /></a>
+<a href='/cookbook/5.0/ScottPlotQuickstart/SignalPerformance'><img class='img-fluid' src='/cookbook/5.0/images/SignalPerformance.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/ScottPlotQuickstart/SignalPerformance'><b>Signal Plot Performance</b></a></div>
@@ -117,7 +117,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/ScottPlotQuickstart/QuickstartAxisLabels'><img class='img-fluid' src='/cookbook/5.0/images/QuickstartAxisLabels.png?250112204022' /></a>
+<a href='/cookbook/5.0/ScottPlotQuickstart/QuickstartAxisLabels'><img class='img-fluid' src='/cookbook/5.0/images/QuickstartAxisLabels.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/ScottPlotQuickstart/QuickstartAxisLabels'><b>Axis Labels</b></a></div>
@@ -128,7 +128,7 @@ ShowEditLink: false
 <div>How to add, remove, and reorder items in plots</div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/PlottableManagement/AddPlottablesManually'><img class='img-fluid' src='/cookbook/5.0/images/AddPlottablesManually.png?250112204022' /></a>
+<a href='/cookbook/5.0/PlottableManagement/AddPlottablesManually'><img class='img-fluid' src='/cookbook/5.0/images/AddPlottablesManually.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/PlottableManagement/AddPlottablesManually'><b>Add Plottables Manually</b></a></div>
@@ -137,7 +137,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/PlottableManagement/Clear'><img class='img-fluid' src='/cookbook/5.0/images/Clear.png?250112204022' /></a>
+<a href='/cookbook/5.0/PlottableManagement/Clear'><img class='img-fluid' src='/cookbook/5.0/images/Clear.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/PlottableManagement/Clear'><b>Clearing Plots</b></a></div>
@@ -146,7 +146,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/PlottableManagement/Remove'><img class='img-fluid' src='/cookbook/5.0/images/Remove.png?250112204022' /></a>
+<a href='/cookbook/5.0/PlottableManagement/Remove'><img class='img-fluid' src='/cookbook/5.0/images/Remove.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/PlottableManagement/Remove'><b>Removing a Plottable</b></a></div>
@@ -155,7 +155,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/PlottableManagement/RemoveAll'><img class='img-fluid' src='/cookbook/5.0/images/RemoveAll.png?250112204022' /></a>
+<a href='/cookbook/5.0/PlottableManagement/RemoveAll'><img class='img-fluid' src='/cookbook/5.0/images/RemoveAll.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/PlottableManagement/RemoveAll'><b>Removing all Plottables of a Type</b></a></div>
@@ -164,7 +164,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/PlottableManagement/ChangeOrder'><img class='img-fluid' src='/cookbook/5.0/images/ChangeOrder.png?250112204022' /></a>
+<a href='/cookbook/5.0/PlottableManagement/ChangeOrder'><img class='img-fluid' src='/cookbook/5.0/images/ChangeOrder.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/PlottableManagement/ChangeOrder'><b>Moving plottables</b></a></div>
@@ -175,7 +175,7 @@ ShowEditLink: false
 <div>How to customize data area size and figure padding</div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Layout/Frameless'><img class='img-fluid' src='/cookbook/5.0/images/Frameless.png?250112204022' /></a>
+<a href='/cookbook/5.0/Layout/Frameless'><img class='img-fluid' src='/cookbook/5.0/images/Frameless.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Layout/Frameless'><b>Frameless Plot</b></a></div>
@@ -184,7 +184,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Layout/FixedPadding'><img class='img-fluid' src='/cookbook/5.0/images/FixedPadding.png?250112204022' /></a>
+<a href='/cookbook/5.0/Layout/FixedPadding'><img class='img-fluid' src='/cookbook/5.0/images/FixedPadding.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Layout/FixedPadding'><b>Fixed Padding</b></a></div>
@@ -193,7 +193,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Layout/FixedRectangle'><img class='img-fluid' src='/cookbook/5.0/images/FixedRectangle.png?250112204022' /></a>
+<a href='/cookbook/5.0/Layout/FixedRectangle'><img class='img-fluid' src='/cookbook/5.0/images/FixedRectangle.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Layout/FixedRectangle'><b>Fixed Rectangle</b></a></div>
@@ -204,7 +204,7 @@ ShowEditLink: false
 <div>Use Multiplot to create figures with multiple subplots</div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/MultiplotRecipes/MultiplotQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/MultiplotQuickstart.png?250112204022' /></a>
+<a href='/cookbook/5.0/MultiplotRecipes/MultiplotQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/MultiplotQuickstart.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/MultiplotRecipes/MultiplotQuickstart'><b>Multiplot Quickstart</b></a></div>
@@ -213,7 +213,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/MultiplotRecipes/MultiplotColumns'><img class='img-fluid' src='/cookbook/5.0/images/MultiplotColumns.png?250112204022' /></a>
+<a href='/cookbook/5.0/MultiplotRecipes/MultiplotColumns'><img class='img-fluid' src='/cookbook/5.0/images/MultiplotColumns.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/MultiplotRecipes/MultiplotColumns'><b>Multiplot Columns</b></a></div>
@@ -222,7 +222,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/MultiplotRecipes/MultiplotGrid'><img class='img-fluid' src='/cookbook/5.0/images/MultiplotGrid.png?250112204022' /></a>
+<a href='/cookbook/5.0/MultiplotRecipes/MultiplotGrid'><img class='img-fluid' src='/cookbook/5.0/images/MultiplotGrid.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/MultiplotRecipes/MultiplotGrid'><b>Multiplot Grid</b></a></div>
@@ -231,7 +231,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/MultiplotRecipes/MultiplotCustom'><img class='img-fluid' src='/cookbook/5.0/images/MultiplotCustom.png?250112204022' /></a>
+<a href='/cookbook/5.0/MultiplotRecipes/MultiplotCustom'><img class='img-fluid' src='/cookbook/5.0/images/MultiplotCustom.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/MultiplotRecipes/MultiplotCustom'><b>Multiplot Custom Layout</b></a></div>
@@ -242,7 +242,7 @@ ShowEditLink: false
 <div>ScottPlot has many built-in utilities for generating sample data.</div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/DataGen/MultipleSineWaves'><img class='img-fluid' src='/cookbook/5.0/images/MultipleSineWaves.png?250112204022' /></a>
+<a href='/cookbook/5.0/DataGen/MultipleSineWaves'><img class='img-fluid' src='/cookbook/5.0/images/MultipleSineWaves.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/DataGen/MultipleSineWaves'><b>Multiple Sine Waves</b></a></div>
@@ -253,7 +253,7 @@ ShowEditLink: false
 <div>Histograms graphically represent the distribution of numerical data by grouping values into ranges (bins) and displaying the frequency or count of points in each bin.</div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Histograms/HistogramQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/HistogramQuickstart.png?250112204022' /></a>
+<a href='/cookbook/5.0/Histograms/HistogramQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/HistogramQuickstart.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Histograms/HistogramQuickstart'><b>Histogram Quickstart</b></a></div>
@@ -262,7 +262,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Histograms/HistogramFixedSizeBins'><img class='img-fluid' src='/cookbook/5.0/images/HistogramFixedSizeBins.png?250112204022' /></a>
+<a href='/cookbook/5.0/Histograms/HistogramFixedSizeBins'><img class='img-fluid' src='/cookbook/5.0/images/HistogramFixedSizeBins.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Histograms/HistogramFixedSizeBins'><b>Histogram with Fixed Size Bins</b></a></div>
@@ -271,7 +271,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Histograms/HistogramFilled'><img class='img-fluid' src='/cookbook/5.0/images/HistogramFilled.png?250112204022' /></a>
+<a href='/cookbook/5.0/Histograms/HistogramFilled'><img class='img-fluid' src='/cookbook/5.0/images/HistogramFilled.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Histograms/HistogramFilled'><b>Filled Histogram</b></a></div>
@@ -280,7 +280,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Histograms/HistogramBars'><img class='img-fluid' src='/cookbook/5.0/images/HistogramBars.png?250112204022' /></a>
+<a href='/cookbook/5.0/Histograms/HistogramBars'><img class='img-fluid' src='/cookbook/5.0/images/HistogramBars.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Histograms/HistogramBars'><b>Histogram Bars</b></a></div>
@@ -289,7 +289,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Histograms/HistogramProbability'><img class='img-fluid' src='/cookbook/5.0/images/HistogramProbability.png?250112204022' /></a>
+<a href='/cookbook/5.0/Histograms/HistogramProbability'><img class='img-fluid' src='/cookbook/5.0/images/HistogramProbability.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Histograms/HistogramProbability'><b>Histogram of Probabilities</b></a></div>
@@ -298,7 +298,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Histograms/HistogramProbabilityCurve'><img class='img-fluid' src='/cookbook/5.0/images/HistogramProbabilityCurve.png?250112204022' /></a>
+<a href='/cookbook/5.0/Histograms/HistogramProbabilityCurve'><img class='img-fluid' src='/cookbook/5.0/images/HistogramProbabilityCurve.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Histograms/HistogramProbabilityCurve'><b>Histogram with Probability Curve</b></a></div>
@@ -307,7 +307,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Histograms/HistogramProbabilityCurveSecondAxis'><img class='img-fluid' src='/cookbook/5.0/images/HistogramProbabilityCurveSecondAxis.png?250112204022' /></a>
+<a href='/cookbook/5.0/Histograms/HistogramProbabilityCurveSecondAxis'><img class='img-fluid' src='/cookbook/5.0/images/HistogramProbabilityCurveSecondAxis.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Histograms/HistogramProbabilityCurveSecondAxis'><b>Histogram with Second Axis Probability</b></a></div>
@@ -316,7 +316,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Histograms/HistogramMultiple'><img class='img-fluid' src='/cookbook/5.0/images/HistogramMultiple.png?250112204022' /></a>
+<a href='/cookbook/5.0/Histograms/HistogramMultiple'><img class='img-fluid' src='/cookbook/5.0/images/HistogramMultiple.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Histograms/HistogramMultiple'><b>Multiple Histograms</b></a></div>
@@ -325,7 +325,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Histograms/HistogramCPH'><img class='img-fluid' src='/cookbook/5.0/images/HistogramCPH.png?250112204022' /></a>
+<a href='/cookbook/5.0/Histograms/HistogramCPH'><img class='img-fluid' src='/cookbook/5.0/images/HistogramCPH.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Histograms/HistogramCPH'><b>Cumulative Probability Histogram</b></a></div>
@@ -336,7 +336,7 @@ ShowEditLink: false
 <div>Using ScottPlot across cultures with different text and numeric requirements.</div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Internationalization/FontDetection'><img class='img-fluid' src='/cookbook/5.0/images/FontDetection.png?250112204022' /></a>
+<a href='/cookbook/5.0/Internationalization/FontDetection'><img class='img-fluid' src='/cookbook/5.0/images/FontDetection.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Internationalization/FontDetection'><b>Supported Font Detection</b></a></div>
@@ -345,7 +345,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Internationalization/AutomaticFontDetection'><img class='img-fluid' src='/cookbook/5.0/images/AutomaticFontDetection.png?250112204022' /></a>
+<a href='/cookbook/5.0/Internationalization/AutomaticFontDetection'><img class='img-fluid' src='/cookbook/5.0/images/AutomaticFontDetection.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Internationalization/AutomaticFontDetection'><b>Automatic Font Detection</b></a></div>
@@ -356,7 +356,7 @@ ShowEditLink: false
 <div>Statistical operations to fit lines to data</div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Regression/Linear'><img class='img-fluid' src='/cookbook/5.0/images/Linear.png?250112204022' /></a>
+<a href='/cookbook/5.0/Regression/Linear'><img class='img-fluid' src='/cookbook/5.0/images/Linear.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Regression/Linear'><b>Linear Regression</b></a></div>
@@ -367,7 +367,7 @@ ShowEditLink: false
 <div>Advanced customization of grid lines</div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/CustomizingGrids/HideGrid'><img class='img-fluid' src='/cookbook/5.0/images/HideGrid.png?250112204022' /></a>
+<a href='/cookbook/5.0/CustomizingGrids/HideGrid'><img class='img-fluid' src='/cookbook/5.0/images/HideGrid.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/CustomizingGrids/HideGrid'><b>Hide Grid</b></a></div>
@@ -376,7 +376,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/CustomizingGrids/GridCustom'><img class='img-fluid' src='/cookbook/5.0/images/GridCustom.png?250112204022' /></a>
+<a href='/cookbook/5.0/CustomizingGrids/GridCustom'><img class='img-fluid' src='/cookbook/5.0/images/GridCustom.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/CustomizingGrids/GridCustom'><b>Grid Customization</b></a></div>
@@ -385,7 +385,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/CustomizingGrids/GridCustomAxis'><img class='img-fluid' src='/cookbook/5.0/images/GridCustomAxis.png?250112204022' /></a>
+<a href='/cookbook/5.0/CustomizingGrids/GridCustomAxis'><img class='img-fluid' src='/cookbook/5.0/images/GridCustomAxis.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/CustomizingGrids/GridCustomAxis'><b>Axis Specific Grid Customization</b></a></div>
@@ -394,7 +394,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/CustomizingGrids/GridAbove'><img class='img-fluid' src='/cookbook/5.0/images/GridAbove.png?250112204022' /></a>
+<a href='/cookbook/5.0/CustomizingGrids/GridAbove'><img class='img-fluid' src='/cookbook/5.0/images/GridAbove.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/CustomizingGrids/GridAbove'><b>Grid Above Data</b></a></div>
@@ -403,7 +403,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/CustomizingGrids/GridWithTopAxis'><img class='img-fluid' src='/cookbook/5.0/images/GridWithTopAxis.png?250112204022' /></a>
+<a href='/cookbook/5.0/CustomizingGrids/GridWithTopAxis'><img class='img-fluid' src='/cookbook/5.0/images/GridWithTopAxis.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/CustomizingGrids/GridWithTopAxis'><b>Grid with Top Axis</b></a></div>
@@ -412,7 +412,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/CustomizingGrids/GridAlternatingColors'><img class='img-fluid' src='/cookbook/5.0/images/GridAlternatingColors.png?250112204022' /></a>
+<a href='/cookbook/5.0/CustomizingGrids/GridAlternatingColors'><img class='img-fluid' src='/cookbook/5.0/images/GridAlternatingColors.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/CustomizingGrids/GridAlternatingColors'><b>Grid Fill Colors</b></a></div>
@@ -421,7 +421,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/CustomizingGrids/GridAlternatingDarkMode'><img class='img-fluid' src='/cookbook/5.0/images/GridAlternatingDarkMode.png?250112204022' /></a>
+<a href='/cookbook/5.0/CustomizingGrids/GridAlternatingDarkMode'><img class='img-fluid' src='/cookbook/5.0/images/GridAlternatingDarkMode.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/CustomizingGrids/GridAlternatingDarkMode'><b>Grid Fill Color in Dark Mode</b></a></div>
@@ -432,7 +432,7 @@ ShowEditLink: false
 <div>Miscellaneous features and customization options</div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Miscellaneous/DataBackgroundImage'><img class='img-fluid' src='/cookbook/5.0/images/DataBackgroundImage.png?250112204022' /></a>
+<a href='/cookbook/5.0/Miscellaneous/DataBackgroundImage'><img class='img-fluid' src='/cookbook/5.0/images/DataBackgroundImage.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Miscellaneous/DataBackgroundImage'><b>Data Area Background Image</b></a></div>
@@ -441,7 +441,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Miscellaneous/FigureBackgroundImage'><img class='img-fluid' src='/cookbook/5.0/images/FigureBackgroundImage.png?250112204022' /></a>
+<a href='/cookbook/5.0/Miscellaneous/FigureBackgroundImage'><img class='img-fluid' src='/cookbook/5.0/images/FigureBackgroundImage.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Miscellaneous/FigureBackgroundImage'><b>Figure Background Image</b></a></div>
@@ -450,7 +450,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Miscellaneous/ColorInterpolation'><img class='img-fluid' src='/cookbook/5.0/images/ColorInterpolation.png?250112204022' /></a>
+<a href='/cookbook/5.0/Miscellaneous/ColorInterpolation'><img class='img-fluid' src='/cookbook/5.0/images/ColorInterpolation.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Miscellaneous/ColorInterpolation'><b>Color Interpolation</b></a></div>
@@ -459,7 +459,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Miscellaneous/CustomFontFiles'><img class='img-fluid' src='/cookbook/5.0/images/CustomFontFiles.png?250112204022' /></a>
+<a href='/cookbook/5.0/Miscellaneous/CustomFontFiles'><img class='img-fluid' src='/cookbook/5.0/images/CustomFontFiles.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Miscellaneous/CustomFontFiles'><b>Custom Font Files</b></a></div>
@@ -470,7 +470,7 @@ ShowEditLink: false
 <div>Tick mark customization and creation of multi-Axis plots</div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/MultiAxis/RightAxis'><img class='img-fluid' src='/cookbook/5.0/images/RightAxis.png?250112204022' /></a>
+<a href='/cookbook/5.0/MultiAxis/RightAxis'><img class='img-fluid' src='/cookbook/5.0/images/RightAxis.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/MultiAxis/RightAxis'><b>Right Axis</b></a></div>
@@ -479,7 +479,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/MultiAxis/MultiAxisQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/MultiAxisQuickstart.png?250112204022' /></a>
+<a href='/cookbook/5.0/MultiAxis/MultiAxisQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/MultiAxisQuickstart.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/MultiAxis/MultiAxisQuickstart'><b>Multi-Axis</b></a></div>
@@ -488,7 +488,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/MultiAxis/RightAxisOnly'><img class='img-fluid' src='/cookbook/5.0/images/RightAxisOnly.png?250112204022' /></a>
+<a href='/cookbook/5.0/MultiAxis/RightAxisOnly'><img class='img-fluid' src='/cookbook/5.0/images/RightAxisOnly.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/MultiAxis/RightAxisOnly'><b>Right Axis Only</b></a></div>
@@ -499,7 +499,7 @@ ShowEditLink: false
 <div>Advanced customization of tick marks and tick labels</div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/CustomizingTicks/CustomTickFormatter'><img class='img-fluid' src='/cookbook/5.0/images/CustomTickFormatter.png?250112204022' /></a>
+<a href='/cookbook/5.0/CustomizingTicks/CustomTickFormatter'><img class='img-fluid' src='/cookbook/5.0/images/CustomTickFormatter.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/CustomizingTicks/CustomTickFormatter'><b>Custom Tick Formatters</b></a></div>
@@ -508,7 +508,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/CustomizingTicks/DateTimeAutomaticTickFormatter'><img class='img-fluid' src='/cookbook/5.0/images/DateTimeAutomaticTickFormatter.png?250112204022' /></a>
+<a href='/cookbook/5.0/CustomizingTicks/DateTimeAutomaticTickFormatter'><img class='img-fluid' src='/cookbook/5.0/images/DateTimeAutomaticTickFormatter.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/CustomizingTicks/DateTimeAutomaticTickFormatter'><b>DateTimeAutomatic Tick Formatters</b></a></div>
@@ -517,7 +517,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/CustomizingTicks/AltTickGen'><img class='img-fluid' src='/cookbook/5.0/images/AltTickGen.png?250112204022' /></a>
+<a href='/cookbook/5.0/CustomizingTicks/AltTickGen'><img class='img-fluid' src='/cookbook/5.0/images/AltTickGen.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/CustomizingTicks/AltTickGen'><b>Custom Tick Generators</b></a></div>
@@ -526,7 +526,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/CustomizingTicks/SetTicks'><img class='img-fluid' src='/cookbook/5.0/images/SetTicks.png?250112204022' /></a>
+<a href='/cookbook/5.0/CustomizingTicks/SetTicks'><img class='img-fluid' src='/cookbook/5.0/images/SetTicks.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/CustomizingTicks/SetTicks'><b>SetTicks Shortcut</b></a></div>
@@ -535,7 +535,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/CustomizingTicks/CustomTicks'><img class='img-fluid' src='/cookbook/5.0/images/CustomTicks.png?250112204022' /></a>
+<a href='/cookbook/5.0/CustomizingTicks/CustomTicks'><img class='img-fluid' src='/cookbook/5.0/images/CustomTicks.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/CustomizingTicks/CustomTicks'><b>Custom Tick Positions</b></a></div>
@@ -544,7 +544,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/CustomizingTicks/CustomTicksDateTime'><img class='img-fluid' src='/cookbook/5.0/images/CustomTicksDateTime.png?250112204022' /></a>
+<a href='/cookbook/5.0/CustomizingTicks/CustomTicksDateTime'><img class='img-fluid' src='/cookbook/5.0/images/CustomTicksDateTime.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/CustomizingTicks/CustomTicksDateTime'><b>Custom Tick DateTimes</b></a></div>
@@ -553,7 +553,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/CustomizingTicks/RotatedTicks'><img class='img-fluid' src='/cookbook/5.0/images/RotatedTicks.png?250112204022' /></a>
+<a href='/cookbook/5.0/CustomizingTicks/RotatedTicks'><img class='img-fluid' src='/cookbook/5.0/images/RotatedTicks.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/CustomizingTicks/RotatedTicks'><b>Rotated Tick Labels</b></a></div>
@@ -562,7 +562,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/CustomizingTicks/RotatedTicksLongLabels'><img class='img-fluid' src='/cookbook/5.0/images/RotatedTicksLongLabels.png?250112204022' /></a>
+<a href='/cookbook/5.0/CustomizingTicks/RotatedTicksLongLabels'><img class='img-fluid' src='/cookbook/5.0/images/RotatedTicksLongLabels.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/CustomizingTicks/RotatedTicksLongLabels'><b>Rotated Tick with Long Labels</b></a></div>
@@ -571,7 +571,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/CustomizingTicks/DisableGridLines'><img class='img-fluid' src='/cookbook/5.0/images/DisableGridLines.png?250112204022' /></a>
+<a href='/cookbook/5.0/CustomizingTicks/DisableGridLines'><img class='img-fluid' src='/cookbook/5.0/images/DisableGridLines.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/CustomizingTicks/DisableGridLines'><b>Disable Grid Lines</b></a></div>
@@ -580,7 +580,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/CustomizingTicks/MinimumTickSpacing'><img class='img-fluid' src='/cookbook/5.0/images/MinimumTickSpacing.png?250112204022' /></a>
+<a href='/cookbook/5.0/CustomizingTicks/MinimumTickSpacing'><img class='img-fluid' src='/cookbook/5.0/images/MinimumTickSpacing.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/CustomizingTicks/MinimumTickSpacing'><b>Minimum Tick Spacing</b></a></div>
@@ -589,7 +589,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/CustomizingTicks/TickDensity'><img class='img-fluid' src='/cookbook/5.0/images/TickDensity.png?250112204022' /></a>
+<a href='/cookbook/5.0/CustomizingTicks/TickDensity'><img class='img-fluid' src='/cookbook/5.0/images/TickDensity.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/CustomizingTicks/TickDensity'><b>Tick Density</b></a></div>
@@ -598,7 +598,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/CustomizingTicks/TickCount'><img class='img-fluid' src='/cookbook/5.0/images/TickCount.png?250112204022' /></a>
+<a href='/cookbook/5.0/CustomizingTicks/TickCount'><img class='img-fluid' src='/cookbook/5.0/images/TickCount.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/CustomizingTicks/TickCount'><b>Tick Count</b></a></div>
@@ -607,7 +607,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/CustomizingTicks/StandardMinorTickDistribution'><img class='img-fluid' src='/cookbook/5.0/images/StandardMinorTickDistribution.png?250112204022' /></a>
+<a href='/cookbook/5.0/CustomizingTicks/StandardMinorTickDistribution'><img class='img-fluid' src='/cookbook/5.0/images/StandardMinorTickDistribution.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/CustomizingTicks/StandardMinorTickDistribution'><b>Minor Tick Density</b></a></div>
@@ -616,7 +616,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/CustomizingTicks/LogScaleTicks'><img class='img-fluid' src='/cookbook/5.0/images/LogScaleTicks.png?250112204022' /></a>
+<a href='/cookbook/5.0/CustomizingTicks/LogScaleTicks'><img class='img-fluid' src='/cookbook/5.0/images/LogScaleTicks.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/CustomizingTicks/LogScaleTicks'><b>Log Scale Tick Marks</b></a></div>
@@ -627,7 +627,7 @@ ShowEditLink: false
 <div>Examples of common customizations for axis labels and ticks</div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/AxisAndTicks/SetAxisLimits'><img class='img-fluid' src='/cookbook/5.0/images/SetAxisLimits.png?250112204022' /></a>
+<a href='/cookbook/5.0/AxisAndTicks/SetAxisLimits'><img class='img-fluid' src='/cookbook/5.0/images/SetAxisLimits.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/AxisAndTicks/SetAxisLimits'><b>Set Axis Limits</b></a></div>
@@ -636,7 +636,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/AxisAndTicks/GetAxisLimits'><img class='img-fluid' src='/cookbook/5.0/images/GetAxisLimits.png?250112204022' /></a>
+<a href='/cookbook/5.0/AxisAndTicks/GetAxisLimits'><img class='img-fluid' src='/cookbook/5.0/images/GetAxisLimits.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/AxisAndTicks/GetAxisLimits'><b>Read Axis Limits</b></a></div>
@@ -645,7 +645,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/AxisAndTicks/AutoScale'><img class='img-fluid' src='/cookbook/5.0/images/AutoScale.png?250112204022' /></a>
+<a href='/cookbook/5.0/AxisAndTicks/AutoScale'><img class='img-fluid' src='/cookbook/5.0/images/AutoScale.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/AxisAndTicks/AutoScale'><b>AutoScale Axis Limits to Fit Data</b></a></div>
@@ -654,7 +654,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/AxisAndTicks/InvertedAxis'><img class='img-fluid' src='/cookbook/5.0/images/InvertedAxis.png?250112204022' /></a>
+<a href='/cookbook/5.0/AxisAndTicks/InvertedAxis'><img class='img-fluid' src='/cookbook/5.0/images/InvertedAxis.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/AxisAndTicks/InvertedAxis'><b>Inverted Axis</b></a></div>
@@ -663,7 +663,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/AxisAndTicks/InvertedAutoAxis'><img class='img-fluid' src='/cookbook/5.0/images/InvertedAutoAxis.png?250112204022' /></a>
+<a href='/cookbook/5.0/AxisAndTicks/InvertedAutoAxis'><img class='img-fluid' src='/cookbook/5.0/images/InvertedAutoAxis.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/AxisAndTicks/InvertedAutoAxis'><b>Inverted Auto-Axis</b></a></div>
@@ -672,7 +672,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/AxisAndTicks/SquareAxisUnits'><img class='img-fluid' src='/cookbook/5.0/images/SquareAxisUnits.png?250112204022' /></a>
+<a href='/cookbook/5.0/AxisAndTicks/SquareAxisUnits'><img class='img-fluid' src='/cookbook/5.0/images/SquareAxisUnits.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/AxisAndTicks/SquareAxisUnits'><b>Square Axis Units</b></a></div>
@@ -681,7 +681,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/AxisAndTicks/ExperimentalAxisWithSubtitle'><img class='img-fluid' src='/cookbook/5.0/images/ExperimentalAxisWithSubtitle.png?250112204022' /></a>
+<a href='/cookbook/5.0/AxisAndTicks/ExperimentalAxisWithSubtitle'><img class='img-fluid' src='/cookbook/5.0/images/ExperimentalAxisWithSubtitle.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/AxisAndTicks/ExperimentalAxisWithSubtitle'><b>Axis with Subtitle</b></a></div>
@@ -690,7 +690,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/AxisAndTicks/AxisAntiAliasing'><img class='img-fluid' src='/cookbook/5.0/images/AxisAntiAliasing.png?250112204022' /></a>
+<a href='/cookbook/5.0/AxisAndTicks/AxisAntiAliasing'><img class='img-fluid' src='/cookbook/5.0/images/AxisAntiAliasing.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/AxisAndTicks/AxisAntiAliasing'><b>Axis AntiAliasing</b></a></div>
@@ -699,7 +699,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/AxisAndTicks/HideAxis'><img class='img-fluid' src='/cookbook/5.0/images/HideAxis.png?250112204022' /></a>
+<a href='/cookbook/5.0/AxisAndTicks/HideAxis'><img class='img-fluid' src='/cookbook/5.0/images/HideAxis.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/AxisAndTicks/HideAxis'><b>Hide Axis and Turn frame lines on/off</b></a></div>
@@ -708,7 +708,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/AxisAndTicks/DateTimeAxisQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/DateTimeAxisQuickstart.png?250112204022' /></a>
+<a href='/cookbook/5.0/AxisAndTicks/DateTimeAxisQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/DateTimeAxisQuickstart.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/AxisAndTicks/DateTimeAxisQuickstart'><b>DateTime Axis Quickstart</b></a></div>
@@ -717,7 +717,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/AxisAndTicks/DateTimeAxisMixed'><img class='img-fluid' src='/cookbook/5.0/images/DateTimeAxisMixed.png?250112204022' /></a>
+<a href='/cookbook/5.0/AxisAndTicks/DateTimeAxisMixed'><img class='img-fluid' src='/cookbook/5.0/images/DateTimeAxisMixed.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/AxisAndTicks/DateTimeAxisMixed'><b>DateTime Axis Values</b></a></div>
@@ -726,7 +726,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/AxisAndTicks/DateTimeAxisCustomFormatter'><img class='img-fluid' src='/cookbook/5.0/images/DateTimeAxisCustomFormatter.png?250112204022' /></a>
+<a href='/cookbook/5.0/AxisAndTicks/DateTimeAxisCustomFormatter'><img class='img-fluid' src='/cookbook/5.0/images/DateTimeAxisCustomFormatter.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/AxisAndTicks/DateTimeAxisCustomFormatter'><b>Custom DateTime Label Format</b></a></div>
@@ -735,7 +735,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/AxisAndTicks/DateTimeAxisFixedIntervalTicks'><img class='img-fluid' src='/cookbook/5.0/images/DateTimeAxisFixedIntervalTicks.png?250112204022' /></a>
+<a href='/cookbook/5.0/AxisAndTicks/DateTimeAxisFixedIntervalTicks'><img class='img-fluid' src='/cookbook/5.0/images/DateTimeAxisFixedIntervalTicks.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/AxisAndTicks/DateTimeAxisFixedIntervalTicks'><b>DateTime Axis Fixed Interval Ticks</b></a></div>
@@ -744,7 +744,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/AxisAndTicks/FloatingAxis'><img class='img-fluid' src='/cookbook/5.0/images/FloatingAxis.png?250112204022' /></a>
+<a href='/cookbook/5.0/AxisAndTicks/FloatingAxis'><img class='img-fluid' src='/cookbook/5.0/images/FloatingAxis.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/AxisAndTicks/FloatingAxis'><b>Floating Axis</b></a></div>
@@ -753,7 +753,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/AxisAndTicks/CustomGridLineStyle'><img class='img-fluid' src='/cookbook/5.0/images/CustomGridLineStyle.png?250112204022' /></a>
+<a href='/cookbook/5.0/AxisAndTicks/CustomGridLineStyle'><img class='img-fluid' src='/cookbook/5.0/images/CustomGridLineStyle.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/AxisAndTicks/CustomGridLineStyle'><b>Grid Line Style</b></a></div>
@@ -762,7 +762,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/AxisAndTicks/ImageAxisLabel'><img class='img-fluid' src='/cookbook/5.0/images/ImageAxisLabel.png?250112204022' /></a>
+<a href='/cookbook/5.0/AxisAndTicks/ImageAxisLabel'><img class='img-fluid' src='/cookbook/5.0/images/ImageAxisLabel.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/AxisAndTicks/ImageAxisLabel'><b>Image Axis Label</b></a></div>
@@ -771,7 +771,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/AxisAndTicks/MultiplierNotation'><img class='img-fluid' src='/cookbook/5.0/images/MultiplierNotation.png?250112204022' /></a>
+<a href='/cookbook/5.0/AxisAndTicks/MultiplierNotation'><img class='img-fluid' src='/cookbook/5.0/images/MultiplierNotation.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/AxisAndTicks/MultiplierNotation'><b>Multiplier Notation</b></a></div>
@@ -782,7 +782,7 @@ ShowEditLink: false
 <div>A legend is a key typically displayed in the corner of a plot</div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Legend/LegendQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/LegendQuickstart.png?250112204022' /></a>
+<a href='/cookbook/5.0/Legend/LegendQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/LegendQuickstart.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Legend/LegendQuickstart'><b>Legend Quickstart</b></a></div>
@@ -791,7 +791,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Legend/LegendWithRTLText'><img class='img-fluid' src='/cookbook/5.0/images/LegendWithRTLText.png?250112204022' /></a>
+<a href='/cookbook/5.0/Legend/LegendWithRTLText'><img class='img-fluid' src='/cookbook/5.0/images/LegendWithRTLText.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Legend/LegendWithRTLText'><b>Right To Left (RTL) text support</b></a></div>
@@ -800,7 +800,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Legend/ManualLegend'><img class='img-fluid' src='/cookbook/5.0/images/ManualLegend.png?250112204022' /></a>
+<a href='/cookbook/5.0/Legend/ManualLegend'><img class='img-fluid' src='/cookbook/5.0/images/ManualLegend.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Legend/ManualLegend'><b>Manual Legend Items</b></a></div>
@@ -809,7 +809,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Legend/LegendStyle'><img class='img-fluid' src='/cookbook/5.0/images/LegendStyle.png?250112204022' /></a>
+<a href='/cookbook/5.0/Legend/LegendStyle'><img class='img-fluid' src='/cookbook/5.0/images/LegendStyle.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Legend/LegendStyle'><b>Legend Customization</b></a></div>
@@ -818,7 +818,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Legend/LegendOrientation'><img class='img-fluid' src='/cookbook/5.0/images/LegendOrientation.png?250112204022' /></a>
+<a href='/cookbook/5.0/Legend/LegendOrientation'><img class='img-fluid' src='/cookbook/5.0/images/LegendOrientation.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Legend/LegendOrientation'><b>Legend Orientation</b></a></div>
@@ -827,7 +827,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Legend/LegendWrapping'><img class='img-fluid' src='/cookbook/5.0/images/LegendWrapping.png?250112204022' /></a>
+<a href='/cookbook/5.0/Legend/LegendWrapping'><img class='img-fluid' src='/cookbook/5.0/images/LegendWrapping.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Legend/LegendWrapping'><b>Legend Wrapping</b></a></div>
@@ -836,7 +836,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Legend/LegendMultiple'><img class='img-fluid' src='/cookbook/5.0/images/LegendMultiple.png?250112204022' /></a>
+<a href='/cookbook/5.0/Legend/LegendMultiple'><img class='img-fluid' src='/cookbook/5.0/images/LegendMultiple.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Legend/LegendMultiple'><b>Multiple Legends</b></a></div>
@@ -845,7 +845,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Legend/LegendOutside'><img class='img-fluid' src='/cookbook/5.0/images/LegendOutside.png?250112204022' /></a>
+<a href='/cookbook/5.0/Legend/LegendOutside'><img class='img-fluid' src='/cookbook/5.0/images/LegendOutside.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Legend/LegendOutside'><b>Legend Outside the Plot</b></a></div>
@@ -854,7 +854,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Legend/LegendCustomFontAutomaticItems'><img class='img-fluid' src='/cookbook/5.0/images/LegendCustomFontAutomaticItems.png?250112204022' /></a>
+<a href='/cookbook/5.0/Legend/LegendCustomFontAutomaticItems'><img class='img-fluid' src='/cookbook/5.0/images/LegendCustomFontAutomaticItems.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Legend/LegendCustomFontAutomaticItems'><b>Automatic Legend Items Custom Font</b></a></div>
@@ -863,7 +863,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Legend/LegendCustomFontManualItems'><img class='img-fluid' src='/cookbook/5.0/images/LegendCustomFontManualItems.png?250112204022' /></a>
+<a href='/cookbook/5.0/Legend/LegendCustomFontManualItems'><img class='img-fluid' src='/cookbook/5.0/images/LegendCustomFontManualItems.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Legend/LegendCustomFontManualItems'><b>Manual Legend Items Custom Font</b></a></div>
@@ -874,7 +874,7 @@ ShowEditLink: false
 <div>How to customize appearance of plots</div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Styling/BackgroundColors'><img class='img-fluid' src='/cookbook/5.0/images/BackgroundColors.png?250112204022' /></a>
+<a href='/cookbook/5.0/Styling/BackgroundColors'><img class='img-fluid' src='/cookbook/5.0/images/BackgroundColors.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Styling/BackgroundColors'><b>Background Colors</b></a></div>
@@ -883,7 +883,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Styling/AxisCustom'><img class='img-fluid' src='/cookbook/5.0/images/AxisCustom.png?250112204022' /></a>
+<a href='/cookbook/5.0/Styling/AxisCustom'><img class='img-fluid' src='/cookbook/5.0/images/AxisCustom.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Styling/AxisCustom'><b>Axis Customization</b></a></div>
@@ -892,7 +892,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Styling/Palette'><img class='img-fluid' src='/cookbook/5.0/images/Palette.png?250112204022' /></a>
+<a href='/cookbook/5.0/Styling/Palette'><img class='img-fluid' src='/cookbook/5.0/images/Palette.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Styling/Palette'><b>Palettes</b></a></div>
@@ -901,7 +901,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Styling/ArrowShapeNames'><img class='img-fluid' src='/cookbook/5.0/images/ArrowShapeNames.png?250112204022' /></a>
+<a href='/cookbook/5.0/Styling/ArrowShapeNames'><img class='img-fluid' src='/cookbook/5.0/images/ArrowShapeNames.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Styling/ArrowShapeNames'><b>Arrow Shapes</b></a></div>
@@ -910,7 +910,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Styling/LineStyles'><img class='img-fluid' src='/cookbook/5.0/images/LineStyles.png?250112204022' /></a>
+<a href='/cookbook/5.0/Styling/LineStyles'><img class='img-fluid' src='/cookbook/5.0/images/LineStyles.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Styling/LineStyles'><b>Line Styles</b></a></div>
@@ -919,7 +919,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Styling/Scaling'><img class='img-fluid' src='/cookbook/5.0/images/Scaling.png?250112204022' /></a>
+<a href='/cookbook/5.0/Styling/Scaling'><img class='img-fluid' src='/cookbook/5.0/images/Scaling.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Styling/Scaling'><b>Scale Factor</b></a></div>
@@ -928,7 +928,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Styling/Hairline'><img class='img-fluid' src='/cookbook/5.0/images/Hairline.png?250112204022' /></a>
+<a href='/cookbook/5.0/Styling/Hairline'><img class='img-fluid' src='/cookbook/5.0/images/Hairline.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Styling/Hairline'><b>Hairline Mode</b></a></div>
@@ -937,7 +937,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Styling/DarkMode'><img class='img-fluid' src='/cookbook/5.0/images/DarkMode.png?250112204022' /></a>
+<a href='/cookbook/5.0/Styling/DarkMode'><img class='img-fluid' src='/cookbook/5.0/images/DarkMode.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Styling/DarkMode'><b>Dark Mode</b></a></div>
@@ -946,7 +946,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Styling/ColormapColorSteps'><img class='img-fluid' src='/cookbook/5.0/images/ColormapColorSteps.png?250112204022' /></a>
+<a href='/cookbook/5.0/Styling/ColormapColorSteps'><img class='img-fluid' src='/cookbook/5.0/images/ColormapColorSteps.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Styling/ColormapColorSteps'><b>Colormap Steps</b></a></div>
@@ -955,7 +955,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Styling/ColormapFromColors'><img class='img-fluid' src='/cookbook/5.0/images/ColormapFromColors.png?250112204022' /></a>
+<a href='/cookbook/5.0/Styling/ColormapFromColors'><img class='img-fluid' src='/cookbook/5.0/images/ColormapFromColors.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Styling/ColormapFromColors'><b>Colormap Gradient from Colors</b></a></div>
@@ -964,7 +964,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Styling/HandDrawn'><img class='img-fluid' src='/cookbook/5.0/images/HandDrawn.png?250112204022' /></a>
+<a href='/cookbook/5.0/Styling/HandDrawn'><img class='img-fluid' src='/cookbook/5.0/images/HandDrawn.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Styling/HandDrawn'><b>Hand Drawn Line Style</b></a></div>
@@ -973,7 +973,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Styling/TitleAlignment'><img class='img-fluid' src='/cookbook/5.0/images/TitleAlignment.png?250112204022' /></a>
+<a href='/cookbook/5.0/Styling/TitleAlignment'><img class='img-fluid' src='/cookbook/5.0/images/TitleAlignment.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Styling/TitleAlignment'><b>Title Alignment</b></a></div>
@@ -985,7 +985,7 @@ ShowEditLink: false
 <div>Annotations are always-visible text labels positioned over the data area.</div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Annotation/AnnotationQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/AnnotationQuickstart.png?250112204022' /></a>
+<a href='/cookbook/5.0/Annotation/AnnotationQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/AnnotationQuickstart.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Annotation/AnnotationQuickstart'><b>Annotation Quickstart</b></a></div>
@@ -994,7 +994,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Annotation/AnnotationCustomize'><img class='img-fluid' src='/cookbook/5.0/images/AnnotationCustomize.png?250112204022' /></a>
+<a href='/cookbook/5.0/Annotation/AnnotationCustomize'><img class='img-fluid' src='/cookbook/5.0/images/AnnotationCustomize.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Annotation/AnnotationCustomize'><b>Annotation Customization</b></a></div>
@@ -1003,7 +1003,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Annotation/AnnotationPositions'><img class='img-fluid' src='/cookbook/5.0/images/AnnotationPositions.png?250112204022' /></a>
+<a href='/cookbook/5.0/Annotation/AnnotationPositions'><img class='img-fluid' src='/cookbook/5.0/images/AnnotationPositions.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Annotation/AnnotationPositions'><b>Annotation Positions</b></a></div>
@@ -1014,7 +1014,7 @@ ShowEditLink: false
 <div>Arrows point to a location in coordinate space.</div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/ArrowCoordinated/ArrowQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/ArrowQuickstart.png?250112204022' /></a>
+<a href='/cookbook/5.0/ArrowCoordinated/ArrowQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/ArrowQuickstart.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/ArrowCoordinated/ArrowQuickstart'><b>Arrow Quickstart</b></a></div>
@@ -1025,7 +1025,7 @@ ShowEditLink: false
 <div>Axis lines indicate a position on an axis.</div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/AxisLines/AxisLineQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/AxisLineQuickstart.png?250112204022' /></a>
+<a href='/cookbook/5.0/AxisLines/AxisLineQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/AxisLineQuickstart.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/AxisLines/AxisLineQuickstart'><b>Axis Lines</b></a></div>
@@ -1034,7 +1034,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/AxisLines/AxisLineLabel'><img class='img-fluid' src='/cookbook/5.0/images/AxisLineLabel.png?250112204022' /></a>
+<a href='/cookbook/5.0/AxisLines/AxisLineLabel'><img class='img-fluid' src='/cookbook/5.0/images/AxisLineLabel.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/AxisLines/AxisLineLabel'><b>Axis Line Label</b></a></div>
@@ -1043,7 +1043,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/AxisLines/AxisLineLabelPositioning'><img class='img-fluid' src='/cookbook/5.0/images/AxisLineLabelPositioning.png?250112204022' /></a>
+<a href='/cookbook/5.0/AxisLines/AxisLineLabelPositioning'><img class='img-fluid' src='/cookbook/5.0/images/AxisLineLabelPositioning.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/AxisLines/AxisLineLabelPositioning'><b>Axis Line Label Positioning</b></a></div>
@@ -1052,7 +1052,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/AxisLines/AxisLineStyle'><img class='img-fluid' src='/cookbook/5.0/images/AxisLineStyle.png?250112204022' /></a>
+<a href='/cookbook/5.0/AxisLines/AxisLineStyle'><img class='img-fluid' src='/cookbook/5.0/images/AxisLineStyle.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/AxisLines/AxisLineStyle'><b>Axis Line Style</b></a></div>
@@ -1061,7 +1061,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/AxisLines/AxisLineInLegend'><img class='img-fluid' src='/cookbook/5.0/images/AxisLineInLegend.png?250112204022' /></a>
+<a href='/cookbook/5.0/AxisLines/AxisLineInLegend'><img class='img-fluid' src='/cookbook/5.0/images/AxisLineInLegend.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/AxisLines/AxisLineInLegend'><b>Axis Line In Legend</b></a></div>
@@ -1070,7 +1070,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/AxisLines/AxisLineIgnoreLimits'><img class='img-fluid' src='/cookbook/5.0/images/AxisLineIgnoreLimits.png?250112204022' /></a>
+<a href='/cookbook/5.0/AxisLines/AxisLineIgnoreLimits'><img class='img-fluid' src='/cookbook/5.0/images/AxisLineIgnoreLimits.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/AxisLines/AxisLineIgnoreLimits'><b>Ignore When Autoscaling</b></a></div>
@@ -1079,7 +1079,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/AxisLines/AxisLineLimits'><img class='img-fluid' src='/cookbook/5.0/images/AxisLineLimits.png?250112204022' /></a>
+<a href='/cookbook/5.0/AxisLines/AxisLineLimits'><img class='img-fluid' src='/cookbook/5.0/images/AxisLineLimits.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/AxisLines/AxisLineLimits'><b>Axis Line with Limits</b></a></div>
@@ -1090,7 +1090,7 @@ ShowEditLink: false
 <div>Axis spans indicate a range of an axis.</div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/AxisSpans/AxisSpanQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/AxisSpanQuickstart.png?250112204022' /></a>
+<a href='/cookbook/5.0/AxisSpans/AxisSpanQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/AxisSpanQuickstart.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/AxisSpans/AxisSpanQuickstart'><b>Axis Span Quickstart</b></a></div>
@@ -1099,7 +1099,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/AxisSpans/AxisSpanStyling'><img class='img-fluid' src='/cookbook/5.0/images/AxisSpanStyling.png?250112204022' /></a>
+<a href='/cookbook/5.0/AxisSpans/AxisSpanStyling'><img class='img-fluid' src='/cookbook/5.0/images/AxisSpanStyling.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/AxisSpans/AxisSpanStyling'><b>Axis Span Styling</b></a></div>
@@ -1110,7 +1110,7 @@ ShowEditLink: false
 <div>Bar plots represent values as horizontal or vertical rectangles</div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Bar/Quickstart'><img class='img-fluid' src='/cookbook/5.0/images/Quickstart.png?250112204022' /></a>
+<a href='/cookbook/5.0/Bar/Quickstart'><img class='img-fluid' src='/cookbook/5.0/images/Quickstart.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Bar/Quickstart'><b>Bar Plot Quickstart</b></a></div>
@@ -1119,7 +1119,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Bar/BarLegend'><img class='img-fluid' src='/cookbook/5.0/images/BarLegend.png?250112204022' /></a>
+<a href='/cookbook/5.0/Bar/BarLegend'><img class='img-fluid' src='/cookbook/5.0/images/BarLegend.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Bar/BarLegend'><b>Bar Plot Legend</b></a></div>
@@ -1128,7 +1128,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Bar/BarValues'><img class='img-fluid' src='/cookbook/5.0/images/BarValues.png?250112204022' /></a>
+<a href='/cookbook/5.0/Bar/BarValues'><img class='img-fluid' src='/cookbook/5.0/images/BarValues.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Bar/BarValues'><b>Bar with Value Labels</b></a></div>
@@ -1137,7 +1137,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Bar/BarValuesHorizontal'><img class='img-fluid' src='/cookbook/5.0/images/BarValuesHorizontal.png?250112204022' /></a>
+<a href='/cookbook/5.0/Bar/BarValuesHorizontal'><img class='img-fluid' src='/cookbook/5.0/images/BarValuesHorizontal.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Bar/BarValuesHorizontal'><b>Bar with Value Labels (horizontal)</b></a></div>
@@ -1146,7 +1146,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Bar/BarPosition'><img class='img-fluid' src='/cookbook/5.0/images/BarPosition.png?250112204022' /></a>
+<a href='/cookbook/5.0/Bar/BarPosition'><img class='img-fluid' src='/cookbook/5.0/images/BarPosition.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Bar/BarPosition'><b>Bar Positioning</b></a></div>
@@ -1155,7 +1155,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Bar/BarWithError'><img class='img-fluid' src='/cookbook/5.0/images/BarWithError.png?250112204022' /></a>
+<a href='/cookbook/5.0/Bar/BarWithError'><img class='img-fluid' src='/cookbook/5.0/images/BarWithError.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Bar/BarWithError'><b>Bars with Error</b></a></div>
@@ -1164,7 +1164,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Bar/BarTickLabels'><img class='img-fluid' src='/cookbook/5.0/images/BarTickLabels.png?250112204022' /></a>
+<a href='/cookbook/5.0/Bar/BarTickLabels'><img class='img-fluid' src='/cookbook/5.0/images/BarTickLabels.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Bar/BarTickLabels'><b>Bars with Labeled Ticks</b></a></div>
@@ -1173,7 +1173,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Bar/BarFillStyle'><img class='img-fluid' src='/cookbook/5.0/images/BarFillStyle.png?250112204022' /></a>
+<a href='/cookbook/5.0/Bar/BarFillStyle'><img class='img-fluid' src='/cookbook/5.0/images/BarFillStyle.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Bar/BarFillStyle'><b>Bar Fill Style</b></a></div>
@@ -1182,7 +1182,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Bar/BarCustomSingle'><img class='img-fluid' src='/cookbook/5.0/images/BarCustomSingle.png?250112204022' /></a>
+<a href='/cookbook/5.0/Bar/BarCustomSingle'><img class='img-fluid' src='/cookbook/5.0/images/BarCustomSingle.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Bar/BarCustomSingle'><b>Customized Bar Plot</b></a></div>
@@ -1191,7 +1191,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Bar/BarStackVertically'><img class='img-fluid' src='/cookbook/5.0/images/BarStackVertically.png?250112204022' /></a>
+<a href='/cookbook/5.0/Bar/BarStackVertically'><img class='img-fluid' src='/cookbook/5.0/images/BarStackVertically.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Bar/BarStackVertically'><b>Stacked Bar Plot</b></a></div>
@@ -1200,7 +1200,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Bar/GroupedBarPlot'><img class='img-fluid' src='/cookbook/5.0/images/GroupedBarPlot.png?250112204022' /></a>
+<a href='/cookbook/5.0/Bar/GroupedBarPlot'><img class='img-fluid' src='/cookbook/5.0/images/GroupedBarPlot.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Bar/GroupedBarPlot'><b>Grouped Bar Plot</b></a></div>
@@ -1209,7 +1209,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Bar/HorizontalBar'><img class='img-fluid' src='/cookbook/5.0/images/HorizontalBar.png?250112204022' /></a>
+<a href='/cookbook/5.0/Bar/HorizontalBar'><img class='img-fluid' src='/cookbook/5.0/images/HorizontalBar.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Bar/HorizontalBar'><b>Horizontal Bar Plot</b></a></div>
@@ -1218,7 +1218,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Bar/StackedBars'><img class='img-fluid' src='/cookbook/5.0/images/StackedBars.png?250112204022' /></a>
+<a href='/cookbook/5.0/Bar/StackedBars'><img class='img-fluid' src='/cookbook/5.0/images/StackedBars.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Bar/StackedBars'><b>Stacked Bar Chart</b></a></div>
@@ -1227,7 +1227,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Bar/BarWithCustomText'><img class='img-fluid' src='/cookbook/5.0/images/BarWithCustomText.png?250112204022' /></a>
+<a href='/cookbook/5.0/Bar/BarWithCustomText'><img class='img-fluid' src='/cookbook/5.0/images/BarWithCustomText.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Bar/BarWithCustomText'><b>Bar with Custom Text</b></a></div>
@@ -1236,7 +1236,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Bar/RangeChart'><img class='img-fluid' src='/cookbook/5.0/images/RangeChart.png?250112204022' /></a>
+<a href='/cookbook/5.0/Bar/RangeChart'><img class='img-fluid' src='/cookbook/5.0/images/RangeChart.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Bar/RangeChart'><b>Range Chart</b></a></div>
@@ -1245,7 +1245,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Bar/RangeChartHozontal'><img class='img-fluid' src='/cookbook/5.0/images/RangeChartHozontal.png?250112204022' /></a>
+<a href='/cookbook/5.0/Bar/RangeChartHozontal'><img class='img-fluid' src='/cookbook/5.0/images/RangeChartHozontal.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Bar/RangeChartHozontal'><b>Horizontal Range Chart</b></a></div>
@@ -1254,7 +1254,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Bar/StackedRangeChart'><img class='img-fluid' src='/cookbook/5.0/images/StackedRangeChart.png?250112204022' /></a>
+<a href='/cookbook/5.0/Bar/StackedRangeChart'><img class='img-fluid' src='/cookbook/5.0/images/StackedRangeChart.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Bar/StackedRangeChart'><b>Stacked Range Chart</b></a></div>
@@ -1263,7 +1263,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Bar/StackedRangeHorizontal'><img class='img-fluid' src='/cookbook/5.0/images/StackedRangeHorizontal.png?250112204022' /></a>
+<a href='/cookbook/5.0/Bar/StackedRangeHorizontal'><img class='img-fluid' src='/cookbook/5.0/images/StackedRangeHorizontal.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Bar/StackedRangeHorizontal'><b>Stacked Horizontal Range Chart</b></a></div>
@@ -1274,7 +1274,7 @@ ShowEditLink: false
 <div>Box plots show a distribution at a glance</div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Box/BoxPlotQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/BoxPlotQuickstart.png?250112204022' /></a>
+<a href='/cookbook/5.0/Box/BoxPlotQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/BoxPlotQuickstart.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Box/BoxPlotQuickstart'><b>Box Plot Quickstart</b></a></div>
@@ -1283,7 +1283,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Box/BoxPlotGroups'><img class='img-fluid' src='/cookbook/5.0/images/BoxPlotGroups.png?250112204022' /></a>
+<a href='/cookbook/5.0/Box/BoxPlotGroups'><img class='img-fluid' src='/cookbook/5.0/images/BoxPlotGroups.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Box/BoxPlotGroups'><b>Box Plot Groups</b></a></div>
@@ -1294,7 +1294,7 @@ ShowEditLink: false
 <div>Brackets annotate a range along a line in coordinate space</div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Bracket/BracketQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/BracketQuickstart.png?250112204022' /></a>
+<a href='/cookbook/5.0/Bracket/BracketQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/BracketQuickstart.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Bracket/BracketQuickstart'><b>Bracket</b></a></div>
@@ -1305,7 +1305,7 @@ ShowEditLink: false
 <div>Callouts display a label and are connected with an arrow that marks a point on the plot.</div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Callout/CalloutQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/CalloutQuickstart.png?250112204022' /></a>
+<a href='/cookbook/5.0/Callout/CalloutQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/CalloutQuickstart.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Callout/CalloutQuickstart'><b>Callout Quickstart</b></a></div>
@@ -1316,7 +1316,7 @@ ShowEditLink: false
 <div>A contour plot is a graphical representation that shows the three-dimensional surface of a function on a two-dimensional plane by connecting points of equal value with contour lines</div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Contour/ContourGrid'><img class='img-fluid' src='/cookbook/5.0/images/ContourGrid.png?250112204022' /></a>
+<a href='/cookbook/5.0/Contour/ContourGrid'><img class='img-fluid' src='/cookbook/5.0/images/ContourGrid.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Contour/ContourGrid'><b>Rectangular Contour Plot</b></a></div>
@@ -1325,7 +1325,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Contour/IrregularContour'><img class='img-fluid' src='/cookbook/5.0/images/IrregularContour.png?250112204022' /></a>
+<a href='/cookbook/5.0/Contour/IrregularContour'><img class='img-fluid' src='/cookbook/5.0/images/IrregularContour.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Contour/IrregularContour'><b>Irregular Contour Plot</b></a></div>
@@ -1334,7 +1334,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Contour/ContourHeatmap'><img class='img-fluid' src='/cookbook/5.0/images/ContourHeatmap.png?250112204022' /></a>
+<a href='/cookbook/5.0/Contour/ContourHeatmap'><img class='img-fluid' src='/cookbook/5.0/images/ContourHeatmap.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Contour/ContourHeatmap'><b>Contour Lines with Heatmap</b></a></div>
@@ -1343,7 +1343,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Contour/ContourColormap'><img class='img-fluid' src='/cookbook/5.0/images/ContourColormap.png?250112204022' /></a>
+<a href='/cookbook/5.0/Contour/ContourColormap'><img class='img-fluid' src='/cookbook/5.0/images/ContourColormap.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Contour/ContourColormap'><b>Contour Lines with Colormap</b></a></div>
@@ -1354,7 +1354,7 @@ ShowEditLink: false
 <div>A Coxcomb chart is a pie graph where the angle of slices is constant but the radii are not.</div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Coxcomb/CoxcombQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/CoxcombQuickstart.png?250112204022' /></a>
+<a href='/cookbook/5.0/Coxcomb/CoxcombQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/CoxcombQuickstart.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Coxcomb/CoxcombQuickstart'><b>Coxcomb Plot Quickstart</b></a></div>
@@ -1365,7 +1365,7 @@ ShowEditLink: false
 <div>A Crosshair combines a horizontal axis line and vertical axis line to mark a location in coordinate space.</div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Crosshair/CrosshairQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/CrosshairQuickstart.png?250112204022' /></a>
+<a href='/cookbook/5.0/Crosshair/CrosshairQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/CrosshairQuickstart.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Crosshair/CrosshairQuickstart'><b>Crosshair Quickstart</b></a></div>
@@ -1374,7 +1374,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Crosshair/CrosshairCustomization'><img class='img-fluid' src='/cookbook/5.0/images/CrosshairCustomization.png?250112204022' /></a>
+<a href='/cookbook/5.0/Crosshair/CrosshairCustomization'><img class='img-fluid' src='/cookbook/5.0/images/CrosshairCustomization.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Crosshair/CrosshairCustomization'><b>Crosshair Customization</b></a></div>
@@ -1385,7 +1385,7 @@ ShowEditLink: false
 <div>Ellipses are curves with a defined center and distinct X and Y radii. A circle is an ellipse with an X radius equal to its Y radius.</div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Ellipse/PlotEllipseQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/PlotEllipseQuickstart.png?250112204022' /></a>
+<a href='/cookbook/5.0/Ellipse/PlotEllipseQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/PlotEllipseQuickstart.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Ellipse/PlotEllipseQuickstart'><b>Ellipse Quickstart</b></a></div>
@@ -1394,7 +1394,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Ellipse/PlotCircleQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/PlotCircleQuickstart.png?250112204022' /></a>
+<a href='/cookbook/5.0/Ellipse/PlotCircleQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/PlotCircleQuickstart.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Ellipse/PlotCircleQuickstart'><b>Circle Quickstart</b></a></div>
@@ -1403,7 +1403,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Ellipse/CircleWithLockedScale'><img class='img-fluid' src='/cookbook/5.0/images/CircleWithLockedScale.png?250112204022' /></a>
+<a href='/cookbook/5.0/Ellipse/CircleWithLockedScale'><img class='img-fluid' src='/cookbook/5.0/images/CircleWithLockedScale.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Ellipse/CircleWithLockedScale'><b>Circle with Locked Scale</b></a></div>
@@ -1412,7 +1412,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Ellipse/EllipseStyling'><img class='img-fluid' src='/cookbook/5.0/images/EllipseStyling.png?250112204022' /></a>
+<a href='/cookbook/5.0/Ellipse/EllipseStyling'><img class='img-fluid' src='/cookbook/5.0/images/EllipseStyling.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Ellipse/EllipseStyling'><b>Ellipse Styling</b></a></div>
@@ -1421,7 +1421,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Ellipse/EllipseRotation'><img class='img-fluid' src='/cookbook/5.0/images/EllipseRotation.png?250112204022' /></a>
+<a href='/cookbook/5.0/Ellipse/EllipseRotation'><img class='img-fluid' src='/cookbook/5.0/images/EllipseRotation.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Ellipse/EllipseRotation'><b>Ellipse Rotation</b></a></div>
@@ -1432,7 +1432,7 @@ ShowEditLink: false
 <div>Error Bars communicate the range of possible values for a measurement</div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/ErrorBar/ErrorBarQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/ErrorBarQuickstart.png?250112204022' /></a>
+<a href='/cookbook/5.0/ErrorBar/ErrorBarQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/ErrorBarQuickstart.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/ErrorBar/ErrorBarQuickstart'><b>Error Bar Quickstart</b></a></div>
@@ -1441,7 +1441,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/ErrorBar/CustomErrors'><img class='img-fluid' src='/cookbook/5.0/images/CustomErrors.png?250112204022' /></a>
+<a href='/cookbook/5.0/ErrorBar/CustomErrors'><img class='img-fluid' src='/cookbook/5.0/images/CustomErrors.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/ErrorBar/CustomErrors'><b>ErrorBar Values</b></a></div>
@@ -1452,7 +1452,7 @@ ShowEditLink: false
 <div>FillY plots display the vertical range between two Y values at defined X positions</div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/FillY/FillYFromArrays'><img class='img-fluid' src='/cookbook/5.0/images/FillYFromArrays.png?250112204022' /></a>
+<a href='/cookbook/5.0/FillY/FillYFromArrays'><img class='img-fluid' src='/cookbook/5.0/images/FillYFromArrays.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/FillY/FillYFromArrays'><b>FillY From Array Data</b></a></div>
@@ -1461,7 +1461,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/FillY/FillYFromScatters'><img class='img-fluid' src='/cookbook/5.0/images/FillYFromScatters.png?250112204022' /></a>
+<a href='/cookbook/5.0/FillY/FillYFromScatters'><img class='img-fluid' src='/cookbook/5.0/images/FillYFromScatters.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/FillY/FillYFromScatters'><b>FillY From Scatter Plots</b></a></div>
@@ -1470,7 +1470,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/FillY/Function'><img class='img-fluid' src='/cookbook/5.0/images/Function.png?250112204022' /></a>
+<a href='/cookbook/5.0/FillY/Function'><img class='img-fluid' src='/cookbook/5.0/images/Function.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/FillY/Function'><b>FillY with Custom Type</b></a></div>
@@ -1479,7 +1479,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/FillY/Styling'><img class='img-fluid' src='/cookbook/5.0/images/Styling.png?250112204022' /></a>
+<a href='/cookbook/5.0/FillY/Styling'><img class='img-fluid' src='/cookbook/5.0/images/Styling.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/FillY/Styling'><b>FillY Plot Styling</b></a></div>
@@ -1488,7 +1488,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/FillY/FilledError'><img class='img-fluid' src='/cookbook/5.0/images/FilledError.png?250112204022' /></a>
+<a href='/cookbook/5.0/FillY/FilledError'><img class='img-fluid' src='/cookbook/5.0/images/FilledError.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/FillY/FilledError'><b>Filled Error</b></a></div>
@@ -1499,7 +1499,7 @@ ShowEditLink: false
 <div>Finance plots display price data binned into time ranges</div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Finance/Candlestick'><img class='img-fluid' src='/cookbook/5.0/images/Candlestick.png?250112204022' /></a>
+<a href='/cookbook/5.0/Finance/Candlestick'><img class='img-fluid' src='/cookbook/5.0/images/Candlestick.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Finance/Candlestick'><b>Candlestick Chart</b></a></div>
@@ -1508,7 +1508,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Finance/OhlcChart'><img class='img-fluid' src='/cookbook/5.0/images/OhlcChart.png?250112204022' /></a>
+<a href='/cookbook/5.0/Finance/OhlcChart'><img class='img-fluid' src='/cookbook/5.0/images/OhlcChart.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Finance/OhlcChart'><b>OHLC Chart</b></a></div>
@@ -1517,7 +1517,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Finance/FinanceChartBins'><img class='img-fluid' src='/cookbook/5.0/images/FinanceChartBins.png?250112204022' /></a>
+<a href='/cookbook/5.0/Finance/FinanceChartBins'><img class='img-fluid' src='/cookbook/5.0/images/FinanceChartBins.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Finance/FinanceChartBins'><b>Finance Chart with Custom Time Bins</b></a></div>
@@ -1526,7 +1526,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Finance/FinanceRightAxis'><img class='img-fluid' src='/cookbook/5.0/images/FinanceRightAxis.png?250112204022' /></a>
+<a href='/cookbook/5.0/Finance/FinanceRightAxis'><img class='img-fluid' src='/cookbook/5.0/images/FinanceRightAxis.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Finance/FinanceRightAxis'><b>Price on Right</b></a></div>
@@ -1535,7 +1535,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Finance/FinanceSma'><img class='img-fluid' src='/cookbook/5.0/images/FinanceSma.png?250112204022' /></a>
+<a href='/cookbook/5.0/Finance/FinanceSma'><img class='img-fluid' src='/cookbook/5.0/images/FinanceSma.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Finance/FinanceSma'><b>Simple Moving Average</b></a></div>
@@ -1544,7 +1544,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Finance/FinanceBollinger'><img class='img-fluid' src='/cookbook/5.0/images/FinanceBollinger.png?250112204022' /></a>
+<a href='/cookbook/5.0/Finance/FinanceBollinger'><img class='img-fluid' src='/cookbook/5.0/images/FinanceBollinger.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Finance/FinanceBollinger'><b>Bollinger Bands</b></a></div>
@@ -1553,7 +1553,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Finance/FinancialPlotWithoutGaps'><img class='img-fluid' src='/cookbook/5.0/images/FinancialPlotWithoutGaps.png?250112204022' /></a>
+<a href='/cookbook/5.0/Finance/FinancialPlotWithoutGaps'><img class='img-fluid' src='/cookbook/5.0/images/FinancialPlotWithoutGaps.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Finance/FinancialPlotWithoutGaps'><b>Candlestick Chart Without Gaps</b></a></div>
@@ -1562,7 +1562,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Finance/FinancialPlotWithoutGapsOhlc'><img class='img-fluid' src='/cookbook/5.0/images/FinancialPlotWithoutGapsOhlc.png?250112204022' /></a>
+<a href='/cookbook/5.0/Finance/FinancialPlotWithoutGapsOhlc'><img class='img-fluid' src='/cookbook/5.0/images/FinancialPlotWithoutGapsOhlc.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Finance/FinancialPlotWithoutGapsOhlc'><b>OHLC Chart Without Gaps</b></a></div>
@@ -1571,7 +1571,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Finance/StockSymbolBackgroundText'><img class='img-fluid' src='/cookbook/5.0/images/StockSymbolBackgroundText.png?250112204022' /></a>
+<a href='/cookbook/5.0/Finance/StockSymbolBackgroundText'><img class='img-fluid' src='/cookbook/5.0/images/StockSymbolBackgroundText.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Finance/StockSymbolBackgroundText'><b>Stock Symbol Background</b></a></div>
@@ -1580,7 +1580,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Finance/StockSymbolBackgroundTextMultiline'><img class='img-fluid' src='/cookbook/5.0/images/StockSymbolBackgroundTextMultiline.png?250112204022' /></a>
+<a href='/cookbook/5.0/Finance/StockSymbolBackgroundTextMultiline'><img class='img-fluid' src='/cookbook/5.0/images/StockSymbolBackgroundTextMultiline.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Finance/StockSymbolBackgroundTextMultiline'><b>Stock Symbol Multiline</b></a></div>
@@ -1589,7 +1589,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Finance/FinanceDarkMode'><img class='img-fluid' src='/cookbook/5.0/images/FinanceDarkMode.png?250112204022' /></a>
+<a href='/cookbook/5.0/Finance/FinanceDarkMode'><img class='img-fluid' src='/cookbook/5.0/images/FinanceDarkMode.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Finance/FinanceDarkMode'><b>Finance Chart Dark Mode</b></a></div>
@@ -1598,7 +1598,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Finance/FinancialDateTimeAxis'><img class='img-fluid' src='/cookbook/5.0/images/FinancialDateTimeAxis.png?250112204022' /></a>
+<a href='/cookbook/5.0/Finance/FinancialDateTimeAxis'><img class='img-fluid' src='/cookbook/5.0/images/FinancialDateTimeAxis.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Finance/FinancialDateTimeAxis'><b>Financial DateTime Axis</b></a></div>
@@ -1609,7 +1609,7 @@ ShowEditLink: false
 <div>Function plots are a type of line plot where Y positions are defined by a function that depends on X rather than a collection of discrete data points.</div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Function/FunctionQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/FunctionQuickstart.png?250112204022' /></a>
+<a href='/cookbook/5.0/Function/FunctionQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/FunctionQuickstart.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Function/FunctionQuickstart'><b>Function Quickstart</b></a></div>
@@ -1618,7 +1618,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Function/FunctionLimitX'><img class='img-fluid' src='/cookbook/5.0/images/FunctionLimitX.png?250112204022' /></a>
+<a href='/cookbook/5.0/Function/FunctionLimitX'><img class='img-fluid' src='/cookbook/5.0/images/FunctionLimitX.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Function/FunctionLimitX'><b>Function Limit X</b></a></div>
@@ -1627,7 +1627,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Function/FunctionDynamic'><img class='img-fluid' src='/cookbook/5.0/images/FunctionDynamic.png?250112204022' /></a>
+<a href='/cookbook/5.0/Function/FunctionDynamic'><img class='img-fluid' src='/cookbook/5.0/images/FunctionDynamic.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Function/FunctionDynamic'><b>Dynamically Generated Functions</b></a></div>
@@ -1638,7 +1638,7 @@ ShowEditLink: false
 <div>Heatmaps display values from 2D data as an image with cells of different intensities</div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Heatmap/HeatmapQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/HeatmapQuickstart.png?250112204022' /></a>
+<a href='/cookbook/5.0/Heatmap/HeatmapQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/HeatmapQuickstart.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Heatmap/HeatmapQuickstart'><b>Heatmap Quickstart</b></a></div>
@@ -1647,7 +1647,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Heatmap/HeatmapInverted'><img class='img-fluid' src='/cookbook/5.0/images/HeatmapInverted.png?250112204022' /></a>
+<a href='/cookbook/5.0/Heatmap/HeatmapInverted'><img class='img-fluid' src='/cookbook/5.0/images/HeatmapInverted.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Heatmap/HeatmapInverted'><b>Inverted Heatmap</b></a></div>
@@ -1656,7 +1656,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Heatmap/HeatmapColormap'><img class='img-fluid' src='/cookbook/5.0/images/HeatmapColormap.png?250112204022' /></a>
+<a href='/cookbook/5.0/Heatmap/HeatmapColormap'><img class='img-fluid' src='/cookbook/5.0/images/HeatmapColormap.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Heatmap/HeatmapColormap'><b>Heatmap with custom Colormap</b></a></div>
@@ -1665,7 +1665,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Heatmap/HeatmapMultipleColorbar'><img class='img-fluid' src='/cookbook/5.0/images/HeatmapMultipleColorbar.png?250112204022' /></a>
+<a href='/cookbook/5.0/Heatmap/HeatmapMultipleColorbar'><img class='img-fluid' src='/cookbook/5.0/images/HeatmapMultipleColorbar.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Heatmap/HeatmapMultipleColorbar'><b>Multiple Colorbars</b></a></div>
@@ -1674,7 +1674,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Heatmap/ColorbarTitle'><img class='img-fluid' src='/cookbook/5.0/images/ColorbarTitle.png?250112204022' /></a>
+<a href='/cookbook/5.0/Heatmap/ColorbarTitle'><img class='img-fluid' src='/cookbook/5.0/images/ColorbarTitle.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Heatmap/ColorbarTitle'><b>Colorbar Title</b></a></div>
@@ -1683,7 +1683,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Heatmap/ColorbarTickFormatter'><img class='img-fluid' src='/cookbook/5.0/images/ColorbarTickFormatter.png?250112204022' /></a>
+<a href='/cookbook/5.0/Heatmap/ColorbarTickFormatter'><img class='img-fluid' src='/cookbook/5.0/images/ColorbarTickFormatter.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Heatmap/ColorbarTickFormatter'><b>Colorbar Tick Formatter</b></a></div>
@@ -1692,7 +1692,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Heatmap/HeatmapFlip'><img class='img-fluid' src='/cookbook/5.0/images/HeatmapFlip.png?250112204022' /></a>
+<a href='/cookbook/5.0/Heatmap/HeatmapFlip'><img class='img-fluid' src='/cookbook/5.0/images/HeatmapFlip.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Heatmap/HeatmapFlip'><b>Flipped Heatmap</b></a></div>
@@ -1701,7 +1701,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Heatmap/HeatmapSmooth'><img class='img-fluid' src='/cookbook/5.0/images/HeatmapSmooth.png?250112204022' /></a>
+<a href='/cookbook/5.0/Heatmap/HeatmapSmooth'><img class='img-fluid' src='/cookbook/5.0/images/HeatmapSmooth.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Heatmap/HeatmapSmooth'><b>Smooth Heatmap</b></a></div>
@@ -1710,7 +1710,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Heatmap/HeatmapTransparentCells'><img class='img-fluid' src='/cookbook/5.0/images/HeatmapTransparentCells.png?250112204022' /></a>
+<a href='/cookbook/5.0/Heatmap/HeatmapTransparentCells'><img class='img-fluid' src='/cookbook/5.0/images/HeatmapTransparentCells.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Heatmap/HeatmapTransparentCells'><b>Transparent Cells</b></a></div>
@@ -1719,7 +1719,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Heatmap/HeatmapGlobalTransparency'><img class='img-fluid' src='/cookbook/5.0/images/HeatmapGlobalTransparency.png?250112204022' /></a>
+<a href='/cookbook/5.0/Heatmap/HeatmapGlobalTransparency'><img class='img-fluid' src='/cookbook/5.0/images/HeatmapGlobalTransparency.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Heatmap/HeatmapGlobalTransparency'><b>Global Transparency</b></a></div>
@@ -1728,7 +1728,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Heatmap/HeatmapAlphaMap'><img class='img-fluid' src='/cookbook/5.0/images/HeatmapAlphaMap.png?250112204022' /></a>
+<a href='/cookbook/5.0/Heatmap/HeatmapAlphaMap'><img class='img-fluid' src='/cookbook/5.0/images/HeatmapAlphaMap.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Heatmap/HeatmapAlphaMap'><b>Alpha Map</b></a></div>
@@ -1737,7 +1737,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Heatmap/FramelessHeatmap'><img class='img-fluid' src='/cookbook/5.0/images/FramelessHeatmap.png?250112204022' /></a>
+<a href='/cookbook/5.0/Heatmap/FramelessHeatmap'><img class='img-fluid' src='/cookbook/5.0/images/FramelessHeatmap.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Heatmap/FramelessHeatmap'><b>Frameless Heatmap</b></a></div>
@@ -1746,7 +1746,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Heatmap/HeatmapCellAlignment'><img class='img-fluid' src='/cookbook/5.0/images/HeatmapCellAlignment.png?250112204022' /></a>
+<a href='/cookbook/5.0/Heatmap/HeatmapCellAlignment'><img class='img-fluid' src='/cookbook/5.0/images/HeatmapCellAlignment.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Heatmap/HeatmapCellAlignment'><b>HeatmapCellAlignment</b></a></div>
@@ -1755,7 +1755,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Heatmap/HeatmapCellSize'><img class='img-fluid' src='/cookbook/5.0/images/HeatmapCellSize.png?250112204022' /></a>
+<a href='/cookbook/5.0/Heatmap/HeatmapCellSize'><img class='img-fluid' src='/cookbook/5.0/images/HeatmapCellSize.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Heatmap/HeatmapCellSize'><b>Heatmap Cell Size</b></a></div>
@@ -1764,7 +1764,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Heatmap/HeatmapRectangle'><img class='img-fluid' src='/cookbook/5.0/images/HeatmapRectangle.png?250112204022' /></a>
+<a href='/cookbook/5.0/Heatmap/HeatmapRectangle'><img class='img-fluid' src='/cookbook/5.0/images/HeatmapRectangle.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Heatmap/HeatmapRectangle'><b>Heatmap Rectangle</b></a></div>
@@ -1773,7 +1773,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Heatmap/HeatmapManualRange'><img class='img-fluid' src='/cookbook/5.0/images/HeatmapManualRange.png?250112204022' /></a>
+<a href='/cookbook/5.0/Heatmap/HeatmapManualRange'><img class='img-fluid' src='/cookbook/5.0/images/HeatmapManualRange.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Heatmap/HeatmapManualRange'><b>Heatmap with Manual Color Range</b></a></div>
@@ -1782,7 +1782,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Heatmap/HeatmapCellLabels'><img class='img-fluid' src='/cookbook/5.0/images/HeatmapCellLabels.png?250112204022' /></a>
+<a href='/cookbook/5.0/Heatmap/HeatmapCellLabels'><img class='img-fluid' src='/cookbook/5.0/images/HeatmapCellLabels.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Heatmap/HeatmapCellLabels'><b>Heatmap Cell Labels</b></a></div>
@@ -1791,7 +1791,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Heatmap/HeatmapDateTime'><img class='img-fluid' src='/cookbook/5.0/images/HeatmapDateTime.png?250112204022' /></a>
+<a href='/cookbook/5.0/Heatmap/HeatmapDateTime'><img class='img-fluid' src='/cookbook/5.0/images/HeatmapDateTime.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Heatmap/HeatmapDateTime'><b>Heatmap with DateTime Axis</b></a></div>
@@ -1802,7 +1802,7 @@ ShowEditLink: false
 <div>Images can be placed on plots in a variety of ways</div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Images/ImageRectQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/ImageRectQuickstart.png?250112204022' /></a>
+<a href='/cookbook/5.0/Images/ImageRectQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/ImageRectQuickstart.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Images/ImageRectQuickstart'><b>Image Rectangle</b></a></div>
@@ -1813,7 +1813,7 @@ ShowEditLink: false
 <div>Line plots can be placed on the plot in coordinate space using a Start, End, and an optional LineStyle.</div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/LinePlot/LineQuickStart'><img class='img-fluid' src='/cookbook/5.0/images/LineQuickStart.png?250112204022' /></a>
+<a href='/cookbook/5.0/LinePlot/LineQuickStart'><img class='img-fluid' src='/cookbook/5.0/images/LineQuickStart.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/LinePlot/LineQuickStart'><b>Line Plot Quickstart</b></a></div>
@@ -1822,7 +1822,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/LinePlot/LinePlotStyles'><img class='img-fluid' src='/cookbook/5.0/images/LinePlotStyles.png?250112204022' /></a>
+<a href='/cookbook/5.0/LinePlot/LinePlotStyles'><img class='img-fluid' src='/cookbook/5.0/images/LinePlotStyles.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/LinePlot/LinePlotStyles'><b>Line Plot Shapes</b></a></div>
@@ -1831,7 +1831,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/LinePlot/LinePlotLegendQWER'><img class='img-fluid' src='/cookbook/5.0/images/LinePlotLegendQWER.png?250112204022' /></a>
+<a href='/cookbook/5.0/LinePlot/LinePlotLegendQWER'><img class='img-fluid' src='/cookbook/5.0/images/LinePlotLegendQWER.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/LinePlot/LinePlotLegendQWER'><b>Line Plot Legend</b></a></div>
@@ -1840,7 +1840,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/LinePlot/LinePlotMarkerOrder'><img class='img-fluid' src='/cookbook/5.0/images/LinePlotMarkerOrder.png?250112204022' /></a>
+<a href='/cookbook/5.0/LinePlot/LinePlotMarkerOrder'><img class='img-fluid' src='/cookbook/5.0/images/LinePlotMarkerOrder.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/LinePlot/LinePlotMarkerOrder'><b>Line and Marker Order</b></a></div>
@@ -1851,7 +1851,7 @@ ShowEditLink: false
 <div>Plottables like DataLogger and DataStreamer are designed for displaying datasets that change in real time. They have the ability to control axis limits to ensure the latest data is always in view. See the ScottPlot Demo for live example of these plot types.</div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/LiveData/DataLoggerQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/DataLoggerQuickstart.png?250112204022' /></a>
+<a href='/cookbook/5.0/LiveData/DataLoggerQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/DataLoggerQuickstart.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/LiveData/DataLoggerQuickstart'><b>DataLogger Quickstart</b></a></div>
@@ -1860,7 +1860,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/LiveData/DataStreamerQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/DataStreamerQuickstart.png?250112204022' /></a>
+<a href='/cookbook/5.0/LiveData/DataStreamerQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/DataStreamerQuickstart.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/LiveData/DataStreamerQuickstart'><b>DataStreamer Quickstart</b></a></div>
@@ -1869,7 +1869,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/LiveData/DataLoggerEditing'><img class='img-fluid' src='/cookbook/5.0/images/DataLoggerEditing.png?250112204022' /></a>
+<a href='/cookbook/5.0/LiveData/DataLoggerEditing'><img class='img-fluid' src='/cookbook/5.0/images/DataLoggerEditing.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/LiveData/DataLoggerEditing'><b>DataLogger Editing</b></a></div>
@@ -1880,7 +1880,7 @@ ShowEditLink: false
 <div>A lollipop chart is a variation of a bar chart that uses a line (stem) extending from a baseline to a marker (head) to represent data points. Lollipop highlight individual data points with less visual clutter than to traditional bar charts.</div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Lollipop/LollipopQuickStart'><img class='img-fluid' src='/cookbook/5.0/images/LollipopQuickStart.png?250112204022' /></a>
+<a href='/cookbook/5.0/Lollipop/LollipopQuickStart'><img class='img-fluid' src='/cookbook/5.0/images/LollipopQuickStart.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Lollipop/LollipopQuickStart'><b>Lollipop Plot Quickstart</b></a></div>
@@ -1889,7 +1889,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Lollipop/LollipopPositions'><img class='img-fluid' src='/cookbook/5.0/images/LollipopPositions.png?250112204022' /></a>
+<a href='/cookbook/5.0/Lollipop/LollipopPositions'><img class='img-fluid' src='/cookbook/5.0/images/LollipopPositions.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Lollipop/LollipopPositions'><b>Lollipop Positions</b></a></div>
@@ -1898,7 +1898,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Lollipop/BarLollipopCustom'><img class='img-fluid' src='/cookbook/5.0/images/BarLollipopCustom.png?250112204022' /></a>
+<a href='/cookbook/5.0/Lollipop/BarLollipopCustom'><img class='img-fluid' src='/cookbook/5.0/images/BarLollipopCustom.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Lollipop/BarLollipopCustom'><b>Lollipop Plot Customizations</b></a></div>
@@ -1907,7 +1907,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Lollipop/LollipopHorizontal'><img class='img-fluid' src='/cookbook/5.0/images/LollipopHorizontal.png?250112204022' /></a>
+<a href='/cookbook/5.0/Lollipop/LollipopHorizontal'><img class='img-fluid' src='/cookbook/5.0/images/LollipopHorizontal.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Lollipop/LollipopHorizontal'><b>Horizontal Lollipop Plot</b></a></div>
@@ -1918,7 +1918,7 @@ ShowEditLink: false
 <div>Markers can be placed on the plot in coordinate space.</div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Marker/MarkerQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/MarkerQuickstart.png?250112204022' /></a>
+<a href='/cookbook/5.0/Marker/MarkerQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/MarkerQuickstart.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Marker/MarkerQuickstart'><b>Marker Quickstart</b></a></div>
@@ -1927,7 +1927,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Marker/MarkerShapes'><img class='img-fluid' src='/cookbook/5.0/images/MarkerShapes.png?250112204022' /></a>
+<a href='/cookbook/5.0/Marker/MarkerShapes'><img class='img-fluid' src='/cookbook/5.0/images/MarkerShapes.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Marker/MarkerShapes'><b>Marker Shapes</b></a></div>
@@ -1936,7 +1936,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Marker/MarkerLegend'><img class='img-fluid' src='/cookbook/5.0/images/MarkerLegend.png?250112204022' /></a>
+<a href='/cookbook/5.0/Marker/MarkerLegend'><img class='img-fluid' src='/cookbook/5.0/images/MarkerLegend.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Marker/MarkerLegend'><b>Marker Legend</b></a></div>
@@ -1945,7 +1945,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Marker/MarkersPlot'><img class='img-fluid' src='/cookbook/5.0/images/MarkersPlot.png?250112204022' /></a>
+<a href='/cookbook/5.0/Marker/MarkersPlot'><img class='img-fluid' src='/cookbook/5.0/images/MarkersPlot.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Marker/MarkersPlot'><b>Many Markers</b></a></div>
@@ -1954,7 +1954,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Marker/MarkersColormap'><img class='img-fluid' src='/cookbook/5.0/images/MarkersColormap.png?250112204022' /></a>
+<a href='/cookbook/5.0/Marker/MarkersColormap'><img class='img-fluid' src='/cookbook/5.0/images/MarkersColormap.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Marker/MarkersColormap'><b>Marker with Colormap</b></a></div>
@@ -1963,7 +1963,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Marker/ImageMarkerQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/ImageMarkerQuickstart.png?250112204022' /></a>
+<a href='/cookbook/5.0/Marker/ImageMarkerQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/ImageMarkerQuickstart.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Marker/ImageMarkerQuickstart'><b>Image Marker</b></a></div>
@@ -1974,7 +1974,7 @@ ShowEditLink: false
 <div>Phasor plots display vectors on a radial axis centered at the origin</div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Phasor/PhasorQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/PhasorQuickstart.png?250112204022' /></a>
+<a href='/cookbook/5.0/Phasor/PhasorQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/PhasorQuickstart.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Phasor/PhasorQuickstart'><b>Phasor Line Plot</b></a></div>
@@ -1983,7 +1983,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Phasor/PhasorLabels'><img class='img-fluid' src='/cookbook/5.0/images/PhasorLabels.png?250112204022' /></a>
+<a href='/cookbook/5.0/Phasor/PhasorLabels'><img class='img-fluid' src='/cookbook/5.0/images/PhasorLabels.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Phasor/PhasorLabels'><b>Phasor Plot with Labels</b></a></div>
@@ -1994,7 +1994,7 @@ ShowEditLink: false
 <div>Pie charts illustrate numerical proportions as slices of a circle.</div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Pie/PieQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/PieQuickstart.png?250112204022' /></a>
+<a href='/cookbook/5.0/Pie/PieQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/PieQuickstart.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Pie/PieQuickstart'><b>Pie Chart from Values</b></a></div>
@@ -2003,7 +2003,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Pie/PieSlices'><img class='img-fluid' src='/cookbook/5.0/images/PieSlices.png?250112204022' /></a>
+<a href='/cookbook/5.0/Pie/PieSlices'><img class='img-fluid' src='/cookbook/5.0/images/PieSlices.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Pie/PieSlices'><b>Pie Chart from Slices</b></a></div>
@@ -2012,7 +2012,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Pie/PieDonut'><img class='img-fluid' src='/cookbook/5.0/images/PieDonut.png?250112204022' /></a>
+<a href='/cookbook/5.0/Pie/PieDonut'><img class='img-fluid' src='/cookbook/5.0/images/PieDonut.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Pie/PieDonut'><b>Donut from Slices</b></a></div>
@@ -2021,7 +2021,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Pie/PieSliceHatch'><img class='img-fluid' src='/cookbook/5.0/images/PieSliceHatch.png?250112204022' /></a>
+<a href='/cookbook/5.0/Pie/PieSliceHatch'><img class='img-fluid' src='/cookbook/5.0/images/PieSliceHatch.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Pie/PieSliceHatch'><b>Pie Slice with Hatch</b></a></div>
@@ -2030,7 +2030,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Pie/PieRotation'><img class='img-fluid' src='/cookbook/5.0/images/PieRotation.png?250112204022' /></a>
+<a href='/cookbook/5.0/Pie/PieRotation'><img class='img-fluid' src='/cookbook/5.0/images/PieRotation.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Pie/PieRotation'><b>Pie Chart Rotation</b></a></div>
@@ -2039,7 +2039,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Pie/PieSliceLabels'><img class='img-fluid' src='/cookbook/5.0/images/PieSliceLabels.png?250112204022' /></a>
+<a href='/cookbook/5.0/Pie/PieSliceLabels'><img class='img-fluid' src='/cookbook/5.0/images/PieSliceLabels.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Pie/PieSliceLabels'><b>Pie Slice Labels</b></a></div>
@@ -2048,7 +2048,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Pie/PieSliceLabelsPercent'><img class='img-fluid' src='/cookbook/5.0/images/PieSliceLabelsPercent.png?250112204022' /></a>
+<a href='/cookbook/5.0/Pie/PieSliceLabelsPercent'><img class='img-fluid' src='/cookbook/5.0/images/PieSliceLabelsPercent.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Pie/PieSliceLabelsPercent'><b>Pie with Percent Labels</b></a></div>
@@ -2057,7 +2057,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Pie/PieSliceLabelsAndLegend'><img class='img-fluid' src='/cookbook/5.0/images/PieSliceLabelsAndLegend.png?250112204022' /></a>
+<a href='/cookbook/5.0/Pie/PieSliceLabelsAndLegend'><img class='img-fluid' src='/cookbook/5.0/images/PieSliceLabelsAndLegend.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Pie/PieSliceLabelsAndLegend'><b>Pie with Different Labels</b></a></div>
@@ -2068,7 +2068,7 @@ ShowEditLink: false
 <div>Create a polar axis and add it to the plot to display data on a circular coordinate system.</div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/PolarAxis/PolarQuickStart'><img class='img-fluid' src='/cookbook/5.0/images/PolarQuickStart.png?250112204022' /></a>
+<a href='/cookbook/5.0/PolarAxis/PolarQuickStart'><img class='img-fluid' src='/cookbook/5.0/images/PolarQuickStart.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/PolarAxis/PolarQuickStart'><b>Polar Axis</b></a></div>
@@ -2077,7 +2077,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/PolarAxis/PolarRotation'><img class='img-fluid' src='/cookbook/5.0/images/PolarRotation.png?250112204022' /></a>
+<a href='/cookbook/5.0/PolarAxis/PolarRotation'><img class='img-fluid' src='/cookbook/5.0/images/PolarRotation.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/PolarAxis/PolarRotation'><b>Polar Axis Rotation</b></a></div>
@@ -2086,7 +2086,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/PolarAxis/PolarAxisArrow'><img class='img-fluid' src='/cookbook/5.0/images/PolarAxisArrow.png?250112204022' /></a>
+<a href='/cookbook/5.0/PolarAxis/PolarAxisArrow'><img class='img-fluid' src='/cookbook/5.0/images/PolarAxisArrow.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/PolarAxis/PolarAxisArrow'><b>Polar Axis with Arrows</b></a></div>
@@ -2095,7 +2095,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/PolarAxis/PolarAxisStyling'><img class='img-fluid' src='/cookbook/5.0/images/PolarAxisStyling.png?250112204022' /></a>
+<a href='/cookbook/5.0/PolarAxis/PolarAxisStyling'><img class='img-fluid' src='/cookbook/5.0/images/PolarAxisStyling.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/PolarAxis/PolarAxisStyling'><b>Polar Axis Styling</b></a></div>
@@ -2104,7 +2104,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/PolarAxis/PolarSpokeLabels'><img class='img-fluid' src='/cookbook/5.0/images/PolarSpokeLabels.png?250112204022' /></a>
+<a href='/cookbook/5.0/PolarAxis/PolarSpokeLabels'><img class='img-fluid' src='/cookbook/5.0/images/PolarSpokeLabels.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/PolarAxis/PolarSpokeLabels'><b>Polar Axis Spoke Labels</b></a></div>
@@ -2113,7 +2113,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/PolarAxis/PolarTickLabels'><img class='img-fluid' src='/cookbook/5.0/images/PolarTickLabels.png?250112204022' /></a>
+<a href='/cookbook/5.0/PolarAxis/PolarTickLabels'><img class='img-fluid' src='/cookbook/5.0/images/PolarTickLabels.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/PolarAxis/PolarTickLabels'><b>Polar Axis Tick Labels</b></a></div>
@@ -2122,7 +2122,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/PolarAxis/PolarAxisLineCustomizations'><img class='img-fluid' src='/cookbook/5.0/images/PolarAxisLineCustomizations.png?250112204022' /></a>
+<a href='/cookbook/5.0/PolarAxis/PolarAxisLineCustomizations'><img class='img-fluid' src='/cookbook/5.0/images/PolarAxisLineCustomizations.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/PolarAxis/PolarAxisLineCustomizations'><b>Polar Axis Line Customization</b></a></div>
@@ -2131,18 +2131,27 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/PolarAxis/PolarRadar'><img class='img-fluid' src='/cookbook/5.0/images/PolarRadar.png?250112204022' /></a>
+<a href='/cookbook/5.0/PolarAxis/PolarRadar'><img class='img-fluid' src='/cookbook/5.0/images/PolarRadar.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/PolarAxis/PolarRadar'><b>Polar Radar Plot</b></a></div>
 <div>Combining a polar axis with polygons is an alternative strategy for building radar plots.</div>
 </div>
 </div>
+<div class='row my-4'>
+<div class='col'>
+<a href='/cookbook/5.0/PolarAxis/PolarSpokeLabelPadding'><img class='img-fluid' src='/cookbook/5.0/images/PolarSpokeLabelPadding.png?250126165944' /></a>
+</div>
+<div class='col'>
+<div><a href='/cookbook/5.0/PolarAxis/PolarSpokeLabelPadding'><b>Polar Spoke Label Padding</b></a></div>
+<div>Modifies the padding of labels on polar spokes.</div>
+</div>
+</div>
 <h2 class=''><a href='/cookbook/5.0/Population' class='text-dark'>Population Plot</a></h2>
 <div>Population plots display collections of individual values.</div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Population/PopulationQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/PopulationQuickstart.png?250112204022' /></a>
+<a href='/cookbook/5.0/Population/PopulationQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/PopulationQuickstart.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Population/PopulationQuickstart'><b>Population Quickstart</b></a></div>
@@ -2151,7 +2160,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Population/PopulationBox'><img class='img-fluid' src='/cookbook/5.0/images/PopulationBox.png?250112204022' /></a>
+<a href='/cookbook/5.0/Population/PopulationBox'><img class='img-fluid' src='/cookbook/5.0/images/PopulationBox.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Population/PopulationBox'><b>Population Box Plot</b></a></div>
@@ -2160,7 +2169,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Population/PopulationBoxValues'><img class='img-fluid' src='/cookbook/5.0/images/PopulationBoxValues.png?250112204022' /></a>
+<a href='/cookbook/5.0/Population/PopulationBoxValues'><img class='img-fluid' src='/cookbook/5.0/images/PopulationBoxValues.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Population/PopulationBoxValues'><b>Population Box Values</b></a></div>
@@ -2169,7 +2178,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Population/PopulationBarStyle'><img class='img-fluid' src='/cookbook/5.0/images/PopulationBarStyle.png?250112204022' /></a>
+<a href='/cookbook/5.0/Population/PopulationBarStyle'><img class='img-fluid' src='/cookbook/5.0/images/PopulationBarStyle.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Population/PopulationBarStyle'><b>Population Bar Styling</b></a></div>
@@ -2178,7 +2187,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Population/PopulationBoxStyle'><img class='img-fluid' src='/cookbook/5.0/images/PopulationBoxStyle.png?250112204022' /></a>
+<a href='/cookbook/5.0/Population/PopulationBoxStyle'><img class='img-fluid' src='/cookbook/5.0/images/PopulationBoxStyle.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Population/PopulationBoxStyle'><b>Population Box Styling</b></a></div>
@@ -2187,7 +2196,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Population/PopulationMarkerStyle'><img class='img-fluid' src='/cookbook/5.0/images/PopulationMarkerStyle.png?250112204022' /></a>
+<a href='/cookbook/5.0/Population/PopulationMarkerStyle'><img class='img-fluid' src='/cookbook/5.0/images/PopulationMarkerStyle.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Population/PopulationMarkerStyle'><b>Population Marker Styling</b></a></div>
@@ -2196,7 +2205,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Population/PopulationArrangement'><img class='img-fluid' src='/cookbook/5.0/images/PopulationArrangement.png?250112204022' /></a>
+<a href='/cookbook/5.0/Population/PopulationArrangement'><img class='img-fluid' src='/cookbook/5.0/images/PopulationArrangement.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Population/PopulationArrangement'><b>Population Arrangement</b></a></div>
@@ -2205,7 +2214,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Population/PopulationGroups'><img class='img-fluid' src='/cookbook/5.0/images/PopulationGroups.png?250112204022' /></a>
+<a href='/cookbook/5.0/Population/PopulationGroups'><img class='img-fluid' src='/cookbook/5.0/images/PopulationGroups.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Population/PopulationGroups'><b>Population Groups</b></a></div>
@@ -2216,7 +2225,7 @@ ShowEditLink: false
 <div>Radar charts (also called a spider charts or star charts) represent multi-axis data as a 2D shape on axes arranged circularly around a center point.</div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Radar/RadarQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/RadarQuickstart.png?250112204022' /></a>
+<a href='/cookbook/5.0/Radar/RadarQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/RadarQuickstart.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Radar/RadarQuickstart'><b>Radar Plot Quickstart</b></a></div>
@@ -2225,7 +2234,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Radar/RadarMultipleQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/RadarMultipleQuickstart.png?250112204022' /></a>
+<a href='/cookbook/5.0/Radar/RadarMultipleQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/RadarMultipleQuickstart.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Radar/RadarMultipleQuickstart'><b>Radar Plot with Multiple Series</b></a></div>
@@ -2234,7 +2243,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Radar/RadarLegend'><img class='img-fluid' src='/cookbook/5.0/images/RadarLegend.png?250112204022' /></a>
+<a href='/cookbook/5.0/Radar/RadarLegend'><img class='img-fluid' src='/cookbook/5.0/images/RadarLegend.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Radar/RadarLegend'><b>Radar Legend</b></a></div>
@@ -2243,7 +2252,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Radar/RadarSeriesCustomization'><img class='img-fluid' src='/cookbook/5.0/images/RadarSeriesCustomization.png?250112204022' /></a>
+<a href='/cookbook/5.0/Radar/RadarSeriesCustomization'><img class='img-fluid' src='/cookbook/5.0/images/RadarSeriesCustomization.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Radar/RadarSeriesCustomization'><b>Radar Series Customization</b></a></div>
@@ -2252,7 +2261,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Radar/RadarSpokeLabels'><img class='img-fluid' src='/cookbook/5.0/images/RadarSpokeLabels.png?250112204022' /></a>
+<a href='/cookbook/5.0/Radar/RadarSpokeLabels'><img class='img-fluid' src='/cookbook/5.0/images/RadarSpokeLabels.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Radar/RadarSpokeLabels'><b>Radar Spoke Labels</b></a></div>
@@ -2261,7 +2270,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Radar/RadarRadialTicks'><img class='img-fluid' src='/cookbook/5.0/images/RadarRadialTicks.png?250112204022' /></a>
+<a href='/cookbook/5.0/Radar/RadarRadialTicks'><img class='img-fluid' src='/cookbook/5.0/images/RadarRadialTicks.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Radar/RadarRadialTicks'><b>Radar Radial Tick Labels</b></a></div>
@@ -2270,7 +2279,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Radar/RadarStraightLines'><img class='img-fluid' src='/cookbook/5.0/images/RadarStraightLines.png?250112204022' /></a>
+<a href='/cookbook/5.0/Radar/RadarStraightLines'><img class='img-fluid' src='/cookbook/5.0/images/RadarStraightLines.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Radar/RadarStraightLines'><b>Radar with Straight Lines</b></a></div>
@@ -2281,7 +2290,7 @@ ShowEditLink: false
 <div>A radial gauge chart displays scalar data as circular gauges.</div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/RadialGauge/RadialGaugeQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/RadialGaugeQuickstart.png?250112204022' /></a>
+<a href='/cookbook/5.0/RadialGauge/RadialGaugeQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/RadialGaugeQuickstart.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/RadialGauge/RadialGaugeQuickstart'><b>Radial gauge from values</b></a></div>
@@ -2290,7 +2299,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/RadialGauge/RadialGaugeColormap'><img class='img-fluid' src='/cookbook/5.0/images/RadialGaugeColormap.png?250112204022' /></a>
+<a href='/cookbook/5.0/RadialGauge/RadialGaugeColormap'><img class='img-fluid' src='/cookbook/5.0/images/RadialGaugeColormap.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/RadialGauge/RadialGaugeColormap'><b>Gauge Colors</b></a></div>
@@ -2299,7 +2308,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/RadialGauge/RadialGaugeNegative'><img class='img-fluid' src='/cookbook/5.0/images/RadialGaugeNegative.png?250112204022' /></a>
+<a href='/cookbook/5.0/RadialGauge/RadialGaugeNegative'><img class='img-fluid' src='/cookbook/5.0/images/RadialGaugeNegative.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/RadialGauge/RadialGaugeNegative'><b>Negative Values</b></a></div>
@@ -2308,7 +2317,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/RadialGauge/RadialGaugeSequential'><img class='img-fluid' src='/cookbook/5.0/images/RadialGaugeSequential.png?250112204022' /></a>
+<a href='/cookbook/5.0/RadialGauge/RadialGaugeSequential'><img class='img-fluid' src='/cookbook/5.0/images/RadialGaugeSequential.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/RadialGauge/RadialGaugeSequential'><b>Sequential Gauge Mode</b></a></div>
@@ -2317,7 +2326,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/RadialGauge/RadialGaugeReverse'><img class='img-fluid' src='/cookbook/5.0/images/RadialGaugeReverse.png?250112204022' /></a>
+<a href='/cookbook/5.0/RadialGauge/RadialGaugeReverse'><img class='img-fluid' src='/cookbook/5.0/images/RadialGaugeReverse.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/RadialGauge/RadialGaugeReverse'><b>Reverse Order</b></a></div>
@@ -2326,7 +2335,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/RadialGauge/RadialGaugeModeSingle'><img class='img-fluid' src='/cookbook/5.0/images/RadialGaugeModeSingle.png?250112204022' /></a>
+<a href='/cookbook/5.0/RadialGauge/RadialGaugeModeSingle'><img class='img-fluid' src='/cookbook/5.0/images/RadialGaugeModeSingle.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/RadialGauge/RadialGaugeModeSingle'><b>Single Gauge Mode</b></a></div>
@@ -2335,7 +2344,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/RadialGauge/RadialGaugeDirection'><img class='img-fluid' src='/cookbook/5.0/images/RadialGaugeDirection.png?250112204022' /></a>
+<a href='/cookbook/5.0/RadialGauge/RadialGaugeDirection'><img class='img-fluid' src='/cookbook/5.0/images/RadialGaugeDirection.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/RadialGauge/RadialGaugeDirection'><b>Gauge Direction</b></a></div>
@@ -2344,7 +2353,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/RadialGauge/RadialGaugeSize'><img class='img-fluid' src='/cookbook/5.0/images/RadialGaugeSize.png?250112204022' /></a>
+<a href='/cookbook/5.0/RadialGauge/RadialGaugeSize'><img class='img-fluid' src='/cookbook/5.0/images/RadialGaugeSize.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/RadialGauge/RadialGaugeSize'><b>Gauge Size</b></a></div>
@@ -2353,7 +2362,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/RadialGauge/RadialGaugeStart'><img class='img-fluid' src='/cookbook/5.0/images/RadialGaugeStart.png?250112204022' /></a>
+<a href='/cookbook/5.0/RadialGauge/RadialGaugeStart'><img class='img-fluid' src='/cookbook/5.0/images/RadialGaugeStart.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/RadialGauge/RadialGaugeStart'><b>Gauge Starting Angle</b></a></div>
@@ -2362,7 +2371,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/RadialGauge/RadialGaugeRange'><img class='img-fluid' src='/cookbook/5.0/images/RadialGaugeRange.png?250112204022' /></a>
+<a href='/cookbook/5.0/RadialGauge/RadialGaugeRange'><img class='img-fluid' src='/cookbook/5.0/images/RadialGaugeRange.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/RadialGauge/RadialGaugeRange'><b>Gauge Angular Range</b></a></div>
@@ -2371,7 +2380,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/RadialGauge/RadialGaugeLabels'><img class='img-fluid' src='/cookbook/5.0/images/RadialGaugeLabels.png?250112204022' /></a>
+<a href='/cookbook/5.0/RadialGauge/RadialGaugeLabels'><img class='img-fluid' src='/cookbook/5.0/images/RadialGaugeLabels.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/RadialGauge/RadialGaugeLabels'><b>Show Levels</b></a></div>
@@ -2380,7 +2389,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/RadialGauge/RadialGaugeLabelPos'><img class='img-fluid' src='/cookbook/5.0/images/RadialGaugeLabelPos.png?250112204022' /></a>
+<a href='/cookbook/5.0/RadialGauge/RadialGaugeLabelPos'><img class='img-fluid' src='/cookbook/5.0/images/RadialGaugeLabelPos.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/RadialGauge/RadialGaugeLabelPos'><b>Gauge Label Position</b></a></div>
@@ -2389,7 +2398,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/RadialGauge/RadialGaugeLabelFontPct'><img class='img-fluid' src='/cookbook/5.0/images/RadialGaugeLabelFontPct.png?250112204022' /></a>
+<a href='/cookbook/5.0/RadialGauge/RadialGaugeLabelFontPct'><img class='img-fluid' src='/cookbook/5.0/images/RadialGaugeLabelFontPct.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/RadialGauge/RadialGaugeLabelFontPct'><b>Gauge Label Font Percentage</b></a></div>
@@ -2398,7 +2407,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/RadialGauge/RadialGaugeLabelColor'><img class='img-fluid' src='/cookbook/5.0/images/RadialGaugeLabelColor.png?250112204022' /></a>
+<a href='/cookbook/5.0/RadialGauge/RadialGaugeLabelColor'><img class='img-fluid' src='/cookbook/5.0/images/RadialGaugeLabelColor.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/RadialGauge/RadialGaugeLabelColor'><b>Gauge Label Color</b></a></div>
@@ -2407,7 +2416,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/RadialGauge/RadialGaugeLegend'><img class='img-fluid' src='/cookbook/5.0/images/RadialGaugeLegend.png?250112204022' /></a>
+<a href='/cookbook/5.0/RadialGauge/RadialGaugeLegend'><img class='img-fluid' src='/cookbook/5.0/images/RadialGaugeLegend.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/RadialGauge/RadialGaugeLegend'><b>Gauge Labels in Legend</b></a></div>
@@ -2416,7 +2425,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/RadialGauge/RadialGaugeBackDim'><img class='img-fluid' src='/cookbook/5.0/images/RadialGaugeBackDim.png?250112204022' /></a>
+<a href='/cookbook/5.0/RadialGauge/RadialGaugeBackDim'><img class='img-fluid' src='/cookbook/5.0/images/RadialGaugeBackDim.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/RadialGauge/RadialGaugeBackDim'><b>Background Gauges Dim</b></a></div>
@@ -2425,7 +2434,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/RadialGauge/RadialGaugeBackNorm'><img class='img-fluid' src='/cookbook/5.0/images/RadialGaugeBackNorm.png?250112204022' /></a>
+<a href='/cookbook/5.0/RadialGauge/RadialGaugeBackNorm'><img class='img-fluid' src='/cookbook/5.0/images/RadialGaugeBackNorm.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/RadialGauge/RadialGaugeBackNorm'><b>Background Gauges Normalization</b></a></div>
@@ -2436,7 +2445,7 @@ ShowEditLink: false
 <div>Scalebars display a horizontal and/or vertical range using a line segment and may be used to convey axis scale as a minimal alternative to using axis frames, ticks, and tick labels.</div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/ScaleBar/ScaleBarQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/ScaleBarQuickstart.png?250112204022' /></a>
+<a href='/cookbook/5.0/ScaleBar/ScaleBarQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/ScaleBarQuickstart.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/ScaleBar/ScaleBarQuickstart'><b>ScaleBar Quickstart</b></a></div>
@@ -2445,7 +2454,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/ScaleBar/ScaleBarLabels'><img class='img-fluid' src='/cookbook/5.0/images/ScaleBarLabels.png?250112204022' /></a>
+<a href='/cookbook/5.0/ScaleBar/ScaleBarLabels'><img class='img-fluid' src='/cookbook/5.0/images/ScaleBarLabels.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/ScaleBar/ScaleBarLabels'><b>ScaleBar Labels</b></a></div>
@@ -2454,7 +2463,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/ScaleBar/ScaleBarStyling'><img class='img-fluid' src='/cookbook/5.0/images/ScaleBarStyling.png?250112204022' /></a>
+<a href='/cookbook/5.0/ScaleBar/ScaleBarStyling'><img class='img-fluid' src='/cookbook/5.0/images/ScaleBarStyling.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/ScaleBar/ScaleBarStyling'><b>ScaleBar Styling</b></a></div>
@@ -2463,7 +2472,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/ScaleBar/ScaleBarSingleDimension'><img class='img-fluid' src='/cookbook/5.0/images/ScaleBarSingleDimension.png?250112204022' /></a>
+<a href='/cookbook/5.0/ScaleBar/ScaleBarSingleDimension'><img class='img-fluid' src='/cookbook/5.0/images/ScaleBarSingleDimension.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/ScaleBar/ScaleBarSingleDimension'><b>ScaleBar Single Dimension</b></a></div>
@@ -2474,7 +2483,7 @@ ShowEditLink: false
 <div>Scatter plots display points at X/Y locations in coordinate space.</div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Scatter/ScatterQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/ScatterQuickstart.png?250112204022' /></a>
+<a href='/cookbook/5.0/Scatter/ScatterQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/ScatterQuickstart.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Scatter/ScatterQuickstart'><b>Scatter Plot Quickstart</b></a></div>
@@ -2483,7 +2492,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Scatter/ScatterCoordinates'><img class='img-fluid' src='/cookbook/5.0/images/ScatterCoordinates.png?250112204022' /></a>
+<a href='/cookbook/5.0/Scatter/ScatterCoordinates'><img class='img-fluid' src='/cookbook/5.0/images/ScatterCoordinates.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Scatter/ScatterCoordinates'><b>Scatter Plot Coordinates</b></a></div>
@@ -2492,7 +2501,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Scatter/ScatterDataType'><img class='img-fluid' src='/cookbook/5.0/images/ScatterDataType.png?250112204022' /></a>
+<a href='/cookbook/5.0/Scatter/ScatterDataType'><img class='img-fluid' src='/cookbook/5.0/images/ScatterDataType.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Scatter/ScatterDataType'><b>Scatter Plot Data Type</b></a></div>
@@ -2501,7 +2510,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Scatter/ScatterList'><img class='img-fluid' src='/cookbook/5.0/images/ScatterList.png?250112204022' /></a>
+<a href='/cookbook/5.0/Scatter/ScatterList'><img class='img-fluid' src='/cookbook/5.0/images/ScatterList.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Scatter/ScatterList'><b>Scatter Plot of List Data</b></a></div>
@@ -2510,7 +2519,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Scatter/ScatterLine'><img class='img-fluid' src='/cookbook/5.0/images/ScatterLine.png?250112204022' /></a>
+<a href='/cookbook/5.0/Scatter/ScatterLine'><img class='img-fluid' src='/cookbook/5.0/images/ScatterLine.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Scatter/ScatterLine'><b>Scatter Plot with Lines Only</b></a></div>
@@ -2519,7 +2528,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Scatter/ScatterPoints'><img class='img-fluid' src='/cookbook/5.0/images/ScatterPoints.png?250112204022' /></a>
+<a href='/cookbook/5.0/Scatter/ScatterPoints'><img class='img-fluid' src='/cookbook/5.0/images/ScatterPoints.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Scatter/ScatterPoints'><b>Scatter Plot with Points Only</b></a></div>
@@ -2528,7 +2537,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Scatter/ScatterStyling'><img class='img-fluid' src='/cookbook/5.0/images/ScatterStyling.png?250112204022' /></a>
+<a href='/cookbook/5.0/Scatter/ScatterStyling'><img class='img-fluid' src='/cookbook/5.0/images/ScatterStyling.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Scatter/ScatterStyling'><b>Scatter Plot Styling</b></a></div>
@@ -2537,7 +2546,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Scatter/ScatterLinePatterns'><img class='img-fluid' src='/cookbook/5.0/images/ScatterLinePatterns.png?250112204022' /></a>
+<a href='/cookbook/5.0/Scatter/ScatterLinePatterns'><img class='img-fluid' src='/cookbook/5.0/images/ScatterLinePatterns.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Scatter/ScatterLinePatterns'><b>Scatter Line Patterns</b></a></div>
@@ -2546,7 +2555,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Scatter/ScatterGeneric'><img class='img-fluid' src='/cookbook/5.0/images/ScatterGeneric.png?250112204022' /></a>
+<a href='/cookbook/5.0/Scatter/ScatterGeneric'><img class='img-fluid' src='/cookbook/5.0/images/ScatterGeneric.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Scatter/ScatterGeneric'><b>Scatter Generic</b></a></div>
@@ -2555,7 +2564,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Scatter/ScatterDateTime'><img class='img-fluid' src='/cookbook/5.0/images/ScatterDateTime.png?250112204022' /></a>
+<a href='/cookbook/5.0/Scatter/ScatterDateTime'><img class='img-fluid' src='/cookbook/5.0/images/ScatterDateTime.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Scatter/ScatterDateTime'><b>Scatter DateTime</b></a></div>
@@ -2564,7 +2573,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Scatter/ScatterStep'><img class='img-fluid' src='/cookbook/5.0/images/ScatterStep.png?250112204022' /></a>
+<a href='/cookbook/5.0/Scatter/ScatterStep'><img class='img-fluid' src='/cookbook/5.0/images/ScatterStep.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Scatter/ScatterStep'><b>Step Plot</b></a></div>
@@ -2573,7 +2582,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Scatter/ScatterWithGaps'><img class='img-fluid' src='/cookbook/5.0/images/ScatterWithGaps.png?250112204022' /></a>
+<a href='/cookbook/5.0/Scatter/ScatterWithGaps'><img class='img-fluid' src='/cookbook/5.0/images/ScatterWithGaps.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Scatter/ScatterWithGaps'><b>Scatter with Gaps</b></a></div>
@@ -2582,7 +2591,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Scatter/ScatterSmooth'><img class='img-fluid' src='/cookbook/5.0/images/ScatterSmooth.png?250112204022' /></a>
+<a href='/cookbook/5.0/Scatter/ScatterSmooth'><img class='img-fluid' src='/cookbook/5.0/images/ScatterSmooth.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Scatter/ScatterSmooth'><b>Scatter Plot with Smooth Lines</b></a></div>
@@ -2591,7 +2600,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Scatter/ScatterSmoothTension'><img class='img-fluid' src='/cookbook/5.0/images/ScatterSmoothTension.png?250112204022' /></a>
+<a href='/cookbook/5.0/Scatter/ScatterSmoothTension'><img class='img-fluid' src='/cookbook/5.0/images/ScatterSmoothTension.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Scatter/ScatterSmoothTension'><b>Smooth Line Tension</b></a></div>
@@ -2600,7 +2609,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Scatter/ScatterQuad'><img class='img-fluid' src='/cookbook/5.0/images/ScatterQuad.png?250112204022' /></a>
+<a href='/cookbook/5.0/Scatter/ScatterQuad'><img class='img-fluid' src='/cookbook/5.0/images/ScatterQuad.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Scatter/ScatterQuad'><b>Smooth Scatter without Overshoot</b></a></div>
@@ -2609,7 +2618,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Scatter/ScatterLimitIndex'><img class='img-fluid' src='/cookbook/5.0/images/ScatterLimitIndex.png?250112204022' /></a>
+<a href='/cookbook/5.0/Scatter/ScatterLimitIndex'><img class='img-fluid' src='/cookbook/5.0/images/ScatterLimitIndex.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Scatter/ScatterLimitIndex'><b>Limiting Display with Render Indexes</b></a></div>
@@ -2618,7 +2627,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Scatter/ScatterFill'><img class='img-fluid' src='/cookbook/5.0/images/ScatterFill.png?250112204022' /></a>
+<a href='/cookbook/5.0/Scatter/ScatterFill'><img class='img-fluid' src='/cookbook/5.0/images/ScatterFill.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Scatter/ScatterFill'><b>Scatter Plot with Fill</b></a></div>
@@ -2627,7 +2636,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Scatter/ScatterFillValue'><img class='img-fluid' src='/cookbook/5.0/images/ScatterFillValue.png?250112204022' /></a>
+<a href='/cookbook/5.0/Scatter/ScatterFillValue'><img class='img-fluid' src='/cookbook/5.0/images/ScatterFillValue.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Scatter/ScatterFillValue'><b>Scatter Plot Filled to a Value</b></a></div>
@@ -2636,7 +2645,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Scatter/ScatterFillAboveBelow'><img class='img-fluid' src='/cookbook/5.0/images/ScatterFillAboveBelow.png?250112204022' /></a>
+<a href='/cookbook/5.0/Scatter/ScatterFillAboveBelow'><img class='img-fluid' src='/cookbook/5.0/images/ScatterFillAboveBelow.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Scatter/ScatterFillAboveBelow'><b>Scatter Plot Filled Above and Below</b></a></div>
@@ -2645,7 +2654,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Scatter/ScatterFillGradient'><img class='img-fluid' src='/cookbook/5.0/images/ScatterFillGradient.png?250112204022' /></a>
+<a href='/cookbook/5.0/Scatter/ScatterFillGradient'><img class='img-fluid' src='/cookbook/5.0/images/ScatterFillGradient.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Scatter/ScatterFillGradient'><b>Scatter Plot with Gradient Fill</b></a></div>
@@ -2654,7 +2663,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Scatter/ScatterScaleAndOffset'><img class='img-fluid' src='/cookbook/5.0/images/ScatterScaleAndOffset.png?250112204022' /></a>
+<a href='/cookbook/5.0/Scatter/ScatterScaleAndOffset'><img class='img-fluid' src='/cookbook/5.0/images/ScatterScaleAndOffset.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Scatter/ScatterScaleAndOffset'><b>Scatter Scale and Offset</b></a></div>
@@ -2663,7 +2672,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Scatter/StackedFilledLinePlot'><img class='img-fluid' src='/cookbook/5.0/images/StackedFilledLinePlot.png?250112204022' /></a>
+<a href='/cookbook/5.0/Scatter/StackedFilledLinePlot'><img class='img-fluid' src='/cookbook/5.0/images/StackedFilledLinePlot.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Scatter/StackedFilledLinePlot'><b>Stacked Filled Line Plot</b></a></div>
@@ -2672,7 +2681,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Scatter/ScatterStackedShading'><img class='img-fluid' src='/cookbook/5.0/images/ScatterStackedShading.png?250112204022' /></a>
+<a href='/cookbook/5.0/Scatter/ScatterStackedShading'><img class='img-fluid' src='/cookbook/5.0/images/ScatterStackedShading.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Scatter/ScatterStackedShading'><b>Stacked Scatter with Shading</b></a></div>
@@ -2683,7 +2692,7 @@ ShowEditLink: false
 <div>Basic shapes that can be added to plots</div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Shapes/RectangleQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/RectangleQuickstart.png?250112204022' /></a>
+<a href='/cookbook/5.0/Shapes/RectangleQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/RectangleQuickstart.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Shapes/RectangleQuickstart'><b>Rectangle</b></a></div>
@@ -2692,7 +2701,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Shapes/CircleQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/CircleQuickstart.png?250112204022' /></a>
+<a href='/cookbook/5.0/Shapes/CircleQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/CircleQuickstart.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Shapes/CircleQuickstart'><b>Circle</b></a></div>
@@ -2701,7 +2710,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Shapes/EllipseQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/EllipseQuickstart.png?250112204022' /></a>
+<a href='/cookbook/5.0/Shapes/EllipseQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/EllipseQuickstart.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Shapes/EllipseQuickstart'><b>Ellipse</b></a></div>
@@ -2710,7 +2719,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Shapes/PolygonQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/PolygonQuickstart.png?250112204022' /></a>
+<a href='/cookbook/5.0/Shapes/PolygonQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/PolygonQuickstart.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Shapes/PolygonQuickstart'><b>Polygon Plot Quickstart</b></a></div>
@@ -2719,7 +2728,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Shapes/PolygonStyling'><img class='img-fluid' src='/cookbook/5.0/images/PolygonStyling.png?250112204022' /></a>
+<a href='/cookbook/5.0/Shapes/PolygonStyling'><img class='img-fluid' src='/cookbook/5.0/images/PolygonStyling.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Shapes/PolygonStyling'><b>Polygon Plot Styling</b></a></div>
@@ -2728,18 +2737,72 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Shapes/StackedLineChart'><img class='img-fluid' src='/cookbook/5.0/images/StackedLineChart.png?250112204022' /></a>
+<a href='/cookbook/5.0/Shapes/StackedLineChart'><img class='img-fluid' src='/cookbook/5.0/images/StackedLineChart.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Shapes/StackedLineChart'><b>Stacked Line Chart</b></a></div>
 <div>A stacked line chart may be achieved by combining primitive shapes onto a plot.</div>
 </div>
 </div>
+<div class='row my-4'>
+<div class='col'>
+<a href='/cookbook/5.0/Shapes/Arc'><img class='img-fluid' src='/cookbook/5.0/images/Arc.png?250126165944' /></a>
+</div>
+<div class='col'>
+<div><a href='/cookbook/5.0/Shapes/Arc'><b>Arc</b></a></div>
+<div>An arc is a curve along the partial circumference of a circle. The circle starts at the far right and extends counter-clockwise.</div>
+</div>
+</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='/cookbook/5.0/Shapes/EllipticalArc'><img class='img-fluid' src='/cookbook/5.0/images/EllipticalArc.png?250126165944' /></a>
+</div>
+<div class='col'>
+<div><a href='/cookbook/5.0/Shapes/EllipticalArc'><b>Elliptical Arc</b></a></div>
+<div>An elliptical arc is a curve along the partial circumference of an ellipse. The ellipse starts at the far right and extends counter-clockwise.</div>
+</div>
+</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='/cookbook/5.0/Shapes/CircleSector'><img class='img-fluid' src='/cookbook/5.0/images/CircleSector.png?250126165944' /></a>
+</div>
+<div class='col'>
+<div><a href='/cookbook/5.0/Shapes/CircleSector'><b>Circle Sector</b></a></div>
+<div>A circle sector is the 2D shape formed by the area inside a circle between an arc around its circumference and its center point.</div>
+</div>
+</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='/cookbook/5.0/Shapes/EllipseSector'><img class='img-fluid' src='/cookbook/5.0/images/EllipseSector.png?250126165944' /></a>
+</div>
+<div class='col'>
+<div><a href='/cookbook/5.0/Shapes/EllipseSector'><b>Ellipse Sector</b></a></div>
+<div>An ellipse sector is the 2D shape formed by the area inside an ellipse between an arc around its edge and its center point.</div>
+</div>
+</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='/cookbook/5.0/Shapes/AnnularSector'><img class='img-fluid' src='/cookbook/5.0/images/AnnularSector.png?250126165944' /></a>
+</div>
+<div class='col'>
+<div><a href='/cookbook/5.0/Shapes/AnnularSector'><b>Annular Sector</b></a></div>
+<div>An annular sector is the 2D shape between two circles (like a donut) and may be sliced to contain only the area between two angles relative to the center point.</div>
+</div>
+</div>
+<div class='row my-4'>
+<div class='col'>
+<a href='/cookbook/5.0/Shapes/AnnularEllipticalSector'><img class='img-fluid' src='/cookbook/5.0/images/AnnularEllipticalSector.png?250126165944' /></a>
+</div>
+<div class='col'>
+<div><a href='/cookbook/5.0/Shapes/AnnularEllipticalSector'><b>Annular Elliptical Sector</b></a></div>
+<div>An annular elliptical sector is the 2D shape between two ellipses and may be sliced to contain only the area between two angles relative to the center point.</div>
+</div>
+</div>
 <h2 class=''><a href='/cookbook/5.0/Signal' class='text-dark'>Signal Plot</a></h2>
 <div>Signal plots display evenly-spaced data</div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Signal/SignalQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/SignalQuickstart.png?250112204022' /></a>
+<a href='/cookbook/5.0/Signal/SignalQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/SignalQuickstart.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Signal/SignalQuickstart'><b>Signal Plot Quickstart</b></a></div>
@@ -2748,7 +2811,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Signal/SignalStyling'><img class='img-fluid' src='/cookbook/5.0/images/SignalStyling.png?250112204022' /></a>
+<a href='/cookbook/5.0/Signal/SignalStyling'><img class='img-fluid' src='/cookbook/5.0/images/SignalStyling.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Signal/SignalStyling'><b>Signal Plot Styling</b></a></div>
@@ -2757,7 +2820,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Signal/SignalOffset'><img class='img-fluid' src='/cookbook/5.0/images/SignalOffset.png?250112204022' /></a>
+<a href='/cookbook/5.0/Signal/SignalOffset'><img class='img-fluid' src='/cookbook/5.0/images/SignalOffset.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Signal/SignalOffset'><b>Signal Offset</b></a></div>
@@ -2766,7 +2829,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Signal/SignalScaleY'><img class='img-fluid' src='/cookbook/5.0/images/SignalScaleY.png?250112204022' /></a>
+<a href='/cookbook/5.0/Signal/SignalScaleY'><img class='img-fluid' src='/cookbook/5.0/images/SignalScaleY.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Signal/SignalScaleY'><b>Signal Scaling</b></a></div>
@@ -2775,7 +2838,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Signal/SignalMarkerSize'><img class='img-fluid' src='/cookbook/5.0/images/SignalMarkerSize.png?250112204022' /></a>
+<a href='/cookbook/5.0/Signal/SignalMarkerSize'><img class='img-fluid' src='/cookbook/5.0/images/SignalMarkerSize.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Signal/SignalMarkerSize'><b>Signal Marker Size</b></a></div>
@@ -2784,7 +2847,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Signal/SignalRenderIndexes'><img class='img-fluid' src='/cookbook/5.0/images/SignalRenderIndexes.png?250112204022' /></a>
+<a href='/cookbook/5.0/Signal/SignalRenderIndexes'><img class='img-fluid' src='/cookbook/5.0/images/SignalRenderIndexes.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Signal/SignalRenderIndexes'><b>Partial Signal Rendering</b></a></div>
@@ -2793,7 +2856,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Signal/SignalGeneric'><img class='img-fluid' src='/cookbook/5.0/images/SignalGeneric.png?250112204022' /></a>
+<a href='/cookbook/5.0/Signal/SignalGeneric'><img class='img-fluid' src='/cookbook/5.0/images/SignalGeneric.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Signal/SignalGeneric'><b>Signal Generic</b></a></div>
@@ -2802,7 +2865,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Signal/SignalDateTime'><img class='img-fluid' src='/cookbook/5.0/images/SignalDateTime.png?250112204022' /></a>
+<a href='/cookbook/5.0/Signal/SignalDateTime'><img class='img-fluid' src='/cookbook/5.0/images/SignalDateTime.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Signal/SignalDateTime'><b>Signal DateTime</b></a></div>
@@ -2813,7 +2876,7 @@ ShowEditLink: false
 <div>SignalConst is a type of signal plot which contains immutable data points and occupies more memory but offers greater performance for extremely large datasets. It is rarely needed, but best use for plotting data containing millions of points.</div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/SignalConst/SignalConstQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/SignalConstQuickstart.png?250112204022' /></a>
+<a href='/cookbook/5.0/SignalConst/SignalConstQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/SignalConstQuickstart.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/SignalConst/SignalConstQuickstart'><b>SignalConst Quickstart</b></a></div>
@@ -2824,7 +2887,7 @@ ShowEditLink: false
 <div>SignalXY are a high performance plot type optimized for X/Y pairs where the X values are always ascending. For large datasets SignalXY plots are much more performant than Scatter plots (which allow unordered X points) but not as performant as Signal plots (which require fixed spacing between X points).</div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/SignalXY/SignalXYQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/SignalXYQuickstart.png?250112204022' /></a>
+<a href='/cookbook/5.0/SignalXY/SignalXYQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/SignalXYQuickstart.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/SignalXY/SignalXYQuickstart'><b>SignalXY Quickstart</b></a></div>
@@ -2833,7 +2896,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/SignalXY/SignalXYGeneric'><img class='img-fluid' src='/cookbook/5.0/images/SignalXYGeneric.png?250112204022' /></a>
+<a href='/cookbook/5.0/SignalXY/SignalXYGeneric'><img class='img-fluid' src='/cookbook/5.0/images/SignalXYGeneric.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/SignalXY/SignalXYGeneric'><b>SignalXY Generic</b></a></div>
@@ -2842,7 +2905,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/SignalXY/SignalXYDateTime'><img class='img-fluid' src='/cookbook/5.0/images/SignalXYDateTime.png?250112204022' /></a>
+<a href='/cookbook/5.0/SignalXY/SignalXYDateTime'><img class='img-fluid' src='/cookbook/5.0/images/SignalXYDateTime.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/SignalXY/SignalXYDateTime'><b>SignalXY DateTime Axis</b></a></div>
@@ -2851,7 +2914,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/SignalXY/SignalXYRenderIndexes'><img class='img-fluid' src='/cookbook/5.0/images/SignalXYRenderIndexes.png?250112204022' /></a>
+<a href='/cookbook/5.0/SignalXY/SignalXYRenderIndexes'><img class='img-fluid' src='/cookbook/5.0/images/SignalXYRenderIndexes.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/SignalXY/SignalXYRenderIndexes'><b>Partial SignalXY Rendering</b></a></div>
@@ -2860,7 +2923,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/SignalXY/SignalXYOffset'><img class='img-fluid' src='/cookbook/5.0/images/SignalXYOffset.png?250112204022' /></a>
+<a href='/cookbook/5.0/SignalXY/SignalXYOffset'><img class='img-fluid' src='/cookbook/5.0/images/SignalXYOffset.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/SignalXY/SignalXYOffset'><b>SignalXY Offset</b></a></div>
@@ -2869,7 +2932,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/SignalXY/SignalXYOffsetScaleY'><img class='img-fluid' src='/cookbook/5.0/images/SignalXYOffsetScaleY.png?250112204022' /></a>
+<a href='/cookbook/5.0/SignalXY/SignalXYOffsetScaleY'><img class='img-fluid' src='/cookbook/5.0/images/SignalXYOffsetScaleY.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/SignalXY/SignalXYOffsetScaleY'><b>SignalXY Scaling</b></a></div>
@@ -2878,7 +2941,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/SignalXY/VerticalSignalXY'><img class='img-fluid' src='/cookbook/5.0/images/VerticalSignalXY.png?250112204022' /></a>
+<a href='/cookbook/5.0/SignalXY/VerticalSignalXY'><img class='img-fluid' src='/cookbook/5.0/images/VerticalSignalXY.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/SignalXY/VerticalSignalXY'><b>Vertical SignalXY</b></a></div>
@@ -2887,7 +2950,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/SignalXY/SignalXYVerticalInvertedX'><img class='img-fluid' src='/cookbook/5.0/images/SignalXYVerticalInvertedX.png?250112204022' /></a>
+<a href='/cookbook/5.0/SignalXY/SignalXYVerticalInvertedX'><img class='img-fluid' src='/cookbook/5.0/images/SignalXYVerticalInvertedX.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/SignalXY/SignalXYVerticalInvertedX'><b>Vertical SignalXY with Inverted X Axis</b></a></div>
@@ -2896,7 +2959,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/SignalXY/SignalXYVerticalInvertedY'><img class='img-fluid' src='/cookbook/5.0/images/SignalXYVerticalInvertedY.png?250112204022' /></a>
+<a href='/cookbook/5.0/SignalXY/SignalXYVerticalInvertedY'><img class='img-fluid' src='/cookbook/5.0/images/SignalXYVerticalInvertedY.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/SignalXY/SignalXYVerticalInvertedY'><b>Vertical SignalXY with Inverted Y Axis</b></a></div>
@@ -2905,7 +2968,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/SignalXY/SignalXYMarkers'><img class='img-fluid' src='/cookbook/5.0/images/SignalXYMarkers.png?250112204022' /></a>
+<a href='/cookbook/5.0/SignalXY/SignalXYMarkers'><img class='img-fluid' src='/cookbook/5.0/images/SignalXYMarkers.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/SignalXY/SignalXYMarkers'><b>SignalXY with Markers</b></a></div>
@@ -2916,7 +2979,7 @@ ShowEditLink: false
 <div>Create a Smith chart axis and add it to the plot to display impedance of RF signals using a horizontal axis indicating resistance and vertical axis indicating reactance.</div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/SmithChart/SmithChartQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/SmithChartQuickstart.png?250112204022' /></a>
+<a href='/cookbook/5.0/SmithChart/SmithChartQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/SmithChartQuickstart.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/SmithChart/SmithChartQuickstart'><b>Smith Chart Quickstart</b></a></div>
@@ -2927,7 +2990,7 @@ ShowEditLink: false
 <div>Text labels can be placed on the plot in coordinate space</div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Text/TextQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/TextQuickstart.png?250112204022' /></a>
+<a href='/cookbook/5.0/Text/TextQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/TextQuickstart.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Text/TextQuickstart'><b>Text Quickstart</b></a></div>
@@ -2936,7 +2999,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Text/Formatting'><img class='img-fluid' src='/cookbook/5.0/images/Formatting.png?250112204022' /></a>
+<a href='/cookbook/5.0/Text/Formatting'><img class='img-fluid' src='/cookbook/5.0/images/Formatting.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Text/Formatting'><b>Text Formatting</b></a></div>
@@ -2945,7 +3008,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Text/LabelLineHeight'><img class='img-fluid' src='/cookbook/5.0/images/LabelLineHeight.png?250112204022' /></a>
+<a href='/cookbook/5.0/Text/LabelLineHeight'><img class='img-fluid' src='/cookbook/5.0/images/LabelLineHeight.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Text/LabelLineHeight'><b>Line Height</b></a></div>
@@ -2954,7 +3017,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/Text/TextOffset'><img class='img-fluid' src='/cookbook/5.0/images/TextOffset.png?250112204022' /></a>
+<a href='/cookbook/5.0/Text/TextOffset'><img class='img-fluid' src='/cookbook/5.0/images/TextOffset.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/Text/TextOffset'><b>Text Offset</b></a></div>
@@ -2965,7 +3028,7 @@ ShowEditLink: false
 <div>Create a triangular axis and add it to the plot to display data on a triangular coordinate system.</div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/TriangularAxis/TriangularAxisQuickStart'><img class='img-fluid' src='/cookbook/5.0/images/TriangularAxisQuickStart.png?250112204022' /></a>
+<a href='/cookbook/5.0/TriangularAxis/TriangularAxisQuickStart'><img class='img-fluid' src='/cookbook/5.0/images/TriangularAxisQuickStart.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/TriangularAxis/TriangularAxisQuickStart'><b>Triangular Axis Quickstart</b></a></div>
@@ -2974,7 +3037,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/TriangularAxis/TriangularAxisReversed'><img class='img-fluid' src='/cookbook/5.0/images/TriangularAxisReversed.png?250112204022' /></a>
+<a href='/cookbook/5.0/TriangularAxis/TriangularAxisReversed'><img class='img-fluid' src='/cookbook/5.0/images/TriangularAxisReversed.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/TriangularAxis/TriangularAxisReversed'><b>Triangular Axis Reverse</b></a></div>
@@ -2983,7 +3046,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/TriangularAxis/TriangularAxisStyling'><img class='img-fluid' src='/cookbook/5.0/images/TriangularAxisStyling.png?250112204022' /></a>
+<a href='/cookbook/5.0/TriangularAxis/TriangularAxisStyling'><img class='img-fluid' src='/cookbook/5.0/images/TriangularAxisStyling.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/TriangularAxis/TriangularAxisStyling'><b>Triangular Axis Styling</b></a></div>
@@ -2992,7 +3055,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/TriangularAxis/TriangularAxisEdgeStyling'><img class='img-fluid' src='/cookbook/5.0/images/TriangularAxisEdgeStyling.png?250112204022' /></a>
+<a href='/cookbook/5.0/TriangularAxis/TriangularAxisEdgeStyling'><img class='img-fluid' src='/cookbook/5.0/images/TriangularAxisEdgeStyling.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/TriangularAxis/TriangularAxisEdgeStyling'><b>Triangular Axis Edge Styling</b></a></div>
@@ -3001,7 +3064,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/TriangularAxis/TriangularEdgeTitle'><img class='img-fluid' src='/cookbook/5.0/images/TriangularEdgeTitle.png?250112204022' /></a>
+<a href='/cookbook/5.0/TriangularAxis/TriangularEdgeTitle'><img class='img-fluid' src='/cookbook/5.0/images/TriangularEdgeTitle.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/TriangularAxis/TriangularEdgeTitle'><b>Triangular Axis Titles</b></a></div>
@@ -3012,7 +3075,7 @@ ShowEditLink: false
 <div>Vector fields display a collection of vectors rooted at points in coordinate space</div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/VectorField/VectorFieldQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/VectorFieldQuickstart.png?250112204022' /></a>
+<a href='/cookbook/5.0/VectorField/VectorFieldQuickstart'><img class='img-fluid' src='/cookbook/5.0/images/VectorFieldQuickstart.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/VectorField/VectorFieldQuickstart'><b>Vector Field Quickstart</b></a></div>
@@ -3021,7 +3084,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/VectorField/VectorFieldColormap'><img class='img-fluid' src='/cookbook/5.0/images/VectorFieldColormap.png?250112204022' /></a>
+<a href='/cookbook/5.0/VectorField/VectorFieldColormap'><img class='img-fluid' src='/cookbook/5.0/images/VectorFieldColormap.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/VectorField/VectorFieldColormap'><b>Vector Field Colormap</b></a></div>
@@ -3030,7 +3093,7 @@ ShowEditLink: false
 </div>
 <div class='row my-4'>
 <div class='col'>
-<a href='/cookbook/5.0/VectorField/VectorFieldArrowLength'><img class='img-fluid' src='/cookbook/5.0/images/VectorFieldArrowLength.png?250112204022' /></a>
+<a href='/cookbook/5.0/VectorField/VectorFieldArrowLength'><img class='img-fluid' src='/cookbook/5.0/images/VectorFieldArrowLength.png?250126165944' /></a>
 </div>
 <div class='col'>
 <div><a href='/cookbook/5.0/VectorField/VectorFieldArrowLength'><b>Vector Field Arrow Length</b></a></div>

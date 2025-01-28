@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        a {
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .banner-message {
+            display: flex;
+            align-items: center;
+            background-color: #f0f0f0;
+            border-radius: 10rem;
+            padding: 0.5rem 1rem;
+        }
+
+        .banner-message img {
+            width: 150px;
+            border-radius: 50%;
+            align-self: center;
+            margin: 0.5rem 0;
+        }
+
+        .banner-message blockquote {
+            font-size: 1.2rem;
+            padding: 1rem;
+            margin: 0;
+        }
+
+        .banner-message a {
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        .banner-message a:hover {
+            text-decoration: underline;
+        }
+
+        .hide-banner-button {
+            background-color: transparent;
+            border: none;
+            opacity: .2;
+        }
+
+        .hide-banner-button:hover {
+            color: blue;
+            opacity: .5;
+        }
+
+        @media (max-width: 600px) {
+            .banner-message {
+                flex-direction: column;
+                border-radius: 2rem;
+                margin: 1rem;
+                padding-bottom: 0;
+                padding-top: 1rem;
+            }
+
+            .banner-message img {
+                width: 200px;
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid py-5 my-5" style="max-width: 900px;">
+
+        <div class="banner-message">
+            <a href="https://www.linkedin.com/in/swharden/"><img src="https://scottplot.net/images/swharden.jpg"></a>
+            <blockquote>
+                <strong>Hi, I'm Scott 👋</strong>
+                I'm interviewing for roles as a software
+                developer and am seeking to expand my professional network.
+                If you enjoy my open-source software
+                I invite you to
+                <a href='https://www.linkedin.com/in/swharden/' target="_blank">connect with me on LinkedIn</a>.
+                Thanks, and happy plotting!
+            </blockquote>
+        </div>
+        <div class="text-center">
+            <button class="hide-banner-button" onclick="toggleBannerVisibility()">
+                Hide this message
+            </button>
+        </div>
+
+    </div>
+
+    <script>
+        function toggleBannerVisibility() {
+            Array.from(document.getElementsByClassName("banner-message")).forEach(element => {
+                if (element.classList.contains("d-none")) {
+                    element.classList.remove("d-none");
+                } else {
+                    element.classList.add("d-none");
+                }
+            });
+            Array.from(document.getElementsByClassName("hide-banner-button")).forEach(element => {
+                console.log(element.innerText)
+                if (element.innerText.includes("Hide")) {
+                    element.innerText = "Show message"
+                } else {
+                    element.innerText = "Hide this message"
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>

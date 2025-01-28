@@ -4,6 +4,59 @@ Description: Release notes for every version of ScottPlot
 ---
 
 <section class='mb-5'>
+<h1 class='mb-0'>ScottPlot 5.0.54</h1>
+<div><i>NuGet packages published 2025-01-26</i></div>
+<div class='mt-1'>
+<ul>
+<li>Multiplot: Improved API for advanced layout customization. See cookbook and demo application for examples. (<a href="https://github.com/ScottPlot/ScottPlot/issues/4738">#4738</a>)
+</li>
+<li>Multiplot: Use new shared axis manager. <code>Multiplot.ShareY()</code> is now <code>Multiplot.SharedAxes.ShareY()</code> as seen in demo application. (<a href="https://github.com/ScottPlot/ScottPlot/issues/4738">#4738</a>)
+</li>
+<li>Multiplot: Moved state management and pixel lookup logic based on previous renders into the <code>IMultiplot.LastRender</code> property (<a href="https://github.com/ScottPlot/ScottPlot/issues/4738">#4738</a>)
+</li>
+<li>Multiplot: Added <code>Subplots</code> property for plot collection management and replaced <code>IMultiplot.Count</code> with <code>Multiplot.Count()</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/4738">#4738</a>)
+</li>
+<li>Axes: Added <code>IAxis.Collapse()</code> helper method to disable tick generation and set size to zero for a given axis (<a href="https://github.com/ScottPlot/ScottPlot/issues/4738">#4738</a>)
+</li>
+<li>Multiplot: Added <code>CollapseVertically()</code> to collapse space between vertically stacked plots (<a href="https://github.com/ScottPlot/ScottPlot/issues/4738">#4738</a>)
+</li>
+<li>Multiplot: Created <code>DraggableRows()</code> layout to simplify user-resizable multiplots as demonstrated in the demo application (<a href="https://github.com/ScottPlot/ScottPlot/issues/4738">#4738</a>) <a href="https://github.com/VladislavPustovarov"><strong>@VladislavPustovarov</strong></a> <a href="https://github.com/quantfreedom"><strong>@quantfreedom</strong></a>
+</li>
+<li>Axes: Added <code>LockSize()</code> helper method to quickly set <code>MinimumSize</code> and <code>MaximumSize</code> to the same value
+</li>
+<li>WinForms: improve <code>ScottPlot.Image.GetBitmap()</code> memory management and disposal
+</li>
+<li>Image: Added <code>Scaled()</code> and <code>Resized()</code> methods to help resize existing images in memory
+</li>
+<li>WinForms: Improve support for transparency for plots placed on Forms with background images (<a href="https://github.com/ScottPlot/ScottPlot/issues/4698">#4698</a>) <a href="https://github.com/luo-ross"><strong>@luo-ross</strong></a>
+</li>
+<li>OpenGL: Improved memory management for applications using scatter plots in OpenGL controls (<a href="https://github.com/ScottPlot/ScottPlot/issues/4702">#4702</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4693">#4693</a>) <a href="https://github.com/onur-akaydin"><strong>@onur-akaydin</strong></a> <a href="https://github.com/StendProg"><strong>@StendProg</strong></a> <a href="https://github.com/allrightsreserved"><strong>@allrightsreserved</strong></a>
+</li>
+<li>Rendering: Improved detection of changed axis limits and improved behavior of legend item orientation (<a href="https://github.com/ScottPlot/ScottPlot/issues/4722">#4722</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4629">#4629</a>) <a href="https://github.com/aespitia"><strong>@aespitia</strong></a>
+</li>
+<li>Plottables: Added many new shapes like arcs, circle sectors, annular sectors, and more as seen in the cookbook (<a href="https://github.com/ScottPlot/ScottPlot/issues/4739">#4739</a>) <a href="https://github.com/CoderPM2011"><strong>@CoderPM2011</strong></a> <a href="https://github.com/heartacker"><strong>@heartacker</strong></a>
+</li>
+</ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/VladislavPustovarov'>@VladislavPustovarov</a>, <a href='https://github.com/quantfreedom'>@quantfreedom</a>, <a href='https://github.com/luo-ross'>@luo-ross</a>, <a href='https://github.com/onur-akaydin'>@onur-akaydin</a>, <a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/allrightsreserved'>@allrightsreserved</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/heartacker'>@heartacker</a>, <a href='https://github.com/swharden'>@swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/VladislavPustovarov'><img src='https://scottplot.net/images/contributors/vladislavpustovarov.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/quantfreedom'><img src='https://scottplot.net/images/contributors/quantfreedom.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/luo-ross'><img src='https://scottplot.net/images/contributors/luo-ross.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/onur-akaydin'><img src='https://scottplot.net/images/contributors/onur-akaydin.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/allrightsreserved'><img src='https://scottplot.net/images/contributors/allrightsreserved.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/aespitia'><img src='https://scottplot.net/images/contributors/aespitia.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/CoderPM2011'><img src='https://scottplot.net/images/contributors/coderpm2011.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/heartacker'><img src='https://scottplot.net/images/contributors/heartacker.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
+
+</section>
+<section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 5.0.53</h1>
 <div><i>NuGet packages published 2025-01-12</i></div>
 <div class='mt-1'>

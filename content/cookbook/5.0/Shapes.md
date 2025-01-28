@@ -4,9 +4,9 @@ Description: Basic shapes that can be added to plots
 URL: /cookbook/5.0/Shapes/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Shapes"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Shapes"]
-Date: 2025-01-13
-Version: ScottPlot 5.0.53
-Version: ScottPlot 5.0.53
+Date: 2025-01-26
+Version: ScottPlot 5.0.55
+Version: ScottPlot 5.0.55
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -23,9 +23,9 @@ ShowEditLink: false
 
 A rectangle can be added to the plot and styled as desired.
 
-[![](/cookbook/5.0/images/RectangleQuickstart.png?250112204022)](/cookbook/5.0/images/RectangleQuickstart.png?250112204022)
+[![](/cookbook/5.0/images/RectangleQuickstart.png?250126165944)](/cookbook/5.0/images/RectangleQuickstart.png?250126165944)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Shapes.cs" imageUrl="/cookbook/5.0/images/RectangleQuickstart.png?250112204022" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Shapes.cs" imageUrl="/cookbook/5.0/images/RectangleQuickstart.png?250126165944" >}}ScottPlot.Plot myPlot = new();
 
 // add a rectangle by specifying points
 myPlot.Add.Rectangle(0, 1, 0, 1);
@@ -59,9 +59,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 A circle can be placed on the plot and styled as desired.
 
-[![](/cookbook/5.0/images/CircleQuickstart.png?250112204022)](/cookbook/5.0/images/CircleQuickstart.png?250112204022)
+[![](/cookbook/5.0/images/CircleQuickstart.png?250126165944)](/cookbook/5.0/images/CircleQuickstart.png?250126165944)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Shapes.cs" imageUrl="/cookbook/5.0/images/CircleQuickstart.png?250112204022" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Shapes.cs" imageUrl="/cookbook/5.0/images/CircleQuickstart.png?250126165944" >}}ScottPlot.Plot myPlot = new();
 
 var c1 = myPlot.Add.Circle(1, 0, .5);
 var c2 = myPlot.Add.Circle(2, 0, .5);
@@ -95,13 +95,13 @@ myPlot.SavePng("demo.png", 400, 300);
 
 An ellipse can be placed on the plot and styled as desired.
 
-[![](/cookbook/5.0/images/EllipseQuickstart.png?250112204022)](/cookbook/5.0/images/EllipseQuickstart.png?250112204022)
+[![](/cookbook/5.0/images/EllipseQuickstart.png?250126165944)](/cookbook/5.0/images/EllipseQuickstart.png?250126165944)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Shapes.cs" imageUrl="/cookbook/5.0/images/EllipseQuickstart.png?250112204022" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Shapes.cs" imageUrl="/cookbook/5.0/images/EllipseQuickstart.png?250126165944" >}}ScottPlot.Plot myPlot = new();
 
 for (int i = 0; i &lt; 10; i++)
 {
-    var el = myPlot.Add.Ellipse(0, 0, 1, 10, rotation: i * 10);
+    var el = myPlot.Add.Ellipse(0, 0, 1, 10, rotation: Angle.FromDegrees(i * -10));
     double fraction = i / 10.0;
     el.LineColor = Colors.Blue.WithAlpha(fraction);
 }
@@ -126,9 +126,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Polygon plots can be added from a series of vertices, and must be in clockwise order.
 
-[![](/cookbook/5.0/images/PolygonQuickstart.png?250112204022)](/cookbook/5.0/images/PolygonQuickstart.png?250112204022)
+[![](/cookbook/5.0/images/PolygonQuickstart.png?250126165944)](/cookbook/5.0/images/PolygonQuickstart.png?250126165944)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Shapes.cs" imageUrl="/cookbook/5.0/images/PolygonQuickstart.png?250112204022" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Shapes.cs" imageUrl="/cookbook/5.0/images/PolygonQuickstart.png?250126165944" >}}ScottPlot.Plot myPlot = new();
 
 Coordinates[] points =
 {
@@ -157,9 +157,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Polygon plots can be fully customized.
 
-[![](/cookbook/5.0/images/PolygonStyling.png?250112204022)](/cookbook/5.0/images/PolygonStyling.png?250112204022)
+[![](/cookbook/5.0/images/PolygonStyling.png?250126165944)](/cookbook/5.0/images/PolygonStyling.png?250126165944)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Shapes.cs" imageUrl="/cookbook/5.0/images/PolygonStyling.png?250112204022" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Shapes.cs" imageUrl="/cookbook/5.0/images/PolygonStyling.png?250126165944" >}}ScottPlot.Plot myPlot = new();
 
 Coordinates[] points =
 {
@@ -205,9 +205,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 A stacked line chart may be achieved by combining primitive shapes onto a plot.
 
-[![](/cookbook/5.0/images/StackedLineChart.png?250112204022)](/cookbook/5.0/images/StackedLineChart.png?250112204022)
+[![](/cookbook/5.0/images/StackedLineChart.png?250126165944)](/cookbook/5.0/images/StackedLineChart.png?250126165944)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Shapes.cs" imageUrl="/cookbook/5.0/images/StackedLineChart.png?250112204022" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Shapes.cs" imageUrl="/cookbook/5.0/images/StackedLineChart.png?250126165944" >}}ScottPlot.Plot myPlot = new();
 
 // prepare values for each line
 double[] values1 = [8.4, 6.9, 6.5, 4.4];
@@ -260,6 +260,210 @@ myPlot.Axes.Margins(0, 0, 0, 0.1);
 double[] positions = [0.5, 1.5, 2.5, 3.5];
 string[] labels = { "Alfred", "Ralph", "Don", "James" };
 myPlot.Axes.Bottom.SetTicks(positions, labels);
+
+myPlot.SavePng("demo.png", 400, 300);
+{{< /recipe-sp5 >}}
+
+<hr class='my-5 invisible'>
+
+
+
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Arc</h1>
+<a href='/cookbook/5.0/Shapes/Arc' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
+</div>
+
+An arc is a curve along the partial circumference of a circle. The circle starts at the far right and extends counter-clockwise.
+
+[![](/cookbook/5.0/images/Arc.png?250126165944)](/cookbook/5.0/images/Arc.png?250126165944)
+
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Shapes.cs" imageUrl="/cookbook/5.0/images/Arc.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+
+Coordinates center = new(0, 0);
+double radius = 1.0;
+Angle start = Angle.FromDegrees(45);
+Angle sweep = Angle.FromDegrees(135);
+
+var circle = myPlot.Add.Circle(center, radius);
+circle.FillColor = Colors.Blue.WithAlpha(.2);
+circle.LineWidth = 0;
+
+var arc = myPlot.Add.Arc(center, radius, start, sweep);
+arc.LineWidth = 5;
+arc.LineColor = Colors.Black;
+
+myPlot.Axes.SquareUnits(); // use square units so circles are not stretched
+
+myPlot.SavePng("demo.png", 400, 300);
+{{< /recipe-sp5 >}}
+
+<hr class='my-5 invisible'>
+
+
+
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Elliptical Arc</h1>
+<a href='/cookbook/5.0/Shapes/EllipticalArc' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
+</div>
+
+An elliptical arc is a curve along the partial circumference of an ellipse. The ellipse starts at the far right and extends counter-clockwise.
+
+[![](/cookbook/5.0/images/EllipticalArc.png?250126165944)](/cookbook/5.0/images/EllipticalArc.png?250126165944)
+
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Shapes.cs" imageUrl="/cookbook/5.0/images/EllipticalArc.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+
+Coordinates center = new(0, 0);
+double radiusX = 2.0;
+double radiusY = 1.0;
+Angle start = Angle.FromDegrees(45);
+Angle sweep = Angle.FromDegrees(135);
+
+var ellipse = myPlot.Add.Ellipse(center, radiusX, radiusY);
+ellipse.FillColor = Colors.Blue.WithAlpha(.2);
+ellipse.LineWidth = 0;
+
+var arc = myPlot.Add.EllipticalArc(center, radiusX, radiusY, start, sweep);
+arc.LineWidth = 5;
+arc.LineColor = Colors.Black;
+
+myPlot.Axes.SquareUnits(); // use square units so circles are not stretched
+
+myPlot.SavePng("demo.png", 400, 300);
+{{< /recipe-sp5 >}}
+
+<hr class='my-5 invisible'>
+
+
+
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Circle Sector</h1>
+<a href='/cookbook/5.0/Shapes/CircleSector' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
+</div>
+
+A circle sector is the 2D shape formed by the area inside a circle between an arc around its circumference and its center point.
+
+[![](/cookbook/5.0/images/CircleSector.png?250126165944)](/cookbook/5.0/images/CircleSector.png?250126165944)
+
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Shapes.cs" imageUrl="/cookbook/5.0/images/CircleSector.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+
+Coordinates center = new(0, 0);
+double radius = 1.0;
+Angle start = Angle.FromDegrees(45);
+Angle sweep = Angle.FromDegrees(135);
+
+var cs = myPlot.Add.CircleSector(center, radius, start, sweep);
+cs.FillColor = Colors.Blue.WithAlpha(.2);
+cs.LineColor = Colors.Black;
+cs.LineWidth = 5;
+
+myPlot.Axes.SquareUnits(); // use square units so circles are not stretched
+
+myPlot.SavePng("demo.png", 400, 300);
+{{< /recipe-sp5 >}}
+
+<hr class='my-5 invisible'>
+
+
+
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Ellipse Sector</h1>
+<a href='/cookbook/5.0/Shapes/EllipseSector' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
+</div>
+
+An ellipse sector is the 2D shape formed by the area inside an ellipse between an arc around its edge and its center point.
+
+[![](/cookbook/5.0/images/EllipseSector.png?250126165944)](/cookbook/5.0/images/EllipseSector.png?250126165944)
+
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Shapes.cs" imageUrl="/cookbook/5.0/images/EllipseSector.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+
+Coordinates center = new(0, 0);
+double radiusX = 2.0;
+double radiusY = 1.0;
+Angle start = Angle.FromDegrees(45);
+Angle sweep = Angle.FromDegrees(135);
+
+var cs = myPlot.Add.EllipticalSector(center, radiusX, radiusY, start, sweep);
+cs.FillColor = Colors.Blue.WithAlpha(.2);
+cs.LineColor = Colors.Black;
+cs.LineWidth = 5;
+
+myPlot.Axes.SquareUnits(); // use square units so circles are not stretched
+
+myPlot.SavePng("demo.png", 400, 300);
+{{< /recipe-sp5 >}}
+
+<hr class='my-5 invisible'>
+
+
+
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Annular Sector</h1>
+<a href='/cookbook/5.0/Shapes/AnnularSector' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
+</div>
+
+An annular sector is the 2D shape between two circles (like a donut) and may be sliced to contain only the area between two angles relative to the center point.
+
+[![](/cookbook/5.0/images/AnnularSector.png?250126165944)](/cookbook/5.0/images/AnnularSector.png?250126165944)
+
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Shapes.cs" imageUrl="/cookbook/5.0/images/AnnularSector.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+
+Coordinates center = new(0, 0);
+double outerRadius = 2.0;
+double innerRadius = 1.0;
+Angle start = Angle.FromDegrees(45);
+Angle sweep = Angle.FromDegrees(135);
+
+var cs = myPlot.Add.AnnularSector(center, outerRadius, innerRadius, start, sweep);
+cs.FillColor = Colors.Blue.WithAlpha(.2);
+cs.LineColor = Colors.Black;
+cs.LineWidth = 5;
+
+myPlot.Axes.SquareUnits(); // use square units so circles are not stretched
+
+myPlot.SavePng("demo.png", 400, 300);
+{{< /recipe-sp5 >}}
+
+<hr class='my-5 invisible'>
+
+
+
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Annular Elliptical Sector</h1>
+<a href='/cookbook/5.0/Shapes/AnnularEllipticalSector' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
+</div>
+
+An annular elliptical sector is the 2D shape between two ellipses and may be sliced to contain only the area between two angles relative to the center point.
+
+[![](/cookbook/5.0/images/AnnularEllipticalSector.png?250126165944)](/cookbook/5.0/images/AnnularEllipticalSector.png?250126165944)
+
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Shapes.cs" imageUrl="/cookbook/5.0/images/AnnularEllipticalSector.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+
+Coordinates center = new(0, 0);
+double outerRadiusX = 4.0;
+double outerRadiusY = 2.0;
+double innerRadiusX = 2.0;
+double innerRadiusY = 1.0;
+Angle start = Angle.FromDegrees(45);
+Angle sweep = Angle.FromDegrees(135);
+
+var cs = myPlot.Add.AnnularEllipticalSector(center, outerRadiusX, outerRadiusY, innerRadiusX, innerRadiusY, start, sweep);
+cs.FillColor = Colors.Blue.WithAlpha(.2);
+cs.LineColor = Colors.Black;
+cs.LineWidth = 5;
+
+myPlot.Axes.SquareUnits(); // use square units so circles are not stretched
 
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}

@@ -4,9 +4,9 @@ Description: Heatmaps can be displayed on plots which use dates instead of numbe
 URL: /cookbook/5.0/Heatmap/HeatmapDateTime/
 BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Heatmap", "Heatmap with DateTime Axis"]
 BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Heatmap", "/cookbook/5.0/Heatmap/HeatmapDateTime"]
-Date: 2025-01-13
-Version: ScottPlot 5.0.53
-Version: ScottPlot 5.0.53
+Date: 2025-01-26
+Version: ScottPlot 5.0.55
+Version: ScottPlot 5.0.55
 SearchUrl: "/cookbook/5.0/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Heatmaps can be displayed on plots which use dates instead of numbers on the horizontal axis.
 
-[![](/cookbook/5.0/images/HeatmapDateTime.png?250112204022)](/cookbook/5.0/images/HeatmapDateTime.png?250112204022)
+[![](/cookbook/5.0/images/HeatmapDateTime.png?250126165944)](/cookbook/5.0/images/HeatmapDateTime.png?250126165944)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Heatmap.cs" imageUrl="/cookbook/5.0/images/HeatmapDateTime.png?250112204022" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Heatmap.cs" imageUrl="/cookbook/5.0/images/HeatmapDateTime.png?250126165944" >}}ScottPlot.Plot myPlot = new();
 
 // add a heatmap to the plot
 double[,] data = SampleData.MonaLisa();
