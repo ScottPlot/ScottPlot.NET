@@ -3,6 +3,7 @@
 {{ $isCookbook := hasPrefix .RelPermalink "/cookbook/" }}
 {{ $isFaq := hasPrefix .RelPermalink "/faq/" }}
 {{ $showBannerScott := or $isCookbook $isFaq }}
+{{ $showBannerScott := false }}
 
 {{ if $showBannerScott}}
 {{ partial "banner-scott.html" . }}
