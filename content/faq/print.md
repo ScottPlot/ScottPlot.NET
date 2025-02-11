@@ -10,6 +10,8 @@ date: 2023-12-13
 
 ![](/images/faq/print/print-preview.png)
 
+{{< code-sp4 >}}
+
 ```cs
 public Form1()
 {
@@ -51,3 +53,5 @@ private void btnPrintPreview_Click(object sender, EventArgs e)
     printDialog.ShowDialog();
 }
 ```
+
+{{< /code-sp4 >}}
