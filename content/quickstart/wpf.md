@@ -48,3 +48,35 @@ public MainWindow()
     };
 }
 ```
+
+
+
+# WPF Quickstart (Alternative)
+This is an alternative way which can be used in code models like MVVM. In that way all code accessing the `WpfPlot` object can be kept in the view model - the class set as the DataContext.
+Your concrete implementation can of course be adapted to the used framework, like using attributes when defining the `PlotControl` property, and the use-case.
+
+Follow steps 1 and 2 above.
+
+**Step 3:** Add a `ContentControl` instead of `WpfPlot` in the layout where the control should be located
+```xml
+    <ContentControl Content={Binding PlotControl, Mode=OneTime}/>
+```
+
+**Step 4:** In the view model add the `PlotControl` property
+```cs
+    WpfPlot PlotControl { get; } = new WpfPlot();
+```
+
+**Usage Example**
+
+You can then access the control by using the `PlotControl` property in the view model like in the following example. When to update the plot depends on your use-case.
+This would most likely be done as a reaction to an event or modification of an other property. As a start you can add a call in the contructor of the view model class.
+```cs
+    void Plot()
+    {
+        double[] dataX = { 1, 2, 3, 4, 5 };
+        double[] dataY = { 1, 4, 9, 16, 25 };
+        PlotControl.Plot.Add.Scatter(dataX, dataY);
+        PlotControl.Refresh();
+    }
+```
