@@ -70,7 +70,7 @@ Follow steps 1 and 2 above.
 **Usage Example**
 
 You can then access the control by using the `PlotControl` property in the view model like in the following example. When to update the plot depends on your use-case.
-This would most likely be done as a reaction to an event or modification of an other property. As a start you can add a call in the contructor of the view model class.
+This would most likely be done as a reaction to an event or modification of an other property. As a start you can add a call to this `Plot()` method in the constructor of the view model class.
 ```cs
     void Plot()
     {
