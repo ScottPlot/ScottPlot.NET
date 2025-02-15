@@ -13,3 +13,5 @@ date: 2023-12-13
 * See [#1781](https://github.com/ScottPlot/ScottPlot/issues/1781#issuecomment-1104310560) for a discussion about how MVVM pattern could be realized using ScottPlot in WPF
 
 **The ScottPlot controls mostly just pass mouse actions to ScottPlot (a GUI-agnostic .NET Standard library), render a Bitmap, and display the image.** It should be an easy task to create a custom control that exposes data (in a format that will be highly specific for your application) and uses events to invoke rendering after data changes. Although this is easy it implement, it is also easy to implement with poor performance, so the developer is encouraged to keep careful track of how often renders are performed.
+
+**An alternative way of incorperating ScottPlot in WPF** is using a ContentControl in the XAML and bind its Content to an WpfPlot-typed property in the view model. See [WPF Quickstart (Alternative)](https://scottplot.net/quickstart/wpf/#wpf-quickstart-2)) for an example.
