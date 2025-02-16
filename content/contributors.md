@@ -22,6 +22,7 @@ Description: Members of the open-source community who contributed to ScottPlot
 <a href='https://github.com/ssharks'><img src='https://scottplot.net/images/contributors/ssharks.png'></a>
 <a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png'></a>
 <a href='https://github.com/ScottSSapphire'><img src='https://scottplot.net/images/contributors/scottssapphire.png'></a>
+<a href='https://github.com/marklam'><img src='https://scottplot.net/images/contributors/marklam.jpg'></a>
 <a href='https://github.com/VladislavPustovarov'><img src='https://scottplot.net/images/contributors/vladislavpustovarov.png'></a>
 <a href='https://github.com/quantfreedom'><img src='https://scottplot.net/images/contributors/quantfreedom.jpg'></a>
 <a href='https://github.com/luo-ross'><img src='https://scottplot.net/images/contributors/luo-ross.jpg'></a>
@@ -303,7 +304,6 @@ Description: Members of the open-source community who contributed to ScottPlot
 <a href='https://github.com/Marc-Frank'><img src='https://scottplot.net/images/contributors/marc-frank.jpg'></a>
 <a href='https://github.com/pjt33'><img src='https://scottplot.net/images/contributors/pjt33.png'></a>
 <a href='https://github.com/oldteacup'><img src='https://scottplot.net/images/contributors/oldteacup.png'></a>
-<a href='https://github.com/marklam'><img src='https://scottplot.net/images/contributors/marklam.jpg'></a>
 <a href='https://github.com/stendprog'><img src='https://scottplot.net/images/contributors/stendprog.png'></a>
 <a href='https://github.com/chrisxfire'><img src='https://scottplot.net/images/contributors/chrisxfire.jpg'></a>
 <a href='https://github.com/JohniMIEP'><img src='https://scottplot.net/images/contributors/johnimiep.png'></a>
