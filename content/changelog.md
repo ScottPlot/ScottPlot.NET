@@ -32,6 +32,8 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>CoordinateRangeMutable: Improve comparison logic (<a href="https://github.com/ScottPlot/ScottPlot/issues/4796">#4796</a>) <a href="https://github.com/bclehmann"><strong>@bclehmann</strong></a>
 </li>
+<li>Multiplot: Improve interactivity following <code>Reset()</code> and restore cookbook behavior (<a href="https://github.com/ScottPlot/ScottPlot/issues/4793">#4793</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
