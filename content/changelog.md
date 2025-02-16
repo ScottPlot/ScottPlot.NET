@@ -26,6 +26,12 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Rectangular Grid: Improve logic used to identify cells from coordinates, fixing issues associated with contour line plots (<a href="https://github.com/ScottPlot/ScottPlot/issues/4787">#4787</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4791">#4791</a>) <a href="https://github.com/StendProg"><strong>@StendProg</strong></a> <a href="https://github.com/ScottSSapphire"><strong>@ScottSSapphire</strong></a>
 </li>
+<li>Axes: Improve coordinate lookup logic for translating between triangular and Cartesian axes (<a href="https://github.com/ScottPlot/ScottPlot/issues/4797">#4797</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4798">#4798</a>) <a href="https://github.com/manaruto"><strong>@manaruto</strong></a>
+</li>
+<li>SignalXY: Improve performance by reducing allocations and copying inside the render loop (<a href="https://github.com/ScottPlot/ScottPlot/issues/4794">#4794</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4753">#4753</a>) <a href="https://github.com/bclehmann"><strong>@bclehmann</strong></a>
+</li>
+<li>CoordinateRangeMutable: Improve comparison logic (<a href="https://github.com/ScottPlot/ScottPlot/issues/4796">#4796</a>) <a href="https://github.com/bclehmann"><strong>@bclehmann</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
@@ -37,14 +43,14 @@ Description: Release notes for every version of ScottPlot
 <a href='https://github.com/manaruto'><img src='https://scottplot.net/images/contributors/manaruto.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/bwedding'><img src='https://scottplot.net/images/contributors/bwedding.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/CoderPM2011'><img src='https://scottplot.net/images/contributors/coderpm2011.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/JoeStoneAT'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/JoeStoneAT'><img src='https://scottplot.net/images/contributors/joestoneat.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/uperp'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/dtoppani-twist'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/chen1tian'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/uperp'><img src='https://scottplot.net/images/contributors/uperp.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/dtoppani-twist'><img src='https://scottplot.net/images/contributors/dtoppani-twist.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/chen1tian'><img src='https://scottplot.net/images/contributors/chen1tian.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/ssharks'><img src='https://scottplot.net/images/contributors/ssharks.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/ScottSSapphire'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/ScottSSapphire'><img src='https://scottplot.net/images/contributors/scottssapphire.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
