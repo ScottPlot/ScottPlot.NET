@@ -36,11 +36,13 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Population: Use stable random number generator for horizontal symbol offsets (<a href="https://github.com/ScottPlot/ScottPlot/issues/4616">#4616</a>) <a href="https://github.com/marklam"><strong>@marklam</strong></a>
 </li>
+<li>Colorbar: Improve support for transparent colormaps (<a href="https://github.com/ScottPlot/ScottPlot/issues/4685">#4685</a>) <a href="https://github.com/Roman-Rak"><strong>@Roman-Rak</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/hsfetterman'>@hsfetterman</a>, <a href='https://github.com/manaruto'>@manaruto</a>, <a href='https://github.com/bwedding'>@bwedding</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/JoeStoneAT'>@JoeStoneAT</a>, <a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/uperp'>@uperp</a>, <a href='https://github.com/dtoppani-twist'>@dtoppani-twist</a>, <a href='https://github.com/chen1tian'>@chen1tian</a>, <a href='https://github.com/ssharks'>@ssharks</a>, <a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/ScottSSapphire'>@ScottSSapphire</a>, <a href='https://github.com/marklam'>@marklam</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/hsfetterman'>@hsfetterman</a>, <a href='https://github.com/manaruto'>@manaruto</a>, <a href='https://github.com/bwedding'>@bwedding</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/JoeStoneAT'>@JoeStoneAT</a>, <a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/uperp'>@uperp</a>, <a href='https://github.com/dtoppani-twist'>@dtoppani-twist</a>, <a href='https://github.com/chen1tian'>@chen1tian</a>, <a href='https://github.com/ssharks'>@ssharks</a>, <a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/ScottSSapphire'>@ScottSSapphire</a>, <a href='https://github.com/marklam'>@marklam</a>, <a href='https://github.com/Roman-Rak'>@Roman-Rak</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/hsfetterman'><img src='https://scottplot.net/images/contributors/hsfetterman.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -56,6 +58,7 @@ Description: Release notes for every version of ScottPlot
 <a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/ScottSSapphire'><img src='https://scottplot.net/images/contributors/scottssapphire.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/marklam'><img src='https://scottplot.net/images/contributors/marklam.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Roman-Rak'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
