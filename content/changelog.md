@@ -40,6 +40,8 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Marker: Setting <code>LineColor</code> now sets both line color and outline color to improve support for filled markers with outlines (<a href="https://github.com/ScottPlot/ScottPlot/issues/4715">#4715</a>)
 </li>
+<li>Axes: Exposed <code>GetPanels()</code> and added <code>GetXAxes()</code> and <code>GetYAxes()</code> to facilitate advanced customization (<a href="https://github.com/ScottPlot/ScottPlot/issues/4717">#4717</a>) <a href="https://github.com/hsfetterman"><strong>@hsfetterman</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
