@@ -38,6 +38,8 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Colorbar: Improve support for transparent colormaps (<a href="https://github.com/ScottPlot/ScottPlot/issues/4685">#4685</a>) <a href="https://github.com/Roman-Rak"><strong>@Roman-Rak</strong></a>
 </li>
+<li>Marker: Setting <code>LineColor</code> now sets both line color and outline color to improve support for filled markers with outlines (<a href="https://github.com/ScottPlot/ScottPlot/issues/4715">#4715</a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
