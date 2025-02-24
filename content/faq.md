@@ -15,6 +15,7 @@ This page contains links for advanced topics and answers to commonly asked quest
 * [MVVM pattern and data binding](mvvm)
 * [Printing plots in Windows Forms](print)
 * [Display Scaling](dpi-scaling)
+* [User Defined Scaling](fixed-scale)
 * [Font Issues on Linux or MacOS](linux-font)
 * [Create Video Files with ScottPlot](video)
 * [How to tag plotted objects with custom objects](tag)
