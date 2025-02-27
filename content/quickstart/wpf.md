@@ -51,32 +51,42 @@ public MainWindow()
 
 
 
-# WPF Quickstart (Alternative)
-This is an alternative way which can be used in code models like MVVM. In that way all code accessing the `WpfPlot` object can be kept in the view model - the class set as the DataContext.
-Your concrete implementation can of course be adapted to the used framework, like using attributes when defining the `PlotControl` property, and the use-case.
+# Plot using MVVM
 
-Follow steps 1 and 2 above.
+WPF applications may be created using MVVM ([Model–view–viewmodel](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel)) pattern to improve separation between the GUI layer and business logic.
 
-**Step 3:** Add a `ContentControl` instead of `WpfPlot` in the layout where the control should be located
+* All code accessing the `WpfPlot` object can be kept in the view model - the class set as the `DataContext`
+
+* Your concrete implementation can be adapted to the framework, like using attributes when defining the `PlotControl` property, and the use-case
+
+
+### MVVM Example
+
+**View:** Add a `ContentControl` instead of `WpfPlot` in the layout
 ```xml
     <ContentControl Content={Binding PlotControl, Mode=OneTime}/>
 ```
 
-**Step 4:** In the view model add the `PlotControl` property
+**View Model:** Add a `PlotControl` property to the view model
 ```cs
     WpfPlot PlotControl { get; } = new WpfPlot();
 ```
 
-**Usage Example**
+**Code-behind:** Create the plot in the view model's constructor
 
-You can then access the control by using the `PlotControl` property in the view model like in the following example. When to update the plot depends on your use-case.
-This would most likely be done as a reaction to an event or modification of an other property. As a start you can add a call to this `Plot()` method in the constructor of the view model class.
 ```cs
-    void Plot()
-    {
-        double[] dataX = { 1, 2, 3, 4, 5 };
-        double[] dataY = { 1, 4, 9, 16, 25 };
-        PlotControl.Plot.Add.Scatter(dataX, dataY);
-        PlotControl.Refresh();
-    }
+void Plot()
+{
+    double[] dataX = { 1, 2, 3, 4, 5 };
+    double[] dataY = { 1, 4, 9, 16, 25 };
+    PlotControl.Plot.Add.Scatter(dataX, dataY);
+    PlotControl.Refresh();
+}
 ```
+
+**Updating the Plot:**
+* Access the control by using the `PlotControl` property in the view model
+
+* Plot updates would most likely be done as a reaction to an event or modification of an other property. 
+
+* When to update the plot depends on your use-case. Note that rendering large amounts of data frequently may negatively impact performance.
