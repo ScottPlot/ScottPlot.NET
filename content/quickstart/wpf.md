@@ -48,3 +48,45 @@ public MainWindow()
     };
 }
 ```
+
+
+
+# Plot using MVVM
+
+WPF applications may be created using MVVM ([Model–view–viewmodel](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel)) pattern to improve separation between the GUI layer and business logic.
+
+* All code accessing the `WpfPlot` object can be kept in the view model - the class set as the `DataContext`
+
+* Your concrete implementation can be adapted to the framework, like using attributes when defining the `PlotControl` property, and the use-case
+
+
+### MVVM Example
+
+**View:** Add a `ContentControl` instead of `WpfPlot` in the layout
+```xml
+    <ContentControl Content={Binding PlotControl, Mode=OneTime}/>
+```
+
+**View Model:** Add a `PlotControl` property to the view model
+```cs
+    WpfPlot PlotControl { get; } = new WpfPlot();
+```
+
+**Code-behind:** Create the plot in the view model's constructor
+
+```cs
+void Plot()
+{
+    double[] dataX = { 1, 2, 3, 4, 5 };
+    double[] dataY = { 1, 4, 9, 16, 25 };
+    PlotControl.Plot.Add.Scatter(dataX, dataY);
+    PlotControl.Refresh();
+}
+```
+
+**Updating the Plot:**
+* Access the control by using the `PlotControl` property in the view model
+
+* Plot updates would most likely be done as a reaction to an event or modification of an other property. 
+
+* When to update the plot depends on your use-case. Note that rendering large amounts of data frequently may negatively impact performance.
