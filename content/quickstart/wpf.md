@@ -64,12 +64,12 @@ WPF applications may be created using MVVM ([Model–view–viewmodel](https://e
     <ContentControl Content={Binding PlotControl, Mode=OneTime}/>
 ```
 
-**View Model:** Add a `PlotControl` property to the view model
+**View Model:** Add a `PlotControl` property
 ```cs
     WpfPlot PlotControl { get; } = new WpfPlot();
 ```
 
-**Code-behind:** Create the plot in the view model's constructor
+**Code-behind:** Setup the plot in the view model's constructor
 
 ```cs
 void Plot()
@@ -82,6 +82,7 @@ void Plot()
 ```
 
 **Updating the Plot:**
+
 * Access the control by using the `PlotControl` property in the view model
 
 * Plot updates would most likely be done as a reaction to an event or modification of an other property. 
