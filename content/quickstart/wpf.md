@@ -30,9 +30,9 @@ WpfPlot1.Refresh();
 
 ![](/images/quickstart/scottplot-quickstart-wpf.png)
 
-### Startup in .NET Framework Apps
+### .NET Framework Apps
 
-Projects targeting .NET Framework should setup their plot inside the `Loaded` event.
+Projects targeting .NET Framework should setup their plot inside the `Loaded` event instead of directly in the constructor.
 
 ```cs
 public MainWindow()
@@ -49,16 +49,13 @@ public MainWindow()
 }
 ```
 
-
-
 # Plot using MVVM
 
 WPF applications may be created using MVVM ([Model–view–viewmodel](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel)) pattern to improve separation between the GUI layer and business logic.
 
 * All code accessing the `WpfPlot` object can be kept in the view model - the class set as the `DataContext`
 
-* Your concrete implementation can be adapted to the framework, like using attributes when defining the `PlotControl` property, and the use-case
-
+* Adapt the concrete implementation to the framework (e.g., use attributes to define the `PlotControl`)
 
 ### MVVM Example
 
