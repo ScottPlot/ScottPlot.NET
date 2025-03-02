@@ -42,11 +42,13 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Axes: Exposed <code>GetPanels()</code> and added <code>GetXAxes()</code> and <code>GetYAxes()</code> to facilitate advanced customization (<a href="https://github.com/ScottPlot/ScottPlot/issues/4717">#4717</a>) <a href="https://github.com/hsfetterman"><strong>@hsfetterman</strong></a>
 </li>
+<li>Bar Plots: Place value labels below the bars for bars with negative values (<a href="https://github.com/ScottPlot/ScottPlot/issues/4760">#4760</a>) <a href="https://github.com/asmallproblem"><strong>@asmallproblem</strong></a> <a href="https://github.com/jux-stef"><strong>@jux-stef</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/hsfetterman'>@hsfetterman</a>, <a href='https://github.com/manaruto'>@manaruto</a>, <a href='https://github.com/bwedding'>@bwedding</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/JoeStoneAT'>@JoeStoneAT</a>, <a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/uperp'>@uperp</a>, <a href='https://github.com/dtoppani-twist'>@dtoppani-twist</a>, <a href='https://github.com/chen1tian'>@chen1tian</a>, <a href='https://github.com/ssharks'>@ssharks</a>, <a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/ScottSSapphire'>@ScottSSapphire</a>, <a href='https://github.com/marklam'>@marklam</a>, <a href='https://github.com/Roman-Rak'>@Roman-Rak</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/hsfetterman'>@hsfetterman</a>, <a href='https://github.com/manaruto'>@manaruto</a>, <a href='https://github.com/bwedding'>@bwedding</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/JoeStoneAT'>@JoeStoneAT</a>, <a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/uperp'>@uperp</a>, <a href='https://github.com/dtoppani-twist'>@dtoppani-twist</a>, <a href='https://github.com/chen1tian'>@chen1tian</a>, <a href='https://github.com/ssharks'>@ssharks</a>, <a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/ScottSSapphire'>@ScottSSapphire</a>, <a href='https://github.com/marklam'>@marklam</a>, <a href='https://github.com/Roman-Rak'>@Roman-Rak</a>, <a href='https://github.com/asmallproblem'>@asmallproblem</a>, <a href='https://github.com/jux-stef'>@jux-stef</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/hsfetterman'><img src='https://scottplot.net/images/contributors/hsfetterman.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -63,6 +65,8 @@ Description: Release notes for every version of ScottPlot
 <a href='https://github.com/ScottSSapphire'><img src='https://scottplot.net/images/contributors/scottssapphire.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/marklam'><img src='https://scottplot.net/images/contributors/marklam.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Roman-Rak'><img src='https://scottplot.net/images/contributors/roman-rak.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/asmallproblem'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/jux-stef'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
