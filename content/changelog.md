@@ -46,6 +46,8 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Bar Plots: Place value labels below the bars for bars with negative values (<a href="https://github.com/ScottPlot/ScottPlot/issues/4760">#4760</a>) <a href="https://github.com/asmallproblem"><strong>@asmallproblem</strong></a> <a href="https://github.com/jux-stef"><strong>@jux-stef</strong></a>
 </li>
+<li>Tooltip: New plot type for labeling a point in coordinate space using a bubble (<a href="https://github.com/ScottPlot/ScottPlot/issues/4829">#4829</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4751">#4751</a>) <a href="https://github.com/CoderPM2011"><strong>@CoderPM2011</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
