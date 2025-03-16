@@ -24,8 +24,8 @@ Description: Members of the open-source community who contributed to ScottPlot
 <a href='https://github.com/ScottSSapphire'><img src='https://scottplot.net/images/contributors/scottssapphire.png'></a>
 <a href='https://github.com/marklam'><img src='https://scottplot.net/images/contributors/marklam.jpg'></a>
 <a href='https://github.com/Roman-Rak'><img src='https://scottplot.net/images/contributors/roman-rak.png'></a>
-<a href='https://github.com/asmallproblem'><img src='https://scottplot.net/images/brand/favicon.png'></a>
-<a href='https://github.com/jux-stef'><img src='https://scottplot.net/images/brand/favicon.png'></a>
+<a href='https://github.com/asmallproblem'><img src='https://scottplot.net/images/contributors/asmallproblem.png'></a>
+<a href='https://github.com/jux-stef'><img src='https://scottplot.net/images/contributors/jux-stef.png'></a>
 <a href='https://github.com/VladislavPustovarov'><img src='https://scottplot.net/images/contributors/vladislavpustovarov.png'></a>
 <a href='https://github.com/quantfreedom'><img src='https://scottplot.net/images/contributors/quantfreedom.jpg'></a>
 <a href='https://github.com/luo-ross'><img src='https://scottplot.net/images/contributors/luo-ross.jpg'></a>

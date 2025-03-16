@@ -36,6 +36,8 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Population: Use stable random number generator for horizontal symbol offsets (<a href="https://github.com/ScottPlot/ScottPlot/issues/4616">#4616</a>) <a href="https://github.com/marklam"><strong>@marklam</strong></a>
 </li>
+<li>Demo: Created an Avalonia demo application available for download in the GitHub repository (<a href="https://github.com/ScottPlot/ScottPlot/issues/4801">#4801</a>) <a href="https://github.com/bclehmann"><strong>@bclehmann</strong></a>
+</li>
 <li>Colorbar: Improve support for transparent colormaps (<a href="https://github.com/ScottPlot/ScottPlot/issues/4685">#4685</a>) <a href="https://github.com/Roman-Rak"><strong>@Roman-Rak</strong></a>
 </li>
 <li>Marker: Setting <code>LineColor</code> now sets both line color and outline color to improve support for filled markers with outlines (<a href="https://github.com/ScottPlot/ScottPlot/issues/4715">#4715</a>)
@@ -65,8 +67,8 @@ Description: Release notes for every version of ScottPlot
 <a href='https://github.com/ScottSSapphire'><img src='https://scottplot.net/images/contributors/scottssapphire.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/marklam'><img src='https://scottplot.net/images/contributors/marklam.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Roman-Rak'><img src='https://scottplot.net/images/contributors/roman-rak.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/asmallproblem'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/jux-stef'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/asmallproblem'><img src='https://scottplot.net/images/contributors/asmallproblem.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/jux-stef'><img src='https://scottplot.net/images/contributors/jux-stef.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
