@@ -61,7 +61,7 @@ WPF applications may be created using MVVM ([Model–view–viewmodel](https://e
 
 **View:** Add a `ContentControl` instead of `WpfPlot` in the layout
 ```xml
-    <ContentControl Content={Binding PlotControl, Mode=OneTime}/>
+    <ContentControl Content="{Binding PlotControl, Mode=OneTime}"/>
 ```
 
 **View Model:** Add a `PlotControl` property
