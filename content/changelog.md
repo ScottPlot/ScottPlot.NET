@@ -36,17 +36,31 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Population: Use stable random number generator for horizontal symbol offsets (<a href="https://github.com/ScottPlot/ScottPlot/issues/4616">#4616</a>) <a href="https://github.com/marklam"><strong>@marklam</strong></a>
 </li>
+<li>Demo: Created an Avalonia demo application available for download in the GitHub repository (<a href="https://github.com/ScottPlot/ScottPlot/issues/4801">#4801</a>) <a href="https://github.com/bclehmann"><strong>@bclehmann</strong></a>
+</li>
 <li>Colorbar: Improve support for transparent colormaps (<a href="https://github.com/ScottPlot/ScottPlot/issues/4685">#4685</a>) <a href="https://github.com/Roman-Rak"><strong>@Roman-Rak</strong></a>
 </li>
 <li>Marker: Setting <code>LineColor</code> now sets both line color and outline color to improve support for filled markers with outlines (<a href="https://github.com/ScottPlot/ScottPlot/issues/4715">#4715</a>)
 </li>
 <li>Axes: Exposed <code>GetPanels()</code> and added <code>GetXAxes()</code> and <code>GetYAxes()</code> to facilitate advanced customization (<a href="https://github.com/ScottPlot/ScottPlot/issues/4717">#4717</a>) <a href="https://github.com/hsfetterman"><strong>@hsfetterman</strong></a>
 </li>
+<li>Bar Plots: Place value labels below the bars for bars with negative values (<a href="https://github.com/ScottPlot/ScottPlot/issues/4760">#4760</a>) <a href="https://github.com/asmallproblem"><strong>@asmallproblem</strong></a> <a href="https://github.com/jux-stef"><strong>@jux-stef</strong></a>
+</li>
+<li>Tooltip: New plot type for labeling a point in coordinate space using a bubble (<a href="https://github.com/ScottPlot/ScottPlot/issues/4829">#4829</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4751">#4751</a>) <a href="https://github.com/CoderPM2011"><strong>@CoderPM2011</strong></a>
+</li>
+<li>Axis Rules: Improved <code>SquareZoomOut</code> support for inverted axes (<a href="https://github.com/ScottPlot/ScottPlot/issues/4837">#4837</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4836">#4836</a>) <a href="https://github.com/StendProg"><strong>@StendProg</strong></a> <a href="https://github.com/Corbini"><strong>@Corbini</strong></a>
+</li>
+<li>Axes: Added <code>LogMinorTickGenerator</code> to support decade-spaced minor ticks on logarithmic axes (<a href="https://github.com/ScottPlot/ScottPlot/issues/4841">#4841</a>) <a href="https://github.com/macaba"><strong>@macaba</strong></a>
+</li>
+<li>SVG: Pre-render plots in memory to finalize layout before generating XML to reduce file size and improve performance (<a href="https://github.com/ScottPlot/ScottPlot/issues/4847">#4847</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4842">#4842</a>) <a href="https://github.com/manaruto"><strong>@manaruto</strong></a>
+</li>
+<li>WPF: Added <code>XmlnsDefinition</code> and <code>XmlnsPrefix</code> assembly information to simplify referencing in XAML (<a href="https://github.com/ScottPlot/ScottPlot/issues/4853">#4853</a>) <a href="https://github.com/Muny"><strong>@Muny</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/hsfetterman'>@hsfetterman</a>, <a href='https://github.com/manaruto'>@manaruto</a>, <a href='https://github.com/bwedding'>@bwedding</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/JoeStoneAT'>@JoeStoneAT</a>, <a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/uperp'>@uperp</a>, <a href='https://github.com/dtoppani-twist'>@dtoppani-twist</a>, <a href='https://github.com/chen1tian'>@chen1tian</a>, <a href='https://github.com/ssharks'>@ssharks</a>, <a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/ScottSSapphire'>@ScottSSapphire</a>, <a href='https://github.com/marklam'>@marklam</a>, <a href='https://github.com/Roman-Rak'>@Roman-Rak</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/hsfetterman'>@hsfetterman</a>, <a href='https://github.com/manaruto'>@manaruto</a>, <a href='https://github.com/bwedding'>@bwedding</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/JoeStoneAT'>@JoeStoneAT</a>, <a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/uperp'>@uperp</a>, <a href='https://github.com/dtoppani-twist'>@dtoppani-twist</a>, <a href='https://github.com/chen1tian'>@chen1tian</a>, <a href='https://github.com/ssharks'>@ssharks</a>, <a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/ScottSSapphire'>@ScottSSapphire</a>, <a href='https://github.com/marklam'>@marklam</a>, <a href='https://github.com/Roman-Rak'>@Roman-Rak</a>, <a href='https://github.com/asmallproblem'>@asmallproblem</a>, <a href='https://github.com/jux-stef'>@jux-stef</a>, <a href='https://github.com/Corbini'>@Corbini</a>, <a href='https://github.com/macaba'>@macaba</a>, <a href='https://github.com/Muny'>@Muny</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/hsfetterman'><img src='https://scottplot.net/images/contributors/hsfetterman.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -63,6 +77,11 @@ Description: Release notes for every version of ScottPlot
 <a href='https://github.com/ScottSSapphire'><img src='https://scottplot.net/images/contributors/scottssapphire.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/marklam'><img src='https://scottplot.net/images/contributors/marklam.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Roman-Rak'><img src='https://scottplot.net/images/contributors/roman-rak.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/asmallproblem'><img src='https://scottplot.net/images/contributors/asmallproblem.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/jux-stef'><img src='https://scottplot.net/images/contributors/jux-stef.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Corbini'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/macaba'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Muny'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
