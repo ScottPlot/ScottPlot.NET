@@ -56,11 +56,17 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>WPF: Added <code>XmlnsDefinition</code> and <code>XmlnsPrefix</code> assembly information to simplify referencing in XAML (<a href="https://github.com/ScottPlot/ScottPlot/issues/4853">#4853</a>) <a href="https://github.com/Muny"><strong>@Muny</strong></a>
 </li>
+<li>Plot: Calling <code>Plot.Title()</code> will always enable its visibility. Call <code>Plot.Title(false)</code> to hide the title. (<a href="https://github.com/ScottPlot/ScottPlot/issues/4804">#4804</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4856">#4856</a>)
+</li>
+<li>Layout: Calling <code>Frameless(false)</code> enables visibility of all panels, undoing the actions of <code>Frameless()</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/4804">#4804</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4856">#4856</a>) <a href="https://github.com/manaruto"><strong>@manaruto</strong></a> <a href="https://github.com/bouyeijiang"><strong>@bouyeijiang</strong></a>
+</li>
+<li>Generate: Added helper methods for generating collections of <code>DateTimeOffset</code> objects (<a href="https://github.com/ScottPlot/ScottPlot/issues/4863">#4863</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4861">#4861</a>) <a href="https://github.com/bclehmann"><strong>@bclehmann</strong></a> <a href="https://github.com/bukowa"><strong>@bukowa</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/hsfetterman'>@hsfetterman</a>, <a href='https://github.com/manaruto'>@manaruto</a>, <a href='https://github.com/bwedding'>@bwedding</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/JoeStoneAT'>@JoeStoneAT</a>, <a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/uperp'>@uperp</a>, <a href='https://github.com/dtoppani-twist'>@dtoppani-twist</a>, <a href='https://github.com/chen1tian'>@chen1tian</a>, <a href='https://github.com/ssharks'>@ssharks</a>, <a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/ScottSSapphire'>@ScottSSapphire</a>, <a href='https://github.com/marklam'>@marklam</a>, <a href='https://github.com/Roman-Rak'>@Roman-Rak</a>, <a href='https://github.com/asmallproblem'>@asmallproblem</a>, <a href='https://github.com/jux-stef'>@jux-stef</a>, <a href='https://github.com/Corbini'>@Corbini</a>, <a href='https://github.com/macaba'>@macaba</a>, <a href='https://github.com/Muny'>@Muny</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/hsfetterman'>@hsfetterman</a>, <a href='https://github.com/manaruto'>@manaruto</a>, <a href='https://github.com/bwedding'>@bwedding</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/JoeStoneAT'>@JoeStoneAT</a>, <a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/uperp'>@uperp</a>, <a href='https://github.com/dtoppani-twist'>@dtoppani-twist</a>, <a href='https://github.com/chen1tian'>@chen1tian</a>, <a href='https://github.com/ssharks'>@ssharks</a>, <a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/ScottSSapphire'>@ScottSSapphire</a>, <a href='https://github.com/marklam'>@marklam</a>, <a href='https://github.com/Roman-Rak'>@Roman-Rak</a>, <a href='https://github.com/asmallproblem'>@asmallproblem</a>, <a href='https://github.com/jux-stef'>@jux-stef</a>, <a href='https://github.com/Corbini'>@Corbini</a>, <a href='https://github.com/macaba'>@macaba</a>, <a href='https://github.com/Muny'>@Muny</a>, <a href='https://github.com/bouyeijiang'>@bouyeijiang</a>, <a href='https://github.com/bukowa'>@bukowa</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/hsfetterman'><img src='https://scottplot.net/images/contributors/hsfetterman.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -79,9 +85,11 @@ Description: Release notes for every version of ScottPlot
 <a href='https://github.com/Roman-Rak'><img src='https://scottplot.net/images/contributors/roman-rak.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/asmallproblem'><img src='https://scottplot.net/images/contributors/asmallproblem.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/jux-stef'><img src='https://scottplot.net/images/contributors/jux-stef.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/Corbini'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/macaba'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/Muny'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Corbini'><img src='https://scottplot.net/images/contributors/corbini.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/macaba'><img src='https://scottplot.net/images/contributors/macaba.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Muny'><img src='https://scottplot.net/images/contributors/muny.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/bouyeijiang'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/bukowa'><img src='https://scottplot.net/images/contributors/bukowa.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
