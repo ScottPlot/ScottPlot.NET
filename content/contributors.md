@@ -29,7 +29,7 @@ Description: Members of the open-source community who contributed to ScottPlot
 <a href='https://github.com/Corbini'><img src='https://scottplot.net/images/contributors/corbini.png'></a>
 <a href='https://github.com/macaba'><img src='https://scottplot.net/images/contributors/macaba.png'></a>
 <a href='https://github.com/Muny'><img src='https://scottplot.net/images/contributors/muny.png'></a>
-<a href='https://github.com/bouyeijiang'><img src='https://scottplot.net/images/brand/favicon.png'></a>
+<a href='https://github.com/bouyeijiang'><img src='https://scottplot.net/images/contributors/bouyeijiang.jpg'></a>
 <a href='https://github.com/bukowa'><img src='https://scottplot.net/images/contributors/bukowa.png'></a>
 <a href='https://github.com/VladislavPustovarov'><img src='https://scottplot.net/images/contributors/vladislavpustovarov.png'></a>
 <a href='https://github.com/quantfreedom'><img src='https://scottplot.net/images/contributors/quantfreedom.jpg'></a>

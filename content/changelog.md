@@ -5,7 +5,7 @@ Description: Release notes for every version of ScottPlot
 
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 5.0.55</h1>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2025-03-22</i></div>
 <div class='mt-1'>
 <ul>
 <li>WPF: Added autoscale option to the default right-click context menu (<a href="https://github.com/ScottPlot/ScottPlot/issues/4701">#4701</a>) <a href="https://github.com/hsfetterman"><strong>@hsfetterman</strong></a>
@@ -88,7 +88,7 @@ Description: Release notes for every version of ScottPlot
 <a href='https://github.com/Corbini'><img src='https://scottplot.net/images/contributors/corbini.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/macaba'><img src='https://scottplot.net/images/contributors/macaba.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Muny'><img src='https://scottplot.net/images/contributors/muny.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/bouyeijiang'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/bouyeijiang'><img src='https://scottplot.net/images/contributors/bouyeijiang.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/bukowa'><img src='https://scottplot.net/images/contributors/bukowa.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
