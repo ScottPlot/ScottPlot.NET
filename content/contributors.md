@@ -5,7 +5,7 @@ Description: Members of the open-source community who contributed to ScottPlot
 
 <div class="mt-3 text-center fs-1 fw-semibold">ScottPlot Contributors</div>
 <div class='fs-5 fw-lighter text-center mb-4'>
-    Special thanks to the <span class="sparkle-highlight">520</span> GitHub users 
+    Special thanks to the <span class="sparkle-highlight">521</span> GitHub users 
     who contributed to this project, making ScottPlot better for everyone!
     💖🚀✨
 </div>
@@ -26,9 +26,11 @@ Description: Members of the open-source community who contributed to ScottPlot
 <a href='https://github.com/Roman-Rak'><img src='https://scottplot.net/images/contributors/roman-rak.png'></a>
 <a href='https://github.com/asmallproblem'><img src='https://scottplot.net/images/contributors/asmallproblem.png'></a>
 <a href='https://github.com/jux-stef'><img src='https://scottplot.net/images/contributors/jux-stef.png'></a>
-<a href='https://github.com/Corbini'><img src='https://scottplot.net/images/brand/favicon.png'></a>
-<a href='https://github.com/macaba'><img src='https://scottplot.net/images/brand/favicon.png'></a>
-<a href='https://github.com/Muny'><img src='https://scottplot.net/images/brand/favicon.png'></a>
+<a href='https://github.com/Corbini'><img src='https://scottplot.net/images/contributors/corbini.png'></a>
+<a href='https://github.com/macaba'><img src='https://scottplot.net/images/contributors/macaba.png'></a>
+<a href='https://github.com/Muny'><img src='https://scottplot.net/images/contributors/muny.png'></a>
+<a href='https://github.com/bouyeijiang'><img src='https://scottplot.net/images/brand/favicon.png'></a>
+<a href='https://github.com/bukowa'><img src='https://scottplot.net/images/contributors/bukowa.png'></a>
 <a href='https://github.com/VladislavPustovarov'><img src='https://scottplot.net/images/contributors/vladislavpustovarov.png'></a>
 <a href='https://github.com/quantfreedom'><img src='https://scottplot.net/images/contributors/quantfreedom.jpg'></a>
 <a href='https://github.com/luo-ross'><img src='https://scottplot.net/images/contributors/luo-ross.jpg'></a>
@@ -88,7 +90,6 @@ Description: Members of the open-source community who contributed to ScottPlot
 <a href='https://github.com/Cassar17'><img src='https://scottplot.net/images/contributors/cassar17.png'></a>
 <a href='https://github.com/cosmicDustOfLightLength'><img src='https://scottplot.net/images/contributors/cosmicdustoflightlength.jpg'></a>
 <a href='https://github.com/Lyakabynka'><img src='https://scottplot.net/images/contributors/lyakabynka.png'></a>
-<a href='https://github.com/bukowa'><img src='https://scottplot.net/images/contributors/bukowa.png'></a>
 <a href='https://github.com/tiger2014'><img src='https://scottplot.net/images/contributors/tiger2014.png'></a>
 <a href='https://github.com/ZTaiIT1025'><img src='https://scottplot.net/images/contributors/ztaiit1025.png'></a>
 <a href='https://github.com/TheFizz'><img src='https://scottplot.net/images/contributors/thefizz.png'></a>
