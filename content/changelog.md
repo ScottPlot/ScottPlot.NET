@@ -4,6 +4,28 @@ Description: Release notes for every version of ScottPlot
 ---
 
 <section class='mb-5'>
+<h1 class='mb-0'>ScottPlot 5.0.56</h1>
+<div><i>NuGet packages published </i></div>
+<div class='mt-1'>
+<ul>
+<li>Statistics: Added support for kernel density estimation with Epanechnikov, Gaussian, Uniform, and Triangular strategies. Scott's rule (no relation) was implemented for bandwidth estimation (<a href="https://github.com/ScottPlot/ScottPlot/issues/4869">#4869</a>) <a href="https://github.com/bclehmann"><strong>@bclehmann</strong></a>
+</li>
+<li>Radar: Added a <code>IsAxisAboveData</code> property to allow the axes to be rendered on top of the data series (<a href="https://github.com/ScottPlot/ScottPlot/issues/4874">#4874</a>) <a href="https://github.com/Christoph-Wagner"><strong>@Christoph-Wagner</strong></a>
+</li>
+</ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/Christoph-Wagner'>@Christoph-Wagner</a>, <a href='https://github.com/swharden'>@swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Christoph-Wagner'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
+
+</section>
+<section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 5.0.55</h1>
 <div><i>NuGet packages published 2025-03-22</i></div>
 <div class='mt-1'>
