@@ -14,6 +14,8 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Scatter: Add support for vertically oriented gradient fills (<a href="https://github.com/ScottPlot/ScottPlot/issues/4881">#4881</a>) <a href="https://github.com/manaruto"><strong>@manaruto</strong></a>
 </li>
+<li>Bar Plot: Add <code>LabelsOnTop</code> option to allow bar labels to always be displayed and never get overlapped by other bars or plottables (<a href="https://github.com/ScottPlot/ScottPlot/issues/4886">#4886</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4855">#4855</a>) <a href="https://github.com/manaruto"><strong>@manaruto</strong></a> <a href="https://github.com/bclehmann"><strong>@bclehmann</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
