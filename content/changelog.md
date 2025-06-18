@@ -16,16 +16,24 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Bar Plot: Add <code>LabelsOnTop</code> option to allow bar labels to always be displayed and never get overlapped by other bars or plottables (<a href="https://github.com/ScottPlot/ScottPlot/issues/4886">#4886</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4855">#4855</a>) <a href="https://github.com/manaruto"><strong>@manaruto</strong></a> <a href="https://github.com/bclehmann"><strong>@bclehmann</strong></a>
 </li>
+<li>PolarAxis: Add support for custom background color (<a href="https://github.com/ScottPlot/ScottPlot/issues/4897">#4897</a>) <a href="https://github.com/CoderPM2011"><strong>@CoderPM2011</strong></a>
+</li>
+<li>PolarAxis: Added support for custom spoke lengths (<a href="https://github.com/ScottPlot/ScottPlot/issues/4897">#4897</a>) <a href="https://github.com/CoderPM2011"><strong>@CoderPM2011</strong></a>
+</li>
+<li>Axes: Improve automatic DateTime tick generation for inverted axes (<a href="https://github.com/ScottPlot/ScottPlot/issues/4900">#4900</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4851">#4851</a>) <a href="https://github.com/manaruto"><strong>@manaruto</strong></a> <a href="https://github.com/sunwayking"><strong>@sunwayking</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/Christoph-Wagner'>@Christoph-Wagner</a>, <a href='https://github.com/manaruto'>@manaruto</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/Christoph-Wagner'>@Christoph-Wagner</a>, <a href='https://github.com/manaruto'>@manaruto</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/sunwayking'>@sunwayking</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Christoph-Wagner'><img src='https://scottplot.net/images/contributors/christoph-wagner.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/manaruto'><img src='https://scottplot.net/images/contributors/manaruto.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/CoderPM2011'><img src='https://scottplot.net/images/contributors/coderpm2011.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/sunwayking'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 

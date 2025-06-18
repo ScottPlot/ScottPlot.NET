@@ -5,7 +5,7 @@ Description: Members of the open-source community who contributed to ScottPlot
 
 <div class="mt-3 text-center fs-1 fw-semibold">ScottPlot Contributors</div>
 <div class='fs-5 fw-lighter text-center mb-4'>
-    Special thanks to the <span class="sparkle-highlight">522</span> GitHub users 
+    Special thanks to the <span class="sparkle-highlight">523</span> GitHub users 
     who contributed to this project, making ScottPlot better for everyone!
     💖🚀✨
 </div>
@@ -13,9 +13,10 @@ Description: Members of the open-source community who contributed to ScottPlot
 <a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png'></a>
 <a href='https://github.com/Christoph-Wagner'><img src='https://scottplot.net/images/contributors/christoph-wagner.jpg'></a>
 <a href='https://github.com/manaruto'><img src='https://scottplot.net/images/contributors/manaruto.jpg'></a>
+<a href='https://github.com/CoderPM2011'><img src='https://scottplot.net/images/contributors/coderpm2011.jpg'></a>
+<a href='https://github.com/sunwayking'><img src='https://scottplot.net/images/brand/favicon.png'></a>
 <a href='https://github.com/hsfetterman'><img src='https://scottplot.net/images/contributors/hsfetterman.jpg'></a>
 <a href='https://github.com/bwedding'><img src='https://scottplot.net/images/contributors/bwedding.jpg'></a>
-<a href='https://github.com/CoderPM2011'><img src='https://scottplot.net/images/contributors/coderpm2011.jpg'></a>
 <a href='https://github.com/JoeStoneAT'><img src='https://scottplot.net/images/contributors/joestoneat.png'></a>
 <a href='https://github.com/uperp'><img src='https://scottplot.net/images/contributors/uperp.png'></a>
 <a href='https://github.com/dtoppani-twist'><img src='https://scottplot.net/images/contributors/dtoppani-twist.png'></a>
