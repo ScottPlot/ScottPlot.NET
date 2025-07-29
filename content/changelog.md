@@ -22,18 +22,39 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Axes: Improve automatic DateTime tick generation for inverted axes (<a href="https://github.com/ScottPlot/ScottPlot/issues/4900">#4900</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4851">#4851</a>) <a href="https://github.com/manaruto"><strong>@manaruto</strong></a> <a href="https://github.com/sunwayking"><strong>@sunwayking</strong></a>
 </li>
+<li>Ticks: Improve behavior of DateTime ticks for plots with zero-sized axes (<a href="https://github.com/ScottPlot/ScottPlot/issues/4911">#4911</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4903">#4903</a>) <a href="https://github.com/NeilMacMullen"><strong>@NeilMacMullen</strong></a> <a href="https://github.com/mccabe93"><strong>@mccabe93</strong></a>
+</li>
+<li>Horizontal and Vertical Line: Improve support for inverted axes (<a href="https://github.com/ScottPlot/ScottPlot/issues/4920">#4920</a>) <a href="https://github.com/manaruto"><strong>@manaruto</strong></a>
+</li>
+<li>Rendering: Improve support for invisible and zero line width rectangles (<a href="https://github.com/ScottPlot/ScottPlot/issues/4956">#4956</a>) <a href="https://github.com/Fruchtzwerg94"><strong>@Fruchtzwerg94</strong></a>
+</li>
+<li>Font: Fixed <code>Font.Set()</code> issue associated with premature typeface disposal (<a href="https://github.com/ScottPlot/ScottPlot/issues/4910">#4910</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4958">#4958</a>) <a href="https://github.com/sproott"><strong>@sproott</strong></a> <a href="https://github.com/237779932"><strong>@237779932</strong></a>
+</li>
+<li>WinUI: Improve support for modifier keys when combining mouse and keyboard inputs (<a href="https://github.com/ScottPlot/ScottPlot/issues/4967">#4967</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4970">#4970</a>) <a href="https://github.com/diluculo"><strong>@diluculo</strong></a>
+</li>
+<li>Markers: Added new <code>OpenCircleWithDot</code>, <code>OpenCircleWithCross</code>, and <code>OpenCircleWithEks</code> markers (<a href="https://github.com/ScottPlot/ScottPlot/issues/4963">#4963</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4972">#4972</a>) <a href="https://github.com/CoderPM2011"><strong>@CoderPM2011</strong></a>
+</li>
+<li>NumericConversion: Added type-specific <code>Clamp()</code> overloads prevent boxing and improve performance (<a href="https://github.com/ScottPlot/ScottPlot/issues/4985">#4985</a>) <a href="https://github.com/kevin100702"><strong>@kevin100702</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/Christoph-Wagner'>@Christoph-Wagner</a>, <a href='https://github.com/manaruto'>@manaruto</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/sunwayking'>@sunwayking</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/Christoph-Wagner'>@Christoph-Wagner</a>, <a href='https://github.com/manaruto'>@manaruto</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/sunwayking'>@sunwayking</a>, <a href='https://github.com/NeilMacMullen'>@NeilMacMullen</a>, <a href='https://github.com/mccabe93'>@mccabe93</a>, <a href='https://github.com/Fruchtzwerg94'>@Fruchtzwerg94</a>, <a href='https://github.com/sproott'>@sproott</a>, <a href='https://github.com/237779932'>@237779932</a>, <a href='https://github.com/diluculo'>@diluculo</a>, <a href='https://github.com/kevin100702'>@kevin100702</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Christoph-Wagner'><img src='https://scottplot.net/images/contributors/christoph-wagner.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/manaruto'><img src='https://scottplot.net/images/contributors/manaruto.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/CoderPM2011'><img src='https://scottplot.net/images/contributors/coderpm2011.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/sunwayking'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/sunwayking'><img src='https://scottplot.net/images/contributors/sunwayking.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/NeilMacMullen'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/mccabe93'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Fruchtzwerg94'><img src='https://scottplot.net/images/contributors/fruchtzwerg94.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/sproott'><img src='https://scottplot.net/images/contributors/sproott.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/237779932'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/diluculo'><img src='https://scottplot.net/images/contributors/diluculo.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/kevin100702'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
