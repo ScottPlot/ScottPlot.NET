@@ -36,11 +36,19 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>NumericConversion: Added type-specific <code>Clamp()</code> overloads prevent boxing and improve performance (<a href="https://github.com/ScottPlot/ScottPlot/issues/4985">#4985</a>) <a href="https://github.com/kevin100702"><strong>@kevin100702</strong></a>
 </li>
+<li>Maui: Add explicit <code>net8.0</code> target to facilitate platform-agnostic unit testing (<a href="https://github.com/ScottPlot/ScottPlot/issues/4988">#4988</a>) <a href="https://github.com/Adam--"><strong>@Adam--</strong></a>
+</li>
+<li>Drawing: Add <code>FillPath()</code> and <code>FillCircle()</code> and deprecate draw overloads that accept a <code>FillStyle</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/4987">#4987</a>) <a href="https://github.com/CoderPM2011"><strong>@CoderPM2011</strong></a>
+</li>
+<li>GitHub: Create a <code>devconainer.json</code> file to facilitate development in GitHub Codespaces (<a href="https://github.com/ScottPlot/ScottPlot/issues/5002">#5002</a>) <a href="https://github.com/oxygen-dioxide"><strong>@oxygen-dioxide</strong></a>
+</li>
+<li>Maui: Improve behavior for interactive plots when their user input processor is disabled (<a href="https://github.com/ScottPlot/ScottPlot/issues/4990">#4990</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4989">#4989</a>) <a href="https://github.com/Adam--"><strong>@Adam--</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/Christoph-Wagner'>@Christoph-Wagner</a>, <a href='https://github.com/manaruto'>@manaruto</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/sunwayking'>@sunwayking</a>, <a href='https://github.com/NeilMacMullen'>@NeilMacMullen</a>, <a href='https://github.com/mccabe93'>@mccabe93</a>, <a href='https://github.com/Fruchtzwerg94'>@Fruchtzwerg94</a>, <a href='https://github.com/sproott'>@sproott</a>, <a href='https://github.com/237779932'>@237779932</a>, <a href='https://github.com/diluculo'>@diluculo</a>, <a href='https://github.com/kevin100702'>@kevin100702</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/Christoph-Wagner'>@Christoph-Wagner</a>, <a href='https://github.com/manaruto'>@manaruto</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/sunwayking'>@sunwayking</a>, <a href='https://github.com/NeilMacMullen'>@NeilMacMullen</a>, <a href='https://github.com/mccabe93'>@mccabe93</a>, <a href='https://github.com/Fruchtzwerg94'>@Fruchtzwerg94</a>, <a href='https://github.com/sproott'>@sproott</a>, <a href='https://github.com/237779932'>@237779932</a>, <a href='https://github.com/diluculo'>@diluculo</a>, <a href='https://github.com/kevin100702'>@kevin100702</a>, <a href='https://github.com/Adam--'>@Adam--</a>, <a href='https://github.com/oxygen-dioxide'>@oxygen-dioxide</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -48,13 +56,15 @@ Description: Release notes for every version of ScottPlot
 <a href='https://github.com/manaruto'><img src='https://scottplot.net/images/contributors/manaruto.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/CoderPM2011'><img src='https://scottplot.net/images/contributors/coderpm2011.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/sunwayking'><img src='https://scottplot.net/images/contributors/sunwayking.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/NeilMacMullen'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/mccabe93'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/NeilMacMullen'><img src='https://scottplot.net/images/contributors/neilmacmullen.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/mccabe93'><img src='https://scottplot.net/images/contributors/mccabe93.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Fruchtzwerg94'><img src='https://scottplot.net/images/contributors/fruchtzwerg94.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/sproott'><img src='https://scottplot.net/images/contributors/sproott.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/237779932'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/237779932'><img src='https://scottplot.net/images/contributors/237779932.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/diluculo'><img src='https://scottplot.net/images/contributors/diluculo.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/kevin100702'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/kevin100702'><img src='https://scottplot.net/images/contributors/kevin100702.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Adam--'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/oxygen-dioxide'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
