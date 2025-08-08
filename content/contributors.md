@@ -22,8 +22,9 @@ Description: Members of the open-source community who contributed to ScottPlot
 <a href='https://github.com/237779932'><img src='https://scottplot.net/images/contributors/237779932.png'></a>
 <a href='https://github.com/diluculo'><img src='https://scottplot.net/images/contributors/diluculo.png'></a>
 <a href='https://github.com/kevin100702'><img src='https://scottplot.net/images/contributors/kevin100702.jpg'></a>
-<a href='https://github.com/Adam--'><img src='https://scottplot.net/images/brand/favicon.png'></a>
-<a href='https://github.com/oxygen-dioxide'><img src='https://scottplot.net/images/brand/favicon.png'></a>
+<a href='https://github.com/Adam--'><img src='https://scottplot.net/images/contributors/adam--.jpg'></a>
+<a href='https://github.com/oxygen-dioxide'><img src='https://scottplot.net/images/contributors/oxygen-dioxide.jpg'></a>
+<a href='https://github.com/aespitia'><img src='https://scottplot.net/images/contributors/aespitia.jpg'></a>
 <a href='https://github.com/hsfetterman'><img src='https://scottplot.net/images/contributors/hsfetterman.jpg'></a>
 <a href='https://github.com/bwedding'><img src='https://scottplot.net/images/contributors/bwedding.jpg'></a>
 <a href='https://github.com/JoeStoneAT'><img src='https://scottplot.net/images/contributors/joestoneat.png'></a>
@@ -47,7 +48,6 @@ Description: Members of the open-source community who contributed to ScottPlot
 <a href='https://github.com/luo-ross'><img src='https://scottplot.net/images/contributors/luo-ross.jpg'></a>
 <a href='https://github.com/onur-akaydin'><img src='https://scottplot.net/images/contributors/onur-akaydin.png'></a>
 <a href='https://github.com/allrightsreserved'><img src='https://scottplot.net/images/contributors/allrightsreserved.png'></a>
-<a href='https://github.com/aespitia'><img src='https://scottplot.net/images/contributors/aespitia.jpg'></a>
 <a href='https://github.com/heartacker'><img src='https://scottplot.net/images/contributors/heartacker.jpg'></a>
 <a href='https://github.com/kebox7'><img src='https://scottplot.net/images/contributors/kebox7.png'></a>
 <a href='https://github.com/King-Taz'><img src='https://scottplot.net/images/contributors/king-taz.png'></a>
