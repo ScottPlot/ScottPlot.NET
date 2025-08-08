@@ -54,6 +54,8 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Data Streamer: Added <code>FillY</code> and related properties so streaming plots support filled ares (<a href="https://github.com/ScottPlot/ScottPlot/issues/4948">#4948</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/5023">#5023</a>) <a href="https://github.com/manaruto"><strong>@manaruto</strong></a> <a href="https://github.com/Stephanowicz"><strong>@Stephanowicz</strong></a>
 </li>
+<li>Plot: Added <code>FigureBorder</code> and <code>DataBorder</code> for displaying custom borders on plots and subplots (<a href="https://github.com/ScottPlot/ScottPlot/issues/4854">#4854</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/5024">#5024</a>) <a href="https://github.com/CoderPM2011"><strong>@CoderPM2011</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
@@ -76,7 +78,7 @@ Description: Release notes for every version of ScottPlot
 <a href='https://github.com/Adam--'><img src='https://scottplot.net/images/contributors/adam--.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/oxygen-dioxide'><img src='https://scottplot.net/images/contributors/oxygen-dioxide.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/aespitia'><img src='https://scottplot.net/images/contributors/aespitia.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/Stephanowicz'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Stephanowicz'><img src='https://scottplot.net/images/contributors/stephanowicz.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
