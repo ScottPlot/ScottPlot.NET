@@ -56,11 +56,15 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Plot: Added <code>FigureBorder</code> and <code>DataBorder</code> for displaying custom borders on plots and subplots (<a href="https://github.com/ScottPlot/ScottPlot/issues/4854">#4854</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/5024">#5024</a>) <a href="https://github.com/CoderPM2011"><strong>@CoderPM2011</strong></a>
 </li>
+<li>Angle: Added <code>Inverted</code> property and support for <code>Angle</code> comparison using equality operators
+</li>
+<li>Polar Axis: Added a <code>Clockwise</code> property to support clockwise and counter-clockwise translation between Polar and Cartesian coordinates (<a href="https://github.com/ScottPlot/ScottPlot/issues/5028">#5028</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4884">#4884</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/5046">#5046</a>) <a href="https://github.com/CoderPM2011"><strong>@CoderPM2011</strong></a>, <a href="https://github.com/mattwelch2000"><strong>@mattwelch2000</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/Christoph-Wagner'>@Christoph-Wagner</a>, <a href='https://github.com/manaruto'>@manaruto</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/sunwayking'>@sunwayking</a>, <a href='https://github.com/NeilMacMullen'>@NeilMacMullen</a>, <a href='https://github.com/mccabe93'>@mccabe93</a>, <a href='https://github.com/Fruchtzwerg94'>@Fruchtzwerg94</a>, <a href='https://github.com/sproott'>@sproott</a>, <a href='https://github.com/237779932'>@237779932</a>, <a href='https://github.com/diluculo'>@diluculo</a>, <a href='https://github.com/kevin100702'>@kevin100702</a>, <a href='https://github.com/Adam--'>@Adam--</a>, <a href='https://github.com/oxygen-dioxide'>@oxygen-dioxide</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/Stephanowicz'>@Stephanowicz</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/Christoph-Wagner'>@Christoph-Wagner</a>, <a href='https://github.com/manaruto'>@manaruto</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/sunwayking'>@sunwayking</a>, <a href='https://github.com/NeilMacMullen'>@NeilMacMullen</a>, <a href='https://github.com/mccabe93'>@mccabe93</a>, <a href='https://github.com/Fruchtzwerg94'>@Fruchtzwerg94</a>, <a href='https://github.com/sproott'>@sproott</a>, <a href='https://github.com/237779932'>@237779932</a>, <a href='https://github.com/diluculo'>@diluculo</a>, <a href='https://github.com/kevin100702'>@kevin100702</a>, <a href='https://github.com/Adam--'>@Adam--</a>, <a href='https://github.com/oxygen-dioxide'>@oxygen-dioxide</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/Stephanowicz'>@Stephanowicz</a>, <a href='https://github.com/mattwelch2000'>@mattwelch2000</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -79,6 +83,7 @@ Description: Release notes for every version of ScottPlot
 <a href='https://github.com/oxygen-dioxide'><img src='https://scottplot.net/images/contributors/oxygen-dioxide.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/aespitia'><img src='https://scottplot.net/images/contributors/aespitia.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Stephanowicz'><img src='https://scottplot.net/images/contributors/stephanowicz.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/mattwelch2000'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
