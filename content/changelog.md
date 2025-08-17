@@ -62,6 +62,8 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>WinUI: Improved support for plots with transparent backgrounds (<a href="https://github.com/ScottPlot/ScottPlot/issues/5026">#5026</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/5029">#5029</a>) <a href="https://github.com/diluculo"><strong>@diluculo</strong></a>
 </li>
+<li>Font: Added <code>Fonts.Reset()</code> to restore default styling options (<a href="https://github.com/ScottPlot/ScottPlot/issues/5013">#5013</a>) <a href="https://github.com/aespitia"><strong>@aespitia</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
