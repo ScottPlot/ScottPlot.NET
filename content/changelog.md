@@ -60,6 +60,8 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Polar Axis: Added a <code>Clockwise</code> property to support clockwise and counter-clockwise translation between Polar and Cartesian coordinates (<a href="https://github.com/ScottPlot/ScottPlot/issues/5028">#5028</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4884">#4884</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/5046">#5046</a>) <a href="https://github.com/CoderPM2011"><strong>@CoderPM2011</strong></a>, <a href="https://github.com/mattwelch2000"><strong>@mattwelch2000</strong></a>
 </li>
+<li>WinUI: Improved support for plots with transparent backgrounds (<a href="https://github.com/ScottPlot/ScottPlot/issues/5026">#5026</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/5029">#5029</a>) <a href="https://github.com/diluculo"><strong>@diluculo</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
@@ -83,7 +85,7 @@ Description: Release notes for every version of ScottPlot
 <a href='https://github.com/oxygen-dioxide'><img src='https://scottplot.net/images/contributors/oxygen-dioxide.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/aespitia'><img src='https://scottplot.net/images/contributors/aespitia.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Stephanowicz'><img src='https://scottplot.net/images/contributors/stephanowicz.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/mattwelch2000'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/mattwelch2000'><img src='https://scottplot.net/images/contributors/mattwelch2000.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 

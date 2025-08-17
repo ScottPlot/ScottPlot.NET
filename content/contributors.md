@@ -26,7 +26,7 @@ Description: Members of the open-source community who contributed to ScottPlot
 <a href='https://github.com/oxygen-dioxide'><img src='https://scottplot.net/images/contributors/oxygen-dioxide.jpg'></a>
 <a href='https://github.com/aespitia'><img src='https://scottplot.net/images/contributors/aespitia.jpg'></a>
 <a href='https://github.com/Stephanowicz'><img src='https://scottplot.net/images/contributors/stephanowicz.png'></a>
-<a href='https://github.com/mattwelch2000'><img src='https://scottplot.net/images/brand/favicon.png'></a>
+<a href='https://github.com/mattwelch2000'><img src='https://scottplot.net/images/contributors/mattwelch2000.png'></a>
 <a href='https://github.com/hsfetterman'><img src='https://scottplot.net/images/contributors/hsfetterman.jpg'></a>
 <a href='https://github.com/bwedding'><img src='https://scottplot.net/images/contributors/bwedding.jpg'></a>
 <a href='https://github.com/JoeStoneAT'><img src='https://scottplot.net/images/contributors/joestoneat.png'></a>
