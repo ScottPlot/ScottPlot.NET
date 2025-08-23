@@ -5,7 +5,7 @@ Description: Members of the open-source community who contributed to ScottPlot
 
 <div class="mt-3 text-center fs-1 fw-semibold">ScottPlot Contributors</div>
 <div class='fs-5 fw-lighter text-center mb-4'>
-    Special thanks to the <span class="sparkle-highlight">531</span> GitHub users 
+    Special thanks to the <span class="sparkle-highlight">533</span> GitHub users 
     who contributed to this project, making ScottPlot better for everyone!
     💖🚀✨
 </div>
@@ -27,6 +27,9 @@ Description: Members of the open-source community who contributed to ScottPlot
 <a href='https://github.com/aespitia'><img src='https://scottplot.net/images/contributors/aespitia.jpg'></a>
 <a href='https://github.com/Stephanowicz'><img src='https://scottplot.net/images/contributors/stephanowicz.png'></a>
 <a href='https://github.com/mattwelch2000'><img src='https://scottplot.net/images/contributors/mattwelch2000.png'></a>
+<a href='https://github.com/winsrp'><img src='https://scottplot.net/images/brand/favicon.png'></a>
+<a href='https://github.com/dirk-de-bugger'><img src='https://scottplot.net/images/brand/favicon.png'></a>
+<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png'></a>
 <a href='https://github.com/hsfetterman'><img src='https://scottplot.net/images/contributors/hsfetterman.jpg'></a>
 <a href='https://github.com/bwedding'><img src='https://scottplot.net/images/contributors/bwedding.jpg'></a>
 <a href='https://github.com/JoeStoneAT'><img src='https://scottplot.net/images/contributors/joestoneat.png'></a>
@@ -34,7 +37,6 @@ Description: Members of the open-source community who contributed to ScottPlot
 <a href='https://github.com/dtoppani-twist'><img src='https://scottplot.net/images/contributors/dtoppani-twist.png'></a>
 <a href='https://github.com/chen1tian'><img src='https://scottplot.net/images/contributors/chen1tian.png'></a>
 <a href='https://github.com/ssharks'><img src='https://scottplot.net/images/contributors/ssharks.png'></a>
-<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png'></a>
 <a href='https://github.com/ScottSSapphire'><img src='https://scottplot.net/images/contributors/scottssapphire.png'></a>
 <a href='https://github.com/marklam'><img src='https://scottplot.net/images/contributors/marklam.jpg'></a>
 <a href='https://github.com/Roman-Rak'><img src='https://scottplot.net/images/contributors/roman-rak.png'></a>

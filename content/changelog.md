@@ -64,11 +64,19 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Font: Added <code>Fonts.Reset()</code> to restore default styling options (<a href="https://github.com/ScottPlot/ScottPlot/issues/5013">#5013</a>) <a href="https://github.com/aespitia"><strong>@aespitia</strong></a>
 </li>
+<li>Legend: Respect marker size when a default marker shape is used (<a href="https://github.com/ScottPlot/ScottPlot/issues/5006">#5006</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/5031">#5031</a>) <a href="https://github.com/manaruto"><strong>@manaruto</strong></a> <a href="https://github.com/aespitia"><strong>@aespitia</strong></a>
+</li>
+<li>Legend: Improve appearance of large markers in legends (<a href="https://github.com/ScottPlot/ScottPlot/issues/4999">#4999</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/5031">#5031</a>) <a href="https://github.com/manaruto"><strong>@manaruto</strong></a> <a href="https://github.com/winsrp"><strong>@winsrp</strong></a>
+</li>
+<li>Cookbook: Improve developer experience when generating images using the Visual Studio Test Runner (<a href="https://github.com/ScottPlot/ScottPlot/issues/4882">#4882</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/5032">#5032</a>) <a href="https://github.com/CoderPM2011"><strong>@CoderPM2011</strong></a>
+</li>
+<li>Signal: Improve horizontal range accuracy reported by signal plot data sources (<a href="https://github.com/ScottPlot/ScottPlot/issues/4868">#4868</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/5033">#5033</a>) <a href="https://github.com/CoderPM2011"><strong>@CoderPM2011</strong></a>, <a href="https://github.com/dirk-de-bugger"><strong>@dirk-de-bugger</strong></a>, <a href="https://github.com/StendProg"><strong>@StendProg</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/Christoph-Wagner'>@Christoph-Wagner</a>, <a href='https://github.com/manaruto'>@manaruto</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/sunwayking'>@sunwayking</a>, <a href='https://github.com/NeilMacMullen'>@NeilMacMullen</a>, <a href='https://github.com/mccabe93'>@mccabe93</a>, <a href='https://github.com/Fruchtzwerg94'>@Fruchtzwerg94</a>, <a href='https://github.com/sproott'>@sproott</a>, <a href='https://github.com/237779932'>@237779932</a>, <a href='https://github.com/diluculo'>@diluculo</a>, <a href='https://github.com/kevin100702'>@kevin100702</a>, <a href='https://github.com/Adam--'>@Adam--</a>, <a href='https://github.com/oxygen-dioxide'>@oxygen-dioxide</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/Stephanowicz'>@Stephanowicz</a>, <a href='https://github.com/mattwelch2000'>@mattwelch2000</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/Christoph-Wagner'>@Christoph-Wagner</a>, <a href='https://github.com/manaruto'>@manaruto</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/sunwayking'>@sunwayking</a>, <a href='https://github.com/NeilMacMullen'>@NeilMacMullen</a>, <a href='https://github.com/mccabe93'>@mccabe93</a>, <a href='https://github.com/Fruchtzwerg94'>@Fruchtzwerg94</a>, <a href='https://github.com/sproott'>@sproott</a>, <a href='https://github.com/237779932'>@237779932</a>, <a href='https://github.com/diluculo'>@diluculo</a>, <a href='https://github.com/kevin100702'>@kevin100702</a>, <a href='https://github.com/Adam--'>@Adam--</a>, <a href='https://github.com/oxygen-dioxide'>@oxygen-dioxide</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/Stephanowicz'>@Stephanowicz</a>, <a href='https://github.com/mattwelch2000'>@mattwelch2000</a>, <a href='https://github.com/winsrp'>@winsrp</a>, <a href='https://github.com/dirk-de-bugger'>@dirk-de-bugger</a>, <a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -88,6 +96,9 @@ Description: Release notes for every version of ScottPlot
 <a href='https://github.com/aespitia'><img src='https://scottplot.net/images/contributors/aespitia.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Stephanowicz'><img src='https://scottplot.net/images/contributors/stephanowicz.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/mattwelch2000'><img src='https://scottplot.net/images/contributors/mattwelch2000.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/winsrp'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/dirk-de-bugger'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
