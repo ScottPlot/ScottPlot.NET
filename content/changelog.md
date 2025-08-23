@@ -72,11 +72,21 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Signal: Improve horizontal range accuracy reported by signal plot data sources (<a href="https://github.com/ScottPlot/ScottPlot/issues/4868">#4868</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/5033">#5033</a>) <a href="https://github.com/CoderPM2011"><strong>@CoderPM2011</strong></a>, <a href="https://github.com/dirk-de-bugger"><strong>@dirk-de-bugger</strong></a>, <a href="https://github.com/StendProg"><strong>@StendProg</strong></a>
 </li>
+<li>Heatmap: Added a <code>RenderStrategy</code> property so users can use custom rendering logic (<a href="https://github.com/ScottPlot/ScottPlot/issues/5035">#5035</a>) <a href="https://github.com/bclehmann"><strong>@bclehmann</strong></a>
+</li>
+<li>Heatmap: Added <code>Heatmap.RenderStrategies.Rectangles</code> to improve SVG support by drawing each cell of a heatmap as a distinct rectangle (<a href="https://github.com/ScottPlot/ScottPlot/issues/4950">#4950</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/5020">#5020</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/5035">#5035</a>) <a href="https://github.com/CoderPM2011"><strong>@CoderPM2011</strong></a> <a href="https://github.com/bclehmann"><strong>@bclehmann</strong></a> <a href="https://github.com/MRC-Karel"><strong>@MRC-Karel</strong></a>
+</li>
+<li>Color: Added an <code>Opacity</code> property to compliment <code>WithOpacity()</code> which represents opacity as a fractional value (<a href="https://github.com/ScottPlot/ScottPlot/issues/5041">#5041</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/5024">#5024</a>) <a href="https://github.com/aespitia"><strong>@aespitia</strong></a>, <a href="https://github.com/bclehmann"><strong>@bclehmann</strong></a>
+</li>
+<li>Axis Line: Improve alignment of horizontal line labels on the right side of multi-axis plots (<a href="https://github.com/ScottPlot/ScottPlot/issues/5052">#5052</a>) <a href="https://github.com/afunc233"><strong>@afunc233</strong></a>
+</li>
+<li>Avalonia: Forward <code>OnLostFocus</code> events to improve mouse/keyboard interactivity following alt+tab window switching (<a href="https://github.com/ScottPlot/ScottPlot/issues/5053">#5053</a>) <a href="https://github.com/afunc233"><strong>@afunc233</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/Christoph-Wagner'>@Christoph-Wagner</a>, <a href='https://github.com/manaruto'>@manaruto</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/sunwayking'>@sunwayking</a>, <a href='https://github.com/NeilMacMullen'>@NeilMacMullen</a>, <a href='https://github.com/mccabe93'>@mccabe93</a>, <a href='https://github.com/Fruchtzwerg94'>@Fruchtzwerg94</a>, <a href='https://github.com/sproott'>@sproott</a>, <a href='https://github.com/237779932'>@237779932</a>, <a href='https://github.com/diluculo'>@diluculo</a>, <a href='https://github.com/kevin100702'>@kevin100702</a>, <a href='https://github.com/Adam--'>@Adam--</a>, <a href='https://github.com/oxygen-dioxide'>@oxygen-dioxide</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/Stephanowicz'>@Stephanowicz</a>, <a href='https://github.com/mattwelch2000'>@mattwelch2000</a>, <a href='https://github.com/winsrp'>@winsrp</a>, <a href='https://github.com/dirk-de-bugger'>@dirk-de-bugger</a>, <a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/Christoph-Wagner'>@Christoph-Wagner</a>, <a href='https://github.com/manaruto'>@manaruto</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/sunwayking'>@sunwayking</a>, <a href='https://github.com/NeilMacMullen'>@NeilMacMullen</a>, <a href='https://github.com/mccabe93'>@mccabe93</a>, <a href='https://github.com/Fruchtzwerg94'>@Fruchtzwerg94</a>, <a href='https://github.com/sproott'>@sproott</a>, <a href='https://github.com/237779932'>@237779932</a>, <a href='https://github.com/diluculo'>@diluculo</a>, <a href='https://github.com/kevin100702'>@kevin100702</a>, <a href='https://github.com/Adam--'>@Adam--</a>, <a href='https://github.com/oxygen-dioxide'>@oxygen-dioxide</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/Stephanowicz'>@Stephanowicz</a>, <a href='https://github.com/mattwelch2000'>@mattwelch2000</a>, <a href='https://github.com/winsrp'>@winsrp</a>, <a href='https://github.com/dirk-de-bugger'>@dirk-de-bugger</a>, <a href='https://github.com/StendProg'>@StendProg</a>, <a href='https://github.com/MRC-Karel'>@MRC-Karel</a>, <a href='https://github.com/afunc233'>@afunc233</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -96,9 +106,11 @@ Description: Release notes for every version of ScottPlot
 <a href='https://github.com/aespitia'><img src='https://scottplot.net/images/contributors/aespitia.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Stephanowicz'><img src='https://scottplot.net/images/contributors/stephanowicz.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/mattwelch2000'><img src='https://scottplot.net/images/contributors/mattwelch2000.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/winsrp'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/dirk-de-bugger'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/winsrp'><img src='https://scottplot.net/images/contributors/winsrp.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/dirk-de-bugger'><img src='https://scottplot.net/images/contributors/dirk-de-bugger.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/MRC-Karel'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/afunc233'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
