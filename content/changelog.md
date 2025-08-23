@@ -66,7 +66,7 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Legend: Respect marker size when a default marker shape is used (<a href="https://github.com/ScottPlot/ScottPlot/issues/5006">#5006</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/5031">#5031</a>) <a href="https://github.com/manaruto"><strong>@manaruto</strong></a> <a href="https://github.com/aespitia"><strong>@aespitia</strong></a>
 </li>
-<li>Legend: Improve appearance of large markers in legends (<a href="https://github.com/ScottPlot/ScottPlot/issues/4999">#4999</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/5031">#5031</a>) <a href="https://github.com/manaruto"><strong>@manaruto</strong></a> <a href="https://github.com/winsrp"><strong>@winsrp</strong></a>
+<li>Legend: Improve appearance of large markers in legends (<a href="https://github.com/ScottPlot/ScottPlot/issues/4999">#4999</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/5031">#5031</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/5056">#5056</a>) <a href="https://github.com/manaruto"><strong>@manaruto</strong></a> <a href="https://github.com/winsrp"><strong>@winsrp</strong></a>
 </li>
 <li>Cookbook: Improve developer experience when generating images using the Visual Studio Test Runner (<a href="https://github.com/ScottPlot/ScottPlot/issues/4882">#4882</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/5032">#5032</a>) <a href="https://github.com/CoderPM2011"><strong>@CoderPM2011</strong></a>
 </li>
@@ -109,8 +109,8 @@ Description: Release notes for every version of ScottPlot
 <a href='https://github.com/winsrp'><img src='https://scottplot.net/images/contributors/winsrp.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/dirk-de-bugger'><img src='https://scottplot.net/images/contributors/dirk-de-bugger.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/MRC-Karel'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/afunc233'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/MRC-Karel'><img src='https://scottplot.net/images/contributors/mrc-karel.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/afunc233'><img src='https://scottplot.net/images/contributors/afunc233.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 

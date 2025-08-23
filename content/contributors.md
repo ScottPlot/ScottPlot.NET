@@ -30,8 +30,8 @@ Description: Members of the open-source community who contributed to ScottPlot
 <a href='https://github.com/winsrp'><img src='https://scottplot.net/images/contributors/winsrp.jpg'></a>
 <a href='https://github.com/dirk-de-bugger'><img src='https://scottplot.net/images/contributors/dirk-de-bugger.png'></a>
 <a href='https://github.com/StendProg'><img src='https://scottplot.net/images/contributors/stendprog.png'></a>
-<a href='https://github.com/MRC-Karel'><img src='https://scottplot.net/images/brand/favicon.png'></a>
-<a href='https://github.com/afunc233'><img src='https://scottplot.net/images/brand/favicon.png'></a>
+<a href='https://github.com/MRC-Karel'><img src='https://scottplot.net/images/contributors/mrc-karel.jpg'></a>
+<a href='https://github.com/afunc233'><img src='https://scottplot.net/images/contributors/afunc233.png'></a>
 <a href='https://github.com/hsfetterman'><img src='https://scottplot.net/images/contributors/hsfetterman.jpg'></a>
 <a href='https://github.com/bwedding'><img src='https://scottplot.net/images/contributors/bwedding.jpg'></a>
 <a href='https://github.com/JoeStoneAT'><img src='https://scottplot.net/images/contributors/joestoneat.png'></a>
