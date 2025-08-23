@@ -5,7 +5,7 @@ Description: Release notes for every version of ScottPlot
 
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 5.0.56</h1>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2025-08-22</i></div>
 <div class='mt-1'>
 <ul>
 <li>Statistics: Added support for kernel density estimation with Epanechnikov, Gaussian, Uniform, and Triangular strategies. Scott's rule (no relation) was implemented for bandwidth estimation (<a href="https://github.com/ScottPlot/ScottPlot/issues/4869">#4869</a>) <a href="https://github.com/bclehmann"><strong>@bclehmann</strong></a>
