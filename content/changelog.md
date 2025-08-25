@@ -4,6 +4,30 @@ Description: Release notes for every version of ScottPlot
 ---
 
 <section class='mb-5'>
+<h1 class='mb-0'>ScottPlot 5.1.57</h1>
+<div><i>NuGet packages published </i></div>
+<div class='mt-1'>
+<ul>
+<li>The transition from ScottPlot <code>5.0</code> to <code>5.1</code> has breaking changes which are likely to affect advanced users who maintain custom plot types. Upgrading our SkiaSharp from <code>2.88</code> to <code>3.119</code> brought many improvements, but significantly changed the functionality of <code>SkiaSharp.SKPaint</code> which many of our drawing operations relied on. To minimize the impact of this change, references to <code>SkiaSharp.SKPaint</code> have been replaced with <code>ScottPlot.Paint</code> which closely resembles the original API, minimizing amount of code changes required to upgrade. This version aims at making this upgrade possible, and future versions will refine these objects to improve performance and minimize allocations.
+</li>
+<li>Public methods that accepted <code>SkiaSharp.SKPaint</code> now accept <code>ScottPlot.Paint</code>
+</li>
+<li><code>Paint.MeasureText()</code> now returns a single <code>PixelRect</code> instead of using <code>out</code> variables
+</li>
+<li>Rendering: Significantly reduced the number of allocations by passing <code>Paint</code> throughout the render flow
+</li>
+</ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/swharden'>@swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
+
+</section>
+<section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 5.0.56</h1>
 <div><i>NuGet packages published 2025-08-22</i></div>
 <div class='mt-1'>
