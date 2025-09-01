@@ -10,7 +10,7 @@ Description: Members of the open-source community who contributed to ScottPlot
     💖🚀✨
 </div>
 <div class='avatar-container my-3'>
-<a href='https://github.com/jelhan'><img src='https://scottplot.net/images/brand/favicon.png'></a>
+<a href='https://github.com/jelhan'><img src='https://scottplot.net/images/contributors/jelhan.jpg'></a>
 <a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png'></a>
 <a href='https://github.com/Christoph-Wagner'><img src='https://scottplot.net/images/contributors/christoph-wagner.jpg'></a>
 <a href='https://github.com/manaruto'><img src='https://scottplot.net/images/contributors/manaruto.jpg'></a>
