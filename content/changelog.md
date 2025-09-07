@@ -20,6 +20,10 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Colormaps: Updated the Turbo colormap to use the identical color table published by the original author (<a href="https://github.com/ScottPlot/ScottPlot/issues/5075">#5075</a>) <a href="https://github.com/bclehmann"><strong>@bclehmann</strong></a>
 </li>
+<li>Interactive Plottables: Created a new collection of interactive plottables which do not require manually wiring mouse events to support hover and click-drag manipulation
+</li>
+<li>Controls: Added <code>SetCursor()</code> functionality to <code>IPlotControl</code> to improve cross-platform support for mouse interactions
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
