@@ -8,6 +8,7 @@ layout: single
 <h1 class='border-0 mt-4 mb-0'>ScottPlot</h1>
 
 [![](https://img.shields.io/nuget/dt/scottplot?color=29ab47&label=Downloads&logo=NuGet)](https://www.nuget.org/packages/ScottPlot/)
+[![](https://img.shields.io/github/stars/scottplot/scottplot?style=flat&logo=github&label=Stars)](https://github.com/scottplot/scottplot/)
 [![](https://img.shields.io/nuget/vpre/scottplot?color=044577&label=NuGet&logo=nuget)](https://www.nuget.org/packages/ScottPlot/)
 [![](https://badgen.net/discord/members/Dru6fnY2UX?color=5562ea&icon=discord&label=Discord)](https://scottplot.net/discord/)
 
