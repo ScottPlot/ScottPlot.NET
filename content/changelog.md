@@ -24,6 +24,8 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Controls: Added <code>SetCursor()</code> functionality to <code>IPlotControl</code> to improve cross-platform support for mouse interactions
 </li>
+<li>SignalXY: Reduced heap allocations by modifying <code>ISignalXYSource</code> to use <code>IReadOnlyList&lt;Pixel&gt;</code> instead of <code>Pixel[]</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/5091">#5091</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/5078">#5078</a>) <a href="https://github.com/bclehmann"><strong>@bclehmann</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
