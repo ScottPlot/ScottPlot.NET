@@ -12,11 +12,11 @@ Description: Members of the open-source community who contributed to ScottPlot
 <div class='avatar-container my-3'>
 <a href='https://github.com/jelhan'><img src='https://scottplot.net/images/contributors/jelhan.jpg'></a>
 <a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png'></a>
+<a href='https://github.com/NeilMacMullen'><img src='https://scottplot.net/images/contributors/neilmacmullen.jpg'></a>
 <a href='https://github.com/Christoph-Wagner'><img src='https://scottplot.net/images/contributors/christoph-wagner.jpg'></a>
 <a href='https://github.com/manaruto'><img src='https://scottplot.net/images/contributors/manaruto.jpg'></a>
 <a href='https://github.com/CoderPM2011'><img src='https://scottplot.net/images/contributors/coderpm2011.jpg'></a>
 <a href='https://github.com/sunwayking'><img src='https://scottplot.net/images/contributors/sunwayking.png'></a>
-<a href='https://github.com/NeilMacMullen'><img src='https://scottplot.net/images/contributors/neilmacmullen.jpg'></a>
 <a href='https://github.com/mccabe93'><img src='https://scottplot.net/images/contributors/mccabe93.jpg'></a>
 <a href='https://github.com/Fruchtzwerg94'><img src='https://scottplot.net/images/contributors/fruchtzwerg94.jpg'></a>
 <a href='https://github.com/sproott'><img src='https://scottplot.net/images/contributors/sproott.png'></a>

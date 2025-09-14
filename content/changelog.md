@@ -26,15 +26,22 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>SignalXY: Reduced heap allocations by modifying <code>ISignalXYSource</code> to use <code>IReadOnlyList&lt;Pixel&gt;</code> instead of <code>Pixel[]</code> (<a href="https://github.com/ScottPlot/ScottPlot/issues/5091">#5091</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/5078">#5078</a>) <a href="https://github.com/bclehmann"><strong>@bclehmann</strong></a>
 </li>
+<li>Palette: Added <code>Invert()</code> and <code>InvertHue()</code> to <code>IPalette</code> so palettes for light backgrounds can be reused for dark backgrounds (<a href="https://github.com/ScottPlot/ScottPlot/issues/5094">#5094</a>) <a href="https://github.com/NeilMacMullen"><strong>@NeilMacMullen</strong></a>
+</li>
+<li>Colormap: Added <code>Invert()</code> and <code>InvertHue()</code> to <code>IPalette</code> so palettes for light backgrounds can be reused for dark backgrounds (<a href="https://github.com/ScottPlot/ScottPlot/issues/5094">#5094</a>) <a href="https://github.com/NeilMacMullen"><strong>@NeilMacMullen</strong></a>
+</li>
+<li>Palettes: Added a <code>ColorblindFriendlyDark</code> palette to improve accessibility of categorical plots with dark backgrounds (<a href="https://github.com/ScottPlot/ScottPlot/issues/5094">#5094</a>) <a href="https://github.com/NeilMacMullen"><strong>@NeilMacMullen</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/jelhan'>@jelhan</a>, <a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/jelhan'>@jelhan</a>, <a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/NeilMacMullen'>@NeilMacMullen</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/jelhan'><img src='https://scottplot.net/images/contributors/jelhan.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/NeilMacMullen'><img src='https://scottplot.net/images/contributors/neilmacmullen.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
