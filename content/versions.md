@@ -40,7 +40,7 @@ date: 2023-12-13
 
 ## Versioning Strategy
 
-**ScottPlot does not use [semantic versioning](semver.org).** Instead, version numbers are thoughtfully incremented to signal the likelihood that effort will be required to upgrade. Efforts are made to maximize backward compatibility, but **development prioritizes moving toward a high quality and intuitive API** over preventing existing users from having to modify code to upgrade.
+**ScottPlot does not use [semantic versioning](https://semver.org).** Instead, version numbers are thoughtfully incremented to signal the likelihood that effort will be required to upgrade. Efforts are made to maximize backward compatibility, but **development prioritizes moving toward a high quality and intuitive API** over preventing existing users from having to modify code to upgrade.
 
 **Naming:** ScottPlot x.y.z (major.minor.build)
 
