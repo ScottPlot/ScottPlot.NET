@@ -1,5 +1,6 @@
 ---
-Title: "Horizontal Bar Graph - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Horizontal Bar Graph - ScottPlot 4.1 Cookbook"
 Description: "Bar graphs are typically displayed as columns, but it's possible to show bars as rows."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

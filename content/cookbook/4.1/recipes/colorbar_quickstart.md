@@ -1,5 +1,6 @@
 ---
-Title: "Colorbar - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Colorbar - ScottPlot 4.1 Cookbook"
 Description: "A colorbar displays a colormap beside the data area. Colorbars are typically added to plots containing heatmaps."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

@@ -1,5 +1,6 @@
 ---
-Title: "Generic Data Type - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Generic Data Type - ScottPlot 4.1 Cookbook"
 Description: "SignalConst supports other data types beyond just double arrays. You can use this plot type to display data in any numerical format that can be cast to a double."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

@@ -1,5 +1,6 @@
 ---
-Title: "Clipped value range - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Clipped value range - ScottPlot 4.1 Cookbook"
 Description: "If data values extend beyond the min/max range displayed by a colorbar you can indicate the colormap is clipping the data values and inequality symbols will be displayed in the tick labeles at the edge of the colorbar."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

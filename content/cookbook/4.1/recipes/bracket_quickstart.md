@@ -1,5 +1,6 @@
 ---
-Title: "Bracket Annotations - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Bracket Annotations - ScottPlot 4.1 Cookbook"
 Description: "Brackets are useful for annotating a range of data."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

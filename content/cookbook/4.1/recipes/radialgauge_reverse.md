@@ -1,5 +1,6 @@
 ---
-Title: "Reverse Order - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Reverse Order - ScottPlot 4.1 Cookbook"
 Description: "Gauges are displayed from the center outward by default but the order can be customized."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

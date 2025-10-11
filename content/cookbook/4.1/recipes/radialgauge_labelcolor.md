@@ -1,5 +1,6 @@
 ---
-Title: "Gauge Label Color - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Gauge Label Color - ScottPlot 4.1 Cookbook"
 Description: "Level text fonts may be customized."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

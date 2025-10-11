@@ -1,5 +1,6 @@
 ---
-Title: "Custom lines - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Custom lines - ScottPlot 4.1 Cookbook"
 Description: "Line color, size, and style can be customized. Setting markerSize to 0 prevents markers from being rendered."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

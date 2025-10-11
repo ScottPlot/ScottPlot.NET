@@ -1,5 +1,6 @@
 ---
-Title: "Offset Notation - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Offset Notation - ScottPlot 4.1 Cookbook"
 Description: "Offset notation keeps tick labels small when plotting large data values that are close together."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

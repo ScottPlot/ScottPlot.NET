@@ -1,5 +1,6 @@
 ---
-Title: "Single Color Heatmap - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Single Color Heatmap - ScottPlot 4.1 Cookbook"
 Description: "A single-color heatmap can be created where cell transparency is defined by a 2D array containing values 0 to 1."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

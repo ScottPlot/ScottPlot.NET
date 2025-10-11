@@ -1,5 +1,6 @@
 ---
-Title: "Scatter Plot Labels - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Scatter Plot Labels - ScottPlot 4.1 Cookbook"
 Description: "Individual points can be labeled."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

@@ -1,5 +1,6 @@
 ---
-Title: "Multiplier Notation - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Multiplier Notation - ScottPlot 4.1 Cookbook"
 Description: "Multiplier notation keeps tick labels small when plotting large data values. This style is also called engineering notation or scientific notation."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

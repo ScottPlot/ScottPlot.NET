@@ -1,5 +1,6 @@
 ---
-Title: "Colorblind Friendly - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Colorblind Friendly - ScottPlot 4.1 Cookbook"
 Description: "8-color palette that has good overall variability and can be differentiated by individuals with red-green color blindness. Colors originated from Wong 2011, https://www.nature.com/articles/nmeth.1618.pdf"
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

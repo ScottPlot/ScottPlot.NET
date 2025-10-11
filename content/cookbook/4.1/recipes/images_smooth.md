@@ -1,5 +1,6 @@
 ---
-Title: "Image Anti-Aliasing - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Image Anti-Aliasing - ScottPlot 4.1 Cookbook"
 Description: "Images have an option to enable or disable anti-aliasing"
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

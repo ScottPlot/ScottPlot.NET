@@ -1,5 +1,6 @@
 ---
-Title: "Gauge Size - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Gauge Size - ScottPlot 4.1 Cookbook"
 Description: "The empty space between gauges can be adjusted as a fraction of their width. "
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

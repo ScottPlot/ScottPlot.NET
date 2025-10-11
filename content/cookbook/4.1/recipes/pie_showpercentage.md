@@ -1,5 +1,6 @@
 ---
-Title: "Slice Percentages - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Slice Percentages - ScottPlot 4.1 Cookbook"
 Description: "The percentage of each slice can be displayed at its center."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

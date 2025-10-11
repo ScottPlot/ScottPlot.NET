@@ -1,5 +1,6 @@
 ---
-Title: "Plot Type: Marker - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Plot Type: Marker - ScottPlot 4.1 Cookbook"
 Description: "A marker is a symbol placed at an X/Y point in coordinate space."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

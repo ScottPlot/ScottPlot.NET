@@ -1,5 +1,6 @@
 ---
-Title: "Data points over bar - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Data points over bar - ScottPlot 4.1 Cookbook"
 Description: "Alternate styling options allow data points to be displayed over the box and whisker plots."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

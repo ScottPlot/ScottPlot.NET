@@ -1,5 +1,6 @@
 ---
-Title: "Colorbar on Left - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Colorbar on Left - ScottPlot 4.1 Cookbook"
 Description: "A colorbar may be added to the left side of the chart"
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

@@ -1,5 +1,6 @@
 ---
-Title: "Nord - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Nord - ScottPlot 4.1 Cookbook"
 Description: "Nord is a 7-color palette derived from Aurora source from NordConEmu."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

@@ -1,5 +1,6 @@
 ---
-Title: "Plot Type: Bar Graph - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Plot Type: Bar Graph - ScottPlot 4.1 Cookbook"
 Description: "How to create bar charts using ScottPlot."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

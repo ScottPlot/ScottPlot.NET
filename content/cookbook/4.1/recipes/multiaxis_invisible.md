@@ -1,5 +1,6 @@
 ---
-Title: "Axis Visibility - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Axis Visibility - ScottPlot 4.1 Cookbook"
 Description: "Visibility of axes can be toggled. In this example an additional Y axis is added but the primary Y axis is hidden. The result is a plot that appears to only have one Y axis."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

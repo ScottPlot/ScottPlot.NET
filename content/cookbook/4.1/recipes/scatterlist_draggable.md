@@ -1,5 +1,6 @@
 ---
-Title: "Scatter List Draggable - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Scatter List Draggable - ScottPlot 4.1 Cookbook"
 Description: "There exists a Scatter Plot List with draggable points."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

@@ -1,5 +1,6 @@
 ---
-Title: "Gaussian Interpolation - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Gaussian Interpolation - ScottPlot 4.1 Cookbook"
 Description: "Heatmaps can be created from 2D data points using bilinear interpolation with Gaussian weighting. This option results in a heatmap with a standard deviation of 4."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

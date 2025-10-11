@@ -1,5 +1,6 @@
 ---
-Title: "Population Plot - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Population Plot - ScottPlot 4.1 Cookbook"
 Description: "The population plot makes it easy to display populations as bar graphs, box-and-whisker plots, scattered values, or box plots and data points side-by-side. The population plot is different than using a box plot with an error bar in that you pass your original data into the population plot and it determines the standard deviation, standard error, quartiles, mean, median, outliers, etc., and you get to determine how to display these values."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

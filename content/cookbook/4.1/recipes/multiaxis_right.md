@@ -1,5 +1,6 @@
 ---
-Title: "Right Y Axis - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Right Y Axis - ScottPlot 4.1 Cookbook"
 Description: "This example demonstrates how to display a Y axis on the right side of the figure. The vertical axis to the right of the figure is index 1, so plots must be updated to indicate they are to use a nonstandard axis index."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

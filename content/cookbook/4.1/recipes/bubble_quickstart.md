@@ -1,5 +1,6 @@
 ---
-Title: "Bubble Plot - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Bubble Plot - ScottPlot 4.1 Cookbook"
 Description: "Bubble plots display circles at specific X/Y locations. Each circle can be individually customized. Save the object that is returned when the bubble plot is created and call its Add() method to add bubbles."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

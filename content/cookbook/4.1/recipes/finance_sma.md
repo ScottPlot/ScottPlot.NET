@@ -1,5 +1,6 @@
 ---
-Title: "Simple Moving Average (SMA) - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Simple Moving Average (SMA) - ScottPlot 4.1 Cookbook"
 Description: "A simple moving average (SMA) technical indicator can be calculated and drawn as a scatter plot."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

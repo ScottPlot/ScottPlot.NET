@@ -1,5 +1,6 @@
 ---
-Title: "Scaled Arrowheads - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Scaled Arrowheads - ScottPlot 4.1 Cookbook"
 Description: "Use a slower drawing method that draws tips that are proportional to the length of the arrows."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

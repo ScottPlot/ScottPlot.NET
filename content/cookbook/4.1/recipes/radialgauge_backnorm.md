@@ -1,5 +1,6 @@
 ---
-Title: "Background Gauges Normalization - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Background Gauges Normalization - ScottPlot 4.1 Cookbook"
 Description: "Gauge backgrounds are drawn as full circles by default. This behavior can be disabled to draw partial backgrounds for non-circular gauges."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

@@ -1,5 +1,6 @@
 ---
-Title: "Custom Tick Label Culture - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Custom Tick Label Culture - ScottPlot 4.1 Cookbook"
 Description: "SetCulture() as arguments to let the user manually define formatting strings which will be used globally to change how numbers and dates are formatted."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

@@ -1,5 +1,6 @@
 ---
-Title: "SignalXY Offset - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "SignalXY Offset - ScottPlot 4.1 Cookbook"
 Description: "SignalXY plots can have X and Y offsets that shift all data by a defined amount."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

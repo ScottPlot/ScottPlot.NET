@@ -1,5 +1,6 @@
 ---
-Title: "Different Densities - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Different Densities - ScottPlot 4.1 Cookbook"
 Description: "Signal with mised low and high density data"
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

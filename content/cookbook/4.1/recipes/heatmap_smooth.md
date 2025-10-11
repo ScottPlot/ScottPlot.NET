@@ -1,5 +1,6 @@
 ---
-Title: "Smooth Heatmap - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Smooth Heatmap - ScottPlot 4.1 Cookbook"
 Description: "Heatmaps display values as rectangles with sharp borders by default. Enabling the Smooth feature uses bicubic interpolation to display the heatmap as a smooth gradient between values."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

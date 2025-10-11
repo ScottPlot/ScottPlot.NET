@@ -1,5 +1,6 @@
 ---
-Title: "Axis Size - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Axis Size - ScottPlot 4.1 Cookbook"
 Description: "The size of each axis can be individually customized. Note that axes automatically resize themselves to accomodate tick labels, but this method lets users customize the min/max boundaries of axis size. Set both numbers to the same value to force an axis to always be a specific size."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

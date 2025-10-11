@@ -1,5 +1,6 @@
 ---
-Title: "Axis Padding - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Axis Padding - ScottPlot 4.1 Cookbook"
 Description: "Axis label and ticks are enclosed in a rectangle that is automatically sized to accomodate them (optionally limited to a min/max size as seen earlier). This rectangle has a small amount of padding on all sides so axis labels do not touch the final pixel on the edge of the figure. The amount of extra padding around each axis can be customized."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

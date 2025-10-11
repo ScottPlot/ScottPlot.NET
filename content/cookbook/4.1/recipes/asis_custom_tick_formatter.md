@@ -1,5 +1,6 @@
 ---
-Title: "Custom Tick Formatter - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Custom Tick Formatter - ScottPlot 4.1 Cookbook"
 Description: "For ultimate control over tick label format you can create a custom formatter function and use that to convert positions to labels. This allows logic to be used to format tick labels."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

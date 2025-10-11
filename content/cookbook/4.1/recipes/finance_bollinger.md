@@ -1,5 +1,6 @@
 ---
-Title: "Bollinger Bands - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Bollinger Bands - ScottPlot 4.1 Cookbook"
 Description: "Bollinger bands are a common technical indicator that show the average +/- two times the standard deviation of a given time range preceeding it."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

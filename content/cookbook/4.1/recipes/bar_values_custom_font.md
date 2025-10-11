@@ -1,5 +1,6 @@
 ---
-Title: "Customizing Value Label Font - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Customizing Value Label Font - ScottPlot 4.1 Cookbook"
 Description: "Font styling for bar value labels can be customized."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

@@ -1,5 +1,6 @@
 ---
-Title: "Custom Fonts - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Custom Fonts - ScottPlot 4.1 Cookbook"
 Description: "You can pass in a Font to further customize font options"
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

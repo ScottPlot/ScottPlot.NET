@@ -1,5 +1,6 @@
 ---
-Title: "Size and Placement - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Size and Placement - ScottPlot 4.1 Cookbook"
 Description: "Edges of the heatmap can be defined as an alternative to defining offset and cell size,"
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

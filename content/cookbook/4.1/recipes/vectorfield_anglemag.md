@@ -1,5 +1,6 @@
 ---
-Title: "Angle and Magnitude - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Angle and Magnitude - ScottPlot 4.1 Cookbook"
 Description: "This example demonstrates how to define vectors according to a given angle and magnitude."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

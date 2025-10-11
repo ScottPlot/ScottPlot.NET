@@ -1,5 +1,6 @@
 ---
-Title: "Straight Axis Lines - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Straight Axis Lines - ScottPlot 4.1 Cookbook"
 Description: "Change the axis type to polygon to display radar charts with straight lines."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

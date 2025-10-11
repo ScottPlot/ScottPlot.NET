@@ -1,5 +1,6 @@
 ---
-Title: "Spline Interpolation - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Spline Interpolation - ScottPlot 4.1 Cookbook"
 Description: "Interpolated splines create curves with many X/Y points to smoothly connect a limited number of input points."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

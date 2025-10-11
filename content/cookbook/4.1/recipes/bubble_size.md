@@ -1,5 +1,6 @@
 ---
-Title: "Bubble Size - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Bubble Size - ScottPlot 4.1 Cookbook"
 Description: "The size of bubbles are defined in pixel units by default. However, it is possible to define the size of bubbles using the same units the coordinate system and axes use. If using axis units, users may want to enable the axis scale lock feature to enforce bubble circularity."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

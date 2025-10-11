@@ -1,5 +1,6 @@
 ---
-Title: "Custom Line Style - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Custom Line Style - ScottPlot 4.1 Cookbook"
 Description: "A customizable line style exists which allows users to define any pattern."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

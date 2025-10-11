@@ -1,5 +1,6 @@
 ---
-Title: "Axis Boundary - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Axis Boundary - ScottPlot 4.1 Cookbook"
 Description: "Axes can be given boundaries which prevent the user from panning outside a given range."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

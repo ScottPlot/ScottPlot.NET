@@ -1,5 +1,6 @@
 ---
-Title: "Transparent Images Axis Labels - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Transparent Images Axis Labels - ScottPlot 4.1 Cookbook"
 Description: "Transparency in PNGs is respected, but JPEG files do not support transparency."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

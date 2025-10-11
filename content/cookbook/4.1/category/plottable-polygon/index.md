@@ -1,5 +1,6 @@
 ---
-Title: "Plot Type: Polygon - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Plot Type: Polygon - ScottPlot 4.1 Cookbook"
 Description: "Polygons are 2D shapes made from pairs of X/Y points."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

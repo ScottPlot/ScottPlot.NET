@@ -1,5 +1,6 @@
 ---
-Title: "Plot Type: Text - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Plot Type: Text - ScottPlot 4.1 Cookbook"
 Description: "A text label that is placed at an X/Y coordinate on the plot (not in pixel space like an Annotation)."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

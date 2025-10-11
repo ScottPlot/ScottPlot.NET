@@ -1,5 +1,6 @@
 ---
-Title: "Numeric Format String - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Numeric Format String - ScottPlot 4.1 Cookbook"
 Description: "Tick labels can be converted to text using a custom format string."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

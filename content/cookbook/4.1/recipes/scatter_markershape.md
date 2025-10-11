@@ -1,5 +1,6 @@
 ---
-Title: "All marker shapes - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "All marker shapes - ScottPlot 4.1 Cookbook"
 Description: "Legend indicates names of all available marker shapes"
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

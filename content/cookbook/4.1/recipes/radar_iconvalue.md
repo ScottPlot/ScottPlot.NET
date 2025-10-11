@@ -1,5 +1,6 @@
 ---
-Title: "Categories with images - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Categories with images - ScottPlot 4.1 Cookbook"
 Description: "Images can be displayed on the arms of the radar chart. When using images, labels will be ignored so setting them will have no effect."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

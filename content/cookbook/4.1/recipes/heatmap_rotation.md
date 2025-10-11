@@ -1,5 +1,6 @@
 ---
-Title: "Heatmap Rotation - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Heatmap Rotation - ScottPlot 4.1 Cookbook"
 Description: "A Heatmap can be rotated clockwise around around a user-specified center of rotation. Locking axis scales to enforce square pixels is recommended. Rotation occurs after any flipping operations."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

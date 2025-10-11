@@ -1,5 +1,6 @@
 ---
-Title: "Colormap - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Colormap - ScottPlot 4.1 Cookbook"
 Description: "Viridis is the default colormap, but several alternatives are available."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

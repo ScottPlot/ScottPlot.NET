@@ -1,5 +1,6 @@
 ---
-Title: "Heatmap with Semitransparent Squares - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Heatmap with Semitransparent Squares - ScottPlot 4.1 Cookbook"
 Description: "The intensities of heatmaps are mapped to color, but an optional 2D array of alpha values may be provided to separately control transparency of squares."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

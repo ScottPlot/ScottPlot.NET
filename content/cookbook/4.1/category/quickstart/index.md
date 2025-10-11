@@ -1,5 +1,6 @@
 ---
-Title: "Quickstart - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Quickstart - ScottPlot 4.1 Cookbook"
 Description: "Simple examples designed to help new users get familiar with ScottPlot."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

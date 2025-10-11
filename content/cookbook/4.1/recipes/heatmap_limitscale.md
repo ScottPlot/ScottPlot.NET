@@ -1,5 +1,6 @@
 ---
-Title: "Scale Limits - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Scale Limits - ScottPlot 4.1 Cookbook"
 Description: "Heatmap colormap scale can use a defined min/max value."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

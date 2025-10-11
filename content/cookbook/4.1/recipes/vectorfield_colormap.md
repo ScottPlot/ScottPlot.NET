@@ -1,5 +1,6 @@
 ---
-Title: "Custom Colormap - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Custom Colormap - ScottPlot 4.1 Cookbook"
 Description: "A colormap can be supplied to color arrows according to their magnitude"
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

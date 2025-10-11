@@ -1,5 +1,6 @@
 ---
-Title: "Palette - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Palette - ScottPlot 4.1 Cookbook"
 Description: "The Palette defines default colors for new objects added to the plot."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

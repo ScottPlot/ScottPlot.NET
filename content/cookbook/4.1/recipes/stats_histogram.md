@@ -1,5 +1,6 @@
 ---
-Title: "Histogram - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Histogram - ScottPlot 4.1 Cookbook"
 Description: "The Histogram class provides an easy way to count the number of data values in binned ranges."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

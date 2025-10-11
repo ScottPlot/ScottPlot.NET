@@ -1,5 +1,6 @@
 ---
-Title: "Marker - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Marker - ScottPlot 4.1 Cookbook"
 Description: "You can place individual markers anywhere on the plot. "
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

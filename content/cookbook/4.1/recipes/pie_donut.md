@@ -1,5 +1,6 @@
 ---
-Title: "Donut Chart - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Donut Chart - ScottPlot 4.1 Cookbook"
 Description: "Donut plots are pie charts with a hollow center."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

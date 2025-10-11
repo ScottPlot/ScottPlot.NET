@@ -1,5 +1,6 @@
 ---
-Title: "Label Everything - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Label Everything - ScottPlot 4.1 Cookbook"
 Description: "Slices can labeled with values, percentages, and lables, with a legend."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

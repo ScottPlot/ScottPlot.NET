@@ -1,5 +1,6 @@
 ---
-Title: "Defined DateTime Spacing - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Defined DateTime Spacing - ScottPlot 4.1 Cookbook"
 Description: "This example shows how to use a fixed inter-tick distance for a DateTime axis"
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

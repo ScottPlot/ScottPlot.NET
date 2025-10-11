@@ -1,5 +1,6 @@
 ---
-Title: "Reverse Axis Direction - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Reverse Axis Direction - ScottPlot 4.1 Cookbook"
 Description: "Plot data on reversed axis. And all points plotted match the reverse coordinate axis."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

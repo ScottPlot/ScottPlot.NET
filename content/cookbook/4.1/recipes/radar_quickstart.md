@@ -1,5 +1,6 @@
 ---
-Title: "Radar - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Radar - ScottPlot 4.1 Cookbook"
 Description: "A radar chart concisely displays multiple values. Radar plots are also called a spider charts or star charts."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

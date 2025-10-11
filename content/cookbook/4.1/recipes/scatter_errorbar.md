@@ -1,5 +1,6 @@
 ---
-Title: "Scatter Plot with Errorbars - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Scatter Plot with Errorbars - ScottPlot 4.1 Cookbook"
 Description: "An array of values can be supplied for error bars and redering options can be customized as desired"
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

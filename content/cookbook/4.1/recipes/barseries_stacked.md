@@ -1,5 +1,6 @@
 ---
-Title: "Stacked Bar Plot - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Stacked Bar Plot - ScottPlot 4.1 Cookbook"
 Description: "By customizing each Bar of a BarSeries we can achieve a stacked bar plot. Text objects can be added to the plot to serve as labels."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

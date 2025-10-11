@@ -1,5 +1,6 @@
 ---
-Title: "Styling Brackets - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Styling Brackets - ScottPlot 4.1 Cookbook"
 Description: "Brackets have additional options for customizations."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

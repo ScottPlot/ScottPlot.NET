@@ -1,5 +1,6 @@
 ---
-Title: "Color Range - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Color Range - ScottPlot 4.1 Cookbook"
 Description: "You can restrict a colorbar to only show a small range of a colormap. In this example we only use the middle of a rainbow colormap."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

@@ -1,5 +1,6 @@
 ---
-Title: "5 Million Points - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "5 Million Points - ScottPlot 4.1 Cookbook"
 Description: "Signal plots with millions of points can be interacted with in real time."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

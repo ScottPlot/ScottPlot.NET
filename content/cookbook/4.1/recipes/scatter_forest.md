@@ -1,5 +1,6 @@
 ---
-Title: "Forest Plot - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Forest Plot - ScottPlot 4.1 Cookbook"
 Description: "Scatter plots can be used to create forest plots, which are useful for showing the agreement between multiple estimates."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

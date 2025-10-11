@@ -1,5 +1,6 @@
 ---
-Title: "Background Gauges Dim - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Background Gauges Dim - ScottPlot 4.1 Cookbook"
 Description: "By default the full range of each gauge is drawn as a semitransparent ring. The amount of transparency can be adjusted as desired."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

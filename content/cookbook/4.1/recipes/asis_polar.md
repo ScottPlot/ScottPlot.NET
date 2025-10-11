@@ -1,5 +1,6 @@
 ---
-Title: "Polar Coordinates - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Polar Coordinates - ScottPlot 4.1 Cookbook"
 Description: "A helper function converts radius and theta arrays into Cartesian coordinates suitable for plotting with traditioanl plot types."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

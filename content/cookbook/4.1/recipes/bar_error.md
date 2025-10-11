@@ -1,5 +1,6 @@
 ---
-Title: "Bar Graph with Error Bars - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Bar Graph with Error Bars - ScottPlot 4.1 Cookbook"
 Description: "Errorbars can be added to any bar graph."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

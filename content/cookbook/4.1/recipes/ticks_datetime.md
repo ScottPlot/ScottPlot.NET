@@ -1,5 +1,6 @@
 ---
-Title: "Plotting DateTime Data - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Plotting DateTime Data - ScottPlot 4.1 Cookbook"
 Description: "This example shows how to display DateTime data on the horizontal axis. Use DateTime.ToOADate() to convert DateTime[] to double[], plot the data,  then tell the axis to format tick labels as dates."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

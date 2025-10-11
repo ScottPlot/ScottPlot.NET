@@ -1,5 +1,6 @@
 ---
-Title: "Lines Only - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Lines Only - ScottPlot 4.1 Cookbook"
 Description: "A shortcut method makes it easy to create a scatter plot with just lines (no markers)"
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

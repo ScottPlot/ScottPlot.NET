@@ -1,5 +1,6 @@
 ---
-Title: "Image Stretching - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Image Stretching - ScottPlot 4.1 Cookbook"
 Description: "By default image dimensions are in pixel units so they are not stretched as axes are manipulated. However, users have the option to define image dimensions in axis units. In this case, corners of images will remain fixed on the coordinate system and will get stretched as axes are stretched."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

@@ -1,5 +1,6 @@
 ---
-Title: "Log Scale - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Log Scale - ScottPlot 4.1 Cookbook"
 Description: "ScottPlot is designed to display 2D data on linear X and Y axes, but you can log-transform data before plotting it and customize the ticks and grid to give the appearance of logarithmic scales."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

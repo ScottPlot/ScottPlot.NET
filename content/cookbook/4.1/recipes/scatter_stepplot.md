@@ -1,5 +1,6 @@
 ---
-Title: "Step Plot - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Step Plot - ScottPlot 4.1 Cookbook"
 Description: "A step plot is a special type of scatter plot where points are connected by right angles instead of straight lines."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

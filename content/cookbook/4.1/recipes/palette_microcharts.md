@@ -1,5 +1,6 @@
 ---
-Title: "Microcharts - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Microcharts - ScottPlot 4.1 Cookbook"
 Description: "This is the default 12-color palette used by Microcharts."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

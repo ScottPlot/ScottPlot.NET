@@ -1,5 +1,6 @@
 ---
-Title: "Customization - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Customization - ScottPlot 4.1 Cookbook"
 Description: "You can customize the colour, cap size, and line width of the error bars."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

@@ -1,5 +1,6 @@
 ---
-Title: "Remove a Plottable - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Remove a Plottable - ScottPlot 4.1 Cookbook"
 Description: "Call Remove() to remove a specific plottable."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

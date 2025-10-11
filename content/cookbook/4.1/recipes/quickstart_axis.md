@@ -1,5 +1,6 @@
 ---
-Title: "Axis Labels and Limits - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Axis Labels and Limits - ScottPlot 4.1 Cookbook"
 Description: "Axis labels and limits can be customized"
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

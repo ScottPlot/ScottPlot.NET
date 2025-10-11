@@ -1,5 +1,6 @@
 ---
-Title: "Custom Size - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Custom Size - ScottPlot 4.1 Cookbook"
 Description: "You can define the size of the pie to make room for large labels."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

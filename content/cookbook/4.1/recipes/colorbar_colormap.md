@@ -1,5 +1,6 @@
 ---
-Title: "Colorbar for Colormap - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Colorbar for Colormap - ScottPlot 4.1 Cookbook"
 Description: "By default colorbars use the Viridis colormap, but this behavior can be customized and many colormaps are available."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

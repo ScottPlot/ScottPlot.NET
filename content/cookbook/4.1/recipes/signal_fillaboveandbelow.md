@@ -1,5 +1,6 @@
 ---
-Title: "Fill Above and Below - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Fill Above and Below - ScottPlot 4.1 Cookbook"
 Description: "Signal plots can be filled above and below"
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

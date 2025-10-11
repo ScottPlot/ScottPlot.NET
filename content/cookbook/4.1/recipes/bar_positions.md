@@ -1,5 +1,6 @@
 ---
-Title: "Bar Graph with Defined Positions - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Bar Graph with Defined Positions - ScottPlot 4.1 Cookbook"
 Description: "Horizontal positions for each bar can be defined manually. If you define bar positions, you will probably want to define the bar width as well."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

@@ -1,5 +1,6 @@
 ---
-Title: "Markers Only - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Markers Only - ScottPlot 4.1 Cookbook"
 Description: "A shortcut method makes it easy to create a scatter plot where markers are displayed at every point (without any connecting lines)"
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

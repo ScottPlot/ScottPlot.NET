@@ -1,5 +1,6 @@
 ---
-Title: "Exploded Pie Chart - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Exploded Pie Chart - ScottPlot 4.1 Cookbook"
 Description: "Exploded pie charts have a bit of space between their slices."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

@@ -1,5 +1,6 @@
 ---
-Title: "Parallel Processing - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Parallel Processing - ScottPlot 4.1 Cookbook"
 Description: "Heatmaps have opt-in parallel processing which may improve performance when calling Update() for large datasets."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

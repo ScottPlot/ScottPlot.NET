@@ -1,5 +1,6 @@
 ---
-Title: "Layout - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Layout - ScottPlot 4.1 Cookbook"
 Description: "How to customize plot layout, padding, margins, axis spacing, etc."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

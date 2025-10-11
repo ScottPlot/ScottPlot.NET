@@ -1,5 +1,6 @@
 ---
-Title: "Values Above Bars - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Values Above Bars - ScottPlot 4.1 Cookbook"
 Description: "The value of each bar can be displayed above it."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

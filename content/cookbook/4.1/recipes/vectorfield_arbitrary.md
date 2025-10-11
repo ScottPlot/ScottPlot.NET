@@ -1,5 +1,6 @@
 ---
-Title: "Arbitrary Vectors - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Arbitrary Vectors - ScottPlot 4.1 Cookbook"
 Description: "Vectors can be placed arbitrarily in coordiante space (they are not required to be in a grid)"
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

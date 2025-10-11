@@ -1,5 +1,6 @@
 ---
-Title: "Sequential Gauge Mode - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Sequential Gauge Mode - ScottPlot 4.1 Cookbook"
 Description: "Sequential gauge mode indicates that the base of each gauge starts at the tip of the previous gauge."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

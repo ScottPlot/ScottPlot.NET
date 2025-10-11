@@ -1,5 +1,6 @@
 ---
-Title: "Candlesticks with Custom Tick Labels - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Candlesticks with Custom Tick Labels - ScottPlot 4.1 Cookbook"
 Description: "A better way to represent time on the horizontal axis is to use traditional Cartesian coordinates so each candlestick is placed at X positions (0, 1, 2, etc.), then manually define the locations and label text of important positions on the plot. This is clunky, but possible. This inelegance is why financial charting is probably best done with real financial charting libraries, not a scientific charting library like ScottPlot..."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

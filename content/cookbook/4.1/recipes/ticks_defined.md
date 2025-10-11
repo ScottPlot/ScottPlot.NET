@@ -1,5 +1,6 @@
 ---
-Title: "Manual Tick Labels - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Manual Tick Labels - ScottPlot 4.1 Cookbook"
 Description: "Tick positions and labels can be defined manually."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

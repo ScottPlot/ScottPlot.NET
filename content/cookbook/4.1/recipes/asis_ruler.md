@@ -1,5 +1,6 @@
 ---
-Title: "Ruler mode - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Ruler mode - ScottPlot 4.1 Cookbook"
 Description: "Ruler mode is an alternative way to display axis ticks. It draws long ticks and offsets the tick labels to give the appearance of a ruler."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

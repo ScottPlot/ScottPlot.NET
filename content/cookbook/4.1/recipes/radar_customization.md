@@ -1,5 +1,6 @@
 ---
-Title: "Customization - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Customization - ScottPlot 4.1 Cookbook"
 Description: "Radar charts support extensive customization options."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

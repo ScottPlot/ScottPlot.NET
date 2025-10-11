@@ -1,5 +1,6 @@
 ---
-Title: "Draggable Marker - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Draggable Marker - ScottPlot 4.1 Cookbook"
 Description: "A special type of marker exists which allows dragging with the mouse."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

@@ -1,5 +1,6 @@
 ---
-Title: "Figure Background Image - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Figure Background Image - ScottPlot 4.1 Cookbook"
 Description: "A backgorund image can be drawn behind the entire figure. If you do this you likely want to make your data background transparent."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

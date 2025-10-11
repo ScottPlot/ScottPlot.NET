@@ -1,5 +1,6 @@
 ---
-Title: "Ellipse Styling - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Ellipse Styling - ScottPlot 4.1 Cookbook"
 Description: "Ellipses styles can be extensively customized"
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

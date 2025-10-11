@@ -1,5 +1,6 @@
 ---
-Title: "Fill Between Curves - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Fill Between Curves - ScottPlot 4.1 Cookbook"
 Description: "Given two curves, a polygon can be created to give the appearance of shading between them. Here we will display two scatter plots, then create a polygon to fill the region between them."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

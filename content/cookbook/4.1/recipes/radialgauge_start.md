@@ -1,5 +1,6 @@
 ---
-Title: "Gauge Starting Angle - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Gauge Starting Angle - ScottPlot 4.1 Cookbook"
 Description: "The starting angle for gauges can be customized. 270 for North (default value), 0 for East, 90 for South, 180 for West, etc."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

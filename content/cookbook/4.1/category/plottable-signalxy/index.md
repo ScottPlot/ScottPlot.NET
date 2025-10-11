@@ -1,5 +1,6 @@
 ---
-Title: "Plot Type: SignalXY - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Plot Type: SignalXY - ScottPlot 4.1 Cookbook"
 Description: "SignalXY is a speed-optimized plot for displaying Y values with unevenly-spaced (but always increasing) X positions."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

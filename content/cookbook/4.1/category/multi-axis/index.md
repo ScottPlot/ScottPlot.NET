@@ -1,5 +1,6 @@
 ---
-Title: "Multi-Axis - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Multi-Axis - ScottPlot 4.1 Cookbook"
 Description: "Plot data using non-standard or additional axes."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

@@ -1,5 +1,6 @@
 ---
-Title: "Heatmap Image - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Heatmap Image - ScottPlot 4.1 Cookbook"
 Description: "Image data can be plotted using the heatmap plot type."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

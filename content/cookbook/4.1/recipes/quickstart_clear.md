@@ -1,5 +1,6 @@
 ---
-Title: "Clear Plottables - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Clear Plottables - ScottPlot 4.1 Cookbook"
 Description: "Call Clear() to remove all plottables from the plot. Overloads of Clear() allow you to remote one type of plottable, or a specific plottable."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

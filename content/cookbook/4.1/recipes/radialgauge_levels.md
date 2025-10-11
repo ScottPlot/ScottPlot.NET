@@ -1,5 +1,6 @@
 ---
-Title: "Show Levels - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Show Levels - ScottPlot 4.1 Cookbook"
 Description: "The value of each gauge is displayed as text by default but this behavior can be overridden. Note that this is different than the labels fiels which is what appears in the legened."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

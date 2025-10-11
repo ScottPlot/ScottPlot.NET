@@ -1,5 +1,6 @@
 ---
-Title: "Manually add a Plottable - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Manually add a Plottable - ScottPlot 4.1 Cookbook"
 Description: "You can create a plot manually, then add it to the plot with Add(). This allows you to create custom plot types and add them to the plot."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

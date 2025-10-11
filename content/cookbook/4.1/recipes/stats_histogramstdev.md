@@ -1,5 +1,6 @@
 ---
-Title: "Histogram Stdev - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Histogram Stdev - ScottPlot 4.1 Cookbook"
 Description: "This example demonstrates how to display a histogram with labeled mean and standard deviations."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

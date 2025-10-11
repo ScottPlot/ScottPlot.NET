@@ -1,5 +1,6 @@
 ---
-Title: "2D Waveform - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "2D Waveform - ScottPlot 4.1 Cookbook"
 Description: "This example demonstrates a heatmap with 1000 tiles"
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

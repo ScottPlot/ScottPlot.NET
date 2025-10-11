@@ -1,5 +1,6 @@
 ---
-Title: "Arrows - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Arrows - ScottPlot 4.1 Cookbook"
 Description: "Arrows point to specific locations on the plot. "
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

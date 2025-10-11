@@ -1,5 +1,6 @@
 ---
-Title: "Gray1 Style - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Gray1 Style - ScottPlot 4.1 Cookbook"
 Description: "Customize many plot features using style presets"
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

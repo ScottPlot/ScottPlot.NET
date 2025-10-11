@@ -1,5 +1,6 @@
 ---
-Title: "Signal Data with Gaps - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Signal Data with Gaps - ScottPlot 4.1 Cookbook"
 Description: "Signal with defined Xs that contain gaps"
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

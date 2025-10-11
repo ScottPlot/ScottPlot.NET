@@ -1,5 +1,6 @@
 ---
-Title: "BarSeries Quickstart - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "BarSeries Quickstart - ScottPlot 4.1 Cookbook"
 Description: "A BarSeries plot allows each Bar to be created and customized individually."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

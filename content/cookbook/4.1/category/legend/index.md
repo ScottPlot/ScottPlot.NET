@@ -1,5 +1,6 @@
 ---
-Title: "Legend - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Legend - ScottPlot 4.1 Cookbook"
 Description: "A legend is a key used to label lines and markers."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

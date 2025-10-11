@@ -1,5 +1,6 @@
 ---
-Title: "Legend Orientation - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Legend Orientation - ScottPlot 4.1 Cookbook"
 Description: "Legends can be customized to support horizontal orientation"
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

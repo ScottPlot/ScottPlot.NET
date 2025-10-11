@@ -1,5 +1,6 @@
 ---
-Title: "PolarNight - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "PolarNight - ScottPlot 4.1 Cookbook"
 Description: "PolarNight is a 4-color palette sourced from Nord. This palette is optimized for a dark background."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

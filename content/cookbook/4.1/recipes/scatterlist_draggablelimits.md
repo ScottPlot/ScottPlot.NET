@@ -1,5 +1,6 @@
 ---
-Title: "Scatter List Draggable Limits - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Scatter List Draggable Limits - ScottPlot 4.1 Cookbook"
 Description: "A custom function can be used to limit the range of draggable points."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

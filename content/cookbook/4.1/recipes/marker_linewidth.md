@@ -1,5 +1,6 @@
 ---
-Title: "Marker Line Width - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Marker Line Width - ScottPlot 4.1 Cookbook"
 Description: "Markers have options that can be customized, such as line width."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

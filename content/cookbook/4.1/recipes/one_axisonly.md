@@ -1,5 +1,6 @@
 ---
-Title: "One Axis Only - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "One Axis Only - ScottPlot 4.1 Cookbook"
 Description: "Axis ticks and lines can be disabled. Note that hiding them in this way preserves their whitespace. Setting XAxis.IsVisible to false would collapse the axis entirely. "
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

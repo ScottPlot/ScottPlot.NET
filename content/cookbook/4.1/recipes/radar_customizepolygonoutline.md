@@ -1,5 +1,6 @@
 ---
-Title: "Customizable polygon outline - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Customizable polygon outline - ScottPlot 4.1 Cookbook"
 Description: "The thickness of each radar plot's outline can be customized."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

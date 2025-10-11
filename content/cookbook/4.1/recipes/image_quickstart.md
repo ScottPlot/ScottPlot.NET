@@ -1,5 +1,6 @@
 ---
-Title: "Image Quickstart - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Image Quickstart - ScottPlot 4.1 Cookbook"
 Description: "The Image plottable places a Bitmap at coordinte in axis space."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

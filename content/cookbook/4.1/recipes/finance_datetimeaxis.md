@@ -1,5 +1,6 @@
 ---
-Title: "Using a DateTime Axis - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Using a DateTime Axis - ScottPlot 4.1 Cookbook"
 Description: "You probably never want to do this... but OHLCs have an X value you can customize to be a DateTime (converted to a double using DateTime.ToOATime()). The advantage is that you can use the native DateTime axis support on the horizontal axis. The disadvantage is that gaps in time appear as gaps in the candlesticks. Weekends without trading will appear as gaps. The alternative to this method is to plot a series of OHLCs using sequential numbers, then manually define the axis tick labels."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

@@ -1,4 +1,6 @@
 ---
+
+noindex: true
 title: Cookbook Search - ScottPlot 4.1
 description: Search all cookbook recipes for ScottPlot version 4.1
 url: /cookbook/4.1/search/

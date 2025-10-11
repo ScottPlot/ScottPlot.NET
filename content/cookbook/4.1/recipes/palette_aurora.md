@@ -1,5 +1,6 @@
 ---
-Title: "Aurora - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Aurora - ScottPlot 4.1 Cookbook"
 Description: "Aurora is a 5-color palette sourced from Nord."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

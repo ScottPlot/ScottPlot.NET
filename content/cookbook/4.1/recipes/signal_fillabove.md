@@ -1,5 +1,6 @@
 ---
-Title: "Gradient Fill Above - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Gradient Fill Above - ScottPlot 4.1 Cookbook"
 Description: "Signal plots can be filled above using a color gradient."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

@@ -1,5 +1,6 @@
 ---
-Title: "Plot Type: Ellipse - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Plot Type: Ellipse - ScottPlot 4.1 Cookbook"
 Description: "Ellipses are cuves with a defined center and distinct X and Y radii. A circle is an ellipse with an X radius equal to its Y radius."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

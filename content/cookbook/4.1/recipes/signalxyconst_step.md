@@ -1,5 +1,6 @@
 ---
-Title: "SignalConst Step Mode - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "SignalConst Step Mode - ScottPlot 4.1 Cookbook"
 Description: "Data points can be connected with steps (instead of straight lines)."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

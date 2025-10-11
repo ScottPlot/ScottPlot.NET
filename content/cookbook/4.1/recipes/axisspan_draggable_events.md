@@ -1,5 +1,6 @@
 ---
-Title: "Draggable Axis Span Events - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Draggable Axis Span Events - ScottPlot 4.1 Cookbook"
 Description: "Axis spans can be dragged using the mouse. Span events can be useful for binding span edge values to UI elements."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

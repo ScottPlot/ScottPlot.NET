@@ -1,5 +1,6 @@
 ---
-Title: "Inverted Brackets - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Inverted Brackets - ScottPlot 4.1 Cookbook"
 Description: "By default bracket labels appear clockwise relative to the line formed by their two points. Users can invert the direction of brackets as needed."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

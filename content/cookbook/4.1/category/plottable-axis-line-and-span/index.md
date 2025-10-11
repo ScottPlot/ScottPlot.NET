@@ -1,5 +1,6 @@
 ---
-Title: "Plot Type: Axis Line and Span - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Plot Type: Axis Line and Span - ScottPlot 4.1 Cookbook"
 Description: "Axis lines and axis spans extend infinitely in one direction."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

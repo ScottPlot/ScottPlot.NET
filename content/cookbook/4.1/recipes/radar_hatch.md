@@ -1,5 +1,6 @@
 ---
-Title: "Customizable hatching (pattern) - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Customizable hatching (pattern) - ScottPlot 4.1 Cookbook"
 Description: "The hatch of each radar plot can be customized"
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

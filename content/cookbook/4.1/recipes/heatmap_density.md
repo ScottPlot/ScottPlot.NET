@@ -1,5 +1,6 @@
 ---
-Title: "Interpolation by Density - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Interpolation by Density - ScottPlot 4.1 Cookbook"
 Description: "Heatmaps can be created from random 2D data points using the count within a square of fixed size."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

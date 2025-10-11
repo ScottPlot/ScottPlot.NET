@@ -1,5 +1,6 @@
 ---
-Title: "Dark Mode - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Dark Mode - ScottPlot 4.1 Cookbook"
 Description: "A dark mode finance plot can be realized by customizing color options of the candles and figure. Colors in this example were chosen to mimic TC2000."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

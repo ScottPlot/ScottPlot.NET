@@ -1,5 +1,6 @@
 ---
-Title: "Crosshair Customization - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Crosshair Customization - ScottPlot 4.1 Cookbook"
 Description: "Crosshair styling and label formatting can be customized by accessing public fields."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

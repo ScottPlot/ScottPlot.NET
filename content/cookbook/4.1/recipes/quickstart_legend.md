@@ -1,5 +1,6 @@
 ---
-Title: "Legend - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Legend - ScottPlot 4.1 Cookbook"
 Description: "Most plottable objects have a Label which defines how they appear in the legend"
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

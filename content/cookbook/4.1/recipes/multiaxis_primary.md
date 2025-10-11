@@ -1,5 +1,6 @@
 ---
-Title: "Primary Axes - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Primary Axes - ScottPlot 4.1 Cookbook"
 Description: "Plots always have 4 fundamental axes available to work with. By default primary axes are totally visible, and secondary axes have ticks hidden and no label. Sometimes the top axis is given a label to simulate a plot title."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

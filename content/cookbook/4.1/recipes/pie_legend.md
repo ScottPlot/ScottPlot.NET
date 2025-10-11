@@ -1,5 +1,6 @@
 ---
-Title: "Slices in Legend - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Slices in Legend - ScottPlot 4.1 Cookbook"
 Description: "Slices can be labeled in the legend."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

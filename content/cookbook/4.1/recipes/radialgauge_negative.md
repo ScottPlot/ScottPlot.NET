@@ -1,5 +1,6 @@
 ---
-Title: "Negative Values - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Negative Values - ScottPlot 4.1 Cookbook"
 Description: "Radial gauge plots support positive and negative values."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

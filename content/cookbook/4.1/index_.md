@@ -1,5 +1,6 @@
 ---
-Title: "ScottPlot 4.1 Cookbook"
+noindex: true
+title: "ScottPlot 4.1 Cookbook"
 Description: "Example plots shown next to the code used to create them"
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

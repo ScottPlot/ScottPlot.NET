@@ -1,5 +1,6 @@
 ---
-Title: "NaN Values Ignored - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "NaN Values Ignored - ScottPlot 4.1 Cookbook"
 Description: "When the OnNaN field is set to Ignore, points containing NaN X or Y values are skipped, and the scatter plot is drawn as one continuous line."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

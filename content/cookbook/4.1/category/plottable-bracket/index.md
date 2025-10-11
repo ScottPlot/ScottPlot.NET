@@ -1,5 +1,6 @@
 ---
-Title: "Plot Type: Bracket - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Plot Type: Bracket - ScottPlot 4.1 Cookbook"
 Description: "Brackets highlight a range in coordinate space."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

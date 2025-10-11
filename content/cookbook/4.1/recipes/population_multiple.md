@@ -1,5 +1,6 @@
 ---
-Title: "Multiple Populations - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Multiple Populations - ScottPlot 4.1 Cookbook"
 Description: "Multiple populations can be assembled into an array and plotted as a single group."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

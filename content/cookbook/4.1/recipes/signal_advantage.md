@@ -1,5 +1,6 @@
 ---
-Title: "Speed Test - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Speed Test - ScottPlot 4.1 Cookbook"
 Description: "Compare the speed to the same data plotted as a scatter plot."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

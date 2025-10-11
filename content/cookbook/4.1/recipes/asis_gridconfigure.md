@@ -1,5 +1,6 @@
 ---
-Title: "Grid Style - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Grid Style - ScottPlot 4.1 Cookbook"
 Description: "Common grid line configurations are available."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

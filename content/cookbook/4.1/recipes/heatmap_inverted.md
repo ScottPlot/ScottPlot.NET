@@ -1,5 +1,6 @@
 ---
-Title: "Inverted Heatmap - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Inverted Heatmap - ScottPlot 4.1 Cookbook"
 Description: "An inverted heatmap can be created by reversing the colors in the colormap."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

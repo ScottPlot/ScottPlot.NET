@@ -1,5 +1,6 @@
 ---
-Title: "Plot Type: Radar Chart - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Plot Type: Radar Chart - ScottPlot 4.1 Cookbook"
 Description: "Radar charts (also called a spider charts or star charts) represent multi-axis data as a 2D shape on axes arranged circularly around a center point."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

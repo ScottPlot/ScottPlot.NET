@@ -1,5 +1,6 @@
 ---
-Title: "Frameless Plots - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Frameless Plots - ScottPlot 4.1 Cookbook"
 Description: "Frameless plots can display data that appraoches the edge of the figure."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

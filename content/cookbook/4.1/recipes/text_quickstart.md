@@ -1,5 +1,6 @@
 ---
-Title: "Text - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Text - ScottPlot 4.1 Cookbook"
 Description: "The Text plottable displays a string at an X/Y coordinate in unit space. Unlike the Annotation plottable, text moves when the axes are adjusted."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

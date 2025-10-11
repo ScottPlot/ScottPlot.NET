@@ -2,6 +2,7 @@
 Title: ScottPlot 4.0.47 Cookbook
 Description: Example plots displayed next to the code used to produce them
 date: 2021-09-28
+noindex: true
 ---
 
 <div class="alert alert-danger text-center" role="alert">

@@ -1,5 +1,6 @@
 ---
-Title: "Scatter List Quickstart - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Scatter List Quickstart - ScottPlot 4.1 Cookbook"
 Description: "This plot type has add/remove/clear methods like typical lists."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

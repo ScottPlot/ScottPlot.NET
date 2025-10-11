@@ -1,5 +1,6 @@
 ---
-Title: "Gauge Caps - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Gauge Caps - ScottPlot 4.1 Cookbook"
 Description: "Caps can be customized for the starting and end of the gauges. "
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

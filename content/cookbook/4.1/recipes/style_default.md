@@ -1,5 +1,6 @@
 ---
-Title: "Default Plot Style - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Default Plot Style - ScottPlot 4.1 Cookbook"
 Description: "This example demonstrates the default plot style."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

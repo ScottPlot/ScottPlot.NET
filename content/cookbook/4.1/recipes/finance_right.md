@@ -1,5 +1,6 @@
 ---
-Title: "Price on Right - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Price on Right - ScottPlot 4.1 Cookbook"
 Description: "Newer data appears on the ride side of the chart so financial charts are often displayed with the vertical axis label on the right side as well. This is possible by disabling the left vertical axis (YAxis) and enabling the right one (YAxis2). The left and right Y axes are index 0 and 1 (respectively), and the plottable has to be update to indicate which axis index it should render on."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

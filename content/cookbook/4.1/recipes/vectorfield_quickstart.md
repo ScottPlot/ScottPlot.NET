@@ -1,5 +1,6 @@
 ---
-Title: "Quickstart - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Quickstart - ScottPlot 4.1 Cookbook"
 Description: "A vector field can be useful to show data explained by differential equations"
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

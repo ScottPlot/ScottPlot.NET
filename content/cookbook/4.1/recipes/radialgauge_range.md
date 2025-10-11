@@ -1,5 +1,6 @@
 ---
-Title: "Gauge Angular Range - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Gauge Angular Range - ScottPlot 4.1 Cookbook"
 Description: "By default gauges are full circles (360 degrees) but smaller gauges can be created by customizing the gauge size."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

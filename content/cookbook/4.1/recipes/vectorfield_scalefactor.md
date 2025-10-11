@@ -1,5 +1,6 @@
 ---
-Title: "Custom Scale Factor - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Custom Scale Factor - ScottPlot 4.1 Cookbook"
 Description: "A custom scale factor can adjust the length of the arrows."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

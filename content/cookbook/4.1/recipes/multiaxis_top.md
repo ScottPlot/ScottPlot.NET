@@ -1,5 +1,6 @@
 ---
-Title: "Top X Axis - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Top X Axis - ScottPlot 4.1 Cookbook"
 Description: "This example demonstrates how to display an X axis above the figure. The horizontal axis above the figure is index 1, so plots must be updated to indicate they are to use a nonstandard axis index."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

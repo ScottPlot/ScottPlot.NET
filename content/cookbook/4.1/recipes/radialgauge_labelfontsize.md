@@ -1,5 +1,6 @@
 ---
-Title: "Gauge Label Font Percentage - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Gauge Label Font Percentage - ScottPlot 4.1 Cookbook"
 Description: "Size of the gauge level text as a fraction of the gauge width."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

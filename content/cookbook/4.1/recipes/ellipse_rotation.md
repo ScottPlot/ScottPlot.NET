@@ -1,5 +1,6 @@
 ---
-Title: "Ellipse Rotation - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Ellipse Rotation - ScottPlot 4.1 Cookbook"
 Description: "Ellipses can also be rotated"
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

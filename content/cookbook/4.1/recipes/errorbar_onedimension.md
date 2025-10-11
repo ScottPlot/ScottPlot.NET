@@ -1,5 +1,6 @@
 ---
-Title: "Error Bars in One Dimension - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Error Bars in One Dimension - ScottPlot 4.1 Cookbook"
 Description: "If you only have error data for one dimension you can simply pass in null for the other dimension."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

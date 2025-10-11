@@ -1,5 +1,6 @@
 ---
-Title: "Frameless Plot - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Frameless Plot - ScottPlot 4.1 Cookbook"
 Description: "The Frameless() method disables and collapses all axes so the data area is all that appears. Although the figure background is blue in this example, none of it will show, because the data area occupies all of the available space."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

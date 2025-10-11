@@ -1,5 +1,6 @@
 ---
-Title: "Tick Density - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Tick Density - ScottPlot 4.1 Cookbook"
 Description: "Axis tick density can be adjusted by the user. The largest the density is, the more ticks are displayed. Setting this value too high will result in overlapping tick labels."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

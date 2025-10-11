@@ -1,5 +1,6 @@
 ---
-Title: "Miscellaneous - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Miscellaneous - ScottPlot 4.1 Cookbook"
 Description: "A collection of examples demonstrating obscure configuration options."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

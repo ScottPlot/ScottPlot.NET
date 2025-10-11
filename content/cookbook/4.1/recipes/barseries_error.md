@@ -1,5 +1,6 @@
 ---
-Title: "BarSeries with Error Bars - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "BarSeries with Error Bars - ScottPlot 4.1 Cookbook"
 Description: "Combine a BarSeries plot with an ErrorBar plot to achieve this effect."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

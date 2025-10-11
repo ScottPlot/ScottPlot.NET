@@ -1,5 +1,6 @@
 ---
-Title: "Gauge Labels in Legend - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Gauge Labels in Legend - ScottPlot 4.1 Cookbook"
 Description: "Radial gauge labels will appear in the legend if they are assigned. "
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

@@ -1,5 +1,6 @@
 ---
-Title: "Bar Labels - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Bar Labels - ScottPlot 4.1 Cookbook"
 Description: "Bars placed at specific positions can be labeled by setting tick labels for those positions."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

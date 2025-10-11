@@ -1,5 +1,6 @@
 ---
-Title: "Colorbar Label - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Colorbar Label - ScottPlot 4.1 Cookbook"
 Description: "Colorbars have a Label property similar to X and Y axes."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

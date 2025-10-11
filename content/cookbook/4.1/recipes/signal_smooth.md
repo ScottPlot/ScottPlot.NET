@@ -1,5 +1,6 @@
 ---
-Title: "Signal Plot with Smooth Lines - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Signal Plot with Smooth Lines - ScottPlot 4.1 Cookbook"
 Description: "The Smooth field controls whether signal plot lines are drawn with smooth or straight line."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

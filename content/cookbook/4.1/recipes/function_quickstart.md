@@ -1,5 +1,6 @@
 ---
-Title: "Function - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Function - ScottPlot 4.1 Cookbook"
 Description: "Function plots are defined by a function (not X/Y data points) so the curve is continuous and can be zoomed in and out infinitely"
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

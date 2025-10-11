@@ -1,5 +1,6 @@
 ---
-Title: "Axis and Ticks - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Axis and Ticks - ScottPlot 4.1 Cookbook"
 Description: "Examples of common customizations for axis labels and ticks."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

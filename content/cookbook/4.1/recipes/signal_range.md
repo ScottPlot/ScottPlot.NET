@@ -1,5 +1,6 @@
 ---
-Title: "Plot a Range of Points - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Plot a Range of Points - ScottPlot 4.1 Cookbook"
 Description: "It is sometimes useful to only display values within a range of the source data array."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

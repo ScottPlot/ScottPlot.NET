@@ -1,5 +1,6 @@
 ---
-Title: "Ignore Axis Limits - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Ignore Axis Limits - ScottPlot 4.1 Cookbook"
 Description: "Calling Plot.AxisAuto (or middle-clicking the plot) will set the axis limits automatically to fit the data on the plot. By default the position of axis lines and spans are included in automatic axis limit calculations, but setting the '' flag can disable this behavior."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

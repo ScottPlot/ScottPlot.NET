@@ -1,5 +1,6 @@
 ---
-Title: "Plot Type: Error Bar - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Plot Type: Error Bar - ScottPlot 4.1 Cookbook"
 Description: "Error bars represent a range of uncertainty using a line and a perpendicular cap."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

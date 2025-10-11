@@ -1,5 +1,6 @@
 ---
-Title: "Advanced Population Styling - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Advanced Population Styling - ScottPlot 4.1 Cookbook"
 Description: "Populations can be displayed many different ways. Scatter values can be displayed on either side of the bar or bar. Populations can be shown as bar graphs instead of box plots. Public fields allow many additional customizations."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

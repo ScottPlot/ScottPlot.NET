@@ -1,5 +1,6 @@
 ---
-Title: "Many Polygons - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Many Polygons - ScottPlot 4.1 Cookbook"
 Description: "Special rendering optimizations are available to display a large number of polygons."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

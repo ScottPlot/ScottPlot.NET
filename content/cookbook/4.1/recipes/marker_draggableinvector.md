@@ -1,5 +1,6 @@
 ---
-Title: "Draggable Marker Snap - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Draggable Marker Snap - ScottPlot 4.1 Cookbook"
 Description: "This example shows how to add a draggable marker which is constrained to positions defined by an array of X/Y pairs."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

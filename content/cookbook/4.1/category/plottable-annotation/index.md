@@ -1,5 +1,6 @@
 ---
-Title: "Plot Type: Annotation - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Plot Type: Annotation - ScottPlot 4.1 Cookbook"
 Description: "An Annotation is a text label that is placed on the plot in pixel space (not in coordinate space like a Text object)."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

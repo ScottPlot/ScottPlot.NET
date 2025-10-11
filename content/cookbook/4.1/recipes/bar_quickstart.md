@@ -1,5 +1,6 @@
 ---
-Title: "Bar Graph - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Bar Graph - ScottPlot 4.1 Cookbook"
 Description: "A simple bar graph can be created from a series of values. By default values are palced at X positions 0, 1, 2, etc."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

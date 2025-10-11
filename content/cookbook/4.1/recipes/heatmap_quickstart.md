@@ -1,5 +1,6 @@
 ---
-Title: "Heatmap Quickstart - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Heatmap Quickstart - ScottPlot 4.1 Cookbook"
 Description: "Heatmaps display a 2D array using a colormap."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

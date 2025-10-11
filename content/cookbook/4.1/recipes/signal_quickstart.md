@@ -1,5 +1,6 @@
 ---
-Title: "Signal Plot Quickstart - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Signal Plot Quickstart - ScottPlot 4.1 Cookbook"
 Description: "Signal plots are ideal for evenly-spaced data with thousands or millions of points."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

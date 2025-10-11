@@ -1,5 +1,6 @@
 ---
-Title: "Hatched Fill - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Hatched Fill - ScottPlot 4.1 Cookbook"
 Description: "Hatched Fills are useful for when there are overlapping fills, such as this diagram depicting the ranges of possible producer surpluses under a price floor."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

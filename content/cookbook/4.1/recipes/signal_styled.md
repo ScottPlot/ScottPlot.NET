@@ -1,5 +1,6 @@
 ---
-Title: "Styled Signal Plot - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Styled Signal Plot - ScottPlot 4.1 Cookbook"
 Description: "Signal plots can be styled using public fields. Signal plots can also be offset by a defined X or Y amount."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

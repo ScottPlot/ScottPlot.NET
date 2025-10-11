@@ -1,5 +1,6 @@
 ---
-Title: "Circle with Locked Scale - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Circle with Locked Scale - ScottPlot 4.1 Cookbook"
 Description: "For circles to always appear circular, the coordinate system must be forced to always display square-shaped pixels. This can be achieved by enabling the axis scale lock."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

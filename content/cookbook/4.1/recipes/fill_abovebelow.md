@@ -1,5 +1,6 @@
 ---
-Title: "Fill Above and Below - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Fill Above and Below - ScottPlot 4.1 Cookbook"
 Description: "Sometimes you want to share the area under a curve, but change its color depending on which side of the baseline value it is. There's a helper method to make this easier."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

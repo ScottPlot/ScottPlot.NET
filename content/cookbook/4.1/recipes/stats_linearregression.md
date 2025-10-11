@@ -1,5 +1,6 @@
 ---
-Title: "Linear Regression - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Linear Regression - ScottPlot 4.1 Cookbook"
 Description: "A regression module is available to simplify the act of creating a linear regression line fitted to the data."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

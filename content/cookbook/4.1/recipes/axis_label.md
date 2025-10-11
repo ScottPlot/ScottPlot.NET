@@ -1,5 +1,6 @@
 ---
-Title: "Axis Customizations - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Axis Customizations - ScottPlot 4.1 Cookbook"
 Description: "Axes can be customized different ways. Axis labels and colors are the most common types of customizations."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

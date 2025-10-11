@@ -1,5 +1,6 @@
 ---
-Title: "Heatmap Opacity - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Heatmap Opacity - ScottPlot 4.1 Cookbook"
 Description: "Heatmaps have an Opacity property that can be set anywhere from 0 (transparent) to 1 (opaque)."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

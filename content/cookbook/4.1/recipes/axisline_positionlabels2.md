@@ -1,5 +1,6 @@
 ---
-Title: "Position Labels on Additional Axes - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Position Labels on Additional Axes - ScottPlot 4.1 Cookbook"
 Description: "Position labels can be added to multi-axis plots. The axis line must be told which axis to render the label on."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

@@ -1,5 +1,6 @@
 ---
-Title: "Circle Marker - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Circle Marker - ScottPlot 4.1 Cookbook"
 Description: "Circles can be added anywhere on the plot. If a line style is used, a custom pattern should be created."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

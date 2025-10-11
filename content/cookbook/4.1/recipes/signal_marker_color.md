@@ -1,5 +1,6 @@
 ---
-Title: "Signal Marker Color - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Signal Marker Color - ScottPlot 4.1 Cookbook"
 Description: "The markers that display when signal plots are zoomed in may have a different color than the lines connecting them"
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

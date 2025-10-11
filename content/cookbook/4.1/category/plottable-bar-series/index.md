@@ -1,5 +1,6 @@
 ---
-Title: "Plot Type: Bar Series - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Plot Type: Bar Series - ScottPlot 4.1 Cookbook"
 Description: "BarSeries plots allow customization of each bar individually."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

@@ -1,5 +1,6 @@
 ---
-Title: "Labeled Values - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Labeled Values - ScottPlot 4.1 Cookbook"
 Description: "Labels can be displayed on the arms of the radar chart."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

@@ -1,5 +1,6 @@
 ---
-Title: "Display Scaling - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Display Scaling - ScottPlot 4.1 Cookbook"
 Description: "When display scaling is enabled the dots per inch (DPI) is changed so images appear larger. When scaling is increased bitmap images are stretched to appear larger, but may appear blurry as a result. Alternatively images could be increased in size when DPI scaling is enabled, but fonts and lines may appear small. This example shows how to increase the size of common plot components so they look good on high resolution scaled displays (e.g., 4K monitors). DPI stretching can be set in the user control's Configuration module."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

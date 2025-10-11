@@ -1,5 +1,6 @@
 ---
-Title: "Labeled Categories - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Labeled Categories - ScottPlot 4.1 Cookbook"
 Description: "Category labels can be displayed on the radar chart."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

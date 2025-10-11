@@ -1,5 +1,6 @@
 ---
-Title: "Palette Colormap - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Palette Colormap - ScottPlot 4.1 Cookbook"
 Description: "Heatmap data can be presented using a colormap defined by a fixed set of colors."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

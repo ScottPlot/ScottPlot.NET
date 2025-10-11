@@ -1,5 +1,6 @@
 ---
-Title: "Grouped Bar Graphs - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Grouped Bar Graphs - ScottPlot 4.1 Cookbook"
 Description: "By customizing positions of multiple bar plots you can achieve the appearance of grouped bar graphs. The AddBarGroups() method is designed to simplify this process. More advanced grouping and bar plot styling is possible using the Population plot type."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

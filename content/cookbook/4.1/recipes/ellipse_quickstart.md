@@ -1,5 +1,6 @@
 ---
-Title: "Ellipse Quickstart - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Ellipse Quickstart - ScottPlot 4.1 Cookbook"
 Description: "Ellipses can be added to plots"
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

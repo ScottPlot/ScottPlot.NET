@@ -1,5 +1,6 @@
 ---
-Title: "Plot Type: Fill - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Plot Type: Fill - ScottPlot 4.1 Cookbook"
 Description: "Helper methods are available to help fill the region under a curve."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

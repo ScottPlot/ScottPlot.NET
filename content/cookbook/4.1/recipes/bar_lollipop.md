@@ -1,5 +1,6 @@
 ---
-Title: "Lollipop Plot Quickstart - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Lollipop Plot Quickstart - ScottPlot 4.1 Cookbook"
 Description: "Lollipop plots convey the same information as Bar plots but have a different appearance."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

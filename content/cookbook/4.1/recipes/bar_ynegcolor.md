@@ -1,5 +1,6 @@
 ---
-Title: "Negative Bar Colors - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Negative Bar Colors - ScottPlot 4.1 Cookbook"
 Description: "Bars with negative values can be colored differently than positive ones."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

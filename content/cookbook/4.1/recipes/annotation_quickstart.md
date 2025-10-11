@@ -1,5 +1,6 @@
 ---
-Title: "Figure Annotations - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Figure Annotations - ScottPlot 4.1 Cookbook"
 Description: "Annotations are labels placed at a X/Y location on the figure (not coordinates of the data area). Unlike the Text plottable, annotations do not move as the axes are adjusted."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

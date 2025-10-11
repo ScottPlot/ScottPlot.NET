@@ -1,5 +1,6 @@
 ---
-Title: "Rotated X Ticks - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Rotated X Ticks - ScottPlot 4.1 Cookbook"
 Description: "Horizontal tick labels can be rotated as desired."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

@@ -1,5 +1,6 @@
 ---
-Title: "Filled Line Plot - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Filled Line Plot - ScottPlot 4.1 Cookbook"
 Description: "Polygons can be used to create 2D shapes resembling filled line plots. When mixed with semitransprent fills, these can be useful for displaying data."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

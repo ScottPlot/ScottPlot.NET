@@ -1,5 +1,6 @@
 ---
-Title: "Gradient Fill Above and Below - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Gradient Fill Above and Below - ScottPlot 4.1 Cookbook"
 Description: "Gradients can be used to fill above and below."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

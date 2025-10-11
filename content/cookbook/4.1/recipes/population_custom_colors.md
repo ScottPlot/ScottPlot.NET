@@ -1,5 +1,6 @@
 ---
-Title: "Customizing Colors - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Customizing Colors - ScottPlot 4.1 Cookbook"
 Description: "Population plots apply different transparencies to boxes and markers by default. Precise control of colors can be achieved by defining alpha overrides as shown here."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

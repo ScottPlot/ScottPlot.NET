@@ -1,5 +1,6 @@
 ---
-Title: "Scale Bar - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Scale Bar - ScottPlot 4.1 Cookbook"
 Description: "An L-shaped scalebar can be added in the corner of any plot. Set the vertical or horizontal sizer to zero and the scale bar will only span one dimension."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

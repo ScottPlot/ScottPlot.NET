@@ -1,5 +1,6 @@
 ---
-Title: "Data Background Image - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Data Background Image - ScottPlot 4.1 Cookbook"
 Description: "A backgorund image can be drawn behind the data area. Users to do this may want to make grid lines semitransparent."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

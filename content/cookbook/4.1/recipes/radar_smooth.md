@@ -1,5 +1,6 @@
 ---
-Title: "Smooth Radar - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Smooth Radar - ScottPlot 4.1 Cookbook"
 Description: "The Smooth field controls whether radar areas are drawn with smooth or straight lines."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

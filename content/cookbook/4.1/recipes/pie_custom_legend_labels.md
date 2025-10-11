@@ -1,5 +1,6 @@
 ---
-Title: "Custom Legend Labels - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Custom Legend Labels - ScottPlot 4.1 Cookbook"
 Description: "Labels for slices and legend items can be independently configured."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

@@ -1,5 +1,6 @@
 ---
-Title: "Bars with Y Offsets - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Bars with Y Offsets - ScottPlot 4.1 Cookbook"
 Description: "By default bar graphs start at 0, but this does not have to be the case. Y offsets can be defined for each bar. When Y offsets are used, values represent the height of the bars (relative to their offsets)."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

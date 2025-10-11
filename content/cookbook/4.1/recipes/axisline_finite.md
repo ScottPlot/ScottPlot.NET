@@ -1,5 +1,6 @@
 ---
-Title: "Finite Axis Line - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Finite Axis Line - ScottPlot 4.1 Cookbook"
 Description: "Axis lines can have lower and/or upper bounds. This can be useful for labeling points of interest."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

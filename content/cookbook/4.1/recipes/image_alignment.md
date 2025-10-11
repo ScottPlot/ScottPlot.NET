@@ -1,5 +1,6 @@
 ---
-Title: "Image Alignment - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Image Alignment - ScottPlot 4.1 Cookbook"
 Description: "By default the X/Y coordinates define the upper left position of the image, but alignment can be customized by defining the anchor."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

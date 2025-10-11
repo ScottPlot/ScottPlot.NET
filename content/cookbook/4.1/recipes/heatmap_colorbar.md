@@ -1,5 +1,6 @@
 ---
-Title: "Heatmap with Colorbar - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Heatmap with Colorbar - ScottPlot 4.1 Cookbook"
 Description: "Colorbars are often added when heatmaps are used."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

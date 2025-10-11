@@ -1,5 +1,6 @@
 ---
-Title: "Draw Grid Above Plottables - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Draw Grid Above Plottables - ScottPlot 4.1 Cookbook"
 Description: "Sometimes it's useful to draw the grid lines above the plottables rather than below."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

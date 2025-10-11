@@ -1,5 +1,6 @@
 ---
-Title: "Disable Grid - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Disable Grid - ScottPlot 4.1 Cookbook"
 Description: "Visibility of primary X and Y grids can be set using a single method."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

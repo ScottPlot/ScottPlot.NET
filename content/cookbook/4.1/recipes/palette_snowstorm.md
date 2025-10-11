@@ -1,5 +1,6 @@
 ---
-Title: "SnowStorm - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "SnowStorm - ScottPlot 4.1 Cookbook"
 Description: "SnowStorm is a 3-color palette sourced from Nord."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

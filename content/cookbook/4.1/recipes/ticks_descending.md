@@ -1,5 +1,6 @@
 ---
-Title: "Descending Ticks - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Descending Ticks - ScottPlot 4.1 Cookbook"
 Description: "Axis tick labels can be inverted in sign to give the apperance of a reversed axis."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

@@ -1,5 +1,6 @@
 ---
-Title: "Fill Below - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Fill Below - ScottPlot 4.1 Cookbook"
 Description: "Signal plots can be filled below with a solid color."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

@@ -1,5 +1,6 @@
 ---
-Title: "Plot Type: Bubble Plot - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Plot Type: Bubble Plot - ScottPlot 4.1 Cookbook"
 Description: "Bubble plots display circles at specific X/Y locations."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

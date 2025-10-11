@@ -1,5 +1,6 @@
 ---
-Title: "Gauge Direction - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Gauge Direction - ScottPlot 4.1 Cookbook"
 Description: "The direction of gauges can be customized. Clockwise is used by default."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

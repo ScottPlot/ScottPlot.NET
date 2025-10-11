@@ -1,5 +1,6 @@
 ---
-Title: "X Ticks Width - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "X Ticks Width - ScottPlot 4.1 Cookbook"
 Description: "This example show how to change the width of the X axe ticks"
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

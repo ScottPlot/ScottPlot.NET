@@ -1,5 +1,6 @@
 ---
-Title: "Gauge Colors - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Gauge Colors - ScottPlot 4.1 Cookbook"
 Description: "Gauge colors can be customized by changing the default palette. "
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

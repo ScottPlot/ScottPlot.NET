@@ -1,5 +1,6 @@
 ---
-Title: "Cleveland Dot Plot - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Cleveland Dot Plot - ScottPlot 4.1 Cookbook"
 Description: "Cleveland Dot Plots allow comparing two categories in situations where a Bar Plot may be crowded."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

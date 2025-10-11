@@ -1,5 +1,6 @@
 ---
-Title: "Style - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Style - ScottPlot 4.1 Cookbook"
 Description: "Plots can be styled to customize their colors and fonts."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

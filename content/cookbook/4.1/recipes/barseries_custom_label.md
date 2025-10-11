@@ -1,5 +1,6 @@
 ---
-Title: "Custom Label - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Custom Label - ScottPlot 4.1 Cookbook"
 Description: "Value labels above bars can be customized."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

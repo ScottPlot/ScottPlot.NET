@@ -1,5 +1,6 @@
 ---
-Title: "Error Bar Quickstart - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Error Bar Quickstart - ScottPlot 4.1 Cookbook"
 Description: "Error Bars allow more fine-grained control over how your error bars are shown."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

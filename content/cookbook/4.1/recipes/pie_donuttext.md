@@ -1,5 +1,6 @@
 ---
-Title: "Donut with Text - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Donut with Text - ScottPlot 4.1 Cookbook"
 Description: "Custom text can be displayed in the center of a donut chart. Notice too how the colors of each slice are customized in this example."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

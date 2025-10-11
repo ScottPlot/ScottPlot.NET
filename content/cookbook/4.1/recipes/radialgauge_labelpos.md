@@ -1,5 +1,6 @@
 ---
-Title: "Gauge Label Position - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Gauge Label Position - ScottPlot 4.1 Cookbook"
 Description: "Gauge level text is positioned at the tip of each gauge by default, but this position can be adjusted by the user."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

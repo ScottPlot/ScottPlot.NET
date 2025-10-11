@@ -1,5 +1,6 @@
 ---
-Title: "Plot Type: Arrow - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Plot Type: Arrow - ScottPlot 4.1 Cookbook"
 Description: "Arrows point to a location in coordinate space."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

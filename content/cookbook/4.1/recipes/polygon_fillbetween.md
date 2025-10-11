@@ -1,5 +1,6 @@
 ---
-Title: "Fill Between Curves - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "Fill Between Curves - ScottPlot 4.1 Cookbook"
 Description: "A shaded area between two curves can be created by enclosing the area as a polygon. For this to work the two curves must share the same X points."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71

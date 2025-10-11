@@ -1,5 +1,6 @@
 ---
-Title: "SignalXY with Fill - ScottPlot 4.1 Cookbook"
+noindex: true
+title: "SignalXY with Fill - ScottPlot 4.1 Cookbook"
 Description: "Various options allow shading above/below the signal data."
 Date: 2024-01-21
 Version: ScottPlot 4.1.71
