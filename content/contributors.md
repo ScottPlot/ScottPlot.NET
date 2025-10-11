@@ -14,8 +14,8 @@ Description: Members of the open-source community who contributed to ScottPlot
 <a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png'></a>
 <a href='https://github.com/NeilMacMullen'><img src='https://scottplot.net/images/contributors/neilmacmullen.jpg'></a>
 <a href='https://github.com/fissssssh'><img src='https://scottplot.net/images/contributors/fissssssh.jpg'></a>
-<a href='https://github.com/timmer98'><img src='https://scottplot.net/images/brand/favicon.png'></a>
-<a href='https://github.com/nbeck-SMT'><img src='https://scottplot.net/images/brand/favicon.png'></a>
+<a href='https://github.com/timmer98'><img src='https://scottplot.net/images/contributors/timmer98.png'></a>
+<a href='https://github.com/nbeck-SMT'><img src='https://scottplot.net/images/contributors/nbeck-smt.png'></a>
 <a href='https://github.com/Christoph-Wagner'><img src='https://scottplot.net/images/contributors/christoph-wagner.jpg'></a>
 <a href='https://github.com/manaruto'><img src='https://scottplot.net/images/contributors/manaruto.jpg'></a>
 <a href='https://github.com/CoderPM2011'><img src='https://scottplot.net/images/contributors/coderpm2011.jpg'></a>
