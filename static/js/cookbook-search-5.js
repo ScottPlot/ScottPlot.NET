@@ -24,7 +24,7 @@ function GetSearchHtml() {
     <!-- Button trigger modal -->
     <div class="m-5 text-center">
         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-            🔎 Search ScottPlot 5.0 Cookbook
+            🔎 Search ScottPlot 5 Cookbook
         </button>
     </div>
     
@@ -186,7 +186,7 @@ function SetupSearchElements() {
     myModal2.show();
 }
 
-fetch("/cookbook/5.0/recipes.json", { cache: "no-store" })
+fetch("/cookbook/5/recipes.json", { cache: "no-store" })
     .then(response => response.json())
     .then(data => {
         globalRecipes = data.recipes;
