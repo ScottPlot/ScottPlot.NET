@@ -10,11 +10,11 @@ Multi-plot figures can be achieved one of two ways:
 
 ### Use the Multiplot System
 
-* Place a single plot control and interact with its `Multiplot` property to add subplots and setup shared axes and layouts as documented in the [**ScottPlot Demo**](/demo/5.0/) and [**Shared Axes**](../shared-axes/) pages.
+* Place a single plot control and interact with its `Multiplot` property to add subplots and setup shared axes and layouts as documented in the [**ScottPlot Demo**](/demo/5/) and [**Shared Axes**](../shared-axes/) pages.
 
 ### Place Multiple Plot Controls
 
-* Place multiple plot controls and interact the `Plot` property of each and use the `Layout` class to achieve shared axis limits as documented in the [**Shared Axis Demo**](/demo/5.0/#shared-axes) page.
+* Place multiple plot controls and interact the `Plot` property of each and use the `Layout` class to achieve shared axis limits as documented in the [**Shared Axis Demo**](/demo/5/#shared-axes) page.
 
 ## Shared Layout
 

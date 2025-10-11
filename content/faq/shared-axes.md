@@ -8,11 +8,11 @@ date: 2023-12-13
 
 Multiple plots can be configured so changes the axis limits of one plot are applied to other plots. The strategy used to achieve this behavior depends on how multiple plots have been added to the application:
 
-* **Multiple Plot Controls:** The [**Shared Axis Demo**](/demo/5.0/#shared-axes) shows how to use `Plot.Axes.Link()` to automatically configure `AxisLimitsChanged` events to update all plots when axis limits of any plot are changed.
+* **Multiple Plot Controls:** The [**Shared Axis Demo**](/demo/5/#shared-axes) shows how to use `Plot.Axes.Link()` to automatically configure `AxisLimitsChanged` events to update all plots when axis limits of any plot are changed.
 
 * **Using `Multiplot` in a Single Plot Control:** When the `Multiplot` class is used to place multiple plots, they may be easily synchronized using the `ShareX()` and `ShareY()` helper methods as described on the [**Multiplot FAQ Page**](../multiplot)
 
-![](/images/demo/5.0/linked-axes.gif)
+![](/images/demo/5/linked-axes.gif)
 
 ## Shared Layout
 

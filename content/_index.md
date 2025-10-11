@@ -14,7 +14,7 @@ layout: single
 
 **ScottPlot is a free and open-source plotting library for .NET** that makes it easy to interactively display large datasets. Line plots, bar charts, pie graphs, scatter plots, and more can be created with just a few lines of code.
 
-<a href='cookbook/5.0/'>
+<a href='cookbook/5/'>
   <img src='/images/scottplot.gif' class="d-block mx-auto my-5" />
 </a>
 
@@ -35,18 +35,18 @@ myPlot.SavePng("quickstart.png", 400, 300);
 
 ## Cookbook
 
-The [**ScottPlot Cookbook**](cookbook/5.0/) demonstrates how to create line plots, bar charts, pie graphs, scatter plots, and more with just a few lines of code. 
+The [**ScottPlot Cookbook**](cookbook/5/) demonstrates how to create line plots, bar charts, pie graphs, scatter plots, and more with just a few lines of code. 
 
-<a href='cookbook/5.0/'>
+<a href='cookbook/5/'>
   <img src='images/cookbook.jpg' class="d-block mx-auto my-5" />
 </a>
 
 ## Demo
 
-The [**ScottPlot Demo**](demo/5.0/) is a click-to-run application that provides mouse-interactive versions of every cookbook recipe and demonstrates how to perform advanced interactive customizations.
+The [**ScottPlot Demo**](demo/5/) is a click-to-run application that provides mouse-interactive versions of every cookbook recipe and demonstrates how to perform advanced interactive customizations.
 
-<a href='demo/5.0/'>
-  <img src='/images/demo/5.0/demo.png' class="d-block mx-auto my-5" />
+<a href='demo/5/'>
+  <img src='/images/demo/5/demo.png' class="d-block mx-auto my-5" />
 </a>
 
 ## Plot in the Cloud

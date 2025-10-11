@@ -17,7 +17,7 @@ date: 2023-12-13
     </h4>
     <ul class='my-0' id="existing-projects-can-keep-using-scottplot-4">
         <li>ScottPlot 5 offers the best performance and long-term cross-platform support</li>
-        <li>Review the <a href='/quickstart'>Quickstart</a>, <a href='/cookbook/5.0/'>Cookbook</a>, <a href='/demo'>Demo</a>, and information below to learn how to use it</li>
+        <li>Review the <a href='/quickstart'>Quickstart</a>, <a href='/cookbook/5/'>Cookbook</a>, <a href='/demo'>Demo</a>, and information below to learn how to use it</li>
         <li>If there is a feature you would like to see added or a behavior you are unsure how to achieve using ScottPlot 5, <a href='https://github.com/ScottPlot/ScottPlot/issues'>create a GitHub issue</a> or raise the topic in the <a href='/discord'>ScottPlot Discord Channel</a></li>
     </ul>
 </div>
@@ -60,7 +60,7 @@ date: 2023-12-13
 
 ### Cookbook Search
 
-The ScottPlot 5 cookbook has a search feature (https://scottplot.net/cookbook/5.0/search/) which makes it easy to locate code samples for common features. Efforts were made to ensure the correct ScottPlot 5 cookbook recipes when searching for names of ScottPlot 4 features.
+The ScottPlot 5 cookbook has a search feature (https://scottplot.net/cookbook/5/search/) which makes it easy to locate code samples for common features. Efforts were made to ensure the correct ScottPlot 5 cookbook recipes when searching for names of ScottPlot 4 features.
 
 ### Plots do not store a size
 
