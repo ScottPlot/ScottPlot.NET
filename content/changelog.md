@@ -32,6 +32,8 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Palettes: Added a <code>ColorblindFriendlyDark</code> palette to improve accessibility of categorical plots with dark backgrounds (<a href="https://github.com/ScottPlot/ScottPlot/issues/5094">#5094</a>) <a href="https://github.com/NeilMacMullen"><strong>@NeilMacMullen</strong></a>
 </li>
+<li>Multiplot: Added a collection of <code>PreRenderActions</code> to facilitate synchronization of data between subplots (<a href="https://github.com/ScottPlot/ScottPlot/issues/5095">#5095</a>, <a href="https://github.com/NeilMacMullen"><strong>@NeilMacMullen</strong></a>)
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
