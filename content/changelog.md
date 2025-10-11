@@ -5,7 +5,7 @@ Description: Release notes for every version of ScottPlot
 
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 5.1.57</h1>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2025-10-11</i></div>
 <div class='mt-1'>
 <ul>
 <li>The transition from ScottPlot <code>5.0</code> to <code>5.1</code> has breaking changes which are likely to affect advanced users who maintain custom plot types. Upgrading our SkiaSharp from <code>2.88</code> to <code>3.119</code> brought many improvements, but significantly changed the functionality of <code>SkiaSharp.SKPaint</code> which many of our drawing operations relied on. To minimize the impact of this change, references to <code>SkiaSharp.SKPaint</code> have been replaced with <code>ScottPlot.Paint</code> which closely resembles the original API, minimizing amount of code changes required to upgrade. This version aims at making this upgrade possible, and future versions will refine these objects to improve performance and minimize allocations.
@@ -36,17 +36,23 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Histogram: Optimized bin count accumulation strategy to improve performance when creating histograms (<a href="https://github.com/ScottPlot/ScottPlot/issues/5102">#5102</a>) <a href="https://github.com/fissssssh"><strong>@fissssssh</strong></a>
 </li>
+<li>Legend: Added support for defining an <code>Index</code> so manually added items can be displayed in preferred sequence (<a href="https://github.com/ScottPlot/ScottPlot/issues/5107">#5107</a>) <a href="https://github.com/timmer98"><strong>@timmer98</strong></a>
+</li>
+<li>Avalonia: Improve behavior through focus release and acquisition cycles (<a href="https://github.com/ScottPlot/ScottPlot/issues/5109">#5109</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/5105">#5105</a>) <a href="https://github.com/nbeck-SMT"><strong>@nbeck-SMT</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/jelhan'>@jelhan</a>, <a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/NeilMacMullen'>@NeilMacMullen</a>, <a href='https://github.com/fissssssh'>@fissssssh</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/jelhan'>@jelhan</a>, <a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/NeilMacMullen'>@NeilMacMullen</a>, <a href='https://github.com/fissssssh'>@fissssssh</a>, <a href='https://github.com/timmer98'>@timmer98</a>, <a href='https://github.com/nbeck-SMT'>@nbeck-SMT</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/jelhan'><img src='https://scottplot.net/images/contributors/jelhan.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/NeilMacMullen'><img src='https://scottplot.net/images/contributors/neilmacmullen.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/fissssssh'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/fissssssh'><img src='https://scottplot.net/images/contributors/fissssssh.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/timmer98'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/nbeck-SMT'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
