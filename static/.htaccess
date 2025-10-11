@@ -1,1 +1,5 @@
 ErrorDocument 404 /404.html
+
+# Redirect /cookbook/5.0/... → /cookbook/5/...
+# 302 is temporary, 301 is permanent
+RewriteRule ^cookbook/5\.0(/.*)?$ /cookbook/5$1 [R=302,L]
