@@ -32,18 +32,21 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Palettes: Added a <code>ColorblindFriendlyDark</code> palette to improve accessibility of categorical plots with dark backgrounds (<a href="https://github.com/ScottPlot/ScottPlot/issues/5094">#5094</a>) <a href="https://github.com/NeilMacMullen"><strong>@NeilMacMullen</strong></a>
 </li>
-<li>Multiplot: Added a collection of <code>PreRenderActions</code> to facilitate synchronization of data between subplots (<a href="https://github.com/ScottPlot/ScottPlot/issues/5095">#5095</a>, <a href="https://github.com/NeilMacMullen"><strong>@NeilMacMullen</strong></a>)
+<li>Multiplot: Added a collection of <code>PreRenderActions</code> to facilitate synchronization of data between subplots (<a href="https://github.com/ScottPlot/ScottPlot/issues/5095">#5095</a>) <a href="https://github.com/NeilMacMullen"><strong>@NeilMacMullen</strong></a>
+</li>
+<li>Histogram: Optimized bin count accumulation strategy to improve performance when creating histograms (<a href="https://github.com/ScottPlot/ScottPlot/issues/5102">#5102</a>) <a href="https://github.com/fissssssh"><strong>@fissssssh</strong></a>
 </li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/jelhan'>@jelhan</a>, <a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/NeilMacMullen'>@NeilMacMullen</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/jelhan'>@jelhan</a>, <a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/NeilMacMullen'>@NeilMacMullen</a>, <a href='https://github.com/fissssssh'>@fissssssh</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/jelhan'><img src='https://scottplot.net/images/contributors/jelhan.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/NeilMacMullen'><img src='https://scottplot.net/images/contributors/neilmacmullen.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/fissssssh'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
