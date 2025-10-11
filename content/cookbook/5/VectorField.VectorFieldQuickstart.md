@@ -1,13 +1,13 @@
 ---
-Title: Vector Field Quickstart - ScottPlot 5.0 Cookbook
+Title: Vector Field Quickstart - ScottPlot 5 Cookbook
 Description: Vectors (representing a magnitude and direction) can be placed at specific points in coordinate space to display as a vector field.
-URL: /cookbook/5.0/VectorField/VectorFieldQuickstart/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Vector Field", "Vector Field Quickstart"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/VectorField", "/cookbook/5.0/VectorField/VectorFieldQuickstart"]
-Date: 2025-01-26
-Version: ScottPlot 5.0.55
-Version: ScottPlot 5.0.55
-SearchUrl: "/cookbook/5.0/search/"
+URL: /cookbook/5/VectorField/VectorFieldQuickstart/
+BreadcrumbNames: ["ScottPlot 5 Cookbook", "Vector Field", "Vector Field Quickstart"]
+BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/VectorField", "/cookbook/5/VectorField/VectorFieldQuickstart"]
+Date: 2025-10-11
+Version: ScottPlot 5.1.57
+Version: ScottPlot 5.1.57
+SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
 
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Vectors (representing a magnitude and direction) can be placed at specific points in coordinate space to display as a vector field.
 
-[![](/cookbook/5.0/images/VectorFieldQuickstart.png?250126165944)](/cookbook/5.0/images/VectorFieldQuickstart.png?250126165944)
+[![](/cookbook/5/images/VectorFieldQuickstart.png?251011113742)](/cookbook/5/images/VectorFieldQuickstart.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/VectorField.cs" imageUrl="/cookbook/5.0/images/VectorFieldQuickstart.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/VectorField.cs" imageUrl="/cookbook/5/images/VectorFieldQuickstart.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 // generate a grid of positions
 double[] xs = Generate.Consecutive(10);
@@ -52,6 +52,6 @@ myPlot.Add.VectorField(vectors);
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
-<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5.0/VectorField'>Vector Field</a> category</div>
+<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5/VectorField'>Vector Field</a> category</div>
 
 

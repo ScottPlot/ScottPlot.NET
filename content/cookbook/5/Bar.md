@@ -1,13 +1,13 @@
 ---
-Title: Bar Plot - ScottPlot 5.0 Cookbook
+Title: Bar Plot - ScottPlot 5 Cookbook
 Description: Bar plots represent values as horizontal or vertical rectangles
-URL: /cookbook/5.0/Bar/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Bar Plot"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Bar"]
-Date: 2025-01-26
-Version: ScottPlot 5.0.55
-Version: ScottPlot 5.0.55
-SearchUrl: "/cookbook/5.0/search/"
+URL: /cookbook/5/Bar/
+BreadcrumbNames: ["ScottPlot 5 Cookbook", "Bar Plot"]
+BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/Bar"]
+Date: 2025-10-11
+Version: ScottPlot 5.1.57
+Version: ScottPlot 5.1.57
+SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
 
@@ -16,16 +16,16 @@ ShowEditLink: false
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Bar Plot Quickstart</h1>
-<a href='/cookbook/5.0/Bar/Quickstart' target='_blank'>
+<a href='/cookbook/5/Bar/Quickstart' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Bar plots can be added from a series of values.
 
-[![](/cookbook/5.0/images/Quickstart.png?250126165944)](/cookbook/5.0/images/Quickstart.png?250126165944)
+[![](/cookbook/5/images/Quickstart.png?251011113742)](/cookbook/5/images/Quickstart.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs" imageUrl="/cookbook/5.0/images/Quickstart.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs" imageUrl="/cookbook/5/images/Quickstart.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 // add bars
 double[] values = { 5, 10, 7, 13 };
@@ -43,16 +43,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Bar Plot Legend</h1>
-<a href='/cookbook/5.0/Bar/BarLegend' target='_blank'>
+<a href='/cookbook/5/Bar/BarLegend' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 A collection of bars can appear in the legend as a single item.
 
-[![](/cookbook/5.0/images/BarLegend.png?250126165944)](/cookbook/5.0/images/BarLegend.png?250126165944)
+[![](/cookbook/5/images/BarLegend.png?251011113742)](/cookbook/5/images/BarLegend.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs" imageUrl="/cookbook/5.0/images/BarLegend.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs" imageUrl="/cookbook/5/images/BarLegend.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 double[] xs1 = { 1, 2, 3, 4 };
 double[] ys1 = { 5, 10, 7, 13 };
@@ -76,16 +76,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Bar with Value Labels</h1>
-<a href='/cookbook/5.0/Bar/BarValues' target='_blank'>
+<a href='/cookbook/5/Bar/BarValues' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Set the `Label` property of bars to have text displayed above each bar.
 
-[![](/cookbook/5.0/images/BarValues.png?250126165944)](/cookbook/5.0/images/BarValues.png?250126165944)
+[![](/cookbook/5/images/BarValues.png?251011113742)](/cookbook/5/images/BarValues.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs" imageUrl="/cookbook/5.0/images/BarValues.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs" imageUrl="/cookbook/5/images/BarValues.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 double[] values = { 5, 10, 7, 13 };
 var barPlot = myPlot.Add.Bars(values);
@@ -111,16 +111,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Bar with Value Labels (horizontal)</h1>
-<a href='/cookbook/5.0/Bar/BarValuesHorizontal' target='_blank'>
+<a href='/cookbook/5/Bar/BarValuesHorizontal' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Set the `Label` property of bars to have text displayed beside (left or right) of each bar.
 
-[![](/cookbook/5.0/images/BarValuesHorizontal.png?250126165944)](/cookbook/5.0/images/BarValuesHorizontal.png?250126165944)
+[![](/cookbook/5/images/BarValuesHorizontal.png?251011113742)](/cookbook/5/images/BarValuesHorizontal.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs" imageUrl="/cookbook/5.0/images/BarValuesHorizontal.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs" imageUrl="/cookbook/5/images/BarValuesHorizontal.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 double[] values = { -20, 10, 7, 13 };
 
@@ -148,17 +148,68 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 <div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Labels on Top</h1>
+<a href='/cookbook/5/Bar/BarLabelsLast' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
+</div>
+
+Bars with labels are rendered one at a time by default, but this makes it possible for bar labels to get overlapped by other bars. Bar chars may be configured to render labels last, even above other plottables.
+
+[![](/cookbook/5/images/BarLabelsLast.png?251011113742)](/cookbook/5/images/BarLabelsLast.png?251011113742)
+
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs" imageUrl="/cookbook/5/images/BarLabelsLast.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+
+double[] values = Generate.Consecutive(5, first: 1);
+
+// create two bar plots
+var bars1 = myPlot.Add.Bars(values);
+var bars2 = myPlot.Add.Bars(values);
+
+// enable the LabelsOnTop feature on one of the bars
+bars2.LabelsOnTop = true;
+
+// give each bar a label and style it to demonstrate the effect
+static void StyleBar(ScottPlot.Plottables.BarPlot barPlot, double xOffset)
+{
+    barPlot.ValueLabelStyle.FontSize = 32;
+    for (int i = 0; i &lt; barPlot.Bars.Count; i++)
+    {
+        var bar = barPlot.Bars[i];
+        bar.Label = i.ToString();
+        bar.CenterLabel = true;
+        bar.Position = i * .5 + xOffset;
+        bar.FillColor = bar.FillColor.WithAlpha(.9);
+    }
+}
+
+StyleBar(bars1, 0);
+StyleBar(bars2, 4);
+
+myPlot.Add.Text("Default", 0, 6);
+myPlot.Add.Text("LabelsOnTop", 4, 6);
+
+myPlot.HideGrid();
+
+myPlot.SavePng("demo.png", 400, 300);
+{{< /recipe-sp5 >}}
+
+<hr class='my-5 invisible'>
+
+
+
+<div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Bar Positioning</h1>
-<a href='/cookbook/5.0/Bar/BarPosition' target='_blank'>
+<a href='/cookbook/5/Bar/BarPosition' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 The exact position and size of each bar may be customized.
 
-[![](/cookbook/5.0/images/BarPosition.png?250126165944)](/cookbook/5.0/images/BarPosition.png?250126165944)
+[![](/cookbook/5/images/BarPosition.png?251011113742)](/cookbook/5/images/BarPosition.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs" imageUrl="/cookbook/5.0/images/BarPosition.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs" imageUrl="/cookbook/5/images/BarPosition.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 ScottPlot.Bar[] bars =
 {
@@ -178,16 +229,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Bars with Error</h1>
-<a href='/cookbook/5.0/Bar/BarWithError' target='_blank'>
+<a href='/cookbook/5/Bar/BarWithError' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Bars can have errorbars.
 
-[![](/cookbook/5.0/images/BarWithError.png?250126165944)](/cookbook/5.0/images/BarWithError.png?250126165944)
+[![](/cookbook/5/images/BarWithError.png?251011113742)](/cookbook/5/images/BarWithError.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs" imageUrl="/cookbook/5.0/images/BarWithError.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs" imageUrl="/cookbook/5/images/BarWithError.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 ScottPlot.Bar[] bars =
 {
@@ -211,16 +262,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Bars with Labeled Ticks</h1>
-<a href='/cookbook/5.0/Bar/BarTickLabels' target='_blank'>
+<a href='/cookbook/5/Bar/BarTickLabels' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Bars can be labeled by manually specifying axis tick mark positions and labels.
 
-[![](/cookbook/5.0/images/BarTickLabels.png?250126165944)](/cookbook/5.0/images/BarTickLabels.png?250126165944)
+[![](/cookbook/5/images/BarTickLabels.png?251011113742)](/cookbook/5/images/BarTickLabels.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs" imageUrl="/cookbook/5.0/images/BarTickLabels.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs" imageUrl="/cookbook/5/images/BarTickLabels.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Bar(position: 1, value: 5, error: 1);
 myPlot.Add.Bar(position: 2, value: 7, error: 2);
@@ -251,16 +302,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Bar Fill Style</h1>
-<a href='/cookbook/5.0/Bar/BarFillStyle' target='_blank'>
+<a href='/cookbook/5/Bar/BarFillStyle' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Each bar may be individually styled.
 
-[![](/cookbook/5.0/images/BarFillStyle.png?250126165944)](/cookbook/5.0/images/BarFillStyle.png?250126165944)
+[![](/cookbook/5/images/BarFillStyle.png?251011113742)](/cookbook/5/images/BarFillStyle.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs" imageUrl="/cookbook/5.0/images/BarFillStyle.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs" imageUrl="/cookbook/5/images/BarFillStyle.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 // add bars with sample data
 double[] values = { 3, 7, 9 };
@@ -294,16 +345,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Customized Bar Plot</h1>
-<a href='/cookbook/5.0/Bar/BarCustomSingle' target='_blank'>
+<a href='/cookbook/5/Bar/BarCustomSingle' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Ultimate control of bar plot styling and positioning may be achieved by creating each bar individually, styling it as desired, and setting its exact size and location. This level of customization may be used to create extremely advanced stacked or grouped bar plots.
 
-[![](/cookbook/5.0/images/BarCustomSingle.png?250126165944)](/cookbook/5.0/images/BarCustomSingle.png?250126165944)
+[![](/cookbook/5/images/BarCustomSingle.png?251011113742)](/cookbook/5/images/BarCustomSingle.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs" imageUrl="/cookbook/5.0/images/BarCustomSingle.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs" imageUrl="/cookbook/5/images/BarCustomSingle.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 ScottPlot.Bar bar1 = new()
 {
@@ -339,16 +390,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Stacked Bar Plot</h1>
-<a href='/cookbook/5.0/Bar/BarStackVertically' target='_blank'>
+<a href='/cookbook/5/Bar/BarStackVertically' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Bars can be positioned on top of each other.
 
-[![](/cookbook/5.0/images/BarStackVertically.png?250126165944)](/cookbook/5.0/images/BarStackVertically.png?250126165944)
+[![](/cookbook/5/images/BarStackVertically.png?251011113742)](/cookbook/5/images/BarStackVertically.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs" imageUrl="/cookbook/5.0/images/BarStackVertically.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs" imageUrl="/cookbook/5/images/BarStackVertically.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 ScottPlot.Palettes.Category10 palette = new();
 
@@ -389,16 +440,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Grouped Bar Plot</h1>
-<a href='/cookbook/5.0/Bar/GroupedBarPlot' target='_blank'>
+<a href='/cookbook/5/Bar/GroupedBarPlot' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Bars can be grouped by position and color.
 
-[![](/cookbook/5.0/images/GroupedBarPlot.png?250126165944)](/cookbook/5.0/images/GroupedBarPlot.png?250126165944)
+[![](/cookbook/5/images/GroupedBarPlot.png?251011113742)](/cookbook/5/images/GroupedBarPlot.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs" imageUrl="/cookbook/5.0/images/GroupedBarPlot.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs" imageUrl="/cookbook/5/images/GroupedBarPlot.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 ScottPlot.Palettes.Category10 palette = new();
 
@@ -452,16 +503,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Horizontal Bar Plot</h1>
-<a href='/cookbook/5.0/Bar/HorizontalBar' target='_blank'>
+<a href='/cookbook/5/Bar/HorizontalBar' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Bar plots can be displayed horizontally.
 
-[![](/cookbook/5.0/images/HorizontalBar.png?250126165944)](/cookbook/5.0/images/HorizontalBar.png?250126165944)
+[![](/cookbook/5/images/HorizontalBar.png?251011113742)](/cookbook/5/images/HorizontalBar.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs" imageUrl="/cookbook/5.0/images/HorizontalBar.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs" imageUrl="/cookbook/5/images/HorizontalBar.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 ScottPlot.Bar[] bars =
 {
@@ -485,16 +536,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Stacked Bar Chart</h1>
-<a href='/cookbook/5.0/Bar/StackedBars' target='_blank'>
+<a href='/cookbook/5/Bar/StackedBars' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Bars can be stacked to present data in groups.
 
-[![](/cookbook/5.0/images/StackedBars.png?250126165944)](/cookbook/5.0/images/StackedBars.png?250126165944)
+[![](/cookbook/5/images/StackedBars.png?251011113742)](/cookbook/5/images/StackedBars.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs" imageUrl="/cookbook/5.0/images/StackedBars.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs" imageUrl="/cookbook/5/images/StackedBars.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 string[] categoryNames = { "Phones", "Computers", "Tablets" };
 Color[] categoryColors = { Colors.C0, Colors.C1, Colors.C2 };
@@ -554,16 +605,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Bar with Custom Text</h1>
-<a href='/cookbook/5.0/Bar/BarWithCustomText' target='_blank'>
+<a href='/cookbook/5/Bar/BarWithCustomText' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Full control over bar labels may be achieved by placing fully customizable text objects on top of bars according to their dimensions.
 
-[![](/cookbook/5.0/images/BarWithCustomText.png?250126165944)](/cookbook/5.0/images/BarWithCustomText.png?250126165944)
+[![](/cookbook/5/images/BarWithCustomText.png?251011113742)](/cookbook/5/images/BarWithCustomText.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs" imageUrl="/cookbook/5.0/images/BarWithCustomText.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs" imageUrl="/cookbook/5/images/BarWithCustomText.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 ScottPlot.Palettes.Category10 palette = new();
 
@@ -612,16 +663,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Range Chart</h1>
-<a href='/cookbook/5.0/Bar/RangeChart' target='_blank'>
+<a href='/cookbook/5/Bar/RangeChart' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 A range chart displays a discrete set of named value ranges
 
-[![](/cookbook/5.0/images/RangeChart.png?250126165944)](/cookbook/5.0/images/RangeChart.png?250126165944)
+[![](/cookbook/5/images/RangeChart.png?251011113742)](/cookbook/5/images/RangeChart.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs" imageUrl="/cookbook/5.0/images/RangeChart.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs" imageUrl="/cookbook/5/images/RangeChart.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 List&lt;(string name, CoordinateRange range)&gt; ranges =
 [
@@ -659,16 +710,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Horizontal Range Chart</h1>
-<a href='/cookbook/5.0/Bar/RangeChartHozontal' target='_blank'>
+<a href='/cookbook/5/Bar/RangeChartHozontal' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Range charts may be created using horizontally oriented bars
 
-[![](/cookbook/5.0/images/RangeChartHozontal.png?250126165944)](/cookbook/5.0/images/RangeChartHozontal.png?250126165944)
+[![](/cookbook/5/images/RangeChartHozontal.png?251011113742)](/cookbook/5/images/RangeChartHozontal.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs" imageUrl="/cookbook/5.0/images/RangeChartHozontal.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs" imageUrl="/cookbook/5/images/RangeChartHozontal.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 List&lt;(string name, CoordinateRange range)&gt; ranges =
 [
@@ -690,16 +741,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Stacked Range Chart</h1>
-<a href='/cookbook/5.0/Bar/StackedRangeChart' target='_blank'>
+<a href='/cookbook/5/Bar/StackedRangeChart' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Stacked range charts depict multiple ranges for a discrete set of items
 
-[![](/cookbook/5.0/images/StackedRangeChart.png?250126165944)](/cookbook/5.0/images/StackedRangeChart.png?250126165944)
+[![](/cookbook/5/images/StackedRangeChart.png?251011113742)](/cookbook/5/images/StackedRangeChart.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs" imageUrl="/cookbook/5.0/images/StackedRangeChart.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs" imageUrl="/cookbook/5/images/StackedRangeChart.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 // prepare a custom color palette
 string[] colorCodes = ["#3369cc", "#95bce3", "#f4a861", "#fd8d00"];
@@ -750,16 +801,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Stacked Horizontal Range Chart</h1>
-<a href='/cookbook/5.0/Bar/StackedRangeHorizontal' target='_blank'>
+<a href='/cookbook/5/Bar/StackedRangeHorizontal' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Horizontally oriented stacked range charts may be created
 
-[![](/cookbook/5.0/images/StackedRangeHorizontal.png?250126165944)](/cookbook/5.0/images/StackedRangeHorizontal.png?250126165944)
+[![](/cookbook/5/images/StackedRangeHorizontal.png?251011113742)](/cookbook/5/images/StackedRangeHorizontal.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs" imageUrl="/cookbook/5.0/images/StackedRangeHorizontal.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs" imageUrl="/cookbook/5/images/StackedRangeHorizontal.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 List&lt;(string name, double[] edges)&gt; ranges =
 [

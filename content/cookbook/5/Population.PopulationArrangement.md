@@ -1,13 +1,13 @@
 ---
-Title: Population Arrangement - ScottPlot 5.0 Cookbook
+Title: Population Arrangement - ScottPlot 5 Cookbook
 Description: The user may customize where data is drawn relative to the bar or box. Centering everything can be used to achieve an effect where data points are drawn over the bar or box.
-URL: /cookbook/5.0/Population/PopulationArrangement/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Population Plot", "Population Arrangement"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Population", "/cookbook/5.0/Population/PopulationArrangement"]
-Date: 2025-01-26
-Version: ScottPlot 5.0.55
-Version: ScottPlot 5.0.55
-SearchUrl: "/cookbook/5.0/search/"
+URL: /cookbook/5/Population/PopulationArrangement/
+BreadcrumbNames: ["ScottPlot 5 Cookbook", "Population Plot", "Population Arrangement"]
+BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/Population", "/cookbook/5/Population/PopulationArrangement"]
+Date: 2025-10-11
+Version: ScottPlot 5.1.57
+Version: ScottPlot 5.1.57
+SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
 
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 The user may customize where data is drawn relative to the bar or box. Centering everything can be used to achieve an effect where data points are drawn over the bar or box.
 
-[![](/cookbook/5.0/images/PopulationArrangement.png?250126165944)](/cookbook/5.0/images/PopulationArrangement.png?250126165944)
+[![](/cookbook/5/images/PopulationArrangement.png?251011113742)](/cookbook/5/images/PopulationArrangement.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Population.cs" imageUrl="/cookbook/5.0/images/PopulationArrangement.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Population.cs" imageUrl="/cookbook/5/images/PopulationArrangement.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 for (int i = 0; i &lt; 5; i++)
 {
@@ -43,6 +43,6 @@ myPlot.HideGrid();
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
-<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5.0/Population'>Population Plot</a> category</div>
+<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5/Population'>Population Plot</a> category</div>
 
 

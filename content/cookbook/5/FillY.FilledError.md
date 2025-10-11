@@ -1,13 +1,13 @@
 ---
-Title: Filled Error - ScottPlot 5.0 Cookbook
+Title: Filled Error - ScottPlot 5 Cookbook
 Description: A line plot with shaded error range may be achieved by layering a FillY beneath a ScatterLine.
-URL: /cookbook/5.0/FillY/FilledError/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "FillY plot", "Filled Error"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/FillY", "/cookbook/5.0/FillY/FilledError"]
-Date: 2025-01-26
-Version: ScottPlot 5.0.55
-Version: ScottPlot 5.0.55
-SearchUrl: "/cookbook/5.0/search/"
+URL: /cookbook/5/FillY/FilledError/
+BreadcrumbNames: ["ScottPlot 5 Cookbook", "FillY plot", "Filled Error"]
+BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/FillY", "/cookbook/5/FillY/FilledError"]
+Date: 2025-10-11
+Version: ScottPlot 5.1.57
+Version: ScottPlot 5.1.57
+SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
 
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 A line plot with shaded error range may be achieved by layering a FillY beneath a ScatterLine.
 
-[![](/cookbook/5.0/images/FilledError.png?250126165944)](/cookbook/5.0/images/FilledError.png?250126165944)
+[![](/cookbook/5/images/FilledError.png?251011113742)](/cookbook/5/images/FilledError.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/FillY.cs" imageUrl="/cookbook/5.0/images/FilledError.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/FillY.cs" imageUrl="/cookbook/5/images/FilledError.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 // create sample Y values
 double[] xs = Generate.Range(0, Math.PI, 0.05);
@@ -51,6 +51,6 @@ myPlot.Legend.Alignment = Alignment.UpperRight;
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
-<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5.0/FillY'>FillY plot</a> category</div>
+<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5/FillY'>FillY plot</a> category</div>
 
 

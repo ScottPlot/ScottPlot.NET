@@ -1,13 +1,13 @@
 ---
-Title: Background Colors - ScottPlot 5.0 Cookbook
+Title: Background Colors - ScottPlot 5 Cookbook
 Description: Background color for the entire figure or just the data area may be individually controlled. When using dark figure backgrounds it may be necessary to configure axes to use light colors
-URL: /cookbook/5.0/Styling/BackgroundColors/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Styling Plots", "Background Colors"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Styling", "/cookbook/5.0/Styling/BackgroundColors"]
-Date: 2025-01-26
-Version: ScottPlot 5.0.55
-Version: ScottPlot 5.0.55
-SearchUrl: "/cookbook/5.0/search/"
+URL: /cookbook/5/Styling/BackgroundColors/
+BreadcrumbNames: ["ScottPlot 5 Cookbook", "Styling Plots", "Background Colors"]
+BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/Styling", "/cookbook/5/Styling/BackgroundColors"]
+Date: 2025-10-11
+Version: ScottPlot 5.1.57
+Version: ScottPlot 5.1.57
+SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
 
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Background color for the entire figure or just the data area may be individually controlled. When using dark figure backgrounds it may be necessary to configure axes to use light colors
 
-[![](/cookbook/5.0/images/BackgroundColors.png?250126165944)](/cookbook/5.0/images/BackgroundColors.png?250126165944)
+[![](/cookbook/5/images/BackgroundColors.png?251011113742)](/cookbook/5/images/BackgroundColors.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs" imageUrl="/cookbook/5.0/images/BackgroundColors.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs" imageUrl="/cookbook/5/images/BackgroundColors.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 // setup a plot with sample data
 myPlot.Add.Signal(Generate.Sin(51));
@@ -39,6 +39,6 @@ myPlot.Axes.Color(Colors.Navy.Lighten(0.8));
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
-<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5.0/Styling'>Styling Plots</a> category</div>
+<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5/Styling'>Styling Plots</a> category</div>
 
 

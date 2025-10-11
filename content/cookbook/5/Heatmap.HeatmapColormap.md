@@ -1,26 +1,26 @@
 ---
-Title: Heatmap with custom Colormap - ScottPlot 5.0 Cookbook
+Title: Heatmap with Custom Colormap - ScottPlot 5 Cookbook
 Description: A heatmap's Colormap is the logic used to convert from cell value to cell color and they can set by the user. ScottPlot comes with many common colormaps, but users may implement IColormap and apply their own. A colorbar can be added to indicate which colors map to which values.
-URL: /cookbook/5.0/Heatmap/HeatmapColormap/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Heatmap", "Heatmap with custom Colormap"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Heatmap", "/cookbook/5.0/Heatmap/HeatmapColormap"]
-Date: 2025-01-26
-Version: ScottPlot 5.0.55
-Version: ScottPlot 5.0.55
-SearchUrl: "/cookbook/5.0/search/"
+URL: /cookbook/5/Heatmap/HeatmapColormap/
+BreadcrumbNames: ["ScottPlot 5 Cookbook", "Heatmap", "Heatmap with Custom Colormap"]
+BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/Heatmap", "/cookbook/5/Heatmap/HeatmapColormap"]
+Date: 2025-10-11
+Version: ScottPlot 5.1.57
+Version: ScottPlot 5.1.57
+SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
 
 
 <div class='d-flex align-items-center mt-5'>
-<h1 class='me-2 text-dark my-0 border-0'>Heatmap with custom Colormap</h1>
+<h1 class='me-2 text-dark my-0 border-0'>Heatmap with Custom Colormap</h1>
 </div>
 
 A heatmap's Colormap is the logic used to convert from cell value to cell color and they can set by the user. ScottPlot comes with many common colormaps, but users may implement IColormap and apply their own. A colorbar can be added to indicate which colors map to which values.
 
-[![](/cookbook/5.0/images/HeatmapColormap.png?250126165944)](/cookbook/5.0/images/HeatmapColormap.png?250126165944)
+[![](/cookbook/5/images/HeatmapColormap.png?251011113742)](/cookbook/5/images/HeatmapColormap.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Heatmap.cs" imageUrl="/cookbook/5.0/images/HeatmapColormap.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Heatmap.cs" imageUrl="/cookbook/5/images/HeatmapColormap.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 double[,] data = SampleData.MonaLisa();
 
@@ -32,6 +32,6 @@ myPlot.Add.ColorBar(hm1);
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
-<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5.0/Heatmap'>Heatmap</a> category</div>
+<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5/Heatmap'>Heatmap</a> category</div>
 
 

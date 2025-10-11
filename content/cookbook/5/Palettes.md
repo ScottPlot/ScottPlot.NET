@@ -1,15 +1,15 @@
 ---
-title: Color Palettes - ScottPlot 5.0
-description: Color palettes available in ScottPlot version 5.0
-url: /cookbook/5.0/palettes/
+title: Color Palettes - ScottPlot 5
+description: Color palettes available in ScottPlot version 5
+url: /cookbook/5/palettes/
 type: single
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Palettes"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/palettes/"]
-date: 2025-01-26
-jsFiles: ["https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js", "/js/cookbook-search-5.0.js"]
+BreadcrumbNames: ["ScottPlot 5 Cookbook", "Palettes"]
+BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/palettes/"]
+date: 2025-10-11
+jsFiles: ["https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js", "/js/cookbook-search-5.js"]
 ---
 
-# ScottPlot 5.0 Color Palettes
+# ScottPlot 5 Color Palettes
 
 ## Category 10
 
@@ -122,6 +122,24 @@ IPalette palette = new ScottPlot.Palettes.ColorblindFriendly();
 <div class='px-3 py-2 fw-semibold' style='background-color: #0072B2; color: white'>palette.GetColor(5) returns #0072B2</div>
 <div class='px-3 py-2 fw-semibold' style='background-color: #D55E00; color: white'>palette.GetColor(6) returns #D55E00</div>
 <div class='px-3 py-2 fw-semibold' style='background-color: #CC79A7; color: black'>palette.GetColor(7) returns #CC79A7</div>
+
+
+## Colorblind Friendly (inverted)
+
+A set of 8 colorblind-friendly colors from Bang Wong's Nature Methods paper https://www.nature.com/articles/nmeth.1618.pdf
+
+```cs
+IPalette palette = new ScottPlot.Palettes.ColorblindFriendlyDark();
+```
+
+<div class='px-3 py-2 fw-semibold' style='background-color: #FFFFFF; color: black'>palette.GetColor(0) returns #FFFFFF</div>
+<div class='px-3 py-2 fw-semibold' style='background-color: #1960FF; color: black'>palette.GetColor(1) returns #1960FF</div>
+<div class='px-3 py-2 fw-semibold' style='background-color: #A94B16; color: white'>palette.GetColor(2) returns #A94B16</div>
+<div class='px-3 py-2 fw-semibold' style='background-color: #FF618C; color: black'>palette.GetColor(3) returns #FF618C</div>
+<div class='px-3 py-2 fw-semibold' style='background-color: #0F1BBD; color: white'>palette.GetColor(4) returns #0F1BBD</div>
+<div class='px-3 py-2 fw-semibold' style='background-color: #FF8D4D; color: black'>palette.GetColor(5) returns #FF8D4D</div>
+<div class='px-3 py-2 fw-semibold' style='background-color: #2AA1FF; color: black'>palette.GetColor(6) returns #2AA1FF</div>
+<div class='px-3 py-2 fw-semibold' style='background-color: #338658; color: white'>palette.GetColor(7) returns #338658</div>
 
 
 ## Dark

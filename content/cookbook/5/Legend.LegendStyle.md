@@ -1,13 +1,13 @@
 ---
-Title: Legend Customization - ScottPlot 5.0 Cookbook
+Title: Legend Customization - ScottPlot 5 Cookbook
 Description: Access the Legend object directly for advanced customization options.
-URL: /cookbook/5.0/Legend/LegendStyle/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Legends", "Legend Customization"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Legend", "/cookbook/5.0/Legend/LegendStyle"]
-Date: 2025-01-26
-Version: ScottPlot 5.0.55
-Version: ScottPlot 5.0.55
-SearchUrl: "/cookbook/5.0/search/"
+URL: /cookbook/5/Legend/LegendStyle/
+BreadcrumbNames: ["ScottPlot 5 Cookbook", "Legends", "Legend Customization"]
+BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/Legend", "/cookbook/5/Legend/LegendStyle"]
+Date: 2025-10-11
+Version: ScottPlot 5.1.57
+Version: ScottPlot 5.1.57
+SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
 
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Access the Legend object directly for advanced customization options.
 
-[![](/cookbook/5.0/images/LegendStyle.png?250126165944)](/cookbook/5.0/images/LegendStyle.png?250126165944)
+[![](/cookbook/5/images/LegendStyle.png?251011113742)](/cookbook/5/images/LegendStyle.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Legend.cs" imageUrl="/cookbook/5.0/images/LegendStyle.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Legend.cs" imageUrl="/cookbook/5/images/LegendStyle.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 var sig1 = myPlot.Add.Signal(Generate.Sin(51));
 sig1.LegendText = "Sin";
@@ -38,12 +38,12 @@ myPlot.Legend.BackgroundColor = Colors.LightBlue;
 myPlot.Legend.ShadowColor = Colors.Blue.WithOpacity(.2);
 myPlot.Legend.ShadowOffset = new(10, 10);
 
-myPlot.Legend.FontSize = 32;
+myPlot.Legend.FontSize = 22;
 myPlot.Legend.FontName = Fonts.Serif;
 
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
-<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5.0/Legend'>Legends</a> category</div>
+<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5/Legend'>Legends</a> category</div>
 
 

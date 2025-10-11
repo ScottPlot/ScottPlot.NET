@@ -1,13 +1,13 @@
 ---
-Title: ErrorBar Values - ScottPlot 5.0 Cookbook
+Title: ErrorBar Values - ScottPlot 5 Cookbook
 Description: Error size can be set for all dimensions.
-URL: /cookbook/5.0/ErrorBar/CustomErrors/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Error Bars", "ErrorBar Values"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/ErrorBar", "/cookbook/5.0/ErrorBar/CustomErrors"]
-Date: 2025-01-26
-Version: ScottPlot 5.0.55
-Version: ScottPlot 5.0.55
-SearchUrl: "/cookbook/5.0/search/"
+URL: /cookbook/5/ErrorBar/CustomErrors/
+BreadcrumbNames: ["ScottPlot 5 Cookbook", "Error Bars", "ErrorBar Values"]
+BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/ErrorBar", "/cookbook/5/ErrorBar/CustomErrors"]
+Date: 2025-10-11
+Version: ScottPlot 5.1.57
+Version: ScottPlot 5.1.57
+SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
 
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Error size can be set for all dimensions.
 
-[![](/cookbook/5.0/images/CustomErrors.png?250126165944)](/cookbook/5.0/images/CustomErrors.png?250126165944)
+[![](/cookbook/5/images/CustomErrors.png?251011113742)](/cookbook/5/images/CustomErrors.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/ErrorBar.cs" imageUrl="/cookbook/5.0/images/CustomErrors.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/ErrorBar.cs" imageUrl="/cookbook/5/images/CustomErrors.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 int points = 10;
 
@@ -44,6 +44,6 @@ myPlot.Add.Plottable(eb);
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
-<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5.0/ErrorBar'>Error Bars</a> category</div>
+<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5/ErrorBar'>Error Bars</a> category</div>
 
 

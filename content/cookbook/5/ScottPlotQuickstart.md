@@ -1,13 +1,13 @@
 ---
-Title: Quickstart - ScottPlot 5.0 Cookbook
+Title: Quickstart - ScottPlot 5 Cookbook
 Description: A survey of basic functionality in ScottPlot 5
-URL: /cookbook/5.0/ScottPlotQuickstart/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Quickstart"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/ScottPlotQuickstart"]
-Date: 2025-01-26
-Version: ScottPlot 5.0.55
-Version: ScottPlot 5.0.55
-SearchUrl: "/cookbook/5.0/search/"
+URL: /cookbook/5/ScottPlotQuickstart/
+BreadcrumbNames: ["ScottPlot 5 Cookbook", "Quickstart"]
+BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/ScottPlotQuickstart"]
+Date: 2025-10-11
+Version: ScottPlot 5.1.57
+Version: ScottPlot 5.1.57
+SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
 
@@ -16,16 +16,16 @@ ShowEditLink: false
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Scatter Plot</h1>
-<a href='/cookbook/5.0/ScottPlotQuickstart/QuickstartScatter' target='_blank'>
+<a href='/cookbook/5/ScottPlotQuickstart/QuickstartScatter' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 A scatter plot can be used to display X/Y data points.
 
-[![](/cookbook/5.0/images/QuickstartScatter.png?250126165944)](/cookbook/5.0/images/QuickstartScatter.png?250126165944)
+[![](/cookbook/5/images/QuickstartScatter.png?251011113742)](/cookbook/5/images/QuickstartScatter.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Quickstart.cs" imageUrl="/cookbook/5.0/images/QuickstartScatter.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Quickstart.cs" imageUrl="/cookbook/5/images/QuickstartScatter.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 // create sample data
 double[] dataX = { 1, 2, 3, 4, 5 };
@@ -43,16 +43,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Customizing Plottables</h1>
-<a href='/cookbook/5.0/ScottPlotQuickstart/CustomizingPlottables' target='_blank'>
+<a href='/cookbook/5/ScottPlotQuickstart/CustomizingPlottables' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Most methods which add items to plots return the item that was added. Save the object that is returned and set its properties to customize it.
 
-[![](/cookbook/5.0/images/CustomizingPlottables.png?250126165944)](/cookbook/5.0/images/CustomizingPlottables.png?250126165944)
+[![](/cookbook/5/images/CustomizingPlottables.png?251011113742)](/cookbook/5/images/CustomizingPlottables.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Quickstart.cs" imageUrl="/cookbook/5.0/images/CustomizingPlottables.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Quickstart.cs" imageUrl="/cookbook/5/images/CustomizingPlottables.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 // create sample data
 double[] dataX = { 1, 2, 3, 4, 5 };
@@ -77,16 +77,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Signal Plot</h1>
-<a href='/cookbook/5.0/ScottPlotQuickstart/QuickstartSignal' target='_blank'>
+<a href='/cookbook/5/ScottPlotQuickstart/QuickstartSignal' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Signal plots display Y values at evenly spaced X positions. Signal plots should be used instead of Scatter plots whenever possible.
 
-[![](/cookbook/5.0/images/QuickstartSignal.png?250126165944)](/cookbook/5.0/images/QuickstartSignal.png?250126165944)
+[![](/cookbook/5/images/QuickstartSignal.png?251011113742)](/cookbook/5/images/QuickstartSignal.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Quickstart.cs" imageUrl="/cookbook/5.0/images/QuickstartSignal.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Quickstart.cs" imageUrl="/cookbook/5/images/QuickstartSignal.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 // create sample data
 double[] sin = Generate.Sin(51);
@@ -103,16 +103,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Signal Plot Performance</h1>
-<a href='/cookbook/5.0/ScottPlotQuickstart/SignalPerformance' target='_blank'>
+<a href='/cookbook/5/ScottPlotQuickstart/SignalPerformance' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Signal plots are so performant that they can interactively display millions of data points in real time.
 
-[![](/cookbook/5.0/images/SignalPerformance.png?250126165944)](/cookbook/5.0/images/SignalPerformance.png?250126165944)
+[![](/cookbook/5/images/SignalPerformance.png?251011113742)](/cookbook/5/images/SignalPerformance.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Quickstart.cs" imageUrl="/cookbook/5.0/images/SignalPerformance.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Quickstart.cs" imageUrl="/cookbook/5/images/SignalPerformance.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 // create sample data with one million points
 double[] data = Generate.RandomWalk(1_000_000);
@@ -129,16 +129,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Axis Labels</h1>
-<a href='/cookbook/5.0/ScottPlotQuickstart/QuickstartAxisLabels' target='_blank'>
+<a href='/cookbook/5/ScottPlotQuickstart/QuickstartAxisLabels' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Plots have helper methods for quickly setting axis labels. Refer to other cookbook pages for additional axis customization options.
 
-[![](/cookbook/5.0/images/QuickstartAxisLabels.png?250126165944)](/cookbook/5.0/images/QuickstartAxisLabels.png?250126165944)
+[![](/cookbook/5/images/QuickstartAxisLabels.png?251011113742)](/cookbook/5/images/QuickstartAxisLabels.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Quickstart.cs" imageUrl="/cookbook/5.0/images/QuickstartAxisLabels.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Quickstart.cs" imageUrl="/cookbook/5/images/QuickstartAxisLabels.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 // plot sample data
 myPlot.Add.Signal(Generate.Sin(51));

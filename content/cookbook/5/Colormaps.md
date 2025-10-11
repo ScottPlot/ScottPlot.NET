@@ -1,15 +1,15 @@
 ---
-title: Colormaps - ScottPlot 5.0
-description: Colormaps available in ScottPlot version 5.0
-url: /cookbook/5.0/colormaps/
+title: Colormaps - ScottPlot 5
+description: Colormaps available in ScottPlot 5
+url: /cookbook/5/colormaps/
 type: single
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Colormaps"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/colormaps/"]
-date: 2025-01-26
-jsFiles: ["https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js", "/js/cookbook-search-5.0.js"]
+BreadcrumbNames: ["ScottPlot 5 Cookbook", "Colormaps"]
+BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/colormaps/"]
+date: 2025-10-11
+jsFiles: ["https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js", "/js/cookbook-search-5.js"]
 ---
 
-# ScottPlot 5.0 Colormaps
+# ScottPlot 5 Colormaps
 
 ### Viridis
 

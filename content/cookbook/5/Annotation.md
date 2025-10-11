@@ -1,13 +1,13 @@
 ---
-Title: Annotation - ScottPlot 5.0 Cookbook
+Title: Annotation - ScottPlot 5 Cookbook
 Description: Annotations are always-visible text labels positioned over the data area.
-URL: /cookbook/5.0/Annotation/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Annotation"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Annotation"]
-Date: 2025-01-26
-Version: ScottPlot 5.0.55
-Version: ScottPlot 5.0.55
-SearchUrl: "/cookbook/5.0/search/"
+URL: /cookbook/5/Annotation/
+BreadcrumbNames: ["ScottPlot 5 Cookbook", "Annotation"]
+BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/Annotation"]
+Date: 2025-10-11
+Version: ScottPlot 5.1.57
+Version: ScottPlot 5.1.57
+SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
 
@@ -16,16 +16,16 @@ ShowEditLink: false
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Annotation Quickstart</h1>
-<a href='/cookbook/5.0/Annotation/AnnotationQuickstart' target='_blank'>
+<a href='/cookbook/5/Annotation/AnnotationQuickstart' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Annotations are labels you can place on the data area of a plot. Unlike Text added to the plot (which is placed in coordinate units on the axes), Annotations are positioned relative to the data area (in pixel units) and do not move as the plot is panned and zoomed.
 
-[![](/cookbook/5.0/images/AnnotationQuickstart.png?250126165944)](/cookbook/5.0/images/AnnotationQuickstart.png?250126165944)
+[![](/cookbook/5/images/AnnotationQuickstart.png?251011113742)](/cookbook/5/images/AnnotationQuickstart.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Annotation.cs" imageUrl="/cookbook/5.0/images/AnnotationQuickstart.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Annotation.cs" imageUrl="/cookbook/5/images/AnnotationQuickstart.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin());
 myPlot.Add.Signal(Generate.Cos());
@@ -41,16 +41,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Annotation Customization</h1>
-<a href='/cookbook/5.0/Annotation/AnnotationCustomize' target='_blank'>
+<a href='/cookbook/5/Annotation/AnnotationCustomize' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Annotations can be extensively customized.
 
-[![](/cookbook/5.0/images/AnnotationCustomize.png?250126165944)](/cookbook/5.0/images/AnnotationCustomize.png?250126165944)
+[![](/cookbook/5/images/AnnotationCustomize.png?251011113742)](/cookbook/5/images/AnnotationCustomize.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Annotation.cs" imageUrl="/cookbook/5.0/images/AnnotationCustomize.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Annotation.cs" imageUrl="/cookbook/5/images/AnnotationCustomize.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin());
 myPlot.Add.Signal(Generate.Cos());
@@ -75,16 +75,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Annotation Positions</h1>
-<a href='/cookbook/5.0/Annotation/AnnotationPositions' target='_blank'>
+<a href='/cookbook/5/Annotation/AnnotationPositions' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Annotations are aligned with the data area.
 
-[![](/cookbook/5.0/images/AnnotationPositions.png?250126165944)](/cookbook/5.0/images/AnnotationPositions.png?250126165944)
+[![](/cookbook/5/images/AnnotationPositions.png?251011113742)](/cookbook/5/images/AnnotationPositions.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Annotation.cs" imageUrl="/cookbook/5.0/images/AnnotationPositions.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Annotation.cs" imageUrl="/cookbook/5/images/AnnotationPositions.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 foreach (Alignment alignment in Enum.GetValues(typeof(Alignment)))
 {

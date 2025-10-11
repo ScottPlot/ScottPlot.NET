@@ -1,13 +1,13 @@
 ---
-Title: Bracket - ScottPlot 5.0 Cookbook
+Title: Bracket - ScottPlot 5 Cookbook
 Description: Brackets annotate a range along a line in coordinate space
-URL: /cookbook/5.0/Bracket/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Bracket"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Bracket"]
-Date: 2025-01-26
-Version: ScottPlot 5.0.55
-Version: ScottPlot 5.0.55
-SearchUrl: "/cookbook/5.0/search/"
+URL: /cookbook/5/Bracket/
+BreadcrumbNames: ["ScottPlot 5 Cookbook", "Bracket"]
+BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/Bracket"]
+Date: 2025-10-11
+Version: ScottPlot 5.1.57
+Version: ScottPlot 5.1.57
+SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
 
@@ -16,16 +16,16 @@ ShowEditLink: false
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Bracket</h1>
-<a href='/cookbook/5.0/Bracket/BracketQuickstart' target='_blank'>
+<a href='/cookbook/5/Bracket/BracketQuickstart' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Brackets are useful for annotating linear ranges of data.
 
-[![](/cookbook/5.0/images/BracketQuickstart.png?250126165944)](/cookbook/5.0/images/BracketQuickstart.png?250126165944)
+[![](/cookbook/5/images/BracketQuickstart.png?251011113742)](/cookbook/5/images/BracketQuickstart.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bracket.cs" imageUrl="/cookbook/5.0/images/BracketQuickstart.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bracket.cs" imageUrl="/cookbook/5/images/BracketQuickstart.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin());
 myPlot.Add.Signal(Generate.Cos());

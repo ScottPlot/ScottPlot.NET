@@ -1,13 +1,13 @@
 ---
-Title: Financial Plot - ScottPlot 5.0 Cookbook
+Title: Financial Plot - ScottPlot 5 Cookbook
 Description: Finance plots display price data binned into time ranges
-URL: /cookbook/5.0/Finance/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Financial Plot"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Finance"]
-Date: 2025-01-26
-Version: ScottPlot 5.0.55
-Version: ScottPlot 5.0.55
-SearchUrl: "/cookbook/5.0/search/"
+URL: /cookbook/5/Finance/
+BreadcrumbNames: ["ScottPlot 5 Cookbook", "Financial Plot"]
+BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/Finance"]
+Date: 2025-10-11
+Version: ScottPlot 5.1.57
+Version: ScottPlot 5.1.57
+SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
 
@@ -16,16 +16,16 @@ ShowEditLink: false
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Candlestick Chart</h1>
-<a href='/cookbook/5.0/Finance/Candlestick' target='_blank'>
+<a href='/cookbook/5/Finance/Candlestick' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Candlestick charts use symbols to display price data. The rectangle indicates open and close prices, and the center line indicates minimum and maximum price for the given time period. Color indicates whether the price increased or decreased between open and close.
 
-[![](/cookbook/5.0/images/Candlestick.png?250126165944)](/cookbook/5.0/images/Candlestick.png?250126165944)
+[![](/cookbook/5/images/Candlestick.png?251011113742)](/cookbook/5/images/Candlestick.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Finance.cs" imageUrl="/cookbook/5.0/images/Candlestick.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Finance.cs" imageUrl="/cookbook/5/images/Candlestick.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 var prices = Generate.RandomOHLCs(30);
 myPlot.Add.Candlestick(prices);
@@ -40,16 +40,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>OHLC Chart</h1>
-<a href='/cookbook/5.0/Finance/OhlcChart' target='_blank'>
+<a href='/cookbook/5/Finance/OhlcChart' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 OHLC charts use symbols to display price data (open, high, low, and close) for specific time ranges.
 
-[![](/cookbook/5.0/images/OhlcChart.png?250126165944)](/cookbook/5.0/images/OhlcChart.png?250126165944)
+[![](/cookbook/5/images/OhlcChart.png?251011113742)](/cookbook/5/images/OhlcChart.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Finance.cs" imageUrl="/cookbook/5.0/images/OhlcChart.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Finance.cs" imageUrl="/cookbook/5/images/OhlcChart.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 var prices = Generate.RandomOHLCs(30);
 myPlot.Add.OHLC(prices);
@@ -64,16 +64,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Finance Chart with Custom Time Bins</h1>
-<a href='/cookbook/5.0/Finance/FinanceChartBins' target='_blank'>
+<a href='/cookbook/5/Finance/FinanceChartBins' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Finance charts can display price range information over arbitrary time scales.
 
-[![](/cookbook/5.0/images/FinanceChartBins.png?250126165944)](/cookbook/5.0/images/FinanceChartBins.png?250126165944)
+[![](/cookbook/5/images/FinanceChartBins.png?251011113742)](/cookbook/5/images/FinanceChartBins.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Finance.cs" imageUrl="/cookbook/5.0/images/FinanceChartBins.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Finance.cs" imageUrl="/cookbook/5/images/FinanceChartBins.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 DateTime timeOpen = new(1985, 09, 24, 9, 30, 0); // 9:30 AM
 DateTime timeClose = new(1985, 09, 24, 16, 0, 0); // 4:00 PM
@@ -101,16 +101,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Price on Right</h1>
-<a href='/cookbook/5.0/Finance/FinanceRightAxis' target='_blank'>
+<a href='/cookbook/5/Finance/FinanceRightAxis' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Finance charts can be created which display price information on the right axis.
 
-[![](/cookbook/5.0/images/FinanceRightAxis.png?250126165944)](/cookbook/5.0/images/FinanceRightAxis.png?250126165944)
+[![](/cookbook/5/images/FinanceRightAxis.png?251011113742)](/cookbook/5/images/FinanceRightAxis.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Finance.cs" imageUrl="/cookbook/5.0/images/FinanceRightAxis.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Finance.cs" imageUrl="/cookbook/5/images/FinanceRightAxis.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 // add candlesticks to the plot
 var prices = Generate.RandomOHLCs(30);
@@ -132,16 +132,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Simple Moving Average</h1>
-<a href='/cookbook/5.0/Finance/FinanceSma' target='_blank'>
+<a href='/cookbook/5/Finance/FinanceSma' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Tools exist for creating simple moving average (SMA) curves and displaying them next to finanial data.
 
-[![](/cookbook/5.0/images/FinanceSma.png?250126165944)](/cookbook/5.0/images/FinanceSma.png?250126165944)
+[![](/cookbook/5/images/FinanceSma.png?251011113742)](/cookbook/5/images/FinanceSma.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Finance.cs" imageUrl="/cookbook/5.0/images/FinanceSma.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Finance.cs" imageUrl="/cookbook/5/images/FinanceSma.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 // generate and plot time series price data
 var prices = Generate.RandomOHLCs(75);
@@ -171,16 +171,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Bollinger Bands</h1>
-<a href='/cookbook/5.0/Finance/FinanceBollinger' target='_blank'>
+<a href='/cookbook/5/Finance/FinanceBollinger' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Tools exist for creating Bollinger Bands which display weighted moving mean and variance for time series financial data.
 
-[![](/cookbook/5.0/images/FinanceBollinger.png?250126165944)](/cookbook/5.0/images/FinanceBollinger.png?250126165944)
+[![](/cookbook/5/images/FinanceBollinger.png?251011113742)](/cookbook/5/images/FinanceBollinger.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Finance.cs" imageUrl="/cookbook/5.0/images/FinanceBollinger.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Finance.cs" imageUrl="/cookbook/5/images/FinanceBollinger.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 // generate and plot time series price data
 var prices = Generate.RandomOHLCs(100);
@@ -216,16 +216,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Candlestick Chart Without Gaps</h1>
-<a href='/cookbook/5.0/Finance/FinancialPlotWithoutGaps' target='_blank'>
+<a href='/cookbook/5/Finance/FinancialPlotWithoutGaps' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 When the DateTimes stored in OHLC objects are used to determine the horizontal position of candlesticks, periods without data like weekends and holidays appear as gaps in the plot. Enabling sequential mode causes the plot to ignore the OHLC DateTimes and display candles at integer positions starting from zero. Users can customize the tick generator to display dates instead of numbers on the horizontal axis if desired.
 
-[![](/cookbook/5.0/images/FinancialPlotWithoutGaps.png?250126165944)](/cookbook/5.0/images/FinancialPlotWithoutGaps.png?250126165944)
+[![](/cookbook/5/images/FinancialPlotWithoutGaps.png?251011113742)](/cookbook/5/images/FinancialPlotWithoutGaps.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Finance.cs" imageUrl="/cookbook/5.0/images/FinancialPlotWithoutGaps.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Finance.cs" imageUrl="/cookbook/5/images/FinancialPlotWithoutGaps.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 // create a candlestick plot
 var prices = Generate.RandomOHLCs(31);
@@ -258,16 +258,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>OHLC Chart Without Gaps</h1>
-<a href='/cookbook/5.0/Finance/FinancialPlotWithoutGapsOhlc' target='_blank'>
+<a href='/cookbook/5/Finance/FinancialPlotWithoutGapsOhlc' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 When the DateTimes stored in OHLC objects are used to determine the horizontal position, periods without data like weekends and holidays appear as gaps in the plot. Enabling sequential mode causes the plot to ignore the OHLC DateTimes and place OHLCs at integer positions starting from zero. Users can customize the tick generator to display dates instead of numbers on the horizontal axis if desired.
 
-[![](/cookbook/5.0/images/FinancialPlotWithoutGapsOhlc.png?250126165944)](/cookbook/5.0/images/FinancialPlotWithoutGapsOhlc.png?250126165944)
+[![](/cookbook/5/images/FinancialPlotWithoutGapsOhlc.png?251011113742)](/cookbook/5/images/FinancialPlotWithoutGapsOhlc.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Finance.cs" imageUrl="/cookbook/5.0/images/FinancialPlotWithoutGapsOhlc.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Finance.cs" imageUrl="/cookbook/5/images/FinancialPlotWithoutGapsOhlc.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 // create a OHLC plot
 var prices = Generate.RandomOHLCs(31);
@@ -300,16 +300,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Stock Symbol Background</h1>
-<a href='/cookbook/5.0/Finance/StockSymbolBackgroundText' target='_blank'>
+<a href='/cookbook/5/Finance/StockSymbolBackgroundText' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Stock symbol information can be displayed beneath the plot using the background text feature.
 
-[![](/cookbook/5.0/images/StockSymbolBackgroundText.png?250126165944)](/cookbook/5.0/images/StockSymbolBackgroundText.png?250126165944)
+[![](/cookbook/5/images/StockSymbolBackgroundText.png?251011113742)](/cookbook/5/images/StockSymbolBackgroundText.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Finance.cs" imageUrl="/cookbook/5.0/images/StockSymbolBackgroundText.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Finance.cs" imageUrl="/cookbook/5/images/StockSymbolBackgroundText.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Candlestick(Generate.RandomOHLCs(30));
 myPlot.Axes.DateTimeTicksBottom();
@@ -328,16 +328,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Stock Symbol Multiline</h1>
-<a href='/cookbook/5.0/Finance/StockSymbolBackgroundTextMultiline' target='_blank'>
+<a href='/cookbook/5/Finance/StockSymbolBackgroundTextMultiline' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Stock symbol information can be displayed beneath the plot using the multiline background text feature.
 
-[![](/cookbook/5.0/images/StockSymbolBackgroundTextMultiline.png?250126165944)](/cookbook/5.0/images/StockSymbolBackgroundTextMultiline.png?250126165944)
+[![](/cookbook/5/images/StockSymbolBackgroundTextMultiline.png?251011113742)](/cookbook/5/images/StockSymbolBackgroundTextMultiline.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Finance.cs" imageUrl="/cookbook/5.0/images/StockSymbolBackgroundTextMultiline.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Finance.cs" imageUrl="/cookbook/5/images/StockSymbolBackgroundTextMultiline.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Candlestick(Generate.RandomOHLCs(30));
 myPlot.Axes.DateTimeTicksBottom();
@@ -361,16 +361,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Finance Chart Dark Mode</h1>
-<a href='/cookbook/5.0/Finance/FinanceDarkMode' target='_blank'>
+<a href='/cookbook/5/Finance/FinanceDarkMode' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 A dark mode finance plot can be achieved by customizing color options of the candles and figure.
 
-[![](/cookbook/5.0/images/FinanceDarkMode.png?250126165944)](/cookbook/5.0/images/FinanceDarkMode.png?250126165944)
+[![](/cookbook/5/images/FinanceDarkMode.png?251011113742)](/cookbook/5/images/FinanceDarkMode.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Finance.cs" imageUrl="/cookbook/5.0/images/FinanceDarkMode.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Finance.cs" imageUrl="/cookbook/5/images/FinanceDarkMode.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 // add sample financial data
 OHLC[] prices = Generate.Financial.OHLCsByMinute(60);
@@ -436,16 +436,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Financial DateTime Axis</h1>
-<a href='/cookbook/5.0/Finance/FinancialDateTimeAxis' target='_blank'>
+<a href='/cookbook/5/Finance/FinancialDateTimeAxis' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 A special axis system has been created for financial charts. Unlike standard DateTime axes which assume the horizontal scale is linearly spaced time, the financial DateTime system allows for dates to be skipped. This is ideal for financial charts where date ranges are skipped such as after-hours trading or non-trading days.
 
-[![](/cookbook/5.0/images/FinancialDateTimeAxis.png?250126165944)](/cookbook/5.0/images/FinancialDateTimeAxis.png?250126165944)
+[![](/cookbook/5/images/FinancialDateTimeAxis.png?251011113742)](/cookbook/5/images/FinancialDateTimeAxis.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Finance.cs" imageUrl="/cookbook/5.0/images/FinancialDateTimeAxis.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Finance.cs" imageUrl="/cookbook/5/images/FinancialDateTimeAxis.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 // generate sample data using a collection of dates and price ranges
 DateTime[] dates = Generate.ConsecutiveHours(100);

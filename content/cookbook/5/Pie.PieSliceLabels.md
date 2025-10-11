@@ -1,13 +1,13 @@
 ---
-Title: Pie Slice Labels - ScottPlot 5.0 Cookbook
+Title: Pie Slice Labels - ScottPlot 5 Cookbook
 Description: Slice labels can be displayed centered with the slice at a customizable distance from the center of the pie.
-URL: /cookbook/5.0/Pie/PieSliceLabels/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Pie", "Pie Slice Labels"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Pie", "/cookbook/5.0/Pie/PieSliceLabels"]
-Date: 2025-01-26
-Version: ScottPlot 5.0.55
-Version: ScottPlot 5.0.55
-SearchUrl: "/cookbook/5.0/search/"
+URL: /cookbook/5/Pie/PieSliceLabels/
+BreadcrumbNames: ["ScottPlot 5 Cookbook", "Pie", "Pie Slice Labels"]
+BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/Pie", "/cookbook/5/Pie/PieSliceLabels"]
+Date: 2025-10-11
+Version: ScottPlot 5.1.57
+Version: ScottPlot 5.1.57
+SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
 
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Slice labels can be displayed centered with the slice at a customizable distance from the center of the pie.
 
-[![](/cookbook/5.0/images/PieSliceLabels.png?250126165944)](/cookbook/5.0/images/PieSliceLabels.png?250126165944)
+[![](/cookbook/5/images/PieSliceLabels.png?251011113742)](/cookbook/5/images/PieSliceLabels.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Pie.cs" imageUrl="/cookbook/5.0/images/PieSliceLabels.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Pie.cs" imageUrl="/cookbook/5/images/PieSliceLabels.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 PieSlice slice1 = new() { Value = 5, FillColor = Colors.Red, Label = "alpha" };
 PieSlice slice2 = new() { Value = 2, FillColor = Colors.Orange, Label = "beta" };
@@ -50,6 +50,6 @@ myPlot.HideGrid();
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
-<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5.0/Pie'>Pie</a> category</div>
+<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5/Pie'>Pie</a> category</div>
 
 

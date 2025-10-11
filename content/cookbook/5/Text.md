@@ -1,13 +1,13 @@
 ---
-Title: Text - ScottPlot 5.0 Cookbook
+Title: Text - ScottPlot 5 Cookbook
 Description: Text labels can be placed on the plot in coordinate space
-URL: /cookbook/5.0/Text/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Text"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Text"]
-Date: 2025-01-26
-Version: ScottPlot 5.0.55
-Version: ScottPlot 5.0.55
-SearchUrl: "/cookbook/5.0/search/"
+URL: /cookbook/5/Text/
+BreadcrumbNames: ["ScottPlot 5 Cookbook", "Text"]
+BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/Text"]
+Date: 2025-10-11
+Version: ScottPlot 5.1.57
+Version: ScottPlot 5.1.57
+SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
 
@@ -16,16 +16,16 @@ ShowEditLink: false
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Text Quickstart</h1>
-<a href='/cookbook/5.0/Text/TextQuickstart' target='_blank'>
+<a href='/cookbook/5/Text/TextQuickstart' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Text can be placed anywhere in coordinate space.
 
-[![](/cookbook/5.0/images/TextQuickstart.png?250126165944)](/cookbook/5.0/images/TextQuickstart.png?250126165944)
+[![](/cookbook/5/images/TextQuickstart.png?251011113742)](/cookbook/5/images/TextQuickstart.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Text.cs" imageUrl="/cookbook/5.0/images/TextQuickstart.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Text.cs" imageUrl="/cookbook/5/images/TextQuickstart.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin());
 myPlot.Add.Signal(Generate.Cos());
@@ -40,16 +40,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Text Formatting</h1>
-<a href='/cookbook/5.0/Text/Formatting' target='_blank'>
+<a href='/cookbook/5/Text/Formatting' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Text formatting can be extensively customized.
 
-[![](/cookbook/5.0/images/Formatting.png?250126165944)](/cookbook/5.0/images/Formatting.png?250126165944)
+[![](/cookbook/5/images/Formatting.png?251011113742)](/cookbook/5/images/Formatting.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Text.cs" imageUrl="/cookbook/5.0/images/Formatting.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Text.cs" imageUrl="/cookbook/5/images/Formatting.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 var text = myPlot.Add.Text("Hello, World", 42, 69);
 text.LabelFontSize = 26;
@@ -71,16 +71,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Line Height</h1>
-<a href='/cookbook/5.0/Text/LabelLineHeight' target='_blank'>
+<a href='/cookbook/5/Text/LabelLineHeight' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Multiline labels have a default line height estimated from the typeface and font size, however line height may be manually defined by the user.
 
-[![](/cookbook/5.0/images/LabelLineHeight.png?250126165944)](/cookbook/5.0/images/LabelLineHeight.png?250126165944)
+[![](/cookbook/5/images/LabelLineHeight.png?251011113742)](/cookbook/5/images/LabelLineHeight.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Text.cs" imageUrl="/cookbook/5.0/images/LabelLineHeight.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Text.cs" imageUrl="/cookbook/5/images/LabelLineHeight.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 var label1 = myPlot.Add.Text($"line\nheight", 0, 0);
 label1.LabelLineSpacing = 0;
@@ -114,16 +114,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Text Offset</h1>
-<a href='/cookbook/5.0/Text/TextOffset' target='_blank'>
+<a href='/cookbook/5/Text/TextOffset' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 The offset properties can be used to fine-tune text position in pixel units
 
-[![](/cookbook/5.0/images/TextOffset.png?250126165944)](/cookbook/5.0/images/TextOffset.png?250126165944)
+[![](/cookbook/5/images/TextOffset.png?251011113742)](/cookbook/5/images/TextOffset.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Text.cs" imageUrl="/cookbook/5.0/images/TextOffset.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Text.cs" imageUrl="/cookbook/5/images/TextOffset.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 for (int i = 0; i &lt; 25; i += 5)
 {

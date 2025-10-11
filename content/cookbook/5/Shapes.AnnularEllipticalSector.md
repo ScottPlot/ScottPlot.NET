@@ -1,13 +1,13 @@
 ---
-Title: Annular Elliptical Sector - ScottPlot 5.0 Cookbook
+Title: Annular Elliptical Sector - ScottPlot 5 Cookbook
 Description: An annular elliptical sector is the 2D shape between two ellipses and may be sliced to contain only the area between two angles relative to the center point.
-URL: /cookbook/5.0/Shapes/AnnularEllipticalSector/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Shapes", "Annular Elliptical Sector"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Shapes", "/cookbook/5.0/Shapes/AnnularEllipticalSector"]
-Date: 2025-01-26
-Version: ScottPlot 5.0.55
-Version: ScottPlot 5.0.55
-SearchUrl: "/cookbook/5.0/search/"
+URL: /cookbook/5/Shapes/AnnularEllipticalSector/
+BreadcrumbNames: ["ScottPlot 5 Cookbook", "Shapes", "Annular Elliptical Sector"]
+BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/Shapes", "/cookbook/5/Shapes/AnnularEllipticalSector"]
+Date: 2025-10-11
+Version: ScottPlot 5.1.57
+Version: ScottPlot 5.1.57
+SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
 
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 An annular elliptical sector is the 2D shape between two ellipses and may be sliced to contain only the area between two angles relative to the center point.
 
-[![](/cookbook/5.0/images/AnnularEllipticalSector.png?250126165944)](/cookbook/5.0/images/AnnularEllipticalSector.png?250126165944)
+[![](/cookbook/5/images/AnnularEllipticalSector.png?251011113742)](/cookbook/5/images/AnnularEllipticalSector.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Shapes.cs" imageUrl="/cookbook/5.0/images/AnnularEllipticalSector.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Shapes.cs" imageUrl="/cookbook/5/images/AnnularEllipticalSector.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 Coordinates center = new(0, 0);
 double outerRadiusX = 4.0;
@@ -40,6 +40,6 @@ myPlot.Axes.SquareUnits(); // use square units so circles are not stretched
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
-<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5.0/Shapes'>Shapes</a> category</div>
+<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5/Shapes'>Shapes</a> category</div>
 
 

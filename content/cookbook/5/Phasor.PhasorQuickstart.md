@@ -1,13 +1,13 @@
 ---
-Title: Phasor Line Plot - ScottPlot 5.0 Cookbook
+Title: Phasor Line Plot - ScottPlot 5 Cookbook
 Description: A phasor line plot contains a collection of polar coordinates which are rendered as arrows.
-URL: /cookbook/5.0/Phasor/PhasorQuickstart/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Phasor Plot", "Phasor Line Plot"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Phasor", "/cookbook/5.0/Phasor/PhasorQuickstart"]
-Date: 2025-01-26
-Version: ScottPlot 5.0.55
-Version: ScottPlot 5.0.55
-SearchUrl: "/cookbook/5.0/search/"
+URL: /cookbook/5/Phasor/PhasorQuickstart/
+BreadcrumbNames: ["ScottPlot 5 Cookbook", "Phasor Plot", "Phasor Line Plot"]
+BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/Phasor", "/cookbook/5/Phasor/PhasorQuickstart"]
+Date: 2025-10-11
+Version: ScottPlot 5.1.57
+Version: ScottPlot 5.1.57
+SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
 
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 A phasor line plot contains a collection of polar coordinates which are rendered as arrows.
 
-[![](/cookbook/5.0/images/PhasorQuickstart.png?250126165944)](/cookbook/5.0/images/PhasorQuickstart.png?250126165944)
+[![](/cookbook/5/images/PhasorQuickstart.png?251011113742)](/cookbook/5/images/PhasorQuickstart.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Phasor.cs" imageUrl="/cookbook/5.0/images/PhasorQuickstart.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Phasor.cs" imageUrl="/cookbook/5/images/PhasorQuickstart.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 // Start by placing a polar axis system on the plot
 var polarAxis = myPlot.Add.PolarAxis(30);
@@ -44,6 +44,6 @@ phaser2.Points.Add(new PolarCoordinates(20, Angle.FromDegrees(260)));
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
-<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5.0/Phasor'>Phasor Plot</a> category</div>
+<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5/Phasor'>Phasor Plot</a> category</div>
 
 

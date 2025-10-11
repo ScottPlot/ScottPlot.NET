@@ -1,13 +1,13 @@
 ---
-Title: Bar with Value Labels (horizontal) - ScottPlot 5.0 Cookbook
+Title: Bar with Value Labels (horizontal) - ScottPlot 5 Cookbook
 Description: Set the `Label` property of bars to have text displayed beside (left or right) of each bar.
-URL: /cookbook/5.0/Bar/BarValuesHorizontal/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Bar Plot", "Bar with Value Labels (horizontal)"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Bar", "/cookbook/5.0/Bar/BarValuesHorizontal"]
-Date: 2025-01-26
-Version: ScottPlot 5.0.55
-Version: ScottPlot 5.0.55
-SearchUrl: "/cookbook/5.0/search/"
+URL: /cookbook/5/Bar/BarValuesHorizontal/
+BreadcrumbNames: ["ScottPlot 5 Cookbook", "Bar Plot", "Bar with Value Labels (horizontal)"]
+BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/Bar", "/cookbook/5/Bar/BarValuesHorizontal"]
+Date: 2025-10-11
+Version: ScottPlot 5.1.57
+Version: ScottPlot 5.1.57
+SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
 
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Set the `Label` property of bars to have text displayed beside (left or right) of each bar.
 
-[![](/cookbook/5.0/images/BarValuesHorizontal.png?250126165944)](/cookbook/5.0/images/BarValuesHorizontal.png?250126165944)
+[![](/cookbook/5/images/BarValuesHorizontal.png?251011113742)](/cookbook/5/images/BarValuesHorizontal.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs" imageUrl="/cookbook/5.0/images/BarValuesHorizontal.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs" imageUrl="/cookbook/5/images/BarValuesHorizontal.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 double[] values = { -20, 10, 7, 13 };
 
@@ -43,6 +43,6 @@ myPlot.Add.VerticalLine(0, 1, Colors.Black);
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
-<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5.0/Bar'>Bar Plot</a> category</div>
+<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5/Bar'>Bar Plot</a> category</div>
 
 

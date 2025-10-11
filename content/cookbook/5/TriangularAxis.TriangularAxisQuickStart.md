@@ -1,13 +1,13 @@
 ---
-Title: Triangular Axis Quickstart - ScottPlot 5.0 Cookbook
+Title: Triangular Axis Quickstart - ScottPlot 5 Cookbook
 Description: Create a triangular axis and add it to the plot to display data on a triangular grid, and interact with it to convert triangular units into Cartesian coordinates that can be used for placing any plot type on top.
-URL: /cookbook/5.0/TriangularAxis/TriangularAxisQuickStart/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Triangular Axis", "Triangular Axis Quickstart"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/TriangularAxis", "/cookbook/5.0/TriangularAxis/TriangularAxisQuickStart"]
-Date: 2025-01-26
-Version: ScottPlot 5.0.55
-Version: ScottPlot 5.0.55
-SearchUrl: "/cookbook/5.0/search/"
+URL: /cookbook/5/TriangularAxis/TriangularAxisQuickStart/
+BreadcrumbNames: ["ScottPlot 5 Cookbook", "Triangular Axis", "Triangular Axis Quickstart"]
+BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/TriangularAxis", "/cookbook/5/TriangularAxis/TriangularAxisQuickStart"]
+Date: 2025-10-11
+Version: ScottPlot 5.1.57
+Version: ScottPlot 5.1.57
+SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
 
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Create a triangular axis and add it to the plot to display data on a triangular grid, and interact with it to convert triangular units into Cartesian coordinates that can be used for placing any plot type on top.
 
-[![](/cookbook/5.0/images/TriangularAxisQuickStart.png?250126165944)](/cookbook/5.0/images/TriangularAxisQuickStart.png?250126165944)
+[![](/cookbook/5/images/TriangularAxisQuickStart.png?251011113742)](/cookbook/5/images/TriangularAxisQuickStart.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/TriangularAxis.cs" imageUrl="/cookbook/5.0/images/TriangularAxisQuickStart.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/TriangularAxis.cs" imageUrl="/cookbook/5/images/TriangularAxisQuickStart.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 // Add a triangular axis to the plot
 var ta = myPlot.Add.TriangularAxis();
@@ -38,6 +38,6 @@ myPlot.Add.Markers(points, MarkerShape.FilledCircle, 10, Colors.Red);
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
-<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5.0/TriangularAxis'>Triangular Axis</a> category</div>
+<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5/TriangularAxis'>Triangular Axis</a> category</div>
 
 

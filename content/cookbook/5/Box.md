@@ -1,13 +1,13 @@
 ---
-Title: Box Plot - ScottPlot 5.0 Cookbook
+Title: Box Plot - ScottPlot 5 Cookbook
 Description: Box plots show a distribution at a glance
-URL: /cookbook/5.0/Box/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Box Plot"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Box"]
-Date: 2025-01-26
-Version: ScottPlot 5.0.55
-Version: ScottPlot 5.0.55
-SearchUrl: "/cookbook/5.0/search/"
+URL: /cookbook/5/Box/
+BreadcrumbNames: ["ScottPlot 5 Cookbook", "Box Plot"]
+BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/Box"]
+Date: 2025-10-11
+Version: ScottPlot 5.1.57
+Version: ScottPlot 5.1.57
+SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
 
@@ -16,16 +16,16 @@ ShowEditLink: false
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Box Plot Quickstart</h1>
-<a href='/cookbook/5.0/Box/BoxPlotQuickstart' target='_blank'>
+<a href='/cookbook/5/Box/BoxPlotQuickstart' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Box plots can be created individually and added to the plot.
 
-[![](/cookbook/5.0/images/BoxPlotQuickstart.png?250126165944)](/cookbook/5.0/images/BoxPlotQuickstart.png?250126165944)
+[![](/cookbook/5/images/BoxPlotQuickstart.png?251011113742)](/cookbook/5/images/BoxPlotQuickstart.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Box.cs" imageUrl="/cookbook/5.0/images/BoxPlotQuickstart.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Box.cs" imageUrl="/cookbook/5/images/BoxPlotQuickstart.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 ScottPlot.Box box = new()
 {
@@ -50,16 +50,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Box Plot Groups</h1>
-<a href='/cookbook/5.0/Box/BoxPlotGroups' target='_blank'>
+<a href='/cookbook/5/Box/BoxPlotGroups' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Each collection of boxes added to the plot gets styled the same and appears as a single item in the legend. Add multiple bar series plots with defined X positions to give the appearance of grouped data.
 
-[![](/cookbook/5.0/images/BoxPlotGroups.png?250126165944)](/cookbook/5.0/images/BoxPlotGroups.png?250126165944)
+[![](/cookbook/5/images/BoxPlotGroups.png?251011113742)](/cookbook/5/images/BoxPlotGroups.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Box.cs" imageUrl="/cookbook/5.0/images/BoxPlotGroups.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Box.cs" imageUrl="/cookbook/5/images/BoxPlotGroups.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 List&lt;ScottPlot.Box&gt; boxes1 = new() {
     Generate.RandomBox(1),

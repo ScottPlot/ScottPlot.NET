@@ -1,13 +1,13 @@
 ---
-Title: Inverted Auto-Axis - ScottPlot 5.0 Cookbook
+Title: Inverted Auto-Axis - ScottPlot 5 Cookbook
 Description: Customize the logic for the automatic axis scaler to ensure that axis limits for a particular axis are always inverted when autoscaled.
-URL: /cookbook/5.0/AxisAndTicks/InvertedAutoAxis/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Axis and Ticks", "Inverted Auto-Axis"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AxisAndTicks", "/cookbook/5.0/AxisAndTicks/InvertedAutoAxis"]
-Date: 2025-01-26
-Version: ScottPlot 5.0.55
-Version: ScottPlot 5.0.55
-SearchUrl: "/cookbook/5.0/search/"
+URL: /cookbook/5/AxisAndTicks/InvertedAutoAxis/
+BreadcrumbNames: ["ScottPlot 5 Cookbook", "Axis and Ticks", "Inverted Auto-Axis"]
+BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/AxisAndTicks", "/cookbook/5/AxisAndTicks/InvertedAutoAxis"]
+Date: 2025-10-11
+Version: ScottPlot 5.1.57
+Version: ScottPlot 5.1.57
+SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
 
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Customize the logic for the automatic axis scaler to ensure that axis limits for a particular axis are always inverted when autoscaled.
 
-[![](/cookbook/5.0/images/InvertedAutoAxis.png?250126165944)](/cookbook/5.0/images/InvertedAutoAxis.png?250126165944)
+[![](/cookbook/5/images/InvertedAutoAxis.png?251011113742)](/cookbook/5/images/InvertedAutoAxis.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs" imageUrl="/cookbook/5.0/images/InvertedAutoAxis.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs" imageUrl="/cookbook/5/images/InvertedAutoAxis.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin());
 myPlot.Add.Signal(Generate.Cos());
@@ -30,6 +30,6 @@ myPlot.Axes.AutoScaler.InvertedY = true;
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
-<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5.0/AxisAndTicks'>Axis and Ticks</a> category</div>
+<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5/AxisAndTicks'>Axis and Ticks</a> category</div>
 
 

@@ -1,13 +1,13 @@
 ---
-Title: Data Area Background Image - ScottPlot 5.0 Cookbook
+Title: Data Area Background Image - ScottPlot 5 Cookbook
 Description: An image can be used for the background of the data area.
-URL: /cookbook/5.0/Miscellaneous/DataBackgroundImage/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Miscellaneous", "Data Area Background Image"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Miscellaneous", "/cookbook/5.0/Miscellaneous/DataBackgroundImage"]
-Date: 2025-01-26
-Version: ScottPlot 5.0.55
-Version: ScottPlot 5.0.55
-SearchUrl: "/cookbook/5.0/search/"
+URL: /cookbook/5/Miscellaneous/DataBackgroundImage/
+BreadcrumbNames: ["ScottPlot 5 Cookbook", "Miscellaneous", "Data Area Background Image"]
+BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/Miscellaneous", "/cookbook/5/Miscellaneous/DataBackgroundImage"]
+Date: 2025-10-11
+Version: ScottPlot 5.1.57
+Version: ScottPlot 5.1.57
+SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
 
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 An image can be used for the background of the data area.
 
-[![](/cookbook/5.0/images/DataBackgroundImage.png?250126165944)](/cookbook/5.0/images/DataBackgroundImage.png?250126165944)
+[![](/cookbook/5/images/DataBackgroundImage.png?251011113742)](/cookbook/5/images/DataBackgroundImage.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Miscellaneous.cs" imageUrl="/cookbook/5.0/images/DataBackgroundImage.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Miscellaneous.cs" imageUrl="/cookbook/5/images/DataBackgroundImage.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 // plot sample data
 var sig1 = myPlot.Add.Signal(Generate.Sin());
@@ -38,6 +38,6 @@ myPlot.DataBackground.Image = bgImage;
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
-<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5.0/Miscellaneous'>Miscellaneous</a> category</div>
+<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5/Miscellaneous'>Miscellaneous</a> category</div>
 
 

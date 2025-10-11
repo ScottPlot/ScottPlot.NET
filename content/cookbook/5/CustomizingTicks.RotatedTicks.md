@@ -1,13 +1,13 @@
 ---
-Title: Rotated Tick Labels - ScottPlot 5.0 Cookbook
+Title: Rotated Tick Labels - ScottPlot 5 Cookbook
 Description: Users can customize tick label rotation.
-URL: /cookbook/5.0/CustomizingTicks/RotatedTicks/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Customizing Ticks", "Rotated Tick Labels"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/CustomizingTicks", "/cookbook/5.0/CustomizingTicks/RotatedTicks"]
-Date: 2025-01-26
-Version: ScottPlot 5.0.55
-Version: ScottPlot 5.0.55
-SearchUrl: "/cookbook/5.0/search/"
+URL: /cookbook/5/CustomizingTicks/RotatedTicks/
+BreadcrumbNames: ["ScottPlot 5 Cookbook", "Customizing Ticks", "Rotated Tick Labels"]
+BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/CustomizingTicks", "/cookbook/5/CustomizingTicks/RotatedTicks"]
+Date: 2025-10-11
+Version: ScottPlot 5.1.57
+Version: ScottPlot 5.1.57
+SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
 
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Users can customize tick label rotation.
 
-[![](/cookbook/5.0/images/RotatedTicks.png?250126165944)](/cookbook/5.0/images/RotatedTicks.png?250126165944)
+[![](/cookbook/5/images/RotatedTicks.png?251011113742)](/cookbook/5/images/RotatedTicks.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs" imageUrl="/cookbook/5.0/images/RotatedTicks.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs" imageUrl="/cookbook/5/images/RotatedTicks.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin());
 myPlot.Add.Signal(Generate.Cos());
@@ -31,6 +31,6 @@ myPlot.Axes.Bottom.TickLabelStyle.Alignment = Alignment.MiddleRight;
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
-<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5.0/CustomizingTicks'>Customizing Ticks</a> category</div>
+<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5/CustomizingTicks'>Customizing Ticks</a> category</div>
 
 

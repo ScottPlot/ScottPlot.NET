@@ -1,13 +1,13 @@
 ---
-Title: Ellipse Quickstart - ScottPlot 5.0 Cookbook
+Title: Ellipse Quickstart - ScottPlot 5 Cookbook
 Description: Ellipses can be added to plots
-URL: /cookbook/5.0/Ellipse/PlotEllipseQuickstart/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Ellipse", "Ellipse Quickstart"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Ellipse", "/cookbook/5.0/Ellipse/PlotEllipseQuickstart"]
-Date: 2025-01-26
-Version: ScottPlot 5.0.55
-Version: ScottPlot 5.0.55
-SearchUrl: "/cookbook/5.0/search/"
+URL: /cookbook/5/Ellipse/PlotEllipseQuickstart/
+BreadcrumbNames: ["ScottPlot 5 Cookbook", "Ellipse", "Ellipse Quickstart"]
+BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/Ellipse", "/cookbook/5/Ellipse/PlotEllipseQuickstart"]
+Date: 2025-10-11
+Version: ScottPlot 5.1.57
+Version: ScottPlot 5.1.57
+SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
 
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Ellipses can be added to plots
 
-[![](/cookbook/5.0/images/PlotEllipseQuickstart.png?250126165944)](/cookbook/5.0/images/PlotEllipseQuickstart.png?250126165944)
+[![](/cookbook/5/images/PlotEllipseQuickstart.png?251011113742)](/cookbook/5/images/PlotEllipseQuickstart.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Ellipse.cs" imageUrl="/cookbook/5.0/images/PlotEllipseQuickstart.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Ellipse.cs" imageUrl="/cookbook/5/images/PlotEllipseQuickstart.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 Random rand = new(0);
 for (int i = 0; i &lt; 5; i++)
@@ -35,6 +35,6 @@ for (int i = 0; i &lt; 5; i++)
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
-<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5.0/Ellipse'>Ellipse</a> category</div>
+<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5/Ellipse'>Ellipse</a> category</div>
 
 

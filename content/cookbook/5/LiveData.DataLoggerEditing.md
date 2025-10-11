@@ -1,13 +1,13 @@
 ---
-Title: DataLogger Editing - ScottPlot 5.0 Cookbook
+Title: DataLogger Editing - ScottPlot 5 Cookbook
 Description: Values accumulated by a data logger may be edited after they are acquired.
-URL: /cookbook/5.0/LiveData/DataLoggerEditing/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Live Data", "DataLogger Editing"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/LiveData", "/cookbook/5.0/LiveData/DataLoggerEditing"]
-Date: 2025-01-26
-Version: ScottPlot 5.0.55
-Version: ScottPlot 5.0.55
-SearchUrl: "/cookbook/5.0/search/"
+URL: /cookbook/5/LiveData/DataLoggerEditing/
+BreadcrumbNames: ["ScottPlot 5 Cookbook", "Live Data", "DataLogger Editing"]
+BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/LiveData", "/cookbook/5/LiveData/DataLoggerEditing"]
+Date: 2025-10-11
+Version: ScottPlot 5.1.57
+Version: ScottPlot 5.1.57
+SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
 
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Values accumulated by a data logger may be edited after they are acquired.
 
-[![](/cookbook/5.0/images/DataLoggerEditing.png?250126165944)](/cookbook/5.0/images/DataLoggerEditing.png?250126165944)
+[![](/cookbook/5/images/DataLoggerEditing.png?251011113742)](/cookbook/5/images/DataLoggerEditing.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/LiveData.cs" imageUrl="/cookbook/5.0/images/DataLoggerEditing.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/LiveData.cs" imageUrl="/cookbook/5/images/DataLoggerEditing.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 // setup a logger that will grow as data is added
 var logger = myPlot.Add.DataLogger();
@@ -34,6 +34,6 @@ logger.Data.Coordinates.RemoveRange(0, 5);
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
-<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5.0/LiveData'>Live Data</a> category</div>
+<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5/LiveData'>Live Data</a> category</div>
 
 

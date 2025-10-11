@@ -1,13 +1,13 @@
 ---
-Title: Dynamically Generated Functions - ScottPlot 5.0 Cookbook
+Title: Dynamically Generated Functions - ScottPlot 5 Cookbook
 Description: When a function cannot be represented as a static method (e.g., one that requires custom parameters) it can be represented as variable of type Func<double, double> and plotted accordingly.
-URL: /cookbook/5.0/Function/FunctionDynamic/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Function", "Dynamically Generated Functions"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Function", "/cookbook/5.0/Function/FunctionDynamic"]
-Date: 2025-01-26
-Version: ScottPlot 5.0.55
-Version: ScottPlot 5.0.55
-SearchUrl: "/cookbook/5.0/search/"
+URL: /cookbook/5/Function/FunctionDynamic/
+BreadcrumbNames: ["ScottPlot 5 Cookbook", "Function", "Dynamically Generated Functions"]
+BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/Function", "/cookbook/5/Function/FunctionDynamic"]
+Date: 2025-10-11
+Version: ScottPlot 5.1.57
+Version: ScottPlot 5.1.57
+SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
 
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 When a function cannot be represented as a static method (e.g., one that requires custom parameters) it can be represented as variable of type Func<double, double> and plotted accordingly.
 
-[![](/cookbook/5.0/images/FunctionDynamic.png?250126165944)](/cookbook/5.0/images/FunctionDynamic.png?250126165944)
+[![](/cookbook/5/images/FunctionDynamic.png?251011113742)](/cookbook/5/images/FunctionDynamic.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Function.cs" imageUrl="/cookbook/5.0/images/FunctionDynamic.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Function.cs" imageUrl="/cookbook/5/images/FunctionDynamic.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 static double LogNormalDist(double x, double a, double b)
 {
@@ -51,6 +51,6 @@ myPlot.Axes.SetLimitsY(-0.8, 2);
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
-<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5.0/Function'>Function</a> category</div>
+<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5/Function'>Function</a> category</div>
 
 

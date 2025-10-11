@@ -1,13 +1,13 @@
 ---
-Title: Customizing Ticks - ScottPlot 5.0 Cookbook
+Title: Customizing Ticks - ScottPlot 5 Cookbook
 Description: Advanced customization of tick marks and tick labels
-URL: /cookbook/5.0/CustomizingTicks/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Customizing Ticks"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/CustomizingTicks"]
-Date: 2025-01-26
-Version: ScottPlot 5.0.55
-Version: ScottPlot 5.0.55
-SearchUrl: "/cookbook/5.0/search/"
+URL: /cookbook/5/CustomizingTicks/
+BreadcrumbNames: ["ScottPlot 5 Cookbook", "Customizing Ticks"]
+BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/CustomizingTicks"]
+Date: 2025-10-11
+Version: ScottPlot 5.1.57
+Version: ScottPlot 5.1.57
+SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
 
@@ -16,16 +16,16 @@ ShowEditLink: false
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Custom Tick Formatters</h1>
-<a href='/cookbook/5.0/CustomizingTicks/CustomTickFormatter' target='_blank'>
+<a href='/cookbook/5/CustomizingTicks/CustomTickFormatter' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Users can customize the logic used to create tick labels from tick positions. Old versions of ScottPlot achieved this using a ManualTickPositions method.
 
-[![](/cookbook/5.0/images/CustomTickFormatter.png?250126165944)](/cookbook/5.0/images/CustomTickFormatter.png?250126165944)
+[![](/cookbook/5/images/CustomTickFormatter.png?251011113742)](/cookbook/5/images/CustomTickFormatter.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs" imageUrl="/cookbook/5.0/images/CustomTickFormatter.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs" imageUrl="/cookbook/5/images/CustomTickFormatter.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 double[] xs = Generate.Consecutive(100, 1, -50);
 myPlot.Add.Scatter(xs, Generate.Sin(100));
@@ -60,16 +60,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>DateTimeAutomatic Tick Formatters</h1>
-<a href='/cookbook/5.0/CustomizingTicks/DateTimeAutomaticTickFormatter' target='_blank'>
+<a href='/cookbook/5/CustomizingTicks/DateTimeAutomaticTickFormatter' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Users can customize the logic used to create datetime tick labels from tick positions. 
 
-[![](/cookbook/5.0/images/DateTimeAutomaticTickFormatter.png?250126165944)](/cookbook/5.0/images/DateTimeAutomaticTickFormatter.png?250126165944)
+[![](/cookbook/5/images/DateTimeAutomaticTickFormatter.png?251011113742)](/cookbook/5/images/DateTimeAutomaticTickFormatter.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs" imageUrl="/cookbook/5.0/images/DateTimeAutomaticTickFormatter.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs" imageUrl="/cookbook/5/images/DateTimeAutomaticTickFormatter.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 // plot data using DateTime values on the horizontal axis
 DateTime[] xs = Generate.ConsecutiveHours(100);
@@ -102,16 +102,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Custom Tick Generators</h1>
-<a href='/cookbook/5.0/CustomizingTicks/AltTickGen' target='_blank'>
+<a href='/cookbook/5/CustomizingTicks/AltTickGen' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Tick generators determine where ticks are to be placed and also contain logic for generating tick labels from tick positions. Alternative tick generators can be created and assigned to axes. Some common tick generators are provided with ScottPlot, and users also have the option create their own.
 
-[![](/cookbook/5.0/images/AltTickGen.png?250126165944)](/cookbook/5.0/images/AltTickGen.png?250126165944)
+[![](/cookbook/5/images/AltTickGen.png?251011113742)](/cookbook/5/images/AltTickGen.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs" imageUrl="/cookbook/5.0/images/AltTickGen.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs" imageUrl="/cookbook/5/images/AltTickGen.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin(51));
 myPlot.Add.Signal(Generate.Cos(51));
@@ -127,16 +127,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>SetTicks Shortcut</h1>
-<a href='/cookbook/5.0/CustomizingTicks/SetTicks' target='_blank'>
+<a href='/cookbook/5/CustomizingTicks/SetTicks' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 The default axes have a SetTicks() helper method which replaces the default tick generator with a manual tick generator pre-loaded with the provided ticks.
 
-[![](/cookbook/5.0/images/SetTicks.png?250126165944)](/cookbook/5.0/images/SetTicks.png?250126165944)
+[![](/cookbook/5/images/SetTicks.png?251011113742)](/cookbook/5/images/SetTicks.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs" imageUrl="/cookbook/5.0/images/SetTicks.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs" imageUrl="/cookbook/5/images/SetTicks.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 // display sample data
 myPlot.Add.Signal(Generate.Sin());
@@ -156,16 +156,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Custom Tick Positions</h1>
-<a href='/cookbook/5.0/CustomizingTicks/CustomTicks' target='_blank'>
+<a href='/cookbook/5/CustomizingTicks/CustomTicks' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Users desiring more control over major and minor tick positions and labels can instantiate a manual tick generator, set it up as desired, then assign it to the axis being customized
 
-[![](/cookbook/5.0/images/CustomTicks.png?250126165944)](/cookbook/5.0/images/CustomTicks.png?250126165944)
+[![](/cookbook/5/images/CustomTicks.png?251011113742)](/cookbook/5/images/CustomTicks.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs" imageUrl="/cookbook/5.0/images/CustomTicks.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs" imageUrl="/cookbook/5/images/CustomTicks.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 // display sample data
 myPlot.Add.Signal(Generate.Sin());
@@ -199,16 +199,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Custom Tick DateTimes</h1>
-<a href='/cookbook/5.0/CustomizingTicks/CustomTicksDateTime' target='_blank'>
+<a href='/cookbook/5/CustomizingTicks/CustomTicksDateTime' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Users may define custom ticks using DateTime units
 
-[![](/cookbook/5.0/images/CustomTicksDateTime.png?250126165944)](/cookbook/5.0/images/CustomTicksDateTime.png?250126165944)
+[![](/cookbook/5/images/CustomTicksDateTime.png?251011113742)](/cookbook/5/images/CustomTicksDateTime.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs" imageUrl="/cookbook/5.0/images/CustomTicksDateTime.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs" imageUrl="/cookbook/5/images/CustomTicksDateTime.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 DateTime[] dates = Generate.ConsecutiveDays(100);
 double[] values = Generate.RandomWalk(100);
@@ -243,16 +243,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Rotated Tick Labels</h1>
-<a href='/cookbook/5.0/CustomizingTicks/RotatedTicks' target='_blank'>
+<a href='/cookbook/5/CustomizingTicks/RotatedTicks' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Users can customize tick label rotation.
 
-[![](/cookbook/5.0/images/RotatedTicks.png?250126165944)](/cookbook/5.0/images/RotatedTicks.png?250126165944)
+[![](/cookbook/5/images/RotatedTicks.png?251011113742)](/cookbook/5/images/RotatedTicks.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs" imageUrl="/cookbook/5.0/images/RotatedTicks.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs" imageUrl="/cookbook/5/images/RotatedTicks.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin());
 myPlot.Add.Signal(Generate.Cos());
@@ -269,16 +269,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Rotated Tick with Long Labels</h1>
-<a href='/cookbook/5.0/CustomizingTicks/RotatedTicksLongLabels' target='_blank'>
+<a href='/cookbook/5/CustomizingTicks/RotatedTicksLongLabels' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 The axis size can be increased to accommodate rotated or long tick labels.
 
-[![](/cookbook/5.0/images/RotatedTicksLongLabels.png?250126165944)](/cookbook/5.0/images/RotatedTicksLongLabels.png?250126165944)
+[![](/cookbook/5/images/RotatedTicksLongLabels.png?251011113742)](/cookbook/5/images/RotatedTicksLongLabels.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs" imageUrl="/cookbook/5.0/images/RotatedTicksLongLabels.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs" imageUrl="/cookbook/5/images/RotatedTicksLongLabels.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 // create a bar plot
 double[] values = { 5, 10, 7, 13, 25, 60 };
@@ -301,7 +301,7 @@ myPlot.Axes.Bottom.TickLabelStyle.Alignment = Alignment.MiddleLeft;
 
 // determine the width of the largest tick label
 float largestLabelWidth = 0;
-using SKPaint paint = new();
+using Paint paint = Paint.NewDisposablePaint();
 foreach (Tick tick in ticks)
 {
     PixelSize size = myPlot.Axes.Bottom.TickLabelStyle.Measure(tick.Label, paint).Size;
@@ -321,16 +321,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Disable Grid Lines</h1>
-<a href='/cookbook/5.0/CustomizingTicks/DisableGridLines' target='_blank'>
+<a href='/cookbook/5/CustomizingTicks/DisableGridLines' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Users can disable grid lines for specific axes.
 
-[![](/cookbook/5.0/images/DisableGridLines.png?250126165944)](/cookbook/5.0/images/DisableGridLines.png?250126165944)
+[![](/cookbook/5/images/DisableGridLines.png?251011113742)](/cookbook/5/images/DisableGridLines.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs" imageUrl="/cookbook/5.0/images/DisableGridLines.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs" imageUrl="/cookbook/5/images/DisableGridLines.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin());
 myPlot.Add.Signal(Generate.Cos());
@@ -347,16 +347,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Minimum Tick Spacing</h1>
-<a href='/cookbook/5.0/CustomizingTicks/MinimumTickSpacing' target='_blank'>
+<a href='/cookbook/5/CustomizingTicks/MinimumTickSpacing' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Space between ticks can be increased by setting a value to indicate the minimum distance between tick labels (in pixels).
 
-[![](/cookbook/5.0/images/MinimumTickSpacing.png?250126165944)](/cookbook/5.0/images/MinimumTickSpacing.png?250126165944)
+[![](/cookbook/5/images/MinimumTickSpacing.png?251011113742)](/cookbook/5/images/MinimumTickSpacing.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs" imageUrl="/cookbook/5.0/images/MinimumTickSpacing.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs" imageUrl="/cookbook/5/images/MinimumTickSpacing.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin(51));
 myPlot.Add.Signal(Generate.Cos(51));
@@ -378,16 +378,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Tick Density</h1>
-<a href='/cookbook/5.0/CustomizingTicks/TickDensity' target='_blank'>
+<a href='/cookbook/5/CustomizingTicks/TickDensity' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Tick density can be adjusted as a fraction of the default value. Unlike MinimumTickSpacing, this strategy is aware of the size of tick labels and adjusts accordingly.
 
-[![](/cookbook/5.0/images/TickDensity.png?250126165944)](/cookbook/5.0/images/TickDensity.png?250126165944)
+[![](/cookbook/5/images/TickDensity.png?251011113742)](/cookbook/5/images/TickDensity.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs" imageUrl="/cookbook/5.0/images/TickDensity.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs" imageUrl="/cookbook/5/images/TickDensity.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin(51));
 myPlot.Add.Signal(Generate.Cos(51));
@@ -409,16 +409,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Tick Count</h1>
-<a href='/cookbook/5.0/CustomizingTicks/TickCount' target='_blank'>
+<a href='/cookbook/5/CustomizingTicks/TickCount' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 A target number of ticks can be provided and the automatic tick generator will attempt to place that number of ticks. This strategy allows tick density to decrease as the image size increases.
 
-[![](/cookbook/5.0/images/TickCount.png?250126165944)](/cookbook/5.0/images/TickCount.png?250126165944)
+[![](/cookbook/5/images/TickCount.png?251011113742)](/cookbook/5/images/TickCount.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs" imageUrl="/cookbook/5.0/images/TickCount.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs" imageUrl="/cookbook/5/images/TickCount.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin(51));
 myPlot.Add.Signal(Generate.Cos(51));
@@ -440,16 +440,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Minor Tick Density</h1>
-<a href='/cookbook/5.0/CustomizingTicks/StandardMinorTickDistribution' target='_blank'>
+<a href='/cookbook/5/CustomizingTicks/StandardMinorTickDistribution' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Minor tick marks are automatically generated at intervals between major tick marks. By default they are evenly spaced, but their density may be customized.
 
-[![](/cookbook/5.0/images/StandardMinorTickDistribution.png?250126165944)](/cookbook/5.0/images/StandardMinorTickDistribution.png?250126165944)
+[![](/cookbook/5/images/StandardMinorTickDistribution.png?251011113742)](/cookbook/5/images/StandardMinorTickDistribution.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs" imageUrl="/cookbook/5.0/images/StandardMinorTickDistribution.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs" imageUrl="/cookbook/5/images/StandardMinorTickDistribution.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 // plot sample data
 double[] xs = Generate.Consecutive(100);
@@ -476,16 +476,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Log Scale Tick Marks</h1>
-<a href='/cookbook/5.0/CustomizingTicks/LogScaleTicks' target='_blank'>
+<a href='/cookbook/5/CustomizingTicks/LogScaleTicks' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 The appearance of logarithmic scaling can be achieved by log-scaling the data to be displayed then customizing the minor ticks and grid.
 
-[![](/cookbook/5.0/images/LogScaleTicks.png?250126165944)](/cookbook/5.0/images/LogScaleTicks.png?250126165944)
+[![](/cookbook/5/images/LogScaleTicks.png?251011113742)](/cookbook/5/images/LogScaleTicks.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs" imageUrl="/cookbook/5.0/images/LogScaleTicks.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs" imageUrl="/cookbook/5/images/LogScaleTicks.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 // start with original data
 double[] xs = Generate.Consecutive(100);
@@ -495,8 +495,7 @@ double[] ys = Generate.NoisyExponential(100);
 double[] logYs = ys.Select(Math.Log10).ToArray();
 
 // add log-scaled data to the plot
-var sp = myPlot.Add.Scatter(xs, logYs);
-sp.LineWidth = 0;
+myPlot.Add.ScatterPoints(xs, logYs);
 
 // create a minor tick generator that places log-distributed minor ticks
 ScottPlot.TickGenerators.LogMinorTickGenerator minorTickGen = new();
@@ -518,6 +517,47 @@ tickGen.LabelFormatter = LogTickLabelFormatter;
 myPlot.Axes.Left.TickGenerator = tickGen;
 
 // show grid lines for minor ticks
+myPlot.Grid.MajorLineColor = Colors.Black.WithOpacity(.15);
+myPlot.Grid.MinorLineColor = Colors.Black.WithOpacity(.05);
+myPlot.Grid.MinorLineWidth = 1;
+
+myPlot.SavePng("demo.png", 400, 300);
+{{< /recipe-sp5 >}}
+
+<hr class='my-5 invisible'>
+
+
+
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Log Scale with Custom Tick Marks</h1>
+<a href='/cookbook/5/CustomizingTicks/LogScaleMinorTicks' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
+</div>
+
+Placement of minor tick marks in plots with logarithmic axes may my customized using a custom minor tick generator. Some may be bundled with ScottPlot as shown here, but users may create their own and apply them as seen here.
+
+[![](/cookbook/5/images/LogScaleMinorTicks.png?251011113742)](/cookbook/5/images/LogScaleMinorTicks.png?251011113742)
+
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs" imageUrl="/cookbook/5/images/LogScaleMinorTicks.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+
+double[] xs = Generate.Consecutive(100);
+double[] logYs = Generate.NoisyExponential(100).Select(Math.Log10).ToArray();
+var sp = myPlot.Add.ScatterPoints(xs, logYs);
+
+// this tick generator places 10 ticks (decimal distribution) between major log ticks
+IMinorTickGenerator minorTickGen = new ScottPlot.TickGenerators.LogDecadeMinorTickGenerator();
+
+// create a numeric tick generator that uses our custom minor tick generator
+ScottPlot.TickGenerators.NumericAutomatic tickGen = new()
+{
+    MinorTickGenerator = minorTickGen,
+    IntegerTicksOnly = true,
+    LabelFormatter = (double y) =&gt; $"{Math.Pow(10, y):N0}",
+};
+
+// tell the left axis to use our custom tick generator and configure the grid to show ticks
+myPlot.Axes.Left.TickGenerator = tickGen;
 myPlot.Grid.MajorLineColor = Colors.Black.WithOpacity(.15);
 myPlot.Grid.MinorLineColor = Colors.Black.WithOpacity(.05);
 myPlot.Grid.MinorLineWidth = 1;

@@ -1,13 +1,13 @@
 ---
-Title: Minor Tick Density - ScottPlot 5.0 Cookbook
+Title: Minor Tick Density - ScottPlot 5 Cookbook
 Description: Minor tick marks are automatically generated at intervals between major tick marks. By default they are evenly spaced, but their density may be customized.
-URL: /cookbook/5.0/CustomizingTicks/StandardMinorTickDistribution/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Customizing Ticks", "Minor Tick Density"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/CustomizingTicks", "/cookbook/5.0/CustomizingTicks/StandardMinorTickDistribution"]
-Date: 2025-01-26
-Version: ScottPlot 5.0.55
-Version: ScottPlot 5.0.55
-SearchUrl: "/cookbook/5.0/search/"
+URL: /cookbook/5/CustomizingTicks/StandardMinorTickDistribution/
+BreadcrumbNames: ["ScottPlot 5 Cookbook", "Customizing Ticks", "Minor Tick Density"]
+BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/CustomizingTicks", "/cookbook/5/CustomizingTicks/StandardMinorTickDistribution"]
+Date: 2025-10-11
+Version: ScottPlot 5.1.57
+Version: ScottPlot 5.1.57
+SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
 
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Minor tick marks are automatically generated at intervals between major tick marks. By default they are evenly spaced, but their density may be customized.
 
-[![](/cookbook/5.0/images/StandardMinorTickDistribution.png?250126165944)](/cookbook/5.0/images/StandardMinorTickDistribution.png?250126165944)
+[![](/cookbook/5/images/StandardMinorTickDistribution.png?251011113742)](/cookbook/5/images/StandardMinorTickDistribution.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs" imageUrl="/cookbook/5.0/images/StandardMinorTickDistribution.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs" imageUrl="/cookbook/5/images/StandardMinorTickDistribution.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 // plot sample data
 double[] xs = Generate.Consecutive(100);
@@ -41,6 +41,6 @@ myPlot.Axes.Left.TickGenerator = tickGen;
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
-<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5.0/CustomizingTicks'>Customizing Ticks</a> category</div>
+<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5/CustomizingTicks'>Customizing Ticks</a> category</div>
 
 

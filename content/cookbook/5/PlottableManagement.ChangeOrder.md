@@ -1,13 +1,13 @@
 ---
-Title: Moving plottables - ScottPlot 5.0 Cookbook
+Title: Moving plottables - ScottPlot 5 Cookbook
 Description: The plottable list contains all plottables which will be rendered in order. Helper methods are available to move plottables to the front.
-URL: /cookbook/5.0/PlottableManagement/ChangeOrder/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Plottable Management", "Moving plottables"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/PlottableManagement", "/cookbook/5.0/PlottableManagement/ChangeOrder"]
-Date: 2025-01-26
-Version: ScottPlot 5.0.55
-Version: ScottPlot 5.0.55
-SearchUrl: "/cookbook/5.0/search/"
+URL: /cookbook/5/PlottableManagement/ChangeOrder/
+BreadcrumbNames: ["ScottPlot 5 Cookbook", "Plottable Management", "Moving plottables"]
+BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/PlottableManagement", "/cookbook/5/PlottableManagement/ChangeOrder"]
+Date: 2025-10-11
+Version: ScottPlot 5.1.57
+Version: ScottPlot 5.1.57
+SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
 
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 The plottable list contains all plottables which will be rendered in order. Helper methods are available to move plottables to the front.
 
-[![](/cookbook/5.0/images/ChangeOrder.png?250126165944)](/cookbook/5.0/images/ChangeOrder.png?250126165944)
+[![](/cookbook/5/images/ChangeOrder.png?251011113742)](/cookbook/5/images/ChangeOrder.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/PlottableManagement.cs" imageUrl="/cookbook/5.0/images/ChangeOrder.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/PlottableManagement.cs" imageUrl="/cookbook/5/images/ChangeOrder.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 CoordinateRect wideRect = new(-2, 2, -1, 1);
 CoordinateRect tallRect = new(-1, 1, -2, 2);
@@ -35,6 +35,6 @@ myPlot.MoveToTop(rect1);
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
-<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5.0/PlottableManagement'>Plottable Management</a> category</div>
+<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5/PlottableManagement'>Plottable Management</a> category</div>
 
 

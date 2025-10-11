@@ -1,13 +1,13 @@
 ---
-Title: Smith Chart - ScottPlot 5.0 Cookbook
+Title: Smith Chart - ScottPlot 5 Cookbook
 Description: Create a Smith chart axis and add it to the plot to display impedance of RF signals using a horizontal axis indicating resistance and vertical axis indicating reactance.
-URL: /cookbook/5.0/SmithChart/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Smith Chart"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/SmithChart"]
-Date: 2025-01-26
-Version: ScottPlot 5.0.55
-Version: ScottPlot 5.0.55
-SearchUrl: "/cookbook/5.0/search/"
+URL: /cookbook/5/SmithChart/
+BreadcrumbNames: ["ScottPlot 5 Cookbook", "Smith Chart"]
+BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/SmithChart"]
+Date: 2025-10-11
+Version: ScottPlot 5.1.57
+Version: ScottPlot 5.1.57
+SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
 
@@ -16,16 +16,16 @@ ShowEditLink: false
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Smith Chart Quickstart</h1>
-<a href='/cookbook/5.0/SmithChart/SmithChartQuickstart' target='_blank'>
+<a href='/cookbook/5/SmithChart/SmithChartQuickstart' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Add a Smith chart to the plot and use its methods to translate impedance to Cartesian coordinates that can be used for placing other plot components.
 
-[![](/cookbook/5.0/images/SmithChartQuickstart.png?250126165944)](/cookbook/5.0/images/SmithChartQuickstart.png?250126165944)
+[![](/cookbook/5/images/SmithChartQuickstart.png?251011113742)](/cookbook/5/images/SmithChartQuickstart.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SmithChart.cs" imageUrl="/cookbook/5.0/images/SmithChartQuickstart.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SmithChart.cs" imageUrl="/cookbook/5/images/SmithChartQuickstart.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 var smith = myPlot.Add.SmithChartAxis();
 

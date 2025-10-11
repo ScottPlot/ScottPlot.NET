@@ -1,13 +1,13 @@
 ---
-Title: Multiple Axes - ScottPlot 5.0 Cookbook
+Title: Multiple Axes - ScottPlot 5 Cookbook
 Description: Tick mark customization and creation of multi-Axis plots
-URL: /cookbook/5.0/MultiAxis/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Multiple Axes"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/MultiAxis"]
-Date: 2025-01-26
-Version: ScottPlot 5.0.55
-Version: ScottPlot 5.0.55
-SearchUrl: "/cookbook/5.0/search/"
+URL: /cookbook/5/MultiAxis/
+BreadcrumbNames: ["ScottPlot 5 Cookbook", "Multiple Axes"]
+BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/MultiAxis"]
+Date: 2025-10-11
+Version: ScottPlot 5.1.57
+Version: ScottPlot 5.1.57
+SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
 
@@ -16,16 +16,16 @@ ShowEditLink: false
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Right Axis</h1>
-<a href='/cookbook/5.0/MultiAxis/RightAxis' target='_blank'>
+<a href='/cookbook/5/MultiAxis/RightAxis' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 New plots have one axis on every side. Axes on the right and top are invisible by default. To use the right axis, make it visible, then tell a plottable to use it. 
 
-[![](/cookbook/5.0/images/RightAxis.png?250126165944)](/cookbook/5.0/images/RightAxis.png?250126165944)
+[![](/cookbook/5/images/RightAxis.png?251011113742)](/cookbook/5/images/RightAxis.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/MultiAxis.cs" imageUrl="/cookbook/5.0/images/RightAxis.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/MultiAxis.cs" imageUrl="/cookbook/5/images/RightAxis.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 // plot data with very different scales
 var sig1 = myPlot.Add.Signal(Generate.Sin(mult: 0.01));
@@ -50,16 +50,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Multi-Axis</h1>
-<a href='/cookbook/5.0/MultiAxis/MultiAxisQuickstart' target='_blank'>
+<a href='/cookbook/5/MultiAxis/MultiAxisQuickstart' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Additional axes may be added to plots. Plottables are displayed using the coordinate system of the primary axes by default, but any plottable can be displayed using any X and Y axis.
 
-[![](/cookbook/5.0/images/MultiAxisQuickstart.png?250126165944)](/cookbook/5.0/images/MultiAxisQuickstart.png?250126165944)
+[![](/cookbook/5/images/MultiAxisQuickstart.png?251011113742)](/cookbook/5/images/MultiAxisQuickstart.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/MultiAxis.cs" imageUrl="/cookbook/5.0/images/MultiAxisQuickstart.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/MultiAxis.cs" imageUrl="/cookbook/5/images/MultiAxisQuickstart.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 // plottables use the standard X and Y axes by default
 var sig1 = myPlot.Add.Signal(Generate.Sin(51, mult: 0.01));
@@ -85,16 +85,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Right Axis Only</h1>
-<a href='/cookbook/5.0/MultiAxis/RightAxisOnly' target='_blank'>
+<a href='/cookbook/5/MultiAxis/RightAxisOnly' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 The default Y axis is the one on the left of the plot, but the right Y axis may be used instead.
 
-[![](/cookbook/5.0/images/RightAxisOnly.png?250126165944)](/cookbook/5.0/images/RightAxisOnly.png?250126165944)
+[![](/cookbook/5/images/RightAxisOnly.png?251011113742)](/cookbook/5/images/RightAxisOnly.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/MultiAxis.cs" imageUrl="/cookbook/5.0/images/RightAxisOnly.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/MultiAxis.cs" imageUrl="/cookbook/5/images/RightAxisOnly.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 // add a plottable to the plot
 var sig = myPlot.Add.Signal(Generate.Sin());

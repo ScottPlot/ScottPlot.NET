@@ -1,13 +1,13 @@
 ---
-Title: Polygon Plot Quickstart - ScottPlot 5.0 Cookbook
+Title: Polygon Plot Quickstart - ScottPlot 5 Cookbook
 Description: Polygon plots can be added from a series of vertices, and must be in clockwise order.
-URL: /cookbook/5.0/Shapes/PolygonQuickstart/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Shapes", "Polygon Plot Quickstart"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Shapes", "/cookbook/5.0/Shapes/PolygonQuickstart"]
-Date: 2025-01-26
-Version: ScottPlot 5.0.55
-Version: ScottPlot 5.0.55
-SearchUrl: "/cookbook/5.0/search/"
+URL: /cookbook/5/Shapes/PolygonQuickstart/
+BreadcrumbNames: ["ScottPlot 5 Cookbook", "Shapes", "Polygon Plot Quickstart"]
+BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/Shapes", "/cookbook/5/Shapes/PolygonQuickstart"]
+Date: 2025-10-11
+Version: ScottPlot 5.1.57
+Version: ScottPlot 5.1.57
+SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
 
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Polygon plots can be added from a series of vertices, and must be in clockwise order.
 
-[![](/cookbook/5.0/images/PolygonQuickstart.png?250126165944)](/cookbook/5.0/images/PolygonQuickstart.png?250126165944)
+[![](/cookbook/5/images/PolygonQuickstart.png?251011113742)](/cookbook/5/images/PolygonQuickstart.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Shapes.cs" imageUrl="/cookbook/5.0/images/PolygonQuickstart.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Shapes.cs" imageUrl="/cookbook/5/images/PolygonQuickstart.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 Coordinates[] points =
 {
@@ -36,6 +36,6 @@ myPlot.Add.Polygon(points);
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
-<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5.0/Shapes'>Shapes</a> category</div>
+<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5/Shapes'>Shapes</a> category</div>
 
 

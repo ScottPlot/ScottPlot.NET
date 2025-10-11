@@ -1,13 +1,13 @@
 ---
-Title: Axis with Subtitle - ScottPlot 5.0 Cookbook
+Title: Axis with Subtitle - ScottPlot 5 Cookbook
 Description: Users can create their own fully custom axes to replace the default ones (as demonstrated in the demo app). Some experimental axes are available for users who may be interested in alternative axis display styles.
-URL: /cookbook/5.0/AxisAndTicks/ExperimentalAxisWithSubtitle/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Axis and Ticks", "Axis with Subtitle"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AxisAndTicks", "/cookbook/5.0/AxisAndTicks/ExperimentalAxisWithSubtitle"]
-Date: 2025-01-26
-Version: ScottPlot 5.0.55
-Version: ScottPlot 5.0.55
-SearchUrl: "/cookbook/5.0/search/"
+URL: /cookbook/5/AxisAndTicks/ExperimentalAxisWithSubtitle/
+BreadcrumbNames: ["ScottPlot 5 Cookbook", "Axis and Ticks", "Axis with Subtitle"]
+BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/AxisAndTicks", "/cookbook/5/AxisAndTicks/ExperimentalAxisWithSubtitle"]
+Date: 2025-10-11
+Version: ScottPlot 5.1.57
+Version: ScottPlot 5.1.57
+SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
 
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Users can create their own fully custom axes to replace the default ones (as demonstrated in the demo app). Some experimental axes are available for users who may be interested in alternative axis display styles.
 
-[![](/cookbook/5.0/images/ExperimentalAxisWithSubtitle.png?250126165944)](/cookbook/5.0/images/ExperimentalAxisWithSubtitle.png?250126165944)
+[![](/cookbook/5/images/ExperimentalAxisWithSubtitle.png?251011113742)](/cookbook/5/images/ExperimentalAxisWithSubtitle.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs" imageUrl="/cookbook/5.0/images/ExperimentalAxisWithSubtitle.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs" imageUrl="/cookbook/5/images/ExperimentalAxisWithSubtitle.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 // Plot some sample data
 myPlot.Add.Signal(Generate.Sin());
@@ -40,6 +40,6 @@ myPlot.Axes.AddLeftAxis(customAxisY);
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
-<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5.0/AxisAndTicks'>Axis and Ticks</a> category</div>
+<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5/AxisAndTicks'>Axis and Ticks</a> category</div>
 
 

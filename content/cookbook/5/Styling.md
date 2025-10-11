@@ -1,13 +1,13 @@
 ---
-Title: Styling Plots - ScottPlot 5.0 Cookbook
+Title: Styling Plots - ScottPlot 5 Cookbook
 Description: How to customize appearance of plots
-URL: /cookbook/5.0/Styling/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Styling Plots"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Styling"]
-Date: 2025-01-26
-Version: ScottPlot 5.0.55
-Version: ScottPlot 5.0.55
-SearchUrl: "/cookbook/5.0/search/"
+URL: /cookbook/5/Styling/
+BreadcrumbNames: ["ScottPlot 5 Cookbook", "Styling Plots"]
+BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/Styling"]
+Date: 2025-10-11
+Version: ScottPlot 5.1.57
+Version: ScottPlot 5.1.57
+SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
 
@@ -16,16 +16,16 @@ ShowEditLink: false
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Background Colors</h1>
-<a href='/cookbook/5.0/Styling/BackgroundColors' target='_blank'>
+<a href='/cookbook/5/Styling/BackgroundColors' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Background color for the entire figure or just the data area may be individually controlled. When using dark figure backgrounds it may be necessary to configure axes to use light colors
 
-[![](/cookbook/5.0/images/BackgroundColors.png?250126165944)](/cookbook/5.0/images/BackgroundColors.png?250126165944)
+[![](/cookbook/5/images/BackgroundColors.png?251011113742)](/cookbook/5/images/BackgroundColors.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs" imageUrl="/cookbook/5.0/images/BackgroundColors.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs" imageUrl="/cookbook/5/images/BackgroundColors.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 // setup a plot with sample data
 myPlot.Add.Signal(Generate.Sin(51));
@@ -50,16 +50,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Axis Customization</h1>
-<a href='/cookbook/5.0/Styling/AxisCustom' target='_blank'>
+<a href='/cookbook/5/Styling/AxisCustom' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Axis labels, tick marks, and frame can all be customized.
 
-[![](/cookbook/5.0/images/AxisCustom.png?250126165944)](/cookbook/5.0/images/AxisCustom.png?250126165944)
+[![](/cookbook/5/images/AxisCustom.png?251011113742)](/cookbook/5/images/AxisCustom.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs" imageUrl="/cookbook/5.0/images/AxisCustom.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs" imageUrl="/cookbook/5/images/AxisCustom.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin(51));
 myPlot.Add.Signal(Generate.Cos(51));
@@ -99,16 +99,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Palettes</h1>
-<a href='/cookbook/5.0/Styling/Palette' target='_blank'>
+<a href='/cookbook/5/Styling/Palette' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
-A palette is a set of colors, and the Plot's palette defines the default colors to use when adding new plottables. ScottPlot comes with many standard palettes, but users may also create their own.
+A palette is a set of colors, and the Plot's palette defines the default colors to use when adding new plottables. https://scottplot.net/cookbook/5/palettes/ displays all palettes included with ScottPlot.
 
-[![](/cookbook/5.0/images/Palette.png?250126165944)](/cookbook/5.0/images/Palette.png?250126165944)
+[![](/cookbook/5/images/Palette.png?251011113742)](/cookbook/5/images/Palette.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs" imageUrl="/cookbook/5.0/images/Palette.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs" imageUrl="/cookbook/5/images/Palette.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 // change the default palette used when adding new plottables
 myPlot.Add.Palette = new ScottPlot.Palettes.Nord();
@@ -128,17 +128,116 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 <div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Inverted Palettes</h1>
+<a href='/cookbook/5/Styling/PaletteInvert' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
+</div>
+
+Palettes can be inverted. Palettes that work well on light backgrounds typically work well on dark backgrounds if they are inverted.
+
+[![](/cookbook/5/images/PaletteInvert.png?251011113742)](/cookbook/5/images/PaletteInvert.png?251011113742)
+
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs" imageUrl="/cookbook/5/images/PaletteInvert.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+
+var palette1 = new ScottPlot.Palettes.ColorblindFriendly();
+var palette2 = palette1.Inverted();
+var palette3 = palette1.InvertedHue();
+
+for (int x = 0; x &lt; palette1.Count(); x++)
+{
+    CoordinateRect rect1 = CoordinateRect.UnitSquare.WithTranslation(x, 4);
+    CoordinateRect rect2 = CoordinateRect.UnitSquare.WithTranslation(x, 2);
+    CoordinateRect rect3 = CoordinateRect.UnitSquare.WithTranslation(x, 0);
+    var shape1 = myPlot.Add.Rectangle(rect1);
+    var shape2 = myPlot.Add.Rectangle(rect2);
+    var shape3 = myPlot.Add.Rectangle(rect3);
+
+    // set color using the palette
+    shape1.FillColor = palette1.Colors[x];
+    shape2.FillColor = palette2.Colors[x];
+    shape3.FillColor = palette3.Colors[x];
+
+    shape1.LineColor = shape1.FillColor;
+    shape2.LineColor = shape2.FillColor;
+    shape3.LineColor = shape3.FillColor;
+
+}
+
+myPlot.Add.Text("Standard", 0, 5.5);
+myPlot.Add.Text("Inverted", 0, 3.5);
+myPlot.Add.Text("Inverted Hue", 0, 1.5);
+myPlot.HideGrid();
+
+myPlot.SavePng("demo.png", 400, 300);
+{{< /recipe-sp5 >}}
+
+<hr class='my-5 invisible'>
+
+
+
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Colormaps</h1>
+<a href='/cookbook/5/Styling/Colormaps' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
+</div>
+
+A colormap is a continuous gradient of multiple colors. It can be used to color continuous data like heatmaps and images, but colormaps may also be sampled directly to create collections of colors. https://scottplot.net/cookbook/5/colormaps/ displays all colormaps included with ScottPlot.
+
+[![](/cookbook/5/images/Colormaps.png?251011113742)](/cookbook/5/images/Colormaps.png?251011113742)
+
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs" imageUrl="/cookbook/5/images/Colormaps.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+
+var colormap1 = new ScottPlot.Colormaps.Viridis();
+var colormap2 = colormap1.Invert();
+var colormap3 = colormap1.InvertHue();
+
+int steps = 20;
+for (int x = 0; x &lt; steps; x++)
+{
+    CoordinateRect rect1 = CoordinateRect.UnitSquare.WithTranslation(x, 4);
+    CoordinateRect rect2 = CoordinateRect.UnitSquare.WithTranslation(x, 2);
+    CoordinateRect rect3 = CoordinateRect.UnitSquare.WithTranslation(x, 0);
+    var shape1 = myPlot.Add.Rectangle(rect1);
+    var shape2 = myPlot.Add.Rectangle(rect2);
+    var shape3 = myPlot.Add.Rectangle(rect3);
+
+    // set color using the colormap
+    double fraction = (double)x / (steps - 1);
+    shape1.FillColor = colormap1.GetColor(fraction);
+    shape2.FillColor = colormap2.GetColor(fraction);
+    shape3.FillColor = colormap3.GetColor(fraction);
+
+    shape1.LineColor = shape1.FillColor;
+    shape2.LineColor = shape2.FillColor;
+    shape3.LineColor = shape3.FillColor;
+}
+
+myPlot.Add.Text("Standard", 0, 5.5);
+myPlot.Add.Text("Inverted", 0, 3.5);
+myPlot.Add.Text("Inverted Hue", 0, 1.5);
+myPlot.HideGrid();
+
+myPlot.SavePng("demo.png", 400, 300);
+{{< /recipe-sp5 >}}
+
+<hr class='my-5 invisible'>
+
+
+
+<div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Arrow Shapes</h1>
-<a href='/cookbook/5.0/Styling/ArrowShapeNames' target='_blank'>
+<a href='/cookbook/5/Styling/ArrowShapeNames' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Many standard arrow shapes are available
 
-[![](/cookbook/5.0/images/ArrowShapeNames.png?250126165944)](/cookbook/5.0/images/ArrowShapeNames.png?250126165944)
+[![](/cookbook/5/images/ArrowShapeNames.png?251011113742)](/cookbook/5/images/ArrowShapeNames.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs" imageUrl="/cookbook/5.0/images/ArrowShapeNames.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs" imageUrl="/cookbook/5/images/ArrowShapeNames.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 ArrowShape[] arrowShapes = Enum.GetValues&lt;ArrowShape&gt;().ToArray();
 
@@ -168,16 +267,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Line Styles</h1>
-<a href='/cookbook/5.0/Styling/LineStyles' target='_blank'>
+<a href='/cookbook/5/Styling/LineStyles' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Many plot types have a LineStyle which can be customized.
 
-[![](/cookbook/5.0/images/LineStyles.png?250126165944)](/cookbook/5.0/images/LineStyles.png?250126165944)
+[![](/cookbook/5/images/LineStyles.png?251011113742)](/cookbook/5/images/LineStyles.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs" imageUrl="/cookbook/5.0/images/LineStyles.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs" imageUrl="/cookbook/5/images/LineStyles.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 List&lt;LinePattern&gt; patterns = [];
 patterns.AddRange(LinePattern.GetAllPatterns());
@@ -214,16 +313,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Scale Factor</h1>
-<a href='/cookbook/5.0/Styling/Scaling' target='_blank'>
+<a href='/cookbook/5/Styling/Scaling' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 All components of an image can be scaled up or down in size by adjusting the ScaleFactor property. This is very useful for creating images that look nice on high DPI displays with display scaling enabled.
 
-[![](/cookbook/5.0/images/Scaling.png?250126165944)](/cookbook/5.0/images/Scaling.png?250126165944)
+[![](/cookbook/5/images/Scaling.png?251011113742)](/cookbook/5/images/Scaling.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs" imageUrl="/cookbook/5.0/images/Scaling.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs" imageUrl="/cookbook/5/images/Scaling.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.ScaleFactor = 2;
 myPlot.Add.Signal(Generate.Sin());
@@ -238,16 +337,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Hairline Mode</h1>
-<a href='/cookbook/5.0/Styling/Hairline' target='_blank'>
+<a href='/cookbook/5/Styling/Hairline' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Hairline mode allows axis frames, tick marks, and grid lines to always be rendered a single pixel wide regardless of scale factor. Enable hairline mode to allow interactive plots to feel smoother when a large scale factor is in use.
 
-[![](/cookbook/5.0/images/Hairline.png?250126165944)](/cookbook/5.0/images/Hairline.png?250126165944)
+[![](/cookbook/5/images/Hairline.png?251011113742)](/cookbook/5/images/Hairline.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs" imageUrl="/cookbook/5.0/images/Hairline.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs" imageUrl="/cookbook/5/images/Hairline.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.ScaleFactor = 2;
 myPlot.Add.Signal(Generate.Sin());
@@ -264,16 +363,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Dark Mode</h1>
-<a href='/cookbook/5.0/Styling/DarkMode' target='_blank'>
+<a href='/cookbook/5/Styling/DarkMode' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Plots can be created using dark mode by setting the colors of major plot components to ones consistent with a dark theme.
 
-[![](/cookbook/5.0/images/DarkMode.png?250126165944)](/cookbook/5.0/images/DarkMode.png?250126165944)
+[![](/cookbook/5/images/DarkMode.png?251011113742)](/cookbook/5/images/DarkMode.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs" imageUrl="/cookbook/5.0/images/DarkMode.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs" imageUrl="/cookbook/5/images/DarkMode.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 // set the color palette used when coloring new items added to the plot
 myPlot.Add.Palette = new ScottPlot.Palettes.Penumbra();
@@ -312,16 +411,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Colormap Steps</h1>
-<a href='/cookbook/5.0/Styling/ColormapColorSteps' target='_blank'>
+<a href='/cookbook/5/Styling/ColormapColorSteps' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Colormaps can be used to generate a collection of discrete colors that can be applied to plottable objects.
 
-[![](/cookbook/5.0/images/ColormapColorSteps.png?250126165944)](/cookbook/5.0/images/ColormapColorSteps.png?250126165944)
+[![](/cookbook/5/images/ColormapColorSteps.png?251011113742)](/cookbook/5/images/ColormapColorSteps.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs" imageUrl="/cookbook/5.0/images/ColormapColorSteps.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs" imageUrl="/cookbook/5/images/ColormapColorSteps.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 IColormap colormap = new ScottPlot.Colormaps.Turbo();
 
@@ -350,16 +449,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Colormap Gradient from Colors</h1>
-<a href='/cookbook/5.0/Styling/ColormapFromColors' target='_blank'>
+<a href='/cookbook/5/Styling/ColormapFromColors' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Colormaps can be created as a gradient between a collection of colors.
 
-[![](/cookbook/5.0/images/ColormapFromColors.png?250126165944)](/cookbook/5.0/images/ColormapFromColors.png?250126165944)
+[![](/cookbook/5/images/ColormapFromColors.png?251011113742)](/cookbook/5/images/ColormapFromColors.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs" imageUrl="/cookbook/5.0/images/ColormapFromColors.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs" imageUrl="/cookbook/5/images/ColormapFromColors.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 Color[] colors = [Colors.Red, Colors.Magenta, Colors.DarkGreen];
 IColormap myColormap = Colormap.FromColors(colors);
@@ -378,16 +477,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Hand Drawn Line Style</h1>
-<a href='/cookbook/5.0/Styling/HandDrawn' target='_blank'>
+<a href='/cookbook/5/Styling/HandDrawn' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Enabling hand-drawn line style allows creation of charts that mimic XKCD style graphs which use squiggly lines for comedic effect.
 
-[![](/cookbook/5.0/images/HandDrawn.png?250126165944)](/cookbook/5.0/images/HandDrawn.png?250126165944)
+[![](/cookbook/5/images/HandDrawn.png?251011113742)](/cookbook/5/images/HandDrawn.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs" imageUrl="/cookbook/5.0/images/HandDrawn.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs" imageUrl="/cookbook/5/images/HandDrawn.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 double[] xs = Generate.Consecutive(100);
 double[] values1 = Generate.Sigmoidal(xs.Length, -1, 2);
@@ -424,21 +523,222 @@ myPlot.SavePng("demo.png", 400, 300);
 
 
 <div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Hide the Title</h1>
+<a href='/cookbook/5/Styling/TitleHide' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
+</div>
+
+A shortcut method exists to easily disable title visibility. This strategy can be used to un-hide the title later, preserving its original text.
+
+[![](/cookbook/5/images/TitleHide.png?251011113742)](/cookbook/5/images/TitleHide.png?251011113742)
+
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs" imageUrl="/cookbook/5/images/TitleHide.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+
+// add sample data
+myPlot.Add.Signal(Generate.Sin());
+myPlot.Add.Signal(Generate.Cos());
+
+// display text in the title area
+myPlot.Title("This is an example title");
+
+// hide the title
+myPlot.Title(false);
+
+myPlot.SavePng("demo.png", 400, 300);
+{{< /recipe-sp5 >}}
+
+<hr class='my-5 invisible'>
+
+
+
+<div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Title Alignment</h1>
-<a href='/cookbook/5.0/Styling/TitleAlignment' target='_blank'>
+<a href='/cookbook/5/Styling/TitleAlignment' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 The title is centered over the data area by default, but a flag allows users to center it relative to the figure instead
 
-[![](/cookbook/5.0/images/TitleAlignment.png?250126165944)](/cookbook/5.0/images/TitleAlignment.png?250126165944)
+[![](/cookbook/5/images/TitleAlignment.png?251011113742)](/cookbook/5/images/TitleAlignment.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs" imageUrl="/cookbook/5.0/images/TitleAlignment.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs" imageUrl="/cookbook/5/images/TitleAlignment.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin(51, mult: 1e9));
 myPlot.Title("This title is centered in the figure");
 myPlot.Axes.Title.FullFigureCenter = true;
+
+myPlot.SavePng("demo.png", 400, 300);
+{{< /recipe-sp5 >}}
+
+<hr class='my-5 invisible'>
+
+
+
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Plot Border</h1>
+<a href='/cookbook/5/Styling/PlotBorder' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
+</div>
+
+Plots can be assigned borders to draw around the figure or data area.
+
+[![](/cookbook/5/images/PlotBorder.png?251011113742)](/cookbook/5/images/PlotBorder.png?251011113742)
+
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs" imageUrl="/cookbook/5/images/PlotBorder.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+
+myPlot.Add.Signal(Generate.Sin());
+myPlot.Add.Signal(Generate.Cos());
+
+myPlot.FigureBorder = new()
+{
+    Color = Colors.Magenta,
+    Width = 3,
+    Pattern = LinePattern.Dotted,
+};
+
+myPlot.DataBorder = new()
+{
+    Color = Colors.Green,
+    Width = 3,
+    Pattern = LinePattern.DenselyDashed,
+};
+
+// the hide axis frame lines so our custom border is the only one
+myPlot.Axes.Frame(false);
+
+myPlot.SavePng("demo.png", 400, 300);
+{{< /recipe-sp5 >}}
+
+<hr class='my-5 invisible'>
+
+
+
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Set Font by Name</h1>
+<a href='/cookbook/5/Styling/SetFontName' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
+</div>
+
+Set font by its name to apply it to common plot components.
+
+[![](/cookbook/5/images/SetFontName.png?251011113742)](/cookbook/5/images/SetFontName.png?251011113742)
+
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs" imageUrl="/cookbook/5/images/SetFontName.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+
+myPlot.Font.Set("Comic Sans MS");
+myPlot.Title("Hello, World");
+var sig = myPlot.Add.Signal(Generate.Sin(51, mult: 1e6));
+sig.LegendText = "Hello, Custom Font";
+
+myPlot.SavePng("demo.png", 400, 300);
+{{< /recipe-sp5 >}}
+
+<hr class='my-5 invisible'>
+
+
+
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Set Font Weight</h1>
+<a href='/cookbook/5/Styling/SetFontWeight' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
+</div>
+
+Font weight can be customized.
+
+[![](/cookbook/5/images/SetFontWeight.png?251011113742)](/cookbook/5/images/SetFontWeight.png?251011113742)
+
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs" imageUrl="/cookbook/5/images/SetFontWeight.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+
+myPlot.Font.Set("Calibri"); // apply to many existing plot labels
+myPlot.Title("Hello, World");
+
+FontWeight[] weights = [FontWeight.Light, FontWeight.Normal,
+    FontWeight.SemiBold, FontWeight.Bold, FontWeight.ExtraBlack];
+
+for (int i = 0; i &lt; weights.Length; i++)
+{
+    FontWeight weight = weights[i];
+    myPlot.Font.Set("Calibri", weight: weight); // apply to new labels
+    var text = myPlot.Add.Text($"FontWeight.{weight}", 0, i);
+    text.LabelFontSize = 24;
+}
+
+myPlot.Axes.SetLimits(-1, 5, -2, weights.Length);
+myPlot.HideGrid();
+
+myPlot.SavePng("demo.png", 400, 300);
+{{< /recipe-sp5 >}}
+
+<hr class='my-5 invisible'>
+
+
+
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Set Font Slant</h1>
+<a href='/cookbook/5/Styling/SetFontSlant' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
+</div>
+
+Font slant can be customized.
+
+[![](/cookbook/5/images/SetFontSlant.png?251011113742)](/cookbook/5/images/SetFontSlant.png?251011113742)
+
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs" imageUrl="/cookbook/5/images/SetFontSlant.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+
+myPlot.Font.Set("Calibri", slant: FontSlant.Italic); // apply to many existing plot labels
+myPlot.Title("Hello, World");
+
+FontSlant[] slants = [FontSlant.Upright, FontSlant.Italic, FontSlant.Oblique];
+
+for (int i = 0; i &lt; slants.Length; i++)
+{
+    FontSlant slant = slants[i];
+    myPlot.Font.Set("Calibri", slant: slant); // apply to new labels
+    var text = myPlot.Add.Text($"FontSlant.{slant}", 0, i);
+    text.LabelFontSize = 24;
+}
+
+myPlot.Axes.SetLimits(-1, 5, -1, slants.Length);
+myPlot.HideGrid();
+
+myPlot.SavePng("demo.png", 400, 300);
+{{< /recipe-sp5 >}}
+
+<hr class='my-5 invisible'>
+
+
+
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Set Label Underline</h1>
+<a href='/cookbook/5/Styling/SetFontUnderline' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
+</div>
+
+Underlines may be added to label styles. Underline thickness and offset may be customized as well.
+
+[![](/cookbook/5/images/SetFontUnderline.png?251011113742)](/cookbook/5/images/SetFontUnderline.png?251011113742)
+
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs" imageUrl="/cookbook/5/images/SetFontUnderline.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+
+for (int i = 0; i &lt; 5; i++)
+{
+    var text = myPlot.Add.Text($"Underline {i}px", i / 5.0, i);
+    text.LabelFontSize = 24;
+    text.LabelFontColor = ScottPlot.Palette.Default.GetColor(i);
+    text.LabelUnderline = true;
+    text.LabelUnderlineWidth = i;
+    text.LabelUnderlineOffset = 2 + i / 2;
+}
+
+myPlot.Axes.SetLimits(-1, 5, -1, 4);
+myPlot.HideGrid();
 
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}

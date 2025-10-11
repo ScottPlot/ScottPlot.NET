@@ -1,15 +1,15 @@
 ---
-title: Colors - ScottPlot 5.0
-description: Colors available in ScottPlot version 5.0
-url: /cookbook/5.0/colors/
+title: Colors - ScottPlot 5
+description: Colors available in ScottPlot version 5
+url: /cookbook/5/colors/
 type: single
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Colors"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/colors/"]
-date: 2025-01-26
-jsFiles: ["https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js", "/js/cookbook-search-5.0.js"]
+BreadcrumbNames: ["ScottPlot 5 Cookbook", "Colors"]
+BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/colors/"]
+date: 2025-10-11
+jsFiles: ["https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js", "/js/cookbook-search-5.js"]
 ---
 
-# ScottPlot 5.0 Colors
+# ScottPlot 5 Colors
 
 <ul style='list-style-type: none;'>
 <li class='font-monospace'><div style="display: inline-block; width: 4rem; height: 1rem; background-color: #F0F8FF; outline: 1px solid black;"></div> #F0F8FF Colors.AliceBlue</li>
@@ -171,6 +171,8 @@ jsFiles: ["https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.
 <li class='font-monospace'><div style="display: inline-block; width: 4rem; height: 1rem; background-color: #7F7F7F; outline: 1px solid black;"></div> #7F7F7F Colors.C7</li>
 <li class='font-monospace'><div style="display: inline-block; width: 4rem; height: 1rem; background-color: #BCBD22; outline: 1px solid black;"></div> #BCBD22 Colors.C8</li>
 <li class='font-monospace'><div style="display: inline-block; width: 4rem; height: 1rem; background-color: #17BECF; outline: 1px solid black;"></div> #17BECF Colors.C9</li>
+<li class='font-monospace'><div style="display: inline-block; width: 4rem; height: 1rem; background-color: #67217A; outline: 1px solid black;"></div> #67217A Colors.ScottPlotPurple</li>
+<li class='font-monospace'><div style="display: inline-block; width: 4rem; height: 1rem; background-color: #9A4993; outline: 1px solid black;"></div> #9A4993 Colors.ScottPlotPink</li>
 <li class='font-monospace'><div style="display: inline-block; width: 4rem; height: 1rem; background-color: #D4D0C8; outline: 1px solid black;"></div> #D4D0C8 Colors.Windows.ActiveBorder</li>
 <li class='font-monospace'><div style="display: inline-block; width: 4rem; height: 1rem; background-color: #0A246A; outline: 1px solid black;"></div> #0A246A Colors.Windows.ActiveCaption</li>
 <li class='font-monospace'><div style="display: inline-block; width: 4rem; height: 1rem; background-color: #808080; outline: 1px solid black;"></div> #808080 Colors.Windows.AppWorkspace</li>

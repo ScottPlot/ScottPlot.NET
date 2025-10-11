@@ -1,13 +1,13 @@
 ---
-Title: Manual Legend Items - ScottPlot 5.0 Cookbook
-Description: Legends may be constructed manually.
-URL: /cookbook/5.0/Legend/ManualLegend/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Legends", "Manual Legend Items"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Legend", "/cookbook/5.0/Legend/ManualLegend"]
-Date: 2025-01-26
-Version: ScottPlot 5.0.55
-Version: ScottPlot 5.0.55
-SearchUrl: "/cookbook/5.0/search/"
+Title: Manual Legend Items - ScottPlot 5 Cookbook
+Description: Legends may be constructed manually and markers customized.
+URL: /cookbook/5/Legend/ManualLegend/
+BreadcrumbNames: ["ScottPlot 5 Cookbook", "Legends", "Manual Legend Items"]
+BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/Legend", "/cookbook/5/Legend/ManualLegend"]
+Date: 2025-10-11
+Version: ScottPlot 5.1.57
+Version: ScottPlot 5.1.57
+SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
 
@@ -16,11 +16,11 @@ ShowEditLink: false
 <h1 class='me-2 text-dark my-0 border-0'>Manual Legend Items</h1>
 </div>
 
-Legends may be constructed manually.
+Legends may be constructed manually and markers customized.
 
-[![](/cookbook/5.0/images/ManualLegend.png?250126165944)](/cookbook/5.0/images/ManualLegend.png?250126165944)
+[![](/cookbook/5/images/ManualLegend.png?251011113742)](/cookbook/5/images/ManualLegend.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Legend.cs" imageUrl="/cookbook/5.0/images/ManualLegend.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Legend.cs" imageUrl="/cookbook/5/images/ManualLegend.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin(51));
 myPlot.Add.Signal(Generate.Cos(51));
@@ -31,6 +31,7 @@ LegendItem item1 = new()
     LineColor = Colors.Magenta,
     MarkerFillColor = Colors.Magenta,
     MarkerLineColor = Colors.Magenta,
+    MarkerShape = MarkerShape.Cross,
     LineWidth = 2,
     LabelText = "Alpha"
 };
@@ -50,6 +51,6 @@ myPlot.ShowLegend(items);
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
-<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5.0/Legend'>Legends</a> category</div>
+<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5/Legend'>Legends</a> category</div>
 
 

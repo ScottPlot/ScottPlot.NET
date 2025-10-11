@@ -1,13 +1,13 @@
 ---
-Title: Axis Spans - ScottPlot 5.0 Cookbook
+Title: Axis Spans - ScottPlot 5 Cookbook
 Description: Axis spans indicate a range of an axis.
-URL: /cookbook/5.0/AxisSpans/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Axis Spans"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AxisSpans"]
-Date: 2025-01-26
-Version: ScottPlot 5.0.55
-Version: ScottPlot 5.0.55
-SearchUrl: "/cookbook/5.0/search/"
+URL: /cookbook/5/AxisSpans/
+BreadcrumbNames: ["ScottPlot 5 Cookbook", "Axis Spans"]
+BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/AxisSpans"]
+Date: 2025-10-11
+Version: ScottPlot 5.1.57
+Version: ScottPlot 5.1.57
+SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
 
@@ -16,16 +16,16 @@ ShowEditLink: false
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Axis Span Quickstart</h1>
-<a href='/cookbook/5.0/AxisSpans/AxisSpanQuickstart' target='_blank'>
+<a href='/cookbook/5/AxisSpans/AxisSpanQuickstart' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Axis spans label a range of an axis. Vertical spans shade the full width of a vertical range, and horizontal spans shade the full height of a horizontal range.
 
-[![](/cookbook/5.0/images/AxisSpanQuickstart.png?250126165944)](/cookbook/5.0/images/AxisSpanQuickstart.png?250126165944)
+[![](/cookbook/5/images/AxisSpanQuickstart.png?251011113742)](/cookbook/5/images/AxisSpanQuickstart.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/AxisSpans.cs" imageUrl="/cookbook/5.0/images/AxisSpanQuickstart.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/AxisSpans.cs" imageUrl="/cookbook/5/images/AxisSpanQuickstart.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin());
 myPlot.Add.Signal(Generate.Cos());
@@ -46,16 +46,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Axis Span Styling</h1>
-<a href='/cookbook/5.0/AxisSpans/AxisSpanStyling' target='_blank'>
+<a href='/cookbook/5/AxisSpans/AxisSpanStyling' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Axis spans can be extensively customized.
 
-[![](/cookbook/5.0/images/AxisSpanStyling.png?250126165944)](/cookbook/5.0/images/AxisSpanStyling.png?250126165944)
+[![](/cookbook/5/images/AxisSpanStyling.png?251011113742)](/cookbook/5/images/AxisSpanStyling.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/AxisSpans.cs" imageUrl="/cookbook/5.0/images/AxisSpanStyling.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/AxisSpans.cs" imageUrl="/cookbook/5/images/AxisSpanStyling.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin());
 myPlot.Add.Signal(Generate.Cos());

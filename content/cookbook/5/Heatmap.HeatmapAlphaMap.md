@@ -1,13 +1,13 @@
 ---
-Title: Alpha Map - ScottPlot 5.0 Cookbook
+Title: Alpha Map - ScottPlot 5 Cookbook
 Description: An alpha map (a 2d array of byte values) can be used to apply custom transparency to each cell of a heatmap.
-URL: /cookbook/5.0/Heatmap/HeatmapAlphaMap/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Heatmap", "Alpha Map"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Heatmap", "/cookbook/5.0/Heatmap/HeatmapAlphaMap"]
-Date: 2025-01-26
-Version: ScottPlot 5.0.55
-Version: ScottPlot 5.0.55
-SearchUrl: "/cookbook/5.0/search/"
+URL: /cookbook/5/Heatmap/HeatmapAlphaMap/
+BreadcrumbNames: ["ScottPlot 5 Cookbook", "Heatmap", "Alpha Map"]
+BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/Heatmap", "/cookbook/5/Heatmap/HeatmapAlphaMap"]
+Date: 2025-10-11
+Version: ScottPlot 5.1.57
+Version: ScottPlot 5.1.57
+SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
 
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 An alpha map (a 2d array of byte values) can be used to apply custom transparency to each cell of a heatmap.
 
-[![](/cookbook/5.0/images/HeatmapAlphaMap.png?250126165944)](/cookbook/5.0/images/HeatmapAlphaMap.png?250126165944)
+[![](/cookbook/5/images/HeatmapAlphaMap.png?251011113742)](/cookbook/5/images/HeatmapAlphaMap.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Heatmap.cs" imageUrl="/cookbook/5.0/images/HeatmapAlphaMap.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Heatmap.cs" imageUrl="/cookbook/5/images/HeatmapAlphaMap.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 // data values are translated to color based on the heatmap's colormap
 double[,] data = SampleData.MonaLisa();
@@ -50,6 +50,6 @@ hm.AlphaMap = alphaMap;
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
-<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5.0/Heatmap'>Heatmap</a> category</div>
+<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5/Heatmap'>Heatmap</a> category</div>
 
 

@@ -1,13 +1,13 @@
 ---
-Title: Box Plot Groups - ScottPlot 5.0 Cookbook
+Title: Box Plot Groups - ScottPlot 5 Cookbook
 Description: Each collection of boxes added to the plot gets styled the same and appears as a single item in the legend. Add multiple bar series plots with defined X positions to give the appearance of grouped data.
-URL: /cookbook/5.0/Box/BoxPlotGroups/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Box Plot", "Box Plot Groups"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Box", "/cookbook/5.0/Box/BoxPlotGroups"]
-Date: 2025-01-26
-Version: ScottPlot 5.0.55
-Version: ScottPlot 5.0.55
-SearchUrl: "/cookbook/5.0/search/"
+URL: /cookbook/5/Box/BoxPlotGroups/
+BreadcrumbNames: ["ScottPlot 5 Cookbook", "Box Plot", "Box Plot Groups"]
+BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/Box", "/cookbook/5/Box/BoxPlotGroups"]
+Date: 2025-10-11
+Version: ScottPlot 5.1.57
+Version: ScottPlot 5.1.57
+SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
 
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Each collection of boxes added to the plot gets styled the same and appears as a single item in the legend. Add multiple bar series plots with defined X positions to give the appearance of grouped data.
 
-[![](/cookbook/5.0/images/BoxPlotGroups.png?250126165944)](/cookbook/5.0/images/BoxPlotGroups.png?250126165944)
+[![](/cookbook/5/images/BoxPlotGroups.png?251011113742)](/cookbook/5/images/BoxPlotGroups.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Box.cs" imageUrl="/cookbook/5.0/images/BoxPlotGroups.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Box.cs" imageUrl="/cookbook/5/images/BoxPlotGroups.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 List&lt;ScottPlot.Box&gt; boxes1 = new() {
     Generate.RandomBox(1),
@@ -45,6 +45,6 @@ myPlot.ShowLegend(Alignment.UpperRight);
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
-<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5.0/Box'>Box Plot</a> category</div>
+<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5/Box'>Box Plot</a> category</div>
 
 

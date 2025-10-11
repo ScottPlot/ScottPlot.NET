@@ -1,13 +1,13 @@
 ---
-Title: Triangular Axis - ScottPlot 5.0 Cookbook
+Title: Triangular Axis - ScottPlot 5 Cookbook
 Description: Create a triangular axis and add it to the plot to display data on a triangular coordinate system.
-URL: /cookbook/5.0/TriangularAxis/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Triangular Axis"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/TriangularAxis"]
-Date: 2025-01-26
-Version: ScottPlot 5.0.55
-Version: ScottPlot 5.0.55
-SearchUrl: "/cookbook/5.0/search/"
+URL: /cookbook/5/TriangularAxis/
+BreadcrumbNames: ["ScottPlot 5 Cookbook", "Triangular Axis"]
+BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/TriangularAxis"]
+Date: 2025-10-11
+Version: ScottPlot 5.1.57
+Version: ScottPlot 5.1.57
+SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
 
@@ -16,16 +16,16 @@ ShowEditLink: false
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Triangular Axis Quickstart</h1>
-<a href='/cookbook/5.0/TriangularAxis/TriangularAxisQuickStart' target='_blank'>
+<a href='/cookbook/5/TriangularAxis/TriangularAxisQuickStart' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Create a triangular axis and add it to the plot to display data on a triangular grid, and interact with it to convert triangular units into Cartesian coordinates that can be used for placing any plot type on top.
 
-[![](/cookbook/5.0/images/TriangularAxisQuickStart.png?250126165944)](/cookbook/5.0/images/TriangularAxisQuickStart.png?250126165944)
+[![](/cookbook/5/images/TriangularAxisQuickStart.png?251011113742)](/cookbook/5/images/TriangularAxisQuickStart.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/TriangularAxis.cs" imageUrl="/cookbook/5.0/images/TriangularAxisQuickStart.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/TriangularAxis.cs" imageUrl="/cookbook/5/images/TriangularAxisQuickStart.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 // Add a triangular axis to the plot
 var ta = myPlot.Add.TriangularAxis();
@@ -49,16 +49,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Triangular Axis Reverse</h1>
-<a href='/cookbook/5.0/TriangularAxis/TriangularAxisReversed' target='_blank'>
+<a href='/cookbook/5/TriangularAxis/TriangularAxisReversed' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Triangular axes typically ascend in a clockwise direction for general applications, but triangular plots with counterclockwise labeling are sometimes used for geological applications.
 
-[![](/cookbook/5.0/images/TriangularAxisReversed.png?250126165944)](/cookbook/5.0/images/TriangularAxisReversed.png?250126165944)
+[![](/cookbook/5/images/TriangularAxisReversed.png?251011113742)](/cookbook/5/images/TriangularAxisReversed.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/TriangularAxis.cs" imageUrl="/cookbook/5.0/images/TriangularAxisReversed.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/TriangularAxis.cs" imageUrl="/cookbook/5/images/TriangularAxisReversed.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 // Add a COUNTER-CLOCKWISE triangular axis to the plot
 var ta = myPlot.Add.TriangularAxis(clockwise: false);
@@ -82,16 +82,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Triangular Axis Styling</h1>
-<a href='/cookbook/5.0/TriangularAxis/TriangularAxisStyling' target='_blank'>
+<a href='/cookbook/5/TriangularAxis/TriangularAxisStyling' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Triangular axis background and grid lines may be customized.
 
-[![](/cookbook/5.0/images/TriangularAxisStyling.png?250126165944)](/cookbook/5.0/images/TriangularAxisStyling.png?250126165944)
+[![](/cookbook/5/images/TriangularAxisStyling.png?251011113742)](/cookbook/5/images/TriangularAxisStyling.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/TriangularAxis.cs" imageUrl="/cookbook/5.0/images/TriangularAxisStyling.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/TriangularAxis.cs" imageUrl="/cookbook/5/images/TriangularAxisStyling.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 var ta = myPlot.Add.TriangularAxis();
 
@@ -119,16 +119,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Triangular Axis Edge Styling</h1>
-<a href='/cookbook/5.0/TriangularAxis/TriangularAxisEdgeStyling' target='_blank'>
+<a href='/cookbook/5/TriangularAxis/TriangularAxisEdgeStyling' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Styling options for edge lines, tick marks, tick labels, and title text may be customized individually for each axis.
 
-[![](/cookbook/5.0/images/TriangularAxisEdgeStyling.png?250126165944)](/cookbook/5.0/images/TriangularAxisEdgeStyling.png?250126165944)
+[![](/cookbook/5/images/TriangularAxisEdgeStyling.png?251011113742)](/cookbook/5/images/TriangularAxisEdgeStyling.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/TriangularAxis.cs" imageUrl="/cookbook/5.0/images/TriangularAxisEdgeStyling.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/TriangularAxis.cs" imageUrl="/cookbook/5/images/TriangularAxisEdgeStyling.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 var ta = myPlot.Add.TriangularAxis();
 
@@ -168,16 +168,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Triangular Axis Titles</h1>
-<a href='/cookbook/5.0/TriangularAxis/TriangularEdgeTitle' target='_blank'>
+<a href='/cookbook/5/TriangularAxis/TriangularEdgeTitle' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Triangular axis edges have a helper method to easily add a title and color all the edge components similarly.
 
-[![](/cookbook/5.0/images/TriangularEdgeTitle.png?250126165944)](/cookbook/5.0/images/TriangularEdgeTitle.png?250126165944)
+[![](/cookbook/5/images/TriangularEdgeTitle.png?251011113742)](/cookbook/5/images/TriangularEdgeTitle.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/TriangularAxis.cs" imageUrl="/cookbook/5.0/images/TriangularEdgeTitle.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/TriangularAxis.cs" imageUrl="/cookbook/5/images/TriangularEdgeTitle.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 var ta = myPlot.Add.TriangularAxis();
 

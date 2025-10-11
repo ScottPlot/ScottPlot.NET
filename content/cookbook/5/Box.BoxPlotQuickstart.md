@@ -1,13 +1,13 @@
 ---
-Title: Box Plot Quickstart - ScottPlot 5.0 Cookbook
+Title: Box Plot Quickstart - ScottPlot 5 Cookbook
 Description: Box plots can be created individually and added to the plot.
-URL: /cookbook/5.0/Box/BoxPlotQuickstart/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Box Plot", "Box Plot Quickstart"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Box", "/cookbook/5.0/Box/BoxPlotQuickstart"]
-Date: 2025-01-26
-Version: ScottPlot 5.0.55
-Version: ScottPlot 5.0.55
-SearchUrl: "/cookbook/5.0/search/"
+URL: /cookbook/5/Box/BoxPlotQuickstart/
+BreadcrumbNames: ["ScottPlot 5 Cookbook", "Box Plot", "Box Plot Quickstart"]
+BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/Box", "/cookbook/5/Box/BoxPlotQuickstart"]
+Date: 2025-10-11
+Version: ScottPlot 5.1.57
+Version: ScottPlot 5.1.57
+SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
 
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Box plots can be created individually and added to the plot.
 
-[![](/cookbook/5.0/images/BoxPlotQuickstart.png?250126165944)](/cookbook/5.0/images/BoxPlotQuickstart.png?250126165944)
+[![](/cookbook/5/images/BoxPlotQuickstart.png?251011113742)](/cookbook/5/images/BoxPlotQuickstart.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Box.cs" imageUrl="/cookbook/5.0/images/BoxPlotQuickstart.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Box.cs" imageUrl="/cookbook/5/images/BoxPlotQuickstart.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 ScottPlot.Box box = new()
 {
@@ -39,6 +39,6 @@ myPlot.Axes.SetLimits(0, 10, 70, 110);
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
-<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5.0/Box'>Box Plot</a> category</div>
+<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5/Box'>Box Plot</a> category</div>
 
 

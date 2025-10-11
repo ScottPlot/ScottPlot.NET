@@ -1,13 +1,13 @@
 ---
-Title: Right Axis Only - ScottPlot 5.0 Cookbook
+Title: Right Axis Only - ScottPlot 5 Cookbook
 Description: The default Y axis is the one on the left of the plot, but the right Y axis may be used instead.
-URL: /cookbook/5.0/MultiAxis/RightAxisOnly/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Multiple Axes", "Right Axis Only"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/MultiAxis", "/cookbook/5.0/MultiAxis/RightAxisOnly"]
-Date: 2025-01-26
-Version: ScottPlot 5.0.55
-Version: ScottPlot 5.0.55
-SearchUrl: "/cookbook/5.0/search/"
+URL: /cookbook/5/MultiAxis/RightAxisOnly/
+BreadcrumbNames: ["ScottPlot 5 Cookbook", "Multiple Axes", "Right Axis Only"]
+BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/MultiAxis", "/cookbook/5/MultiAxis/RightAxisOnly"]
+Date: 2025-10-11
+Version: ScottPlot 5.1.57
+Version: ScottPlot 5.1.57
+SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
 
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 The default Y axis is the one on the left of the plot, but the right Y axis may be used instead.
 
-[![](/cookbook/5.0/images/RightAxisOnly.png?250126165944)](/cookbook/5.0/images/RightAxisOnly.png?250126165944)
+[![](/cookbook/5/images/RightAxisOnly.png?251011113742)](/cookbook/5/images/RightAxisOnly.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/MultiAxis.cs" imageUrl="/cookbook/5.0/images/RightAxisOnly.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/MultiAxis.cs" imageUrl="/cookbook/5/images/RightAxisOnly.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 // add a plottable to the plot
 var sig = myPlot.Add.Signal(Generate.Sin());
@@ -44,6 +44,6 @@ myPlot.Axes.SetLimitsY(bottom: -2, top: 2, yAxis: myPlot.Axes.Right);
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
-<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5.0/MultiAxis'>Multiple Axes</a> category</div>
+<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5/MultiAxis'>Multiple Axes</a> category</div>
 
 

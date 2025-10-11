@@ -1,13 +1,13 @@
 ---
-Title: Coxcomb Plot Quickstart - ScottPlot 5.0 Cookbook
+Title: Coxcomb Plot Quickstart - ScottPlot 5 Cookbook
 Description: A Coxcomb chart is a pie graph where the angle of slices is constant but the radii are not.
-URL: /cookbook/5.0/Coxcomb/CoxcombQuickstart/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Coxcomb Plot", "Coxcomb Plot Quickstart"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Coxcomb", "/cookbook/5.0/Coxcomb/CoxcombQuickstart"]
-Date: 2025-01-26
-Version: ScottPlot 5.0.55
-Version: ScottPlot 5.0.55
-SearchUrl: "/cookbook/5.0/search/"
+URL: /cookbook/5/Coxcomb/CoxcombQuickstart/
+BreadcrumbNames: ["ScottPlot 5 Cookbook", "Coxcomb Plot", "Coxcomb Plot Quickstart"]
+BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/Coxcomb", "/cookbook/5/Coxcomb/CoxcombQuickstart"]
+Date: 2025-10-11
+Version: ScottPlot 5.1.57
+Version: ScottPlot 5.1.57
+SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
 
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 A Coxcomb chart is a pie graph where the angle of slices is constant but the radii are not.
 
-[![](/cookbook/5.0/images/CoxcombQuickstart.png?250126165944)](/cookbook/5.0/images/CoxcombQuickstart.png?250126165944)
+[![](/cookbook/5/images/CoxcombQuickstart.png?251011113742)](/cookbook/5/images/CoxcombQuickstart.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Coxcomb.cs" imageUrl="/cookbook/5.0/images/CoxcombQuickstart.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Coxcomb.cs" imageUrl="/cookbook/5/images/CoxcombQuickstart.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 List&lt;PieSlice&gt; slices = new()
 {
@@ -41,6 +41,6 @@ myPlot.HideGrid();
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
-<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5.0/Coxcomb'>Coxcomb Plot</a> category</div>
+<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5/Coxcomb'>Coxcomb Plot</a> category</div>
 
 

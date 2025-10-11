@@ -1,13 +1,13 @@
 ---
-Title: Error Bars - ScottPlot 5.0 Cookbook
+Title: Error Bars - ScottPlot 5 Cookbook
 Description: Error Bars communicate the range of possible values for a measurement
-URL: /cookbook/5.0/ErrorBar/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Error Bars"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/ErrorBar"]
-Date: 2025-01-26
-Version: ScottPlot 5.0.55
-Version: ScottPlot 5.0.55
-SearchUrl: "/cookbook/5.0/search/"
+URL: /cookbook/5/ErrorBar/
+BreadcrumbNames: ["ScottPlot 5 Cookbook", "Error Bars"]
+BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/ErrorBar"]
+Date: 2025-10-11
+Version: ScottPlot 5.1.57
+Version: ScottPlot 5.1.57
+SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
 
@@ -16,16 +16,16 @@ ShowEditLink: false
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Error Bar Quickstart</h1>
-<a href='/cookbook/5.0/ErrorBar/ErrorBarQuickstart' target='_blank'>
+<a href='/cookbook/5/ErrorBar/ErrorBarQuickstart' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Error Bars go well with scatter plots.
 
-[![](/cookbook/5.0/images/ErrorBarQuickstart.png?250126165944)](/cookbook/5.0/images/ErrorBarQuickstart.png?250126165944)
+[![](/cookbook/5/images/ErrorBarQuickstart.png?251011113742)](/cookbook/5/images/ErrorBarQuickstart.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/ErrorBar.cs" imageUrl="/cookbook/5.0/images/ErrorBarQuickstart.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/ErrorBar.cs" imageUrl="/cookbook/5/images/ErrorBarQuickstart.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 int points = 30;
 
@@ -46,16 +46,16 @@ myPlot.SavePng("demo.png", 400, 300);
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>ErrorBar Values</h1>
-<a href='/cookbook/5.0/ErrorBar/CustomErrors' target='_blank'>
+<a href='/cookbook/5/ErrorBar/CustomErrors' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 Error size can be set for all dimensions.
 
-[![](/cookbook/5.0/images/CustomErrors.png?250126165944)](/cookbook/5.0/images/CustomErrors.png?250126165944)
+[![](/cookbook/5/images/CustomErrors.png?251011113742)](/cookbook/5/images/CustomErrors.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/ErrorBar.cs" imageUrl="/cookbook/5.0/images/CustomErrors.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/ErrorBar.cs" imageUrl="/cookbook/5/images/CustomErrors.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 int points = 10;
 

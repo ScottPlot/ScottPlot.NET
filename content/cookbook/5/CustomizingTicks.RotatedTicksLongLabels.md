@@ -1,13 +1,13 @@
 ---
-Title: Rotated Tick with Long Labels - ScottPlot 5.0 Cookbook
+Title: Rotated Tick with Long Labels - ScottPlot 5 Cookbook
 Description: The axis size can be increased to accommodate rotated or long tick labels.
-URL: /cookbook/5.0/CustomizingTicks/RotatedTicksLongLabels/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Customizing Ticks", "Rotated Tick with Long Labels"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/CustomizingTicks", "/cookbook/5.0/CustomizingTicks/RotatedTicksLongLabels"]
-Date: 2025-01-26
-Version: ScottPlot 5.0.55
-Version: ScottPlot 5.0.55
-SearchUrl: "/cookbook/5.0/search/"
+URL: /cookbook/5/CustomizingTicks/RotatedTicksLongLabels/
+BreadcrumbNames: ["ScottPlot 5 Cookbook", "Customizing Ticks", "Rotated Tick with Long Labels"]
+BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/CustomizingTicks", "/cookbook/5/CustomizingTicks/RotatedTicksLongLabels"]
+Date: 2025-10-11
+Version: ScottPlot 5.1.57
+Version: ScottPlot 5.1.57
+SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
 
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 The axis size can be increased to accommodate rotated or long tick labels.
 
-[![](/cookbook/5.0/images/RotatedTicksLongLabels.png?250126165944)](/cookbook/5.0/images/RotatedTicksLongLabels.png?250126165944)
+[![](/cookbook/5/images/RotatedTicksLongLabels.png?251011113742)](/cookbook/5/images/RotatedTicksLongLabels.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs" imageUrl="/cookbook/5.0/images/RotatedTicksLongLabels.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs" imageUrl="/cookbook/5/images/RotatedTicksLongLabels.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 // create a bar plot
 double[] values = { 5, 10, 7, 13, 25, 60 };
@@ -43,7 +43,7 @@ myPlot.Axes.Bottom.TickLabelStyle.Alignment = Alignment.MiddleLeft;
 
 // determine the width of the largest tick label
 float largestLabelWidth = 0;
-using SKPaint paint = new();
+using Paint paint = Paint.NewDisposablePaint();
 foreach (Tick tick in ticks)
 {
     PixelSize size = myPlot.Axes.Bottom.TickLabelStyle.Measure(tick.Label, paint).Size;
@@ -57,6 +57,6 @@ myPlot.Axes.Right.MinimumSize = largestLabelWidth;
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
-<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5.0/CustomizingTicks'>Customizing Ticks</a> category</div>
+<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5/CustomizingTicks'>Customizing Ticks</a> category</div>
 
 

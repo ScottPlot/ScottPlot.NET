@@ -1,13 +1,13 @@
 ---
-Title: Axis Line with Limits - ScottPlot 5.0 Cookbook
+Title: Axis Line with Limits - ScottPlot 5 Cookbook
 Description: Axis lines extend infinitely in both directions by default, but upper and lower limits may be specified to limit the dimensions of axis lines.
-URL: /cookbook/5.0/AxisLines/AxisLineLimits/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Axis Lines", "Axis Line with Limits"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AxisLines", "/cookbook/5.0/AxisLines/AxisLineLimits"]
-Date: 2025-01-26
-Version: ScottPlot 5.0.55
-Version: ScottPlot 5.0.55
-SearchUrl: "/cookbook/5.0/search/"
+URL: /cookbook/5/AxisLines/AxisLineLimits/
+BreadcrumbNames: ["ScottPlot 5 Cookbook", "Axis Lines", "Axis Line with Limits"]
+BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/AxisLines", "/cookbook/5/AxisLines/AxisLineLimits"]
+Date: 2025-10-11
+Version: ScottPlot 5.1.57
+Version: ScottPlot 5.1.57
+SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
 
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Axis lines extend infinitely in both directions by default, but upper and lower limits may be specified to limit the dimensions of axis lines.
 
-[![](/cookbook/5.0/images/AxisLineLimits.png?250126165944)](/cookbook/5.0/images/AxisLineLimits.png?250126165944)
+[![](/cookbook/5/images/AxisLineLimits.png?251011113742)](/cookbook/5/images/AxisLineLimits.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/AxisLines.cs" imageUrl="/cookbook/5.0/images/AxisLineLimits.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/AxisLines.cs" imageUrl="/cookbook/5/images/AxisLineLimits.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin());
 myPlot.Add.Signal(Generate.Cos());
@@ -36,6 +36,6 @@ hLine.Maximum = 40;
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
-<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5.0/AxisLines'>Axis Lines</a> category</div>
+<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5/AxisLines'>Axis Lines</a> category</div>
 
 

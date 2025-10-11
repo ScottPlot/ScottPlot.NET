@@ -1,13 +1,13 @@
 ---
-Title: Sample Data - ScottPlot 5.0 Cookbook
+Title: Sample Data - ScottPlot 5 Cookbook
 Description: ScottPlot has many built-in utilities for generating sample data.
-URL: /cookbook/5.0/DataGen/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Sample Data"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/DataGen"]
-Date: 2025-01-26
-Version: ScottPlot 5.0.55
-Version: ScottPlot 5.0.55
-SearchUrl: "/cookbook/5.0/search/"
+URL: /cookbook/5/DataGen/
+BreadcrumbNames: ["ScottPlot 5 Cookbook", "Sample Data"]
+BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/DataGen"]
+Date: 2025-10-11
+Version: ScottPlot 5.1.57
+Version: ScottPlot 5.1.57
+SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
 
@@ -16,16 +16,16 @@ ShowEditLink: false
 
 <div class='d-flex align-items-center mt-5'>
 <h1 class='me-2 text-dark my-0 border-0'>Multiple Sine Waves</h1>
-<a href='/cookbook/5.0/DataGen/MultipleSineWaves' target='_blank'>
+<a href='/cookbook/5/DataGen/MultipleSineWaves' target='_blank'>
 <img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
 </a>
 </div>
 
 This recipe demonstrates creation of a noisy waveform containing multiple sine waves with different frequencies.
 
-[![](/cookbook/5.0/images/MultipleSineWaves.png?250126165944)](/cookbook/5.0/images/MultipleSineWaves.png?250126165944)
+[![](/cookbook/5/images/MultipleSineWaves.png?251011113742)](/cookbook/5/images/MultipleSineWaves.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Miscellaneous/DataGen.cs" imageUrl="/cookbook/5.0/images/MultipleSineWaves.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Miscellaneous/DataGen.cs" imageUrl="/cookbook/5/images/MultipleSineWaves.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 double[] values = Generate.RandomNormal(500, stdDev: 0.2);
 

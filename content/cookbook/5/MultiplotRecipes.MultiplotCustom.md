@@ -1,13 +1,13 @@
 ---
-Title: Multiplot Custom Layout - ScottPlot 5.0 Cookbook
+Title: Multiplot Custom Layout - ScottPlot 5 Cookbook
 Description: The Multiplot's Layout property may be configured to achieve a fully custom layout.
-URL: /cookbook/5.0/MultiplotRecipes/MultiplotCustom/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Multiplot", "Multiplot Custom Layout"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/MultiplotRecipes", "/cookbook/5.0/MultiplotRecipes/MultiplotCustom"]
-Date: 2025-01-26
-Version: ScottPlot 5.0.55
-Version: ScottPlot 5.0.55
-SearchUrl: "/cookbook/5.0/search/"
+URL: /cookbook/5/MultiplotRecipes/MultiplotCustom/
+BreadcrumbNames: ["ScottPlot 5 Cookbook", "Multiplot", "Multiplot Custom Layout"]
+BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/MultiplotRecipes", "/cookbook/5/MultiplotRecipes/MultiplotCustom"]
+Date: 2025-10-11
+Version: ScottPlot 5.1.57
+Version: ScottPlot 5.1.57
+SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
 
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 The Multiplot's Layout property may be configured to achieve a fully custom layout.
 
-[![](/cookbook/5.0/images/MultiplotCustom.png?250126165944)](/cookbook/5.0/images/MultiplotCustom.png?250126165944)
+[![](/cookbook/5/images/MultiplotCustom.png?251011113742)](/cookbook/5/images/MultiplotCustom.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/MultiplotRecipes.cs" imageUrl="/cookbook/5.0/images/MultiplotCustom.png?250126165944" >}}ScottPlot.Multiplot multiplot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/MultiplotRecipes.cs" imageUrl="/cookbook/5/images/MultiplotCustom.png?251011113742" >}}ScottPlot.Multiplot multiplot = new();
 
 // configure the multiplot to have 3 subplots
 multiplot.AddPlots(3);
@@ -45,6 +45,6 @@ multiplot.Layout = gridLayout;
 multiplot.SavePng("demo.png", 400, 400);
 {{< /recipe-sp5 >}}
 
-<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5.0/MultiplotRecipes'>Multiplot</a> category</div>
+<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5/MultiplotRecipes'>Multiplot</a> category</div>
 
 

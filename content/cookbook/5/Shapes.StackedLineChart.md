@@ -1,13 +1,13 @@
 ---
-Title: Stacked Line Chart - ScottPlot 5.0 Cookbook
+Title: Stacked Line Chart - ScottPlot 5 Cookbook
 Description: A stacked line chart may be achieved by combining primitive shapes onto a plot.
-URL: /cookbook/5.0/Shapes/StackedLineChart/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Shapes", "Stacked Line Chart"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Shapes", "/cookbook/5.0/Shapes/StackedLineChart"]
-Date: 2025-01-26
-Version: ScottPlot 5.0.55
-Version: ScottPlot 5.0.55
-SearchUrl: "/cookbook/5.0/search/"
+URL: /cookbook/5/Shapes/StackedLineChart/
+BreadcrumbNames: ["ScottPlot 5 Cookbook", "Shapes", "Stacked Line Chart"]
+BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/Shapes", "/cookbook/5/Shapes/StackedLineChart"]
+Date: 2025-10-11
+Version: ScottPlot 5.1.57
+Version: ScottPlot 5.1.57
+SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
 
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 A stacked line chart may be achieved by combining primitive shapes onto a plot.
 
-[![](/cookbook/5.0/images/StackedLineChart.png?250126165944)](/cookbook/5.0/images/StackedLineChart.png?250126165944)
+[![](/cookbook/5/images/StackedLineChart.png?251011113742)](/cookbook/5/images/StackedLineChart.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Shapes.cs" imageUrl="/cookbook/5.0/images/StackedLineChart.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Shapes.cs" imageUrl="/cookbook/5/images/StackedLineChart.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 // prepare values for each line
 double[] values1 = [8.4, 6.9, 6.5, 4.4];
@@ -77,6 +77,6 @@ myPlot.Axes.Bottom.SetTicks(positions, labels);
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
-<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5.0/Shapes'>Shapes</a> category</div>
+<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5/Shapes'>Shapes</a> category</div>
 
 

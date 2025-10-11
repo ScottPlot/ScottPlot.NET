@@ -1,13 +1,13 @@
 ---
-Title: Line Plot Quickstart - ScottPlot 5.0 Cookbook
+Title: Line Plot Quickstart - ScottPlot 5 Cookbook
 Description: Line plots are placed with a start and end location in coordinate space. Their styles can be customized.
-URL: /cookbook/5.0/LinePlot/LineQuickStart/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Line Plot", "Line Plot Quickstart"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/LinePlot", "/cookbook/5.0/LinePlot/LineQuickStart"]
-Date: 2025-01-26
-Version: ScottPlot 5.0.55
-Version: ScottPlot 5.0.55
-SearchUrl: "/cookbook/5.0/search/"
+URL: /cookbook/5/LinePlot/LineQuickStart/
+BreadcrumbNames: ["ScottPlot 5 Cookbook", "Line Plot", "Line Plot Quickstart"]
+BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/LinePlot", "/cookbook/5/LinePlot/LineQuickStart"]
+Date: 2025-10-11
+Version: ScottPlot 5.1.57
+Version: ScottPlot 5.1.57
+SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
 
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Line plots are placed with a start and end location in coordinate space. Their styles can be customized.
 
-[![](/cookbook/5.0/images/LineQuickStart.png?250126165944)](/cookbook/5.0/images/LineQuickStart.png?250126165944)
+[![](/cookbook/5/images/LineQuickStart.png?251011113742)](/cookbook/5/images/LineQuickStart.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Line.cs" imageUrl="/cookbook/5.0/images/LineQuickStart.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Line.cs" imageUrl="/cookbook/5/images/LineQuickStart.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Line(1, 12, 12, 0);
 myPlot.Add.Line(7, 9, 42, 9);
@@ -29,6 +29,6 @@ myPlot.Add.Line(30, 17, 30, 1);
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
-<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5.0/LinePlot'>Line Plot</a> category</div>
+<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5/LinePlot'>Line Plot</a> category</div>
 
 

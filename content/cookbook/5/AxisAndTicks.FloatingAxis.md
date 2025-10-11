@@ -1,13 +1,13 @@
 ---
-Title: Floating Axis - ScottPlot 5.0 Cookbook
+Title: Floating Axis - ScottPlot 5 Cookbook
 Description: A floating or centered axis may be realized by hiding the default axes which appear at the edges of the plot and creating a new floating axis and adding it to the plot.
-URL: /cookbook/5.0/AxisAndTicks/FloatingAxis/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Axis and Ticks", "Floating Axis"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/AxisAndTicks", "/cookbook/5.0/AxisAndTicks/FloatingAxis"]
-Date: 2025-01-26
-Version: ScottPlot 5.0.55
-Version: ScottPlot 5.0.55
-SearchUrl: "/cookbook/5.0/search/"
+URL: /cookbook/5/AxisAndTicks/FloatingAxis/
+BreadcrumbNames: ["ScottPlot 5 Cookbook", "Axis and Ticks", "Floating Axis"]
+BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/AxisAndTicks", "/cookbook/5/AxisAndTicks/FloatingAxis"]
+Date: 2025-10-11
+Version: ScottPlot 5.1.57
+Version: ScottPlot 5.1.57
+SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
 
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 A floating or centered axis may be realized by hiding the default axes which appear at the edges of the plot and creating a new floating axis and adding it to the plot.
 
-[![](/cookbook/5.0/images/FloatingAxis.png?250126165944)](/cookbook/5.0/images/FloatingAxis.png?250126165944)
+[![](/cookbook/5/images/FloatingAxis.png?251011113742)](/cookbook/5/images/FloatingAxis.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs" imageUrl="/cookbook/5.0/images/FloatingAxis.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs" imageUrl="/cookbook/5/images/FloatingAxis.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 // create floating X and Y axes using one of the existing axes for reference
 ScottPlot.Plottables.FloatingAxis floatingX = new(myPlot.Axes.Bottom);
@@ -39,6 +39,6 @@ myPlot.Add.Signal(Generate.Cos(51));
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
-<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5.0/AxisAndTicks'>Axis and Ticks</a> category</div>
+<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5/AxisAndTicks'>Axis and Ticks</a> category</div>
 
 

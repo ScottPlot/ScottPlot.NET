@@ -1,13 +1,13 @@
 ---
-Title: Manual Legend Items Custom Font - ScottPlot 5.0 Cookbook
+Title: Manual Legend Items Custom Font - ScottPlot 5 Cookbook
 Description: Use custom fonts from TTF files in the legend (manual legend items).
-URL: /cookbook/5.0/Legend/LegendCustomFontManualItems/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Legends", "Manual Legend Items Custom Font"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Legend", "/cookbook/5.0/Legend/LegendCustomFontManualItems"]
-Date: 2025-01-26
-Version: ScottPlot 5.0.55
-Version: ScottPlot 5.0.55
-SearchUrl: "/cookbook/5.0/search/"
+URL: /cookbook/5/Legend/LegendCustomFontManualItems/
+BreadcrumbNames: ["ScottPlot 5 Cookbook", "Legends", "Manual Legend Items Custom Font"]
+BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/Legend", "/cookbook/5/Legend/LegendCustomFontManualItems"]
+Date: 2025-10-11
+Version: ScottPlot 5.1.57
+Version: ScottPlot 5.1.57
+SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
 
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Use custom fonts from TTF files in the legend (manual legend items).
 
-[![](/cookbook/5.0/images/LegendCustomFontManualItems.png?250126165944)](/cookbook/5.0/images/LegendCustomFontManualItems.png?250126165944)
+[![](/cookbook/5/images/LegendCustomFontManualItems.png?251011113742)](/cookbook/5/images/LegendCustomFontManualItems.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Legend.cs" imageUrl="/cookbook/5.0/images/LegendCustomFontManualItems.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Legend.cs" imageUrl="/cookbook/5/images/LegendCustomFontManualItems.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 // Add a font file to use its typeface for fonts with a given name
 Fonts.AddFontFile(
@@ -47,6 +47,6 @@ myPlot.Legend.ManualItems.Add(new LegendItem()
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
-<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5.0/Legend'>Legends</a> category</div>
+<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5/Legend'>Legends</a> category</div>
 
 

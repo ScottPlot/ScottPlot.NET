@@ -1,13 +1,13 @@
 ---
-Title: Function Limit X - ScottPlot 5.0 Cookbook
+Title: Function Limit X - ScottPlot 5 Cookbook
 Description: A function can be limited to a range of X values.
-URL: /cookbook/5.0/Function/FunctionLimitX/
-BreadcrumbNames: ["ScottPlot 5.0 Cookbook", "Function", "Function Limit X"]
-BreadcrumbUrls: ["/cookbook/5.0/", "/cookbook/5.0/Function", "/cookbook/5.0/Function/FunctionLimitX"]
-Date: 2025-01-26
-Version: ScottPlot 5.0.55
-Version: ScottPlot 5.0.55
-SearchUrl: "/cookbook/5.0/search/"
+URL: /cookbook/5/Function/FunctionLimitX/
+BreadcrumbNames: ["ScottPlot 5 Cookbook", "Function", "Function Limit X"]
+BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/Function", "/cookbook/5/Function/FunctionLimitX"]
+Date: 2025-10-11
+Version: ScottPlot 5.1.57
+Version: ScottPlot 5.1.57
+SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
 
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 A function can be limited to a range of X values.
 
-[![](/cookbook/5.0/images/FunctionLimitX.png?250126165944)](/cookbook/5.0/images/FunctionLimitX.png?250126165944)
+[![](/cookbook/5/images/FunctionLimitX.png?251011113742)](/cookbook/5/images/FunctionLimitX.png?251011113742)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Function.cs" imageUrl="/cookbook/5.0/images/FunctionLimitX.png?250126165944" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Function.cs" imageUrl="/cookbook/5/images/FunctionLimitX.png?251011113742" >}}ScottPlot.Plot myPlot = new();
 
 static double func1(double x) =&gt; (Math.Sin(x) * Math.Sin(x / 2));
 
@@ -33,6 +33,6 @@ myPlot.Axes.SetLimits(-5, 5, -.2, 1.0);
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}
 
-<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5.0/Function'>Function</a> category</div>
+<div class='my-5 text-center'>This recipe is one of many in the <a href='/cookbook/5/Function'>Function</a> category</div>
 
 
