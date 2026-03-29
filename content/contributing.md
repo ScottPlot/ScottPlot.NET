@@ -6,6 +6,18 @@ date: 2023-12-13
 
 # Contributing to ScottPlot
 
+<div class="alert alert-primary fw-semibold pb-0 my-4" role="alert">
+
+<div class="fs-4 my-0">ScottPlot is open source but not open for code contribution.</div>
+
+<hr />
+
+As of early 2026 [Scott's Medical Status](https://swharden.github.io/) limits his ability to accept code contributions at this time. 
+
+See the ScottPlot repository's [CONTRIBUTING.md](https://github.com/ScottPlot/ScottPlot/blob/main/CONTRIBUTING.md) file for details.
+
+</div>
+
 ## Pull Requests
 
 **Code contributions are welcome!** Creating an issue to go with each pull request is not required, but it is recommended for topics that would benefit from improved discoverability.

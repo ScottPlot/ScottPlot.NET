@@ -63,3 +63,11 @@ The [**ScottPlot Demo**](demo/5/) is a click-to-run application that provides mo
 <a href='https://scottplotstatsstorage.z20.web.core.windows.net/scottplot-download-count.png'>
   <img src='https://scottplotstatsstorage.z20.web.core.windows.net/scottplot-download-count.png' class="d-block mx-auto my-5" >
 </a>
+
+## Maintainer Status
+* [Scott's medical status](https://swharden.github.io/) limits his ability to accept code contributions at this time
+* As of early 2026, ScottPlot is officially open source but not open for anonymous code contribution
+* Community is still active in the [issues](https://github.com/ScottPlot/ScottPlot/issues) and [Discord](/discord) channels
+* See the ScottPlot repository's [CONTRIBUTING.md](https://github.com/ScottPlot/ScottPlot/blob/main/CONTRIBUTING.md) for details
+
+</div>
