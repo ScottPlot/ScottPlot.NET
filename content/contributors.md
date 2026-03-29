@@ -5,30 +5,38 @@ Description: Members of the open-source community who contributed to ScottPlot
 
 <div class="mt-3 text-center fs-1 fw-semibold">ScottPlot Contributors</div>
 <div class='fs-5 fw-lighter text-center mb-4'>
-    Special thanks to the <span class="sparkle-highlight">539</span> GitHub users 
+    Special thanks to the <span class="sparkle-highlight">544</span> GitHub users 
     who contributed to this project, making ScottPlot better for everyone!
     💖🚀✨
 </div>
 <div class='avatar-container my-3'>
+<a href='https://github.com/jurihock'><img src='https://scottplot.net/images/brand/favicon.png'></a>
+<a href='https://github.com/aespitia'><img src='https://scottplot.net/images/contributors/aespitia.jpg'></a>
+<a href='https://github.com/BrianAtZetica'><img src='https://scottplot.net/images/contributors/brianatzetica.png'></a>
+<a href='https://github.com/CoderPM2011'><img src='https://scottplot.net/images/contributors/coderpm2011.jpg'></a>
+<a href='https://github.com/wi-fr'><img src='https://scottplot.net/images/contributors/wi-fr.png'></a>
+<a href='https://github.com/btarb24'><img src='https://scottplot.net/images/brand/favicon.png'></a>
+<a href='https://github.com/myd7349'><img src='https://scottplot.net/images/brand/favicon.png'></a>
+<a href='https://github.com/AscendLiu'><img src='https://scottplot.net/images/brand/favicon.png'></a>
+<a href='https://github.com/timmer98'><img src='https://scottplot.net/images/contributors/timmer98.png'></a>
+<a href='https://github.com/diluculo'><img src='https://scottplot.net/images/contributors/diluculo.png'></a>
+<a href='https://github.com/DKahn144'><img src='https://scottplot.net/images/brand/favicon.png'></a>
+<a href='https://github.com/Guillaume-Deville'><img src='https://scottplot.net/images/contributors/guillaume-deville.png'></a>
 <a href='https://github.com/jelhan'><img src='https://scottplot.net/images/contributors/jelhan.jpg'></a>
 <a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png'></a>
 <a href='https://github.com/NeilMacMullen'><img src='https://scottplot.net/images/contributors/neilmacmullen.jpg'></a>
 <a href='https://github.com/fissssssh'><img src='https://scottplot.net/images/contributors/fissssssh.jpg'></a>
-<a href='https://github.com/timmer98'><img src='https://scottplot.net/images/contributors/timmer98.png'></a>
 <a href='https://github.com/nbeck-SMT'><img src='https://scottplot.net/images/contributors/nbeck-smt.png'></a>
 <a href='https://github.com/Christoph-Wagner'><img src='https://scottplot.net/images/contributors/christoph-wagner.jpg'></a>
 <a href='https://github.com/manaruto'><img src='https://scottplot.net/images/contributors/manaruto.jpg'></a>
-<a href='https://github.com/CoderPM2011'><img src='https://scottplot.net/images/contributors/coderpm2011.jpg'></a>
 <a href='https://github.com/sunwayking'><img src='https://scottplot.net/images/contributors/sunwayking.png'></a>
 <a href='https://github.com/mccabe93'><img src='https://scottplot.net/images/contributors/mccabe93.jpg'></a>
 <a href='https://github.com/Fruchtzwerg94'><img src='https://scottplot.net/images/contributors/fruchtzwerg94.jpg'></a>
 <a href='https://github.com/sproott'><img src='https://scottplot.net/images/contributors/sproott.png'></a>
 <a href='https://github.com/237779932'><img src='https://scottplot.net/images/contributors/237779932.png'></a>
-<a href='https://github.com/diluculo'><img src='https://scottplot.net/images/contributors/diluculo.png'></a>
 <a href='https://github.com/kevin100702'><img src='https://scottplot.net/images/contributors/kevin100702.jpg'></a>
 <a href='https://github.com/Adam--'><img src='https://scottplot.net/images/contributors/adam--.jpg'></a>
 <a href='https://github.com/oxygen-dioxide'><img src='https://scottplot.net/images/contributors/oxygen-dioxide.jpg'></a>
-<a href='https://github.com/aespitia'><img src='https://scottplot.net/images/contributors/aespitia.jpg'></a>
 <a href='https://github.com/Stephanowicz'><img src='https://scottplot.net/images/contributors/stephanowicz.png'></a>
 <a href='https://github.com/mattwelch2000'><img src='https://scottplot.net/images/contributors/mattwelch2000.png'></a>
 <a href='https://github.com/winsrp'><img src='https://scottplot.net/images/contributors/winsrp.jpg'></a>
@@ -61,7 +69,6 @@ Description: Members of the open-source community who contributed to ScottPlot
 <a href='https://github.com/heartacker'><img src='https://scottplot.net/images/contributors/heartacker.jpg'></a>
 <a href='https://github.com/kebox7'><img src='https://scottplot.net/images/contributors/kebox7.png'></a>
 <a href='https://github.com/King-Taz'><img src='https://scottplot.net/images/contributors/king-taz.png'></a>
-<a href='https://github.com/wi-fr'><img src='https://scottplot.net/images/contributors/wi-fr.png'></a>
 <a href='https://github.com/david3951445'><img src='https://scottplot.net/images/contributors/david3951445.png'></a>
 <a href='https://github.com/qaz7349134142024'><img src='https://scottplot.net/images/contributors/qaz7349134142024.png'></a>
 <a href='https://github.com/zygfrydw'><img src='https://scottplot.net/images/contributors/zygfrydw.jpg'></a>
@@ -131,7 +138,6 @@ Description: Members of the open-source community who contributed to ScottPlot
 <a href='https://github.com/brokoli777'><img src='https://scottplot.net/images/contributors/brokoli777.jpg'></a>
 <a href='https://github.com/0xfded'><img src='https://scottplot.net/images/contributors/0xfded.png'></a>
 <a href='https://github.com/DDiggs91'><img src='https://scottplot.net/images/contributors/ddiggs91.png'></a>
-<a href='https://github.com/BrianAtZetica'><img src='https://scottplot.net/images/contributors/brianatzetica.png'></a>
 <a href='https://github.com/blouflashdb'><img src='https://scottplot.net/images/contributors/blouflashdb.png'></a>
 <a href='https://github.com/seeingistrue'><img src='https://scottplot.net/images/contributors/seeingistrue.png'></a>
 <a href='https://github.com/lasooch'><img src='https://scottplot.net/images/contributors/lasooch.png'></a>
@@ -324,7 +330,6 @@ Description: Members of the open-source community who contributed to ScottPlot
 <a href='https://github.com/Xerxes004'><img src='https://scottplot.net/images/contributors/xerxes004.jpg'></a>
 <a href='https://github.com/hellfo'><img src='https://scottplot.net/images/contributors/hellfo.png'></a>
 <a href='https://github.com/mYcheng-95'><img src='https://scottplot.net/images/contributors/mycheng-95.png'></a>
-<a href='https://github.com/Guillaume-Deville'><img src='https://scottplot.net/images/contributors/guillaume-deville.png'></a>
 <a href='https://github.com/RachamimYaakobov'><img src='https://scottplot.net/images/contributors/rachamimyaakobov.png'></a>
 <a href='https://github.com/MyZQL'><img src='https://scottplot.net/images/contributors/myzql.png'></a>
 <a href='https://github.com/Marc-Frank'><img src='https://scottplot.net/images/contributors/marc-frank.jpg'></a>

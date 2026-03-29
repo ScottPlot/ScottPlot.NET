@@ -4,6 +4,62 @@ Description: Release notes for every version of ScottPlot
 ---
 
 <section class='mb-5'>
+<h1 class='mb-0'>ScottPlot 5.1.58</h1>
+<div><i>NuGet packages published 2026-03-29</i></div>
+<div class='mt-1'>
+<ul>
+<li>FillStyle: Reverted change from previous version to make this class public (<a href="https://github.com/ScottPlot/ScottPlot/issues/5126">#5126</a>) <a href="https://github.com/jurihock"><strong>@jurihock</strong></a>
+</li>
+<li>Legend: Permit custom fill color when using MarkerShapeOverride (<a href="https://github.com/ScottPlot/ScottPlot/issues/5137">#5137</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/5136">#5136</a>) <a href="https://github.com/aespitia"><strong>@aespitia</strong></a>
+</li>
+<li>Axes: Improve SnapToTicks behavior for inverted axes (<a href="https://github.com/ScottPlot/ScottPlot/issues/5144">#5144</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/4316">#4316</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/5143">#5143</a>) <a href="https://github.com/BrianAtZetica"><strong>@BrianAtZetica</strong></a> <a href="https://github.com/CoderPM2011"><strong>@CoderPM2011</strong></a>
+</li>
+<li>Axes: Improve behavior of zooming while opposite axes are linked (<a href="https://github.com/ScottPlot/ScottPlot/issues/5178">#5178</a>) <a href="https://github.com/jurihock"><strong>@jurihock</strong></a>
+</li>
+<li>Axes: Removed stray debug statement from the in FloatingAxis class (<a href="https://github.com/ScottPlot/ScottPlot/issues/5180">#5180</a>) <a href="https://github.com/wi-fr"><strong>@wi-fr</strong></a>
+</li>
+<li>Controls: Exposed UserInputProcessor.ContextMenuItems getter to support menu customization (<a href="https://github.com/ScottPlot/ScottPlot/issues/5183">#5183</a>) <a href="https://github.com/btarb24"><strong>@btarb24</strong></a>
+</li>
+<li>Controls: Do not show right-click menu if it has zero items (<a href="https://github.com/ScottPlot/ScottPlot/issues/5184">#5184</a>) <a href="https://github.com/btarb24"><strong>@btarb24</strong></a>
+</li>
+<li>Microphone Demo: Improve behavior on systems with no audio input devices (<a href="https://github.com/ScottPlot/ScottPlot/issues/5211">#5211</a>) <a href="https://github.com/myd7349"><strong>@myd7349</strong></a>
+</li>
+<li>Avalonia: Improve behavior of scroll wheel when interacting with plots nested in ScrollViewers (<a href="https://github.com/ScottPlot/ScottPlot/issues/5233">#5233</a>) <a href="https://github.com/AscendLiu"><strong>@AscendLiu</strong></a>
+</li>
+<li>Heatmap: Improve axis alignment when using SVG output (<a href="https://github.com/ScottPlot/ScottPlot/issues/5145">#5145</a>) <a href="https://github.com/timmer98"><strong>@timmer98</strong></a>
+</li>
+<li>WinUI: Improve support for multi-monitor and custom DPI scale detection (<a href="https://github.com/ScottPlot/ScottPlot/issues/5150">#5150</a>) <a href="https://github.com/diluculo"><strong>@diluculo</strong></a>
+</li>
+<li>Markers: Added shapes <code>CircleWithLine</code> and <code>TriangleWithLine</code>, each with left and right variants (<a href="https://github.com/ScottPlot/ScottPlot/issues/5194">#5194</a>) <a href="https://github.com/btarb24"><strong>@btarb24</strong></a>
+</li>
+<li>Multiplot: Improved FractionRect constructor and property names (<a href="https://github.com/ScottPlot/ScottPlot/issues/5196">#5196</a>) <a href="https://github.com/DKahn144"><strong>@DKahn144</strong></a>
+</li>
+<li>InteractiveVerticalLine: Added properties to customize label styles (<a href="https://github.com/ScottPlot/ScottPlot/issues/5208">#5208</a>) <a href="https://github.com/Guillaume-Deville"><strong>@Guillaume-Deville</strong></a>
+</li>
+</ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/jurihock'>@jurihock</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/BrianAtZetica'>@BrianAtZetica</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/wi-fr'>@wi-fr</a>, <a href='https://github.com/btarb24'>@btarb24</a>, <a href='https://github.com/myd7349'>@myd7349</a>, <a href='https://github.com/AscendLiu'>@AscendLiu</a>, <a href='https://github.com/timmer98'>@timmer98</a>, <a href='https://github.com/diluculo'>@diluculo</a>, <a href='https://github.com/DKahn144'>@DKahn144</a>, <a href='https://github.com/Guillaume-Deville'>@Guillaume-Deville</a>, <a href='https://github.com/swharden'>@swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/jurihock'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/aespitia'><img src='https://scottplot.net/images/contributors/aespitia.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/BrianAtZetica'><img src='https://scottplot.net/images/contributors/brianatzetica.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/CoderPM2011'><img src='https://scottplot.net/images/contributors/coderpm2011.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/wi-fr'><img src='https://scottplot.net/images/contributors/wi-fr.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/btarb24'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/myd7349'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/AscendLiu'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/timmer98'><img src='https://scottplot.net/images/contributors/timmer98.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/diluculo'><img src='https://scottplot.net/images/contributors/diluculo.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/DKahn144'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/Guillaume-Deville'><img src='https://scottplot.net/images/contributors/guillaume-deville.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
+
+</section>
+<section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 5.1.57</h1>
 <div><i>NuGet packages published 2025-10-11</i></div>
 <div class='mt-1'>
