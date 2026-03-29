@@ -12,7 +12,7 @@ Multiple plots can be configured so changes the axis limits of one plot are appl
 
 * **Using `Multiplot` in a Single Plot Control:** When the `Multiplot` class is used to place multiple plots, they may be easily synchronized using the `ShareX()` and `ShareY()` helper methods as described on the [**Multiplot FAQ Page**](../multiplot)
 
-![](/images/demo/5/linked-axes.gif)
+![](/images/demo/5.0/linked-axes.gif)
 
 ## Shared Layout
 
