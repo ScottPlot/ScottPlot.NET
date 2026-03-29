@@ -4,9 +4,9 @@ Description: Make ticks render at fixed intervals. Optionally make the ticks ren
 URL: /cookbook/5/AxisAndTicks/DateTimeAxisFixedIntervalTicks/
 BreadcrumbNames: ["ScottPlot 5 Cookbook", "Axis and Ticks", "DateTime Axis Fixed Interval Ticks"]
 BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/AxisAndTicks", "/cookbook/5/AxisAndTicks/DateTimeAxisFixedIntervalTicks"]
-Date: 2025-10-11
-Version: ScottPlot 5.1.57
-Version: ScottPlot 5.1.57
+Date: 2026-03-29
+Version: ScottPlot 5.1.58
+Version: ScottPlot 5.1.58
 SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Make ticks render at fixed intervals. Optionally make the ticks render from a custom start date, rather than using the start date of the plot (e.g. to draw ticks on the hour every hour, or on the first of every month, etc).
 
-[![](/cookbook/5/images/DateTimeAxisFixedIntervalTicks.png?251011113742)](/cookbook/5/images/DateTimeAxisFixedIntervalTicks.png?251011113742)
+[![](/cookbook/5/images/DateTimeAxisFixedIntervalTicks.png?260329072039)](/cookbook/5/images/DateTimeAxisFixedIntervalTicks.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs" imageUrl="/cookbook/5/images/DateTimeAxisFixedIntervalTicks.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/AxisRecipes.cs" imageUrl="/cookbook/5/images/DateTimeAxisFixedIntervalTicks.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 // Plot 24 hours sample DateTime data (1 point every minute)
 DateTime[] dates = Generate.ConsecutiveMinutes(24 * 60, new DateTime(2000, 1, 1, 2, 12, 0));

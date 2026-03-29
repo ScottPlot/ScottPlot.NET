@@ -4,9 +4,9 @@ Description: A cumulative probability histogram represents the cumulative sum of
 URL: /cookbook/5/Histograms/HistogramCPH/
 BreadcrumbNames: ["ScottPlot 5 Cookbook", "Histogram", "Cumulative Probability Histogram"]
 BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/Histograms", "/cookbook/5/Histograms/HistogramCPH"]
-Date: 2025-10-11
-Version: ScottPlot 5.1.57
-Version: ScottPlot 5.1.57
+Date: 2026-03-29
+Version: ScottPlot 5.1.58
+Version: ScottPlot 5.1.58
 SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 A cumulative probability histogram represents the cumulative sum of probabilities or relative frequencies up to each bin, providing a running total of the probability distribution. It is especially useful for evaluating and comparing the distribution of multiple populations.
 
-[![](/cookbook/5/images/HistogramCPH.png?251011113742)](/cookbook/5/images/HistogramCPH.png?251011113742)
+[![](/cookbook/5/images/HistogramCPH.png?260329072039)](/cookbook/5/images/HistogramCPH.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Miscellaneous/Histograms.cs" imageUrl="/cookbook/5/images/HistogramCPH.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Miscellaneous/Histograms.cs" imageUrl="/cookbook/5/images/HistogramCPH.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 // Create a histogram from a collection of values
 double[][] heightsByGroup = { SampleData.MaleHeights(100), SampleData.FemaleHeights(100) };

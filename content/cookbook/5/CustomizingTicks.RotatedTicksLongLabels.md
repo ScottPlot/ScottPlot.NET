@@ -4,9 +4,9 @@ Description: The axis size can be increased to accommodate rotated or long tick 
 URL: /cookbook/5/CustomizingTicks/RotatedTicksLongLabels/
 BreadcrumbNames: ["ScottPlot 5 Cookbook", "Customizing Ticks", "Rotated Tick with Long Labels"]
 BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/CustomizingTicks", "/cookbook/5/CustomizingTicks/RotatedTicksLongLabels"]
-Date: 2025-10-11
-Version: ScottPlot 5.1.57
-Version: ScottPlot 5.1.57
+Date: 2026-03-29
+Version: ScottPlot 5.1.58
+Version: ScottPlot 5.1.58
 SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 The axis size can be increased to accommodate rotated or long tick labels.
 
-[![](/cookbook/5/images/RotatedTicksLongLabels.png?251011113742)](/cookbook/5/images/RotatedTicksLongLabels.png?251011113742)
+[![](/cookbook/5/images/RotatedTicksLongLabels.png?260329072039)](/cookbook/5/images/RotatedTicksLongLabels.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs" imageUrl="/cookbook/5/images/RotatedTicksLongLabels.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs" imageUrl="/cookbook/5/images/RotatedTicksLongLabels.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 // create a bar plot
 double[] values = { 5, 10, 7, 13, 25, 60 };

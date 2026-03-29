@@ -4,9 +4,9 @@ Description: Set the `Label` property of bars to have text displayed above each 
 URL: /cookbook/5/Bar/BarValues/
 BreadcrumbNames: ["ScottPlot 5 Cookbook", "Bar Plot", "Bar with Value Labels"]
 BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/Bar", "/cookbook/5/Bar/BarValues"]
-Date: 2025-10-11
-Version: ScottPlot 5.1.57
-Version: ScottPlot 5.1.57
+Date: 2026-03-29
+Version: ScottPlot 5.1.58
+Version: ScottPlot 5.1.58
 SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Set the `Label` property of bars to have text displayed above each bar.
 
-[![](/cookbook/5/images/BarValues.png?251011113742)](/cookbook/5/images/BarValues.png?251011113742)
+[![](/cookbook/5/images/BarValues.png?260329072039)](/cookbook/5/images/BarValues.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs" imageUrl="/cookbook/5/images/BarValues.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs" imageUrl="/cookbook/5/images/BarValues.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 double[] values = { 5, 10, 7, 13 };
 var barPlot = myPlot.Add.Bars(values);

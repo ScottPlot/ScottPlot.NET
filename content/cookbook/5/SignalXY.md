@@ -4,9 +4,9 @@ Description: SignalXY are a high performance plot type optimized for X/Y pairs w
 URL: /cookbook/5/SignalXY/
 BreadcrumbNames: ["ScottPlot 5 Cookbook", "SignalXY Plot"]
 BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/SignalXY"]
-Date: 2025-10-11
-Version: ScottPlot 5.1.57
-Version: ScottPlot 5.1.57
+Date: 2026-03-29
+Version: ScottPlot 5.1.58
+Version: ScottPlot 5.1.58
 SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
@@ -23,9 +23,9 @@ ShowEditLink: false
 
 SignalXY plots are a high performance plot type for X/Y data where the X values are always ascending.
 
-[![](/cookbook/5/images/SignalXYQuickstart.png?251011113742)](/cookbook/5/images/SignalXYQuickstart.png?251011113742)
+[![](/cookbook/5/images/SignalXYQuickstart.png?260329072039)](/cookbook/5/images/SignalXYQuickstart.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SignalXY.cs" imageUrl="/cookbook/5/images/SignalXYQuickstart.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SignalXY.cs" imageUrl="/cookbook/5/images/SignalXYQuickstart.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 // generate sample data with gaps
 List&lt;double&gt; xList = new();
@@ -57,9 +57,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 SignalXY plots support arrays with generic data types, although double is typically the most performant.
 
-[![](/cookbook/5/images/SignalXYGeneric.png?251011113742)](/cookbook/5/images/SignalXYGeneric.png?251011113742)
+[![](/cookbook/5/images/SignalXYGeneric.png?260329072039)](/cookbook/5/images/SignalXYGeneric.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SignalXY.cs" imageUrl="/cookbook/5/images/SignalXYGeneric.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SignalXY.cs" imageUrl="/cookbook/5/images/SignalXYGeneric.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 // generate sample data with gaps
 List&lt;int&gt; xList = new();
@@ -93,9 +93,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 SignalXY plots support generic lists.
 
-[![](/cookbook/5/images/SignalXYGenericList.png?251011113742)](/cookbook/5/images/SignalXYGenericList.png?251011113742)
+[![](/cookbook/5/images/SignalXYGenericList.png?260329072039)](/cookbook/5/images/SignalXYGenericList.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SignalXY.cs" imageUrl="/cookbook/5/images/SignalXYGenericList.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SignalXY.cs" imageUrl="/cookbook/5/images/SignalXYGenericList.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 // create X and Y list with initial data
 List&lt;double&gt; xs = new(Generate.Consecutive(count: 10, first: 0));
@@ -124,9 +124,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 SignalXY plots can display unevenly spaced time series data using a DateTime horizontal axis.
 
-[![](/cookbook/5/images/SignalXYDateTime.png?251011113742)](/cookbook/5/images/SignalXYDateTime.png?251011113742)
+[![](/cookbook/5/images/SignalXYDateTime.png?260329072039)](/cookbook/5/images/SignalXYDateTime.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SignalXY.cs" imageUrl="/cookbook/5/images/SignalXYDateTime.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SignalXY.cs" imageUrl="/cookbook/5/images/SignalXYDateTime.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 DateTime start = new(2024, 01, 01);
 DateTime[] xs = Generate.ConsecutiveDays(100, start);
@@ -152,9 +152,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Even if a SignalXY plot references a large array of data, rendering can be limited to a range of values. If set,only the range of data between the minimum and maximum render indexes will be displayed.
 
-[![](/cookbook/5/images/SignalXYRenderIndexes.png?251011113742)](/cookbook/5/images/SignalXYRenderIndexes.png?251011113742)
+[![](/cookbook/5/images/SignalXYRenderIndexes.png?260329072039)](/cookbook/5/images/SignalXYRenderIndexes.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SignalXY.cs" imageUrl="/cookbook/5/images/SignalXYRenderIndexes.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SignalXY.cs" imageUrl="/cookbook/5/images/SignalXYRenderIndexes.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 double[] xs = Generate.Consecutive(1000);
 double[] ys = Generate.RandomWalk(1000);
@@ -198,9 +198,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 A fixed offset can be applied to SignalXY plots.
 
-[![](/cookbook/5/images/SignalXYOffset.png?251011113742)](/cookbook/5/images/SignalXYOffset.png?251011113742)
+[![](/cookbook/5/images/SignalXYOffset.png?260329072039)](/cookbook/5/images/SignalXYOffset.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SignalXY.cs" imageUrl="/cookbook/5/images/SignalXYOffset.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SignalXY.cs" imageUrl="/cookbook/5/images/SignalXYOffset.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 double[] xs = Generate.Consecutive(1000);
 double[] ys = Generate.Sin(1000);
@@ -227,9 +227,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 SignalXY plots can be scaled vertically according to a user-defined amount.
 
-[![](/cookbook/5/images/SignalXYOffsetScaleY.png?251011113742)](/cookbook/5/images/SignalXYOffsetScaleY.png?251011113742)
+[![](/cookbook/5/images/SignalXYOffsetScaleY.png?260329072039)](/cookbook/5/images/SignalXYOffsetScaleY.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SignalXY.cs" imageUrl="/cookbook/5/images/SignalXYOffsetScaleY.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SignalXY.cs" imageUrl="/cookbook/5/images/SignalXYOffsetScaleY.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 // plot values between -1 and 1
 double[] values = ScottPlot.Generate.Sin(51);
@@ -255,9 +255,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Although SignalXY plots typically display data left-to-right, it is possible to use this plot type to display data bottom-to-top.
 
-[![](/cookbook/5/images/VerticalSignalXY.png?251011113742)](/cookbook/5/images/VerticalSignalXY.png?251011113742)
+[![](/cookbook/5/images/VerticalSignalXY.png?260329072039)](/cookbook/5/images/VerticalSignalXY.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SignalXY.cs" imageUrl="/cookbook/5/images/VerticalSignalXY.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SignalXY.cs" imageUrl="/cookbook/5/images/VerticalSignalXY.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 double[] xs = Generate.Consecutive(1000);
 double[] ys = Generate.RandomWalk(1000);
@@ -281,9 +281,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Demonstrates how to display a rotated SignalXY plot (so it goes from bottom to top) which is also displayed on an inverted horizontal axis (where positive values are on the left).
 
-[![](/cookbook/5/images/SignalXYVerticalInvertedX.png?251011113742)](/cookbook/5/images/SignalXYVerticalInvertedX.png?251011113742)
+[![](/cookbook/5/images/SignalXYVerticalInvertedX.png?260329072039)](/cookbook/5/images/SignalXYVerticalInvertedX.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SignalXY.cs" imageUrl="/cookbook/5/images/SignalXYVerticalInvertedX.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SignalXY.cs" imageUrl="/cookbook/5/images/SignalXYVerticalInvertedX.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 // add a signal plot
 double[] xs = Generate.Consecutive(5_000);
@@ -312,9 +312,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Demonstrates how to display a rotated SignalXY plot on an inverted vertical axis so data goes from top to bottom.
 
-[![](/cookbook/5/images/SignalXYVerticalInvertedY.png?251011113742)](/cookbook/5/images/SignalXYVerticalInvertedY.png?251011113742)
+[![](/cookbook/5/images/SignalXYVerticalInvertedY.png?260329072039)](/cookbook/5/images/SignalXYVerticalInvertedY.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SignalXY.cs" imageUrl="/cookbook/5/images/SignalXYVerticalInvertedY.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SignalXY.cs" imageUrl="/cookbook/5/images/SignalXYVerticalInvertedY.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 // add a signal plot
 double[] xs = Generate.Consecutive(5_000);
@@ -343,9 +343,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Users can enable a marker to be displayedat each data point. However, this can reduce performance for extremely large datasets.
 
-[![](/cookbook/5/images/SignalXYMarkers.png?251011113742)](/cookbook/5/images/SignalXYMarkers.png?251011113742)
+[![](/cookbook/5/images/SignalXYMarkers.png?260329072039)](/cookbook/5/images/SignalXYMarkers.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SignalXY.cs" imageUrl="/cookbook/5/images/SignalXYMarkers.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SignalXY.cs" imageUrl="/cookbook/5/images/SignalXYMarkers.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 double[] xs = Generate.Consecutive(51);
 double[] ys = Generate.Sin(51);

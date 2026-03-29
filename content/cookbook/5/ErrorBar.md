@@ -4,9 +4,9 @@ Description: Error Bars communicate the range of possible values for a measureme
 URL: /cookbook/5/ErrorBar/
 BreadcrumbNames: ["ScottPlot 5 Cookbook", "Error Bars"]
 BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/ErrorBar"]
-Date: 2025-10-11
-Version: ScottPlot 5.1.57
-Version: ScottPlot 5.1.57
+Date: 2026-03-29
+Version: ScottPlot 5.1.58
+Version: ScottPlot 5.1.58
 SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
@@ -23,9 +23,9 @@ ShowEditLink: false
 
 Error Bars go well with scatter plots.
 
-[![](/cookbook/5/images/ErrorBarQuickstart.png?251011113742)](/cookbook/5/images/ErrorBarQuickstart.png?251011113742)
+[![](/cookbook/5/images/ErrorBarQuickstart.png?260329072039)](/cookbook/5/images/ErrorBarQuickstart.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/ErrorBar.cs" imageUrl="/cookbook/5/images/ErrorBarQuickstart.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/ErrorBar.cs" imageUrl="/cookbook/5/images/ErrorBarQuickstart.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 int points = 30;
 
@@ -53,9 +53,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Error size can be set for all dimensions.
 
-[![](/cookbook/5/images/CustomErrors.png?251011113742)](/cookbook/5/images/CustomErrors.png?251011113742)
+[![](/cookbook/5/images/CustomErrors.png?260329072039)](/cookbook/5/images/CustomErrors.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/ErrorBar.cs" imageUrl="/cookbook/5/images/CustomErrors.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/ErrorBar.cs" imageUrl="/cookbook/5/images/CustomErrors.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 int points = 10;
 

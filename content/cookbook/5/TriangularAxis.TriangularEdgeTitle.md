@@ -4,9 +4,9 @@ Description: Triangular axis edges have a helper method to easily add a title an
 URL: /cookbook/5/TriangularAxis/TriangularEdgeTitle/
 BreadcrumbNames: ["ScottPlot 5 Cookbook", "Triangular Axis", "Triangular Axis Titles"]
 BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/TriangularAxis", "/cookbook/5/TriangularAxis/TriangularEdgeTitle"]
-Date: 2025-10-11
-Version: ScottPlot 5.1.57
-Version: ScottPlot 5.1.57
+Date: 2026-03-29
+Version: ScottPlot 5.1.58
+Version: ScottPlot 5.1.58
 SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Triangular axis edges have a helper method to easily add a title and color all the edge components similarly.
 
-[![](/cookbook/5/images/TriangularEdgeTitle.png?251011113742)](/cookbook/5/images/TriangularEdgeTitle.png?251011113742)
+[![](/cookbook/5/images/TriangularEdgeTitle.png?260329072039)](/cookbook/5/images/TriangularEdgeTitle.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/TriangularAxis.cs" imageUrl="/cookbook/5/images/TriangularEdgeTitle.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/TriangularAxis.cs" imageUrl="/cookbook/5/images/TriangularEdgeTitle.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 var ta = myPlot.Add.TriangularAxis();
 

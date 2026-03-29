@@ -4,9 +4,9 @@ Description: Space between ticks can be increased by setting a value to indicate
 URL: /cookbook/5/CustomizingTicks/MinimumTickSpacing/
 BreadcrumbNames: ["ScottPlot 5 Cookbook", "Customizing Ticks", "Minimum Tick Spacing"]
 BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/CustomizingTicks", "/cookbook/5/CustomizingTicks/MinimumTickSpacing"]
-Date: 2025-10-11
-Version: ScottPlot 5.1.57
-Version: ScottPlot 5.1.57
+Date: 2026-03-29
+Version: ScottPlot 5.1.58
+Version: ScottPlot 5.1.58
 SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Space between ticks can be increased by setting a value to indicate the minimum distance between tick labels (in pixels).
 
-[![](/cookbook/5/images/MinimumTickSpacing.png?251011113742)](/cookbook/5/images/MinimumTickSpacing.png?251011113742)
+[![](/cookbook/5/images/MinimumTickSpacing.png?260329072039)](/cookbook/5/images/MinimumTickSpacing.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs" imageUrl="/cookbook/5/images/MinimumTickSpacing.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs" imageUrl="/cookbook/5/images/MinimumTickSpacing.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin(51));
 myPlot.Add.Signal(Generate.Cos(51));

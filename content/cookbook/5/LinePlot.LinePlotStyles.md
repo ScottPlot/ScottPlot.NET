@@ -4,9 +4,9 @@ Description: Line plots can be styled using a LineStyle.
 URL: /cookbook/5/LinePlot/LinePlotStyles/
 BreadcrumbNames: ["ScottPlot 5 Cookbook", "Line Plot", "Line Plot Shapes"]
 BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/LinePlot", "/cookbook/5/LinePlot/LinePlotStyles"]
-Date: 2025-10-11
-Version: ScottPlot 5.1.57
-Version: ScottPlot 5.1.57
+Date: 2026-03-29
+Version: ScottPlot 5.1.58
+Version: ScottPlot 5.1.58
 SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Line plots can be styled using a LineStyle.
 
-[![](/cookbook/5/images/LinePlotStyles.png?251011113742)](/cookbook/5/images/LinePlotStyles.png?251011113742)
+[![](/cookbook/5/images/LinePlotStyles.png?260329072039)](/cookbook/5/images/LinePlotStyles.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Line.cs" imageUrl="/cookbook/5/images/LinePlotStyles.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Line.cs" imageUrl="/cookbook/5/images/LinePlotStyles.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 ScottPlot.Colormaps.Viridis colormap = new();
 

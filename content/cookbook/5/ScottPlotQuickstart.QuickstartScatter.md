@@ -4,9 +4,9 @@ Description: A scatter plot can be used to display X/Y data points.
 URL: /cookbook/5/ScottPlotQuickstart/QuickstartScatter/
 BreadcrumbNames: ["ScottPlot 5 Cookbook", "Quickstart", "Scatter Plot"]
 BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/ScottPlotQuickstart", "/cookbook/5/ScottPlotQuickstart/QuickstartScatter"]
-Date: 2025-10-11
-Version: ScottPlot 5.1.57
-Version: ScottPlot 5.1.57
+Date: 2026-03-29
+Version: ScottPlot 5.1.58
+Version: ScottPlot 5.1.58
 SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 A scatter plot can be used to display X/Y data points.
 
-[![](/cookbook/5/images/QuickstartScatter.png?251011113742)](/cookbook/5/images/QuickstartScatter.png?251011113742)
+[![](/cookbook/5/images/QuickstartScatter.png?260329072039)](/cookbook/5/images/QuickstartScatter.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Quickstart.cs" imageUrl="/cookbook/5/images/QuickstartScatter.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Quickstart.cs" imageUrl="/cookbook/5/images/QuickstartScatter.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 // create sample data
 double[] dataX = { 1, 2, 3, 4, 5 };

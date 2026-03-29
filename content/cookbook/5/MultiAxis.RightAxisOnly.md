@@ -4,9 +4,9 @@ Description: The default Y axis is the one on the left of the plot, but the righ
 URL: /cookbook/5/MultiAxis/RightAxisOnly/
 BreadcrumbNames: ["ScottPlot 5 Cookbook", "Multiple Axes", "Right Axis Only"]
 BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/MultiAxis", "/cookbook/5/MultiAxis/RightAxisOnly"]
-Date: 2025-10-11
-Version: ScottPlot 5.1.57
-Version: ScottPlot 5.1.57
+Date: 2026-03-29
+Version: ScottPlot 5.1.58
+Version: ScottPlot 5.1.58
 SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 The default Y axis is the one on the left of the plot, but the right Y axis may be used instead.
 
-[![](/cookbook/5/images/RightAxisOnly.png?251011113742)](/cookbook/5/images/RightAxisOnly.png?251011113742)
+[![](/cookbook/5/images/RightAxisOnly.png?260329072039)](/cookbook/5/images/RightAxisOnly.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/MultiAxis.cs" imageUrl="/cookbook/5/images/RightAxisOnly.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/MultiAxis.cs" imageUrl="/cookbook/5/images/RightAxisOnly.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 // add a plottable to the plot
 var sig = myPlot.Add.Signal(Generate.Sin());

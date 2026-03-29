@@ -4,9 +4,9 @@ Description: ScottPlot.Colors contains many colors
 URL: /cookbook/5/ColorRecipes/ColorQuickstart/
 BreadcrumbNames: ["ScottPlot 5 Cookbook", "Color", "Color Quickstart"]
 BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/ColorRecipes", "/cookbook/5/ColorRecipes/ColorQuickstart"]
-Date: 2025-10-11
-Version: ScottPlot 5.1.57
-Version: ScottPlot 5.1.57
+Date: 2026-03-29
+Version: ScottPlot 5.1.58
+Version: ScottPlot 5.1.58
 SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 ScottPlot.Colors contains many colors
 
-[![](/cookbook/5/images/ColorQuickstart.png?251011113742)](/cookbook/5/images/ColorQuickstart.png?251011113742)
+[![](/cookbook/5/images/ColorQuickstart.png?260329072039)](/cookbook/5/images/ColorQuickstart.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/ColorRecipes.cs" imageUrl="/cookbook/5/images/ColorQuickstart.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/ColorRecipes.cs" imageUrl="/cookbook/5/images/ColorQuickstart.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 var circle1 = myPlot.Add.Circle(0, 0, 1);
 var circle2 = myPlot.Add.Circle(1, 0, 1);

@@ -4,9 +4,9 @@ Description: A contour plot is a graphical representation that shows the three-d
 URL: /cookbook/5/Contour/
 BreadcrumbNames: ["ScottPlot 5 Cookbook", "Contour Plot"]
 BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/Contour"]
-Date: 2025-10-11
-Version: ScottPlot 5.1.57
-Version: ScottPlot 5.1.57
+Date: 2026-03-29
+Version: ScottPlot 5.1.58
+Version: ScottPlot 5.1.58
 SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
@@ -23,9 +23,9 @@ ShowEditLink: false
 
 A rectangular contour plot with evenly spaced points can be created from a 2D array of 3D points.
 
-[![](/cookbook/5/images/ContourGrid.png?251011113742)](/cookbook/5/images/ContourGrid.png?251011113742)
+[![](/cookbook/5/images/ContourGrid.png?260329072039)](/cookbook/5/images/ContourGrid.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Contour.cs" imageUrl="/cookbook/5/images/ContourGrid.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Contour.cs" imageUrl="/cookbook/5/images/ContourGrid.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 Coordinates3d[,] cs = new Coordinates3d[50, 50];
 for (int y = 0; y &lt; cs.GetLength(0); y++)
@@ -60,9 +60,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 A contour plot can be created from a collection of 3D data points placed arbitrarily in X/Y plane.
 
-[![](/cookbook/5/images/IrregularContour.png?251011113742)](/cookbook/5/images/IrregularContour.png?251011113742)
+[![](/cookbook/5/images/IrregularContour.png?260329072039)](/cookbook/5/images/IrregularContour.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Contour.cs" imageUrl="/cookbook/5/images/IrregularContour.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Contour.cs" imageUrl="/cookbook/5/images/IrregularContour.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 // generate irregularly spaced X/Y/Z data points
 Coordinates3d[] cs = new Coordinates3d[1000];
@@ -110,9 +110,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Contour lines may be placed on top of heatmaps.
 
-[![](/cookbook/5/images/ContourHeatmap.png?251011113742)](/cookbook/5/images/ContourHeatmap.png?251011113742)
+[![](/cookbook/5/images/ContourHeatmap.png?260329072039)](/cookbook/5/images/ContourHeatmap.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Contour.cs" imageUrl="/cookbook/5/images/ContourHeatmap.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Contour.cs" imageUrl="/cookbook/5/images/ContourHeatmap.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 Coordinates3d[,] cs = new Coordinates3d[50, 50];
 for (int y = 0; y &lt; cs.GetLength(0); y++)
@@ -152,9 +152,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 If a colormap is provided it will be used to color each line in the colormap according to its value.
 
-[![](/cookbook/5/images/ContourColormap.png?251011113742)](/cookbook/5/images/ContourColormap.png?251011113742)
+[![](/cookbook/5/images/ContourColormap.png?260329072039)](/cookbook/5/images/ContourColormap.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Contour.cs" imageUrl="/cookbook/5/images/ContourColormap.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Contour.cs" imageUrl="/cookbook/5/images/ContourColormap.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 Coordinates3d[,] cs = new Coordinates3d[50, 50];
 for (int y = 0; y &lt; cs.GetLength(0); y++)

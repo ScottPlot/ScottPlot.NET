@@ -4,9 +4,9 @@ Description: Tooltips are annotations that point to an X/Y coordinate on the plo
 URL: /cookbook/5/Tooltip/
 BreadcrumbNames: ["ScottPlot 5 Cookbook", "Tooltip"]
 BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/Tooltip"]
-Date: 2025-10-11
-Version: ScottPlot 5.1.57
-Version: ScottPlot 5.1.57
+Date: 2026-03-29
+Version: ScottPlot 5.1.58
+Version: ScottPlot 5.1.58
 SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
@@ -23,9 +23,9 @@ ShowEditLink: false
 
 Tooltips are annotations that point to an X/Y coordinate on the plot.
 
-[![](/cookbook/5/images/TooltipQuickstart.png?251011113742)](/cookbook/5/images/TooltipQuickstart.png?251011113742)
+[![](/cookbook/5/images/TooltipQuickstart.png?260329072039)](/cookbook/5/images/TooltipQuickstart.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Tooltip.cs" imageUrl="/cookbook/5/images/TooltipQuickstart.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Tooltip.cs" imageUrl="/cookbook/5/images/TooltipQuickstart.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 double[] ys = Generate.Sin(50);
 var plt = myPlot.Add.Signal(ys);
@@ -51,9 +51,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Tooltips fonts can be customized.
 
-[![](/cookbook/5/images/TooltipFont.png?251011113742)](/cookbook/5/images/TooltipFont.png?251011113742)
+[![](/cookbook/5/images/TooltipFont.png?260329072039)](/cookbook/5/images/TooltipFont.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Tooltip.cs" imageUrl="/cookbook/5/images/TooltipFont.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Tooltip.cs" imageUrl="/cookbook/5/images/TooltipFont.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 double[] ys = Generate.Sin(50);
 var plt = myPlot.Add.Signal(ys);
@@ -82,9 +82,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Tooltips border and fill styles can be customized.
 
-[![](/cookbook/5/images/TooltipColors.png?251011113742)](/cookbook/5/images/TooltipColors.png?251011113742)
+[![](/cookbook/5/images/TooltipColors.png?260329072039)](/cookbook/5/images/TooltipColors.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Tooltip.cs" imageUrl="/cookbook/5/images/TooltipColors.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Tooltip.cs" imageUrl="/cookbook/5/images/TooltipColors.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 double[] ys = Generate.Sin(50);
 var plt = myPlot.Add.Signal(ys);
@@ -114,9 +114,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Customizable tooltip tail width percentage. The actual width of the tail is the lesser of the length or width of the tooltip body.
 
-[![](/cookbook/5/images/TooltipTailWidth.png?251011113742)](/cookbook/5/images/TooltipTailWidth.png?251011113742)
+[![](/cookbook/5/images/TooltipTailWidth.png?260329072039)](/cookbook/5/images/TooltipTailWidth.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Tooltip.cs" imageUrl="/cookbook/5/images/TooltipTailWidth.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Tooltip.cs" imageUrl="/cookbook/5/images/TooltipTailWidth.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 double[] widthFraction = [0.3, 0.5, 0.7, 1.0];
 
@@ -147,9 +147,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 The shape of tooltips automatically adjusts according to the position of the tip relative to the label.
 
-[![](/cookbook/5/images/TooltipAngle.png?251011113742)](/cookbook/5/images/TooltipAngle.png?251011113742)
+[![](/cookbook/5/images/TooltipAngle.png?260329072039)](/cookbook/5/images/TooltipAngle.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Tooltip.cs" imageUrl="/cookbook/5/images/TooltipAngle.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Tooltip.cs" imageUrl="/cookbook/5/images/TooltipAngle.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 for (int i = 0; i &lt; 360; i += 30)
 {

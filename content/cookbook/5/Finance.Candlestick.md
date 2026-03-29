@@ -4,9 +4,9 @@ Description: Candlestick charts use symbols to display price data. The rectangle
 URL: /cookbook/5/Finance/Candlestick/
 BreadcrumbNames: ["ScottPlot 5 Cookbook", "Financial Plot", "Candlestick Chart"]
 BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/Finance", "/cookbook/5/Finance/Candlestick"]
-Date: 2025-10-11
-Version: ScottPlot 5.1.57
-Version: ScottPlot 5.1.57
+Date: 2026-03-29
+Version: ScottPlot 5.1.58
+Version: ScottPlot 5.1.58
 SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Candlestick charts use symbols to display price data. The rectangle indicates open and close prices, and the center line indicates minimum and maximum price for the given time period. Color indicates whether the price increased or decreased between open and close.
 
-[![](/cookbook/5/images/Candlestick.png?251011113742)](/cookbook/5/images/Candlestick.png?251011113742)
+[![](/cookbook/5/images/Candlestick.png?260329072039)](/cookbook/5/images/Candlestick.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Finance.cs" imageUrl="/cookbook/5/images/Candlestick.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Finance.cs" imageUrl="/cookbook/5/images/Candlestick.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 var prices = Generate.RandomOHLCs(30);
 myPlot.Add.Candlestick(prices);

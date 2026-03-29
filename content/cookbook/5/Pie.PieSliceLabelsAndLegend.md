@@ -4,9 +4,9 @@ Description: Pie slices may have labels independent from those displayed in the 
 URL: /cookbook/5/Pie/PieSliceLabelsAndLegend/
 BreadcrumbNames: ["ScottPlot 5 Cookbook", "Pie", "Pie with Different Labels"]
 BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/Pie", "/cookbook/5/Pie/PieSliceLabelsAndLegend"]
-Date: 2025-10-11
-Version: ScottPlot 5.1.57
-Version: ScottPlot 5.1.57
+Date: 2026-03-29
+Version: ScottPlot 5.1.58
+Version: ScottPlot 5.1.58
 SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Pie slices may have labels independent from those displayed in the legend.
 
-[![](/cookbook/5/images/PieSliceLabelsAndLegend.png?251011113742)](/cookbook/5/images/PieSliceLabelsAndLegend.png?251011113742)
+[![](/cookbook/5/images/PieSliceLabelsAndLegend.png?260329072039)](/cookbook/5/images/PieSliceLabelsAndLegend.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Pie.cs" imageUrl="/cookbook/5/images/PieSliceLabelsAndLegend.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Pie.cs" imageUrl="/cookbook/5/images/PieSliceLabelsAndLegend.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 // create a pie chart
 double[] values = [6, 8, 10];

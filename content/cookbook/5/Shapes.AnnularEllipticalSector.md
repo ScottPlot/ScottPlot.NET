@@ -4,9 +4,9 @@ Description: An annular elliptical sector is the 2D shape between two ellipses a
 URL: /cookbook/5/Shapes/AnnularEllipticalSector/
 BreadcrumbNames: ["ScottPlot 5 Cookbook", "Shapes", "Annular Elliptical Sector"]
 BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/Shapes", "/cookbook/5/Shapes/AnnularEllipticalSector"]
-Date: 2025-10-11
-Version: ScottPlot 5.1.57
-Version: ScottPlot 5.1.57
+Date: 2026-03-29
+Version: ScottPlot 5.1.58
+Version: ScottPlot 5.1.58
 SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 An annular elliptical sector is the 2D shape between two ellipses and may be sliced to contain only the area between two angles relative to the center point.
 
-[![](/cookbook/5/images/AnnularEllipticalSector.png?251011113742)](/cookbook/5/images/AnnularEllipticalSector.png?251011113742)
+[![](/cookbook/5/images/AnnularEllipticalSector.png?260329072039)](/cookbook/5/images/AnnularEllipticalSector.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Shapes.cs" imageUrl="/cookbook/5/images/AnnularEllipticalSector.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Shapes.cs" imageUrl="/cookbook/5/images/AnnularEllipticalSector.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 Coordinates center = new(0, 0);
 double outerRadiusX = 4.0;

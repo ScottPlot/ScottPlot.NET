@@ -4,9 +4,9 @@ Description: Line plots are placed with a start and end location in coordinate s
 URL: /cookbook/5/LinePlot/LineQuickStart/
 BreadcrumbNames: ["ScottPlot 5 Cookbook", "Line Plot", "Line Plot Quickstart"]
 BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/LinePlot", "/cookbook/5/LinePlot/LineQuickStart"]
-Date: 2025-10-11
-Version: ScottPlot 5.1.57
-Version: ScottPlot 5.1.57
+Date: 2026-03-29
+Version: ScottPlot 5.1.58
+Version: ScottPlot 5.1.58
 SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Line plots are placed with a start and end location in coordinate space. Their styles can be customized.
 
-[![](/cookbook/5/images/LineQuickStart.png?251011113742)](/cookbook/5/images/LineQuickStart.png?251011113742)
+[![](/cookbook/5/images/LineQuickStart.png?260329072039)](/cookbook/5/images/LineQuickStart.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Line.cs" imageUrl="/cookbook/5/images/LineQuickStart.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Line.cs" imageUrl="/cookbook/5/images/LineQuickStart.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Line(1, 12, 12, 0);
 myPlot.Add.Line(7, 9, 42, 9);

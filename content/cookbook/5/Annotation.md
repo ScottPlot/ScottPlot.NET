@@ -4,9 +4,9 @@ Description: Annotations are always-visible text labels positioned over the data
 URL: /cookbook/5/Annotation/
 BreadcrumbNames: ["ScottPlot 5 Cookbook", "Annotation"]
 BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/Annotation"]
-Date: 2025-10-11
-Version: ScottPlot 5.1.57
-Version: ScottPlot 5.1.57
+Date: 2026-03-29
+Version: ScottPlot 5.1.58
+Version: ScottPlot 5.1.58
 SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
@@ -23,9 +23,9 @@ ShowEditLink: false
 
 Annotations are labels you can place on the data area of a plot. Unlike Text added to the plot (which is placed in coordinate units on the axes), Annotations are positioned relative to the data area (in pixel units) and do not move as the plot is panned and zoomed.
 
-[![](/cookbook/5/images/AnnotationQuickstart.png?251011113742)](/cookbook/5/images/AnnotationQuickstart.png?251011113742)
+[![](/cookbook/5/images/AnnotationQuickstart.png?260329072039)](/cookbook/5/images/AnnotationQuickstart.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Annotation.cs" imageUrl="/cookbook/5/images/AnnotationQuickstart.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Annotation.cs" imageUrl="/cookbook/5/images/AnnotationQuickstart.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin());
 myPlot.Add.Signal(Generate.Cos());
@@ -48,9 +48,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Annotations can be extensively customized.
 
-[![](/cookbook/5/images/AnnotationCustomize.png?251011113742)](/cookbook/5/images/AnnotationCustomize.png?251011113742)
+[![](/cookbook/5/images/AnnotationCustomize.png?260329072039)](/cookbook/5/images/AnnotationCustomize.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Annotation.cs" imageUrl="/cookbook/5/images/AnnotationCustomize.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Annotation.cs" imageUrl="/cookbook/5/images/AnnotationCustomize.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin());
 myPlot.Add.Signal(Generate.Cos());
@@ -82,9 +82,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Annotations are aligned with the data area.
 
-[![](/cookbook/5/images/AnnotationPositions.png?251011113742)](/cookbook/5/images/AnnotationPositions.png?251011113742)
+[![](/cookbook/5/images/AnnotationPositions.png?260329072039)](/cookbook/5/images/AnnotationPositions.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Annotation.cs" imageUrl="/cookbook/5/images/AnnotationPositions.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Annotation.cs" imageUrl="/cookbook/5/images/AnnotationPositions.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 foreach (Alignment alignment in Enum.GetValues(typeof(Alignment)))
 {

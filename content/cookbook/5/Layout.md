@@ -4,9 +4,9 @@ Description: How to customize data area size and figure padding
 URL: /cookbook/5/Layout/
 BreadcrumbNames: ["ScottPlot 5 Cookbook", "Layout"]
 BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/Layout"]
-Date: 2025-10-11
-Version: ScottPlot 5.1.57
-Version: ScottPlot 5.1.57
+Date: 2026-03-29
+Version: ScottPlot 5.1.58
+Version: ScottPlot 5.1.58
 SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
@@ -23,9 +23,9 @@ ShowEditLink: false
 
 How to create a plot containing only the data area and no axes.
 
-[![](/cookbook/5/images/Frameless.png?251011113742)](/cookbook/5/images/Frameless.png?251011113742)
+[![](/cookbook/5/images/Frameless.png?260329072039)](/cookbook/5/images/Frameless.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/LayoutRecipes.cs" imageUrl="/cookbook/5/images/Frameless.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/LayoutRecipes.cs" imageUrl="/cookbook/5/images/Frameless.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin(51));
 myPlot.Add.Signal(Generate.Cos(51));
@@ -52,9 +52,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 The plot can be arranged to achieve a fixed amount of padding on each side of the data area
 
-[![](/cookbook/5/images/FixedPadding.png?251011113742)](/cookbook/5/images/FixedPadding.png?251011113742)
+[![](/cookbook/5/images/FixedPadding.png?260329072039)](/cookbook/5/images/FixedPadding.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/LayoutRecipes.cs" imageUrl="/cookbook/5/images/FixedPadding.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/LayoutRecipes.cs" imageUrl="/cookbook/5/images/FixedPadding.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 // add sample data to the plot
 myPlot.Add.Signal(Generate.Sin(51));
@@ -84,9 +84,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 The plot can be arranged so the data is drawn inside a fixed rectangle defined in pixel units
 
-[![](/cookbook/5/images/FixedRectangle.png?251011113742)](/cookbook/5/images/FixedRectangle.png?251011113742)
+[![](/cookbook/5/images/FixedRectangle.png?260329072039)](/cookbook/5/images/FixedRectangle.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/LayoutRecipes.cs" imageUrl="/cookbook/5/images/FixedRectangle.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/LayoutRecipes.cs" imageUrl="/cookbook/5/images/FixedRectangle.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 // add sample data to the plot
 myPlot.Add.Signal(Generate.Sin(51));

@@ -4,9 +4,9 @@ Description: Color tools and features built into ScottPlot
 URL: /cookbook/5/ColorRecipes/
 BreadcrumbNames: ["ScottPlot 5 Cookbook", "Color"]
 BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/ColorRecipes"]
-Date: 2025-10-11
-Version: ScottPlot 5.1.57
-Version: ScottPlot 5.1.57
+Date: 2026-03-29
+Version: ScottPlot 5.1.58
+Version: ScottPlot 5.1.58
 SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
@@ -23,9 +23,9 @@ ShowEditLink: false
 
 ScottPlot.Colors contains many colors
 
-[![](/cookbook/5/images/ColorQuickstart.png?251011113742)](/cookbook/5/images/ColorQuickstart.png?251011113742)
+[![](/cookbook/5/images/ColorQuickstart.png?260329072039)](/cookbook/5/images/ColorQuickstart.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/ColorRecipes.cs" imageUrl="/cookbook/5/images/ColorQuickstart.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/ColorRecipes.cs" imageUrl="/cookbook/5/images/ColorQuickstart.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 var circle1 = myPlot.Add.Circle(0, 0, 1);
 var circle2 = myPlot.Add.Circle(1, 0, 1);
@@ -55,9 +55,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 ScottPlot.Colors can be constructed from RGB values (0-255), HTML style hexadecimal color codes (00-FF), or System.Drawing.Color objects.
 
-[![](/cookbook/5/images/ColorHex.png?251011113742)](/cookbook/5/images/ColorHex.png?251011113742)
+[![](/cookbook/5/images/ColorHex.png?260329072039)](/cookbook/5/images/ColorHex.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/ColorRecipes.cs" imageUrl="/cookbook/5/images/ColorHex.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/ColorRecipes.cs" imageUrl="/cookbook/5/images/ColorHex.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 var circle1 = myPlot.Add.Circle(0, 0, 1);
 var circle2 = myPlot.Add.Circle(1, 0, 1);
@@ -87,9 +87,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 The Alpha channel sets transparency of a color
 
-[![](/cookbook/5/images/ColorTransparency.png?251011113742)](/cookbook/5/images/ColorTransparency.png?251011113742)
+[![](/cookbook/5/images/ColorTransparency.png?260329072039)](/cookbook/5/images/ColorTransparency.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/ColorRecipes.cs" imageUrl="/cookbook/5/images/ColorTransparency.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/ColorRecipes.cs" imageUrl="/cookbook/5/images/ColorTransparency.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 var circle1 = myPlot.Add.Circle(0, 0, 1);
 var circle2 = myPlot.Add.Circle(1, 0, 1);
@@ -121,9 +121,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Colors have a MixWith() method that can be used to blend two colors
 
-[![](/cookbook/5/images/ColorMixing.png?251011113742)](/cookbook/5/images/ColorMixing.png?251011113742)
+[![](/cookbook/5/images/ColorMixing.png?260329072039)](/cookbook/5/images/ColorMixing.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/ColorRecipes.cs" imageUrl="/cookbook/5/images/ColorMixing.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/ColorRecipes.cs" imageUrl="/cookbook/5/images/ColorMixing.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 Color color1 = Colors.Blue;
 Color color2 = Colors.Green;
@@ -152,9 +152,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Colors may be generated from HSL (hue, saturation, luminosity) values.
 
-[![](/cookbook/5/images/ColorHSL.png?251011113742)](/cookbook/5/images/ColorHSL.png?251011113742)
+[![](/cookbook/5/images/ColorHSL.png?260329072039)](/cookbook/5/images/ColorHSL.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/ColorRecipes.cs" imageUrl="/cookbook/5/images/ColorHSL.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/ColorRecipes.cs" imageUrl="/cookbook/5/images/ColorHSL.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 for (int i = 0; i &lt; 10; i++)
 {
@@ -180,9 +180,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 A collection of colors can be generated from the linear interpolation between two colors.
 
-[![](/cookbook/5/images/ColorInterpolate.png?251011113742)](/cookbook/5/images/ColorInterpolate.png?251011113742)
+[![](/cookbook/5/images/ColorInterpolate.png?260329072039)](/cookbook/5/images/ColorInterpolate.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/ColorRecipes.cs" imageUrl="/cookbook/5/images/ColorInterpolate.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/ColorRecipes.cs" imageUrl="/cookbook/5/images/ColorInterpolate.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 Color[] colors = Color.InterpolateRgbArray(Colors.Blue, Colors.Green, steps: 20);
 
@@ -211,9 +211,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 The simplest way to generate random colors is to create colors which have same saturation and luminosity but random hue.
 
-[![](/cookbook/5/images/ColorRandom.png?251011113742)](/cookbook/5/images/ColorRandom.png?251011113742)
+[![](/cookbook/5/images/ColorRandom.png?260329072039)](/cookbook/5/images/ColorRandom.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/ColorRecipes.cs" imageUrl="/cookbook/5/images/ColorRandom.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/ColorRecipes.cs" imageUrl="/cookbook/5/images/ColorRandom.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 for (int i = 0; i &lt; 20; i++)
 {
@@ -240,9 +240,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Colormaps may be used to source a collection of colors.
 
-[![](/cookbook/5/images/ColorsFromColormap.png?251011113742)](/cookbook/5/images/ColorsFromColormap.png?251011113742)
+[![](/cookbook/5/images/ColorsFromColormap.png?260329072039)](/cookbook/5/images/ColorsFromColormap.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/ColorRecipes.cs" imageUrl="/cookbook/5/images/ColorsFromColormap.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/ColorRecipes.cs" imageUrl="/cookbook/5/images/ColorsFromColormap.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 IColormap colormap = new ScottPlot.Colormaps.Viridis();
 Color[] colors = colormap.GetColors(20);
@@ -272,9 +272,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Helper methods make it easy to lighten or darken colors.
 
-[![](/cookbook/5/images/ColorLightenAndDarken.png?251011113742)](/cookbook/5/images/ColorLightenAndDarken.png?251011113742)
+[![](/cookbook/5/images/ColorLightenAndDarken.png?260329072039)](/cookbook/5/images/ColorLightenAndDarken.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/ColorRecipes.cs" imageUrl="/cookbook/5/images/ColorLightenAndDarken.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/ColorRecipes.cs" imageUrl="/cookbook/5/images/ColorLightenAndDarken.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 Color color1 = Colors.Blue;
 Color color2 = Colors.Blue;

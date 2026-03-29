@@ -4,9 +4,9 @@ Description: Vector fields display a collection of vectors rooted at points in c
 URL: /cookbook/5/VectorField/
 BreadcrumbNames: ["ScottPlot 5 Cookbook", "Vector Field"]
 BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/VectorField"]
-Date: 2025-10-11
-Version: ScottPlot 5.1.57
-Version: ScottPlot 5.1.57
+Date: 2026-03-29
+Version: ScottPlot 5.1.58
+Version: ScottPlot 5.1.58
 SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
@@ -23,9 +23,9 @@ ShowEditLink: false
 
 Vectors (representing a magnitude and direction) can be placed at specific points in coordinate space to display as a vector field.
 
-[![](/cookbook/5/images/VectorFieldQuickstart.png?251011113742)](/cookbook/5/images/VectorFieldQuickstart.png?251011113742)
+[![](/cookbook/5/images/VectorFieldQuickstart.png?260329072039)](/cookbook/5/images/VectorFieldQuickstart.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/VectorField.cs" imageUrl="/cookbook/5/images/VectorFieldQuickstart.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/VectorField.cs" imageUrl="/cookbook/5/images/VectorFieldQuickstart.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 // generate a grid of positions
 double[] xs = Generate.Consecutive(10);
@@ -70,9 +70,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Vector field arrows can be colored according to their magnitude.
 
-[![](/cookbook/5/images/VectorFieldColormap.png?251011113742)](/cookbook/5/images/VectorFieldColormap.png?251011113742)
+[![](/cookbook/5/images/VectorFieldColormap.png?260329072039)](/cookbook/5/images/VectorFieldColormap.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/VectorField.cs" imageUrl="/cookbook/5/images/VectorFieldColormap.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/VectorField.cs" imageUrl="/cookbook/5/images/VectorFieldColormap.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 RootedCoordinateVector[] vectors = Generate.SampleVectors();
 var vf = myPlot.Add.VectorField(vectors);
@@ -94,9 +94,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Length of arrows in a vector field may be customized by defining length (in pixel units) to display the longest vector.
 
-[![](/cookbook/5/images/VectorFieldArrowLength.png?251011113742)](/cookbook/5/images/VectorFieldArrowLength.png?251011113742)
+[![](/cookbook/5/images/VectorFieldArrowLength.png?260329072039)](/cookbook/5/images/VectorFieldArrowLength.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/VectorField.cs" imageUrl="/cookbook/5/images/VectorFieldArrowLength.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/VectorField.cs" imageUrl="/cookbook/5/images/VectorFieldArrowLength.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 RootedCoordinateVector[] vectors = Generate.SampleVectors();
 var vf = myPlot.Add.VectorField(vectors);

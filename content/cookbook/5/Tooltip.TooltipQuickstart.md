@@ -4,9 +4,9 @@ Description: Tooltips are annotations that point to an X/Y coordinate on the plo
 URL: /cookbook/5/Tooltip/TooltipQuickstart/
 BreadcrumbNames: ["ScottPlot 5 Cookbook", "Tooltip", "Tooltip Quickstart"]
 BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/Tooltip", "/cookbook/5/Tooltip/TooltipQuickstart"]
-Date: 2025-10-11
-Version: ScottPlot 5.1.57
-Version: ScottPlot 5.1.57
+Date: 2026-03-29
+Version: ScottPlot 5.1.58
+Version: ScottPlot 5.1.58
 SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Tooltips are annotations that point to an X/Y coordinate on the plot.
 
-[![](/cookbook/5/images/TooltipQuickstart.png?251011113742)](/cookbook/5/images/TooltipQuickstart.png?251011113742)
+[![](/cookbook/5/images/TooltipQuickstart.png?260329072039)](/cookbook/5/images/TooltipQuickstart.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Tooltip.cs" imageUrl="/cookbook/5/images/TooltipQuickstart.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Tooltip.cs" imageUrl="/cookbook/5/images/TooltipQuickstart.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 double[] ys = Generate.Sin(50);
 var plt = myPlot.Add.Signal(ys);

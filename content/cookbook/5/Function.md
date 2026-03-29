@@ -4,9 +4,9 @@ Description: Function plots are a type of line plot where Y positions are define
 URL: /cookbook/5/Function/
 BreadcrumbNames: ["ScottPlot 5 Cookbook", "Function"]
 BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/Function"]
-Date: 2025-10-11
-Version: ScottPlot 5.1.57
-Version: ScottPlot 5.1.57
+Date: 2026-03-29
+Version: ScottPlot 5.1.58
+Version: ScottPlot 5.1.58
 SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
@@ -23,9 +23,9 @@ ShowEditLink: false
 
 Create a function plot from a formula.
 
-[![](/cookbook/5/images/FunctionQuickstart.png?251011113742)](/cookbook/5/images/FunctionQuickstart.png?251011113742)
+[![](/cookbook/5/images/FunctionQuickstart.png?260329072039)](/cookbook/5/images/FunctionQuickstart.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Function.cs" imageUrl="/cookbook/5/images/FunctionQuickstart.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Function.cs" imageUrl="/cookbook/5/images/FunctionQuickstart.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 // Functions are defined as delegates with an input and output
 static double func1(double x) =&gt; (Math.Sin(x) * Math.Sin(x / 2));
@@ -56,9 +56,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 A function can be limited to a range of X values.
 
-[![](/cookbook/5/images/FunctionLimitX.png?251011113742)](/cookbook/5/images/FunctionLimitX.png?251011113742)
+[![](/cookbook/5/images/FunctionLimitX.png?260329072039)](/cookbook/5/images/FunctionLimitX.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Function.cs" imageUrl="/cookbook/5/images/FunctionLimitX.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Function.cs" imageUrl="/cookbook/5/images/FunctionLimitX.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 static double func1(double x) =&gt; (Math.Sin(x) * Math.Sin(x / 2));
 
@@ -84,9 +84,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 When a function cannot be represented as a static method (e.g., one that requires custom parameters) it can be represented as variable of type Func<double, double> and plotted accordingly.
 
-[![](/cookbook/5/images/FunctionDynamic.png?251011113742)](/cookbook/5/images/FunctionDynamic.png?251011113742)
+[![](/cookbook/5/images/FunctionDynamic.png?260329072039)](/cookbook/5/images/FunctionDynamic.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Function.cs" imageUrl="/cookbook/5/images/FunctionDynamic.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Function.cs" imageUrl="/cookbook/5/images/FunctionDynamic.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 static double LogNormalDist(double x, double a, double b)
 {

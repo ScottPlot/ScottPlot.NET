@@ -4,9 +4,9 @@ Description: Multiline labels have a default line height estimated from the type
 URL: /cookbook/5/Text/LabelLineHeight/
 BreadcrumbNames: ["ScottPlot 5 Cookbook", "Text", "Line Height"]
 BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/Text", "/cookbook/5/Text/LabelLineHeight"]
-Date: 2025-10-11
-Version: ScottPlot 5.1.57
-Version: ScottPlot 5.1.57
+Date: 2026-03-29
+Version: ScottPlot 5.1.58
+Version: ScottPlot 5.1.58
 SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Multiline labels have a default line height estimated from the typeface and font size, however line height may be manually defined by the user.
 
-[![](/cookbook/5/images/LabelLineHeight.png?251011113742)](/cookbook/5/images/LabelLineHeight.png?251011113742)
+[![](/cookbook/5/images/LabelLineHeight.png?260329072039)](/cookbook/5/images/LabelLineHeight.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Text.cs" imageUrl="/cookbook/5/images/LabelLineHeight.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Text.cs" imageUrl="/cookbook/5/images/LabelLineHeight.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 var label1 = myPlot.Add.Text($"line\nheight", 0, 0);
 label1.LabelLineSpacing = 0;

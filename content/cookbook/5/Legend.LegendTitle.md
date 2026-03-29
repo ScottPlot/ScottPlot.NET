@@ -4,9 +4,9 @@ Description: Place a manual legend item at the top of the list and style it as d
 URL: /cookbook/5/Legend/LegendTitle/
 BreadcrumbNames: ["ScottPlot 5 Cookbook", "Legends", "Legend with Title"]
 BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/Legend", "/cookbook/5/Legend/LegendTitle"]
-Date: 2025-10-11
-Version: ScottPlot 5.1.57
-Version: ScottPlot 5.1.57
+Date: 2026-03-29
+Version: ScottPlot 5.1.58
+Version: ScottPlot 5.1.58
 SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Place a manual legend item at the top of the list and style it as desired to achieve a title inside the legend area.
 
-[![](/cookbook/5/images/LegendTitle.png?251011113742)](/cookbook/5/images/LegendTitle.png?251011113742)
+[![](/cookbook/5/images/LegendTitle.png?260329072039)](/cookbook/5/images/LegendTitle.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Legend.cs" imageUrl="/cookbook/5/images/LegendTitle.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Legend.cs" imageUrl="/cookbook/5/images/LegendTitle.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 var sig1 = myPlot.Add.Signal(Generate.Sin(51));
 sig1.LegendText = "Sine Wave";

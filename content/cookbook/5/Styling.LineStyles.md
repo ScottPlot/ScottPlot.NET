@@ -4,9 +4,9 @@ Description: Many plot types have a LineStyle which can be customized.
 URL: /cookbook/5/Styling/LineStyles/
 BreadcrumbNames: ["ScottPlot 5 Cookbook", "Styling Plots", "Line Styles"]
 BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/Styling", "/cookbook/5/Styling/LineStyles"]
-Date: 2025-10-11
-Version: ScottPlot 5.1.57
-Version: ScottPlot 5.1.57
+Date: 2026-03-29
+Version: ScottPlot 5.1.58
+Version: ScottPlot 5.1.58
 SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Many plot types have a LineStyle which can be customized.
 
-[![](/cookbook/5/images/LineStyles.png?251011113742)](/cookbook/5/images/LineStyles.png?251011113742)
+[![](/cookbook/5/images/LineStyles.png?260329072039)](/cookbook/5/images/LineStyles.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs" imageUrl="/cookbook/5/images/LineStyles.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Styling.cs" imageUrl="/cookbook/5/images/LineStyles.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 List&lt;LinePattern&gt; patterns = [];
 patterns.AddRange(LinePattern.GetAllPatterns());

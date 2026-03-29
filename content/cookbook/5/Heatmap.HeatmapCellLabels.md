@@ -4,9 +4,9 @@ Description: Text may be placed over cells to provide cell labels. In interactiv
 URL: /cookbook/5/Heatmap/HeatmapCellLabels/
 BreadcrumbNames: ["ScottPlot 5 Cookbook", "Heatmap", "Heatmap Cell Labels"]
 BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/Heatmap", "/cookbook/5/Heatmap/HeatmapCellLabels"]
-Date: 2025-10-11
-Version: ScottPlot 5.1.57
-Version: ScottPlot 5.1.57
+Date: 2026-03-29
+Version: ScottPlot 5.1.58
+Version: ScottPlot 5.1.58
 SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Text may be placed over cells to provide cell labels. In interactive applications MouseMove events may be used to remove old labels and only display a label over the cell beneath the mouse. See the ScottPlot Demo page for more information and code samples.
 
-[![](/cookbook/5/images/HeatmapCellLabels.png?251011113742)](/cookbook/5/images/HeatmapCellLabels.png?251011113742)
+[![](/cookbook/5/images/HeatmapCellLabels.png?260329072039)](/cookbook/5/images/HeatmapCellLabels.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Heatmap.cs" imageUrl="/cookbook/5/images/HeatmapCellLabels.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Heatmap.cs" imageUrl="/cookbook/5/images/HeatmapCellLabels.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 double[,] data = {
     { 1, 2, 3 },

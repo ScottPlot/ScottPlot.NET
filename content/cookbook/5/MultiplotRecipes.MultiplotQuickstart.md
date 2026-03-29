@@ -4,9 +4,9 @@ Description: Use the Multiplot class to create figures with multiple subplots.
 URL: /cookbook/5/MultiplotRecipes/MultiplotQuickstart/
 BreadcrumbNames: ["ScottPlot 5 Cookbook", "Multiplot", "Multiplot Quickstart"]
 BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/MultiplotRecipes", "/cookbook/5/MultiplotRecipes/MultiplotQuickstart"]
-Date: 2025-10-11
-Version: ScottPlot 5.1.57
-Version: ScottPlot 5.1.57
+Date: 2026-03-29
+Version: ScottPlot 5.1.58
+Version: ScottPlot 5.1.58
 SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Use the Multiplot class to create figures with multiple subplots.
 
-[![](/cookbook/5/images/MultiplotQuickstart.png?251011113742)](/cookbook/5/images/MultiplotQuickstart.png?251011113742)
+[![](/cookbook/5/images/MultiplotQuickstart.png?260329072039)](/cookbook/5/images/MultiplotQuickstart.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/MultiplotRecipes.cs" imageUrl="/cookbook/5/images/MultiplotQuickstart.png?251011113742" >}}ScottPlot.Multiplot multiplot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/MultiplotRecipes.cs" imageUrl="/cookbook/5/images/MultiplotQuickstart.png?260329072039" >}}ScottPlot.Multiplot multiplot = new();
 
 // configure the multiplot to use 2 subplots
 multiplot.AddPlots(2);

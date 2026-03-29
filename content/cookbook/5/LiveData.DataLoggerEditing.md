@@ -4,9 +4,9 @@ Description: Values accumulated by a data logger may be edited after they are ac
 URL: /cookbook/5/LiveData/DataLoggerEditing/
 BreadcrumbNames: ["ScottPlot 5 Cookbook", "Live Data", "DataLogger Editing"]
 BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/LiveData", "/cookbook/5/LiveData/DataLoggerEditing"]
-Date: 2025-10-11
-Version: ScottPlot 5.1.57
-Version: ScottPlot 5.1.57
+Date: 2026-03-29
+Version: ScottPlot 5.1.58
+Version: ScottPlot 5.1.58
 SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Values accumulated by a data logger may be edited after they are acquired.
 
-[![](/cookbook/5/images/DataLoggerEditing.png?251011113742)](/cookbook/5/images/DataLoggerEditing.png?251011113742)
+[![](/cookbook/5/images/DataLoggerEditing.png?260329072039)](/cookbook/5/images/DataLoggerEditing.png?260329072039)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/LiveData.cs" imageUrl="/cookbook/5/images/DataLoggerEditing.png?251011113742" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/LiveData.cs" imageUrl="/cookbook/5/images/DataLoggerEditing.png?260329072039" >}}ScottPlot.Plot myPlot = new();
 
 // setup a logger that will grow as data is added
 var logger = myPlot.Add.DataLogger();
