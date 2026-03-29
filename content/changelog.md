@@ -8,6 +8,8 @@ Description: Release notes for every version of ScottPlot
 <div><i>NuGet packages published 2026-03-29</i></div>
 <div class='mt-1'>
 <ul>
+<li>Target .NET 10 and remove unsupported .NET targets (<a href="https://github.com/ScottPlot/ScottPlot/issues/5154">#5154</a>) <a href="https://github.com/swharden"><strong>@swharden</strong></a>
+</li>
 <li>FillStyle: Reverted change from previous version to make this class public (<a href="https://github.com/ScottPlot/ScottPlot/issues/5126">#5126</a>) <a href="https://github.com/jurihock"><strong>@jurihock</strong></a>
 </li>
 <li>Legend: Permit custom fill color when using MarkerShapeOverride (<a href="https://github.com/ScottPlot/ScottPlot/issues/5137">#5137</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/5136">#5136</a>) <a href="https://github.com/aespitia"><strong>@aespitia</strong></a>
@@ -40,9 +42,10 @@ Description: Release notes for every version of ScottPlot
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/jurihock'>@jurihock</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/BrianAtZetica'>@BrianAtZetica</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/wi-fr'>@wi-fr</a>, <a href='https://github.com/btarb24'>@btarb24</a>, <a href='https://github.com/myd7349'>@myd7349</a>, <a href='https://github.com/AscendLiu'>@AscendLiu</a>, <a href='https://github.com/timmer98'>@timmer98</a>, <a href='https://github.com/diluculo'>@diluculo</a>, <a href='https://github.com/DKahn144'>@DKahn144</a>, <a href='https://github.com/Guillaume-Deville'>@Guillaume-Deville</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/swharden'>@swharden</a>, <a href='https://github.com/jurihock'>@jurihock</a>, <a href='https://github.com/aespitia'>@aespitia</a>, <a href='https://github.com/BrianAtZetica'>@BrianAtZetica</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/wi-fr'>@wi-fr</a>, <a href='https://github.com/btarb24'>@btarb24</a>, <a href='https://github.com/myd7349'>@myd7349</a>, <a href='https://github.com/AscendLiu'>@AscendLiu</a>, <a href='https://github.com/timmer98'>@timmer98</a>, <a href='https://github.com/diluculo'>@diluculo</a>, <a href='https://github.com/DKahn144'>@DKahn144</a>, <a href='https://github.com/Guillaume-Deville'>@Guillaume-Deville</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/jurihock'><img src='https://scottplot.net/images/contributors/jurihock.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/aespitia'><img src='https://scottplot.net/images/contributors/aespitia.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/BrianAtZetica'><img src='https://scottplot.net/images/contributors/brianatzetica.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
