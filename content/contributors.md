@@ -14,7 +14,7 @@ Description: Members of the open-source community who contributed to ScottPlot
 <a href='https://github.com/CoderPM2011'><img src='https://scottplot.net/images/contributors/coderpm2011.jpg'></a>
 <a href='https://github.com/btarb24'><img src='https://scottplot.net/images/contributors/btarb24.jpg'></a>
 <a href='https://github.com/nbeck-SMT'><img src='https://scottplot.net/images/contributors/nbeck-smt.png'></a>
-<a href='https://github.com/Ben-D-Anderson'><img src='https://scottplot.net/images/brand/favicon.png'></a>
+<a href='https://github.com/Ben-D-Anderson'><img src='https://scottplot.net/images/contributors/ben-d-anderson.jpg'></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg'></a>
 <a href='https://github.com/jurihock'><img src='https://scottplot.net/images/contributors/jurihock.jpg'></a>
 <a href='https://github.com/aespitia'><img src='https://scottplot.net/images/contributors/aespitia.jpg'></a>
