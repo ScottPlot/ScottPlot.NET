@@ -22,6 +22,8 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Interactivity: Add trend lines that extend infinitely in both directions (<a href="https://github.com/ScottPlot/ScottPlot/issues/5181">#5181</a>) <a href="https://github.com/btarb24"><strong>@btarb24</strong></a>
 </li>
+<li>Controls: Improve modifier key handling when plots regain focus (<a href="https://github.com/ScottPlot/ScottPlot/issues/5209">#5209</a>) <a href="https://github.com/btarb24"><strong>@btarb24</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
