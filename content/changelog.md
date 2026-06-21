@@ -16,16 +16,19 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Interactivity: Prevent the ability to drag invisible lines (<a href="https://github.com/ScottPlot/ScottPlot/issues/5215">#5215</a>) <a href="https://github.com/btarb24"><strong>@btarb24</strong></a>
 </li>
+<li>SignalXY: Fix rendering of plots using integer X values (<a href="https://github.com/ScottPlot/ScottPlot/issues/5121">#5121</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/5108">#5108</a>) <a href="https://github.com/nbeck-SMT"><strong>@nbeck-SMT</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/btarb24'>@btarb24</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/btarb24'>@btarb24</a>, <a href='https://github.com/nbeck-SMT'>@nbeck-SMT</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/CoderPM2011'><img src='https://scottplot.net/images/contributors/coderpm2011.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/btarb24'><img src='https://scottplot.net/images/contributors/btarb24.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/nbeck-SMT'><img src='https://scottplot.net/images/contributors/nbeck-smt.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 

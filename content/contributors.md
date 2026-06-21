@@ -13,6 +13,7 @@ Description: Members of the open-source community who contributed to ScottPlot
 <a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png'></a>
 <a href='https://github.com/CoderPM2011'><img src='https://scottplot.net/images/contributors/coderpm2011.jpg'></a>
 <a href='https://github.com/btarb24'><img src='https://scottplot.net/images/contributors/btarb24.jpg'></a>
+<a href='https://github.com/nbeck-SMT'><img src='https://scottplot.net/images/contributors/nbeck-smt.png'></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg'></a>
 <a href='https://github.com/jurihock'><img src='https://scottplot.net/images/contributors/jurihock.jpg'></a>
 <a href='https://github.com/aespitia'><img src='https://scottplot.net/images/contributors/aespitia.jpg'></a>
@@ -27,7 +28,6 @@ Description: Members of the open-source community who contributed to ScottPlot
 <a href='https://github.com/jelhan'><img src='https://scottplot.net/images/contributors/jelhan.jpg'></a>
 <a href='https://github.com/NeilMacMullen'><img src='https://scottplot.net/images/contributors/neilmacmullen.jpg'></a>
 <a href='https://github.com/fissssssh'><img src='https://scottplot.net/images/contributors/fissssssh.jpg'></a>
-<a href='https://github.com/nbeck-SMT'><img src='https://scottplot.net/images/contributors/nbeck-smt.png'></a>
 <a href='https://github.com/Christoph-Wagner'><img src='https://scottplot.net/images/contributors/christoph-wagner.jpg'></a>
 <a href='https://github.com/manaruto'><img src='https://scottplot.net/images/contributors/manaruto.jpg'></a>
 <a href='https://github.com/sunwayking'><img src='https://scottplot.net/images/contributors/sunwayking.png'></a>
