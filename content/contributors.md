@@ -10,13 +10,14 @@ Description: Members of the open-source community who contributed to ScottPlot
     💖🚀✨
 </div>
 <div class='avatar-container my-3'>
+<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png'></a>
+<a href='https://github.com/CoderPM2011'><img src='https://scottplot.net/images/contributors/coderpm2011.jpg'></a>
+<a href='https://github.com/btarb24'><img src='https://scottplot.net/images/contributors/btarb24.jpg'></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg'></a>
 <a href='https://github.com/jurihock'><img src='https://scottplot.net/images/contributors/jurihock.jpg'></a>
 <a href='https://github.com/aespitia'><img src='https://scottplot.net/images/contributors/aespitia.jpg'></a>
 <a href='https://github.com/BrianAtZetica'><img src='https://scottplot.net/images/contributors/brianatzetica.png'></a>
-<a href='https://github.com/CoderPM2011'><img src='https://scottplot.net/images/contributors/coderpm2011.jpg'></a>
 <a href='https://github.com/wi-fr'><img src='https://scottplot.net/images/contributors/wi-fr.png'></a>
-<a href='https://github.com/btarb24'><img src='https://scottplot.net/images/contributors/btarb24.jpg'></a>
 <a href='https://github.com/myd7349'><img src='https://scottplot.net/images/contributors/myd7349.png'></a>
 <a href='https://github.com/AscendLiu'><img src='https://scottplot.net/images/contributors/ascendliu.jpg'></a>
 <a href='https://github.com/timmer98'><img src='https://scottplot.net/images/contributors/timmer98.png'></a>
@@ -24,7 +25,6 @@ Description: Members of the open-source community who contributed to ScottPlot
 <a href='https://github.com/DKahn144'><img src='https://scottplot.net/images/contributors/dkahn144.jpg'></a>
 <a href='https://github.com/Guillaume-Deville'><img src='https://scottplot.net/images/contributors/guillaume-deville.png'></a>
 <a href='https://github.com/jelhan'><img src='https://scottplot.net/images/contributors/jelhan.jpg'></a>
-<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png'></a>
 <a href='https://github.com/NeilMacMullen'><img src='https://scottplot.net/images/contributors/neilmacmullen.jpg'></a>
 <a href='https://github.com/fissssssh'><img src='https://scottplot.net/images/contributors/fissssssh.jpg'></a>
 <a href='https://github.com/nbeck-SMT'><img src='https://scottplot.net/images/contributors/nbeck-smt.png'></a>

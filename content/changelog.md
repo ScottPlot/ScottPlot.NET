@@ -4,6 +4,33 @@ Description: Release notes for every version of ScottPlot
 ---
 
 <section class='mb-5'>
+<h1 class='mb-0'>ScottPlot 5.1.59</h1>
+<div><i>NuGet packages published </i></div>
+<div class='mt-1'>
+<ul>
+<li>Avalonia: Add support for Avalonia 12 (<a href="https://github.com/ScottPlot/ScottPlot/issues/5233">#5233</a>) <a href="https://github.com/bclehmann"><strong>@bclehmann</strong></a>
+</li>
+<li>Avalonia: Implement cross-platform copy-to-clipboard (<a href="https://github.com/ScottPlot/ScottPlot/issues/5167">#5167</a>) <a href="https://github.com/bclehmann"><strong>@bclehmann</strong></a>
+</li>
+<li>Eto: Fix PixelFormat namespace ambiguity in EtoPlot builds (<a href="https://github.com/ScottPlot/ScottPlot/issues/5238">#5238</a>) <a href="https://github.com/CoderPM2011"><strong>@CoderPM2011</strong></a>
+</li>
+<li>Interactivity: Prevent the ability to drag invisible lines (<a href="https://github.com/ScottPlot/ScottPlot/issues/5215">#5215</a>) <a href="https://github.com/btarb24"><strong>@btarb24</strong></a>
+</li>
+</ul>
+</div>
+<h3 class='text-center fw-light'>Contributors</h3>
+<div class='text-center'>
+<a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/btarb24'>@btarb24</a>, <a href='https://github.com/swharden'>@swharden</a>
+</div>
+<div class='text-center'>
+<a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/CoderPM2011'><img src='https://scottplot.net/images/contributors/coderpm2011.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/btarb24'><img src='https://scottplot.net/images/contributors/btarb24.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+</div>
+
+</section>
+<section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 5.1.58</h1>
 <div><i>NuGet packages published 2026-03-29</i></div>
 <div class='mt-1'>
