@@ -32,11 +32,15 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Ticks: Add support for custom tick line patterns (<a href="https://github.com/ScottPlot/ScottPlot/issues/5239">#5239</a>) <a href="https://github.com/oktrue"><strong>@oktrue</strong></a>
 </li>
+<li>Avalonia: Add customizable mouse wheel event handling (<a href="https://github.com/ScottPlot/ScottPlot/issues/5241">#5241</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/5240">#5240</a>) <a href="https://github.com/oktrue"><strong>@oktrue</strong></a>
+</li>
+<li>DataStreamer: Fix <code>Clear(value)</code> to reset data to the requested value (<a href="https://github.com/ScottPlot/ScottPlot/issues/5245">#5245</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/5244">#5244</a>) <a href="https://github.com/gutblender"><strong>@gutblender</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/btarb24'>@btarb24</a>, <a href='https://github.com/nbeck-SMT'>@nbeck-SMT</a>, <a href='https://github.com/Ben-D-Anderson'>@Ben-D-Anderson</a>, <a href='https://github.com/AscendLiu'>@AscendLiu</a>, <a href='https://github.com/oktrue'>@oktrue</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/btarb24'>@btarb24</a>, <a href='https://github.com/nbeck-SMT'>@nbeck-SMT</a>, <a href='https://github.com/Ben-D-Anderson'>@Ben-D-Anderson</a>, <a href='https://github.com/AscendLiu'>@AscendLiu</a>, <a href='https://github.com/oktrue'>@oktrue</a>, <a href='https://github.com/gutblender'>@gutblender</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -46,6 +50,7 @@ Description: Release notes for every version of ScottPlot
 <a href='https://github.com/Ben-D-Anderson'><img src='https://scottplot.net/images/contributors/ben-d-anderson.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/AscendLiu'><img src='https://scottplot.net/images/contributors/ascendliu.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/oktrue'><img src='https://scottplot.net/images/contributors/oktrue.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/gutblender'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
