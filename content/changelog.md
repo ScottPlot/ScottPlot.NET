@@ -5,7 +5,7 @@ Description: Release notes for every version of ScottPlot
 
 <section class='mb-5'>
 <h1 class='mb-0'>ScottPlot 5.1.59</h1>
-<div><i>NuGet packages published </i></div>
+<div><i>NuGet packages published 2026-06-22</i></div>
 <div class='mt-1'>
 <ul>
 <li>Avalonia: Add support for Avalonia 12 (<a href="https://github.com/ScottPlot/ScottPlot/issues/5233">#5233</a>) <a href="https://github.com/bclehmann"><strong>@bclehmann</strong></a>
@@ -36,11 +36,13 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>DataStreamer: Fix <code>Clear(value)</code> to reset data to the requested value (<a href="https://github.com/ScottPlot/ScottPlot/issues/5245">#5245</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/5244">#5244</a>) <a href="https://github.com/gutblender"><strong>@gutblender</strong></a>
 </li>
+<li>Histogram: Autoscaling is no longer applied automatically after data is modified (<a href="https://github.com/ScottPlot/ScottPlot/issues/5234">#5234</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/5251">#5251</a>) <a href="https://github.com/swharden"><strong>@swharden</strong></a> <a href="https://github.com/AscendLiu"><strong>@AscendLiu</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/btarb24'>@btarb24</a>, <a href='https://github.com/nbeck-SMT'>@nbeck-SMT</a>, <a href='https://github.com/Ben-D-Anderson'>@Ben-D-Anderson</a>, <a href='https://github.com/AscendLiu'>@AscendLiu</a>, <a href='https://github.com/oktrue'>@oktrue</a>, <a href='https://github.com/gutblender'>@gutblender</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/btarb24'>@btarb24</a>, <a href='https://github.com/nbeck-SMT'>@nbeck-SMT</a>, <a href='https://github.com/Ben-D-Anderson'>@Ben-D-Anderson</a>, <a href='https://github.com/AscendLiu'>@AscendLiu</a>, <a href='https://github.com/oktrue'>@oktrue</a>, <a href='https://github.com/gutblender'>@gutblender</a>, <a href='https://github.com/swharden'>@swharden</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -50,7 +52,8 @@ Description: Release notes for every version of ScottPlot
 <a href='https://github.com/Ben-D-Anderson'><img src='https://scottplot.net/images/contributors/ben-d-anderson.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/AscendLiu'><img src='https://scottplot.net/images/contributors/ascendliu.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/oktrue'><img src='https://scottplot.net/images/contributors/oktrue.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
-<a href='https://github.com/gutblender'><img src='https://scottplot.net/images/brand/favicon.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/gutblender'><img src='https://scottplot.net/images/contributors/gutblender.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 
