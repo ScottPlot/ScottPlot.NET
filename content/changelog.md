@@ -24,11 +24,19 @@ Description: Release notes for every version of ScottPlot
 </li>
 <li>Controls: Improve modifier key handling when plots regain focus (<a href="https://github.com/ScottPlot/ScottPlot/issues/5209">#5209</a>) <a href="https://github.com/btarb24"><strong>@btarb24</strong></a>
 </li>
+<li>Autoscaling: Fix zero-span axis ranges when data has identical X and Y values (<a href="https://github.com/ScottPlot/ScottPlot/issues/5234">#5234</a>) <a href="https://github.com/AscendLiu"><strong>@AscendLiu</strong></a>
+</li>
+<li>Polar Coordinates: Fix conversion from Cartesian coordinates (<a href="https://github.com/ScottPlot/ScottPlot/issues/5236">#5236</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/5231">#5231</a>) <a href="https://github.com/CoderPM2011"><strong>@CoderPM2011</strong></a>
+</li>
+<li>Lollipop: Add nearest-point support (<a href="https://github.com/ScottPlot/ScottPlot/issues/5237">#5237</a>, <a href="https://github.com/ScottPlot/ScottPlot/issues/5160">#5160</a>) <a href="https://github.com/CoderPM2011"><strong>@CoderPM2011</strong></a>
+</li>
+<li>Ticks: Add support for custom tick line patterns (<a href="https://github.com/ScottPlot/ScottPlot/issues/5239">#5239</a>) <a href="https://github.com/oktrue"><strong>@oktrue</strong></a>
+</li>
 </ul>
 </div>
 <h3 class='text-center fw-light'>Contributors</h3>
 <div class='text-center'>
-<a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/btarb24'>@btarb24</a>, <a href='https://github.com/nbeck-SMT'>@nbeck-SMT</a>, <a href='https://github.com/Ben-D-Anderson'>@Ben-D-Anderson</a>, <a href='https://github.com/swharden'>@swharden</a>
+<a href='https://github.com/bclehmann'>@bclehmann</a>, <a href='https://github.com/CoderPM2011'>@CoderPM2011</a>, <a href='https://github.com/btarb24'>@btarb24</a>, <a href='https://github.com/nbeck-SMT'>@nbeck-SMT</a>, <a href='https://github.com/Ben-D-Anderson'>@Ben-D-Anderson</a>, <a href='https://github.com/AscendLiu'>@AscendLiu</a>, <a href='https://github.com/oktrue'>@oktrue</a>, <a href='https://github.com/swharden'>@swharden</a>
 </div>
 <div class='text-center'>
 <a href='https://github.com/bclehmann'><img src='https://scottplot.net/images/contributors/bclehmann.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
@@ -36,6 +44,8 @@ Description: Release notes for every version of ScottPlot
 <a href='https://github.com/btarb24'><img src='https://scottplot.net/images/contributors/btarb24.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/nbeck-SMT'><img src='https://scottplot.net/images/contributors/nbeck-smt.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/Ben-D-Anderson'><img src='https://scottplot.net/images/contributors/ben-d-anderson.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/AscendLiu'><img src='https://scottplot.net/images/contributors/ascendliu.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
+<a href='https://github.com/oktrue'><img src='https://scottplot.net/images/contributors/oktrue.png' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg' width=75 height=75 style='border-radius: 50%;' class='m-1'/></a>
 </div>
 

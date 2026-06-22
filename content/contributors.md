@@ -15,13 +15,14 @@ Description: Members of the open-source community who contributed to ScottPlot
 <a href='https://github.com/btarb24'><img src='https://scottplot.net/images/contributors/btarb24.jpg'></a>
 <a href='https://github.com/nbeck-SMT'><img src='https://scottplot.net/images/contributors/nbeck-smt.png'></a>
 <a href='https://github.com/Ben-D-Anderson'><img src='https://scottplot.net/images/contributors/ben-d-anderson.jpg'></a>
+<a href='https://github.com/AscendLiu'><img src='https://scottplot.net/images/contributors/ascendliu.jpg'></a>
+<a href='https://github.com/oktrue'><img src='https://scottplot.net/images/contributors/oktrue.png'></a>
 <a href='https://github.com/swharden'><img src='https://scottplot.net/images/contributors/swharden.jpg'></a>
 <a href='https://github.com/jurihock'><img src='https://scottplot.net/images/contributors/jurihock.jpg'></a>
 <a href='https://github.com/aespitia'><img src='https://scottplot.net/images/contributors/aespitia.jpg'></a>
 <a href='https://github.com/BrianAtZetica'><img src='https://scottplot.net/images/contributors/brianatzetica.png'></a>
 <a href='https://github.com/wi-fr'><img src='https://scottplot.net/images/contributors/wi-fr.png'></a>
 <a href='https://github.com/myd7349'><img src='https://scottplot.net/images/contributors/myd7349.png'></a>
-<a href='https://github.com/AscendLiu'><img src='https://scottplot.net/images/contributors/ascendliu.jpg'></a>
 <a href='https://github.com/timmer98'><img src='https://scottplot.net/images/contributors/timmer98.png'></a>
 <a href='https://github.com/diluculo'><img src='https://scottplot.net/images/contributors/diluculo.png'></a>
 <a href='https://github.com/DKahn144'><img src='https://scottplot.net/images/contributors/dkahn144.jpg'></a>
@@ -228,7 +229,6 @@ Description: Members of the open-source community who contributed to ScottPlot
 <a href='https://github.com/pkstrsk'><img src='https://scottplot.net/images/contributors/pkstrsk.png'></a>
 <a href='https://github.com/chjrom'><img src='https://scottplot.net/images/contributors/chjrom.png'></a>
 <a href='https://github.com/Hub3r'><img src='https://scottplot.net/images/contributors/hub3r.png'></a>
-<a href='https://github.com/oktrue'><img src='https://scottplot.net/images/contributors/oktrue.png'></a>
 <a href='https://github.com/VisMotrix'><img src='https://scottplot.net/images/contributors/vismotrix.png'></a>
 <a href='https://github.com/Excustic'><img src='https://scottplot.net/images/contributors/excustic.png'></a>
 <a href='https://github.com/aniketkumar7'><img src='https://scottplot.net/images/contributors/aniketkumar7.jpg'></a>
