@@ -4,9 +4,9 @@ Description: Even if a SignalXY plot references a large array of data, rendering
 URL: /cookbook/5/SignalXY/SignalXYRenderIndexes/
 BreadcrumbNames: ["ScottPlot 5 Cookbook", "SignalXY Plot", "Partial SignalXY Rendering"]
 BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/SignalXY", "/cookbook/5/SignalXY/SignalXYRenderIndexes"]
-Date: 2026-03-29
-Version: ScottPlot 5.1.58
-Version: ScottPlot 5.1.58
+Date: 2026-08-15
+Version: ScottPlot 5.1.60
+Version: ScottPlot 5.1.60
 SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Even if a SignalXY plot references a large array of data, rendering can be limited to a range of values. If set,only the range of data between the minimum and maximum render indexes will be displayed.
 
-[![](/cookbook/5/images/SignalXYRenderIndexes.png?260329072039)](/cookbook/5/images/SignalXYRenderIndexes.png?260329072039)
+[![](/cookbook/5/images/SignalXYRenderIndexes.png?260815173246)](/cookbook/5/images/SignalXYRenderIndexes.png?260815173246)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SignalXY.cs" imageUrl="/cookbook/5/images/SignalXYRenderIndexes.png?260329072039" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/SignalXY.cs" imageUrl="/cookbook/5/images/SignalXYRenderIndexes.png?260815173246" >}}ScottPlot.Plot myPlot = new();
 
 double[] xs = Generate.Consecutive(1000);
 double[] ys = Generate.RandomWalk(1000);

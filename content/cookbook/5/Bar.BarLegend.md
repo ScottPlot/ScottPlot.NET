@@ -4,9 +4,9 @@ Description: A collection of bars can appear in the legend as a single item.
 URL: /cookbook/5/Bar/BarLegend/
 BreadcrumbNames: ["ScottPlot 5 Cookbook", "Bar Plot", "Bar Plot Legend"]
 BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/Bar", "/cookbook/5/Bar/BarLegend"]
-Date: 2026-03-29
-Version: ScottPlot 5.1.58
-Version: ScottPlot 5.1.58
+Date: 2026-08-15
+Version: ScottPlot 5.1.60
+Version: ScottPlot 5.1.60
 SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 A collection of bars can appear in the legend as a single item.
 
-[![](/cookbook/5/images/BarLegend.png?260329072039)](/cookbook/5/images/BarLegend.png?260329072039)
+[![](/cookbook/5/images/BarLegend.png?260815173246)](/cookbook/5/images/BarLegend.png?260815173246)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs" imageUrl="/cookbook/5/images/BarLegend.png?260329072039" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs" imageUrl="/cookbook/5/images/BarLegend.png?260815173246" >}}ScottPlot.Plot myPlot = new();
 
 double[] xs1 = { 1, 2, 3, 4 };
 double[] ys1 = { 5, 10, 7, 13 };

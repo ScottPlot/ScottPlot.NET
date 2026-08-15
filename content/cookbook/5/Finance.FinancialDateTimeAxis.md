@@ -4,9 +4,9 @@ Description: A special axis system has been created for financial charts. Unlike
 URL: /cookbook/5/Finance/FinancialDateTimeAxis/
 BreadcrumbNames: ["ScottPlot 5 Cookbook", "Financial Plot", "Financial DateTime Axis"]
 BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/Finance", "/cookbook/5/Finance/FinancialDateTimeAxis"]
-Date: 2026-03-29
-Version: ScottPlot 5.1.58
-Version: ScottPlot 5.1.58
+Date: 2026-08-15
+Version: ScottPlot 5.1.60
+Version: ScottPlot 5.1.60
 SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 A special axis system has been created for financial charts. Unlike standard DateTime axes which assume the horizontal scale is linearly spaced time, the financial DateTime system allows for dates to be skipped. This is ideal for financial charts where date ranges are skipped such as after-hours trading or non-trading days.
 
-[![](/cookbook/5/images/FinancialDateTimeAxis.png?260329072039)](/cookbook/5/images/FinancialDateTimeAxis.png?260329072039)
+[![](/cookbook/5/images/FinancialDateTimeAxis.png?260815173246)](/cookbook/5/images/FinancialDateTimeAxis.png?260815173246)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Finance.cs" imageUrl="/cookbook/5/images/FinancialDateTimeAxis.png?260329072039" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Finance.cs" imageUrl="/cookbook/5/images/FinancialDateTimeAxis.png?260815173246" >}}ScottPlot.Plot myPlot = new();
 
 // generate sample data using a collection of dates and price ranges
 DateTime[] dates = Generate.ConsecutiveHours(100);

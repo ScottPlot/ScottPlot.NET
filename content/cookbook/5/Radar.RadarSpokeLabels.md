@@ -4,9 +4,9 @@ Description: Labels can be assigned to spokes to label values around the circumf
 URL: /cookbook/5/Radar/RadarSpokeLabels/
 BreadcrumbNames: ["ScottPlot 5 Cookbook", "Radar Plot", "Radar Spoke Labels"]
 BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/Radar", "/cookbook/5/Radar/RadarSpokeLabels"]
-Date: 2026-03-29
-Version: ScottPlot 5.1.58
-Version: ScottPlot 5.1.58
+Date: 2026-08-15
+Version: ScottPlot 5.1.60
+Version: ScottPlot 5.1.60
 SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Labels can be assigned to spokes to label values around the circumference of the radar plot
 
-[![](/cookbook/5/images/RadarSpokeLabels.png?260329072039)](/cookbook/5/images/RadarSpokeLabels.png?260329072039)
+[![](/cookbook/5/images/RadarSpokeLabels.png?260815173246)](/cookbook/5/images/RadarSpokeLabels.png?260815173246)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Radar.cs" imageUrl="/cookbook/5/images/RadarSpokeLabels.png?260329072039" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Radar.cs" imageUrl="/cookbook/5/images/RadarSpokeLabels.png?260815173246" >}}ScottPlot.Plot myPlot = new();
 
 double[,] values = {
     { 78,  83, 84, 76, 43 },

@@ -4,9 +4,9 @@ Description: Stacked range charts depict multiple ranges for a discrete set of i
 URL: /cookbook/5/Bar/StackedRangeChart/
 BreadcrumbNames: ["ScottPlot 5 Cookbook", "Bar Plot", "Stacked Range Chart"]
 BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/Bar", "/cookbook/5/Bar/StackedRangeChart"]
-Date: 2026-03-29
-Version: ScottPlot 5.1.58
-Version: ScottPlot 5.1.58
+Date: 2026-08-15
+Version: ScottPlot 5.1.60
+Version: ScottPlot 5.1.60
 SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Stacked range charts depict multiple ranges for a discrete set of items
 
-[![](/cookbook/5/images/StackedRangeChart.png?260329072039)](/cookbook/5/images/StackedRangeChart.png?260329072039)
+[![](/cookbook/5/images/StackedRangeChart.png?260815173246)](/cookbook/5/images/StackedRangeChart.png?260815173246)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs" imageUrl="/cookbook/5/images/StackedRangeChart.png?260329072039" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Bar.cs" imageUrl="/cookbook/5/images/StackedRangeChart.png?260815173246" >}}ScottPlot.Plot myPlot = new();
 
 // prepare a custom color palette
 string[] colorCodes = ["#3369cc", "#95bce3", "#f4a861", "#fd8d00"];

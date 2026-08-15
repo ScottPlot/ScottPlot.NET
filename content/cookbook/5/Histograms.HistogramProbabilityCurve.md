@@ -4,9 +4,9 @@ Description: A probability curve may be generated for a Gaussian distributed sam
 URL: /cookbook/5/Histograms/HistogramProbabilityCurve/
 BreadcrumbNames: ["ScottPlot 5 Cookbook", "Histogram", "Histogram with Probability Curve"]
 BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/Histograms", "/cookbook/5/Histograms/HistogramProbabilityCurve"]
-Date: 2026-03-29
-Version: ScottPlot 5.1.58
-Version: ScottPlot 5.1.58
+Date: 2026-08-15
+Version: ScottPlot 5.1.60
+Version: ScottPlot 5.1.60
 SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 A probability curve may be generated for a Gaussian distributed sample.
 
-[![](/cookbook/5/images/HistogramProbabilityCurve.png?260329072039)](/cookbook/5/images/HistogramProbabilityCurve.png?260329072039)
+[![](/cookbook/5/images/HistogramProbabilityCurve.png?260815173246)](/cookbook/5/images/HistogramProbabilityCurve.png?260815173246)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Miscellaneous/Histograms.cs" imageUrl="/cookbook/5/images/HistogramProbabilityCurve.png?260329072039" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/Miscellaneous/Histograms.cs" imageUrl="/cookbook/5/images/HistogramProbabilityCurve.png?260815173246" >}}ScottPlot.Plot myPlot = new();
 
 // Create a histogram from a collection of values
 double[] heights = SampleData.MaleHeights();

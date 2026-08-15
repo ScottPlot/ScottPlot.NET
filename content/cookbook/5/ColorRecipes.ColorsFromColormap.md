@@ -4,9 +4,9 @@ Description: Colormaps may be used to source a collection of colors.
 URL: /cookbook/5/ColorRecipes/ColorsFromColormap/
 BreadcrumbNames: ["ScottPlot 5 Cookbook", "Color", "Colors from Colormap"]
 BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/ColorRecipes", "/cookbook/5/ColorRecipes/ColorsFromColormap"]
-Date: 2026-03-29
-Version: ScottPlot 5.1.58
-Version: ScottPlot 5.1.58
+Date: 2026-08-15
+Version: ScottPlot 5.1.60
+Version: ScottPlot 5.1.60
 SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Colormaps may be used to source a collection of colors.
 
-[![](/cookbook/5/images/ColorsFromColormap.png?260329072039)](/cookbook/5/images/ColorsFromColormap.png?260329072039)
+[![](/cookbook/5/images/ColorsFromColormap.png?260815173246)](/cookbook/5/images/ColorsFromColormap.png?260815173246)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/ColorRecipes.cs" imageUrl="/cookbook/5/images/ColorsFromColormap.png?260329072039" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/ColorRecipes.cs" imageUrl="/cookbook/5/images/ColorsFromColormap.png?260815173246" >}}ScottPlot.Plot myPlot = new();
 
 IColormap colormap = new ScottPlot.Colormaps.Viridis();
 Color[] colors = colormap.GetColors(20);

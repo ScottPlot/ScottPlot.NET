@@ -4,9 +4,9 @@ Description: Box plots show a distribution at a glance
 URL: /cookbook/5/Box/
 BreadcrumbNames: ["ScottPlot 5 Cookbook", "Box Plot"]
 BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/Box"]
-Date: 2026-03-29
-Version: ScottPlot 5.1.58
-Version: ScottPlot 5.1.58
+Date: 2026-08-15
+Version: ScottPlot 5.1.60
+Version: ScottPlot 5.1.60
 SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
@@ -23,9 +23,9 @@ ShowEditLink: false
 
 Box plots can be created individually and added to the plot.
 
-[![](/cookbook/5/images/BoxPlotQuickstart.png?260329072039)](/cookbook/5/images/BoxPlotQuickstart.png?260329072039)
+[![](/cookbook/5/images/BoxPlotQuickstart.png?260815173246)](/cookbook/5/images/BoxPlotQuickstart.png?260815173246)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Box.cs" imageUrl="/cookbook/5/images/BoxPlotQuickstart.png?260329072039" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Box.cs" imageUrl="/cookbook/5/images/BoxPlotQuickstart.png?260815173246" >}}ScottPlot.Plot myPlot = new();
 
 ScottPlot.Box box = new()
 {
@@ -57,9 +57,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Each collection of boxes added to the plot gets styled the same and appears as a single item in the legend. Add multiple bar series plots with defined X positions to give the appearance of grouped data.
 
-[![](/cookbook/5/images/BoxPlotGroups.png?260329072039)](/cookbook/5/images/BoxPlotGroups.png?260329072039)
+[![](/cookbook/5/images/BoxPlotGroups.png?260815173246)](/cookbook/5/images/BoxPlotGroups.png?260815173246)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Box.cs" imageUrl="/cookbook/5/images/BoxPlotGroups.png?260329072039" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Box.cs" imageUrl="/cookbook/5/images/BoxPlotGroups.png?260815173246" >}}ScottPlot.Plot myPlot = new();
 
 List&lt;ScottPlot.Box&gt; boxes1 = new() {
     Generate.RandomBox(1),

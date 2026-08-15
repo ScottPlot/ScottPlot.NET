@@ -4,9 +4,9 @@ Description: The plot can be arranged so the data is drawn inside a fixed rectan
 URL: /cookbook/5/Layout/FixedRectangle/
 BreadcrumbNames: ["ScottPlot 5 Cookbook", "Layout", "Fixed Rectangle"]
 BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/Layout", "/cookbook/5/Layout/FixedRectangle"]
-Date: 2026-03-29
-Version: ScottPlot 5.1.58
-Version: ScottPlot 5.1.58
+Date: 2026-08-15
+Version: ScottPlot 5.1.60
+Version: ScottPlot 5.1.60
 SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 The plot can be arranged so the data is drawn inside a fixed rectangle defined in pixel units
 
-[![](/cookbook/5/images/FixedRectangle.png?260329072039)](/cookbook/5/images/FixedRectangle.png?260329072039)
+[![](/cookbook/5/images/FixedRectangle.png?260815173246)](/cookbook/5/images/FixedRectangle.png?260815173246)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/LayoutRecipes.cs" imageUrl="/cookbook/5/images/FixedRectangle.png?260329072039" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/LayoutRecipes.cs" imageUrl="/cookbook/5/images/FixedRectangle.png?260815173246" >}}ScottPlot.Plot myPlot = new();
 
 // add sample data to the plot
 myPlot.Add.Signal(Generate.Sin(51));

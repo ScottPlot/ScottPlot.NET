@@ -4,9 +4,9 @@ Description: The user can define the range of values to represent with colors in
 URL: /cookbook/5/Heatmap/HeatmapManualRange/
 BreadcrumbNames: ["ScottPlot 5 Cookbook", "Heatmap", "Heatmap with Manual Color Range"]
 BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/Heatmap", "/cookbook/5/Heatmap/HeatmapManualRange"]
-Date: 2026-03-29
-Version: ScottPlot 5.1.58
-Version: ScottPlot 5.1.58
+Date: 2026-08-15
+Version: ScottPlot 5.1.60
+Version: ScottPlot 5.1.60
 SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 The user can define the range of values to represent with colors in the colormap. Values outside that range will be clipped to the nearest color in the colormap.
 
-[![](/cookbook/5/images/HeatmapManualRange.png?260329072039)](/cookbook/5/images/HeatmapManualRange.png?260329072039)
+[![](/cookbook/5/images/HeatmapManualRange.png?260815173246)](/cookbook/5/images/HeatmapManualRange.png?260815173246)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Heatmap.cs" imageUrl="/cookbook/5/images/HeatmapManualRange.png?260329072039" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Heatmap.cs" imageUrl="/cookbook/5/images/HeatmapManualRange.png?260815173246" >}}ScottPlot.Plot myPlot = new();
 
 // sample data values range from 0-255
 double[,] data = SampleData.MonaLisa();

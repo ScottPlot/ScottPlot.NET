@@ -4,9 +4,9 @@ Description: ScottPlot.Colors can be constructed from RGB values (0-255), HTML s
 URL: /cookbook/5/ColorRecipes/ColorHex/
 BreadcrumbNames: ["ScottPlot 5 Cookbook", "Color", "Creating Colors"]
 BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/ColorRecipes", "/cookbook/5/ColorRecipes/ColorHex"]
-Date: 2026-03-29
-Version: ScottPlot 5.1.58
-Version: ScottPlot 5.1.58
+Date: 2026-08-15
+Version: ScottPlot 5.1.60
+Version: ScottPlot 5.1.60
 SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 ScottPlot.Colors can be constructed from RGB values (0-255), HTML style hexadecimal color codes (00-FF), or System.Drawing.Color objects.
 
-[![](/cookbook/5/images/ColorHex.png?260329072039)](/cookbook/5/images/ColorHex.png?260329072039)
+[![](/cookbook/5/images/ColorHex.png?260815173246)](/cookbook/5/images/ColorHex.png?260815173246)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/ColorRecipes.cs" imageUrl="/cookbook/5/images/ColorHex.png?260329072039" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/ColorRecipes.cs" imageUrl="/cookbook/5/images/ColorHex.png?260815173246" >}}ScottPlot.Plot myPlot = new();
 
 var circle1 = myPlot.Add.Circle(0, 0, 1);
 var circle2 = myPlot.Add.Circle(1, 0, 1);

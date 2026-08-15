@@ -4,9 +4,9 @@ Description: An image can be used for the background of a figure.
 URL: /cookbook/5/Miscellaneous/FigureBackgroundImage/
 BreadcrumbNames: ["ScottPlot 5 Cookbook", "Miscellaneous", "Figure Background Image"]
 BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/Miscellaneous", "/cookbook/5/Miscellaneous/FigureBackgroundImage"]
-Date: 2026-03-29
-Version: ScottPlot 5.1.58
-Version: ScottPlot 5.1.58
+Date: 2026-08-15
+Version: ScottPlot 5.1.60
+Version: ScottPlot 5.1.60
 SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 An image can be used for the background of a figure.
 
-[![](/cookbook/5/images/FigureBackgroundImage.png?260329072039)](/cookbook/5/images/FigureBackgroundImage.png?260329072039)
+[![](/cookbook/5/images/FigureBackgroundImage.png?260815173246)](/cookbook/5/images/FigureBackgroundImage.png?260815173246)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Miscellaneous.cs" imageUrl="/cookbook/5/images/FigureBackgroundImage.png?260329072039" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/Miscellaneous.cs" imageUrl="/cookbook/5/images/FigureBackgroundImage.png?260815173246" >}}ScottPlot.Plot myPlot = new();
 
 // plot sample data
 var sig1 = myPlot.Add.Signal(Generate.Sin());

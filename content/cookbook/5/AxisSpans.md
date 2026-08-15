@@ -4,9 +4,9 @@ Description: Axis spans indicate a range of an axis.
 URL: /cookbook/5/AxisSpans/
 BreadcrumbNames: ["ScottPlot 5 Cookbook", "Axis Spans"]
 BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/AxisSpans"]
-Date: 2026-03-29
-Version: ScottPlot 5.1.58
-Version: ScottPlot 5.1.58
+Date: 2026-08-15
+Version: ScottPlot 5.1.60
+Version: ScottPlot 5.1.60
 SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
@@ -23,9 +23,9 @@ ShowEditLink: false
 
 Axis spans label a range of an axis. Vertical spans shade the full width of a vertical range, and horizontal spans shade the full height of a horizontal range.
 
-[![](/cookbook/5/images/AxisSpanQuickstart.png?260329072039)](/cookbook/5/images/AxisSpanQuickstart.png?260329072039)
+[![](/cookbook/5/images/AxisSpanQuickstart.png?260815173246)](/cookbook/5/images/AxisSpanQuickstart.png?260815173246)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/AxisSpans.cs" imageUrl="/cookbook/5/images/AxisSpanQuickstart.png?260329072039" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/AxisSpans.cs" imageUrl="/cookbook/5/images/AxisSpanQuickstart.png?260815173246" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin());
 myPlot.Add.Signal(Generate.Cos());
@@ -53,9 +53,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Axis spans can be extensively customized.
 
-[![](/cookbook/5/images/AxisSpanStyling.png?260329072039)](/cookbook/5/images/AxisSpanStyling.png?260329072039)
+[![](/cookbook/5/images/AxisSpanStyling.png?260815173246)](/cookbook/5/images/AxisSpanStyling.png?260815173246)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/AxisSpans.cs" imageUrl="/cookbook/5/images/AxisSpanStyling.png?260329072039" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/AxisSpans.cs" imageUrl="/cookbook/5/images/AxisSpanStyling.png?260815173246" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.Signal(Generate.Sin());
 myPlot.Add.Signal(Generate.Cos());

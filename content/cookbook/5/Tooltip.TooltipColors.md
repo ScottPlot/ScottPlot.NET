@@ -4,9 +4,9 @@ Description: Tooltips border and fill styles can be customized.
 URL: /cookbook/5/Tooltip/TooltipColors/
 BreadcrumbNames: ["ScottPlot 5 Cookbook", "Tooltip", "Tooltip Colors"]
 BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/Tooltip", "/cookbook/5/Tooltip/TooltipColors"]
-Date: 2026-03-29
-Version: ScottPlot 5.1.58
-Version: ScottPlot 5.1.58
+Date: 2026-08-15
+Version: ScottPlot 5.1.60
+Version: ScottPlot 5.1.60
 SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Tooltips border and fill styles can be customized.
 
-[![](/cookbook/5/images/TooltipColors.png?260329072039)](/cookbook/5/images/TooltipColors.png?260329072039)
+[![](/cookbook/5/images/TooltipColors.png?260815173246)](/cookbook/5/images/TooltipColors.png?260815173246)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Tooltip.cs" imageUrl="/cookbook/5/images/TooltipColors.png?260329072039" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Tooltip.cs" imageUrl="/cookbook/5/images/TooltipColors.png?260815173246" >}}ScottPlot.Plot myPlot = new();
 
 double[] ys = Generate.Sin(50);
 var plt = myPlot.Add.Signal(ys);

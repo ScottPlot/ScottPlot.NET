@@ -4,9 +4,9 @@ Description: The simplest way to generate random colors is to create colors whic
 URL: /cookbook/5/ColorRecipes/ColorRandom/
 BreadcrumbNames: ["ScottPlot 5 Cookbook", "Color", "Random Colors"]
 BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/ColorRecipes", "/cookbook/5/ColorRecipes/ColorRandom"]
-Date: 2026-03-29
-Version: ScottPlot 5.1.58
-Version: ScottPlot 5.1.58
+Date: 2026-08-15
+Version: ScottPlot 5.1.60
+Version: ScottPlot 5.1.60
 SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 The simplest way to generate random colors is to create colors which have same saturation and luminosity but random hue.
 
-[![](/cookbook/5/images/ColorRandom.png?260329072039)](/cookbook/5/images/ColorRandom.png?260329072039)
+[![](/cookbook/5/images/ColorRandom.png?260815173246)](/cookbook/5/images/ColorRandom.png?260815173246)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/ColorRecipes.cs" imageUrl="/cookbook/5/images/ColorRandom.png?260329072039" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/ColorRecipes.cs" imageUrl="/cookbook/5/images/ColorRandom.png?260815173246" >}}ScottPlot.Plot myPlot = new();
 
 for (int i = 0; i &lt; 20; i++)
 {

@@ -4,9 +4,9 @@ Description: Contour lines may be placed on top of heatmaps.
 URL: /cookbook/5/Contour/ContourHeatmap/
 BreadcrumbNames: ["ScottPlot 5 Cookbook", "Contour Plot", "Contour Lines with Heatmap"]
 BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/Contour", "/cookbook/5/Contour/ContourHeatmap"]
-Date: 2026-03-29
-Version: ScottPlot 5.1.58
-Version: ScottPlot 5.1.58
+Date: 2026-08-15
+Version: ScottPlot 5.1.60
+Version: ScottPlot 5.1.60
 SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Contour lines may be placed on top of heatmaps.
 
-[![](/cookbook/5/images/ContourHeatmap.png?260329072039)](/cookbook/5/images/ContourHeatmap.png?260329072039)
+[![](/cookbook/5/images/ContourHeatmap.png?260815173246)](/cookbook/5/images/ContourHeatmap.png?260815173246)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Contour.cs" imageUrl="/cookbook/5/images/ContourHeatmap.png?260329072039" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Contour.cs" imageUrl="/cookbook/5/images/ContourHeatmap.png?260815173246" >}}ScottPlot.Plot myPlot = new();
 
 Coordinates3d[,] cs = new Coordinates3d[50, 50];
 for (int y = 0; y &lt; cs.GetLength(0); y++)

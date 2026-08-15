@@ -4,9 +4,9 @@ Description: Interactive plottables interact with the mouse without requiring th
 URL: /cookbook/5/InteractivePlottables/
 BreadcrumbNames: ["ScottPlot 5 Cookbook", "Interactive"]
 BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/InteractivePlottables"]
-Date: 2026-03-29
-Version: ScottPlot 5.1.58
-Version: ScottPlot 5.1.58
+Date: 2026-08-15
+Version: ScottPlot 5.1.60
+Version: ScottPlot 5.1.60
 SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
@@ -23,9 +23,9 @@ ShowEditLink: false
 
 Two draggable points with a straight line between them.
 
-[![](/cookbook/5/images/InteractiveLineSegment.png?260329072039)](/cookbook/5/images/InteractiveLineSegment.png?260329072039)
+[![](/cookbook/5/images/InteractiveLineSegment.png?260815173246)](/cookbook/5/images/InteractiveLineSegment.png?260815173246)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/InteractivePlottables.cs" imageUrl="/cookbook/5/images/InteractiveLineSegment.png?260329072039" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/InteractivePlottables.cs" imageUrl="/cookbook/5/images/InteractiveLineSegment.png?260815173246" >}}ScottPlot.Plot myPlot = new();
 
 for (int i = 0; i &lt; 5; i++)
 {
@@ -49,9 +49,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Horizontal line segments can be expanded horizontally by dragging the left and right edges, or slid vertically by dragging the center line.
 
-[![](/cookbook/5/images/InteractiveHorizontalLineSegment.png?260329072039)](/cookbook/5/images/InteractiveHorizontalLineSegment.png?260329072039)
+[![](/cookbook/5/images/InteractiveHorizontalLineSegment.png?260815173246)](/cookbook/5/images/InteractiveHorizontalLineSegment.png?260815173246)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/InteractivePlottables.cs" imageUrl="/cookbook/5/images/InteractiveHorizontalLineSegment.png?260329072039" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/InteractivePlottables.cs" imageUrl="/cookbook/5/images/InteractiveHorizontalLineSegment.png?260815173246" >}}ScottPlot.Plot myPlot = new();
 
 for (int i = 1; i &lt;= 5; i++)
 {
@@ -77,9 +77,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Vertical line segments can be expanded vertically by dragging the top and bottom edges, or slid horizontally by dragging the center line.
 
-[![](/cookbook/5/images/InteractiveVerticalLineSegment.png?260329072039)](/cookbook/5/images/InteractiveVerticalLineSegment.png?260329072039)
+[![](/cookbook/5/images/InteractiveVerticalLineSegment.png?260815173246)](/cookbook/5/images/InteractiveVerticalLineSegment.png?260815173246)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/InteractivePlottables.cs" imageUrl="/cookbook/5/images/InteractiveVerticalLineSegment.png?260329072039" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/InteractivePlottables.cs" imageUrl="/cookbook/5/images/InteractiveVerticalLineSegment.png?260815173246" >}}ScottPlot.Plot myPlot = new();
 
 for (int i = 1; i &lt;= 5; i++)
 {
@@ -105,9 +105,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 An interactive vertical line has an X position and extends to infinity along the Y axis.
 
-[![](/cookbook/5/images/InteractiveVerticalLine.png?260329072039)](/cookbook/5/images/InteractiveVerticalLine.png?260329072039)
+[![](/cookbook/5/images/InteractiveVerticalLine.png?260815173246)](/cookbook/5/images/InteractiveVerticalLine.png?260815173246)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/InteractivePlottables.cs" imageUrl="/cookbook/5/images/InteractiveVerticalLine.png?260329072039" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/InteractivePlottables.cs" imageUrl="/cookbook/5/images/InteractiveVerticalLine.png?260815173246" >}}ScottPlot.Plot myPlot = new();
 
 for (int i = 0; i &lt; 5; i++)
 {
@@ -131,9 +131,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 An interactive horizontal line has a Y position and extends to infinity along the X axis.
 
-[![](/cookbook/5/images/InteractiveHorizontalLine.png?260329072039)](/cookbook/5/images/InteractiveHorizontalLine.png?260329072039)
+[![](/cookbook/5/images/InteractiveHorizontalLine.png?260815173246)](/cookbook/5/images/InteractiveHorizontalLine.png?260815173246)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/InteractivePlottables.cs" imageUrl="/cookbook/5/images/InteractiveHorizontalLine.png?260329072039" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/InteractivePlottables.cs" imageUrl="/cookbook/5/images/InteractiveHorizontalLine.png?260815173246" >}}ScottPlot.Plot myPlot = new();
 
 for (int i = 0; i &lt; 5; i++)
 {
@@ -157,9 +157,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Interactive vertical and horizontal spans let the user select ranges along the vertical and horizontal axes, respectively.
 
-[![](/cookbook/5/images/InteractiveSpans.png?260329072039)](/cookbook/5/images/InteractiveSpans.png?260329072039)
+[![](/cookbook/5/images/InteractiveSpans.png?260815173246)](/cookbook/5/images/InteractiveSpans.png?260815173246)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/InteractivePlottables.cs" imageUrl="/cookbook/5/images/InteractiveSpans.png?260329072039" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/InteractivePlottables.cs" imageUrl="/cookbook/5/images/InteractiveSpans.png?260815173246" >}}ScottPlot.Plot myPlot = new();
 
 myPlot.Add.InteractiveVerticalSpan(3, 5);
 myPlot.Add.InteractiveHorizontalSpan(3, 5);
@@ -181,9 +181,9 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Interactive markers respond to hover events and can be dragged.
 
-[![](/cookbook/5/images/InteractiveMarker.png?260329072039)](/cookbook/5/images/InteractiveMarker.png?260329072039)
+[![](/cookbook/5/images/InteractiveMarker.png?260815173246)](/cookbook/5/images/InteractiveMarker.png?260815173246)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/InteractivePlottables.cs" imageUrl="/cookbook/5/images/InteractiveMarker.png?260329072039" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/InteractivePlottables.cs" imageUrl="/cookbook/5/images/InteractiveMarker.png?260815173246" >}}ScottPlot.Plot myPlot = new();
 
 for (int i = 0; i &lt; 10; i++)
 {
@@ -208,15 +208,39 @@ myPlot.SavePng("demo.png", 400, 300);
 
 Interactive rectangles can be resized by dragging their edges or repositioned by dragging their bodies
 
-[![](/cookbook/5/images/InteractiveRectangle.png?260329072039)](/cookbook/5/images/InteractiveRectangle.png?260329072039)
+[![](/cookbook/5/images/InteractiveRectangle.png?260815173246)](/cookbook/5/images/InteractiveRectangle.png?260815173246)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/InteractivePlottables.cs" imageUrl="/cookbook/5/images/InteractiveRectangle.png?260329072039" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/InteractivePlottables.cs" imageUrl="/cookbook/5/images/InteractiveRectangle.png?260815173246" >}}ScottPlot.Plot myPlot = new();
 
 for (int i = 0; i &lt; 5; i++)
 {
     CoordinateRect rect = Generate.RandomCoordinateRect();
     myPlot.Add.InteractiveRectangle(rect);
 }
+
+myPlot.SavePng("demo.png", 400, 300);
+{{< /recipe-sp5 >}}
+
+<hr class='my-5 invisible'>
+
+
+
+<div class='d-flex align-items-center mt-5'>
+<h1 class='me-2 text-dark my-0 border-0'>Interactive Trend Line</h1>
+<a href='/cookbook/5/InteractivePlottables/InteractiveTrendLine' target='_blank'>
+<img src='/images/icons/new-window.svg' style='height: 2rem;' class='new-window-icon'>
+</a>
+</div>
+
+Interactive trend lines extend infinitely in both directions and can be repositioned by dragging either control point.
+
+[![](/cookbook/5/images/InteractiveTrendLine.png?260815173246)](/cookbook/5/images/InteractiveTrendLine.png?260815173246)
+
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/InteractivePlottables.cs" imageUrl="/cookbook/5/images/InteractiveTrendLine.png?260815173246" >}}ScottPlot.Plot myPlot = new();
+
+CoordinateLine line = new(1, 2, 9, 7);
+myPlot.Add.InteractiveTrendLine(line);
+myPlot.Axes.SetLimits(0, 10, 0, 10);
 
 myPlot.SavePng("demo.png", 400, 300);
 {{< /recipe-sp5 >}}

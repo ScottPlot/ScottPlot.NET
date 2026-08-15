@@ -4,9 +4,9 @@ Description: Vertical line segments can be expanded vertically by dragging the t
 URL: /cookbook/5/InteractivePlottables/InteractiveVerticalLineSegment/
 BreadcrumbNames: ["ScottPlot 5 Cookbook", "Interactive", "Interactive Vertical Line Segment"]
 BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/InteractivePlottables", "/cookbook/5/InteractivePlottables/InteractiveVerticalLineSegment"]
-Date: 2026-03-29
-Version: ScottPlot 5.1.58
-Version: ScottPlot 5.1.58
+Date: 2026-08-15
+Version: ScottPlot 5.1.60
+Version: ScottPlot 5.1.60
 SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Vertical line segments can be expanded vertically by dragging the top and bottom edges, or slid horizontally by dragging the center line.
 
-[![](/cookbook/5/images/InteractiveVerticalLineSegment.png?260329072039)](/cookbook/5/images/InteractiveVerticalLineSegment.png?260329072039)
+[![](/cookbook/5/images/InteractiveVerticalLineSegment.png?260815173246)](/cookbook/5/images/InteractiveVerticalLineSegment.png?260815173246)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/InteractivePlottables.cs" imageUrl="/cookbook/5/images/InteractiveVerticalLineSegment.png?260329072039" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/InteractivePlottables.cs" imageUrl="/cookbook/5/images/InteractiveVerticalLineSegment.png?260815173246" >}}ScottPlot.Plot myPlot = new();
 
 for (int i = 1; i &lt;= 5; i++)
 {

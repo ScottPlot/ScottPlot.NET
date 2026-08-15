@@ -4,9 +4,9 @@ Description: A radial gauge chart can be created from a few values.
 URL: /cookbook/5/RadialGauge/RadialGaugeQuickstart/
 BreadcrumbNames: ["ScottPlot 5 Cookbook", "Radial gauge", "Radial gauge from values"]
 BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/RadialGauge", "/cookbook/5/RadialGauge/RadialGaugeQuickstart"]
-Date: 2026-03-29
-Version: ScottPlot 5.1.58
-Version: ScottPlot 5.1.58
+Date: 2026-08-15
+Version: ScottPlot 5.1.60
+Version: ScottPlot 5.1.60
 SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 A radial gauge chart can be created from a few values.
 
-[![](/cookbook/5/images/RadialGaugeQuickstart.png?260329072039)](/cookbook/5/images/RadialGaugeQuickstart.png?260329072039)
+[![](/cookbook/5/images/RadialGaugeQuickstart.png?260815173246)](/cookbook/5/images/RadialGaugeQuickstart.png?260815173246)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/RadialGauge.cs" imageUrl="/cookbook/5/images/RadialGaugeQuickstart.png?260329072039" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/RadialGauge.cs" imageUrl="/cookbook/5/images/RadialGaugeQuickstart.png?260815173246" >}}ScottPlot.Plot myPlot = new();
 
 double[] values = { 100, 80, 65, 45, 20 };
 myPlot.Add.RadialGaugePlot(values);

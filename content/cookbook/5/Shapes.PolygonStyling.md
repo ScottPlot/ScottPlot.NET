@@ -4,9 +4,9 @@ Description: Polygon plots can be fully customized.
 URL: /cookbook/5/Shapes/PolygonStyling/
 BreadcrumbNames: ["ScottPlot 5 Cookbook", "Shapes", "Polygon Plot Styling"]
 BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/Shapes", "/cookbook/5/Shapes/PolygonStyling"]
-Date: 2026-03-29
-Version: ScottPlot 5.1.58
-Version: ScottPlot 5.1.58
+Date: 2026-08-15
+Version: ScottPlot 5.1.60
+Version: ScottPlot 5.1.60
 SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Polygon plots can be fully customized.
 
-[![](/cookbook/5/images/PolygonStyling.png?260329072039)](/cookbook/5/images/PolygonStyling.png?260329072039)
+[![](/cookbook/5/images/PolygonStyling.png?260815173246)](/cookbook/5/images/PolygonStyling.png?260815173246)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Shapes.cs" imageUrl="/cookbook/5/images/PolygonStyling.png?260329072039" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Shapes.cs" imageUrl="/cookbook/5/images/PolygonStyling.png?260815173246" >}}ScottPlot.Plot myPlot = new();
 
 Coordinates[] points =
 {

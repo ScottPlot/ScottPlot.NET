@@ -4,9 +4,9 @@ Description: Finance charts can be created which display price information on th
 URL: /cookbook/5/Finance/FinanceRightAxis/
 BreadcrumbNames: ["ScottPlot 5 Cookbook", "Financial Plot", "Price on Right"]
 BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/Finance", "/cookbook/5/Finance/FinanceRightAxis"]
-Date: 2026-03-29
-Version: ScottPlot 5.1.58
-Version: ScottPlot 5.1.58
+Date: 2026-08-15
+Version: ScottPlot 5.1.60
+Version: ScottPlot 5.1.60
 SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Finance charts can be created which display price information on the right axis.
 
-[![](/cookbook/5/images/FinanceRightAxis.png?260329072039)](/cookbook/5/images/FinanceRightAxis.png?260329072039)
+[![](/cookbook/5/images/FinanceRightAxis.png?260815173246)](/cookbook/5/images/FinanceRightAxis.png?260815173246)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Finance.cs" imageUrl="/cookbook/5/images/FinanceRightAxis.png?260329072039" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Finance.cs" imageUrl="/cookbook/5/images/FinanceRightAxis.png?260815173246" >}}ScottPlot.Plot myPlot = new();
 
 // add candlesticks to the plot
 var prices = Generate.RandomOHLCs(30);

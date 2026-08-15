@@ -4,9 +4,9 @@ Description: Horizontal line segments can be expanded horizontally by dragging t
 URL: /cookbook/5/InteractivePlottables/InteractiveHorizontalLineSegment/
 BreadcrumbNames: ["ScottPlot 5 Cookbook", "Interactive", "Interactive Horizontal Line Segment"]
 BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/InteractivePlottables", "/cookbook/5/InteractivePlottables/InteractiveHorizontalLineSegment"]
-Date: 2026-03-29
-Version: ScottPlot 5.1.58
-Version: ScottPlot 5.1.58
+Date: 2026-08-15
+Version: ScottPlot 5.1.60
+Version: ScottPlot 5.1.60
 SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Horizontal line segments can be expanded horizontally by dragging the left and right edges, or slid vertically by dragging the center line.
 
-[![](/cookbook/5/images/InteractiveHorizontalLineSegment.png?260329072039)](/cookbook/5/images/InteractiveHorizontalLineSegment.png?260329072039)
+[![](/cookbook/5/images/InteractiveHorizontalLineSegment.png?260815173246)](/cookbook/5/images/InteractiveHorizontalLineSegment.png?260815173246)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/InteractivePlottables.cs" imageUrl="/cookbook/5/images/InteractiveHorizontalLineSegment.png?260329072039" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/InteractivePlottables.cs" imageUrl="/cookbook/5/images/InteractiveHorizontalLineSegment.png?260815173246" >}}ScottPlot.Plot myPlot = new();
 
 for (int i = 1; i &lt;= 5; i++)
 {

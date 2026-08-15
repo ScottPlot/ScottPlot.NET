@@ -4,9 +4,9 @@ Description: Placement of minor tick marks in plots with logarithmic axes may my
 URL: /cookbook/5/CustomizingTicks/LogScaleMinorTicks/
 BreadcrumbNames: ["ScottPlot 5 Cookbook", "Customizing Ticks", "Log Scale with Custom Tick Marks"]
 BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/CustomizingTicks", "/cookbook/5/CustomizingTicks/LogScaleMinorTicks"]
-Date: 2026-03-29
-Version: ScottPlot 5.1.58
-Version: ScottPlot 5.1.58
+Date: 2026-08-15
+Version: ScottPlot 5.1.60
+Version: ScottPlot 5.1.60
 SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Placement of minor tick marks in plots with logarithmic axes may my customized using a custom minor tick generator. Some may be bundled with ScottPlot as shown here, but users may create their own and apply them as seen here.
 
-[![](/cookbook/5/images/LogScaleMinorTicks.png?260329072039)](/cookbook/5/images/LogScaleMinorTicks.png?260329072039)
+[![](/cookbook/5/images/LogScaleMinorTicks.png?260815173246)](/cookbook/5/images/LogScaleMinorTicks.png?260815173246)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs" imageUrl="/cookbook/5/images/LogScaleMinorTicks.png?260329072039" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/TickRecipes.cs" imageUrl="/cookbook/5/images/LogScaleMinorTicks.png?260815173246" >}}ScottPlot.Plot myPlot = new();
 
 double[] xs = Generate.Consecutive(100);
 double[] logYs = Generate.NoisyExponential(100).Select(Math.Log10).ToArray();

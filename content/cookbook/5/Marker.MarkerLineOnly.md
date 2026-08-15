@@ -4,9 +4,9 @@ Description: Markers composed of lines only do not have fill properties.
 URL: /cookbook/5/Marker/MarkerLineOnly/
 BreadcrumbNames: ["ScottPlot 5 Cookbook", "Marker", "Line Only Markers"]
 BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/Marker", "/cookbook/5/Marker/MarkerLineOnly"]
-Date: 2026-03-29
-Version: ScottPlot 5.1.58
-Version: ScottPlot 5.1.58
+Date: 2026-08-15
+Version: ScottPlot 5.1.60
+Version: ScottPlot 5.1.60
 SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 Markers composed of lines only do not have fill properties.
 
-[![](/cookbook/5/images/MarkerLineOnly.png?260329072039)](/cookbook/5/images/MarkerLineOnly.png?260329072039)
+[![](/cookbook/5/images/MarkerLineOnly.png?260815173246)](/cookbook/5/images/MarkerLineOnly.png?260815173246)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Marker.cs" imageUrl="/cookbook/5/images/MarkerLineOnly.png?260329072039" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/PlotTypes/Marker.cs" imageUrl="/cookbook/5/images/MarkerLineOnly.png?260815173246" >}}ScottPlot.Plot myPlot = new();
 
 MarkerShape[] lineOnlyMarkerShapes = [
     MarkerShape.OpenCircle,

@@ -4,9 +4,9 @@ Description: The Alpha channel sets transparency of a color
 URL: /cookbook/5/ColorRecipes/ColorTransparency/
 BreadcrumbNames: ["ScottPlot 5 Cookbook", "Color", "Alpha Channel"]
 BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/ColorRecipes", "/cookbook/5/ColorRecipes/ColorTransparency"]
-Date: 2026-03-29
-Version: ScottPlot 5.1.58
-Version: ScottPlot 5.1.58
+Date: 2026-08-15
+Version: ScottPlot 5.1.60
+Version: ScottPlot 5.1.60
 SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 The Alpha channel sets transparency of a color
 
-[![](/cookbook/5/images/ColorTransparency.png?260329072039)](/cookbook/5/images/ColorTransparency.png?260329072039)
+[![](/cookbook/5/images/ColorTransparency.png?260815173246)](/cookbook/5/images/ColorTransparency.png?260815173246)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/ColorRecipes.cs" imageUrl="/cookbook/5/images/ColorTransparency.png?260329072039" >}}ScottPlot.Plot myPlot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/ColorRecipes.cs" imageUrl="/cookbook/5/images/ColorTransparency.png?260815173246" >}}ScottPlot.Plot myPlot = new();
 
 var circle1 = myPlot.Add.Circle(0, 0, 1);
 var circle2 = myPlot.Add.Circle(1, 0, 1);

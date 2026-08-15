@@ -4,9 +4,9 @@ Description: The Multiplot's Layout property may be customized to achieve a colu
 URL: /cookbook/5/MultiplotRecipes/MultiplotColumns/
 BreadcrumbNames: ["ScottPlot 5 Cookbook", "Multiplot", "Multiplot Columns"]
 BreadcrumbUrls: ["/cookbook/5/", "/cookbook/5/MultiplotRecipes", "/cookbook/5/MultiplotRecipes/MultiplotColumns"]
-Date: 2026-03-29
-Version: ScottPlot 5.1.58
-Version: ScottPlot 5.1.58
+Date: 2026-08-15
+Version: ScottPlot 5.1.60
+Version: ScottPlot 5.1.60
 SearchUrl: "/cookbook/5/search/"
 ShowEditLink: false
 ---
@@ -18,9 +18,9 @@ ShowEditLink: false
 
 The Multiplot's Layout property may be customized to achieve a column layout.
 
-[![](/cookbook/5/images/MultiplotColumns.png?260329072039)](/cookbook/5/images/MultiplotColumns.png?260329072039)
+[![](/cookbook/5/images/MultiplotColumns.png?260815173246)](/cookbook/5/images/MultiplotColumns.png?260815173246)
 
-{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/MultiplotRecipes.cs" imageUrl="/cookbook/5/images/MultiplotColumns.png?260329072039" >}}ScottPlot.Multiplot multiplot = new();
+{{< recipe-sp5 sourceUrl="https://github.com/ScottPlot/ScottPlot/blob/main/src/ScottPlot5/ScottPlot5%20Cookbook/Recipes/General/MultiplotRecipes.cs" imageUrl="/cookbook/5/images/MultiplotColumns.png?260815173246" >}}ScottPlot.Multiplot multiplot = new();
 
 // configure the multiplot to use 2 subplots
 multiplot.AddPlots(2);
